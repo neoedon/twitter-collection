@@ -753,6 +753,137 @@
 
     .modal-original-link:hover { color: var(--text-display); border-color: var(--text-display); }
 
+    /* === TAG PILLS === */
+    .tag-pill {
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 2px 6px;
+      border-radius: 3px;
+      white-space: nowrap;
+      display: inline-block;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 6px;
+    }
+
+    /* === TAG FILTER BAR === */
+    .tag-filter-row {
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+      flex-wrap: wrap;
+      margin-top: var(--space-md);
+    }
+
+    .tag-filter-row:empty { display: none; }
+
+    /* === MODAL TAG EDITOR === */
+    .modal-tags-section {
+      padding: var(--space-md) var(--space-lg) var(--space-lg);
+      border-top: 1px solid var(--border);
+    }
+
+    .modal-tags-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-disabled);
+      margin-bottom: var(--space-sm);
+    }
+
+    .modal-tags-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: var(--space-sm);
+    }
+
+    .modal-tag-pill {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 4px 8px;
+      border-radius: 4px;
+      white-space: nowrap;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: default;
+    }
+
+    .modal-tag-pill .tag-remove {
+      cursor: pointer;
+      opacity: 0.5;
+      font-size: 12px;
+      line-height: 1;
+      transition: opacity 150ms;
+    }
+
+    .modal-tag-pill .tag-remove:hover { opacity: 1; }
+
+    .modal-tag-input-wrap {
+      display: flex;
+      gap: var(--space-sm);
+      align-items: center;
+      margin-bottom: var(--space-sm);
+    }
+
+    .modal-tag-input {
+      flex: 1;
+      background: transparent;
+      border: 1px solid var(--border-visible);
+      border-radius: 6px;
+      color: var(--text-primary);
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      padding: 6px 10px;
+      outline: none;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      transition: border-color 200ms;
+    }
+
+    .modal-tag-input::placeholder {
+      color: var(--text-disabled);
+      text-transform: uppercase;
+    }
+
+    .modal-tag-input:focus { border-color: var(--text-secondary); }
+
+    .modal-tag-suggestions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+    .modal-tag-suggest {
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border: 1px dashed var(--border-visible);
+      border-radius: 4px;
+      color: var(--text-disabled);
+      background: transparent;
+      cursor: pointer;
+      transition: all 150ms;
+    }
+
+    .modal-tag-suggest:hover {
+      color: var(--text-primary);
+      border-color: var(--text-secondary);
+      border-style: solid;
+    }
+
     /* === CARD ANIMATION === */
     @keyframes cardIn {
       from { opacity: 0; transform: translateY(12px); }
@@ -790,6 +921,7 @@
         <button class="filter-tag" data-source="bookmark">★ SAVES</button>
       </div>
     </div>
+    <div class="tag-filter-row" id="tagFilterRow"></div>
   </header>
 
   <div class="drop-zone" id="dropZone">
@@ -840,15 +972,120 @@
 <script>
 const BATCH_SIZE = 40;
 const STORAGE_KEY = 'x_collection_tweets';
+const TAGS_KEY = 'x_collection_tags';
 
 let allTweets = [];
 let filteredTweets = [];
 let rendered = 0;
 let currentFilter = 'all';
 let currentSource = 'all';
+let currentTags = [];
 let searchQuery = '';
 let loading = false;
 let currentModalIndex = -1;
+
+// ── Tag system ──
+const TAG_RULES = [
+  { tag: 'Design',   keywords: ['design', 'ui', 'ux', 'figma', 'typography', 'layout', 'aesthetic', 'visual', 'interface', 'prototype'] },
+  { tag: 'AI',       keywords: ['ai', 'gpt', 'claude', 'llm', 'machine learning', 'neural', 'model', 'openai', 'anthropic', 'copilot', 'agent'] },
+  { tag: 'Code',     keywords: ['code', 'github', 'programming', 'javascript', 'python', 'react', 'api', 'developer', 'engineering', 'typescript', 'rust', 'swift'] },
+  { tag: 'Tool',     keywords: ['tool', 'app', 'plugin', 'extension', 'workflow', 'productivity', 'saas', 'cli', 'sdk'] },
+  { tag: 'Creative', keywords: ['animation', 'motion', 'generative', '3d', 'shader', 'webgl', 'canvas', 'creative coding', 'p5', 'threejs', 'blender'] },
+  { tag: 'Tutorial', keywords: ['tutorial', 'how to', 'guide', 'learn', 'course', 'tip', 'walkthrough', 'explained'] },
+];
+
+const TAG_COLORS = [
+  { bg: 'rgba(139,92,246,0.15)',  text: '#a78bfa' },
+  { bg: 'rgba(236,72,153,0.15)',  text: '#f472b6' },
+  { bg: 'rgba(34,211,238,0.15)',  text: '#22d3ee' },
+  { bg: 'rgba(251,191,36,0.15)',  text: '#fbbf24' },
+  { bg: 'rgba(74,222,128,0.15)',  text: '#4ade80' },
+  { bg: 'rgba(251,146,60,0.15)',  text: '#fb923c' },
+  { bg: 'rgba(129,140,248,0.15)', text: '#818cf8' },
+  { bg: 'rgba(244,114,182,0.15)', text: '#f472b6' },
+  { bg: 'rgba(45,212,191,0.15)',  text: '#2dd4bf' },
+  { bg: 'rgba(163,230,53,0.15)',  text: '#a3e635' },
+];
+
+function tagColor(tag) {
+  let hash = 0;
+  for (let i = 0; i < tag.length; i++) hash = ((hash << 5) - hash + tag.charCodeAt(i)) | 0;
+  return TAG_COLORS[Math.abs(hash) % TAG_COLORS.length];
+}
+
+function autoTagTweet(tweet) {
+  const text = (tweet['TweetText'] || '').toLowerCase();
+  const tags = [];
+  for (const rule of TAG_RULES) {
+    if (rule.keywords.some(kw => text.includes(kw))) tags.push(rule.tag);
+  }
+  return tags;
+}
+
+function suggestTags(tweet) {
+  const auto = autoTagTweet(tweet);
+  const current = tweet._tags || [];
+  return auto.filter(t => !current.includes(t));
+}
+
+function loadTagsMap() {
+  try {
+    const data = localStorage.getItem(TAGS_KEY);
+    return data ? JSON.parse(data) : {};
+  } catch { return {}; }
+}
+
+function saveTagsMap() {
+  const map = {};
+  for (const t of allTweets) {
+    if (t._tags && t._tags.length > 0) map[t.TweetID] = t._tags;
+  }
+  try { localStorage.setItem(TAGS_KEY, JSON.stringify(map)); } catch {}
+}
+
+function hydrateTags() {
+  const map = loadTagsMap();
+  for (const t of allTweets) {
+    if (map[t.TweetID]) {
+      t._tags = map[t.TweetID];
+    } else if (!t._tags || t._tags.length === 0) {
+      t._tags = autoTagTweet(t);
+    }
+  }
+}
+
+function getAllTags() {
+  const set = new Set();
+  for (const t of allTweets) {
+    if (t._tags) t._tags.forEach(tag => set.add(tag));
+  }
+  return [...set].sort();
+}
+
+function renderTagFilterRow() {
+  const row = document.getElementById('tagFilterRow');
+  const tags = getAllTags();
+  if (tags.length === 0) { row.innerHTML = ''; return; }
+  row.innerHTML = tags.map(tag => {
+    const active = currentTags.includes(tag) ? ' active' : '';
+    const c = tagColor(tag);
+    const style = active
+      ? `background:${c.bg};color:${c.text};border-color:${c.text}`
+      : '';
+    return `<button class="filter-tag${active}" data-tag="${escapeHTML(tag)}" style="${style}">${escapeHTML(tag)}</button>`;
+  }).join('');
+
+  row.querySelectorAll('.filter-tag').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tag = btn.dataset.tag;
+      const idx = currentTags.indexOf(tag);
+      if (idx >= 0) currentTags.splice(idx, 1);
+      else currentTags.push(tag);
+      renderTagFilterRow();
+      applyFilters();
+    });
+  });
+}
 
 // ── CSV Parser ──
 function parseCSV(text) {
@@ -1029,6 +1266,7 @@ function handleFiles(files) {
         tweets = importCSVText(text, source);
       }
 
+      tweets.forEach(t => { if (!t._tags || !t._tags.length) t._tags = autoTagTweet(t); });
       const { merged, added } = mergeTweets(allTweets, tweets);
       allTweets = merged;
       totalAdded += added;
@@ -1036,6 +1274,8 @@ function handleFiles(files) {
 
       if (processed === files.length) {
         saveToStorage();
+        saveTagsMap();
+        renderTagFilterRow();
         applyFilters();
         updateDataBar();
         showToast(`+${totalAdded} NEW TWEETS IMPORTED`);
@@ -1162,6 +1402,12 @@ function createCard(tweet, index) {
 
   const srcCls = tweet._source === 'bookmark' ? 'bookmark' : 'fav';
   const srcLbl = tweet._source === 'bookmark' ? '★ SAVE' : '♥ LIKE';
+  const tags = tweet._tags || [];
+  const tagPills = tags.map(t => {
+    const c = tagColor(t);
+    return `<span class="tag-pill" style="background:${c.bg};color:${c.text}">${escapeHTML(t)}</span>`;
+  }).join('');
+
   html += `<div class="card-footer">
     <div class="card-footer-meta">
       <span class="card-date">${date}</span>
@@ -1169,6 +1415,7 @@ function createCard(tweet, index) {
     </div>
     <button class="card-link" data-idx="${index}">VIEW →</button>
   </div>`;
+  if (tagPills) html += `<div class="card-tags">${tagPills}</div>`;
 
   html += `</div>`;
   card.innerHTML = html;
@@ -1194,6 +1441,11 @@ function applyFilters() {
     if (currentFilter === 'text' && !textOnly) return false;
     if (currentFilter === 'link' && !hasLink) return false;
     if (currentSource !== 'all' && t._source !== currentSource) return false;
+
+    if (currentTags.length > 0) {
+      const tweetTags = t._tags || [];
+      if (!currentTags.some(tag => tweetTags.includes(tag))) return false;
+    }
 
     if (q) {
       const text = (t['TweetText'] || '').toLowerCase();
@@ -1285,7 +1537,10 @@ function openModalAt(index) {
         ${tweetUrl ? `<a class="modal-original-link" href="${tweetUrl}" target="_blank" rel="noopener">OPEN ORIGINAL →</a>` : ''}
       </div>
     </div>
+    <div class="modal-tags-section" id="modalTagsSection"></div>
     ${mediaHTML}`;
+
+  renderModalTags(tweet);
 
   counter.textContent = `${index + 1} / ${filteredTweets.length}`;
 
@@ -1367,6 +1622,68 @@ function closeModal() {
   document.getElementById('modalBackdrop').classList.remove('open');
   document.body.style.overflow = '';
   currentModalIndex = -1;
+}
+
+function renderModalTags(tweet) {
+  const section = document.getElementById('modalTagsSection');
+  if (!section) return;
+  const tags = tweet._tags || [];
+  const suggestions = suggestTags(tweet);
+
+  const pillsHTML = tags.map(t => {
+    const c = tagColor(t);
+    return `<span class="modal-tag-pill" style="background:${c.bg};color:${c.text}" data-tag="${escapeHTML(t)}">${escapeHTML(t)}<span class="tag-remove">✕</span></span>`;
+  }).join('');
+
+  const suggestHTML = suggestions.map(t =>
+    `<button class="modal-tag-suggest" data-tag="${escapeHTML(t)}">+ ${escapeHTML(t)}</button>`
+  ).join('');
+
+  section.innerHTML = `
+    <div class="modal-tags-label">Tags</div>
+    <div class="modal-tags-list">${pillsHTML || '<span style="font-size:10px;color:var(--text-disabled);font-family:\'Space Mono\',monospace;letter-spacing:0.04em">NO TAGS</span>'}</div>
+    <div class="modal-tag-input-wrap">
+      <input class="modal-tag-input" id="modalTagInput" placeholder="Add tag..." maxlength="30">
+    </div>
+    ${suggestHTML ? `<div class="modal-tag-suggestions">${suggestHTML}</div>` : ''}`;
+
+  section.querySelectorAll('.tag-remove').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const tag = btn.parentElement.dataset.tag;
+      tweet._tags = (tweet._tags || []).filter(t => t !== tag);
+      saveTagsMap();
+      renderModalTags(tweet);
+      renderTagFilterRow();
+    });
+  });
+
+  section.querySelectorAll('.modal-tag-suggest').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tag = btn.dataset.tag;
+      if (!tweet._tags) tweet._tags = [];
+      if (!tweet._tags.includes(tag)) tweet._tags.push(tag);
+      saveTagsMap();
+      renderModalTags(tweet);
+      renderTagFilterRow();
+    });
+  });
+
+  const input = document.getElementById('modalTagInput');
+  input.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter') return;
+    const val = input.value.trim();
+    if (!val) return;
+    const tag = val.charAt(0).toUpperCase() + val.slice(1);
+    if (!tweet._tags) tweet._tags = [];
+    if (!tweet._tags.includes(tag)) {
+      tweet._tags.push(tag);
+      saveTagsMap();
+      renderModalTags(tweet);
+      renderTagFilterRow();
+    }
+    input.value = '';
+  });
 }
 
 function openLightbox(src) {
@@ -1462,7 +1779,10 @@ document.getElementById('btnExport').addEventListener('click', exportAllCSV);
 document.getElementById('btnClear').addEventListener('click', () => {
   if (!confirm('Clear all saved data?')) return;
   allTweets = [];
+  currentTags = [];
   clearStorage();
+  localStorage.removeItem(TAGS_KEY);
+  renderTagFilterRow();
   applyFilters();
   updateDataBar();
   showToast('ALL DATA CLEARED');
@@ -1501,6 +1821,10 @@ document.body.addEventListener('drop', (e) => {
       if (added > 0) saveToStorage();
     }
   } catch (e) { /* CSV files not available, that's fine */ }
+
+  hydrateTags();
+  saveTagsMap();
+  renderTagFilterRow();
 
   document.getElementById('countDisplay').textContent = allTweets.length;
   filteredTweets = allTweets;
