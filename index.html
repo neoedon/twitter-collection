@@ -640,6 +640,37 @@
       width: 100%; display: block; max-height: 480px; background: var(--black); outline: none;
     }
 
+    .video-fallback {
+      position: relative; display: block; cursor: pointer;
+      max-height: 480px; overflow: hidden;
+    }
+    .video-fallback img {
+      width: 100%; display: block; object-fit: contain; max-height: 480px;
+      background: var(--black);
+    }
+    .video-fallback .play-overlay {
+      position: absolute; inset: 0; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 8px;
+      background: rgba(0,0,0,0.45); transition: background 0.2s;
+    }
+    .video-fallback:hover .play-overlay { background: rgba(0,0,0,0.3); }
+    .video-fallback .play-icon {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: rgba(255,255,255,0.9); display: flex;
+      align-items: center; justify-content: center;
+    }
+    .video-fallback .play-icon::after {
+      content: ''; display: block; width: 0; height: 0;
+      border-style: solid; border-width: 10px 0 10px 18px;
+      border-color: transparent transparent transparent var(--black);
+      margin-left: 3px;
+    }
+    .video-fallback .play-label {
+      font-family: 'Space Mono', monospace; font-size: 10px;
+      letter-spacing: 0.1em; text-transform: uppercase;
+      color: rgba(255,255,255,0.85);
+    }
+
     .modal-media-gallery {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -1295,9 +1326,32 @@ function openModalAt(index) {
 
   if (mediaType === 'video' && videoUrl) {
     const modal = document.getElementById('modal');
-    const w = document.createElement('div');
-    w.innerHTML = `<video id="modalVideo" controls playsinline muted autoplay loop preload="auto"${imageUrls[0] ? ` poster="${imageUrls[0]}"` : ''}><source src="${videoUrl}"></video>`;
-    modal.appendChild(w.firstElementChild);
+    const video = document.createElement('video');
+    video.id = 'modalVideo';
+    video.controls = true;
+    video.playsInline = true;
+    video.muted = true;
+    video.autoplay = true;
+    video.loop = true;
+    video.preload = 'auto';
+    if (imageUrls[0]) video.poster = imageUrls[0];
+    video.innerHTML = `<source src="${videoUrl}" type="video/mp4">`;
+    video.addEventListener('error', function onVideoError() {
+      video.removeEventListener('error', onVideoError);
+      video.remove();
+      const fallbackUrl = tweetUrl || `https://twitter.com/i/status/${tweet.TweetID}`;
+      const fb = document.createElement('a');
+      fb.className = 'video-fallback';
+      fb.href = fallbackUrl;
+      fb.target = '_blank';
+      fb.rel = 'noopener';
+      fb.id = 'modalVideo';
+      fb.innerHTML = `${imageUrls[0] ? `<img src="${imageUrls[0]}" alt="">` : ''}
+        <div class="play-overlay"><div class="play-icon"></div>
+        <span class="play-label">Play on Twitter</span></div>`;
+      modal.appendChild(fb);
+    }, true);
+    modal.appendChild(video);
   } else if (imageUrls.length === 1) {
     const modal = document.getElementById('modal');
     const img = document.createElement('img');
@@ -1317,8 +1371,8 @@ function openModalAt(index) {
   backdrop.classList.add('open');
   document.body.style.overflow = 'hidden';
 
-  const video = document.getElementById('modalVideo');
-  if (video) { video.muted = true; video.play().catch(() => {}); }
+  const modalVid = document.getElementById('modalVideo');
+  if (modalVid && modalVid.tagName === 'VIDEO') { modalVid.muted = true; modalVid.play().catch(() => {}); }
   document.getElementById('modal').scrollTop = 0;
 }
 
@@ -1328,8 +1382,10 @@ function navigateModal(dir) {
 }
 
 function stopModalVideo() {
-  const video = document.getElementById('modalVideo');
-  if (video) { video.pause(); video.removeAttribute('src'); video.load(); video.remove(); }
+  const el = document.getElementById('modalVideo');
+  if (!el) return;
+  if (el.tagName === 'VIDEO') { el.pause(); el.removeAttribute('src'); el.load(); }
+  el.remove();
 }
 
 function closeModal() {
