@@ -1448,19 +1448,24 @@ document.body.addEventListener('drop', (e) => {
   if (files.length > 0) handleFiles(files);
 });
 
-// ── Init: load from localStorage, then overlay CSV files from same directory ──
+// ── Init: load from localStorage, then load all CSV files listed in csv-list.json ──
 (async function init() {
   allTweets = loadFromStorage();
 
   try {
-    const [favText, bookText] = await Promise.all([
-      fetch('Twitter Favourites.csv').then(r => r.ok ? r.text() : '').catch(() => ''),
-      fetch('Twitter Bookmarks.csv').then(r => r.ok ? r.text() : '').catch(() => '')
-    ]);
+    const listResp = await fetch('csv-list.json');
+    const csvFiles = listResp.ok ? await listResp.json() : [];
 
-    const favs = importCSVText(favText, 'favourite');
-    const books = importCSVText(bookText, 'bookmark');
-    const csvTweets = [...favs, ...books];
+    const texts = await Promise.all(
+      csvFiles.map(name =>
+        fetch(name).then(r => r.ok ? r.text() : '').catch(() => '')
+      )
+    );
+
+    const csvTweets = texts.flatMap((text, i) => {
+      const source = guessSource(csvFiles[i]);
+      return importCSVText(text, source);
+    });
 
     if (csvTweets.length > 0) {
       const { merged, added } = mergeTweets(allTweets, csvTweets);
