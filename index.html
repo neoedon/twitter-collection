@@ -275,10 +275,6 @@
       border-color: var(--text-display);
     }
 
-    .data-btn.danger:hover {
-      color: var(--accent);
-      border-color: var(--accent);
-    }
 
     /* === TOAST === */
     .toast {
@@ -940,7 +936,6 @@
     </div>
     <div class="data-actions">
       <button class="data-btn" id="btnExport">↓ EXPORT CSV</button>
-      <button class="data-btn danger" id="btnClear">CLEAR</button>
     </div>
   </div>
 
@@ -1776,17 +1771,6 @@ fileInput.addEventListener('change', () => {
 
 // ── Data management buttons ──
 document.getElementById('btnExport').addEventListener('click', exportAllCSV);
-document.getElementById('btnClear').addEventListener('click', () => {
-  if (!confirm('Clear all saved data?')) return;
-  allTweets = [];
-  currentTags = [];
-  clearStorage();
-  localStorage.removeItem(TAGS_KEY);
-  renderTagFilterRow();
-  applyFilters();
-  updateDataBar();
-  showToast('ALL DATA CLEARED');
-});
 
 // ── Full-page drag support ──
 document.body.addEventListener('dragover', (e) => { e.preventDefault(); });
