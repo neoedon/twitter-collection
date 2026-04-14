@@ -1164,6 +1164,26 @@ function normalizeTweet(raw) {
     out['Tweet Url'] = `https://twitter.com/${out.UserScreenName}/status/${out.TweetID}`;
   }
 
+  // twitter-web-exporter: parse the `media` JSON column for MediaType/Image/Video
+  if ((!out.MediaType || !out.MediaImageUrl) && raw.media && raw.media !== '[]') {
+    try {
+      const mediaArr = typeof raw.media === 'string' ? JSON.parse(raw.media) : raw.media;
+      if (Array.isArray(mediaArr) && mediaArr.length > 0) {
+        const photos = mediaArr.filter(m => m.type === 'photo');
+        const videos = mediaArr.filter(m => m.type === 'video' || m.type === 'animated_gif');
+
+        if (videos.length > 0) {
+          out.MediaType = 'video';
+          out.MediaImageUrl = videos[0].thumbnail || videos[0].original || '';
+          out.MediaVideoUrl = videos[0].original || '';
+        } else if (photos.length > 0) {
+          out.MediaType = 'photo';
+          out.MediaImageUrl = photos.map(p => p.original || p.url || '').join(',');
+        }
+      }
+    } catch (e) { /* not valid JSON, skip */ }
+  }
+
   if (out.HasLink === '') {
     const text = out.TweetText || '';
     const hasTcoLink = /https?:\/\/t\.co\/\S+/.test(text);
@@ -1175,8 +1195,8 @@ function normalizeTweet(raw) {
 
 function guessSource(filename) {
   const lower = (filename || '').toLowerCase();
-  if (lower.includes('bookmark') || lower.includes('save')) return 'bookmark';
-  if (lower.includes('like') || lower.includes('fav')) return 'favourite';
+  if (lower.includes('bookmark') || lower.includes('save') || lower.includes('书签')) return 'bookmark';
+  if (lower.includes('like') || lower.includes('fav') || lower.includes('喜欢') || lower.includes('赞')) return 'favourite';
   return 'favourite';
 }
 
