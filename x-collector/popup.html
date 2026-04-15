@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Doto:wght@700&family=Space+Grotesk:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap');
+
+    :root {
+      --black: #000;
+      --surface: #111;
+      --surface-raised: #1a1a1a;
+      --border: #222;
+      --border-visible: #333;
+      --text-disabled: #666;
+      --text-secondary: #999;
+      --text-primary: #e8e8e8;
+      --text-display: #fff;
+      --accent: #D71921;
+      --accent-subtle: rgba(215,25,33,0.15);
+      --interactive: #5B9BF6;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      width: 340px;
+      background: var(--black);
+      color: var(--text-primary);
+      font-family: 'Space Grotesk', system-ui, sans-serif;
+      font-size: 13px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container { padding: 20px; }
+
+    .header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .title {
+      font-family: 'Doto', monospace;
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-display);
+      letter-spacing: -0.02em;
+    }
+
+    .status {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--border-visible);
+    }
+
+    .status.active { color: #4ade80; border-color: rgba(74,222,128,0.3); }
+    .status.idle { color: var(--text-disabled); }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .stat {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 12px 10px;
+      text-align: center;
+    }
+
+    .stat-value {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 22px;
+      font-weight: 300;
+      color: var(--text-display);
+      line-height: 1.2;
+    }
+
+    .stat-label {
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-disabled);
+      margin-top: 2px;
+    }
+
+    .last-sync {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      color: var(--text-disabled);
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .actions {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 10px 16px;
+      border: 1px solid var(--border-visible);
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: all 150ms ease-out;
+    }
+
+    button:hover {
+      color: var(--text-display);
+      border-color: var(--text-display);
+    }
+
+    button:active { transform: scale(0.98); }
+
+    button.primary {
+      color: var(--text-display);
+      border-color: var(--text-secondary);
+    }
+
+    button.danger {
+      color: var(--accent);
+      border-color: rgba(215,25,33,0.3);
+    }
+
+    button.danger:hover {
+      border-color: var(--accent);
+    }
+
+    .export-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .instructions {
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+    }
+
+    .inst-title {
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .instructions ol {
+      padding-left: 18px;
+      color: var(--text-disabled);
+      font-size: 12px;
+      line-height: 1.8;
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 12px;
+      left: 12px;
+      right: 12px;
+      background: var(--surface-raised);
+      border: 1px solid var(--border-visible);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-primary);
+      text-align: center;
+      opacity: 0;
+      transform: translateY(8px);
+      transition: all 200ms ease-out;
+      pointer-events: none;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="title">X COLLECTOR</div>
+      <div class="status idle" id="status">IDLE</div>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat">
+        <div class="stat-value" id="likesCount">0</div>
+        <div class="stat-label">Likes</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="bookmarksCount">0</div>
+        <div class="stat-label">Saves</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value" id="totalCount">0</div>
+        <div class="stat-label">Total</div>
+      </div>
+    </div>
+
+    <div class="last-sync" id="lastSync">NEVER SYNCED</div>
+
+    <div class="actions">
+      <div class="export-row">
+        <button id="exportLikes">♥ Export Likes</button>
+        <button id="exportBookmarks">★ Export Saves</button>
+      </div>
+      <button class="primary" id="exportAll">↓ Export All</button>
+      <button class="danger" id="clearData">Clear Data</button>
+    </div>
+
+    <div class="instructions">
+      <div class="inst-title">How to use</div>
+      <ol>
+        <li>在 x.com 登录你的账号</li>
+        <li>访问 Likes 或 Bookmarks 页面</li>
+        <li>滚动页面，扩展自动抓取数据</li>
+        <li>点击 Export 下载 CSV 文件</li>
+        <li>将 CSV 放入项目文件夹即可</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+<script>
+const STORAGE_KEY = 'x_collector_tweets';
+const CSV_HEADERS = ['TweetID','TwitterUserID','UserScreenName','UserProfileName','UserProfilePic','TweetText','Tweet Url','TweetCreatedDate','MediaType','MediaImageUrl','MediaVideoUrl','SystemCreatedDate','HasLink'];
+
+async function loadStats() {
+  const data = await chrome.storage.local.get(STORAGE_KEY);
+  const stored = data[STORAGE_KEY] || {};
+  const tweets = Object.values(stored);
+
+  const likes = tweets.filter(t => t._source === 'favourite');
+  const bookmarks = tweets.filter(t => t._source === 'bookmark');
+
+  document.getElementById('likesCount').textContent = likes.length;
+  document.getElementById('bookmarksCount').textContent = bookmarks.length;
+  document.getElementById('totalCount').textContent = tweets.length;
+
+  if (tweets.length > 0) {
+    const lastTs = Math.max(...tweets.map(t => t._ts || 0));
+    if (lastTs > 0) {
+      const d = new Date(lastTs);
+      document.getElementById('lastSync').textContent =
+        `LAST SYNC · ${d.getMonth() + 1}/${d.getDate()} ${d.getHours().toString().padStart(2, '0')}:${d.getMinutes().toString().padStart(2, '0')}`;
+    }
+  }
+}
+
+function escapeCSV(val) {
+  const str = String(val || '');
+  if (str.includes(',') || str.includes('"') || str.includes('\n') || str.includes('\r')) {
+    return '"' + str.replace(/"/g, '""') + '"';
+  }
+  return str;
+}
+
+async function exportCSV(source) {
+  const data = await chrome.storage.local.get(STORAGE_KEY);
+  const stored = data[STORAGE_KEY] || {};
+
+  let tweets = Object.values(stored);
+  if (source && source !== 'all') {
+    tweets = tweets.filter(t => t._source === source);
+  }
+
+  if (tweets.length === 0) {
+    showToast('NO DATA TO EXPORT');
+    return;
+  }
+
+  tweets.sort((a, b) => new Date(b.TweetCreatedDate) - new Date(a.TweetCreatedDate));
+
+  const rows = [CSV_HEADERS.join(',')];
+  for (const t of tweets) {
+    rows.push(CSV_HEADERS.map(h => escapeCSV(t[h])).join(','));
+  }
+
+  const csv = rows.join('\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8' });
+  const url = URL.createObjectURL(blob);
+
+  const filename = source === 'bookmark' ? 'Twitter Bookmarks.csv'
+    : source === 'favourite' ? 'Twitter Favourites.csv'
+    : 'Twitter Collection.csv';
+
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
+
+  showToast(`EXPORTED ${tweets.length} TWEETS`);
+}
+
+async function clearData() {
+  if (!confirm('Clear all collected data?')) return;
+  await chrome.storage.local.remove(STORAGE_KEY);
+  chrome.action.setBadgeText({ text: '' });
+  loadStats();
+  showToast('DATA CLEARED');
+}
+
+function showToast(msg) {
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('show');
+  setTimeout(() => el.classList.remove('show'), 2000);
+}
+
+document.getElementById('exportLikes').addEventListener('click', () => exportCSV('favourite'));
+document.getElementById('exportBookmarks').addEventListener('click', () => exportCSV('bookmark'));
+document.getElementById('exportAll').addEventListener('click', () => exportCSV('all'));
+document.getElementById('clearData').addEventListener('click', clearData);
+
+chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+  const url = tabs[0]?.url || '';
+  const statusEl = document.getElementById('status');
+  if (url.includes('x.com') || url.includes('twitter.com')) {
+    statusEl.textContent = 'ACTIVE';
+    statusEl.className = 'status active';
+  }
+});
+
+loadStats();
+
+chrome.storage.onChanged.addListener((changes) => {
+  if (changes[STORAGE_KEY]) loadStats();
+});
+</script>
+</body>
+</html>
