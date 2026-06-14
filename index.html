@@ -1352,8 +1352,19 @@ function updateDataBar() {
   document.getElementById('statTotal').textContent = allTweets.length;
 }
 
+// Convert literal escaped newlines (backslash-n / backslash-r) from CSV into real newlines
+function normalizeNewlines(text) {
+  return text
+    .replace(/\\r\\n|\\n|\\r/g, '\n')
+    .replace(/\n{3,}/g, '\n\n');
+}
+
 function cleanText(text) {
-  return text.replace(/https?:\/\/t\.co\/\S+/g, '').replace(/\s+/g, ' ').trim();
+  return text
+    .replace(/\\r\\n|\\n|\\r/g, ' ')
+    .replace(/https?:\/\/t\.co\/\S+/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 function formatDate(dateStr) {
@@ -1598,7 +1609,7 @@ function openModalAt(index) {
     </div>`;
   }
 
-  const linkedText = linkifyText(escapeHTML(fullText));
+  const linkedText = linkifyText(escapeHTML(normalizeNewlines(fullText))).replace(/\n/g, '<br>');
 
   content.innerHTML = `
     <div class="modal-body">
