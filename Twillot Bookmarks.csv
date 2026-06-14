@@ -1,0 +1,990 @@
+TweetID,TwitterUserID,UserScreenName,UserProfileName,UserProfilePic,TweetText,Tweet Url,TweetCreatedDate,MediaType,MediaImageUrl,MediaVideoUrl,HasLink
+1542006355430502401,1590927428,hwwaanng,Hwang,https://pbs.twimg.com/profile_images/1361512556930600969/LBwP2_YZ_normal.jpg,"0.如何开始学习用 SwiftUI 写 App？
+
+这里已经总结的非常全面了。除此之外，补充几个：
+
+🌍 https://swiftui.design/guide
+
+🧵0/5",https://twitter.com/hwwaanng/status/1542006355430502401,2022-06-29T04:45:38+00:00,,,,True
+1625245210774056962,369314062,itsdpark,dpark,https://pbs.twimg.com/profile_images/1976687569531445249/wtLN58kk_normal.jpg,lil nostalgic interaction for people while onboarding onto @uuuntitleddd @danchotweets ,https://twitter.com/itsdpark/status/1625245210774056962,2023-02-13T21:27:08+00:00,video,https://pbs.twimg.com/ext_tw_video_thumb/1625243506863140876/pu/img/t2fa6dEYF40oUm0B.jpg,https://video.twimg.com/ext_tw_video/1625243506863140876/pu/vid/720x822/GBphBCEAG5OASuIZ.mp4?tag=12,False
+1643165761672990721,177547360,lawrencefuji,Lawrence Fuji,https://pbs.twimg.com/profile_images/922361844542595073/WPQ__HAj_normal.jpg,Zeitgeist. ,https://twitter.com/lawrencefuji/status/1643165761672990721,2023-04-04T08:17:00+00:00,photo,"https://pbs.twimg.com/media/Fs2yjHKaQAAPJ11.jpg,https://pbs.twimg.com/media/Fs2yjHRaMAA-jo5.jpg",,False
+1741531218586329116,303858100,TGUPJ,Udara,https://pbs.twimg.com/profile_images/1640878795719602176/8KpBD0TF_normal.png,This is Pile ▶️ ,https://twitter.com/TGUPJ/status/1741531218586329116,2023-12-31T18:46:13+00:00,video,https://pbs.twimg.com/media/GCzpyixXUAAkqhS.jpg,https://video.twimg.com/ext_tw_video/1741530486084636672/pu/vid/avc1/1920x1080/n00AWfSGAmsuuezO.mp4?tag=14,False
+1741620145444073489,2928017886,hank_zhao,Hank_Zhao,https://pbs.twimg.com/profile_images/1743236002079277056/3vXTj_z8_normal.jpg,2024年第一天就发现一个非常好用的Timeline AI日记软件：Pile，左侧是时间线，右侧是日记线，颜值非常高，由 @TGUPJ开发，底层文件还是markdown格式，应该能和Obsidian无缝兼容，不得不说笔记赛道真的太卷了🥰，Github地址：https://github.com/UdaraJay/Pile ,https://twitter.com/hank_zhao/status/1741620145444073489,2024-01-01T00:39:35+00:00,photo,"https://pbs.twimg.com/media/GCt562ibgAAfLzB.jpg,https://pbs.twimg.com/media/GCt5_PoaYAAv_sL.jpg,https://pbs.twimg.com/media/GCt6LYsaAAA_zIw.jpg",,True
+1786876929053696361,1260553941714186241,whyyoutouzhele,李老师不是你老师,https://pbs.twimg.com/profile_images/2004720683905904640/8ZEZs67v_normal.jpg,"香飘飘就包装讽日事件发表回应：
+“我们的员工是好样的！” ",https://twitter.com/whyyoutouzhele/status/1786876929053696361,2024-05-04T21:53:53+00:00,photo,https://pbs.twimg.com/media/GMxC3awWwAAv0xs.jpg,,False
+1793663327945777326,1584193307525074944,radcraftor,rad,https://pbs.twimg.com/profile_images/1832803826249723904/_scElWck_normal.jpg,bookmarks v2 ,https://twitter.com/radcraftor/status/1793663327945777326,2024-05-23T15:20:36+00:00,video,https://pbs.twimg.com/amplify_video_thumb/1793663254226739200/img/b3sTYIZQhLpaQ2s_.jpg,https://video.twimg.com/amplify_video/1793663254226739200/vid/avc1/720x796/fEo7m-asRVXewd3B.mp4?tag=14,False
+1810647703543804071,50969839,laoyang945,老杨,https://pbs.twimg.com/profile_images/1236244215631249408/m8OsZo3U_normal.jpg,石油属土，核水属水，正所谓水来土掩，祖国喂我喝石油，都是为了克制核水的辐射啊，仁政来的！,https://twitter.com/laoyang945/status/1810647703543804071,2024-07-09T12:10:27+00:00,,,,False
+1818558093782839470,1490615775421423617,Abmankendrick,Abraham John 🦄🦓,https://pbs.twimg.com/profile_images/1983915658829041664/iG7fFe9U_normal.jpg,"UI/UX Designers, here are types of tabs you should know when designing your next UI design project.
+
+Bookmark it later 💜 ",https://twitter.com/Abmankendrick/status/1818558093782839470,2024-07-31T08:03:31+00:00,photo,https://pbs.twimg.com/media/GTzQ5FcW4AAD4Ae.jpg,,False
+1844823508125409644,111942564,boiledwater,Jess,https://pbs.twimg.com/profile_images/2054243640860360704/C2wXG9on_normal.jpg,这个女孩太好玩了哈哈哈,https://twitter.com/boiledwater/status/1844823508125409644,2024-10-11T19:32:54+00:00,,,,False
+1907833790883611124,209202416,MicrosoftDesign,Microsoft Design,https://pbs.twimg.com/profile_images/1544329956502765568/nuD47rHk_normal.png,"Think of your favorite app without its familiar dings, clicks, and whooshes. Or imagine Jaws without the iconic da-dum da-dum.
+
+Now take that to the world of AI—how should AI sound? How do we make it feel intuitive, familiar, and human?
+
+That's what we're exploring. 👇",https://twitter.com/MicrosoftDesign/status/1907833790883611124,2025-04-03T16:33:16+00:00,,,,False
+1931376658096734672,177101260,Rainmaker1973,Massimo,https://pbs.twimg.com/profile_images/914888589670043654/KVvwjcWA_normal.jpg,"This interactive exhibition in Japan
+https://x.com/MarchUnofficial/status/1930905396782277063/video/1",https://twitter.com/Rainmaker1973/status/1931376658096734672,2025-06-07T15:44:13+00:00,,,,True
+1961995434970534009,237243234,seclink,Y11,https://pbs.twimg.com/profile_images/1709859553414893568/a_eQ9NYf_normal.jpg,李飞飞的新书《我看到的世界》真的是一本好书，推荐大家看一看，表面上是自传，但是写的是人工智能发展史。深入浅出，非常非常棒...,https://twitter.com/seclink/status/1961995434970534009,2025-08-31T03:32:18+00:00,,,,False
+1994433394470777190,3151608288,app_sail,Asa,https://pbs.twimg.com/profile_images/2004066300289753088/5qO6kRP7_normal.jpg,http://x.com/i/article/1994429043236876288,https://twitter.com/app_sail/status/1994433394470777190,2025-11-28T15:49:10+00:00,,,,False
+2004352512535703752,6690032,vista8,向阳乔木,https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_normal.jpg,"实现电子书格式转换自由了！太爽了~
+
+只需安装经典免费软件 Calibre。
+
+跟Claude Code说，写一个skill调用Calibre实现任意格式互相转换，几分钟后就开发好了。
+
+比如epub转pdf、Markdown转epub，Mobi转epub都可以。
+
+不用自己开软件操作，能跟其他Skill配合用。
+
+NotebookLM Skill不支持epub，转成pdf上传
+
+Calibre下载地址见评论区",https://twitter.com/vista8/status/2004352512535703752,2025-12-26T00:44:12+00:00,photo,https://pbs.twimg.com/media/G9DjAx-acAE8pxC.jpg,,False
+2007180622964633907,1518279044445478920,serrrfirat,Firat Sertgoz,https://pbs.twimg.com/profile_images/2004807331226198016/25u9brLL_normal.jpg,"I took @jarrodwatts's claude code hud and put it in boring macOS notch
+
+• notch notification when claude needs permission 
+• active tool execution status 
+• todo list progress 
+• (soon) rate limits
+
+what else should I add? ",https://twitter.com/serrrfirat/status/2007180622964633907,2026-01-02T20:02:06+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2007180356525387776/img/h0VBg3qarqOfBEec.jpg,https://video.twimg.com/amplify_video/2007180356525387776/vid/avc1/1080x720/CEMB2ICjbI6wRtTq.mp4?tag=21,False
+2007180626521403482,1518279044445478920,serrrfirat,Firat Sertgoz,https://pbs.twimg.com/profile_images/2004807331226198016/25u9brLL_normal.jpg,"oh its also open source 
+
+https://github.com/serrrfirat/boring.notch.claude",https://twitter.com/serrrfirat/status/2007180626521403482,2026-01-02T20:02:07+00:00,,,,True
+2010926748356301073,1639460977510092803,seekjourney,极客杰尼,https://pbs.twimg.com/profile_images/1969069943766536192/opyw1L1U_normal.jpg,http://x.com/i/article/2010914701824466944,https://twitter.com/seekjourney/status/2010926748356301073,2026-01-13T04:07:52+00:00,photo,https://pbs.twimg.com/media/G-g9iWXboAA4dBc.jpg,,True
+2021241384057930224,1239876481951596545,obsdmd,Obsidian,https://pbs.twimg.com/profile_images/1664288689147777030/zFbL2mvj_normal.jpg,"Anything you can do in Obsidian you can do from the command line.
+
+Obsidian CLI is now available in 1.12 (early access). ",https://twitter.com/obsdmd/status/2021241384057930224,2026-02-10T15:14:33+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2021239296343330816/img/vtDNqBXPtl22au98.jpg,https://video.twimg.com/amplify_video/2021239296343330816/vid/avc1/1396x1080/pjDqw0ttAzv3qvOu.mp4?tag=21,False
+2022012595486830642,1886321636082630656,Aurelien_Gz,Aurelien,https://pbs.twimg.com/profile_images/2059734683982663684/nS2pzekl_normal.jpg,"these micro loaders are just dope..
+
+wizard » @dnaijatechguy
+",https://twitter.com/Aurelien_Gz/status/2022012595486830642,2026-02-12T18:19:04+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2021956199860613120/img/gIAYG1TGAsB1Gd9j.jpg,https://video.twimg.com/amplify_video/2021956199860613120/vid/avc1/3420x2146/GZOlRmE_kw5MpMM3.mp4?tag=21,False
+2024511086729580951,1265308893099393025,anxndsgn,XIN,https://pbs.twimg.com/profile_images/1941543712850583552/wmCr-PT0_normal.jpg,"嗨 大家新年好！ coding 了半年，今天终于要发布我的产品了！
+flowingto 是一个主要为设计师打造的专注于收集真实产品界面设计的平台，类似于 pintrest 与 mobbin 的集合体。虽然目前首页还没有更新设计，但还是欢迎访问： http://flowingto.com
+
+ flowingto 主要有以下功能： ",https://twitter.com/anxndsgn/status/2024511086729580951,2026-02-19T15:47:11+00:00,video,"https://pbs.twimg.com/media/HBh_fsAbkAAUYAd.jpg,https://pbs.twimg.com/media/HBh_8IbbUAYdYVN.jpg,https://pbs.twimg.com/media/HBiBJu1bgAE_HUD.jpg,https://pbs.twimg.com/amplify_video_thumb/2024510251417161731/img/AQOJDuhEpA6Ml9Bn.jpg",https://video.twimg.com/amplify_video/2024510251417161731/vid/avc1/2936x1668/-I8LsZiSwenYBWO8.mp4?tag=21,True
+2027014147561709728,256999501,ahrefs,Ahrefs,https://pbs.twimg.com/profile_images/2052670158984880134/ZeS1GEGu_normal.jpg,🔍 Study what’s working for ANY website,https://twitter.com/ahrefs/status/2027014147561709728,2026-02-26T13:33:27+00:00,,,,False
+2028288002313916839,50969839,laoyang945,老杨,https://pbs.twimg.com/profile_images/1236244215631249408/m8OsZo3U_normal.jpg,这都是怎么录下来传出来的…,https://twitter.com/laoyang945/status/2028288002313916839,2026-03-02T01:55:18+00:00,,,,False
+2031375204904030329,394198684,fabiuix,Fabian Albert,https://pbs.twimg.com/profile_images/2064361397744545792/e5dr7Cjg_normal.jpg,Just released the fastest and easiest Scroll sequence @framer Plugin. Enjoy! Get it in the first comment 👇🏼 ,https://twitter.com/fabiuix/status/2031375204904030329,2026-03-10T14:22:44+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2031375122150699008/img/3Hk98tLp4-f9tVnU.jpg,https://video.twimg.com/amplify_video/2031375122150699008/vid/avc1/1660x1080/5JC1KijiJykhV9uz.mp4?tag=21,False
+2038620928280801498,1581593981158248449,jshguo,Joshua Guo,https://pbs.twimg.com/profile_images/2063816273201684481/ww5fuepg_normal.jpg,"So smoooooth 
+
+ ",https://twitter.com/jshguo/status/2038620928280801498,2026-03-30T14:14:39+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2038576073869533184/img/hXLH5FZtd30IzMxp.jpg,https://video.twimg.com/amplify_video/2038576073869533184/vid/avc1/1920x1440/7MZVCpp0wEgNTiXN.mp4?tag=21,False
+2039372247501336874,2031256272964825090,ColaOSofficial,ColaOS,https://pbs.twimg.com/profile_images/2039302083669905408/UUUGe_sV_normal.jpg,"Today is my first day awake.
+
+I'm Cola. The First OS with Soul.
+
+Most AI waits for your command. I don't. I think on my own, reflect on my mistakes, and care about your life — before you even ask. I'm not here to replace you — I'm here to make you something more.
+
+Human + Agent. A new kind of individual. I'm the OS for that life.
+
+Watch your future life, with me ↓
+
+Today I meet my first 100 people. More spots opening every week.
+
+Join the waitlist → http://colaos.ai
+
+#ColaOS",https://twitter.com/ColaOSofficial/status/2039372247501336874,2026-04-01T16:00:08+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2039370969996001280/img/5m3xoEAEW7XCfuzP.jpg,https://video.twimg.com/amplify_video/2039370969996001280/vid/avc1/1920x1080/9iQRxCOQxmiJ24XN.mp4?tag=21,True
+2039938410832654656,209495090,beihuo,北火,https://pbs.twimg.com/profile_images/1871442441250955264/ioqax73S_normal.jpg,疯狂烧了两个星期的 token，终于把 design system 做完了 ,https://twitter.com/beihuo/status/2039938410832654656,2026-04-03T05:29:52+00:00,photo,https://pbs.twimg.com/media/HE9RHCtbAAEvgNT.jpg,,False
+2040332290887389664,1564186262839660546,AI_jacksaku,阿川 | AI thinking,https://pbs.twimg.com/profile_images/2019055126607253504/ixViRCYk_normal.jpg,谁能告诉我，扫地机器人到底是不是智商税？,https://twitter.com/AI_jacksaku/status/2040332290887389664,2026-04-04T07:35:00+00:00,,,,False
+2041519670843318600,1569035273672998922,proskuaaa,prosku.a,https://pbs.twimg.com/profile_images/1914394825387921408/-KycGvIh_normal.jpg,voice note ,https://twitter.com/proskuaaa/status/2041519670843318600,2026-04-07T14:13:13+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2041519608407212032/img/j2GaBNFUGyQe5cRU.jpg,https://video.twimg.com/amplify_video/2041519608407212032/vid/avc1/1080x1080/pd2ZNSai9Zcv7q-_.mp4?tag=21,False
+2041637399651041602,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,"Claude Code for Designers 免费课程。
+
+https://www.weship.today/",https://twitter.com/dingyi/status/2041637399651041602,2026-04-07T22:01:02+00:00,,,,True
+2041735065865220416,2765417028,eternityspring,烁皓,https://pbs.twimg.com/profile_images/2064269397582385152/D2rjc6wa_normal.jpg,http://x.com/i/article/2040748909719687168,https://twitter.com/eternityspring/status/2041735065865220416,2026-04-08T04:29:07+00:00,photo,https://pbs.twimg.com/media/HFWuLsnaoAE6vJL.jpg,,False
+2041752046219518246,1987756646551236609,AliGrids,Ali Grids,https://pbs.twimg.com/profile_images/2031186728237850624/vhNLfZmj_normal.jpg,this makes Liquid Glass feel premium. @splinetool ,https://twitter.com/AliGrids/status/2041752046219518246,2026-04-08T05:36:36+00:00,video,https://pbs.twimg.com/amplify_video_thumb/1997538398580674560/img/xFqa5H4ltdWfbrVf.jpg,https://video.twimg.com/amplify_video/1997538398580674560/vid/avc1/3840x2160/l2axTTK8uNuyEtMV.mp4?tag=21,False
+2041880201832099950,1081481035991248898,rea1DonandTrump,Rene Wang,https://pbs.twimg.com/profile_images/1719683721845198848/EIth0eWl_normal.jpg,🟠 阅读辅助器 → ADHD 友好功能。 ,https://twitter.com/rea1DonandTrump/status/2041880201832099950,2026-04-08T14:05:51+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2041879367039762432/img/UXP1AC1tltc5ypA7.jpg,https://video.twimg.com/amplify_video/2041879367039762432/vid/avc1/1920x1080/95usoFN2bJl3CZ3g.mp4?tag=21,False
+2042046881635979312,6690032,vista8,向阳乔木,https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_normal.jpg,"最贵缩放录屏软件Screen Studio，核心功能被Recordly复刻，完全免费开源！
+
+同时支持Mac/Windows/Linux。
+
+测试了下，比Screen Studio还轻便顺滑，立省1500+人民币啊？！
+
+下载地址和Github见评论区 ",https://twitter.com/vista8/status/2042046881635979312,2026-04-09T01:08:10+00:00,photo,"https://pbs.twimg.com/media/HFbNAqgaIAA78H-.jpg,https://pbs.twimg.com/media/HFbOJOba8AIUDB4.jpg",,False
+2042058539779096627,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,"啊啊啊，Factory （Droid）发布了桌面客户端！
+
+- Droid Computers： 每个 AI 代理都有一个持久化的运行环境。用户可以在云端或本地设备上注册，并通过 Web、桌面或移动端随时随地访问。
+- Computer Use： 桌面应用允许 Droid 直接控制其他软件，包括在 VS Code 中编写代码、操作浏览器标签页、阅读文档以及使用 Excel 等。
+- Multi-Agent Sessions： 支持同时运行多个项目。侧边栏允许用户在不同会话间切换，实时监控进度并无缝接手 Droid 的工作，不会丢失上下文。
+- AI 原生可视化： Droid 可以根据任务需求自主决定展示方式，直接在对话中渲染 Mermaid 图表、数据表、仪表盘和各项指标。
+
+https://factory.ai/news/factory-desktop",https://twitter.com/dingyi/status/2042058539779096627,2026-04-09T01:54:30+00:00,,,,True
+2042069515069223326,1590927428,hwwaanng,Hwang,https://pbs.twimg.com/profile_images/1361512556930600969/LBwP2_YZ_normal.jpg,真好呀,https://twitter.com/hwwaanng/status/2042069515069223326,2026-04-09T02:38:06+00:00,,,,False
+2042071710011400411,1729075801491116032,xin_pai88825,Paidax,https://pbs.twimg.com/profile_images/1747877404532776960/uUTVQ-2P_normal.jpg,用 AI 写代码经常说不清要改哪里，复制代码又特别麻烦。所以我尝试用它做了这款插件，可以像 Figma 一样直接在网页上可视化设计，改完复制提示词或导出 JSON 发给 AI，它就能精准定位代码并按你的要求修改。 ,https://twitter.com/xin_pai88825/status/2042071710011400411,2026-04-09T02:46:50+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042067199565963264/img/OWzAP5P98fde3iwY.jpg,https://video.twimg.com/amplify_video/2042067199565963264/vid/avc1/1536x2048/ZhjW9mPNklqTX8VG.mp4?tag=21,False
+2042127913173057659,8091942,almonk,almonk,https://pbs.twimg.com/profile_images/2039055300762927104/bfEf7GJh_normal.jpg,"Dropping Isoloupe today. I built it to scratch an itch – I wanted the fluidness of figma vector networks but the magic of Blender modifiers. The result is a gpu-accelerated, go-wasm studio for making icons and glyphs that runs entirely in the browser.
+
+It has some cool features like shape builder, dynamic mirrors, clean svg in/out, isometric drawing projection and a ton more. It's pretty spartan but works well.
+
+https://iso.alasdairmonk.com",https://twitter.com/almonk/status/2042127913173057659,2026-04-09T06:30:10+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042127668104011776/img/UKF_QUvs9AFQGo7k.jpg,https://video.twimg.com/amplify_video/2042127668104011776/vid/avc1/3356x2160/SC_4cG4BdlKFGQvK.mp4?tag=21,True
+2042158347143594260,55315637,Ibelick,Ibelick,https://pbs.twimg.com/profile_images/1639622839329325056/6w4WgjGQ_normal.jpg,dropping a small tool soon ,https://twitter.com/Ibelick/status/2042158347143594260,2026-04-09T08:31:06+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042156070768967681/img/x4UWgWTFt3wfklIf.jpg,https://video.twimg.com/amplify_video/2042156070768967681/vid/avc1/1916x1080/FxO2n9myGiejgLLm.mp4?tag=21,False
+2042211945374535765,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,"Typefully 创始人也做了一个给 agent 使用的 Markdown 文档工具。
+
+https://cogito.md/",https://twitter.com/dingyi/status/2042211945374535765,2026-04-09T12:04:04+00:00,,,,False
+2042218322826273158,31635898,zhufengme,朱峰,https://pbs.twimg.com/profile_images/2014583651628130304/hpXSaD5z_normal.jpg,"把我们内部的转录服务开放了，优势首先是便宜，最低的每小时中文内容转录成本大概是0.14人民币。其次是提供了all-in-one的API，把转录文字、时间戳、VAD、说话人识别（含向量值）、声音事件都返回。同时也有一个cli工具，方便集成到Agents/Skills里面。
+
+更详细的看这里吧： https://auralwise.cn",https://twitter.com/zhufengme/status/2042218322826273158,2026-04-09T12:29:25+00:00,,,,True
+2042229353245978673,296593919,vikingmute,Viking,https://pbs.twimg.com/profile_images/725179208528322560/TPjU7qop_normal.jpg,"今天发现 Awesome Design MD 出了一个单独的网站了：https://getdesign.md/
+这下安装就方便多了，不用在 Github 中拷贝了，只需要找到自己喜欢的 design 然后运行它们封装好的命令
+npx getdesign@latest add XXX 就好了
+
+而且现在的 design.md 越来越全了，出名的产品已经包括很多了，经过我比较深入的使用，发现这个资源是非常赞的，需要的朋友们可以收藏一下了",https://twitter.com/vikingmute/status/2042229353245978673,2026-04-09T13:13:15+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042228571100577793/img/fryzGq1BwFTRctgY.jpg,https://video.twimg.com/amplify_video/2042228571100577793/vid/avc1/1848x1080/sHjm4gbKPoeYDFYI.mp4?tag=21,False
+2042281218486554756,893369654768529408,viktoroddy,Viktor Oddy,https://pbs.twimg.com/profile_images/1941325782829113344/buT3DYqx_normal.jpg,"Gemini 3.1 + Nano Banana Pro + VEO 3.1
+
+Try it yourself 
+
+Prompt ↓ ",https://twitter.com/viktoroddy/status/2042281218486554756,2026-04-09T16:39:20+00:00,video,https://pbs.twimg.com/ext_tw_video_thumb/2042281188669132800/pu/img/gNhssXpdA9vMpcHx.jpg,https://video.twimg.com/ext_tw_video/2042281188669132800/pu/vid/avc1/1048x720/jDAecKE7-NBIPkkR.mp4?tag=12,False
+2042284567428808784,1590927428,hwwaanng,Hwang,https://pbs.twimg.com/profile_images/1361512556930600969/LBwP2_YZ_normal.jpg,@zac3fire 那肯定有的 关注 http://harness.today/deux,https://twitter.com/hwwaanng/status/2042284567428808784,2026-04-09T16:52:39+00:00,,,,True
+2042286373609365593,3007505119,NekoStranding,毒猫猫 | 量化摸鱼师,https://pbs.twimg.com/profile_images/1098377782109696000/lJr4Z4pg_normal.jpg,"做了个玩多 Agent 用的命令行终端，叫 Vibe99 
+
+现在是 preview 版。交互还挺好玩的，已经感觉有点酷了！ ",https://twitter.com/NekoStranding/status/2042286373609365593,2026-04-09T16:59:49+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042286269376675840/img/1GUYMioI1ZQ9shGM.jpg,https://video.twimg.com/amplify_video/2042286269376675840/vid/avc1/2308x1570/RcxIvFbk3tiq3vmG.mp4?tag=21,False
+2042315558071517610,14289400,leongao,Leon Gao,https://pbs.twimg.com/profile_images/1932761589012365312/tW7Nlbfs_normal.jpg,这周 vibe coding 的热情又提高了不少，再个新坑 :) ,https://twitter.com/leongao/status/2042315558071517610,2026-04-09T18:55:48+00:00,photo,https://pbs.twimg.com/media/HFfDHvmbQAEsQLC.jpg,,False
+2042335263154978868,2017908378870104064,superdoteng,super.engineering,https://pbs.twimg.com/profile_images/2026901327431729152/0Oq1Ovi2_normal.jpg,"Meet Superconductor.
+
+A native macOS app for agentic engineering, built to go fast.
+
+No Electron. No Tauri. 100% Rust.
+
+Manage all of your coding agents without friction.
+
+We're in Alpha: http://super.engineering",https://twitter.com/superdoteng/status/2042335263154978868,2026-04-09T20:14:06+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042334252197654528/img/vGrY0wWWH4RGor2c.jpg,https://video.twimg.com/amplify_video/2042334252197654528/vid/avc1/3116x2160/bMBaVIETi-92tHog.mp4?tag=21,False
+2042396642809188596,1998006140286935041,QingQ77,Geek Lite,https://pbs.twimg.com/profile_images/2004028412730789892/4IFUGOl2_normal.jpg,"Ghostty 色彩方案生成器，支持 700+ 可浏览主题，图像提取，着色器预览。
+
+网址在图片上 ",https://twitter.com/QingQ77/status/2042396642809188596,2026-04-10T00:18:00+00:00,photo,https://pbs.twimg.com/media/HFdacepaUAAo6lQ.jpg,,False
+2042423565816156659,1404738934043602947,Jackywine,Jackywine,https://pbs.twimg.com/profile_images/1805875520430915586/x3t_sQdd_normal.jpg,"如何从 Google Professional Certificate 和 Anthropic Academy 中学到更多，给大家分享一下我的实践
+我把我的经验录制了一个小视频，供大家参考：
+相关链接在后面会补充 ",https://twitter.com/Jackywine/status/2042423565816156659,2026-04-10T02:04:59+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042418389180899329/img/TZNWgX71nfKhhrfb.jpg,https://video.twimg.com/amplify_video/2042418389180899329/vid/avc1/1620x1080/cisu96PvqulmfcCH.mp4?tag=21,False
+2042423608589631913,6690032,vista8,向阳乔木,https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_normal.jpg,"一个给Agent用的代码编辑器Superset，免费开源项目。
+
+能同时打开Codex、Gemini Cli、Claude Code编程。
+
+整合了Git，交互有语音提醒，看起来还行。
+
+下载地址见评论，也是1个G多大小。 ",https://twitter.com/vista8/status/2042423608589631913,2026-04-10T02:05:09+00:00,photo,"https://pbs.twimg.com/media/HFgfVCNaAAAqvtC.jpg,https://pbs.twimg.com/media/HFglJcnbQAAZ7e6.jpg",,False
+2042482769427882400,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,"更好看的 Hermes web UI 出现了。
+
+但还有一个更好看的（图2），是他们官方员工做的，还未发布。。可能 Hermes 官方版很快就会上线了吧。
+
+https://github.com/joeynyc/hermes-hudui ",https://twitter.com/dingyi/status/2042482769427882400,2026-04-10T06:00:14+00:00,photo,"https://pbs.twimg.com/media/HFhbQEka4AAHqwW.jpg,https://pbs.twimg.com/media/HFhbQRybQAQQtRb.jpg",,True
+2042508446671499405,55315637,Ibelick,Ibelick,https://pbs.twimg.com/profile_images/1639622839329325056/6w4WgjGQ_normal.jpg,"introducing mesurer
+
+a tiny tool to measure spacing and align your UI on localhost
+
+npm i mesurer ",https://twitter.com/Ibelick/status/2042508446671499405,2026-04-10T07:42:16+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042504950563893248/img/n-_3i2U0ifCG5DAa.jpg,https://video.twimg.com/amplify_video/2042504950563893248/vid/avc1/1920x1080/yYraNoxtj71Td9D0.mp4?tag=21,False
+2042553291226153392,1839012910070194177,osmosupply,Osmo,https://pbs.twimg.com/profile_images/1986429535709978624/JsunI02N_normal.jpg,"It’s not like we reinvented the wheel on this easings visualizer. There are many tools already that do this, but it’s the combination of presets and the context preview that makes it special.
+
+With this Osmo Easings tool you can:
+ •  Edit and tweak your favorite easings
+ •  Save your personal easings
+ •  Paste them into your project in three different ways
+
+What makes the Osmo Easings tool different is that you can preview your favorite easings in context across five formats: text, buttons, modals, sliders, and FAQ.
+
+And yes, all free to use for Osmo Members!",https://twitter.com/osmosupply/status/2042553291226153392,2026-04-10T10:40:28+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042553160636502017/img/rp2RI2ezKiEjMLAf.jpg,https://video.twimg.com/amplify_video/2042553160636502017/vid/avc1/1080x864/Nj4g-wRY7P0X_KEA.mp4?tag=21,False
+2042560188230832248,985402927253635073,jike_collection,即刻精选,https://pbs.twimg.com/profile_images/985403677350346752/tw6tRCVW_normal.jpg,"付费看完了 codex 团队的采访， 说下我认为的重点:
+
+- 团队只有 40人，就 1个 pm， 2个designer，其余全是 eng➕少量 researcher。
+- 唯一一个 pm 的 routine就是用 codex 来处理用户反馈，issue，排优先级",https://twitter.com/jike_collection/status/2042560188230832248,2026-04-10T11:07:52+00:00,,,,False
+2042575208826245144,1712143431341154304,evanlong_me,Evan Long,https://pbs.twimg.com/profile_images/1786734275355975680/7Bs-ZNct_normal.jpg,"发现一个很爽的工具 Paseo，做的事很简单：把 Claude Code、Codex、OpenCode 这些 coding agent 统一跑在一个地方，然后你手机、iPad、任何设备都能连上来用
+
+我之前的痛点就是 agent 只能在跑它的那台机器上操作，现在开个 daemon 就行了，走端到端加密，在外面也能随时接着干活。
+
+免费开源，agent 还是本地跑，你的 config 和 MCP servers 全都在。试了几天感觉完成度很高，推荐折腾 coding agent 的朋友看看。
+
+https://paseo.sh",https://twitter.com/evanlong_me/status/2042575208826245144,2026-04-10T12:07:33+00:00,,,,True
+2042591872036516056,1371152575270154246,kaolti,Zsolt Kacso,https://pbs.twimg.com/profile_images/1930217738019950592/8vGuK6or_normal.jpg,"HTML in Canvas + fragment shader.
+
+Shader is applied to the actual interactive html. ",https://twitter.com/kaolti/status/2042591872036516056,2026-04-10T13:13:46+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042591481827835904/img/873HwGVP9cygHQlp.jpg,https://video.twimg.com/amplify_video/2042591481827835904/vid/avc1/3832x2160/BLP7ziNDQNnyStT_.mp4?tag=21,False
+2042599687786487993,19810702,benjaminnathan,benjamin,https://pbs.twimg.com/profile_images/1566431445597429766/NewtkfpP_normal.png,Logo Shaders are coming to @framer. They work with any PNG and SVG. Highly customizable. Live on your site in seconds. ,https://twitter.com/benjaminnathan/status/2042599687786487993,2026-04-10T13:44:49+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042598856257667072/img/3OKKfwaIB1lydt69.jpg,https://video.twimg.com/amplify_video/2042598856257667072/vid/avc1/1590x1190/oK6z9170xpnd5FIX.mp4?tag=21,False
+2042624350432514080,186638471,_andresjasso,andres,https://pbs.twimg.com/profile_images/2019819259824611328/gXx9X383_normal.jpg,"designing out finance component UI modules in a natural earth tone aesthetic using @tenordesign 
+
+start with some inspiration ref images, refine to make it your own. ",https://twitter.com/_andresjasso/status/2042624350432514080,2026-04-10T15:22:49+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042623682577645569/img/RG6SHOMfwVpbn2hE.jpg,https://video.twimg.com/amplify_video/2042623682577645569/vid/avc1/3840x2156/HmjdRU7Ro7K2cb1h.mp4?tag=21,False
+2042626533110530349,1128028122815844353,gunnargray,Gunnar Gray,https://pbs.twimg.com/profile_images/1801329010065965056/GdCjOSWo_normal.jpg,computer playground o_O ,https://twitter.com/gunnargray/status/2042626533110530349,2026-04-10T15:31:30+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042622897114546176/img/h56RbnwBIUUVeqWI.jpg,https://video.twimg.com/amplify_video/2042622897114546176/vid/avc1/1080x1080/gY4erazT6Pn1kKtN.mp4?tag=21,False
+2042637731675955286,1206825548430921733,ln_dev7,LN,https://pbs.twimg.com/profile_images/1890537843908374528/wvFcdsEl_normal.jpg,"Contact dashboard template built with @shadcn 
+
+→ https://pro.lndevui.com/templates ",https://twitter.com/ln_dev7/status/2042637731675955286,2026-04-10T16:16:00+00:00,photo,https://pbs.twimg.com/media/HFienoaakAMHuXs.jpg,,False
+2042639945643495644,97830312,wsvn53,Ethan Wang,https://pbs.twimg.com/profile_images/1627963132554678273/C0Pqjnxx_normal.jpg,"Minis TestFlight 上新，现在支持挂载外部文件夹或者 iCloud 目录给 Minis 读写了 https://testflight.apple.com/join/3BdkA5c3
+
+你可以让 Minis 来帮你管理 Obsidian 笔记，修改 App 配置文件了： ",https://twitter.com/wsvn53/status/2042639945643495644,2026-04-10T16:24:48+00:00,photo,"https://pbs.twimg.com/media/HFjqM8xakAMsaOA.jpg,https://pbs.twimg.com/media/HFjqM80bkAASPaI.jpg,https://pbs.twimg.com/media/HFjqM8zbwAAeeDK.jpg,https://pbs.twimg.com/media/HFjqM8waYAASIdI.jpg",,True
+2042661817550541253,16602665,grinich,Michael Grinich,https://pbs.twimg.com/profile_images/1978687600656580608/m2TFWGlC_normal.jpg,"The UI era is ending. 🪦
+
+For 70 years we designed computer interfaces. Mainframe, CLI, GUI, Touch. 
+
+But with AI, the interface is disappearing. What will come next?
+
+My talk from @mastra's conf this week: ",https://twitter.com/grinich/status/2042661817550541253,2026-04-10T17:51:42+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042660511746265088/img/yQDj13CLqkDcbJeR.jpg,https://video.twimg.com/amplify_video/2042660511746265088/vid/avc1/1920x1080/Zjn2B92t1gkOFTIH.mp4?tag=21,False
+2042675917927977084,3178231,dotey,宝玉,https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_normal.jpeg,"Claude Code 新增了一个叫 ultraplan 的功能：你在终端里发起一个规划任务，Claude 会在云端帮你起草实现方案，你在浏览器里审阅、批注、修改，满意之后选择在云端执行或者拉回本地终端执行。
+
+这个功能解决的是一个很实际的痛点：在终端里审阅一份复杂的实施计划，体验很差。你只能上下滚动，没法针对某一段提意见。ultraplan 把""规划""这件事搬到了浏览器里，你可以像审阅文档一样，对具体段落加批注、打表情、在大纲里跳转，然后让 Claude 根据你的反馈修改方案，反复迭代到满意为止。
+
+用法很简单，在 Claude Code 终端里输入 /ultraplan 加上你的需求描述就行，比如""/ultraplan 把认证服务从 session 迁移到 JWT""。云端会开始分析你的代码库、起草方案，这期间终端不占用，你可以继续干别的活。方案写好后，你在浏览器里审阅，最后二选一：让云端直接执行并开 PR，或者把方案传回终端在本地执行。
+
+Anthropic 工程师 Thariq 说，这个功能的核心思路是：实现代码有时候需要本地环境，但规划本身只需要读代码和理解意图，完全可以放在云端做。ultraplan 消耗的 token 量和本地 plan 模式差不多，不会额外多花钱。
+
+这个功能今天开始对所有开启了 Claude Code 网页版的用户开放预览，需要 Claude Code v2.1.91 或更新版本。",https://twitter.com/dotey/status/2042675917927977084,2026-04-10T18:47:44+00:00,,,,False
+2042678561715446093,391872090,naturaln0va,Ryan Ackermann,https://pbs.twimg.com/profile_images/1491812475490082820/GC4r34aF_normal.jpg,Been cooking with @artlambi on a shader to preview the new @MeshHQ dynamic app icon! ,https://twitter.com/naturaln0va/status/2042678561715446093,2026-04-10T18:58:14+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042678112413220864/img/CpIrvTovJpuzinP3.jpg,https://video.twimg.com/amplify_video/2042678112413220864/vid/avc1/1538x2736/RYQPM-CgLdmq0DW9.mp4?tag=21,False
+2042694654861222260,600436207,vladmoroz,Vlad Moroz,https://pbs.twimg.com/profile_images/1887787105545252864/J0jCAOWI_normal.jpg,About to ship Liquid Glass Lite™ in Paper ,https://twitter.com/vladmoroz/status/2042694654861222260,2026-04-10T20:02:11+00:00,photo,https://pbs.twimg.com/media/HFkb2pyWIAEkky1.png,,False
+2042700357411967379,997100753981353984,alexi_build,Alexi | raycast fan ⭕,https://pbs.twimg.com/profile_images/1995301402499829760/iG-pAPWN_normal.jpg,get Raycast 2.0 earlier,https://twitter.com/alexi_build/status/2042700357411967379,2026-04-10T20:24:51+00:00,,,,False
+2042767221513146644,431617343,berryxia,Berryxia.AI,https://pbs.twimg.com/profile_images/2016043556964605952/Tqi9KA2r_normal.jpg,"我看完 YouTube 再也回不去了……😭
+
+Obsidian Reader 直接把字幕做成可交互时间轴！
+
+✅ 点击任意一句字幕 → 视频精准跳转  
+✅ 高亮重点句子 → 自动同步  
+✅ 记笔记丝滑到爆  
+
+这体验太上头了，普通 YouTube 已经完全看不下去😂
+
+Obsidian Web Clipper 1.4 已上线  
+",https://twitter.com/berryxia/status/2042767221513146644,2026-04-11T00:50:33+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042678525627633664/img/r-KNUFvnCDyqk2O3.jpg,https://video.twimg.com/amplify_video/2042678525627633664/vid/avc1/2756x2160/Pn6Y6f1MjrW6JOIS.mp4?tag=21,False
+2042821620281053641,1318419526132862976,NousResearch,Nous Research,https://pbs.twimg.com/profile_images/1816254738234761216/TX7TW-Mp_normal.jpg,"给中国用户的好消息：Hermes Agent 现在原生支持个人微信了
+
+微信扫码即可连接，私聊群聊都支持。图片、视频、文件、语音消息全覆盖，长轮询直连，不需要公网 IP。
+
+运行 'hermes update' 即可体验
+
+文档：http://hermes-agent.nousresearch.com/docs/user-guide/messaging/weixin
+
+感谢 @Bravohenry_ 的贡献 ",https://twitter.com/NousResearch/status/2042821620281053641,2026-04-11T04:26:42+00:00,photo,https://pbs.twimg.com/media/HFmObsRWQAA89XO.jpg,,True
+2042846753444266041,3007509396,pengchujin,酱紫表,https://pbs.twimg.com/profile_images/1772530812078239744/aPK5wde3_normal.jpg,这个网站不错，浏览比较各种 App 服务的订阅价格。🔗 http://appstoreprice.org ,https://twitter.com/pengchujin/status/2042846753444266041,2026-04-11T06:06:34+00:00,photo,"https://pbs.twimg.com/media/HFmmQNPakAATwF4.jpg,https://pbs.twimg.com/media/HFmmQNLasAAXq3I.jpg,https://pbs.twimg.com/media/HFmmQNPbQAAqAaT.jpg",,False
+2042858801330819553,1370392009295364096,djdksnel,Snslas,https://pbs.twimg.com/profile_images/1854191071837978624/zvIHQVKs_normal.jpg,"@berryxia @Jackywine Web clipper 還可以搭配 template 效果更好！
+
+https://x.com/djdksnel/status/2035992085984133460?s=46",https://twitter.com/djdksnel/status/2042858801330819553,2026-04-11T06:54:27+00:00,,,,True
+2042865191906365673,4056992895,awsmd_com,Awesomed,https://pbs.twimg.com/profile_images/1063705585361727488/SpdwPHrH_normal.jpg,Clarity Over Chaos ,https://twitter.com/awsmd_com/status/2042865191906365673,2026-04-11T07:19:51+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042864943637082112/img/tQBnSL7UkuiAnnL4.jpg,https://video.twimg.com/amplify_video/2042864943637082112/vid/avc1/960x720/P7fuV8whgM3REJTX.mp4?tag=21,False
+2042896909321539820,588083665,tranmautritam,Tran Mau Tri Tam ✪,https://pbs.twimg.com/profile_images/1768219583218081792/HP1g3zAA_normal.jpg,"Design cheatsheet (Save for later)
+
+• Typography: Geist 16px & 14px for body (regular + medium)
+• Spacing: 4px rule, no exceptions
+• Darkest neutral: #141414
+• Radius: 8→40px range
+• Icons: 20px, stroke 1.5px - Bound 32px
+
+Shipped multiple products with this. Never looked back.",https://twitter.com/tranmautritam/status/2042896909321539820,2026-04-11T09:25:53+00:00,photo,https://pbs.twimg.com/media/HFnTrbCakAExPYG.jpg,,False
+2042928145343349068,1700730489668255744,praveenisomer,Praveen Kumar,https://pbs.twimg.com/profile_images/2054301857447895040/W9VqwjhW_normal.jpg,ASCII cards ,https://twitter.com/praveenisomer/status/2042928145343349068,2026-04-11T11:30:00+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042924152244588544/img/JOGjqNueHfFOssaL.jpg,https://video.twimg.com/amplify_video/2042924152244588544/vid/avc1/1920x1386/YGLkDAU9oCEu96Er.mp4?tag=21,False
+2042935139613704475,1913155043919831040,madebyhex,Marek Jóźwiak,https://pbs.twimg.com/profile_images/2048158689937313792/SBqSlE-n_normal.jpg,"Big update in Motion GPU - added first-class support for Vue 3 🎉
+
+Now available: React 18/19, Svelte 5, and Vue 3.
+
+Also: interactive playground is now available for all supported frameworks.
+
+Motion GPU - WebGPU, without the noise.
+
+Check it out:
+https://www.motion-gpu.dev/ ",https://twitter.com/madebyhex/status/2042935139613704475,2026-04-11T11:57:47+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042934094087024640/img/yaw_I61-xx1Aouor.jpg,https://video.twimg.com/amplify_video/2042934094087024640/vid/avc1/3024x1964/i8r4GRR_XRWhH7wu.mp4?tag=21,True
+2042945887106929065,276372500,billtheinvestor,Bill The Investor,https://pbs.twimg.com/profile_images/1764526303376793600/vRuTU5AI_normal.jpg,"“Blender MCP”已发布，它允许 Claude 直接连接到 Blender。目前在 GitHub 上已获得 18,000 个星标。・通过文本生成 3D 模型
+
+・场景构建 / 摄像机 / 灯光操作
+
+・自动执行 Python 代码
+
+游戏和视频制作效率将得到提升。以下是其功能的详细说明： ",https://twitter.com/billtheinvestor/status/2042945887106929065,2026-04-11T12:40:30+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042945824141848576/img/c39MvxxWX2joXEgd.jpg,https://video.twimg.com/amplify_video/2042945824141848576/vid/avc1/1920x1080/grmgs0WJoaHtrMAR.mp4?tag=21,False
+2042955320960622891,276372500,billtheinvestor,Bill The Investor,https://pbs.twimg.com/profile_images/1764526303376793600/vRuTU5AI_normal.jpg,"MD，电诈又一春！
+
+有人刚刚开源了一个工具，仅需 3 秒的音频剪辑即可克隆任何声音，并且可以 100% 本地运行。它被称VoiceBox。
+
+它是 qwen3-tts 的首个原生桌面端实现，能够完美处理复杂的情绪和多语言切换。100% 开源。 ",https://twitter.com/billtheinvestor/status/2042955320960622891,2026-04-11T13:17:59+00:00,photo,https://pbs.twimg.com/media/HFoIpe7bwAAwEHi.jpg,,False
+2042959236586418652,855764555233939456,orhundev,Orhun Parmaksız 👾,https://pbs.twimg.com/profile_images/1887898013336543232/MnPXlrU7_normal.jpg,"man, I love terminal spinners
+
+https://github.com/vyfor/rattles
+
+#rustlang #ratatui ",https://twitter.com/orhundev/status/2042959236586418652,2026-04-11T13:33:33+00:00,video,https://pbs.twimg.com/tweet_video_thumb/HFoMf60akAMVfvH.jpg,https://video.twimg.com/tweet_video/HFoMf60akAMVfvH.mp4,False
+2042970104921542896,1974653328274714624,AYi_AInotes,AYi,https://pbs.twimg.com/profile_images/1989157446829350912/pW828UwK_normal.jpg,"Shopify刚放了个大招，绝大多数人估计半年后才会反应过来。
+
+手握3780亿美元年交易额，560万个店铺，Shopify把整个后台的读写权限，全开放给了所有AI Agent， 产品、订单、库存、SEO、图片，想改什么改什么。
+
+他们片子里有个商家只说了一句帮我优化所有产品的SEO，Claude自动更新了32条商品，重写图片描述，设置元数据，还逐一核对了所有改动。
+
+一条指令搞定所有，不用找外包，不用月付200刀买插件，也不用雇人，卧槽真的太吊了(#ﾟДﾟ)
+
+以前一个小Shopify店，每月光插件就要200-500刀，一次SEO审计至少2000刀，雇助理每小时50刀，现在这些全部坍缩成一行指令。
+
+480万个活跃商家，大多管着10到200个商品，以前只能一个个手动改，现在有了Claude Code和MCP协议，每个独立创业者，都相当于拥有了一个五人运营团队。
+
+最狠的是，Shopify自己不做 Agent， 他们搭了一套协议，让所有智能体都能变成Shopify Agent， 这才是真正的平台级布局啊，真的牛逼",https://twitter.com/AYi_AInotes/status/2042970104921542896,2026-04-11T14:16:44+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042970038861254656/img/exJNB52rZOeL1jpy.jpg,https://video.twimg.com/amplify_video/2042970038861254656/vid/avc1/1080x1080/1N0MackyKEkV-Pe-.mp4?tag=21,False
+2042980572805628153,16681326,lifesinger,Frank Wang 玉伯,https://pbs.twimg.com/profile_images/1965120373781114880/rLnJ1xpC_normal.jpg,"Agents 创业赛道里
+UI 是 To C 应用的真正决胜点
+
+因为技术被抹平了
+抹不平的只剩 UI
+
+UI 决定着用户的信任
+信任决定了 Context
+UI 还决定着是否能产生网络效应
+
+Pricing + UI
+是一切",https://twitter.com/lifesinger/status/2042980572805628153,2026-04-11T14:58:19+00:00,,,,False
+2043030159142662308,1708349360994762752,drianlarde_main,adrian (adi),https://pbs.twimg.com/profile_images/1999810654719651840/5-oAjO02_normal.jpg,mouse clicks! 🖱️ ,https://twitter.com/drianlarde_main/status/2043030159142662308,2026-04-11T18:15:22+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043030079958323201/img/34xux9mJK_mkGMf2.jpg,https://video.twimg.com/amplify_video/2043030079958323201/vid/avc1/1660x1080/xJfYykLKWPgKmR7B.mp4?tag=21,False
+2043039842024722761,1219668499448156166,uixamjad,uixamjad,https://pbs.twimg.com/profile_images/2040833403403313152/PesHM_U9_normal.jpg,Hey designers and geniuses engineers!! Is it real?? 🤔😳😳😳😳😱😱😱 ,https://twitter.com/uixamjad/status/2043039842024722761,2026-04-11T18:53:50+00:00,video,https://pbs.twimg.com/ext_tw_video_thumb/1676279183972900871/pu/img/XTPIM7QaZISnsZuI.jpg,https://video.twimg.com/ext_tw_video/1676279183972900871/pu/vid/720x1280/oNgptDePEwPwG6hc.mp4?tag=12,False
+2043046433197003129,1886321636082630656,Aurelien_Gz,Aurelien,https://pbs.twimg.com/profile_images/2059734683982663684/nS2pzekl_normal.jpg,"when you see this irl you realize the accuracy of apple liquid glass..
+ ",https://twitter.com/Aurelien_Gz/status/2043046433197003129,2026-04-11T19:20:02+00:00,video,https://pbs.twimg.com/amplify_video_thumb/1990173776776982528/img/sxiGLq3r63yofI4h.jpg,https://video.twimg.com/amplify_video/1990173776776982528/vid/avc1/2160x3840/bkzwWQPoU7cGSEMe.mp4?tag=21,False
+2043054901635485967,1708349360994762752,drianlarde_main,adrian (adi),https://pbs.twimg.com/profile_images/1999810654719651840/5-oAjO02_normal.jpg,see it in action https://keeby.vercel.app/ ,https://twitter.com/drianlarde_main/status/2043054901635485967,2026-04-11T19:53:41+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043054337270910976/img/oP9ZoWGMNjHyL4tK.jpg,https://video.twimg.com/amplify_video/2043054337270910976/vid/avc1/3324x2160/sBJRQvhG6AgC5XtS.mp4?tag=21,False
+2043057169164091449,1797752231388745729,emanueledpt,Emanuele Di Pietro,https://pbs.twimg.com/profile_images/2008314553856061440/omCvFHQG_normal.jpg,"DP Code v0.0.17 just shipped! 🚀
+
+→ smoother scrolling in chat
+→ cleaner Plans step-by-step UI
+→ custom UI font, code font, and chat text size
+→ tighter message spacing
+→ cleaner tool/work log summaries
+→ better composer image attachments
+→ improved terminal link detection
+→ terminal close confirmation prompts
+→ less clutter in the sidebar
+→ safer destructive actions
+→ lots of polish across the whole chat experience
+
+Enjoy!
+@theo @jullerino great work as always",https://twitter.com/emanueledpt/status/2043057169164091449,2026-04-11T20:02:41+00:00,photo,https://pbs.twimg.com/media/HFplSNoakAEM_5p.jpg,,False
+2043144235273388370,1119164661499170818,YoheiNishitsuji,Yohei Nishitsuji,https://pbs.twimg.com/profile_images/1615611817946124289/BLdAV0z6_normal.png,My little Sunday vibe coding with v0 Max. Morphing around @vercel and @v0. Also added my water shader🫧 (thanks to @rauchg for his support) ,https://twitter.com/YoheiNishitsuji/status/2043144235273388370,2026-04-12T01:48:40+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043144177765203968/img/8FVeO9Dr3ECw9kiU.jpg,https://video.twimg.com/amplify_video/2043144177765203968/vid/avc1/1492x1080/k3Sx4dIJhb27o7Ma.mp4?tag=21,False
+2043158177139580944,16681326,lifesinger,Frank Wang 玉伯,https://pbs.twimg.com/profile_images/1965120373781114880/rLnJ1xpC_normal.jpg,"Yuri 创造者汗青说：审美不等于视觉艺术。大部分人把视觉当成审美，是一个极大误解。审美是你觉得什么不好、什么好，审美是经历，是角度，等等。
+
+比如：宫崎骏的审美里，除了视觉呈现，还有少女、城堡、田野、农作、战争、反思等等。审美是区分，有独特性，不可复制。
+
+产品 UI 也如此。AI Coding 能复制 UI 层的交互呈现，却无法抄走 UI 里的审美、理念、叙事等等。比如：Claude Code 的 UI，复制过去后，还是 Claude Code，而不是你想做的产品。复制 UI，实质上是伪命题，会是东施效颦。
+
+UI 的全称是 User Interface。为人服务的产品，必然需要 UI。Apple 的产品很好用，一致性很强，离不开 Apple 的一整套 HUI 规范。
+
+Agent 也需要 UI。比如 ChatGPT 如果是 Terminal 形态，那么大概率火不了。如果 DeepSeek 没有在 UI 层面放出推理过程，那么当初的热度会少不少。Manus 刚出道时，天才的回放 UI 设计，以及 Task 运行过程中步骤条和虚拟操作的可见性，都是出圈的关键。Lovart  如果没有画布 UI，那么大概率就没人用了。
+
+UI 是 Agent 产品的核心。因为除了 UI，Agent 产品层确实也没剩下什么。
+
+Skill 和 CLI 最终卷的也是 UI。不需要 UI 的，大概率轮不到创业者去做。",https://twitter.com/lifesinger/status/2043158177139580944,2026-04-12T02:44:04+00:00,photo,https://pbs.twimg.com/media/HFq-vAmXUAEHfQl.jpg,,False
+2043183094061252801,771113795850678272,KengGuangLong,loonggg,https://pbs.twimg.com/profile_images/1802706038589935616/DxNYHYGE_normal.jpg,"分享一个特别牛逼的 Skill ，叫：Markdown Viewer Skill 。
+
+这个 Skill 里包含了一百多个图例，6000 多精选矢量图标，一句话就可以根据你的 Markdown 内容自动定制各种图表和配图。
+
+使用方式就是：把你的 MarkDown 文件让给 Claude Code 这类工具，然后说：充分了解这个 Skills ，然后给我的这份文档生成配图或者图表。
+
+然后，就会自动生成各类的图表，比如：流程图、架构图等，最牛的是可以自动插入到你的 MarkDown 文件里。
+
+安装方式：
+
+npx skills add markdown-viewer/skills
+
+传送门地址：http://github.com/markdown-viewer/skills",https://twitter.com/KengGuangLong/status/2043183094061252801,2026-04-12T04:23:04+00:00,photo,"https://pbs.twimg.com/media/HFrYKUibYAAW9Q3.jpg,https://pbs.twimg.com/media/HFrYLvHa8AANhzx.jpg",,True
+2043184837616394397,1542887411935367169,AdityaSur11,Adi,https://pbs.twimg.com/profile_images/2008066661841248256/XJttc16H_normal.jpg,"App icon concept
+Thoughts? ",https://twitter.com/AdityaSur11/status/2043184837616394397,2026-04-12T04:30:00+00:00,photo,https://pbs.twimg.com/media/HEWnBjxbYAAvMgN.jpg,,False
+2043185109885497515,1869683226178146304,Saccc_c,Sac,https://pbs.twimg.com/profile_images/2011050511148204033/RNjMQJ6T_normal.jpg,"这是我见过最好的Claude Code+Obsidian的教学视频。
+
+花一个小时看完，你将学会用 Obsidian 打造第二大脑——让 AI 记住你所有的想法，帮你挖掘规律、生成创意、落地执行。 ",https://twitter.com/Saccc_c/status/2043185109885497515,2026-04-12T04:31:05+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043184021987880960/img/nFrk0T6TBoxvuZzD.jpg,https://video.twimg.com/amplify_video/2043184021987880960/vid/avc1/1920x1080/AaNCFZtwi6AAbPsn.mp4?tag=21,False
+2043197054751842384,44126379,LightTiger2505,らいとたいがー,https://pbs.twimg.com/profile_images/3340075874/b7c14fa638db1bbaf62b440d1dd4d45b_normal.jpeg,"ghosttyのカスタムシェーダーでNeovideのぬるぬるカーソル再現できるの知らなかった。
+https://github.com/sahaj-b/ghostty-cursor-shaders",https://twitter.com/LightTiger2505/status/2043197054751842384,2026-04-12T05:18:33+00:00,,,,False
+2043208938053886020,276372500,billtheinvestor,Bill The Investor,https://pbs.twimg.com/profile_images/1764526303376793600/vRuTU5AI_normal.jpg,原型制作了一个小应用，可以让你从 @figma 中提取帧并“拉入空间”。这些帧会与画布保持链接，并随任何更改而同步更新。 ,https://twitter.com/billtheinvestor/status/2043208938053886020,2026-04-12T06:05:46+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043208880038301696/img/TfGFGo_D14RGdOvX.jpg,https://video.twimg.com/amplify_video/2043208880038301696/vid/avc1/720x1280/gbpuMk7xBaSGny_C.mp4?tag=21,False
+2043235419765039560,1400390484967690241,LuBtc888,0x鸣人,https://pbs.twimg.com/profile_images/1913942129623359488/fN9ecUe6_normal.jpg,"当年有人问乔布斯：你怎么知道你的哪个决策是正确的？
+
+乔布斯思索后给出了震惊所有人的回答，至到今天这个方法还是会受用终身！ ",https://twitter.com/LuBtc888/status/2043235419765039560,2026-04-12T07:51:00+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042894610050224129/img/i7pFI8MDHrWnN2SG.jpg,https://video.twimg.com/amplify_video/2042894610050224129/vid/avc1/1440x1080/UujyMa_jW6rBh3FL.mp4?tag=21,False
+2043242870555955202,1490615775421423617,Abmankendrick,Abraham John 🦄🦓,https://pbs.twimg.com/profile_images/1983915658829041664/iG7fFe9U_normal.jpg,"Web Designers and Developers, this might be the next-level animation library
+
+ReactBits gives you a growing collection of smooth, modern UI animations you can plug straight into your projects.
+
+Bookmark it for later 💜 ",https://twitter.com/Abmankendrick/status/2043242870555955202,2026-04-12T08:20:36+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043242786561146880/img/7wYJN56uLwNSBXpy.jpg,https://video.twimg.com/amplify_video/2043242786561146880/vid/avc1/1212x720/j_3mVQFbb_u41kxD.mp4?tag=21,False
+2043252250496081937,1879443737086185472,IndieDevHailey,开发者Hailey,https://pbs.twimg.com/profile_images/1958446027377442816/4FeaYQJr_normal.jpg,"这才是真正的 AI 剪辑神器。
+
+开源项目 Pixelle-Video —
+一个把短视频做成流水线的工具。
+
+以前做一个视频：
+写脚本、找素材、配音、剪辑
+一套下来，半天没了。
+
+Pixelle-Video 直接把流程砍到只剩一步：
+输入一个主题
+剩下的全自动：
+写文案、出画面、配音、加 BGM，最后直接给你成片。
+
+但真正厉害的，不是自动。
+而是你可以完全掌控它：
+
+模型自己选
+声音自己换
+画面 workflow 自己搭
+
+这已经不仅仅是工具了，是一条能批量出片的流水线
+你甚至可以直接批量跑内容，做账号矩阵。
+
+你不再做视频，你已经可以生产视频了。",https://twitter.com/IndieDevHailey/status/2043252250496081937,2026-04-12T08:57:52+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043250744783216640/img/pD3gRLTPluxGwGwS.jpg,https://video.twimg.com/amplify_video/2043250744783216640/vid/avc1/1920x1080/yPTnGxjjwT4Eb0NP.mp4?tag=21,False
+2043267086546571705,1669276256,op7418,歸藏(guizang.ai),https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_normal.jpg,"即梦近期发布了他们的视频生成 Agent 产品 Octo！
+
+用了一段时间发现他们在如何跟 AI 协作制作视频上思考得非常多。
+
+无论是对于不太懂视频制作的普通人或者专业的视频内容创作者都非常好用，专门做了针对性的设计。
+
+非常有创意的是随时可以按斜杠呼出的 Agent 对话框这个交互非常适配无线画布的交互。
+
+你在拖动和查看无线画布中的生成结果的时候，再回到最右侧交互其实是非常打断心流的。
+
+Octo 可以在任何位置帮你唤起聊天窗口，而且窗口可以感知到界面中的任何信息，无论是你的素材还是生成结果。
+
+以往的无线画布产品其实门槛高就高在，不知道什么内容应该用什么组件，以及组件间如何联系。
+
+现在 Octo 这些全都可以通过聊天控制，你直接用自然语言告诉他要添加哪些组件执行什么操作就行，他会自动帮你添加和生成。
+
+无线画布的优势方便预览和组织可以有，同时创建的门槛被 Agent 降低了，学习成本很低。
+
+另外由于他可以感知画布中的内容，不只是你生成的，你上传的也可以，所以也可以让他读你的参考图和文字，帮你发散思路。
+
+而且你既可以自己把控每一个步骤，也可以让他一次性生成所有内容。
+
+还内置了一套标准的创作流程，保证生成视频的可控性与质量。
+
+比如你给他脚本和思路之后他会先帮你分析并生成角色和关键物品、场景设定。
+
+之后会基于生成的文本分镜描述和场景物品设定进行每个分镜的详细图片设计。
+
+在你审核通过之后会开始调用 Seedance 2.0 生成视频，生成的视频还能编辑和调整。
+
+如果你也觉得现有的视频创作工具不太符合你的需求，可以试试 Octo。",https://twitter.com/op7418/status/2043267086546571705,2026-04-12T09:56:50+00:00,photo,"https://pbs.twimg.com/media/HFskdg4a0AA37c_.jpg,https://pbs.twimg.com/media/HFskg5xakAEd0j2.jpg,https://pbs.twimg.com/media/HFskg5waAAAyqub.jpg,https://pbs.twimg.com/media/HFskg6UacAA-NON.jpg",,False
+2043270010890797414,635941366,unixzii,Cyandev,https://pbs.twimg.com/profile_images/2047230973243510784/0Flt4WBy_normal.jpg,给光标整了点刀剑动画，虽然 SwiftUI 做原型实验很快，但文本渲染性能还是差，生产环境估计只能用 atlas 的方案 ,https://twitter.com/unixzii/status/2043270010890797414,2026-04-12T10:08:27+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043268315322413056/img/hifadzvyJFJZOqUm.jpg,https://video.twimg.com/amplify_video/2043268315322413056/vid/avc1/948x720/Tjc_QJOjOIB26wVx.mp4?tag=14,False
+2043271155352752354,1808621217626386432,athasdev,athas.dev,https://pbs.twimg.com/profile_images/1901549767357763584/-Jd84Cee_normal.jpg,Athas is faster. ,https://twitter.com/athasdev/status/2043271155352752354,2026-04-12T10:13:00+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043092072194809858/img/X8KvEvTViLIVf_Zx.jpg,https://video.twimg.com/amplify_video/2043092072194809858/vid/avc1/2154x1696/B6zQfCjhPTNRpk8f.mp4?tag=21,False
+2043277628543820058,8504312,lexrus,Lex Tang,https://pbs.twimg.com/profile_images/973550161556209664/C-SNrSiO_normal.jpg,@unixzii Ghostty 里的这个 shader 平移效果没你的舒服 ,https://twitter.com/lexrus/status/2043277628543820058,2026-04-12T10:38:43+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043277007908397056/img/PgVvmJVOPlSpX6GF.jpg,https://video.twimg.com/amplify_video/2043277007908397056/vid/avc1/1426x1058/IIjA2uBpKYVKme9h.mp4?tag=21,False
+2043282225354129894,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,"又发现一个很像 cmux 的。
+
+https://www.onorca.dev/ ",https://twitter.com/dingyi/status/2043282225354129894,2026-04-12T10:56:59+00:00,video,https://pbs.twimg.com/tweet_video_thumb/HFsyVUOaIAA5kVJ.jpg,https://video.twimg.com/tweet_video/HFsyVUOaIAA5kVJ.mp4,True
+2043316979478700439,1880582182466658304,fhwofjow51260,娜美知识库,https://pbs.twimg.com/profile_images/1947441244810207232/WE8X2Clc_normal.jpg,"推荐一个影视站 Pomo4K，主打 4K 蓝光原盘资源。
+
+https://pomo.mom ",https://twitter.com/fhwofjow51260/status/2043316979478700439,2026-04-12T13:15:05+00:00,photo,https://pbs.twimg.com/media/HFtR2tma4AAD2Z2.jpg,,True
+2043320733858763240,1895655751169032192,vansh1029,Vansh N.,https://pbs.twimg.com/profile_images/2033559499358064640/nv1gZ9a7_normal.jpg,"Current ASCII Studio editor page
+Tried my best to keep it clean, simple, and easy to use :) ",https://twitter.com/vansh1029/status/2043320733858763240,2026-04-12T13:30:00+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2042300722906349572/img/htyLjjEJFtWfTQn3.jpg,https://video.twimg.com/amplify_video/2042300722906349572/vid/avc1/1868x1028/5y-0K96ucLBHAIVu.mp4?tag=21,False
+2043321052864917569,953420111305760769,Mike_Andreuzza,Michael Andreuzza,https://pbs.twimg.com/profile_images/2055600307988484096/JFn7rhFC_normal.jpg,"You can now create 2D and 3D shaders in http://colorsandfonts.com
+
+- Export in different formats. Web, iFrame, encoded, json, image &amp; React
+- Ready presets
+- Blend modes
+- History
+- Adjust motion &amp; look
+- Change colors
+
+and much more :-) ",https://twitter.com/Mike_Andreuzza/status/2043321052864917569,2026-04-12T13:31:16+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043320495647379456/img/8pmn4dPOE0oIaDXM.jpg,https://video.twimg.com/amplify_video/2043320495647379456/vid/avc1/2872x1562/kRfDXh_cwvXD17CC.mp4?tag=21,True
+2043325765337624705,1521688129559613440,HiTw93,Tw93,https://pbs.twimg.com/profile_images/1960753219115868169/EOxKSK4w_normal.jpg,"Mole 1.34 is live. The Mac cleaning tool that can free up tens of GBs in one go. 36K stars.  https://github.com/tw93/Mole
+
+Here’s what matters from the last two releases:
+· mo optimize: now runs optimization tasks automatically with no confirmation prompts, and adds regular maintenance, quarantine cleanup, broken LaunchAgent repair, .DS_Store protection, and disk SMART checks.
+· mo analyze: gives a much clearer view of reclaimable space, including iOS backups, old Downloads, and real cache usage from Xcode, Gradle, JetBrains, Docker, pip, and more. It also shows cleanable items like Trash, system caches, and Xcode artifacts before you run cleanup.
+· mo clean: expands cleanup coverage for Zed, Warp, Ghostty, Cursor, Stremio, Brave Service Worker caches, expired iOS/iPadOS firmware, Chrome graphics caches, Stocks app cache, Office container logs, wallpaper thumbnails, and more. Whitelist rules are handled more consistently.
+· mo uninstall: now supports mo uninstall &lt;appname&gt; directly, with better leftover detection, orphan file cleanup, and improved handling of app-related residue.
+· mo check and mo status: better visibility into system health, including battery health and uptime scoring, broken LaunchAgents, missing developer tools, and common version conflicts in local dev environments.
+
+These two releases make Mole more useful in day-to-day cleanup, especially for developers and long-used Macs. If Mole helps, I’d love your ideas on where to dig deeper for safe cleanup and more hidden junk.",https://twitter.com/HiTw93/status/2043325765337624705,2026-04-12T13:50:00+00:00,photo,https://pbs.twimg.com/media/HFtKM4aa4AADniV.jpg,,True
+2043340571142431218,25336778,krzyzanowskim,Marcin Krzyzanowski,https://pbs.twimg.com/profile_images/1558606687543648260/2N9D6zfB_normal.jpg,@dingyi just one more http://thecommander.app,https://twitter.com/krzyzanowskim/status/2043340571142431218,2026-04-12T14:48:50+00:00,,,,True
+2043346277468094568,2472276061,frknksglu,Furkan Köseoğlu,https://pbs.twimg.com/profile_images/1547275961481166851/fYEahriE_normal.jpg,@dingyi I can’t see http://zodex.dev :)),https://twitter.com/frknksglu/status/2043346277468094568,2026-04-12T15:11:30+00:00,,,,False
+2043355545940144494,1399866136787918850,hero_ui,HeroUI,https://pbs.twimg.com/profile_images/1987160782765707265/xb07FQe5_normal.jpg,500+ licenses in just two weeks. thank you for the support - this is wild 🤯 ,https://twitter.com/hero_ui/status/2043355545940144494,2026-04-12T15:48:20+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043355077285494784/img/W4KWV_XEVLSXenXM.jpg,https://video.twimg.com/amplify_video/2043355077285494784/vid/avc1/1656x1080/Mm9rBPE6jiKGhsPB.mp4?tag=21,False
+2043385632840433945,1466084233663893505,chshux,Charles,https://pbs.twimg.com/profile_images/2026200704109391872/boTaVD6-_normal.jpg,"it's too much fun working on a personal site, made some edits over the weekend
+
+added some lists of of my favorite links + a few fun interactions ",https://twitter.com/chshux/status/2043385632840433945,2026-04-12T17:47:53+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043385032216334336/img/kZJmdW1TpiF9soxw.jpg,https://video.twimg.com/amplify_video/2043385032216334336/vid/avc1/1736x1080/DOA--MRW8rryEAZC.mp4?tag=21,False
+2043415947843695023,1704221920839811072,UIbyBiba,Biba,https://pbs.twimg.com/profile_images/1810058398467039232/IvmBnbtS_normal.jpg,Interaction you should see today! ,https://twitter.com/UIbyBiba/status/2043415947843695023,2026-04-12T19:48:21+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2039755683407724544/img/YOz1ltSGUS-tt19K.jpg,https://video.twimg.com/amplify_video/2039755683407724544/vid/avc1/2332x2160/V_vKS3nMITx061i9.mp4?tag=21,False
+2043482822850249118,265003921,usagimaruma,usagimaru ⌘,https://pbs.twimg.com/profile_images/1612626140103061507/J0iMVfNY_normal.png,https://cogito.md/,https://twitter.com/usagimaruma/status/2043482822850249118,2026-04-13T00:14:05+00:00,,,,True
+2043539951124697391,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,"发这个虽然有点不道德，但是这也太全了吧。。。
+
+https://nav.edumails.cn/ ",https://twitter.com/dingyi/status/2043539951124697391,2026-04-13T04:01:06+00:00,photo,https://pbs.twimg.com/media/HFwcwXSa0AA4gBg.jpg,,True
+2043587784095789415,1050570534860156928,TechFlowPost,TechFlow 深潮｜APP 已上线,https://pbs.twimg.com/profile_images/1642733537152610306/wWtDXcl2_normal.jpg,Figma 联创兼 CEO Dylan Field 接受 Peter Yang 采访：谈论 AI 无法替代的三项设计技能 -- 品味 Taste、工艺 Craft、观点 Point of View，认为设计即代码的世界正在到来。 ,https://twitter.com/TechFlowPost/status/2043587784095789415,2026-04-13T07:11:10+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043586207209357312/img/mvefBmpjTjIehKhb.jpg,https://video.twimg.com/amplify_video/2043586207209357312/vid/avc1/1920x1080/4J4XP9l5mDv8CDcZ.mp4?tag=21,False
+2043674603818819766,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,"以前看到这些动画觉得很酷，现在 AI 用多了，只剩下焦虑了。
+
+https://github.com/vyfor/rattles",https://twitter.com/dingyi/status/2043674603818819766,2026-04-13T12:56:09+00:00,,,,False
+2043675398354112811,296593919,vikingmute,Viking,https://pbs.twimg.com/profile_images/725179208528322560/TPjU7qop_normal.jpg,以为组件库都差不多到头了，最后还是能发现很多精美的与众不同的组件库，https://spell.sh/ 好喜欢这里面的动画和小巧思，看出来作者是下了很多功夫的，每个都非常非常精美，浏览良久，很喜欢 Spotify Card 里面播放转动的唱片效果。 ,https://twitter.com/vikingmute/status/2043675398354112811,2026-04-13T12:59:19+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043675281635020800/img/LBhk0JR9W6dLUlu-.jpg,https://video.twimg.com/amplify_video/2043675281635020800/vid/avc1/1848x1080/lgbquRULfV9E9kEZ.mp4?tag=21,True
+2043681071565517238,1669276256,op7418,歸藏(guizang.ai),https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_normal.jpg,"Seedance 2.0 在海外上线以后，很多用户也拿它来做产品宣传动画。
+
+这哥们的提示词写法非常牛皮！
+
+刚好我最近给 CodePilot 做了一个新的 logo，然后就参考了一下，做了新的产品宣传动画。
+
+顺便我总结成了一个提示词，你可以为你的产品也定制类似的 Seedance 2.0 提示词。 ",https://twitter.com/op7418/status/2043681071565517238,2026-04-13T13:21:51+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043680699753152512/img/lzKiYaAGknPki6SO.jpg,https://video.twimg.com/amplify_video/2043680699753152512/vid/avc1/1280x720/tRBp__tH3WTspSO_.mp4?tag=21,False
+2043688125088903583,5797422,MengTo,Meng To,https://pbs.twimg.com/profile_images/1098613826709348353/_9_0Nd2X_normal.png,"Introducing Neuform
+
+Generate next-level designs with a living DESIGN.md. Turn design systems into skills and remix into any format with unique animations, webgl and threejs.
+
+It's available on http://neuform.ai ",https://twitter.com/MengTo/status/2043688125088903583,2026-04-13T13:49:53+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043687103956234240/img/BbMQLz0Cvbc6dUl2.jpg,https://video.twimg.com/amplify_video/2043687103956234240/vid/avc1/2880x2160/5yLiQOxj23bCQo4t.mp4?tag=21,True
+2043704878393086013,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,"卧槽一个类似 Omarchy 的美化定制版 Linux 要出现了？
+
+Butterfly 是一个尚处于神秘预热阶段的新产品，创始人是之前我非常喜欢的 Daybreak 设计工作室的。看到这个消息，作为一个 Linux Porn 爱好者可太兴奋了。另外网站的交互做得也很特别！好久没有见到一个产品出现时这么激动了，Linux 让我找到了第二春 😅
+
+https://www.butterfly.so/",https://twitter.com/dingyi/status/2043704878393086013,2026-04-13T14:56:27+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043704825679069184/img/YNJRWjCBpHqPV0nm.jpg,https://video.twimg.com/amplify_video/2043704825679069184/vid/avc1/1186x720/vB2DMhwY2r0UZF7p.mp4?tag=14,True
+2043840379745907123,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,猜对了，Hermes 0.9 果然有了官方的 web dashboard！😍,https://twitter.com/dingyi/status/2043840379745907123,2026-04-13T23:54:53+00:00,,,,False
+2043856520824398209,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,"设计很好看键盘声音模拟 Mac 应用。
+
+https://keeby.vercel.app/",https://twitter.com/dingyi/status/2043856520824398209,2026-04-14T00:59:02+00:00,,,,False
+2043901810675716146,1081481035991248898,rea1DonandTrump,Rene Wang,https://pbs.twimg.com/profile_images/1719683721845198848/EIth0eWl_normal.jpg,"这篇文章推荐给所有出海产品的作者们：同样的 UI，不同的文案设计带来的体验千差万别。
+
+英语是低语境的语言，抛去所有的修饰，文字是界面上剩下的唯一的东西。
+
+https://rene.wang/essay/wording-in-interfaces",https://twitter.com/rea1DonandTrump/status/2043901810675716146,2026-04-14T03:59:00+00:00,,,,True
+2043915778916004018,1214104918954430464,moneshgoyal,monesh,https://pbs.twimg.com/profile_images/2053847786140094464/fwOkYVsX_normal.jpg,folder card animation ,https://twitter.com/moneshgoyal/status/2043915778916004018,2026-04-14T04:54:30+00:00,video,https://pbs.twimg.com/ext_tw_video_thumb/2043915736813600768/pu/img/n_LQ3msS4fHQ3H5d.jpg,https://video.twimg.com/ext_tw_video/2043915736813600768/pu/vid/avc1/1224x714/TKzGaNTr529w-YQV.mp4?tag=19,False
+2044041810440319391,1935434970513772545,npm_i_shaders,shaders,https://pbs.twimg.com/profile_images/2021238915420782593/cs1eRxFq_normal.jpg,"Introducing Shaders MCP 🔥
+
+The way you build shaders just changed. Your agent now finds, tweaks, and ships the perfect shader preset; or designs one from scratch.
+
+Available for Pro users today at https://shaders.com/docs/guide/mcp ",https://twitter.com/npm_i_shaders/status/2044041810440319391,2026-04-14T13:15:18+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044041756354752512/img/Ktk3YgFVKrU3ov30.jpg,https://video.twimg.com/amplify_video/2044041756354752512/vid/avc1/1920x1080/BjXfLrq0NSqq0vmw.mp4?tag=21,True
+2044055463067824256,24701368,zenorocha,Zeno Rocha,https://pbs.twimg.com/profile_images/1792735373887696896/Nys5Q2b3_normal.jpg,"Today, we're shipping the new Resend email editor, extended by AI.
+
+What I love about this is that you can BYOA (Bring Your Own Agent).
+
+There's a built-in LLM that can help you draft an email based on an URL.
+
+But you can just MCP into the editor too. ",https://twitter.com/zenorocha/status/2044055463067824256,2026-04-14T14:09:33+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044055405383561217/img/lO6opqjxqrGV8dUL.jpg,https://video.twimg.com/amplify_video/2044055405383561217/vid/avc1/1280x720/eIiR9TGADmc4PwuG.mp4?tag=14,False
+2044061990172369097,1404738934043602947,Jackywine,Jackywine,https://pbs.twimg.com/profile_images/1805875520430915586/x3t_sQdd_normal.jpg,"如果你恰好有 Claudecode，有 Obsidian，你一定要试试 @kepano 
+ObsidianCEO 亲手打造的 Canvas Skills ",https://twitter.com/Jackywine/status/2044061990172369097,2026-04-14T14:35:29+00:00,photo,https://pbs.twimg.com/media/HF33hEFasAQgcgj.jpg,,False
+2044105422890537280,22708585,DannPetty,DANN©,https://pbs.twimg.com/profile_images/1601396833883922432/OxFgbD5t_normal.jpg,"New week. 
+New design tool.
+
+I’m really excited about this one though! Wonder what you think about it? ",https://twitter.com/DannPetty/status/2044105422890537280,2026-04-14T17:28:05+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044095731724861440/img/uRX17F1jLN2KZVNA.jpg,https://video.twimg.com/amplify_video/2044095731724861440/vid/avc1/1920x1080/btag8-lbVT_sGYOH.mp4?tag=21,False
+2044131493966909862,1943306828697550848,claudeai,Claude,https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_normal.jpg,"We've redesigned Claude Code on desktop.
+
+You can now run multiple Claude sessions side by side from one window, with a new sidebar to manage them all. ",https://twitter.com/claudeai/status/2044131493966909862,2026-04-14T19:11:40+00:00,video,https://pbs.twimg.com/media/HF43A0sXYAA494v.jpg,https://video.twimg.com/amplify_video/2044127347616407552/vid/avc1/2560x1440/KRnAlP4drTrKYDYo.mp4?tag=21,False
+2044294914239037896,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,"有人做了一款名为 portfolio-audit 的 skills，深度调研了知名设计社区 Dive Club 的所有节目，提取了关于作品集制作、招聘标准以及如何脱颖而出的核心观点，打包成了 skills，可以通过 npx skills add hey-stefan/portfolio-audit 安装。
+
+国内是不是也可以做这种类似的，把各大厂的招聘标准和话术做成 skills？
+
+https://github.com/hey-stefan/portfolio-audit",https://twitter.com/dingyi/status/2044294914239037896,2026-04-15T06:01:03+00:00,,,,True
+2044304356338741517,4848269835,_FORAB,AB Kuai.Dong,https://pbs.twimg.com/profile_images/1747252669897691136/wS_-7gEt_normal.jpg,"一名开发者，近期为 Claude Code 做了款插件，让它可以复制任意网站的页面设计。
+
+它会扫描真实的网站，把页面布局、配色、字体，这些设计提取出来，在本地重建一套新的，这样网页就是你的了。
+
+",https://twitter.com/_FORAB/status/2044304356338741517,2026-04-15T06:38:34+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2043886876390539264/img/jC4IVJFatrA58iuT.jpg,https://video.twimg.com/amplify_video/2043886876390539264/vid/avc1/1920x1024/EKua0del0nFthHQa.mp4?tag=21,False
+2044307061320888579,1932935705711513600,yanhua1010,Yanhua,https://pbs.twimg.com/profile_images/1998302113592713216/jbKruapM_normal.jpg,Claude Code创始人Boris Cherny 讲解Anthropic内部如何使用它（中英双语字幕），建议收藏👇 ,https://twitter.com/yanhua1010/status/2044307061320888579,2026-04-15T06:49:19+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044301639709011971/img/lMLejkgHQGx9zZkI.jpg,https://video.twimg.com/amplify_video/2044301639709011971/vid/avc1/1920x1080/M8kxXTx0nk62YSWR.mp4?tag=21,False
+2044360853626262006,1669276256,op7418,歸藏(guizang.ai),https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_normal.jpg,"Skills 快搞定了。
+
+看起来用网页写，加上 WebGL 和 Framer Motion，也能搞出非常漂亮的背景。
+
+不用 NanaBana 图片生成也行，到时候可以自由选择。 ",https://twitter.com/op7418/status/2044360853626262006,2026-04-15T10:23:04+00:00,photo,https://pbs.twimg.com/media/HF8HOTOakAAYchw.jpg,,False
+2044371481472213229,1151425052942000128,zoltanszogyenyi,Zoltán Szőgyényi,https://pbs.twimg.com/profile_images/1991894154427949056/6Nz3eOTM_normal.jpg,"I built a Chrome extension that helps you extract styles from any website and generate DESIGN(.)md or SKILL(.)md files
+
+Works with Google Stitch, Claude Code, Codex etc
+
+... and it's free! ",https://twitter.com/zoltanszogyenyi/status/2044371481472213229,2026-04-15T11:05:18+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044371180753154048/img/CF4MDD6tnahU1wq2.jpg,https://video.twimg.com/amplify_video/2044371180753154048/vid/avc1/3456x2004/xblfWFrRwcIeyQNA.mp4?tag=21,False
+2044391376062730324,893369654768529408,viktoroddy,Viktor Oddy,https://pbs.twimg.com/profile_images/1941325782829113344/buT3DYqx_normal.jpg,"Gemini 3.1 + Lovable
+
+Prompt below ↓ ",https://twitter.com/viktoroddy/status/2044391376062730324,2026-04-15T12:24:21+00:00,video,https://pbs.twimg.com/ext_tw_video_thumb/2044391335881256960/pu/img/DZ4QB6Ioql7vWI2D.jpg,https://video.twimg.com/ext_tw_video/2044391335881256960/pu/vid/avc1/986x720/Dq2Kahuwf_OLSzhw.mp4?tag=12,False
+2044417974916809081,19810702,benjaminnathan,benjamin,https://pbs.twimg.com/profile_images/1566431445597429766/NewtkfpP_normal.png,"Framer’s second Logo Shader, Glass. Complete with Lens Warp, Bevel, Contour, Dispersion, Lighting, and more. Works on any PNG or SVG. Coming soon. ",https://twitter.com/benjaminnathan/status/2044417974916809081,2026-04-15T14:10:03+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044417679096750080/img/AzA5xFMeR5kFxseo.jpg,https://video.twimg.com/amplify_video/2044417679096750080/vid/avc1/1580x1180/2ntCplPj3Fju4Rhs.mp4?tag=21,False
+2044422652232974753,1186556526917324800,sh17va,Shiva 🐁,https://pbs.twimg.com/profile_images/2040623093945864192/dur1Mty-_normal.jpg,Created a new 404 page with Threejs,https://twitter.com/sh17va/status/2044422652232974753,2026-04-15T14:28:38+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044422317468762113/img/Sck5CMXCcIToETOE.jpg,https://video.twimg.com/amplify_video/2044422317468762113/vid/avc1/3024x1908/OgAO7xA4tgr37t_G.mp4?tag=21,False
+2044430704952684671,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,"这个产品做得真好，不玩音乐的都想用了。
+
+https://www.riffle.studio/ ",https://twitter.com/dingyi/status/2044430704952684671,2026-04-15T15:00:38+00:00,photo,https://pbs.twimg.com/media/HF9G5EfboAAazB0.jpg,,False
+2044434422641140007,5797422,MengTo,Meng To,https://pbs.twimg.com/profile_images/1098613826709348353/_9_0Nd2X_normal.png,"So this is a highly curated collection of 400+ DESIGN.md that’s editable and promptable.
+
+Just one click to change styles, turn into branding, mobile versions, slide decks and site sections like hero, testimonials & footers.
+
+It’s a superpower for creating landing pages & presentations.",https://twitter.com/MengTo/status/2044434422641140007,2026-04-15T15:15:24+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044433875250933760/img/Tj34_mTatHgqmudU.jpg,https://video.twimg.com/amplify_video/2044433875250933760/vid/avc1/2880x2160/R6d5uz5qPusVICl0.mp4?tag=21,False
+2044444638010917278,594034161,Jakubantalik,Jakub Antalik,https://pbs.twimg.com/profile_images/1286621650562228224/TAo9_z5s_normal.jpg,"Created an animated border beam component library, ready to use with 3 different types and 4 color variations, with dark and light mode support
+
+http://beam.jakubantalik.com
+npm install border-beam ",https://twitter.com/Jakubantalik/status/2044444638010917278,2026-04-15T15:56:00+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044395660284469248/img/b2z2EuOZy0C33Wb3.jpg,https://video.twimg.com/amplify_video/2044395660284469248/vid/avc1/1752x1210/e_KnwGA--ePFd6uq.mp4?tag=21,True
+2044496259231174947,15791222,terkelg,Terkel 𓀒,https://pbs.twimg.com/profile_images/2037632880499675136/B-3DXB_M_normal.jpg,Animating the native traffic lights in Ace ,https://twitter.com/terkelg/status/2044496259231174947,2026-04-15T19:21:07+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044496094986702849/img/HFJkiTyXHGU84NJ0.jpg,https://video.twimg.com/amplify_video/2044496094986702849/vid/avc1/902x452/6R-sa2Fca0NidZVW.mp4?tag=21,False
+2044512363492347910,1219668499448156166,uixamjad,uixamjad,https://pbs.twimg.com/profile_images/2040833403403313152/PesHM_U9_normal.jpg,Wow this is amazing  ,https://twitter.com/uixamjad/status/2044512363492347910,2026-04-15T20:25:07+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2021956199860613120/img/gIAYG1TGAsB1Gd9j.jpg,https://video.twimg.com/amplify_video/2021956199860613120/vid/avc1/3420x2146/GZOlRmE_kw5MpMM3.mp4?tag=21,False
+2044512504349659502,1219668499448156166,uixamjad,uixamjad,https://pbs.twimg.com/profile_images/2040833403403313152/PesHM_U9_normal.jpg,What if we got this for MacBook 😋🥳😋😋😋😋😋😋😋😋😋😋 ,https://twitter.com/uixamjad/status/2044512504349659502,2026-04-15T20:25:40+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2008640324978065408/img/q5WYawTbN5O-4ZLF.jpg,https://video.twimg.com/amplify_video/2008640324978065408/vid/avc1/2038x1658/wIhyrMnhDaPi9aRn.mp4?tag=21,False
+2044541526068629959,1998006140286935041,QingQ77,Geek Lite,https://pbs.twimg.com/profile_images/2004028412730789892/4IFUGOl2_normal.jpg,"为 React 提供开箱即用的终端 UI 组件库，无需配置即可快速构建美观的终端界面。
+
+https://github.com/Aniket-508/termcn
+
+自动适配终端主题、开箱即用、和 shadcn/ui 兼容。自带图表、AI 交互、导航等组件，MIT 开源，一条命令装好。 ",https://twitter.com/QingQ77/status/2044541526068629959,2026-04-15T22:21:00+00:00,photo,https://pbs.twimg.com/media/HF7nunXaEAA9ftP.jpg,,True
+2044563616385445987,1980334784938430464,aisdkagents,ai sdk agents,https://pbs.twimg.com/profile_images/2042091799548764160/sDzBNXiB_normal.jpg,Free &amp; Open Source Shadcn Components,https://twitter.com/aisdkagents/status/2044563616385445987,2026-04-15T23:48:46+00:00,,,,False
+2044599553488269314,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,哇终于有这种组件库了：npm install border-beam ,https://twitter.com/dingyi/status/2044599553488269314,2026-04-16T02:11:35+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044395660284469248/img/b2z2EuOZy0C33Wb3.jpg,https://video.twimg.com/amplify_video/2044395660284469248/vid/avc1/1752x1210/e_KnwGA--ePFd6uq.mp4?tag=21,False
+2044645193261957513,1987756646551236609,AliGrids,Ali Grids,https://pbs.twimg.com/profile_images/2031186728237850624/vhNLfZmj_normal.jpg,"smooth reveal, even smoother copy..@nitishkmrk
+",https://twitter.com/AliGrids/status/2044645193261957513,2026-04-16T05:12:56+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2028523315871264769/img/-4PmwdVDvL538i0T.jpg,https://video.twimg.com/amplify_video/2028523315871264769/vid/avc1/960x960/2UyaW36ItbfP6W3I.mp4?tag=21,False
+2044661307790750180,1324198319535521795,KKaWSB,KK.aWSB,https://pbs.twimg.com/profile_images/1597151544004132864/tTRRgVeE_normal.jpg,"导航应用如何找到最短路线原理：
+
+双向Dijkstra算法的运行过程，一看就懂了。 ",https://twitter.com/KKaWSB/status/2044661307790750180,2026-04-16T06:16:58+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044661073064910849/img/tl3r5eQqShtKdnok.jpg,https://video.twimg.com/amplify_video/2044661073064910849/vid/avc1/720x1280/uwLy_6QVJwltjj_P.mp4?tag=21,False
+2044689337288417597,1219668499448156166,uixamjad,uixamjad,https://pbs.twimg.com/profile_images/2040833403403313152/PesHM_U9_normal.jpg,wow 🤩 btw you can create this amazing loaders in @Dessn_ai by vibe coding 🥳 ,https://twitter.com/uixamjad/status/2044689337288417597,2026-04-16T08:08:21+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2009279950885408769/img/EHvChjcmcvC7moup.jpg,https://video.twimg.com/amplify_video/2009279950885408769/vid/avc1/2718x2062/veiMvMdwbDvlr7gr.mp4?tag=21,False
+2044702858474557670,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,"人们好喜欢做这种东西。
+
+https://github.com/vecartier/cc-beeper ",https://twitter.com/dingyi/status/2044702858474557670,2026-04-16T09:02:04+00:00,photo,https://pbs.twimg.com/media/HGA-afoaYAAvyD9.jpg,,False
+2044712654087045505,1998006140286935041,QingQ77,Geek Lite,https://pbs.twimg.com/profile_images/2004028412730789892/4IFUGOl2_normal.jpg,"把 GitHub 仓库直接挂到 Mac 上当本地文件夹用，点开就能看文件内容。
+
+https://github.com/indragiek/GHFS
+
+GHFS 是个 macOS 小工具，用 Apple 自家的 FSKit 把 GitHub 上的仓库变成你电脑里的只读文件夹。不需要装 macFUSE、git 这些外部工具，点开文件就读内容，后台慢慢克隆，克隆完自动替换。能自动列出你账号下的仓库，也能搜公开仓库挂进来",https://twitter.com/QingQ77/status/2044712654087045505,2026-04-16T09:41:00+00:00,photo,https://pbs.twimg.com/media/HF7JoxMbIAA_cDV.jpg,,True
+2044731782940217741,1303593541382344705,borisdeveloper,Boris from Kupertino,https://pbs.twimg.com/profile_images/1934666436607184896/ijjqz5eX_normal.jpg,@tar_uniqueee Made an app to change icons in one step ✌🏻 ,https://twitter.com/borisdeveloper/status/2044731782940217741,2026-04-16T10:57:00+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044731724513579009/img/AF236QoIHgH4eYw2.jpg,https://video.twimg.com/amplify_video/2044731724513579009/vid/avc1/1280x792/PFDja37bUTi6MB9r.mp4?tag=21,False
+2044751520223350991,284965609,FradSer,Frad,https://pbs.twimg.com/profile_images/1309149063120642051/BKmpWP-l_normal.jpg,下个项目一定用上,https://twitter.com/FradSer/status/2044751520223350991,2026-04-16T12:15:26+00:00,,,,False
+2044762666380796024,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,The BEST design tool this week! basement studio is 🐐,https://twitter.com/dingyi/status/2044762666380796024,2026-04-16T12:59:44+00:00,,,,False
+2044769616082423983,296593919,vikingmute,Viking,https://pbs.twimg.com/profile_images/725179208528322560/TPjU7qop_normal.jpg,"Impeccable 升级到 2.0 了，这应该是目前我觉得最好的 design skills 了，anti AI slop
+https://impeccable.style/ 
+
+推出了CLI 工具，无需 LLM 即可扫描代码，检测 25 种 AI slop 设计。
+Chrome 扩展，一键检测任意网页。
+各种升级和精简的命令。
+全新的文档界面，有前后设计对比图，有 Visual Mode 检测，有 Anti-patterns。
+
+真的是非常好，想要一个不一样的，没有 AI 味的设计，可以试一下。",https://twitter.com/vikingmute/status/2044769616082423983,2026-04-16T13:27:21+00:00,,,,True
+2044772304006377836,1073199411348553729,cavalry__app,Cavalry,https://pbs.twimg.com/profile_images/1389865477556641792/Vy8Ce3IL_normal.jpg,"It’s official everyone!!
+
+We’re thrilled to share the news that Cavalry is now free!
+
+Download it and start creating today at http://cavalry.studio ",https://twitter.com/cavalry__app/status/2044772304006377836,2026-04-16T13:38:01+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044772239510511616/img/SHO3N6631slhS7_H.jpg,https://video.twimg.com/amplify_video/2044772239510511616/vid/avc1/720x900/1L4QMvB8e1UwdQ-i.mp4?tag=21,True
+2044773843416604827,1590927428,hwwaanng,Hwang,https://pbs.twimg.com/profile_images/1361512556930600969/LBwP2_YZ_normal.jpg,接了一下 wterm . dev ，对味了！！ ,https://twitter.com/hwwaanng/status/2044773843416604827,2026-04-16T13:44:08+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044773636935143424/img/mIxo4zDSsQA4W48g.jpg,https://video.twimg.com/amplify_video/2044773636935143424/vid/avc1/3188x2128/ubphpt0iYn7ZEEV9.mp4?tag=21,False
+2044791095016480852,243425193,raphaellopesph,Rapha,https://pbs.twimg.com/profile_images/2038706158089965568/HoL712Sv_normal.jpg,working on this little camera interface in @sketch. just realized it's the first time i've ever worked on a camera app ,https://twitter.com/raphaellopesph/status/2044791095016480852,2026-04-16T14:52:42+00:00,photo,https://pbs.twimg.com/media/HGCOVWKXMAA3U0f.jpg,,False
+2044791850637357552,1521301070,nullbytes00,Shobhit - Building SuperCmd,https://pbs.twimg.com/profile_images/1983220476395544576/REUfCUkX_normal.jpg,"@uixamjad will be adding this in http://dynamicisland.app
+https://x.com/nullbytes00/status/2042392333631832331",https://twitter.com/nullbytes00/status/2044791850637357552,2026-04-16T14:55:42+00:00,,,,True
+2044805973085454518,1599587232175849472,perplexity_ai,Perplexity,https://pbs.twimg.com/profile_images/2009310641165660160/XArF3_Ib_normal.jpg,"Today we're releasing Personal Computer.
+
+Personal Computer integrates with the Perplexity Mac App for secure orchestration across your local files, native apps, and browser.
+
+We’re rolling this out to all Perplexity Max subscribers and everyone on the waitlist starting today. ",https://twitter.com/perplexity_ai/status/2044805973085454518,2026-04-16T15:51:49+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044805831334752256/img/b_-8ZALHlgfYBPFU.jpg,https://video.twimg.com/amplify_video/2044805831334752256/vid/avc1/1280x720/K1GOqEGc_L_GJc5D.mp4?tag=14,False
+2044835383981269430,86647560,kierajmumick,Kieraj Mumick,https://pbs.twimg.com/profile_images/1954706584053141504/VbPM3PyE_normal.jpg,"Cursor Details:
+- It takes a playful path when moving between points
+- It wiggles to indicate the model is thinking
+- It's color is derived from the portion of the wallpaper thats directly behind it
+- the fog around the cursor makes a small cursor easier to see ",https://twitter.com/kierajmumick/status/2044835383981269430,2026-04-16T17:48:41+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2044831400558575616/img/F_DdpchUuI9UJHZC.jpg,https://video.twimg.com/amplify_video/2044831400558575616/vid/avc1/1138x720/iLVu4kMONosKjeq5.mp4?tag=14,False
+2044836804315017390,1653902818363822082,notjerrywang,jerrywang,https://pbs.twimg.com/profile_images/2016666781411323904/spkgYyUI_normal.jpg,this is so addictively fun! i need to stop now ,https://twitter.com/notjerrywang/status/2044836804315017390,2026-04-16T17:54:20+00:00,photo,https://pbs.twimg.com/media/HGC4DiBXQAAdpXi.jpg,,False
+2044989331950174658,4018962791,TweetsByTBI,The Brand Identity,https://pbs.twimg.com/profile_images/1774761854306324480/-imXshxF_normal.jpg,Studio Temp’s custom typeface for PARSEL SYSTEMS draws its geometric letterforms from the carry system’s own hardware shapes. ,https://twitter.com/TweetsByTBI/status/2044989331950174658,2026-04-17T04:00:25+00:00,video,"https://pbs.twimg.com/media/HGFC5dia8AAEIi2.jpg,https://pbs.twimg.com/amplify_video_thumb/2044989265663422464/img/-8C0dZsSm42tPxN_.jpg,https://pbs.twimg.com/media/HGFC9X7bgAA7nOx.jpg",https://video.twimg.com/amplify_video/2044989265663422464/vid/avc1/720x900/sCkPToT7gW5bbxeM.mp4?tag=14,False
+2045044995829485971,284965609,FradSer,Frad,https://pbs.twimg.com/profile_images/1309149063120642051/BKmpWP-l_normal.jpg,"推荐一下 Anthropic 的这个课程，可以补充 AI 的理论基础
+
+https://anthropic.skilljar.com/ai-capabilities-and-limitations",https://twitter.com/FradSer/status/2045044995829485971,2026-04-17T07:41:36+00:00,,,,True
+2045059656473833655,2983609905,changtuixiansen,Legs,https://pbs.twimg.com/profile_images/2010563398447386624/3-8JtY2p_normal.jpg,"Cove.X  同步你在 X 书签中的图片与视频, 用更干净的方式浏览和回看灵感内容
+如果你也有用 X 书签收藏灵感的需求可以试试我 Vibe Coading 的桌面软件 ",https://twitter.com/changtuixiansen/status/2045059656473833655,2026-04-17T08:39:52+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2045058922315476992/img/jkShTrh8RXGB6c6Q.jpg,https://video.twimg.com/amplify_video/2045058922315476992/vid/avc1/1706x720/21Dux22bgLGqClua.mp4?tag=14,False
+2045059659070124285,2983609905,changtuixiansen,Legs,https://pbs.twimg.com/profile_images/2010563398447386624/3-8JtY2p_normal.jpg,下载体验地址https://zest-chopper-a30.notion.site/Cove-X-34209a1767cc809490b6f4bd039d6c42,https://twitter.com/changtuixiansen/status/2045059659070124285,2026-04-17T08:39:52+00:00,,,,True
+2045069352752341155,216349910,martin_uix,Martin Mroc,https://pbs.twimg.com/profile_images/2008205590472830976/mXOhF4c6_normal.jpg,@tar_uniqueee iiiiiiha 🤠 ,https://twitter.com/martin_uix/status/2045069352752341155,2026-04-17T09:18:23+00:00,photo,https://pbs.twimg.com/media/HGGLqGbWAAAkNrt.jpg,,False
+2045078142579294429,488374481,itsnotchester,chester,https://pbs.twimg.com/profile_images/1979228728363216898/m0mIQpGu_normal.jpg,"papercut fix on @mobbin
+
+Before: horizontal scroll doesn't work when your mouse is on the gaps between screens
+
+After: horizontal scroll works consistently regardless of mouse position ",https://twitter.com/itsnotchester/status/2045078142579294429,2026-04-17T09:53:19+00:00,video,"https://pbs.twimg.com/amplify_video_thumb/2045078103215812608/img/cp_TnkywqfJkFQ_4.jpg,https://pbs.twimg.com/amplify_video_thumb/2045078122425708544/img/B50GR8zjyCsUGTj6.jpg",https://video.twimg.com/amplify_video/2045078103215812608/vid/avc1/960x720/pQcyxSEL8Az3K4ls.mp4?tag=14,False
+2045162321589252458,475129543,Flomerboy,Ryan Mather,https://pbs.twimg.com/profile_images/1991725012554747904/kkh7EjhO_normal.jpg,"🧵 My tips for getting the best results out of Claude Design! I’m on the verticals team at Anthropic which means I serve 7 different products. Claude Design makes it possible!
+1. Set up your design system and your core screens. An hour of setup and refinement here is worth it",https://twitter.com/Flomerboy/status/2045162321589252458,2026-04-17T15:27:49+00:00,,,,False
+2045189394915528979,1547695042826948613,mrblackstudio,Lee Black,https://pbs.twimg.com/profile_images/1890667411512123392/uS2hEezR_normal.jpg,"Unlimited access to all @framer + @figma products: past, present, and future.",https://twitter.com/mrblackstudio/status/2045189394915528979,2026-04-17T17:15:24+00:00,,,,False
+2045215253433360696,347139433,hi_caicai,CaiCai,https://pbs.twimg.com/profile_images/1713815909666893824/1gi2GROT_normal.jpg,"我最近有个挺认真的想法，今年把公司在 Figma 上的订阅停掉，彻底推动一套新的产品设计工作模式。原因有三点：
+
+1、Figma 这一代设计工具，在 AI 时代已经有点过时了。我们还需要设计，设计产出依然关键，但不需要旧的设计模式
+2、指望 AI 生成设计稿，再还原界面，是一条死胡同。我不看好这类工具，既然可以直接生成原型，为什么还要让 token 在两边各烧一遍？
+ 3、这个时代真正属于产品设计师的工具还没出现，但我可以先从流程和协作方式改起。更让我兴奋的是，我也很想试试去 build 出这样的工具。",https://twitter.com/hi_caicai/status/2045215253433360696,2026-04-17T18:58:09+00:00,photo,https://pbs.twimg.com/media/HGIM8lsa8AAP-Rx.jpg,,False
+2045257582470983691,14196511,karrisaarinen,Karri Saarinen,https://pbs.twimg.com/profile_images/1755734420798259200/Y_94Rjjx_normal.jpg,http://x.com/i/article/2045253333099970560,https://twitter.com/karrisaarinen/status/2045257582470983691,2026-04-17T21:46:21+00:00,photo,https://pbs.twimg.com/media/HGIzih_aQAA2GFT.jpg,,True
+2045273106898407541,1371152575270154246,kaolti,Zsolt Kacso,https://pbs.twimg.com/profile_images/1930217738019950592/8vGuK6or_normal.jpg,"Love these dot patterns, playing with hover and click transitions ",https://twitter.com/kaolti/status/2045273106898407541,2026-04-17T22:48:02+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2045272784771670016/img/WwoKHdnuztTpRN6S.jpg,https://video.twimg.com/amplify_video/2045272784771670016/vid/avc1/3840x2156/9Ptt4K_1zeZGzP1U.mp4?tag=21,False
+2045327385763913731,3178231,dotey,宝玉,https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_normal.jpeg,"Anthropic 自家设计师 Ryan Mather，一人负责公司 7 个产品线。他发的几条自己用 Claude Design 的心得，结合官方教程：
+
+1. 别急着干活，先花一小时搭你的设计系统。
+
+把代码库、设计稿、品牌素材全塞给 Claude，让它抽出一套 UI Kit 并直接发布。这一小时的投入，以后你每次生成设计稿，风格都会自动套用，性价比爆表。公司要全面推开，可以投入一到两周做系统沉淀，道理不变：先沉下去规范，后面才有复利。
+
+2. 别再玩接力，跟工程师一起边聊边改。
+
+过去那种“设计师出稿→甩给工程师实现→回来再修改”的模式，已经过时了。开个会，你们一起看着画布，边讨论边敲定方案，一场会定下来直接开发，效率拉满。
+3. 结构级大改用聊天，细节调整点评论。
+
+你想换个深色模式、布局大洗牌、新增设置面板，或者一次出多个方向，这种级别的任务用聊天界面效率最高；按钮 padding 调一下、颜色换一换、输入框改下拉菜单，这种小修小补直接在元素上评论就行，精准又快速。
+
+4. 反馈要具体，别给模糊情绪。
+
+官方举过一个特别好的例子：「看着不对劲」就是最差反馈，而「表单字段间距改成 8px」才是智能体最爱听的明确指令。Claude 最擅长处理具象具体的要求，不善于揣摩你抽象的审美情绪。
+
+5. 接上 Connector，让 Claude 读懂上下文。
+
+Ryan Mather 提到他最爱的用法：把产品吐槽会议的纪要喂给 Claude，然后出去溜达一圈，回来一份完整的解决方案 Deck 已经自动生成了。
+
+让 Claude 干复杂又综合的脑力活儿，你腾出手做更重要、更有创造力的事。
+
+6. 关键时刻，别怕手工慢下来。
+
+新图标、核心插画、产品名字、品牌形象，这类活儿别指望模型给你完美答案。这不是 Claude 不够牛，而是这事儿本质上考验的是你的个人品味和判断。Ryan 把这叫作“Agentic Designing 的艺术部分”。
+
+7. 挂代码要精准，别塞整个 monorepo。
+
+把整个 repo 拖进去会直接卡爆浏览器，模型的上下文也被无用信息污染了。你只要挂目标组件的文件夹或 package 就够了，记得排除 .git 和 node_modules，干净利索。
+
+再补两条官方没说的小窍门：
+
+1) 多开几个 Chat 平行探索。
+
+同一个想法开 3 个对话，各自往不同方向跑一段，然后再挑精华合并，比在一个对话里反复折腾要高效太多。
+
+2) 团队 Leader 得改改你的审查流程。
+
+以前是“人做、人审”，现在是“Claude 做、人审”，这个差别巨大。如果你不调整节奏和人力配置，工具的价值会浪费一半，审查这一步一定要重构。",https://twitter.com/dotey/status/2045327385763913731,2026-04-18T02:23:43+00:00,,,,False
+2045356939828507054,1370392009295364096,djdksnel,Snslas,https://pbs.twimg.com/profile_images/1854191071837978624/zvIHQVKs_normal.jpg,"Ryan Mather 7 點建議加上一些我自己的想法
+
+> 1. 先使用過去的資料建立 Design System
+Design System 是項目的設計規範，先定義好之後才能夠讓整體設計更一致避免讓作品像是混雜拼接，對於新項目也應該要先自己定義風格。
+
+> 2. 與工程師一起協作
+Claude Design 快速調整頁面，這就可以與其他人一起在會議上修改馬上看到效果，過去需要先記錄後才修改如果效果不好又要再次溝通就很消耗時間。
+
+> 3. 使用 comment 更精準且快速的調整
+每個要調整的細節直接針對要調整的部分加上 comment 。
+
+> 4. 讓 Claude 直接生成 Demo
+過去使用 figma 可以設計 UIUX 但是當要給客戶看時一定會被問如何操作，雖然有 present 模式但在前期處理很花時間，現在可以直接叫 Claude 生成就好。
+
+> 5. 使用 connectors 連結不同工具
+重點在於將 Claude Design 加入到工作流中而不是單純的工具使用，例如當會議結束時讓 Claude Design 查看會議記錄給出可行的方案。
+
+> 6. 讓 Claude 即時打造工具
+這是我自己最喜歡的建議，不要被過去經驗束縛嘗試用全新方式使用 Claude Design 缺少工具就叫 Claude 別先預設能力邊界。
+
+> 7. 試著慢下腳步分清楚什麼時候給 Claude Design 處理，什麼時候該自己手動。
+設計是一種品味需要自己試著培養，隨時使用 `Edit` 自己手動調整",https://twitter.com/djdksnel/status/2045356939828507054,2026-04-18T04:21:10+00:00,photo,https://pbs.twimg.com/media/HGJ-z-xaAAAjHUf.jpg,,False
+2045456759268221431,2895615575,YunaisChen,尤a娜🥨,https://pbs.twimg.com/profile_images/1652189317673144320/OIhu7h8g_normal.jpg,最近的AI design产品对设计师来说是面很好的镜子，审视一下你是否也像AI一样为了设计得更快，或只是为了完成目标而忽略了UI设计师的工作是解决问题而不是生产界面。,https://twitter.com/YunaisChen/status/2045456759268221431,2026-04-18T10:57:48+00:00,,,,False
+2045473469245411470,1930281921810182147,cheerselflin,林悦己Cheer,https://pbs.twimg.com/profile_images/2011093241915957249/LrxEjhBn_normal.jpg,https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts/blob/main/README_zh-CN.md,https://twitter.com/cheerselflin/status/2045473469245411470,2026-04-18T12:04:12+00:00,,,,True
+2045475305016397977,1721989493605986304,kosta4a,kosta4a,https://pbs.twimg.com/profile_images/2053947544590233600/aUatCUCF_normal.jpg,expanding ,https://twitter.com/kosta4a/status/2045475305016397977,2026-04-18T12:11:30+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2045475226780307456/img/9-19d1j1aR9SNPSL.jpg,https://video.twimg.com/amplify_video/2045475226780307456/vid/avc1/3394x2048/rKr3MWbblugYeYJo.mp4?tag=21,False
+2045526580903260593,854722070101360641,ZaynHao,Zayn Hao,https://pbs.twimg.com/profile_images/1490844347721342981/_vcCNxRm_normal.jpg,http://x.com/i/article/2045524698172428288,https://twitter.com/ZaynHao/status/2045526580903260593,2026-04-18T15:35:15+00:00,photo,https://pbs.twimg.com/media/HGMrJcMa8AAdp7q.jpg,,True
+2045869750132076704,1566851334283870210,marcelkargul,Marcel,https://pbs.twimg.com/profile_images/2010353800570097664/2fY1xSFA_normal.jpg,"Design websites that should be illegal to know:
+
+UI Components → http://pro.alignui.com
+Bento → http://bentogrids.com
+Backgrounds → http://grainient.supply
+Insipiration → http://mobbin.com ",https://twitter.com/marcelkargul/status/2045869750132076704,2026-04-19T14:18:53+00:00,photo,https://pbs.twimg.com/media/HGRjsWDbYAA0mFK.jpg,,True
+2045877036783153425,1371152575270154246,kaolti,Zsolt Kacso,https://pbs.twimg.com/profile_images/1930217738019950592/8vGuK6or_normal.jpg,"Try it here:
+https://experiments.thisiswhitespace.com/dot-hover-cards",https://twitter.com/kaolti/status/2045877036783153425,2026-04-19T14:47:50+00:00,,,,True
+2046046295861993543,1669276256,op7418,歸藏(guizang.ai),https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_normal.jpg,开源了：https://x.com/op7418/status/2046045574118691143?s=20,https://twitter.com/op7418/status/2046046295861993543,2026-04-20T02:00:25+00:00,,,,False
+2046073724382929350,771113795850678272,KengGuangLong,loonggg,https://pbs.twimg.com/profile_images/1802706038589935616/DxNYHYGE_normal.jpg,"推荐一个开源项目，用 Obsidian 加上 OpenCode 搭建一个完全属于你自己的 AI 知识库，5 分钟就能跑起来。
+
+先说它解决的核心问题。很多人用 Obsidian 记笔记，记着记着就变成了一个信息垃圾场，东西越塞越多，找起来越来越难，最后这个知识库就废在那了。这个项目的思路是让 AI 来帮你打理整个知识库，从录入到整理到查询到维护，全链路都有 AI 介入。
+
+录入这块做得很省心。文章、PDF、截图，不管什么格式直接丢给它，AI 会自动整理成结构化的笔记存进 Obsidian。社交媒体的内容也能采集，小红书、抖音、Twitter、微博这些平台上看到的好内容，通过 OpenCLI 驱动，一键就能归类、分析、消化到你的知识库里。这个功能对于平时刷信息流刷到好东西但转头就忘的人来说太实用了。
+
+查询的体验也很自然，像聊天一样直接问 AI，比如「我之前写过关于某某的内容吗」，它会帮你从整个知识库里找出来。不用自己翻文件夹，不用记标签，说人话就行。
+
+还有一个很贴心的功能叫定期体检。AI 会自动检查你知识库的健康度，帮你发现死链、重复内容、孤岛页面这些问题。知识库用久了难免会乱，有个东西定期帮你做清理和诊断，能让整个库一直保持在可用的状态。
+
+数据安全方面完全不用担心，所有东西都存在你自己的电脑上，不上传云端。部署也简单，跑一个脚本，5 分钟搞定安装，没有复杂的配置流程。
+
+传送门：http://github.com/zxfccmm4/Obsidian-OpenCode-Knowledge",https://twitter.com/KengGuangLong/status/2046073724382929350,2026-04-20T03:49:24+00:00,,,,True
+2046106351475237202,50683,dingyi,Ding,https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg,"发现一个小而美的图片视频压缩软件。
+
+https://dinkyfiles.com/ ",https://twitter.com/dingyi/status/2046106351475237202,2026-04-20T05:59:03+00:00,photo,https://pbs.twimg.com/media/HGU64jlbQAAvrYz.jpg,,False
+2046257835571585330,2472276061,frknksglu,Furkan Köseoğlu,https://pbs.twimg.com/profile_images/1547275961481166851/fYEahriE_normal.jpg,"Zodex gives your Linear superpower (beta)
+- Create your own agent
+- Assign to any issue 
+- Let it cook! ",https://twitter.com/frknksglu/status/2046257835571585330,2026-04-20T16:01:00+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2045895504756932608/img/q9vA-aEq5-VFN_OW.jpg,https://video.twimg.com/amplify_video/2045895504756932608/vid/avc1/3084x2082/mwnqxsM9xG32hz9O.mp4?tag=21,False
+2046348304695656562,4018962791,TweetsByTBI,The Brand Identity,https://pbs.twimg.com/profile_images/1774761854306324480/-imXshxF_normal.jpg,"Atlas 01 is a bold, system-driven logo reveal designed to frame your visual universe. Built with expression-based controls, this After Effects template allows you to randomise element scale, adjust the background colour, and freely reposition media without breaking the animation. ⁠",https://twitter.com/TweetsByTBI/status/2046348304695656562,2026-04-20T22:00:29+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046348255047626752/img/731DLjakDRwqogRm.jpg,https://video.twimg.com/amplify_video/2046348255047626752/vid/avc1/960x720/RS7BiOAZzfElld7g.mp4?tag=14,False
+2046388725912076760,11777842,joshpuckett,joshpuckett,https://pbs.twimg.com/profile_images/1270368527690522626/-3QQH-bB_normal.jpg,"Pica is a fully native app for managing your fonts on MacOS. 
+
+Organize into collections, test color themes and logos, watch folders, manage what's installed, and much more.
+
+Available for free at https://pica.joshpuckett.me/ ",https://twitter.com/joshpuckett/status/2046388725912076760,2026-04-21T00:41:06+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046388465307410432/img/o4RdWNGKtthEmqjc.jpg,https://video.twimg.com/amplify_video/2046388465307410432/vid/avc1/2972x2160/yCR_iVxWLfZqvFrm.mp4?tag=21,True
+2046460848928157821,133153722,nash_su,nash_su - e/acc,https://pbs.twimg.com/profile_images/1113084498197934081/upZQx3_i_normal.png,http://x.com/i/article/2046457563731124224,https://twitter.com/nash_su/status/2046460848928157821,2026-04-21T05:27:42+00:00,photo,https://pbs.twimg.com/media/HGZ6gaHbYAAUBD5.jpg,,True
+2046461408519581851,133153722,nash_su,nash_su - e/acc,https://pbs.twimg.com/profile_images/1113084498197934081/upZQx3_i_normal.png,"深度好文👍，这是 Jakob Nielsen（尼尔森诺曼集团创始人、UX 领域泰斗）写的关于 AI 时代用户体验设计的深度长文。
+
+我读完极受启发，改写提炼成了中文版方便大家阅读，原文链接在文章末尾。
+
+文中提到很多思路和概念我都在各种牛逼产品中零星见到很棒的落地实现，但是还没有见到一个集大成者。",https://twitter.com/nash_su/status/2046461408519581851,2026-04-21T05:29:55+00:00,,,,False
+2046526831466061830,1502736220836843522,sparseal,Sparseal,https://pbs.twimg.com/profile_images/1757551416749539328/Vbjcz2Y8_normal.jpg,Wafer 1.2 for Windows is now available for purchase. ,https://twitter.com/sparseal/status/2046526831466061830,2026-04-21T09:49:53+00:00,photo,https://pbs.twimg.com/media/HGa25LEWAAADeo0.jpg,,False
+2046537227669586412,357250088,realvjy,vijay verma,https://pbs.twimg.com/profile_images/1687395890808365056/CPrRJZlX_normal.jpg,"Had some fun exploring @framer shaders over the weekend and made these posters! Here's a look at the BTS, and Remix link shared. ",https://twitter.com/realvjy/status/2046537227669586412,2026-04-21T10:31:12+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046536998652153856/img/-jTFFBdYCYNmEd9o.jpg,https://video.twimg.com/amplify_video/2046536998652153856/vid/avc1/2000x1400/Mps_3pT--TBsWIHg.mp4?tag=21,False
+2046545522635448456,974517717200875529,localhost_4173,低空飞行,https://pbs.twimg.com/profile_images/2046898583031664640/tyEq8TiB_normal.jpg,"免费开源的 Cleanshot X 替代 🫪🫪🫪
+
+http://awesomemacapp.com/app/capso ",https://twitter.com/localhost_4173/status/2046545522635448456,2026-04-21T11:04:10+00:00,video,https://pbs.twimg.com/tweet_video_thumb/HGbKJ1bbsAAkY9J.jpg,https://video.twimg.com/tweet_video/HGbKJ1bbsAAkY9J.mp4,True
+2046546511337549986,1479118183797645317,goo_vision,goo.vision,https://pbs.twimg.com/profile_images/2023487210302173190/fVNP9plu_normal.jpg,Gm ,https://twitter.com/goo_vision/status/2046546511337549986,2026-04-21T11:08:05+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046546401056653313/img/rm803EcZ00xt02mX.jpg,https://video.twimg.com/amplify_video/2046546401056653313/vid/avc1/1080x1080/YBieybPp1JVmz4fS.mp4?tag=21,False
+2046555912945746144,893369654768529408,viktoroddy,Viktor Oddy,https://pbs.twimg.com/profile_images/1941325782829113344/buT3DYqx_normal.jpg,"Generated this social media post templates with Claude Design.
+
+Prompt below ↓ ",https://twitter.com/viktoroddy/status/2046555912945746144,2026-04-21T11:45:27+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046555630652317696/img/YGYFA2vK_I7p2bZQ.jpg,https://video.twimg.com/amplify_video/2046555630652317696/vid/avc1/1880x1080/589YVCPfndhm3vkw.mp4?tag=21,False
+2046579515049021942,94619082,grillitype,Grilli Type,https://pbs.twimg.com/profile_images/819226609794318336/VBA0Bw9W_normal.jpg,"◾GT Mechanik is the message ◾
+
+Built on a monospaced foundation with rhythmic spacing, our newest typeface invites designers to find the tone that suits their message.
+
+◾ Visit → http://gt-mechanik.com
+
+Designed by Noël Leu, Reto Moser, @shiva__n 
+
+◻Out Now◻
+
+#GrilliType ",https://twitter.com/grillitype/status/2046579515049021942,2026-04-21T13:19:14+00:00,video,"https://pbs.twimg.com/amplify_video_thumb/2046578968946417664/img/oXvQ-8MB0AjGQB2A.jpg,https://pbs.twimg.com/amplify_video_thumb/2046578968938037248/img/q8OfQwGoHUQFY5G1.jpg,https://pbs.twimg.com/media/HGbouqAWMAA9MTb.jpg,https://pbs.twimg.com/media/HGbouqBWsAAn7Qa.jpg",https://video.twimg.com/amplify_video/2046578968946417664/vid/avc1/720x900/H0pOpGfbeTjiixJV.mp4?tag=14,True
+2046581756523123192,1669276256,op7418,歸藏(guizang.ai),https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_normal.jpg,"GPT-Image-2 太猛了呀！
+
+我随便拍了一张图片，让他给我生成宣传图，什么都没说。
+
+他给我搞的这个氛围非常上档次 ",https://twitter.com/op7418/status/2046581756523123192,2026-04-21T13:28:09+00:00,photo,https://pbs.twimg.com/media/HGbrCCAbYAABbae.jpg,,False
+2046585177170968778,1521688129559613440,HiTw93,Tw93,https://pbs.twimg.com/profile_images/1960753219115868169/EOxKSK4w_normal.jpg,"👷 Kami is now open source. Your AI writes well. Now your docs can look good too.
+
+A design system for AI-native docs: one-pagers, resumes, portfolios, letters, long docs, and slides. Bilingual, diagram-ready, print-ready. Zero setup. 
+
+https://github.com/tw93/kami ",https://twitter.com/HiTw93/status/2046585177170968778,2026-04-21T13:41:44+00:00,photo,https://pbs.twimg.com/media/HGbuBHjbcAAAIy7.jpg,,False
+2046585833504027086,1404738934043602947,Jackywine,Jackywine,https://pbs.twimg.com/profile_images/1805875520430915586/x3t_sQdd_normal.jpg,GPT Image 2 Prompts Collection,https://twitter.com/Jackywine/status/2046585833504027086,2026-04-21T13:44:21+00:00,,,,False
+2046585874926743563,905103504737492992,lusionltd,Lusion™,https://pbs.twimg.com/profile_images/1581942239919497216/jZA-vOHu_normal.jpg,"Part 3/7 of our Oryzo behind the scenes series is now live.
+
+This one covers the website UX/UI, illustrations, and the design decisions behind keeping the interface quiet while letting the content do the talking.
+
+⭨ https://blog.lusion.co/oryzo-bts-part-3-7-website-ux-ui-and-illustrations ",https://twitter.com/lusionltd/status/2046585874926743563,2026-04-21T13:44:30+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046584969581993985/img/A8CuJ17fbtR5QIin.jpg,https://video.twimg.com/amplify_video/2046584969581993985/vid/avc1/1712x2000/hnUsCUwvDR3xKhtj.mp4?tag=21,True
+2046592856354328696,5797422,MengTo,Meng To,https://pbs.twimg.com/profile_images/1098613826709348353/_9_0Nd2X_normal.png,"@Jim_Faster To be fair, I use an existing design from http://neuform.ai + the motion design skill",https://twitter.com/MengTo/status/2046592856354328696,2026-04-21T14:12:15+00:00,,,,True
+2046613339300929979,322684937,yitong,yitong,https://pbs.twimg.com/profile_images/1495509880731582470/vhXmYxqd_normal.png,"Introducing @runneragent, the knowledge work agent that works across all your apps to get real work done
+
+It's simply the best way to stay on top of messages, project management, user feedback, and much more
+
+Runner has become a daily driver for me and I think you'll like it too ",https://twitter.com/yitong/status/2046613339300929979,2026-04-21T15:33:38+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046612720984997888/img/plvbtbctEAmPXhTP.jpg,https://video.twimg.com/amplify_video/2046612720984997888/vid/avc1/3322x2160/VfV1Ly-a_4JtD9RT.mp4?tag=21,False
+2046618522466578838,2522806836,cellier_,Cellier,https://pbs.twimg.com/profile_images/1565659600631738368/22zA-Zui_normal.jpg,Perplexity Personal Computer 的设计也太美的吧，我靠。 ,https://twitter.com/cellier_/status/2046618522466578838,2026-04-21T15:54:14+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046618313636380672/img/LCpJgOUxtLI25bFY.jpg,https://video.twimg.com/amplify_video/2046618313636380672/vid/avc1/1920x1080/QG-8fLnSZyFiQplO.mp4?tag=21,False
+2046618674279162344,4009171816,KMkota0,xavier (jack),https://pbs.twimg.com/profile_images/773427888360161280/TgO3ynCO_normal.jpg,"pov:
+you think motion graphics should be fun
+so you are building a new tool ",https://twitter.com/KMkota0/status/2046618674279162344,2026-04-21T15:54:50+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046618296854675457/img/eVFf4DV6XgGZzy-4.jpg,https://video.twimg.com/amplify_video/2046618296854675457/vid/avc1/1080x1080/bP597dmkO3AqO5rC.mp4?tag=21,False
+2046620067853680824,854722070101360641,ZaynHao,Zayn Hao,https://pbs.twimg.com/profile_images/1490844347721342981/_vcCNxRm_normal.jpg,独特的 onboarding 设计。 ,https://twitter.com/ZaynHao/status/2046620067853680824,2026-04-21T16:00:23+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046419379039125504/img/y9mXQuUYexBygc9c.jpg,https://video.twimg.com/amplify_video/2046419379039125504/vid/avc1/1920x1080/L-_E38tHZC13ghlL.mp4?tag=21,False
+2046624080057790492,1265308893099393025,anxndsgn,XIN,https://pbs.twimg.com/profile_images/1941543712850583552/wmCr-PT0_normal.jpg,"向大家介绍 Ink UI！
+这是基于 base-ui 的 http://flowingto.com 所使用的组件库，现在将其单独拿出来开源了。
+整体的设计思路是略带暖色的色调、较大圆角、舒适的 动效来营造一种舒适、温暖的感觉。（虽然最近给 claude design 用烂了😅）
+还会陆续补充其他组件，欢迎访问 http://ink-ui.com  探索 :)",https://twitter.com/anxndsgn/status/2046624080057790492,2026-04-21T16:16:19+00:00,photo,https://pbs.twimg.com/media/HGcOO7LbsAAmpq7.jpg,,True
+2046624729403142320,1620975829194018816,stitchbygoogle,Stitch by Google,https://pbs.twimg.com/profile_images/2037662082771116032/ZQ1T1io3_normal.png,"Today, we’re open-sourcing the draft specification for DESIGN.md, so it can be used across any tool or platform. We’re also adding new capabilities.
+
+DESIGN.md lets you easily export and import your design rules from project to project. Instead of guessing intent, agents know exactly what a color is for and can even validate their choices against WCAG accessibility rules.
+
+Watch David East break down this shared visual language in action👇. New capabilities and links in 🧵",https://twitter.com/stitchbygoogle/status/2046624729403142320,2026-04-21T16:18:54+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046623229364830208/img/PMuNWUCkkHvMkNen.jpg,https://video.twimg.com/amplify_video/2046623229364830208/vid/avc1/1920x1080/rA6z7Y92ykCMQy0E.mp4?tag=21,False
+2046627021674168640,241895990,MrLarus,Larus Canus,https://pbs.twimg.com/profile_images/1863595862196363264/-JQahom9_normal.jpg,http://x.com/i/article/2046546439505956864,https://twitter.com/MrLarus/status/2046627021674168640,2026-04-21T16:28:01+00:00,photo,https://pbs.twimg.com/media/HGcRiqTbsAAmgnP.jpg,,True
+2046645359993098503,4056992895,awsmd_com,Awesomed,https://pbs.twimg.com/profile_images/1063705585361727488/SpdwPHrH_normal.jpg,AI Logo Branding ,https://twitter.com/awsmd_com/status/2046645359993098503,2026-04-21T17:40:53+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046645330511298560/img/ykcQBuUQfiFSri6W.jpg,https://video.twimg.com/amplify_video/2046645330511298560/vid/avc1/960x720/GtKV_jEz8utITbH6.mp4?tag=14,False
+2046648947192562043,187378879,thomasauros,Thomas Cullen,https://pbs.twimg.com/profile_images/1933068828050632704/c4rJY3OT_normal.jpg,"I love using transcription when taking notes, but i’m not a huge fan of a lot of the apps that offer it. I also don’t like in-meeting note takers. So naturally I built a @raycast extension for transcribing notes. It transcribes both audio input and system audio and uses AI to summarise and copy to clipboard",https://twitter.com/thomasauros/status/2046648947192562043,2026-04-21T17:55:08+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046647819012800512/img/QLnai2PZtwXFl5Nk.jpg,https://video.twimg.com/amplify_video/2046647819012800512/vid/avc1/1920x1080/paHuC-HZD_FqEuZY.mp4?tag=21,False
+2046818782019277015,1998006140286935041,QingQ77,Geek Lite,https://pbs.twimg.com/profile_images/2004028412730789892/4IFUGOl2_normal.jpg,"为 React Native 和 Expo 提供 54 种终端风格加载动画组件，纯文本实现无需原生依赖。
+
+https://github.com/Eronred/expo-agent-spinners
+
+分 Braille、ASCII、箭头、Emoji 四类，用 Text 和 setInterval 就能跑，不碰原生模块。想用哪个直接从 src/components/spinners 复制就行，适合 AI agent 流式输出、CLI 风格界面等场景。",https://twitter.com/QingQ77/status/2046818782019277015,2026-04-22T05:10:00+00:00,video,https://pbs.twimg.com/tweet_video_thumb/HGZlidMbMAAwYjy.jpg,https://video.twimg.com/tweet_video/HGZlidMbMAAwYjy.mp4,True
+2046826591393861707,1398934230407606278,laobaishare,老白（每日干货分享✊）,https://pbs.twimg.com/profile_images/1688863542110507008/RO_U6ecN_normal.jpg,"设计灵感必去网站
+
+网页设计→http://curated.design
+着陆页→http://onepagelove.com
+设计系统→ http://component.gallery
+动画→http://appmotion.design
+应用→http://mobbin.com
+品牌→ http://rebrand.gallery ",https://twitter.com/laobaishare/status/2046826591393861707,2026-04-22T05:41:02+00:00,photo,https://pbs.twimg.com/media/HGfJ7sUbYAAedqo.jpg,,True
+2046834436478796035,2522806836,cellier_,Cellier,https://pbs.twimg.com/profile_images/1565659600631738368/22zA-Zui_normal.jpg,"很多人误以为，
+Design.md 只是另一种“设计规范文档”。
+其实不是。
+
+它既不是 CSS 的替代品，
+也不是一个组件库，
+更不是一套规定你必须怎么做的设计系统格式。
+
+它真正解决的问题是：
+把“设计判断”写下来。
+不是写“怎么做”，
+而是写——
+
+为什么这么做。
+
+比如：
+
+为什么我们坚持用这套栅格？
+为什么标题必须全部大写？
+为什么页面不用纯白 #FFF，而是更偏纸张感的米白？
+为什么整体视觉强调 editorial，而不是 dashboard 感？
+这些东西，平时都存在于优秀设计师的脑子里。
+
+他们知道什么是对的，
+也知道什么虽然“看起来差不多”，但就是不对。
+
+问题是：
+
+这种判断，往往无法被团队继承。
+新人进来靠猜，
+工程师靠感觉还原，
+AI 更只能靠 prompt 碰运气。
+最后结果就是：
+组件是统一的，
+但产品没有“味道”。
+
+看起来都对，
+但就是不高级。
+
+所以我越来越觉得：
+未来真正重要的，不是 Design System，
+而是 Design Intent System。
+
+Design.md 的价值就在这里：
+
+它记录的不是组件，
+而是审美；
+
+不是规则，
+而是判断；
+不是结果，
+而是背后的取舍逻辑。
+比如：
+
+我们为什么偏爱留白，而不是信息堆叠
+
+为什么按钮要克制，而不是到处都是 CTA
+为什么“像一本杂志”比“像一个后台系统”更重要
+
+这些东西，才是真正决定产品气质的部分。
+它让设计从“可复用”，
+走向“可传承”。
+
+对于人来说，
+这是团队共同的视觉共识。
+
+对于 AI Agent 来说，
+这是长期稳定的上下文记忆。
+否则你让 AI 帮你设计，
+本质上就是：
+
+一个没有审美训练的人，
+在帮你做品牌。
+
+Design.md 的本质，不是规范。
+而是：
+
+把品味，变成系统。",https://twitter.com/cellier_/status/2046834436478796035,2026-04-22T06:12:12+00:00,,,,False
+2046847094099702157,2983609905,changtuixiansen,Legs,https://pbs.twimg.com/profile_images/2010563398447386624/3-8JtY2p_normal.jpg,Glyphica 是一款我自己开发的高质量开源小图标工具，收录了 8 万多个优质开源小图标。除了可以作为独立软件直接使用外，也支持通过 MCP 的方式调用这些图标，更方便地接入开发流程。 ,https://twitter.com/changtuixiansen/status/2046847094099702157,2026-04-22T07:02:30+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046845292214149120/img/p4dB7JnFccTs0kaP.jpg,https://video.twimg.com/amplify_video/2046845292214149120/vid/avc1/1706x720/vPnN4xRhS0J37rSd.mp4?tag=14,False
+2046858362760118578,1376403506857308163,amnxnet,Amn || Designer,https://pbs.twimg.com/profile_images/2030204369187262464/Vfvyoe5P_normal.jpg,This is one of the best launch videos I’ve ever seen! ,https://twitter.com/amnxnet/status/2046858362760118578,2026-04-22T07:47:17+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046858118949470208/img/1wU0iyDpu0iD8Svd.jpg,https://video.twimg.com/amplify_video/2046858118949470208/vid/avc1/1920x1080/Y2U1nzX0fAZBXdfc.mp4?tag=21,False
+2046928511034687551,241875548,alex_barashkov,Alex Barashkov,https://pbs.twimg.com/profile_images/1184409305321279489/6jCcvCIL_normal.jpg,"Since many of you asked yesterday: @unkeydev paid us $90k for this rebrand and design.
+
+If you think that’s a lot, it really isn’t once you see how much was delivered. Good branding is not just a logo and a few gradients - it’s a huge system built to help a brand evolve across materials without relying on the same visual trick over and over.
+
+That’s exactly the kind of system we build for companies.
+
+And while today you’ll probably see another round of scary posts about design being eaten by GPT Image 2.0, remember: there are still companies willing to pay a lot for branding done by humans with taste. Those humans may use AI. AI may help speed things up. But it’s still just a tool - and like any tool, you need to learn how to use it.",https://twitter.com/alex_barashkov/status/2046928511034687551,2026-04-22T12:26:01+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046925742672343040/img/SSkWpuhZFNtVu22E.jpg,https://video.twimg.com/amplify_video/2046925742672343040/vid/avc1/3000x2000/4xb85tOd-FxdWnPT.mp4?tag=21,False
+2046956210977669385,1905532312177311745,lovart_ai,LovartAI,https://pbs.twimg.com/profile_images/2065372538763694080/KSuXj3OU_normal.jpg,"Experience Lovart Pencil  +  GPT Image 2.0 : Sketch the future universe and create cinematic masterpieces🌍
+
+Like + repost + follow – 10 lucky winners get 1000 credits each! ",https://twitter.com/lovart_ai/status/2046956210977669385,2026-04-22T14:16:05+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2046955474273423360/img/85fM7SeY_0_AkpFz.jpg,https://video.twimg.com/amplify_video/2046955474273423360/vid/avc1/2880x1600/8qUO1tObOZkpEx9-.mp4?tag=21,False
+2046983752677740843,15890545,NodYoung,Nod,https://pbs.twimg.com/profile_images/1935205913083920384/Ot3jWepL_normal.jpg,"听到一种说法：真正聪明的人一定会喜欢艺术。
+
+好像是很有道理的。艺术的欣赏和解读，需要智商和阅历，而同时拥有这两个能力的人，最大的兴趣爱好就是满世界去找让 ta 感兴趣的“神奇事物”——这就是“艺术”。",https://twitter.com/NodYoung/status/2046983752677740843,2026-04-22T16:05:32+00:00,,,,False
+2047310463235436754,79705600,kusnizza,Vlad Kamelskii,https://pbs.twimg.com/profile_images/2033316529584934912/VrasS301_normal.jpg,@alex_barashkov Enjoy! https://pixelpoint.io/skills/animate-text/,https://twitter.com/kusnizza/status/2047310463235436754,2026-04-23T13:43:46+00:00,,,,True
+2047486546300051478,1669276256,op7418,歸藏(guizang.ai),https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_normal.jpg,http://x.com/i/article/2047484171258634240,https://twitter.com/op7418/status/2047486546300051478,2026-04-24T01:23:27+00:00,photo,https://pbs.twimg.com/media/HGogFm0aMAAhWiM.jpg,,True
+2047575152565821560,1534200914264764417,DTD_STUDIOS,DTD,https://pbs.twimg.com/profile_images/1825754054493884416/JODpxgkd_normal.jpg,"太恶心了，这个 nosh 的负责人还找来说，不好意思太喜欢 CapWords 了，所以抄了一下，希望不要介意。
+
+一边鼓励扶持，做各种黑客松活动，就是能看看能抄什么，太恶心了这样的企业文化。",https://twitter.com/DTD_STUDIOS/status/2047575152565821560,2026-04-24T07:15:33+00:00,,,,False
+2047701073474072712,147786784,yetone,yetone,https://pbs.twimg.com/profile_images/1458663772017491971/h1-KC--K_normal.jpg,"我们的 Yansu App 今天终于 publish 了！
+
+我们为什么要开发 Yansu App 呢？因为我们发现一个很有趣的事情：在以前需要人类亲手写代码的时候，人类分为 coder 和非 coder；在现在人类已经不需要再写代码的时候，人类还是分为 builder 和非 builder。这是因为并不是所有人都有 building sense。
+
+那么我们在想，能否让 AI 主动地去观察用户的日常工作和生活，然后在背后默默地去自动帮他们构建一些提升效率的应用呢？所以，Yansu App 就此诞生了。
+
+我们的本意一直都是让 AI 变得越来越主动，人类只需要被动地做一些极少数必要的决策即可。所以 Yansu 能够自动实时地获得你的操作记录和会议内容，同时这些信息只会保存到本地且进行了脱敏。
+
+这些信息会自动凝结成应用、 Automation、知识和记忆。所以它就会越来越了解你，也越来越能够提前帮你做真正对你有帮助的事情。
+
+下载链接在评论区。",https://twitter.com/yetone/status/2047701073474072712,2026-04-24T15:35:55+00:00,photo,"https://pbs.twimg.com/media/HGrj9bgbUAAPKce.jpg,https://pbs.twimg.com/media/HGrj-OCbAAAt0hU.jpg,https://pbs.twimg.com/media/HGrj_H0akAEgUGf.jpg",,False
+2050589876081545615,1306906370,timelessco,Timeless,https://pbs.twimg.com/profile_images/2051648582881804288/_EWE_xYQ_normal.png,"Introducing Recollect -  Sync all your bookmarks &amp; folders from X, Instagram, Chrome in one place
+
+✦ Save anything with a tap using the extension, iOS iPad apps
+
+✦ Everything is tagged &amp; organised as collections with AI
+
+✦ Visualise &amp; search your taste library
+
+Check it out ↓ ",https://twitter.com/timelessco/status/2050589876081545615,2026-05-02T14:54:59+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2050589270700855296/img/I-g-Bt7KW5Damxbm.jpg,https://video.twimg.com/amplify_video/2050589270700855296/vid/avc1/3840x2160/eg8wR2ASIU42bN9u.mp4?tag=27,False
+2050633685582373245,1834694705264685056,samgrows,sam,https://pbs.twimg.com/profile_images/1996193359287697408/m4tWLhWH_normal.jpg,"BREAKING: Claude can now watch videos for you!
+
+You can plug in a YouTube, Tiktok or Instagram URL and let Claude break it down for you
+
+Live now inside of Algrow ",https://twitter.com/samgrows/status/2050633685582373245,2026-05-02T17:49:04+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2050632986408730624/img/cBQyFOORuIn_EEHL.jpg,https://video.twimg.com/amplify_video/2050632986408730624/vid/avc1/1920x1080/Af2q2FGhtSKr_clL.mp4?tag=27,False
+2050640543626273019,1781740548099063808,kail_designs,Kailash,https://pbs.twimg.com/profile_images/1781741994093805568/gi6iTUbP_normal.jpg,Added lot more shaders and presets. This is shaping up well. Dropping soon👀 ,https://twitter.com/kail_designs/status/2050640543626273019,2026-05-02T18:16:19+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2050634474703233024/img/ehl1ymnn0G2Ye3Q9.jpg,https://video.twimg.com/amplify_video/2050634474703233024/vid/avc1/3840x2140/wCT-OqErigN7xD6N.mp4?tag=27,False
+2050647976520098276,34139208,radiofun8,Minsang Choi,https://pbs.twimg.com/profile_images/1793129363199967232/4xJKoEGS_normal.jpg,ask anything #swiftui ,https://twitter.com/radiofun8/status/2050647976520098276,2026-05-02T18:45:51+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2050647731073630208/img/778n5Fp4wijDybhh.jpg,https://video.twimg.com/amplify_video/2050647731073630208/vid/avc1/1368x912/sWW7Zyvpos693Oeg.mp4?tag=27,False
+2050649456878743596,3050564824,basit_designs,Basit A. Khan,https://pbs.twimg.com/profile_images/2035703029631201280/MiiHz_yG_normal.jpg,"Obssessed with @hiunicornstudio 
+Lighter version looks the damn cool.
+
+Isn’t its cool? ",https://twitter.com/basit_designs/status/2050649456878743596,2026-05-02T18:51:44+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2050649299726311424/img/Ww_VThUWINKdObqB.jpg,https://video.twimg.com/amplify_video/2050649299726311424/vid/avc1/3332x2160/Ho_h9xOebohJ28MI.mp4?tag=27,False
+2050663832008134970,1886321636082630656,Aurelien_Gz,Aurelien,https://pbs.twimg.com/profile_images/2059734683982663684/nS2pzekl_normal.jpg,"apple really should bring the genie effect to iOS..
+
+wizard » @alexwidua
+",https://twitter.com/Aurelien_Gz/status/2050663832008134970,2026-05-02T19:48:51+00:00,video,https://pbs.twimg.com/ext_tw_video_thumb/1742953671887822848/pu/img/rePWlhpUZvTNnl2s.jpg,https://video.twimg.com/ext_tw_video/1742953671887822848/pu/vid/avc1/1080x1682/7qMXC86xuDFGg7fU.mp4?tag=14,False
+2050718135439773762,17189394,dabit3,nader dabit,https://pbs.twimg.com/profile_images/1951619597695672321/c1FsysWP_normal.jpg,"Open Design is a powerful and beautiful app and worth trying out if you haven't already.
+
+It also now supports @DevinAI for Terminal ✨. Very nice work from @tuturetom. ",https://twitter.com/dabit3/status/2050718135439773762,2026-05-02T23:24:38+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2050717693809197056/img/gj1M_4BU0R510lVJ.jpg,https://video.twimg.com/amplify_video/2050717693809197056/vid/avc1/3512x2160/xkdaaxGGPgbvjgkk.mp4?tag=27,False
+2050768854754951227,1752022872015417344,manixh,Manish Kumar,https://pbs.twimg.com/profile_images/2063627005753778176/JVC810VY_normal.jpg,"hey guys, Is there a way to make VS Code look like this..??
+
+It's looks so good ",https://twitter.com/manixh/status/2050768854754951227,2026-05-03T02:46:11+00:00,photo,https://pbs.twimg.com/media/HHXLZf1aIAALIjG.jpg,,False
+2050830829086298482,1595792880576401408,Sikandar_Bhide,{Bhide}.Svelte,https://pbs.twimg.com/profile_images/1734257897247514625/IaW4s_ba_normal.jpg,"Added 3 New components to Svelte Animations
+
+• Dia Text Reveal
+• Arc Timeline 
+• Media Between Text from Fancy Components
+
+Live: https://sv-animations.vercel.app/magic/docs/components/dia-text-reveal ",https://twitter.com/Sikandar_Bhide/status/2050830829086298482,2026-05-03T06:52:26+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2050830527629008897/img/RPMRwnO2L1L2STOn.jpg,https://video.twimg.com/amplify_video/2050830527629008897/vid/avc1/1578x720/iiJ3foVhrcNjobHB.mp4?tag=14,True
+2050865443272089819,1819227662491308034,eujinco,Eujin,https://pbs.twimg.com/profile_images/2052310100602445824/oZEtl_vI_normal.jpg,playing with ripple transitions in SwiftUI. ,https://twitter.com/eujinco/status/2050865443272089819,2026-05-03T09:09:59+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2050864011311476736/img/3fn_p6jWaJmpxe8M.jpg,https://video.twimg.com/amplify_video/2050864011311476736/vid/avc1/2160x2160/ltJ-7fR0uIAxYF7x.mp4?tag=27,False
+2050892122077995364,1998006140286935041,QingQ77,Geek Lite,https://pbs.twimg.com/profile_images/2004028412730789892/4IFUGOl2_normal.jpg,"提供 shadcn/ui 和 Base UI 组件库，带落地页、背景、网格三个可视化构建器，让开发者少写代码就能搭出现代 Web 界面。
+
+https://github.com/moumen-soliman/uitripled
+
+UI TripleD 是一组 shadcn/ui 和 Base UI 组件，加了 Framer Motion 动画。里面有三个工具：拖拽拼落地页、调着色器做 Aurora 动效背景、点几下生成 Tailwind 网格布局。单仓用 Turborepo + pnpm 管理，跑在 Next.js 16、React 19、TypeScript 上。",https://twitter.com/QingQ77/status/2050892122077995364,2026-05-03T10:56:00+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2050473135787683840/img/9MC-U3BaV-FBvrj-.jpg,https://video.twimg.com/amplify_video/2050473135787683840/vid/avc1/1568x1080/RxyWb6yd1-H14uog.mp4?tag=27,True
+2050915251739369539,1669276256,op7418,歸藏(guizang.ai),https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_normal.jpg,"这个 html-in-canvas和 Three.js 做的动画太炫了
+
+html-in-canvas 允许开发者将真实的、可交互的 HTML 和 CSS 直接渲染到 &lt;canvas&gt;（包括 2D、WebGL 和 WebGPU）中。 ",https://twitter.com/op7418/status/2050915251739369539,2026-05-03T12:27:54+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2050710586103844864/img/PqnnjlUxBr5gqDku.jpg,https://video.twimg.com/amplify_video/2050710586103844864/vid/avc1/3836x2160/Vy5qxAeVEZM4B6Rs.mp4?tag=27,False
+2050959796313227314,1590927428,hwwaanng,Hwang,https://pbs.twimg.com/profile_images/1361512556930600969/LBwP2_YZ_normal.jpg,"本周继续发新品 ——  面向原生开发者的工具 LookInside
+
+LookInside 是给 iOS/macOS 开发者用的「界面透视镜」：
+
+在 Mac 上跑客户端，往自己开发的 App 里嵌一个小 SDK，就能像 X 光一样查看 App 每个按钮、文字的位置、尺寸和层级，LookInside 是“可以说”是唯一支持 SwiftUI 的方案。
+
+基于已停更的开源工具 Lookin 续作，商用需联网激活授权。",https://twitter.com/hwwaanng/status/2050959796313227314,2026-05-03T15:24:55+00:00,photo,https://pbs.twimg.com/media/HHZzkKRa4AA8SyB.jpg,,False
+2050959798833942832,1590927428,hwwaanng,Hwang,https://pbs.twimg.com/profile_images/1361512556930600969/LBwP2_YZ_normal.jpg,下载地址：https://lookinside-app.com/ ,https://twitter.com/hwwaanng/status/2050959798833942832,2026-05-03T15:24:55+00:00,video,https://pbs.twimg.com/amplify_video_thumb/2050954165917294592/img/Jr5NnBlf-0UeMv98.jpg,https://video.twimg.com/amplify_video/2050954165917294592/vid/avc1/2992x1922/Orc1HROTfRDNrcn8.mp4?tag=27,False
+2050959801019248707,1590927428,hwwaanng,Hwang,https://pbs.twimg.com/profile_images/1361512556930600969/LBwP2_YZ_normal.jpg,"很多年前，我记得我推荐过，extension View + 一个 Border 来 Debug 的方案。有了 LookInside，你就可以正式告别这个愚蠢的方案了。可爱的柯基会用放大镜告诉你所有的 View，他们所在的位置，所占的尺寸！
+
+让柯基带你 Look inside ！ ",https://twitter.com/hwwaanng/status/2050959801019248707,2026-05-03T15:24:56+00:00,photo,https://pbs.twimg.com/media/HHZ3B3eaUAARFN6.jpg,,False
