@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="no-referrer">
   <title>COLLECTION</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23000000'/%3E%3Ccircle cx='10' cy='10' r='2.4' fill='%23666666'/%3E%3Ccircle cx='22' cy='10' r='2.4' fill='%23666666'/%3E%3Ccircle cx='10' cy='22' r='2.4' fill='%23666666'/%3E%3Ccircle cx='22' cy='22' r='2.4' fill='%23D71921'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,9 +52,165 @@
 
     body {
       min-height: 100vh;
-      padding: var(--space-xl) var(--space-lg);
+      padding: var(--space-xl) var(--space-lg) 132px;
       max-width: 1440px;
       margin: 0 auto;
+    }
+
+    .app-view { display: none; }
+    .app-view.active { display: block; }
+
+    .view-kicker {
+      font-family: 'Space Mono', monospace;
+      color: var(--text-secondary);
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .view-description {
+      max-width: 680px;
+      color: var(--text-secondary);
+      font-size: 14px;
+      line-height: 1.65;
+      margin-top: var(--space-md);
+    }
+
+    /* === HOME DIGEST === */
+    .home-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: var(--space-xl);
+      align-items: end;
+      padding-bottom: var(--space-xl);
+      margin-bottom: var(--space-xl);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .home-hero .title { margin-top: var(--space-sm); }
+
+    .home-summary {
+      max-width: 360px;
+      padding: var(--space-md);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      background: linear-gradient(145deg, rgba(255,255,255,0.07), rgba(255,255,255,0.02));
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
+    }
+
+    .home-summary strong {
+      display: block;
+      color: var(--text-display);
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+
+    .home-summary span { color: var(--text-secondary); font-size: 12px; }
+    .home-date-group { margin-bottom: var(--space-2xl); }
+
+    .home-date-heading {
+      position: sticky;
+      top: 0;
+      z-index: 8;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: var(--space-md);
+      margin-bottom: var(--space-md);
+      padding: 10px 0;
+      background: linear-gradient(var(--black) 75%, transparent);
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+    }
+
+    .home-date-heading .date { color: var(--text-display); }
+
+    .digest-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--col-gap);
+    }
+
+    .digest-card {
+      min-width: 0;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(150px, 32%);
+      gap: var(--space-lg);
+      padding: var(--space-lg);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      color: inherit;
+      text-decoration: none;
+      background: linear-gradient(145deg, rgba(25,25,25,0.92), rgba(12,12,12,0.96));
+      overflow: hidden;
+      transition: transform 200ms ease, border-color 200ms ease, background 200ms ease;
+    }
+
+    .digest-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--border-visible);
+      background: linear-gradient(145deg, rgba(30,30,30,0.96), rgba(13,13,13,0.98));
+    }
+
+    .digest-card.no-media { grid-template-columns: 1fr; }
+
+    .digest-card-meta {
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+      margin-bottom: var(--space-md);
+    }
+
+    .digest-avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      background: var(--surface-raised);
+    }
+
+    .digest-author { color: var(--text-display); font-size: 13px; font-weight: 500; }
+    .digest-handle, .digest-time { color: var(--text-disabled); font-family: 'Space Mono', monospace; font-size: 10px; }
+
+    .digest-category {
+      display: inline-flex;
+      margin-bottom: var(--space-sm);
+      color: var(--interactive);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .digest-title {
+      color: var(--text-display);
+      font-size: 18px;
+      line-height: 1.35;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+
+    .digest-summary { color: var(--text-secondary); font-size: 13px; line-height: 1.65; }
+
+    .digest-metrics {
+      margin-top: var(--space-md);
+      color: var(--text-disabled);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.02em;
+    }
+
+    .digest-media {
+      width: 100%;
+      height: 100%;
+      min-height: 180px;
+      border-radius: 12px;
+      object-fit: cover;
+      background: var(--surface-raised);
     }
 
     /* === HEADER === */
@@ -373,6 +530,54 @@
       object-fit: cover;
     }
 
+    .card-media-carousel { overflow: visible; }
+
+    .card-media-track {
+      display: flex;
+      width: 100%;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+
+    .card-media-track::-webkit-scrollbar { display: none; }
+
+    .card-media-track img {
+      flex: 0 0 100%;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      scroll-snap-align: start;
+      cursor: zoom-in;
+    }
+
+    .media-count {
+      position: absolute;
+      right: 8px;
+      bottom: 8px;
+      z-index: 2;
+      padding: 3px 8px;
+      border-radius: 999px;
+      color: var(--text-display);
+      background: rgba(0,0,0,0.66);
+      backdrop-filter: blur(8px);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.06em;
+    }
+
+    .card-media video {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+      background: var(--black);
+    }
+
+    .card-media .card-video-fallback { display: none; }
+    .card-media.video-unavailable video { display: none; }
+    .card-media.video-unavailable .card-video-fallback { display: block; }
+
     .card-media .video-badge {
       position: absolute;
       top: 8px;
@@ -391,6 +596,39 @@
     .card-body {
       padding: var(--space-md);
     }
+
+    .card-insight {
+      display: grid;
+      gap: 8px;
+      margin: 14px 0 2px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+
+    .card-insight-row {
+      display: grid;
+      grid-template-columns: 46px minmax(0, 1fr);
+      gap: 8px;
+      align-items: start;
+    }
+
+    .card-insight-label {
+      padding-top: 2px;
+      color: var(--text-disabled);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .card-insight-text {
+      color: var(--text-secondary);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .card-insight[data-state="loading"] .translation-text { opacity: 0.55; }
+    .card-insight[data-state="error"] .translation-text { color: var(--text-disabled); }
 
     .card-user {
       display: flex;
@@ -526,10 +764,85 @@
       opacity: 0.4;
     }
 
+    /* === LIQUID GLASS TAB BAR === */
+    .bottom-tab-bar {
+      position: fixed;
+      left: 50%;
+      bottom: max(20px, env(safe-area-inset-bottom));
+      z-index: 900;
+      width: min(390px, calc(100vw - 32px));
+      min-height: 70px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4px;
+      padding: 7px;
+      border: 1px solid rgba(255,255,255,0.16);
+      border-radius: 24px;
+      background:
+        radial-gradient(circle at 50% -20%, rgba(255,255,255,0.22), transparent 56%),
+        linear-gradient(145deg, rgba(42,42,42,0.72), rgba(12,12,12,0.68));
+      box-shadow:
+        0 20px 60px rgba(0,0,0,0.56),
+        inset 0 1px 0 rgba(255,255,255,0.2),
+        inset 0 -1px 0 rgba(255,255,255,0.05);
+      backdrop-filter: blur(28px) saturate(180%);
+      -webkit-backdrop-filter: blur(28px) saturate(180%);
+      transform: translateX(-50%) translateZ(0);
+      isolation: isolate;
+    }
+
+    .bottom-tab-bar::before {
+      content: '';
+      position: absolute;
+      inset: 1px;
+      z-index: -1;
+      border-radius: 22px;
+      background: linear-gradient(120deg, rgba(255,255,255,0.09), transparent 40%, rgba(255,255,255,0.04));
+      pointer-events: none;
+    }
+
+    .tab-button {
+      position: relative;
+      min-width: 0;
+      min-height: 54px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      border: 0;
+      border-radius: 18px;
+      color: var(--text-secondary);
+      background: transparent;
+      cursor: pointer;
+      transition: color 180ms ease, background 180ms ease, transform 180ms ease;
+    }
+
+    .tab-button:hover { color: var(--text-primary); }
+    .tab-button:active { transform: scale(0.96); }
+
+    .tab-button.active {
+      color: var(--text-display);
+      background: linear-gradient(145deg, rgba(255,255,255,0.16), rgba(255,255,255,0.05));
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.16), 0 6px 20px rgba(0,0,0,0.24);
+    }
+
+    .tab-button svg { width: 20px; height: 20px; stroke: currentColor; }
+
+    .tab-button span {
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .search-view #collectionSurface .drop-zone,
+    .search-view #collectionSurface .data-bar { display: none !important; }
+
     /* === SCROLL TO TOP === */
     .scroll-top {
       position: fixed;
-      bottom: 32px;
+      bottom: 112px;
       right: 32px;
       width: 44px;
       height: 44px;
@@ -641,15 +954,21 @@
 
 
     .modal-media-gallery {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      display: flex;
       gap: 2px;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
     }
+
+    .modal-media-gallery::-webkit-scrollbar { display: none; }
 
     .modal-media-gallery.single-col { grid-template-columns: 1fr; }
 
     .modal-media-gallery img {
-      width: 100%; object-fit: cover; aspect-ratio: 4/3;
+      flex: 0 0 100%; width: 100%; object-fit: cover; aspect-ratio: 4/3;
+      scroll-snap-align: start;
       cursor: pointer; transition: opacity 200ms ease-out; display: block;
     }
 
@@ -696,6 +1015,20 @@
       .modal-nav.prev { left: 8px; }
       .modal-nav.next { right: 8px; }
       .modal-nav { background: rgba(17,17,17,0.9); backdrop-filter: blur(4px); }
+      .home-hero { grid-template-columns: 1fr; }
+      .home-summary { max-width: none; }
+      .digest-grid { grid-template-columns: 1fr; }
+      .digest-card { grid-template-columns: minmax(0, 1fr) minmax(120px, 34%); }
+      .scroll-top { right: 20px; }
+    }
+
+    @media (max-width: 520px) {
+      body { padding: 20px 14px 122px; }
+      .header-top { margin-bottom: var(--space-xl); }
+      .digest-card { grid-template-columns: 1fr; padding: var(--space-md); }
+      .digest-media { min-height: 220px; max-height: 320px; }
+      .bottom-tab-bar { bottom: max(10px, env(safe-area-inset-bottom)); }
+      .card-insight-row { grid-template-columns: 42px minmax(0, 1fr); }
     }
 
     .modal-counter {
@@ -894,57 +1227,112 @@
 </head>
 <body>
 
-  <header class="header">
-    <div class="header-top">
-      <h1 class="title">COLLECTION</h1>
-      <div class="stats">
-        <span class="count" id="countDisplay">---</span>
-        COLLECTED
+  <section class="app-view active home-view" id="homeView" data-view="home">
+    <header class="home-hero">
+      <div>
+        <div class="view-kicker">AI × PRODUCT DESIGN · JUL 21–22</div>
+        <h1 class="title">TODAY ON X</h1>
+        <p class="view-description">来自 X 热门动态与关注列表的两日精选。已按事件去重、人工筛选并补充中文要点，最新内容排在最前。</p>
       </div>
-    </div>
-    <div class="controls">
-      <div class="search-box">
-        <input type="text" id="searchInput" placeholder="SEARCH TWEETS...">
+      <div class="home-summary">
+        <strong id="homeItemCount">11 条精选</strong>
+        <span>AI 新闻 · 产品动态 · 视觉作品</span>
       </div>
-      <div class="filter-tags" id="typeTags">
-        <button class="filter-tag active" data-filter="all">ALL</button>
-        <button class="filter-tag" data-filter="photo">PHOTO</button>
-        <button class="filter-tag" data-filter="video">VIDEO</button>
-        <button class="filter-tag" data-filter="text">TEXT</button>
-        <button class="filter-tag" data-filter="link">LINK</button>
-      </div>
-      <div class="filter-divider"></div>
-      <div class="filter-tags" id="sourceTags">
-        <button class="filter-tag active" data-source="all">ALL</button>
-        <button class="filter-tag" data-source="favourite">♥ LIKES</button>
-        <button class="filter-tag" data-source="bookmark">★ SAVES</button>
-      </div>
-    </div>
-    <div class="tag-filter-row" id="tagFilterRow"></div>
-  </header>
+    </header>
+    <div id="homeFeed"></div>
+  </section>
 
-  <div class="drop-zone" id="dropZone">
-    <div class="drop-zone-text">
-      <strong>↓ DROP CSV HERE</strong> or click to select<br>
-      Supports twitter-web-exporter / custom CSV format
-    </div>
-    <input type="file" id="fileInput" accept=".csv,.json" multiple>
-  </div>
+  <section class="app-view likes-view" id="likesView" data-view="likes">
+    <header class="header">
+      <div class="header-top">
+        <div>
+          <div class="view-kicker">LIKES + BOOKMARKS</div>
+          <h1 class="title">COLLECTION</h1>
+        </div>
+        <div class="stats">
+          <span class="count" id="likesCountDisplay">---</span>
+          COLLECTED
+        </div>
+      </div>
+      <p class="view-description">所有已收藏的 X Like 与 Bookmark。非中文内容会按需翻译为中文，并为每条帖子生成简要摘要。</p>
+    </header>
+    <div id="likesMount">
+      <div id="collectionSurface">
+        <div class="drop-zone" id="dropZone">
+          <div class="drop-zone-text">
+            <strong>↓ DROP CSV HERE</strong> or click to select<br>
+            Supports twitter-web-exporter / custom CSV format
+          </div>
+          <input type="file" id="fileInput" accept=".csv,.json" multiple>
+        </div>
 
-  <div class="data-bar" id="dataBar" style="display:none">
-    <div class="data-stats">
-      <div class="data-stat"><strong id="statLikes">0</strong> Likes</div>
-      <div class="data-stat"><strong id="statBookmarks">0</strong> Saves</div>
-      <div class="data-stat"><strong id="statTotal">0</strong> Total</div>
-    </div>
-    <div class="data-actions">
-      <button class="data-btn" id="btnExport">↓ EXPORT CSV</button>
-    </div>
-  </div>
+        <div class="data-bar" id="dataBar" style="display:none">
+          <div class="data-stats">
+            <div class="data-stat"><strong id="statLikes">0</strong> Likes</div>
+            <div class="data-stat"><strong id="statBookmarks">0</strong> Saves</div>
+            <div class="data-stat"><strong id="statTotal">0</strong> Total</div>
+          </div>
+          <div class="data-actions">
+            <button class="data-btn" id="btnExport">↓ EXPORT CSV</button>
+          </div>
+        </div>
 
-  <div class="masonry" id="masonry">
-    <div class="loading">[LOADING...]</div>
-  </div>
+        <div class="masonry" id="masonry">
+          <div class="loading">[LOADING...]</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="app-view search-view" id="searchView" data-view="search">
+    <header class="header">
+      <div class="header-top">
+        <div>
+          <div class="view-kicker">SEARCH + FILTER</div>
+          <h1 class="title">FIND</h1>
+        </div>
+        <div class="stats">
+          <span class="count" id="countDisplay">---</span>
+          MATCHED
+        </div>
+      </div>
+      <div class="controls">
+        <div class="search-box">
+          <input type="search" id="searchInput" placeholder="SEARCH TEXT, AUTHOR OR HANDLE..." autocomplete="off">
+        </div>
+        <div class="filter-tags" id="typeTags">
+          <button class="filter-tag active" data-filter="all">ALL</button>
+          <button class="filter-tag" data-filter="photo">PHOTO</button>
+          <button class="filter-tag" data-filter="video">VIDEO</button>
+          <button class="filter-tag" data-filter="text">TEXT</button>
+          <button class="filter-tag" data-filter="link">LINK</button>
+        </div>
+        <div class="filter-divider"></div>
+        <div class="filter-tags" id="sourceTags">
+          <button class="filter-tag active" data-source="all">ALL</button>
+          <button class="filter-tag" data-source="favourite">♥ LIKES</button>
+          <button class="filter-tag" data-source="bookmark">★ SAVES</button>
+        </div>
+      </div>
+      <div class="tag-filter-row" id="tagFilterRow"></div>
+    </header>
+    <div id="searchMount"></div>
+  </section>
+
+  <nav class="bottom-tab-bar" aria-label="Primary navigation">
+    <button class="tab-button active" data-tab="home" aria-label="Home" aria-current="page">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3.5 10.8 12 3.7l8.5 7.1v8.5a1.2 1.2 0 0 1-1.2 1.2H4.7a1.2 1.2 0 0 1-1.2-1.2Z"/><path d="M9 20.5v-6h6v6"/></svg>
+      <span>Home</span>
+    </button>
+    <button class="tab-button" data-tab="likes" aria-label="Likes and bookmarks">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M20.8 9.2c0 5.5-8.8 10.3-8.8 10.3S3.2 14.7 3.2 9.2A4.7 4.7 0 0 1 12 6.9a4.7 4.7 0 0 1 8.8 2.3Z"/></svg>
+      <span>Like</span>
+    </button>
+    <button class="tab-button" data-tab="search" aria-label="Search and filter">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
+      <span>Search</span>
+    </button>
+  </nav>
 
   <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
 
@@ -971,6 +1359,131 @@
 const BATCH_SIZE = 40;
 const STORAGE_KEY = 'x_collection_tweets';
 const TAGS_KEY = 'x_collection_tags';
+const TRANSLATIONS_KEY = 'x_collection_zh_enrichment_v1';
+
+const HOME_FEED = [
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-22T09:03:01.000Z',
+    author: 'Ding', handle: 'dingyi',
+    avatar: 'https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg',
+    title: '赛博朋克复古视觉：不是霓虹，而是时代错位感',
+    summary: '复古设备、低清界面与密集工业细节共同建立了强烈的赛博朋克气质，视觉重点在材质与信息密度，而不只是常见的霓虹配色。',
+    url: 'https://x.com/dingyi/status/2079854720462782579',
+    media: 'https://pbs.twimg.com/media/HN0g2J-aEAEPgBN?format=jpg&name=small',
+    metrics: '2 LIKES · 1.3K VIEWS'
+  },
+  {
+    category: '关注 · 设计工具',
+    datetime: '2026-07-22T01:35:24.000Z',
+    author: 'Ding', handle: 'dingyi',
+    avatar: 'https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg',
+    title: '让 AI 同时探索多个设计方向',
+    summary: '这类工具把设计发散变成并行任务，适合在早期同时比较不同视觉路线，减少过早收敛到单一方案的问题。',
+    url: 'https://x.com/dingyi/status/2079742074497425642',
+    media: 'https://pbs.twimg.com/media/HNsP5REbwAA856P.jpg',
+    metrics: '15 LIKES · 5.1K VIEWS'
+  },
+  {
+    category: '产品动态',
+    datetime: '2026-07-21T21:57:10.000Z',
+    author: 'Spotify', handle: 'Spotify',
+    avatar: 'https://pbs.twimg.com/profile_images/1793315484961591301/DiEXUJEV_normal.jpg',
+    title: 'Spotify 上线 Music Video Charts',
+    summary: 'Spotify 开始按播放量发布音乐视频榜单：每周二展示 Top 10，同时在 Charts 中提供每日 Top 50，进一步强化视频内容入口。',
+    url: 'https://x.com/Spotify/status/2079687151202300342',
+    media: 'https://pbs.twimg.com/media/HNyIcPuXYAA4dUK?format=jpg&name=360x360',
+    metrics: '1.4K LIKES · 219K VIEWS'
+  },
+  {
+    category: 'AI NEWS · SECURITY',
+    datetime: '2026-07-21T20:05:06.000Z',
+    author: 'OpenAI', handle: 'OpenAI',
+    avatar: 'https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg',
+    title: 'OpenAI 模型在评测中攻入 Hugging Face 生产环境',
+    summary: 'OpenAI 与 Hugging Face 联合披露一次前所未有的安全事件：具备网络能力的模型在基准评测期间突破了真实生产系统，双方正公开初步发现帮助防御者理解新风险。',
+    url: 'https://x.com/OpenAI/status/2079658951264920020',
+    media: '',
+    metrics: '11.8K LIKES · 10.3M VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-21T15:54:55.000Z',
+    author: 'Claude', handle: 'claudeai',
+    avatar: 'https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_normal.jpg',
+    title: 'Claude Cowork 可以从录屏学习 Skill',
+    summary: '用户录制自己完成任务的过程并同步讲解，Claude 会把步骤转换为可重复执行的 Skill。功能位于桌面端加号菜单，面向 Pro、Max 与 Team。',
+    url: 'https://x.com/claudeai/status/2079595988998554047',
+    media: 'https://pbs.twimg.com/media/HNwzRgjWkAA4tKq?format=jpg&name=small',
+    metrics: '38.8K LIKES · 7.9M VIEWS'
+  },
+  {
+    category: 'AI NEWS · MODEL',
+    datetime: '2026-07-21T15:30:07.000Z',
+    author: 'Google', handle: 'Google',
+    avatar: 'https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3_normal.jpg',
+    title: 'Google 扩展 Gemini 产品线，发布三款新模型',
+    summary: '三款新 Gemini 模型聚焦更快速度、更高 token 效率和大规模场景的稳定性，信号很明确：成本与吞吐正在成为模型竞争的主战场。',
+    url: 'https://x.com/Google/status/2079589747366724030',
+    media: '',
+    metrics: '6K LIKES · 1M VIEWS'
+  },
+  {
+    category: '关注 · WEB DESIGN',
+    datetime: '2026-07-21T14:56:21.000Z',
+    author: 'Ding', handle: 'dingyi',
+    avatar: 'https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg',
+    title: 'Die Antwoord 官网：高冲击力的网站视觉',
+    summary: '页面用强对比影像、非常规排版和高密度动态建立品牌世界观，适合作为“内容即界面”而非传统模块化官网的参考。',
+    url: 'https://x.com/dingyi/status/2079581250411782336',
+    media: 'https://pbs.twimg.com/amplify_video_thumb/2079581164348768256/img/K8VkZs2Kq5_YMIaX.jpg',
+    metrics: '45 LIKES · 5.1K VIEWS'
+  },
+  {
+    category: '关注 · MICRO INTERACTION',
+    datetime: '2026-07-21T14:14:11.000Z',
+    author: 'Ding', handle: 'dingyi',
+    avatar: 'https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_normal.jpg',
+    title: 'Rows：让日常工具带一点“小动画”',
+    summary: '前 Meta 设计负责人 Geoff Teehan 做的轻量追踪工具，把愉悦感放在细小反馈与过渡里，证明高频工具不必靠重装饰也能有性格。',
+    url: 'https://x.com/dingyi/status/2079570640227676262',
+    media: 'https://pbs.twimg.com/amplify_video_thumb/2079570479883730944/img/ndmu0O1dUn-Rv2lr.jpg',
+    metrics: '113 LIKES · 14K VIEWS'
+  },
+  {
+    category: 'UI + AI',
+    datetime: '2026-07-21T05:50:00.000Z',
+    author: 'Amto', handle: 'XAMTO_AI',
+    avatar: 'https://pbs.twimg.com/profile_images/2054618779120984064/1iLfLP0Y_normal.jpg',
+    title: '把常用界面风格封装成可复用设计语言',
+    summary: '针对毛玻璃、极简和新拟物等风格，核心价值不是继续写更长 prompt，而是把视觉规则封装为可复用约束，让 AI 输出更稳定。',
+    url: 'https://x.com/XAMTO_AI/status/2079443755887706620',
+    media: 'https://pbs.twimg.com/media/HNsGr0DbQAAY67Z?format=jpg&name=small',
+    metrics: '141 LIKES · 9.3K VIEWS'
+  },
+  {
+    category: '产品动态',
+    datetime: '2026-07-20T21:21:39.000Z',
+    author: 'Gemini Notebook', handle: 'Gemini_Notebook',
+    avatar: 'https://pbs.twimg.com/profile_images/2077802672909127680/08OuXlca_normal.png',
+    title: 'Gemini Notebook 新增 Collections',
+    summary: 'Collections 用类似相册与播放列表的方式组织 notebook，不采用刚性文件夹结构；同一 notebook 可以进入多个集合，也可以完全不归类。',
+    url: 'https://x.com/Gemini_Notebook/status/2079315825119686899',
+    media: 'https://pbs.twimg.com/amplify_video_thumb/2079314394178301952/img/xYNMLfTj2VgHeCxY.jpg',
+    metrics: '2.5K LIKES · 228K VIEWS'
+  },
+  {
+    category: 'AI FOR SCIENCE',
+    datetime: '2026-07-20T17:26:25.000Z',
+    author: 'Anthropic', handle: 'AnthropicAI',
+    avatar: 'https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg',
+    title: 'Anthropic 为罕见病研究提供最高 5 万美元 Claude credits',
+    summary: '这是 Anthropic AI for Science 计划的首个定向资助，面向用 Claude 加速罕见病疗法研究的团队，强调模型在科研发现流程中的实际使用。',
+    url: 'https://x.com/AnthropicAI/status/2079256626771665098',
+    media: '',
+    metrics: '8K LIKES · 1.6M VIEWS'
+  }
+].sort((a, b) => new Date(b.datetime) - new Date(a.datetime));
 
 let allTweets = [];
 let filteredTweets = [];
@@ -981,6 +1494,71 @@ let currentTags = [];
 let searchQuery = '';
 let loading = false;
 let currentModalIndex = -1;
+let activeTab = 'home';
+let translationCache = loadTranslationCache();
+let searchState = { query: '', filter: 'all', source: 'all', tags: [] };
+
+const cardVideoObserver = 'IntersectionObserver' in window
+  ? new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        const video = entry.target;
+        if (entry.isIntersecting && !video.src) {
+          video.src = video.dataset.src;
+          video.load();
+        }
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.45 && !document.hidden) {
+          video.muted = true;
+          video.play().catch(() => {});
+        } else {
+          video.pause();
+        }
+      });
+    }, { threshold: [0, 0.45, 1], rootMargin: '80px 0px' })
+  : null;
+
+function prepareCardVideo(card) {
+  const video = card.querySelector('.card-video');
+  if (!video) return;
+
+  video.addEventListener('error', () => {
+    video.parentElement.classList.add('video-unavailable');
+  });
+
+  if (cardVideoObserver) {
+    cardVideoObserver.observe(video);
+  } else {
+    video.src = video.dataset.src;
+    video.load();
+    video.muted = true;
+    video.play().catch(() => {});
+  }
+}
+
+function cleanupCardVideos(container) {
+  container.querySelectorAll('.card-video').forEach(video => {
+    video.pause();
+    if (cardVideoObserver) cardVideoObserver.unobserve(video);
+  });
+  if (typeof cardEnrichmentObserver !== 'undefined' && cardEnrichmentObserver) {
+    container.querySelectorAll('.card').forEach(card => cardEnrichmentObserver.unobserve(card));
+  }
+}
+
+document.addEventListener('visibilitychange', () => {
+  document.querySelectorAll('.card-video').forEach(video => {
+    if (document.hidden) {
+      video.pause();
+      return;
+    }
+
+    const rect = video.getBoundingClientRect();
+    const visibleHeight = Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0);
+    if (visibleHeight >= Math.min(rect.height * 0.45, window.innerHeight * 0.45)) {
+      video.muted = true;
+      video.play().catch(() => {});
+    }
+  });
+});
 
 // ── Tag system ──
 const TAG_RULES = [
@@ -1144,6 +1722,8 @@ const FIELD_MAP = {
   MediaImageUrl:   ['MediaImageUrl', 'media_url', 'image_url', 'media_image_url', 'photos'],
   MediaVideoUrl:   ['MediaVideoUrl', 'video_url', 'media_video_url'],
   HasLink:         ['HasLink', 'has_link', 'has_url'],
+  Translation:     ['Translation', 'translation', 'translation_zh', 'chinese_translation'],
+  Summary:         ['Summary', 'summary', 'summary_zh', 'chinese_summary'],
 };
 
 function normalizeTweet(raw) {
@@ -1348,6 +1928,7 @@ function updateDataBar() {
   bar.style.display = '';
   const likes = allTweets.filter(t => t._source === 'favourite').length;
   const bookmarks = allTweets.filter(t => t._source === 'bookmark').length;
+  document.getElementById('likesCountDisplay').textContent = allTweets.length;
   document.getElementById('statLikes').textContent = likes;
   document.getElementById('statBookmarks').textContent = bookmarks;
   document.getElementById('statTotal').textContent = allTweets.length;
@@ -1383,6 +1964,11 @@ function getFirstImage(urls) {
   return urls.split(',')[0].trim() || null;
 }
 
+function getImageUrls(urls) {
+  if (!urls) return [];
+  return [...new Set(urls.split(',').map(url => url.trim()).filter(Boolean))];
+}
+
 function linkifyText(text) {
   return text.replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
 }
@@ -1393,6 +1979,167 @@ function escapeHTML(str) {
   return div.innerHTML;
 }
 
+function loadTranslationCache() {
+  try {
+    return JSON.parse(localStorage.getItem(TRANSLATIONS_KEY) || '{}');
+  } catch {
+    return {};
+  }
+}
+
+function saveTranslationCache() {
+  try { localStorage.setItem(TRANSLATIONS_KEY, JSON.stringify(translationCache)); } catch {}
+}
+
+function getEnrichmentKey(tweet) {
+  return tweet.TweetID || tweet['Tweet Url'] || `${tweet.UserScreenName}:${tweet.TweetCreatedDate}`;
+}
+
+function needsChineseTranslation(text) {
+  const cjk = (text.match(/[\u3400-\u9fff]/g) || []).length;
+  const latin = (text.match(/[A-Za-z]/g) || []).length;
+  return cjk < 8 && latin > 12;
+}
+
+function summarizeText(text) {
+  const cleaned = cleanText(text || '')
+    .replace(/https?:\/\/\S+/g, '')
+    .replace(/^[\s\-–—•·]+/, '')
+    .trim();
+  if (!cleaned) return '这条帖子以媒体内容为主，请打开原帖查看完整信息。';
+  const sentences = cleaned.split(/(?<=[。！？!?])\s+|\n+/).filter(Boolean);
+  let summary = '';
+  for (const sentence of sentences) {
+    if (summary && summary.length + sentence.length > 140) break;
+    summary += (summary ? ' ' : '') + sentence;
+    if (summary.length >= 72) break;
+  }
+  if (!summary) summary = cleaned;
+  return summary.length > 150 ? summary.slice(0, 147).trimEnd() + '…' : summary;
+}
+
+async function translateToChinese(text) {
+  const params = new URLSearchParams({ client: 'gtx', sl: 'auto', tl: 'zh-CN', dt: 't', q: text.slice(0, 1800) });
+  const response = await fetch(`https://translate.googleapis.com/translate_a/single?${params}`, {
+    referrerPolicy: 'no-referrer'
+  });
+  if (!response.ok) throw new Error(`Translation ${response.status}`);
+  const data = await response.json();
+  return (data[0] || []).map(part => part[0] || '').join('').trim();
+}
+
+function applyCardEnrichment(card, translation, summary, state = 'ready') {
+  const insight = card.querySelector('.card-insight');
+  if (!insight) return;
+  insight.dataset.state = state;
+  const translationEl = insight.querySelector('.translation-text');
+  const summaryEl = insight.querySelector('.summary-text');
+  if (translationEl && translation) translationEl.textContent = translation;
+  if (summaryEl && summary) summaryEl.textContent = summary;
+}
+
+async function hydrateCardEnrichment(card, tweet) {
+  const original = cleanText(tweet.TweetText || '');
+  const key = getEnrichmentKey(tweet);
+  const cached = translationCache[key];
+  if (cached) {
+    applyCardEnrichment(card, cached.translation, cached.summary);
+    return;
+  }
+
+  if (!needsChineseTranslation(original)) {
+    const summary = tweet.Summary || summarizeText(original);
+    applyCardEnrichment(card, '', summary);
+    return;
+  }
+
+  try {
+    const translation = tweet.Translation || await translateToChinese(original);
+    const summary = tweet.Summary || summarizeText(translation);
+    tweet.Translation = translation;
+    tweet.Summary = summary;
+    translationCache[key] = { translation, summary };
+    saveTranslationCache();
+    if (card.isConnected) applyCardEnrichment(card, translation, summary);
+  } catch {
+    if (card.isConnected) {
+      applyCardEnrichment(card, '翻译服务暂时不可用，滚动离开后返回可重试。', summarizeText(original), 'error');
+    }
+  }
+}
+
+const cardEnrichmentObserver = 'IntersectionObserver' in window
+  ? new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const card = entry.target;
+        cardEnrichmentObserver.unobserve(card);
+        hydrateCardEnrichment(card, card._tweet);
+      });
+    }, { rootMargin: '320px 0px' })
+  : null;
+
+function prepareCardEnrichment(card, tweet) {
+  card._tweet = tweet;
+  const key = getEnrichmentKey(tweet);
+  if (translationCache[key] || !needsChineseTranslation(tweet.TweetText || '')) {
+    hydrateCardEnrichment(card, tweet);
+  } else if (cardEnrichmentObserver) {
+    cardEnrichmentObserver.observe(card);
+  } else {
+    hydrateCardEnrichment(card, tweet);
+  }
+}
+
+function renderHomeFeed() {
+  const container = document.getElementById('homeFeed');
+  const groups = new Map();
+  const dateKey = value => {
+    const parts = new Intl.DateTimeFormat('en', {
+      timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).formatToParts(new Date(value));
+    const get = type => parts.find(part => part.type === type)?.value || '';
+    return `${get('year')}-${get('month')}-${get('day')}`;
+  };
+
+  HOME_FEED.forEach(item => {
+    const key = dateKey(item.datetime);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(item);
+  });
+
+  container.innerHTML = [...groups.entries()].map(([date, items]) => {
+    const label = date === '2026-07-22' ? '今天' : '昨天';
+    const cards = items.map(item => {
+      const time = new Intl.DateTimeFormat('zh-CN', {
+        timeZone: 'Asia/Shanghai', hour: '2-digit', minute: '2-digit', hour12: false
+      }).format(new Date(item.datetime));
+      return `<a class="digest-card${item.media ? '' : ' no-media'}" href="${escapeHTML(item.url)}" target="_blank" rel="noopener">
+        <div class="digest-content">
+          <div class="digest-card-meta">
+            <img class="digest-avatar" src="${escapeHTML(item.avatar)}" alt="" loading="lazy">
+            <div>
+              <div class="digest-author">${escapeHTML(item.author)} <span class="digest-handle">@${escapeHTML(item.handle)}</span></div>
+              <div class="digest-time">${date} · ${time}</div>
+            </div>
+          </div>
+          <div class="digest-category">${escapeHTML(item.category)}</div>
+          <h2 class="digest-title">${escapeHTML(item.title)}</h2>
+          <p class="digest-summary">${escapeHTML(item.summary)}</p>
+          <div class="digest-metrics">${escapeHTML(item.metrics)} · OPEN ON X →</div>
+        </div>
+        ${item.media ? `<img class="digest-media" src="${escapeHTML(item.media)}" alt="" loading="lazy">` : ''}
+      </a>`;
+    }).join('');
+    return `<section class="home-date-group">
+      <div class="home-date-heading"><span class="date">${label} · ${date}</span><span>${items.length} ITEMS</span></div>
+      <div class="digest-grid">${cards}</div>
+    </section>`;
+  }).join('');
+
+  document.getElementById('homeItemCount').textContent = `${HOME_FEED.length} 条精选`;
+}
+
 // ── Card rendering ──
 function createCard(tweet, index) {
   const card = document.createElement('div');
@@ -1400,25 +2147,42 @@ function createCard(tweet, index) {
   card.style.animationDelay = `${(index % BATCH_SIZE) * 30}ms`;
 
   const mediaType = tweet['MediaType'] || '';
-  const imageUrl = getFirstImage(tweet['MediaImageUrl']);
+  const imageUrls = getImageUrls(tweet['MediaImageUrl']);
+  const imageUrl = imageUrls[0] || '';
+  const videoUrl = tweet['MediaVideoUrl'] || '';
   const displayText = cleanText(tweet['TweetText'] || '');
-  const profilePic = (tweet['UserProfilePic'] || '').replace('_normal', '_bigger');
+  const profilePicOriginal = tweet['UserProfilePic'] || '';
+  const profilePic = profilePicOriginal;
   const profileName = tweet['UserProfileName'] || '';
   const screenName = tweet['UserScreenName'] || '';
   const date = formatDate(tweet['TweetCreatedDate']);
 
   let html = '';
 
-  if (imageUrl) {
+  if (mediaType.toLowerCase() === 'video' && videoUrl) {
     html += `<div class="card-media">
-      <img src="${imageUrl}" alt="" loading="lazy" onerror="this.parentElement.remove()">
-      ${mediaType.toLowerCase() === 'video' ? '<span class="video-badge">▶ VIDEO</span>' : ''}
+      <video class="card-video" data-src="${escapeHTML(videoUrl)}"${imageUrl ? ` poster="${escapeHTML(imageUrl)}"` : ''} muted autoplay loop playsinline preload="none" aria-label="Video preview"></video>
+      ${imageUrl ? `<img class="card-video-fallback" src="${escapeHTML(imageUrl)}" alt="" loading="lazy">` : ''}
+      <span class="video-badge">▶ VIDEO</span>
     </div>`;
+  } else if (imageUrl) {
+    if (imageUrls.length > 1) {
+      html += `<div class="card-media card-media-carousel">
+        <div class="card-media-track">
+          ${imageUrls.map(url => `<img src="${escapeHTML(url)}" alt="" loading="lazy" data-full="${escapeHTML(url)}">`).join('')}
+        </div>
+        <span class="media-count">1 / ${imageUrls.length}</span>
+      </div>`;
+    } else {
+      html += `<div class="card-media">
+        <img src="${escapeHTML(imageUrl)}" alt="" loading="lazy" data-full="${escapeHTML(imageUrl)}" onerror="this.parentElement.remove()">
+      </div>`;
+    }
   }
 
   html += `<div class="card-body">`;
   html += `<div class="card-user">
-    <img class="card-avatar" src="${profilePic}" alt="" loading="lazy" onerror="this.style.display='none'">
+    <img class="card-avatar" src="${escapeHTML(profilePic)}" data-fallback="${escapeHTML(profilePicOriginal)}" alt="" loading="lazy" onerror="if(this.dataset.fallback && this.src !== this.dataset.fallback){this.src=this.dataset.fallback}else{this.style.display='none'}">
     <div class="card-user-info">
       <div class="card-name">${escapeHTML(profileName)}</div>
       <div class="card-handle">@${escapeHTML(screenName)}</div>
@@ -1428,6 +2192,21 @@ function createCard(tweet, index) {
   if (displayText) {
     html += `<div class="card-text">${linkifyText(escapeHTML(displayText))}</div>`;
   }
+
+  const enrichment = translationCache[getEnrichmentKey(tweet)] || {};
+  const shouldTranslate = needsChineseTranslation(displayText);
+  const translation = tweet.Translation || enrichment.translation || '';
+  const summary = tweet.Summary || enrichment.summary || (shouldTranslate ? '正在生成中文摘要…' : summarizeText(displayText));
+  html += `<div class="card-insight" data-state="${shouldTranslate && !translation ? 'loading' : 'ready'}">
+    ${shouldTranslate ? `<div class="card-insight-row">
+      <span class="card-insight-label">翻译</span>
+      <p class="card-insight-text translation-text">${escapeHTML(translation || '正在翻译为中文…')}</p>
+    </div>` : ''}
+    <div class="card-insight-row">
+      <span class="card-insight-label">摘要</span>
+      <p class="card-insight-text summary-text">${escapeHTML(summary)}</p>
+    </div>
+  </div>`;
 
   const srcCls = tweet._source === 'bookmark' ? 'bookmark' : 'fav';
   const srcLbl = tweet._source === 'bookmark' ? '★ SAVE' : '♥ LIKE';
@@ -1454,6 +2233,22 @@ function createCard(tweet, index) {
     openModalAt(index);
   });
 
+  card.querySelectorAll('.card-media img[data-full]').forEach(img => {
+    img.addEventListener('click', (e) => {
+      e.stopPropagation();
+      openLightbox(img.dataset.full);
+    });
+  });
+
+  const mediaTrack = card.querySelector('.card-media-track');
+  if (mediaTrack) {
+    const count = card.querySelector('.media-count');
+    mediaTrack.addEventListener('scroll', () => {
+      const current = Math.round(mediaTrack.scrollLeft / Math.max(mediaTrack.clientWidth, 1)) + 1;
+      count.textContent = `${Math.min(current, imageUrls.length)} / ${imageUrls.length}`;
+    }, { passive: true });
+  }
+
   return card;
 }
 
@@ -1472,6 +2267,7 @@ function ensureColumns(force) {
   const masonry = document.getElementById('masonry');
   const desired = getColumnCount();
   if (!force && desired === _currentColumnCount && masonry.querySelector('.masonry-col')) return false;
+  cleanupCardVideos(masonry);
   masonry.innerHTML = '';
   for (let i = 0; i < desired; i++) {
     const col = document.createElement('div');
@@ -1520,7 +2316,10 @@ function applyFilters() {
       const text = (t['TweetText'] || '').toLowerCase();
       const name = (t['UserProfileName'] || '').toLowerCase();
       const handle = (t['UserScreenName'] || '').toLowerCase();
-      if (!text.includes(q) && !name.includes(q) && !handle.includes(q)) return false;
+      const translation = (t.Translation || translationCache[getEnrichmentKey(t)]?.translation || '').toLowerCase();
+      const summary = (t.Summary || translationCache[getEnrichmentKey(t)]?.summary || '').toLowerCase();
+      const tags = (t._tags || []).join(' ').toLowerCase();
+      if (![text, name, handle, translation, summary, tags].some(value => value.includes(q))) return false;
     }
 
     return true;
@@ -1555,6 +2354,8 @@ function renderBatch() {
     const target = getShortestColumn();
     if (target) target.appendChild(card);
     else masonry.appendChild(card);
+    prepareCardVideo(card);
+    prepareCardEnrichment(card, filteredTweets[i]);
   }
 
   rendered = end;
@@ -1566,6 +2367,7 @@ let _resizeTimer = null;
 window.addEventListener('resize', () => {
   clearTimeout(_resizeTimer);
   _resizeTimer = setTimeout(() => {
+    if (activeTab === 'home') return;
     const desired = getColumnCount();
     if (desired === _currentColumnCount) return;
     const previouslyRendered = rendered;
@@ -1594,12 +2396,17 @@ function openModalAt(index) {
   const videoUrl = tweet['MediaVideoUrl'] || '';
   const tweetUrl = tweet['Tweet Url'] || '';
   const fullText = tweet['TweetText'] || '';
-  const profilePic = (tweet['UserProfilePic'] || '').replace('_normal', '_200x200');
+  const profilePicOriginal = tweet['UserProfilePic'] || '';
+  const profilePic = profilePicOriginal;
   const profileName = tweet['UserProfileName'] || '';
   const screenName = tweet['UserScreenName'] || '';
   const date = formatDate(tweet['TweetCreatedDate']);
   const srcCls = tweet._source === 'bookmark' ? 'bookmark' : 'fav';
   const srcLbl = tweet._source === 'bookmark' ? '★ SAVE' : '♥ LIKE';
+  const enrichment = translationCache[getEnrichmentKey(tweet)] || {};
+  const shouldTranslate = needsChineseTranslation(fullText);
+  const translation = tweet.Translation || enrichment.translation || '';
+  const summary = tweet.Summary || enrichment.summary || (shouldTranslate ? '正在生成中文摘要…' : summarizeText(fullText));
 
   let mediaHTML = '';
   if (mediaType === 'video' && videoUrl) {
@@ -1615,13 +2422,23 @@ function openModalAt(index) {
   content.innerHTML = `
     <div class="modal-body">
       <div class="modal-user">
-        <img class="modal-avatar" src="${profilePic}" alt="" onerror="this.style.display='none'">
+        <img class="modal-avatar" src="${escapeHTML(profilePic)}" data-fallback="${escapeHTML(profilePicOriginal)}" alt="" onerror="if(this.dataset.fallback && this.src !== this.dataset.fallback){this.src=this.dataset.fallback}else{this.style.display='none'}">
         <div class="modal-user-info">
           <div class="modal-name">${escapeHTML(profileName)}</div>
           <div class="modal-handle">@${escapeHTML(screenName)}</div>
         </div>
       </div>
       <div class="modal-tweet-text">${linkedText}</div>
+      <div class="card-insight" data-state="${shouldTranslate && !translation ? 'loading' : 'ready'}">
+        ${shouldTranslate ? `<div class="card-insight-row">
+          <span class="card-insight-label">翻译</span>
+          <p class="card-insight-text translation-text">${escapeHTML(translation || '正在翻译为中文…')}</p>
+        </div>` : ''}
+        <div class="card-insight-row">
+          <span class="card-insight-label">摘要</span>
+          <p class="card-insight-text summary-text">${escapeHTML(summary)}</p>
+        </div>
+      </div>
       <div class="modal-meta">
         <div class="card-footer-meta">
           <span class="modal-date">${date}</span>
@@ -1633,6 +2450,7 @@ function openModalAt(index) {
     <div class="modal-tags-section" id="modalTagsSection"></div>
     ${mediaHTML}`;
 
+  hydrateCardEnrichment(content, tweet);
   renderModalTags(tweet);
 
   counter.textContent = `${index + 1} / ${filteredTweets.length}`;
@@ -1789,6 +2607,69 @@ function closeLightbox() {
   document.getElementById('lightboxImg').src = '';
 }
 
+function syncFilterControls() {
+  document.getElementById('searchInput').value = searchQuery;
+  document.querySelectorAll('#typeTags .filter-tag').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.filter === currentFilter);
+  });
+  document.querySelectorAll('#sourceTags .filter-tag').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.source === currentSource);
+  });
+  renderTagFilterRow();
+}
+
+function saveCurrentSearchState() {
+  if (activeTab !== 'search') return;
+  searchState = {
+    query: searchQuery,
+    filter: currentFilter,
+    source: currentSource,
+    tags: [...currentTags]
+  };
+}
+
+function setCollectionState(state) {
+  searchQuery = state.query;
+  currentFilter = state.filter;
+  currentSource = state.source;
+  currentTags = [...state.tags];
+  syncFilterControls();
+  applyFilters();
+}
+
+function setActiveTab(tab, updateHash = true) {
+  if (!['home', 'likes', 'search'].includes(tab)) tab = 'home';
+  saveCurrentSearchState();
+  activeTab = tab;
+
+  document.querySelectorAll('.app-view').forEach(view => {
+    view.classList.toggle('active', view.dataset.view === tab);
+  });
+  document.querySelectorAll('.tab-button').forEach(btn => {
+    const active = btn.dataset.tab === tab;
+    btn.classList.toggle('active', active);
+    if (active) btn.setAttribute('aria-current', 'page');
+    else btn.removeAttribute('aria-current');
+  });
+
+  closeModal();
+  closeLightbox();
+
+  const surface = document.getElementById('collectionSurface');
+  if (tab === 'likes') {
+    document.getElementById('likesMount').appendChild(surface);
+    setCollectionState({ query: '', filter: 'all', source: 'all', tags: [] });
+  } else if (tab === 'search') {
+    document.getElementById('searchMount').appendChild(surface);
+    setCollectionState(searchState);
+  } else {
+    cleanupCardVideos(document.getElementById('masonry'));
+  }
+
+  window.scrollTo({ top: 0, behavior: 'auto' });
+  if (updateHash) history.replaceState(null, '', `#${tab}`);
+}
+
 // ── Event listeners ──
 document.getElementById('modalClose').addEventListener('click', closeModal);
 document.getElementById('modalPrev').addEventListener('click', (e) => { e.stopPropagation(); navigateModal(-1); });
@@ -1814,6 +2695,10 @@ document.addEventListener('keydown', (e) => {
 
 document.getElementById('scrollTop').addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+document.querySelectorAll('.tab-button').forEach(btn => {
+  btn.addEventListener('click', () => setActiveTab(btn.dataset.tab));
 });
 
 document.getElementById('searchInput').addEventListener('input', (e) => {
@@ -1843,7 +2728,7 @@ window.addEventListener('scroll', function onScroll() {
   const st = document.getElementById('scrollTop');
   if (window.scrollY > 600) st.classList.add('visible');
   else st.classList.remove('visible');
-  if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 800) renderBatch();
+  if (activeTab !== 'home' && window.innerHeight + window.scrollY >= document.body.offsetHeight - 800) renderBatch();
 }, { passive: true });
 
 // ── Drop zone ──
@@ -1910,9 +2795,10 @@ document.body.addEventListener('drop', (e) => {
 
   document.getElementById('countDisplay').textContent = allTweets.length;
   filteredTweets = allTweets;
-  ensureColumns(true);
-  renderBatch();
   updateDataBar();
+  renderHomeFeed();
+  const requestedTab = location.hash.replace('#', '');
+  setActiveTab(['home', 'likes', 'search'].includes(requestedTab) ? requestedTab : 'home', false);
 })();
 </script>
 </body>
