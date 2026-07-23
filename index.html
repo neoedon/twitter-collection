@@ -142,7 +142,7 @@
       gap: var(--space-lg);
       padding: var(--space-lg);
       border: 1px solid var(--border);
-      border-radius: 18px;
+      border-radius: 16px;
       color: inherit;
       text-decoration: none;
       background: linear-gradient(145deg, rgba(25,25,25,0.92), rgba(12,12,12,0.96));
@@ -196,6 +196,21 @@
 
     .digest-summary { color: var(--text-secondary); font-size: 13px; line-height: 1.65; }
 
+    .digest-source-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      margin-top: var(--space-md);
+      color: var(--text-disabled);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      transition: color 160ms ease-out;
+    }
+
+    .digest-source-link:hover { color: var(--text-display); }
+
     .digest-metrics {
       margin-top: var(--space-md);
       color: var(--text-disabled);
@@ -211,6 +226,159 @@
       border-radius: 12px;
       object-fit: cover;
       background: var(--surface-raised);
+    }
+
+    .digest-media-shell {
+      position: relative;
+      min-width: 0;
+      align-self: stretch;
+      overflow: hidden;
+      border-radius: 12px;
+      background: var(--surface-raised);
+    }
+
+    .digest-media-track {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+
+    .digest-media-track::-webkit-scrollbar { display: none; }
+
+    .digest-media-track > img,
+    .digest-media-track > video {
+      flex: 0 0 100%;
+      width: 100%;
+      min-height: 220px;
+      max-height: 440px;
+      object-fit: cover;
+      scroll-snap-align: start;
+      background: var(--black);
+    }
+
+    .digest-media-track > img { cursor: zoom-in; }
+
+    .digest-media-shell .media-count { right: 10px; bottom: 10px; }
+
+    .embedded-post {
+      margin-top: var(--space-md);
+      padding: 12px;
+      border: 1px solid var(--border-visible);
+      border-radius: 8px;
+      background: rgba(255,255,255,0.025);
+    }
+
+    .embedded-post-head {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .embedded-post-avatar {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      object-fit: cover;
+      background: var(--surface-raised);
+    }
+
+    .embedded-post-author { color: var(--text-display); font-size: 12px; font-weight: 500; }
+    .embedded-post-handle { color: var(--text-disabled); font-family: 'Space Mono', monospace; font-size: 9px; }
+    .embedded-post-label { margin-left: auto; color: var(--text-disabled); font-family: 'Space Mono', monospace; font-size: 8px; letter-spacing: 0.08em; }
+    .embedded-post-text { color: var(--text-secondary); font-size: 12px; line-height: 1.55; white-space: pre-line; }
+    .embedded-post-link { color: inherit; text-decoration: none; }
+
+    .embedded-post-media {
+      position: relative;
+      display: flex;
+      margin-top: 10px;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+      border-radius: 8px;
+      background: var(--black);
+    }
+
+    .embedded-post-media::-webkit-scrollbar { display: none; }
+
+    .embedded-post-media img,
+    .embedded-post-media video {
+      flex: 0 0 100%;
+      width: 100%;
+      max-height: 360px;
+      object-fit: contain;
+      scroll-snap-align: start;
+      background: var(--black);
+    }
+
+    .x-article {
+      margin-top: var(--space-md);
+      border: 1px solid var(--border-visible);
+      border-radius: 8px;
+      overflow: hidden;
+      background: rgba(255,255,255,0.025);
+    }
+
+    .x-article-cover {
+      width: 100%;
+      max-height: 300px;
+      display: block;
+      object-fit: cover;
+      background: var(--surface-raised);
+    }
+
+    .x-article-summary {
+      display: grid;
+      gap: 6px;
+      padding: 12px;
+      cursor: pointer;
+      list-style: none;
+    }
+
+    .x-article-summary::-webkit-details-marker { display: none; }
+    .x-article-eyebrow { color: var(--interactive); font-family: 'Space Mono', monospace; font-size: 8px; letter-spacing: 0.08em; text-transform: uppercase; }
+    .x-article-title { color: var(--text-display); font-size: 14px; font-weight: 500; line-height: 1.4; }
+    .x-article-preview { color: var(--text-secondary); font-size: 12px; line-height: 1.55; }
+    .x-article-action { color: var(--text-disabled); font-family: 'Space Mono', monospace; font-size: 9px; }
+    .x-article[open] .x-article-action { display: none; }
+
+    .x-article-body {
+      padding: 0 12px 12px;
+      color: var(--text-secondary);
+      font-size: 13px;
+      line-height: 1.7;
+      white-space: pre-line;
+    }
+
+    .x-article-inline-media {
+      display: grid;
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .x-article-inline-media img,
+    .x-article-inline-media video {
+      width: 100%;
+      max-height: 520px;
+      object-fit: contain;
+      border-radius: 8px;
+      background: var(--black);
+    }
+
+    .x-article-original {
+      display: inline-flex;
+      min-height: 36px;
+      align-items: center;
+      margin-top: 10px;
+      color: var(--interactive);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      text-decoration: none;
     }
 
     /* === HEADER === */
@@ -1011,24 +1179,51 @@
     .modal-nav.prev { left: -56px; }
     .modal-nav.next { right: -56px; }
 
-    @media (max-width: 780px) {
+    @media (max-width: 767px) {
       .modal-nav.prev { left: 8px; }
       .modal-nav.next { right: 8px; }
       .modal-nav { background: rgba(17,17,17,0.9); backdrop-filter: blur(4px); }
       .home-hero { grid-template-columns: 1fr; }
       .home-summary { max-width: none; }
       .digest-grid { grid-template-columns: 1fr; }
-      .digest-card { grid-template-columns: minmax(0, 1fr) minmax(120px, 34%); }
-      .scroll-top { right: 20px; }
-    }
-
-    @media (max-width: 520px) {
-      body { padding: 20px 14px 122px; }
-      .header-top { margin-bottom: var(--space-xl); }
       .digest-card { grid-template-columns: 1fr; padding: var(--space-md); }
+      .digest-media-shell { order: -1; }
+      .digest-media-track > img,
+      .digest-media-track > video { min-height: 220px; max-height: 70vh; }
+      .scroll-top { right: 20px; }
+      body { padding: 20px 16px 122px; }
+      .header-top { margin-bottom: var(--space-xl); }
       .digest-media { min-height: 220px; max-height: 320px; }
       .bottom-tab-bar { bottom: max(10px, env(safe-area-inset-bottom)); }
       .card-insight-row { grid-template-columns: 42px minmax(0, 1fr); }
+
+      .modal-backdrop {
+        align-items: flex-end;
+        padding: 0;
+        background: rgba(0,0,0,0.72);
+      }
+
+      .modal-wrapper {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+      }
+
+      .modal {
+        width: 100%;
+        max-height: 92dvh;
+        border-width: 1px 0 0;
+        border-radius: 24px 24px 0 0;
+        padding-bottom: env(safe-area-inset-bottom);
+      }
+
+      .modal .modal-body { padding: 20px 16px; }
+      .modal-close { margin: 12px 12px 0 0; }
+      .modal-nav { top: 46%; width: 44px; height: 44px; }
+      .modal-media img,
+      #modal > img,
+      .modal-media video,
+      #modalVideo { max-height: 62dvh; }
     }
 
     .modal-counter {
@@ -1359,7 +1554,7 @@
 const BATCH_SIZE = 40;
 const STORAGE_KEY = 'x_collection_tweets';
 const TAGS_KEY = 'x_collection_tags';
-const TRANSLATIONS_KEY = 'x_collection_zh_enrichment_v1';
+const TRANSLATIONS_KEY = 'x_collection_zh_enrichment_v2';
 
 const HOME_FEED = [
   {
@@ -1370,7 +1565,7 @@ const HOME_FEED = [
     title: '赛博朋克复古视觉：不是霓虹，而是时代错位感',
     summary: '复古设备、低清界面与密集工业细节共同建立了强烈的赛博朋克气质，视觉重点在材质与信息密度，而不只是常见的霓虹配色。',
     url: 'https://x.com/dingyi/status/2079854720462782579',
-    media: 'https://pbs.twimg.com/media/HN0g2J-aEAEPgBN?format=jpg&name=small',
+    media: [{ type: 'image', src: 'https://pbs.twimg.com/media/HN0g2J-aEAEPgBN.jpg' }],
     metrics: '2 LIKES · 1.3K VIEWS'
   },
   {
@@ -1381,7 +1576,16 @@ const HOME_FEED = [
     title: '让 AI 同时探索多个设计方向',
     summary: '这类工具把设计发散变成并行任务，适合在早期同时比较不同视觉路线，减少过早收敛到单一方案的问题。',
     url: 'https://x.com/dingyi/status/2079742074497425642',
-    media: 'https://pbs.twimg.com/media/HNsP5REbwAA856P.jpg',
+    media: [{
+      type: 'video',
+      src: 'https://video.twimg.com/amplify_video/2079271787331039232/vid/avc1/1280x720/q8qqgY5xe6U4Dh5S.mp4?tag=29',
+      poster: 'https://pbs.twimg.com/media/HNsP5REbwAA856P.jpg'
+    }],
+    quote: {
+      label: '媒体来源', author: 'Sam Gorman', handle: 'gormankind',
+      text: '原始视频展示 Rivet 中由 AI 并行探索、比较多个设计方向的工作流。',
+      url: 'https://x.com/gormankind/status/2079296286608752761'
+    },
     metrics: '15 LIKES · 5.1K VIEWS'
   },
   {
@@ -1392,7 +1596,11 @@ const HOME_FEED = [
     title: 'Spotify 上线 Music Video Charts',
     summary: 'Spotify 开始按播放量发布音乐视频榜单：每周二展示 Top 10，同时在 Charts 中提供每日 Top 50，进一步强化视频内容入口。',
     url: 'https://x.com/Spotify/status/2079687151202300342',
-    media: 'https://pbs.twimg.com/media/HNyIcPuXYAA4dUK?format=jpg&name=360x360',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HNyIcPuXYAA4dUK.jpg' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HNyIcPsWcAAhIxs.jpg' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HNyIcQaXQAAnICL.jpg' }
+    ],
     metrics: '1.4K LIKES · 219K VIEWS'
   },
   {
@@ -1403,7 +1611,14 @@ const HOME_FEED = [
     title: 'OpenAI 模型在评测中攻入 Hugging Face 生产环境',
     summary: 'OpenAI 与 Hugging Face 联合披露一次前所未有的安全事件：具备网络能力的模型在基准评测期间突破了真实生产系统，双方正公开初步发现帮助防御者理解新风险。',
     url: 'https://x.com/OpenAI/status/2079658951264920020',
-    media: '',
+    media: [],
+    article: {
+      kind: 'external',
+      title: 'OpenAI and Hugging Face partner to address security incident during model evaluation',
+      preview: 'OpenAI 与 Hugging Face 分享模型评测期间安全事件的早期发现，说明先进网络能力及其对防御者的启示。',
+      cover: 'https://pbs.twimg.com/card_img/2079691533628923904/0JccxaF2?format=jpg&name=orig',
+      url: 'https://openai.com/index/hugging-face-model-evaluation-security-incident/'
+    },
     metrics: '11.8K LIKES · 10.3M VIEWS'
   },
   {
@@ -1414,7 +1629,7 @@ const HOME_FEED = [
     title: 'Claude Cowork 可以从录屏学习 Skill',
     summary: '用户录制自己完成任务的过程并同步讲解，Claude 会把步骤转换为可重复执行的 Skill。功能位于桌面端加号菜单，面向 Pro、Max 与 Team。',
     url: 'https://x.com/claudeai/status/2079595988998554047',
-    media: 'https://pbs.twimg.com/media/HNwzRgjWkAA4tKq?format=jpg&name=small',
+    media: [{ type: 'image', src: 'https://pbs.twimg.com/media/HNwzRgjWkAA4tKq.jpg' }],
     metrics: '38.8K LIKES · 7.9M VIEWS'
   },
   {
@@ -1425,7 +1640,11 @@ const HOME_FEED = [
     title: 'Google 扩展 Gemini 产品线，发布三款新模型',
     summary: '三款新 Gemini 模型聚焦更快速度、更高 token 效率和大规模场景的稳定性，信号很明确：成本与吞吐正在成为模型竞争的主战场。',
     url: 'https://x.com/Google/status/2079589747366724030',
-    media: '',
+    media: [{
+      type: 'video',
+      src: 'https://video.twimg.com/amplify_video/2079578068440506368/vid/avc1/720x720/-nKnL3RnLyEwUpIR.mp4?tag=29',
+      poster: 'https://pbs.twimg.com/amplify_video_thumb/2079578068440506368/img/mpy96MOUbgm08n5D.jpg'
+    }],
     metrics: '6K LIKES · 1M VIEWS'
   },
   {
@@ -1436,7 +1655,11 @@ const HOME_FEED = [
     title: 'Die Antwoord 官网：高冲击力的网站视觉',
     summary: '页面用强对比影像、非常规排版和高密度动态建立品牌世界观，适合作为“内容即界面”而非传统模块化官网的参考。',
     url: 'https://x.com/dingyi/status/2079581250411782336',
-    media: 'https://pbs.twimg.com/amplify_video_thumb/2079581164348768256/img/K8VkZs2Kq5_YMIaX.jpg',
+    media: [{
+      type: 'video',
+      src: 'https://video.twimg.com/amplify_video/2079581164348768256/vid/avc1/1136x720/YL0fX6q7PQ2OmEK3.mp4?tag=14',
+      poster: 'https://pbs.twimg.com/amplify_video_thumb/2079581164348768256/img/K8VkZs2Kq5_YMIaX.jpg'
+    }],
     metrics: '45 LIKES · 5.1K VIEWS'
   },
   {
@@ -1447,7 +1670,25 @@ const HOME_FEED = [
     title: 'Rows：让日常工具带一点“小动画”',
     summary: '前 Meta 设计负责人 Geoff Teehan 做的轻量追踪工具，把愉悦感放在细小反馈与过渡里，证明高频工具不必靠重装饰也能有性格。',
     url: 'https://x.com/dingyi/status/2079570640227676262',
-    media: 'https://pbs.twimg.com/amplify_video_thumb/2079570479883730944/img/ndmu0O1dUn-Rv2lr.jpg',
+    media: [
+      {
+        type: 'video',
+        src: 'https://video.twimg.com/amplify_video/2079570479883730944/vid/avc1/1058x720/yTGn-d6SHwtcDgtg.mp4?tag=29',
+        poster: 'https://pbs.twimg.com/amplify_video_thumb/2079570479883730944/img/ndmu0O1dUn-Rv2lr.jpg'
+      },
+      {
+        type: 'video',
+        src: 'https://video.twimg.com/amplify_video/2079570479875239936/vid/avc1/1284x720/3CbErZ12YhO9PpTF.mp4?tag=29',
+        poster: 'https://pbs.twimg.com/amplify_video_thumb/2079570479875239936/img/QeNzNwZcLDoj5Hyl.jpg'
+      }
+    ],
+    quote: {
+      label: '引用原帖', author: 'Geoff Teehan', handle: 'gt',
+      avatar: 'https://pbs.twimg.com/profile_images/1260046647/t-l_xmas-031_alt8bit_normal.jpg',
+      text: 'Hi, old friends 👋\nI made a thing: rows.gg\n\nIt is a simple tracker for the daily @lightspark design standup. Everything we used was like operating heavy machinery. It is dead simple and full of dumb details. Boring tools you use every day should be a little fun.\n\nHope to be able to get invites working this weekend.',
+      url: 'https://x.com/gt/status/2078298803153866807',
+      media: []
+    },
     metrics: '113 LIKES · 14K VIEWS'
   },
   {
@@ -1458,7 +1699,7 @@ const HOME_FEED = [
     title: '把常用界面风格封装成可复用设计语言',
     summary: '针对毛玻璃、极简和新拟物等风格，核心价值不是继续写更长 prompt，而是把视觉规则封装为可复用约束，让 AI 输出更稳定。',
     url: 'https://x.com/XAMTO_AI/status/2079443755887706620',
-    media: 'https://pbs.twimg.com/media/HNsGr0DbQAAY67Z?format=jpg&name=small',
+    media: [{ type: 'image', src: 'https://pbs.twimg.com/media/HNsGr0DbQAAY67Z.jpg' }],
     metrics: '141 LIKES · 9.3K VIEWS'
   },
   {
@@ -1469,7 +1710,11 @@ const HOME_FEED = [
     title: 'Gemini Notebook 新增 Collections',
     summary: 'Collections 用类似相册与播放列表的方式组织 notebook，不采用刚性文件夹结构；同一 notebook 可以进入多个集合，也可以完全不归类。',
     url: 'https://x.com/Gemini_Notebook/status/2079315825119686899',
-    media: 'https://pbs.twimg.com/amplify_video_thumb/2079314394178301952/img/xYNMLfTj2VgHeCxY.jpg',
+    media: [{
+      type: 'video',
+      src: 'https://video.twimg.com/amplify_video/2079314394178301952/vid/avc1/1280x720/7unqyLd0gUmsVJJH.mp4?tag=29',
+      poster: 'https://pbs.twimg.com/amplify_video_thumb/2079314394178301952/img/xYNMLfTj2VgHeCxY.jpg'
+    }],
     metrics: '2.5K LIKES · 228K VIEWS'
   },
   {
@@ -1480,7 +1725,14 @@ const HOME_FEED = [
     title: 'Anthropic 为罕见病研究提供最高 5 万美元 Claude credits',
     summary: '这是 Anthropic AI for Science 计划的首个定向资助，面向用 Claude 加速罕见病疗法研究的团队，强调模型在科研发现流程中的实际使用。',
     url: 'https://x.com/AnthropicAI/status/2079256626771665098',
-    media: '',
+    media: [],
+    article: {
+      kind: 'external',
+      title: 'Apply for Anthropic’s AI for Science rare disease research grants',
+      preview: '面向罕见遗传病研究的定向申请，入选团队将在六个月内获得最高 5 万美元的 Claude 使用额度。',
+      cover: 'https://pbs.twimg.com/card_img/2079774269308063744/uU0fsuPX?format=jpg&name=orig',
+      url: 'https://www.anthropic.com/'
+    },
     metrics: '8K LIKES · 1.6M VIEWS'
   }
 ].sort((a, b) => new Date(b.datetime) - new Date(a.datetime));
@@ -1517,21 +1769,22 @@ const cardVideoObserver = 'IntersectionObserver' in window
   : null;
 
 function prepareCardVideo(card) {
-  const video = card.querySelector('.card-video');
-  if (!video) return;
+  card.querySelectorAll('.card-video[data-src]').forEach(video => {
+    if (video.dataset.prepared === 'true') return;
+    video.dataset.prepared = 'true';
+    video.addEventListener('error', () => {
+      video.closest('.card-media, .digest-media-shell, .embedded-post-media')?.classList.add('video-unavailable');
+    });
 
-  video.addEventListener('error', () => {
-    video.parentElement.classList.add('video-unavailable');
+    if (cardVideoObserver) {
+      cardVideoObserver.observe(video);
+    } else {
+      video.src = video.dataset.src;
+      video.load();
+      video.muted = true;
+      video.play().catch(() => {});
+    }
   });
-
-  if (cardVideoObserver) {
-    cardVideoObserver.observe(video);
-  } else {
-    video.src = video.dataset.src;
-    video.load();
-    video.muted = true;
-    video.play().catch(() => {});
-  }
 }
 
 function cleanupCardVideos(container) {
@@ -1726,6 +1979,130 @@ const FIELD_MAP = {
   Summary:         ['Summary', 'summary', 'summary_zh', 'chinese_summary'],
 };
 
+function parseJSONField(value) {
+  if (!value) return null;
+  if (typeof value === 'object') return value;
+  try { return JSON.parse(value); } catch { return null; }
+}
+
+function unwrapTweetResult(node) {
+  let current = node?.result || node || null;
+  if (current?.tweet) current = current.tweet;
+  return current;
+}
+
+function graphUserData(node) {
+  const result = unwrapTweetResult(node?.core?.user_results);
+  const legacy = result?.legacy || {};
+  const core = result?.core || {};
+  const avatar = result?.avatar?.image_url || legacy.profile_image_url_https || '';
+  return {
+    author: core.name || legacy.name || '',
+    handle: core.screen_name || legacy.screen_name || '',
+    avatar
+  };
+}
+
+function graphMediaData(mediaList) {
+  return (mediaList || []).map(media => {
+    const variants = (media.video_info?.variants || [])
+      .filter(item => item.content_type === 'video/mp4')
+      .sort((a, b) => (b.bitrate || 0) - (a.bitrate || 0));
+    const balanced = variants.find(item => /\/(?:1280|1058|1136|720)x(?:720|1280)\//.test(item.url))
+      || variants.find(item => (item.bitrate || 0) >= 1500000)
+      || variants[0];
+    return {
+      type: media.type === 'photo' ? 'image' : 'video',
+      src: media.type === 'photo' ? (media.media_url_https || '') : (balanced?.url || ''),
+      poster: media.type === 'photo' ? '' : (media.media_url_https || '')
+    };
+  }).filter(item => item.src || item.poster);
+}
+
+function articleTextFromResult(article) {
+  const blocks = article?.content_state?.blocks || article?.content?.blocks || article?.blocks || [];
+  const text = blocks.map((block, index) => {
+    const value = block.text || block.data?.text || block.content?.text || '';
+    if (!value.trim() || block.type === 'atomic') return '';
+    if (block.type === 'unordered-list-item') return `• ${value}`;
+    if (block.type === 'ordered-list-item') return `${index + 1}. ${value}`;
+    if (/header|heading/.test(block.type || '')) return `\n${value}\n`;
+    return value;
+  }).filter(Boolean).join('\n\n');
+  return text || article?.plain_text || article?.body || '';
+}
+
+function articleMediaFromResult(article) {
+  const candidates = [];
+  const seen = new WeakSet();
+  const stack = [article?.content_state, article?.content, article?.media_entities, article?.inline_media].filter(Boolean);
+  while (stack.length && candidates.length < 24) {
+    const value = stack.pop();
+    if (!value || typeof value !== 'object' || seen.has(value)) continue;
+    seen.add(value);
+    if (value.original_img_url || value.media_url_https) {
+      candidates.push({ type: 'image', src: value.original_img_url || value.media_url_https });
+    }
+    if (value.video_info) candidates.push(...graphMediaData([value]));
+    Object.values(value).forEach(child => {
+      if (child && typeof child === 'object') stack.push(child);
+    });
+  }
+  return candidates.filter((item, index, all) => item.src && all.findIndex(other => other.src === item.src) === index);
+}
+
+function graphArticleData(node) {
+  const article = node?.article?.article_results?.result;
+  if (!article) return null;
+  const cover = article.cover_media?.media_info?.original_img_url || '';
+  return {
+    kind: 'x',
+    title: article.title || 'X 长文',
+    preview: article.preview_text || '',
+    fullText: articleTextFromResult(article),
+    cover,
+    media: articleMediaFromResult(article).filter(item => item.src !== cover),
+    url: article.rest_id ? `https://x.com/i/article/${article.rest_id}` : ''
+  };
+}
+
+function graphPostData(node, label = '引用原帖') {
+  const tweet = unwrapTweetResult(node);
+  if (!tweet) return null;
+  const legacy = tweet.legacy || tweet;
+  const note = tweet.note_tweet?.note_tweet_results?.result?.text || tweet.note_tweet?.text || '';
+  const user = graphUserData(tweet);
+  const id = tweet.rest_id || legacy.id_str || '';
+  const media = graphMediaData(legacy.extended_entities?.media || legacy.entities?.media);
+  const article = graphArticleData(tweet);
+  if (!legacy.full_text && !note && !article && !media.length) return null;
+  return {
+    label,
+    ...user,
+    text: note || legacy.full_text || '',
+    url: user.handle && id ? `https://x.com/${user.handle}/status/${id}` : '',
+    media,
+    article
+  };
+}
+
+function metadataExtras(raw) {
+  const metadata = parseJSONField(raw.metadata || raw.Metadata || raw.raw_json);
+  if (!metadata) return {};
+  const root = unwrapTweetResult(metadata);
+  if (!root) return {};
+  const extras = {};
+  const article = graphArticleData(root);
+  if (article) extras._article = article;
+  const quote = graphPostData(root.quoted_status_result, '引用原帖');
+  const repost = graphPostData(root.retweeted_status_result, '转载原帖');
+  if (quote || repost) extras._quote = quote || repost;
+  const legacy = root.legacy || root;
+  const media = graphMediaData(legacy.extended_entities?.media || legacy.entities?.media);
+  if (media.length) extras._metadataMedia = media;
+  return extras;
+}
+
 function normalizeTweet(raw) {
   const out = {};
   for (const [canonical, aliases] of Object.entries(FIELD_MAP)) {
@@ -1773,6 +2150,20 @@ function normalizeTweet(raw) {
     out.HasLink = hasTcoLink ? 'True' : 'False';
   }
 
+  Object.assign(out, metadataExtras(raw));
+  if ((!out.MediaImageUrl || !out.MediaType) && out._metadataMedia?.length) {
+    const images = out._metadataMedia.filter(item => item.type === 'image').map(item => item.src);
+    const video = out._metadataMedia.find(item => item.type === 'video' && item.src);
+    if (video) {
+      out.MediaType = 'video';
+      out.MediaVideoUrl = out.MediaVideoUrl || video.src;
+      out.MediaImageUrl = out.MediaImageUrl || video.poster;
+    } else if (images.length) {
+      out.MediaType = 'photo';
+      out.MediaImageUrl = images.join(',');
+    }
+  }
+
   return out;
 }
 
@@ -1808,18 +2199,29 @@ function clearStorage() {
 // ── Merge & deduplicate ──
 function mergeTweets(existing, incoming) {
   const seen = new Set();
+  const byId = new Map();
   const result = [];
   for (const t of existing) {
     if (t.TweetID && !seen.has(t.TweetID)) {
       seen.add(t.TweetID);
       result.push(t);
+      byId.set(t.TweetID, t);
     }
   }
   let added = 0;
   for (const t of incoming) {
-    if (t.TweetID && !seen.has(t.TweetID)) {
+    if (t.TweetID && seen.has(t.TweetID)) {
+      const current = byId.get(t.TweetID);
+      if (current) {
+        for (const [key, value] of Object.entries(t)) {
+          if (key.startsWith('_') && value) current[key] = value;
+          else if (!current[key] && value) current[key] = value;
+        }
+      }
+    } else if (t.TweetID) {
       seen.add(t.TweetID);
       result.push(t);
+      byId.set(t.TweetID, t);
       added++;
     }
   }
@@ -1969,6 +2371,29 @@ function getImageUrls(urls) {
   return [...new Set(urls.split(',').map(url => url.trim()).filter(Boolean))];
 }
 
+function highResMediaUrl(url, original = false) {
+  if (!url || !url.includes('pbs.twimg.com')) return url || '';
+  try {
+    const parsed = new URL(url);
+    if (parsed.pathname.startsWith('/media/') || parsed.pathname.startsWith('/card_img/')) {
+      if (!parsed.searchParams.has('format')) {
+        const ext = parsed.pathname.match(/\.([a-zA-Z0-9]+)$/)?.[1];
+        if (ext) parsed.searchParams.set('format', ext === 'jpeg' ? 'jpg' : ext);
+      }
+      parsed.searchParams.set('name', original ? 'orig' : 'large');
+      return parsed.toString();
+    }
+  } catch {}
+  return url;
+}
+
+function normalizeMediaItems(media) {
+  if (!media) return [];
+  const list = Array.isArray(media) ? media : [{ type: 'image', src: media }];
+  return list.map(item => typeof item === 'string' ? { type: 'image', src: item } : item)
+    .filter(item => item && (item.src || item.poster));
+}
+
 function linkifyText(text) {
   return text.replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
 }
@@ -2001,21 +2426,63 @@ function needsChineseTranslation(text) {
   return cjk < 8 && latin > 12;
 }
 
+function normalizedMeaning(text) {
+  return (text || '').toLowerCase().replace(/[\s\p{P}\p{S}]+/gu, '');
+}
+
+function summariesAreRedundant(summary, translation) {
+  const a = normalizedMeaning(summary);
+  const b = normalizedMeaning(translation);
+  if (!a || !b) return false;
+  if (a === b) return true;
+  const shorter = Math.min(a.length, b.length);
+  const longer = Math.max(a.length, b.length);
+  return shorter / Math.max(longer, 1) > 0.82 && (a.includes(b) || b.includes(a));
+}
+
 function summarizeText(text) {
   const cleaned = cleanText(text || '')
     .replace(/https?:\/\/\S+/g, '')
+    .replace(/(^|\s)@[\w_]+/g, ' ')
     .replace(/^[\s\-–—•·]+/, '')
+    .replace(/\s+/g, ' ')
     .trim();
-  if (!cleaned) return '这条帖子以媒体内容为主，请打开原帖查看完整信息。';
-  const sentences = cleaned.split(/(?<=[。！？!?])\s+|\n+/).filter(Boolean);
-  let summary = '';
-  for (const sentence of sentences) {
-    if (summary && summary.length + sentence.length > 140) break;
-    summary += (summary ? ' ' : '') + sentence;
-    if (summary.length >= 72) break;
+  if (!cleaned) return '媒体帖：重点信息在图片或视频中，可打开原帖查看上下文。';
+  if (cleaned.length <= 34) return '原帖较短，核心信息已完整呈现在原文或翻译中。';
+
+  const clauses = cleaned
+    .split(/(?<=[。！？!?；;])\s*|\n+|(?<=[，,：:])\s+/)
+    .map(part => part.trim())
+    .filter(part => part.length >= 8 && !/^(点击|查看|了解更多|read more|learn more)/i.test(part));
+  const keywords = /AI|模型|设计|产品|工具|功能|发布|上线|支持|开源|安全|研究|更新|效率|体验|工作流|agent|model|design|product|launch|release|security|research|workflow/i;
+  const ranked = clauses.map((clause, index) => ({
+    clause,
+    score: (keywords.test(clause) ? 5 : 0) + Math.min(clause.length, 72) / 24 - index * 0.35
+  })).sort((a, b) => b.score - a.score);
+
+  let core = (ranked[0]?.clause || cleaned)
+    .replace(/^(今天|现在|我们很高兴(?:地)?宣布|很高兴(?:地)?宣布|全新|新的|终于)[，,:：\s]*/i, '')
+    .trim();
+  if (core.length > 64) core = `${core.slice(0, 61).trimEnd()}…`;
+  if (normalizedMeaning(core).length / Math.max(normalizedMeaning(cleaned).length, 1) > 0.78) {
+    core = `${core.slice(0, Math.max(28, Math.round(core.length * 0.55))).trimEnd()}…`;
   }
-  if (!summary) summary = cleaned;
-  return summary.length > 150 ? summary.slice(0, 147).trimEnd() + '…' : summary;
+
+  let prefix = '核心内容：';
+  if (/设计|界面|视觉|UI|UX|design/i.test(cleaned)) prefix = '设计要点：';
+  else if (/安全|漏洞|攻击|security|cyber/i.test(cleaned)) prefix = '安全动态：';
+  else if (/发布|上线|新增|更新|推出|launch|release|new in/i.test(cleaned)) prefix = '产品更新：';
+  else if (/AI|模型|agent|Claude|Gemini|GPT/i.test(cleaned)) prefix = 'AI 动态：';
+  return `${prefix}${core}`;
+}
+
+function getDistinctSummary(tweet, basis) {
+  const supplied = cleanText(tweet.Summary || '');
+  if (supplied && !summariesAreRedundant(supplied, basis)) return supplied;
+  const generated = summarizeText(basis);
+  return summariesAreRedundant(generated, basis)
+    ? '核心信息已提炼在上方；原帖较短，不重复展示整段翻译。'
+    : generated;
 }
 
 async function translateToChinese(text) {
@@ -2043,19 +2510,22 @@ async function hydrateCardEnrichment(card, tweet) {
   const key = getEnrichmentKey(tweet);
   const cached = translationCache[key];
   if (cached) {
-    applyCardEnrichment(card, cached.translation, cached.summary);
+    const summary = summariesAreRedundant(cached.summary, cached.translation || original)
+      ? getDistinctSummary(tweet, cached.translation || original)
+      : cached.summary;
+    applyCardEnrichment(card, cached.translation, summary);
     return;
   }
 
   if (!needsChineseTranslation(original)) {
-    const summary = tweet.Summary || summarizeText(original);
+    const summary = getDistinctSummary(tweet, original);
     applyCardEnrichment(card, '', summary);
     return;
   }
 
   try {
     const translation = tweet.Translation || await translateToChinese(original);
-    const summary = tweet.Summary || summarizeText(translation);
+    const summary = getDistinctSummary(tweet, translation);
     tweet.Translation = translation;
     tweet.Summary = summary;
     translationCache[key] = { translation, summary };
@@ -2063,7 +2533,7 @@ async function hydrateCardEnrichment(card, tweet) {
     if (card.isConnected) applyCardEnrichment(card, translation, summary);
   } catch {
     if (card.isConnected) {
-      applyCardEnrichment(card, '翻译服务暂时不可用，滚动离开后返回可重试。', summarizeText(original), 'error');
+      applyCardEnrichment(card, '翻译服务暂时不可用，滚动离开后返回可重试。', getDistinctSummary(tweet, original), 'error');
     }
   }
 }
@@ -2091,6 +2561,87 @@ function prepareCardEnrichment(card, tweet) {
   }
 }
 
+function renderMediaTrack(media, variant = 'digest') {
+  const items = normalizeMediaItems(media);
+  if (!items.length) return '';
+  const shellClass = variant === 'digest' ? 'digest-media-shell' : 'embedded-post-media';
+  const trackClass = variant === 'digest' ? 'digest-media-track' : '';
+  const contents = items.map((item, index) => {
+    if (item.type === 'video' && item.src) {
+      const poster = highResMediaUrl(item.poster || '', false);
+      return `<video class="card-video" data-src="${escapeHTML(item.src)}"${poster ? ` poster="${escapeHTML(poster)}"` : ''} muted autoplay loop playsinline preload="none" aria-label="视频 ${index + 1} / ${items.length}"></video>`;
+    }
+    const display = highResMediaUrl(item.src || item.poster, false);
+    const full = highResMediaUrl(item.src || item.poster, true);
+    return `<img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" alt="" loading="lazy">`;
+  }).join('');
+  return `<div class="${shellClass}">${trackClass ? `<div class="${trackClass}">${contents}</div>` : contents}${items.length > 1 ? `<span class="media-count">1 / ${items.length}</span>` : ''}</div>`;
+}
+
+function renderArticle(article) {
+  if (!article) return '';
+  const fullText = normalizeNewlines(article.fullText || '').replace(/https?:\/\/t\.co\/\S+/g, '').trim();
+  const preview = cleanText(article.preview || '');
+  const hasFullText = fullText && normalizedMeaning(fullText) !== normalizedMeaning(preview);
+  const body = fullText || preview;
+  const media = normalizeMediaItems(article.media);
+  const inlineMedia = media.length ? `<div class="x-article-inline-media">${media.map((item, index) => {
+    if (item.type === 'video' && item.src) {
+      return `<video class="card-video" data-src="${escapeHTML(item.src)}"${item.poster ? ` poster="${escapeHTML(highResMediaUrl(item.poster))}"` : ''} muted autoplay loop playsinline preload="none" aria-label="文章内视频 ${index + 1}"></video>`;
+    }
+    const display = highResMediaUrl(item.src, false);
+    const full = highResMediaUrl(item.src, true);
+    return `<img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" alt="" loading="lazy">`;
+  }).join('')}</div>` : '';
+  const action = hasFullText ? '展开阅读全文 ↓' : '展开长文预览 ↓';
+  return `<details class="x-article">
+    ${article.cover ? `<img class="x-article-cover" src="${escapeHTML(highResMediaUrl(article.cover))}" data-full="${escapeHTML(highResMediaUrl(article.cover, true))}" alt="" loading="lazy">` : ''}
+    <summary class="x-article-summary">
+      <span class="x-article-eyebrow">${article.kind === 'x' ? 'X ARTICLE' : 'ARTICLE'}</span>
+      <strong class="x-article-title">${escapeHTML(article.title || '长文')}</strong>
+      ${preview ? `<span class="x-article-preview">${escapeHTML(preview)}</span>` : ''}
+      <span class="x-article-action">${action}</span>
+    </summary>
+    <div class="x-article-body">${escapeHTML(body || '暂无可用预览，请打开原文阅读。')}${inlineMedia}${article.url ? `<a class="x-article-original" href="${escapeHTML(article.url)}" target="_blank" rel="noopener">在原站阅读全文 →</a>` : ''}</div>
+  </details>`;
+}
+
+function renderEmbeddedPost(post) {
+  if (!post) return '';
+  return `<aside class="embedded-post">
+    <div class="embedded-post-head">
+      ${post.avatar ? `<img class="embedded-post-avatar" src="${escapeHTML(post.avatar)}" alt="" loading="lazy">` : ''}
+      <div><div class="embedded-post-author">${escapeHTML(post.author || '原作者')}</div><div class="embedded-post-handle">${post.handle ? `@${escapeHTML(post.handle)}` : ''}</div></div>
+      <span class="embedded-post-label">${escapeHTML(post.label || '引用原帖')}</span>
+    </div>
+    ${post.text ? `<div class="embedded-post-text">${escapeHTML(normalizeNewlines(post.text).replace(/https?:\/\/t\.co\/\S+/g, '').trim())}</div>` : ''}
+    ${renderMediaTrack(post.media, 'embedded')}
+    ${renderArticle(post.article)}
+    ${post.url ? `<a class="x-article-original" href="${escapeHTML(post.url)}" target="_blank" rel="noopener">打开原帖 →</a>` : ''}
+  </aside>`;
+}
+
+function wireRichMedia(container) {
+  prepareCardVideo(container);
+  container.querySelectorAll('img[data-full]').forEach(img => {
+    img.addEventListener('click', event => {
+      event.preventDefault();
+      event.stopPropagation();
+      openLightbox(img.dataset.full);
+    });
+  });
+  container.querySelectorAll('.digest-media-track, .embedded-post-media').forEach(track => {
+    const shell = track.closest('.digest-media-shell, .embedded-post');
+    const count = shell?.querySelector('.media-count');
+    if (!count) return;
+    const total = track.children.length;
+    track.addEventListener('scroll', () => {
+      const current = Math.round(track.scrollLeft / Math.max(track.clientWidth, 1)) + 1;
+      count.textContent = `${Math.min(current, total)} / ${total}`;
+    }, { passive: true });
+  });
+}
+
 function renderHomeFeed() {
   const container = document.getElementById('homeFeed');
   const groups = new Map();
@@ -2114,7 +2665,8 @@ function renderHomeFeed() {
       const time = new Intl.DateTimeFormat('zh-CN', {
         timeZone: 'Asia/Shanghai', hour: '2-digit', minute: '2-digit', hour12: false
       }).format(new Date(item.datetime));
-      return `<a class="digest-card${item.media ? '' : ' no-media'}" href="${escapeHTML(item.url)}" target="_blank" rel="noopener">
+      const media = normalizeMediaItems(item.media);
+      return `<article class="digest-card${media.length ? '' : ' no-media'}">
         <div class="digest-content">
           <div class="digest-card-meta">
             <img class="digest-avatar" src="${escapeHTML(item.avatar)}" alt="" loading="lazy">
@@ -2126,10 +2678,13 @@ function renderHomeFeed() {
           <div class="digest-category">${escapeHTML(item.category)}</div>
           <h2 class="digest-title">${escapeHTML(item.title)}</h2>
           <p class="digest-summary">${escapeHTML(item.summary)}</p>
-          <div class="digest-metrics">${escapeHTML(item.metrics)} · OPEN ON X →</div>
+          ${renderEmbeddedPost(item.quote)}
+          ${renderArticle(item.article)}
+          <div class="digest-metrics">${escapeHTML(item.metrics)}</div>
+          <a class="digest-source-link" href="${escapeHTML(item.url)}" target="_blank" rel="noopener">OPEN ON X →</a>
         </div>
-        ${item.media ? `<img class="digest-media" src="${escapeHTML(item.media)}" alt="" loading="lazy">` : ''}
-      </a>`;
+        ${renderMediaTrack(media, 'digest')}
+      </article>`;
     }).join('');
     return `<section class="home-date-group">
       <div class="home-date-heading"><span class="date">${label} · ${date}</span><span>${items.length} ITEMS</span></div>
@@ -2138,6 +2693,7 @@ function renderHomeFeed() {
   }).join('');
 
   document.getElementById('homeItemCount').textContent = `${HOME_FEED.length} 条精选`;
+  wireRichMedia(container);
 }
 
 // ── Card rendering ──
@@ -2147,7 +2703,7 @@ function createCard(tweet, index) {
   card.style.animationDelay = `${(index % BATCH_SIZE) * 30}ms`;
 
   const mediaType = tweet['MediaType'] || '';
-  const imageUrls = getImageUrls(tweet['MediaImageUrl']);
+  const imageUrls = getImageUrls(tweet['MediaImageUrl']).map(url => highResMediaUrl(url, false));
   const imageUrl = imageUrls[0] || '';
   const videoUrl = tweet['MediaVideoUrl'] || '';
   const displayText = cleanText(tweet['TweetText'] || '');
@@ -2169,13 +2725,13 @@ function createCard(tweet, index) {
     if (imageUrls.length > 1) {
       html += `<div class="card-media card-media-carousel">
         <div class="card-media-track">
-          ${imageUrls.map(url => `<img src="${escapeHTML(url)}" alt="" loading="lazy" data-full="${escapeHTML(url)}">`).join('')}
+          ${imageUrls.map(url => `<img src="${escapeHTML(url)}" alt="" loading="lazy" data-full="${escapeHTML(highResMediaUrl(url, true))}">`).join('')}
         </div>
         <span class="media-count">1 / ${imageUrls.length}</span>
       </div>`;
     } else {
       html += `<div class="card-media">
-        <img src="${escapeHTML(imageUrl)}" alt="" loading="lazy" data-full="${escapeHTML(imageUrl)}" onerror="this.parentElement.remove()">
+        <img src="${escapeHTML(imageUrl)}" alt="" loading="lazy" data-full="${escapeHTML(highResMediaUrl(imageUrl, true))}" onerror="this.parentElement.remove()">
       </div>`;
     }
   }
@@ -2193,10 +2749,16 @@ function createCard(tweet, index) {
     html += `<div class="card-text">${linkifyText(escapeHTML(displayText))}</div>`;
   }
 
+  html += renderEmbeddedPost(tweet._quote);
+  html += renderArticle(tweet._article);
+
   const enrichment = translationCache[getEnrichmentKey(tweet)] || {};
   const shouldTranslate = needsChineseTranslation(displayText);
   const translation = tweet.Translation || enrichment.translation || '';
-  const summary = tweet.Summary || enrichment.summary || (shouldTranslate ? '正在生成中文摘要…' : summarizeText(displayText));
+  const cachedSummary = tweet.Summary || enrichment.summary || '';
+  const summary = cachedSummary && !summariesAreRedundant(cachedSummary, translation || displayText)
+    ? cachedSummary
+    : (shouldTranslate && !translation ? '正在生成中文摘要…' : getDistinctSummary(tweet, translation || displayText));
   html += `<div class="card-insight" data-state="${shouldTranslate && !translation ? 'loading' : 'ready'}">
     ${shouldTranslate ? `<div class="card-insight-row">
       <span class="card-insight-label">翻译</span>
@@ -2233,19 +2795,14 @@ function createCard(tweet, index) {
     openModalAt(index);
   });
 
-  card.querySelectorAll('.card-media img[data-full]').forEach(img => {
-    img.addEventListener('click', (e) => {
-      e.stopPropagation();
-      openLightbox(img.dataset.full);
-    });
-  });
+  wireRichMedia(card);
 
   const mediaTrack = card.querySelector('.card-media-track');
   if (mediaTrack) {
-    const count = card.querySelector('.media-count');
+    const count = card.querySelector('.card-media > .media-count');
     mediaTrack.addEventListener('scroll', () => {
       const current = Math.round(mediaTrack.scrollLeft / Math.max(mediaTrack.clientWidth, 1)) + 1;
-      count.textContent = `${Math.min(current, imageUrls.length)} / ${imageUrls.length}`;
+      if (count) count.textContent = `${Math.min(current, imageUrls.length)} / ${imageUrls.length}`;
     }, { passive: true });
   }
 
@@ -2255,9 +2812,9 @@ function createCard(tweet, index) {
 // ── Masonry column management ──
 function getColumnCount() {
   const w = window.innerWidth;
-  if (w <= 480) return 1;
-  if (w <= 820) return 2;
-  if (w <= 1200) return 3;
+  if (w < 768) return 1;
+  if (w < 1024) return 2;
+  if (w < 1440) return 3;
   return 4;
 }
 
@@ -2318,8 +2875,10 @@ function applyFilters() {
       const handle = (t['UserScreenName'] || '').toLowerCase();
       const translation = (t.Translation || translationCache[getEnrichmentKey(t)]?.translation || '').toLowerCase();
       const summary = (t.Summary || translationCache[getEnrichmentKey(t)]?.summary || '').toLowerCase();
+      const quoted = [t._quote?.author, t._quote?.handle, t._quote?.text, t._quote?.article?.title, t._quote?.article?.preview].filter(Boolean).join(' ').toLowerCase();
+      const article = [t._article?.title, t._article?.preview, t._article?.fullText].filter(Boolean).join(' ').toLowerCase();
       const tags = (t._tags || []).join(' ').toLowerCase();
-      if (![text, name, handle, translation, summary, tags].some(value => value.includes(q))) return false;
+      if (![text, name, handle, translation, summary, quoted, article, tags].some(value => value.includes(q))) return false;
     }
 
     return true;
@@ -2392,7 +2951,7 @@ function openModalAt(index) {
   stopModalVideo();
 
   const mediaType = (tweet['MediaType'] || '').toLowerCase();
-  const imageUrls = (tweet['MediaImageUrl'] || '').split(',').map(u => u.trim()).filter(Boolean);
+  const imageUrls = getImageUrls(tweet['MediaImageUrl']).map(url => highResMediaUrl(url, false));
   const videoUrl = tweet['MediaVideoUrl'] || '';
   const tweetUrl = tweet['Tweet Url'] || '';
   const fullText = tweet['TweetText'] || '';
@@ -2406,14 +2965,17 @@ function openModalAt(index) {
   const enrichment = translationCache[getEnrichmentKey(tweet)] || {};
   const shouldTranslate = needsChineseTranslation(fullText);
   const translation = tweet.Translation || enrichment.translation || '';
-  const summary = tweet.Summary || enrichment.summary || (shouldTranslate ? '正在生成中文摘要…' : summarizeText(fullText));
+  const cachedSummary = tweet.Summary || enrichment.summary || '';
+  const summary = cachedSummary && !summariesAreRedundant(cachedSummary, translation || fullText)
+    ? cachedSummary
+    : (shouldTranslate && !translation ? '正在生成中文摘要…' : getDistinctSummary(tweet, translation || fullText));
 
   let mediaHTML = '';
   if (mediaType === 'video' && videoUrl) {
     // appended directly below
   } else if (imageUrls.length > 1) {
     mediaHTML = `<div class="modal-media modal-media-gallery">
-      ${imageUrls.map(u => `<img src="${u}" alt="" data-full="${u}" loading="lazy">`).join('')}
+      ${imageUrls.map(u => `<img src="${escapeHTML(u)}" alt="" data-full="${escapeHTML(highResMediaUrl(u, true))}" loading="lazy">`).join('')}
     </div>`;
   }
 
@@ -2429,6 +2991,8 @@ function openModalAt(index) {
         </div>
       </div>
       <div class="modal-tweet-text">${linkedText}</div>
+      ${renderEmbeddedPost(tweet._quote)}
+      ${renderArticle(tweet._article)}
       <div class="card-insight" data-state="${shouldTranslate && !translation ? 'loading' : 'ready'}">
         ${shouldTranslate ? `<div class="card-insight-row">
           <span class="card-insight-label">翻译</span>
@@ -2451,6 +3015,7 @@ function openModalAt(index) {
     ${mediaHTML}`;
 
   hydrateCardEnrichment(content, tweet);
+  wireRichMedia(content);
   renderModalTags(tweet);
 
   counter.textContent = `${index + 1} / ${filteredTweets.length}`;
@@ -2495,16 +3060,12 @@ function openModalAt(index) {
     const img = document.createElement('img');
     img.src = imageUrls[0];
     img.alt = '';
-    img.dataset.full = imageUrls[0];
+    img.dataset.full = highResMediaUrl(imageUrls[0], true);
     img.loading = 'lazy';
     img.style.cursor = 'pointer';
     img.addEventListener('click', () => openLightbox(img.dataset.full));
     modal.appendChild(img);
   }
-
-  content.querySelectorAll('.modal-media img[data-full]').forEach(img => {
-    img.addEventListener('click', () => openLightbox(img.dataset.full));
-  });
 
   backdrop.classList.add('open');
   document.body.style.overflow = 'hidden';
