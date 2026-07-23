@@ -133,11 +133,13 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 - Use the multi-pass WebGL pipeline from [`@ybouane/liquidglass`](https://github.com/ybouane/liquidglass) (MIT): a viewport-local scene texture → Gaussian blur → refraction/chromatic aberration/Fresnel/specular composite. Never rasterize the full feed for a fixed navigation bar.
 - Keep the effect restrained: transparent dark glass, thin chromatic edge and one subtle active state. Use `backdrop-filter` only as the no-WebGL fallback.
 
-### Fullscreen Image Gesture
+### Fullscreen Media Gesture
 
-- Opening the lightbox locks the document at its current scroll position; background content must never move under the fullscreen image.
-- The image follows one-pointer drag in any direction. Dismiss after crossing the distance or velocity threshold; otherwise animate back to center.
-- Gesture animation uses only `transform` and `opacity`, exits in `200ms` with accelerate easing, and becomes immediate under `prefers-reduced-motion`.
+- Every content image and video opens in the same full-viewport media viewer, including card, repost, long-article and modal media.
+- Opening the viewer locks the document at its current scroll position; background content must never move under it.
+- Horizontal drag switches between media. Vertical drag exits after crossing the distance or velocity threshold; otherwise it animates back to center.
+- A bottom thumbnail rail appears for multiple items. The active item is enlarged and fully opaque; adjacent previews stay smaller and subdued.
+- Gesture animation uses only `transform` and `opacity`: enter and snap use the `300ms` decelerate token, exit uses the `200ms` accelerate token, and all transitions become immediate under `prefers-reduced-motion`.
 
 ### Buttons (Pill)
 
@@ -186,12 +188,12 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 - Close button: circular 36px, `--surface-raised` bg, top-right sticky
 - No shadows. Border separation only.
 
-### Lightbox (Image Preview)
+### Media Viewer
 
-- Full-screen overlay `rgba(0,0,0,0.95)`
-- Image: `max 92vw / 92vh`, contain
-- Close: circular button top-right
-- Click outside to dismiss
+- Full-screen overlay `rgba(0,0,0,0.96)` for images and videos.
+- Media uses its original aspect ratio with `object-fit: contain`; card crop rules do not leak into the viewer.
+- Close: circular button top-right. Desktop also exposes previous/next buttons; mobile uses horizontal swipe.
+- Multiple media show a counter, gesture hint and thumbnail rail. The active video alone may autoplay; inactive videos pause.
 
 ### Navigation Arrows
 
