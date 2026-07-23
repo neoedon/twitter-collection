@@ -145,8 +145,7 @@
     .home-date-heading .date { color: var(--text-display); }
 
     .digest-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      display: flex;
       align-items: start;
       gap: var(--col-gap);
     }
@@ -781,6 +780,7 @@
       position: absolute;
       top: 8px;
       right: 8px;
+      z-index: 2;
       font-family: 'Space Mono', monospace;
       font-size: 9px;
       letter-spacing: 0.1em;
@@ -1283,7 +1283,6 @@
       .modal-nav { background: rgba(17,17,17,0.9); backdrop-filter: blur(4px); }
       .home-hero { grid-template-columns: 1fr; }
       .home-summary { max-width: none; }
-      .digest-grid { grid-template-columns: 1fr; }
       .digest-card { grid-template-columns: 1fr; }
       .scroll-top { right: 20px; }
       body { padding: 20px 16px 122px; }
@@ -2787,6 +2786,8 @@ function renderHomeFeed() {
 
   const today = dateKey(new Date());
   const yesterday = dateKey(new Date(Date.now() - 86400000));
+  const columnCount = getHomeColumnCount();
+  _currentHomeColumnCount = columnCount;
   container.replaceChildren();
 
   groups.forEach((entries, date) => {
@@ -2798,18 +2799,25 @@ function renderHomeFeed() {
     section.innerHTML = `<div class="home-date-heading"><span class="date">${label} · ${date}</span><span>${entries.length} ITEMS</span></div>`;
 
     const grid = document.createElement('div');
-    grid.className = 'digest-grid';
+    grid.className = 'digest-grid masonry';
+    for (let columnIndex = 0; columnIndex < columnCount; columnIndex += 1) {
+      const column = document.createElement('div');
+      column.className = 'masonry-col';
+      grid.appendChild(column);
+    }
+    section.appendChild(grid);
+    container.appendChild(section);
+
     entries.forEach(({ tweet, index }) => {
       const card = createCard(tweet, index, {
         onOpen: () => openModalAt(index, HOME_TWEETS)
       });
-      grid.appendChild(card);
+      const target = getShortestColumn(grid);
+      if (target) target.appendChild(card);
+      else grid.appendChild(card);
       prepareCardVideo(card);
       prepareCardEnrichment(card, tweet);
     });
-
-    section.appendChild(grid);
-    container.appendChild(section);
   });
 
   document.getElementById('homeItemCount').textContent = `${HOME_TWEETS.length} 条精选`;
@@ -2831,6 +2839,7 @@ function createCard(tweet, index, options = {}) {
   const screenName = tweet['UserScreenName'] || '';
   const date = formatDate(tweet['TweetCreatedDate']);
   const structuredMedia = normalizeMediaItems(tweet._media);
+  const hasStructuredVideo = structuredMedia.some(item => item.type === 'video' && item.src);
   const carouselCount = structuredMedia.length || imageUrls.length;
 
   let html = '';
@@ -2849,6 +2858,7 @@ function createCard(tweet, index, options = {}) {
         }).join('')}
       </div>
       ${structuredMedia.length > 1 ? `<span class="media-count">1 / ${structuredMedia.length}</span>` : ''}
+      ${hasStructuredVideo ? '<span class="video-badge">▶ VIDEO</span>' : ''}
     </div>`;
   } else if (mediaType.toLowerCase() === 'video' && videoUrl) {
     html += `<div class="card-media">
@@ -2954,7 +2964,12 @@ function getColumnCount() {
   return 4;
 }
 
+function getHomeColumnCount() {
+  return window.innerWidth < 768 ? 1 : 2;
+}
+
 let _currentColumnCount = 0;
+let _currentHomeColumnCount = 0;
 
 function ensureColumns(force) {
   const masonry = document.getElementById('masonry');
@@ -2971,8 +2986,8 @@ function ensureColumns(force) {
   return true;
 }
 
-function getShortestColumn() {
-  const cols = document.querySelectorAll('#masonry .masonry-col');
+function getShortestColumn(root = document.getElementById('masonry')) {
+  const cols = root?.querySelectorAll(':scope > .masonry-col') || [];
   if (cols.length === 0) return null;
   let shortest = cols[0];
   let minHeight = shortest.offsetHeight;
@@ -3062,7 +3077,10 @@ let _resizeTimer = null;
 window.addEventListener('resize', () => {
   clearTimeout(_resizeTimer);
   _resizeTimer = setTimeout(() => {
-    if (activeTab === 'home') return;
+    if (activeTab === 'home') {
+      if (getHomeColumnCount() !== _currentHomeColumnCount) renderHomeFeed();
+      return;
+    }
     const desired = getColumnCount();
     if (desired === _currentColumnCount) return;
     const previouslyRendered = rendered;

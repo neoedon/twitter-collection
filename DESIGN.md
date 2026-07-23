@@ -220,9 +220,11 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 ### Masonry / Waterfall Grid
 
 - Flexbox columns (not CSS columns)
-- 4 columns at >1200px, 3 at >820px, 2 at >520px, 1 at mobile
+- Like / Search: 1 column below `768px`, 2 below `1024px`, 3 below `1440px`, otherwise 4.
+- Home: 1 column below `768px`, otherwise 2; each date group owns its columns.
 - Gap: `16px`
 - Cards have natural height (no fixed aspect ratio)
+- Cards flow into the current shortest column. Never use a row-based grid that stretches a short card or leaves blank space beneath it.
 
 ---
 
