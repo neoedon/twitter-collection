@@ -2659,8 +2659,13 @@ function renderHomeFeed() {
     groups.get(key).push(item);
   });
 
+  const today = dateKey(new Date());
+  const yesterday = dateKey(new Date(Date.now() - 86400000));
+
   container.innerHTML = [...groups.entries()].map(([date, items]) => {
-    const label = date === '2026-07-22' ? '今天' : '昨天';
+    const calendarLabel = new Intl.DateTimeFormat('zh-CN', { month: 'long', day: 'numeric' })
+      .format(new Date(`${date}T12:00:00+08:00`));
+    const label = date === today ? '今天' : (date === yesterday ? '昨天' : calendarLabel);
     const cards = items.map(item => {
       const time = new Intl.DateTimeFormat('zh-CN', {
         timeZone: 'Asia/Shanghai', hour: '2-digit', minute: '2-digit', hour12: false
