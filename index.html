@@ -35,7 +35,16 @@
       --space-3xl: 64px;
       --space-4xl: 96px;
       --col-gap: 16px;
+      --radius-0: 0px;
+      --radius-8: 8px;
+      --radius-12: 12px;
+      --radius-16: 16px;
+      --radius-24: 24px;
+      --radius-32: 32px;
       --card-radius: 12px;
+      --digest-card-padding: var(--space-md);
+      /* UI rule: nested radius = outer radius - inset, clamped at zero. */
+      --digest-media-radius: max(var(--radius-0), calc(var(--radius-16) - var(--digest-card-padding)));
     }
 
     *,*::before,*::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -138,11 +147,12 @@
     .digest-card {
       min-width: 0;
       display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(150px, 32%);
-      gap: var(--space-lg);
-      padding: var(--space-lg);
+      grid-template-columns: minmax(0, 1fr);
+      align-content: start;
+      gap: var(--space-md);
+      padding: var(--digest-card-padding);
       border: 1px solid var(--border);
-      border-radius: 16px;
+      border-radius: var(--radius-16);
       color: inherit;
       text-decoration: none;
       background: linear-gradient(145deg, rgba(25,25,25,0.92), rgba(12,12,12,0.96));
@@ -231,9 +241,12 @@
     .digest-media-shell {
       position: relative;
       min-width: 0;
-      align-self: stretch;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      align-self: auto;
+      order: -1;
       overflow: hidden;
-      border-radius: 12px;
+      border-radius: var(--digest-media-radius);
       background: var(--surface-raised);
     }
 
@@ -253,9 +266,10 @@
     .digest-media-track > video {
       flex: 0 0 100%;
       width: 100%;
-      min-height: 220px;
-      max-height: 440px;
-      object-fit: cover;
+      height: 100%;
+      min-height: 0;
+      max-height: none;
+      object-fit: contain;
       scroll-snap-align: start;
       background: var(--black);
     }
@@ -934,75 +948,81 @@
 
     /* === LIQUID GLASS TAB BAR === */
     .bottom-tab-bar {
+      --tab-bar-height: 64px;
       position: fixed;
       left: 50%;
       bottom: max(20px, env(safe-area-inset-bottom));
       z-index: 900;
-      width: min(390px, calc(100vw - 32px));
-      min-height: 70px;
+      width: min(224px, calc(100vw - 32px));
+      height: var(--tab-bar-height);
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 4px;
-      padding: 7px;
-      border: 1px solid rgba(255,255,255,0.16);
-      border-radius: 24px;
-      background:
-        radial-gradient(circle at 50% -20%, rgba(255,255,255,0.22), transparent 56%),
-        linear-gradient(145deg, rgba(42,42,42,0.72), rgba(12,12,12,0.68));
-      box-shadow:
-        0 20px 60px rgba(0,0,0,0.56),
-        inset 0 1px 0 rgba(255,255,255,0.2),
-        inset 0 -1px 0 rgba(255,255,255,0.05);
-      backdrop-filter: blur(28px) saturate(180%);
-      -webkit-backdrop-filter: blur(28px) saturate(180%);
+      gap: 2px;
+      padding: 6px;
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: calc(var(--tab-bar-height) / 2);
+      background: rgba(17,17,19,0.48);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.18), inset 0 -1px 0 rgba(255,255,255,0.04);
+      backdrop-filter: blur(24px) saturate(165%) contrast(1.04);
+      -webkit-backdrop-filter: blur(24px) saturate(165%) contrast(1.04);
       transform: translateX(-50%) translateZ(0);
       isolation: isolate;
+      overflow: hidden;
     }
 
     .bottom-tab-bar::before {
       content: '';
       position: absolute;
-      inset: 1px;
-      z-index: -1;
-      border-radius: 22px;
-      background: linear-gradient(120deg, rgba(255,255,255,0.09), transparent 40%, rgba(255,255,255,0.04));
+      inset: 0;
+      z-index: 1;
+      border-radius: inherit;
+      background:
+        radial-gradient(circle at 30% 0%, rgba(255,255,255,0.13), transparent 42%),
+        linear-gradient(115deg, rgba(115,190,255,0.04), transparent 34%, rgba(255,168,226,0.035));
+      pointer-events: none;
+    }
+
+    .liquid-glass-shader {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
       pointer-events: none;
     }
 
     .tab-button {
       position: relative;
+      z-index: 2;
       min-width: 0;
-      min-height: 54px;
+      height: 52px;
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 4px;
-      border: 0;
-      border-radius: 18px;
+      border: 1px solid transparent;
+      border-radius: calc(52px / 2);
       color: var(--text-secondary);
       background: transparent;
       cursor: pointer;
-      transition: color 180ms ease, background 180ms ease, transform 180ms ease;
+      transition: color 180ms ease, border-color 180ms ease, background 180ms ease, transform 180ms ease;
     }
 
     .tab-button:hover { color: var(--text-primary); }
     .tab-button:active { transform: scale(0.96); }
 
+    .tab-button:focus-visible {
+      box-shadow: 0 0 0 3px rgba(91,155,246,0.28);
+    }
+
     .tab-button.active {
       color: var(--text-display);
-      background: linear-gradient(145deg, rgba(255,255,255,0.16), rgba(255,255,255,0.05));
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.16), 0 6px 20px rgba(0,0,0,0.24);
+      border-color: rgba(255,255,255,0.12);
+      background: radial-gradient(circle at 50% 12%, rgba(255,255,255,0.14), rgba(255,255,255,0.035) 72%);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.14);
     }
 
-    .tab-button svg { width: 20px; height: 20px; stroke: currentColor; }
-
-    .tab-button span {
-      font-family: 'Space Mono', monospace;
-      font-size: 9px;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-    }
+    .tab-button svg { width: 24px; height: 24px; stroke: currentColor; }
 
     .search-view #collectionSurface .drop-zone,
     .search-view #collectionSurface .data-bar { display: none !important; }
@@ -1186,10 +1206,7 @@
       .home-hero { grid-template-columns: 1fr; }
       .home-summary { max-width: none; }
       .digest-grid { grid-template-columns: 1fr; }
-      .digest-card { grid-template-columns: 1fr; padding: var(--space-md); }
-      .digest-media-shell { order: -1; }
-      .digest-media-track > img,
-      .digest-media-track > video { min-height: 220px; max-height: 70vh; }
+      .digest-card { grid-template-columns: 1fr; }
       .scroll-top { right: 20px; }
       body { padding: 20px 16px 122px; }
       .header-top { margin-bottom: var(--space-xl); }
@@ -1517,15 +1534,12 @@
   <nav class="bottom-tab-bar" aria-label="Primary navigation">
     <button class="tab-button active" data-tab="home" aria-label="Home" aria-current="page">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3.5 10.8 12 3.7l8.5 7.1v8.5a1.2 1.2 0 0 1-1.2 1.2H4.7a1.2 1.2 0 0 1-1.2-1.2Z"/><path d="M9 20.5v-6h6v6"/></svg>
-      <span>Home</span>
     </button>
     <button class="tab-button" data-tab="likes" aria-label="Likes and bookmarks">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M20.8 9.2c0 5.5-8.8 10.3-8.8 10.3S3.2 14.7 3.2 9.2A4.7 4.7 0 0 1 12 6.9a4.7 4.7 0 0 1 8.8 2.3Z"/></svg>
-      <span>Like</span>
     </button>
     <button class="tab-button" data-tab="search" aria-label="Search and filter">
       <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
-      <span>Search</span>
     </button>
   </nav>
 
@@ -3203,6 +3217,190 @@ function setCollectionState(state) {
   applyFilters();
 }
 
+// Navigation-specific WebGL glass rim, inspired by liquidGL (MIT):
+// https://github.com/naughtyduk/liquidGL
+function initLiquidGlassNav() {
+  const nav = document.querySelector('.bottom-tab-bar');
+  if (!nav) return;
+
+  const canvas = document.createElement('canvas');
+  canvas.className = 'liquid-glass-shader';
+  canvas.setAttribute('aria-hidden', 'true');
+  nav.prepend(canvas);
+
+  const gl = canvas.getContext('webgl', {
+    alpha: true,
+    antialias: true,
+    depth: false,
+    stencil: false,
+    premultipliedAlpha: true,
+    powerPreference: 'low-power'
+  });
+  if (!gl) {
+    canvas.remove();
+    return;
+  }
+
+  const vertexSource = `
+    attribute vec2 a_position;
+    void main() {
+      gl_Position = vec4(a_position, 0.0, 1.0);
+    }
+  `;
+
+  const fragmentSource = `
+    precision highp float;
+    uniform vec2 u_resolution;
+    uniform float u_time;
+    uniform float u_active;
+
+    float roundedBoxSDF(vec2 p, vec2 halfSize, float radius) {
+      vec2 q = abs(p) - halfSize + radius;
+      return min(max(q.x, q.y), 0.0) + length(max(q, 0.0)) - radius;
+    }
+
+    float softBand(float distanceValue, float widthValue) {
+      return 1.0 - smoothstep(0.0, widthValue, abs(distanceValue));
+    }
+
+    void main() {
+      vec2 pixel = gl_FragCoord.xy;
+      vec2 size = u_resolution;
+      vec2 uv = pixel / size;
+      float outerRadius = size.y * 0.5 - 1.5;
+      float outerDistance = roundedBoxSDF(
+        pixel - size * 0.5,
+        size * 0.5 - vec2(1.5),
+        outerRadius
+      );
+      float outerInside = 1.0 - smoothstep(-0.75, 0.75, outerDistance);
+      float outerRim = softBand(outerDistance, 5.0);
+
+      float activeCenterX = mix(size.x / 6.0, size.x * 5.0 / 6.0, u_active);
+      vec2 activeCenter = vec2(activeCenterX, size.y * 0.5);
+      float lensRadius = size.y * 0.37;
+      float lensDistance = roundedBoxSDF(
+        pixel - activeCenter,
+        vec2(lensRadius),
+        lensRadius
+      );
+      float lensInside = 1.0 - smoothstep(-0.8, 0.8, lensDistance);
+      float lensRim = softBand(lensDistance, 4.0);
+
+      float sweep = 0.5 + 0.5 * sin(u_time * 0.62 + uv.x * 7.0 - uv.y * 3.0);
+      float glint = pow(max(0.0, 1.0 - length(uv - vec2(0.2 + 0.6 * sweep, 1.03)) * 1.8), 7.0);
+      float caustic = 0.5 + 0.5 * sin(u_time * 0.34 + uv.x * 11.0 + sin(uv.y * 9.0));
+
+      vec3 coolEdge = vec3(0.55, 0.78, 1.0);
+      vec3 warmEdge = vec3(1.0, 0.66, 0.87);
+      vec3 rimColor = mix(coolEdge, warmEdge, 0.35 + sweep * 0.3);
+      vec3 color = mix(vec3(0.76, 0.83, 0.92), rimColor, outerRim * 0.58 + lensRim * 0.48);
+      color += glint * vec3(0.42, 0.46, 0.52);
+
+      float alpha = outerInside * (0.018 + caustic * 0.012);
+      alpha += outerRim * (0.14 + glint * 0.24);
+      alpha += lensInside * (0.035 + caustic * 0.022);
+      alpha += lensRim * (0.16 + glint * 0.22);
+      alpha = clamp(alpha, 0.0, 0.52);
+
+      if (alpha < 0.002) discard;
+      gl_FragColor = vec4(color * alpha, alpha);
+    }
+  `;
+
+  function compile(type, source) {
+    const shader = gl.createShader(type);
+    gl.shaderSource(shader, source);
+    gl.compileShader(shader);
+    if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+      gl.deleteShader(shader);
+      return null;
+    }
+    return shader;
+  }
+
+  const vertexShader = compile(gl.VERTEX_SHADER, vertexSource);
+  const fragmentShader = compile(gl.FRAGMENT_SHADER, fragmentSource);
+  if (!vertexShader || !fragmentShader) {
+    canvas.remove();
+    return;
+  }
+
+  const program = gl.createProgram();
+  gl.attachShader(program, vertexShader);
+  gl.attachShader(program, fragmentShader);
+  gl.linkProgram(program);
+  if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+    canvas.remove();
+    return;
+  }
+
+  gl.useProgram(program);
+  const positionLocation = gl.getAttribLocation(program, 'a_position');
+  const resolutionLocation = gl.getUniformLocation(program, 'u_resolution');
+  const timeLocation = gl.getUniformLocation(program, 'u_time');
+  const activeLocation = gl.getUniformLocation(program, 'u_active');
+  const buffer = gl.createBuffer();
+  gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
+  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, -1,1, 1,-1, 1,1]), gl.STATIC_DRAW);
+  gl.enableVertexAttribArray(positionLocation);
+  gl.vertexAttribPointer(positionLocation, 2, gl.FLOAT, false, 0, 0);
+
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let targetActive = 0;
+  let currentActive = 0;
+  let frame = 0;
+  let visible = document.visibilityState !== 'hidden';
+
+  function resize() {
+    const rect = nav.getBoundingClientRect();
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    const width = Math.max(1, Math.round(rect.width * dpr));
+    const height = Math.max(1, Math.round(rect.height * dpr));
+    if (canvas.width !== width || canvas.height !== height) {
+      canvas.width = width;
+      canvas.height = height;
+      gl.viewport(0, 0, width, height);
+    }
+  }
+
+  function draw(now = 0) {
+    resize();
+    currentActive += (targetActive - currentActive) * (reducedMotion.matches ? 1 : 0.14);
+    gl.clearColor(0, 0, 0, 0);
+    gl.clear(gl.COLOR_BUFFER_BIT);
+    gl.uniform2f(resolutionLocation, canvas.width, canvas.height);
+    gl.uniform1f(timeLocation, reducedMotion.matches ? 0 : now * 0.001);
+    gl.uniform1f(activeLocation, currentActive);
+    gl.drawArrays(gl.TRIANGLES, 0, 6);
+    nav.classList.add('shader-ready');
+    if (visible && !reducedMotion.matches) frame = requestAnimationFrame(draw);
+  }
+
+  nav.setLiquidGlassActive = (tab) => {
+    const index = ['home', 'likes', 'search'].indexOf(tab);
+    targetActive = Math.max(0, index) / 2;
+    if (reducedMotion.matches) draw();
+  };
+
+  document.addEventListener('visibilitychange', () => {
+    visible = document.visibilityState !== 'hidden';
+    cancelAnimationFrame(frame);
+    if (visible) draw(performance.now());
+  });
+  reducedMotion.addEventListener?.('change', () => {
+    cancelAnimationFrame(frame);
+    draw(performance.now());
+  });
+  canvas.addEventListener('webglcontextlost', (event) => {
+    event.preventDefault();
+    cancelAnimationFrame(frame);
+    nav.classList.remove('shader-ready');
+  });
+
+  draw(performance.now());
+}
+
 function setActiveTab(tab, updateHash = true) {
   if (!['home', 'likes', 'search'].includes(tab)) tab = 'home';
   saveCurrentSearchState();
@@ -3217,6 +3415,7 @@ function setActiveTab(tab, updateHash = true) {
     if (active) btn.setAttribute('aria-current', 'page');
     else btn.removeAttribute('aria-current');
   });
+  document.querySelector('.bottom-tab-bar')?.setLiquidGlassActive?.(tab);
 
   closeModal();
   closeLightbox();
@@ -3330,6 +3529,8 @@ document.body.addEventListener('drop', (e) => {
 });
 
 // ── Init: load from localStorage, then load all CSV files listed in csv-list.json ──
+initLiquidGlassNav();
+
 (async function init() {
   allTweets = loadFromStorage();
 

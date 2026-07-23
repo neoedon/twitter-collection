@@ -118,6 +118,21 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 - Hover: border → `--border-visible`
 - No shadows. Never.
 
+### Nested Radius (Concentric Corners)
+
+- A rounded element placed inside another rounded container must use `inner radius = max(0, outer radius - inset)`.
+- `inset` is the actual distance from the outer edge to the inner element, usually the parent padding.
+- Never copy the same radius onto both layers unless the inset is `0`.
+- Prefer token-compatible combinations: outer `16px` + inset `16px` → inner `0`; outer `24px` + inset `8px` → inner `16px`.
+- Web implementation: `border-radius: max(var(--radius-0), calc(var(--outer-radius) - var(--inset)));`.
+
+### Liquid Glass Navigation
+
+- The bottom navigation is icon-only; accessible names remain on every button through `aria-label`.
+- Use a lightweight WebGL layer for the refractive rim, active lens and moving specular light, with `backdrop-filter` as the no-WebGL fallback.
+- Keep the effect restrained: transparent dark glass, thin chromatic edge and one active lens. Do not use opaque gradients as a substitute for refraction.
+- Visual and rendering reference: [`naughtyduk/liquidGL`](https://github.com/naughtyduk/liquidGL) (MIT). The project implementation is an independent, navigation-specific shader rather than the full-page snapshot library.
+
 ### Buttons (Pill)
 
 - Font: `Space Mono`, 10–11px, ALL CAPS, 0.06em spacing
