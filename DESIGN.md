@@ -131,7 +131,8 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 - The bottom navigation is icon-only; accessible names remain on every button through `aria-label`.
 - Liquid Glass must sample and distort the content behind the navigation; a shader that only paints highlights or borders does not qualify.
 - Use the multi-pass WebGL pipeline from [`@ybouane/liquidglass`](https://github.com/ybouane/liquidglass) (MIT): a viewport-local scene texture → Gaussian blur → refraction/chromatic aberration/Fresnel/specular composite. Never rasterize the full feed for a fixed navigation bar.
-- Keep the effect restrained: transparent dark glass, thin chromatic edge and one subtle active state. Use `backdrop-filter` only as the no-WebGL fallback.
+- Keep the effect restrained: the WebGL glass sits over a `rgba(0,0,0,0.5)` backplate with `16px` backdrop blur, followed by a thin chromatic edge and one subtle active state.
+- The backplate inherits the outer pill radius and remains below the shader canvas; the original translucent glass stays as the no-WebGL fallback.
 
 ### Fullscreen Media Gesture
 

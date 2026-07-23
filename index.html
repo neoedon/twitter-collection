@@ -1315,6 +1315,20 @@
       transition: opacity var(--motion-short) var(--easing-standard);
     }
 
+    .bottom-tab-bar::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      border-radius: inherit;
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--motion-short) var(--easing-standard);
+    }
+
     .bottom-tab-bar > canvas {
       z-index: 0 !important;
       pointer-events: none;
@@ -1329,6 +1343,7 @@
     }
 
     .bottom-tab-bar.shader-ready::before { opacity: 0; }
+    .bottom-tab-bar.shader-ready::after { opacity: 1; }
 
     .tab-button {
       position: relative;
