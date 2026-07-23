@@ -26,6 +26,11 @@
       --interactive-subtle: rgba(91,155,246,0.12);
       --success: #4ade80;
       --success-subtle: rgba(74,222,128,0.12);
+      --easing-standard: cubic-bezier(0.4, 0, 0.2, 1);
+      --easing-decelerate: cubic-bezier(0, 0, 0.2, 1);
+      --easing-accelerate: cubic-bezier(0.4, 0, 1, 1);
+      --motion-short: 200ms;
+      --motion-standard: 300ms;
       --space-xs: 4px;
       --space-sm: 8px;
       --space-md: 16px;
@@ -60,6 +65,7 @@
     }
 
     body {
+      position: relative;
       min-height: 100vh;
       padding: var(--space-xl) var(--space-lg) 132px;
       max-width: 1440px;
@@ -141,6 +147,7 @@
     .digest-grid {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
+      align-items: start;
       gap: var(--col-gap);
     }
 
@@ -670,6 +677,11 @@
       background: var(--interactive-subtle);
     }
 
+    .source-badge.home {
+      color: var(--success);
+      background: var(--success-subtle);
+    }
+
     /* === MASONRY GRID === */
     .masonry {
       display: flex;
@@ -725,12 +737,17 @@
 
     .card-media-track::-webkit-scrollbar { display: none; }
 
-    .card-media-track img {
+    .card-media-track img,
+    .card-media-track video {
       flex: 0 0 100%;
       width: 100%;
       aspect-ratio: 4 / 3;
-      object-fit: cover;
+      object-fit: contain;
       scroll-snap-align: start;
+      background: var(--black);
+    }
+
+    .card-media-track img {
       cursor: zoom-in;
     }
 
@@ -947,12 +964,31 @@
     }
 
     /* === LIQUID GLASS TAB BAR === */
+    .liquid-glass-stage {
+      position: fixed;
+      inset: 0;
+      z-index: 900;
+      pointer-events: none;
+      overflow: visible;
+    }
+
+    .liquid-glass-scene {
+      position: fixed;
+      left: 50%;
+      bottom: max(4px, calc(env(safe-area-inset-bottom) - 12px));
+      width: min(256px, 100vw);
+      height: 96px;
+      transform: translateX(-50%);
+      opacity: 0;
+      pointer-events: none;
+    }
+
     .bottom-tab-bar {
       --tab-bar-height: 64px;
       position: fixed;
       left: 50%;
       bottom: max(20px, env(safe-area-inset-bottom));
-      z-index: 900;
+      z-index: 1;
       width: min(224px, calc(100vw - 32px));
       height: var(--tab-bar-height);
       display: grid;
@@ -967,7 +1003,9 @@
       -webkit-backdrop-filter: blur(24px) saturate(165%) contrast(1.04);
       transform: translateX(-50%) translateZ(0);
       isolation: isolate;
-      overflow: hidden;
+      overflow: visible;
+      pointer-events: auto;
+      transition: background var(--motion-short) var(--easing-standard), border-color var(--motion-short) var(--easing-standard);
     }
 
     .bottom-tab-bar::before {
@@ -980,17 +1018,23 @@
         radial-gradient(circle at 30% 0%, rgba(255,255,255,0.13), transparent 42%),
         linear-gradient(115deg, rgba(115,190,255,0.04), transparent 34%, rgba(255,168,226,0.035));
       pointer-events: none;
+      transition: opacity var(--motion-short) var(--easing-standard);
     }
 
-    .liquid-glass-shader {
-      position: absolute;
-      inset: 0;
-      z-index: 0;
-      width: 100%;
-      height: 100%;
-      border-radius: inherit;
+    .bottom-tab-bar > canvas {
+      z-index: 0 !important;
       pointer-events: none;
     }
+
+    .bottom-tab-bar.shader-ready {
+      border-color: transparent;
+      background: transparent;
+      box-shadow: none;
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+    }
+
+    .bottom-tab-bar.shader-ready::before { opacity: 0; }
 
     .tab-button {
       position: relative;
@@ -1017,9 +1061,8 @@
 
     .tab-button.active {
       color: var(--text-display);
-      border-color: rgba(255,255,255,0.12);
-      background: radial-gradient(circle at 50% 12%, rgba(255,255,255,0.14), rgba(255,255,255,0.035) 72%);
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.14);
+      border-color: rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.045);
     }
 
     .tab-button svg { width: 24px; height: 24px; stroke: currentColor; }
@@ -1168,13 +1211,42 @@
 
     /* === LIGHTBOX === */
     .lightbox {
-      position: fixed; inset: 0; background: rgba(0,0,0,0.95);
-      z-index: 2000; display: none; align-items: center;
+      --lightbox-x: 0px;
+      --lightbox-y: 0px;
+      --lightbox-scale: 1;
+      --lightbox-image-opacity: 1;
+      --lightbox-bg-alpha: 0.95;
+      position: fixed; inset: 0; background: rgba(0,0,0,var(--lightbox-bg-alpha));
+      z-index: 2000; display: flex; align-items: center;
       justify-content: center; cursor: zoom-out;
+      visibility: hidden; opacity: 0; pointer-events: none;
+      touch-action: none; overscroll-behavior: none;
+      transition: opacity var(--motion-standard) var(--easing-decelerate), visibility 0s linear var(--motion-standard);
     }
 
-    .lightbox.open { display: flex; }
-    .lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; border-radius: 4px; }
+    .lightbox.open {
+      visibility: visible; opacity: 1; pointer-events: auto;
+      transition-delay: 0s;
+    }
+
+    .lightbox.dragging { cursor: grabbing; }
+
+    .lightbox.dismissing {
+      opacity: 0;
+      transition: opacity var(--motion-short) var(--easing-accelerate);
+    }
+
+    .lightbox img {
+      max-width: 92vw; max-height: 92dvh; object-fit: contain; border-radius: 4px;
+      opacity: var(--lightbox-image-opacity);
+      transform: translate3d(var(--lightbox-x), var(--lightbox-y), 0) scale(var(--lightbox-scale));
+      transform-origin: center;
+      user-select: none; -webkit-user-drag: none;
+      will-change: transform, opacity;
+      transition: transform var(--motion-standard) var(--easing-decelerate), opacity var(--motion-short) var(--easing-standard);
+    }
+
+    .lightbox.dragging img { transition: none; }
 
     .lightbox-close {
       position: absolute; top: 16px; right: 16px; width: 40px; height: 40px;
@@ -1185,6 +1257,12 @@
     }
 
     .lightbox-close:hover { color: var(--text-display); border-color: var(--text-display); }
+
+    @media (prefers-reduced-motion: reduce) {
+      .lightbox,
+      .lightbox img,
+      .lightbox.dismissing { transition-duration: 0s; }
+    }
 
     /* === MODAL NAV === */
     .modal-nav {
@@ -1212,6 +1290,7 @@
       .header-top { margin-bottom: var(--space-xl); }
       .digest-media { min-height: 220px; max-height: 320px; }
       .bottom-tab-bar { bottom: max(10px, env(safe-area-inset-bottom)); }
+      .liquid-glass-scene { bottom: max(-6px, calc(env(safe-area-inset-bottom) - 22px)); }
       .card-insight-row { grid-template-columns: 42px minmax(0, 1fr); }
 
       .modal-backdrop {
@@ -1531,17 +1610,20 @@
     <div id="searchMount"></div>
   </section>
 
-  <nav class="bottom-tab-bar" aria-label="Primary navigation">
-    <button class="tab-button active" data-tab="home" aria-label="Home" aria-current="page">
-      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3.5 10.8 12 3.7l8.5 7.1v8.5a1.2 1.2 0 0 1-1.2 1.2H4.7a1.2 1.2 0 0 1-1.2-1.2Z"/><path d="M9 20.5v-6h6v6"/></svg>
-    </button>
-    <button class="tab-button" data-tab="likes" aria-label="Likes and bookmarks">
-      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M20.8 9.2c0 5.5-8.8 10.3-8.8 10.3S3.2 14.7 3.2 9.2A4.7 4.7 0 0 1 12 6.9a4.7 4.7 0 0 1 8.8 2.3Z"/></svg>
-    </button>
-    <button class="tab-button" data-tab="search" aria-label="Search and filter">
-      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
-    </button>
-  </nav>
+  <div class="liquid-glass-stage">
+    <canvas class="liquid-glass-scene" aria-hidden="true"></canvas>
+    <nav class="bottom-tab-bar" aria-label="Primary navigation">
+      <button class="tab-button active" data-tab="home" aria-label="Home" aria-current="page">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M3.5 10.8 12 3.7l8.5 7.1v8.5a1.2 1.2 0 0 1-1.2 1.2H4.7a1.2 1.2 0 0 1-1.2-1.2Z"/><path d="M9 20.5v-6h6v6"/></svg>
+      </button>
+      <button class="tab-button" data-tab="likes" aria-label="Likes and bookmarks">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M20.8 9.2c0 5.5-8.8 10.3-8.8 10.3S3.2 14.7 3.2 9.2A4.7 4.7 0 0 1 12 6.9a4.7 4.7 0 0 1 8.8 2.3Z"/></svg>
+      </button>
+      <button class="tab-button" data-tab="search" aria-label="Search and filter">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
+      </button>
+    </nav>
+  </div>
 
   <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
 
@@ -1751,6 +1833,35 @@ const HOME_FEED = [
   }
 ].sort((a, b) => new Date(b.datetime) - new Date(a.datetime));
 
+function homeItemToTweet(item, index) {
+  const media = normalizeMediaItems(item.media);
+  const images = media.filter(entry => entry.type !== 'video').map(entry => entry.src || entry.poster).filter(Boolean);
+  const videos = media.filter(entry => entry.type === 'video' && entry.src);
+  const posters = videos.map(entry => entry.poster).filter(Boolean);
+  return {
+    TweetID: `home-${index}-${item.url.split('/').pop() || index}`,
+    TweetText: item.title,
+    TweetCreatedDate: item.datetime,
+    'Tweet Url': item.url,
+    UserProfilePic: item.avatar,
+    UserProfileName: item.author,
+    UserScreenName: item.handle,
+    MediaType: videos.length ? 'video' : (images.length ? 'photo' : 'text'),
+    MediaImageUrl: [...posters, ...images].join(','),
+    MediaVideoUrl: videos[0]?.src || '',
+    Summary: item.summary,
+    Translation: '',
+    _source: 'home',
+    _tags: [item.category].filter(Boolean),
+    _quote: item.quote || null,
+    _article: item.article || null,
+    _media: media,
+    _metrics: item.metrics || ''
+  };
+}
+
+const HOME_TWEETS = HOME_FEED.map(homeItemToTweet);
+
 let allTweets = [];
 let filteredTweets = [];
 let rendered = 0;
@@ -1760,6 +1871,7 @@ let currentTags = [];
 let searchQuery = '';
 let loading = false;
 let currentModalIndex = -1;
+let currentModalCollection = null;
 let activeTab = 'home';
 let translationCache = loadTranslationCache();
 let searchState = { query: '', filter: 'all', source: 'all', tags: [] };
@@ -2583,11 +2695,11 @@ function renderMediaTrack(media, variant = 'digest') {
   const contents = items.map((item, index) => {
     if (item.type === 'video' && item.src) {
       const poster = highResMediaUrl(item.poster || '', false);
-      return `<video class="card-video" data-src="${escapeHTML(item.src)}"${poster ? ` poster="${escapeHTML(poster)}"` : ''} muted autoplay loop playsinline preload="none" aria-label="视频 ${index + 1} / ${items.length}"></video>`;
+      return `<video class="card-video" data-src="${escapeHTML(item.src)}"${poster ? ` poster="${escapeHTML(poster)}"` : ''} crossorigin="anonymous" muted autoplay loop playsinline preload="none" aria-label="视频 ${index + 1} / ${items.length}"></video>`;
     }
     const display = highResMediaUrl(item.src || item.poster, false);
     const full = highResMediaUrl(item.src || item.poster, true);
-    return `<img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" alt="" loading="lazy">`;
+    return `<img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" crossorigin="anonymous" alt="" loading="lazy">`;
   }).join('');
   return `<div class="${shellClass}">${trackClass ? `<div class="${trackClass}">${contents}</div>` : contents}${items.length > 1 ? `<span class="media-count">1 / ${items.length}</span>` : ''}</div>`;
 }
@@ -2601,15 +2713,15 @@ function renderArticle(article) {
   const media = normalizeMediaItems(article.media);
   const inlineMedia = media.length ? `<div class="x-article-inline-media">${media.map((item, index) => {
     if (item.type === 'video' && item.src) {
-      return `<video class="card-video" data-src="${escapeHTML(item.src)}"${item.poster ? ` poster="${escapeHTML(highResMediaUrl(item.poster))}"` : ''} muted autoplay loop playsinline preload="none" aria-label="文章内视频 ${index + 1}"></video>`;
+      return `<video class="card-video" data-src="${escapeHTML(item.src)}"${item.poster ? ` poster="${escapeHTML(highResMediaUrl(item.poster))}"` : ''} crossorigin="anonymous" muted autoplay loop playsinline preload="none" aria-label="文章内视频 ${index + 1}"></video>`;
     }
     const display = highResMediaUrl(item.src, false);
     const full = highResMediaUrl(item.src, true);
-    return `<img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" alt="" loading="lazy">`;
+    return `<img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" crossorigin="anonymous" alt="" loading="lazy">`;
   }).join('')}</div>` : '';
   const action = hasFullText ? '展开阅读全文 ↓' : '展开长文预览 ↓';
   return `<details class="x-article">
-    ${article.cover ? `<img class="x-article-cover" src="${escapeHTML(highResMediaUrl(article.cover))}" data-full="${escapeHTML(highResMediaUrl(article.cover, true))}" alt="" loading="lazy">` : ''}
+    ${article.cover ? `<img class="x-article-cover" src="${escapeHTML(highResMediaUrl(article.cover))}" data-full="${escapeHTML(highResMediaUrl(article.cover, true))}" crossorigin="anonymous" alt="" loading="lazy">` : ''}
     <summary class="x-article-summary">
       <span class="x-article-eyebrow">${article.kind === 'x' ? 'X ARTICLE' : 'ARTICLE'}</span>
       <strong class="x-article-title">${escapeHTML(article.title || '长文')}</strong>
@@ -2624,7 +2736,7 @@ function renderEmbeddedPost(post) {
   if (!post) return '';
   return `<aside class="embedded-post">
     <div class="embedded-post-head">
-      ${post.avatar ? `<img class="embedded-post-avatar" src="${escapeHTML(post.avatar)}" alt="" loading="lazy">` : ''}
+      ${post.avatar ? `<img class="embedded-post-avatar" src="${escapeHTML(post.avatar)}" crossorigin="anonymous" alt="" loading="lazy">` : ''}
       <div><div class="embedded-post-author">${escapeHTML(post.author || '原作者')}</div><div class="embedded-post-handle">${post.handle ? `@${escapeHTML(post.handle)}` : ''}</div></div>
       <span class="embedded-post-label">${escapeHTML(post.label || '引用原帖')}</span>
     </div>
@@ -2667,56 +2779,44 @@ function renderHomeFeed() {
     return `${get('year')}-${get('month')}-${get('day')}`;
   };
 
-  HOME_FEED.forEach(item => {
-    const key = dateKey(item.datetime);
+  HOME_TWEETS.forEach((tweet, index) => {
+    const key = dateKey(tweet.TweetCreatedDate);
     if (!groups.has(key)) groups.set(key, []);
-    groups.get(key).push(item);
+    groups.get(key).push({ tweet, index });
   });
 
   const today = dateKey(new Date());
   const yesterday = dateKey(new Date(Date.now() - 86400000));
+  container.replaceChildren();
 
-  container.innerHTML = [...groups.entries()].map(([date, items]) => {
+  groups.forEach((entries, date) => {
     const calendarLabel = new Intl.DateTimeFormat('zh-CN', { month: 'long', day: 'numeric' })
       .format(new Date(`${date}T12:00:00+08:00`));
     const label = date === today ? '今天' : (date === yesterday ? '昨天' : calendarLabel);
-    const cards = items.map(item => {
-      const time = new Intl.DateTimeFormat('zh-CN', {
-        timeZone: 'Asia/Shanghai', hour: '2-digit', minute: '2-digit', hour12: false
-      }).format(new Date(item.datetime));
-      const media = normalizeMediaItems(item.media);
-      return `<article class="digest-card${media.length ? '' : ' no-media'}">
-        <div class="digest-content">
-          <div class="digest-card-meta">
-            <img class="digest-avatar" src="${escapeHTML(item.avatar)}" alt="" loading="lazy">
-            <div>
-              <div class="digest-author">${escapeHTML(item.author)} <span class="digest-handle">@${escapeHTML(item.handle)}</span></div>
-              <div class="digest-time">${date} · ${time}</div>
-            </div>
-          </div>
-          <div class="digest-category">${escapeHTML(item.category)}</div>
-          <h2 class="digest-title">${escapeHTML(item.title)}</h2>
-          <p class="digest-summary">${escapeHTML(item.summary)}</p>
-          ${renderEmbeddedPost(item.quote)}
-          ${renderArticle(item.article)}
-          <div class="digest-metrics">${escapeHTML(item.metrics)}</div>
-          <a class="digest-source-link" href="${escapeHTML(item.url)}" target="_blank" rel="noopener">OPEN ON X →</a>
-        </div>
-        ${renderMediaTrack(media, 'digest')}
-      </article>`;
-    }).join('');
-    return `<section class="home-date-group">
-      <div class="home-date-heading"><span class="date">${label} · ${date}</span><span>${items.length} ITEMS</span></div>
-      <div class="digest-grid">${cards}</div>
-    </section>`;
-  }).join('');
+    const section = document.createElement('section');
+    section.className = 'home-date-group';
+    section.innerHTML = `<div class="home-date-heading"><span class="date">${label} · ${date}</span><span>${entries.length} ITEMS</span></div>`;
 
-  document.getElementById('homeItemCount').textContent = `${HOME_FEED.length} 条精选`;
-  wireRichMedia(container);
+    const grid = document.createElement('div');
+    grid.className = 'digest-grid';
+    entries.forEach(({ tweet, index }) => {
+      const card = createCard(tweet, index, {
+        onOpen: () => openModalAt(index, HOME_TWEETS)
+      });
+      card.classList.add('home-card');
+      grid.appendChild(card);
+      prepareCardVideo(card);
+      prepareCardEnrichment(card, tweet);
+    });
+
+    section.appendChild(grid);
+    container.appendChild(section);
+  });
+
+  document.getElementById('homeItemCount').textContent = `${HOME_TWEETS.length} 条精选`;
 }
-
 // ── Card rendering ──
-function createCard(tweet, index) {
+function createCard(tweet, index, options = {}) {
   const card = document.createElement('div');
   card.className = 'card';
   card.style.animationDelay = `${(index % BATCH_SIZE) * 30}ms`;
@@ -2731,33 +2831,50 @@ function createCard(tweet, index) {
   const profileName = tweet['UserProfileName'] || '';
   const screenName = tweet['UserScreenName'] || '';
   const date = formatDate(tweet['TweetCreatedDate']);
+  const structuredMedia = normalizeMediaItems(tweet._media);
+  const carouselCount = structuredMedia.length || imageUrls.length;
 
   let html = '';
 
-  if (mediaType.toLowerCase() === 'video' && videoUrl) {
+  if (structuredMedia.length) {
+    html += `<div class="card-media${structuredMedia.length > 1 ? ' card-media-carousel' : ''}">
+      <div class="card-media-track">
+        ${structuredMedia.map((item, mediaIndex) => {
+          if (item.type === 'video' && item.src) {
+            const poster = highResMediaUrl(item.poster || '', false);
+            return `<video class="card-video" data-src="${escapeHTML(item.src)}"${poster ? ` poster="${escapeHTML(poster)}"` : ''} crossorigin="anonymous" muted autoplay loop playsinline preload="none" aria-label="视频 ${mediaIndex + 1} / ${structuredMedia.length}"></video>`;
+          }
+          const display = highResMediaUrl(item.src || item.poster, false);
+          const full = highResMediaUrl(item.src || item.poster, true);
+          return `<img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" crossorigin="anonymous" alt="" loading="lazy">`;
+        }).join('')}
+      </div>
+      ${structuredMedia.length > 1 ? `<span class="media-count">1 / ${structuredMedia.length}</span>` : ''}
+    </div>`;
+  } else if (mediaType.toLowerCase() === 'video' && videoUrl) {
     html += `<div class="card-media">
-      <video class="card-video" data-src="${escapeHTML(videoUrl)}"${imageUrl ? ` poster="${escapeHTML(imageUrl)}"` : ''} muted autoplay loop playsinline preload="none" aria-label="Video preview"></video>
-      ${imageUrl ? `<img class="card-video-fallback" src="${escapeHTML(imageUrl)}" alt="" loading="lazy">` : ''}
+      <video class="card-video" data-src="${escapeHTML(videoUrl)}"${imageUrl ? ` poster="${escapeHTML(imageUrl)}"` : ''} crossorigin="anonymous" muted autoplay loop playsinline preload="none" aria-label="Video preview"></video>
+      ${imageUrl ? `<img class="card-video-fallback" src="${escapeHTML(imageUrl)}" crossorigin="anonymous" alt="" loading="lazy">` : ''}
       <span class="video-badge">▶ VIDEO</span>
     </div>`;
   } else if (imageUrl) {
     if (imageUrls.length > 1) {
       html += `<div class="card-media card-media-carousel">
         <div class="card-media-track">
-          ${imageUrls.map(url => `<img src="${escapeHTML(url)}" alt="" loading="lazy" data-full="${escapeHTML(highResMediaUrl(url, true))}">`).join('')}
+          ${imageUrls.map(url => `<img src="${escapeHTML(url)}" crossorigin="anonymous" alt="" loading="lazy" data-full="${escapeHTML(highResMediaUrl(url, true))}">`).join('')}
         </div>
         <span class="media-count">1 / ${imageUrls.length}</span>
       </div>`;
     } else {
       html += `<div class="card-media">
-        <img src="${escapeHTML(imageUrl)}" alt="" loading="lazy" data-full="${escapeHTML(highResMediaUrl(imageUrl, true))}" onerror="this.parentElement.remove()">
+        <img src="${escapeHTML(imageUrl)}" crossorigin="anonymous" alt="" loading="lazy" data-full="${escapeHTML(highResMediaUrl(imageUrl, true))}" onerror="this.parentElement.remove()">
       </div>`;
     }
   }
 
   html += `<div class="card-body">`;
   html += `<div class="card-user">
-    <img class="card-avatar" src="${escapeHTML(profilePic)}" data-fallback="${escapeHTML(profilePicOriginal)}" alt="" loading="lazy" onerror="if(this.dataset.fallback && this.src !== this.dataset.fallback){this.src=this.dataset.fallback}else{this.style.display='none'}">
+    <img class="card-avatar" src="${escapeHTML(profilePic)}" data-fallback="${escapeHTML(profilePicOriginal)}" crossorigin="anonymous" alt="" loading="lazy" onerror="if(this.dataset.fallback && this.src !== this.dataset.fallback){this.src=this.dataset.fallback}else{this.style.display='none'}">
     <div class="card-user-info">
       <div class="card-name">${escapeHTML(profileName)}</div>
       <div class="card-handle">@${escapeHTML(screenName)}</div>
@@ -2789,8 +2906,8 @@ function createCard(tweet, index) {
     </div>
   </div>`;
 
-  const srcCls = tweet._source === 'bookmark' ? 'bookmark' : 'fav';
-  const srcLbl = tweet._source === 'bookmark' ? '★ SAVE' : '♥ LIKE';
+  const srcCls = tweet._source === 'bookmark' ? 'bookmark' : (tweet._source === 'home' ? 'home' : 'fav');
+  const srcLbl = tweet._source === 'bookmark' ? '★ SAVE' : (tweet._source === 'home' ? 'HOME' : '♥ LIKE');
   const tags = tweet._tags || [];
   const tagPills = tags.map(t => {
     const c = tagColor(t);
@@ -2811,7 +2928,8 @@ function createCard(tweet, index) {
 
   card.querySelector('.card-link').addEventListener('click', (e) => {
     e.stopPropagation();
-    openModalAt(index);
+    if (typeof options.onOpen === 'function') options.onOpen(tweet, index);
+    else openModalAt(index);
   });
 
   wireRichMedia(card);
@@ -2821,7 +2939,7 @@ function createCard(tweet, index) {
     const count = card.querySelector('.card-media > .media-count');
     mediaTrack.addEventListener('scroll', () => {
       const current = Math.round(mediaTrack.scrollLeft / Math.max(mediaTrack.clientWidth, 1)) + 1;
-      if (count) count.textContent = `${Math.min(current, imageUrls.length)} / ${imageUrls.length}`;
+      if (count) count.textContent = `${Math.min(current, carouselCount)} / ${carouselCount}`;
     }, { passive: true });
   }
 
@@ -2958,10 +3076,11 @@ window.addEventListener('resize', () => {
 }, { passive: true });
 
 // ── Modal ──
-function openModalAt(index) {
-  if (index < 0 || index >= filteredTweets.length) return;
+function openModalAt(index, collection = filteredTweets) {
+  if (index < 0 || index >= collection.length) return;
   currentModalIndex = index;
-  const tweet = filteredTweets[index];
+  currentModalCollection = collection;
+  const tweet = collection[index];
 
   const backdrop = document.getElementById('modalBackdrop');
   const content = document.getElementById('modalContent');
@@ -2979,8 +3098,8 @@ function openModalAt(index) {
   const profileName = tweet['UserProfileName'] || '';
   const screenName = tweet['UserScreenName'] || '';
   const date = formatDate(tweet['TweetCreatedDate']);
-  const srcCls = tweet._source === 'bookmark' ? 'bookmark' : 'fav';
-  const srcLbl = tweet._source === 'bookmark' ? '★ SAVE' : '♥ LIKE';
+  const srcCls = tweet._source === 'bookmark' ? 'bookmark' : (tweet._source === 'home' ? 'home' : 'fav');
+  const srcLbl = tweet._source === 'bookmark' ? '★ SAVE' : (tweet._source === 'home' ? 'HOME' : '♥ LIKE');
   const enrichment = translationCache[getEnrichmentKey(tweet)] || {};
   const shouldTranslate = needsChineseTranslation(fullText);
   const translation = tweet.Translation || enrichment.translation || '';
@@ -2994,7 +3113,7 @@ function openModalAt(index) {
     // appended directly below
   } else if (imageUrls.length > 1) {
     mediaHTML = `<div class="modal-media modal-media-gallery">
-      ${imageUrls.map(u => `<img src="${escapeHTML(u)}" alt="" data-full="${escapeHTML(highResMediaUrl(u, true))}" loading="lazy">`).join('')}
+      ${imageUrls.map(u => `<img src="${escapeHTML(u)}" crossorigin="anonymous" alt="" data-full="${escapeHTML(highResMediaUrl(u, true))}" loading="lazy">`).join('')}
     </div>`;
   }
 
@@ -3003,7 +3122,7 @@ function openModalAt(index) {
   content.innerHTML = `
     <div class="modal-body">
       <div class="modal-user">
-        <img class="modal-avatar" src="${escapeHTML(profilePic)}" data-fallback="${escapeHTML(profilePicOriginal)}" alt="" onerror="if(this.dataset.fallback && this.src !== this.dataset.fallback){this.src=this.dataset.fallback}else{this.style.display='none'}">
+        <img class="modal-avatar" src="${escapeHTML(profilePic)}" data-fallback="${escapeHTML(profilePicOriginal)}" crossorigin="anonymous" alt="" onerror="if(this.dataset.fallback && this.src !== this.dataset.fallback){this.src=this.dataset.fallback}else{this.style.display='none'}">
         <div class="modal-user-info">
           <div class="modal-name">${escapeHTML(profileName)}</div>
           <div class="modal-handle">@${escapeHTML(screenName)}</div>
@@ -3037,7 +3156,7 @@ function openModalAt(index) {
   wireRichMedia(content);
   renderModalTags(tweet);
 
-  counter.textContent = `${index + 1} / ${filteredTweets.length}`;
+  counter.textContent = `${index + 1} / ${collection.length}`;
 
   const existingVideo = document.getElementById('modalVideo');
   if (existingVideo) existingVideo.remove();
@@ -3048,6 +3167,7 @@ function openModalAt(index) {
     const modal = document.getElementById('modal');
     const video = document.createElement('video');
     video.id = 'modalVideo';
+    video.crossOrigin = 'anonymous';
     video.controls = true;
     video.playsInline = true;
     video.muted = true;
@@ -3077,6 +3197,7 @@ function openModalAt(index) {
   } else if (imageUrls.length === 1) {
     const modal = document.getElementById('modal');
     const img = document.createElement('img');
+    img.crossOrigin = 'anonymous';
     img.src = imageUrls[0];
     img.alt = '';
     img.dataset.full = highResMediaUrl(imageUrls[0], true);
@@ -3087,7 +3208,7 @@ function openModalAt(index) {
   }
 
   backdrop.classList.add('open');
-  document.body.style.overflow = 'hidden';
+  syncPageScrollLock();
 
   const modalVid = document.getElementById('modalVideo');
   if (modalVid && modalVid.tagName === 'VIDEO') { modalVid.muted = true; modalVid.play().catch(() => {}); }
@@ -3096,7 +3217,8 @@ function openModalAt(index) {
 
 function navigateModal(dir) {
   const next = currentModalIndex + dir;
-  if (next >= 0 && next < filteredTweets.length) openModalAt(next);
+  const collection = currentModalCollection || filteredTweets;
+  if (next >= 0 && next < collection.length) openModalAt(next, collection);
 }
 
 function stopModalVideo() {
@@ -3111,8 +3233,9 @@ function closeModal() {
   const img = document.querySelector('#modal > img');
   if (img) img.remove();
   document.getElementById('modalBackdrop').classList.remove('open');
-  document.body.style.overflow = '';
+  syncPageScrollLock();
   currentModalIndex = -1;
+  currentModalCollection = null;
 }
 
 function renderModalTags(tweet) {
@@ -3177,14 +3300,158 @@ function renderModalTags(tweet) {
   });
 }
 
+let pageScrollLock = null;
+
+function syncPageScrollLock() {
+  const modalOpen = document.getElementById('modalBackdrop').classList.contains('open');
+  const lightboxOpen = document.getElementById('lightbox').classList.contains('open');
+  const shouldLock = modalOpen || lightboxOpen;
+
+  if (shouldLock && !pageScrollLock) {
+    const body = document.body;
+    pageScrollLock = {
+      y: window.scrollY,
+      position: body.style.position,
+      top: body.style.top,
+      left: body.style.left,
+      right: body.style.right,
+      width: body.style.width,
+      overflow: body.style.overflow,
+      overscroll: document.documentElement.style.overscrollBehavior
+    };
+    body.style.position = 'fixed';
+    body.style.top = `-${pageScrollLock.y}px`;
+    body.style.left = '0';
+    body.style.right = '0';
+    body.style.width = '100%';
+    body.style.overflow = 'hidden';
+    document.documentElement.style.overscrollBehavior = 'none';
+    return;
+  }
+
+  if (!shouldLock && pageScrollLock) {
+    const body = document.body;
+    const lock = pageScrollLock;
+    pageScrollLock = null;
+    body.style.position = lock.position;
+    body.style.top = lock.top;
+    body.style.left = lock.left;
+    body.style.right = lock.right;
+    body.style.width = lock.width;
+    body.style.overflow = lock.overflow;
+    document.documentElement.style.overscrollBehavior = lock.overscroll;
+    window.scrollTo(0, lock.y);
+  }
+}
+
+const lightboxGesture = {
+  pointerId: null,
+  startX: 0,
+  startY: 0,
+  startTime: 0,
+  dx: 0,
+  dy: 0,
+  didDrag: false
+};
+
+function setLightboxDrag(dx = 0, dy = 0) {
+  const lightbox = document.getElementById('lightbox');
+  const distance = Math.hypot(dx, dy);
+  const progress = Math.min(distance / Math.max(180, Math.min(innerWidth, innerHeight) * 0.55), 1);
+  lightbox.style.setProperty('--lightbox-x', `${dx}px`);
+  lightbox.style.setProperty('--lightbox-y', `${dy}px`);
+  lightbox.style.setProperty('--lightbox-scale', String(1 - progress * 0.08));
+  lightbox.style.setProperty('--lightbox-image-opacity', String(1 - progress * 0.22));
+  lightbox.style.setProperty('--lightbox-bg-alpha', String(0.95 - progress * 0.7));
+}
+
+function resetLightboxDrag() {
+  const lightbox = document.getElementById('lightbox');
+  lightbox.classList.remove('dragging', 'dismissing');
+  setLightboxDrag();
+  lightbox.style.setProperty('--lightbox-image-opacity', '1');
+  lightbox.style.setProperty('--lightbox-bg-alpha', '0.95');
+}
+
 function openLightbox(src) {
-  document.getElementById('lightboxImg').src = src;
-  document.getElementById('lightbox').classList.add('open');
+  const lightbox = document.getElementById('lightbox');
+  const image = document.getElementById('lightboxImg');
+  image.src = src;
+  image.draggable = false;
+  resetLightboxDrag();
+  lightbox.classList.add('open');
+  syncPageScrollLock();
+}
+
+function finalizeLightboxClose() {
+  const lightbox = document.getElementById('lightbox');
+  lightbox.classList.remove('open', 'dragging', 'dismissing');
+  document.getElementById('lightboxImg').src = '';
+  lightboxGesture.pointerId = null;
+  resetLightboxDrag();
+  syncPageScrollLock();
 }
 
 function closeLightbox() {
-  document.getElementById('lightbox').classList.remove('open');
-  document.getElementById('lightboxImg').src = '';
+  const lightbox = document.getElementById('lightbox');
+  if (!lightbox.classList.contains('open')) return;
+  lightbox.classList.add('dismissing');
+  const delay = matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 200;
+  window.setTimeout(finalizeLightboxClose, delay);
+}
+
+function dismissLightboxInDirection(dx, dy) {
+  const lightbox = document.getElementById('lightbox');
+  const distance = Math.max(Math.hypot(dx, dy), 1);
+  const exitDistance = Math.hypot(innerWidth, innerHeight) * 0.8;
+  const multiplier = exitDistance / distance;
+  lightbox.classList.remove('dragging');
+  lightbox.classList.add('dismissing');
+  lightbox.style.setProperty('--lightbox-x', `${dx * multiplier}px`);
+  lightbox.style.setProperty('--lightbox-y', `${dy * multiplier}px`);
+  lightbox.style.setProperty('--lightbox-scale', '0.9');
+  lightbox.style.setProperty('--lightbox-image-opacity', '0');
+  lightbox.style.setProperty('--lightbox-bg-alpha', '0');
+  const delay = matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 200;
+  window.setTimeout(finalizeLightboxClose, delay);
+}
+
+function onLightboxPointerDown(event) {
+  const lightbox = document.getElementById('lightbox');
+  if (!lightbox.classList.contains('open') || event.button !== 0 || event.target.closest('.lightbox-close')) return;
+  lightboxGesture.pointerId = event.pointerId;
+  lightboxGesture.startX = event.clientX;
+  lightboxGesture.startY = event.clientY;
+  lightboxGesture.startTime = performance.now();
+  lightboxGesture.dx = 0;
+  lightboxGesture.dy = 0;
+  lightboxGesture.didDrag = false;
+  lightbox.setPointerCapture(event.pointerId);
+  lightbox.classList.add('dragging');
+}
+
+function onLightboxPointerMove(event) {
+  if (event.pointerId !== lightboxGesture.pointerId) return;
+  lightboxGesture.dx = event.clientX - lightboxGesture.startX;
+  lightboxGesture.dy = event.clientY - lightboxGesture.startY;
+  lightboxGesture.didDrag = lightboxGesture.didDrag || Math.hypot(lightboxGesture.dx, lightboxGesture.dy) > 8;
+  setLightboxDrag(lightboxGesture.dx, lightboxGesture.dy);
+  event.preventDefault();
+}
+
+function onLightboxPointerEnd(event) {
+  if (event.pointerId !== lightboxGesture.pointerId) return;
+  const lightbox = document.getElementById('lightbox');
+  const elapsed = Math.max(performance.now() - lightboxGesture.startTime, 1);
+  const distance = Math.hypot(lightboxGesture.dx, lightboxGesture.dy);
+  const velocity = distance / elapsed;
+  const threshold = Math.min(110, Math.max(72, Math.min(innerWidth, innerHeight) * 0.14));
+  const shouldDismiss = distance >= threshold || (distance >= 36 && velocity >= 0.55);
+
+  if (lightbox.hasPointerCapture(event.pointerId)) lightbox.releasePointerCapture(event.pointerId);
+  lightboxGesture.pointerId = null;
+  if (shouldDismiss) dismissLightboxInDirection(lightboxGesture.dx, lightboxGesture.dy);
+  else resetLightboxDrag();
 }
 
 function syncFilterControls() {
@@ -3217,190 +3484,6 @@ function setCollectionState(state) {
   applyFilters();
 }
 
-// Navigation-specific WebGL glass rim, inspired by liquidGL (MIT):
-// https://github.com/naughtyduk/liquidGL
-function initLiquidGlassNav() {
-  const nav = document.querySelector('.bottom-tab-bar');
-  if (!nav) return;
-
-  const canvas = document.createElement('canvas');
-  canvas.className = 'liquid-glass-shader';
-  canvas.setAttribute('aria-hidden', 'true');
-  nav.prepend(canvas);
-
-  const gl = canvas.getContext('webgl', {
-    alpha: true,
-    antialias: true,
-    depth: false,
-    stencil: false,
-    premultipliedAlpha: true,
-    powerPreference: 'low-power'
-  });
-  if (!gl) {
-    canvas.remove();
-    return;
-  }
-
-  const vertexSource = `
-    attribute vec2 a_position;
-    void main() {
-      gl_Position = vec4(a_position, 0.0, 1.0);
-    }
-  `;
-
-  const fragmentSource = `
-    precision highp float;
-    uniform vec2 u_resolution;
-    uniform float u_time;
-    uniform float u_active;
-
-    float roundedBoxSDF(vec2 p, vec2 halfSize, float radius) {
-      vec2 q = abs(p) - halfSize + radius;
-      return min(max(q.x, q.y), 0.0) + length(max(q, 0.0)) - radius;
-    }
-
-    float softBand(float distanceValue, float widthValue) {
-      return 1.0 - smoothstep(0.0, widthValue, abs(distanceValue));
-    }
-
-    void main() {
-      vec2 pixel = gl_FragCoord.xy;
-      vec2 size = u_resolution;
-      vec2 uv = pixel / size;
-      float outerRadius = size.y * 0.5 - 1.5;
-      float outerDistance = roundedBoxSDF(
-        pixel - size * 0.5,
-        size * 0.5 - vec2(1.5),
-        outerRadius
-      );
-      float outerInside = 1.0 - smoothstep(-0.75, 0.75, outerDistance);
-      float outerRim = softBand(outerDistance, 5.0);
-
-      float activeCenterX = mix(size.x / 6.0, size.x * 5.0 / 6.0, u_active);
-      vec2 activeCenter = vec2(activeCenterX, size.y * 0.5);
-      float lensRadius = size.y * 0.37;
-      float lensDistance = roundedBoxSDF(
-        pixel - activeCenter,
-        vec2(lensRadius),
-        lensRadius
-      );
-      float lensInside = 1.0 - smoothstep(-0.8, 0.8, lensDistance);
-      float lensRim = softBand(lensDistance, 4.0);
-
-      float sweep = 0.5 + 0.5 * sin(u_time * 0.62 + uv.x * 7.0 - uv.y * 3.0);
-      float glint = pow(max(0.0, 1.0 - length(uv - vec2(0.2 + 0.6 * sweep, 1.03)) * 1.8), 7.0);
-      float caustic = 0.5 + 0.5 * sin(u_time * 0.34 + uv.x * 11.0 + sin(uv.y * 9.0));
-
-      vec3 coolEdge = vec3(0.55, 0.78, 1.0);
-      vec3 warmEdge = vec3(1.0, 0.66, 0.87);
-      vec3 rimColor = mix(coolEdge, warmEdge, 0.35 + sweep * 0.3);
-      vec3 color = mix(vec3(0.76, 0.83, 0.92), rimColor, outerRim * 0.58 + lensRim * 0.48);
-      color += glint * vec3(0.42, 0.46, 0.52);
-
-      float alpha = outerInside * (0.018 + caustic * 0.012);
-      alpha += outerRim * (0.14 + glint * 0.24);
-      alpha += lensInside * (0.035 + caustic * 0.022);
-      alpha += lensRim * (0.16 + glint * 0.22);
-      alpha = clamp(alpha, 0.0, 0.52);
-
-      if (alpha < 0.002) discard;
-      gl_FragColor = vec4(color * alpha, alpha);
-    }
-  `;
-
-  function compile(type, source) {
-    const shader = gl.createShader(type);
-    gl.shaderSource(shader, source);
-    gl.compileShader(shader);
-    if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
-      gl.deleteShader(shader);
-      return null;
-    }
-    return shader;
-  }
-
-  const vertexShader = compile(gl.VERTEX_SHADER, vertexSource);
-  const fragmentShader = compile(gl.FRAGMENT_SHADER, fragmentSource);
-  if (!vertexShader || !fragmentShader) {
-    canvas.remove();
-    return;
-  }
-
-  const program = gl.createProgram();
-  gl.attachShader(program, vertexShader);
-  gl.attachShader(program, fragmentShader);
-  gl.linkProgram(program);
-  if (!gl.getProgramParameter(program, gl.LINK_STATUS)) {
-    canvas.remove();
-    return;
-  }
-
-  gl.useProgram(program);
-  const positionLocation = gl.getAttribLocation(program, 'a_position');
-  const resolutionLocation = gl.getUniformLocation(program, 'u_resolution');
-  const timeLocation = gl.getUniformLocation(program, 'u_time');
-  const activeLocation = gl.getUniformLocation(program, 'u_active');
-  const buffer = gl.createBuffer();
-  gl.bindBuffer(gl.ARRAY_BUFFER, buffer);
-  gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, -1,1, 1,-1, 1,1]), gl.STATIC_DRAW);
-  gl.enableVertexAttribArray(positionLocation);
-  gl.vertexAttribPointer(positionLocation, 2, gl.FLOAT, false, 0, 0);
-
-  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  let targetActive = 0;
-  let currentActive = 0;
-  let frame = 0;
-  let visible = document.visibilityState !== 'hidden';
-
-  function resize() {
-    const rect = nav.getBoundingClientRect();
-    const dpr = Math.min(window.devicePixelRatio || 1, 2);
-    const width = Math.max(1, Math.round(rect.width * dpr));
-    const height = Math.max(1, Math.round(rect.height * dpr));
-    if (canvas.width !== width || canvas.height !== height) {
-      canvas.width = width;
-      canvas.height = height;
-      gl.viewport(0, 0, width, height);
-    }
-  }
-
-  function draw(now = 0) {
-    resize();
-    currentActive += (targetActive - currentActive) * (reducedMotion.matches ? 1 : 0.14);
-    gl.clearColor(0, 0, 0, 0);
-    gl.clear(gl.COLOR_BUFFER_BIT);
-    gl.uniform2f(resolutionLocation, canvas.width, canvas.height);
-    gl.uniform1f(timeLocation, reducedMotion.matches ? 0 : now * 0.001);
-    gl.uniform1f(activeLocation, currentActive);
-    gl.drawArrays(gl.TRIANGLES, 0, 6);
-    nav.classList.add('shader-ready');
-    if (visible && !reducedMotion.matches) frame = requestAnimationFrame(draw);
-  }
-
-  nav.setLiquidGlassActive = (tab) => {
-    const index = ['home', 'likes', 'search'].indexOf(tab);
-    targetActive = Math.max(0, index) / 2;
-    if (reducedMotion.matches) draw();
-  };
-
-  document.addEventListener('visibilitychange', () => {
-    visible = document.visibilityState !== 'hidden';
-    cancelAnimationFrame(frame);
-    if (visible) draw(performance.now());
-  });
-  reducedMotion.addEventListener?.('change', () => {
-    cancelAnimationFrame(frame);
-    draw(performance.now());
-  });
-  canvas.addEventListener('webglcontextlost', (event) => {
-    event.preventDefault();
-    cancelAnimationFrame(frame);
-    nav.classList.remove('shader-ready');
-  });
-
-  draw(performance.now());
-}
-
 function setActiveTab(tab, updateHash = true) {
   if (!['home', 'likes', 'search'].includes(tab)) tab = 'home';
   saveCurrentSearchState();
@@ -3415,7 +3498,6 @@ function setActiveTab(tab, updateHash = true) {
     if (active) btn.setAttribute('aria-current', 'page');
     else btn.removeAttribute('aria-current');
   });
-  document.querySelector('.bottom-tab-bar')?.setLiquidGlassActive?.(tab);
 
   closeModal();
   closeLightbox();
@@ -3442,7 +3524,16 @@ document.getElementById('modalNext').addEventListener('click', (e) => { e.stopPr
 document.getElementById('modalBackdrop').addEventListener('click', (e) => {
   if (e.target === e.currentTarget || e.target.classList.contains('modal-wrapper')) closeModal();
 });
-document.getElementById('lightbox').addEventListener('click', (e) => {
+const lightboxElement = document.getElementById('lightbox');
+lightboxElement.addEventListener('pointerdown', onLightboxPointerDown);
+lightboxElement.addEventListener('pointermove', onLightboxPointerMove);
+lightboxElement.addEventListener('pointerup', onLightboxPointerEnd);
+lightboxElement.addEventListener('pointercancel', onLightboxPointerEnd);
+lightboxElement.addEventListener('click', (e) => {
+  if (lightboxGesture.didDrag) {
+    lightboxGesture.didDrag = false;
+    return;
+  }
   if (e.target !== document.getElementById('lightboxImg')) closeLightbox();
 });
 document.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
@@ -3529,8 +3620,6 @@ document.body.addEventListener('drop', (e) => {
 });
 
 // ── Init: load from localStorage, then load all CSV files listed in csv-list.json ──
-initLiquidGlassNav();
-
 (async function init() {
   allTweets = loadFromStorage();
 
@@ -3566,7 +3655,212 @@ initLiquidGlassNav();
   renderHomeFeed();
   const requestedTab = location.hash.replace('#', '');
   setActiveTab(['home', 'likes', 'search'].includes(requestedTab) ? requestedTab : 'home', false);
+  document.body.dataset.collectionReady = 'true';
+  document.dispatchEvent(new Event('collection:ready'));
 })();
+</script>
+<script type="module">
+  import { LiquidGlass } from 'https://cdn.jsdelivr.net/npm/@ybouane/liquidglass@1.0.3/dist/index.js';
+
+  const glassStage = document.querySelector('.liquid-glass-stage');
+  const sceneCanvas = document.querySelector('.liquid-glass-scene');
+  const nav = document.querySelector('.bottom-tab-bar');
+  if (glassStage && sceneCanvas && nav) {
+    if (document.body.dataset.collectionReady !== 'true') {
+      await new Promise(resolve => document.addEventListener('collection:ready', resolve, { once: true }));
+    }
+
+    nav.dataset.config = JSON.stringify({
+      blurAmount: 0.16,
+      refraction: 0.72,
+      chromAberration: 0.035,
+      edgeHighlight: 0.12,
+      specular: 0.16,
+      fresnel: 0.88,
+      distortion: 0.008,
+      cornerRadius: 32,
+      zRadius: 24,
+      opacity: 0.96,
+      saturation: -0.08,
+      tintStrength: 0.035,
+      brightness: -0.04,
+      shadowOpacity: 0.22,
+      shadowSpread: 8,
+      shadowOffsetY: 2,
+      floating: false,
+      button: false
+    });
+
+    let liquidGlassInstance = null;
+    let paintFrame = 0;
+
+    const intersects = (a, b) => (
+      a.right > b.left && a.left < b.right && a.bottom > b.top && a.top < b.bottom
+    );
+
+    const paintNavScene = () => {
+      paintFrame = 0;
+      const sceneRect = sceneCanvas.getBoundingClientRect();
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      const width = Math.max(1, Math.round(sceneRect.width * dpr));
+      const height = Math.max(1, Math.round(sceneRect.height * dpr));
+      if (sceneCanvas.width !== width || sceneCanvas.height !== height) {
+        sceneCanvas.width = width;
+        sceneCanvas.height = height;
+      }
+
+      const ctx = sceneCanvas.getContext('2d');
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      ctx.clearRect(0, 0, sceneRect.width, sceneRect.height);
+      ctx.fillStyle = getComputedStyle(document.body).backgroundColor || '#080808';
+      ctx.fillRect(0, 0, sceneRect.width, sceneRect.height);
+
+      const sampled = new Set();
+      const columns = 8;
+      const rows = 3;
+      for (let row = 0; row < rows; row += 1) {
+        for (let column = 0; column < columns; column += 1) {
+          const x = sceneRect.left + ((column + 0.5) / columns) * sceneRect.width;
+          const y = sceneRect.top + ((row + 0.5) / rows) * sceneRect.height;
+          document.elementsFromPoint(x, y).forEach(element => {
+            if (glassStage.contains(element) || element === document.body || element === document.documentElement) return;
+            let current = element;
+            while (current && current !== document.body) {
+              if (!glassStage.contains(current)) sampled.add(current);
+              current = current.parentElement;
+            }
+          });
+        }
+      }
+
+      const elements = [...sampled].filter(element => {
+        const rect = element.getBoundingClientRect();
+        const style = getComputedStyle(element);
+        return intersects(rect, sceneRect)
+          && style.display !== 'none'
+          && style.visibility !== 'hidden'
+          && Number.parseFloat(style.opacity || '1') > 0;
+      }).sort((a, b) => {
+        if (a.contains(b)) return -1;
+        if (b.contains(a)) return 1;
+        return a.compareDocumentPosition(b) & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1;
+      });
+
+      const localRect = rect => ({
+        x: rect.left - sceneRect.left,
+        y: rect.top - sceneRect.top,
+        width: rect.width,
+        height: rect.height
+      });
+
+      elements.forEach(element => {
+        const rect = element.getBoundingClientRect();
+        const local = localRect(rect);
+        const style = getComputedStyle(element);
+        const radius = Math.min(Number.parseFloat(style.borderTopLeftRadius) || 0, local.width / 2, local.height / 2);
+        const background = style.backgroundColor;
+        const isMedia = element instanceof HTMLImageElement
+          || element instanceof HTMLVideoElement
+          || element instanceof HTMLCanvasElement;
+
+        if (background && background !== 'rgba(0, 0, 0, 0)' && background !== 'transparent') {
+          ctx.save();
+          ctx.globalAlpha = Number.parseFloat(style.opacity || '1');
+          ctx.fillStyle = background;
+          ctx.beginPath();
+          ctx.roundRect(local.x, local.y, local.width, local.height, radius);
+          ctx.fill();
+          ctx.restore();
+        }
+
+        if (isMedia && element !== sceneCanvas) {
+          const sourceWidth = element instanceof HTMLImageElement
+            ? element.naturalWidth
+            : element instanceof HTMLVideoElement
+              ? element.videoWidth
+              : element.width;
+          const sourceHeight = element instanceof HTMLImageElement
+            ? element.naturalHeight
+            : element instanceof HTMLVideoElement
+              ? element.videoHeight
+              : element.height;
+          if (sourceWidth > 0 && sourceHeight > 0) {
+            const fit = style.objectFit || 'fill';
+            const scale = fit === 'cover'
+              ? Math.max(local.width / sourceWidth, local.height / sourceHeight)
+              : fit === 'contain'
+                ? Math.min(local.width / sourceWidth, local.height / sourceHeight)
+                : null;
+            const drawWidth = scale ? sourceWidth * scale : local.width;
+            const drawHeight = scale ? sourceHeight * scale : local.height;
+            ctx.save();
+            ctx.beginPath();
+            ctx.roundRect(local.x, local.y, local.width, local.height, radius);
+            ctx.clip();
+            try {
+              ctx.drawImage(
+                element,
+                local.x + (local.width - drawWidth) / 2,
+                local.y + (local.height - drawHeight) / 2,
+                drawWidth,
+                drawHeight
+              );
+            } catch (_) { /* Cross-origin media keeps the sampled background color. */ }
+            ctx.restore();
+          }
+        }
+
+        [...element.childNodes].forEach(node => {
+          if (node.nodeType !== Node.TEXT_NODE || !node.textContent.trim()) return;
+          const range = document.createRange();
+          range.selectNodeContents(node);
+          const textRect = range.getBoundingClientRect();
+          if (!intersects(textRect, sceneRect) || textRect.width < 1 || textRect.height < 1) return;
+          const textLocal = localRect(textRect);
+          ctx.save();
+          ctx.beginPath();
+          ctx.rect(textLocal.x, textLocal.y, textLocal.width, textLocal.height);
+          ctx.clip();
+          ctx.fillStyle = style.color;
+          ctx.globalAlpha = Math.min(0.9, Number.parseFloat(style.opacity || '1'));
+          ctx.font = `${style.fontWeight} ${style.fontSize} ${style.fontFamily}`;
+          ctx.textBaseline = 'alphabetic';
+          ctx.fillText(node.textContent.trim(), textLocal.x, textLocal.y + textLocal.height * 0.82);
+          ctx.restore();
+        });
+      });
+
+      liquidGlassInstance?.markChanged(sceneCanvas);
+    };
+
+    const requestScenePaint = () => {
+      if (!paintFrame) paintFrame = requestAnimationFrame(paintNavScene);
+    };
+
+    try {
+      await document.fonts.ready;
+      paintNavScene();
+      const instance = await LiquidGlass.init({
+        root: glassStage,
+        glassElements: [nav]
+      });
+      liquidGlassInstance = instance;
+      window.__liquidGlassNav = instance;
+      nav.dataset.renderer = 'webgl-refraction';
+      nav.classList.add('shader-ready');
+      window.addEventListener('scroll', requestScenePaint, { passive: true });
+      window.addEventListener('resize', requestScenePaint, { passive: true });
+      window.addEventListener('hashchange', () => setTimeout(requestScenePaint, 0));
+      document.addEventListener('click', event => {
+        if (event.target.closest('.tab-button')) setTimeout(requestScenePaint, 0);
+      });
+      requestScenePaint();
+    } catch (error) {
+      nav.dataset.renderer = 'css-fallback';
+      nav.classList.add('shader-fallback');
+      console.warn('Liquid Glass WebGL fallback:', error);
+    }
+  }
 </script>
 </body>
 </html>

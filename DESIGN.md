@@ -129,9 +129,15 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 ### Liquid Glass Navigation
 
 - The bottom navigation is icon-only; accessible names remain on every button through `aria-label`.
-- Use a lightweight WebGL layer for the refractive rim, active lens and moving specular light, with `backdrop-filter` as the no-WebGL fallback.
-- Keep the effect restrained: transparent dark glass, thin chromatic edge and one active lens. Do not use opaque gradients as a substitute for refraction.
-- Visual and rendering reference: [`naughtyduk/liquidGL`](https://github.com/naughtyduk/liquidGL) (MIT). The project implementation is an independent, navigation-specific shader rather than the full-page snapshot library.
+- Liquid Glass must sample and distort the content behind the navigation; a shader that only paints highlights or borders does not qualify.
+- Use the multi-pass WebGL pipeline from [`@ybouane/liquidglass`](https://github.com/ybouane/liquidglass) (MIT): a viewport-local scene texture → Gaussian blur → refraction/chromatic aberration/Fresnel/specular composite. Never rasterize the full feed for a fixed navigation bar.
+- Keep the effect restrained: transparent dark glass, thin chromatic edge and one subtle active state. Use `backdrop-filter` only as the no-WebGL fallback.
+
+### Fullscreen Image Gesture
+
+- Opening the lightbox locks the document at its current scroll position; background content must never move under the fullscreen image.
+- The image follows one-pointer drag in any direction. Dismiss after crossing the distance or velocity threshold; otherwise animate back to center.
+- Gesture animation uses only `transform` and `opacity`, exits in `200ms` with accelerate easing, and becomes immediate under `prefers-reduced-motion`.
 
 ### Buttons (Pill)
 
