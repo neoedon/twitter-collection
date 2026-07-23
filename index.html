@@ -2803,7 +2803,6 @@ function renderHomeFeed() {
       const card = createCard(tweet, index, {
         onOpen: () => openModalAt(index, HOME_TWEETS)
       });
-      card.classList.add('home-card');
       grid.appendChild(card);
       prepareCardVideo(card);
       prepareCardEnrichment(card, tweet);
