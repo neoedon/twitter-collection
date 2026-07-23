@@ -138,7 +138,7 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 
 - Every content image and video opens in the same full-viewport media viewer, including card, repost, long-article and modal media.
 - Opening the viewer locks the document at its current scroll position; background content must never move under it.
-- Horizontal drag switches between media. Vertical drag exits after crossing the distance or velocity threshold; otherwise it animates back to center.
+- Horizontal drag switches between media. Vertical drag exits after crossing the distance or velocity threshold, except in the Media Browser masonry sequence where it switches to the previous or next visual.
 - A bottom thumbnail rail appears for multiple items. The active item is enlarged and fully opaque; adjacent previews stay smaller and subdued.
 - Gesture animation uses only `transform` and `opacity`: enter and snap use the `300ms` decelerate token, exit uses the `200ms` accelerate token, and all transitions become immediate under `prefers-reduced-motion`.
 
@@ -199,10 +199,12 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 ### Media Browser
 
 - The fourth bottom-navigation tab is an icon-only media browser covering every post with direct, quoted or article media.
-- The top mode switch offers two presentations: a randomized, media-only masonry grid and an immersive post feed.
+- Its page header is a centered, compact two-icon segmented control with accessible labels and no visible title, count or mode copy.
+- The mode switch offers two presentations: a randomized, media-only masonry grid and an immersive post feed.
 - Masonry shows no author, copy, tags or metrics. It batches and lazy-loads media, using 2 / 3 / 4 / 5 columns at mobile / tablet / desktop / large breakpoints.
-- Immersive mode shows one post per vertical snap page. Media within that post uses horizontal snap paging; only the visible horizontal video in the visible post may autoplay.
-- Both modes launch the shared fullscreen media viewer, and mode changes pause videos left behind.
+- Immersive mode shows one borderless post per vertical snap page. Media within that post uses horizontal snap paging; only the visible horizontal video in the visible post may autoplay.
+- Both modes launch the shared fullscreen media viewer. Viewer video is muted, looping and inline-only; native controls, Picture in Picture and remote playback are disabled.
+- Mode changes pause videos left behind.
 
 ### Navigation Arrows
 

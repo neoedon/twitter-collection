@@ -151,72 +151,40 @@
     }
 
     /* === MEDIA BROWSER === */
-    .media-browser-header {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: var(--space-xl);
-      padding-bottom: var(--space-xl);
-      border-bottom: 1px solid var(--border);
-    }
-
-    .media-browser-stat {
-      flex: 0 0 auto;
-      color: var(--text-secondary);
-      font-family: 'Space Mono', monospace;
-      font-size: 10px;
-      letter-spacing: 0.08em;
-      text-align: right;
-      text-transform: uppercase;
-    }
-
-    .media-browser-stat strong {
-      display: block;
-      color: var(--text-display);
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 24px;
-      font-weight: 500;
-      letter-spacing: -0.02em;
-    }
-
     .media-mode-toolbar {
       position: sticky;
       top: 0;
       z-index: 30;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: var(--space-md);
-      margin-bottom: var(--space-md);
-      padding: 12px 0;
+      justify-content: center;
+      margin-bottom: var(--space-sm);
+      padding: 6px 0 10px;
       background: linear-gradient(var(--black) 78%, transparent);
     }
 
     .media-mode-switch {
       display: inline-grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(2, 44px);
       gap: 4px;
-      padding: 4px;
+      padding: 3px;
       border: 1px solid var(--border-visible);
-      border-radius: 999px;
+      border-radius: 26px;
       background: rgba(17,17,17,0.9);
     }
 
     .media-mode-button {
-      min-height: 36px;
+      width: 44px;
+      height: 44px;
+      min-height: 44px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      gap: 7px;
-      padding: 0 14px;
+      padding: 0;
       border: 1px solid transparent;
-      border-radius: 999px;
+      border-radius: 22px;
       background: transparent;
       color: var(--text-secondary);
-      font-family: 'Space Mono', monospace;
-      font-size: 10px;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
       cursor: pointer;
       transition: color var(--motion-short) var(--easing-standard),
                   background var(--motion-short) var(--easing-standard),
@@ -224,9 +192,11 @@
     }
 
     .media-mode-button svg {
-      width: 16px;
-      height: 16px;
+      width: 20px;
+      height: 20px;
       stroke: currentColor;
+      stroke-linecap: round;
+      stroke-linejoin: round;
     }
 
     .media-mode-button:hover { color: var(--text-primary); }
@@ -239,14 +209,6 @@
     .media-mode-button:focus-visible {
       outline: 2px solid var(--interactive);
       outline-offset: 2px;
-    }
-
-    .media-mode-note {
-      color: var(--text-disabled);
-      font-family: 'Space Mono', monospace;
-      font-size: 9px;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
     }
 
     .media-mode-panel { display: none; }
@@ -331,7 +293,7 @@
     }
 
     .media-immersive-feed {
-      height: calc(100dvh - 228px);
+      height: calc(100dvh - 112px);
       min-height: 520px;
       overflow-y: auto;
       overscroll-behavior-y: contain;
@@ -349,7 +311,7 @@
       width: 100%;
       height: 100%;
       overflow: hidden;
-      border: 1px solid var(--border);
+      border: 0;
       border-radius: var(--radius-16);
       background: var(--black);
       scroll-snap-align: start;
@@ -1575,6 +1537,15 @@
     }
 
     .lightbox.dragging .lightbox-shell { transition: none; }
+    .lightbox.sequence-leaving .lightbox-shell {
+      transition: transform var(--motion-short) var(--easing-accelerate),
+                  opacity var(--motion-short) var(--easing-accelerate);
+    }
+    .lightbox.sequence-reset .lightbox-shell { transition: none; }
+    .lightbox.sequence-entering .lightbox-shell {
+      transition: transform var(--motion-standard) var(--easing-decelerate),
+                  opacity var(--motion-standard) var(--easing-decelerate);
+    }
 
     .lightbox-stage {
       min-width: 0;
@@ -1802,19 +1773,14 @@
       .bottom-tab-bar { bottom: max(10px, env(safe-area-inset-bottom)); }
       .liquid-glass-scene { bottom: max(-6px, calc(env(safe-area-inset-bottom) - 22px)); }
       .card-insight-row { grid-template-columns: 42px minmax(0, 1fr); }
-      .media-browser-header { align-items: start; gap: var(--space-md); padding-bottom: var(--space-lg); }
-      .media-browser-stat strong { font-size: 20px; }
-      .media-mode-toolbar { align-items: start; flex-direction: column; gap: var(--space-sm); padding: 10px 0; }
-      .media-mode-switch { width: 100%; }
-      .media-mode-button { width: 100%; padding-inline: 10px; }
-      .media-mode-note { display: none; }
+      .media-mode-toolbar { padding: 2px 0 8px; }
       .media-immersive-feed {
-        height: calc(100dvh - 220px - env(safe-area-inset-bottom));
+        height: calc(100dvh - 84px - env(safe-area-inset-bottom));
         min-height: 440px;
         margin-inline: -16px;
         border-radius: 0;
       }
-      .media-immersive-post { border-width: 1px 0; border-radius: 0; }
+      .media-immersive-post { border-radius: 0; }
 
       .modal-backdrop {
         align-items: flex-end;
@@ -2149,28 +2115,15 @@
   </section>
 
   <section class="app-view media-view" id="mediaView" data-view="media">
-    <header class="media-browser-header">
-      <div>
-        <div class="view-kicker">MEDIA ONLY</div>
-        <h1 class="title">VISUALS</h1>
-      </div>
-      <div class="media-browser-stat">
-        <strong id="mediaPostCount">---</strong>
-        posts with media
-      </div>
-    </header>
     <div class="media-mode-toolbar">
       <div class="media-mode-switch" role="tablist" aria-label="素材浏览模式">
-        <button class="media-mode-button active" type="button" role="tab" data-media-mode="grid" aria-selected="true" aria-controls="mediaGridPanel">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="3" width="7" height="8" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="3" y="15" width="7" height="6" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/></svg>
-          瀑布流
+        <button class="media-mode-button active" type="button" role="tab" data-media-mode="grid" aria-label="瀑布流模式" aria-selected="true" aria-controls="mediaGridPanel">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="7" height="8" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="3" y="15" width="7" height="6" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/></svg>
         </button>
-        <button class="media-mode-button" type="button" role="tab" data-media-mode="immersive" aria-selected="false" aria-controls="mediaImmersivePanel">
-          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="4" y="2.5" width="16" height="19" rx="3"/><path d="m10 9 5 3-5 3Z"/></svg>
-          沉浸流
+        <button class="media-mode-button" type="button" role="tab" data-media-mode="immersive" aria-label="沉浸模式" aria-selected="false" aria-controls="mediaImmersivePanel">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" aria-hidden="true"><rect x="4" y="2.5" width="16" height="19" rx="3"/><path d="m10 9 5 3-5 3Z"/></svg>
         </button>
       </div>
-      <span class="media-mode-note" id="mediaModeNote">随机素材 · 点击全屏</span>
     </div>
     <div class="media-mode-panel active" id="mediaGridPanel" data-media-panel="grid" role="tabpanel">
       <div class="material-grid" id="materialGrid"></div>
@@ -3226,6 +3179,12 @@ function createMaterialMediaElement(post, item, index, className, eager = false)
     video.autoplay = true;
     video.loop = true;
     video.playsInline = true;
+    video.controls = false;
+    video.disablePictureInPicture = true;
+    video.disableRemotePlayback = true;
+    video.setAttribute('webkit-playsinline', '');
+    video.setAttribute('x-webkit-airplay', 'deny');
+    video.setAttribute('controlslist', 'nodownload nofullscreen noremoteplayback');
     video.preload = eager ? 'metadata' : 'none';
     video.setAttribute('aria-label', label);
     return video;
@@ -3266,16 +3225,35 @@ function createMaterialError() {
   return error;
 }
 
-function openMaterialPost(post, index) {
-  openLightbox(post.items.map(item => ({
-    type: item.type,
-    src: item.full || item.src,
-    poster: item.poster,
-    alt: getMaterialAlt(post, item, post.items.indexOf(item))
-  })), index);
+function getMaterialViewerPayload(entry) {
+  return {
+    items: entry.post.items.map((item, itemIndex) => ({
+      type: item.type,
+      src: item.full || item.src,
+      poster: item.poster,
+      alt: getMaterialAlt(entry.post, item, itemIndex)
+    })),
+    index: entry.mediaIndex
+  };
 }
 
-function createMaterialGridItem(entry, visualIndex) {
+function openMaterialPost(post, index) {
+  const payload = getMaterialViewerPayload({ post, mediaIndex: index });
+  openLightbox(payload.items, payload.index);
+}
+
+function openMaterialGridItem(gridIndex) {
+  const entry = materialGridItems[gridIndex];
+  if (!entry) return;
+  const payload = getMaterialViewerPayload(entry);
+  openLightbox(payload.items, payload.index, {
+    context: 'material-grid',
+    sequenceIndex: gridIndex,
+    sequenceLength: materialGridItems.length
+  });
+}
+
+function createMaterialGridItem(entry, visualIndex, materialIndex) {
   const { post, item, mediaIndex } = entry;
   const tile = document.createElement('div');
   tile.className = `material-grid-item${item.type === 'video' ? ' is-video' : ''}`;
@@ -3296,7 +3274,7 @@ function createMaterialGridItem(entry, visualIndex) {
   }
   tile.appendChild(media);
 
-  const open = () => openMaterialPost(post, mediaIndex);
+  const open = () => openMaterialGridItem(materialIndex);
   tile.addEventListener('click', open);
   tile.addEventListener('keydown', event => {
     if (event.key !== 'Enter' && event.key !== ' ') return;
@@ -3323,7 +3301,7 @@ function renderMaterialGridBatch() {
   const end = Math.min(start + MATERIAL_GRID_BATCH, materialGridItems.length);
   const fragment = document.createDocumentFragment();
   for (let index = start; index < end; index += 1) {
-    fragment.appendChild(createMaterialGridItem(materialGridItems[index], index - start));
+    fragment.appendChild(createMaterialGridItem(materialGridItems[index], index - start, index));
   }
   grid.appendChild(fragment);
   materialGridRendered = end;
@@ -3522,7 +3500,6 @@ function initializeMaterialBrowser() {
   materialImmersiveRendered = 0;
   materialBrowserSignature = `${allTweets.length}:${materialPosts.length}:${materialGridItems.length}`;
   materialBrowserReady = true;
-  document.getElementById('mediaPostCount').textContent = materialPosts.length;
 }
 
 function setMediaMode(mode) {
@@ -3537,10 +3514,6 @@ function setMediaMode(mode) {
   document.querySelectorAll('.media-mode-panel').forEach(panel => {
     panel.classList.toggle('active', panel.dataset.mediaPanel === mode);
   });
-  document.getElementById('mediaModeNote').textContent = mode === 'grid'
-    ? '随机素材 · 点击全屏'
-    : '上下换帖 · 左右换素材';
-
   if (mode === 'grid') {
     if (materialGridRendered === 0) renderMaterialGridBatch();
     else prepareCardVideo(document.getElementById('materialGrid'));
@@ -4435,7 +4408,12 @@ const lightboxState = {
   items: [],
   index: 0,
   lastFocused: null,
-  closeTimer: null
+  closeTimer: null,
+  sequenceTimer: null,
+  switching: false,
+  context: 'default',
+  sequenceIndex: -1,
+  sequenceLength: 0
 };
 
 const lightboxGesture = {
@@ -4528,7 +4506,7 @@ function renderLightboxItems() {
     const label = `${item.alt || (item.type === 'video' ? '视频' : '图片')} ${index + 1} / ${lightboxState.items.length}`;
     if (item.type === 'video') {
       return `<div class="lightbox-slide" id="lightboxSlide-${index}" role="tabpanel" aria-label="${escapeHTML(label)}">
-        <video class="lightbox-media" src="${escapeHTML(item.src)}"${item.poster ? ` poster="${escapeHTML(item.poster)}"` : ''} crossorigin="anonymous" controls muted playsinline preload="metadata" aria-label="${escapeHTML(label)}"></video>
+        <video class="lightbox-media" src="${escapeHTML(item.src)}"${item.poster ? ` poster="${escapeHTML(item.poster)}"` : ''} crossorigin="anonymous" autoplay loop muted playsinline webkit-playsinline disablepictureinpicture disableremoteplayback controlslist="nodownload nofullscreen noremoteplayback" x-webkit-airplay="deny" preload="metadata" aria-label="${escapeHTML(label)}"></video>
       </div>`;
     }
     return `<div class="lightbox-slide" id="lightboxSlide-${index}" role="tabpanel" aria-label="${escapeHTML(label)}">
@@ -4551,6 +4529,10 @@ function renderLightboxItems() {
 
 function syncLightboxPlayback() {
   document.querySelectorAll('#lightboxTrack video').forEach((video, index) => {
+    video.controls = false;
+    video.playsInline = true;
+    video.disablePictureInPicture = true;
+    video.disableRemotePlayback = true;
     if (index === lightboxState.index) {
       video.muted = true;
       video.play().catch(() => {});
@@ -4584,10 +4566,13 @@ function setLightboxIndex(index, scrollThumb = true) {
     }
   });
 
-  document.getElementById('lightboxCount').textContent = `${next + 1} / ${lightboxState.items.length}`;
-  document.getElementById('lightboxHint').textContent = lightboxState.items.length > 1
-    ? '左右切换 · 上下滑动退出'
-    : '上下滑动退出';
+  const materialSequence = lightboxState.context === 'material-grid';
+  document.getElementById('lightboxCount').textContent = materialSequence
+    ? `${lightboxState.sequenceIndex + 1} / ${lightboxState.sequenceLength}`
+    : `${next + 1} / ${lightboxState.items.length}`;
+  document.getElementById('lightboxHint').textContent = materialSequence
+    ? (lightboxState.items.length > 1 ? '左右换组内素材 · 上下换素材' : '上下换素材')
+    : (lightboxState.items.length > 1 ? '左右切换 · 上下滑动退出' : '上下滑动退出');
   document.getElementById('lightboxPrev').disabled = next === 0;
   document.getElementById('lightboxNext').disabled = next === lightboxState.items.length - 1;
   syncLightboxPlayback();
@@ -4595,7 +4580,7 @@ function setLightboxIndex(index, scrollThumb = true) {
 
 function resetLightboxDrag() {
   const lightbox = document.getElementById('lightbox');
-  lightbox.classList.remove('dragging', 'dismissing');
+  lightbox.classList.remove('dragging', 'dismissing', 'sequence-leaving', 'sequence-reset', 'sequence-entering');
   lightbox.style.setProperty('--viewer-dx', '0px');
   lightbox.style.setProperty('--viewer-y', '0px');
   lightbox.style.setProperty('--viewer-scale', '1');
@@ -4613,20 +4598,36 @@ function setLightboxHorizontalDrag(dx) {
 function setLightboxVerticalDrag(dy) {
   const lightbox = document.getElementById('lightbox');
   const progress = Math.min(Math.abs(dy) / Math.max(180, innerHeight * 0.42), 1);
+  if (lightboxState.context === 'material-grid') {
+    const direction = dy < 0 ? 1 : -1;
+    const canNavigate = lightboxState.sequenceIndex + direction >= 0
+      && lightboxState.sequenceIndex + direction < lightboxState.sequenceLength;
+    lightbox.style.setProperty('--viewer-y', `${canNavigate ? dy : dy * 0.24}px`);
+    lightbox.style.setProperty('--viewer-scale', '1');
+    lightbox.style.setProperty('--viewer-content-opacity', String(1 - progress * 0.12));
+    lightbox.style.setProperty('--viewer-bg-alpha', '0.96');
+    return;
+  }
   lightbox.style.setProperty('--viewer-y', `${dy}px`);
   lightbox.style.setProperty('--viewer-scale', String(1 - progress * 0.06));
   lightbox.style.setProperty('--viewer-content-opacity', String(1 - progress * 0.2));
   lightbox.style.setProperty('--viewer-bg-alpha', String(0.96 - progress * 0.76));
 }
 
-function openLightbox(items, index = 0) {
+function openLightbox(items, index = 0, options = {}) {
   const normalized = normalizeViewerItems(items);
   if (!normalized.length) return;
   const lightbox = document.getElementById('lightbox');
   window.clearTimeout(lightboxState.closeTimer);
+  window.clearTimeout(lightboxState.sequenceTimer);
   lightboxState.items = normalized;
   lightboxState.index = Math.max(0, Math.min(index, normalized.length - 1));
+  lightboxState.context = options.context || 'default';
+  lightboxState.sequenceIndex = Number.isFinite(options.sequenceIndex) ? options.sequenceIndex : -1;
+  lightboxState.sequenceLength = Number.isFinite(options.sequenceLength) ? options.sequenceLength : 0;
+  lightboxState.switching = false;
   lightboxState.lastFocused = document.activeElement;
+  lightbox.dataset.context = lightboxState.context;
   resetLightboxDrag();
   renderLightboxItems();
   setLightboxIndex(lightboxState.index, false);
@@ -4638,12 +4639,18 @@ function openLightbox(items, index = 0) {
 
 function finalizeLightboxClose() {
   const lightbox = document.getElementById('lightbox');
+  window.clearTimeout(lightboxState.sequenceTimer);
   document.querySelectorAll('#lightboxTrack video').forEach(video => video.pause());
-  lightbox.classList.remove('open', 'dragging', 'dismissing');
+  lightbox.classList.remove('open', 'dragging', 'dismissing', 'sequence-leaving', 'sequence-reset', 'sequence-entering');
   lightbox.setAttribute('aria-hidden', 'true');
+  delete lightbox.dataset.context;
   document.getElementById('lightboxTrack').replaceChildren();
   document.getElementById('lightboxThumbs').replaceChildren();
   lightboxState.items = [];
+  lightboxState.context = 'default';
+  lightboxState.sequenceIndex = -1;
+  lightboxState.sequenceLength = 0;
+  lightboxState.switching = false;
   lightboxGesture.pointerId = null;
   resetLightboxDrag();
   syncPageScrollLock();
@@ -4656,6 +4663,9 @@ function finalizeLightboxClose() {
 function closeLightbox() {
   const lightbox = document.getElementById('lightbox');
   if (!lightbox.classList.contains('open') || lightbox.classList.contains('dismissing')) return;
+  window.clearTimeout(lightboxState.sequenceTimer);
+  lightboxState.switching = false;
+  resetLightboxDrag();
   lightbox.classList.add('dismissing');
   const delay = matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 200;
   lightboxState.closeTimer = window.setTimeout(finalizeLightboxClose, delay);
@@ -4674,6 +4684,65 @@ function dismissLightboxVertical(dy) {
   lightboxState.closeTimer = window.setTimeout(finalizeLightboxClose, delay);
 }
 
+function applyMaterialGridSequenceIndex(sequenceIndex) {
+  const entry = materialGridItems[sequenceIndex];
+  if (!entry) return false;
+  const payload = getMaterialViewerPayload(entry);
+  const normalized = normalizeViewerItems(payload.items);
+  if (!normalized.length) return false;
+  lightboxState.sequenceIndex = sequenceIndex;
+  lightboxState.items = normalized;
+  lightboxState.index = Math.max(0, Math.min(payload.index, normalized.length - 1));
+  renderLightboxItems();
+  setLightboxIndex(lightboxState.index, false);
+  return true;
+}
+
+function switchLightboxSequence(direction) {
+  if (lightboxState.context !== 'material-grid' || lightboxState.switching) return;
+  const nextSequenceIndex = lightboxState.sequenceIndex + direction;
+  if (nextSequenceIndex < 0 || nextSequenceIndex >= lightboxState.sequenceLength) {
+    resetLightboxDrag();
+    return;
+  }
+
+  const lightbox = document.getElementById('lightbox');
+  const travel = Math.max(innerHeight, 520);
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const leaveDuration = reducedMotion ? 0 : 200;
+  const enterDuration = reducedMotion ? 0 : 300;
+  lightboxState.switching = true;
+  document.querySelectorAll('#lightboxTrack video').forEach(video => video.pause());
+  lightbox.classList.remove('dragging');
+  lightbox.classList.add('sequence-leaving');
+  lightbox.style.setProperty('--viewer-y', `${direction > 0 ? -travel : travel}px`);
+  lightbox.style.setProperty('--viewer-content-opacity', '0');
+
+  lightboxState.sequenceTimer = window.setTimeout(() => {
+    lightbox.classList.remove('sequence-leaving');
+    lightbox.classList.add('sequence-reset');
+    if (!applyMaterialGridSequenceIndex(nextSequenceIndex)) {
+      lightboxState.switching = false;
+      resetLightboxDrag();
+      return;
+    }
+    lightbox.style.setProperty('--viewer-y', `${direction > 0 ? travel : -travel}px`);
+    lightbox.style.setProperty('--viewer-content-opacity', '0');
+    void document.querySelector('.lightbox-shell').offsetWidth;
+    requestAnimationFrame(() => {
+      if (!lightbox.classList.contains('open') || lightboxState.context !== 'material-grid') return;
+      lightbox.classList.remove('sequence-reset');
+      lightbox.classList.add('sequence-entering');
+      lightbox.style.setProperty('--viewer-y', '0px');
+      lightbox.style.setProperty('--viewer-content-opacity', '1');
+      lightboxState.sequenceTimer = window.setTimeout(() => {
+        lightbox.classList.remove('sequence-entering');
+        lightboxState.switching = false;
+      }, enterDuration);
+    });
+  }, leaveDuration);
+}
+
 function navigateLightbox(direction) {
   setLightboxIndex(lightboxState.index + direction);
 }
@@ -4681,7 +4750,7 @@ function navigateLightbox(direction) {
 function onLightboxPointerDown(event) {
   const lightbox = document.getElementById('lightbox');
   const interactive = event.target.closest('.lightbox-close, .lightbox-nav, .lightbox-thumbs');
-  if (!lightbox.classList.contains('open') || event.button !== 0 || interactive) return;
+  if (!lightbox.classList.contains('open') || lightboxState.switching || event.button !== 0 || interactive) return;
   lightboxGesture.pointerId = event.pointerId;
   lightboxGesture.startX = event.clientX;
   lightboxGesture.startY = event.clientY;
@@ -4737,6 +4806,18 @@ function onLightboxPointerEnd(event) {
     const distance = Math.abs(lightboxGesture.dy);
     const velocity = distance / elapsed;
     const threshold = Math.min(120, Math.max(72, innerHeight * 0.11));
+    if (lightboxState.context === 'material-grid') {
+      const direction = lightboxGesture.dy < 0 ? 1 : -1;
+      const canNavigate = lightboxState.sequenceIndex + direction >= 0
+        && lightboxState.sequenceIndex + direction < lightboxState.sequenceLength;
+      lightbox.classList.remove('dragging');
+      if (canNavigate && (distance >= threshold || (distance >= 32 && velocity >= 0.52))) {
+        switchLightboxSequence(direction);
+      } else {
+        resetLightboxDrag();
+      }
+      return;
+    }
     if (distance >= threshold || (distance >= 32 && velocity >= 0.52)) {
       dismissLightboxVertical(lightboxGesture.dy);
     } else {
@@ -4836,6 +4917,8 @@ document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closeLightbox();
     else if (e.key === 'ArrowLeft') navigateLightbox(-1);
     else if (e.key === 'ArrowRight') navigateLightbox(1);
+    else if (e.key === 'ArrowUp' && lightboxState.context === 'material-grid') switchLightboxSequence(1);
+    else if (e.key === 'ArrowDown' && lightboxState.context === 'material-grid') switchLightboxSequence(-1);
     return;
   }
   if (!document.getElementById('modalBackdrop').classList.contains('open')) return;
