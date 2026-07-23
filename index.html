@@ -150,6 +150,300 @@
       gap: var(--col-gap);
     }
 
+    /* === MEDIA BROWSER === */
+    .media-browser-header {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: var(--space-xl);
+      padding-bottom: var(--space-xl);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .media-browser-stat {
+      flex: 0 0 auto;
+      color: var(--text-secondary);
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-align: right;
+      text-transform: uppercase;
+    }
+
+    .media-browser-stat strong {
+      display: block;
+      color: var(--text-display);
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+    }
+
+    .media-mode-toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-md);
+      margin-bottom: var(--space-md);
+      padding: 12px 0;
+      background: linear-gradient(var(--black) 78%, transparent);
+    }
+
+    .media-mode-switch {
+      display: inline-grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 4px;
+      padding: 4px;
+      border: 1px solid var(--border-visible);
+      border-radius: 999px;
+      background: rgba(17,17,17,0.9);
+    }
+
+    .media-mode-button {
+      min-height: 36px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      padding: 0 14px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      background: transparent;
+      color: var(--text-secondary);
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: color var(--motion-short) var(--easing-standard),
+                  background var(--motion-short) var(--easing-standard),
+                  border-color var(--motion-short) var(--easing-standard);
+    }
+
+    .media-mode-button svg {
+      width: 16px;
+      height: 16px;
+      stroke: currentColor;
+    }
+
+    .media-mode-button:hover { color: var(--text-primary); }
+    .media-mode-button.active {
+      color: var(--text-display);
+      border-color: rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.08);
+    }
+
+    .media-mode-button:focus-visible {
+      outline: 2px solid var(--interactive);
+      outline-offset: 2px;
+    }
+
+    .media-mode-note {
+      color: var(--text-disabled);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .media-mode-panel { display: none; }
+    .media-mode-panel.active {
+      display: block;
+      animation: mediaModeIn var(--motion-short) var(--easing-decelerate) both;
+    }
+
+    @keyframes mediaModeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .material-grid {
+      column-count: 2;
+      column-gap: var(--space-sm);
+    }
+
+    .material-grid-item {
+      position: relative;
+      width: 100%;
+      display: inline-block;
+      margin: 0 0 var(--space-sm);
+      break-inside: avoid;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-12);
+      background: var(--surface);
+      cursor: zoom-in;
+      vertical-align: top;
+      animation: materialItemIn var(--motion-standard) var(--easing-decelerate) both;
+    }
+
+    .material-grid-item:hover { border-color: var(--border-visible); }
+    .material-grid-item:focus-visible {
+      outline: 2px solid var(--interactive);
+      outline-offset: 3px;
+    }
+
+    .material-grid-item.is-video { aspect-ratio: 4 / 5; }
+
+    .material-grid-media {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: cover;
+      background: var(--black);
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    .material-grid-item.is-video .material-grid-media {
+      height: 100%;
+    }
+
+    .material-media-error {
+      min-height: 160px;
+      display: grid;
+      place-items: center;
+      padding: var(--space-md);
+      color: var(--text-disabled);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.06em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    @keyframes materialItemIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .material-load-state {
+      padding: var(--space-xl) 0 var(--space-2xl);
+      color: var(--text-disabled);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.08em;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .media-immersive-feed {
+      height: calc(100dvh - 228px);
+      min-height: 520px;
+      overflow-y: auto;
+      overscroll-behavior-y: contain;
+      scroll-snap-type: y mandatory;
+      scrollbar-width: none;
+      border-radius: var(--radius-16);
+      background: var(--black);
+    }
+
+    .media-immersive-feed::-webkit-scrollbar,
+    .media-immersive-track::-webkit-scrollbar { display: none; }
+
+    .media-immersive-post {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-16);
+      background: var(--black);
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+    }
+
+    .media-immersive-track {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      overflow-x: auto;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+
+    .media-immersive-slide {
+      position: relative;
+      flex: 0 0 100%;
+      width: 100%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      background: var(--black);
+      cursor: zoom-in;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+    }
+
+    .media-immersive-slide:focus-visible {
+      outline: 2px solid var(--interactive);
+      outline-offset: -4px;
+    }
+
+    .media-immersive-media {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: contain;
+      background: var(--black);
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    .media-immersive-dots {
+      position: absolute;
+      left: 50%;
+      bottom: max(14px, env(safe-area-inset-bottom));
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 9px;
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 999px;
+      background: rgba(0,0,0,0.58);
+      backdrop-filter: blur(10px);
+      transform: translateX(-50%);
+    }
+
+    .media-immersive-dots:empty,
+    .media-immersive-dots.single { display: none; }
+
+    .media-immersive-dot {
+      width: 5px;
+      height: 5px;
+      border: 0;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.38);
+      cursor: pointer;
+      transition: opacity var(--motion-short) var(--easing-standard),
+                  transform var(--motion-short) var(--easing-standard),
+                  background var(--motion-short) var(--easing-standard);
+    }
+
+    .media-immersive-dot.active {
+      background: var(--text-display);
+      transform: scale(1.45);
+    }
+
+    @media (min-width: 768px) {
+      .material-grid { column-count: 3; column-gap: var(--space-md); }
+      .material-grid-item { margin-bottom: var(--space-md); }
+    }
+
+    @media (min-width: 1024px) {
+      .material-grid { column-count: 4; }
+    }
+
+    @media (min-width: 1440px) {
+      .material-grid { column-count: 5; }
+    }
+
     .digest-card {
       min-width: 0;
       display: grid;
@@ -976,7 +1270,7 @@
       position: fixed;
       left: 50%;
       bottom: max(4px, calc(env(safe-area-inset-bottom) - 12px));
-      width: min(256px, 100vw);
+      width: min(320px, 100vw);
       height: 96px;
       transform: translateX(-50%);
       opacity: 0;
@@ -989,10 +1283,10 @@
       left: 50%;
       bottom: max(20px, env(safe-area-inset-bottom));
       z-index: 1;
-      width: min(224px, calc(100vw - 32px));
+      width: min(288px, calc(100vw - 32px));
       height: var(--tab-bar-height);
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 2px;
       padding: 6px;
       border: 1px solid rgba(255,255,255,0.18);
@@ -1493,6 +1787,19 @@
       .bottom-tab-bar { bottom: max(10px, env(safe-area-inset-bottom)); }
       .liquid-glass-scene { bottom: max(-6px, calc(env(safe-area-inset-bottom) - 22px)); }
       .card-insight-row { grid-template-columns: 42px minmax(0, 1fr); }
+      .media-browser-header { align-items: start; gap: var(--space-md); padding-bottom: var(--space-lg); }
+      .media-browser-stat strong { font-size: 20px; }
+      .media-mode-toolbar { align-items: start; flex-direction: column; gap: var(--space-sm); padding: 10px 0; }
+      .media-mode-switch { width: 100%; }
+      .media-mode-button { width: 100%; padding-inline: 10px; }
+      .media-mode-note { display: none; }
+      .media-immersive-feed {
+        height: calc(100dvh - 220px - env(safe-area-inset-bottom));
+        min-height: 440px;
+        margin-inline: -16px;
+        border-radius: 0;
+      }
+      .media-immersive-post { border-width: 1px 0; border-radius: 0; }
 
       .modal-backdrop {
         align-items: flex-end;
@@ -1521,6 +1828,21 @@
       #modal > img,
       .modal-media video,
       #modalVideo { max-height: 62dvh; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .media-mode-panel.active,
+      .material-grid-item {
+        animation: none !important;
+      }
+      .media-mode-button,
+      .media-immersive-dot {
+        transition-duration: 0s !important;
+      }
+      .media-immersive-feed,
+      .media-immersive-track {
+        scroll-behavior: auto !important;
+      }
     }
 
     .modal-counter {
@@ -1811,6 +2133,39 @@
     <div id="searchMount"></div>
   </section>
 
+  <section class="app-view media-view" id="mediaView" data-view="media">
+    <header class="media-browser-header">
+      <div>
+        <div class="view-kicker">MEDIA ONLY</div>
+        <h1 class="title">VISUALS</h1>
+      </div>
+      <div class="media-browser-stat">
+        <strong id="mediaPostCount">---</strong>
+        posts with media
+      </div>
+    </header>
+    <div class="media-mode-toolbar">
+      <div class="media-mode-switch" role="tablist" aria-label="素材浏览模式">
+        <button class="media-mode-button active" type="button" role="tab" data-media-mode="grid" aria-selected="true" aria-controls="mediaGridPanel">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="3" width="7" height="8" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="3" y="15" width="7" height="6" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/></svg>
+          瀑布流
+        </button>
+        <button class="media-mode-button" type="button" role="tab" data-media-mode="immersive" aria-selected="false" aria-controls="mediaImmersivePanel">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="4" y="2.5" width="16" height="19" rx="3"/><path d="m10 9 5 3-5 3Z"/></svg>
+          沉浸流
+        </button>
+      </div>
+      <span class="media-mode-note" id="mediaModeNote">随机素材 · 点击全屏</span>
+    </div>
+    <div class="media-mode-panel active" id="mediaGridPanel" data-media-panel="grid" role="tabpanel">
+      <div class="material-grid" id="materialGrid"></div>
+      <div class="material-load-state" id="materialGridState">[LOADING MEDIA...]</div>
+    </div>
+    <div class="media-mode-panel" id="mediaImmersivePanel" data-media-panel="immersive" role="tabpanel">
+      <div class="media-immersive-feed" id="mediaImmersiveFeed" aria-label="沉浸式素材流"></div>
+    </div>
+  </section>
+
   <div class="liquid-glass-stage">
     <canvas class="liquid-glass-scene" aria-hidden="true"></canvas>
     <nav class="bottom-tab-bar" aria-label="Primary navigation">
@@ -1822,6 +2177,9 @@
       </button>
       <button class="tab-button" data-tab="search" aria-label="Search and filter">
         <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
+      </button>
+      <button class="tab-button" data-tab="media" aria-label="Media browser">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2.5"/><circle cx="8.2" cy="9.2" r="1.6"/><path d="m5.5 17 4.2-4 3.1 2.7 2.4-2.2 3.3 3.5"/></svg>
       </button>
     </nav>
   </div>
@@ -2087,6 +2445,16 @@ let currentModalCollection = null;
 let activeTab = 'home';
 let translationCache = loadTranslationCache();
 let searchState = { query: '', filter: 'all', source: 'all', tags: [] };
+const MATERIAL_GRID_BATCH = 80;
+const MATERIAL_IMMERSIVE_BATCH = 24;
+let mediaMode = 'grid';
+let materialPosts = [];
+let materialGridItems = [];
+let materialGridRendered = 0;
+let materialImmersiveRendered = 0;
+let materialBrowserSignature = '';
+let materialBrowserReady = false;
+let immersivePostObserver = null;
 
 const cardVideoObserver = 'IntersectionObserver' in window
   ? new IntersectionObserver(entries => {
@@ -2143,12 +2511,17 @@ document.addEventListener('visibilitychange', () => {
     }
 
     const rect = video.getBoundingClientRect();
+    if (rect.width <= 0 || rect.height <= 0) {
+      video.pause();
+      return;
+    }
     const visibleHeight = Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0);
-    if (visibleHeight >= Math.min(rect.height * 0.45, window.innerHeight * 0.45)) {
+    if (visibleHeight > 0 && visibleHeight >= Math.min(rect.height * 0.45, window.innerHeight * 0.45)) {
       video.muted = true;
       video.play().catch(() => {});
     }
   });
+  syncImmersivePlayback();
 });
 
 // ── Tag system ──
@@ -2616,6 +2989,8 @@ function handleFiles(files) {
         renderTagFilterRow();
         applyFilters();
         updateDataBar();
+        materialBrowserReady = false;
+        if (activeTab === 'media') renderMaterialBrowser(true);
         showToast(`+${totalAdded} NEW TWEETS IMPORTED`);
       }
     };
@@ -2730,6 +3105,445 @@ function normalizeMediaItems(media) {
   const list = Array.isArray(media) ? media : [{ type: 'image', src: media }];
   return list.map(item => typeof item === 'string' ? { type: 'image', src: item } : item)
     .filter(item => item && (item.src || item.poster));
+}
+
+function getMaterialPostKey(tweet) {
+  return tweet.TweetID
+    || tweet['Tweet Url']
+    || `${tweet.UserScreenName || 'unknown'}:${tweet.TweetCreatedDate || ''}:${cleanText(tweet.TweetText || '').slice(0, 80)}`;
+}
+
+function getTweetMaterialItems(tweet) {
+  const items = [];
+  const seen = new Set();
+
+  const append = source => {
+    normalizeMediaItems(source).forEach(rawItem => {
+      const rawType = String(rawItem.type || '').toLowerCase();
+      const type = rawType === 'video' || rawType === 'animated_gif' ? 'video' : 'image';
+      const rawSrc = rawItem.src || rawItem.poster || '';
+      if (!rawSrc || (type === 'video' && !rawItem.src)) return;
+      const item = {
+        type,
+        src: type === 'image' ? highResMediaUrl(rawSrc, false) : rawItem.src,
+        full: type === 'image' ? highResMediaUrl(rawSrc, true) : rawItem.src,
+        poster: rawItem.poster ? highResMediaUrl(rawItem.poster, false) : ''
+      };
+      const key = `${item.type}:${item.full || item.src}`;
+      if (seen.has(key)) return;
+      seen.add(key);
+      items.push(item);
+    });
+  };
+
+  const appendArticle = article => {
+    if (!article) return;
+    if (article.cover) append([{ type: 'image', src: article.cover }]);
+    append(article.media);
+  };
+
+  const structured = normalizeMediaItems(tweet._media);
+  const imageUrls = getImageUrls(tweet.MediaImageUrl || '');
+  const videoUrl = tweet.MediaVideoUrl || '';
+  if (structured.length) {
+    append(structured);
+  } else if (videoUrl) {
+    append([{ type: 'video', src: videoUrl, poster: imageUrls[0] || '' }]);
+    if (imageUrls.length > 1) append(imageUrls.slice(1));
+  } else {
+    append(imageUrls);
+  }
+
+  if (tweet._quote) {
+    append(tweet._quote.media);
+    appendArticle(tweet._quote.article);
+  }
+  appendArticle(tweet._article);
+  return items;
+}
+
+function buildMaterialPosts() {
+  const posts = [];
+  const seen = new Set();
+  [...HOME_TWEETS, ...allTweets].forEach(tweet => {
+    const key = getMaterialPostKey(tweet);
+    if (seen.has(key)) return;
+    seen.add(key);
+    const items = getTweetMaterialItems(tweet);
+    if (!items.length) return;
+    posts.push({
+      key,
+      tweet,
+      items,
+      date: new Date(tweet.TweetCreatedDate || 0).getTime() || 0
+    });
+  });
+  return posts.sort((a, b) => b.date - a.date);
+}
+
+function shuffleMaterialItems(items) {
+  const shuffled = [...items];
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const target = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[target]] = [shuffled[target], shuffled[index]];
+  }
+  return shuffled;
+}
+
+function getMaterialAlt(post, item, index) {
+  const author = post.tweet.UserProfileName || post.tweet.UserScreenName || 'X 用户';
+  return `${author} 帖子的${item.type === 'video' ? '视频' : '图片'} ${index + 1} / ${post.items.length}`;
+}
+
+function createMaterialMediaElement(post, item, index, className, eager = false) {
+  const label = getMaterialAlt(post, item, index);
+  if (item.type === 'video') {
+    const video = document.createElement('video');
+    video.className = className;
+    video.dataset.src = item.src;
+    video.dataset.viewerSrc = item.src;
+    if (item.poster) {
+      video.poster = item.poster;
+      video.dataset.viewerPoster = highResMediaUrl(item.poster, true);
+    }
+    video.crossOrigin = 'anonymous';
+    video.muted = true;
+    video.autoplay = true;
+    video.loop = true;
+    video.playsInline = true;
+    video.preload = eager ? 'metadata' : 'none';
+    video.setAttribute('aria-label', label);
+    return video;
+  }
+
+  const image = document.createElement('img');
+  image.className = className;
+  image.src = item.src;
+  image.dataset.full = item.full || highResMediaUrl(item.src, true);
+  image.crossOrigin = 'anonymous';
+  image.alt = label;
+  image.loading = eager ? 'eager' : 'lazy';
+  image.decoding = 'async';
+  image.draggable = false;
+  return image;
+}
+
+function replaceBrokenMaterial(parent, media, item, className) {
+  if (item.type === 'video' && item.poster) {
+    const fallback = document.createElement('img');
+    fallback.className = className;
+    fallback.src = item.poster;
+    fallback.alt = media.getAttribute('aria-label') || '视频封面';
+    fallback.draggable = false;
+    fallback.addEventListener('error', () => {
+      fallback.replaceWith(createMaterialError());
+    }, { once: true });
+    media.replaceWith(fallback);
+    return;
+  }
+  media.replaceWith(createMaterialError());
+}
+
+function createMaterialError() {
+  const error = document.createElement('div');
+  error.className = 'material-media-error';
+  error.textContent = '[MEDIA UNAVAILABLE]';
+  return error;
+}
+
+function openMaterialPost(post, index) {
+  openLightbox(post.items.map(item => ({
+    type: item.type,
+    src: item.full || item.src,
+    poster: item.poster,
+    alt: getMaterialAlt(post, item, post.items.indexOf(item))
+  })), index);
+}
+
+function createMaterialGridItem(entry, visualIndex) {
+  const { post, item, mediaIndex } = entry;
+  const tile = document.createElement('div');
+  tile.className = `material-grid-item${item.type === 'video' ? ' is-video' : ''}`;
+  tile.tabIndex = 0;
+  tile.setAttribute('role', 'button');
+  tile.setAttribute('aria-label', `${getMaterialAlt(post, item, mediaIndex)}，全屏查看`);
+  tile.style.animationDelay = `${Math.min(visualIndex, 7) * 50}ms`;
+
+  const mediaClass = `material-grid-media${item.type === 'video' ? ' card-video' : ''}`;
+  const media = createMaterialMediaElement(post, item, mediaIndex, mediaClass);
+  media.addEventListener('error', () => replaceBrokenMaterial(tile, media, item, 'material-grid-media'), { once: true });
+  if (item.type === 'video') {
+    media.addEventListener('loadedmetadata', () => {
+      if (media.videoWidth && media.videoHeight) {
+        tile.style.aspectRatio = `${media.videoWidth} / ${media.videoHeight}`;
+      }
+    }, { once: true });
+  }
+  tile.appendChild(media);
+
+  const open = () => openMaterialPost(post, mediaIndex);
+  tile.addEventListener('click', open);
+  tile.addEventListener('keydown', event => {
+    if (event.key !== 'Enter' && event.key !== ' ') return;
+    event.preventDefault();
+    open();
+  });
+  return tile;
+}
+
+function renderMaterialGridBatch() {
+  const grid = document.getElementById('materialGrid');
+  const state = document.getElementById('materialGridState');
+  if (!grid || mediaMode !== 'grid') return;
+  if (!materialGridItems.length) {
+    state.textContent = '[NO MEDIA]';
+    return;
+  }
+  if (materialGridRendered >= materialGridItems.length) {
+    state.textContent = '[END OF MEDIA]';
+    return;
+  }
+
+  const start = materialGridRendered;
+  const end = Math.min(start + MATERIAL_GRID_BATCH, materialGridItems.length);
+  const fragment = document.createDocumentFragment();
+  for (let index = start; index < end; index += 1) {
+    fragment.appendChild(createMaterialGridItem(materialGridItems[index], index - start));
+  }
+  grid.appendChild(fragment);
+  materialGridRendered = end;
+  prepareCardVideo(grid);
+  state.textContent = materialGridRendered < materialGridItems.length ? '[SCROLL FOR MORE]' : '[END OF MEDIA]';
+}
+
+function ensureImmersiveVideo(video) {
+  if (!video || video.src || !video.dataset.src) return;
+  video.src = video.dataset.src;
+  video.load();
+}
+
+function syncImmersivePost(postElement) {
+  if (!postElement) return;
+  const track = postElement.querySelector('.media-immersive-track');
+  const slides = [...postElement.querySelectorAll('.media-immersive-slide')];
+  const current = Math.max(0, Math.min(
+    Math.round(track.scrollLeft / Math.max(track.clientWidth, 1)),
+    slides.length - 1
+  ));
+  postElement.dataset.mediaIndex = String(current);
+  postElement.querySelectorAll('.media-immersive-dot').forEach((dot, index) => {
+    dot.classList.toggle('active', index === current);
+    dot.setAttribute('aria-current', index === current ? 'true' : 'false');
+  });
+
+  const shouldPlay = postElement.dataset.active === 'true'
+    && activeTab === 'media'
+    && mediaMode === 'immersive'
+    && !document.hidden;
+  const activeVideo = slides[current]?.querySelector('.immersive-video') || null;
+  postElement.querySelectorAll('.immersive-video').forEach(video => {
+    if (shouldPlay && video === activeVideo) {
+      ensureImmersiveVideo(video);
+      video.muted = true;
+      video.play().catch(() => {});
+    } else {
+      video.pause();
+    }
+  });
+}
+
+function syncImmersivePlayback() {
+  document.querySelectorAll('#mediaImmersiveFeed .media-immersive-post').forEach(syncImmersivePost);
+}
+
+function createImmersivePost(post, postIndex) {
+  const article = document.createElement('article');
+  article.className = 'media-immersive-post';
+  article.dataset.postIndex = String(postIndex);
+  article.dataset.active = 'false';
+  article.dataset.mediaIndex = '0';
+
+  const track = document.createElement('div');
+  track.className = 'media-immersive-track';
+  let startX = 0;
+  let startY = 0;
+  let suppressClick = false;
+  let scrollFrame = 0;
+
+  track.addEventListener('pointerdown', event => {
+    startX = event.clientX;
+    startY = event.clientY;
+    suppressClick = false;
+  });
+  track.addEventListener('pointermove', event => {
+    const dx = Math.abs(event.clientX - startX);
+    const dy = Math.abs(event.clientY - startY);
+    if (dx > 8 && dx > dy) suppressClick = true;
+  });
+  track.addEventListener('pointerup', () => {
+    window.setTimeout(() => { suppressClick = false; }, 0);
+  });
+  track.addEventListener('scroll', () => {
+    if (scrollFrame) return;
+    scrollFrame = requestAnimationFrame(() => {
+      scrollFrame = 0;
+      syncImmersivePost(article);
+    });
+  }, { passive: true });
+
+  post.items.forEach((item, mediaIndex) => {
+    const slide = document.createElement('div');
+    slide.className = 'media-immersive-slide';
+    slide.tabIndex = 0;
+    slide.setAttribute('role', 'button');
+    slide.setAttribute('aria-label', `${getMaterialAlt(post, item, mediaIndex)}，全屏查看`);
+    const mediaClass = `media-immersive-media${item.type === 'video' ? ' immersive-video' : ''}`;
+    const media = createMaterialMediaElement(post, item, mediaIndex, mediaClass, postIndex < 2);
+    media.addEventListener('error', () => replaceBrokenMaterial(slide, media, item, 'media-immersive-media'), { once: true });
+    slide.appendChild(media);
+    slide.addEventListener('click', event => {
+      if (suppressClick) {
+        event.preventDefault();
+        return;
+      }
+      openMaterialPost(post, mediaIndex);
+    });
+    slide.addEventListener('keydown', event => {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      event.preventDefault();
+      openMaterialPost(post, mediaIndex);
+    });
+    track.appendChild(slide);
+  });
+  article.appendChild(track);
+
+  const dots = document.createElement('div');
+  dots.className = `media-immersive-dots${post.items.length <= 1 ? ' single' : ''}`;
+  post.items.forEach((_, mediaIndex) => {
+    const dot = document.createElement('button');
+    dot.className = `media-immersive-dot${mediaIndex === 0 ? ' active' : ''}`;
+    dot.type = 'button';
+    dot.setAttribute('aria-label', `查看第 ${mediaIndex + 1} 项素材`);
+    dot.setAttribute('aria-current', mediaIndex === 0 ? 'true' : 'false');
+    dot.addEventListener('click', event => {
+      event.stopPropagation();
+      track.scrollTo({
+        left: track.clientWidth * mediaIndex,
+        behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
+      });
+    });
+    dots.appendChild(dot);
+  });
+  article.appendChild(dots);
+  return article;
+}
+
+function setupImmersiveObserver() {
+  if (immersivePostObserver) immersivePostObserver.disconnect();
+  const feed = document.getElementById('mediaImmersiveFeed');
+  if (!feed || mediaMode !== 'immersive') return;
+  if (!('IntersectionObserver' in window)) {
+    const first = feed.querySelector('.media-immersive-post');
+    if (first) {
+      first.dataset.active = 'true';
+      syncImmersivePost(first);
+    }
+    return;
+  }
+  immersivePostObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const active = entry.isIntersecting && entry.intersectionRatio >= 0.72;
+      entry.target.dataset.active = active ? 'true' : 'false';
+      syncImmersivePost(entry.target);
+      const index = Number(entry.target.dataset.postIndex || 0);
+      if (entry.isIntersecting && index >= materialImmersiveRendered - 4) {
+        renderMaterialImmersiveBatch();
+      }
+    });
+  }, { root: feed, threshold: [0, 0.15, 0.72, 1] });
+  feed.querySelectorAll('.media-immersive-post').forEach(post => immersivePostObserver.observe(post));
+}
+
+function renderMaterialImmersiveBatch() {
+  const feed = document.getElementById('mediaImmersiveFeed');
+  if (!feed || mediaMode !== 'immersive') return;
+  if (!materialPosts.length) {
+    feed.innerHTML = '<div class="empty-state"><div class="label">[NO MEDIA]</div></div>';
+    return;
+  }
+  if (materialImmersiveRendered >= materialPosts.length) return;
+  const start = materialImmersiveRendered;
+  const end = Math.min(start + MATERIAL_IMMERSIVE_BATCH, materialPosts.length);
+  const fragment = document.createDocumentFragment();
+  for (let index = start; index < end; index += 1) {
+    fragment.appendChild(createImmersivePost(materialPosts[index], index));
+  }
+  feed.appendChild(fragment);
+  materialImmersiveRendered = end;
+  setupImmersiveObserver();
+}
+
+function pauseMaterialBrowser() {
+  document.querySelectorAll('#mediaView video').forEach(video => video.pause());
+  if (immersivePostObserver) {
+    immersivePostObserver.disconnect();
+    immersivePostObserver = null;
+  }
+}
+
+function initializeMaterialBrowser() {
+  const grid = document.getElementById('materialGrid');
+  const feed = document.getElementById('mediaImmersiveFeed');
+  cleanupCardVideos(grid);
+  pauseMaterialBrowser();
+  grid.replaceChildren();
+  feed.replaceChildren();
+
+  materialPosts = buildMaterialPosts();
+  materialGridItems = shuffleMaterialItems(materialPosts.flatMap(post =>
+    post.items.map((item, mediaIndex) => ({ post, item, mediaIndex }))
+  ));
+  materialGridRendered = 0;
+  materialImmersiveRendered = 0;
+  materialBrowserSignature = `${allTweets.length}:${materialPosts.length}:${materialGridItems.length}`;
+  materialBrowserReady = true;
+  document.getElementById('mediaPostCount').textContent = materialPosts.length;
+}
+
+function setMediaMode(mode) {
+  if (!['grid', 'immersive'].includes(mode)) mode = 'grid';
+  pauseMaterialBrowser();
+  mediaMode = mode;
+  document.querySelectorAll('.media-mode-button').forEach(button => {
+    const active = button.dataset.mediaMode === mode;
+    button.classList.toggle('active', active);
+    button.setAttribute('aria-selected', active ? 'true' : 'false');
+  });
+  document.querySelectorAll('.media-mode-panel').forEach(panel => {
+    panel.classList.toggle('active', panel.dataset.mediaPanel === mode);
+  });
+  document.getElementById('mediaModeNote').textContent = mode === 'grid'
+    ? '随机素材 · 点击全屏'
+    : '上下换帖 · 左右换素材';
+
+  if (mode === 'grid') {
+    if (materialGridRendered === 0) renderMaterialGridBatch();
+    else prepareCardVideo(document.getElementById('materialGrid'));
+  } else {
+    if (materialImmersiveRendered === 0) renderMaterialImmersiveBatch();
+    else setupImmersiveObserver();
+    requestAnimationFrame(syncImmersivePlayback);
+  }
+}
+
+function renderMaterialBrowser(force = false) {
+  const nextPosts = buildMaterialPosts();
+  const nextItemCount = nextPosts.reduce((total, post) => total + post.items.length, 0);
+  const signature = `${allTweets.length}:${nextPosts.length}:${nextItemCount}`;
+  if (force || !materialBrowserReady || signature !== materialBrowserSignature) {
+    initializeMaterialBrowser();
+  }
+  setMediaMode(mediaMode);
 }
 
 function linkifyText(text) {
@@ -3306,6 +4120,18 @@ window.addEventListener('resize', () => {
       if (getHomeColumnCount() !== _currentHomeColumnCount) renderHomeFeed();
       return;
     }
+    if (activeTab === 'media') {
+      if (mediaMode === 'immersive') {
+        document.querySelectorAll('.media-immersive-post').forEach(post => {
+          const track = post.querySelector('.media-immersive-track');
+          const index = Number(post.dataset.mediaIndex || 0);
+          track.scrollLeft = track.clientWidth * index;
+          syncImmersivePost(post);
+        });
+      }
+      return;
+    }
+    if (!['likes', 'search'].includes(activeTab)) return;
     const desired = getColumnCount();
     if (desired === _currentColumnCount) return;
     const previouslyRendered = rendered;
@@ -3938,8 +4764,9 @@ function setCollectionState(state) {
 }
 
 function setActiveTab(tab, updateHash = true) {
-  if (!['home', 'likes', 'search'].includes(tab)) tab = 'home';
+  if (!['home', 'likes', 'search', 'media'].includes(tab)) tab = 'home';
   saveCurrentSearchState();
+  if (activeTab === 'media' && tab !== 'media') pauseMaterialBrowser();
   activeTab = tab;
 
   document.querySelectorAll('.app-view').forEach(view => {
@@ -3962,6 +4789,9 @@ function setActiveTab(tab, updateHash = true) {
   } else if (tab === 'search') {
     document.getElementById('searchMount').appendChild(surface);
     setCollectionState(searchState);
+  } else if (tab === 'media') {
+    cleanupCardVideos(document.getElementById('masonry'));
+    renderMaterialBrowser();
   } else {
     cleanupCardVideos(document.getElementById('masonry'));
   }
@@ -4007,6 +4837,21 @@ document.querySelectorAll('.tab-button').forEach(btn => {
   btn.addEventListener('click', () => setActiveTab(btn.dataset.tab));
 });
 
+document.querySelectorAll('.media-mode-button').forEach(btn => {
+  btn.addEventListener('click', () => setMediaMode(btn.dataset.mediaMode));
+});
+
+document.getElementById('mediaImmersiveFeed').addEventListener('scroll', event => {
+  const feed = event.currentTarget;
+  if (
+    activeTab === 'media'
+    && mediaMode === 'immersive'
+    && feed.scrollTop + feed.clientHeight >= feed.scrollHeight - feed.clientHeight * 2
+  ) {
+    renderMaterialImmersiveBatch();
+  }
+}, { passive: true });
+
 document.getElementById('searchInput').addEventListener('input', (e) => {
   searchQuery = e.target.value;
   applyFilters();
@@ -4034,7 +4879,12 @@ window.addEventListener('scroll', function onScroll() {
   const st = document.getElementById('scrollTop');
   if (window.scrollY > 600) st.classList.add('visible');
   else st.classList.remove('visible');
-  if (activeTab !== 'home' && window.innerHeight + window.scrollY >= document.body.offsetHeight - 800) renderBatch();
+  if (window.innerHeight + window.scrollY < document.body.offsetHeight - 800) return;
+  if (activeTab === 'media' && mediaMode === 'grid') {
+    renderMaterialGridBatch();
+  } else if (activeTab === 'likes' || activeTab === 'search') {
+    renderBatch();
+  }
 }, { passive: true });
 
 // ── Drop zone ──
@@ -4104,7 +4954,7 @@ document.body.addEventListener('drop', (e) => {
   updateDataBar();
   renderHomeFeed();
   const requestedTab = location.hash.replace('#', '');
-  setActiveTab(['home', 'likes', 'search'].includes(requestedTab) ? requestedTab : 'home', false);
+  setActiveTab(['home', 'likes', 'search', 'media'].includes(requestedTab) ? requestedTab : 'home', false);
   document.body.dataset.collectionReady = 'true';
   document.dispatchEvent(new Event('collection:ready'));
 })();

@@ -195,6 +195,14 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 - Close: circular button top-right. Desktop also exposes previous/next buttons; mobile uses horizontal swipe.
 - Multiple media show a counter, gesture hint and thumbnail rail. The active video alone may autoplay; inactive videos pause.
 
+### Media Browser
+
+- The fourth bottom-navigation tab is an icon-only media browser covering every post with direct, quoted or article media.
+- The top mode switch offers two presentations: a randomized, media-only masonry grid and an immersive post feed.
+- Masonry shows no author, copy, tags or metrics. It batches and lazy-loads media, using 2 / 3 / 4 / 5 columns at mobile / tablet / desktop / large breakpoints.
+- Immersive mode shows one post per vertical snap page. Media within that post uses horizontal snap paging; only the visible horizontal video in the visible post may autoplay.
+- Both modes launch the shared fullscreen media viewer, and mode changes pause videos left behind.
+
 ### Navigation Arrows
 
 - Circular 40px buttons, `--surface` bg
