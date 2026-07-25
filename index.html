@@ -151,6 +151,11 @@
     }
 
     /* === MEDIA BROWSER === */
+    .media-view {
+      --media-nav-clearance: 100px;
+      overscroll-behavior-x: none;
+    }
+
     .media-mode-toolbar {
       position: sticky;
       top: 0;
@@ -161,9 +166,11 @@
       margin-bottom: var(--space-sm);
       padding: 6px 0 10px;
       background: linear-gradient(var(--black) 78%, transparent);
+      touch-action: pan-y;
     }
 
     .media-mode-switch {
+      --mode-drag-x: 0px;
       display: inline-grid;
       grid-template-columns: repeat(2, 44px);
       gap: 4px;
@@ -171,7 +178,12 @@
       border: 1px solid var(--border-visible);
       border-radius: 26px;
       background: rgba(17,17,17,0.9);
+      transform: translate3d(var(--mode-drag-x),0,0);
+      transition: transform var(--motion-short) var(--easing-standard);
+      will-change: transform;
     }
+
+    .media-mode-switch.dragging { transition: none; }
 
     .media-mode-button {
       width: 44px;
@@ -220,6 +232,24 @@
     @keyframes mediaModeIn {
       from { opacity: 0; transform: translateY(8px); }
       to { opacity: 1; transform: translateY(0); }
+    }
+
+    .media-view[data-mode-transition="forward"] .media-mode-panel.active {
+      animation-name: mediaModeInForward;
+    }
+
+    .media-view[data-mode-transition="backward"] .media-mode-panel.active {
+      animation-name: mediaModeInBackward;
+    }
+
+    @keyframes mediaModeInForward {
+      from { opacity: 0; transform: translateX(18px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes mediaModeInBackward {
+      from { opacity: 0; transform: translateX(-18px); }
+      to { opacity: 1; transform: translateX(0); }
     }
 
     .material-grid {
@@ -293,8 +323,8 @@
     }
 
     .media-immersive-feed {
-      height: calc(100dvh - 112px);
-      min-height: 520px;
+      height: calc(100dvh - 112px - var(--media-nav-clearance));
+      min-height: 320px;
       overflow-y: auto;
       overscroll-behavior-y: contain;
       scroll-snap-type: y mandatory;
@@ -342,17 +372,53 @@
       scroll-snap-stop: always;
     }
 
+    .media-immersive-slide::before,
+    .lightbox-slide::before {
+      content: '';
+      position: absolute;
+      inset: -28px;
+      z-index: 0;
+      background-image: var(--media-backdrop, none);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: blur(26px) brightness(0.46) saturate(0.82);
+      opacity: 0;
+      transform: scale(1.08);
+      pointer-events: none;
+    }
+
+    .media-immersive-slide.has-media-backdrop::before,
+    .lightbox-slide.has-media-backdrop::before {
+      opacity: 0.82;
+    }
+
+    .media-immersive-slide::after,
+    .lightbox-slide::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+      background: rgba(0,0,0,0.22);
+      pointer-events: none;
+    }
+
     .media-immersive-slide:focus-visible {
       outline: 2px solid var(--interactive);
       outline-offset: -4px;
     }
 
     .media-immersive-media {
+      position: absolute;
+      inset: 0;
       width: 100%;
       height: 100%;
       display: block;
       object-fit: contain;
-      background: var(--black);
+      z-index: 1;
+      max-width: 100%;
+      max-height: 100%;
+      background: transparent;
       user-select: none;
       -webkit-user-drag: none;
     }
@@ -1566,6 +1632,7 @@
     .lightbox.dragging .lightbox-track { transition: none; }
 
     .lightbox-slide {
+      position: relative;
       flex: 0 0 100%;
       min-width: 0;
       min-height: 0;
@@ -1576,12 +1643,14 @@
     }
 
     .lightbox-media {
+      position: relative;
+      z-index: 1;
       display: block;
       max-width: 100%;
       max-height: 100%;
       object-fit: contain;
       border-radius: var(--radius-8);
-      background: var(--black);
+      background: transparent;
       user-select: none;
       -webkit-user-drag: none;
     }
@@ -1773,10 +1842,11 @@
       .bottom-tab-bar { bottom: max(10px, env(safe-area-inset-bottom)); }
       .liquid-glass-scene { bottom: max(-6px, calc(env(safe-area-inset-bottom) - 22px)); }
       .card-insight-row { grid-template-columns: 42px minmax(0, 1fr); }
+      .media-view { --media-nav-clearance: 96px; }
       .media-mode-toolbar { padding: 2px 0 8px; }
       .media-immersive-feed {
-        height: calc(100dvh - 84px - env(safe-area-inset-bottom));
-        min-height: 440px;
+        height: calc(100dvh - 84px - var(--media-nav-clearance) - env(safe-area-inset-bottom));
+        min-height: 280px;
         margin-inline: -16px;
         border-radius: 0;
       }
@@ -2423,6 +2493,19 @@ let materialImmersiveRendered = 0;
 let materialBrowserSignature = '';
 let materialBrowserReady = false;
 let immersivePostObserver = null;
+let mediaModeTransitionTimer = 0;
+let mediaModeWheelTimer = 0;
+let mediaModeWheelX = 0;
+let mediaModeWheelCooldownUntil = 0;
+let suppressNextMediaModeClick = false;
+const mediaModeGesture = {
+  pointerId: null,
+  startX: 0,
+  startY: 0,
+  dx: 0,
+  dy: 0,
+  axis: null
+};
 
 const cardVideoObserver = 'IntersectionObserver' in window
   ? new IntersectionObserver(entries => {
@@ -3225,6 +3308,13 @@ function createMaterialError() {
   return error;
 }
 
+function setMediaBackdrop(element, item) {
+  const backdrop = item?.type === 'video' ? item.poster : (item?.full || item?.src);
+  if (!element || !backdrop) return;
+  element.classList.add('has-media-backdrop');
+  element.style.setProperty('--media-backdrop', `url(${JSON.stringify(highResMediaUrl(backdrop, true))})`);
+}
+
 function getMaterialViewerPayload(entry) {
   return {
     items: entry.post.items.map((item, itemIndex) => ({
@@ -3390,6 +3480,7 @@ function createImmersivePost(post, postIndex) {
     slide.tabIndex = 0;
     slide.setAttribute('role', 'button');
     slide.setAttribute('aria-label', `${getMaterialAlt(post, item, mediaIndex)}，全屏查看`);
+    setMediaBackdrop(slide, item);
     const mediaClass = `media-immersive-media${item.type === 'video' ? ' immersive-video' : ''}`;
     const media = createMaterialMediaElement(post, item, mediaIndex, mediaClass, postIndex < 2);
     media.addEventListener('error', () => replaceBrokenMaterial(slide, media, item, 'media-immersive-media'), { once: true });
@@ -3522,6 +3613,101 @@ function setMediaMode(mode) {
     else setupImmersiveObserver();
     requestAnimationFrame(syncImmersivePlayback);
   }
+}
+
+function getAdjacentMediaMode(direction) {
+  const modes = ['grid', 'immersive'];
+  const index = modes.indexOf(mediaMode);
+  const next = index + direction;
+  return next >= 0 && next < modes.length ? modes[next] : '';
+}
+
+function switchMediaModeByGesture(direction) {
+  const nextMode = getAdjacentMediaMode(direction);
+  if (!nextMode) return false;
+  const view = document.getElementById('mediaView');
+  window.clearTimeout(mediaModeTransitionTimer);
+  view.dataset.modeTransition = direction > 0 ? 'forward' : 'backward';
+  setMediaMode(nextMode);
+  mediaModeTransitionTimer = window.setTimeout(() => {
+    delete view.dataset.modeTransition;
+  }, matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 200);
+  return true;
+}
+
+function resetMediaModeGesture() {
+  const modeSwitch = document.querySelector('.media-mode-switch');
+  modeSwitch?.classList.remove('dragging');
+  modeSwitch?.style.setProperty('--mode-drag-x', '0px');
+  mediaModeGesture.pointerId = null;
+  mediaModeGesture.dx = 0;
+  mediaModeGesture.dy = 0;
+  mediaModeGesture.axis = null;
+}
+
+function onMediaModePointerDown(event) {
+  if (activeTab !== 'media' || event.button !== 0) return;
+  mediaModeGesture.pointerId = event.pointerId;
+  mediaModeGesture.startX = event.clientX;
+  mediaModeGesture.startY = event.clientY;
+  mediaModeGesture.dx = 0;
+  mediaModeGesture.dy = 0;
+  mediaModeGesture.axis = null;
+}
+
+function onMediaModePointerMove(event) {
+  if (event.pointerId !== mediaModeGesture.pointerId) return;
+  mediaModeGesture.dx = event.clientX - mediaModeGesture.startX;
+  mediaModeGesture.dy = event.clientY - mediaModeGesture.startY;
+  const absX = Math.abs(mediaModeGesture.dx);
+  const absY = Math.abs(mediaModeGesture.dy);
+  if (!mediaModeGesture.axis && Math.max(absX, absY) > 8) {
+    mediaModeGesture.axis = absX > absY * 1.15 ? 'x' : 'y';
+  }
+  if (mediaModeGesture.axis !== 'x') return;
+  if (!event.currentTarget.hasPointerCapture(event.pointerId)) {
+    event.currentTarget.setPointerCapture(event.pointerId);
+  }
+  const direction = mediaModeGesture.dx < 0 ? 1 : -1;
+  const available = Boolean(getAdjacentMediaMode(direction));
+  const resisted = Math.max(-12, Math.min(12, mediaModeGesture.dx * (available ? 0.12 : 0.04)));
+  const modeSwitch = document.querySelector('.media-mode-switch');
+  modeSwitch?.classList.add('dragging');
+  modeSwitch?.style.setProperty('--mode-drag-x', `${resisted}px`);
+  event.preventDefault();
+}
+
+function onMediaModePointerEnd(event) {
+  if (event.pointerId !== mediaModeGesture.pointerId) return;
+  if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+    event.currentTarget.releasePointerCapture(event.pointerId);
+  }
+  const horizontal = mediaModeGesture.axis === 'x';
+  const direction = mediaModeGesture.dx < 0 ? 1 : -1;
+  const shouldSwitch = horizontal
+    && Math.abs(mediaModeGesture.dx) >= 36
+    && Math.abs(mediaModeGesture.dx) > Math.abs(mediaModeGesture.dy) * 1.15;
+  if (shouldSwitch && switchMediaModeByGesture(direction)) {
+    suppressNextMediaModeClick = true;
+    window.setTimeout(() => { suppressNextMediaModeClick = false; }, 240);
+  }
+  resetMediaModeGesture();
+}
+
+function onMediaModeWheel(event) {
+  if (activeTab !== 'media' || Math.abs(event.deltaX) <= Math.abs(event.deltaY) * 1.1) return;
+  const direction = event.deltaX > 0 ? 1 : -1;
+  if (!getAdjacentMediaMode(direction)) return;
+  event.preventDefault();
+  if (Date.now() < mediaModeWheelCooldownUntil) return;
+  mediaModeWheelX += event.deltaX;
+  window.clearTimeout(mediaModeWheelTimer);
+  mediaModeWheelTimer = window.setTimeout(() => { mediaModeWheelX = 0; }, 160);
+  if (Math.abs(mediaModeWheelX) < 64) return;
+  if (switchMediaModeByGesture(mediaModeWheelX > 0 ? 1 : -1)) {
+    mediaModeWheelCooldownUntil = Date.now() + 520;
+  }
+  mediaModeWheelX = 0;
 }
 
 function renderMaterialBrowser(force = false) {
@@ -4513,6 +4699,7 @@ function renderLightboxItems() {
       <img class="lightbox-media" src="${escapeHTML(item.src)}" alt="${escapeHTML(label)}" crossorigin="anonymous" draggable="false">
     </div>`;
   }).join('');
+  [...track.children].forEach((slide, index) => setMediaBackdrop(slide, lightboxState.items[index]));
 
   thumbs.innerHTML = lightboxState.items.map((item, index) => {
     const preview = item.poster || (item.type === 'image' ? item.src : '');
@@ -4938,6 +5125,19 @@ document.querySelectorAll('.tab-button').forEach(btn => {
 document.querySelectorAll('.media-mode-button').forEach(btn => {
   btn.addEventListener('click', () => setMediaMode(btn.dataset.mediaMode));
 });
+
+const mediaModeToolbar = document.querySelector('.media-mode-toolbar');
+mediaModeToolbar.addEventListener('pointerdown', onMediaModePointerDown);
+mediaModeToolbar.addEventListener('pointermove', onMediaModePointerMove);
+mediaModeToolbar.addEventListener('pointerup', onMediaModePointerEnd);
+mediaModeToolbar.addEventListener('pointercancel', resetMediaModeGesture);
+mediaModeToolbar.addEventListener('wheel', onMediaModeWheel, { passive: false });
+mediaModeToolbar.addEventListener('click', event => {
+  if (!suppressNextMediaModeClick) return;
+  event.preventDefault();
+  event.stopPropagation();
+  suppressNextMediaModeClick = false;
+}, true);
 
 document.getElementById('mediaImmersiveFeed').addEventListener('scroll', event => {
   const feed = event.currentTarget;

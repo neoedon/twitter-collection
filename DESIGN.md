@@ -200,9 +200,11 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 
 - The fourth bottom-navigation tab is an icon-only media browser covering every post with direct, quoted or article media.
 - Its page header is a centered, compact two-icon segmented control with accessible labels and no visible title, count or mode copy.
+- The centered mode control supports horizontal touch swipes on mobile and horizontal Magic Mouse / trackpad gestures on desktop. Swipe left advances to immersive mode; swipe right returns to masonry.
 - The mode switch offers two presentations: a randomized, media-only masonry grid and an immersive post feed.
 - Masonry shows no author, copy, tags or metrics. It batches and lazy-loads media, using 2 / 3 / 4 / 5 columns at mobile / tablet / desktop / large breakpoints.
-- Immersive mode shows one borderless post per vertical snap page. Media within that post uses horizontal snap paging; only the visible horizontal video in the visible post may autoplay.
+- Immersive mode shows one borderless post per vertical snap page and keeps the fixed bottom navigation outside the media's visible area on desktop and mobile.
+- Extreme landscape, portrait and square assets always use `object-fit: contain`; unused canvas space is filled with a dimmed, blurred version of the same asset instead of a solid black block. Media within a post uses horizontal snap paging; only the visible horizontal video in the visible post may autoplay.
 - Both modes launch the shared fullscreen media viewer. Viewer video is muted, looping and inline-only; native controls, Picture in Picture and remote playback are disabled.
 - Mode changes pause videos left behind.
 
