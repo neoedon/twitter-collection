@@ -131,7 +131,7 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 - The bottom navigation is icon-only; accessible names remain on every button through `aria-label`.
 - Liquid Glass must sample and distort the content behind the navigation; a shader that only paints highlights or borders does not qualify.
 - Use the multi-pass WebGL pipeline from [`@ybouane/liquidglass`](https://github.com/ybouane/liquidglass) (MIT): a viewport-local scene texture → Gaussian blur → refraction/chromatic aberration/Fresnel/specular composite. Never rasterize the full feed for a fixed navigation bar.
-- Keep the effect restrained: the WebGL glass sits over a `rgba(0,0,0,0.5)` backplate with `16px` backdrop blur, followed by a thin chromatic edge and one subtle active state.
+- Keep the effect restrained: the WebGL glass sits over a `rgba(0,0,0,0.48)` backplate with `16px` backdrop blur, followed by a thin chromatic edge and one subtle active state.
 - The backplate inherits the outer pill radius and remains below the shader canvas; the original translucent glass stays as the no-WebGL fallback.
 
 ### Fullscreen Media Gesture
@@ -139,6 +139,7 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 - Every content image and video opens in the same full-viewport media viewer, including card, repost, long-article and modal media.
 - Opening the viewer locks the document at its current scroll position; background content must never move under it.
 - Horizontal drag switches between media. Vertical drag exits after crossing the distance or velocity threshold, except in the Media Browser masonry sequence where it switches to the previous or next visual.
+- On mobile, a rightward drag that begins within the left 28px edge always returns to the underlying in-site view, even when the post has multiple media items.
 - A bottom thumbnail rail appears for multiple items. The active item is enlarged and fully opaque; adjacent previews stay smaller and subdued.
 - Gesture animation uses only `transform` and `opacity`: enter and snap use the `300ms` decelerate token, exit uses the `200ms` accelerate token, and all transitions become immediate under `prefers-reduced-motion`.
 
@@ -191,21 +192,24 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 
 ### Media Viewer
 
-- Full-screen overlay `rgba(0,0,0,0.96)` for images and videos.
+- Full-screen overlay uses a `rgba(0,0,0,0.56)` veil over the active asset's blurred backdrop.
 - Media uses its original aspect ratio with `object-fit: contain`; card crop rules do not leak into the viewer.
-- Close: circular button top-right. Desktop also exposes previous/next buttons; mobile uses horizontal swipe.
+- The active media supplies a dimmed, blurred backdrop that fills the complete viewport; the foreground asset is never stretched or cropped.
+- A compact source-post card below the media shows author, handle, date and excerpt. It opens the matching in-site post detail, never an external `x.com` URL.
+- Sound and close are 44px circular controls aligned together below the media. Fullscreen video first attempts playback with sound, falls back to muted autoplay only when the browser blocks sound, and always exposes a manual mute toggle.
+- Desktop also exposes previous/next buttons; mobile uses horizontal swipe plus left-edge swipe-back.
 - Multiple media show a counter, gesture hint and thumbnail rail. The active video alone may autoplay; inactive videos pause.
 
 ### Media Browser
 
 - The fourth bottom-navigation tab is an icon-only media browser covering every post with direct, quoted or article media.
-- Its page header is a centered, compact two-icon segmented control with accessible labels and no visible title, count or mode copy.
+- Its page header is a centered, compact two-icon segmented control with accessible labels and no visible title, count or mode copy. The sticky toolbar has no full-width fill or blur, so scrolling media is never hidden by a black strip; only the segment itself keeps its local surface.
 - The centered mode control supports horizontal touch swipes on mobile and horizontal Magic Mouse / trackpad gestures on desktop. Swipe left advances to immersive mode; swipe right returns to masonry.
 - The mode switch offers two presentations: a randomized, media-only masonry grid and an immersive post feed.
 - Masonry shows no author, copy, tags or metrics. It batches and lazy-loads media, using 2 / 3 / 4 / 5 columns at mobile / tablet / desktop / large breakpoints.
 - Immersive mode shows one borderless post per vertical snap page and keeps the fixed bottom navigation outside the media's visible area on desktop and mobile.
 - Extreme landscape, portrait and square assets always use `object-fit: contain`; unused canvas space is filled with a dimmed, blurred version of the same asset instead of a solid black block. Media within a post uses horizontal snap paging; only the visible horizontal video in the visible post may autoplay.
-- Both modes launch the shared fullscreen media viewer. Viewer video is muted, looping and inline-only; native controls, Picture in Picture and remote playback are disabled.
+- Both modes launch the shared fullscreen media viewer. Viewer video is looping and inline-only with explicit in-view sound control; native controls, Picture in Picture and remote playback are disabled.
 - Mode changes pause videos left behind.
 
 ### Navigation Arrows
@@ -214,6 +218,7 @@ A monochromatic, typographically-driven design system inspired by Nothing Phone 
 - `1px solid --border-visible`
 - Positioned outside the modal (`left: -56px` / `right: -56px`)
 - Hover: border/text → `--text-display`
+- The 44px scroll-to-top control shares the bottom tab bar's vertical center and sits 12px beyond its right edge; viewports below 350px move it back above the bar to preserve touch targets.
 
 ### Drop Zone (File Upload)
 
