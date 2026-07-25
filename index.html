@@ -431,6 +431,7 @@
     }
 
     .media-immersive-slide::before,
+    .media-backdrop-slide::before,
     .lightbox-slide::before {
       content: '';
       position: absolute;
@@ -447,11 +448,13 @@
     }
 
     .media-immersive-slide.has-media-backdrop::before,
+    .media-backdrop-slide.has-media-backdrop::before,
     .lightbox-slide.has-media-backdrop::before {
       opacity: 0.82;
     }
 
     .media-immersive-slide::after,
+    .media-backdrop-slide::after,
     .lightbox-slide::after {
       content: '';
       position: absolute;
@@ -459,6 +462,30 @@
       z-index: 0;
       background: rgba(0,0,0,0.22);
       pointer-events: none;
+    }
+
+    .media-backdrop-slide {
+      position: relative;
+      flex: 0 0 100%;
+      width: 100%;
+      min-width: 0;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      scroll-snap-align: start;
+      background: var(--black);
+    }
+
+    .media-backdrop-slide > img,
+    .media-backdrop-slide > video {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      min-height: 0;
+      display: block;
+      object-fit: contain;
+      background: transparent;
     }
 
     .media-immersive-slide:focus-visible {
@@ -648,19 +675,11 @@
 
     .digest-media-track::-webkit-scrollbar { display: none; }
 
-    .digest-media-track > img,
-    .digest-media-track > video {
-      flex: 0 0 100%;
-      width: 100%;
+    .digest-media-track > .media-backdrop-slide {
       height: 100%;
-      min-height: 0;
-      max-height: none;
-      object-fit: contain;
-      scroll-snap-align: start;
-      background: var(--black);
     }
 
-    .digest-media-track > img { cursor: zoom-in; }
+    .digest-media-track > .media-backdrop-slide > img { cursor: zoom-in; }
 
     .digest-media-shell .media-count { right: 10px; bottom: 10px; }
 
@@ -1118,17 +1137,17 @@
 
     .card-media-track::-webkit-scrollbar { display: none; }
 
-    .card-media-track img,
-    .card-media-track video {
-      flex: 0 0 100%;
-      width: 100%;
+    .card-media-track > .media-backdrop-slide {
       aspect-ratio: 4 / 3;
-      object-fit: contain;
-      scroll-snap-align: start;
-      background: var(--black);
     }
 
-    .card-media-track img {
+    .card-media-track > .media-backdrop-slide > img,
+    .card-media-track > .media-backdrop-slide > video {
+      object-fit: contain;
+      background: transparent;
+    }
+
+    .card-media-track > .media-backdrop-slide > img {
       cursor: zoom-in;
     }
 
@@ -2611,6 +2630,7 @@
 
   <div class="toast" id="toast"></div>
 
+<script src="home-backfill.js"></script>
 <script>
 const BATCH_SIZE = 40;
 const STORAGE_KEY = 'x_collection_tweets';
@@ -2619,6 +2639,7 @@ const TRANSLATIONS_KEY = 'x_collection_zh_enrichment_v2';
 const UNLIKED_KEY = 'x_collection_unliked_ids_v1';
 
 const HOME_FEED = [
+  ...(window.HOME_BACKFILL || []),
   {
     category: '关注 · DESIGN TOOL',
     datetime: '2026-07-25T13:47:08.000Z',
@@ -2698,7 +2719,7 @@ const HOME_FEED = [
     url: 'https://x.com/dingyi/status/2080908222538694716',
     media: [{
       type: 'video',
-      src: 'https://video.twimg.com/amplify_video/2080169251013586944/vid/avc1/960x720/caYQzHW_xFJxbZMl.mp4?tag=29',
+      src: 'https://video.twimg.com/amplify_video/2080169251013586944/vid/avc1/480x360/zgh7_FPLe6zp8Vaf.mp4?tag=29',
       poster: 'https://pbs.twimg.com/amplify_video_thumb/2080169251013586944/img/lxlXfb6vD3pJao8g.jpg'
     }],
     quote: {
@@ -4469,11 +4490,13 @@ function renderMediaTrack(media, variant = 'digest') {
   const contents = items.map((item, index) => {
     if (item.type === 'video' && item.src) {
       const poster = highResMediaUrl(item.poster || '', false);
-      return `<video class="card-video" data-src="${escapeHTML(item.src)}" data-viewer-src="${escapeHTML(item.src)}"${poster ? ` poster="${escapeHTML(poster)}" data-viewer-poster="${escapeHTML(highResMediaUrl(item.poster || '', true))}"` : ''} crossorigin="anonymous" muted autoplay loop playsinline preload="none" aria-label="视频 ${index + 1} / ${items.length}"></video>`;
+      const video = `<video class="card-video" data-src="${escapeHTML(item.src)}" data-viewer-src="${escapeHTML(item.src)}"${poster ? ` poster="${escapeHTML(poster)}" data-viewer-poster="${escapeHTML(highResMediaUrl(item.poster || '', true))}"` : ''} crossorigin="anonymous" muted autoplay loop playsinline preload="none" aria-label="视频 ${index + 1} / ${items.length}"></video>`;
+      return variant === 'digest' ? `<div class="media-backdrop-slide">${video}</div>` : video;
     }
     const display = highResMediaUrl(item.src || item.poster, false);
     const full = highResMediaUrl(item.src || item.poster, true);
-    return `<img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" crossorigin="anonymous" alt="" loading="lazy">`;
+    const image = `<img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" crossorigin="anonymous" alt="" loading="lazy">`;
+    return variant === 'digest' ? `<div class="media-backdrop-slide">${image}</div>` : image;
   }).join('');
   return `<div class="${shellClass}">${trackClass ? `<div class="${trackClass}">${contents}</div>` : contents}${items.length > 1 ? `<span class="media-count">1 / ${items.length}</span>` : ''}</div>`;
 }
@@ -4523,6 +4546,16 @@ function renderEmbeddedPost(post) {
 
 function wireRichMedia(container, source = null) {
   prepareCardVideo(container);
+  container.querySelectorAll('.media-backdrop-slide').forEach(slide => {
+    const media = slide.querySelector('img, video');
+    if (!media) return;
+    setMediaBackdrop(slide, {
+      type: media.tagName === 'VIDEO' ? 'video' : 'image',
+      src: media.dataset.full || media.currentSrc || media.src || '',
+      full: media.dataset.full || '',
+      poster: media.dataset.viewerPoster || media.poster || ''
+    });
+  });
   container.querySelectorAll('img[data-full], video[data-viewer-src], video.card-video[data-src], #modalVideo').forEach(media => {
     if (media.classList.contains('card-video-fallback') || media.dataset.viewerWired === 'true') return;
     media.dataset.viewerWired = 'true';
@@ -4639,11 +4672,11 @@ function createCard(tweet, index, options = {}) {
         ${structuredMedia.map((item, mediaIndex) => {
           if (item.type === 'video' && item.src) {
             const poster = highResMediaUrl(item.poster || '', false);
-            return `<video class="card-video" data-src="${escapeHTML(item.src)}" data-viewer-src="${escapeHTML(item.src)}"${poster ? ` poster="${escapeHTML(poster)}" data-viewer-poster="${escapeHTML(highResMediaUrl(item.poster || '', true))}"` : ''} crossorigin="anonymous" muted autoplay loop playsinline preload="none" aria-label="视频 ${mediaIndex + 1} / ${structuredMedia.length}"></video>`;
+            return `<div class="media-backdrop-slide"><video class="card-video" data-src="${escapeHTML(item.src)}" data-viewer-src="${escapeHTML(item.src)}"${poster ? ` poster="${escapeHTML(poster)}" data-viewer-poster="${escapeHTML(highResMediaUrl(item.poster || '', true))}"` : ''} crossorigin="anonymous" muted autoplay loop playsinline preload="none" aria-label="视频 ${mediaIndex + 1} / ${structuredMedia.length}"></video></div>`;
           }
           const display = highResMediaUrl(item.src || item.poster, false);
           const full = highResMediaUrl(item.src || item.poster, true);
-          return `<img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" crossorigin="anonymous" alt="" loading="lazy">`;
+          return `<div class="media-backdrop-slide"><img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" crossorigin="anonymous" alt="" loading="lazy"></div>`;
         }).join('')}
       </div>
       ${structuredMedia.length > 1 ? `<span class="media-count">1 / ${structuredMedia.length}</span>` : ''}
@@ -4659,7 +4692,7 @@ function createCard(tweet, index, options = {}) {
     if (imageUrls.length > 1) {
       html += `<div class="card-media card-media-carousel">
         <div class="card-media-track">
-          ${imageUrls.map(url => `<img src="${escapeHTML(url)}" crossorigin="anonymous" alt="" loading="lazy" data-full="${escapeHTML(highResMediaUrl(url, true))}">`).join('')}
+          ${imageUrls.map(url => `<div class="media-backdrop-slide"><img src="${escapeHTML(url)}" crossorigin="anonymous" alt="" loading="lazy" data-full="${escapeHTML(highResMediaUrl(url, true))}"></div>`).join('')}
         </div>
         <span class="media-count">1 / ${imageUrls.length}</span>
       </div>`;
