@@ -4,8 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#000000">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Collection">
   <title>COLLECTION</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23000000'/%3E%3Ccircle cx='10' cy='10' r='2.4' fill='%23666666'/%3E%3Ccircle cx='22' cy='10' r='2.4' fill='%23666666'/%3E%3Ccircle cx='10' cy='22' r='2.4' fill='%23666666'/%3E%3Ccircle cx='22' cy='22' r='2.4' fill='%23D71921'/%3E%3C/svg%3E">
+  <link rel="icon" type="image/svg+xml" href="app-icon.svg?v=20260726">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=20260726">
+  <link rel="manifest" href="manifest.webmanifest?v=20260726">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Doto:wght@400;700&family=Space+Grotesk:wght@300;400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -295,6 +302,54 @@
 
     .material-grid-item.is-video .material-grid-media {
       height: 100%;
+    }
+
+    .unlike-icon-button {
+      display: grid;
+      place-items: center;
+      width: 44px;
+      height: 44px;
+      padding: 0;
+      border: 1px solid rgba(255,255,255,0.18);
+      border-radius: 50%;
+      background: rgba(0,0,0,0.64);
+      backdrop-filter: blur(12px) saturate(1.15);
+      -webkit-backdrop-filter: blur(12px) saturate(1.15);
+      color: rgba(255,255,255,0.84);
+      cursor: pointer;
+      transition: color var(--motion-short) var(--easing-standard),
+                  border-color var(--motion-short) var(--easing-standard),
+                  background var(--motion-short) var(--easing-standard),
+                  transform var(--motion-short) var(--easing-standard);
+    }
+
+    .unlike-icon-button svg {
+      width: 18px;
+      height: 18px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .unlike-icon-button:hover {
+      color: var(--text-display);
+      border-color: rgba(255,255,255,0.5);
+      background: rgba(0,0,0,0.8);
+      transform: scale(1.04);
+    }
+
+    .unlike-icon-button:focus-visible {
+      outline: 2px solid var(--interactive);
+      outline-offset: 3px;
+    }
+
+    .material-unlike {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      z-index: 3;
     }
 
     .material-media-error {
@@ -1224,6 +1279,15 @@
       gap: var(--space-sm);
     }
 
+    .card-footer-actions,
+    .modal-actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 6px;
+      min-width: 0;
+    }
+
     .card-date {
       font-family: 'Space Mono', monospace;
       font-size: 10px;
@@ -1251,6 +1315,34 @@
     .card-link:hover {
       color: var(--text-display);
       border-color: var(--text-display);
+    }
+
+    .unlike-button {
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent);
+      padding: 4px 9px;
+      border: 1px solid rgba(215,25,33,0.46);
+      border-radius: 999px;
+      background: var(--accent-subtle);
+      cursor: pointer;
+      white-space: nowrap;
+      transition: color var(--motion-short) var(--easing-standard),
+                  border-color var(--motion-short) var(--easing-standard),
+                  background var(--motion-short) var(--easing-standard);
+    }
+
+    .unlike-button:hover {
+      color: #ff5b62;
+      border-color: #ff5b62;
+      background: rgba(215,25,33,0.24);
+    }
+
+    .unlike-button:focus-visible {
+      outline: 2px solid var(--interactive);
+      outline-offset: 2px;
     }
 
     /* === EMPTY STATE === */
@@ -1909,6 +2001,7 @@
 
     .lightbox-close,
     .lightbox-sound,
+    .lightbox-unlike,
     .lightbox-nav {
       z-index: 2;
       display: flex;
@@ -1930,7 +2023,8 @@
     }
 
     .lightbox-close svg,
-    .lightbox-sound svg {
+    .lightbox-sound svg,
+    .lightbox-unlike svg {
       width: 19px;
       height: 19px;
       fill: none;
@@ -1941,6 +2035,8 @@
     }
 
     .lightbox-sound[hidden] { display: none; }
+    .lightbox-unlike[hidden] { display: none; }
+    .lightbox-unlike { color: rgba(255,255,255,0.84); }
     .lightbox-sound .sound-off { display: none; }
     .lightbox-sound.muted .sound-on { display: none; }
     .lightbox-sound.muted .sound-off { display: block; }
@@ -1958,9 +2054,11 @@
     .lightbox-nav:disabled { opacity: 0; pointer-events: none; }
     .lightbox-close:hover,
     .lightbox-sound:hover,
+    .lightbox-unlike:hover,
     .lightbox-nav:hover { color: var(--text-display); border-color: var(--text-display); }
     .lightbox-close:focus-visible,
     .lightbox-sound:focus-visible,
+    .lightbox-unlike:focus-visible,
     .lightbox-source:focus-visible,
     .lightbox-nav:focus-visible,
     .lightbox-thumb:focus-visible {
@@ -2083,6 +2181,8 @@
 
       .modal .modal-body { padding: 20px 16px; }
       .modal-close { margin: 12px 12px 0 0; }
+      .modal-meta { align-items: flex-start; gap: 12px; }
+      .modal-actions { flex-wrap: wrap; }
       .modal-nav { top: 46%; width: 44px; height: 44px; }
       .modal-media img,
       #modal > img,
@@ -2479,6 +2579,12 @@
           <span class="lightbox-source-arrow" aria-hidden="true">›</span>
         </button>
         <div class="lightbox-actions">
+          <button class="lightbox-unlike" id="lightboxUnlike" type="button" aria-label="取消 Like" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l4.2-3.8"/>
+              <path d="m4 4 16 16"/>
+            </svg>
+          </button>
           <button class="lightbox-sound" id="lightboxSound" type="button" aria-label="静音视频" aria-pressed="false" hidden>
             <svg class="sound-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9v6h4l5 4V5L9 9H5Z"/><path d="M17 9.2a4 4 0 0 1 0 5.6"/><path d="M19.5 6.8a7.3 7.3 0 0 1 0 10.4"/></svg>
             <svg class="sound-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9v6h4l5 4V5L9 9H5Z"/><path d="m17 9 5 6"/><path d="m22 9-5 6"/></svg>
@@ -2505,6 +2611,7 @@ const BATCH_SIZE = 40;
 const STORAGE_KEY = 'x_collection_tweets';
 const TAGS_KEY = 'x_collection_tags';
 const TRANSLATIONS_KEY = 'x_collection_zh_enrichment_v2';
+const UNLIKED_KEY = 'x_collection_unliked_ids_v1';
 
 const HOME_FEED = [
   {
@@ -2809,6 +2916,8 @@ const HOME_TWEETS = HOME_FEED.map(homeItemToTweet);
 
 let allTweets = [];
 let filteredTweets = [];
+let unlikedTweetIds = loadUnlikedTweetIds();
+let likedTweetIds = new Set();
 let rendered = 0;
 let currentFilter = 'all';
 let currentSource = 'all';
@@ -3285,10 +3394,55 @@ function saveToStorage() {
 function loadFromStorage() {
   try {
     const data = localStorage.getItem(STORAGE_KEY);
-    return data ? JSON.parse(data) : [];
+    const tweets = data ? JSON.parse(data) : [];
+    return Array.isArray(tweets) ? tweets.filter(tweet => !isTweetSuppressed(tweet)) : [];
   } catch (e) {
     return [];
   }
+}
+
+function loadUnlikedTweetIds() {
+  try {
+    const ids = JSON.parse(localStorage.getItem(UNLIKED_KEY) || '[]');
+    return new Set(Array.isArray(ids) ? ids.map(String).filter(Boolean) : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveUnlikedTweetIds() {
+  try {
+    localStorage.setItem(UNLIKED_KEY, JSON.stringify([...unlikedTweetIds]));
+  } catch (e) {
+    console.warn('Unable to persist unlike exclusions');
+  }
+}
+
+function getPersistentTweetId(tweet) {
+  if (!tweet) return '';
+  const tweetUrl = String(tweet['Tweet Url'] || '');
+  const statusId = tweetUrl.match(/\/status\/(\d+)/i)?.[1];
+  return statusId || String(tweet.TweetID || '').trim();
+}
+
+function isTweetSuppressed(tweet) {
+  const id = getPersistentTweetId(tweet);
+  return Boolean(id && unlikedTweetIds.has(id));
+}
+
+function refreshLikedTweetIds() {
+  likedTweetIds = new Set(
+    allTweets
+      .filter(tweet => tweet._source === 'favourite' && !isTweetSuppressed(tweet))
+      .map(getPersistentTweetId)
+      .filter(Boolean)
+  );
+}
+
+function isTweetLiked(tweet) {
+  if (!tweet || isTweetSuppressed(tweet)) return false;
+  const id = getPersistentTweetId(tweet);
+  return tweet._source === 'favourite' || Boolean(id && likedTweetIds.has(id));
 }
 
 function clearStorage() {
@@ -3301,6 +3455,7 @@ function mergeTweets(existing, incoming) {
   const byId = new Map();
   const result = [];
   for (const t of existing) {
+    if (isTweetSuppressed(t)) continue;
     if (t.TweetID && !seen.has(t.TweetID)) {
       seen.add(t.TweetID);
       result.push(t);
@@ -3309,6 +3464,7 @@ function mergeTweets(existing, incoming) {
   }
   let added = 0;
   for (const t of incoming) {
+    if (isTweetSuppressed(t)) continue;
     if (t.TweetID && seen.has(t.TweetID)) {
       const current = byId.get(t.TweetID);
       if (current) {
@@ -3368,6 +3524,7 @@ function handleFiles(files) {
       tweets.forEach(t => { if (!t._tags || !t._tags.length) t._tags = autoTagTweet(t); });
       const { merged, added } = mergeTweets(allTweets, tweets);
       allTweets = merged;
+      refreshLikedTweetIds();
       totalAdded += added;
       processed++;
 
@@ -3437,6 +3594,61 @@ function updateDataBar() {
   document.getElementById('statTotal').textContent = allTweets.length;
 }
 
+function unlikeIconMarkup() {
+  return `<svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l4.2-3.8"/>
+    <path d="m4 4 16 16"/>
+  </svg>`;
+}
+
+function wireUnlikeButton(button, tweet) {
+  if (!button || !isTweetLiked(tweet)) return;
+  button.addEventListener('click', event => {
+    event.preventDefault();
+    event.stopPropagation();
+    permanentlyUnlikeTweet(tweet);
+  });
+  button.addEventListener('keydown', event => {
+    event.stopPropagation();
+  });
+}
+
+function createUnlikeIconButton(className, tweet) {
+  if (!isTweetLiked(tweet)) return null;
+  const button = document.createElement('button');
+  button.className = `unlike-icon-button ${className}`;
+  button.type = 'button';
+  button.setAttribute('aria-label', '取消 Like');
+  button.title = '取消 Like';
+  button.innerHTML = unlikeIconMarkup();
+  wireUnlikeButton(button, tweet);
+  return button;
+}
+
+function permanentlyUnlikeTweet(tweet) {
+  const persistentId = getPersistentTweetId(tweet);
+  if (!persistentId || !isTweetLiked(tweet)) return;
+
+  unlikedTweetIds.add(persistentId);
+  saveUnlikedTweetIds();
+  allTweets = allTweets.filter(candidate => getPersistentTweetId(candidate) !== persistentId);
+  filteredTweets = filteredTweets.filter(candidate => getPersistentTweetId(candidate) !== persistentId);
+  refreshLikedTweetIds();
+  saveToStorage();
+  saveTagsMap();
+  renderTagFilterRow();
+  updateDataBar();
+
+  closeModal();
+  closeLightbox();
+  renderHomeFeed();
+  applyFilters();
+
+  materialBrowserReady = false;
+  if (activeTab === 'media') renderMaterialBrowser(true);
+  showToast('LIKE 已取消 · 后续导入保持排除');
+}
+
 // Convert literal escaped newlines (backslash-n / backslash-r) from CSV into real newlines
 function normalizeNewlines(text) {
   return text
@@ -3496,7 +3708,7 @@ function normalizeMediaItems(media) {
 }
 
 function getMaterialPostKey(tweet) {
-  return tweet.TweetID
+  return getPersistentTweetId(tweet)
     || tweet['Tweet Url']
     || `${tweet.UserScreenName || 'unknown'}:${tweet.TweetCreatedDate || ''}:${cleanText(tweet.TweetText || '').slice(0, 80)}`;
 }
@@ -3567,6 +3779,7 @@ function buildMaterialPosts() {
   const posts = [];
   const seen = new Set();
   [...HOME_TWEETS, ...allTweets].forEach(tweet => {
+    if (isTweetSuppressed(tweet)) return;
     const key = getMaterialPostKey(tweet);
     if (seen.has(key)) return;
     seen.add(key);
@@ -3715,6 +3928,8 @@ function createMaterialGridItem(entry, visualIndex, materialIndex) {
     }, { once: true });
   }
   tile.appendChild(media);
+  const unlikeButton = createUnlikeIconButton('material-unlike', post.tweet);
+  if (unlikeButton) tile.appendChild(unlikeButton);
 
   const open = () => openMaterialGridItem(materialIndex);
   tile.addEventListener('click', open);
@@ -3852,6 +4067,8 @@ function createImmersivePost(post, postIndex) {
     track.appendChild(slide);
   });
   article.appendChild(track);
+  const unlikeButton = createUnlikeIconButton('material-unlike', post.tweet);
+  if (unlikeButton) article.appendChild(unlikeButton);
 
   const dots = document.createElement('div');
   dots.className = `media-immersive-dots${post.items.length <= 1 ? ' single' : ''}`;
@@ -4335,6 +4552,7 @@ function wireRichMedia(container, source = null) {
 function renderHomeFeed() {
   const container = document.getElementById('homeFeed');
   const groups = new Map();
+  const visibleHomeTweets = HOME_TWEETS.filter(tweet => !isTweetSuppressed(tweet));
   const dateKey = value => {
     const parts = new Intl.DateTimeFormat('en', {
       timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit'
@@ -4343,7 +4561,7 @@ function renderHomeFeed() {
     return `${get('year')}-${get('month')}-${get('day')}`;
   };
 
-  HOME_TWEETS.forEach((tweet, index) => {
+  visibleHomeTweets.forEach((tweet, index) => {
     const key = dateKey(tweet.TweetCreatedDate);
     if (!groups.has(key)) groups.set(key, []);
     groups.get(key).push({ tweet, index });
@@ -4375,8 +4593,8 @@ function renderHomeFeed() {
 
     entries.forEach(({ tweet, index }) => {
       const card = createCard(tweet, index, {
-        collection: HOME_TWEETS,
-        onOpen: () => openModalAt(index, HOME_TWEETS)
+        collection: visibleHomeTweets,
+        onOpen: () => openModalAt(index, visibleHomeTweets)
       });
       const target = getShortestColumn(grid);
       if (target) target.appendChild(card);
@@ -4386,7 +4604,7 @@ function renderHomeFeed() {
     });
   });
 
-  document.getElementById('homeItemCount').textContent = `${HOME_TWEETS.length} 条精选`;
+  document.getElementById('homeItemCount').textContent = `${visibleHomeTweets.length} 条精选`;
 }
 // ── Card rendering ──
 function createCard(tweet, index, options = {}) {
@@ -4483,6 +4701,7 @@ function createCard(tweet, index, options = {}) {
 
   const srcCls = tweet._source === 'bookmark' ? 'bookmark' : (tweet._source === 'home' ? 'home' : 'fav');
   const srcLbl = tweet._source === 'bookmark' ? '★ SAVE' : (tweet._source === 'home' ? 'HOME' : '♥ LIKE');
+  const canUnlike = isTweetLiked(tweet);
   const tags = tweet._tags || [];
   const tagPills = tags.map(t => {
     const c = tagColor(t);
@@ -4494,7 +4713,10 @@ function createCard(tweet, index, options = {}) {
       <span class="card-date">${date}</span>
       <span class="source-badge ${srcCls}">${srcLbl}</span>
     </div>
-    <button class="card-link" data-idx="${index}">VIEW →</button>
+    <div class="card-footer-actions">
+      ${canUnlike ? '<button class="unlike-button" type="button">取消 LIKE</button>' : ''}
+      <button class="card-link" data-idx="${index}">VIEW →</button>
+    </div>
   </div>`;
   if (tagPills) html += `<div class="card-tags">${tagPills}</div>`;
 
@@ -4506,6 +4728,7 @@ function createCard(tweet, index, options = {}) {
     if (typeof options.onOpen === 'function') options.onOpen(tweet, index);
     else openModalAt(index);
   });
+  wireUnlikeButton(card.querySelector('.unlike-button'), tweet);
 
   wireRichMedia(card, getInternalPostSource(tweet, options.collection));
 
@@ -4696,6 +4919,7 @@ function openModalAt(index, collection = filteredTweets) {
   const date = formatDate(tweet['TweetCreatedDate']);
   const srcCls = tweet._source === 'bookmark' ? 'bookmark' : (tweet._source === 'home' ? 'home' : 'fav');
   const srcLbl = tweet._source === 'bookmark' ? '★ SAVE' : (tweet._source === 'home' ? 'HOME' : '♥ LIKE');
+  const canUnlike = isTweetLiked(tweet);
   const enrichment = translationCache[getEnrichmentKey(tweet)] || {};
   const shouldTranslate = needsChineseTranslation(fullText);
   const translation = tweet.Translation || enrichment.translation || '';
@@ -4742,13 +4966,17 @@ function openModalAt(index, collection = filteredTweets) {
           <span class="modal-date">${date}</span>
           <span class="source-badge ${srcCls}">${srcLbl}</span>
         </div>
-        ${tweetUrl ? `<a class="modal-original-link" href="${tweetUrl}" target="_blank" rel="noopener">OPEN ORIGINAL →</a>` : ''}
+        <div class="modal-actions">
+          ${canUnlike ? '<button class="unlike-button modal-unlike" type="button">取消 LIKE</button>' : ''}
+          ${tweetUrl ? `<a class="modal-original-link" href="${tweetUrl}" target="_blank" rel="noopener">OPEN ORIGINAL →</a>` : ''}
+        </div>
       </div>
     </div>
     <div class="modal-tags-section" id="modalTagsSection"></div>
     ${mediaHTML}`;
 
   hydrateCardEnrichment(content, tweet);
+  wireUnlikeButton(content.querySelector('.modal-unlike'), tweet);
   const internalSource = getInternalPostSource(tweet, collection);
   wireRichMedia(content, internalSource);
   renderModalTags(tweet);
@@ -5122,6 +5350,11 @@ function renderLightboxSource() {
   button.hidden = false;
 }
 
+function updateLightboxUnlikeControl() {
+  const button = document.getElementById('lightboxUnlike');
+  button.hidden = !isTweetLiked(lightboxState.source?.tweet);
+}
+
 function updateLightboxSoundControl() {
   const button = document.getElementById('lightboxSound');
   const activeItem = lightboxState.items[lightboxState.index];
@@ -5283,6 +5516,7 @@ function openLightbox(items, index = 0, options = {}) {
   resetLightboxDrag();
   renderLightboxItems();
   renderLightboxSource();
+  updateLightboxUnlikeControl();
   setLightboxIndex(lightboxState.index, false);
   lightbox.classList.add('open');
   lightbox.setAttribute('aria-hidden', 'false');
@@ -5309,6 +5543,7 @@ function finalizeLightboxClose() {
   lightboxState.switching = false;
   lightboxGesture.pointerId = null;
   document.getElementById('lightboxSource').hidden = true;
+  document.getElementById('lightboxUnlike').hidden = true;
   document.getElementById('lightboxSound').hidden = true;
   lightbox.style.setProperty('--viewer-backdrop', 'none');
   resetLightboxDrag();
@@ -5405,6 +5640,7 @@ function applyMaterialGridSequenceIndex(sequenceIndex) {
   lightboxState.source = payload.source;
   renderLightboxItems();
   renderLightboxSource();
+  updateLightboxUnlikeControl();
   setLightboxIndex(lightboxState.index, false);
   return true;
 }
@@ -5641,6 +5877,10 @@ lightboxElement.addEventListener('pointerup', onLightboxPointerEnd);
 lightboxElement.addEventListener('pointercancel', onLightboxPointerEnd);
 document.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
 document.getElementById('lightboxSound').addEventListener('click', toggleLightboxSound);
+document.getElementById('lightboxUnlike').addEventListener('click', event => {
+  event.stopPropagation();
+  permanentlyUnlikeTweet(lightboxState.source?.tweet);
+});
 document.getElementById('lightboxSource').addEventListener('click', openLightboxSourcePost);
 document.getElementById('lightboxSound').addEventListener('keydown', event => {
   if (event.key !== 'Enter' && event.key !== ' ') return;
@@ -5801,6 +6041,7 @@ document.body.addEventListener('drop', (e) => {
     }
   } catch (e) { /* CSV files not available, that's fine */ }
 
+  refreshLikedTweetIds();
   hydrateTags();
   saveTagsMap();
   renderTagFilterRow();
