@@ -93,35 +93,33 @@
 
     /* === HOME DIGEST === */
     .home-hero {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      gap: var(--space-xl);
+      display: flex;
+      justify-content: space-between;
+      gap: var(--space-lg);
       align-items: end;
-      padding-bottom: var(--space-xl);
-      margin-bottom: var(--space-xl);
+      padding-bottom: 20px;
+      margin-bottom: var(--space-lg);
       border-bottom: 1px solid var(--border);
     }
 
-    .home-hero .title { margin-top: var(--space-sm); }
+    .home-hero .title { margin-top: 6px; }
 
     .home-summary {
-      max-width: 360px;
-      padding: var(--space-md);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 16px;
-      background: linear-gradient(145deg, rgba(255,255,255,0.07), rgba(255,255,255,0.02));
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.08);
+      flex: 0 0 auto;
+      padding-bottom: 3px;
+      text-align: right;
     }
 
     .home-summary strong {
       display: block;
       color: var(--text-display);
-      font-size: 18px;
-      font-weight: 500;
-      margin-bottom: 4px;
+      font-family: 'Space Mono', monospace;
+      font-size: 12px;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
     }
 
-    .home-summary span { color: var(--text-secondary); font-size: 12px; }
     .home-date-group { margin-bottom: var(--space-2xl); }
 
     .home-date-heading {
@@ -726,31 +724,33 @@
     /* === HEADER === */
     .header {
       margin-bottom: var(--space-lg);
-      padding-bottom: var(--space-xl);
+      padding-bottom: 20px;
       border-bottom: 1px solid var(--border);
     }
 
     .header-top {
       display: flex;
-      align-items: baseline;
+      align-items: flex-end;
       justify-content: space-between;
       flex-wrap: wrap;
       gap: var(--space-md);
-      margin-bottom: var(--space-2xl);
+      margin-bottom: 0;
     }
 
     .title {
       font-family: 'Doto', 'Space Mono', monospace;
-      font-size: clamp(48px, 8vw, 72px);
+      font-size: clamp(32px, 5vw, 44px);
       font-weight: 700;
       color: var(--text-display);
       line-height: 1.0;
       letter-spacing: -0.03em;
     }
 
+    .search-view .header-top { margin-bottom: 20px; }
+
     .stats {
       font-family: 'Space Mono', monospace;
-      font-size: 11px;
+      font-size: 9px;
       letter-spacing: 0.08em;
       text-transform: uppercase;
       color: var(--text-secondary);
@@ -758,7 +758,7 @@
     }
 
     .stats .count {
-      font-size: 24px;
+      font-size: 20px;
       color: var(--text-display);
       font-family: 'Space Grotesk', sans-serif;
       font-weight: 300;
@@ -2017,15 +2017,20 @@
       .modal-nav.prev { left: 8px; }
       .modal-nav.next { right: 8px; }
       .modal-nav { background: rgba(17,17,17,0.9); backdrop-filter: blur(4px); }
-      .home-hero { grid-template-columns: 1fr; }
-      .home-summary { max-width: none; }
+      .home-hero {
+        gap: var(--space-md);
+        padding-bottom: var(--space-md);
+        margin-bottom: var(--space-lg);
+      }
+      .home-summary { max-width: 120px; }
       .digest-card { grid-template-columns: 1fr; }
       .scroll-top {
         right: max(16px, calc(50vw - 200px));
         bottom: calc(max(10px, env(safe-area-inset-bottom)) + 10px);
       }
       body { padding: 20px 16px 122px; }
-      .header-top { margin-bottom: var(--space-xl); }
+      .header { padding-bottom: var(--space-md); }
+      .search-view .header-top { margin-bottom: var(--space-md); }
       .digest-media { min-height: 220px; max-height: 320px; }
       .bottom-tab-bar { bottom: max(10px, env(safe-area-inset-bottom)); }
       .liquid-glass-scene { bottom: max(-6px, calc(env(safe-area-inset-bottom) - 22px)); }
@@ -2296,13 +2301,11 @@
   <section class="app-view active home-view" id="homeView" data-view="home">
     <header class="home-hero">
       <div>
-        <div class="view-kicker">AI × PRODUCT DESIGN · JUL 21–22</div>
+        <div class="view-kicker">AI × DESIGN · JUL 21–22</div>
         <h1 class="title">TODAY ON X</h1>
-        <p class="view-description">来自 X 热门动态与关注列表的两日精选。已按事件去重、人工筛选并补充中文要点，最新内容排在最前。</p>
       </div>
       <div class="home-summary">
         <strong id="homeItemCount">11 条精选</strong>
-        <span>AI 新闻 · 产品动态 · 视觉作品</span>
       </div>
     </header>
     <div id="homeFeed"></div>
@@ -2320,7 +2323,6 @@
           COLLECTED
         </div>
       </div>
-      <p class="view-description">所有已收藏的 X Like 与 Bookmark。非中文内容会按需翻译为中文，并为每条帖子生成简要摘要。</p>
     </header>
     <div id="likesMount">
       <div id="collectionSurface">
@@ -2354,7 +2356,7 @@
     <header class="header">
       <div class="header-top">
         <div>
-          <div class="view-kicker">SEARCH + FILTER</div>
+          <div class="view-kicker">SEARCH</div>
           <h1 class="title">FIND</h1>
         </div>
         <div class="stats">
