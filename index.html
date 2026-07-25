@@ -488,6 +488,11 @@
       background: transparent;
     }
 
+    .media-backdrop-slide.media-content-crop > img,
+    .media-backdrop-slide.media-content-crop > video {
+      object-fit: cover;
+    }
+
     .media-immersive-slide:focus-visible {
       outline: 2px solid var(--interactive);
       outline-offset: -4px;
@@ -655,7 +660,7 @@
       position: relative;
       min-width: 0;
       width: 100%;
-      aspect-ratio: 16 / 9;
+      aspect-ratio: var(--active-media-aspect, 16 / 9);
       align-self: auto;
       order: -1;
       overflow: hidden;
@@ -1129,6 +1134,7 @@
     .card-media-track {
       display: flex;
       width: 100%;
+      aspect-ratio: var(--active-media-aspect, 4 / 3);
       overflow-x: auto;
       overscroll-behavior-inline: contain;
       scroll-snap-type: x mandatory;
@@ -1138,13 +1144,18 @@
     .card-media-track::-webkit-scrollbar { display: none; }
 
     .card-media-track > .media-backdrop-slide {
-      aspect-ratio: 4 / 3;
+      height: 100%;
     }
 
     .card-media-track > .media-backdrop-slide > img,
     .card-media-track > .media-backdrop-slide > video {
       object-fit: contain;
       background: transparent;
+    }
+
+    .card-media-track > .media-backdrop-slide.media-content-crop > img,
+    .card-media-track > .media-backdrop-slide.media-content-crop > video {
+      object-fit: cover;
     }
 
     .card-media-track > .media-backdrop-slide > img {
@@ -2720,7 +2731,9 @@ const HOME_FEED = [
     media: [{
       type: 'video',
       src: 'https://video.twimg.com/amplify_video/2080169251013586944/vid/avc1/480x360/zgh7_FPLe6zp8Vaf.mp4?tag=29',
-      poster: 'https://pbs.twimg.com/amplify_video_thumb/2080169251013586944/img/lxlXfb6vD3pJao8g.jpg'
+      poster: 'https://pbs.twimg.com/amplify_video_thumb/2080169251013586944/img/lxlXfb6vD3pJao8g.jpg',
+      displayAspect: 16 / 9,
+      cropEmbeddedBars: true
     }],
     quote: {
       label: '产品来源', author: '麦克斯', handle: 'maxjjiang',
@@ -3904,6 +3917,78 @@ function setMediaBackdrop(element, item) {
   element.style.setProperty('--media-backdrop', `url(${JSON.stringify(highResMediaUrl(backdrop, true))})`);
 }
 
+function parseMediaAspectFromUrl(url) {
+  const match = String(url || '').match(/\/(\d+)x(\d+)\//);
+  if (!match) return null;
+  const width = Number(match[1]);
+  const height = Number(match[2]);
+  return width > 0 && height > 0 ? { width, height } : null;
+}
+
+function getMediaTrackActiveIndex(track) {
+  return Math.max(0, Math.min(
+    track.children.length - 1,
+    Math.round(track.scrollLeft / Math.max(track.clientWidth, 1))
+  ));
+}
+
+function syncMediaTrackAspect(track, index = getMediaTrackActiveIndex(track)) {
+  const slide = track.children[index];
+  const aspect = Number(slide?.dataset.mediaAspect || 0);
+  if (!aspect) return;
+  const frame = track.classList.contains('digest-media-track')
+    ? track.closest('.digest-media-shell')
+    : track;
+  frame?.style.setProperty('--active-media-aspect', String(aspect));
+}
+
+function prepareMediaTrackAspect(track) {
+  if (!track || track.dataset.aspectWired === 'true') return;
+  track.dataset.aspectWired = 'true';
+
+  [...track.children].forEach((slide, index) => {
+    const media = slide.querySelector('img, video');
+    if (!media) return;
+    const preferredAspect = Number(slide.dataset.displayAspect || 0);
+
+    const applyAspect = (width, height) => {
+      const aspect = preferredAspect || (width > 0 && height > 0 ? width / height : 0);
+      if (!(aspect > 0)) return false;
+      slide.dataset.mediaAspect = String(aspect);
+      if (index === getMediaTrackActiveIndex(track)) syncMediaTrackAspect(track, index);
+      return true;
+    };
+
+    if (media.tagName === 'IMG') {
+      if (!applyAspect(media.naturalWidth, media.naturalHeight)) {
+        media.addEventListener('load', () => {
+          applyAspect(media.naturalWidth, media.naturalHeight);
+        }, { once: true });
+      }
+      return;
+    }
+
+    const encoded = parseMediaAspectFromUrl(
+      media.dataset.viewerSrc || media.dataset.src || media.currentSrc || media.src
+    );
+    if (encoded) applyAspect(encoded.width, encoded.height);
+    if (!applyAspect(media.videoWidth, media.videoHeight)) {
+      media.addEventListener('loadedmetadata', () => {
+        applyAspect(media.videoWidth, media.videoHeight);
+      }, { once: true });
+    }
+    if (!encoded && media.poster) {
+      const poster = new Image();
+      poster.addEventListener('load', () => {
+        applyAspect(poster.naturalWidth, poster.naturalHeight);
+      }, { once: true });
+      poster.src = media.poster;
+    }
+  });
+
+  syncMediaTrackAspect(track);
+}
+
 function getMaterialViewerPayload(entry) {
   return {
     items: entry.post.items.map((item, itemIndex) => ({
@@ -4488,15 +4573,18 @@ function renderMediaTrack(media, variant = 'digest') {
   const shellClass = variant === 'digest' ? 'digest-media-shell' : 'embedded-post-media';
   const trackClass = variant === 'digest' ? 'digest-media-track' : '';
   const contents = items.map((item, index) => {
+    const displayAspect = Number(item.displayAspect || 0);
+    const slideAttributes = `${displayAspect > 0 ? ` data-display-aspect="${displayAspect}"` : ''}`;
+    const slideClass = `media-backdrop-slide${item.cropEmbeddedBars ? ' media-content-crop' : ''}`;
     if (item.type === 'video' && item.src) {
       const poster = highResMediaUrl(item.poster || '', false);
       const video = `<video class="card-video" data-src="${escapeHTML(item.src)}" data-viewer-src="${escapeHTML(item.src)}"${poster ? ` poster="${escapeHTML(poster)}" data-viewer-poster="${escapeHTML(highResMediaUrl(item.poster || '', true))}"` : ''} crossorigin="anonymous" muted autoplay loop playsinline preload="none" aria-label="视频 ${index + 1} / ${items.length}"></video>`;
-      return variant === 'digest' ? `<div class="media-backdrop-slide">${video}</div>` : video;
+      return variant === 'digest' ? `<div class="${slideClass}"${slideAttributes}>${video}</div>` : video;
     }
     const display = highResMediaUrl(item.src || item.poster, false);
     const full = highResMediaUrl(item.src || item.poster, true);
     const image = `<img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" crossorigin="anonymous" alt="" loading="lazy">`;
-    return variant === 'digest' ? `<div class="media-backdrop-slide">${image}</div>` : image;
+    return variant === 'digest' ? `<div class="${slideClass}"${slideAttributes}>${image}</div>` : image;
   }).join('');
   return `<div class="${shellClass}">${trackClass ? `<div class="${trackClass}">${contents}</div>` : contents}${items.length > 1 ? `<span class="media-count">1 / ${items.length}</span>` : ''}</div>`;
 }
@@ -4546,6 +4634,7 @@ function renderEmbeddedPost(post) {
 
 function wireRichMedia(container, source = null) {
   prepareCardVideo(container);
+  container.querySelectorAll('.card-media-track, .digest-media-track').forEach(prepareMediaTrackAspect);
   container.querySelectorAll('.media-backdrop-slide').forEach(slide => {
     const media = slide.querySelector('img, video');
     if (!media) return;
@@ -4583,6 +4672,7 @@ function wireRichMedia(container, source = null) {
     track.addEventListener('scroll', () => {
       const current = Math.round(track.scrollLeft / Math.max(track.clientWidth, 1)) + 1;
       count.textContent = `${Math.min(current, total)} / ${total}`;
+      if (track.classList.contains('digest-media-track')) syncMediaTrackAspect(track, current - 1);
     }, { passive: true });
   });
 }
@@ -4670,13 +4760,16 @@ function createCard(tweet, index, options = {}) {
     html += `<div class="card-media${structuredMedia.length > 1 ? ' card-media-carousel' : ''}">
       <div class="card-media-track">
         ${structuredMedia.map((item, mediaIndex) => {
+          const displayAspect = Number(item.displayAspect || 0);
+          const slideAttributes = `${displayAspect > 0 ? ` data-display-aspect="${displayAspect}"` : ''}`;
+          const slideClass = `media-backdrop-slide${item.cropEmbeddedBars ? ' media-content-crop' : ''}`;
           if (item.type === 'video' && item.src) {
             const poster = highResMediaUrl(item.poster || '', false);
-            return `<div class="media-backdrop-slide"><video class="card-video" data-src="${escapeHTML(item.src)}" data-viewer-src="${escapeHTML(item.src)}"${poster ? ` poster="${escapeHTML(poster)}" data-viewer-poster="${escapeHTML(highResMediaUrl(item.poster || '', true))}"` : ''} crossorigin="anonymous" muted autoplay loop playsinline preload="none" aria-label="视频 ${mediaIndex + 1} / ${structuredMedia.length}"></video></div>`;
+            return `<div class="${slideClass}"${slideAttributes}><video class="card-video" data-src="${escapeHTML(item.src)}" data-viewer-src="${escapeHTML(item.src)}"${poster ? ` poster="${escapeHTML(poster)}" data-viewer-poster="${escapeHTML(highResMediaUrl(item.poster || '', true))}"` : ''} crossorigin="anonymous" muted autoplay loop playsinline preload="none" aria-label="视频 ${mediaIndex + 1} / ${structuredMedia.length}"></video></div>`;
           }
           const display = highResMediaUrl(item.src || item.poster, false);
           const full = highResMediaUrl(item.src || item.poster, true);
-          return `<div class="media-backdrop-slide"><img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" crossorigin="anonymous" alt="" loading="lazy"></div>`;
+          return `<div class="${slideClass}"${slideAttributes}><img src="${escapeHTML(display)}" data-full="${escapeHTML(full)}" crossorigin="anonymous" alt="" loading="lazy"></div>`;
         }).join('')}
       </div>
       ${structuredMedia.length > 1 ? `<span class="media-count">1 / ${structuredMedia.length}</span>` : ''}
@@ -4776,6 +4869,7 @@ function createCard(tweet, index, options = {}) {
     mediaTrack.addEventListener('scroll', () => {
       const current = Math.round(mediaTrack.scrollLeft / Math.max(mediaTrack.clientWidth, 1)) + 1;
       if (count) count.textContent = `${Math.min(current, carouselCount)} / ${carouselCount}`;
+      syncMediaTrackAspect(mediaTrack, current - 1);
     }, { passive: true });
   }
 
