@@ -1240,6 +1240,20 @@
 
     .card-insight[data-state="loading"] .translation-text { opacity: 0.55; }
     .card-insight[data-state="error"] .translation-text { color: var(--text-disabled); }
+    .translation-retry {
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      text-underline-offset: 3px;
+      transition: color 160ms ease, text-decoration-color 160ms ease;
+    }
+
+    .translation-retry:hover,
+    .translation-retry:focus-visible {
+      color: var(--text-display);
+      text-decoration-color: currentColor;
+      outline: none;
+    }
 
     .card-user {
       display: flex;
@@ -4802,14 +4816,106 @@ function getDistinctSummary(tweet, basis) {
     : generated;
 }
 
-async function translateToChinese(text) {
-  const params = new URLSearchParams({ client: 'gtx', sl: 'auto', tl: 'zh-CN', dt: 't', q: text.slice(0, 1800) });
-  const response = await fetch(`https://translate.googleapis.com/translate_a/single?${params}`, {
-    referrerPolicy: 'no-referrer'
+const TRANSLATION_CONCURRENCY = 2;
+const TRANSLATION_TIMEOUT = 7000;
+const LINGVA_INSTANCES = [
+  'https://lingva.ml',
+  'https://translate.plausibility.cloud'
+];
+const translationQueue = [];
+const translationRequests = new Map();
+let activeTranslationRequests = 0;
+
+function splitTranslationText(text, maxBytes = 460) {
+  const source = cleanText(text || '').slice(0, 1800);
+  if (!source) return [];
+  const encoder = new TextEncoder();
+  const chunks = [];
+  let chunk = '';
+  Array.from(source).forEach(char => {
+    const candidate = chunk + char;
+    if (chunk && encoder.encode(candidate).length > maxBytes) {
+      chunks.push(chunk.trim());
+      chunk = char;
+    } else {
+      chunk = candidate;
+    }
   });
-  if (!response.ok) throw new Error(`Translation ${response.status}`);
-  const data = await response.json();
-  return (data[0] || []).map(part => part[0] || '').join('').trim();
+  if (chunk.trim()) chunks.push(chunk.trim());
+  return chunks;
+}
+
+async function fetchTranslationJSON(url) {
+  const controller = new AbortController();
+  const timeout = window.setTimeout(() => controller.abort(), TRANSLATION_TIMEOUT);
+  try {
+    const response = await fetch(url, {
+      headers: { Accept: 'application/json' },
+      referrerPolicy: 'no-referrer',
+      signal: controller.signal
+    });
+    if (!response.ok) throw new Error(`Translation ${response.status}`);
+    const contentType = response.headers.get('content-type') || '';
+    if (!contentType.includes('application/json')) throw new Error('Translation returned non-JSON content');
+    return await response.json();
+  } finally {
+    window.clearTimeout(timeout);
+  }
+}
+
+async function translateChunkToChinese(chunk) {
+  const encoded = encodeURIComponent(chunk);
+  for (const instance of LINGVA_INSTANCES) {
+    try {
+      const data = await fetchTranslationJSON(`${instance}/api/v1/auto/zh/${encoded}`);
+      const translation = cleanText(data.translation || '');
+      if (translation) return translation;
+    } catch {}
+  }
+
+  const params = new URLSearchParams({ q: chunk, langpair: 'en|zh-CN', mt: '1' });
+  const data = await fetchTranslationJSON(`https://api.mymemory.translated.net/get?${params}`);
+  const translation = cleanText(data.responseData?.translatedText || '');
+  if (data.responseStatus !== 200 || data.quotaFinished || !translation) {
+    throw new Error(data.responseDetails || 'Translation fallback failed');
+  }
+  return translation;
+}
+
+function runTranslationQueue() {
+  while (activeTranslationRequests < TRANSLATION_CONCURRENCY && translationQueue.length) {
+    const job = translationQueue.shift();
+    activeTranslationRequests += 1;
+    job.task()
+      .then(job.resolve, job.reject)
+      .finally(() => {
+        activeTranslationRequests -= 1;
+        runTranslationQueue();
+      });
+  }
+}
+
+function scheduleTranslation(task) {
+  return new Promise((resolve, reject) => {
+    translationQueue.push({ task, resolve, reject });
+    runTranslationQueue();
+  });
+}
+
+async function translateToChinese(text) {
+  const source = cleanText(text || '').slice(0, 1800);
+  if (!source) return '';
+  if (translationRequests.has(source)) return translationRequests.get(source);
+
+  const request = scheduleTranslation(async () => {
+    const chunks = splitTranslationText(source);
+    const translated = [];
+    for (const chunk of chunks) translated.push(await translateChunkToChinese(chunk));
+    return translated.join('').trim();
+  }).finally(() => translationRequests.delete(source));
+
+  translationRequests.set(source, request);
+  return request;
 }
 
 function applyCardEnrichment(card, translation, summary, state = 'ready') {
@@ -4820,9 +4926,34 @@ function applyCardEnrichment(card, translation, summary, state = 'ready') {
   const summaryEl = insight.querySelector('.summary-text');
   if (translationEl && translation) translationEl.textContent = translation;
   if (summaryEl && summary) summaryEl.textContent = summary;
+  if (translationEl) {
+    const canRetry = state === 'error';
+    translationEl.classList.toggle('translation-retry', canRetry);
+    if (canRetry) {
+      translationEl.setAttribute('role', 'button');
+      translationEl.setAttribute('tabindex', '0');
+      translationEl.setAttribute('aria-label', '重试翻译');
+      translationEl.onclick = () => {
+        applyCardEnrichment(card, '正在重新翻译…', '', 'loading');
+        hydrateCardEnrichment(card, card._tweet);
+      };
+      translationEl.onkeydown = event => {
+        if (event.key !== 'Enter' && event.key !== ' ') return;
+        event.preventDefault();
+        translationEl.click();
+      };
+    } else {
+      translationEl.removeAttribute('role');
+      translationEl.removeAttribute('tabindex');
+      translationEl.removeAttribute('aria-label');
+      translationEl.onclick = null;
+      translationEl.onkeydown = null;
+    }
+  }
 }
 
 async function hydrateCardEnrichment(card, tweet) {
+  card._tweet = tweet;
   const original = cleanText(tweet.TweetText || '');
   const key = getEnrichmentKey(tweet);
   const cached = translationCache[key];
@@ -4850,7 +4981,7 @@ async function hydrateCardEnrichment(card, tweet) {
     if (card.isConnected) applyCardEnrichment(card, translation, summary);
   } catch {
     if (card.isConnected) {
-      applyCardEnrichment(card, '翻译服务暂时不可用，滚动离开后返回可重试。', getDistinctSummary(tweet, original), 'error');
+      applyCardEnrichment(card, '翻译暂时失败，点击重试。', getDistinctSummary(tweet, original), 'error');
     }
   }
 }
