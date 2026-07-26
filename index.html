@@ -2652,6 +2652,317 @@ const UNLIKED_KEY = 'x_collection_unliked_ids_v1';
 const HOME_FEED = [
   ...(window.HOME_BACKFILL || []),
   {
+    category: 'AI WORKFLOW',
+    datetime: '2026-07-26T00:06:59.000Z',
+    author: 'Peter Steinberger', handle: 'steipete',
+    avatar: 'https://pbs.twimg.com/profile_images/1131851609774985216/OcsssQ9J_200x200.png',
+    title: 'Codex 并行 QA 开始像发布前测试队列',
+    summary: 'Peter Steinberger 用 Codex 做一整天的并行 QA，为新版本准备发布；他特别提到 Sol 对意图理解和复杂行为问题识别更稳。值得关注的是，AI 编码工具价值正在从写代码延展到自动化产品质量审查。',
+    url: 'https://x.com/steipete/status/2081169373784633552',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOHKd4dbwAEfko-.jpg?name=orig' }
+    ],
+    metrics: '63 LIKES · 6.1K VIEWS'
+  },
+  {
+    category: 'PRODUCT DESIGN',
+    datetime: '2026-07-26T00:01:06.000Z',
+    author: 'Geoff Teehan', handle: 'gt',
+    avatar: 'https://pbs.twimg.com/profile_images/1260046647/t-l_xmas-031_alt8bit_200x200.jpg',
+    title: '设计团队的内部写作空间被做成产品化工具',
+    summary: 'Geoff Teehan 展示为设计团队搭建的写作空间原型，强调即使未必有人读，写作仍是设计组织的基础设施。它把团队知识沉淀从文档义务转成更贴近日常表达的产品界面。',
+    url: 'https://x.com/gt/status/2081167891773431856',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081167415514484736/vid/avc1/1920x1080/sdUjg3ZcF0oam6TD.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081167415514484736/img/FdMMoIDBBQupbmkY.jpg' }
+    ],
+    metrics: '0 LIKES · 53 VIEWS'
+  },
+  {
+    category: 'AI WORKFLOW',
+    datetime: '2026-07-25T23:23:22.000Z',
+    author: 'Yuichi Uemura', handle: 'u1',
+    avatar: 'https://pbs.twimg.com/profile_images/2064373249296007168/IAFv2qP2_200x200.jpg',
+    title: 'Opus 5 切换后，Claude Code rules 需要重写',
+    summary: 'Yuichi Uemura 在 X Article 里记录了切到 Opus 5 后 Claude Code 输出变浅的排查：问题不一定是模型退化，而是系统提示词前提改变后旧 rules 失配。对团队而言，模型升级要连同规则、记忆和验收方式一起回归测试。',
+    url: 'https://x.com/u1/status/2081158397052035090',
+    media: [],
+    article: {
+      kind: 'x',
+      title: 'Opus5が思考が浅いように感じる問題への対策',
+      preview: '概要\nClaude Code を Opus 5 に切り替えた直後から、応答の散文傾向が急に強まり、思考が浅くなる (構造化して考えられない) 変化が出ました。\n調べていくと、モデルが悪いのでも rules が壊れたのでもなく、Claude',
+      url: 'https://x.com/u1/status/2081158397052035090'
+    },
+    metrics: '26 LIKES · 2.5K VIEWS'
+  },
+  {
+    category: 'AI NEWS',
+    datetime: '2026-07-25T23:00:04.000Z',
+    author: 'tetsuo', handle: 'tetsuoai',
+    avatar: 'https://pbs.twimg.com/profile_images/2035289570598924288/kAOCyKpV_200x200.jpg',
+    title: '开放权重之争继续围绕 NVIDIA 联名信发酵',
+    summary: 'tetsuo 借 Jensen Huang 首帖中的 NVIDIA 开放模型信件，对 OpenAI、Grok 和开放权重路线做对比。它不是产品发布，但反映了模型生态的竞争焦点正在从单次能力扩展到开放、安全和主权叙事。',
+    url: 'https://x.com/tetsuoai/status/2081152531644993543',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOG6ILQaAAAzr_e.png?name=orig' }
+    ],
+    quote: {
+      label: '引用原帖', author: 'Jensen Huang', handle: 'JensenHuang',
+      avatar: 'https://pbs.twimg.com/profile_images/2080613261674962944/OMXX4RJ3_200x200.jpg',
+      text: 'For my first post, I’m sharing a letter @NVIDIA signed on why open models matter.\n\nAI will transform every industry, power every company, and be built by every country.\n\nOpen models strengthen safety and cybersecurity, accelerate innovation and diffusion, and enable sovereignty.\n\nThe world needs both frontier closed models and frontier open models.\n\nhttps://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf',
+      url: 'https://x.com/JensenHuang/status/2080643682408321103',
+      media: [{ type: 'image', src: 'https://pbs.twimg.com/media/HN_qDVsa4AAI6XJ.jpg?name=orig' }, { type: 'image', src: 'https://pbs.twimg.com/media/HN_qDV1a8AARQwg.jpg?name=orig' }, { type: 'image', src: 'https://pbs.twimg.com/media/HN_qDV1awAAPTlH.jpg?name=orig' }]
+    },
+    article: {
+      kind: 'external',
+      title: 'Open Weights and American AI Leadership',
+      preview: 'NVIDIA 署名信强调开放模型对安全、创新扩散和主权能力的意义。',
+      cover: 'https://pbs.twimg.com/media/HN_qDVsa4AAI6XJ.jpg?name=orig',
+      url: 'https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf'
+    },
+    metrics: '42 LIKES · 4.8K VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-25T23:00:01.000Z',
+    author: 'Webcam Motion Capture', handle: 'webcammocap',
+    avatar: 'https://pbs.twimg.com/profile_images/1934796077825445889/c5GJkJeK_200x200.png',
+    title: 'Webcam Motion Capture 增加 VRCFaceTracking 早期支持',
+    summary: 'Webcam Motion Capture 在 Early Access 中加入 VRCFaceTracking，VRChat 模型需用最新版 WMCTool 导出后使用。对虚拟形象产品来说，面部追踪支持正在成为低门槛创作工具的基础能力。',
+    url: 'https://x.com/webcammocap/status/2081152521129828419',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081062071559745536/vid/avc1/1280x720/58ehu1gGiWzflsk4.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081062071559745536/img/oNY2I4ZwX2Gvsm3I.jpg' }
+    ],
+    article: {
+      kind: 'external',
+      title: 'Webcam Motion Capture Beta',
+      preview: 'Early Access beta adds VRCFaceTracking support for VRChat models.',
+      url: 'https://webcammotioncapture.info/beta.php'
+    },
+    metrics: '29 LIKES · 1.2K VIEWS'
+  },
+  {
+    category: 'AI RESEARCH',
+    datetime: '2026-07-25T22:55:50.000Z',
+    author: 'Transcultural Digital Intimacy Research Network', handle: 'TransDINetwork',
+    avatar: 'https://pbs.twimg.com/profile_images/1843211427990945792/C92fOc4X_200x200.jpg',
+    title: 'AI & Society 新论文研究生成式 AI 与数字浪漫写作',
+    summary: 'Transcultural Digital Intimacy Research Network 分享 Liang Ge 关于数字浪漫写作者如何协商生成式 AI 与 qing 边界的论文。它提醒 AI 产品设计不只看效率，也要理解创作者身份、情感劳动和文化语境。',
+    url: 'https://x.com/TransDINetwork/status/2081151469793726601',
+    media: [],
+    article: {
+      kind: 'external',
+      title: 'Sympoietic creativity and the boundaries of qing',
+      preview: 'AI & Society 论文研究 digital romance writers negotiating generative AI.',
+      url: 'https://doi.org/10.1007/s00146-026-03253-w'
+    },
+    metrics: '303 LIKES · 20K VIEWS'
+  },
+  {
+    category: 'DESIGN ENGINEERING',
+    datetime: '2026-07-25T22:45:00.000Z',
+    author: '0xMarioNawfal', handle: 'RoundtableSpace',
+    avatar: 'https://pbs.twimg.com/profile_images/2012162102283407360/U-fPj6wg_200x200.jpg',
+    title: 'Kimi K3 驱动 3D SpaceX 发射地图 Demo',
+    summary: '帖中展示开发者用 Kimi K3、React、Three.js 和 GLSL 在约 2.5 小时内做出 20 年 SpaceX 发射可视化。这个案例值得看的是 AI 编程如何把真实数据、三维叙事和可交互界面快速串起来。',
+    url: 'https://x.com/RoundtableSpace/status/2081148740472058197',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081133289578831874/vid/avc1/1920x1046/ZIIlIp7DIOf5BbNI.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081133289578831874/img/dviJQKN9dbHpj_O1.jpg' }
+    ],
+    metrics: '61 LIKES · 48K VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-25T22:44:46.000Z',
+    author: 'MindThreat', handle: 'mindthreat',
+    avatar: 'https://pbs.twimg.com/profile_images/1823542975881732096/EVbuGoVT_200x200.jpg',
+    title: 'Atari Jaguar 3D Demo 加入高分辨率材质与星空',
+    summary: 'MindThreat 更新 Corridor of Doom 3D Demo，加入 256K/512K 金属材质、CRY starfield、准星和更多效果。这个视觉作品展示了复古硬件语境下，材质密度和界面氛围如何放大沉浸感。',
+    url: 'https://x.com/mindthreat/status/2081148684310380573',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081147884708184064/vid/avc1/1280x720/Gcdi_s__Z2lwIpve.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081147884708184064/img/cb3rw-GIPRFebReL.jpg' }
+    ],
+    metrics: '25 LIKES · 537 VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-25T22:23:47.000Z',
+    author: 'Chris', handle: 'ChrisGPT',
+    avatar: 'https://pbs.twimg.com/profile_images/2046736394152812544/LfmDgg0I_200x200.jpg',
+    title: 'Codex 语音与电脑控制被拿来想象个人 Jarvis',
+    summary: 'ChrisGPT 从当前 Codex 语音、电脑使用能力和 OSWorld/BrowseComp 进步出发，讨论个人 Jarvis 接近可用的可能性。观点略带预测性，但代表了 X 上对“语音调度 Agent”界面的持续关注。',
+    url: 'https://x.com/ChrisGPT/status/2081143400775000382',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOG05K3XYAEZtA_.jpg?name=orig' }
+    ],
+    metrics: '113 LIKES · 5K VIEWS'
+  },
+  {
+    category: 'DESIGN TOOL',
+    datetime: '2026-07-25T22:22:58.000Z',
+    author: 'David Haz', handle: 'davidhdev',
+    avatar: 'https://pbs.twimg.com/profile_images/2077672716639862784/KpSO9Y3A_200x200.jpg',
+    title: 'Canvas UI 的 Dithered Object 支持 SVG、PNG 和 3D 模型',
+    summary: 'David Haz 更新 Canvas UI：Dithered Object 可直接处理 SVG、PNG、GLB/glTF，并新增 Halftone 与 Floyd-Steinberg 算法。实验性视觉效果正在被包装成可安装、可复用、跨素材类型的前端组件。',
+    url: 'https://x.com/davidhdev/status/2081143196197806135',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081142448466567169/vid/avc1/2160x2160/tpk38qQaLv0bVerY.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081142448466567169/img/X262CPbepjWq6Vmk.jpg' }
+    ],
+    article: {
+      kind: 'external',
+      title: 'Canvas UI Dithered Object',
+      preview: 'Canvas UI component docs for applying dither effects to SVG, PNG and 3D assets.',
+      url: 'https://canvasui.dev/docs/components/dithered-object'
+    },
+    metrics: '24 LIKES · 680 VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-25T22:16:27.000Z',
+    author: 'AI News | TestingCatalog', handle: 'testingcatalog',
+    avatar: 'https://pbs.twimg.com/profile_images/1899962463115751424/i-6MBWau_200x200.jpg',
+    title: 'Airtap 把移动 App 任务接到 iMessage/RCS AI Agent',
+    summary: 'TestingCatalog 观察到 Airtap 推出可通过 iMessage 或 RCS 对话的 AI Agent，演示场景包括调 Google Maps 预览和创建路线。值得借鉴的是，它没有做新入口，而是把移动 App 任务移入用户已有消息界面。',
+    url: 'https://x.com/testingcatalog/status/2081141554639519776',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081131782154473473/vid/avc1/3840x1984/DHhYcXnJ-YZjVhQj.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081131782154473473/img/kk6dU5C6vFyrAvzB.jpg' }
+    ],
+    metrics: '35 LIKES · 5K VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-25T19:19:53.000Z',
+    author: 'Requinoesis', handle: 'Requinoesis',
+    avatar: 'https://pbs.twimg.com/profile_images/1309698842418388994/mCU3oukv_200x200.jpg',
+    title: '3D 模型上绘制的 Blue Lobby 背景概念',
+    summary: 'Requinoesis 展示第三个背景概念实验：在 3D 模型基础上绘制 Cerulean Tower 的 Blue Lobby。它是很好的视觉流程样本，说明 3D blockout 可以为插画和场景设计提供结构骨架。',
+    url: 'https://x.com/Requinoesis/status/2081097120757489820',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081096503104245760/vid/avc1/1228x720/ng3hvKHx3EYaukKU.mp4?tag=14', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081096503104245760/img/cltAke0EWJGP2L80.jpg' }
+    ],
+    metrics: '25 LIKES · 1.1K VIEWS'
+  },
+  {
+    category: 'AI WORKFLOW',
+    datetime: '2026-07-25T18:48:08.000Z',
+    author: 'Akshay', handle: 'akshay_pachaar',
+    avatar: 'https://pbs.twimg.com/profile_images/1578327351544360960/YFpWSWIX_200x200.jpg',
+    title: 'Graph Engineering 被重新整理成 AI Agent 工作流概念',
+    summary: 'Akshay 的 X Article 用 Peter Steinberger 的“还在讨论 loops 吗”作开头，解释 Graph Engineering 相对 Loop Engineering 的变化。它说明 Agent 产品的关注点正在从循环提示转向可观察、可组合的任务图。',
+    url: 'https://x.com/akshay_pachaar/status/2081089131808243999',
+    media: [],
+    article: {
+      kind: 'x',
+      title: 'Graph Engineering Clearly Explained ',
+      preview: 'Loop engineering got about six weeks in the spotlight before the timeline moved on.\nOn July 18, Peter Steinberger, the person behind OpenClaw, posted a nine-word question. "Are we still talking loops',
+      cover: 'https://pbs.twimg.com/media/HOGCCe-aUAAXzQF.jpg?name=orig',
+      url: 'https://x.com/akshay_pachaar/status/2081089131808243999'
+    },
+    metrics: '160 LIKES · 16K VIEWS'
+  },
+  {
+    category: 'PRODUCT DESIGN',
+    datetime: '2026-07-25T18:42:57.000Z',
+    author: 'Peter Girnus', handle: 'gothburz',
+    avatar: 'https://pbs.twimg.com/profile_images/1992748146359750657/RQIsGXqM_200x200.jpg',
+    title: '订阅生命周期设计被写成一段取消迷宫自白',
+    summary: 'Peter Girnus 用第一人称写出“开始一键，取消成迷宫”的订阅生命周期逻辑。它不是发布帖，但非常适合作为产品设计反模式：增长指标很容易把用户控制权变成界面债。',
+    url: 'https://x.com/gothburz/status/2081087826054033464',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOGCOqsXYAAZ8rT.jpg?name=orig' }
+    ],
+    metrics: '37 LIKES · 5.1K VIEWS'
+  },
+  {
+    category: 'DESIGN TOOL',
+    datetime: '2026-07-25T18:10:08.000Z',
+    author: 'shadcn', handle: 'shadcn',
+    avatar: 'https://pbs.twimg.com/profile_images/1593304942210478080/TUYae5z7_200x200.jpg',
+    title: 'shadcn create 把 React 起步栈压成一条命令',
+    summary: 'shadcn 推荐用 `npx shadcn create` 起 React 项目，把 React、Tailwind、组件库和框架选择合在同一入口。对设计工程团队来说，这类脚手架的价值是降低从设计系统到可运行项目的启动摩擦。',
+    url: 'https://x.com/shadcn/status/2081079567800774707',
+    media: [],
+    metrics: '307 LIKES · 21K VIEWS'
+  },
+  {
+    category: 'PRODUCT DESIGN',
+    datetime: '2026-07-25T18:04:00.000Z',
+    author: 'Andres', handle: 'WiFiMoneyGuy',
+    avatar: 'https://pbs.twimg.com/profile_images/2078321183108354048/HOmsIomj_200x200.jpg',
+    title: 'AI 生成 UI 的同质化问题被写成设计方法文章',
+    summary: 'Andres 在 X Article 中讨论为什么很多 AI UI 像同一套网页换图标，并给出修正思路。它适合作为反面检查表：与其继续堆 prompt，不如把信息架构、参考边界和组件约束说清。',
+    url: 'https://x.com/WiFiMoneyGuy/status/2081078025504821362',
+    media: [],
+    article: {
+      kind: 'x',
+      title: 'AI keeps shipping the same generic UI, here\'s the cure',
+      preview: 'i\'m going to show you why every AI generated UI on the internet looks like one website wearing 40 different icons, and the simplest unsexiest tool that fixes it for you. \neveryone\'s fighting generic',
+      cover: 'https://pbs.twimg.com/media/HOF5YwEWkAIkmNw.jpg?name=orig',
+      url: 'https://x.com/WiFiMoneyGuy/status/2081078025504821362'
+    },
+    metrics: '15 LIKES · 2.9K VIEWS'
+  },
+  {
+    category: 'PRODUCT DESIGN',
+    datetime: '2026-07-25T17:45:05.000Z',
+    author: 'Suite TV', handle: 'suitetvapp',
+    avatar: 'https://pbs.twimg.com/profile_images/2073363694931607552/cxQDCNVs_200x200.jpg',
+    title: 'Suite TV 更新隐私控制、长评论和多语言 UI',
+    summary: 'Suite TV 的 iOS/Android 更新同时覆盖移除粉丝、屏蔽列表、1000 字评论、竖图显示、即将上线节目整理和 Arabic/Portuguese 支持。小型媒体产品的迭代重点很清楚：隐私、内容表达和国际化一起补。',
+    url: 'https://x.com/suitetvapp/status/2081073266635030728',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOF1GpnWgAAQjuJ.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOF1GpoXMAApTtP.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOF1GpnWEAAFbhw.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOF1GptWkAAdUAo.jpg?name=orig' }
+    ],
+    metrics: '238 LIKES · 10K VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-25T17:30:12.000Z',
+    author: 'Movin Design', handle: 'movindesign_',
+    avatar: 'https://pbs.twimg.com/profile_images/2074479946022662144/r_lqQFAK_200x200.jpg',
+    title: 'Movin.design 用主题切换联动视频内容',
+    summary: 'Movin Design 展示页面从亮色翻到暗色时，下方 showcase 视频也同步切到匹配素材。这个细节值得借鉴：主题切换不只是换颜色，也可以带动内容状态与叙事节奏。',
+    url: 'https://x.com/movindesign_/status/2081069520739881471',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/ext_tw_video/2081069509578792960/pu/vid/avc1/924x720/dKFJqQYR66x5nZib.mp4?tag=12', poster: 'https://pbs.twimg.com/ext_tw_video_thumb/2081069509578792960/pu/img/Iy5G26o84EmFjK5a.jpg' }
+    ],
+    article: {
+      kind: 'external',
+      title: 'Movin Design',
+      preview: 'Theme transition demo for the More page on movin.design.',
+      url: 'https://movin.design/'
+    },
+    metrics: '4 LIKES · 1.9K VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-25T17:15:21.000Z',
+    author: 'Charles Nnamdi', handle: 'Charlesnnamdi_',
+    avatar: 'https://pbs.twimg.com/profile_images/1830285324938833920/1hX9be3s_200x200.jpg',
+    title: 'AI 产品 Launch Film 用每一帧解释功能',
+    summary: 'Charles Nnamdi 展示一支 AI 产品 speculative launch film，并强调发布视频应减少解释成本、回答问题和建立信任。对产品视觉来说，短片不是包装，而是 onboarding 的压缩版本。',
+    url: 'https://x.com/Charlesnnamdi_/status/2081065781001936979',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081065505046114304/vid/avc1/1920x1080/jlDoy6f_ZYUAjUmU.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081065505046114304/img/y0JYNj6luMojTudD.jpg' }
+    ],
+    metrics: '19 LIKES · 415 VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-25T17:09:52.000Z',
+    author: 'Toolfolio', handle: 'toolfolio',
+    avatar: 'https://pbs.twimg.com/profile_images/2078162572579065856/z4UaHq-Z_200x200.jpg',
+    title: 'Toolfolio 收集高表现 OSS UI 组件案例',
+    summary: 'Toolfolio 的视频整理了一组“unlike anything I have seen”的开源 UI 组件。虽然是合集帖，但对设计工程有用：它把可复用组件、强视觉表达和发现渠道放在同一素材入口。',
+    url: 'https://x.com/toolfolio/status/2081064402954895753',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081063445747609602/vid/avc1/2032x1080/vcapD7BV9Lsg1b8z.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081063445747609602/img/PZ5NP52zhVtxCutn.jpg' }
+    ],
+    metrics: '32 LIKES · 3.8K VIEWS'
+  },
+  {
     category: '关注 · DESIGN TOOL',
     datetime: '2026-07-25T13:47:08.000Z',
     author: 'Ding', handle: 'dingyi',
