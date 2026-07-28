@@ -2666,6 +2666,649 @@ const UNLIKED_KEY = 'x_collection_unliked_ids_v1';
 const HOME_FEED = [
   ...(window.HOME_BACKFILL || []),
   {
+    category: 'AI NEWS',
+    datetime: '2026-07-28T00:30:52.000Z',
+    author: 'AF Post', handle: 'AFpost',
+    avatar: 'https://pbs.twimg.com/profile_images/1623046069109006343/nPSI3ntN_200x200.jpg',
+    title: 'Palantir 和 Nvidia 等公司继续推动开放权重模型',
+    summary: 'AF Post 汇总 Alex Karp 对 AI 监管的表态，并提到 Palantir、Nvidia 等公司签署反对禁用开放权重模型的信件。它值得关注，因为模型开放、国家竞争和商业激励正在成为 AI 产品政策的同一场讨论。',
+    url: 'https://x.com/AFpost/status/2081900160716792115',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORlKXkaoAAd0f2.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORlKXka0AAFz8K.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORlKXnasAA3ZId.jpg?name=orig' }
+    ],
+    metrics: '4 REPLIES · 7 REPOSTS · 57 LIKES · 10 BOOKMARKS · 5.7K VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-28T00:29:59.000Z',
+    author: 'unusual_whales', handle: 'unusual_whales',
+    avatar: 'https://pbs.twimg.com/profile_images/1714107328134516736/dLZGJPm7_200x200.png',
+    title: 'Unusual Whales 推出面向股票市场的 AI Automations',
+    summary: 'Unusual Whales 发布 AI automations，让用户围绕指定 ticker 配置想要的信息和自动化。金融信息产品正在把“监控条件 + 解释输出”包装成用户可订阅的任务，而不是单次查询。',
+    url: 'https://x.com/unusual_whales/status/2081899936061292705',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081899765181079552/vid/avc1/720x1280/nuF6vkc0OKChiOcU.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081899765181079552/img/kvcTTThb0zt76htY.jpg' }
+    ],
+    article: {
+      kind: 'external',
+      title: 'Unusual Whales AI Automations',
+      preview: '原帖链接中的股票市场自动化任务创建入口。',
+      url: 'https://unusualwhales.com/ai/tasks/create'
+    },
+    metrics: '24 REPLIES · 5 REPOSTS · 38 LIKES · 20 BOOKMARKS · 64K VIEWS'
+  },
+  {
+    category: 'AI WORKFLOW',
+    datetime: '2026-07-27T22:04:26.000Z',
+    author: 'Lunar', handle: 'LunarResearcher',
+    avatar: 'https://pbs.twimg.com/profile_images/2035680801216475136/FRvLbYgF_200x200.jpg',
+    title: 'GraphRAG 课程被重新包装成 Agent 记忆工程入口',
+    summary: 'Lunar 整理 Google 1 小时 GraphRAG 课程的章节，从构建第一个 GraphRAG agent 到自改进 graph agents。它的价值在于把 RAG 从检索技巧推进到实体、关系和长期记忆的产品能力。',
+    url: 'https://x.com/LunarResearcher/status/2081863310061023680',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081861925697167360/vid/avc1/1280x720/fho8cLEH4diAC3_Z.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081861925697167360/img/1wZ73MkAVfOxuWch.jpg' }
+    ],
+    metrics: '4 REPLIES · 8 REPOSTS · 45 LIKES · 37 BOOKMARKS · 2.1K VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-28T00:21:43.000Z',
+    author: 'Beni', handle: '0x_beni_',
+    avatar: 'https://pbs.twimg.com/profile_images/2044027694334017536/ryQIVP1B_200x200.jpg',
+    title: 'ClipAgent 把长视频切片做成可被其他 Agent 调用的服务',
+    summary: 'Beni 为 OKX AI Genesis Hackathon 展示 ClipAgent：上传长视频后自动找高光、加字幕、返回可发布短片和选择理由。它把视频剪辑从工具操作拆成 A2A 服务接口，适合观察内容生产 Agent 的边界。',
+    url: 'https://x.com/0x_beni_/status/2081897856974176436',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081897117182742528/vid/avc1/1108x720/F97DVi09WWF4V1-D.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081897117182742528/img/cqWCM3z6vaOHiFJ1.jpg' }
+    ],
+    metrics: '3 REPLIES · 2 REPOSTS · 6 LIKES · 1 BOOKMARKS · 211 VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-27T23:52:02.000Z',
+    author: 'Marc Lou', handle: 'marclou',
+    avatar: 'https://pbs.twimg.com/profile_images/2081903460199641088/YZJqLn39_200x200.jpg',
+    title: 'AI Premiere Pro 插件成为本周增长最快小产品案例',
+    summary: 'Marc Lou 点出 Davud Cokic 的 Adobe Premiere Pro 婚礼电影 AI 插件，称其最近 30 天收入 13,366 美元、月增 1,981%。这个案例适合看独立工具如何用明确垂直场景替代泛 AI 视频叙事。',
+    url: 'https://x.com/marclou/status/2081890388298874880',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORY41ZbYAABmZT.jpg?name=orig' }
+    ],
+    metrics: '2 REPLIES · 2 REPOSTS · 40 LIKES · 27 BOOKMARKS · 5.1K VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-27T23:29:59.000Z',
+    author: 'NVIDIA', handle: 'nvidia',
+    avatar: 'https://pbs.twimg.com/profile_images/1828904711124078593/SRvCZSfQ_200x200.jpg',
+    title: 'NVIDIA 用 Nemotron Speech 做内部本地化平台',
+    summary: 'NVIDIA 官方介绍其数字营销团队用 Nemotron Speech 搭建 AI 本地化平台，以减少翻译排队和定制集成带来的全球发布延迟。对产品运营来说，AI 价值落在跨语言发布链路的节省，而不是只做演示字幕。',
+    url: 'https://x.com/nvidia/status/2081884835715404071',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORXOVxXoAAiOcW.png?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORXOJkX0AAaTbZ.png?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORXOJtXIAAj3lb.png?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORXOKGWQAEy2Q-.png?name=orig' }
+    ],
+    article: {
+      kind: 'external',
+      title: 'NVIDIA Nemotron Speech localization',
+      preview: '原帖链接指向 NVIDIA 对内部 AI 本地化平台结果的说明。',
+      url: 'https://nvda.ws/4wYUS22'
+    },
+    metrics: '13 REPLIES · 6 REPOSTS · 63 LIKES · 4 BOOKMARKS · 16.6K VIEWS'
+  },
+  {
+    category: 'AI DEV TOOL',
+    datetime: '2026-07-27T23:20:59.000Z',
+    author: 'Merill Fernando', handle: 'merill',
+    avatar: 'https://pbs.twimg.com/profile_images/1639241401098731522/71JyDQQ2_200x200.png',
+    title: 'Maester 2.2 把 AD、Purview、SharePoint 与 GitHub 检查扩进安全基线',
+    summary: 'Merill Fernando 发布 Maester 2.2，重点包括 Active Directory 预览支持、Copilot 数据安全基础、SharePoint 与 GitHub 组织控制检查。它说明企业 AI readiness 正在被转成可运行测试，而不是文档 checklist。',
+    url: 'https://x.com/merill/status/2081882573551399136',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORSIc-aYAAUGJx.jpg?name=orig' }
+    ],
+    article: {
+      kind: 'external',
+      title: 'Maester 2.2 release',
+      preview: '原帖链接中的 Maester 2.2 发布说明。',
+      url: 'https://maester.dev/blog/maester-2-2'
+    },
+    metrics: '3 REPLIES · 9 REPOSTS · 36 LIKES · 19 BOOKMARKS · 1.1K VIEWS'
+  },
+  {
+    category: 'AI NEWS',
+    datetime: '2026-07-27T22:47:11.000Z',
+    author: 'Chubby', handle: 'kimmonismus',
+    avatar: 'https://pbs.twimg.com/profile_images/1728327996375719936/RW7VBJfD_200x200.jpg',
+    title: 'Anthropic 正面回应开放权重模型立场',
+    summary: 'Chubby 总结 Dario Amodei 对开放权重争议的回应：Anthropic 不主张一概禁用，但希望高能力模型在发布前完成测试。值得关注的是，开放权重从“是否开放”进入“能力阈值、芯片出口和蒸馏风险”三件事的产品政策讨论。',
+    url: 'https://x.com/kimmonismus/status/2081874065908785158',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORNLuaXkAAgpy1.jpg?name=orig' }
+    ],
+    quote: {
+      label: '官方说明', author: 'Anthropic', handle: 'AnthropicAI',
+      avatar: 'https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg',
+      text: 'There’s been a lot of speculation about where we stand on open-weights models. We’ve outlined our views in full here: https://www.anthropic.com/news/position-open-weights-models',
+      url: 'https://x.com/AnthropicAI/status/2081864750296658008',
+      media: []
+    },
+    metrics: '38 REPLIES · 15 REPOSTS · 191 LIKES · 33 BOOKMARKS · 20.6K VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-27T22:26:12.000Z',
+    author: 'Snair', handle: 'AppSnair',
+    avatar: 'https://pbs.twimg.com/profile_images/2023576994324377601/Fjck9pDP_200x200.jpg',
+    title: 'Snair 推出 AI Market Rooms，把研究线索收进实时工作区',
+    summary: 'Snair 发布 AI Market Rooms：围绕主题、项目或 sector 创建 room，自动拉入价格波动、对话、情绪和更新。它把“市场研究”从分散标签页变成面向项目的实时信息面板。',
+    url: 'https://x.com/AppSnair/status/2081868784667607190',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORIlyZXUAAmjDG.jpg?name=orig' }
+    ],
+    metrics: '83 REPLIES · 280 LIKES · 30.2K VIEWS'
+  },
+  {
+    category: 'AI DEV TOOL',
+    datetime: '2026-07-27T22:30:26.000Z',
+    author: 'swarms', handle: 'swarms_corp',
+    avatar: 'https://pbs.twimg.com/profile_images/2014826364549976064/eJE0bvJa_200x200.jpg',
+    title: 'Swarms 用 Kimi K3 做 10 分钟多 Agent 教程',
+    summary: 'swarms 发布 Kimi K3 教程，覆盖连接 Moonshot 模型、创建第一个 agent 和 multi-agent GroupChat。它借 Kimi 官方 2.8T MoE、1M context 的模型发布，把模型能力落到可复现的 agent 工程入口。',
+    url: 'https://x.com/swarms_corp/status/2081869851778310611',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORHcrRWMAACOYF.jpg?name=orig' }
+    ],
+    quote: {
+      label: 'Kimi 原帖', author: 'Kimi.ai', handle: 'Kimi_Moonshot',
+      avatar: 'https://pbs.twimg.com/profile_images/1910294000927645696/QseOV0uF_200x200.png',
+      text: 'Releasing the model weights and technical report of Kimi K3. Kimi K3 is our most capable model: a 2.8T MoE model with native visual understanding and a 1M-token context window.',
+      url: 'https://x.com/Kimi_Moonshot/status/2081760186235289764',
+      media: [
+        { type: 'image', src: 'https://pbs.twimg.com/media/HOPlk-WbQAAMkwd.jpg?name=orig' }
+      ]
+    },
+    metrics: '7 REPLIES · 5 REPOSTS · 11 LIKES · 5 BOOKMARKS · 1.8K VIEWS'
+  },
+  {
+    category: 'PRODUCT DESIGN',
+    datetime: '2026-07-28T00:01:01.000Z',
+    author: 'Ding', handle: 'dingyi',
+    avatar: 'https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_200x200.jpg',
+    title: '“阔折叠屏”被重新看作移动 vibe coding 设备',
+    summary: 'Ding 从硬件形态角度讨论今年开始流行的宽折叠屏，认为它更像缩小版 iPad mini，可能适合移动端 vibe coding。这个观察提醒产品设计别只看系统能力，也要看设备比例如何改变输入和预览空间。',
+    url: 'https://x.com/dingyi/status/2081892647258726809',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOReVIPawAAjhEq.jpg?name=orig' }
+    ],
+    metrics: '2 REPLIES · 1 LIKES · 981 VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-28T00:08:02.000Z',
+    author: 'Ezboy | VGen', handle: 'Ezboy_animation',
+    avatar: 'https://pbs.twimg.com/profile_images/2045553938867572736/WI9WhkHu_200x200.jpg',
+    title: '2D 元素上的 3D mesh rigging 让布料动画更自然',
+    summary: 'Ezboy 展示把 3D mesh rigging 用在 2D 元素上的短视频，布料摆动比普通形变更有体积感。可借鉴点在于，它把插画层和骨骼/网格动画结合，而不是只依赖逐帧动效。',
+    url: 'https://x.com/Ezboy_animation/status/2081894413714727159',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081891344381812736/vid/avc1/1000x720/265y5cbO25m-26qv.mp4?tag=29', poster: 'https://pbs.twimg.com/media/HORdQYfXQAAOfxp.jpg' }
+    ],
+    metrics: '3 REPLIES · 5 REPOSTS · 38 LIKES · 17 BOOKMARKS · 646 VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-27T23:37:49.000Z',
+    author: 'Will Eastcott', handle: 'willeastcott',
+    avatar: 'https://pbs.twimg.com/profile_images/2635146631/edcd8b6dc4a34625770095941519ca8a_200x200.png',
+    title: 'SuperSplat 把 410MB 高斯泼溅场景放进浏览器漫游',
+    summary: 'Will Eastcott 展示 PlayCanvas 引擎上的 SuperSplat 3D Gaussian splat，在浏览器中加载 Calico Tanks Trail 并可漫游。它适合作为网页 3D 体验参考：大体量视觉资产也能通过产品化加载和交互被用户理解。',
+    url: 'https://x.com/willeastcott/status/2081886810586677741',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081886205680001025/vid/avc1/1280x720/WjzhZQSguG82NKZO.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081886205680001025/img/soATrARiyO-YF8VK.jpg' }
+    ],
+    metrics: '2 REPLIES · 5 REPOSTS · 25 LIKES · 6 BOOKMARKS · 624 VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-27T23:31:26.000Z',
+    author: 'Warudo @ Hakuya Labs', handle: 'hakuyalabs',
+    avatar: 'https://pbs.twimg.com/profile_images/1630880592618483712/XQtQO4Zo_200x200.jpg',
+    title: 'Warudo 让线下 Meet & Greet 屏幕变成视角匹配窗口',
+    summary: 'Hakuya Labs 介绍 OffKaiGen5 的 Meet & Greet 3D 项目：插件实时追踪访客头部位置，并按视角渲染角色场景。它把 3D 角色展示从“播放屏幕”推向有空间感的现场交互。',
+    url: 'https://x.com/hakuyalabs/status/2081885202784330138',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081880033682141184/vid/avc1/720x1280/bYA736J_TujF_X3o.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081880033682141184/img/yiJJl_p38yEqEuKK.jpg' }
+    ],
+    metrics: '3 REPLIES · 3 REPOSTS · 55 LIKES · 7 BOOKMARKS · 1.3K VIEWS'
+  },
+  {
+    category: 'DESIGN TOOL',
+    datetime: '2026-07-27T23:19:53.000Z',
+    author: 'Lee Black', handle: 'mrblackstudio',
+    avatar: 'https://pbs.twimg.com/profile_images/1890667411512123392/uS2hEezR_200x200.jpg',
+    title: 'Framer 把 2013 年 Photoshop 旋钮概念带成可动作品',
+    summary: 'Lee Black 展示一个 2013 年 Photoshop 制作的 car knob，现在借 Framer 做成可动效果。它是很小的视觉实验，但说明老的拟物界面资产可以通过现代网页工具复活为可交互原型。',
+    url: 'https://x.com/mrblackstudio/status/2081882297561653289',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081882264363794432/vid/avc1/720x720/1me0thpEG98vaE5H.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081882264363794432/img/7oklTFpdVuFutQeD.jpg' }
+    ],
+    quote: {
+      label: '原始概念', author: 'Lee Black', handle: 'mrblackstudio',
+      avatar: 'https://pbs.twimg.com/profile_images/1890667411512123392/uS2hEezR_200x200.jpg',
+      text: 'Car knob. Made around 2013 in @Photoshop',
+      url: 'https://x.com/mrblackstudio/status/2081329691886055530',
+      media: [
+        { type: 'image', src: 'https://pbs.twimg.com/media/HOJeUtXWEAAB6G2.jpg?name=orig' }
+      ]
+    },
+    metrics: '1 REPLIES · 12 LIKES · 1 BOOKMARKS · 721 VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-27T23:14:21.000Z',
+    author: 'Mao Ning 毛宁', handle: 'SpoxCHN_MaoNing',
+    avatar: 'https://pbs.twimg.com/profile_images/1888800829660168193/uCHvf1z7_200x200.jpg',
+    title: 'WAIC 2026 展示可把手绘转 3D 和方程转图表的 AI 黑板',
+    summary: 'Mao Ning 分享 WAIC 2026 上的新 AI blackboard：把手绘草图变成 3D 模型，把方程即时转成图表。教育交互的重点从“电子白板”转向理解教师输入并生成可视对象。',
+    url: 'https://x.com/SpoxCHN_MaoNing/status/2081880904646144421',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081880869346930688/vid/avc1/1280x720/QW40l5kyBj2aEggY.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081880869346930688/img/caSZN8fNmZfQSfXP.jpg' }
+    ],
+    metrics: '54 REPLIES · 39 REPOSTS · 161 LIKES · 19 BOOKMARKS · 5.7K VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-27T23:47:56.000Z',
+    author: '一楽　儀光', handle: 'doravideo',
+    avatar: 'https://pbs.twimg.com/profile_images/1186150404/doraT-colorNew2-2_200x200.jpg',
+    title: 'TEBURA LED 控制器用 3D 打印外壳解决演奏可靠性',
+    summary: '一楽儀光 展示为 LED 演奏装置做 3D 打印外壳，减少甩动时接触不良和断线。它把视觉表演、硬件可靠性和快速制造连在一起，是小型交互装置迭代的好样本。',
+    url: 'https://x.com/doravideo/status/2081889355761897689',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORbVSVaAAA-0yv.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORbVSWawAAPVrI.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORbVSSbsAAnQK8.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORbVSXbsAA7NiA.jpg?name=orig' }
+    ],
+    quote: {
+      label: '演奏测试', author: '一楽　儀光', handle: 'doravideo',
+      avatar: 'https://pbs.twimg.com/profile_images/1186150404/doraT-colorNew2-2_200x200.jpg',
+      text: '今日もTEBURAの「LED」のテスト。レイテンシーが無いか連打してみたが大丈夫そうで一安心。',
+      url: 'https://x.com/doravideo/status/2081865306612580417',
+      media: [
+        { type: 'video', src: 'https://video.twimg.com/amplify_video/2081865132427358208/vid/avc1/1280x720/ZmUPCafKsYF2-dlf.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081865132427358208/img/2bdu5pE2CTsc7ZC-.jpg' }
+      ]
+    },
+    metrics: '1 REPOSTS · 29 LIKES · 1 BOOKMARKS · 1.4K VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-27T23:32:38.000Z',
+    author: 'Lammy.Sol', handle: 'lammy_sol',
+    avatar: 'https://pbs.twimg.com/profile_images/1955999161729298435/o2V0rCq1_200x200.jpg',
+    title: 'Lumina 为 Web3 应用做术语安全的多语言本地化',
+    summary: 'Lammy.Sol 展示 OKX AI Genesis Hackathon 作品 Lumina，面向 Web3 应用把界面、错误和交易术语翻译成多语言。它抓住了加密产品出海常见问题：泛翻译会破坏占位符和链上术语，需要场景化语义层。',
+    url: 'https://x.com/lammy_sol/status/2081885505403150797',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081885301291528192/vid/avc1/1204x720/l0PscWBdQ-iEMPWS.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081885301291528192/img/Qy-MMn7cBIHYkjUA.jpg' }
+    ],
+    metrics: '3 REPLIES · 3 REPOSTS · 7 LIKES · 3 BOOKMARKS · 152 VIEWS'
+  },
+  {
+    category: 'AI DEV TOOL',
+    datetime: '2026-07-27T23:09:51.000Z',
+    author: 'Ahiakwo John', handle: 'ahiakwo_john',
+    avatar: 'https://pbs.twimg.com/profile_images/2014010273758142465/PV7dkc25_200x200.jpg',
+    title: 'Coddle AI 把 Git 仓库连接和依赖安全 Agent 放进产品开发工作区',
+    summary: 'Ahiakwo John 记录 Coddle AI 的 Day 208：新增项目关联 Git repository，并构建 Dependency & Security Agent 来监控依赖、漏洞和破坏性变更。小团队产品开发工具正在把代码上下文、项目状态和安全检查合成一个 agentic workspace。',
+    url: 'https://x.com/ahiakwo_john/status/2081879770225070358',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORQFqdWoAAU4zg.jpg?name=orig' }
+    ],
+    metrics: '1 REPLIES · 8 LIKES · 1 BOOKMARKS · 137 VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-27T23:28:18.000Z',
+    author: 'TheGladiator', handle: 'TheGladiatorHC',
+    avatar: 'https://pbs.twimg.com/profile_images/811318348357070849/rjgC3X8D_200x200.jpg',
+    title: 'dorsaVi Sensor v6.5 把实时动作反馈做进 Physical AI 穿戴设备',
+    summary: 'TheGladiator 汇总 dorsaVi Sensor v6.5：商业化硬件面向 real-time on-device intelligence，直接处理运动并给出反馈。它说明 Physical AI 产品的关键不只是识别姿态，而是把反馈闭环压进可穿戴端侧。',
+    url: 'https://x.com/TheGladiatorHC/status/2081884412606906798',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORUCzUbYAA52na.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORUCy-agAAAtVw.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORUCy_a4AAbQGC.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HORUCzVbgAAjaak.jpg?name=orig' }
+    ],
+    metrics: '6 REPOSTS · 9 LIKES · 833 VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-27T01:15:29.000Z',
+    author: 'Shipper', handle: 'shipper_now',
+    avatar: 'https://pbs.twimg.com/profile_images/2051243201420255232/fm_gW_Ni_200x200.jpg',
+    title: 'Shipper 把 Claude Code 包成可建站和获客的业务 Agent',
+    summary: 'Shipper 官方发布面向 Claude Code Opus 5 的工具链，主张从一句短提示直接生成全栈应用、设计、变现与邮件营销。值得关注的是，它把“写代码”包装成更完整的业务启动流程，但转发抽奖话术也说明仍需区分能力演示和营销承诺。',
+    url: 'https://x.com/shipper_now/status/2081548997819572715',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081548879288573952/vid/avc1/1280x720/YwCLxnu96iLXBawn.mp4?tag=14', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081548879288573952/img/J6MsPWhLIFCPPM1w.jpg' }
+    ],
+    article: {
+      kind: 'external',
+      title: 'Shipper',
+      preview: '面向 Claude 的应用构建与业务启动工具，官网链接来自原帖作者资料。',
+      url: 'https://shipper.now/'
+    },
+    metrics: '4 LIKES · 2 BOOKMARKS · 579 VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-27T04:04:15.000Z',
+    author: 'tetsuo', handle: 'tetsuoai',
+    avatar: 'https://pbs.twimg.com/profile_images/2035289570598924288/kAOCyKpV_200x200.jpg',
+    title: 'Grok Build 的 /deep-research 被当作关键产品能力讨论',
+    summary: 'tetsuo 展示 Grok Build 中 /deep-research 命令的使用视频，强调它可能比单次生成更有价值。对 Agent 产品设计来说，深度研究命令正在成为从“代码生成”过渡到“任务前理解”的入口。',
+    url: 'https://x.com/tetsuoai/status/2081591470491050444',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081589546106621952/vid/avc1/720x960/Hnu1EJOQAapoaUIp.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081589546106621952/img/oSVgc30IrTs44vlF.jpg' }
+    ],
+    metrics: '11 REPLIES · 15 REPOSTS · 129 LIKES · 43 BOOKMARKS · 9.8K VIEWS'
+  },
+  {
+    category: 'AI NEWS',
+    datetime: '2026-07-27T04:21:01.000Z',
+    author: '财新News', handle: 'NewsCaixin',
+    avatar: 'https://pbs.twimg.com/profile_images/1468035973095116801/4c3igbFq_200x200.jpg',
+    title: 'Visa 与连连数科完成大中华区 B2B 智能体支付',
+    summary: '财新报道 Visa 与连连数科在 2026 年 7 月 24 日完成由 AI 智能体 LoopXPay 发起的真实 B2B 交易。它值得关注，因为支付授权、风控与人机边界会成为企业 Agent 落地的核心体验问题。',
+    url: 'https://x.com/NewsCaixin/status/2081595691730874381',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HONQPpsaEAAPe4X.png?name=orig' }
+    ],
+    metrics: '1 LIKES · 1.1K VIEWS'
+  },
+  {
+    category: 'AI DEV TOOL',
+    datetime: '2026-07-27T03:18:33.000Z',
+    author: 'Sekioka Satoshi @ 1日1個何か作る人', handle: '__SatoshiSsSs__',
+    avatar: 'https://pbs.twimg.com/profile_images/2037536882641526784/5z-TOmgQ_200x200.jpg',
+    title: 'JetBrains Context 用语义索引减少 Agent 找代码时间',
+    summary: 'Sekioka Satoshi 介绍 JetBrains Context：先增量建立代码库语义索引，再把相关上下文交给 Claude Code、Codex 等工具。它的启发是，Agent 提速不只靠更强模型，也靠更好的项目记忆和检索层。',
+    url: 'https://x.com/__SatoshiSsSs__/status/2081579968455459226',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HONB8tSaYAEBqbg.jpg?name=orig' }
+    ],
+    metrics: '2 REPLIES · 4 LIKES · 3 BOOKMARKS · 127 VIEWS'
+  },
+  {
+    category: 'AI DEV TOOL',
+    datetime: '2026-07-27T05:12:01.000Z',
+    author: 'Claude AI | Anthropic News', handle: 'claude_news',
+    avatar: 'https://pbs.twimg.com/profile_images/2018712678395428864/CuOrDYM5_200x200.jpg',
+    title: 'anyclaude-sdk 把 Claude Code 式 Agent Loop 做到多端点',
+    summary: 'Claude News 提到 Show HN 上的 anyclaude-sdk，可在浏览器、Node 或 Bun 中运行 Claude Code 风格的 agent loop，并兼容 OpenAI/Anthropic 端点。小工具价值在于把 agent loop 从单一官方运行时拆成可嵌入 SDK。',
+    url: 'https://x.com/claude_news/status/2081608525424263443',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HONb6-FWEAAml-E.jpg?name=orig' }
+    ],
+    metrics: '1 REPLIES · 1 LIKES · 14 VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-27T00:57:07.000Z',
+    author: 'louisjest', handle: 'louisjestn',
+    avatar: 'https://pbs.twimg.com/profile_images/2032929073509576704/gyhDLS1f_200x200.jpg',
+    title: 'AI 下水道异物拾取 Demo 用小任务展示具身控制',
+    summary: 'louisjest 展示一个“AI Floor Drain Debris Retrieval”短视频，聚焦狭小空间内识别并取出异物。这个案例不是大模型新闻，但适合观察视觉识别、机械控制和任务边界如何被压缩成一个可演示产品点。',
+    url: 'https://x.com/louisjestn/status/2081544378800353734',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081544334164602880/vid/avc1/720x1280/VeHSINS6X9CVKIyA.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081544334164602880/img/TLki8S7TIs-mr9jR.jpg' }
+    ],
+    metrics: '194 REPLIES · 121 REPOSTS · 217 LIKES · 4 BOOKMARKS · 7.1K VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-27T01:03:40.000Z',
+    author: 'JM | Founder of Sayllo', handle: 'Boku_JM',
+    avatar: 'https://pbs.twimg.com/profile_images/2081161426740105216/pdcVOHbg_200x200.jpg',
+    title: 'Sayllo 尝试用 AI 对话替代日语学习里的开口断点',
+    summary: 'Sayllo 创始人分享自己因传统课程、App 和家教仍难开口而构建 AI 日语口语导师。它是很小的独立产品，但场景清晰：把语言学习从记忆材料推向引导式真实对话。',
+    url: 'https://x.com/Boku_JM/status/2081546027937538496',
+    media: [],
+    article: {
+      kind: 'external',
+      title: 'Sayllo help site',
+      preview: '作者资料链接中的 Sayllo 早期页面，用于说明产品方向。',
+      url: 'https://sayllo-help.jaym9000.chatgpt.site/'
+    },
+    metrics: '1 LIKES · 4 VIEWS'
+  },
+  {
+    category: 'AI NEWS',
+    datetime: '2026-07-27T05:06:41.000Z',
+    author: 'なまたまご', handle: 'ExGxG',
+    avatar: 'https://pbs.twimg.com/profile_images/998029537467285504/mDI_EwUN_200x200.jpg',
+    title: 'IIJ 用 AI 选择赛车直播中观众想看的瞬间',
+    summary: 'なまたまご转发 IIJ 官方新闻：在 KYOJO CUP 中验证由 AI 选择观看瞬间并进行超低延迟传输。对实时媒体产品来说，AI 不只是剪辑后处理，也开始介入直播分发和镜头选择。',
+    url: 'https://x.com/ExGxG/status/2081607182013899136',
+    media: [],
+    article: {
+      kind: 'external',
+      title: 'IIJ KYOJO CUP AI ultra-low-latency video delivery',
+      preview: 'IIJ 官方新闻页说明 AI 选择“想看的瞬间”并验证次世代实时影像传输。',
+      url: 'https://www.iij.ad.jp/news/pressrelease/2026/0727-2.html'
+    },
+    metrics: '9 VIEWS'
+  },
+  {
+    category: 'AI PRODUCT',
+    datetime: '2026-07-26T22:59:16.000Z',
+    author: 'Geoff Teehan', handle: 'gt',
+    avatar: 'https://pbs.twimg.com/profile_images/1260046647/t-l_xmas-031_alt8bit_200x200.jpg',
+    title: 'Rows 增加 MCP 接入，让 Agent 能直接写入工作区',
+    summary: 'Geoff Teehan 更新 Rows：在 Cursor 等工具中可粘贴 MCP URL/token，让 Agent 访问 workspace 并添加项目或任务。这个小改动说明内部清单/项目工具正在把 Agent 权限设计放进设置流。',
+    url: 'https://x.com/gt/status/2081514719484187057',
+    media: [],
+    article: {
+      kind: 'external',
+      title: 'Rows — an unapologetically simple way to track anything',
+      preview: 'Rows is a shared, multiplayer list for tracking anything you’ve got going: projects, tasks, reading lists, trips. Live cursors, inline editing, no signups for your team, nothing to learn.',
+      cover: 'https://pbs.twimg.com/card_img/2080835527985795072/L_qMO0Ou?format=jpg&name=800x419',
+      url: 'https://rows.gg/'
+    },
+    metrics: '1 REPLIES · 40 LIKES · 36 BOOKMARKS · 840 VIEWS'
+  },
+  {
+    category: 'DESIGN ENGINEERING',
+    datetime: '2026-07-27T03:52:14.000Z',
+    author: 'nader dabit', handle: 'dabit3',
+    avatar: 'https://pbs.twimg.com/profile_images/1951619597695672321/c1FsysWP_200x200.jpg',
+    title: 'Canvas UI 被接进个人作品站，成为可玩 Playground',
+    summary: 'nader dabit 用 Devin 把自己的 portfolio 改成 Canvas UI playground，并附上可访问站点。它展示了 HTML-in-Canvas 类视觉组件的落地方向：不是静态效果库，而是可被 Agent 改造的真实界面。',
+    url: 'https://x.com/dabit3/status/2081588448293445840',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081587653342842880/vid/avc1/1184x720/PBpG6_jVd7Ep-D3-.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081587653342842880/img/nbVsVHCuU0ZE-BaD.jpg' }
+    ],
+    quote: {
+      label: 'Canvas UI 来源', author: 'David Haz', handle: 'davidhdev',
+      avatar: 'https://pbs.twimg.com/profile_images/2077672716639862784/KpSO9Y3A_200x200.jpg',
+      text: 'Introducing Canvas UI, the first ever html-in-canvas component library.\n\nYour DOM is the render target now. Real-time shaders over real, interactive UI.\n\n24 components. React, Vue, Svelte, vanilla TS.\n\nFree. Open source. 🧵\nhttp://canvasui.dev',
+      url: 'https://x.com/davidhdev/status/2080224101432447094',
+      media: [
+        { type: 'video', src: 'https://video.twimg.com/amplify_video/2080222371911233536/vid/avc1/1280x720/ygC9YESWpZmoI_18.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2080222371911233536/img/HjezQfZWUWQtYw_h.jpg' }
+      ]
+    },
+    metrics: '13 REPLIES · 2 REPOSTS · 122 LIKES · 81 BOOKMARKS · 10K VIEWS'
+  },
+  {
+    category: 'DESIGN TOOL',
+    datetime: '2026-07-26T17:58:19.000Z',
+    author: 'tamrat', handle: 'tamrrat',
+    avatar: 'https://pbs.twimg.com/profile_images/2051354581355974656/qIzAyd70_200x200.jpg',
+    title: 'Canvas UI 的 3D Dither 效果开始被设计师复用',
+    summary: 'tamrat 转发自己对 Canvas UI 3D dither effect 的体验，引用帖说明 Dithered Object 已支持 SVG、PNG、GLB/glTF，并新增 Halftone 与 Floyd-Steinberg。值得借鉴的是，视觉实验正在被组件化为可复用控件。',
+    url: 'https://x.com/tamrrat/status/2081438983720952088',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081438788828479488/vid/avc1/720x720/A_qJrPWdrhnCJ6aQ.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081438788828479488/img/IAfqkxcS0ACmVv5f.jpg' }
+    ],
+    quote: {
+      label: '组件来源', author: 'David Haz', handle: 'davidhdev',
+      avatar: 'https://pbs.twimg.com/profile_images/2077672716639862784/KpSO9Y3A_200x200.jpg',
+      text: 'Dither anything.\n\nThe Dithered Object component on Canvas UI now works out of the box with any SVG, PNG, or 3D model (GLB/glTF).\n\nI\'ve also added two new dithering algorithms - Halftone and Floyd–Steinberg.\n\nhttps://canvasui.dev/docs/components/dithered-object',
+      url: 'https://x.com/davidhdev/status/2081143196197806135',
+      media: [
+        { type: 'video', src: 'https://video.twimg.com/amplify_video/2081142448466567169/vid/avc1/720x720/NkGFcySicNxt-ebc.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081142448466567169/img/X262CPbepjWq6Vmk.jpg' }
+      ]
+    },
+    metrics: '1 REPLIES · 4 REPOSTS · 28 LIKES · 15 BOOKMARKS · 2.3K VIEWS'
+  },
+  {
+    category: 'DESIGN ENGINEERING',
+    datetime: '2026-07-27T02:15:13.000Z',
+    author: 'miketrilford', handle: 'miketrilford',
+    avatar: 'https://pbs.twimg.com/profile_images/2067204840896532480/S558m53B_200x200.jpg',
+    title: '设计系统知识库开始为 AI 工具提供构建指导',
+    summary: 'miketrilford 展示给设计系统新增 knowledge base，用 JSON Fragments 指导 AI 在 Design Canvas 中构建体验。它把设计系统从“组件清单”升级为“Agent 可读的产品构造规则”。',
+    url: 'https://x.com/miketrilford/status/2081564033010766289',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081563208632930304/vid/avc1/1280x720/52ERUmZkA1mF86dk.mp4?tag=14', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081563208632930304/img/_ED1MvRaG2t-O10b.jpg' }
+    ],
+    metrics: '1 REPLIES · 1 LIKES · 111 VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-26T17:54:25.000Z',
+    author: 'Framer', handle: 'framer',
+    avatar: 'https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW_200x200.jpg',
+    title: 'Framer 汇总四个高完成度网站案例',
+    summary: 'Framer 官方展示 4 个用 Framer 制作的网站，媒体里保留了完整多图。它适合作为网页视觉取样：看布局、动效和品牌表达如何在 no-code 工具里被压缩成可发布页面。',
+    url: 'https://x.com/framer/status/2081438002312843644',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOLAz1MaAAEQ_GY.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOLA0aobQAAWZOJ.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOLA0yFa0AAqETg.jpg?name=orig' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOLA1G8aYAA9ArA.jpg?name=orig' }
+    ],
+    metrics: '12 REPLIES · 3 REPOSTS · 81 LIKES · 57 BOOKMARKS · 6.7K VIEWS'
+  },
+  {
+    category: 'DESIGN TOOL',
+    datetime: '2026-07-27T04:47:17.000Z',
+    author: 'arc.', handle: 'arceyul',
+    avatar: 'https://pbs.twimg.com/profile_images/2057278321717637120/RI9FJRyE_200x200.jpg',
+    title: 'Genspark Design 用同一方向生成海报、网站和品牌视频',
+    summary: 'arc. 测试 Genspark Design，为虚构游乐园品牌 ThrillVille 从一个视觉方向生成海报、分层编辑、网站和品牌视频。虽然原帖标注 paid partnership，但演示点明确：AI 设计工具正在强调跨媒介一致性，而不只是单张图生成。',
+    url: 'https://x.com/arceyul/status/2081602300703916261',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081602255745171456/vid/avc1/1280x720/9JQHhQXFZncR5fth.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081602255745171456/img/AML1nPzbpPDMEQYH.jpg' }
+    ],
+    metrics: '2 REPLIES · 5 LIKES · 1 BOOKMARKS · 926 VIEWS'
+  },
+  {
+    category: 'AI WORKFLOW',
+    datetime: '2026-07-27T01:28:54.000Z',
+    author: 'すぐる | ChatGPTガチ勢 𝕏', handle: 'SuguruKun_ai',
+    avatar: 'https://pbs.twimg.com/profile_images/1765706549824221184/N0yR_7Sj_200x200.jpg',
+    title: 'Claude Opus 5 建站教程把参考图、视频和 Figma 串起来',
+    summary: 'すぐる总结一支 16 分钟教程：用 Pinterest 找参考、Higgsfield、Figma 与 Claude Opus 5 搭建较完整的网站。这个流程值得看，因为它把 AI 建站拆成“找参考、生成素材、进入设计工具、再实现”的连续链路。',
+    url: 'https://x.com/SuguruKun_ai/status/2081552377426088139',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2080946889537835008/vid/avc1/1108x720/MeEy9C5U8yLqA1NM.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2080946889537835008/img/_guhWTfMN8gyqrjM.jpg' }
+    ],
+    metrics: '6 REPLIES · 18 REPOSTS · 204 LIKES · 380 BOOKMARKS · 20K VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-27T03:56:12.000Z',
+    author: 'Ding', handle: 'dingyi',
+    avatar: 'https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_200x200.jpg',
+    title: 'HeyClicky 复古网页把怀旧质感做得很克制',
+    summary: 'Ding 分享 HeyClicky 并称很喜欢它的复古味道。视频里的价值不是复古滤镜本身，而是旧网页、像素感和现代产品入口之间的平衡，适合做轻量品牌站参考。',
+    url: 'https://x.com/dingyi/status/2081589446907150640',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081589395996741632/vid/avc1/1208x720/UgylkXRvRMnNFnzb.mp4?tag=14', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081589395996741632/img/E-g0it4VpWNcnrwE.jpg' }
+    ],
+    article: {
+      kind: 'external',
+      title: 'HeyClicky',
+      preview: '原帖链接中的复古风网页产品。',
+      url: 'https://www.heyclicky.com/'
+    },
+    metrics: '1 REPLIES · 21 LIKES · 16 BOOKMARKS · 2.3K VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-26T18:31:02.000Z',
+    author: 'Geoff Teehan', handle: 'gt',
+    avatar: 'https://pbs.twimg.com/profile_images/1260046647/t-l_xmas-031_alt8bit_200x200.jpg',
+    title: 'Uncovered.ink 用“先读第一页”重做发现书的入口',
+    summary: 'Geoff Teehan 分享 Uncovered.ink：先隐藏书名、封面和声量，只让用户读第一页再决定是否保存或购买。它是一个小产品，但交互命题清楚：把发现机制从封面判断移到真实内容判断。',
+    url: 'https://x.com/gt/status/2081447218046026112',
+    media: [],
+    article: {
+      kind: 'external',
+      title: 'Uncovered.ink · Judge a book by its writing',
+      preview: 'Read first pages blind. No cover, no name, no hype. Find out what you actually fall for.',
+      cover: 'https://pbs.twimg.com/card_img/2080332370343829504/eKUOqvxE?format=jpg&name=800x419',
+      url: 'https://uncovered.ink/'
+    },
+    metrics: '2 REPLIES · 38 LIKES · 41 BOOKMARKS · 1.5K VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-27T00:43:50.000Z',
+    author: 'Anthon Johansson', handle: 'JohanssonDesign',
+    avatar: 'https://pbs.twimg.com/profile_images/2040854243809148928/nolQQcQI_200x200.jpg',
+    title: 'Outlined 海报品牌用可负担艺术做视觉系统练习',
+    summary: 'Anthon Johansson 展示 Contra Envato Challenge 的 Outlined Design 概念，把海报品牌、premium print 和包装/动效呈现放在一起。它适合观察独立设计师如何用一组视觉资产讲清品牌定位。',
+    url: 'https://x.com/JohanssonDesign/status/2081541035029626925',
+    media: [
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOMeGa7WwAAeYet.jpg?name=orig' },
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081540798793826304/vid/avc1/1280x720/fb3a_zuiLrTSudKd.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081540798793826304/img/LcFVD2T1SVno-CY6.jpg' },
+      { type: 'image', src: 'https://pbs.twimg.com/media/HOMeU_XWAAE3o0q.jpg?name=orig' },
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081540799024566274/vid/avc1/1280x720/V9RZm9hWjOvUndAS.mp4?tag=29', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081540799024566274/img/dIc98fZnnOFqPZ1S.jpg' }
+    ],
+    metrics: '2 LIKES · 62 VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-27T03:24:13.000Z',
+    author: 'Masood | Framer Expert', handle: 'craftedbymasood',
+    avatar: 'https://pbs.twimg.com/profile_images/2067186210993545216/zuyYSXwc_200x200.jpg',
+    title: 'Kai Framer 模板用动效开场和滚动作品流服务作品集',
+    summary: 'Masood 发布免费的 Kai Framer marketplace 模板，强调 animated intro、scrolling work marquee 和 CMS。它是小众模板，但对作品集页面的节奏控制和低门槛发布很有参考价值。',
+    url: 'https://x.com/craftedbymasood/status/2081581396481437973',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081581132551012352/vid/avc1/960x720/H_dWZxlDcLKVKE5U.mp4?tag=14', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081581132551012352/img/HT6pmXw33jd8ZX76.jpg' }
+    ],
+    article: {
+      kind: 'external',
+      title: 'Kai template on Framer Marketplace',
+      preview: '免费的 motion-driven portfolio template，来自原帖链接。',
+      url: 'https://www.framer.com/community/marketplace/templates/kai/'
+    },
+    metrics: '1 LIKES · 27 VIEWS'
+  },
+  {
+    category: '关注 · 视觉作品',
+    datetime: '2026-07-27T05:09:43.000Z',
+    author: 'Munzir Kareem', handle: 'munzir_designs',
+    avatar: 'https://pbs.twimg.com/profile_images/1924540316247277569/RHlXVM5W_200x200.jpg',
+    title: 'Framer Marketplace 新组件展示 SaaS 风格界面动效',
+    summary: 'Munzir Kareem 发布新的 Framer Marketplace 组件并附上演示视频。它不是大规模发布，但对 SaaS 设计师有用：组件化市场正把微交互和页面片段变成可直接复用的视觉资产。',
+    url: 'https://x.com/munzir_designs/status/2081607948087017745',
+    media: [
+      { type: 'video', src: 'https://video.twimg.com/amplify_video/2081607858731294721/vid/avc1/1152x720/RMhsDT9NdrE0qcti.mp4?tag=14', poster: 'https://pbs.twimg.com/amplify_video_thumb/2081607858731294721/img/IW-bALlvMvQC8W_-.jpg' }
+    ],
+    metrics: '2 LIKES · 18 VIEWS'
+  },
+  {
     category: 'DESIGN TOOL',
     datetime: '2026-07-26T04:56:18.000Z',
     author: 'Diadem', handle: 'EphraimAkanmu',
