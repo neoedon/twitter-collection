@@ -486,6 +486,8 @@
       display: block;
       object-fit: contain;
       background: transparent;
+      user-select: none;
+      -webkit-user-drag: none;
     }
 
     .media-backdrop-slide.media-content-crop > img,
@@ -673,9 +675,11 @@
       width: 100%;
       height: 100%;
       overflow-x: auto;
+      overflow-y: hidden;
       overscroll-behavior-inline: contain;
       scroll-snap-type: x mandatory;
       scrollbar-width: none;
+      touch-action: pan-y pinch-zoom;
     }
 
     .digest-media-track::-webkit-scrollbar { display: none; }
@@ -1136,9 +1140,17 @@
       width: 100%;
       aspect-ratio: var(--active-media-aspect, 4 / 3);
       overflow-x: auto;
+      overflow-y: hidden;
       overscroll-behavior-inline: contain;
       scroll-snap-type: x mandatory;
       scrollbar-width: none;
+      touch-action: pan-y pinch-zoom;
+    }
+
+    .card-media-track.media-track-touch-dragging,
+    .digest-media-track.media-track-touch-dragging {
+      scroll-snap-type: none;
+      scroll-behavior: auto;
     }
 
     .card-media-track::-webkit-scrollbar { display: none; }
@@ -1151,6 +1163,8 @@
     .card-media-track > .media-backdrop-slide > video {
       object-fit: contain;
       background: transparent;
+      user-select: none;
+      -webkit-user-drag: none;
     }
 
     .card-media-track > .media-backdrop-slide.media-content-crop > img,
@@ -8707,6 +8721,79 @@ function prepareMediaTrackAspect(track) {
   syncMediaTrackAspect(track);
 }
 
+function prepareMediaTrackTouchPaging(track) {
+  if (!track || track.dataset.touchPagingWired === 'true' || track.children.length < 2) return;
+  track.dataset.touchPagingWired = 'true';
+
+  let gesture = null;
+  let suppressClick = false;
+
+  const finishGesture = event => {
+    if (!gesture || (event.pointerId != null && event.pointerId !== gesture.pointerId)) return;
+    const activeGesture = gesture;
+    gesture = null;
+
+    if (activeGesture.axis !== 'x') return;
+    track.classList.remove('media-track-touch-dragging');
+    if (track.hasPointerCapture?.(activeGesture.pointerId)) {
+      track.releasePointerCapture(activeGesture.pointerId);
+    }
+
+    const width = Math.max(track.clientWidth, 1);
+    const dx = activeGesture.lastX - activeGesture.startX;
+    const elapsed = Math.max(performance.now() - activeGesture.startTime, 1);
+    const velocity = dx / elapsed;
+    const startIndex = Math.round(activeGesture.startLeft / width);
+    const direction = dx < 0 ? 1 : -1;
+    const shouldAdvance = Math.abs(dx) >= width * 0.14 || Math.abs(velocity) >= 0.35;
+    const target = Math.max(0, Math.min(
+      track.children.length - 1,
+      shouldAdvance ? startIndex + direction : Math.round(track.scrollLeft / width)
+    ));
+    track.scrollTo({ left: target * width, behavior: 'smooth' });
+    window.setTimeout(() => { suppressClick = false; }, 320);
+  };
+
+  track.addEventListener('pointerdown', event => {
+    if (event.pointerType !== 'touch' || !event.isPrimary) return;
+    gesture = {
+      pointerId: event.pointerId,
+      startX: event.clientX,
+      startY: event.clientY,
+      lastX: event.clientX,
+      startLeft: track.scrollLeft,
+      startTime: performance.now(),
+      axis: ''
+    };
+  });
+
+  track.addEventListener('pointermove', event => {
+    if (!gesture || event.pointerId !== gesture.pointerId) return;
+    const dx = event.clientX - gesture.startX;
+    const dy = event.clientY - gesture.startY;
+    gesture.lastX = event.clientX;
+    if (!gesture.axis && Math.max(Math.abs(dx), Math.abs(dy)) >= 7) {
+      gesture.axis = Math.abs(dx) > Math.abs(dy) * 1.15 ? 'x' : 'y';
+      if (gesture.axis === 'x') {
+        track.setPointerCapture?.(event.pointerId);
+        track.classList.add('media-track-touch-dragging');
+      }
+    }
+    if (gesture.axis !== 'x') return;
+    event.preventDefault();
+    suppressClick = true;
+    track.scrollLeft = gesture.startLeft - dx;
+  });
+
+  track.addEventListener('pointerup', finishGesture);
+  track.addEventListener('pointercancel', finishGesture);
+  track.addEventListener('click', event => {
+    if (!suppressClick) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+  }, true);
+}
+
 function getMaterialViewerPayload(entry) {
   return {
     items: entry.post.items.map((item, itemIndex) => ({
@@ -9470,7 +9557,10 @@ function renderEmbeddedPost(post) {
 
 function wireRichMedia(container, source = null) {
   prepareCardVideo(container);
-  container.querySelectorAll('.card-media-track, .digest-media-track').forEach(prepareMediaTrackAspect);
+  container.querySelectorAll('.card-media-track, .digest-media-track').forEach(track => {
+    prepareMediaTrackAspect(track);
+    prepareMediaTrackTouchPaging(track);
+  });
   container.querySelectorAll('.media-backdrop-slide').forEach(slide => {
     const media = slide.querySelector('img, video');
     if (!media) return;
@@ -9483,6 +9573,7 @@ function wireRichMedia(container, source = null) {
   });
   container.querySelectorAll('img[data-full], video[data-viewer-src], video.card-video[data-src], #modalVideo').forEach(media => {
     if (media.classList.contains('card-video-fallback') || media.dataset.viewerWired === 'true') return;
+    media.draggable = false;
     media.dataset.viewerWired = 'true';
     media.classList.add('viewer-launch');
     media.tabIndex = 0;
