@@ -149,6 +149,26 @@
 
     .home-date-heading .date { color: var(--text-display); }
 
+    .home-load-more {
+      width: 100%;
+      min-height: 56px;
+      margin-top: var(--space-md);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--text-disabled);
+      background: transparent;
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      cursor: pointer;
+    }
+
+    .home-load-more:hover,
+    .home-load-more:focus-visible {
+      color: var(--text-display);
+      border-color: var(--border-visible);
+    }
+
     .digest-grid {
       display: flex;
       align-items: start;
@@ -7695,6 +7715,17 @@ let currentModalCollection = null;
 let activeTab = 'home';
 let translationCache = loadTranslationCache();
 let searchState = { query: '', filter: 'all', source: 'all', tags: [] };
+const HOME_INITIAL_GROUPS = 1;
+const HOME_GROUP_BATCH = 1;
+let homeGroupObserver = null;
+let homeRenderState = {
+  groups: [],
+  nextGroup: 0,
+  visibleTweets: [],
+  columnCount: 0,
+  today: '',
+  yesterday: ''
+};
 const MATERIAL_GRID_BATCH = 80;
 const MATERIAL_IMMERSIVE_BATCH = 24;
 let mediaMode = 'grid';
@@ -9639,6 +9670,65 @@ function formatHomeDateRange(tweets) {
   return `${first.month} ${first.day}, ${first.year}–${last.month} ${last.day}, ${last.year}`;
 }
 
+function renderNextHomeGroups(count = HOME_GROUP_BATCH) {
+  const container = document.getElementById('homeFeed');
+  const sentinel = document.getElementById('homeLoadMore');
+  const end = Math.min(homeRenderState.nextGroup + count, homeRenderState.groups.length);
+
+  while (homeRenderState.nextGroup < end) {
+    const [date, entries] = homeRenderState.groups[homeRenderState.nextGroup];
+    const calendarLabel = new Intl.DateTimeFormat('zh-CN', { month: 'long', day: 'numeric' })
+      .format(new Date(`${date}T12:00:00+08:00`));
+    const label = date === homeRenderState.today
+      ? '今天'
+      : (date === homeRenderState.yesterday ? '昨天' : calendarLabel);
+    const section = document.createElement('section');
+    section.className = 'home-date-group';
+    section.innerHTML = `<div class="home-date-heading"><span class="date">${label} · ${date}</span><span>${entries.length} ITEMS</span></div>`;
+
+    const grid = document.createElement('div');
+    grid.className = 'digest-grid masonry';
+    for (let columnIndex = 0; columnIndex < homeRenderState.columnCount; columnIndex += 1) {
+      const column = document.createElement('div');
+      column.className = 'masonry-col';
+      grid.appendChild(column);
+    }
+    section.appendChild(grid);
+    container.insertBefore(section, sentinel);
+
+    entries.forEach(({ tweet, index }) => {
+      const card = createCard(tweet, index, {
+        collection: homeRenderState.visibleTweets,
+        onOpen: () => openModalAt(index, homeRenderState.visibleTweets)
+      });
+      const target = getShortestColumn(grid);
+      if (target) target.appendChild(card);
+      else grid.appendChild(card);
+      prepareCardVideo(card);
+      prepareCardEnrichment(card, tweet);
+    });
+
+    homeRenderState.nextGroup += 1;
+  }
+
+  if (homeRenderState.nextGroup >= homeRenderState.groups.length) {
+    homeGroupObserver?.disconnect();
+    homeGroupObserver = null;
+    sentinel?.remove();
+  }
+}
+
+function observeHomeLoadMore() {
+  const sentinel = document.getElementById('homeLoadMore');
+  if (!sentinel) return;
+  sentinel.addEventListener('click', () => renderNextHomeGroups());
+  if (!('IntersectionObserver' in window)) return;
+  homeGroupObserver = new IntersectionObserver(entries => {
+    if (entries.some(entry => entry.isIntersecting)) renderNextHomeGroups();
+  }, { rootMargin: '1400px 0px' });
+  homeGroupObserver.observe(sentinel);
+}
+
 function renderHomeFeed() {
   const container = document.getElementById('homeFeed');
   const groups = new Map();
@@ -9657,43 +9747,31 @@ function renderHomeFeed() {
     groups.get(key).push({ tweet, index });
   });
 
-  const today = dateKey(new Date());
-  const yesterday = dateKey(new Date(Date.now() - 86400000));
-  const columnCount = getHomeColumnCount();
-  _currentHomeColumnCount = columnCount;
+  const previousDepth = Math.max(homeRenderState.nextGroup, HOME_INITIAL_GROUPS);
+  homeGroupObserver?.disconnect();
+  homeGroupObserver = null;
+  cleanupCardVideos(container);
   container.replaceChildren();
 
-  groups.forEach((entries, date) => {
-    const calendarLabel = new Intl.DateTimeFormat('zh-CN', { month: 'long', day: 'numeric' })
-      .format(new Date(`${date}T12:00:00+08:00`));
-    const label = date === today ? '今天' : (date === yesterday ? '昨天' : calendarLabel);
-    const section = document.createElement('section');
-    section.className = 'home-date-group';
-    section.innerHTML = `<div class="home-date-heading"><span class="date">${label} · ${date}</span><span>${entries.length} ITEMS</span></div>`;
+  const loadMore = document.createElement('button');
+  loadMore.className = 'home-load-more';
+  loadMore.id = 'homeLoadMore';
+  loadMore.type = 'button';
+  loadMore.textContent = 'LOAD OLDER ↓';
+  container.appendChild(loadMore);
 
-    const grid = document.createElement('div');
-    grid.className = 'digest-grid masonry';
-    for (let columnIndex = 0; columnIndex < columnCount; columnIndex += 1) {
-      const column = document.createElement('div');
-      column.className = 'masonry-col';
-      grid.appendChild(column);
-    }
-    section.appendChild(grid);
-    container.appendChild(section);
+  homeRenderState = {
+    groups: [...groups.entries()],
+    nextGroup: 0,
+    visibleTweets: visibleHomeTweets,
+    columnCount: getHomeColumnCount(),
+    today: dateKey(new Date()),
+    yesterday: dateKey(new Date(Date.now() - 86400000))
+  };
+  _currentHomeColumnCount = homeRenderState.columnCount;
 
-    entries.forEach(({ tweet, index }) => {
-      const card = createCard(tweet, index, {
-        collection: visibleHomeTweets,
-        onOpen: () => openModalAt(index, visibleHomeTweets)
-      });
-      const target = getShortestColumn(grid);
-      if (target) target.appendChild(card);
-      else grid.appendChild(card);
-      prepareCardVideo(card);
-      prepareCardEnrichment(card, tweet);
-    });
-  });
-
+  renderNextHomeGroups(Math.min(previousDepth, homeRenderState.groups.length));
+  observeHomeLoadMore();
   document.getElementById('homeItemCount').textContent = `${visibleHomeTweets.length} 条精选`;
   document.getElementById('homeDateRange').textContent = formatHomeDateRange(visibleHomeTweets);
 }
@@ -10236,20 +10314,14 @@ function syncPageScrollLock() {
     const body = document.body;
     pageScrollLock = {
       y: window.scrollY,
-      position: body.style.position,
-      top: body.style.top,
-      left: body.style.left,
-      right: body.style.right,
       width: body.style.width,
       overflow: body.style.overflow,
+      htmlOverflow: document.documentElement.style.overflow,
       overscroll: document.documentElement.style.overscrollBehavior
     };
-    body.style.position = 'fixed';
-    body.style.top = `-${pageScrollLock.y}px`;
-    body.style.left = '0';
-    body.style.right = '0';
     body.style.width = '100%';
     body.style.overflow = 'hidden';
+    document.documentElement.style.overflow = 'hidden';
     document.documentElement.style.overscrollBehavior = 'none';
     return;
   }
@@ -10258,12 +10330,9 @@ function syncPageScrollLock() {
     const body = document.body;
     const lock = pageScrollLock;
     pageScrollLock = null;
-    body.style.position = lock.position;
-    body.style.top = lock.top;
-    body.style.left = lock.left;
-    body.style.right = lock.right;
     body.style.width = lock.width;
     body.style.overflow = lock.overflow;
+    document.documentElement.style.overflow = lock.htmlOverflow;
     document.documentElement.style.overscrollBehavior = lock.overscroll;
     window.scrollTo(0, lock.y);
   }
@@ -10924,6 +10993,13 @@ function setCollectionState(state) {
 
 function setActiveTab(tab, updateHash = true) {
   if (!['home', 'likes', 'search', 'media'].includes(tab)) tab = 'home';
+  const overlayOpen = document.getElementById('modalBackdrop').classList.contains('open')
+    || document.getElementById('lightbox').classList.contains('open');
+  if (tab === activeTab && overlayOpen) {
+    closeModal();
+    closeLightbox();
+    return;
+  }
   saveCurrentSearchState();
   if (activeTab === 'media' && tab !== 'media') pauseMaterialBrowser();
   activeTab = tab;
@@ -11115,6 +11191,25 @@ document.body.addEventListener('drop', (e) => {
 (async function init() {
   allTweets = loadFromStorage();
 
+  refreshLikedTweetIds();
+  hydrateTags();
+  renderTagFilterRow();
+  filteredTweets = allTweets;
+  document.getElementById('countDisplay').textContent = allTweets.length;
+  updateDataBar();
+  renderHomeFeed();
+  const requestedTab = location.hash.replace('#', '');
+  setActiveTab(['home', 'likes', 'search', 'media'].includes(requestedTab) ? requestedTab : 'home', false);
+  document.body.dataset.collectionReady = 'true';
+  document.dispatchEvent(new Event('collection:ready'));
+
+  // Home is self-contained. Let it paint before fetching and parsing the
+  // optional Likes/Bookmarks archive (currently tens of megabytes).
+  await new Promise(resolve => {
+    if ('requestIdleCallback' in window) requestIdleCallback(resolve, { timeout: 1200 });
+    else window.setTimeout(resolve, 120);
+  });
+
   try {
     const listResp = await fetch('csv-list.json', { cache: 'no-cache' });
     const csvFiles = listResp.ok ? await listResp.json() : [];
@@ -11145,11 +11240,14 @@ document.body.addEventListener('drop', (e) => {
   document.getElementById('countDisplay').textContent = allTweets.length;
   filteredTweets = allTweets;
   updateDataBar();
-  renderHomeFeed();
-  const requestedTab = location.hash.replace('#', '');
-  setActiveTab(['home', 'likes', 'search', 'media'].includes(requestedTab) ? requestedTab : 'home', false);
-  document.body.dataset.collectionReady = 'true';
-  document.dispatchEvent(new Event('collection:ready'));
+  materialBrowserReady = false;
+  if (activeTab === 'likes') {
+    setCollectionState({ query: '', filter: 'all', source: 'all', tags: [] });
+  } else if (activeTab === 'search') {
+    setCollectionState(searchState);
+  } else if (activeTab === 'media') {
+    renderMaterialBrowser(true);
+  }
 })();
 </script>
 <script type="module">
