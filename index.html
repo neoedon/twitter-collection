@@ -2466,7 +2466,7 @@
   <section class="app-view active home-view" id="homeView" data-view="home">
     <header class="home-hero">
       <div>
-        <div class="view-kicker">AI × DESIGN · JUL 21–22</div>
+        <div class="view-kicker">AI × DESIGN · <span id="homeDateRange">LATEST</span></div>
         <h1 class="title">TODAY ON X</h1>
       </div>
       <div class="home-summary">
@@ -8646,7 +8646,10 @@ function getMediaTrackActiveIndex(track) {
 }
 
 function syncMediaTrackAspect(track, index = getMediaTrackActiveIndex(track)) {
-  const slide = track.children[index];
+  // A carousel keeps the frame established by its first item so horizontal
+  // paging never causes the surrounding card to jump vertically.
+  const stableIndex = track.children.length > 1 ? 0 : index;
+  const slide = track.children[stableIndex];
   const aspect = Number(slide?.dataset.mediaAspect || 0);
   if (!aspect) return;
   const frame = track.classList.contains('digest-media-track')
@@ -8668,7 +8671,9 @@ function prepareMediaTrackAspect(track) {
       const aspect = preferredAspect || (width > 0 && height > 0 ? width / height : 0);
       if (!(aspect > 0)) return false;
       slide.dataset.mediaAspect = String(aspect);
-      if (index === getMediaTrackActiveIndex(track)) syncMediaTrackAspect(track, index);
+      if (track.children.length > 1 ? index === 0 : index === getMediaTrackActiveIndex(track)) {
+        syncMediaTrackAspect(track, index);
+      }
       return true;
     };
 
@@ -9508,6 +9513,41 @@ function wireRichMedia(container, source = null) {
   });
 }
 
+function getHomeCalendarParts(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return null;
+  const parts = new Intl.DateTimeFormat('en', {
+    timeZone: 'Asia/Shanghai',
+    year: 'numeric',
+    month: 'short',
+    day: '2-digit'
+  }).formatToParts(date);
+  const get = type => parts.find(part => part.type === type)?.value || '';
+  const year = get('year');
+  const month = get('month').toUpperCase();
+  const day = get('day');
+  return { year, month, day, key: `${year}-${month}-${day}`, timestamp: date.getTime() };
+}
+
+function formatHomeDateRange(tweets) {
+  const dates = tweets
+    .map(tweet => getHomeCalendarParts(tweet.TweetCreatedDate))
+    .filter(Boolean)
+    .sort((a, b) => a.timestamp - b.timestamp);
+  if (!dates.length) return 'NO ITEMS';
+
+  const first = dates[0];
+  const last = dates[dates.length - 1];
+  if (first.key === last.key) return `${last.month} ${last.day}`;
+  if (first.year === last.year && first.month === last.month) {
+    return `${first.month} ${first.day}–${last.day}`;
+  }
+  if (first.year === last.year) {
+    return `${first.month} ${first.day}–${last.month} ${last.day}`;
+  }
+  return `${first.month} ${first.day}, ${first.year}–${last.month} ${last.day}, ${last.year}`;
+}
+
 function renderHomeFeed() {
   const container = document.getElementById('homeFeed');
   const groups = new Map();
@@ -9564,6 +9604,7 @@ function renderHomeFeed() {
   });
 
   document.getElementById('homeItemCount').textContent = `${visibleHomeTweets.length} 条精选`;
+  document.getElementById('homeDateRange').textContent = formatHomeDateRange(visibleHomeTweets);
 }
 // ── Card rendering ──
 function createCard(tweet, index, options = {}) {
