@@ -2211,9 +2211,6 @@
     .modal-nav.next { right: -56px; }
 
     @media (max-width: 767px) {
-      .modal-nav.prev { left: 8px; }
-      .modal-nav.next { right: 8px; }
-      .modal-nav { background: rgba(17,17,17,0.9); backdrop-filter: blur(4px); }
       .home-hero {
         gap: var(--space-md);
         padding-bottom: var(--space-md);
@@ -2243,8 +2240,12 @@
       .media-immersive-post { border-radius: 0; }
 
       .modal-backdrop {
-        align-items: flex-end;
-        padding: 0;
+        align-items: center;
+        padding:
+          max(12px, env(safe-area-inset-top))
+          max(12px, env(safe-area-inset-right))
+          max(12px, env(safe-area-inset-bottom))
+          max(12px, env(safe-area-inset-left));
         background: rgba(0,0,0,0.72);
       }
 
@@ -2252,21 +2253,57 @@
         width: 100%;
         max-width: none;
         margin: 0;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 48px minmax(0, 1fr) 48px;
+        grid-template-rows: minmax(0, 1fr) 52px;
+        column-gap: 8px;
       }
 
       .modal {
+        grid-column: 1 / -1;
+        grid-row: 1;
+        align-self: end;
         width: 100%;
-        max-height: 92dvh;
-        border-width: 1px 0 0;
-        border-radius: 24px 24px 0 0;
-        padding-bottom: env(safe-area-inset-bottom);
+        max-height: 100%;
+        border-width: 1px;
+        border-radius: 20px;
+        padding-bottom: 0;
       }
 
       .modal .modal-body { padding: 20px 16px; }
       .modal-close { margin: 12px 12px 0 0; }
       .modal-meta { align-items: flex-start; gap: 12px; }
       .modal-actions { flex-wrap: wrap; }
-      .modal-nav { top: 46%; width: 44px; height: 44px; }
+      .modal-nav {
+        position: relative;
+        inset: auto;
+        top: auto;
+        transform: none;
+        align-self: end;
+        width: 44px;
+        height: 44px;
+        background: rgba(17,17,17,0.92);
+        backdrop-filter: blur(4px);
+      }
+      .modal-nav.prev {
+        grid-column: 1;
+        grid-row: 2;
+        justify-self: start;
+        left: auto;
+      }
+      .modal-nav.next {
+        grid-column: 3;
+        grid-row: 2;
+        justify-self: end;
+        right: auto;
+      }
+      .modal-counter {
+        grid-column: 2;
+        grid-row: 2;
+        align-self: center;
+        padding: 0;
+      }
       .modal-media img,
       #modal > img,
       .modal-media video,
@@ -2633,8 +2670,8 @@
 
   <div class="modal-backdrop" id="modalBackdrop">
     <div class="modal-wrapper">
-      <button class="modal-nav prev" id="modalPrev">‹</button>
-      <button class="modal-nav next" id="modalNext">›</button>
+      <button class="modal-nav prev" id="modalPrev" type="button" aria-label="上一条">‹</button>
+      <button class="modal-nav next" id="modalNext" type="button" aria-label="下一条">›</button>
       <div class="modal" id="modal">
         <button class="modal-close" id="modalClose">✕</button>
         <div id="modalContent"></div>
@@ -2690,6 +2727,7 @@
   <div class="toast" id="toast"></div>
 
 <script src="home-backfill.js"></script>
+<script src="liked-backfill.js"></script>
 <script>
 const BATCH_SIZE = 40;
 const STORAGE_KEY = 'x_collection_tweets';
@@ -2699,6 +2737,909 @@ const UNLIKED_KEY = 'x_collection_unliked_ids_v1';
 
 const HOME_FEED = [
   ...(window.HOME_BACKFILL || []),
+  {
+    "category": "AI VIDEO",
+    "datetime": "2026-08-09T16:01:44.000Z",
+    "author": "Amira Zairi",
+    "handle": "azed_ai",
+    "avatar": "https://pbs.twimg.com/profile_images/1890156284688605184/-A5Q6izz_200x200.jpg",
+    "title": "Lovart 内测 Seedance 2.5 的影视生成工作流",
+    "summary": "Amira Zairi 在 Lovart 中测试 Seedance 2.5，重点反馈是长镜头的 motion 更稳、角色一致性更好，并且 prompt、生成、细修都留在同一工作区。它说明 AI 视频工具的竞争点正在从单次出片转向完整迭代链路。",
+    "url": "https://x.com/azed_ai/status/2086483073101877399",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086483019997859840/vid/avc1/480x600/pHQwVCaDh7Y81wTT.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086483019997859840/img/TJl76HwUCa_8jCt9.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "7 REPLIES · 4 REPOSTS · 12 LIKES · 933 VIEWS"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-09T16:01:05.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "宝玉把 BaoCut 设计成 Agent 可调用的视频剪辑 App",
+    "summary": "宝玉解释 BaoCut 最新设计：App 负责结果确认与微调，主要调用入口交给 Agent，并提供网页界面方便在 Agent 内置浏览器里二次编辑。这个思路适合观察“应用退到工作台，Agent 成为入口”的产品形态。",
+    "url": "https://x.com/dotey/status/2086482912145211827",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPSmGnpWMAAoND8.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPSmpVxWYAAfqHV.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 3 LIKES · 1049 VIEWS",
+    "quote": {
+      "label": "引用原帖",
+      "author": "LinearUncle",
+      "handle": "LinearUncle",
+      "avatar": "https://pbs.twimg.com/profile_images/1906323582759874560/6Elwf5WN_200x200.jpg",
+      "text": "没想到宝玉哥 @dotey 做的 免费BaoCut这么强：\n\nhttps://baocut.app/\n\n1. YouTube / X 视频转录，翻译，剪辑一条龙\n\n2. 架构上GUI + CLI 分离，支持 Skill\n\n3. 你也可以不用app，在 harness 内直接调用skill转录视频成文本，用来AI 问答\n\n看视频变成享受了，强烈推荐！\n\n翻译的用户体验相对麻烦点，需要去harness里操作，如果能内置直接调用harness无头翻译，要方便很多！",
+      "url": "https://x.com/LinearUncle/status/2086445635725586513",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPSLJYzakAAgMjV.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPSLLjLa4AEEt7v.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPSLPEzbQAAMhjC.jpg?name=orig"
+        }
+      ]
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-09T16:00:04.000Z",
+    "author": "aasha",
+    "handle": "aashatwt",
+    "avatar": "https://pbs.twimg.com/profile_images/1878012880177532928/jRU9o7dG_200x200.jpg",
+    "title": "aasha 的 Claude Skill 把 AI humanizer 汇成 Soundshuman",
+    "summary": "aasha 称自己整合开源 AI humanizer 做成的 Claude Skill 已到 162 stars。它不是大而全工具，而是把一类文风改写方法压成可安装 Skill，适合参考个人工具如何进入 Agent 工作流。",
+    "url": "https://x.com/aashatwt/status/2086482653096923324",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPSVhcRaoAA9UQh.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 1 REPOSTS · 6 LIKES · 234 VIEWS",
+    "quote": {
+      "label": "引用原帖",
+      "author": "aasha",
+      "handle": "aashatwt",
+      "avatar": "https://pbs.twimg.com/profile_images/1878012880177532928/jRU9o7dG_200x200.jpg",
+      "text": "i analyzed all the open source ai humanizers then combined them into one claude skill.\n\nhttps://github.com/aashaexo/soundshuman",
+      "url": "https://x.com/aashatwt/status/2085813972784296259",
+      "media": []
+    }
+  },
+  {
+    "category": "AI INFRA",
+    "datetime": "2026-08-09T16:00:00.000Z",
+    "author": "Pearl Research Labs",
+    "handle": "prlnet",
+    "avatar": "https://pbs.twimg.com/profile_images/2029218139599257600/IuyT0pyZ_200x200.jpg",
+    "title": "Pearl 把 AI 推理变成区块链 useful-work 证明",
+    "summary": "Pearl Research Labs 介绍其 proof-of-useful-work 网络：让 AI inference 和 blockchain mining 使用同一计算，尝试把推理结果转为链上安全。虽然仍是早期基础设施叙事，但它提供了 AI 算力商业化的另一种组合方式。",
+    "url": "https://x.com/prlnet/status/2086482639163146673",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086425813897908224/vid/avc1/640x360/ftnsscGaNsF91ntw.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086425813897908224/img/SznpHNdy4iO22B6g.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 6 LIKES · 438 VIEWS"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-09T15:59:38.000Z",
+    "author": "Greg Brockman",
+    "handle": "gdb",
+    "avatar": "https://pbs.twimg.com/profile_images/1347621377503711233/bHg3ipfD_200x200.jpg",
+    "title": "Greg Brockman 转发 ChatGPT Work 61 分钟能力地图",
+    "summary": "Greg Brockman 转发 Riley Brown 的 ChatGPT Work 教程，覆盖演示、插件、自动化、研究等 14 类知识工作能力。它比单点 demo 更有价值：展示 ChatGPT Work 正在被包装成一套可学习的云端工作系统。",
+    "url": "https://x.com/gdb/status/2086482546389631111",
+    "media": [],
+    "metrics": "12 REPLIES · 4 REPOSTS · 104 LIKES · 10806 VIEWS",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Riley Brown",
+      "handle": "rileybrown",
+      "avatar": "https://pbs.twimg.com/profile_images/1898571530956873728/JALEVTSb_200x200.jpg",
+      "text": "Learn 99% of ChatGPT Work in 61 minutes:\n\nGPT Work is like Codex in the cloud. \nIt works on phone, web, and desktop.\nAnd I've been using it to run my business.\n\nThese are the 14 knowledge work capabilities.\n\n00:00 Intro\n03:18 #1 Presentations\n09:16 #2 Plugins\n17:36 #3 Blocks\n23:34 #4 Websites & Apps & Hosting\n30:09 #6 Branching Chats\n31:51 #7 Desktop App (Cloud vs Local)\n37:01 #8 Voice Mode\n41:36 #9 Remote Voice Mode\n45:52 #10 In-App Browser\n48:50 #11 Skills\n51:45 #12 Scheduled Automations\n54:37 #13 Spreadsheets\n56:58 #14 Multi-Agent Workspace\n59:19 Final Review",
+      "url": "https://x.com/rileybrown/status/2085761931403575356",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2085759804551606272/vid/avc1/640x360/78GJbODf5mqHVxuj.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2085759804551606272/img/pNSIsqhtyH2tLOLY.jpg",
+          "crossOrigin": false
+        }
+      ]
+    }
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-09T15:58:43.000Z",
+    "author": "Chánh Đại",
+    "handle": "iamncdai",
+    "avatar": "https://pbs.twimg.com/profile_images/1905665979662958595/Y0_Ifuk5_200x200.jpg",
+    "title": "Chánh Đại 把个人站 footer 重做成 CAD 图框",
+    "summary": "Chánh Đại 展示个人网站 footer 的新版本，用 CAD title block 的结构语言组织信息。这个小改动适合参考工程感视觉元素如何自然嵌入网页尾部，而不是只做装饰贴图。",
+    "url": "https://x.com/iamncdai/status/2086482316533395908",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPSshaXbkAA3HnZ.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 45 VIEWS"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-09T15:44:18.000Z",
+    "author": "张钊",
+    "handle": "belliedmonkey",
+    "avatar": "https://pbs.twimg.com/profile_images/1898323593613971456/OibBGBBI_200x200.jpg",
+    "title": "大肚猴翻译升级为开源沉浸式外语学习工具",
+    "summary": "张钊宣布大肚猴翻译从翻译工具升级为开源外语学习工具，会把日常外文内容转成听说读写材料，并配合遗忘曲线复习。亮点是把浏览器/移动端翻译场景延展成长期学习闭环。",
+    "url": "https://x.com/belliedmonkey/status/2086478685838975303",
+    "media": [],
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 61 VIEWS"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-09T15:40:32.000Z",
+    "author": "مَروه",
+    "handle": "IMarwa_Mk",
+    "avatar": "https://pbs.twimg.com/profile_images/2048394603435282432/snaZaaHS_200x200.jpg",
+    "title": "Marwa 分享 Claude Design 重做作品集的高约束 Prompt",
+    "summary": "Marwa 给出一段要求 Claude 将作品集改造成高交互 React 应用的详细 prompt，强调品牌重塑、视觉一致性和 xhigh 执行。对设计工程来说，关键不是“让 AI 做网页”，而是把参考图、目标和质量门槛写成可复用约束。",
+    "url": "https://x.com/IMarwa_Mk/status/2086477737061974512",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 6 LIKES · 256 VIEWS",
+    "quote": {
+      "label": "引用原帖",
+      "author": "مَروه",
+      "handle": "IMarwa_Mk",
+      "avatar": "https://pbs.twimg.com/profile_images/2048394603435282432/snaZaaHS_200x200.jpg",
+      "text": "قبل اسبوع جلست أجرب Claude Design.\n\nرفعت له ملف أعمالي القديم، وكتبت له إني أبغاه بتصميم نظام macOS، وأرفقت له صور لتصاميم يستلهم منها لاقسام معينة.\n\nوالنتيجة كانت فوق المتوقع وجدًا رهيبة،\n\nجربوه وقولوا لي رأيكم.\nhttps://marwa-alharbi.netlify.app",
+      "url": "https://x.com/IMarwa_Mk/status/2085460221825093835",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPELBGoXoAAITkZ.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPELBGqWMAAdhTz.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPELBGwX0AARUjj.jpg?name=orig"
+        }
+      ]
+    }
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-09T15:38:49.000Z",
+    "author": "Megabits ❄️",
+    "handle": "Megabits_mzq",
+    "avatar": "https://pbs.twimg.com/profile_images/1729733422757892096/WEmf0gS1_200x200.jpg",
+    "title": "Megabits 记录已编译 nib 转回 xib 的老 iOS 技术",
+    "summary": "Megabits 提醒逆向老 iOS App 时需要把编译后的 nib 还原成 xib，并整理了方法。它是偏底层但有价值的 UI 工程资料，适合处理老应用界面迁移和组件考古。",
+    "url": "https://x.com/Megabits_mzq/status/2086477306072346744",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPSn_Hja8AA2jKn.png?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 155 VIEWS"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-09T15:37:50.000Z",
+    "author": "Ouloboros | SaviorS Dev",
+    "handle": "SaviorS_OOTB",
+    "avatar": "https://pbs.twimg.com/profile_images/2005624266923094017/ifEIQXi-_200x200.jpg",
+    "title": "Ouloboros 为战术 RPG 做 Expedition Guide System",
+    "summary": "Ouloboros 展示世界地图上的 Expedition Guide System：不同角色作为先导会改变移动、视野、治疗或敌人预判等效果。它是很好的系统设计案例，把角色身份从战斗扩展到地图探索策略。",
+    "url": "https://x.com/SaviorS_OOTB/status/2086477060932084026",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086477019047751682/vid/avc1/640x360/LrzsKAGeTsvmhT9I.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086477019047751682/img/oxnCXpQsQ1j_hDT_.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 2 REPOSTS · 19 LIKES · 826 VIEWS"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-09T15:00:08.000Z",
+    "author": "Liana Tudakova",
+    "handle": "liana_tme",
+    "avatar": "https://pbs.twimg.com/profile_images/2024129153914548224/GFZcCUkP_200x200.jpg",
+    "title": "Framer Agent 用 365 credits 完成整站 rebrand",
+    "summary": "Liana Tudakova 演示用 Framer Agent 快速替换图片、颜色、文案和字体，在免费额度内完成整站 rebrand。这个样本值得看的是 AI 建站工具已开始进入“批量改造既有站点”的真实设计流程。",
+    "url": "https://x.com/liana_tme/status/2086467570266247191",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086467500527497216/vid/avc1/480x360/JgK-0Q1QnFwwuoNL.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086467500527497216/img/5lTz0l0YinHVCKLA.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "5 REPLIES · 1 REPOSTS · 14 LIKES · 214 VIEWS"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-09T14:29:13.000Z",
+    "author": "Kris Anfalova",
+    "handle": "KrisAnfalova",
+    "avatar": "https://pbs.twimg.com/profile_images/2014408804201304065/cer4mPWs_200x200.jpg",
+    "title": "Figma 概念稿被 Claude 做成可交互动效",
+    "summary": "Kris Anfalova 分享自己在 Figma 做的概念设计被 Viktor 用 Claude 实现成交互效果。它体现设计师和工程师的新协作方式：视觉方向来自 Figma，交互验证交给 AI 辅助实现。",
+    "url": "https://x.com/KrisAnfalova/status/2086459789857411301",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086459754331680768/vid/avc1/488x360/tyqmuD-2X-pZZp_d.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086459754331680768/img/Wu9r1Vbk3fzGYLHx.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 0 REPOSTS · 14 LIKES · 442 VIEWS"
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-09T14:17:06.000Z",
+    "author": "abdz.",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/1360807931503988738/Q9H6tKs0_200x200.jpg",
+    "title": "abdz 本周精选聚焦几何和网格系统",
+    "summary": "abdz 的 Best of the Week 汇总了 grid systems、structural geometry 和 tactile editorial packaging。它适合做品牌与版式参考，因为这些案例把秩序感、材料感和信息密度放在一起。",
+    "url": "https://x.com/abduzeedo/status/2086456743480160311",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPSVUs5aMAA5h8H.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPSVUs2aoAA_v15.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPSVUs6bIAA5IPv.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 4 LIKES · 1033 VIEWS"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-09T13:44:00.000Z",
+    "author": "Chris Tate",
+    "handle": "ctatedev",
+    "avatar": "https://pbs.twimg.com/profile_images/1793812678462365696/rJGwsL4h_200x200.jpg",
+    "title": "scriptc 支持 top-level await 与 fetch 编译成静态二进制",
+    "summary": "Chris Tate 展示 scriptc 已支持 top-level await + fetch，输入 TypeScript 后输出 static binary。对设计工程工具链来说，这类轻量脚本编译能力可以把原型、抓取和自动化脚本更容易地打包交付。",
+    "url": "https://x.com/ctatedev/status/2086448411583090869",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPSNxdlWAAAK9rj.jpg?name=orig"
+      }
+    ],
+    "metrics": "4 REPLIES · 3 REPOSTS · 87 LIKES · 5668 VIEWS"
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-09T13:30:10.000Z",
+    "author": "Vigo Zhao",
+    "handle": "VigoCreativeAI",
+    "avatar": "https://pbs.twimg.com/profile_images/2046883460812333057/rai6spiv_200x200.jpg",
+    "title": "Vigo Visual OS 用单词和边框构成海报系统",
+    "summary": "Vigo Zhao 发布 VISUAL OS 015：Single Word Studies，用一个大写动词、断开的细边框、暗背景主体和脚注文案建立系列化规则。它适合参考 AI 视觉实验如何从单张图转成稳定视觉系统。",
+    "url": "https://x.com/VigoCreativeAI/status/2086444932915491200",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPSKmyWXUAAQiY1.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPSKm0gWMAAWIyK.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPSKm4kW8AAufg0.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPSKmzgXEAACz5K.jpg?name=orig"
+      }
+    ],
+    "metrics": "6 REPLIES · 0 REPOSTS · 2 LIKES · 212 VIEWS"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-09T10:31:54.000Z",
+    "author": "こてつ | AI×コンサルワーク",
+    "handle": "kotetsu_0321",
+    "avatar": "https://pbs.twimg.com/profile_images/2077022109826789376/7sImlMEu_200x200.jpg",
+    "title": "kotetsu 发布 Claude Code HTML 报告设计 Skill",
+    "summary": "kotetsu 分享一个 Claude Code Skill，用固定 CSS 和报告结构把普通 HTML 输出约束成可会议展示的咨询风报告。它说明 Skill 的价值在于封装审美和信息架构，而不只是保存 prompt。",
+    "url": "https://x.com/kotetsu_0321/status/2086400069461487807",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086400047818915840/vid/avc1/640x360/A_nkzxXa2GsIih3T.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086400047818915840/img/Ut7t98sD4y2ZKrqG.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "7 REPLIES · 18 REPOSTS · 365 LIKES · 34420 VIEWS"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-09T09:07:12.000Z",
+    "author": "前端哥Liam",
+    "handle": "jinglian",
+    "avatar": "https://pbs.twimg.com/profile_images/2012000885275344896/pw0eqfmt_200x200.jpg",
+    "title": "phone-harness 让 Codex 像人一样控制本地 iPhone",
+    "summary": "前端哥 Liam 介绍 phone-harness：连接原生 iPhone 后，让 Codex 自动化任何 iOS App，无需 API 或越狱。它把 Agent 能力从浏览器和文件系统扩展到真实移动设备操作。",
+    "url": "https://x.com/jinglian/status/2086378751969935505",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086376827455516672/vid/avc1/546x360/9MPyvcMCOJYEsthA.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086376827455516672/img/NjBuhj88dOSsGVPC.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "28 REPLIES · 25 REPOSTS · 171 LIKES · 31325 VIEWS",
+    "quote": {
+      "label": "引用原帖",
+      "author": "前端哥Liam",
+      "handle": "jinglian",
+      "avatar": "https://pbs.twimg.com/profile_images/2012000885275344896/pw0eqfmt_200x200.jpg",
+      "text": "你有没有过这种经历：想薅各种各样的会员VIP首月优惠，但是忘记关闭自动续费，反被扣了连续包月的第二个月高价会员费。\n\n微信读书、QQ音乐、各种会员突然扣了钱，点进去才发现“自动续费”开着，想关的时候，进到微信里面，要跳好几层页面，操作路径总是记不住，烦到想摔手机。\n\n或者每天手动刷X列表找爆款AI帖，滚半小时眼睛酸，还怕漏掉。\n这俩痛点我上周用Airtap实测了一遍，把过程和结果完整跑给你看。\n不是产品介绍，是真实操作记录。\n\n先说第一个：取消微信自动续费。\n我直接给 Airtap @airtap_ai  的iMessage发了一句：\n“帮我查看一下微信绑定了哪些自动续费的项目，如果有腾讯相关的项目，比如微信读书，或者QQ音乐的，直接关闭自动续费。”\n后台立刻启动云手机，开始操作。\n\n这台云手机真的打开了微信 → 点“我” → 服务 → 钱包 → 支付设置 → 自动续费。最终找到了：微信读书会员包月自动续费，19元/月，状态生效中。\n它确认关闭成功后，自动续费列表变成“暂无扣费服务”，并且明确说：没有发现QQ音乐或其他腾讯自动续费项。\n整个过程我没动手。\n\n#justtextit #textyourapps #airtap",
+      "url": "https://x.com/jinglian/status/2085538068837413011",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2085538030740480000/vid/avc1/640x360/mkV29AqfJgBhF7Q5.mp4?tag=14",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2085538030740480000/img/8q3TyX1o0gNZMLoz.jpg",
+          "crossOrigin": false
+        }
+      ]
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-09T07:16:54.000Z",
+    "author": "yetone",
+    "handle": "yetone",
+    "avatar": "https://pbs.twimg.com/profile_images/1458663772017491971/h1-KC--K_200x200.jpg",
+    "title": "Herdr 把 Tmux Agent Teams 做成可鼠标操作的工作台",
+    "summary": "yetone 使用 Herdr 后认为它最直接的价值是把 Tmux 这类 terminal multiplexer 的 session、window 和 pane 操作做成鼠标可控界面。对 Agent team 来说，降低编排界面的操作成本比堆功能更关键。",
+    "url": "https://x.com/yetone/status/2086350996452909182",
+    "media": [],
+    "metrics": "54 REPLIES · 10 REPOSTS · 174 LIKES · 24373 VIEWS"
+  },
+  {
+    "category": "AI 3D",
+    "datetime": "2026-08-09T07:16:44.000Z",
+    "author": "Stefan 3D AI",
+    "handle": "Stefan_3D_AI",
+    "avatar": "https://pbs.twimg.com/profile_images/1929963548442275844/tQZfTm8T_200x200.jpg",
+    "title": "Tencent WorldClaw 从 Prompt 生成可编辑 Blender 3D 世界",
+    "summary": "Stefan 3D AI 介绍 Tencent WorldClaw：从一个 prompt 生成包含 terrain、mesh、物体摆放和尺度修正的 Blender 场景。它比单个 3D asset 更进一步，开始处理可编辑的完整 3D world。",
+    "url": "https://x.com/Stefan_3D_AI/status/2086350955520360613",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086346887733673984/vid/avc1/640x360/-lrZQOStVbxAmG4G.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086346887733673984/img/ks66-k_I4T-pTZ5t.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "26 REPLIES · 64 REPOSTS · 701 LIKES · 35668 VIEWS"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-09T00:41:19.000Z",
+    "author": "Polyfork",
+    "handle": "polyfork_",
+    "avatar": "https://pbs.twimg.com/profile_images/2083147652280008704/IgqqGulk_200x200.jpg",
+    "title": "Polyfork 发布 AI-native 的 Little Tokyo 3D 可 remix 套件",
+    "summary": "Polyfork 发布 Little Tokyo 3D kit，包含 40 个资产和 404 个参数，模型可通过 MCP 被 Agent 浏览和组装。它把 3D 素材从固定 mesh 推向“程序化、可 remix、可被 Agent 操作”的资产形态。",
+    "url": "https://x.com/polyfork_/status/2086251443816669604",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086250809277202432/vid/avc1/640x360/LJz3yXt1fGF9SGZ1.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086250809277202432/img/JowSeY1Wx2wSxo8i.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "29 REPLIES · 20 REPOSTS · 354 LIKES · 442480 VIEWS"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-08T17:35:21.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "宝玉用 Claude Design 与 Baoyu-Design Skill 维护原型先行流程",
+    "summary": "宝玉分享自己的开发流程：先用 Claude Design 打磨本地 UI 原型，再通过 Baoyu-Design Skill 与规则文件保持原型和实际功能同步。这个流程把“先改原型再改功能”变成 Agent 默认行为，能降低产品设计验证成本。",
+    "url": "https://x.com/dotey/status/2086144247388905833",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPN18DEW4AAZjM7.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPN3C2tXEAAfsh_.jpg?name=orig"
+      }
+    ],
+    "metrics": "89 REPLIES · 45 REPOSTS · 358 LIKES · 45586 VIEWS",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Panda@Cerul.ai",
+      "handle": "Jiaxi_Cui",
+      "avatar": "https://pbs.twimg.com/profile_images/1677124881144770560/W6zZ-Zux_200x200.jpg",
+      "text": "@dotey 确实很好用，是一直用来做原型的方案",
+      "url": "https://x.com/Jiaxi_Cui/status/2086129241511629077",
+      "media": []
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-09T09:00:02.000Z",
+    "author": "菊地あかね｜KiQ代表／所作研究家 |クリエイティブディレクター",
+    "handle": "akanekikuchi4",
+    "avatar": "https://pbs.twimg.com/profile_images/1744230201876455424/r-V64o18_200x200.jpg",
+    "title": "KiQ 的实验住宅 ivi house 获 Red Dot Product Design",
+    "summary": "菊地あかね介绍 KiQ 制作的 ivi house 在 Red Dot Award: Product Design 2026 获奖，并称它把空间、光、素材、声音、香气与交互整合成“空气般陪伴”的居住体验。它值得作为环境交互与智能住宅的低侵入设计案例。",
+    "url": "https://x.com/akanekikuchi4/status/2086376951070257494",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086304833590685696/vid/avc1/1280x720/DzZ7BNTTmbgDfXyb.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086304833590685696/img/ciYHo3z-jDi_sgQI.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 17 VIEWS"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-09T08:56:34.000Z",
+    "author": "LN",
+    "handle": "ln_dev7",
+    "avatar": "https://pbs.twimg.com/profile_images/1890537843908374528/wvFcdsEl_200x200.jpg",
+    "title": "LN 发布 15,000+ app 与公司 logo 复制库",
+    "summary": "LN 展示一个聚合超过 15,000 个 app/company logo 的设计资源站，面向项目中快速复制使用。对产品界面和 pitch 制作来说，这类轻量素材基础设施可以减少大量找图和格式处理成本。",
+    "url": "https://x.com/ln_dev7/status/2086376077731979772",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPRL80iX0AAS3th.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 2 LIKES · 103 VIEWS",
+    "article": {
+      "kind": "external",
+      "title": "Logos by LN",
+      "preview": "App 与公司 logo 聚合复制资源。",
+      "url": "https://logos.lndev.me/"
+    }
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-09T08:54:00.000Z",
+    "author": "Eduard Bodak",
+    "handle": "eduardbodak",
+    "avatar": "https://pbs.twimg.com/profile_images/1899753235189010432/adqlSJ3O_200x200.png",
+    "title": "Eduard Bodak 拆解 100 Buttons 的文字回弹动画",
+    "summary": "Eduard Bodak 在第 95 个按钮实验中说明如何把 translate/rotate 与 transform 分离，并用不同 timing/easing 做出回弹。它是少见的“展示效果同时解释实现参数”的微交互样本。",
+    "url": "https://x.com/eduardbodak/status/2086375430609887528",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086040436066463744/vid/avc1/1080x1080/7o9erlJYUwVztBw-.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086040436066463744/img/1h3UhWkk76RizuQ1.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 46 VIEWS"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-09T08:11:48.000Z",
+    "author": "Greg Brockman",
+    "handle": "gdb",
+    "avatar": "https://pbs.twimg.com/profile_images/1347621377503711233/bHg3ipfD_200x200.jpg",
+    "title": "Greg Brockman 展示 ChatGPT Finance 的订阅排查用法",
+    "summary": "Greg 转发用户用 ChatGPT Finance 找出每年 550 美元“幽灵订阅”的案例。值得关注的是金融助理从报表总结进入主动省钱/取消订阅这类可量化任务。",
+    "url": "https://x.com/gdb/status/2086364812326670454",
+    "media": [],
+    "metrics": "38 REPLIES · 10 REPOSTS · 236 LIKES · 25,245 VIEWS",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Trevin Chow",
+      "handle": "trevin",
+      "avatar": "https://pbs.twimg.com/profile_images/2049354574516178944/OKHe6Ocu_200x200.jpg",
+      "text": "Used ChatGPT finance just now and asked it to find phantom subscriptions. It unearthed $550 a year of random things I didn’t realize I was paying for and thought I canceled. Thanks @OpenAI and whoever is on the Finance product.",
+      "url": "https://x.com/trevin/status/2086241939637317896",
+      "media": []
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-09T08:02:56.000Z",
+    "author": "awwwards.",
+    "handle": "awwwards",
+    "avatar": "https://pbs.twimg.com/profile_images/1790640429668372480/7IKOmTW__200x200.png",
+    "title": "Awwwards 今日 SOTD 给到 Proudux Design",
+    "summary": "Awwwards 将今日 Site of the Day 颁给 Proudux Design，并强调其为重视 perception、emotion 与 craftsmanship 的公司构建品牌 identity。这个案例适合观察品牌设计公司如何把 3D/animation 放进官网叙事。",
+    "url": "https://x.com/awwwards/status/2086362579102749094",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPQ_kxXWcAAINOm.jpg?name=orig"
+      }
+    ],
+    "metrics": "3 REPLIES · 1 REPOSTS · 7 LIKES · 1,276 VIEWS",
+    "article": {
+      "kind": "external",
+      "title": "Proudux Design",
+      "preview": "Awwwards Site of the Day 获奖页面。",
+      "url": "https://www.awwwards.com/sites/produx-design"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-09T07:50:03.000Z",
+    "author": "Shubham Saboo",
+    "handle": "Saboo_Shubham_",
+    "avatar": "https://pbs.twimg.com/profile_images/2011150989668270080/wQ4NP39W_200x200.jpg",
+    "title": "Gemma 生态接近 10 亿下载，并出现本地语音应用演示",
+    "summary": "Shubham Saboo 借 Gemma 下载里程碑展示一个 100% 本地运行的 Gemma 语音听写/编辑 app。对产品团队的启发是：开源小模型的价值正在从 benchmark 进入具体、隐私敏感的端侧工作流。",
+    "url": "https://x.com/Saboo_Shubham_/status/2086359337220624683",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086359235588468736/vid/avc1/1220x720/j3I_qg6exto7bkjN.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086359235588468736/img/LT-dVSyF9pHmr4xn.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 7 REPOSTS · 19 LIKES · 2,370 VIEWS"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-09T05:39:11.000Z",
+    "author": "Jason Zhou",
+    "handle": "jasonzhou1993",
+    "avatar": "https://pbs.twimg.com/profile_images/1613651966663749632/AuQiWkVc_200x200.jpg",
+    "title": "SuperDesign 在 ChatGPT 内打开可编辑设计画布",
+    "summary": "Jason Zhou 演示 SuperDesign plugin：从品牌抽取、landing page、插画方向到版式 QA 都在 ChatGPT 的可编辑 canvas 中完成。重点不只是生成图，而是把设计迭代和审查放进同一个对话工作流。",
+    "url": "https://x.com/jasonzhou1993/status/2086326402799075687",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086326363225767936/vid/avc1/676x360/oapOHSZeZp18HYuD.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086326363225767936/img/gbRQWV1DyNNnKGHD.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 1 REPOSTS · 22 LIKES · 2,507 VIEWS"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-09T05:35:11.000Z",
+    "author": "Rithik Jain",
+    "handle": "_rithikjain",
+    "avatar": "https://pbs.twimg.com/profile_images/2084919085192937472/CBLHTsed_200x200.jpg",
+    "title": "Rithik Jain 做了一段时装 App 结账成功动效",
+    "summary": "Rithik Jain 发布 first attempt at Figma motion，演示 fashion app 的 post-checkout success animation。这个小样本适合看结账完成状态如何用短动效建立情绪反馈，而不增加流程阻力。",
+    "url": "https://x.com/_rithikjain/status/2086325398993023121",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086325346845257728/vid/avc1/1278x720/xUrbsnoIizti0K1i.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086325346845257728/img/YzjH1oGbmDVSJSkg.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 24 LIKES · 1,269 VIEWS"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-09T03:56:11.000Z",
+    "author": "Shubham Saboo",
+    "handle": "Saboo_Shubham_",
+    "avatar": "https://pbs.twimg.com/profile_images/2011150989668270080/wQ4NP39W_200x200.jpg",
+    "title": "NVIDIA NeMo 用 Python 类组织 Agent",
+    "summary": "Shubham Saboo 解读 NVIDIA NeMo 的开源 Agent 实验：把 agent 写成 Python class，字段是状态、方法是工具、docstring 是 prompt。这个抽象把 Agent 工程从提示词拼装拉回可测试、可维护的代码结构。",
+    "url": "https://x.com/Saboo_Shubham_/status/2086300482348482945",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPQG0ZAawAAjIAA.jpg?name=orig"
+      }
+    ],
+    "metrics": "7 REPLIES · 8 REPOSTS · 39 LIKES · 3,274 VIEWS"
+  },
+  {
+    "category": "AI RESEARCH",
+    "datetime": "2026-08-09T03:46:18.000Z",
+    "author": "Biology+AI Daily",
+    "handle": "BiologyAIDaily",
+    "avatar": "https://pbs.twimg.com/profile_images/1826434466648133632/KAWVyOFb_200x200.jpg",
+    "title": "蛋白设计工具的安全筛查从输出转向输入",
+    "summary": "Biology+AI Daily 介绍一项 protein design safety 工作：不再只检查生成后的序列，而是先筛用户请求的目标蛋白是否敏感。它提醒生物设计 Agent 的安全边界要前置到意图和 target 层。",
+    "url": "https://x.com/BiologyAIDaily/status/2086297997160456629",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPQE95lbMAADZVq.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 2 REPOSTS · 13 LIKES · 912 VIEWS"
+  },
+  {
+    "category": "AI RESEARCH",
+    "datetime": "2026-08-09T02:35:14.000Z",
+    "author": "Y11",
+    "handle": "seclink",
+    "avatar": "https://pbs.twimg.com/profile_images/1709859553414893568/a_eQ9NYf_200x200.jpg",
+    "title": "VLA 机器人竞争开始转向真实交互数据",
+    "summary": "Y11 整理了机器人 VLA 落地对真实操作数据的依赖，并列出 Open X-Embodiment、DROID、ABC-130k、AgiBot World 等数据集差异。相比模型结构，能否持续收集高质量真机轨迹会成为更硬的护城河。",
+    "url": "https://x.com/seclink/status/2086280112459403382",
+    "media": [],
+    "metrics": "3 REPLIES · 0 REPOSTS · 0 LIKES · 667 VIEWS",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Anto Patrex",
+      "handle": "antopatrex1",
+      "avatar": "https://pbs.twimg.com/profile_images/2083623174781222912/YlmHUd7E_200x200.jpg",
+      "text": "the biggest robotics acquisition target right now is whoever owns the best real-world manipulation dataset. the models are converging fast. the data isn't even close. hours of real robot interaction footage is the new oil and maybe 4 companies have enough of it to matter.",
+      "url": "https://x.com/antopatrex1/status/2086165550011408739",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPOMgzOWkAAkWvj.jpg?name=orig"
+        }
+      ]
+    }
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-09T02:18:22.000Z",
+    "author": "Adam Whitcroft",
+    "handle": "AdamWhitcroft",
+    "avatar": "https://pbs.twimg.com/profile_images/1606497559551561729/6bj2XpEc_200x200.jpg",
+    "title": "Adam Whitcroft 预览个人 icon gallery",
+    "summary": "Adam Whitcroft 分享正在打磨的新 icon gallery 视频，展示大量图标在个人网站中的浏览方式。值得看的是图标作品集不只靠单个图标质量，也靠筛选、节奏和图库交互组织。",
+    "url": "https://x.com/AdamWhitcroft/status/2086275868037652694",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086275778371854336/vid/avc1/882x720/EHpnQkpygqkGGv0-.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086275778371854336/img/i-bFEwQkWpRmKzUC.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "9 REPLIES · 1 REPOSTS · 121 LIKES · 3,675 VIEWS"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-09T00:46:42.000Z",
+    "author": "Nitish Khagwal",
+    "handle": "nitishkmrk",
+    "avatar": "https://pbs.twimg.com/profile_images/2086230493159366656/lh5vCCkr_200x200.png",
+    "title": "Waterlemon 把图标生成放进 ChatGPT Work 与 Codex Skills",
+    "summary": "Nitish Khagwal 展示正在构建的 Waterlemon：在产品工作流里选视觉 skill、输入需求，就能生成不同风格的 icon。它把 icon 生产从素材库搜索推进到可复用的风格化生成流程。",
+    "url": "https://x.com/nitishkmrk/status/2086252800162628079",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086252759423283200/vid/avc1/960x960/FkqY_p8IKRFNTGoG.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086252759423283200/img/HhhpvckzCOzaCJ1V.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "9 REPLIES · 4 REPOSTS · 193 LIKES · 10,452 VIEWS",
+    "article": {
+      "kind": "external",
+      "title": "waterlemon",
+      "preview": "ChatGPT Work / Codex Skills 图标生成工具演示页。",
+      "url": "https://sohna.dev/waterlemon"
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-09T00:14:53.000Z",
+    "author": "Chris Tate",
+    "handle": "ctatedev",
+    "avatar": "https://pbs.twimg.com/profile_images/1793812678462365696/rJGwsL4h_200x200.jpg",
+    "title": "Native SDK 给任意 UI 元素加入拖拽能力",
+    "summary": "Chris Tate 演示 Native SDK 的 drag and drop：TypeScript 加 markup 即可让任意 UI element 可拖动，无需 JS runtime。对跨端工作台来说，这类底层交互能力比单独组件更接近生产力基础设施。",
+    "url": "https://x.com/ctatedev/status/2086244792917270924",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086244719890161664/vid/avc1/1024x720/fTBtLgcnYuwXWWAZ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086244719890161664/img/vEBKFXtg6hGyLGMU.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "21 REPLIES · 13 REPOSTS · 500 LIKES · 23,414 VIEWS",
+    "article": {
+      "kind": "external",
+      "title": "Native SDK",
+      "preview": "Vercel Labs 的 Native SDK 项目页。",
+      "url": "https://github.com/vercel-labs/native"
+    }
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-08T23:08:21.000Z",
+    "author": "goo.vision",
+    "handle": "goo_vision",
+    "avatar": "https://pbs.twimg.com/profile_images/2023487210302173190/fVNP9plu_200x200.jpg",
+    "title": "goo.vision 用 Krea 2 做纸张质感 editorial experiments",
+    "summary": "goo.vision 发布一组 Krea 2 editorial experiments，重点是 paper textures 与 analog print aesthetics。它可作为 AI 图像工具从“出图”走向可控材质与出版感风格探索的例子。",
+    "url": "https://x.com/goo_vision/status/2086228047296971136",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPPC5HfWcAAZUoG.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPPC5azXEAAAWgE.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPPEC8pWwAAzM3b.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPPEDY1WQAAo6xe.jpg?name=orig"
+      }
+    ],
+    "metrics": "6 REPLIES · 2 REPOSTS · 93 LIKES · 2,586 VIEWS"
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-08T22:02:25.000Z",
+    "author": "Rasmus Andersson",
+    "handle": "rsms",
+    "avatar": "https://pbs.twimg.com/profile_images/1996997851591917568/4zelt7SC_200x200.jpg",
+    "title": "Rasmus Andersson 做了多人图形流编程 App Jam 原型",
+    "summary": "Rasmus 在 Playbit 三天 App Jam 中做了一个面向 graphics 的 flow-based programming app，描述为多人版 Quartz Composer，Pure C/WGSL 且 wasm 仅 1.5MB。它是小团队快速验证视觉编程工具的好样本。",
+    "url": "https://x.com/rsms/status/2086211453904945268",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086210960927383552/vid/avc1/1190x720/TdUL7elsxgI3E38a.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086210960927383552/img/v2svBpkSc8dWEkPX.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "14 REPLIES · 7 REPOSTS · 180 LIKES · 8,440 VIEWS"
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-08T21:57:04.000Z",
+    "author": "abdz.",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/1360807931503988738/Q9H6tKs0_200x200.jpg",
+    "title": "abdz 分享 Hotel Rigen Fugitiva 的触感品牌系统",
+    "summary": "abdz 展示 Hotel Rigen Fugitiva .co 的 branding system：粗粝边缘与精致 typography 同时出现。它适合参考酒店/目的地品牌如何用材料感和排版建立记忆点。",
+    "url": "https://x.com/abduzeedo/status/2086210107566882915",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPO0_F0bYAAsTf3.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPO1AlKagAA1E68.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPO1B_LbAAAPxtt.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 2 REPOSTS · 16 LIKES · 2,173 VIEWS",
+    "article": {
+      "kind": "external",
+      "title": "Hotel Rigen Fugitiva .co Branding System",
+      "preview": "abdz 对酒店品牌系统视觉案例的整理。",
+      "url": "https://abduzeedo.com/hotel-rigen-fugitiva-co-branding-system"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-08T20:42:03.000Z",
+    "author": "Ammaar Reshi",
+    "handle": "ammaar",
+    "avatar": "https://pbs.twimg.com/profile_images/1749207435255164928/A2xzzpnT_200x200.jpg",
+    "title": "Ammaar 用多模型把 Red Alert 2 带到 iPad",
+    "summary": "Ammaar Reshi 称用 Fable 5、Gemini 3.6 Flash 和 GPT-5.6 Sol 重建了没有源码可移植的 Red Alert 2 iPhone/iPad 版本，并准备开源。它展示 AI 编程从生成 demo 走向旧软件复刻、测试与 AI 行为重建。",
+    "url": "https://x.com/ammaar/status/2086191229801275679",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086191114558558208/vid/avc1/1280x720/Ij3dhn5f2R-ZXhrn.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086191114558558208/img/_YQsLNjH6T4okxE3.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "50 REPLIES · 30 REPOSTS · 524 LIKES · 39,304 VIEWS"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-08T20:29:22.000Z",
+    "author": "Tibo",
+    "handle": "thsottiaux",
+    "avatar": "https://pbs.twimg.com/profile_images/2075819673263001600/pj1vyX6I_200x200.jpg",
+    "title": "Tibo 重置 ChatGPT Work 与 Codex 付费额度",
+    "summary": "Tibo 称 GPT-5.6 Sol 已可在 CC harness 等场景使用，并把 ChatGPT Work 与 Codex 所有付费用户的使用额度重新开放。它体现模型发布后的产品策略不只是能力展示，还包括配额、可用性和开发者信任管理。",
+    "url": "https://x.com/thsottiaux/status/2086188036493344823",
+    "media": [],
+    "metrics": "2,007 REPLIES · 693 REPOSTS · 15,256 LIKES · 2,959,099 VIEWS"
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-08T20:07:06.000Z",
+    "author": "Darius Dan",
+    "handle": "dariusdan",
+    "avatar": "https://pbs.twimg.com/profile_images/2010635171083505664/voFt50Pj_200x200.jpg",
+    "title": "Darius Dan 转发 Real Motors Ares Project Bike 视觉设计",
+    "summary": "Darius Dan 分享 Real Motors Ares Project Bike 的三张外观图，关注点是电动机车的高完成度造型语言。对硬件视觉参考来说，它展示了未来感、品牌姿态和工业结构如何组合成一眼可辨的产品。",
+    "url": "https://x.com/dariusdan/status/2086182434320650679",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPObflhXgAAmZXW.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPObkrXWgAAQ7XQ.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPObrrDXcAAhlBB.jpg?name=orig"
+      }
+    ],
+    "metrics": "24 REPLIES · 154 REPOSTS · 2,209 LIKES · 130,432 VIEWS"
+  },
   {
             "category": "关注 · 视觉作品",
             "datetime": "2026-08-07T04:35:00.000Z",
@@ -9400,6 +10341,17 @@ function importCSVText(text, source) {
   }).filter(t => t.TweetID);
 }
 
+function staticLikedBackfillTweets() {
+  if (!Array.isArray(window.LIKED_BACKFILL)) return [];
+  return window.LIKED_BACKFILL
+    .map(tweet => ({
+      ...tweet,
+      _source: 'favourite',
+      _tags: Array.isArray(tweet._tags) && tweet._tags.length ? tweet._tags : autoTagTweet(tweet)
+    }))
+    .filter(tweet => tweet.TweetID);
+}
+
 function handleFiles(files) {
   let totalAdded = 0;
   let processed = 0;
@@ -12299,6 +13251,12 @@ document.body.addEventListener('drop', (e) => {
 // ── Init: load from localStorage, then load all CSV files listed in csv-list.json ──
 (async function init() {
   allTweets = loadFromStorage();
+  const likedBackfillTweets = staticLikedBackfillTweets();
+  if (likedBackfillTweets.length > 0) {
+    const { merged, added } = mergeTweets(allTweets, likedBackfillTweets);
+    allTweets = merged;
+    if (added > 0) saveToStorage();
+  }
 
   refreshLikedTweetIds();
   hydrateTags();
