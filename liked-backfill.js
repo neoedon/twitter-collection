@@ -1,6 +1,447 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-09T16:13:51.488Z.
+// Generated from authenticated X Likes via ego-browser on 2026-08-10T05:19:57.901Z.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2086557421812519094",
+    "TwitterUserID": "249795230",
+    "UserScreenName": "AmirMushich",
+    "UserProfileName": "AmirMušić",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1872350781686321152/P-st4llY_200x200.jpg",
+    "TweetText": "Logo-to-PCB / Asset shifting in GPT Image 2\n\nRe-use my prompt system  that turns any logo, icon or an image into a conductive circuit board pattern\n\nPrompt🔽",
+    "Tweet Url": "https://x.com/AmirMushich/status/2086557421812519094",
+    "TweetCreatedDate": "2026-08-09T20:57:10.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2086542542577848320/img/9SSr9j9J2euTxN1b.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2086542542577848320/vid/avc1/480x600/QtDXi9oie9lsLVXu.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Design",
+      "Tool"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086542542577848320/vid/avc1/480x600/QtDXi9oie9lsLVXu.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086542542577848320/img/9SSr9j9J2euTxN1b.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "AmirMušić",
+      "handle": "AmirMushich",
+      "avatar": "https://pbs.twimg.com/profile_images/1872350781686321152/P-st4llY_200x200.jpg",
+      "text": "Image-to-Conductive circuit board / GPT Image [dir. v8]\n\nLeverage my method of Asset shifting - a variable-based prompt system that turns any logo/icon into visual style you need\nThis time we turn logos into realistic PCBs\n\nPrompt 🔽",
+      "url": "https://x.com/AmirMushich/status/2086523169922331090",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPTOzqHXMAAhZew.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPTOzbGXoAI3SBz.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPTOz6MW4AABevU.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPTOzfsWQAA_LpJ.jpg?name=orig"
+        }
+      ],
+      "metrics": "8 REPLIES · 6 REPOSTS · 86 LIKES · 12,945 VIEWS"
+    },
+    "_article": null,
+    "_metrics": "2 REPLIES · 6 REPOSTS · 90 LIKES · 7,656 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-10T05:19:57.901Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-09T20:57:10.000Z"
+    }
+  },
+  {
+    "TweetID": "2086443306997714956",
+    "TwitterUserID": "1679227189022146560",
+    "UserScreenName": "dudufolio",
+    "UserProfileName": "dudu",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1766536348591157248/GXLvx4qg_200x200.jpg",
+    "TweetText": "Not just a Screen Recording  App",
+    "Tweet Url": "https://x.com/dudufolio/status/2086443306997714956",
+    "TweetCreatedDate": "2026-08-09T13:23:43.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2086442895398105088/img/CUuzk1Uz53LOFCl2.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2086442895398105088/vid/avc1/644x360/8yFc4AJuGNOHVZ4N.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Tool"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086442895398105088/vid/avc1/644x360/8yFc4AJuGNOHVZ4N.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086442895398105088/img/CUuzk1Uz53LOFCl2.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "21 REPLIES · 2 REPOSTS · 224 LIKES · 21,617 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-10T05:19:57.901Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-09T13:23:43.000Z"
+    }
+  },
+  {
+    "TweetID": "2086429838315757826",
+    "TwitterUserID": "249795230",
+    "UserScreenName": "AmirMushich",
+    "UserProfileName": "AmirMušić",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1872350781686321152/P-st4llY_200x200.jpg",
+    "TweetText": "Frosted glass icons are easy now\n\nRe-use my prompt system  that turns any brand or icon into a translucent 3D-styled asset\n\nI call this process 'Asset shifting' - you take an existing visual asset and move it into a new visual state without losing its identity\n\nStart here🔽",
+    "Tweet Url": "https://x.com/AmirMushich/status/2086429838315757826",
+    "TweetCreatedDate": "2026-08-09T12:30:12.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2086420069886709762/img/LNAnLZyyNj5GrWMR.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2086420069886709762/vid/avc1/480x600/HA31H4AD14CPr3CN.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Design",
+      "Tool"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086420069886709762/vid/avc1/480x600/HA31H4AD14CPr3CN.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086420069886709762/img/LNAnLZyyNj5GrWMR.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "AmirMušić",
+      "handle": "AmirMushich",
+      "avatar": "https://pbs.twimg.com/profile_images/1872350781686321152/P-st4llY_200x200.jpg",
+      "text": "3D collectible achievement badge / GPT Image [dir. v8] \n\n3-variable prompt system, turns any logo/icon into a translucent frozen glass 3D simulation\n\nPrompt 🔽\n\n-> Grow faster in AI: http://amirmushich.link/products",
+      "url": "https://x.com/AmirMushich/status/2086142130930790518",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPN1rhPWEAAippg.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPN1rhOX0AAmltX.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPN1rhUXMAAwzMG.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPN1rhgWgAA7hjs.jpg?name=orig"
+        }
+      ],
+      "metrics": "5 REPLIES · 35 REPOSTS · 420 LIKES · 49,382 VIEWS"
+    },
+    "_article": null,
+    "_metrics": "14 REPLIES · 13 REPOSTS · 360 LIKES · 27,155 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-10T05:19:57.901Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-09T12:30:12.000Z"
+    }
+  },
+  {
+    "TweetID": "2086337500386357356",
+    "TwitterUserID": "1249322582869852161",
+    "UserScreenName": "ianneo_ai",
+    "UserProfileName": "Ian (伊恩)",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1891533502811865088/TGLd-ENY_200x200.jpg",
+    "TweetText": "发现一个很适合设计师和产品人的网站：Peek Paper\n\n里面的作品质量有点高，更夸张的是还在日更\n\n每次打开都像逛一个刚换展的线上画廊，页面、字体、动效、叙事都能拿来开眼\n\n先收藏了，没灵感的时候就来这里偷一点\n\nhttps://peekpaper.com",
+    "Tweet Url": "https://x.com/ianneo_ai/status/2086337500386357356",
+    "TweetCreatedDate": "2026-08-09T06:23:17.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPQoyiZbIAAR3oZ.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPQoyiZbIAAR3oZ.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "11 REPLIES · 39 REPOSTS · 284 LIKES · 12,116 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-10T05:19:57.901Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-09T06:23:17.000Z"
+    }
+  },
+  {
+    "TweetID": "2086333319369601480",
+    "TwitterUserID": "1562584920949530626",
+    "UserScreenName": "asherdipps",
+    "UserProfileName": "Asher",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2083090654012354560/fIZpiWpt_200x200.jpg",
+    "TweetText": "A Mind bending Apple Event concept.\nWatch the YouTube premiere on August 15",
+    "Tweet Url": "https://x.com/asherdipps/status/2086333319369601480",
+    "TweetCreatedDate": "2026-08-09T06:06:40.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2086333151853326336/img/KEEZkqjEOZQvStHQ.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2086333151853326336/vid/avc1/640x360/lqTdk-3S7cIC_BiX.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086333151853326336/vid/avc1/640x360/lqTdk-3S7cIC_BiX.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086333151853326336/img/KEEZkqjEOZQvStHQ.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "Asher",
+      "handle": "asherdipps",
+      "avatar": "https://pbs.twimg.com/profile_images/2083090654012354560/fIZpiWpt_200x200.jpg",
+      "text": "Join us August 15 for \"Mind bending.\", my Apple Event concept/recreation.\n\nIt's my biggest project ever and I hope to see you there!",
+      "url": "https://x.com/asherdipps/status/2082570113811948026",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2082569891069169664/vid/avc1/640x360/ArYZtEcnAhRYRGtS.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2082569891069169664/img/bJJPTnO_FG_5EkyH.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "13 REPLIES · 23 REPOSTS · 432 LIKES · 164,206 VIEWS"
+    },
+    "_article": null,
+    "_metrics": "1 REPLIES · 11 REPOSTS · 131 LIKES · 17,629 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-10T05:19:57.901Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-09T06:06:40.000Z"
+    }
+  },
+  {
+    "TweetID": "2086152332853887415",
+    "TwitterUserID": "1497584507414798339",
+    "UserScreenName": "arlanoska",
+    "UserProfileName": "Arlan",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2080839382295273472/QTCSkJpQ_200x200.jpg",
+    "TweetText": "code trail pattern for branding\n\ncopy code here:\nhttp://arlan.me/vault",
+    "Tweet Url": "https://x.com/arlanoska/status/2086152332853887415",
+    "TweetCreatedDate": "2026-08-08T18:07:29.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2086150450160812032/img/QQvcBSyL0UNh8yod.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2086150450160812032/vid/avc1/564x360/0NYqbHqfumI9ReH7.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Code"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086150450160812032/vid/avc1/564x360/0NYqbHqfumI9ReH7.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086150450160812032/img/QQvcBSyL0UNh8yod.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "19 REPLIES · 9 REPOSTS · 348 LIKES · 16,672 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-10T05:19:57.901Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-08T18:07:29.000Z"
+    }
+  },
+  {
+    "TweetID": "2086142130930790518",
+    "TwitterUserID": "249795230",
+    "UserScreenName": "AmirMushich",
+    "UserProfileName": "AmirMušić",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1872350781686321152/P-st4llY_200x200.jpg",
+    "TweetText": "3D collectible achievement badge / GPT Image [dir. v8] \n\n3-variable prompt system, turns any logo/icon into a translucent frozen glass 3D simulation\n\nPrompt 🔽\n\n-> Grow faster in AI: http://amirmushich.link/products",
+    "Tweet Url": "https://x.com/AmirMushich/status/2086142130930790518",
+    "TweetCreatedDate": "2026-08-08T17:26:57.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPN1rhPWEAAippg.jpg?name=orig,https://pbs.twimg.com/media/HPN1rhOX0AAmltX.jpg?name=orig,https://pbs.twimg.com/media/HPN1rhUXMAAwzMG.jpg?name=orig,https://pbs.twimg.com/media/HPN1rhgWgAA7hjs.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Design",
+      "Tool"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPN1rhPWEAAippg.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPN1rhOX0AAmltX.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPN1rhUXMAAwzMG.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPN1rhgWgAA7hjs.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "5 REPLIES · 35 REPOSTS · 420 LIKES · 49,382 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-10T05:19:57.901Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-08T17:26:57.000Z"
+    }
+  },
+  {
+    "TweetID": "2086119172417986720",
+    "TwitterUserID": "596823630",
+    "UserScreenName": "creativedash",
+    "UserProfileName": "Dash",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2066087070951673856/cw_TKU-7_200x200.jpg",
+    "TweetText": "If you love sweating the little details, I’ve got something for you: https://ui8.ai/forge/",
+    "Tweet Url": "https://x.com/creativedash/status/2086119172417986720",
+    "TweetCreatedDate": "2026-08-08T15:55:43.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2086118317723676672/img/LuNxwKAZ9oVHUBov.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2086118317723676672/vid/avc1/560x360/BhVowUvJ6ze75b6L.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Tool"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086118317723676672/vid/avc1/560x360/BhVowUvJ6ze75b6L.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086118317723676672/img/LuNxwKAZ9oVHUBov.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "18 REPLIES · 12 REPOSTS · 339 LIKES · 25,495 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-10T05:19:57.901Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-08T15:55:43.000Z"
+    }
+  },
+  {
+    "TweetID": "2086096810909815124",
+    "TwitterUserID": "2765417028",
+    "UserScreenName": "eternityspring",
+    "UserProfileName": "烁皓",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2064269397582385152/D2rjc6wa_200x200.jpg",
+    "TweetText": "我开源的这个小说角色解析skill被近2000人收藏\n\n今天花了点时间做了以下更新：\n调整了角色图生成提示词（新增动画风格支持）\n优化了skill 出的报告页面布局\n新增了多语言报告支持\n\n项目地址：\nhttps://github.com/eternityspring/shuohao-skills\n\n先固定角色，只是做AI短剧的万里长征第一步。\n要打通AI短剧工作流，这种角色解析skill也只是很微小的一个环节。\n接下来继续探索基于这个skill的报告，做个分镜skill。",
+    "Tweet Url": "https://x.com/eternityspring/status/2086096810909815124",
+    "TweetCreatedDate": "2026-08-08T14:26:52.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPNM_YnbAAAT9RZ.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Design",
+      "Tool"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPNM_YnbAAAT9RZ.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "烁皓",
+      "handle": "eternityspring",
+      "avatar": "https://pbs.twimg.com/profile_images/2064269397582385152/D2rjc6wa_200x200.jpg",
+      "text": "本地能跑 MiniMax H3 之后，都以为 AI 短剧的门槛天塌了\n\n真正去做才发现，要把小说改成剧本然后分镜制作就必须得先固定人物角色。\n\n我开源了一个 skill 专门来做这件事，Claude Code / Codex 都能跑：\n- 丢一本小说进去，AI 自动拆出每个角色：人物画像 + 卡通形象 prompt + 音色 prompt\n- 如果你装的有 codex cli 环境，还会调用 Codex 生成角色三视图\n- 一条命令 /novel-characters ./你的小说.txt 跑完\n\n走你当前订阅的额度，不用另配 API key。最终会生成一个 report 页面以供审阅\n\n项目地址：http://github.com/eternityspring/shuohao-skills\n\n欢迎感兴趣的朋友评论区交流。",
+      "url": "https://x.com/eternityspring/status/2085328009704493196",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPCGuSra0AEubma.jpg?name=orig"
+        }
+      ],
+      "metrics": "49 REPLIES · 243 REPOSTS · 1,469 LIKES · 173,068 VIEWS"
+    },
+    "_article": null,
+    "_metrics": "97 REPLIES · 191 REPOSTS · 1,252 LIKES · 111,193 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-10T05:19:57.901Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-08T14:26:52.000Z"
+    }
+  },
   {
     "TweetID": "2086094717348127049",
     "TwitterUserID": "1225462582280015879",
@@ -80,6 +521,44 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-08T13:05:36.000Z"
+    }
+  },
+  {
+    "TweetID": "2086063663644135747",
+    "TwitterUserID": "1397073722213736453",
+    "UserScreenName": "CycleDecoded",
+    "UserProfileName": "智享",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2079038165957148672/T14d-3GB_200x200.jpg",
+    "TweetText": "外面的设计公司要收你几千块的 Logo 设计费，Vercel 大牛直接给开源刷爆了。  \n\nGitHub 爆火的开源 AI Logo 生成器 Logocreator，由知名开发者 Nutlope 打造。基于 Together AI 的 FLUX 模型驱动，目前在 GitHub 已斩获 7.6k+ Star（MIT 开源协议）。你只需要输入品牌名和简单描述，几秒钟就能生成媲美专业设计师的高清 Logo。\n\n秒级出图：输入 Prompt，一键吐出高质感品牌标识\n\nFLUX 加持：基于顶级 FLUX 图像大模型，文字不崩、线条贼稳  \n\n完全免费：无需复杂注册，支持填自己的 API Key 无限刷  \n\n二次修改：集成 FLUX.1 Kontext，生成的 Logo 能随时局部微调  \n\n开箱即用：基于 Next.js + Tailwind 构建，几分钟就能自己部署一套  \n\n🔗 体验网址：https://www.logo-creator.io/\n📦 GitHub 开源：https://github.com/Nutlope/logocreator",
+    "Tweet Url": "https://x.com/CycleDecoded/status/2086063663644135747",
+    "TweetCreatedDate": "2026-08-08T12:15:09.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPMvxqWbMAAllmb.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Design",
+      "Tool"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPMvxqWbMAAllmb.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "31 REPLIES · 189 REPOSTS · 1,045 LIKES · 50,485 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-10T05:19:57.901Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-08T12:15:09.000Z"
     }
   },
   {
@@ -14236,4 +14715,5 @@ window.LIKED_BACKFILL = [
       "observedDatetime": "2026-01-16T13:46:01.000Z"
     }
   }
-].sort((a, b) => new Date(b.TweetCreatedDate) - new Date(a.TweetCreatedDate));
+]
+  .sort((a, b) => new Date(b.TweetCreatedDate) - new Date(a.TweetCreatedDate));
