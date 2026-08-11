@@ -2738,6 +2738,455 @@ const UNLIKED_KEY = 'x_collection_unliked_ids_v1';
 const HOME_FEED = [
   ...(window.HOME_BACKFILL || []),
   {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-11T01:16:00.000Z",
+    "author": "撸毛吃猪脚饭|Gate美股0费率",
+    "handle": "mnmn94253156337",
+    "avatar": "https://pbs.twimg.com/profile_images/2042784201985134593/YKTwnAuW_200x200.jpg",
+    "title": "OpenChatCut 用 MCP 直接修改多轨时间线",
+    "summary": "OpenChatCut 让 AI 直接改真实可编辑的多轨时间线，覆盖删除停顿、字幕、音乐、转场、LUT、绿幕和导出工程。它的价值在于把自动粗剪和人工精调放进同一个可审查项目，而不是模拟鼠标操作剪辑软件。",
+    "url": "https://x.com/mnmn94253156337/status/2086984948335136971",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086984840549994496/vid/avc1/1280x720/VQVxwSVerk7dWfXo.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086984840549994496/img/VmJwhb7bWWGQxMEI.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "13 REPLIES · 0 REPOSTS · 15 LIKES · 146 VIEWS"
+  },
+  {
+    "category": "AI DEV TOOL",
+    "datetime": "2026-08-11T01:05:05.000Z",
+    "author": "Escha Labs",
+    "handle": "Eschalabs",
+    "avatar": "https://pbs.twimg.com/profile_images/2082217520833159168/znze1Sml_200x200.jpg",
+    "title": "Escha 2-bit 模型格式接入 Apple Silicon MLX",
+    "summary": "Escha 开源 escha-mlx，让 Escha 压缩模型可在 Apple Silicon 上原生运行，并支持 OpenAI-compatible serving、连续 batching 和 prefix caching。小模型/压缩格式的竞争正在下沉到端侧运行时和实际内存占用。",
+    "url": "https://x.com/Eschalabs/status/2086982202169135220",
+    "media": [],
+    "metrics": "2 REPLIES · 2 REPOSTS · 7 LIKES · 143 VIEWS",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Escha Labs",
+      "handle": "Eschalabs",
+      "avatar": "https://pbs.twimg.com/profile_images/2082217520833159168/znze1Sml_200x200.jpg",
+      "text": "Today we are introducing Escha-W2 quantization.\n\nA 2-bit Qwen3.6-35B-A3B model built for fast, local inference. The complete model is 12.3GB on disk—small, enough to run on a single consumer GPU — while averaging ~100% of FP8 performance across 12 benchmarks, including:\n\nMMLU-Pro: 80.9\nMATH-500: 93.8\nGPQA-Diamond: 77.8\nLiveCodeBench v6: 62.6\nBFCL tool use: 88.9\nRULER 8K–128K: 89.9\nCommonsense-6: 76.1\n\nOn a single RTX 4090, the model runs:\n225 tok/s single-stream generation\non 12.3GB on-disk model size\n\nCompressing a 35B MoE model this far without collapsing its capabilities required more than a standard quantization pass.\n\nWe built an end-to-end compression system combining state-of-the-art low-bit quantization with model-aware fine tuning and recovery to preserve capabilities most vulnerable to low-bit error.\n\nQuantizing the Qwen 3.6 35B model - from the base model to the final deployable checkpoint — took approximately 10 hours to complete.\n\nEscha-W2 runs through a custom Qwen3-MoE runtime, which includes the weight loader, low-bit decoding kernels and serving integration required to execute the Escha format efficiently. The runtime currently supports SGLang and ZML deployment. vLLM and llama.cpp will be supported in the next release.\n\nNo retraining from scratch. No specialized accelerator. One consumer GPU.\n\nModel download: https://huggingface.co/EschaLabs/Qwen3.6-35B-A3B-Escha-W2\nRuntime download: https://huggingface.co/EschaLabs/escha-runtime-qwen3moe\nApache-2.0 model and runtime.",
+      "url": "https://x.com/Eschalabs/status/2082223824284856324",
+      "media": [],
+      "article": {
+        "kind": "external",
+        "title": "EschaLabs/Qwen3.6-35B-A3B-Escha-W2 · Hugging Face",
+        "preview": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+        "url": "https://huggingface.co/EschaLabs/Qwen3.6-35B-A3B-Escha-W2",
+        "domain": "huggingface.co",
+        "cover": "https://pbs.twimg.com/card_img/2084673997388615680/eHPxbHDQ?format=jpg&name=800x419"
+      },
+      "metrics": "88 REPLIES · 133 REPOSTS · 1.3K LIKES · 187K VIEWS"
+    },
+    "article": {
+      "kind": "external",
+      "title": "GitHub - EschaLabs/escha-mlx: Run 35B-class LLMs in 12.3 GB on Apple Silicon: 2-bit escha runtime...",
+      "preview": "Run 35B-class LLMs in 12.3 GB on Apple Silicon: 2-bit escha runtime for MLX with bit-exact Metal kernels and OpenAI-compatible serving. - EschaLabs/escha-mlx",
+      "url": "https://github.com/EschaLabs/escha-mlx",
+      "domain": "github.com",
+      "cover": "https://pbs.twimg.com/card_img/2086982205381971968/bGJZWQt2?format=jpg&name=800x419"
+    }
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-11T01:00:08.000Z",
+    "author": "The Brand Identity",
+    "handle": "TweetsByTBI",
+    "avatar": "https://pbs.twimg.com/profile_images/1774761854306324480/-imXshxF_200x200.jpg",
+    "title": "Starling Bank 品牌动效框架被拆解",
+    "summary": "The Brand Identity 分享了 Starling Bank 品牌的 motion framework。值得看的是金融品牌如何把动效作为识别系统的一部分，而不是只做宣传视频包装。",
+    "url": "https://x.com/TweetsByTBI/status/2086980953491349811",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086980924374421504/vid/avc1/720x900/2xUKplUWrhkB5cXg.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086980924374421504/img/cXWlqjd-3sZwA4vz.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPZyHhvb0AAL_K4.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 213 VIEWS"
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-11T00:41:25.000Z",
+    "author": "オートレース【公式】",
+    "handle": "auto_official",
+    "avatar": "https://pbs.twimg.com/profile_images/2086830280242065409/i4JmKeRB_200x200.png",
+    "title": "Auto Race 14 年来首次品牌重塑",
+    "summary": "日本 Auto Race 公布 14 年来首次 rebranding，用更现代的 logo 和“やきつけろ。”标签线表达速度、热量和现场感。赛事品牌更新适合观察如何把感官体验压缩成符号和一句话。",
+    "url": "https://x.com/auto_official/status/2086976242633613795",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086975901267636224/vid/avc1/720x720/nE6wLFcIrV63Whcj.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086975901267636224/img/79ikRVmpm8xfJdox.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 314 VIEWS"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-11T00:15:18.000Z",
+    "author": "Reluctant Quant",
+    "handle": "DrMattCrowson",
+    "avatar": "https://pbs.twimg.com/profile_images/924360671814438912/9rTkqVrY_200x200.jpg",
+    "title": "Stream Deck Neo 被改造成 Codex Micro 控制台",
+    "summary": "Matt Crowson 把现有 Stream Deck Neo 改造成 coding agent 命令中心，用较低成本模拟 Codex Micro 一类硬件工作流。这个案例提示 AI 工具的物理入口可以先从可配置外设验证。",
+    "url": "https://x.com/DrMattCrowson/status/2086969672897896569",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086968529039839232/vid/avc1/720x788/3CHxkYLYDONMxb6Z.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086968529039839232/img/gskH1EnyjchFu31c.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 0 REPOSTS · 4 LIKES · 184 VIEWS"
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-10T23:11:26.000Z",
+    "author": "abdz.",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/1360807931503988738/Q9H6tKs0_200x200.jpg",
+    "title": "Mojo PMM 用毛绒角色做 SaaS Mascot Branding",
+    "summary": "abdz. 分享 The Unicorn Agency 为 Mojo PMM 做的 SaaS mascot branding。B2B 品牌用柔软角色降低工具感，是近期 SaaS 视觉从冷静界面转向可记忆人格的一个例子。",
+    "url": "https://x.com/abduzeedo/status/2086953599888933126",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/tweet_video/HPZZMBgaIAA5MjE.mp4",
+        "poster": "https://pbs.twimg.com/tweet_video_thumb/HPZZMBgaIAA5MjE.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPZZNuHaUAA56m7.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPZZO8TbcAABIRB.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 6 LIKES · 790 VIEWS"
+  },
+  {
+    "category": "AI NEWS",
+    "datetime": "2026-08-10T21:33:39.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "Claude 输出开始加入水印和 C2PA 元数据",
+    "summary": "Anthropic 开始给 Claude 生成文本加入机器可读水印，并给生成文件附加 C2PA 签名元数据。对产品设计来说，AI 内容溯源正在从“是否标注”变成 API、文件格式和检测工具的系统能力。",
+    "url": "https://x.com/dotey/status/2086928989549920678",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPZCva4WMAAXhXf.jpg?name=orig"
+      }
+    ],
+    "metrics": "43 REPLIES · 17 REPOSTS · 121 LIKES · 36K VIEWS"
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-10T20:29:36.000Z",
+    "author": "Dogan Ural",
+    "handle": "doganuraldesign",
+    "avatar": "https://pbs.twimg.com/profile_images/1840794096291442688/JrhE7vnL_200x200.jpg",
+    "title": "Dogan Ural 展示高完成度卡片动效",
+    "summary": "Dogan Ural 展示了一张质感很强的动态卡片。可借鉴点不是单个玻璃/阴影效果，而是层次、透视和进入节奏共同服务于一个很小的信息单元。",
+    "url": "https://x.com/doganuraldesign/status/2086912871292674202",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086896418124361728/vid/avc1/720x720/w9WuzRwmJPdlrcCR.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086896418124361728/img/VctJBDRc79Gft8D9.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "22 REPLIES · 8 REPOSTS · 92 LIKES · 5.4K VIEWS"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-10T20:10:28.000Z",
+    "author": "Apple Hub",
+    "handle": "theapplehub",
+    "avatar": "https://pbs.twimg.com/profile_images/1950994510047006723/VEDB1XpP_200x200.jpg",
+    "title": "iOS 27 beta 5 曝出多枚系统图标更新",
+    "summary": "The Apple Hub 汇总了 iOS 27 beta 5 中 Preview、Siri、Safari 和 Settings 的新图标。系统级图标的变化值得跟踪，因为它会影响后续三方应用对材质、层级和拟物程度的判断。",
+    "url": "https://x.com/theapplehub/status/2086908056097751167",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPYvzxpbAAAtusv.jpg?name=orig"
+      }
+    ],
+    "metrics": "23 REPLIES · 56 REPOSTS · 1.4K LIKES · 49K VIEWS"
+  },
+  {
+    "category": "AI RESEARCH",
+    "datetime": "2026-08-10T19:48:03.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "Claude 推进黎曼 ζ 零点比例下界",
+    "summary": "宝玉整理了 Anthropic/Jarred Sumner 披露的 Claude 数学研究进展：未发布研究版 Claude 没有证明黎曼猜想，但把相关零点比例下界推进到 67.2%。这类案例值得看的是 AI 从解题助手走向可审阅研究流程。",
+    "url": "https://x.com/dotey/status/2086902418139128225",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPYqrY9WoAAnJBs.jpg?name=orig"
+      }
+    ],
+    "metrics": "38 REPLIES · 59 REPOSTS · 376 LIKES · 145K VIEWS",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Jarred Sumner",
+      "handle": "jarredsumner",
+      "avatar": "https://pbs.twimg.com/profile_images/1342417825483300864/Vz4ChOFG_200x200.jpg",
+      "text": "8 days ago, while jogging, I asked Claude to solve the Riemann Hypothesis\n\nIt didn’t. 1.5 days later, it proved >= 67% of the zeros are on the line (prev: 41.6%)\n\nStill not sure what that means, but some analytic number theorists seem excited\n\nhttps://www.anthropic.com/research/riemann-zeta",
+      "url": "https://x.com/jarredsumner/status/2086869681785500011",
+      "media": [],
+      "article": {
+        "kind": "external",
+        "title": "Learning more about Claude's mathematical capabilities",
+        "preview": "An unreleased version of Claude has made strides on a problem related to the Riemann hypothesis. It improved the lower bound for the fraction of zeros of the Riemann zeta function that satisfy the...",
+        "url": "https://www.anthropic.com/research/riemann-zeta",
+        "domain": "www.anthropic.com",
+        "cover": "https://pbs.twimg.com/card_img/2086969052681945088/93NPBQsG?format=jpg&name=800x419"
+      },
+      "metrics": "106 REPLIES · 182 REPOSTS · 3.2K LIKES · 572K VIEWS"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-10T19:22:45.000Z",
+    "author": "Andreas Storm",
+    "handle": "avstorm",
+    "avatar": "https://pbs.twimg.com/profile_images/1597285797316759566/e8EWx4QR_200x200.jpg",
+    "title": "iOS 27 状态栏信号与控制中心图标同步调整",
+    "summary": "Aaron Perris 观察到 iOS 27 Beta 5 提高了状态栏蜂窝信号柱高度，并同步更新控制中心图标。小尺寸系统图标的节奏变化，是判断新视觉语言是否自洽的好切口。",
+    "url": "https://x.com/avstorm/status/2086896049805758896",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPYkUMPXEAANtno.jpg?name=orig"
+      }
+    ],
+    "metrics": "15 REPLIES · 15 REPOSTS · 467 LIKES · 98K VIEWS"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-10T18:00:49.000Z",
+    "author": "JcToon",
+    "handle": "HelloJcToon",
+    "avatar": "https://pbs.twimg.com/profile_images/1082589000479752192/mObYMtb2_200x200.jpg",
+    "title": "Rive 蛇形动画教程拆解 rig、mesh 与权重",
+    "summary": "Jc Toon 公开了用 Rive 制作蛇形动画的视频教程，拆解 rig、auto trace、auto weight 和动画机制。它展示了动效工具如何把角色动画从关键帧经验转成可复用的结构化流程。",
+    "url": "https://x.com/HelloJcToon/status/2086875431626838220",
+    "media": [],
+    "metrics": "2 REPLIES · 7 REPOSTS · 50 LIKES · 2.5K VIEWS",
+    "article": {
+      "kind": "external",
+      "title": "Demonstrating the new mesh and weighting features in Rive",
+      "preview": "In this video, JC demonstrates the new Auto Trace and Auto Weight/S...",
+      "url": "https://www.youtube.com/watch?v=0V3rK90K7HA",
+      "domain": "www.youtube.com",
+      "cover": "https://pbs.twimg.com/card_img/2086875201917382656/MXHmIXQB?format=jpg&name=600x314"
+    }
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-10T17:21:50.000Z",
+    "author": "Khlaseek designer",
+    "handle": "Khlaseek_dsgner",
+    "avatar": "https://pbs.twimg.com/profile_images/1995459482122416128/J68vPonP_200x200.jpg",
+    "title": "Figma Motion 制作 Stelar 角色动效",
+    "summary": "Khlaseek designer 用 Figma Motion 为 Stelar_app 做角色动画，覆盖角色呈现、叙事感、声音和动效细节。它说明 Figma Motion 正在被创作者用于更完整的品牌角色表达。",
+    "url": "https://x.com/Khlaseek_dsgner/status/2086865621023633609",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086865525963923456/vid/avc1/1108x720/dHfYqYxmuUT3nedP.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086865525963923456/img/LavzTt5z9NzCu0NW.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "6 REPLIES · 8 REPOSTS · 24 LIKES · 1.1K VIEWS",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Khlaseek designer",
+      "handle": "Khlaseek_dsgner",
+      "avatar": "https://pbs.twimg.com/profile_images/1995459482122416128/J68vPonP_200x200.jpg",
+      "text": "Keep your eyes open, stela is coming 🚀🔥💜\n\nSpent some hours bringing the Stela mascot to life in @figma . \n\nI'm sure my sensei @miggi would be happy to see this😅, he draws and animates too. Really good at physical drawing.",
+      "url": "https://x.com/Khlaseek_dsgner/status/2086208462283751690",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2086208388132741120/vid/avc1/576x1024/ThUPublBJeAtSYBa.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2086208388132741120/img/n4ViEzzcLdOZU7KO.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "article": null,
+      "metrics": "3 REPLIES · 3 REPOSTS · 26 LIKES · 2.7K VIEWS"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-10T17:21:28.000Z",
+    "author": "Dot",
+    "handle": "usedotai",
+    "avatar": "https://pbs.twimg.com/profile_images/2059336975472037888/jST1Tr4s_200x200.jpg",
+    "title": "Dot Motion 把一句 brief 变成 campaign film",
+    "summary": "Dot 发布 Motion，定位为自动创意工作室：Kimi K3 负责概念、视觉身份、脚本和镜头表，图像/视频模型生成素材，再由程序化 studio 组装成完整 campaign film。重点是多步骤创意流程的统一编排。",
+    "url": "https://x.com/usedotai/status/2086865526262043082",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086864566567227392/vid/avc1/1280x720/KxZreiLuk9yUEw6z.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086864566567227392/img/fHhR7bWFZazOU3lZ.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "10 REPLIES · 22 REPOSTS · 78 LIKES · 2.7K VIEWS"
+  },
+  {
+    "category": "AI NEWS",
+    "datetime": "2026-08-10T17:16:51.000Z",
+    "author": "OpenAI",
+    "handle": "OpenAI",
+    "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+    "title": "OpenAI 发布 Daybreak 扩展与 GPT-5.6-Cyber",
+    "summary": "OpenAI 扩展 Daybreak 网络安全计划，并推出面向授权防御工作的 GPT-5.6-Cyber。值得关注的是，模型能力被明确限定在可信防守者场景，而不是泛化成无边界的攻防工具。",
+    "url": "https://x.com/OpenAI/status/2086864365379010729",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086860232311861248/vid/avc1/1280x720/miNM3hLWzB05SfrI.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086860232311861248/img/gO9CLOCWUWA1EHaK.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "348 REPLIES · 503 REPOSTS · 6K LIKES · 1.2M VIEWS"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-10T16:38:46.000Z",
+    "author": "Paper",
+    "handle": "paper",
+    "avatar": "https://pbs.twimg.com/profile_images/1871241842819514370/4o6kawe4_200x200.jpg",
+    "title": "Paper 上线 Lens Distortion shader",
+    "summary": "Paper 发布 Lens Distortion shader。这个更新适合关注，因为实验性视觉效果正在被包装成可直接调用的设计工具能力，而不只是孤立的 shader demo。",
+    "url": "https://x.com/paper/status/2086854781998637320",
+    "media": [],
+    "metrics": "1 REPLIES · 0 REPOSTS · 62 LIKES · 4.5K VIEWS",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Stephen Haney",
+      "handle": "stephenhaney",
+      "avatar": "https://pbs.twimg.com/profile_images/1998948097662259200/PfaIVhfU_200x200.jpg",
+      "text": "Happy Monday\n\nIt's new shader day! Lens Distortion is here in Paper.\n\n• Fisheye\n• Duotone\n• Smoke\n• Way more\n\nWe poured love into the details with this one. I can't wait to see what you design.\n\nAvailable now in Paper 🎥",
+      "url": "https://x.com/stephenhaney/status/2086853547153584315",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2086852610909478912/vid/avc1/1280x720/lyTduifvmX1REg41.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2086852610909478912/img/kTnr98X2_gGvTDxO.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "article": null,
+      "metrics": "18 REPLIES · 6 REPOSTS · 246 LIKES · 16K VIEWS"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-10T16:32:31.000Z",
+    "author": "Wonder",
+    "handle": "usewonder",
+    "avatar": "https://pbs.twimg.com/profile_images/2045192997797519361/yHA1qzir_200x200.jpg",
+    "title": "Wonder 接入 GitHub 减少重复搭建",
+    "summary": "Wonder 发布 GitHub integration，强调不再重复重建代码库里已经存在的东西。对 AI 构建工具来说，理解现有工程资产比单纯生成新界面更接近真实团队工作流。",
+    "url": "https://x.com/usewonder/status/2086853206760374451",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086843546779181056/vid/avc1/1280x720/VKIkScVpX2C_DiGy.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086843546779181056/img/gCN3-2fgEFbKV_d9.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "23 REPLIES · 11 REPOSTS · 109 LIKES · 20K VIEWS"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-10T16:18:03.000Z",
+    "author": "Doruk",
+    "handle": "dorukkavcioglu",
+    "avatar": "https://pbs.twimg.com/profile_images/2015829562970533912/eQ84sFnB_200x200.jpg",
+    "title": "Diffusion Studio 把视频剪辑开放给 Coding Agent",
+    "summary": "Diffusion Studio 发布开源版本和 macOS app，让 Claude Code、Codex、Cursor 等 coding agent 可以分析素材、生成媒体并编辑视频。AI 视频工具开始从“生成片段”转向可编排、可回退的专业剪辑流程。",
+    "url": "https://x.com/dorukkavcioglu/status/2086849566372946141",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086848605365710848/vid/avc1/1440x720/BPYldSVPheeDpMS2.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086848605365710848/img/TRyqxQ-564A-aegO.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "13 REPLIES · 11 REPOSTS · 176 LIKES · 31K VIEWS"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-10T16:16:12.000Z",
+    "author": "Craft.do",
+    "handle": "craftdocsapp",
+    "avatar": "https://pbs.twimg.com/profile_images/1826260006120964096/0tV9yJpb_200x200.jpg",
+    "title": "Craft 3.5.4 加入 Mac Quick Entry 与 Daily Templates",
+    "summary": "Craft 新版本加入系统级 Quick Entry、Daily Notes 模板和导入改进。笔记产品的更新点不大，但方向很清楚：减少捕捉入口摩擦，并把日常重复结构做成模板。",
+    "url": "https://x.com/craftdocsapp/status/2086849102638186902",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPX5pDkWQAAFPWg.jpg?name=orig"
+      }
+    ],
+    "metrics": "2 REPLIES · 2 REPOSTS · 45 LIKES · 4K VIEWS"
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-10T16:08:31.000Z",
+    "author": "goo.vision",
+    "handle": "goo_vision",
+    "avatar": "https://pbs.twimg.com/profile_images/2023487210302173190/fVNP9plu_200x200.jpg",
+    "title": "goo.vision 用 Flux 3 生成鱼群视觉实验",
+    "summary": "goo.vision 发布 “Fishes with Flux 3” 视频。它不是工具发布，但作为关注流视觉作品，能观察生成式影像在材质、运动和潜空间风格上的最新表现。",
+    "url": "https://x.com/goo_vision/status/2086847170414563493",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086847029217546240/vid/avc1/978x720/PVDHOH93xFzYI2Fu.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086847029217546240/img/8CtXDR-RjTdvP_Ur.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 18 REPOSTS · 130 LIKES · 2.7K VIEWS"
+  },
+  {
     "category": "DESIGN TOOL",
     "datetime": "2026-08-10T04:59:18.000Z",
     "author": "fafa",
