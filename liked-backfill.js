@@ -1,4 +1,4 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-11T01:35:03.323Z.
+// Generated from authenticated X Likes via ego-browser on 2026-08-11T05:16:15.445Z.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
   {
@@ -206,7 +206,7 @@ window.LIKED_BACKFILL = [
     "UserScreenName": "jasonfesta",
     "UserProfileName": "Jason Festa",
     "UserProfilePic": "https://pbs.twimg.com/profile_images/2086781809874923520/73ltNF6j_200x200.jpg",
-    "TweetText": "",
+    "TweetText": "https://t.co/y0BPWh2YG8",
     "Tweet Url": "https://x.com/jasonfesta/status/2086773813849596299",
     "TweetCreatedDate": "2026-08-10T11:17:02.000Z",
     "MediaType": "video",
@@ -712,6 +712,55 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-09T18:59:56.000Z"
+    }
+  },
+  {
+    "TweetID": "2086523169922331090",
+    "TwitterUserID": "249795230",
+    "UserScreenName": "AmirMushich",
+    "UserProfileName": "AmirMušić",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1872350781686321152/P-st4llY_200x200.jpg",
+    "TweetText": "Image-to-Conductive circuit board / GPT Image [dir. v8]\n\nLeverage my method of Asset shifting - a variable-based prompt system that turns any logo/icon into visual style you need\nThis time we turn logos into realistic PCBs\n\nPrompt 🔽",
+    "Tweet Url": "https://x.com/AmirMushich/status/2086523169922331090",
+    "TweetCreatedDate": "2026-08-09T18:41:04.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPTOzqHXMAAhZew.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Design"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPTOzqHXMAAhZew.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPTOzbGXoAI3SBz.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPTOz6MW4AABevU.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPTOzfsWQAA_LpJ.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "12 REPLIES · 8 REPOSTS · 117 LIKES · 21K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-11T05:16:15.445Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 999,
+      "observedDatetime": "2026-08-09T18:41:04.000Z"
     }
   },
   {
@@ -2530,6 +2579,43 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 17,
       "observedDatetime": "2026-08-06T11:36:36.000Z"
+    }
+  },
+  {
+    "TweetID": "2085328009704493196",
+    "TwitterUserID": "2765417028",
+    "UserScreenName": "eternityspring",
+    "UserProfileName": "烁皓",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2064269397582385152/D2rjc6wa_200x200.jpg",
+    "TweetText": "本地能跑 MiniMax H3 之后，都以为 AI 短剧的门槛天塌了\n\n真正去做才发现，要把小说改成剧本然后分镜制作就必须得先固定人物角色。\n\n我开源了一个 skill 专门来做这件事，Claude Code / Codex 都能跑：\n- 丢一本小说进去，AI 自动拆出每个角色：人物画像 + 卡通形象 prompt + 音色 prompt\n- 如果你装的有 codex cli 环境，还会调用 Codex 生成角色三视图\n- 一条命令 /novel-characters ./你的小说.txt 跑完\n\n走你当前订阅的额度，不用另配 API key。最终会生成一个 report 页面以供审阅\n\n项目地址：http://github.com/eternityspring/shuohao-skills\n\n欢迎感兴趣的朋友评论区交流。",
+    "Tweet Url": "https://x.com/eternityspring/status/2085328009704493196",
+    "TweetCreatedDate": "2026-08-06T11:31:55.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPCGuSra0AEubma.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Design"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPCGuSra0AEubma.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "49 REPLIES · 246 REPOSTS · 1.5K LIKES · 184K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-11T05:16:15.445Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 999,
+      "observedDatetime": "2026-08-06T11:31:55.000Z"
     }
   },
   {
