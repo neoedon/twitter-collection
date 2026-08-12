@@ -175,6 +175,233 @@
       gap: var(--col-gap);
     }
 
+    /* === DESIGNER ANALYSIS === */
+    .analysis-view {
+      max-width: 1120px;
+    }
+
+    .analysis-view .header {
+      margin-bottom: var(--space-lg);
+    }
+
+    .analysis-summary {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1px;
+      margin-bottom: var(--space-xl);
+      border: 1px solid var(--border);
+      background: var(--border);
+    }
+
+    .analysis-stat {
+      min-height: 72px;
+      padding: 14px 16px;
+      background: var(--bg);
+    }
+
+    .analysis-stat strong {
+      display: block;
+      margin-bottom: 5px;
+      color: var(--text-display);
+      font-family: 'Space Mono', monospace;
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0;
+    }
+
+    .analysis-stat span {
+      color: var(--text-disabled);
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .analysis-day {
+      margin-bottom: var(--space-xl);
+    }
+
+    .analysis-day-heading {
+      display: flex;
+      justify-content: space-between;
+      gap: var(--space-sm);
+      margin-bottom: var(--space-md);
+      padding-bottom: var(--space-xs);
+      border-bottom: 1px solid var(--border);
+      color: var(--text-disabled);
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .analysis-day-heading .date {
+      color: var(--text-display);
+    }
+
+    .analysis-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-md);
+    }
+
+    .analysis-card {
+      min-width: 0;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: rgba(255,255,255,0.015);
+      overflow: hidden;
+    }
+
+    .analysis-card-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: var(--space-sm);
+      padding: 16px 16px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .analysis-card-title {
+      margin: 0;
+      color: var(--text-display);
+      font-size: 16px;
+      line-height: 1.35;
+      font-weight: 560;
+    }
+
+    .analysis-card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+      color: var(--text-disabled);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .analysis-priority {
+      flex: 0 0 auto;
+      padding: 3px 7px;
+      border: 1px solid var(--border-visible);
+      border-radius: 999px;
+      color: var(--text-primary);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .analysis-card-body {
+      padding: 14px 16px 16px;
+    }
+
+    .analysis-section + .analysis-section {
+      margin-top: 14px;
+    }
+
+    .analysis-section-title {
+      margin-bottom: 5px;
+      color: var(--text-disabled);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .analysis-section p,
+    .analysis-section li {
+      color: var(--text-primary);
+      font-size: 13px;
+      line-height: 1.58;
+    }
+
+    .analysis-section ul,
+    .analysis-section ol {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .analysis-link-list {
+      display: grid;
+      gap: 8px;
+    }
+
+    .analysis-link-item {
+      display: block;
+      padding: 9px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-primary);
+      background: rgba(255,255,255,0.018);
+      text-decoration: none;
+    }
+
+    .analysis-link-item:hover {
+      border-color: var(--border-visible);
+      color: var(--text-display);
+    }
+
+    .analysis-link-item strong {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .analysis-link-item span {
+      color: var(--text-secondary);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .analysis-chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 14px;
+    }
+
+    .analysis-chip {
+      padding: 3px 7px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--text-disabled);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .analysis-source {
+      display: inline-flex;
+      margin-top: 14px;
+      color: var(--text-secondary);
+      font-family: 'Space Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .analysis-source:hover {
+      color: var(--text-display);
+    }
+
+    .analysis-empty {
+      min-height: 220px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px dashed var(--border-visible);
+      color: var(--text-disabled);
+      font-family: 'Space Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
     /* === MEDIA BROWSER === */
     .media-view {
       --media-nav-clearance: 100px;
@@ -1473,7 +1700,7 @@
       position: fixed;
       left: 50%;
       bottom: max(4px, calc(env(safe-area-inset-bottom) - 12px));
-      width: min(320px, 100vw);
+      width: min(384px, 100vw);
       height: 96px;
       transform: translateX(-50%);
       opacity: 0;
@@ -1486,10 +1713,10 @@
       left: 50%;
       bottom: max(20px, env(safe-area-inset-bottom));
       z-index: 1;
-      width: min(288px, calc(100vw - 32px));
+      width: min(352px, calc(100vw - 32px));
       height: var(--tab-bar-height);
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(5, 1fr);
       gap: 2px;
       padding: 6px;
       border: 1px solid rgba(255,255,255,0.18);
@@ -2218,6 +2445,8 @@
       }
       .home-summary { max-width: 120px; }
       .digest-card { grid-template-columns: 1fr; }
+      .analysis-summary { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .analysis-grid { grid-template-columns: 1fr; }
       .scroll-top {
         right: max(16px, calc(50vw - 200px));
         bottom: calc(max(10px, env(safe-area-inset-bottom)) + 10px);
@@ -2311,12 +2540,12 @@
     }
 
     @media (max-width: 415px) {
-      .bottom-tab-bar { width: 264px; }
+      .bottom-tab-bar { width: min(320px, calc(100vw - 32px)); }
       .scroll-top { right: max(8px, calc(50vw - 188px)); }
     }
 
     @media (max-width: 350px) {
-      .bottom-tab-bar { width: min(264px, calc(100vw - 32px)); }
+      .bottom-tab-bar { width: min(304px, calc(100vw - 24px)); }
       .scroll-top {
         right: 12px;
         bottom: calc(max(10px, env(safe-area-inset-bottom)) + 76px);
@@ -2588,6 +2817,22 @@
     </div>
   </section>
 
+  <section class="app-view analysis-view" id="analysisView" data-view="analysis">
+    <header class="header">
+      <div class="header-top">
+        <div>
+          <div class="view-kicker">DESIGNER ANALYSIS · <span id="analysisDateRange">LATEST</span></div>
+          <h1 class="title">INSIGHTS</h1>
+        </div>
+        <div class="stats">
+          <span class="count" id="analysisItemCount">---</span>
+          ANALYZED
+        </div>
+      </div>
+    </header>
+    <div id="analysisMount"></div>
+  </section>
+
   <section class="app-view search-view" id="searchView" data-view="search">
     <header class="header">
       <div class="header-top">
@@ -2651,6 +2896,9 @@
       </button>
       <button class="tab-button" data-tab="likes" aria-label="Likes and bookmarks">
         <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M20.8 9.2c0 5.5-8.8 10.3-8.8 10.3S3.2 14.7 3.2 9.2A4.7 4.7 0 0 1 12 6.9a4.7 4.7 0 0 1 8.8 2.3Z"/></svg>
+      </button>
+      <button class="tab-button" data-tab="analysis" aria-label="Designer analysis">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M5 4.5h9l5 5v10a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 5 19.5Z"/><path d="M14 4.5V10h5"/><path d="M8.5 14h7"/><path d="M8.5 17h5"/></svg>
       </button>
       <button class="tab-button" data-tab="search" aria-label="Search and filter">
         <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
@@ -2728,6 +2976,7 @@
 
 <script src="home-backfill.js"></script>
 <script src="liked-backfill.js"></script>
+<script src="designer-analysis.js"></script>
 <script>
 const BATCH_SIZE = 40;
 const STORAGE_KEY = 'x_collection_tweets';
@@ -11604,6 +11853,8 @@ function homeItemToTweet(item, index) {
 }
 
 const HOME_TWEETS = HOME_FEED.map(homeItemToTweet);
+const DESIGNER_ANALYSIS = Array.isArray(window.DESIGNER_ANALYSIS) ? window.DESIGNER_ANALYSIS : [];
+const APP_TABS = ['home', 'likes', 'analysis', 'search', 'media'];
 
 let allTweets = [];
 let filteredTweets = [];
@@ -13691,6 +13942,143 @@ function renderHomeFeed() {
   document.getElementById('homeItemCount').textContent = `${visibleHomeTweets.length} 条精选`;
   document.getElementById('homeDateRange').textContent = formatHomeDateRange(visibleHomeTweets);
 }
+
+function normalizeDesignerAnalysisReports() {
+  return DESIGNER_ANALYSIS
+    .filter(report => report && Array.isArray(report.items))
+    .map(report => ({
+      ...report,
+      items: report.items.filter(Boolean),
+      generatedAt: report.generatedAt || report.date || '',
+      date: report.date || (report.generatedAt ? report.generatedAt.slice(0, 10) : '')
+    }))
+    .sort((a, b) => new Date(b.generatedAt || b.date) - new Date(a.generatedAt || a.date));
+}
+
+function formatAnalysisDate(value) {
+  if (!value) return 'UNKNOWN';
+  const date = new Date(value.includes('T') ? value : `${value}T12:00:00+08:00`);
+  if (Number.isNaN(date.getTime())) return value;
+  return new Intl.DateTimeFormat('zh-CN', {
+    timeZone: 'Asia/Shanghai',
+    month: 'long',
+    day: 'numeric'
+  }).format(date);
+}
+
+function countAnalysisLinks(items) {
+  return items.reduce((count, item) => count + (Array.isArray(item.linkAnalysis) ? item.linkAnalysis.length : 0), 0);
+}
+
+function renderAnalysisText(label, text) {
+  if (!text) return '';
+  return `<section class="analysis-section">
+    <div class="analysis-section-title">${escapeHTML(label)}</div>
+    <p>${escapeHTML(text)}</p>
+  </section>`;
+}
+
+function renderAnalysisList(label, values, ordered = false) {
+  if (!Array.isArray(values) || !values.length) return '';
+  const tag = ordered ? 'ol' : 'ul';
+  return `<section class="analysis-section">
+    <div class="analysis-section-title">${escapeHTML(label)}</div>
+    <${tag}>${values.map(value => `<li>${escapeHTML(String(value))}</li>`).join('')}</${tag}>
+  </section>`;
+}
+
+function renderAnalysisLinks(links) {
+  if (!Array.isArray(links) || !links.length) return '';
+  return `<section class="analysis-section">
+    <div class="analysis-section-title">LINK VALUE</div>
+    <div class="analysis-link-list">
+      ${links.map(link => {
+        const title = link.title || link.url || 'Linked page';
+        const value = [link.value, link.learningValue, link.access ? `access: ${link.access}` : '']
+          .filter(Boolean)
+          .join(' ');
+        return `<a class="analysis-link-item" href="${escapeHTML(link.url || '#')}" target="_blank" rel="noopener">
+          <strong>${escapeHTML(title)}</strong>
+          ${value ? `<span>${escapeHTML(value)}</span>` : ''}
+        </a>`;
+      }).join('')}
+    </div>
+  </section>`;
+}
+
+function renderAnalysisCard(item, index) {
+  const title = item.title || cleanText(item.text || item.TweetText || '').slice(0, 90) || 'Untitled analysis';
+  const sourceTab = (item.sourceTab || item.source || '').toUpperCase();
+  const author = item.author || item.UserProfileName || '';
+  const handle = (item.handle || item.UserScreenName || '').replace(/^@/, '');
+  const datetime = item.datetime || item.TweetCreatedDate || '';
+  const priority = item.priority || item.learningPriority || '';
+  const tags = Array.isArray(item.tags) ? item.tags : (Array.isArray(item._tags) ? item._tags : []);
+  const statusUrl = item.statusUrl || item.url || item['Tweet Url'] || '';
+
+  return `<article class="analysis-card" style="animation-delay:${(index % 20) * 20}ms">
+    <div class="analysis-card-head">
+      <div>
+        <h2 class="analysis-card-title">${escapeHTML(title)}</h2>
+        <div class="analysis-card-meta">
+          ${sourceTab ? `<span>${escapeHTML(sourceTab)}</span>` : ''}
+          ${author ? `<span>${escapeHTML(author)}</span>` : ''}
+          ${handle ? `<span>@${escapeHTML(handle)}</span>` : ''}
+          ${datetime ? `<span>${escapeHTML(formatDate(datetime))}</span>` : ''}
+        </div>
+      </div>
+      ${priority ? `<span class="analysis-priority">${escapeHTML(priority)}</span>` : ''}
+    </div>
+    <div class="analysis-card-body">
+      ${renderAnalysisText('SUMMARY', item.originalSummary || item.summary)}
+      ${renderAnalysisText('WHY SAVED', item.whySaved)}
+      ${renderAnalysisText('WHY CAPTURED', item.whyCaptured)}
+      ${renderAnalysisText('DEEP READ', item.deepSummary || item.deepRead)}
+      ${renderAnalysisLinks(item.linkAnalysis)}
+      ${renderAnalysisList('LEARNING ACTIONS', item.learningActions || item.studyActions, true)}
+      ${tags.length ? `<div class="analysis-chip-row">${tags.map(tag => `<span class="analysis-chip">${escapeHTML(tag)}</span>`).join('')}</div>` : ''}
+      ${statusUrl ? `<a class="analysis-source" href="${escapeHTML(statusUrl)}" target="_blank" rel="noopener">OPEN ORIGINAL -></a>` : ''}
+    </div>
+  </article>`;
+}
+
+function renderDesignerAnalysis() {
+  const mount = document.getElementById('analysisMount');
+  if (!mount) return;
+  const reports = normalizeDesignerAnalysisReports();
+  const allItems = reports.flatMap(report => report.items);
+  const homeCount = allItems.filter(item => String(item.sourceTab || item.source || '').toLowerCase() === 'home').length;
+  const likeCount = allItems.filter(item => String(item.sourceTab || item.source || '').toLowerCase().includes('like')).length;
+  const linkCount = countAnalysisLinks(allItems);
+
+  document.getElementById('analysisItemCount').textContent = allItems.length;
+  document.getElementById('analysisDateRange').textContent = reports[0]?.date ? formatAnalysisDate(reports[0].date) : 'NO DATA';
+
+  if (!reports.length) {
+    mount.innerHTML = '<div class="analysis-empty">NO DESIGNER ANALYSIS YET</div>';
+    return;
+  }
+
+  mount.innerHTML = `<div class="analysis-summary">
+    <div class="analysis-stat"><strong>${allItems.length}</strong><span>Total analyzed</span></div>
+    <div class="analysis-stat"><strong>${homeCount}</strong><span>Home signals</span></div>
+    <div class="analysis-stat"><strong>${likeCount}</strong><span>Like signals</span></div>
+    <div class="analysis-stat"><strong>${linkCount}</strong><span>Links read</span></div>
+  </div>
+  ${reports.map(report => {
+    const items = report.items || [];
+    const analyzed = report.analysisCount || report.totalAnalyzed || items.length;
+    const inspected = report.linksInspected ?? countAnalysisLinks(items);
+    return `<section class="analysis-day">
+      <div class="analysis-day-heading">
+        <span class="date">${escapeHTML(formatAnalysisDate(report.date))} · ${escapeHTML(report.date || '')}</span>
+        <span>${analyzed} tweets · ${inspected} links</span>
+      </div>
+      ${report.summary ? `<section class="analysis-section"><p>${escapeHTML(report.summary)}</p></section>` : ''}
+      <div class="analysis-grid">${items.map(renderAnalysisCard).join('')}</div>
+    </section>`;
+  }).join('')}`;
+}
 // ── Card rendering ──
 function createCard(tweet, index, options = {}) {
   const card = document.createElement('div');
@@ -14908,7 +15296,7 @@ function setCollectionState(state) {
 }
 
 function setActiveTab(tab, updateHash = true) {
-  if (!['home', 'likes', 'search', 'media'].includes(tab)) tab = 'home';
+  if (!APP_TABS.includes(tab)) tab = 'home';
   const overlayOpen = document.getElementById('modalBackdrop').classList.contains('open')
     || document.getElementById('lightbox').classList.contains('open');
   if (tab === activeTab && overlayOpen) {
@@ -14943,6 +15331,9 @@ function setActiveTab(tab, updateHash = true) {
   } else if (tab === 'media') {
     cleanupCardVideos(document.getElementById('masonry'));
     renderMaterialBrowser();
+  } else if (tab === 'analysis') {
+    cleanupCardVideos(document.getElementById('masonry'));
+    renderDesignerAnalysis();
   } else {
     cleanupCardVideos(document.getElementById('masonry'));
   }
@@ -15120,8 +15511,9 @@ document.body.addEventListener('drop', (e) => {
   document.getElementById('countDisplay').textContent = allTweets.length;
   updateDataBar();
   renderHomeFeed();
+  renderDesignerAnalysis();
   const requestedTab = location.hash.replace('#', '');
-  setActiveTab(['home', 'likes', 'search', 'media'].includes(requestedTab) ? requestedTab : 'home', false);
+  setActiveTab(APP_TABS.includes(requestedTab) ? requestedTab : 'home', false);
   document.body.dataset.collectionReady = 'true';
   document.dispatchEvent(new Event('collection:ready'));
 
