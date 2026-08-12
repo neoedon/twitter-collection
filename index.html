@@ -389,6 +389,45 @@
       color: var(--text-display);
     }
 
+    .analysis-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .analysis-actions .analysis-source {
+      margin-top: 0;
+      align-items: center;
+    }
+
+    .analysis-post-button {
+      min-height: 34px;
+      padding: 0 11px;
+      border: 1px solid var(--border-visible);
+      border-radius: 999px;
+      color: var(--text-primary);
+      background: rgba(255,255,255,0.03);
+      font-family: 'Space Mono', monospace;
+      font-size: 9px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .analysis-post-button:hover,
+    .analysis-post-button:focus-visible {
+      color: var(--text-display);
+      border-color: rgba(255,255,255,0.5);
+      background: rgba(255,255,255,0.06);
+    }
+
+    .analysis-post-button:disabled {
+      cursor: not-allowed;
+      opacity: 0.44;
+    }
+
     .analysis-empty {
       min-height: 220px;
       display: flex;
@@ -597,6 +636,13 @@
       top: 8px;
       left: 8px;
       z-index: 3;
+      width: 22px;
+      height: 22px;
+    }
+
+    .material-unlike svg {
+      width: 9px;
+      height: 9px;
     }
 
     .material-media-error {
@@ -13960,6 +14006,28 @@ function getAnalysisItemId(item) {
   return String(item.id || url.match(/status\/(\d+)/)?.[1] || url || item.title || '');
 }
 
+function findAnalysisSourcePost(item) {
+  const id = getAnalysisItemId(item);
+  if (!id) return null;
+  const collections = [
+    String(item.sourceTab || item.source || '').toLowerCase() === 'home' ? HOME_TWEETS : null,
+    allTweets,
+    HOME_TWEETS
+  ].filter(Array.isArray);
+  for (const collection of collections) {
+    const index = collection.findIndex(tweet => getPersistentTweetId(tweet) === id);
+    if (index >= 0) return { collection, index };
+  }
+  return null;
+}
+
+function openAnalysisSourcePost(item) {
+  const source = findAnalysisSourcePost(item);
+  if (!source) return false;
+  openModalAt(source.index, source.collection);
+  return true;
+}
+
 function groupDesignerAnalysisReports(reports) {
   const groups = new Map();
   reports.forEach(report => {
@@ -14065,6 +14133,8 @@ function renderAnalysisCard(item, index) {
   const priority = item.priority || item.learningPriority || '';
   const tags = Array.isArray(item.tags) ? item.tags : (Array.isArray(item._tags) ? item._tags : []);
   const statusUrl = item.statusUrl || item.url || item['Tweet Url'] || '';
+  const analysisId = getAnalysisItemId(item);
+  const canOpenPost = Boolean(findAnalysisSourcePost(item));
 
   return `<article class="analysis-card" style="animation-delay:${(index % 20) * 20}ms">
     <div class="analysis-card-head">
@@ -14087,7 +14157,10 @@ function renderAnalysisCard(item, index) {
       ${renderAnalysisLinks(item.linkAnalysis)}
       ${renderAnalysisList('LEARNING ACTIONS', item.learningActions || item.studyActions, true)}
       ${tags.length ? `<div class="analysis-chip-row">${tags.map(tag => `<span class="analysis-chip">${escapeHTML(tag)}</span>`).join('')}</div>` : ''}
-      ${statusUrl ? `<a class="analysis-source" href="${escapeHTML(statusUrl)}" target="_blank" rel="noopener">OPEN ORIGINAL -></a>` : ''}
+      <div class="analysis-actions">
+        <button class="analysis-post-button" type="button" data-analysis-id="${escapeHTML(analysisId)}"${canOpenPost ? '' : ' disabled'}>${canOpenPost ? 'VIEW POST' : 'POST NOT LOADED'}</button>
+        ${statusUrl ? `<a class="analysis-source" href="${escapeHTML(statusUrl)}" target="_blank" rel="noopener">OPEN ORIGINAL -></a>` : ''}
+      </div>
     </div>
   </article>`;
 }
@@ -14128,6 +14201,13 @@ function renderDesignerAnalysis() {
       <div class="analysis-grid">${items.map(renderAnalysisCard).join('')}</div>
     </section>`;
   }).join('')}`;
+
+  mount.querySelectorAll('.analysis-post-button').forEach(button => {
+    button.addEventListener('click', () => {
+      const item = allItems.find(candidate => getAnalysisItemId(candidate) === button.dataset.analysisId);
+      openAnalysisSourcePost(item);
+    });
+  });
 }
 // ── Card rendering ──
 function createCard(tweet, index, options = {}) {
@@ -15611,6 +15691,8 @@ document.body.addEventListener('drop', (e) => {
     setCollectionState(searchState);
   } else if (activeTab === 'media') {
     renderMaterialBrowser(true);
+  } else if (activeTab === 'analysis') {
+    renderDesignerAnalysis();
   }
 })();
 </script>
