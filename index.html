@@ -13955,6 +13955,56 @@ function normalizeDesignerAnalysisReports() {
     .sort((a, b) => new Date(b.generatedAt || b.date) - new Date(a.generatedAt || a.date));
 }
 
+function getAnalysisItemId(item) {
+  const url = item.statusUrl || item.url || item['Tweet Url'] || '';
+  return String(item.id || url.match(/status\/(\d+)/)?.[1] || url || item.title || '');
+}
+
+function groupDesignerAnalysisReports(reports) {
+  const groups = new Map();
+  reports.forEach(report => {
+    const date = report.date || (report.generatedAt ? report.generatedAt.slice(0, 10) : 'unknown');
+    if (!groups.has(date)) {
+      groups.set(date, {
+        date,
+        generatedAt: report.generatedAt || report.date || '',
+        items: [],
+        linksInspected: 0,
+        unavailableLinks: 0,
+        summaryParts: [],
+        _seen: new Set()
+      });
+    }
+    const group = groups.get(date);
+    if (new Date(report.generatedAt || report.date) > new Date(group.generatedAt || group.date)) {
+      group.generatedAt = report.generatedAt || report.date || group.generatedAt;
+    }
+    group.linksInspected += Number(report.linksInspected ?? countAnalysisLinks(report.items)) || 0;
+    group.unavailableLinks += Number(report.unavailableLinks || 0);
+    if (report.summary) group.summaryParts.push(report.summary);
+    report.items.forEach(item => {
+      const id = getAnalysisItemId(item);
+      if (!id || group._seen.has(id)) return;
+      group._seen.add(id);
+      group.items.push(item);
+    });
+  });
+  return [...groups.values()]
+    .map(group => {
+      const { _seen, summaryParts, ...report } = group;
+      const homeCount = report.items.filter(item => String(item.sourceTab || item.source || '').toLowerCase() === 'home').length;
+      const likeCount = report.items.filter(item => String(item.sourceTab || item.source || '').toLowerCase().includes('like')).length;
+      return {
+        ...report,
+        homeCount,
+        likeCount,
+        analysisCount: report.items.length,
+        summary: summaryParts.filter(Boolean).slice(0, 2).join(' ')
+      };
+    })
+    .sort((a, b) => new Date(b.generatedAt || b.date) - new Date(a.generatedAt || a.date));
+}
+
 function formatAnalysisDate(value) {
   if (!value) return 'UNKNOWN';
   const date = new Date(value.includes('T') ? value : `${value}T12:00:00+08:00`);
@@ -14045,7 +14095,7 @@ function renderAnalysisCard(item, index) {
 function renderDesignerAnalysis() {
   const mount = document.getElementById('analysisMount');
   if (!mount) return;
-  const reports = normalizeDesignerAnalysisReports();
+  const reports = groupDesignerAnalysisReports(normalizeDesignerAnalysisReports());
   const allItems = reports.flatMap(report => report.items);
   const homeCount = allItems.filter(item => String(item.sourceTab || item.source || '').toLowerCase() === 'home').length;
   const likeCount = allItems.filter(item => String(item.sourceTab || item.source || '').toLowerCase().includes('like')).length;
