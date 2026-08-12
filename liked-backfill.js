@@ -1,6 +1,373 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-11T05:16:15.445Z.
+// Generated from authenticated X Likes via ego-browser on 2026-08-12T02:03:58.907Z.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2087104567284764735",
+    "TwitterUserID": "1879443737086185472",
+    "UserScreenName": "IndieDevHailey",
+    "UserProfileName": "开发者Hailey",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1958446027377442816/4FeaYQJr_200x200.jpg",
+    "TweetText": "MotionSites，把顶级网页美学做成了 Prompt。\n\n里面收录了 500+ 高质量网页设计 Prompt，涵盖 Landing Page、SaaS、3D、作品集、动效等。\n\n看到喜欢的效果，直接复制 Prompt 丢给 Claude、Cursor、Codex，就能开始做。\n\n还支持 MCP，把整套设计灵感直接接进 AI 编程工具。\n\n做 Vibe Coding，代码已经不是问题，现在连审美都有人帮你打包好了。",
+    "Tweet Url": "https://x.com/IndieDevHailey/status/2087104567284764735",
+    "TweetCreatedDate": "2026-08-11T09:11:20.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087104203969982465/img/14_6IejyRofA3ciC.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087104203969982465/vid/avc1/1250x720/qGsTrdbebJtkl4_i.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087104203969982465/vid/avc1/1250x720/qGsTrdbebJtkl4_i.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087104203969982465/img/14_6IejyRofA3ciC.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "43 REPLIES · 36 REPOSTS · 199 LIKES · 9.4K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-12T02:03:58.907Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-11T09:11:20.000Z"
+    }
+  },
+  {
+    "TweetID": "2087006938634899631",
+    "TwitterUserID": "1940010790192594944",
+    "UserScreenName": "starks_arq",
+    "UserProfileName": "Amir D",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2070978328308113408/2cL75JUs_200x200.jpg",
+    "TweetText": "在做我最新的短片,其中一顆鏡頭出來,對白全是中文。我不知道為什麼,但心裡有種很深的衝動,想轉去拍華語電影。也許是語言先找到了我。\n\n(seedance 2.5)",
+    "Tweet Url": "https://x.com/starks_arq/status/2087006938634899631",
+    "TweetCreatedDate": "2026-08-11T02:43:23.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087003250050641920/img/x9sZPtMd7NKQ1en1.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087003250050641920/vid/avc1/1280x720/fsmVTPTWBeAndWq-.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087003250050641920/vid/avc1/1280x720/fsmVTPTWBeAndWq-.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087003250050641920/img/x9sZPtMd7NKQ1en1.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "18 REPLIES · 10 REPOSTS · 137 LIKES · 10.5K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-12T02:03:58.907Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-11T02:43:23.000Z"
+    }
+  },
+  {
+    "TweetID": "2086929773272649886",
+    "TwitterUserID": "2074955773273096192",
+    "UserScreenName": "atlasformac",
+    "UserProfileName": "Atlas",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2082044937172893698/686Az-BY_200x200.jpg",
+    "TweetText": "Atlas 1.5 is here. Smart Folders, color cards, random mode, a proper RAW photo engine, and a 14-day free trial.\n\nHere's everything new 🧵",
+    "Tweet Url": "https://x.com/atlasformac/status/2086929773272649886",
+    "TweetCreatedDate": "2026-08-10T21:36:45.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPZDj3zbYAAdB-k.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Product"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPZDj3zbYAAdB-k.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPZDkH8bkAAm10V.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPZDkW-bgAA9-RA.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "9 REPLIES · 13 REPOSTS · 351 LIKES · 33K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-12T02:03:58.907Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-10T21:36:45.000Z"
+    }
+  },
+  {
+    "TweetID": "2086900667138953287",
+    "TwitterUserID": "389600134",
+    "UserScreenName": "Kerroudjm",
+    "UserProfileName": "Mo",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2058445191166513152/GMboZmXV_200x200.jpg",
+    "TweetText": "Well… Spotify just released what I built for @Nachosmovies a few days ago 👀\n\nTalk → express your intent → get what you want.\n\nThis is the AI experience I believe in: AI serving the user, not the other way around.",
+    "Tweet Url": "https://x.com/Kerroudjm/status/2086900667138953287",
+    "TweetCreatedDate": "2026-08-10T19:41:06.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2086900117211144192/img/pGUaypiCFh8e1p1d.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2086900117211144192/vid/avc1/960x720/EsV950ToCf-qznIM.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086900117211144192/vid/avc1/960x720/EsV950ToCf-qznIM.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086900117211144192/img/pGUaypiCFh8e1p1d.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": {
+      "author": "Spotify",
+      "handle": "Spotify",
+      "avatar": "https://pbs.twimg.com/profile_images/1793315484961591301/DiEXUJEV_200x200.jpg",
+      "text": "Your listening just leveled up. Now on Spotify:\n💬 Talk to Spotify to help you find your next listen\n📌 Your Library now holds up to 20 pins \n🎬 Videos For You brings fresh personalized videos every day",
+      "url": "https://x.com/Spotify/status/2086894118282641514",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPYi6b1XsAAj9-A.jpg?name=orig"
+        },
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2086893875201748992/vid/avc1/720x900/lJ6GmjhLIge9sHSX.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2086893875201748992/img/B_muecrVncftUZQl.jpg",
+          "crossOrigin": false
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPYi75WXIAAyAoS.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPYi8qpWEAApY_L.jpg?name=orig"
+        }
+      ],
+      "metrics": "61 REPLIES · 89 REPOSTS · 1.3K LIKES · 316.6K VIEWS"
+    },
+    "_article": null,
+    "_metrics": "2 REPLIES · 3 REPOSTS · 112 LIKES · 15.5K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-12T02:03:58.907Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 2,
+      "observedDatetime": "2026-08-10T19:41:06.000Z"
+    }
+  },
+  {
+    "TweetID": "2086876561085735342",
+    "TwitterUserID": "1185959239216484356",
+    "UserScreenName": "ZhenZhu200",
+    "UserProfileName": "Zhen Zhu",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2019743653145755648/1RVt1x8V_200x200.jpg",
+    "TweetText": "【AI数字人运动教练 02：角色一致性】\nAI数字人运动教练生产运动内容视频最大的问题是，角色漂移。\n\n我没有停在一张“漂亮正脸”，而是给网球教练 Da‑Yul 做了一套 Character Bible：转身多视角、头部多视角、服装细节、动作演示。\n\n这些资产图帮助你去确认这个教练的每一个细节，让她更加生动立体，以及看到的姿势、肌肉动作、四肢和五官比例是否合适，锁死教练的所有特征细节，保持一致性。\n\nHow：做一张你的角色图全身照，然后把我下面的四张图丢给agents，说：“基于我的角色图，只参考下面四张九宫格图的布局和方位，给我全面定义角色的转身多视角、头部多视角、服装细节、动作演示九宫格。”",
+    "Tweet Url": "https://x.com/ZhenZhu200/status/2086876561085735342",
+    "TweetCreatedDate": "2026-08-10T18:05:19.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPYRswxb0AAioKx.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPYRswxb0AAioKx.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPYRzInagAEwVE6.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPYR0H8aYAApNjr.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPYR1iDb0AEwVPx.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "author": "Zhen Zhu",
+      "handle": "ZhenZhu200",
+      "avatar": "https://pbs.twimg.com/profile_images/2019743653145755648/1RVt1x8V_200x200.jpg",
+      "text": "AI数字人我提供一个新思路，AI数字人教练做运动训练产品，直击商业死穴：内容成本。\n\n运动训练里的内容成本就是你的动作库，无论是健身，还是 网球、篮球、足球，包括体能训练、功能性训练，舞蹈瑜伽等，任何复杂的训练其传统商业模式都是，请教练拍动作，录制再放到自己APP里。\n\n对于一个小公司，上千个动作如果都请模特、租场地、打灯、拍摄、剪辑，产品永远上不了线。\n\n但现在网络上其实有浩瀚无穷的动作库数据，就是YouTube/bilibili/小红书/抖音上各类的跟练视频，再结合上强大的AI模型，AI数字人+网络上视频数据 = 真人质感的教练动作示范。\n\n所以我做了 AI 网球教练 Da‑Yul，让她把动作库演完。现在她已经能从热身带到主训和拉伸，再配上语音、计数与进度，直接变成一节 App 跟练课。\n\n#数字人 #AIfor运动 @USPTA",
+      "url": "https://x.com/ZhenZhu200/status/2086479520996151470",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2086476948390518784/vid/avc1/720x1524/aFGL2vn_tUz1hli2.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2086476948390518784/img/iT8SVrrTXTkqjPG4.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "13 REPLIES · 15 REPOSTS · 61 LIKES · 26.3K VIEWS"
+    },
+    "_article": null,
+    "_metrics": "2 REPLIES · 35 REPOSTS · 253 LIKES · 18.6K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-12T02:03:58.907Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-10T18:05:19.000Z"
+    }
+  },
+  {
+    "TweetID": "2086868408319254972",
+    "TwitterUserID": "1712267009483022336",
+    "UserScreenName": "higgsfield_ai",
+    "UserProfileName": "Higgsfield AI 🧩",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1906739239183630336/907a7JTU_200x200.jpg",
+    "TweetText": "A character sheet is three panels: a full body from the front, a full body from the back, and a large close portrait in 3/4 view.\n\nTake the head off the full-body figures. On the wide panels the face is small and soft - and that's exactly the face the model will copy into a wide shot, badly. Remove it, and there is only one place left to take a face from: the close portrait.\n\nMake two close-ups - with a smile and without. Otherwise the model invents the teeth, and the smile arrives as somebody else's mouth.",
+    "Tweet Url": "https://x.com/higgsfield_ai/status/2086868408319254972",
+    "TweetCreatedDate": "2026-08-10T17:32:55.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPYH_ocXYAEn7pS.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPYH_ocXYAEn7pS.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "4 REPLIES · 52 REPOSTS · 405 LIKES · 259.8K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-12T02:03:58.907Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-10T17:32:55.000Z"
+    }
+  },
+  {
+    "TweetID": "2086867925240086740",
+    "TwitterUserID": "1542046525831929856",
+    "UserScreenName": "blanctyron",
+    "UserProfileName": "Tyron",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1786887925210181632/S9zvwX-U_200x200.jpg",
+    "TweetText": "Obsession Studio © | logo identity & animation",
+    "Tweet Url": "https://x.com/blanctyron/status/2086867925240086740",
+    "TweetCreatedDate": "2026-08-10T17:31:00.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPYLR4cWQAAL5Ji.jpg?name=orig",
+    "MediaVideoUrl": "https://video.twimg.com/tweet_video/HPYLR4bXUAAwrQT.mp4",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Product"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/tweet_video/HPYLR4bXUAAwrQT.mp4",
+        "poster": "https://pbs.twimg.com/tweet_video_thumb/HPYLR4bXUAAwrQT.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPYLR4cWQAAL5Ji.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "35 REPLIES · 57 REPOSTS · 1.8K LIKES · 66.9K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-12T02:03:58.907Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-10T17:31:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2086857670318068162",
+    "TwitterUserID": "1935769231729065984",
+    "UserScreenName": "byjasonz",
+    "UserProfileName": "Jason Zhao",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2072861281888165888/tz3kvHxL_200x200.jpg",
+    "TweetText": "introducing Space. what dropbox was supposed to be.\n\nexpand your computers storage with the cloud, while keeping every file instantly accessible to everyone on your team.\n\nwith Space's virtual drive, every app, agent, and workflow works natively as if your files were local.\n\nit's like a company server that you can set up in under a minute today.",
+    "Tweet Url": "https://x.com/byjasonz/status/2086857670318068162",
+    "TweetCreatedDate": "2026-08-10T16:50:15.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2086857427161579521/img/Tjj7f5_1_d_N_2L8.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2086857427161579521/vid/avc1/1108x720/2bIu-aJE4GqwBKpR.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Product"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086857427161579521/vid/avc1/1108x720/2bIu-aJE4GqwBKpR.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086857427161579521/img/Tjj7f5_1_d_N_2L8.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "60 REPLIES · 35 REPOSTS · 548 LIKES · 48.7K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-12T02:03:58.907Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-10T16:50:15.000Z"
+    }
+  },
   {
     "TweetID": "2086846031501947103",
     "TwitterUserID": "1214126747421040640",
@@ -235,6 +602,45 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-10T11:17:02.000Z"
+    }
+  },
+  {
+    "TweetID": "2086771570249269449",
+    "TwitterUserID": "229027174",
+    "UserScreenName": "colmtuite",
+    "UserProfileName": "Colm Tuite",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1907688428398850048/zAuYRr83_200x200.jpg",
+    "TweetText": "Base UI provides unmatched control.",
+    "Tweet Url": "https://x.com/colmtuite/status/2086771570249269449",
+    "TweetCreatedDate": "2026-08-10T11:08:07.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2086771232754511872/img/bH1sCTi2L1nq0no_.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2086771232754511872/vid/avc1/694x444/V-ZjKvTTigtNc7X7.mp4?tag=14",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Product"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086771232754511872/vid/avc1/694x444/V-ZjKvTTigtNc7X7.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086771232754511872/img/bH1sCTi2L1nq0no_.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "18 REPLIES · 12 REPOSTS · 779 LIKES · 64.8K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-12T02:03:58.907Z",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-10T11:08:07.000Z"
     }
   },
   {
