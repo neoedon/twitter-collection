@@ -1,6 +1,214 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-12T02:03:58.907Z.
+// Generated from authenticated X Likes via ego-browser on 2026-08-13T08:18:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2087520482602131796",
+    "TwitterUserID": "2039891833677877248",
+    "UserScreenName": "quietcomp_",
+    "UserProfileName": "만원만 l manwonman",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2052982084663459840/Edp9voO6_200x200.jpg",
+    "TweetText": "UI/UX 하는 디자이너는 무조건 봐야하는 사이트!\n앱 기준 마이크로 애니메이션을 모아둔\n아카이빙 페이지라서 레퍼런스 찾을 때 너무 좋다!\n\nhttps://60fps.design/",
+    "Tweet Url": "https://x.com/quietcomp_/status/2087520482602131796",
+    "TweetCreatedDate": "2026-08-12T12:44:01.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2086604097030070272/img/NB5s_rBCluIhSURT.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2086604097030070272/vid/avc1/2844x1452/c75P9RL0XjX7iamy.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2086604097030070272/vid/avc1/2844x1452/c75P9RL0XjX7iamy.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2086604097030070272/img/NB5s_rBCluIhSURT.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 35 REPOSTS · 159 LIKES · 163 BOOKMARKS · 5712 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-13T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 3,
+      "observedDatetime": "2026-08-12T12:44:01.000Z"
+    }
+  },
+  {
+    "TweetID": "2087455004835914051",
+    "TwitterUserID": "703528675271176192",
+    "UserScreenName": "csaba_kissi",
+    "UserProfileName": "Csaba Kissi",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1454861068233228289/6sn9BYOf_200x200.jpg",
+    "TweetText": "http://styles.refero.design -  High-quality DESIGN .md examples for AI agents\nhttp://vibeindex.dev - Directory of tools for vibe coders\nhttp://ui.aceternity.com - React component library for beautiful landing pages\nhttp://animejs.com - Open-source all-in-one JavaScript animations\nhttp://minimal.gallery - Web design inspiration",
+    "Tweet Url": "https://x.com/csaba_kissi/status/2087455004835914051",
+    "TweetCreatedDate": "2026-08-12T08:23:50.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087454975698067456/img/BoDO-T_Y939uPgSH.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087454975698067456/vid/avc1/1280x720/TpSvIhbJ358FQ5Zs.mp4?tag=14",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI",
+      "Product"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087454975698067456/vid/avc1/1280x720/TpSvIhbJ358FQ5Zs.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087454975698067456/img/BoDO-T_Y939uPgSH.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "37 REPLIES · 97 REPOSTS · 820 LIKES · 1533 BOOKMARKS · 44097 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-13T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-12T08:23:50.000Z"
+    }
+  },
+  {
+    "TweetID": "2087445291926467000",
+    "TwitterUserID": "1696922879089164297",
+    "UserScreenName": "neropursue",
+    "UserProfileName": "Nero",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2044050048720195584/2igILgnd_200x200.jpg",
+    "TweetText": "The best X designs, all in one place.\n\nCheck it out → http://inspora.design\n\nI’ll be adding new designs every day, with new features coming to the website every week.",
+    "Tweet Url": "https://x.com/neropursue/status/2087445291926467000",
+    "TweetCreatedDate": "2026-08-12T07:45:15.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087444745479925760/img/wLGey1pvc4MFc_ua.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087444745479925760/vid/avc1/3420x1976/NIBBfsTiqkGY-YQ2.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Product"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087444745479925760/vid/avc1/3420x1976/NIBBfsTiqkGY-YQ2.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087444745479925760/img/wLGey1pvc4MFc_ua.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "25 REPLIES · 36 REPOSTS · 499 LIKES · 663 BOOKMARKS · 30896 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-13T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-12T07:45:15.000Z"
+    }
+  },
+  {
+    "TweetID": "2087421506846691776",
+    "TwitterUserID": "1930281921810182147",
+    "UserScreenName": "cheerselflin",
+    "UserProfileName": "林悦己Cheer",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2082701454712934400/l4yjO2LF_200x200.jpg",
+    "TweetText": "我靠！！\n真实感的prompt秘诀给我发现了！\n健身房浴室实拍\n\n结构很简单\n就多加了这么一句“Old iPhone 1x standard lens”\n效果立刻不一样啊！\n公式copy就能用👇",
+    "Tweet Url": "https://x.com/cheerselflin/status/2087421506846691776",
+    "TweetCreatedDate": "2026-08-12T06:10:44.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087420276091092992/img/NjoouAAUhTTP38Vt.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087420276091092992/vid/avc1/1920x1080/skW3T_mbDZv8Ed4i.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087420276091092992/vid/avc1/1920x1080/skW3T_mbDZv8Ed4i.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087420276091092992/img/NjoouAAUhTTP38Vt.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": {
+      "author": "林悦己Cheer",
+      "handle": "cheerselflin",
+      "avatar": "https://pbs.twimg.com/profile_images/2082701454712934400/l4yjO2LF_200x200.jpg",
+      "text": "我靠!!!!\n这个视频，我真的以为是哪个朋友圈的vlog\n@BubbleBrain\n拆解了一下这个近200K播放，被1000个人收藏的 seedance 2.5 demo\n\n评价只有一个字 真！prompt 很长，但是有结构，表达方式还是时间戳\n公式直接拿走👇",
+      "url": "https://x.com/cheerselflin/status/2085250181948457031",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2085249522570264576/vid/avc1/1280x720/yPT5XZ6dckcKk8vs.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2085249522570264576/img/auePC4Tgo03qiLUC.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "42 REPLIES · 157 REPOSTS · 1485 LIKES · 1700 BOOKMARKS · 612353 VIEWS"
+    },
+    "_article": null,
+    "_metrics": "156 REPLIES · 54 REPOSTS · 743 LIKES · 943 BOOKMARKS · 322949 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-13T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-12T06:10:44.000Z"
+    }
+  },
+  {
+    "TweetID": "2087151567979884720",
+    "TwitterUserID": "1571872266178252810",
+    "UserScreenName": "referodesign",
+    "UserProfileName": "Refero",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2038696569810071553/_OZK9TyZ_200x200.png",
+    "TweetText": "We’ve been cooking something",
+    "Tweet Url": "https://x.com/referodesign/status/2087151567979884720",
+    "TweetCreatedDate": "2026-08-11T12:18:05.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087151529916534784/img/Ttedb_6yzt39VJuM.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087151529916534784/vid/avc1/1280x720/GFtCs8joukeOO5E8.mp4?tag=14",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087151529916534784/vid/avc1/1280x720/GFtCs8joukeOO5E8.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087151529916534784/img/Ttedb_6yzt39VJuM.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "17 REPLIES · 14 REPOSTS · 472 LIKES · 268 BOOKMARKS · 18022 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-13T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-11T12:18:05.000Z"
+    }
+  },
   {
     "TweetID": "2087104567284764735",
     "TwitterUserID": "1879443737086185472",
@@ -442,6 +650,64 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-10T15:44:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2086836913277906994",
+    "TwitterUserID": "2765417028",
+    "UserScreenName": "eternityspring",
+    "UserProfileName": "烁皓",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2064269397582385152/D2rjc6wa_200x200.jpg",
+    "TweetText": "同一本小说，有人改成 AI 短剧完播率拉满，有人第 3 集就没人看了。\n差距不在生成，在改编。原著直接拆分镜 = 灾难。\n\n真正该做的第一步是写改编大纲，就 6 件事：\n\n1. 定改编幅度\n忠实 / 抽核 / 借壳，先三选一。短剧和小说节奏差太远，九成情况选「抽核」：只留设定和核心冲突，情节重写。\n\n2. 分档压人物\n角色不是越多越好。闺蜜A＋同事B＋表姐C 这种功能重复的，直接合成一个。方便观众记忆。\n\n3. 砍支线\n每条支线问一句：砍掉它，大结局的爽点还立得住吗？立得住，就砍。小说容得下闲笔，短剧一秒都浪费不起。\n\n4. 排爽点表（最关键）\n小说的爽点靠慢慢攒，短剧必须前置、高频：第 1 集必须有钩子，之后爽点间隔不超过 3 集，大爆点绝不能压到最后一集。\n\n5. 写分集梗概\n每集三栏：【开场钩子】【本集事件】【结尾悬念】。钩子和悬念是必填项，中间可以先粗——完播率是头尾决定的。梗概只写叙述、不写台词，那是剧本的事。\n\n6. 汇总资产清单\n场景分主 / 次 / 一次性，角色、生成难点（三人同框、雨戏、手部特写）逐项列清。\n\n这套流程我做成了开源 skill —— shuohao-skills/novel-outline：\n一条命令出「改编说明＋人物表＋爽点表＋分集梗概＋资产清单」五件套。\nhttp://github.com/eternityspring/shuohao-skills",
+    "Tweet Url": "https://x.com/eternityspring/status/2086836913277906994",
+    "TweetCreatedDate": "2026-08-10T15:27:46.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPXomTKbsAAgmwO.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Product"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPXomTKbsAAgmwO.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPXouIIaUAAIxEG.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPXo56Yb0AAbz15.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "author": "烁皓",
+      "handle": "eternityspring",
+      "avatar": "https://pbs.twimg.com/profile_images/2064269397582385152/D2rjc6wa_200x200.jpg",
+      "text": "角色解析skill，开源 3 天 385 Star。\n随便一本小说，生成的角色列表和摘要都是嘎嘎香的。\n准备再加个人物关系图谱，完成后会尽快更新！",
+      "url": "https://x.com/eternityspring/status/2086409857708757156",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPRpTp_aMAAn43v.jpg?name=orig"
+        }
+      ],
+      "metrics": "90 REPLIES · 92 REPOSTS · 512 LIKES · 546 BOOKMARKS · 67229 VIEWS"
+    },
+    "_article": null,
+    "_metrics": "30 REPLIES · 75 REPOSTS · 358 LIKES · 601 BOOKMARKS · 125709 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-13T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-10T15:27:46.000Z"
     }
   },
   {
@@ -3430,6 +3696,45 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 4,
       "observedDatetime": "2026-08-06T06:23:36.000Z"
+    }
+  },
+  {
+    "TweetID": "2085250181948457031",
+    "TwitterUserID": "1930281921810182147",
+    "UserScreenName": "cheerselflin",
+    "UserProfileName": "林悦己Cheer",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2082701454712934400/l4yjO2LF_200x200.jpg",
+    "TweetText": "我靠!!!!\n这个视频，我真的以为是哪个朋友圈的vlog\n@BubbleBrain\n拆解了一下这个近200K播放，被1000个人收藏的 seedance 2.5 demo\n\n评价只有一个字 真！prompt 很长，但是有结构，表达方式还是时间戳\n公式直接拿走👇",
+    "Tweet Url": "https://x.com/cheerselflin/status/2085250181948457031",
+    "TweetCreatedDate": "2026-08-06T06:22:40.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2085249522570264576/img/auePC4Tgo03qiLUC.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2085249522570264576/vid/avc1/1280x720/yPT5XZ6dckcKk8vs.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2085249522570264576/vid/avc1/1280x720/yPT5XZ6dckcKk8vs.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2085249522570264576/img/auePC4Tgo03qiLUC.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "42 REPLIES · 157 REPOSTS · 1485 LIKES · 1700 BOOKMARKS · 612353 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-13T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-06T06:22:40.000Z"
     }
   },
   {
@@ -6494,6 +6799,43 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2083889357161922748",
+    "TwitterUserID": "1879711867205222400",
+    "UserScreenName": "ricouii",
+    "UserProfileName": "RicoUI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1890332571105693696/PUB5_Lvj_200x200.jpg",
+    "TweetText": "分享下自己收录的品牌 DESIGN md，目前收录 68 个。\nhttps://github.com/ricocc/brands-design-md\n\n每个 Brand 包括 7 个文件：preview html, DESIGN.md ,cover.webp，favicon icon，tokens.json， variables.css，theme.css。\n\n值得提的是 preview 是按照每个品牌风格制作的预览 html，cover 则是网站的截图。",
+    "Tweet Url": "https://x.com/ricouii/status/2083889357161922748",
+    "TweetCreatedDate": "2026-08-02T12:15:14.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HOt2I40aMAAKMPh.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Product"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HOt2I40aMAAKMPh.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "5 REPLIES · 14 REPOSTS · 111 LIKES · 125 BOOKMARKS · 6032 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-13T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-02T12:15:14.000Z"
+    }
+  },
+  {
     "TweetID": "2083884856531177942",
     "TwitterUserID": "1881626824188612608",
     "UserScreenName": "thebuggeddev",
@@ -9374,6 +9716,38 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 80,
       "observedDatetime": "2026-07-27T14:56:49.000Z"
+    }
+  },
+  {
+    "TweetID": "2081724369634730479",
+    "TwitterUserID": "1087360125843603459",
+    "UserScreenName": "criscxuan",
+    "UserProfileName": "cxuan",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2067148433576677376/FzL42cRj_200x200.jpg",
+    "TweetText": "cxuan\n@criscxuan\n·\n7月27日\n 文章\n好家伙，Claude Design 系统提示词也被扒出来了。\n前两天我看到有人把 Claude Design 的系统提示词整理出来了。\n仓库叫 Trystan-SA/claude-design-system-prompt\n我花时间看了一遍。\n虽然 A 社太 xxx ，但是不妨碍我们研究它的产品，主打就是一个把它给蒸了。...\n1\n4\n51\n2.6万",
+    "Tweet Url": "https://x.com/criscxuan/status/2081724369634730479",
+    "TweetCreatedDate": "2026-07-27T12:52:20.000Z",
+    "MediaType": "",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 3 REPOSTS · 51 LIKES · 97 BOOKMARKS · 26848 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-13T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-07-27T12:52:20.000Z"
     }
   },
   {
@@ -16002,4 +16376,5 @@ window.LIKED_BACKFILL = [
       "observedDatetime": "2026-01-16T13:46:01.000Z"
     }
   }
-].sort((a, b) => new Date(b.TweetCreatedDate) - new Date(a.TweetCreatedDate));
+]
+  .sort((a, b) => new Date(b.TweetCreatedDate) - new Date(a.TweetCreatedDate));
