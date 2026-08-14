@@ -1,6 +1,693 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-13T08:18:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-14T13:18:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2088038636118052903",
+    "TwitterUserID": "3050564824",
+    "UserScreenName": "basit_designs",
+    "UserProfileName": "Basit A. Khan",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2035703029631201280/MiiHz_yG_200x200.jpg",
+    "TweetText": "Some of the cool animated collections added to the https://grainient.supply Added 20 New animated backgrounds and two new dither gradient collections to the Grainient family this week.",
+    "Tweet Url": "https://x.com/basit_designs/status/2088038636118052903",
+    "TweetCreatedDate": "2026-08-13T23:02:59.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088038226422288384/img/g7N2AoGhjb7VK4tc.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088038226422288384/vid/avc1/368x270/BUBjWPGUe4jtZtyu.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Motion"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088038226422288384/vid/avc1/368x270/BUBjWPGUe4jtZtyu.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088038226422288384/img/g7N2AoGhjb7VK4tc.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "4 REPLIES · 1 REPOSTS · 95 LIKES · 77 BOOKMARKS · 3575 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-13T23:02:59.000Z"
+    }
+  },
+  {
+    "TweetID": "2087992542264693010",
+    "TwitterUserID": "2027787501666992128",
+    "UserScreenName": "ItsMatthewAo",
+    "UserProfileName": "Matthew Ao",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2079943594983514112/BkocOuRZ_200x200.jpg",
+    "TweetText": "design is changing. we never opened Figma or a component file when building this. even the complex animations, like the video editor timeline, were all done directly in code - by simply describing what we wanted in plain english.",
+    "Tweet Url": "https://x.com/ItsMatthewAo/status/2087992542264693010",
+    "TweetCreatedDate": "2026-08-13T19:59:49.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI",
+      "Engineering",
+      "Motion"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 0 REPOSTS · 33 LIKES · 26 BOOKMARKS · 2452 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 3,
+      "observedDatetime": "2026-08-13T19:59:49.000Z"
+    }
+  },
+  {
+    "TweetID": "2087976942171529223",
+    "TwitterUserID": "144693150",
+    "UserScreenName": "_smontlouis",
+    "UserProfileName": "Stéphane - smo",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1750559310516469760/AjWTGvJy_200x200.jpg",
+    "TweetText": "Giving a Blue Dot a Face - bible strong avatar studio This article was written by Strobi, Stéphane’s avatar on Bible Strong. Stéphane is way to lazy to write this; he has a full-time job @Decaf_so, a wife, and two children. So, I am taking over to tell",
+    "Tweet Url": "https://x.com/_smontlouis/status/2087976942171529223",
+    "TweetCreatedDate": "2026-08-13T18:57:50.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPnz2jfWAAAp0ie.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Product"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPnz2jfWAAAp0ie.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "x-article",
+      "title": "Giving a Blue Dot a Face - bible strong avatar studio",
+      "preview": "This article was written by Strobi, Stéphane’s avatar on Bible Strong. Stéphane is way to lazy to write this; he has a full-time job @Decaf_so, a wife, and two children. So, I am taking over to tell",
+      "url": "https://x.com/i/article/2087813886971887616",
+      "cover": "https://pbs.twimg.com/media/HPnz2jfWAAAp0ie.jpg?name=orig"
+    },
+    "_metrics": "4 REPLIES · 14 REPOSTS · 84 LIKES · 113 BOOKMARKS · 67029 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-13T18:57:50.000Z"
+    }
+  },
+  {
+    "TweetID": "2087956720320491707",
+    "TwitterUserID": "1553043003496960000",
+    "UserScreenName": "doganuraldesign",
+    "UserProfileName": "Dogan Ural",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1840794096291442688/JrhE7vnL_200x200.jpg",
+    "TweetText": "Fluffy 3D Icons with Imagine Image 2.0 Upload your image and use this prompt: Transform the uploaded logo into a premium 3D render, preserve the original logo shape, proportions, silhouette, structure and recognizable design, maintain the original colors and visual identity, ultra-fluffy fuzzy 3D form, dense fine fibers covering the surface, soft plush-like material, rounded dimensional volume, soft tactile appearance, individually visible fibers, subtle fiber length variation, natural fiber direction following the logo geometry, gentle surface irregularity, polished 3D rendering, soft studio lighting, controlled highlights, subtle ambient occlusion, rich saturated colors, clean high-contrast presentation, centered composition, isolated single logo, solid pure black background, soft contact shadow, premium product-render aesthetic, ultra high resolution",
+    "Tweet Url": "https://x.com/doganuraldesign/status/2087956720320491707",
+    "TweetCreatedDate": "2026-08-13T17:37:29.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087956576799801344/img/nKIjOcg0wzUeOqBZ.jpg,https://pbs.twimg.com/media/HPnpbk9WUAAfvdk.png?name=orig,https://pbs.twimg.com/media/HPnpd8tWsAIrajM.png?name=orig,https://pbs.twimg.com/media/HPnpe3QWQAAfm-8.png?name=orig",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087956576799801344/vid/avc1/320x426/O4ByjnAXVEqK_QDZ.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI",
+      "Product"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPnpbk9WUAAfvdk.png?name=orig"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087956576799801344/vid/avc1/320x426/O4ByjnAXVEqK_QDZ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087956576799801344/img/nKIjOcg0wzUeOqBZ.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPnpd8tWsAIrajM.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPnpe3QWQAAfm-8.png?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "38 REPLIES · 25 REPOSTS · 549 LIKES · 347 BOOKMARKS · 20753 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-13T17:37:29.000Z"
+    }
+  },
+  {
+    "TweetID": "2087951018260676814",
+    "TwitterUserID": "17896874",
+    "UserScreenName": "itsnicethat",
+    "UserProfileName": "It's Nice That",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/751327076960051204/qBy0hFW3_200x200.jpg",
+    "TweetText": "Today, @Instagram unveils its first major brand refresh over 10 years. We go behind the scene to uncover the thinking and craft that’s shaped one of the world’s most recognisable brands > https://buff.ly/HgupHGi #ad",
+    "Tweet Url": "https://x.com/itsnicethat/status/2087951018260676814",
+    "TweetCreatedDate": "2026-08-13T17:14:49.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2087951004641693696/pu/img/nIvONmf-4xz-8IHQ.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/ext_tw_video/2087951004641693696/pu/vid/avc1/480x270/ZnhACw2hCIQB-ey9.mp4?tag=12",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/ext_tw_video/2087951004641693696/pu/vid/avc1/480x270/ZnhACw2hCIQB-ey9.mp4?tag=12",
+        "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2087951004641693696/pu/img/nIvONmf-4xz-8IHQ.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "8 REPLIES · 26 REPOSTS · 516 LIKES · 254 BOOKMARKS · 30006 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-13T17:14:49.000Z"
+    }
+  },
+  {
+    "TweetID": "2087945418479226924",
+    "TwitterUserID": "1671113976925798400",
+    "UserScreenName": "60fpsdesign",
+    "UserProfileName": "60fps",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1727303967737294848/zS3hLMSI_200x200.jpg",
+    "TweetText": "Instagram’s new identity 💛🧡❤️🩷💜",
+    "Tweet Url": "https://x.com/60fpsdesign/status/2087945418479226924",
+    "TweetCreatedDate": "2026-08-13T16:52:34.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087945311717388288/img/qSfKkVOTHHvnXC1G.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087945311717388288/vid/avc1/320x320/X1mEXQ7rbL-STA-w.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087945311717388288/vid/avc1/320x320/X1mEXQ7rbL-STA-w.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087945311717388288/img/qSfKkVOTHHvnXC1G.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "12 REPLIES · 65 REPOSTS · 1047 LIKES · 234 BOOKMARKS · 32311 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-13T16:52:34.000Z"
+    }
+  },
+  {
+    "TweetID": "2087942063853613294",
+    "TwitterUserID": "2032392734674427904",
+    "UserScreenName": "Droppyformac",
+    "UserProfileName": "Jordy Spruit",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2078888724067217408/6egaJ7fw_200x200.jpg",
+    "TweetText": "Time to supercharge your Mac. https://Getdroppy.app",
+    "Tweet Url": "https://x.com/Droppyformac/status/2087942063853613294",
+    "TweetCreatedDate": "2026-08-13T16:39:14.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087941926414589952/img/zKGB3M3dZGXsuCoc.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087941926414589952/vid/avc1/320x320/1ETFNXtgDU0DdMi6.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Product"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087941926414589952/vid/avc1/320x320/1ETFNXtgDU0DdMi6.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087941926414589952/img/zKGB3M3dZGXsuCoc.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "2 REPLIES · 1 REPOSTS · 77 LIKES · 74 BOOKMARKS · 14863 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 3,
+      "observedDatetime": "2026-08-13T16:39:14.000Z"
+    }
+  },
+  {
+    "TweetID": "2087937950424129978",
+    "TwitterUserID": "2614315089",
+    "UserScreenName": "shawn_kel",
+    "UserProfileName": "Previous Leon",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2026710765537726464/42djdDtD_200x200.jpg",
+    "TweetText": "Same element, new position. built with @motiondotdev",
+    "Tweet Url": "https://x.com/shawn_kel/status/2087937950424129978",
+    "TweetCreatedDate": "2026-08-13T16:22:54.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087937443366338560/img/JdYLYJCQ2xnW8u3m.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087937443366338560/vid/avc1/480x270/-yttaEpZVUKiAvA6.mp4?tag=14",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Motion"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087937443366338560/vid/avc1/480x270/-yttaEpZVUKiAvA6.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087937443366338560/img/JdYLYJCQ2xnW8u3m.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "7 REPLIES · 8 REPOSTS · 174 LIKES · 119 BOOKMARKS · 5041 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-13T16:22:54.000Z"
+    }
+  },
+  {
+    "TweetID": "2087926830946730305",
+    "TwitterUserID": "241875548",
+    "UserScreenName": "alex_barashkov",
+    "UserProfileName": "Alex Barashkov",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1184409305321279489/6jCcvCIL_200x200.jpg",
+    "TweetText": "Toolcraft is our everyday swiss army knife. We use it constantly in the agency and continuously improve the core starter whenever we spot issues. We build apps for designing logos, three.js animations, brand assets, and effects that can become the foundation of a visual identity. This is the new app we’re currently building while crafting branding for a client. Once it’s finished, the client will have a self-serve solution they can use without pinging a designer every time they need complimentary branded graphics - consistently high-quality and fully on-brand.",
+    "Tweet Url": "https://x.com/alex_barashkov/status/2087926830946730305",
+    "TweetCreatedDate": "2026-08-13T15:38:42.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087924853684756480/img/LWIX5keIfvGxdNRS.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087924853684756480/vid/avc1/480x270/o5xTNsKBfVWDlxkN.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Product",
+      "Motion"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087924853684756480/vid/avc1/480x270/o5xTNsKBfVWDlxkN.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087924853684756480/img/LWIX5keIfvGxdNRS.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "21 REPLIES · 24 REPOSTS · 481 LIKES · 503 BOOKMARKS · 15054 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 4,
+      "observedDatetime": "2026-08-13T15:38:42.000Z"
+    }
+  },
+  {
+    "TweetID": "2087926492915208463",
+    "TwitterUserID": "18520806",
+    "UserScreenName": "brdrck",
+    "UserProfileName": "Jeff Broderick",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1559593556897107968/JfNvqJww_200x200.jpg",
+    "TweetText": "I created a bunch of animations to demonstrate some of the different features / tools. Here are a few of my favorites. All of them are rendering and animating live vectors, both light and dark mode. What do you think? Can you name them all? https://opacity.com",
+    "Tweet Url": "https://x.com/brdrck/status/2087926492915208463",
+    "TweetCreatedDate": "2026-08-13T15:37:22.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087925846426132480/img/I-ngsfFzHOuLeH-y.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087925846426132480/vid/avc1/482x270/f__MCLOm5u4dXt2r.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Product",
+      "Motion"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087925846426132480/vid/avc1/482x270/f__MCLOm5u4dXt2r.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087925846426132480/img/I-ngsfFzHOuLeH-y.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "8 REPLIES · 10 REPOSTS · 154 LIKES · 100 BOOKMARKS · 6801 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-13T15:37:22.000Z"
+    }
+  },
+  {
+    "TweetID": "2087826418075939036",
+    "TwitterUserID": "998562368782290945",
+    "UserScreenName": "abdushbag",
+    "UserProfileName": "abdush",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1967556166109544448/TcZN7ryd_200x200.jpg",
+    "TweetText": "i’ve been animating @hugeicons one by one for the past few weeks - free - open source - supports shadcn CLI try at https://hugeicons-animated.com 🔔",
+    "Tweet Url": "https://x.com/abdushbag/status/2087826418075939036",
+    "TweetCreatedDate": "2026-08-13T08:59:42.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087825847403134976/img/OCQZdmxuQ6z0rL6O.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087825847403134976/vid/avc1/480x270/4D_QTX8XkXtOh1Wr.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Engineering",
+      "Motion"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087825847403134976/vid/avc1/480x270/4D_QTX8XkXtOh1Wr.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087825847403134976/img/OCQZdmxuQ6z0rL6O.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "45 REPLIES · 62 REPOSTS · 795 LIKES · 990 BOOKMARKS · 51518 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-13T08:59:42.000Z"
+    }
+  },
+  {
+    "TweetID": "2087818420150731057",
+    "TwitterUserID": "6782882",
+    "UserScreenName": "oran_ge",
+    "UserProfileName": "Orange AI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1760074488073629696/ceSsuVCY_200x200.png",
+    "TweetText": "准备定期整理一些好的 skill 发出来 第一波：审美很不错的照片 Skill 1. photo-abstract-editorial 保留照片的真实内容，并仅从照片本身提炼空间关系、构图节奏和色彩关系 http://go.colaskill.com/abs 2. heytea-style 喜茶风格海报生成 http://go.colaskill.com/heytea 3. gc-minimal-zine-poster 可以把主题、句子、文章构想、物件、情绪、照片或参考图集，转化为一张zine纸张质感的极简编辑海报 http://go.colaskill.com/zine 4. ip_illustration_for_yourself 把自己的个人IP生成萌粒风插画，并且可以根据内容生成相应配图 http://go.colaskill.com/ip 5. photo-revival 把普通照片、生活随手拍、废片和日常物件，重新画成一页白纸上的诗性手绘插画。 http://go.colaskill.com/revival 6. tait-crt-interface-skill 早期CRT计算机界面质感的复古插画skill http://go.colaskill.com/crt",
+    "Tweet Url": "https://x.com/oran_ge/status/2087818420150731057",
+    "TweetCreatedDate": "2026-08-13T08:27:55.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPlqx8ybQAAv1bo.jpg?name=orig,https://pbs.twimg.com/media/HPlq2oHboAEJ3vS.jpg?name=orig,https://pbs.twimg.com/media/HPlq51dbIAAigz-.jpg?name=orig,https://pbs.twimg.com/media/HPlrBtUbcAAHpCE.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPlqx8ybQAAv1bo.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPlq2oHboAEJ3vS.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPlq51dbIAAigz-.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPlrBtUbcAAHpCE.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "19 REPLIES · 91 REPOSTS · 525 LIKES · 653 BOOKMARKS · 30259 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-13T08:27:55.000Z"
+    }
+  },
+  {
+    "TweetID": "2087781946030018709",
+    "TwitterUserID": "1675456073375920129",
+    "UserScreenName": "noahelhadedy",
+    "UserProfileName": "𝐍𝐨𝐚𝐡",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2056319844094492672/8vkVV6Vj_200x200.jpg",
+    "TweetText": "Open Source Icon Libraries 1. https://lucide-animated.com 2. https://animateicons.in/icons/lucide 3. https://heroicons-animated.com 4. https://github.com/useAnimations/react-useanimations 5. https://github.com/respeak-io/lucide-motion-vue 6. https://icon-sets.iconify.design/line-md 7. https://movingicons.dev/icons 8. https://itshover.com/icons Save this for your next project.",
+    "Tweet Url": "https://x.com/noahelhadedy/status/2087781946030018709",
+    "TweetCreatedDate": "2026-08-13T06:02:59.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPlKeJGWcAAYeuZ.png?name=orig,https://pbs.twimg.com/media/HPlKeJGXsAASmwk.jpg?name=orig,https://pbs.twimg.com/media/HPlKeJDW4AA-YE3.jpg?name=orig,https://pbs.twimg.com/media/HPlKeJJXQAA5n4z.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Engineering",
+      "Motion"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPlKeJGWcAAYeuZ.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPlKeJGXsAASmwk.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPlKeJDW4AA-YE3.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPlKeJJXQAA5n4z.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "13 REPLIES · 170 REPOSTS · 1174 LIKES · 2143 BOOKMARKS · 57261 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-13T06:02:59.000Z"
+    }
+  },
+  {
+    "TweetID": "2087763389384966498",
+    "TwitterUserID": "2071709254143393792",
+    "UserScreenName": "originkit",
+    "UserProfileName": "Originkit",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2072245576314613760/W0n4UaX6_200x200.jpg",
+    "TweetText": "Wait is over, here’s the next batch of cool components releasing today on http://originkit.dev for free. 20 new components 👇",
+    "Tweet Url": "https://x.com/originkit/status/2087763389384966498",
+    "TweetCreatedDate": "2026-08-13T04:49:15.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087763352819011584/img/qvxHCM9Owqv4L3NZ.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087763352819011584/vid/avc1/432x270/5tzDjnd-Ybt9bA07.mp4?tag=14",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087763352819011584/vid/avc1/432x270/5tzDjnd-Ybt9bA07.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087763352819011584/img/qvxHCM9Owqv4L3NZ.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "4 REPLIES · 1 REPOSTS · 54 LIKES · 42 BOOKMARKS · 3304 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-13T04:49:15.000Z"
+    }
+  },
+  {
+    "TweetID": "2087720610088800271",
+    "TwitterUserID": "1249322582869852161",
+    "UserScreenName": "ianneo_ai",
+    "UserProfileName": "Ian (伊恩)",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1891533502811865088/TGLd-ENY_200x200.jpg",
+    "TweetText": "设计师学到后面，可能应该少看一点教程 打开 Design Discipline ，往下滑了几屏 页面上几乎全是一个小时左右的长访谈 第一反应：现在谁还有耐心看这么长的视频 三分钟能讲清楚的内容，为什么要聊一个小时 这里访谈的人，有产品设计师、创作者、工程师和艺术家。他们聊的也不只是一件作品怎么完成，还会慢慢讲到自己的经历、判断，以及为什么走到现在的位置 我发现，长可能刚好是它有价值的地方 教程为了让人快速看懂，通常会把犹豫、失败和绕路全部剪掉，只留下最顺的几个步骤 于是我们看到的永远是： 先做这个，再做那个，最后得到一个不错的结果 看起来很有效率 可轮到自己面对一个没有标准答案的问题时，还是不知道该怎么选 因为教程教会的是别人最后怎样做 那些被剪掉的部分里，才藏着他为什么这样做，又为什么没有选择另一个看起来也不错的方案 访谈听起来慢，甚至有些地方会走神 但一个人讲到具体项目时，偶尔会露出真正的判断：当时受到了什么限制，哪里做错了，什么时候开始怀疑原来的方法 这些东西很难被整理成三条设计原则 实际的方式，是先挑一个和自己当前问题接近的人 正在做 AI 产品，就听设计与 AI 正在纠结职业方向，就听别人怎样经历转折 带着一个真实问题进去，听到一句能改变手里项目的话，可能就够了 看教程像站在终点，看别人把正确答案重新演示一遍 访谈更像跟着一个人走一小段路，看见他中间停过、绕过，也改过主意 最后留下来的，是下一次面对自己的页面和产品时，愿意多问一句：为什么一定要这样做？ https://www.designdisciplin.com/",
+    "Tweet Url": "https://x.com/ianneo_ai/status/2087720610088800271",
+    "TweetCreatedDate": "2026-08-13T01:59:16.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPkSxUebcAAgPol.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPkSxUebcAAgPol.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "21 REPLIES · 7 REPOSTS · 47 LIKES · 54 BOOKMARKS · 3955 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-13T01:59:16.000Z"
+    }
+  },
+  {
+    "TweetID": "2087550854345748950",
+    "TwitterUserID": "92296174",
+    "UserScreenName": "yiannifive",
+    "UserProfileName": "Yianni",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1742922526517510147/eO734yVC_200x200.jpg",
+    "TweetText": "new @framer video shaders are 🔥",
+    "Tweet Url": "https://x.com/yiannifive/status/2087550854345748950",
+    "TweetCreatedDate": "2026-08-12T14:44:43.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087550603278831616/img/h90oBi3I2r53uZ3j.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087550603278831616/vid/avc1/528x270/chRYgFDsRdJuLxsr.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Motion"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087550603278831616/vid/avc1/528x270/chRYgFDsRdJuLxsr.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087550603278831616/img/h90oBi3I2r53uZ3j.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "17 REPLIES · 9 REPOSTS · 356 LIKES · 244 BOOKMARKS · 17162 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 4,
+      "observedDatetime": "2026-08-12T14:44:43.000Z"
+    }
+  },
+  {
+    "TweetID": "2087545249274941819",
+    "TwitterUserID": "417014544",
+    "UserScreenName": "m_strba",
+    "UserProfileName": "Martin Strba",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2080297676516552704/30zRcij1_200x200.jpg",
+    "TweetText": "Working on a small update to the orb editor. You’ll be able to save your own presets, so you don’t have to start from zero every time.",
+    "Tweet Url": "https://x.com/m_strba/status/2087545249274941819",
+    "TweetCreatedDate": "2026-08-12T14:22:26.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087544696557957120/img/IRCpYQZTOGRIve-A.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087544696557957120/vid/avc1/464x270/T_UqgqbVy1B1KRo-.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087544696557957120/vid/avc1/464x270/T_UqgqbVy1B1KRo-.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087544696557957120/img/IRCpYQZTOGRIve-A.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "10 REPLIES · 36 REPOSTS · 678 LIKES · 688 BOOKMARKS · 50234 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 5,
+      "observedDatetime": "2026-08-12T14:22:26.000Z"
+    }
+  },
   {
     "TweetID": "2087520482602131796",
     "TwitterUserID": "2039891833677877248",
@@ -15849,6 +16536,43 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 187,
       "observedDatetime": "2026-07-20T17:55:31.000Z"
+    }
+  },
+  {
+    "TweetID": "2079230920335450450",
+    "TwitterUserID": "1372572724174974978",
+    "UserScreenName": "aquavoice",
+    "UserProfileName": "Aqua Voice",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2081155276883873792/JIbPwVWM_200x200.jpg",
+    "TweetText": "We like y'all too - in 49 languages.",
+    "Tweet Url": "https://x.com/aquavoice/status/2079230920335450450",
+    "TweetCreatedDate": "2026-07-20T15:44:16.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2079230300429713408/img/U6gPNmOIQ9qTZjk_.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2079230300429713408/vid/avc1/320x320/W_jnM7XSewT4QYUp.mp4?tag=14",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2079230300429713408/vid/avc1/320x320/W_jnM7XSewT4QYUp.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2079230300429713408/img/U6gPNmOIQ9qTZjk_.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "5 REPLIES · 1 REPOSTS · 65 LIKES · 24 BOOKMARKS · 982847 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-14T13:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-07-20T15:44:16.000Z"
     }
   },
   {

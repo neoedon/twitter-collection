@@ -1,6 +1,565 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-14T04:17:12.000Z",
+    "author": "Meng To",
+    "handle": "MengTo",
+    "avatar": "https://pbs.twimg.com/profile_images/1098613826709348353/_9_0Nd2X_200x200.png",
+    "title": "Meng To 用 Claude Code 教 three.js 落地页",
+    "summary": "Meng To 录制 40 分钟教程，展示用 Claude Code 和 Opus 5 制作 three.js landing page。它值得跟进，因为 3D 网页不再只是手写 shader，而是进入设计工程师可用的 AI 协作流程。",
+    "url": "https://x.com/MengTo/status/2088117711868227765",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088112770894172160/vid/avc1/360x270/3Emk9gcf35-6vOR4.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088112770894172160/img/QYGpyfJ5PIvNrw0z.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 2 REPOSTS · 47 LIKES · 72 BOOKMARKS · 2974 VIEWS",
+    "links": [],
+    "_analysisTheme": "设计工程 / 3D Web",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-14T03:57:16.000Z",
+    "author": "十里",
+    "handle": "okooo5km",
+    "avatar": "https://pbs.twimg.com/profile_images/2020293051302965250/jJjJxUI6_200x200.jpg",
+    "title": "YouMind 技能稳定生成轻拟物 App 图标",
+    "summary": "十里发布轻拟物 App 图标生成 skill，强调从早期提示词进化为可稳定复用的技能。它适合作为个人设计师把视觉风格沉淀成工具的样例。",
+    "url": "https://x.com/okooo5km/status/2088112695841333315",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPp1PXTbEAEYB4R.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPp1PXQbEAANC34.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPp1PXTawAEMpTG.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPp1PXQasAE5T-u.jpg?name=orig"
+      }
+    ],
+    "metrics": "2 REPLIES · 5 REPOSTS · 27 LIKES · 54 BOOKMARKS · 1362 VIEWS",
+    "links": [
+      "https://youmind.com/skills/soft-neumorphic-app-icon-design-05WgebDFLQfGhB"
+    ],
+    "_analysisTheme": "图标 / AI Skill",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-14T03:27:53.000Z",
+    "author": "花叔",
+    "handle": "AlchainHust",
+    "avatar": "https://pbs.twimg.com/profile_images/2041105413505220608/Xgv1FKSS_200x200.jpg",
+    "title": "DeepSeek Harness 橙皮书把插件机制写成手册",
+    "summary": "Alchain 开源 120 页 DeepSeek Harness 橙皮书，聚焦“一切皆插件”、skill、MCP 和 harness 的关系。它把热闹发布变成可复盘的结构化学习材料。",
+    "url": "https://x.com/AlchainHust/status/2088105299328528463",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPpvNzqXoAEhsm-.jpg?name=orig"
+      }
+    ],
+    "metrics": "18 REPLIES · 8 REPOSTS · 110 LIKES · 132 BOOKMARKS · 12688 VIEWS",
+    "links": [
+      "https://github.com/alchaincyf/deepseek-harness-orange-book"
+    ],
+    "_analysisTheme": "AI 工具 / Agent 工作流",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-14T03:21:10.000Z",
+    "author": "Tibo",
+    "handle": "thsottiaux",
+    "avatar": "https://pbs.twimg.com/profile_images/2075819673263001600/pj1vyX6I_200x200.jpg",
+    "title": "Google Docs/Sheets/Slides 进入 ChatGPT 工作流",
+    "summary": "Tibo 记录 ChatGPT 直接处理 Google Docs、Sheets 和 Slides 的体验。这个信号说明文档协作正在从导入导出变成会话内编辑，对工作流 UI 很关键。",
+    "url": "https://x.com/thsottiaux/status/2088103609477238858",
+    "media": [],
+    "metrics": "203 REPLIES · 70 REPOSTS · 1282 LIKES · 202 BOOKMARKS · 123781 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 工作台 / 文档协作",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-14T01:26:25.000Z",
+    "author": "数字生命卡兹克",
+    "handle": "Khazix0918",
+    "avatar": "https://pbs.twimg.com/profile_images/1756592360367259648/GXJ4Kl6w_200x200.jpg",
+    "title": "DeepSeek Harness 把 Agent 做成插件化工作台",
+    "summary": "数字生命卡兹克长文拆解 DeepSeek Harness：核心不是普通代码助手，而是用 Cordis 内核把工具、模型、模式和 UI 都插件化。它是今天 Agent 产品架构最值得深读的信号。",
+    "url": "https://x.com/Khazix0918/status/2088074732730208592",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPpUqd9bAAAeBm9.jpg?name=orig"
+      }
+    ],
+    "metrics": "29 REPLIES · 35 REPOSTS · 309 LIKES · 338 BOOKMARKS · 33323 VIEWS",
+    "links": [
+      "https://x.com/i/article/2088074460138237953"
+    ],
+    "_analysisTheme": "AI 工具 / Agent 工作流",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "x-article",
+      "title": "从0到1带你速通DeepSeek Harness。",
+      "preview": "在昨天正式发布DeepSeek V4 Pro正式版之后。\n预告了很久的，DeepSeek家自己的Agent产品终于也发出来了。\n名字叫，DeepSeek Harness。\n理念也很清晰，一切皆插件。",
+      "url": "https://x.com/i/article/2088074460138237953",
+      "cover": "https://pbs.twimg.com/media/HPpUqd9bAAAeBm9.jpg?name=orig"
+    }
+  },
+  {
+    "category": "VISUAL DESIGN",
+    "datetime": "2026-08-14T01:24:12.000Z",
+    "author": "abdz.",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/1360807931503988738/Q9H6tKs0_200x200.jpg",
+    "title": "Cicle 家具品牌用几何系统建立极简识别",
+    "summary": "Abduzeedo 收录 Cicle Branding，展示几何符号、克制排版和家具语境之间的品牌一致性。它适合做视觉系统拆解，而不是只当灵感图浏览。",
+    "url": "https://x.com/abduzeedo/status/2088074172979384649",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPpUPKnaUAAOshC.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPpUQBiaYAElz9n.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPpUYQLboAALzTn.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 1 REPOSTS · 10 LIKES · 3 BOOKMARKS · 866 VIEWS",
+    "links": [
+      "https://abduzeedo.com/cicle-branding-katja-guseva-minimalist-identity"
+    ],
+    "_analysisTheme": "品牌视觉 / 图形语言",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI MODEL",
+    "datetime": "2026-08-14T01:17:36.000Z",
+    "author": "ruanyf",
+    "handle": "ruanyf",
+    "avatar": "https://pbs.twimg.com/profile_images/2363795309/wbi37mdkxhr2trsr4ofa_200x200.jpeg",
+    "title": "阮一峰用缓存命中价格解释大模型成本",
+    "summary": "阮一峰用 DeepSeek V4 Flash 说明输入 token 缓存命中价格为什么远低于未命中价格。对设计工程师来说，这是估算 AI 功能成本和 prompt 结构的基础知识。",
+    "url": "https://x.com/ruanyf/status/2088072512341147981",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPpS25EacAAIZfg.jpg?name=orig"
+      }
+    ],
+    "metrics": "20 REPLIES · 2 REPOSTS · 45 LIKES · 48 BOOKMARKS · 17180 VIEWS",
+    "links": [
+      "https://www.ruanyifeng.com/blog/2026/08/weekly-issue-408.html"
+    ],
+    "_analysisTheme": "模型评测 / 成本结构",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI ETHICS",
+    "datetime": "2026-08-14T00:58:12.000Z",
+    "author": "Jingna Zhang",
+    "handle": "zemotion",
+    "avatar": "https://pbs.twimg.com/profile_images/458419084544077825/gXlX_UtC_200x200.jpeg",
+    "title": "Cara 继续回应艺术家作品被平台训练的压力",
+    "summary": "Jingna Zhang 以 Cara 创始人身份发声：艺术家需要不把作品喂给 AI 的线上空间。它提醒设计产品在 AI 生成能力之外还要设计版权、信任和迁移成本。",
+    "url": "https://x.com/zemotion/status/2088067630121025799",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPpOcY9a8AA5bvQ.jpg?name=orig"
+      }
+    ],
+    "metrics": "227 REPLIES · 1945 REPOSTS · 10612 LIKES · 1645 BOOKMARKS · 325563 VIEWS",
+    "links": [],
+    "_analysisTheme": "创作者平台 / AI 伦理",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-14T00:24:18.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "DeepSeek Harness 已能通过插件改造 UI",
+    "summary": "宝玉转发 DSH better sidebar，指出 Harness 插件机制已经能魔改界面。这个小项目说明 Agent 产品的 UI 也可能成为可安装、可替换的插件层。",
+    "url": "https://x.com/dotey/status/2088059102131794012",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPpGZ21WsAEJ5zJ.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPpGkrCXAAAxcYh.jpg?name=orig"
+      }
+    ],
+    "metrics": "45 REPLIES · 14 REPOSTS · 139 LIKES · 150 BOOKMARKS · 46356 VIEWS",
+    "links": [
+      "https://github.com/omdsh-dev/DSH-better-sidebar"
+    ],
+    "_analysisTheme": "AI 工具 / 插件 UI",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-13T23:52:13.000Z",
+    "author": "枯白啃设计",
+    "handle": "Kubai087",
+    "avatar": "https://pbs.twimg.com/profile_images/2036148968900665346/DblPsR4p_200x200.jpg",
+    "title": "Lumno 文本选择工具栏强调不遮挡内容",
+    "summary": "枯白展示 Lumno 的极简文本选择工具栏，把“可触达”和“不挡用户正文”放在同一控件里。适合研究编辑器浮层和选择态交互。",
+    "url": "https://x.com/Kubai087/status/2088051026326864309",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPo_VxcakAEVdIs.jpg?name=orig"
+      }
+    ],
+    "metrics": "2 REPLIES · 0 REPOSTS · 6 LIKES · 1 BOOKMARKS · 497 VIEWS",
+    "links": [],
+    "_analysisTheme": "编辑器 / 微交互",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-13T20:15:32.000Z",
+    "author": "OpenAI",
+    "handle": "OpenAI",
+    "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+    "title": "ChatGPT Computer History 把桌面活动变成上下文",
+    "summary": "OpenAI 预告 ChatGPT 桌面端 Computer History，能记住跨 App 和网站活动，让后续对话更少解释。它是系统级个人记忆和隐私边界的强信号。",
+    "url": "https://x.com/OpenAI/status/2087996496088297746",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087996446595485696/vid/avc1/480x270/871RFOdrnuQRxX_B.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087996446595485696/img/H3Zozzo8XjGuIawW.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "439 REPLIES · 599 REPOSTS · 8235 LIKES · 2488 BOOKMARKS · 1260183 VIEWS",
+    "links": [],
+    "_analysisTheme": "系统级触点 / 个人记忆",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-13T19:59:49.000Z",
+    "author": "Matthew Ao",
+    "handle": "ItsMatthewAo",
+    "avatar": "https://pbs.twimg.com/profile_images/2079943594983514112/BkocOuRZ_200x200.jpg",
+    "title": "复杂界面动效开始直接由自然语言到代码",
+    "summary": "Matthew Ao 提到他们没有打开 Figma 或组件文件，复杂的视频编辑时间线动效也由自然语言描述后直接在代码里完成。它指向设计工程能力的新分工。",
+    "url": "https://x.com/ItsMatthewAo/status/2087992542264693010",
+    "media": [],
+    "metrics": "1 REPLIES · 0 REPOSTS · 33 LIKES · 26 BOOKMARKS · 2452 VIEWS",
+    "links": [],
+    "_analysisTheme": "设计工程 / Code-first UI",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-13T18:56:29.000Z",
+    "author": "Google AI Developers",
+    "handle": "googleaidevs",
+    "avatar": "https://pbs.twimg.com/profile_images/1865153179341426688/g3bdgQ0P_200x200.jpg",
+    "title": "一份规格生成五端原生应用的 Agent 演示",
+    "summary": "Google AI Developers 展示 Gemini 3.7 Flash 在 Antigravity 中根据单一架构规格生成 Flutter、SwiftUI、Jetpack Compose、React Native 和 NativeScript。它把多端一致性问题推到规格设计层。",
+    "url": "https://x.com/googleaidevs/status/2087976604471267592",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087976338988605440/vid/avc1/480x270/aDHsqhvq7lBk_jhH.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087976338988605440/img/CGZVRnnhCWLAjA4j.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "5 REPLIES · 7 REPOSTS · 101 LIKES · 22 BOOKMARKS · 7141 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 工具 / 多端生成",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "VISUAL DESIGN",
+    "datetime": "2026-08-13T18:28:05.000Z",
+    "author": "John Bai",
+    "handle": "johnbai",
+    "avatar": "https://pbs.twimg.com/profile_images/2028332477136470016/hoMb1xtf_200x200.jpg",
+    "title": "Cursor 图标库被当作追求细节的必读案例",
+    "summary": "John Bai 称 Cursor 图标库是追求绝对精度者的必读内容。它说明产品差异化仍会落到图标系统、状态细节和长期维护的视觉资产上。",
+    "url": "https://x.com/johnbai/status/2087969455745675663",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPn0m4_WwAExT2z.png?name=orig"
+      }
+    ],
+    "metrics": "5 REPLIES · 2 REPOSTS · 546 LIKES · 380 BOOKMARKS · 50151 VIEWS",
+    "links": [],
+    "_analysisTheme": "图标 / 视觉细节",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "VISUAL DESIGN",
+    "datetime": "2026-08-13T17:37:29.000Z",
+    "author": "Dogan Ural",
+    "handle": "doganuraldesign",
+    "avatar": "https://pbs.twimg.com/profile_images/1840794096291442688/JrhE7vnL_200x200.jpg",
+    "title": "Dogan Ural 给出 Logo 转 3D 图标提示词",
+    "summary": "Dogan Ural 展示用 Imagine Image 2.0 把 logo 转为蓬松 3D 图标的提示词。它的价值在于保留原 logo 结构、比例、颜色和可识别性，而不是单纯“3D 化”。",
+    "url": "https://x.com/doganuraldesign/status/2087956720320491707",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPnpbk9WUAAfvdk.png?name=orig"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087956576799801344/vid/avc1/320x426/O4ByjnAXVEqK_QDZ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087956576799801344/img/nKIjOcg0wzUeOqBZ.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPnpd8tWsAIrajM.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPnpe3QWQAAfm-8.png?name=orig"
+      }
+    ],
+    "metrics": "38 REPLIES · 25 REPOSTS · 549 LIKES · 347 BOOKMARKS · 20753 VIEWS",
+    "links": [],
+    "_analysisTheme": "图标 / AI 视觉生成",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-13T17:26:33.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "宝玉从普通用户角度指出 Harness 体验断点",
+    "summary": "宝玉总结 DeepSeek Harness 的启动门槛、速度、Thinking 节流、多 Tab Panel 和插件配合。它把技术发布转译成产品体验问题，适合做 AI 工具评审清单。",
+    "url": "https://x.com/dotey/status/2087953969498706138",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPnmLhhWQAAFIXD.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPnmblLXoAA-FRv.jpg?name=orig"
+      }
+    ],
+    "metrics": "70 REPLIES · 18 REPOSTS · 385 LIKES · 186 BOOKMARKS · 79799 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 工具 / 产品体验",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI MODEL",
+    "datetime": "2026-08-13T17:06:24.000Z",
+    "author": "Google",
+    "handle": "Google",
+    "avatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3_200x200.jpg",
+    "title": "Google 发布面向 coding 与 agent 的 Gemini 3.7 Flash",
+    "summary": "Google 宣布 Gemini 3.7 Flash，强调编码、agent、软件工程和复杂知识工作的提升。它是今天模型选择和 AI 工具默认模型变化的核心信号。",
+    "url": "https://x.com/Google/status/2087948901265354817",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087943244390780928/vid/avc1/480x270/cs6u2NBY-mqXdYFA.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087943244390780928/img/nYwf0ct7K-rCRU8P.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "204 REPLIES · 481 REPOSTS · 4829 LIKES · 834 BOOKMARKS · 564175 VIEWS",
+    "links": [],
+    "_analysisTheme": "模型发布 / Agent 能力",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-13T17:03:36.000Z",
+    "author": "Jerry Zhang",
+    "handle": "zjearbear",
+    "avatar": "https://pbs.twimg.com/profile_images/2063055273938538496/EwxuMfCp_200x200.jpg",
+    "title": "PromptArmor 用 Agent 预警切入执行风险",
+    "summary": "Jerry Zhang 宣布融资并强调“Agents 会搞砸，需要提前警告”。它把 Agent 安全从抽象评估拉回实时预警、权限和错误拦截产品。",
+    "url": "https://x.com/zjearbear/status/2087948196320567636",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087945262451056640/vid/avc1/404x270/uE3sJeFc2K0TjR_K.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087945262451056640/img/C2p2N6tgcGTwvHfP.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "448 REPLIES · 205 REPOSTS · 3960 LIKES · 1479 BOOKMARKS · 558478 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 安全 / Agent 风险",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI MODEL",
+    "datetime": "2026-08-13T17:01:43.000Z",
+    "author": "OpenAI",
+    "handle": "OpenAI",
+    "avatar": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_200x200.jpg",
+    "title": "OpenAI 预告 GPT-5.6 Sol Ultrafast 模式",
+    "summary": "OpenAI 预览 GPT-5.6 Sol Ultrafast，强调最高 14 倍速度并先面向 API 客户开放。对 AI 产品设计来说，速度档位本身会改变交互节奏和功能边界。",
+    "url": "https://x.com/OpenAI/status/2087947721936359705",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087946208128237568/vid/avc1/480x270/UNKeP6TxPHK32uPX.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087946208128237568/img/wHXN7OyTUGjd05DS.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "601 REPLIES · 772 REPOSTS · 12399 LIKES · 2081 BOOKMARKS · 2041508 VIEWS",
+    "links": [],
+    "_analysisTheme": "模型发布 / 速度体验",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-13T17:00:00.000Z",
+    "author": "Replit ⠕",
+    "handle": "Replit",
+    "avatar": "https://pbs.twimg.com/profile_images/2031733558952464384/ERrHv3jK_200x200.jpg",
+    "title": "Replit Design 把设计流程放进 AI 创建链",
+    "summary": "Replit 发布 Replit Design 叙事，强调为 AI 时代重新发明设计流程。它值得跟踪，因为编程平台正在把设计从交付物变成创建链的一部分。",
+    "url": "https://x.com/Replit/status/2087947287620366787",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087924760940257280/vid/avc1/480x270/HW_-SzNvatPXiL2W.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087924760940257280/img/oPMbgHXz7I6Gfp2t.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "7 REPLIES · 12 REPOSTS · 106 LIKES · 31 BOOKMARKS · 13587 VIEWS",
+    "links": [
+      "https://replit.com/design"
+    ],
+    "_analysisTheme": "AI 设计工具 / 生产流程",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-13T16:50:21.000Z",
+    "author": "Figma",
+    "handle": "figma",
+    "avatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq___200x200.jpg",
+    "title": "Figma Skills 进入 Community 与 Agent 命令",
+    "summary": "Figma 宣布可以在 Figma 内创建、发布和使用 Skills，并通过 Community 保存后用斜杠命令调用。设计系统能力正在从插件商店转向 agent 可调用技能。",
+    "url": "https://x.com/figma/status/2087944862272459214",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087942684258578432/vid/avc1/480x270/zA3DLzpM_cQp4SNd.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087942684258578432/img/FNQJg0t464_yrt3-.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "15 REPLIES · 22 REPOSTS · 193 LIKES · 107 BOOKMARKS · 19663 VIEWS",
+    "links": [],
+    "_analysisTheme": "Figma / AI Skill",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-13T16:45:00.000Z",
+    "author": "miggi from figgi",
+    "handle": "miggi",
+    "avatar": "https://pbs.twimg.com/profile_images/2085920604910428160/-J3JKemI_200x200.jpg",
+    "title": "Miggi 给出 Figma Skill 的三个上手样例",
+    "summary": "Miggi 列出 make-a-type-scale、image-audit 和 editable-bottom-sheet 三个 Figma Community skill。它把 Figma Agent 能力落到排版、图像审核和组件生成三个具体入口。",
+    "url": "https://x.com/miggi/status/2087943512973250991",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087694345348804608/vid/avc1/480x270/3-fjR0hR1arKTbXx.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087694345348804608/img/qDlZklAXK2uz0bV7.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "5 REPLIES · 13 REPOSTS · 105 LIKES · 90 BOOKMARKS · 8283 VIEWS",
+    "links": [
+      "https://www.figma.com/community/skill/62736",
+      "https://www.figma.com/community/skill/64144",
+      "https://www.figma.com/community/skill/64012"
+    ],
+    "_analysisTheme": "Figma / 设计自动化",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-13T16:21:53.000Z",
+    "author": "ScreenCam",
+    "handle": "screencam_app",
+    "avatar": "https://pbs.twimg.com/profile_images/2078160137538416640/ihzMOl7P_200x200.jpg",
+    "title": "ScreenCam Zoom Clip 把速度和曲线放进剪辑控件",
+    "summary": "ScreenCam 1.2.0 展示新的 Zoom Clip 设计，把速度、缩放级别和转场曲线直接内联到剪辑控件。它适合拆解专业工具如何压缩编辑步骤。",
+    "url": "https://x.com/screencam_app/status/2087937698392838290",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087937500644003840/vid/avc1/480x270/V0InQ6MiMcbLzW5W.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087937500644003840/img/PJEXdKQ1WGUpAHZJ.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 1 REPOSTS · 18 LIKES · 15 BOOKMARKS · 1464 VIEWS",
+    "links": [],
+    "_analysisTheme": "动效工具 / 编辑器交互",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-13T16:00:49.000Z",
+    "author": "FLORA ©",
+    "handle": "floraai",
+    "avatar": "https://pbs.twimg.com/profile_images/1892364060458471425/2DyQ8Y0L_200x200.jpg",
+    "title": "FLORA Fashion Studio 面向时尚创意的完整流程",
+    "summary": "FLORA 发布 Fashion Studio，把时尚创意从 idea、product 到 campaign 放进一组工具。它体现垂直 AI 产品正在按行业流程重组，而不是只提供单点生成。",
+    "url": "https://x.com/floraai/status/2087932395466961252",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087925273844928512/vid/avc1/480x270/1F4oxSLUBRnNfD5C.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087925273844928512/img/6pGkdd1lT5Ms6yH3.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "44 REPLIES · 61 REPOSTS · 717 LIKES · 689 BOOKMARKS · 914736 VIEWS",
+    "links": [],
+    "_analysisTheme": "垂直 AI 产品 / 创意流程",
+    "_analysisPriority": "high"
+  },
+  {
     "category": "AI PRODUCT",
     "datetime": "2026-08-12T22:33:44.000Z",
     "author": "数字生命卡兹克",
