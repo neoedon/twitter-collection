@@ -1,6 +1,317 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-14T13:18:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-15T19:14:11+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2088304903076659605",
+    "TwitterUserID": "867503322",
+    "UserScreenName": "SidebarIO",
+    "UserProfileName": "Sidebar",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/3304895288/5c6b1f60dd5f179f7b2da2cea0ad787a_200x200.png",
+    "TweetText": "Liquid Gooey https://gooey.jakubantalik.com/?ref=sidebar",
+    "Tweet Url": "https://x.com/SidebarIO/status/2088304903076659605",
+    "TweetCreatedDate": "2026-08-14T16:41:02.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPsmPgUXMAA8k3r.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPsmPgUXMAA8k3r.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "gooey.jakubantalik.com/?ref=sidebar",
+      "url": "https://gooey.jakubantalik.com/?ref=sidebar",
+      "preview": "Liquid Gooey https://gooey.jakubantalik.com/?ref=sidebar"
+    },
+    "_metrics": "3 REPLIES · 12 REPOSTS · 362 LIKES · 541 BOOKMARKS · 25588 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-15T08:24:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-14T16:41:02.000Z"
+    }
+  },
+  {
+    "TweetID": "2088297032486101017",
+    "TwitterUserID": "1970184937",
+    "UserScreenName": "dankuntz",
+    "UserProfileName": "Daniel Kuntz",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2079333329082454016/yYLmEXle_200x200.jpg",
+    "TweetText": "🌟 New eye experience site for @lilguynet The entire site is 69 KB gzipped (nearly half the size of the fonts it embeds), runs at 120fps on Chromium, and is of course powered by Lark, the same engine that runs on our hardware! Check it out at https://creature.company/eyes",
+    "Tweet Url": "https://x.com/dankuntz/status/2088297032486101017",
+    "TweetCreatedDate": "2026-08-14T16:09:45.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088295538038829057/img/G_MAIN5fpHjnn1r1.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088295538038829057/vid/avc1/504x360/eqxehuNNcW_2fpzH.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088295538038829057/vid/avc1/504x360/eqxehuNNcW_2fpzH.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088295538038829057/img/G_MAIN5fpHjnn1r1.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "creature.company/eyes",
+      "url": "https://creature.company/eyes",
+      "preview": "🌟 New eye experience site for @lilguynet The entire site is 69 KB gzipped (nearly half the size of the fonts it embeds), runs at 120fps on Chromium, and is of "
+    },
+    "_metrics": "40 REPLIES · 38 REPOSTS · 860 LIKES · 721 BOOKMARKS · 102557 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-15T08:24:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-14T16:09:45.000Z"
+    }
+  },
+  {
+    "TweetID": "2088296105046102202",
+    "TwitterUserID": "3181020308",
+    "UserScreenName": "figma",
+    "UserProfileName": "Figma",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq___200x200.jpg",
+    "TweetText": "When we say wrap it up, we mean Pretty and Balance (available now)",
+    "Tweet Url": "https://x.com/figma/status/2088296105046102202",
+    "TweetCreatedDate": "2026-08-14T16:06:04.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088295762426032128/img/OWxZvS-fSMD8l-lW.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088295762426032128/vid/avc1/640x360/EyN7ZLpXuEM_G1ln.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088295762426032128/vid/avc1/640x360/EyN7ZLpXuEM_G1ln.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088295762426032128/img/OWxZvS-fSMD8l-lW.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "41 REPLIES · 47 REPOSTS · 1090 LIKES · 298 BOOKMARKS · 85009 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-15T08:24:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-14T16:06:04.000Z"
+    }
+  },
+  {
+    "TweetID": "2088261293820252364",
+    "TwitterUserID": "1328666264449867777",
+    "UserScreenName": "0xKevin00",
+    "UserProfileName": "0xkevin (🖤 , 💙)",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2004463309861670912/1yGoOsT0_200x200.jpg",
+    "TweetText": "这可以拿今年AI创意短片奖了 ！ 《反正也没时间活》关注时间贫困，属于自己的时间不应该成为一种奢侈…",
+    "Tweet Url": "https://x.com/0xKevin00/status/2088261293820252364",
+    "TweetCreatedDate": "2026-08-14T13:47:45.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088261161942949889/img/XtV_Tbs3OMH2StTo.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088261161942949889/vid/avc1/540x540/fChrY8Haz4rQfrCX.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088261161942949889/vid/avc1/540x540/fChrY8Haz4rQfrCX.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088261161942949889/img/XtV_Tbs3OMH2StTo.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "282 REPLIES · 709 REPOSTS · 9517 LIKES · 3996 BOOKMARKS · 420605 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-15T08:24:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-14T13:47:45.000Z"
+    }
+  },
+  {
+    "TweetID": "2088144255311081528",
+    "TwitterUserID": "2013410226716975104",
+    "UserScreenName": "thednyx",
+    "UserProfileName": "dnyxstudios",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2083351573435170816/MEwgoGlu_200x200.jpg",
+    "TweetText": "concept explainer for @Vidaya_AI this is what we do for SaaS teams all day. Link in bio.",
+    "Tweet Url": "https://x.com/thednyx/status/2088144255311081528",
+    "TweetCreatedDate": "2026-08-14T06:02:40.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2088144047311302657/pu/img/qmX---9EtLmRMzOP.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/ext_tw_video/2088144047311302657/pu/vid/avc1/640x360/pAeNe2nbv9ofrFKB.mp4?tag=12",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/ext_tw_video/2088144047311302657/pu/vid/avc1/640x360/pAeNe2nbv9ofrFKB.mp4?tag=12",
+        "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2088144047311302657/pu/img/qmX---9EtLmRMzOP.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "28 REPLIES · 6 REPOSTS · 348 LIKES · 197 BOOKMARKS · 6706 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-15T08:24:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-14T06:02:40.000Z"
+    }
+  },
+  {
+    "TweetID": "2088138254373835026",
+    "TwitterUserID": "1764818331822182400",
+    "UserScreenName": "xiaohu",
+    "UserProfileName": "小互",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1765404718959095808/BX7VN1hS_200x200.jpg",
+    "TweetText": "MiniMax 开源 Music 3.0 一次生成五分钟完整歌，8GB 显存就能跑 给它歌词和一段风格描述，一次出一首五分钟的完整歌，前奏副歌桥段都在，32kHz 立体声 整个模型开源，单卡 8GB 显存就能跑起来 官方还开源了 1000 个模板和一个扩写技能",
+    "Tweet Url": "https://x.com/xiaohu/status/2088138254373835026",
+    "TweetCreatedDate": "2026-08-14T05:38:50.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088136051563044864/img/qq0zRgihrvKU2p6_.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088136051563044864/vid/avc1/640x360/3XHOhQibrYAzsVlq.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088136051563044864/vid/avc1/640x360/3XHOhQibrYAzsVlq.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088136051563044864/img/qq0zRgihrvKU2p6_.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "46 REPLIES · 116 REPOSTS · 792 LIKES · 824 BOOKMARKS · 67839 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-15T08:24:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-14T05:38:50.000Z"
+    }
+  },
+  {
+    "TweetID": "2088119772982456606",
+    "TwitterUserID": "42866784",
+    "UserScreenName": "CrazyAIAgent",
+    "UserProfileName": "狂热AI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2006168703130599424/TSgEHqJq_200x200.jpg",
+    "TweetText": "X 平台开源了整个平台的算法权重，这在历史上是少有的。 Grok 通常不会去阅读帖子内的内容，但是会预测每个人看到这条推文后会做什么。 比如会不会点赞、回复、转发、复制链接或关注作者，这能提高不少权重分数。 而举报、屏蔽和点击不感兴趣，每种行为都会带来负面性的权重，系统把这些预测结果，综合叠加起来，得出这篇推文对该用户的最终分数。 我们在算完它的所有权重分数后（如下图所示），得到了几个关键性的结果，即分数也并不能决定一切。 1. 对多次刷到的惩罚措施 如果同一名读者的信息流里，已经出现过你的推文，那么你的第二篇推文，只保留 62.5% 的分数，第三篇只剩约 44%，最低不会低于 25%。 也就是说，算法明确限制同一位用户，多次刷到你的推文，并且多次这个行为，会降低权重和分数。 2. 原创推文不会有任何折扣 X 明显更偏爱原创推文，不太愿意推荐回复和转发。如果读者没有关注你，你的回复或转发，基本不会进入到对方的时间线中。 而即使读者已经关注你，回复和转发类内容，也同样要乘以 0.75，只有来自已关注账号的原创推文，可以保留全部权重。算法有意把回复和转发视为相对较弱的内容。 3. 相似内容筛选 在完成所有打分 + 权重后，系统 Grok 还会通过一个重排序模型，将相似帖子分散开来。 即使你的分数不错，但如果内容与前一篇推文太像，排名仍可能向后掉几位。 哪些事情不要做 不要刷点赞，点赞权重只有 0.5，在整套 Grok 算法里是几乎最差的，同样的还有个人主页访问，几乎没用。 之所以长推文，变得没以前那么重要，主要停留时长的分数，也不再像以前那么高，是否停留的权重是 0，实际停留时间，权重分数也很低。 不要把到处回复和转发，当成触达陌生人的增长方法。陌生账号的回复和转发，会在评分前被过滤，即使对方已经关注你，你们是互相关注状态。 不要故意发布容易引发举报、屏蔽或被点击不感兴趣的内容，系统只要预测到一次可观的举报，账号就会存在极为剧烈的降级，X 不鼓励撕逼、不健康的内容。 这可能也让色情、擦边、垃圾内容或相互骂人的推文，大大退出时间线的原因，系统也可能在阻止这些内容，进入到大家的时间线中。 最终的结果，X 真正奖励的不是看起来很热闹，而是用户愿不愿意主动参与讨论、分享并关注作者。而真正的惩罚，也不是没人点赞，而是刷到的读者，明确表示不想再看到这种内容。 最后，感谢马斯克愿意将",
+    "Tweet Url": "https://x.com/CrazyAIAgent/status/2088119772982456606",
+    "TweetCreatedDate": "2026-08-14T04:25:23.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "0 REPLIES · 1 REPOSTS · 8 LIKES · 4 BOOKMARKS · 2212 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-15T08:24:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-14T04:25:23.000Z"
+    }
+  },
+  {
+    "TweetID": "2088093704376762378",
+    "TwitterUserID": "1879443737086185472",
+    "UserScreenName": "IndieDevHailey",
+    "UserProfileName": "开发者Hailey",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1958446027377442816/4FeaYQJr_200x200.jpg",
+    "TweetText": "有人把 X 上那些超顶的设计，全聚到一起了。 Inspora，专门收集 X 上的高质量设计作品，Web、Branding、Product、Motion、3D……分类非常清楚，而且每小时持续更新。 不用再一条条刷 X、翻收藏夹挖灵感了，打开就能直接看精选。 做设计、UI、Landing Page，甚至 Vibe Coding 找视觉参考都很爽。 设计师日常灵感库，快收藏。",
+    "Tweet Url": "https://x.com/IndieDevHailey/status/2088093704376762378",
+    "TweetCreatedDate": "2026-08-14T02:41:48.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088091830982430720/img/cCRqa38j8laZOapp.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088091830982430720/vid/avc1/634x360/KUIRf6ew4UJkmyDo.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Motion",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088091830982430720/vid/avc1/634x360/KUIRf6ew4UJkmyDo.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088091830982430720/img/cCRqa38j8laZOapp.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "14 REPLIES · 44 REPOSTS · 294 LIKES · 369 BOOKMARKS · 16833 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-15T08:24:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-14T02:41:48.000Z"
+    }
+  },
   {
     "TweetID": "2088038636118052903",
     "TwitterUserID": "3050564824",
@@ -573,6 +884,44 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-13T04:49:15.000Z"
+    }
+  },
+  {
+    "TweetID": "2087759062452814044",
+    "TwitterUserID": "1109079644",
+    "UserScreenName": "techdroider",
+    "UserProfileName": "TechDroider",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1633894738423336960/BJ7YUvZn_200x200.jpg",
+    "TweetText": "Xiaomi HyperOS 4.0",
+    "Tweet Url": "https://x.com/techdroider/status/2087759062452814044",
+    "TweetCreatedDate": "2026-08-13T04:32:03.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087758815785803776/img/bJQfdkwzFIDW2tFF.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087758815785803776/vid/avc1/640x360/jnXF4H0JexI4Clyo.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087758815785803776/vid/avc1/640x360/jnXF4H0JexI4Clyo.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087758815785803776/img/bJQfdkwzFIDW2tFF.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "465 REPLIES · 444 REPOSTS · 15862 LIKES · 3576 BOOKMARKS · 20043662 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-15T08:24:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-13T04:32:03.000Z"
     }
   },
   {
@@ -16723,6 +17072,44 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2074503529914679366",
+    "TwitterUserID": "1729075801491116032",
+    "UserScreenName": "xin_pai88825",
+    "UserProfileName": "Paidax",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1747877404532776960/uUTVQ-2P_200x200.jpg",
+    "TweetText": "挖到一款夯爆了的 PPT Skill。支持超多风格，一键切换。最让我惊喜的是，自带的 PPT 控制功能，二十多个维度自由修改布局、图文、图表、配色。 并且它可以直接导出可编辑的原生 PPT 文件，排版自适应不会错乱。",
+    "Tweet Url": "https://x.com/xin_pai88825/status/2074503529914679366",
+    "TweetCreatedDate": "2026-07-07T14:39:18.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2074502398752808960/img/22QXC9KP0Xv5SReQ.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2074502398752808960/vid/avc1/638x360/7Fev2S8WjpgaGSAt.mp4?tag=28",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2074502398752808960/vid/avc1/638x360/7Fev2S8WjpgaGSAt.mp4?tag=28",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2074502398752808960/img/22QXC9KP0Xv5SReQ.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "24 REPLIES · 70 REPOSTS · 360 LIKES · 604 BOOKMARKS · 187111 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-15T08:24:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-07-07T14:39:18.000Z"
+    }
+  },
+  {
     "TweetID": "2072910259858137434",
     "TwitterUserID": "3888491",
     "UserScreenName": "LinusEkenstam",
@@ -17098,6 +17485,45 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 52,
       "observedDatetime": "2026-01-16T13:46:01.000Z"
+    }
+  },
+  {
+    "TweetID": "1988935730412880162",
+    "TwitterUserID": "345980763",
+    "UserScreenName": "AndreaMontini",
+    "UserProfileName": "Andrea Montini",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1888228013554180096/8y1X_2P-_200x200.jpg",
+    "TweetText": "How to create killer shader effects in Unicorn Studio: I've nailed this warp speed shader effect – realised it's so too good not to share. Here's the exact 6-step tutorial 👇 @hiunicornstudio",
+    "Tweet Url": "https://x.com/AndreaMontini/status/1988935730412880162",
+    "TweetCreatedDate": "2025-11-13T11:43:25.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1988935679024234496/pu/img/_iZeS_NLKBiv7ZQN.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/ext_tw_video/1988935679024234496/pu/vid/avc1/526x360/iW0uo0B2AcJllK1J.mp4?tag=12",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/ext_tw_video/1988935679024234496/pu/vid/avc1/526x360/iW0uo0B2AcJllK1J.mp4?tag=12",
+        "poster": "https://pbs.twimg.com/ext_tw_video_thumb/1988935679024234496/pu/img/_iZeS_NLKBiv7ZQN.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "18 REPLIES · 19 REPOSTS · 350 LIKES · 416 BOOKMARKS · 42770 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-15T08:24:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2025-11-13T11:43:25.000Z"
     }
   }
 ]

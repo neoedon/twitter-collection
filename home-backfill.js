@@ -1,6 +1,970 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "DESIGN MOTION",
+    "datetime": "2026-08-15T11:11:33.000Z",
+    "author": "Leo",
+    "handle": "leobenzoni",
+    "avatar": "https://pbs.twimg.com/profile_images/2075618753740414976/duc5r-_r_200x200.jpg",
+    "title": "Figma Motion 做品牌色板动画",
+    "summary": "Leo 用 Figma Motion 为品牌 case study 制作色板动画，短片展示色彩系统如何从静态板变成叙事素材。适合观察品牌资产在动效里如何保持节奏和层次。",
+    "url": "https://x.com/leobenzoni/status/2088584372618215514",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088584344734474240/vid/avc1/600x360/qLG75DW0NMlQ7zIW.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088584344734474240/img/ioIukzwwahaD8frp.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 5 LIKES · 3 BOOKMARKS · 25 VIEWS",
+    "links": [],
+    "_analysisTheme": "动效 / 品牌色彩",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-15T11:00:01.000Z",
+    "author": "Fetch.ai",
+    "handle": "Fetch_ai",
+    "avatar": "https://pbs.twimg.com/profile_images/1829125609353551872/5GnVEkRB_200x200.png",
+    "title": "Fetch.ai Athena 从研究模式转向执行环境",
+    "summary": "Fetch.ai 解释 Athena 不只是 research mode，而是给 ASI:One 一个能继续产出文档、报告和演示的执行环境。这个信号值得关注，因为 Agent 产品开始把“深入执行”做成可见工作区。",
+    "url": "https://x.com/Fetch_ai/status/2088581472672534882",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088559786744741888/vid/avc1/678x360/BVXH-Q6FGhqQLgVK.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088559786744741888/img/DBtDHke0XaMRpZmr.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 5 REPOSTS · 38 LIKES · 0 BOOKMARKS · 3991 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Agent / 执行环境",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI VIDEO",
+    "datetime": "2026-08-15T10:44:11.000Z",
+    "author": "Jaynit Makwana",
+    "handle": "JaynitMakwana",
+    "avatar": "https://pbs.twimg.com/profile_images/1764990845030113280/gVhpRBbQ_200x200.jpg",
+    "title": "MiniMax H3 在 Magnific 中把声音作为视频核心能力",
+    "summary": "Jaynit Makwana 提醒 MiniMax H3 在 Magnific 里直接生成带声音的视频。它提示 AI 视频评估不应只看画面，也要看声音和叙事同步。",
+    "url": "https://x.com/JaynitMakwana/status/2088577486649167980",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088577459411431424/vid/avc1/640x360/pqGyVd0wxtZxmJRB.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088577459411431424/img/fkW6pQfsPyRu5Cqv.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "4 REPLIES · 10 REPOSTS · 18 LIKES · 10 BOOKMARKS · 850 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 视频 / 声音",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "VISUAL DESIGN",
+    "datetime": "2026-08-15T10:36:00.000Z",
+    "author": "HerodotusWave",
+    "handle": "HerodotusWave",
+    "avatar": "https://pbs.twimg.com/profile_images/1966934712594898944/q135lrKO_200x200.jpg",
+    "title": "瓶身雕刻细节展示低调包装的层次感",
+    "summary": "HerodotusWave 观察一个看似简单瓶身的花纹雕刻。它适合作为包装细节、材质层次和近距离观看体验的参考。",
+    "url": "https://x.com/HerodotusWave/status/2088575426931339565",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPsnSc6awAAKg3G.jpg?name=orig"
+      }
+    ],
+    "metrics": "2 REPLIES · 3 REPOSTS · 14 LIKES · 1 BOOKMARKS · 296 VIEWS",
+    "links": [],
+    "_analysisTheme": "包装 / 细节",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-15T10:23:41.000Z",
+    "author": "数字生命卡兹克",
+    "handle": "Khazix0918",
+    "avatar": "https://pbs.twimg.com/profile_images/1756592360367259648/GXJ4Kl6w_200x200.jpg",
+    "title": "DeepSeek Harness 桌面封装快速起量",
+    "summary": "数字生命卡兹克转发 DeepSeek Harness 桌面版，指出 2 天 4K 星说明用户需要开箱即用，而不只是极客式命令行。这个信号适合反推 Agent 工具的安装、启动和插件保留体验。",
+    "url": "https://x.com/Khazix0918/status/2088572330129989638",
+    "media": [],
+    "metrics": "4 REPLIES · 2 REPOSTS · 18 LIKES · 21 BOOKMARKS · 7015 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 工具 / Agent 工作流",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2088059987855810983",
+      "TweetText": "昨晚DeepSeek Harness 发布了\n我们把官方 DeepSeek Harness 打包成了一个开箱即用的桌面应用\n\n不需要安装 Node.js，也不用再通过命令行启动\n\n目前支持：\nmacOS Apple Silicon\nWindows x64\n本地运行\n自动管理 Harness 服务\n保留官方插件能力和 Web UI\n\nGitHub：https://t.co/V9YeE4ou9Y https://t.co/djIT8U0Tkh",
+      "TweetCreatedDate": "2026-08-14T00:27:50.000Z",
+      "Tweet Url": "https://x.com/WangBenson6541/status/2088059987855810983",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/2046153330179866624/ITw0NVto_200x200.jpg",
+      "UserProfileName": "Benson Wang",
+      "UserScreenName": "WangBenson6541",
+      "MediaType": "photo",
+      "MediaImageUrl": "https://pbs.twimg.com/media/HPpHe_raMAA7dEK.jpg?name=orig",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPpHe_raMAA7dEK.jpg?name=orig"
+        }
+      ],
+      "_metrics": "109 REPLIES · 165 REPOSTS · 1126 LIKES · 1083 BOOKMARKS · 536605 VIEWS",
+      "_article": null
+    }
+  },
+  {
+    "category": "PRODUCT WRITING",
+    "datetime": "2026-08-15T10:00:02.000Z",
+    "author": "Rene Wang",
+    "handle": "rea1DonandTrump",
+    "avatar": "https://pbs.twimg.com/profile_images/1719683721845198848/EIth0eWl_200x200.jpg",
+    "title": "detail.design 改变邮件绝对日期写法",
+    "summary": "作者指出 detail.design 影响了自己写邮件的习惯，开始使用绝对日期而不是相对日期。它是内容设计如何反向塑造工作习惯的微案例。",
+    "url": "https://x.com/rea1DonandTrump/status/2088566376126665153",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPu9afmawAA8pR0.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 1 BOOKMARKS · 248 VIEWS",
+    "links": [
+      "https://detail.design"
+    ],
+    "_analysisTheme": "内容设计 / 时间表达",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-15T09:46:47.000Z",
+    "author": "Darius Dan",
+    "handle": "dariusdan",
+    "avatar": "https://pbs.twimg.com/profile_images/2010635171083505664/voFt50Pj_200x200.jpg",
+    "title": "Avatr Vision Xpectra 概念车提供未来座舱视觉参考",
+    "summary": "Darius Dan 分享 Avatr Vision Xpectra 概念车图像。它可作为硬件产品、车载界面和 CMF 语言的视觉输入。",
+    "url": "https://x.com/dariusdan/status/2088563042292293635",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPwQ-BnXAAAGK4m.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPwQ_RbXYAASFUm.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPwRA2KXkAAwe9O.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 15 LIKES · 0 BOOKMARKS · 641 VIEWS",
+    "links": [],
+    "_analysisTheme": "概念车 / CMF",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-15T08:30:05.000Z",
+    "author": "Satya",
+    "handle": "heysatya_",
+    "avatar": "https://pbs.twimg.com/profile_images/2007759194129387520/1fsDbbiR_200x200.jpg",
+    "title": "Sign up Screen 方案展示不同注册入口权重",
+    "summary": "Satya 分享为客户 App 探索的一组注册页。它适合拆解首屏层级、社交登录和表单压力的取舍。",
+    "url": "https://x.com/heysatya_/status/2088543738494955969",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPv_dQXbMAAIhyv.jpg?name=orig"
+      }
+    ],
+    "metrics": "6 REPLIES · 4 REPOSTS · 68 LIKES · 30 BOOKMARKS · 2843 VIEWS",
+    "links": [],
+    "_analysisTheme": "Onboarding / 注册页",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN PROCESS",
+    "datetime": "2026-08-15T08:19:01.000Z",
+    "author": "Kevin Ma",
+    "handle": "kevinma_dev_zh",
+    "avatar": "https://pbs.twimg.com/profile_images/1783509931813154816/O2ZjRUSc_200x200.jpg",
+    "title": "grill-me skill 作为产品和技术评审工具",
+    "summary": "Kevin Ma 把 grill-me skill 定位成方案成形后的 Review 角色，用来追问边界状态、隐含假设和失败路径。它对个人设计师的价值在于把 AI 从生成器变成评审伙伴。",
+    "url": "https://x.com/kevinma_dev_zh/status/2088540954521412074",
+    "media": [],
+    "metrics": "2 REPLIES · 2 REPOSTS · 16 LIKES · 20 BOOKMARKS · 2547 VIEWS",
+    "links": [],
+    "_analysisTheme": "产品评审 / AI Skill",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2088171980571001338",
+      "TweetText": "说真的, @mattpocockuk  的 grill-me，应该是我使用频率最高，同时也觉得最有用的 Skill 之一。\n\n我在做产品和技术设计时，经常会用它来帮我检查，还有哪些地方没有真正想清楚。\n\n很多时候，大的交互框架、产品流程和技术方向其实已经比较明确了，但往下落到细节，就会发现还有很多模糊的地方。有些是自己遗漏了，有些是之前压根没有想到，还有一些更常见的情况是，AI 已经给出了方案，甚至做出了 Mock UI，我看完却总觉得不太对。\n\n麻烦就在这里。\n\n我知道自己不满意，却又很难立刻说清楚，到底哪里有问题，以及我真正想要的是什么。\n\n这时候我通常会先把目前的想法、目标和已有方案告诉 Agent，然后直接来一句：grill me。\n\n接下来，Agent 就会开始不断盘问我。\n\n它会沿着设计中的一个个分支继续往下问，把那些原本模糊的地方一点点挖出来：这个功能到底解决什么问题？这个状态应该怎么处理？用户为什么要在这里做这个动作？两种方案之间你真正看重的是什么？\n\n很多问题，我其实从来没有认真想过。\n\n而在一轮轮回答这些问题的过程中，原本只是脑子里一个模糊的感觉，会逐渐变成非常具体的产品决策。\n\n这也是我觉得 grill-me 最有价值的地方。\n\n有时候你缺的并不是 AI 再给你一个方案，而是有人不断追问，帮你把自己真正想要的东西想明白。",
+      "TweetCreatedDate": "2026-08-14T07:52:51.000Z",
+      "Tweet Url": "https://x.com/kevinma_dev_zh/status/2088171980571001338",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/1783509931813154816/O2ZjRUSc_200x200.jpg",
+      "UserProfileName": "Kevin Ma",
+      "UserScreenName": "kevinma_dev_zh",
+      "MediaType": "text",
+      "MediaImageUrl": "",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [],
+      "_metrics": "12 REPLIES · 12 REPOSTS · 143 LIKES · 113 BOOKMARKS · 53629 VIEWS",
+      "_article": null
+    }
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-15T08:18:54.000Z",
+    "author": "Meng To",
+    "handle": "MengTo",
+    "avatar": "https://pbs.twimg.com/profile_images/1098613826709348353/_9_0Nd2X_200x200.png",
+    "title": "Meng To 用 Codex + Pika 给落地页加声音",
+    "summary": "Meng To 展示用 Codex 通过 Pika Soundtrack MCP 为 landing page 生成音乐和 SFX。它把网页体验从视觉推进到可编排声音层，适合研究 AI 参与体验设计的边界。",
+    "url": "https://x.com/MengTo/status/2088540924750012613",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088540626711371776/vid/avc1/480x360/_CM1kv8xsGXBzBov.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088540626711371776/img/J_ba_MzLAhtMEFMq.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 5 REPOSTS · 60 LIKES · 53 BOOKMARKS · 6608 VIEWS",
+    "links": [
+      "http://dev.pika.art/models/pika/pika-audio?utm_source=x&utm_medium=caption&utm_campaign=260813-audio_family&utm_content=mengto&utm_term=post&utm_id=e8e3e16c-3f47-4870-b5c8-90ce69a6387c"
+    ],
+    "_analysisTheme": "AI 音频 / 落地页体验",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-15T07:45:12.000Z",
+    "author": "EnHeng嗯哼.Ai",
+    "handle": "EnHeng456",
+    "avatar": "https://pbs.twimg.com/profile_images/1966152812536147968/nzlqBIZQ_200x200.jpg",
+    "title": "Grok Bot 云端电脑形态引出长期在线工作流",
+    "summary": "EnHeng 用 Grok Bot 解释“账号背后的长期在线 Linux 云电脑”形态，强调浏览器、文件、终端、审批和 Routine。它是判断个人 Agent 权限边界和交接设计的好样本。",
+    "url": "https://x.com/EnHeng456/status/2088532443536269315",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPv1L4FaYAABi0F.jpg?name=orig"
+      }
+    ],
+    "metrics": "24 REPLIES · 7 REPOSTS · 20 LIKES · 4 BOOKMARKS · 4570 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Agent / 云端电脑",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN RESOURCE",
+    "datetime": "2026-08-15T07:40:49.000Z",
+    "author": "Ian (伊恩)",
+    "handle": "ianneo_ai",
+    "avatar": "https://pbs.twimg.com/profile_images/1891533502811865088/TGLd-ENY_200x200.jpg",
+    "title": "Inspora 把 X 上设计作品整理成灵感墙",
+    "summary": "Ian 推荐 Inspora，把网页、产品界面和视觉案例整理成持续更新的灵感库。它适合个人设计师把 X 灵感从时间线消费转成可检索资料库。",
+    "url": "https://x.com/ianneo_ai/status/2088531340862046352",
+    "media": [],
+    "metrics": "0 REPLIES · 4 REPOSTS · 21 LIKES · 45 BOOKMARKS · 1974 VIEWS",
+    "links": [
+      "https://www.inspora.design"
+    ],
+    "_analysisTheme": "设计资源 / 灵感库",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Vercel Security Checkpoint",
+      "preview": "页面返回 Vercel Security Checkpoint；本轮无法读取站内设计集合，只能基于原帖可见说明判断。",
+      "url": "https://www.inspora.design/"
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-15T07:29:10.000Z",
+    "author": "Aniket Pawar",
+    "handle": "alaymanguy",
+    "avatar": "https://pbs.twimg.com/profile_images/2077152176284262400/5eI1aHiZ_200x200.jpg",
+    "title": "ShaderGradient 给设计工程师提供开源 shader 实验台",
+    "summary": "Aniket 推荐 ShaderGradient，说明它有 Figma、Framer 插件并可复制 React 代码。它把 Web shader 从纯工程实验变成设计工程师可复用的视觉工具。",
+    "url": "https://x.com/alaymanguy/status/2088528410025120164",
+    "media": [],
+    "metrics": "5 REPLIES · 4 REPOSTS · 143 LIKES · 245 BOOKMARKS · 8440 VIEWS",
+    "links": [],
+    "_analysisTheme": "Web 图形 / Shader 工具",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-15T07:18:18.000Z",
+    "author": "Atom the UiUx Designer",
+    "handle": "Atomthecreator",
+    "avatar": "https://pbs.twimg.com/profile_images/1986728966422450176/Q7yeaTiP_200x200.jpg",
+    "title": "高价移动 App onboarding 视觉参考",
+    "summary": "Atom the UiUx Designer 展示移动 App onboarding，强调高价设计需要更有邀请感的首屏。适合拆解插画、层级和首轮转化路径。",
+    "url": "https://x.com/Atomthecreator/status/2088525674143232370",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPvvBe2XoAADmvZ.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPvvBe2WcAA5PNO.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPvvBfIXoAAXydJ.jpg?name=orig"
+      }
+    ],
+    "metrics": "18 REPLIES · 5 REPOSTS · 105 LIKES · 27 BOOKMARKS · 3254 VIEWS",
+    "links": [],
+    "_analysisTheme": "移动端 / Onboarding",
+    "_analysisPriority": "medium",
+    "quote": {
+      "TweetID": "2087609828042551741",
+      "TweetText": "Work in progress 🚧 https://t.co/qIkmKDb30g",
+      "TweetCreatedDate": "2026-08-12T18:39:03.000Z",
+      "Tweet Url": "https://x.com/Atomthecreator/status/2087609828042551741",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/1986728966422450176/Q7yeaTiP_200x200.jpg",
+      "UserProfileName": "Atom the UiUx Designer",
+      "UserScreenName": "Atomthecreator",
+      "MediaType": "photo",
+      "MediaImageUrl": "https://pbs.twimg.com/media/HPiuC7SXoAEuMta.jpg?name=orig,https://pbs.twimg.com/media/HPiuC-aXoAEGkjz.jpg?name=orig",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPiuC7SXoAEuMta.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPiuC-aXoAEGkjz.jpg?name=orig"
+        }
+      ],
+      "_metrics": "20 REPLIES · 18 REPOSTS · 326 LIKES · 74 BOOKMARKS · 8606 VIEWS",
+      "_article": null
+    }
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-15T06:55:49.000Z",
+    "author": "zanwei.guo",
+    "handle": "zanweiguo",
+    "avatar": "https://pbs.twimg.com/profile_images/1442467459118731272/ZRfZn0K9_200x200.jpg",
+    "title": "Connected Filmstrip 为图片预览提供连接式动效",
+    "summary": "赞伟展示 connected-filmstrip 的 image preview，并指向 GitHub。它是可复用微交互组件的直接实现参考。",
+    "url": "https://x.com/zanweiguo/status/2088520016551641150",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088519666398638080/vid/avc1/640x360/KqFm2LmqYybzywNO.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088519666398638080/img/zF2DfQ6-RF7EVSTb.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "2 REPLIES · 0 REPOSTS · 5 LIKES · 4 BOOKMARKS · 452 VIEWS",
+    "links": [
+      "https://github.com/zanwei/connected-filmstrip"
+    ],
+    "_analysisTheme": "组件 / 图片预览",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "CREATOR OPS",
+    "datetime": "2026-08-15T06:50:15.000Z",
+    "author": "歸藏(guizang.ai)",
+    "handle": "op7418",
+    "avatar": "https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_200x200.jpg",
+    "title": "X 推荐算法更新影响视频和关注关系",
+    "summary": "歸藏分析 X 推荐算法更新，提到普通视频 14 天语义召回、关注/双向关系加权和回复排序阈值。对设计师经营作品展示很实际，因为它影响视频作品的二次分发。",
+    "url": "https://x.com/op7418/status/2088518617344467156",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPvom1ebAAA7rXx.jpg?name=orig"
+      }
+    ],
+    "metrics": "11 REPLIES · 2 REPOSTS · 11 LIKES · 10 BOOKMARKS · 5405 VIEWS",
+    "links": [],
+    "_analysisTheme": "内容分发 / X 算法",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2088172365750645091",
+      "TweetText": "Twitter 完全开源了他们的推荐算法\n\n用 Codex 分析了一下，感觉跟以前我们的认知还是有不少变化的。\n\n总结了六条创作者应该做的事情：\n\n1. 应该做值得转发的原创内容。\n\n2. 尽量少用首贴写钩子，把重要内容放在第二条推串里这种发帖形式（这个和大家的认知不太一样，比较重要）。\n\n3. 应该优先争取阅读、回复、引用和关注，点赞的权重其实没有那么高。\n\n4. 拉开发帖间隔，不要频繁刷屏。\n\n5. 深耕一个垂类，不要频繁更换账号类型。\n\n6. 少做那些互动诱饵（比如互关、回复发送等），不要让别人讨厌你、对你点“不感兴趣”或举报。",
+      "TweetCreatedDate": "2026-08-14T07:54:23.000Z",
+      "Tweet Url": "https://x.com/op7418/status/2088172365750645091",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_200x200.jpg",
+      "UserProfileName": "歸藏(guizang.ai)",
+      "UserScreenName": "op7418",
+      "MediaType": "photo",
+      "MediaImageUrl": "https://pbs.twimg.com/media/HPqrcsWa0AAl7mC.jpg?name=orig",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPqrcsWa0AAl7mC.jpg?name=orig"
+        }
+      ],
+      "_metrics": "19 REPLIES · 20 REPOSTS · 171 LIKES · 221 BOOKMARKS · 36752 VIEWS",
+      "_article": null
+    }
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-15T06:46:48.000Z",
+    "author": "李不凯正在研究",
+    "handle": "libukai",
+    "avatar": "https://pbs.twimg.com/profile_images/2001878602351345664/aK-QAzaV_200x200.jpg",
+    "title": "Computer History 把跨 App 工作历史蒸馏成 Skill",
+    "summary": "李不凯试用 Computer History，认为它能从飞书、Chrome、VS Code、Codex 等跨 App 历史里复盘并生成可执行 workflow。这个方向直接关系到个人设计师如何沉淀重复工作。",
+    "url": "https://x.com/libukai/status/2088517747474878767",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPvc5A7asAA4ovS.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPvdtOxa8AAVSUW.jpg?name=orig"
+      }
+    ],
+    "metrics": "4 REPLIES · 4 REPOSTS · 12 LIKES · 11 BOOKMARKS · 3084 VIEWS",
+    "links": [
+      "https://learn.chatgpt.com/docs/customization/computer-history"
+    ],
+    "_analysisTheme": "AI 工作流 / Computer History",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Computer History | ChatGPT Learn",
+      "preview": "Turn recent computer activity into memories and a timeline that ChatGPT and Codex can use.",
+      "url": "https://learn.chatgpt.com/docs/customization/computer-history"
+    }
+  },
+  {
+    "category": "DESIGN MOTION",
+    "datetime": "2026-08-15T06:33:35.000Z",
+    "author": "gaana! ✨",
+    "handle": "gaanasrini",
+    "avatar": "https://pbs.twimg.com/profile_images/1896250751363796992/6U53DgAy_200x200.jpg",
+    "title": "Claude 协助 The Shapes 角色动效探索",
+    "summary": "gaana 对比 Figma、Origami 和 Claude 动画 The Shapes 的过程，这次让形状角色跳动并调整个性。它展示 AI 辅助动效不仅生成画面，也能参与角色行为设计。",
+    "url": "https://x.com/gaanasrini/status/2088514421454942432",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088513940867411968/vid/avc1/694x360/zfqOGzuUw3Ah0vuP.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088513940867411968/img/ywE6Q3qOR08wHWDW.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 26 LIKES · 6 BOOKMARKS · 721 VIEWS",
+    "links": [],
+    "_analysisTheme": "动效 / 角色系统",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-15T06:21:28.000Z",
+    "author": "safari",
+    "handle": "safaricheung",
+    "avatar": "https://pbs.twimg.com/profile_images/1535513461358153728/qaYfZwAZ_200x200.jpg",
+    "title": "国行 Apple Intelligence 时间线暴露本地化复杂度",
+    "summary": "Safari Cheung 梳理国行 Apple Intelligence 多次误推、下线和潜在上线节点。它提醒 AI 功能国际化不只是翻译，也涉及合规、开关和用户预期管理。",
+    "url": "https://x.com/safaricheung/status/2088511371503980627",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPvh4jlbwAAwrNG.jpg?name=orig"
+      }
+    ],
+    "metrics": "6 REPLIES · 0 REPOSTS · 14 LIKES · 2 BOOKMARKS · 3400 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 产品 / 本地化",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI VIDEO",
+    "datetime": "2026-08-15T06:18:19.000Z",
+    "author": "Runway",
+    "handle": "runwayml",
+    "avatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB_200x200.jpg",
+    "title": "Runway 上线 Seedance 2.5 1080p 早期访问",
+    "summary": "Runway 宣布 Seedance 2.5 1080p 早期访问，强调更高分辨率和细节。它是今天 AI 视频工具链质量升级的直接产品信号。",
+    "url": "https://x.com/runwayml/status/2088510581120647272",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088509884211896320/vid/avc1/640x360/yyKcuWVfroOjdRNW.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088509884211896320/img/JFpkb-U_KRJxvRZe.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "10 REPLIES · 11 REPOSTS · 86 LIKES · 23 BOOKMARKS · 9592 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 视频 / 画质",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI VIDEO",
+    "datetime": "2026-08-15T06:03:52.000Z",
+    "author": "TapNow",
+    "handle": "TapNow_AI",
+    "avatar": "https://pbs.twimg.com/profile_images/1922937010265915392/P-tFykqa_200x200.jpg",
+    "title": "TapNow 首发 Seedance 2.5 1080p",
+    "summary": "TapNow 官方宣布 Seedance 2.5 1080p 首发，强调分辨率、细节和帧空间提升。对 AI 视频视觉评测来说，这是可直接验证生成质量的官方样本。",
+    "url": "https://x.com/TapNow_AI/status/2088506942092427309",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088506674135040000/vid/avc1/640x360/5SlCYeyUtkJmPDoK.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088506674135040000/img/-UfIQy0pZn3nEoub.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "12 REPLIES · 7 REPOSTS · 43 LIKES · 3 BOOKMARKS · 4125 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 视频 / 模型发布",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-15T05:11:28.000Z",
+    "author": "Tibo",
+    "handle": "thsottiaux",
+    "avatar": "https://pbs.twimg.com/profile_images/2075819673263001600/pj1vyX6I_200x200.jpg",
+    "title": "ChatGPT 餐厅预订搜索降低意图输入成本",
+    "summary": "Tibo 记录 ChatGPT 新增餐厅预订搜索，并引用功能发布串。这个信号说明 ChatGPT 正把模糊自然语言意图转成更具体的生活服务搜索。",
+    "url": "https://x.com/thsottiaux/status/2088493756391768252",
+    "media": [],
+    "metrics": "166 REPLIES · 41 REPOSTS · 1059 LIKES · 132 BOOKMARKS · 212316 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 产品 / 生活服务",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2088349344248537250",
+      "TweetText": "This week's ChatGPT feature drop - Aug 14:\n\n1/ Quizzes - \"Quiz me on [topic]\" will now automatically generate quizzes right in Chat. Learn any topic!\n\n2/ Reservation search - \"I'm looking for a reservation for two next Saturday for a place with a great outdoor patio\". Nice thing is you can just describe what you want.\n\n3/ Google Drive for Paid Users - You can now add Google Drive files to your ChatGPT Library. That makes it easy to ask ChatGPT questions about those files. Just hit the + menu and \"Add from Library\"\n\n4/ Suggestions for Paid Users - Paid users will see high quality suggestions on the home page of ChatGPT\n\nWe're continuing to make answers better, allow you to pull in the right documents, and more easily discover what Chat can do. Step by step, ChatGPT gets more useful! Leave feedback in the comments.",
+      "TweetCreatedDate": "2026-08-14T19:37:37.000Z",
+      "Tweet Url": "https://x.com/adamhfry/status/2088349344248537250",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/993660182633705472/EtWhXMsV_200x200.jpg",
+      "UserProfileName": "Adam Fry",
+      "UserScreenName": "adamhfry",
+      "MediaType": "video",
+      "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088345302138777600/img/gi2i6UQ9Sg-MXRtx.jpg",
+      "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088345302138777600/vid/avc1/640x360/FZvxhry50300vRpz.mp4?tag=29",
+      "Summary": "",
+      "Translation": "",
+      "_media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2088345302138777600/vid/avc1/640x360/FZvxhry50300vRpz.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2088345302138777600/img/gi2i6UQ9Sg-MXRtx.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "_metrics": "68 REPLIES · 95 REPOSTS · 1502 LIKES · 557 BOOKMARKS · 404411 VIEWS",
+      "_article": null
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-15T04:42:24.000Z",
+    "author": "枯白啃设计",
+    "handle": "Kubai087",
+    "avatar": "https://pbs.twimg.com/profile_images/2036148968900665346/DblPsR4p_200x200.jpg",
+    "title": "Lumno 搜索插件更新减负动画与快捷跳转",
+    "summary": "Kubai 更新 Lumno 浏览器聚焦搜索插件，包含视觉减负、动画性能减负、快捷跳转和新标签页性能。它是搜索入口微交互持续打磨的样本。",
+    "url": "https://x.com/Kubai087/status/2088486439575253049",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088486043981172737/vid/avc1/554x360/i3cin2rgsvtaqxTR.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088486043981172737/img/oKymEyHt9yAMosnJ.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 5 LIKES · 3 BOOKMARKS · 836 VIEWS",
+    "links": [],
+    "_analysisTheme": "搜索插件 / 性能体验",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-15T03:36:12.000Z",
+    "author": "Popo",
+    "handle": "ipopo",
+    "avatar": "https://pbs.twimg.com/profile_images/1993495519411515392/MA9Rf1_F_200x200.jpg",
+    "title": "Bento Window 为 Raycast 窗口排布补上可逆交互",
+    "summary": "Bento Window 更新 Raycast 窗口平铺扩展，新增再次触发恢复原位、菜单栏图标和更快动画。它体现小工具如何用可逆状态和轻交互提高日常效率。",
+    "url": "https://x.com/ipopo/status/2088469782068965650",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPu8KJKaIAAwhT6.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 34 VIEWS",
+    "links": [
+      "https://www.raycast.com/Popo/bento-window"
+    ],
+    "_analysisTheme": "Mac 工具 / 交互细节",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-15T03:19:38.000Z",
+    "author": "Jackywine",
+    "handle": "Jackywine",
+    "avatar": "https://pbs.twimg.com/profile_images/1805875520430915586/x3t_sQdd_200x200.jpg",
+    "title": "DeepSeek Harness 轨迹视图像 Agent DevTools",
+    "summary": "Jackywine 观察 DeepSeek Harness 的轨迹能看到模型思考、原始输入输出、时间顺序和 token 消耗。它把 Agent 可解释性转成可设计的调试界面。",
+    "url": "https://x.com/Jackywine/status/2088465614394544632",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088465089557131264/vid/avc1/554x360/lJa3rFgyiIHBRqlF.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088465089557131264/img/FIO2pZYz0EaK3_CR.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 2 BOOKMARKS · 1078 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent 可观察性",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI DESIGN",
+    "datetime": "2026-08-15T02:58:46.000Z",
+    "author": "Adam Whitcroft",
+    "handle": "AdamWhitcroft",
+    "avatar": "https://pbs.twimg.com/profile_images/1606497559551561729/6bj2XpEc_200x200.jpg",
+    "title": "Claude 生成视觉编辑器辅助邮票式图形微调",
+    "summary": "Adam Whitcroft 说明用 Claude 先生成基础视觉编辑器，再调 5 个 stamp 变体。它展示 AI 不是直接出最终稿，而是生成可控编辑面板。",
+    "url": "https://x.com/AdamWhitcroft/status/2088460360210931781",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088460251964268544/vid/avc1/460x360/eQsF9wZMYTSRlCkq.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088460251964268544/img/w57EvXG9etAqchCA.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 4 REPOSTS · 114 LIKES · 82 BOOKMARKS · 6807 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 辅助视觉编辑",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-14T22:47:14.000Z",
+    "author": "Josh Millgate",
+    "handle": "joshmillgate",
+    "avatar": "https://pbs.twimg.com/profile_images/2060492722239127554/-I7RlyfG_200x200.jpg",
+    "title": "Ultramock 用视频展示高自由度 Mockup 变形",
+    "summary": "Josh Millgate 用一句话和视频展示 mockup 工具能力。它值得留意，因为作品展示本身把产品价值压缩成可被秒懂的交互动效。",
+    "url": "https://x.com/joshmillgate/status/2088397062626750589",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088396389512278016/vid/avc1/664x360/bGpToW7B8udqyMK5.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088396389512278016/img/XZwjpiHrWyRNPQ-L.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "10 REPLIES · 1 REPOSTS · 100 LIKES · 76 BOOKMARKS · 4849 VIEWS",
+    "links": [],
+    "_analysisTheme": "Mockup / 产品演示",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "MOTION DESIGN",
+    "datetime": "2026-08-14T21:39:42.000Z",
+    "author": "Little Red Balloon",
+    "handle": "LRB_Games",
+    "avatar": "https://pbs.twimg.com/profile_images/1914370604788031488/m-q7Brfl_200x200.jpg",
+    "title": "Rive 交互动画把角色状态做成可玩小场景",
+    "summary": "LRB Games 展示用 Rive 制作的互动动画。它适合学习轻量互动如何从单一动效扩展成可探索状态。",
+    "url": "https://x.com/LRB_Games/status/2088380066057138583",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088379566708436994/vid/avc1/648x360/ZniFu-OkIo1Krq0j.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088379566708436994/img/JtVlRKcGAefF9YQQ.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 3 REPOSTS · 28 LIKES · 5 BOOKMARKS · 1454 VIEWS",
+    "links": [],
+    "_analysisTheme": "Rive / 交互动画",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-14T20:23:54.000Z",
+    "author": "Kavsoft",
+    "handle": "_Kavsoft",
+    "avatar": "https://pbs.twimg.com/profile_images/1553505113633075200/MBkX8qZx_200x200.jpg",
+    "title": "Kavsoft 用 SwiftUI 复刻 Photos 风格 Tab Bar",
+    "summary": "Kavsoft 发布 Photos App 风格 Tab Bar 交互教程。它适合拆解系统级转场、底部导航状态和 SwiftUI 动效实现。",
+    "url": "https://x.com/_Kavsoft/status/2088360991696515162",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088360913447665664/vid/avc1/540x540/uVtFe5Avl81MbTZ-.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088360913447665664/img/5Tmx76rHGuylGYB-.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 2 REPOSTS · 133 LIKES · 83 BOOKMARKS · 7382 VIEWS",
+    "links": [
+      "https://youtu.be/DMc8juxZzyQ"
+    ],
+    "_analysisTheme": "SwiftUI / Tab Bar",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "VISUAL DESIGN",
+    "datetime": "2026-08-14T19:40:46.000Z",
+    "author": "Basic Apple Guy",
+    "handle": "BasicAppleGuy",
+    "avatar": "https://pbs.twimg.com/profile_images/1522623872717099013/h5fNVE5d_200x200.jpg",
+    "title": "Basic Apple Guy 梳理 macOS 27 图标演化",
+    "summary": "Basic Apple Guy 展示 macOS 27 Golden Gate 图标演化。它适合用作系统图标风格迁移、材质和一致性的视觉参考。",
+    "url": "https://x.com/BasicAppleGuy/status/2088350136070218208",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPtPTIMbUAAYEOZ.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPtPTICbQAAWS8V.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPtPTIEbQAA00yJ.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPtPTIEbsAAEmFx.jpg?name=orig"
+      }
+    ],
+    "metrics": "4 REPLIES · 9 REPOSTS · 418 LIKES · 34 BOOKMARKS · 22574 VIEWS",
+    "links": [],
+    "_analysisTheme": "图标 / 系统视觉",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-14T19:32:18.000Z",
+    "author": "Notion Calendar",
+    "handle": "NotionCalendar",
+    "avatar": "https://pbs.twimg.com/profile_images/1747666025221677057/uvQb9ApI_200x200.png",
+    "title": "Notion Calendar AI Meeting Notes 自动找对会议纪要",
+    "summary": "Notion Calendar 宣布 Join and Transcribe 会搜索事件描述和附件里的页面，帮助用户落到正确会议纪要。它把 AI 会议记录从“录下来”推进到“理解上下文入口”。",
+    "url": "https://x.com/NotionCalendar/status/2088348003157565752",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088347506627280896/vid/avc1/640x360/s62lFmq7Ae-Iiswk.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088347506627280896/img/LLYx0GudoR_axNro.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 4 REPOSTS · 83 LIKES · 31 BOOKMARKS · 14743 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 产品 / 会议协作",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI POLICY",
+    "datetime": "2026-08-14T19:16:18.000Z",
+    "author": "Anthropic",
+    "handle": "AnthropicAI",
+    "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+    "title": "Anthropic 解释 Claude 文本水印实现边界",
+    "summary": "Anthropic 发布 Claude 文本水印 FAQ，说明为符合 EU AI Act 实施水印且不改变可读文本、成本和身份可追踪性。它是 AI 产品合规设计中必须读的官方说明。",
+    "url": "https://x.com/AnthropicAI/status/2088343978873966687",
+    "media": [],
+    "metrics": "1144 REPLIES · 400 REPOSTS · 2851 LIKES · 1868 BOOKMARKS · 3819858 VIEWS",
+    "links": [
+      "https://www.anthropic.com/news/claude-text-watermark"
+    ],
+    "_analysisTheme": "AI 政策 / 水印",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "How Claude&#x27;s text watermarking works \\ Anthropic",
+      "preview": "Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in writing the text, and we, along with several other major AI providers, are implementing this change to comply with the EU AI Act. In this article, we share answers to some of the questions we’ve received about how our cho",
+      "url": "https://www.anthropic.com/news/claude-text-watermark"
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-14T18:01:26.000Z",
+    "author": "wing",
+    "handle": "winglee",
+    "avatar": "https://pbs.twimg.com/profile_images/1936256101156372480/Rf7Fawxe_200x200.jpg",
+    "title": "Zeron 用 Rust + GPUI 做跨设备 Agent 控制台",
+    "summary": "Zeron 发布原生跨设备 Agent control plane，强调 Rust、GPUI、开源和多设备协同。它是个人设计工程师理解 Agent 工作台架构的好案例。",
+    "url": "https://x.com/winglee/status/2088325135422173226",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088313977281658882/vid/avc1/556x360/ut2Y6whgaxBxFopi.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088313977281658882/img/5lKoiXMKDcPtJddh.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "71 REPLIES · 37 REPOSTS · 1010 LIKES · 1109 BOOKMARKS · 74598 VIEWS",
+    "links": [
+      "https://zeron.sh"
+    ],
+    "_analysisTheme": "Agent / 原生应用",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TO CODE",
+    "datetime": "2026-08-14T17:54:38.000Z",
+    "author": "Pietro Schirano",
+    "handle": "skirano",
+    "avatar": "https://pbs.twimg.com/profile_images/1620194266533199874/rCtE0hYR_200x200.jpg",
+    "title": "Figma Connect 2.0 把多帧设计粘贴成 React 代码",
+    "summary": "Pietro Schirano 发布 Figma Connect 2.0：复制多个 Figma 设计到 MagicPath，保留 Auto Layout 和响应式并生成干净 React。它是设计到代码链路的高价值样本。",
+    "url": "https://x.com/skirano/status/2088323424380698762",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088321918755557376/vid/avc1/640x360/-iglVtj_5TDr-8_m.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088321918755557376/img/_xRBMJG9SGRecqov.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "15 REPLIES · 8 REPOSTS · 209 LIKES · 155 BOOKMARKS · 21159 VIEWS",
+    "links": [],
+    "_analysisTheme": "设计到代码 / Figma",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-14T17:41:47.000Z",
+    "author": "Framer",
+    "handle": "framer",
+    "avatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW_200x200.jpg",
+    "title": "Framer 展示 Ramp 周边商店用组件化 Commerce 落地",
+    "summary": "Framer 官方转发 Ramp 用 Framer Commerce 搭建周边商店。它值得抓取，因为品牌周边、电商陈列和 no-code 站点正在合流，可作为商业化落地页的结构参考。",
+    "url": "https://x.com/framer/status/2088320193093394489",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088320173816307712/vid/avc1/640x360/I2GJ9v-8gTr2XqEi.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088320173816307712/img/JmDP7h6ghO0yjQRi.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "8 REPLIES · 5 REPOSTS · 82 LIKES · 40 BOOKMARKS · 10658 VIEWS",
+    "links": [],
+    "_analysisTheme": "设计工具 / Commerce",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "INDIE PRODUCT",
+    "datetime": "2026-08-14T16:40:45.000Z",
+    "author": "PulseNotch",
+    "handle": "pulsenotch",
+    "avatar": "https://pbs.twimg.com/profile_images/2059415797785628681/ea_jh-JI_200x200.png",
+    "title": "Nook 把常用 Mac 维护能力收束成原生工具",
+    "summary": "Pulse Notch 发布 Nook，主打清理、卸载、优化、分析和监控。它代表独立 Mac 工具如何用清晰动词定义产品边界。",
+    "url": "https://x.com/pulsenotch/status/2088304831832432973",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPZWrDZWwAA2SCo.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 12 LIKES · 10 BOOKMARKS · 70481 VIEWS",
+    "links": [],
+    "_analysisTheme": "Mac 工具 / 信息架构",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-14T16:18:43.000Z",
+    "author": "Google AI Developers",
+    "handle": "googleaidevs",
+    "avatar": "https://pbs.twimg.com/profile_images/1865153179341426688/g3bdgQ0P_200x200.jpg",
+    "title": "Google AI Developers 展示 Gemini Hackathon 增长工具",
+    "summary": "Google AI Developers 面向 Build with Gemini XPrize Hackathon，展示 Flow 和 Pomelli 可用于产品营销和创意活动。它说明 AI 工具正在覆盖“做出来之后如何增长”的后半段。",
+    "url": "https://x.com/googleaidevs/status/2088299287566602242",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088298293252247552/vid/avc1/640x360/5jLTcfPBofo4deam.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088298293252247552/img/3rvHEZFDMqpFEi-c.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 3 REPOSTS · 49 LIKES · 22 BOOKMARKS · 7008 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 产品 / 增长工具",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI UX",
+    "datetime": "2026-08-14T16:03:47.000Z",
+    "author": "brexton",
+    "handle": "brexton",
+    "avatar": "https://pbs.twimg.com/profile_images/1960113356293206016/JCsYhO3m_200x200.jpg",
+    "title": "AI 语音是否成为主入口的产品问题",
+    "summary": "brexton 观察朋友主要通过语音使用 AI，并提问语音是否已经成为常见界面。这个问题值得抓取，因为输入方式变化会重塑 AI 产品的信息架构。",
+    "url": "https://x.com/brexton/status/2088295527435964711",
+    "media": [],
+    "metrics": "54 REPLIES · 0 REPOSTS · 94 LIKES · 12 BOOKMARKS · 10304 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI UX / 语音界面",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-14T16:00:18.000Z",
+    "author": "Wonder",
+    "handle": "usewonder",
+    "avatar": "https://pbs.twimg.com/profile_images/2045192997797519361/yHA1qzir_200x200.jpg",
+    "title": "Wonder 从画布直接打开 GitHub PR",
+    "summary": "Wonder 展示连接 repo 后在画布中使用组件和变量，完成后自动开分支和 PR。它是 code-to-canvas-to-code 闭环的实用产品信号。",
+    "url": "https://x.com/usewonder/status/2088294652294136278",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088294465689595904/vid/avc1/640x360/rLQvlRwu_IXB3Me8.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088294465689595904/img/KwOs_GoWhSFrdYy5.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "2 REPLIES · 5 REPOSTS · 34 LIKES · 16 BOOKMARKS · 2436 VIEWS",
+    "links": [],
+    "_analysisTheme": "设计工程 / 设计到 PR",
+    "_analysisPriority": "high"
+  },
+  {
     "category": "DESIGN ENGINEERING",
     "datetime": "2026-08-14T04:17:12.000Z",
     "author": "Meng To",
