@@ -4,18 +4,18 @@ window.DESIGNER_ANALYSIS = [
     "generatedAt": "2026-08-15T19:14:11+08:00",
     "batch": "x-ai-design-analysis-2026-08-15-1914",
     "analysisCount": 100,
-    "homeCount": 24,
-    "likeCount": 76,
-    "linksInspected": 55,
-    "unavailableLinks": 16,
-    "summary": "本批在 2026-08-15 Asia/Shanghai 晚间运行中，先从登录态 Home/Following/Search 观察 255 个唯一候选并选入 24 条同日高质量内容；Likes 观察 24 个唯一 ID，新增 11 条收藏；Analysis 由 24 条 Home、11 条新 Like 和 65 条未分析历史 Like 组成 100 条个人设计师学习样本。",
+    "homeCount": 19,
+    "likeCount": 81,
+    "linksInspected": 52,
+    "unavailableLinks": 2,
+    "summary": "本批在 2026-08-15 Asia/Shanghai 晚间运行中，先从登录态 Home/Following/Search 观察 255 个唯一候选并选入 24 条同日 Home；因已有 08:24 report，本批 Analysis 只保留未重复的 19 条 Home，并以 11 条新 Like 和 70 条未分析历史 Like 补足 100 条个人设计师学习样本。",
     "sourceWindow": {
-      "strategy": "Home 观察 1352 次原始出现、255 个唯一 status，选入 24 条同日内容；Likes 观察 118 次原始出现、24 个唯一 status，遇到已知边界后新增 11 条；为达到 100 条 Analysis，补入 65 条未分析历史 Like。",
+      "strategy": "Home 观察 1352 次原始出现、255 个唯一 status，写入 24 条同日内容；Likes 观察 118 次原始出现、24 个唯一 status，遇到已知边界后新增 11 条；Analysis 排除已有 08:24 report 的重复 ID 后，由 19 条 Home 与 81 条 Like 组成。",
       "newestHomeDatetime": "2026-08-15T11:11:33.000Z",
       "oldestHomeDatetime": "2026-08-14T16:00:18.000Z",
       "newestLikeDatetime": "2026-07-30T19:00:12.000Z",
-      "oldestLikeDatetime": "2026-07-22T21:09:45.000Z",
-      "expandedWindow": "Home 同日候选充足，无需扩展；Like 同步滚动中补到部分历史新增收藏；Analysis 为补足 100 条，扩展到未分析历史 Like，含 48 小时以前内容。"
+      "oldestLikeDatetime": "2026-07-22T14:22:00.000Z",
+      "expandedWindow": "Home 同日候选充足，无需扩展；Like 同步滚动中补到部分历史新增收藏；Analysis 为补足 100 条且避开已有 08:24 report，扩展到未分析历史 Like，含 48 小时以前内容。"
     },
     "items": [
       {
@@ -64,31 +64,6 @@ window.DESIGNER_ANALYSIS = [
         "tags": [
           "AI 产品 / Agent 工作流",
           "AI Agent / 执行环境",
-          "Home"
-        ],
-        "priority": "high"
-      },
-      {
-        "id": "2088577486649167980",
-        "sourceTab": "home",
-        "statusUrl": "https://x.com/JaynitMakwana/status/2088577486649167980",
-        "author": "Jaynit Makwana",
-        "handle": "JaynitMakwana",
-        "datetime": "2026-08-15T10:44:11.000Z",
-        "title": "MiniMax H3 在 Magnific 中同步生成声画",
-        "originalSummary": "Jaynit Makwana 强调 MiniMax H3 在 Magnific 中能同步生成画面、旁白、音乐、音效和 motion，而不是后期补音频。对 AI 视频工作流来说，声画同步是质量判断的新门槛。",
-        "whySaved": "",
-        "whyCaptured": "我会抓取它，是因为它来自今天登录态 Home/Following/Search 的高价值「AI 视频 / 动效表达」信号，能转化为个人设计师的学习事项。",
-        "deepSummary": "这条内容把「AI 视频 / 动效表达」落到可观察案例：Jaynit Makwana 强调 MiniMax H3 在 Magnific 中能同步生成画面、旁白、音乐、音效和 motion，而不是后期补音频。对 AI 视频工作流来说，声画同步是质量判断的新门槛。 重点是判断它如何影响设计工作流、视觉表达或设计工程实现。",
-        "linkAnalysis": [],
-        "learningActions": [
-          "记录镜头、节奏、声画同步和转场的具体做法。",
-          "判断 AI 生成环节在哪些地方节省或增加了人工控制。",
-          "把一个片段转成可复用的提示词或动效规格。"
-        ],
-        "tags": [
-          "AI 视频 / 动效表达",
-          "AI 视频 / 声画同步",
           "Home"
         ],
         "priority": "high"
@@ -160,53 +135,6 @@ window.DESIGNER_ANALYSIS = [
         "priority": "high"
       },
       {
-        "id": "2088540924750012613",
-        "sourceTab": "home",
-        "statusUrl": "https://x.com/MengTo/status/2088540924750012613",
-        "author": "Meng To",
-        "handle": "MengTo",
-        "datetime": "2026-08-15T08:18:54.000Z",
-        "title": "Meng To 用 Codex 和 Pika 给落地页补声音",
-        "originalSummary": "Meng To 展示 Codex 通过 Pika Soundtrack MCP 为 49 秒 landing page 生成音乐和音效，音频成本只有 0.02 美元。它说明设计工程的体验细节正在进入可自动化的多媒体流水线。",
-        "whySaved": "",
-        "whyCaptured": "我会抓取它，是因为它来自今天登录态 Home/Following/Search 的高价值「设计工程 / 工具实现」信号，能转化为个人设计师的学习事项。",
-        "deepSummary": "这条内容把「设计工程 / 工具实现」落到可观察案例：Meng To 展示 Codex 通过 Pika Soundtrack MCP 为 49 秒 landing page 生成音乐和音效，音频成本只有 0.02 美元。它说明设计工程的体验细节正在进入可自动化的多媒体流水线。 重点是判断它如何影响设计工作流、视觉表达或设计工程实现。",
-        "linkAnalysis": [
-          {
-            "title": "Pika Audio models | Pika API",
-            "url": "https://dev.pika.art/models/pika/pika-audio",
-            "access": "full",
-            "value": "页面提供原帖外的信息：Pika API 页面说明 Pika Audio、Pika SFX、Pika Speech 和 Pika Soundtrack 统一在一个 API 与请求形态下。",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
-          },
-          {
-            "title": "X 引用帖 @pika_labs",
-            "url": "https://x.com/pika_labs/status/2088351507167289515",
-            "access": "full",
-            "value": "引用帖补充了上下文：Sound on! Today, we’re introducing Pika Audio models: 4 frontier foundation models that cover the full spectrum of gener",
-            "learningValue": "适合核对原帖引用链和观点来源。"
-          },
-          {
-            "title": "https://dev.pika.art/models/pika/pika-audio",
-            "url": "https://dev.pika.art/models/pika/pika-audio",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
-          }
-        ],
-        "learningActions": [
-          "拆解输入、生成、编辑、回写或导出的完整链路。",
-          "记录可复用的组件、API、插件或代码实现线索。",
-          "用一个小型真实界面复测它能否降低交付成本。"
-        ],
-        "tags": [
-          "设计工程 / 工具实现",
-          "设计工程 / 声音体验",
-          "含链接"
-        ],
-        "priority": "high"
-      },
-      {
         "id": "2088532443536269315",
         "sourceTab": "home",
         "statusUrl": "https://x.com/EnHeng456/status/2088532443536269315",
@@ -248,14 +176,7 @@ window.DESIGNER_ANALYSIS = [
             "title": "Vercel Security Checkpoint",
             "url": "https://www.inspora.design/",
             "access": "unavailable",
-            "value": "本轮无法完整读取：页面返回 Vercel Security Checkpoint；本轮无法读取站内设计集合，只能基于原帖可见说明判断。。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
-          },
-          {
-            "title": "Vercel Security Checkpoint",
-            "url": "https://www.inspora.design/",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面返回 Vercel Security Checkpoint；本轮无法读取站内设计集合，只能基于原帖可见说明判断。。只基于原帖可见信息判断。",
+            "value": "本轮无法完整读取：页面返回访问验证或限流，无法完整读取。。只基于原帖可见信息判断。",
             "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
           }
         ],
@@ -479,56 +400,6 @@ window.DESIGNER_ANALYSIS = [
         "priority": "high"
       },
       {
-        "id": "2088486439575253049",
-        "sourceTab": "home",
-        "statusUrl": "https://x.com/Kubai087/status/2088486439575253049",
-        "author": "枯白啃设计",
-        "handle": "Kubai087",
-        "datetime": "2026-08-15T04:42:24.000Z",
-        "title": "Lumno 搜索插件减轻视觉和动画负担",
-        "originalSummary": "枯白啃设计更新 Lumno 浏览器聚焦搜索插件，优化搜索栏视觉、动画性能、快捷跳转和新标签页加载。它是小工具迭代中“减负”比新增功能更重要的例子。",
-        "whySaved": "",
-        "whyCaptured": "我会抓取它，是因为它来自今天登录态 Home/Following/Search 的高价值「品牌视觉 / 图形语言」信号，能转化为个人设计师的学习事项。",
-        "deepSummary": "这条内容把「品牌视觉 / 图形语言」落到可观察案例：枯白啃设计更新 Lumno 浏览器聚焦搜索插件，优化搜索栏视觉、动画性能、快捷跳转和新标签页加载。它是小工具迭代中“减负”比新增功能更重要的例子。 重点是判断它如何影响设计工作流、视觉表达或设计工程实现。",
-        "linkAnalysis": [],
-        "learningActions": [
-          "提取形状、色彩、排版和材质的系统规则。",
-          "判断这些规则如何扩展到图标、封面和产品界面。",
-          "做一张对照板，区分可借鉴方法和不可迁移风格。"
-        ],
-        "tags": [
-          "品牌视觉 / 图形语言",
-          "浏览器插件 / 搜索体验",
-          "Home"
-        ],
-        "priority": "medium"
-      },
-      {
-        "id": "2088350136070218208",
-        "sourceTab": "home",
-        "statusUrl": "https://x.com/BasicAppleGuy/status/2088350136070218208",
-        "author": "Basic Apple Guy",
-        "handle": "BasicAppleGuy",
-        "datetime": "2026-08-14T19:40:46.000Z",
-        "title": "macOS 27 Golden Gate 图标演进参考",
-        "originalSummary": "Basic Apple Guy 汇总 macOS 27 Golden Gate 图标演进，多图展示系统图标语言的细节变化。适合作为图标风格迭代和平台一致性的视觉参考。",
-        "whySaved": "",
-        "whyCaptured": "我会抓取它，是因为它来自今天登录态 Home/Following/Search 的高价值「品牌视觉 / 图形语言」信号，能转化为个人设计师的学习事项。",
-        "deepSummary": "这条内容把「品牌视觉 / 图形语言」落到可观察案例：Basic Apple Guy 汇总 macOS 27 Golden Gate 图标演进，多图展示系统图标语言的细节变化。适合作为图标风格迭代和平台一致性的视觉参考。 重点是判断它如何影响设计工作流、视觉表达或设计工程实现。",
-        "linkAnalysis": [],
-        "learningActions": [
-          "提取形状、色彩、排版和材质的系统规则。",
-          "判断这些规则如何扩展到图标、封面和产品界面。",
-          "做一张对照板，区分可借鉴方法和不可迁移风格。"
-        ],
-        "tags": [
-          "品牌视觉 / 图形语言",
-          "图标 / 平台视觉",
-          "Home"
-        ],
-        "priority": "high"
-      },
-      {
         "id": "2088348003157565752",
         "sourceTab": "home",
         "statusUrl": "https://x.com/NotionCalendar/status/2088348003157565752",
@@ -582,46 +453,6 @@ window.DESIGNER_ANALYSIS = [
         "tags": [
           "AI 产品 / Agent 工作流",
           "AI 政策 / 水印",
-          "含链接"
-        ],
-        "priority": "high"
-      },
-      {
-        "id": "2088325135422173226",
-        "sourceTab": "home",
-        "statusUrl": "https://x.com/winglee/status/2088325135422173226",
-        "author": "wing",
-        "handle": "winglee",
-        "datetime": "2026-08-14T18:01:26.000Z",
-        "title": "Zeron 用 Rust 和 GPUI 做跨设备 Agent 控制台",
-        "originalSummary": "wing 发布开源 Zeron，一个 native cross-device agent control plane，使用 Rust + GPUI 构建。它值得跟进，因为多设备 Agent 状态和控制权会成为桌面生产力界面的核心问题。",
-        "whySaved": "",
-        "whyCaptured": "我会抓取它，是因为它来自今天登录态 Home/Following/Search 的高价值「设计工程 / 工具实现」信号，能转化为个人设计师的学习事项。",
-        "deepSummary": "这条内容把「设计工程 / 工具实现」落到可观察案例：wing 发布开源 Zeron，一个 native cross-device agent control plane，使用 Rust + GPUI 构建。它值得跟进，因为多设备 Agent 状态和控制权会成为桌面生产力界面的核心问题。 重点是判断它如何影响设计工作流、视觉表达或设计工程实现。",
-        "linkAnalysis": [
-          {
-            "title": "Zeron — control your coding agents from any device",
-            "url": "https://zeron.sh/",
-            "access": "full",
-            "value": "页面提供原帖外的信息：Zeron runs Claude Code, Codex, Grok, Hermes and Pi on your machines. Control them from any device, live.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
-          },
-          {
-            "title": "Zeron — control your coding agents from any device",
-            "url": "https://zeron.sh/",
-            "access": "full",
-            "value": "页面提供原帖外的信息：Zeron runs Claude Code, Codex, Grok, Hermes and Pi on your machines. Control them from any device, live.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
-          }
-        ],
-        "learningActions": [
-          "拆解输入、生成、编辑、回写或导出的完整链路。",
-          "记录可复用的组件、API、插件或代码实现线索。",
-          "用一个小型真实界面复测它能否降低交付成本。"
-        ],
-        "tags": [
-          "设计工程 / 工具实现",
-          "AI Agent / 控制台",
           "含链接"
         ],
         "priority": "high"
@@ -997,7 +828,7 @@ window.DESIGNER_ANALYSIS = [
             "title": "Superwhisper partners with Cohere to bring Transcribe to local dictation",
             "url": "https://superwhisper.com/blog/cohere",
             "access": "full",
-            "value": "页面提供原帖外的信息：文章说明 Superwhisper 与 Cohere 合作，把 2B 开源语音识别模型 Transcribe 带到本地听写，强调 14 种语言、离线转写和低词错率。",
+            "value": "页面提供原帖外的信息：Superwhisper has partnered with Cohere to bring Cohere Transcribe to local dictation: a 2B open-source speech model with a 5.35% average wor",
             "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
           }
         ],
@@ -1944,7 +1775,7 @@ window.DESIGNER_ANALYSIS = [
             "title": "Logo Inspiration — 1,300+ Logos & Animated Logos | Logosystem",
             "url": "https://logosystem.co/",
             "access": "full",
-            "value": "页面提供原帖外的信息：页面是免费 Logo 灵感库，提供 1,300+ logo、wordmark、symbol 与 animated logo，并可按颜色、风格、形状和行业筛选。",
+            "value": "页面提供原帖外的信息：The biggest free logo inspiration library — browse 1,300+ logo examples, wordmarks, symbols and animated logos by top designers, and filter ",
             "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
           }
         ],
@@ -2063,8 +1894,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Best Designs On X.com",
             "url": "https://bestdesignsonx.com/",
             "access": "full",
-            "value": "页面提供原帖外的信息：Discover the best design inspiration from top creatives on X. Updated hourly with hand-picked visual showcases, logos, UI, branding, and mor",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "value": "引用帖补充了上下文：Discover the best design inspiration from top creatives on X. Updated hourly with hand-picked visual showcases, logos, U",
+            "learningValue": "适合核对原帖引用链和观点来源。"
           }
         ],
         "learningActions": [
@@ -2154,11 +1985,11 @@ window.DESIGNER_ANALYSIS = [
         "deepSummary": "这条收藏的价值在于把「设计工程 / 工具实现」从时间线噪声里提取出来：向大家介绍 Cindy，我们创作的一款开源 AI Agent 客户端。她有很多有趣的地方，未来几天我会花时间来和大家一一介绍。 但今天最想说的，不是她有多强大——相反，她还有很多不完善的地方，等着我们持续去改进。Cindy 本身就是一款纯 Vibe 出来的作品，对我们来说就是一场面向 AI Native 开发的大型实验。经历了最近几周的开发实践，我们现在已经对如何让她变得更好充满信心。 https://github.com/makeci。后续应关注它能否转化成设计方法、工具试验或作品参考。",
         "linkAnalysis": [
           {
-            "title": "https://github.com/makecindy/cindy",
+            "title": "GitHub - makecindy/cindy: Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。 · GitHub",
             "url": "https://github.com/makecindy/cindy",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "access": "full",
+            "value": "页面提供原帖外的信息：Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。 - makecindy/cindy",
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
           }
         ],
         "learningActions": [
@@ -2188,11 +2019,11 @@ window.DESIGNER_ANALYSIS = [
         "deepSummary": "这条收藏的价值在于把「设计工程 / 工具实现」从时间线噪声里提取出来：Instagram App's Minimizable Tab Bar Using SwiftUI https://youtu.be/691o2FUDs-8。后续应关注它能否转化成设计方法、工具试验或作品参考。",
         "linkAnalysis": [
           {
-            "title": "https://youtu.be/691o2FUDs-8",
-            "url": "https://youtu.be/691o2FUDs-8",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "title": "Instagram App's Minimizable Tab Bar Using SwiftUI | Scroll to Minimize Tab Bar | Xcode 27 - YouTube",
+            "url": "https://www.youtube.com/watch?v=691o2FUDs-8&feature=youtu.be",
+            "access": "full",
+            "value": "页面提供原帖外的信息：Hello Guys 🖐🖐🖐In this video, I’ll demonstrate how to recreate the Instagram App's Minimizable Tab Bar using SwiftUI | Scroll to Minimize ",
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
           }
         ],
         "learningActions": [
@@ -2248,11 +2079,11 @@ window.DESIGNER_ANALYSIS = [
         "deepSummary": "这条收藏的价值在于把「品牌视觉 / 图形语言」从时间线噪声里提取出来：Aeonik Pro Sans-Serif Variable Font Specimen: Visual Tension The aeonik pro sans-serif variable font specimen has clear visual tension. Mash Creative designed this clean typographic system. https://abduzeedo.com/aeonik-p。后续应关注它能否转化成设计方法、工具试验或作品参考。",
         "linkAnalysis": [
           {
-            "title": "https://abduzeedo.com/aeonik-pro-sans-serif-variable-font-specimen-visual-tension",
+            "title": "Aeonik Pro Sans-Serif Variable Font Specimen: Visual Tension",
             "url": "https://abduzeedo.com/aeonik-pro-sans-serif-variable-font-specimen-visual-tension",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "access": "full",
+            "value": "页面提供原帖外的信息：The aeonik pro sans-serif variable font specimen has clear visual tension. Mash Creative designed this clean typographic system. This typefa",
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
           }
         ],
         "learningActions": [
@@ -2516,11 +2347,11 @@ window.DESIGNER_ANALYSIS = [
         "deepSummary": "这条收藏的价值在于把「个人收藏偏好」从时间线噪声里提取出来：Reece Evans Portfolio → https://deck.gallery/reece-evans-portfolio。后续应关注它能否转化成设计方法、工具试验或作品参考。",
         "linkAnalysis": [
           {
-            "title": "https://deck.gallery/reece-evans-portfolio",
-            "url": "https://deck.gallery/reece-evans-portfolio",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "title": "Reece Evans Portfolio - Deck.gallery",
+            "url": "https://deck.gallery/reece-evans-portfolio/",
+            "access": "full",
+            "value": "页面提供原帖外的信息：Reece Evans portfolio: Cambridge-based digital designer with clients including Burberry, Nike, Hypebeast, and eBay. 43 slides.",
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
           }
         ],
         "learningActions": [
@@ -2550,18 +2381,11 @@ window.DESIGNER_ANALYSIS = [
         "deepSummary": "这条收藏的价值在于把「品牌视觉 / 图形语言」从时间线噪声里提取出来：@vanschneider I need to try this camera one day. Sold the X100V for a Q, but honestly missing the Fuji colors and recipes. You might like this addition for videos: https://x.com/_atilla1/status/2080619830550446445?s=20。后续应关注它能否转化成设计方法、工具试验或作品参考。",
         "linkAnalysis": [
           {
-            "title": "https://x.com/_atilla1/status/2080619830550446445?s=20",
-            "url": "https://x.com/_atilla1/status/2080619830550446445?s=20",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
-          },
-          {
-            "title": "https://x.com/_atilla1/status/2080619830550446445",
+            "title": "X 引用帖 @_atilla1",
             "url": "https://x.com/_atilla1/status/2080619830550446445",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "access": "full",
+            "value": "引用帖补充了上下文：Introducing Licht Cinema Camera. Film the way you remember. The moment was cinema. Now the footage is too. I call it Lic",
+            "learningValue": "适合核对原帖引用链和观点来源。"
           }
         ],
         "learningActions": [
@@ -2695,11 +2519,11 @@ window.DESIGNER_ANALYSIS = [
         "deepSummary": "这条收藏的价值在于把「品牌视觉 / 图形语言」从时间线噪声里提取出来：Lu Yan Crafts Dieter Rams Inspired System Icon Design Rams System Icons launches a skeuomorphic icon suite with industrial design, combining Braun-inspired hardware by Lu Yan and Zhiyi Zhang. https://abduzeedo.com/lu-yan。后续应关注它能否转化成设计方法、工具试验或作品参考。",
         "linkAnalysis": [
           {
-            "title": "https://abduzeedo.com/lu-yan-crafts-dieter-rams-inspired-system-icon-design",
+            "title": "Lu Yan Crafts Dieter Rams Inspired System Icon Design",
             "url": "https://abduzeedo.com/lu-yan-crafts-dieter-rams-inspired-system-icon-design",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "access": "full",
+            "value": "页面提供原帖外的信息：Rams System Icons launches a skeuomorphic icon suite with industrial design, combining Braun-inspired hardware by Lu Yan and Zhiyi Zhang. De",
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
           }
         ],
         "learningActions": [
@@ -2729,11 +2553,11 @@ window.DESIGNER_ANALYSIS = [
         "deepSummary": "这条收藏的价值在于把「个人收藏偏好」从时间线噪声里提取出来：Good news: Paper is here to stay。后续应关注它能否转化成设计方法、工具试验或作品参考。",
         "linkAnalysis": [
           {
-            "title": "https://x.com/stephenhaney/status/2080322390878486903",
+            "title": "X 引用帖 @stephenhaney",
             "url": "https://x.com/stephenhaney/status/2080322390878486903",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "access": "full",
+            "value": "引用帖补充了上下文：Paper just raised $34M in our Series A from @Accel and @ICONIQCapital Paper is the pro design tool for teams shipping wi",
+            "learningValue": "适合核对原帖引用链和观点来源。"
           }
         ],
         "learningActions": [
@@ -2763,11 +2587,11 @@ window.DESIGNER_ANALYSIS = [
         "deepSummary": "这条收藏的价值在于把「设计工程 / 工具实现」从时间线噪声里提取出来：太棒啦，给我的个人网站里面的贴纸也加上了这个效果，顺便让 AI 加了个彩蛋——贴纸背后也有字。 感谢开源。。后续应关注它能否转化成设计方法、工具试验或作品参考。",
         "linkAnalysis": [
           {
-            "title": "https://x.com/cats_juice/status/2079263950538248276",
+            "title": "X 引用帖 @cats_juice",
             "url": "https://x.com/cats_juice/status/2079263950538248276",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "access": "full",
+            "value": "引用帖补充了上下文：想起当年手 k 过这个效果，现在用 GPT 5.6 Sol 很轻松就实现了，还支持了自定义富文本、自定义图像上传。已开源： 🔗在线体验： https://t.co/aSPhu1DC3r https://t.co/mhxlSoIhIh",
+            "learningValue": "适合核对原帖引用链和观点来源。"
           }
         ],
         "learningActions": [
@@ -2797,11 +2621,11 @@ window.DESIGNER_ANALYSIS = [
         "deepSummary": "这条收藏的价值在于把「AI 视频 / 动效表达」从时间线噪声里提取出来：我不知道是 higgsfield 推广的工作流还是怎么着，现在流行用 深度图做 storyboard grid。但事实上，从seedance到Kling到GeminiOmni 到 Happyhorse，没有一家视频模型是理解 静态关键帧的深度图（能响应 depth video 或 3D白模图 或 3D白模视频的 v2v）。 仔细看案例就会发现，对 depth map grid 完全没有 提示响应 ，能响应的是来自 关键帧或text pr。后续应关注它能否转化成设计方法、工具试验或作品参考。",
         "linkAnalysis": [
           {
-            "title": "https://x.com/vladimircherner/status/2079914833898557936",
+            "title": "X 引用帖 @vladimircherner",
             "url": "https://x.com/vladimircherner/status/2079914833898557936",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "access": "full",
+            "value": "引用帖补充了上下文：Depth-map storyboards pipeline! idea from @_OAK200 - spent a couple of days building it into a full working pipeline, al",
+            "learningValue": "适合核对原帖引用链和观点来源。"
           }
         ],
         "learningActions": [
@@ -2857,11 +2681,11 @@ window.DESIGNER_ANALYSIS = [
         "deepSummary": "这条收藏的价值在于把「个人收藏偏好」从时间线噪声里提取出来：Kimi K3 vs My Team You guys decide what's better。后续应关注它能否转化成设计方法、工具试验或作品参考。",
         "linkAnalysis": [
           {
-            "title": "https://x.com/liu8in/status/2080075081959776664",
+            "title": "X 引用帖 @liu8in",
             "url": "https://x.com/liu8in/status/2080075081959776664",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "access": "full",
+            "value": "引用帖补充了上下文：we've eval-ing K3 and we were legit shocked K3 is incredibly good at @HyperFrames_ , winning over GPT-5.6 and Fable 5 at",
+            "learningValue": "适合核对原帖引用链和观点来源。"
           }
         ],
         "learningActions": [
@@ -2943,11 +2767,11 @@ window.DESIGNER_ANALYSIS = [
         "deepSummary": "这条收藏的价值在于把「设计工程 / 工具实现」从时间线噪声里提取出来：Introducing Canvas UI, the first ever html-in-canvas component library. Your DOM is the render target now. Real-time shaders over real, interactive UI. 24 components. React, Vue, Svelte, vanilla TS. Free. Open source. 🧵。后续应关注它能否转化成设计方法、工具试验或作品参考。",
         "linkAnalysis": [
           {
-            "title": "http://canvasui.dev",
-            "url": "http://canvasui.dev",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "title": "Canvas UI: Creative Canvas and WebGL Component Library",
+            "url": "http://canvasui.dev/",
+            "access": "full",
+            "value": "页面提供原帖外的信息：An open source component library of creative html-in-canvas and WebGL effects for React, Solid, Preact, Vue, Svelte, and vanilla JS. Creativ",
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
           }
         ],
         "learningActions": [
@@ -3003,11 +2827,11 @@ window.DESIGNER_ANALYSIS = [
         "deepSummary": "这条收藏的价值在于把「AI 产品 / Agent 工作流」从时间线噪声里提取出来：Try the layout resizer technique here: https://link.flora.ai/fdc-use-case-sasha-x。后续应关注它能否转化成设计方法、工具试验或作品参考。",
         "linkAnalysis": [
           {
-            "title": "https://link.flora.ai/fdc-use-case-sasha-x",
-            "url": "https://link.flora.ai/fdc-use-case-sasha-x",
-            "access": "unavailable",
-            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "title": "Layout Resizer | FLORA",
+            "url": "https://app.flora.ai/techniques/layout-resizer?utm_source=twitter&utm_medium=social&utm_campaign=2026-07_fdc-use-case-video&utm_content=video",
+            "access": "full",
+            "value": "页面提供原帖外的信息：Run this AI-powered technique in your browser. Upload inputs, generate professional results in seconds. Free to try on FLORA.",
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
           }
         ],
         "learningActions": [
@@ -3022,6 +2846,166 @@ window.DESIGNER_ANALYSIS = [
           "AI"
         ],
         "priority": "high"
+      },
+      {
+        "id": "2080037603718705445",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/floraai/status/2080037603718705445",
+        "author": "FLORA ©",
+        "handle": "floraai",
+        "datetime": "2026-07-22T21:09:44.000Z",
+        "title": "Turn one ad into hundreds of varia...",
+        "originalSummary": "Turn one ad into hundreds of variations in every aspect ratio. Techniques on FLORA let you package the whole workflow once and reuse it forever. Drop an asset on the canvas, resize...",
+        "whySaved": "你会收藏它，是因为它提供了「个人收藏偏好」的可复用案例、工具线索或审美判断，值得放进个人设计资料库。",
+        "whyCaptured": "因用户已收藏，作为明确偏好信号纳入当天深读。",
+        "deepSummary": "这条收藏的价值在于把「个人收藏偏好」从时间线噪声里提取出来：Turn one ad into hundreds of variations in every aspect ratio. Techniques on FLORA let you package the whole workflow once and reuse it forever. Drop an asset on the canvas, resize in bulk, localize into any language. FL。后续应关注它能否转化成设计方法、工具试验或作品参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "解释这条内容触发收藏的具体原因。",
+          "把偏好转成个人资料库标签。",
+          "挑一个细节做复盘，避免只停留在“好看”。"
+        ],
+        "tags": [
+          "个人收藏偏好",
+          "Liked",
+          "Liked",
+          "Design"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2079970100988580051",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/cats_juice/status/2079970100988580051",
+        "author": "CatsJuice",
+        "handle": "cats_juice",
+        "datetime": "2026-07-22T16:41:30.000Z",
+        "title": "已经用 ScreenCam 做了很多视频了，终于迎来了一个较稳定的版...",
+        "originalSummary": "已经用 ScreenCam 做了很多视频了，终于迎来了一个较稳定的版本，还有很多细节等着拉满！ 欢迎体验和反馈，并且这有一个 -33% 的折扣： https://apps.apple.com/redeem?ctx=offercodes&id=6770877568&code=LAUNCH33",
+        "whySaved": "你会收藏它，是因为它提供了「设计工程 / 工具实现」的可复用案例、工具线索或审美判断，值得放进个人设计资料库。",
+        "whyCaptured": "因用户已收藏，作为明确偏好信号纳入当天深读。",
+        "deepSummary": "这条收藏的价值在于把「设计工程 / 工具实现」从时间线噪声里提取出来：已经用 ScreenCam 做了很多视频了，终于迎来了一个较稳定的版本，还有很多细节等着拉满！ 欢迎体验和反馈，并且这有一个 -33% 的折扣： https://apps.apple.com/redeem?ctx=offercodes&id=6770877568&code=LAUNCH33。后续应关注它能否转化成设计方法、工具试验或作品参考。",
+        "linkAnalysis": [
+          {
+            "title": "https://apps.apple.com/redeem/?ctx=offercodes&id=6770877568&code=LAUNCH33",
+            "url": "https://apps.apple.com/redeem/?ctx=offercodes&id=6770877568&code=LAUNCH33",
+            "access": "full",
+            "value": "页面提供原帖外的信息：https://apps.apple.com/redeem/?ctx=offercodes&id=6770877568&code=LAUNCH33",
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+          },
+          {
+            "title": "X 引用帖 @screencam_app",
+            "url": "https://x.com/screencam_app/status/2079965167279043011",
+            "access": "full",
+            "value": "引用帖补充了上下文：Meet ScreenCam for Mac. Lighter. Faster. More powerful. Record. Edit. Direct every frame. Learn more: https://t.co/zkfam",
+            "learningValue": "适合核对原帖引用链和观点来源。"
+          }
+        ],
+        "learningActions": [
+          "拆解输入、生成、编辑、回写或导出的完整链路。",
+          "记录可复用的组件、API、插件或代码实现线索。",
+          "用一个小型真实界面复测它能否降低交付成本。"
+        ],
+        "tags": [
+          "设计工程 / 工具实现",
+          "含链接",
+          "Liked",
+          "AI"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2079951261303275653",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/divriots/status/2079951261303275653",
+        "author": "‹div›RIOTS",
+        "handle": "divriots",
+        "datetime": "2026-07-22T15:26:38.000Z",
+        "title": "Google maps for your designs, dire...",
+        "originalSummary": "Google maps for your designs, directly in #Figma Style it your way, and keep full control after import 👉 http://maps.to.design #Figma #FigmaPlugin",
+        "whySaved": "你会收藏它，是因为它提供了「设计工程 / 工具实现」的可复用案例、工具线索或审美判断，值得放进个人设计资料库。",
+        "whyCaptured": "因用户已收藏，作为明确偏好信号纳入当天深读。",
+        "deepSummary": "这条收藏的价值在于把「设计工程 / 工具实现」从时间线噪声里提取出来：Google maps for your designs, directly in #Figma Style it your way, and keep full control after import 👉 http://maps.to.design #Figma #FigmaPlugin。后续应关注它能否转化成设计方法、工具试验或作品参考。",
+        "linkAnalysis": [
+          {
+            "title": "http://maps.to.design",
+            "url": "http://maps.to.design",
+            "access": "unavailable",
+            "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
+            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+          }
+        ],
+        "learningActions": [
+          "拆解输入、生成、编辑、回写或导出的完整链路。",
+          "记录可复用的组件、API、插件或代码实现线索。",
+          "用一个小型真实界面复测它能否降低交付成本。"
+        ],
+        "tags": [
+          "设计工程 / 工具实现",
+          "含链接",
+          "Liked",
+          "Design"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2079943813586661712",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/dingyi/status/2079943813586661712",
+        "author": "Ding",
+        "handle": "dingyi",
+        "datetime": "2026-07-22T14:57:03.000Z",
+        "title": "最新版的 Filo Mail 颜值太高了，重新下载试试。",
+        "originalSummary": "最新版的 Filo Mail 颜值太高了，重新下载试试。 https://www.filomail.com/",
+        "whySaved": "你会收藏它，是因为它提供了「AI 产品 / Agent 工作流」的可复用案例、工具线索或审美判断，值得放进个人设计资料库。",
+        "whyCaptured": "因用户已收藏，作为明确偏好信号纳入当天深读。",
+        "deepSummary": "这条收藏的价值在于把「AI 产品 / Agent 工作流」从时间线噪声里提取出来：最新版的 Filo Mail 颜值太高了，重新下载试试。 https://www.filomail.com/。后续应关注它能否转化成设计方法、工具试验或作品参考。",
+        "linkAnalysis": [
+          {
+            "title": "FiloMail - AI Email & To-Do App for Multiple Accounts",
+            "url": "https://www.filomail.com/",
+            "access": "full",
+            "value": "页面提供原帖外的信息：FiloMail is a fast, lightweight AI email and to-do app for multiple accounts. Find tasks, get reminders, summarize threads, and reply faster",
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+          }
+        ],
+        "learningActions": [
+          "画出用户输入、模型/工具调用、结果验证和失败恢复链路。",
+          "标注哪些状态必须可见、可撤销或可人工接管。",
+          "把结论转成下一次 AI 工具评审 checklist。"
+        ],
+        "tags": [
+          "AI 产品 / Agent 工作流",
+          "含链接",
+          "Liked",
+          "Tool"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2079934992545898802",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/heyimgustavo/status/2079934992545898802",
+        "author": "Gustavo",
+        "handle": "heyimgustavo",
+        "datetime": "2026-07-22T14:22:00.000Z",
+        "title": "empty states deserve some love 🫙",
+        "originalSummary": "empty states deserve some love 🫙",
+        "whySaved": "你会收藏它，是因为它提供了「个人收藏偏好」的可复用案例、工具线索或审美判断，值得放进个人设计资料库。",
+        "whyCaptured": "因用户已收藏，作为明确偏好信号纳入当天深读。",
+        "deepSummary": "这条收藏的价值在于把「个人收藏偏好」从时间线噪声里提取出来：empty states deserve some love 🫙。后续应关注它能否转化成设计方法、工具试验或作品参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "解释这条内容触发收藏的具体原因。",
+          "把偏好转成个人资料库标签。",
+          "挑一个细节做复盘，避免只停留在“好看”。"
+        ],
+        "tags": [
+          "个人收藏偏好",
+          "Liked",
+          "Liked"
+        ],
+        "priority": "medium"
       }
     ]
   },
@@ -3034,14 +3018,14 @@ window.DESIGNER_ANALYSIS = [
     "likeCount": 80,
     "linksInspected": 35,
     "unavailableLinks": 3,
-    "summary": "本批在 2026-08-15 Asia/Shanghai 运行中补足当天 Home 20 条、同步 11 条新 Like，并用 69 条未分析历史 Like 补足 100 条个人设计师学习样本。",
+    "summary": "本批在 2026-08-15 Asia/Shanghai 运行中补足当天 Home 20 条、同步 11 条新 Like，并用 69 条未分析历史 Like 组成 100 条个人设计师学习样本；后续同日 report 已避开本批 status ID 去重。",
     "sourceWindow": {
-      "strategy": "Home/Search 通过 authenticated ego-browser 观察 672 次原始出现、209 个可 enrich 唯一候选，选入 20 条同日高质量内容；Likes 观察 76 次原始出现、26 个唯一 status，遇到 15 个已知边界后新增 11 条；Analysis 为达到 100 条，补入 69 条未分析历史 Like。",
+      "strategy": "Home/Search 通过 authenticated ego-browser 观察 672 次原始出现、209 个可 enrich 唯一候选，写入 20 条同日高质量内容；Likes 观察 76 次原始出现、26 个唯一 status，遇到 15 个已知边界后新增 11 条；Analysis 由 20 条 Home、11 条新 Like 和 69 条未分析历史 Like 组成 100 条。",
       "newestHomeDatetime": "2026-08-15T10:44:11.000Z",
       "oldestHomeDatetime": "2026-08-14T16:40:45.000Z",
       "newestLikeDatetime": "2026-08-14T16:41:02.000Z",
       "oldestLikeDatetime": "2025-11-13T11:43:25.000Z",
-      "expandedWindow": "Home 同日候选充足，无需扩展；Analysis 为补足 100 条，扩展到未分析历史 Like，含 48 小时以前内容。"
+      "expandedWindow": "Home 同日候选充足，无需扩展；Analysis 为补足 100 条，扩展到未分析历史 Like，含 48 小时以前内容；后续同日批次按全库 status ID 去重。"
     },
     "items": [
       {
@@ -6024,8 +6008,8 @@ window.DESIGNER_ANALYSIS = [
     "analysisCount": 100,
     "homeCount": 22,
     "likeCount": 78,
-    "linksInspected": 57,
-    "unavailableLinks": 6,
+    "linksInspected": 58,
+    "unavailableLinks": 7,
     "summary": "本批在 2026-08-14 Asia/Shanghai 13:00 运行中，先补足当天 Home 24 条并同步 18 条新 Like；Analysis 以 22 条非重复 Home、18 条新 Like 和 60 条未分析历史 Like 组成 100 条个人设计师学习样本。",
     "sourceWindow": {
       "strategy": "Home 观察 2032 次原始出现、365 个唯一 status，选入 24 条同日高质量内容；Likes 观察 813 次原始出现、134 个唯一 status，遇到已知边界后新增 18 条；为达到 100 条 Analysis，补入 60 条未分析历史 Like。",
@@ -9996,7 +9980,7 @@ window.DESIGNER_ANALYSIS = [
         "handle": "criscxuan",
         "datetime": "2026-07-27T12:52:20.000Z",
         "title": "Claude Design 系统提示词被整理成研究材料",
-        "originalSummary": "",
+        "originalSummary": "cxuan @criscxuan · 7月27日 文章 好家伙，Claude Design 系统提示词也被扒出来了。 前两天我看到有人把 Claude Design 的系统提示词整理出来了。 仓库叫 Trystan-SA/claude-design-system-prompt 我花时间看了一遍。 虽然 A 社太 xxx ，但是不妨碍我们研究它的产品，主打就是...",
         "whySaved": "你会收藏它，是因为它提供了可以直接复用的设计参考、工具目录、prompt 方法或产品判断信号。",
         "whyCaptured": "因你已收藏，它作为个人偏好信号保留，用来校准后续设计工程推荐。",
         "deepSummary": " 作为设计师深读对象，重点不在热度，而在它能否转成可复用的判断：AI 产品研究 / 系统提示词。需要关注输入方式、输出质量、失败边界、信息架构和是否能沉淀为自己的工具/素材/检查清单。",

@@ -10763,7 +10763,7 @@ window.LIKED_BACKFILL = [
     "TweetText": "cxuan\n@criscxuan\n·\n7月27日\n 文章\n好家伙，Claude Design 系统提示词也被扒出来了。\n前两天我看到有人把 Claude Design 的系统提示词整理出来了。\n仓库叫 Trystan-SA/claude-design-system-prompt\n我花时间看了一遍。\n虽然 A 社太 xxx ，但是不妨碍我们研究它的产品，主打就是一个把它给蒸了。...\n1\n4\n51\n2.6万",
     "Tweet Url": "https://x.com/criscxuan/status/2081724369634730479",
     "TweetCreatedDate": "2026-07-27T12:52:20.000Z",
-    "MediaType": "",
+    "MediaType": "text",
     "MediaImageUrl": "",
     "MediaVideoUrl": "",
     "HasLink": "False",
