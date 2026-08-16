@@ -1,6 +1,424 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "VISUAL DESIGN",
+    "datetime": "2026-08-15T23:33:00.000Z",
+    "author": "十里",
+    "handle": "okooo5km",
+    "avatar": "https://pbs.twimg.com/profile_images/2020293051302965250/jJjJxUI6_200x200.jpg",
+    "title": "Anthropic 手绘插图风格被复刻成可学习资产",
+    "summary": "十里对 Anthropic 官方插图的线条粗细和随机笔触提出观察，并提到熠辉的复刻更接近期望。适合作为品牌插画风格拆解样本。",
+    "url": "https://x.com/okooo5km/status/2088770965266387441",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPxqW27aoAAaqNS.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPxt7OcbEAADiG4.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 181 VIEWS",
+    "links": [],
+    "_analysisTheme": "插画风格 / Anthropic",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-15T23:15:58.000Z",
+    "author": "Tomasz Milczarek",
+    "handle": "miltomasz",
+    "avatar": "https://pbs.twimg.com/profile_images/1932391637541355520/8FlOuNjM_200x200.jpg",
+    "title": "一句通知文案改变了同一个功能的承诺",
+    "summary": "Tomasz Milczarek 把 reminder 文案从“earn cookies”改为“wins and achievements”，同功能变成不同承诺。它是 microcopy 直接改变产品定位的简洁案例。",
+    "url": "https://x.com/miltomasz/status/2088766677705978345",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 2 LIKES · 0 BOOKMARKS · 7 VIEWS",
+    "links": [],
+    "_analysisTheme": "Microcopy / 产品承诺",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-15T23:00:33.000Z",
+    "author": "hfcorriez",
+    "handle": "hfcorriez",
+    "avatar": "https://pbs.twimg.com/profile_images/1920976309628661764/FYH5gAlR_200x200.jpg",
+    "title": "freebuff 被当作备用 Agent 试用",
+    "summary": "hfcorriez 把 freebuff 定位为免费打杂/备用 Agent，而非重要项目主力。这个评价能帮助判断 Agent 产品的信任层级和使用场景边界。",
+    "url": "https://x.com/hfcorriez/status/2088762800848159194",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPzGcFMbIAAzYya.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 62 VIEWS",
+    "links": [
+      "https://freebuff.com/?ref=ref-13a730df-3c06-4496-93a9-8eac58556d65"
+    ],
+    "_analysisTheme": "Agent 工具 / 备用工作流",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-15T22:08:14.000Z",
+    "author": "{Bhide}.Svelte",
+    "handle": "Sikandar_Bhide",
+    "avatar": "https://pbs.twimg.com/profile_images/1734257897247514625/IaW4s_ba_200x200.jpg",
+    "title": "Svelte Data Tables 新增 11 个复杂表格区块",
+    "summary": "Sikandar Bhide 基于 TanStack Table V9 发布 11 个 Svelte 表格区块，覆盖选择、分页、过滤、拖拽列和固定列。对设计工程师是后台复杂表格模式库的好参考。",
+    "url": "https://x.com/Sikandar_Bhide/status/2088749633963192625",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088746447827304448/vid/avc1/640x360/kPzdD71S4BkoxxLC.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088746447827304448/img/pCiFoduxqyDbn3lr.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "2 REPLIES · 1 REPOSTS · 19 LIKES · 7 BOOKMARKS · 918 VIEWS",
+    "links": [
+      "https://sv-table.vercel.app/blocks"
+    ],
+    "_analysisTheme": "表格组件 / Svelte",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-15T21:53:08.000Z",
+    "author": "ᵐᵃᵍᵉframe",
+    "handle": "mageframeEXE",
+    "avatar": "https://pbs.twimg.com/profile_images/2022774068144209920/zwnvx2rc_200x200.jpg",
+    "title": "从 Game Boy 模拟器拖节点生成视觉资产",
+    "summary": "mageframe 展示从游戏状态、截图和角色资产表连接到提示词 Agent 与图像模型。它把 gameplay 变成可操作的设计素材输入。",
+    "url": "https://x.com/mageframeEXE/status/2088745832778703121",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPy17bUagAAxr-I.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 105 VIEWS",
+    "links": [],
+    "_analysisTheme": "游戏状态 / 生成式设计",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-15T21:20:43.000Z",
+    "author": "aditya",
+    "handle": "naawwwal",
+    "avatar": "https://pbs.twimg.com/profile_images/2051152352447733760/po6_T_bH_200x200.jpg",
+    "title": "关于“给无形智能赋形”的访谈被设计师反复阅读",
+    "summary": "aditya 提到 Flomerboy 采访 Wattenberger 的文章让他重新兴奋于设计。这个信号指向 AI 时代的核心设计命题：怎样把不可见的智能变成可感知界面。",
+    "url": "https://x.com/naawwwal/status/2088737676308660378",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPysP1_b0AAEoee.jpg?name=orig"
+      }
+    ],
+    "metrics": "4 REPLIES · 1 REPOSTS · 7 LIKES · 3 BOOKMARKS · 563 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 交互 / 设计思想",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-15T21:20:23.000Z",
+    "author": "Rahul Vashishtha",
+    "handle": "rahulv_dev",
+    "avatar": "https://pbs.twimg.com/profile_images/1978268424208809984/4UBz6jWl_200x200.jpg",
+    "title": "Inspira UI 新增一组高动效 Vue/Nuxt 组件",
+    "summary": "Rahul 发布 Inspira UI 的 Parallax、Circular Gallery、Cube Carousel 等组件。适合观察面向落地网站的高表现力组件如何被封装成可复用资产。",
+    "url": "https://x.com/rahulv_dev/status/2088737591491514633",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 2 BOOKMARKS · 123 VIEWS",
+    "links": [
+      "https://inspira-ui.com"
+    ],
+    "_analysisTheme": "组件库 / Vue Nuxt",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-15T21:03:31.000Z",
+    "author": "Daniel White",
+    "handle": "dwhitedesign",
+    "avatar": "https://pbs.twimg.com/profile_images/2057915040057982976/gSIeaZnQ_200x200.jpg",
+    "title": "Drawably 把手写 UI 从抖动边框变成真实笔迹",
+    "summary": "Daniel White 展示 Drawably 的手绘 UI 控件，重点不是随机 wobble，而是每次 mount 都重新生成笔触。适合研究拟物/手工质感如何工程化。",
+    "url": "https://x.com/dwhitedesign/status/2088733346641609169",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088733242576777216/vid/avc1/608x360/r5MlR7Nqwh4gZlgv.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088733242576777216/img/WRH3Kx9IOFIC0dA2.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "6 REPLIES · 1 REPOSTS · 79 LIKES · 73 BOOKMARKS · 4671 VIEWS",
+    "links": [
+      "https://drawably-site.pages.dev/"
+    ],
+    "_analysisTheme": "手绘 UI / 组件生成",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-15T21:01:55.000Z",
+    "author": "Tokdev",
+    "handle": "tokdev0",
+    "avatar": "https://pbs.twimg.com/profile_images/1999457553462243328/qWEWBMx7_200x200.jpg",
+    "title": "VisualWizard 把整个设计画布做成代码",
+    "summary": "Tokdev 描述一个类似 Claude Design 但编辑器更强的工具，核心是整个 canvas 都是 code。这个方向值得跟踪，因为它把设计编辑和工程表达合并。",
+    "url": "https://x.com/tokdev0/status/2088732946232459297",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088731675568091136/vid/avc1/720x360/ICWU7mVR-ixEc03H.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088731675568091136/img/ygTmZ1WM6UpT1XzM.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 1 BOOKMARKS · 48 VIEWS",
+    "links": [
+      "https://visualwizard.app"
+    ],
+    "_analysisTheme": "Code canvas / 设计工具",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-15T20:31:00.000Z",
+    "author": "Tibo",
+    "handle": "thsottiaux",
+    "avatar": "https://pbs.twimg.com/profile_images/2075819673263001600/pj1vyX6I_200x200.jpg",
+    "title": "Sol 管理 Luna Agent 队列强调模型协作",
+    "summary": "Tibo 提到 Sol 可以调度一组 Luna Agent 快速协作完成任务。它代表 Agent 产品从单模型对话转向多 Agent 编排的叙事。",
+    "url": "https://x.com/thsottiaux/status/2088725163923984638",
+    "media": [],
+    "metrics": "266 REPLIES · 135 REPOSTS · 3157 LIKES · 1212 BOOKMARKS · 219812 VIEWS",
+    "links": [],
+    "_analysisTheme": "多 Agent / 协同编排",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-15T20:19:57.000Z",
+    "author": "Lonnie VanZandt",
+    "handle": "lonniev",
+    "avatar": "https://pbs.twimg.com/profile_images/2027839054075584512/WrcwY9Mv_200x200.jpg",
+    "title": "Roastify 为包装设计工具补上版本管理和 MCP 接口",
+    "summary": "Lonnie VanZandt 给咖啡包装设计工具增加设计文件变更管理，并为 AI designer agents 做 MCP 接口。它把传统可视化设计器和 Agent 可回滚工作流连接起来。",
+    "url": "https://x.com/lonniev/status/2088722381854355867",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 94 VIEWS",
+    "links": [
+      "https://roastify.tollbooth-dpyc.com/welcome",
+      "http://merchant.roastify.app",
+      "http://github.com/lonniev/tollbooth-dpyc",
+      "http://tollbooth-dpyc.com"
+    ],
+    "_analysisTheme": "MCP / 设计文件版本",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "VISUAL DESIGN",
+    "datetime": "2026-08-15T19:44:04.000Z",
+    "author": "Musa Adanur",
+    "handle": "musaadanurr",
+    "avatar": "https://pbs.twimg.com/profile_images/2047009151075631105/hVuaOqgy_200x200.jpg",
+    "title": "Rive 动效拆解展示兔子角色交互节奏",
+    "summary": "Musa Adanur 展示 Rive 动画幕后过程，能看到角色运动、交互动势和 UI/UX 标签如何组合。适合作为个人动效细节和状态转场参考。",
+    "url": "https://x.com/musaadanurr/status/2088713355376701744",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088713264825823232/vid/avc1/480x852/lG3a9mHf26e2DwjM.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088713264825823232/img/-YZPMO1hI84pyLxA.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "2 REPLIES · 2 REPOSTS · 24 LIKES · 8 BOOKMARKS · 2119 VIEWS",
+    "links": [],
+    "_analysisTheme": "Rive / 动效拆解",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-15T19:30:09.000Z",
+    "author": "9to5Mac",
+    "handle": "9to5mac",
+    "avatar": "https://pbs.twimg.com/profile_images/2066502375578214400/jyeHpAvr_200x200.jpg",
+    "title": "Notepad.exe 走极简 Mac 代码编辑器路线",
+    "summary": "9to5Mac 介绍 Notepad.exe 这个轻量代码编辑器，信号在于独立 App 用极窄定位切入成熟工具市场。适合观察轻量工具的命名、速度承诺和 Mac 原生体验。",
+    "url": "https://x.com/9to5mac/status/2088709849777397903",
+    "media": [],
+    "metrics": "2 REPLIES · 4 REPOSTS · 21 LIKES · 11 BOOKMARKS · 13297 VIEWS",
+    "links": [
+      "https://9to5mac.com/2026/08/15/indie-app-spotlight-notepad-exe-is-an-ultra-fast-lightweight-code-editor-for-your-mac/"
+    ],
+    "_analysisTheme": "独立 App / 编辑器",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-15T19:19:32.000Z",
+    "author": "ShyNloc",
+    "handle": "shynloc",
+    "avatar": "https://pbs.twimg.com/profile_images/2086491962291671040/L7PUISCA_200x200.jpg",
+    "title": "DeepSeek Harness 插件开始出现个人工作流扩展",
+    "summary": "ShyNloc 整理自己为 DeepSeek Harness 补出来的插件并放到 GitHub。它说明新 Agent 工具的生态价值会从缺口插件和个人场景开始长出来。",
+    "url": "https://x.com/shynloc/status/2088707179042017674",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 1 BOOKMARKS · 68 VIEWS",
+    "links": [
+      "https://github.com/shynloc/acks-dsh-plugins"
+    ],
+    "_analysisTheme": "插件生态 / GitHub",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-15T19:10:01.000Z",
+    "author": "Andrew Milich",
+    "handle": "milichab",
+    "avatar": "https://pbs.twimg.com/profile_images/1466472908977487881/-dym5k04_200x200.jpg",
+    "title": "AI 城市建造从平面 Agent 进化到 3D 场景",
+    "summary": "Andrew Milich 用 9 个月前后的两个城市生成 demo 对比，展示 Composer/云端 Agent 到 Grok 4.6 + /loop 后，AI 生成城市已接近完整 3D 游戏原型。适合观察 AI 生成式产品从单页 demo 走向可玩的空间系统。",
+    "url": "https://x.com/milichab/status/2088704783750398121",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088703526553968640/vid/avc1/1026x360/bwoimGnIlujlk42a.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088703526553968640/img/A4i_xEQxbl_asnwX.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "23 REPLIES · 24 REPOSTS · 458 LIKES · 190 BOOKMARKS · 30462 VIEWS",
+    "links": [
+      "https://iso-city.com",
+      "https://metropolis-ten-gamma.vercel.app"
+    ],
+    "_analysisTheme": "AI 生成 / 3D 原型",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-15T18:57:13.000Z",
+    "author": "Brent Schooley",
+    "handle": "heccbrent",
+    "avatar": "https://pbs.twimg.com/profile_images/2082969778398822400/7yJ6dH-f_200x200.jpg",
+    "title": "Codex 被用作 OpenAI 内部视频编辑助理",
+    "summary": "Brent Schooley 展示用 Codex 生成说明视频，说明代码 Agent 正在进入脚本、素材组织和视频叙事工作流。值得观察 AI 工具如何辅助非代码交付物。",
+    "url": "https://x.com/heccbrent/status/2088701564881891831",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088701286602395649/vid/avc1/640x360/g0rnHF0-pO2EBogb.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088701286602395649/img/FqCHiy-G1X7X4iMS.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "28 REPLIES · 19 REPOSTS · 232 LIKES · 235 BOOKMARKS · 18996 VIEWS",
+    "links": [],
+    "_analysisTheme": "Codex / 视频工作流",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-15T17:41:15.000Z",
+    "author": "daniel petho",
+    "handle": "nonzeroexitcode",
+    "avatar": "https://pbs.twimg.com/profile_images/1870164510452969472/mRDj4TpP_200x200.jpg",
+    "title": "WebKit 低电量模式会破坏 Hero 视频自动播放",
+    "summary": "Daniel Petho 提醒 iOS 低电量模式会让网页 Hero 视频出现原生播放按钮，建议用首帧图片兜底。这个细节直接影响移动端视觉首屏和可点击层级。",
+    "url": "https://x.com/nonzeroexitcode/status/2088682446476693823",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088676440019517440/vid/avc1/496x360/vfptBf6E9itWO17Y.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088676440019517440/img/gJ9kBGHSqO3xd2uq.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "5 REPLIES · 0 REPOSTS · 107 LIKES · 93 BOOKMARKS · 9997 VIEWS",
+    "links": [
+      "http://video.play"
+    ],
+    "_analysisTheme": "前端媒体 / 移动端细节",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-15T16:47:53.000Z",
+    "author": "拾一.max-fast",
+    "handle": "__oQuery",
+    "avatar": "https://pbs.twimg.com/profile_images/2078173856595148800/2EKDMJED_200x200.jpg",
+    "title": "DeepSeek Harness 的 npx 启动失败暴露上手摩擦",
+    "summary": "拾一尝试按官方文档用 npx 启动 DeepSeek Harness 失败后直接放弃。这个负面体验比宣传更能说明开发者工具首启路径的重要性。",
+    "url": "https://x.com/__oQuery/status/2088669016995123421",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPxxQEGa4AExrXF.jpg?name=orig"
+      }
+    ],
+    "metrics": "39 REPLIES · 0 REPOSTS · 36 LIKES · 5 BOOKMARKS · 10555 VIEWS",
+    "links": [],
+    "_analysisTheme": "开发者工具 / 首启体验",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-15T16:28:09.000Z",
+    "author": "拾一.max-fast",
+    "handle": "__oQuery",
+    "avatar": "https://pbs.twimg.com/profile_images/2078173856595148800/2EKDMJED_200x200.jpg",
+    "title": "Grok 4.6 被用于 UI 编写，成为新可选项",
+    "summary": "拾一深度使用 Grok 4.6 后认为写 UI 也有了新选择。它是设计工程师评估模型前端能力和代码可用度的偏好信号。",
+    "url": "https://x.com/__oQuery/status/2088664047923363977",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPxsKP2bkAIkuTB.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPxsvcmbwAA5o0z.jpg?name=orig"
+      }
+    ],
+    "metrics": "21 REPLIES · 0 REPOSTS · 20 LIKES · 3 BOOKMARKS · 5712 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 编码 / UI 生成",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-15T16:24:26.000Z",
+    "author": "luolei",
+    "handle": "luoleiorg",
+    "avatar": "https://pbs.twimg.com/profile_images/1550157622300786688/672YmCpB_200x200.jpg",
+    "title": "MXGA v0.6 用本地规则和 GitHub 登录做反垃圾账号",
+    "summary": "luolei 发布 MXGA Chrome 扩展更新，强调本地规则透明、在线 AI 补位和社区送审。它是社交信息流清洁工具如何平衡透明、隐私和协作的案例。",
+    "url": "https://x.com/luoleiorg/status/2088663114363584607",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPxrYf1bMAAtQel.jpg?name=orig"
+      }
+    ],
+    "metrics": "9 REPLIES · 0 REPOSTS · 16 LIKES · 14 BOOKMARKS · 3328 VIEWS",
+    "links": [
+      "https://x.zuoluo.tv"
+    ],
+    "_analysisTheme": "浏览器扩展 / 社区治理",
+    "_analysisPriority": "high"
+  },
+  {
     "category": "DESIGN MOTION",
     "datetime": "2026-08-15T11:11:33.000Z",
     "author": "Leo",
