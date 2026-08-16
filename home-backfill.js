@@ -1,6 +1,373 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "AI AGENT",
+    "datetime": "2026-08-16T06:57:44.000Z",
+    "author": "向阳乔木",
+    "handle": "vista8",
+    "avatar": "https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_200x200.jpg",
+    "title": "DeepSeek Harness 插件生态已经出现创作者分层",
+    "summary": "向阳乔木观察 DSH 上线几天后插件生态迅速由 B 站 UP 主和独立开发者补齐，colleague-skill、OpenBiliClaw 等开始成为传播样本。它提示 Agent 平台要同时设计运行时、插件分发和创作者展示。",
+    "url": "https://x.com/vista8/status/2088882885394649325",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP0zv5laYAACgbS.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP0zzDua8AE456g.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP0z2GubAAAevM6.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP0z5NiagAAmZYH.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 1 REPOSTS · 5 LIKES · 1 BOOKMARKS · 439 VIEWS",
+    "links": [
+      "https://github.com/joeseesun/celebrity-naval"
+    ],
+    "_analysisTheme": "Agent 平台 / 插件生态",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2088882495437812193",
+      "TweetText": "https://x.com/i/article/2088861969554280448",
+      "TweetCreatedDate": "2026-08-16T06:56:11.000Z",
+      "Tweet Url": "https://x.com/vista8/status/2088882495437812193",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_200x200.jpg",
+      "UserProfileName": "向阳乔木",
+      "UserScreenName": "vista8",
+      "MediaType": "text",
+      "MediaImageUrl": "",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [],
+      "_metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 721 VIEWS",
+      "_article": {
+        "kind": "x-article",
+        "title": "二次元头像=技术大佬？DeepSeek Harness揭开AI圈隐藏规律",
+        "preview": "8 月 13 日晚，DeepSeek 发布了 DeepSeek Harness，简称 DSH（有朋友cuimao等戏称单身汉）\n \n不到两小时，DSH 的 GitHub Star 破万。\n12 小时后超 5 万，两天后接近 9 万，成为 GitHub 史上涨星最快的项目之一。",
+        "url": "https://x.com/i/article/2088861969554280448"
+      }
+    }
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-16T05:52:12.000Z",
+    "author": "Ce Gao",
+    "handle": "gaocegege",
+    "avatar": "https://pbs.twimg.com/profile_images/750222290780983297/ij6IW73y_200x200.jpg",
+    "title": "Today AI 开发经验强调业务交付后的渐进重构",
+    "summary": "Ce Gao 从 AI infra 转到 ToC 应用开发后，复盘流式数据架构问题很容易被业务交付挤掉，认为 Codex 式维护 Agent + 固定重构时间更适合 vibe coding 时代。适合设计工程师理解“先交付再持续整理”的工作节奏。",
+    "url": "https://x.com/gaocegege/status/2088866394268155939",
+    "media": [],
+    "metrics": "1 REPLIES · 1 REPOSTS · 13 LIKES · 1 BOOKMARKS · 914 VIEWS",
+    "links": [
+      "http://today.ai"
+    ],
+    "_analysisTheme": "Vibe coding / 渐进重构",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-16T06:36:28.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "Claude Code auto-continue 把长任务等待变成可恢复状态",
+    "summary": "宝玉补充 Claude Code Desktop 的 auto-continue 不只恢复主 Agent，也能恢复子 Agent，减少 5 小时额度边界后的手工接续成本。对多 Agent 工作台来说，这是任务状态和用户打断恢复的关键交互。",
+    "url": "https://x.com/dotey/status/2088877534859473370",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP0uf5fWkAA0fWv.jpg?name=orig"
+      }
+    ],
+    "metrics": "5 REPLIES · 0 REPOSTS · 5 LIKES · 1 BOOKMARKS · 2524 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent 状态 / 长任务恢复",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2088014831605702937",
+      "TweetText": "Hit your usage limit in Claude Code desktop? There's now an auto-continue checkbox. \n\nTurn it on, and it'll automatically continue where you left off once your limit resets.",
+      "TweetCreatedDate": "2026-08-13T21:28:23.000Z",
+      "Tweet Url": "https://x.com/ClaudeDevs/status/2088014831605702937",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/2044472418815893504/xf14RxM8_200x200.png",
+      "UserProfileName": "ClaudeDevs",
+      "UserScreenName": "ClaudeDevs",
+      "MediaType": "video",
+      "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088014130624233472/img/JC2j7izNBkgiuR8o.jpg",
+      "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088014130624233472/vid/avc1/640x360/X9k8U1oE6WZ42bp6.mp4?tag=29",
+      "Summary": "",
+      "Translation": "",
+      "_media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2088014130624233472/vid/avc1/640x360/X9k8U1oE6WZ42bp6.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2088014130624233472/img/JC2j7izNBkgiuR8o.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "_metrics": "1011 REPLIES · 740 REPOSTS · 15765 LIKES · 2850 BOOKMARKS · 1282408 VIEWS",
+      "_article": null
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-15T23:27:01.000Z",
+    "author": "Daniel White",
+    "handle": "dwhitedesign",
+    "avatar": "https://pbs.twimg.com/profile_images/2057915040057982976/gSIeaZnQ_200x200.jpg",
+    "title": "Drawably 用 4KB 手绘控件把 UI 状态变成风格资产",
+    "summary": "Daniel White 发布 Drawably，控件每次 mount 都生成新的手绘笔触，且支持按钮、输入、状态和 React 接入。它是轻量视觉系统如何从小库切入产品个性的好样本。",
+    "url": "https://x.com/dwhitedesign/status/2088769460043747432",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088769042563715072/vid/avc1/640x360/zLU0vWrwgRrFw0tV.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088769042563715072/img/e1gSlHxOtSnXBxXj.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 1 REPOSTS · 34 LIKES · 16 BOOKMARKS · 1485 VIEWS",
+    "links": [
+      "https://drawably-site.pages.dev/"
+    ],
+    "_analysisTheme": "手绘 UI / 微型组件库",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-16T04:01:12.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "Codex 优化 BaoCut 时暴露“框架内最优”的边界",
+    "summary": "宝玉复盘用 Codex/Fable 优化转录速度时，模型反复给出 worker 预热等框架内方案，最终真正瓶颈是 JSON 输出过长。它提醒设计工程师要把 AI 建议和数据包/协议层事实放在一起验证。",
+    "url": "https://x.com/dotey/status/2088838461511839844",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPz_kpNWAAAPYTf.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP0FG1OXsAAyFZP.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP0H39uWEAANQlA.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP0JeR8XYAAcNdW.jpg?name=orig"
+      }
+    ],
+    "metrics": "25 REPLIES · 13 REPOSTS · 123 LIKES · 100 BOOKMARKS · 23114 VIEWS",
+    "links": [
+      "https://baocut.app/"
+    ],
+    "_analysisTheme": "AI 协作 / 性能诊断",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2085908601638445177",
+      "TweetText": "很多人不知道该怎么用好 Agent 的 /goal 功能，也就是说给 Agent 一个目标，让它长时间运行，直到目标完成为止。\n\n其实没你想的那么复杂，注意几个点：\n1. 你的目标是什么\n2. 如何验证结果\n3. 停止条件\n\n比如说我这两天做的一个性能优化的任务，Fable 5 帮我把视频转录性能优化了2倍多（图2），提示词很简单（图1）：\n> /goal 帮我优化当前 cli 的转录大视频的性能，在遇到像这样大体积的视频时，需要优化转录性能，请以 Moss 模型测试这个视频（英文为主，多语言）转录，建立基准，然后分析性能瓶颈，尝试优化，直到你觉得已经没有优化空间了。注意你的主要任务是分析、编排和验证，具体任务尽可能交给 subagent（Opus5）去执行\n\n首先用 /goal 表示这是一个需要长时间执行的任务，需要反复执行，不能运行一会就结束了。\n\n然后给它一个视频让它先自己跑一遍转录，记录一下关键数据，建立基准。\n\n基于转录时收集的数据，Agent 自己可以去分析原因，去自己优化，优化完成后再去跑一遍，记录数据，对照前面的基准看是更好了还是更坏了。\n\n结束条件是它自己觉得已经没有优化空间了就结束。之所以我没给它一个具体指标，是因为我也不知道能优化多少，如果指标太容易达到，它一轮可能就结束了；如果指标太难超出物理极限也没意义，反而可能会出现为了优化去做一些极端的事情。\n\n最后一句让它开subagent执行子任务是因为 Fable 5 太贵，全程 Fable 5 用不了多久就要额度不够了，加了这句就耐用多了，而且质量也挺好。\n\n---\n\n还有些时候，想到一个新的技术方案，但并不知道这方案是不是有效，那也可以让它开个worktree，去验证一下是不是靠谱，看数据是更好还是更坏，如果没提升就没必要做了。（参考图3）",
+      "TweetCreatedDate": "2026-08-08T01:58:59.000Z",
+      "Tweet Url": "https://x.com/dotey/status/2085908601638445177",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+      "UserProfileName": "宝玉",
+      "UserScreenName": "dotey",
+      "MediaType": "photo",
+      "MediaImageUrl": "https://pbs.twimg.com/media/HPKijECXoAAZhMA.jpg?name=orig,https://pbs.twimg.com/media/HPKiklDWAAALuYb.jpg?name=orig,https://pbs.twimg.com/media/HPKimNQXoAAy2v0.jpg?name=orig",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPKijECXoAAZhMA.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPKiklDWAAALuYb.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPKimNQXoAAy2v0.jpg?name=orig"
+        }
+      ],
+      "_metrics": "112 REPLIES · 101 REPOSTS · 557 LIKES · 694 BOOKMARKS · 96166 VIEWS",
+      "_article": null
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-16T04:11:39.000Z",
+    "author": "joshpuckett",
+    "handle": "joshpuckett",
+    "avatar": "https://pbs.twimg.com/profile_images/1270368527690522626/-3QQH-bB_200x200.jpg",
+    "title": "HyperCard 工具栏字形揭示早期 UI 资产复用方式",
+    "summary": "Josh Puckett 在 HyperCard 1.0.1 镜像中发现私有 FONT 文件，里面包含工具面板 glyph。这个历史细节能帮助理解早期 GUI 如何用字体技术管理图标、工具和界面一致性。",
+    "url": "https://x.com/joshpuckett/status/2088841090220830935",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088834228956086272/vid/avc1/474x360/LK10ohy690XJNtWo.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088834228956086272/img/9FWmK34HKXDdq5Ui.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 7 REPOSTS · 101 LIKES · 53 BOOKMARKS · 3774 VIEWS",
+    "links": [
+      "https://joshpuckett.me/font-31756"
+    ],
+    "_analysisTheme": "界面史 / 图标系统",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-16T01:33:43.000Z",
+    "author": "低空飞行",
+    "handle": "localhost_4173",
+    "avatar": "https://pbs.twimg.com/profile_images/2046898583031664640/tyEq8TiB_200x200.jpg",
+    "title": "Waku 0.1 把性能优化落到 markdown 渲染 UI",
+    "summary": "低空飞行提到 Waku 0.1 发布后明显降低 CPU 占用，并优化 markdown 渲染 UI。对前端工具来说，这是性能、编辑内容和阅读体验一起交付的版本信号。",
+    "url": "https://x.com/localhost_4173/status/2088801344941592880",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088800064051564544/vid/avc1/492x360/avUWpJRBwbl4bLHn.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088800064051564544/img/mhFC-Bmg3WtZm55U.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "11 REPLIES · 2 REPOSTS · 46 LIKES · 15 BOOKMARKS · 7570 VIEWS",
+    "links": [],
+    "_analysisTheme": "前端框架 / Markdown UI",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-16T03:39:01.000Z",
+    "author": "Gaurang",
+    "handle": "GaurangAlat",
+    "avatar": "https://pbs.twimg.com/profile_images/2084807710655299584/6C3a48Bs_200x200.jpg",
+    "title": "New Interfaces demo day 集中展示小型交互原型",
+    "summary": "Gaurang 记录 newinterfaces demo day 的多个项目展示，附带四张现场图。它适合作为个人设计师观察小型原型如何在活动场景里被讲清楚的素材。",
+    "url": "https://x.com/GaurangAlat/status/2088832878729687229",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP0Ga1SXUAArWO5.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP0Ga1RWMAAiTQL.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP0Ga1UXoAAB4gE.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP0Ga1UWQAACi_O.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 1 REPOSTS · 2 LIKES · 0 BOOKMARKS · 175 VIEWS",
+    "links": [],
+    "_analysisTheme": "交互原型 / Demo 展示",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI RESEARCH",
+    "datetime": "2026-08-15T19:30:06.000Z",
+    "author": "Tianqi Chen",
+    "handle": "tqchenml",
+    "avatar": "https://pbs.twimg.com/profile_images/1126306484885774336/Wimu_mzv_200x200.png",
+    "title": "CAKE 把编译器也纳入 Agent 可共同进化的设计对象",
+    "summary": "Tianqi Chen 转发 CAKE 论文，强调 compiler-agent codesign 会成为 ML 编译和 kernel agents 的下一前沿。引用帖解释 CAKE IR 让失败模式进入 verifier、IR primitive 和 reusable tactic。",
+    "url": "https://x.com/tqchenml/status/2088709836896948676",
+    "media": [],
+    "metrics": "2 REPLIES · 13 REPOSTS · 105 LIKES · 38 BOOKMARKS · 11583 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Research / Compiler-Agent Co-design",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2088169906915393782",
+      "TweetText": "🍰 CAKE paper's out, the design bet: the compiler isn't a fixed black box the agent calls — it's part of the harness, and it's under evolution too.\n\nCAKE didn't inherit existing abstraction layer. no tile/layout abstractions: the vocabulary was distilled by agents from a corpus of production kernels. every pattern the agent couldn't express pushed new primitives into the IR, and the analyses to keep them checkable. every barrier/layout bug that kept coming back became a verifier rule.\n\nnone of this can be designed up front. the IR has to co-evolve with the kernels, and the workload tells you what's missing, the corpus tells you if the fix broke anything.\n\nthe best language for an agent is the one that tells you what's illegal, what's slow, and which decision might made it faster.\n\nhttp://arxiv.org/abs/2608.12629",
+      "TweetCreatedDate": "2026-08-14T07:44:36.000Z",
+      "Tweet Url": "https://x.com/ye_combinator/status/2088169906915393782",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/1234095226945294342/5E-qRWbB_200x200.jpg",
+      "UserProfileName": "Zihao Ye",
+      "UserScreenName": "ye_combinator",
+      "MediaType": "text",
+      "MediaImageUrl": "",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [],
+      "_metrics": "11 REPLIES · 71 REPOSTS · 272 LIKES · 207 BOOKMARKS · 85463 VIEWS",
+      "_article": {
+        "kind": "external",
+        "title": "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution",
+        "preview": "GPU kernel agents and GPU programming languages have advanced separately, leaving expert kernels difficult to reproduce. Agents usually treat the compiler as a fixed black box and receive only...",
+        "url": "http://arxiv.org/abs/2608.12629"
+      }
+    }
+  },
+  {
+    "category": "WEBGL DESIGN",
+    "datetime": "2026-08-15T20:51:54.000Z",
+    "author": "zihan",
+    "handle": "z1hanAI",
+    "avatar": "https://pbs.twimg.com/profile_images/2047483059151249408/MTrj8biL_200x200.jpg",
+    "title": "Codrops 拆解 HAOQI.DESIGN 的 DOM 与 WebGL 同帧系统",
+    "summary": "zihan 转发 Codrops 的 HAOQI.DESIGN 技术拆解，文章覆盖 scroll sync、glass shader、DOM/CSS/WebGL 协作和性能意识。它是设计工程师学习作品集级 WebGL 叙事的高密度案例。",
+    "url": "https://x.com/z1hanAI/status/2088730422083793144",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 128 VIEWS",
+    "links": [
+      "https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/"
+    ],
+    "_analysisTheme": "WebGL / Portfolio case study",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2088623450910781941",
+      "TweetText": "A childhood fascination with the iMac G3 became one of the sparks behind @wenhaoqi's portfolio.\n\nHaoqi takes us into the technical thinking behind the work, from synchronizing DOM and WebGL to building custom shaders, refraction, pointer interactions, and performance conscious effects.\n\nA fantastic weekend read: https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/",
+      "TweetCreatedDate": "2026-08-15T13:46:50.000Z",
+      "Tweet Url": "https://x.com/codrops/status/2088623450910781941",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/1784963500122550272/3kwa1gN5_200x200.jpg",
+      "UserProfileName": "Codrops",
+      "UserScreenName": "codrops",
+      "MediaType": "video",
+      "MediaImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2088623426298593280/pu/img/QPxiUZLil0wK6JNE.jpg",
+      "MediaVideoUrl": "https://video.twimg.com/ext_tw_video/2088623426298593280/pu/vid/avc1/486x360/gX8rHHFccwQ0q_Id.mp4?tag=12",
+      "Summary": "",
+      "Translation": "",
+      "_media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/ext_tw_video/2088623426298593280/pu/vid/avc1/486x360/gX8rHHFccwQ0q_Id.mp4?tag=12",
+          "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2088623426298593280/pu/img/QPxiUZLil0wK6JNE.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "_metrics": "0 REPLIES · 1 REPOSTS · 40 LIKES · 24 BOOKMARKS · 4790 VIEWS",
+      "_article": null
+    },
+    "article": {
+      "kind": "external",
+      "title": "Inside HAOQI.DESIGN: Letting DOM and WebGL Share a Retro-Futurist Stage | Codrops",
+      "preview": "A technical look at the making of HAOQI.DESIGN, exploring scroll sync, glass shaders, and the interplay of DOM, CSS, and WebGL in a retro-futurist portfolio.",
+      "url": "https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/"
+    }
+  },
+  {
     "category": "VISUAL DESIGN",
     "datetime": "2026-08-15T23:33:00.000Z",
     "author": "十里",
