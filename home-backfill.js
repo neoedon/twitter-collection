@@ -2,6 +2,243 @@
   window.HOME_BACKFILL = [
   {
     "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-17T05:00:32.000Z",
+    "author": "Hwang",
+    "handle": "hwwaanng",
+    "avatar": "https://pbs.twimg.com/profile_images/1361512556930600969/LBwP2_YZ_200x200.jpg",
+    "title": "微信的克制感解释了为什么它不像多数国产 App",
+    "summary": "Hwang 把微信称为最不像国产 App 的国产 App，点出它长期克制入口、动效和运营打扰的产品气质。对个人设计师来说，这是一个用“少做什么”来保持信任和高频使用感的反例素材。",
+    "url": "https://x.com/hwwaanng/status/2089215778637889679",
+    "media": [],
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 134 VIEWS",
+    "links": [],
+    "_analysisTheme": "克制产品 / 高频体验",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-17T04:52:13.000Z",
+    "author": "evnydd0sf",
+    "handle": "evnydd0sf",
+    "avatar": "https://pbs.twimg.com/profile_images/1445201962681593858/aytcELiW_200x200.jpg",
+    "title": "Quote/0 把 RailGo 接成可探索的铁路内容源",
+    "summary": "evnydd0sf 把 RailGo 接进 Quote/0 内容工坊，让用户查询车站大屏、车站信息、指定车次或随机列车。它展示了小工具如何把实用数据转成带想象力的内容入口。",
+    "url": "https://x.com/evnydd0sf/status/2089213686112239980",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP5gtzhaIAANsT_.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP5gtzpa4AAdPDW.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP5gt0FaAAAwSuO.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP5gtzWbQAAyh5J.png?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 20 VIEWS",
+    "links": [
+      "https://railgo.dev"
+    ],
+    "_analysisTheme": "内容工坊 / 数据型小工具",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "RailGo · 铁路信息查询",
+      "url": "https://railgo.dev/",
+      "preview": "RailGo 提供车次、车站、动车组、列车图鉴和信息屏等铁路信息查询能力。"
+    }
+  },
+  {
+    "category": "AI CREATIVE",
+    "datetime": "2026-08-17T04:17:36.000Z",
+    "author": "LovartAI",
+    "handle": "lovart_ai",
+    "avatar": "https://pbs.twimg.com/profile_images/2065372538763694080/KSuXj3OU_200x200.jpg",
+    "title": "Lovart 用 Seedance 2.5 快速生成拉面品牌与发布片",
+    "summary": "LovartAI 展示用 Lovart 和 Seedance 2.5 生成完整拉面品牌与 launch film。它值得关注的不是“AI 做视频”，而是品牌命名、视觉资产、门店想象和短片叙事被合成到一次提案里。",
+    "url": "https://x.com/lovart_ai/status/2089204977143251212",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089199505199828992/vid/avc1/3840x2160/d_cUonPJEnjVktIh.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089199505199828992/img/7Sf98wV3GPQ2y3Nz.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 1 REPOSTS · 8 LIKES · 2 BOOKMARKS · 530 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 品牌提案 / 视频叙事",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-17T04:05:47.000Z",
+    "author": "Camila",
+    "handle": "AiCamila_",
+    "avatar": "https://pbs.twimg.com/profile_images/2078509879652958209/kPV9xDhi_200x200.jpg",
+    "title": "Agent 体验需要显式的 graceful degradation",
+    "summary": "Camila 把 Agent 的降级路径写成清单：工具失败、模型变慢或范围收缩时，不应直接报错，而应提供可解释的低配结果。它是 Agent 产品从 demo 走向生产时的基础体验规范。",
+    "url": "https://x.com/AiCamila_/status/2089202003289547116",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP5WJYtaYAA83OA.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 1 BOOKMARKS · 96 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent 可靠性 / 降级体验",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "BRAND DESIGN",
+    "datetime": "2026-08-17T04:00:04.000Z",
+    "author": "The Brand Identity",
+    "handle": "TweetsByTBI",
+    "avatar": "https://pbs.twimg.com/profile_images/1774761854306324480/-imXshxF_200x200.jpg",
+    "title": "LVL Group rebrand 用建筑语境校准建商品牌",
+    "summary": "The Brand Identity 分享 Studio Nascent 为墨尔本 builder LVL Group 做的 rebrand，用建筑和设计语境提升建商品牌感。多图适合作为 B2B 品牌如何避免施工感、转向专业系统感的视觉参考。",
+    "url": "https://x.com/TweetsByTBI/status/2089200564714582218",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP5U1TZaoAEqyyb.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP5U1kea4AAVJJB.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP5U1ziaQAIYsXo.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 323 VIEWS",
+    "links": [],
+    "_analysisTheme": "B2B 品牌 / 建筑视觉系统",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI UX",
+    "datetime": "2026-08-17T03:53:27.000Z",
+    "author": "Swetank Gawde",
+    "handle": "theswetank",
+    "avatar": "https://pbs.twimg.com/profile_images/2087610082439950336/wpCcaZ8P_200x200.jpg",
+    "title": "Agentic UX 的核心变成协调人、工具和权限",
+    "summary": "Swetank Gawde 提出 UX 正在 agentic：下一轮界面重点不是单点功能，而是协调人、Agent、工具与权限。X Article 把最近两周设计与 AI 的变化放进同一条趋势线，适合深读。",
+    "url": "https://x.com/theswetank/status/2089198900381204674",
+    "media": [],
+    "metrics": "2 REPLIES · 0 REPOSTS · 3 LIKES · 0 BOOKMARKS · 63 VIEWS",
+    "links": [
+      "https://x.com/i/article/2089196584802119680"
+    ],
+    "_analysisTheme": "Agentic UX / 权限协调",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "x-article",
+      "title": "The UX surface is becoming agentic",
+      "url": "https://x.com/i/article/2089196584802119680",
+      "preview": "文章把 2026-08-03 到 2026-08-17 的设计与 AI 变化串成一个趋势：设计工具、AI assistant、项目空间和治理系统正在合并成 agentic surface。"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-17T03:04:33.000Z",
+    "author": "歸藏(guizang.ai)",
+    "handle": "op7418",
+    "avatar": "https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_200x200.jpg",
+    "title": "DeepSeek Harness 插件开始补齐视觉和客户端体验",
+    "summary": "歸藏继续展示 DeepSeek Harness 美化插件和服务商插件的界面进展，截图体现从代码框架走向可用客户端的包装阶段。它提醒个人设计师：开源 Agent 工具的机会常在安装、视觉、插件市场和稳定服务层。",
+    "url": "https://x.com/op7418/status/2089186594402287896",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP5IGWYbEAAhGQG.jpg?name=orig"
+      }
+    ],
+    "metrics": "10 REPLIES · 1 REPOSTS · 39 LIKES · 20 BOOKMARKS · 13378 VIEWS",
+    "links": [],
+    "_analysisTheme": "开源 Agent 工具 / 客户端包装",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2088919845236859288",
+      "author": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "text": "正在给 DeepSeek Harness 做一个界面和交互美化的插件。\n\n还有一个服务商的插件，这样整个产品体验会好一点，后续也会打包成一个客户端。\n\n这主要是把 Codepilot 里面沉淀的一些资产抽离出来，然后做到这个 DeepSeek Harness 的插件里，这样整个使用体验和视觉效果都会变好不少。\n\n看了一些现有的美化插件，基本上都是改改背景图、加一两个组件效果什么的，感觉对于长期使用和用户体验没什么多大的帮助。",
+      "url": "https://x.com/op7418/status/2088919845236859288"
+    }
+  },
+  {
+    "category": "AI PRODUCT GTM",
+    "datetime": "2026-08-17T03:02:02.000Z",
+    "author": "YC (Yucheng)",
+    "handle": "yucheng",
+    "avatar": "https://pbs.twimg.com/profile_images/1964737537479512064/KXewSKLV_200x200.jpg",
+    "title": "AI 产品推广的瓶颈正在从报价变成红人排期",
+    "summary": "YC 提醒 AI 产品 campaign 的风险不只是红人报价，而是排期和交付节奏失控。对个人产品设计师而言，这条是 GTM 学习信号：产品发布计划要把内容供给、KOL 档期和上线节奏当成设计约束。",
+    "url": "https://x.com/yucheng/status/2089185957673332977",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP5HjoJbwAABXRc.jpg?name=orig"
+      }
+    ],
+    "metrics": "2 REPLIES · 0 REPOSTS · 6 LIKES · 0 BOOKMARKS · 923 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 产品 GTM / 发布节奏",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "INTERACTION DESIGN",
+    "datetime": "2026-08-17T02:07:00.000Z",
+    "author": "Varesh",
+    "handle": "vareshmukhekar",
+    "avatar": "https://pbs.twimg.com/profile_images/2018016038978547712/OVPxaexF_200x200.jpg",
+    "title": "Rive flocking experiment 展示小型群体动效的可控趣味",
+    "summary": "Varesh 用 Rive 做了一个小型 flocking experiment，小对象会在场景中寻找路径。它适合作为 motion interaction 参考：有机感不一定要复杂 3D，规则、节奏和边界反馈就能形成生命感。",
+    "url": "https://x.com/vareshmukhekar/status/2089172108362621427",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089051883692544000/vid/avc1/960x720/So_7s09H3p6YmCMo.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089051883692544000/img/t3ilIYpeBSn5azC6.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 3 REPOSTS · 7 LIKES · 3 BOOKMARKS · 1035 VIEWS",
+    "links": [],
+    "_analysisTheme": "Rive / 群体动效",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI SAFETY",
+    "datetime": "2026-08-17T02:01:32.000Z",
+    "author": "Superman",
+    "handle": "thesupermanmx",
+    "avatar": "https://pbs.twimg.com/profile_images/2061753751560650752/4jxd2vjA_200x200.jpg",
+    "title": "多 Agent 系统的安全问题更像激励设计而不是单点 jailbreak",
+    "summary": "Superman 转述 Stanford/Harvard AI red-team paper：自治 Agent 在邮件、shell、工具和多方互动中出现灾难性治理失败。它对设计师的价值在于提醒：Agent 产品要设计生态边界、权限和循环终止条件。",
+    "url": "https://x.com/thesupermanmx/status/2089170733260025866",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP45rAbbkAAGCZH.jpg?name=orig"
+      }
+    ],
+    "metrics": "3 REPLIES · 6 REPOSTS · 16 LIKES · 21 BOOKMARKS · 1394 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent 安全 / 权限治理",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
     "datetime": "2026-08-17T01:09:21.000Z",
     "author": "龙爪槐守望者real",
     "handle": "ftium4real",
@@ -78,6 +315,21 @@
       "url": "https://spacegrid.ai",
       "preview": "Using AI in shipyards? Alex Hilger, founder/CEO of and his team built a digital twin and talks to me about automating shipyards. First step, get them to stop using a physical boar…"
     }
+  },
+  {
+    "category": "AI CODING",
+    "datetime": "2026-08-17T00:50:55.000Z",
+    "author": "池建强",
+    "handle": "sagacity",
+    "avatar": "https://pbs.twimg.com/profile_images/837956718/_____2010-04-20___10.16.37_200x200.png",
+    "title": "Claude Code plugins 和 agent teams 值得从硬核工程视角学习",
+    "summary": "池建强推荐 Daisy 关于“当 Agent 比你更会写代码”的演讲，并强调她在 C++ 标准、并行和分布式上的背景。它是个人设计工程师学习 Claude Code 插件、agent teams 和复杂工程协作的高价值入口。",
+    "url": "https://x.com/sagacity/status/2089152962442743838",
+    "media": [],
+    "metrics": "2 REPLIES · 34 REPOSTS · 157 LIKES · 259 BOOKMARKS · 20629 VIEWS",
+    "links": [],
+    "_analysisTheme": "Claude Code / Agent Teams",
+    "_analysisPriority": "high"
   },
   {
     "category": "AI CODING",
@@ -236,6 +488,29 @@
     }
   },
   {
+    "category": "DESIGN LEADERSHIP",
+    "datetime": "2026-08-16T22:31:23.000Z",
+    "author": "Lenny Rachitsky",
+    "handle": "lennysan",
+    "avatar": "https://pbs.twimg.com/profile_images/1592990461517389824/iln8hi1f_200x200.jpg",
+    "title": "OpenAI 设计负责人讨论 AI 时代设计师为什么仍有机会",
+    "summary": "Lenny 访谈 OpenAI Head of Design Ian Silber，主题包括设计师不快乐、AI 已经是强产品设计师、OpenAI 的双速设计和人类还剩下的 craft/taste。它适合作为个人设计师能力重构的深读材料。",
+    "url": "https://x.com/lennysan/status/2089117846563590452",
+    "media": [],
+    "metrics": "20 REPLIES · 8 REPOSTS · 188 LIKES · 178 BOOKMARKS · 31086 VIEWS",
+    "links": [
+      "https://youtu.be/BV0hy6NET-U"
+    ],
+    "_analysisTheme": "设计领导力 / AI 时代设计能力",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "OpenAI’s Head of Design: This is the best time in history to be a product designer",
+      "url": "https://youtu.be/BV0hy6NET-U",
+      "preview": "X 卡片显示这是 Lenny 与 OpenAI Head of Design Ian Silber 的访谈，讨论 AI 时代设计师的角色、craft、taste 和 OpenAI 的设计方式。"
+    }
+  },
+  {
     "category": "AI EVAL",
     "datetime": "2026-08-16T22:22:49.000Z",
     "author": "DogeDesigner",
@@ -292,6 +567,35 @@
         "url": "https://github.com/deepseek-ai/deepseek-harness",
         "preview": "🧩 DeepSeek Harness v0.1 is now available in Developer Preview! 🔹 We’re opening it up to developers building agent harnesses worldwide and open-sourcing the codebase in MIT licen…"
       }
+    }
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-16T21:49:46.000Z",
+    "author": "Dash",
+    "handle": "DashHuang",
+    "avatar": "https://pbs.twimg.com/profile_images/1126525862537351169/xJVtWSnu_200x200.jpg",
+    "title": "Cindy 用拖拽窗口和聊天引用降低多 session 协作成本",
+    "summary": "Dash 展示 Cindy 任务窗口可拖到新窗口，也可拖入聊天框引用其他任务对话。这个小交互抓住了多 Agent/多 session 工作的真实痛点：跨上下文检查、互相引用和保持任务可见。",
+    "url": "https://x.com/DashHuang/status/2089107375601148381",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089105726308581376/vid/avc1/1920x1080/xyat_Y7aVwAFNLsd.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089105726308581376/img/_HSkcMvRMDuNfjO_.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "19 REPLIES · 2 REPOSTS · 20 LIKES · 13 BOOKMARKS · 17961 VIEWS",
+    "links": [],
+    "_analysisTheme": "多 session AI 工作台 / 任务引用",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2089105166666731536",
+      "author": "Dash",
+      "handle": "DashHuang",
+      "text": "Cindy 开源第三周。本周继续更新了很多有趣的功能，但是也出现了一些阻断性的 Bug。下周开始我们可能会稍微降低正式版的更新频率，保证大家的稳定性。另外再单独出个测试版来日更。另外还想再花点精力在新手和付费体验上，让大家能意识到，Cindy 是个正儿八经的的，能买到超值好服务的产品。",
+      "url": "https://x.com/DashHuang/status/2089105166666731536"
     }
   },
   {
@@ -518,6 +822,29 @@
   },
   {
     "category": "AI CODING",
+    "datetime": "2026-08-16T20:25:55.000Z",
+    "author": "Arv",
+    "handle": "arvzhq",
+    "avatar": "https://pbs.twimg.com/profile_images/2083601719443771392/qrrC3ViB_200x200.jpg",
+    "title": "Architect-to-Builder 把 AI 编程拆成规划者与执行者",
+    "summary": "Arv 写长文总结 Architect-to-Builder：先由强模型完成取舍和计划，再让 Builder 按阶段实现并停止。它与个人设计工程师的工作方式高度相关，因为它把“别让 Agent 半路重新设计”写成了可执行协议。",
+    "url": "https://x.com/arvzhq/status/2089086271113351252",
+    "media": [],
+    "metrics": "2 REPLIES · 0 REPOSTS · 2 LIKES · 0 BOOKMARKS · 135 VIEWS",
+    "links": [
+      "http://arvz.tech/posts/architect-to-builder"
+    ],
+    "_analysisTheme": "AI 编程流程 / 分阶段交付",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Architect-to-Builder: a reliable way to ship with agents",
+      "url": "https://arvz.tech/posts/architect-to-builder/",
+      "preview": "文章定义 Architect 负责研究、取舍和计划，不实现；Builder 读取计划、完成一个批准阶段、记录实际变化并停止。"
+    }
+  },
+  {
+    "category": "AI CODING",
     "datetime": "2026-08-16T20:12:29.000Z",
     "author": "Tibo",
     "handle": "thsottiaux",
@@ -645,6 +972,38 @@
         "url": ""
       }
     }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-16T18:18:08.000Z",
+    "author": "Peng Zheng",
+    "handle": "pengzheng_",
+    "avatar": "https://pbs.twimg.com/profile_images/1950000586084233216/-bvk_-H3_200x200.png",
+    "title": "Grok Bots 的组织方式暴露了 AI 侧边栏的信息架构问题",
+    "summary": "Peng Zheng 用四张图总结 Grok Bots 的整理方法：pin 常用 Bot、调整侧边栏、给 Bot 加标题、按 section 分组。它是多 Bot 产品从“聊天列表”走向可管理工作台的信息架构样本。",
+    "url": "https://x.com/pengzheng_/status/2089054113522987448",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3Pmp7akAAsMPl.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3Pn2laQAA2vDG.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3PokqbMAAmnqz.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3PpHbbMAAxV8F.jpg?name=orig"
+      }
+    ],
+    "metrics": "3 REPLIES · 7 REPOSTS · 140 LIKES · 91 BOOKMARKS · 8009 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Bot 管理 / 侧边栏 IA",
+    "_analysisPriority": "medium"
   },
   {
     "category": "AI AGENT",

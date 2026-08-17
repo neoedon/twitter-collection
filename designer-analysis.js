@@ -1,6 +1,487 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-17",
+    "generatedAt": "2026-08-17T13:18:00+08:00",
+    "batch": "x-ai-design-analysis-2026-08-17-1318",
+    "analysisCount": 15,
+    "homeCount": 15,
+    "likeCount": 0,
+    "linksInspected": 4,
+    "unavailableLinks": 1,
+    "summary": "本批是 2026-08-17 13:00 Asia/Shanghai 午后增量：上午 Analysis 已达 100 条，因此不回补历史 Like，只追加 15 条同日 Home 高价值内容，覆盖 agentic UX、AI coding 流程、AI 产品 GTM、Rive 动效、品牌案例和多 session 工作台。Likes 已滚动到连续已知边界，没有新增收藏。",
+    "sourceWindow": {
+      "strategy": "Home 覆盖 For You、Following URL、AI agent/design tool/indie product/visual work 搜索；在当天已满足 20 条 Home 和 100 条 Analysis 的基础上，只追加未分析、同日、高学习价值内容。Likes 进入 x.com/neoedon414/likes 后滚动到连续已知 ID 边界。",
+      "newestHomeDatetime": "2026-08-17T05:00:32.000Z",
+      "oldestHomeDatetime": "2026-08-16T18:18:08.000Z",
+      "newestLikeDatetime": null,
+      "oldestLikeDatetime": null,
+      "expandedWindow": "未扩窗。候选池内 Asia/Shanghai 2026-08-17 同日内容足够，且当天 Analysis 已超过 100 条；本批只追加同日新 Home。",
+      "observed": {
+        "homeRaw": 1587,
+        "homeUnique": 222,
+        "homeSameDayCandidates": 103,
+        "homeFreshAfterExisting": 222,
+        "selectedHomeIds": [
+          "2089215778637889679",
+          "2089213686112239980",
+          "2089204977143251212",
+          "2089202003289547116",
+          "2089200564714582218",
+          "2089198900381204674",
+          "2089186594402287896",
+          "2089185957673332977",
+          "2089172108362621427",
+          "2089170733260025866",
+          "2089152962442743838",
+          "2089117846563590452",
+          "2089107375601148381",
+          "2089086271113351252",
+          "2089054113522987448"
+        ],
+        "likeRaw": 76,
+        "likeUnique": 18,
+        "freshLikeIds": [],
+        "likeBoundaryReached": true,
+        "linkReadback": [
+          {
+            "url": "https://x.com/i/article/2089196584802119680",
+            "access": "full",
+            "finalUrl": "https://x.com/theswetank/article/2089198900381204674",
+            "title": "X"
+          },
+          {
+            "url": "https://youtu.be/BV0hy6NET-U",
+            "access": "unavailable",
+            "finalUrl": "https://www.youtube.com/watch?v=BV0hy6NET-U&feature=youtu.be&themeRefresh=1",
+            "title": ""
+          },
+          {
+            "url": "http://arvz.tech/posts/architect-to-builder",
+            "access": "full",
+            "finalUrl": "https://arvz.tech/posts/architect-to-builder/",
+            "title": "Architect-to-Builder: a reliable way to ship with agents — arvz"
+          },
+          {
+            "url": "https://railgo.dev",
+            "access": "full",
+            "finalUrl": "https://railgo.dev/",
+            "title": "RailGo · 铁路信息查询"
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "id": "2089215778637889679",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/hwwaanng/status/2089215778637889679",
+        "author": "Hwang",
+        "handle": "hwwaanng",
+        "datetime": "2026-08-17T05:00:32.000Z",
+        "title": "微信的克制感解释了为什么它不像多数国产 App",
+        "originalSummary": "Hwang 把微信称为最不像国产 App 的国产 App，点出它长期克制入口、动效和运营打扰的产品气质。对个人设计师来说，这是一个用“少做什么”来保持信任和高频使用感的反例素材。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「克制产品 / 高频体验」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "Hwang 把微信称为最不像国产 App 的国产 App，点出它长期克制入口、动效和运营打扰的产品气质。对个人设计师来说，这是一个用“少做什么”来保持信任和高频使用感的反例素材。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "复盘微信首页、聊天、发现页里被刻意压低存在感的入口。",
+          "把一个自己产品里的运营或 AI 入口做一次“克制版”对照稿。",
+          "记录哪些信息不该被做成显眼卡片，而应留在用户需要时出现。"
+        ],
+        "tags": [
+          "Home",
+          "克制产品",
+          "高频体验"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089213686112239980",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/evnydd0sf/status/2089213686112239980",
+        "author": "evnydd0sf",
+        "handle": "evnydd0sf",
+        "datetime": "2026-08-17T04:52:13.000Z",
+        "title": "Quote/0 把 RailGo 接成可探索的铁路内容源",
+        "originalSummary": "evnydd0sf 把 RailGo 接进 Quote/0 内容工坊，让用户查询车站大屏、车站信息、指定车次或随机列车。它展示了小工具如何把实用数据转成带想象力的内容入口。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「内容工坊 / 数据型小工具」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "evnydd0sf 把 RailGo 接进 Quote/0 内容工坊，让用户查询车站大屏、车站信息、指定车次或随机列车。它展示了小工具如何把实用数据转成带想象力的内容入口。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [
+          {
+            "title": "RailGo · 铁路信息查询",
+            "url": "https://railgo.dev/",
+            "access": "full",
+            "value": "RailGo 页面补充了原帖之外的信息：它不是单一车次查询，而是覆盖车次、车站、动车组、图鉴和列车信息屏的铁路信息工具。",
+            "learningValue": "值得继续看信息架构：多入口查询如何变成可复用内容源，以及数据型工具如何保留探索感。"
+          }
+        ],
+        "learningActions": [
+          "拆解 Quote/0 如何把外部查询工具包装成内容素材源。",
+          "画一个“数据查询转内容卡片”的最小流程。",
+          "评估 RailGo 的车站/车次维度是否适合做个人知识库或旅行灵感模板。"
+        ],
+        "tags": [
+          "Home",
+          "内容工坊",
+          "数据型小工具"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089204977143251212",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/lovart_ai/status/2089204977143251212",
+        "author": "LovartAI",
+        "handle": "lovart_ai",
+        "datetime": "2026-08-17T04:17:36.000Z",
+        "title": "Lovart 用 Seedance 2.5 快速生成拉面品牌与发布片",
+        "originalSummary": "LovartAI 展示用 Lovart 和 Seedance 2.5 生成完整拉面品牌与 launch film。它值得关注的不是“AI 做视频”，而是品牌命名、视觉资产、门店想象和短片叙事被合成到一次提案里。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「AI 品牌提案 / 视频叙事」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "LovartAI 展示用 Lovart 和 Seedance 2.5 生成完整拉面品牌与 launch film。它值得关注的不是“AI 做视频”，而是品牌命名、视觉资产、门店想象和短片叙事被合成到一次提案里。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把视频拆成品牌资产清单：标志、包装、菜单、场景、镜头节奏。",
+          "做一个 30 秒 AI launch film brief，限制每个镜头只服务一个卖点。",
+          "比较“展示愿景”与“描述概念”在客户提案中的说服力差异。"
+        ],
+        "tags": [
+          "Home",
+          "AI 品牌提案",
+          "视频叙事"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089202003289547116",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/AiCamila_/status/2089202003289547116",
+        "author": "Camila",
+        "handle": "AiCamila_",
+        "datetime": "2026-08-17T04:05:47.000Z",
+        "title": "Agent 体验需要显式的 graceful degradation",
+        "originalSummary": "Camila 把 Agent 的降级路径写成清单：工具失败、模型变慢或范围收缩时，不应直接报错，而应提供可解释的低配结果。它是 Agent 产品从 demo 走向生产时的基础体验规范。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「Agent 可靠性 / 降级体验」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "Camila 把 Agent 的降级路径写成清单：工具失败、模型变慢或范围收缩时，不应直接报错，而应提供可解释的低配结果。它是 Agent 产品从 demo 走向生产时的基础体验规范。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "为一个正在使用的 Agent 流程列出三种失败模式和降级响应。",
+          "把“结果质量降低”的提示文案写成用户可理解的状态。",
+          "在原型里加入缓存结果、低成本模型或缩小范围的切换点。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 可靠性",
+          "降级体验"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089200564714582218",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/TweetsByTBI/status/2089200564714582218",
+        "author": "The Brand Identity",
+        "handle": "TweetsByTBI",
+        "datetime": "2026-08-17T04:00:04.000Z",
+        "title": "LVL Group rebrand 用建筑语境校准建商品牌",
+        "originalSummary": "The Brand Identity 分享 Studio Nascent 为墨尔本 builder LVL Group 做的 rebrand，用建筑和设计语境提升建商品牌感。多图适合作为 B2B 品牌如何避免施工感、转向专业系统感的视觉参考。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「B2B 品牌 / 建筑视觉系统」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "The Brand Identity 分享 Studio Nascent 为墨尔本 builder LVL Group 做的 rebrand，用建筑和设计语境提升建商品牌感。多图适合作为 B2B 品牌如何避免施工感、转向专业系统感的视觉参考。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取三张图分析字体、版式、材料感和空间摄影如何共同建立专业度。",
+          "整理一套“施工服务品牌转设计语言”的 before/after 检查表。",
+          "观察品牌案例是否把业务可信度放在装饰性之前。"
+        ],
+        "tags": [
+          "Home",
+          "B2B 品牌",
+          "建筑视觉系统"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089198900381204674",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/theswetank/status/2089198900381204674",
+        "author": "Swetank Gawde",
+        "handle": "theswetank",
+        "datetime": "2026-08-17T03:53:27.000Z",
+        "title": "Agentic UX 的核心变成协调人、工具和权限",
+        "originalSummary": "Swetank Gawde 提出 UX 正在 agentic：下一轮界面重点不是单点功能，而是协调人、Agent、工具与权限。X Article 把最近两周设计与 AI 的变化放进同一条趋势线，适合深读。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「Agentic UX / 权限协调」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "Swetank Gawde 提出 UX 正在 agentic：下一轮界面重点不是单点功能，而是协调人、Agent、工具与权限。X Article 把最近两周设计与 AI 的变化放进同一条趋势线，适合深读。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [
+          {
+            "title": "The UX surface is becoming agentic",
+            "url": "https://x.com/i/article/2089196584802119680",
+            "access": "full",
+            "value": "X Article 补充了原帖没有展开的趋势框架：设计工具、AI assistants、项目空间和治理系统正在一起变成 agentic UX surface。",
+            "learningValue": "信息密度高，适合沉淀为 agentic UX checklist，特别是权限、协作和工具调用边界。"
+          }
+        ],
+        "learningActions": [
+          "把“人、Agent、工具、权限”画成一个 UX coordination map。",
+          "找一个现有 AI 工作流，标出谁能操作什么、何时需要确认。",
+          "记录一个不是按钮/表单而是“协调机制”的设计机会。"
+        ],
+        "tags": [
+          "Home",
+          "Agentic UX",
+          "权限协调"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089186594402287896",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/op7418/status/2089186594402287896",
+        "author": "歸藏(guizang.ai)",
+        "handle": "op7418",
+        "datetime": "2026-08-17T03:04:33.000Z",
+        "title": "DeepSeek Harness 插件开始补齐视觉和客户端体验",
+        "originalSummary": "歸藏继续展示 DeepSeek Harness 美化插件和服务商插件的界面进展，截图体现从代码框架走向可用客户端的包装阶段。它提醒个人设计师：开源 Agent 工具的机会常在安装、视觉、插件市场和稳定服务层。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「开源 Agent 工具 / 客户端包装」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "歸藏继续展示 DeepSeek Harness 美化插件和服务商插件的界面进展，截图体现从代码框架走向可用客户端的包装阶段。它提醒个人设计师：开源 Agent 工具的机会常在安装、视觉、插件市场和稳定服务层。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "列出 DeepSeek Harness 从工具到产品还缺的界面层：入口、状态、插件、服务商、错误处理。",
+          "把截图中的信息架构转成一版插件设置页草图。",
+          "评估“开源框架 + 体验插件”是否能成为独立产品切入点。"
+        ],
+        "tags": [
+          "Home",
+          "开源 Agent 工具",
+          "客户端包装"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089185957673332977",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/yucheng/status/2089185957673332977",
+        "author": "YC (Yucheng)",
+        "handle": "yucheng",
+        "datetime": "2026-08-17T03:02:02.000Z",
+        "title": "AI 产品推广的瓶颈正在从报价变成红人排期",
+        "originalSummary": "YC 提醒 AI 产品 campaign 的风险不只是红人报价，而是排期和交付节奏失控。对个人产品设计师而言，这条是 GTM 学习信号：产品发布计划要把内容供给、KOL 档期和上线节奏当成设计约束。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「AI 产品 GTM / 发布节奏」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "YC 提醒 AI 产品 campaign 的风险不只是红人报价，而是排期和交付节奏失控。对个人产品设计师而言，这条是 GTM 学习信号：产品发布计划要把内容供给、KOL 档期和上线节奏当成设计约束。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "为一个 AI 产品发布倒排 KOL 内容排期，而不是只列功能上线日期。",
+          "把“红人排期延迟”写进 launch 风险清单和替代内容方案。",
+          "记录哪些 demo 素材应该提前模块化，降低等待外部内容的风险。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 GTM",
+          "发布节奏"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089172108362621427",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/vareshmukhekar/status/2089172108362621427",
+        "author": "Varesh",
+        "handle": "vareshmukhekar",
+        "datetime": "2026-08-17T02:07:00.000Z",
+        "title": "Rive flocking experiment 展示小型群体动效的可控趣味",
+        "originalSummary": "Varesh 用 Rive 做了一个小型 flocking experiment，小对象会在场景中寻找路径。它适合作为 motion interaction 参考：有机感不一定要复杂 3D，规则、节奏和边界反馈就能形成生命感。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「Rive / 群体动效」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "Varesh 用 Rive 做了一个小型 flocking experiment，小对象会在场景中寻找路径。它适合作为 motion interaction 参考：有机感不一定要复杂 3D，规则、节奏和边界反馈就能形成生命感。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解 flocking 动效的三条规则：分离、对齐、聚合，并映射到 UI 微交互。",
+          "用 Rive 或 CSS 做一个 5 个对象的跟随/避让小实验。",
+          "记录何时用生物式 motion 增加可理解性，何时会变成装饰噪音。"
+        ],
+        "tags": [
+          "Home",
+          "Rive",
+          "群体动效"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089170733260025866",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/thesupermanmx/status/2089170733260025866",
+        "author": "Superman",
+        "handle": "thesupermanmx",
+        "datetime": "2026-08-17T02:01:32.000Z",
+        "title": "多 Agent 系统的安全问题更像激励设计而不是单点 jailbreak",
+        "originalSummary": "Superman 转述 Stanford/Harvard AI red-team paper：自治 Agent 在邮件、shell、工具和多方互动中出现灾难性治理失败。它对设计师的价值在于提醒：Agent 产品要设计生态边界、权限和循环终止条件。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「Agent 安全 / 权限治理」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "Superman 转述 Stanford/Harvard AI red-team paper：自治 Agent 在邮件、shell、工具和多方互动中出现灾难性治理失败。它对设计师的价值在于提醒：Agent 产品要设计生态边界、权限和循环终止条件。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把一个 Agent 工作流的权限分成读取、写入、转发、删除四级。",
+          "为多 Agent 循环加上预算、次数和人工确认的停止条件。",
+          "把“局部对齐不等于整体稳定”写进 Agent 产品评审问题清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 安全",
+          "权限治理"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089152962442743838",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/sagacity/status/2089152962442743838",
+        "author": "池建强",
+        "handle": "sagacity",
+        "datetime": "2026-08-17T00:50:55.000Z",
+        "title": "Claude Code plugins 和 agent teams 值得从硬核工程视角学习",
+        "originalSummary": "池建强推荐 Daisy 关于“当 Agent 比你更会写代码”的演讲，并强调她在 C++ 标准、并行和分布式上的背景。它是个人设计工程师学习 Claude Code 插件、agent teams 和复杂工程协作的高价值入口。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「Claude Code / Agent Teams」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "池建强推荐 Daisy 关于“当 Agent 比你更会写代码”的演讲，并强调她在 C++ 标准、并行和分布式上的背景。它是个人设计工程师学习 Claude Code 插件、agent teams 和复杂工程协作的高价值入口。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "寻找演讲原始链接并整理 Claude Code plugins 与 agent teams 的概念差异。",
+          "把“Agent 比你更会写代码”转成设计工程师应保留的判断职责清单。",
+          "记录一个插件机制如何改变设计系统维护或前端重构流程。"
+        ],
+        "tags": [
+          "Home",
+          "Claude Code",
+          "Agent Teams"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089117846563590452",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/lennysan/status/2089117846563590452",
+        "author": "Lenny Rachitsky",
+        "handle": "lennysan",
+        "datetime": "2026-08-16T22:31:23.000Z",
+        "title": "OpenAI 设计负责人讨论 AI 时代设计师为什么仍有机会",
+        "originalSummary": "Lenny 访谈 OpenAI Head of Design Ian Silber，主题包括设计师不快乐、AI 已经是强产品设计师、OpenAI 的双速设计和人类还剩下的 craft/taste。它适合作为个人设计师能力重构的深读材料。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「设计领导力 / AI 时代设计能力」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "Lenny 访谈 OpenAI Head of Design Ian Silber，主题包括设计师不快乐、AI 已经是强产品设计师、OpenAI 的双速设计和人类还剩下的 craft/taste。它适合作为个人设计师能力重构的深读材料。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [
+          {
+            "title": "OpenAI’s Head of Design: This is the best time in history to be a product designer",
+            "url": "https://youtu.be/BV0hy6NET-U",
+            "access": "unavailable",
+            "value": "YouTube 页面在本次浏览器快照中只返回空 root，无法读取正文或转录；当前仅使用原帖可见卡片和 Lenny 的摘要判断链接价值。",
+            "learningValue": "仍值得后续手动观看，因为主题直接对应 AI 时代设计师能力、craft/taste 和 OpenAI 设计流程。"
+          }
+        ],
+        "learningActions": [
+          "听/看访谈时只记录“设计师不可替代判断”而不是泛泛金句。",
+          "把 OpenAI 双速设计拆成探索节奏和产品化节奏两栏。",
+          "更新个人能力地图：哪些 craft 应交给 AI，哪些 taste 仍需自己负责。"
+        ],
+        "tags": [
+          "Home",
+          "设计领导力",
+          "AI 时代设计能力"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089107375601148381",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/DashHuang/status/2089107375601148381",
+        "author": "Dash",
+        "handle": "DashHuang",
+        "datetime": "2026-08-16T21:49:46.000Z",
+        "title": "Cindy 用拖拽窗口和聊天引用降低多 session 协作成本",
+        "originalSummary": "Dash 展示 Cindy 任务窗口可拖到新窗口，也可拖入聊天框引用其他任务对话。这个小交互抓住了多 Agent/多 session 工作的真实痛点：跨上下文检查、互相引用和保持任务可见。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「多 session AI 工作台 / 任务引用」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "Dash 展示 Cindy 任务窗口可拖到新窗口，也可拖入聊天框引用其他任务对话。这个小交互抓住了多 Agent/多 session 工作的真实痛点：跨上下文检查、互相引用和保持任务可见。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画一个多 session Agent 工作台的信息流：任务、窗口、引用、检查、回写。",
+          "复盘拖拽到聊天框比复制链接少了哪些认知步骤。",
+          "为自己的工作流设计一个“引用另一个任务”的最小交互。"
+        ],
+        "tags": [
+          "Home",
+          "多 session AI 工作台",
+          "任务引用"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089086271113351252",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/arvzhq/status/2089086271113351252",
+        "author": "Arv",
+        "handle": "arvzhq",
+        "datetime": "2026-08-16T20:25:55.000Z",
+        "title": "Architect-to-Builder 把 AI 编程拆成规划者与执行者",
+        "originalSummary": "Arv 写长文总结 Architect-to-Builder：先由强模型完成取舍和计划，再让 Builder 按阶段实现并停止。它与个人设计工程师的工作方式高度相关，因为它把“别让 Agent 半路重新设计”写成了可执行协议。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「AI 编程流程 / 分阶段交付」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "Arv 写长文总结 Architect-to-Builder：先由强模型完成取舍和计划，再让 Builder 按阶段实现并停止。它与个人设计工程师的工作方式高度相关，因为它把“别让 Agent 半路重新设计”写成了可执行协议。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [
+          {
+            "title": "Architect-to-Builder: a reliable way to ship with agents",
+            "url": "https://arvz.tech/posts/architect-to-builder/",
+            "access": "full",
+            "value": "文章补充了原帖之外的可执行结构：Architect 只负责研究和计划，Builder 只执行一个批准阶段，并用计划、状态和验证约束减少 Agent 漂移。",
+            "learningValue": "实现参考价值高，可直接改造成个人 Codex/Cursor 任务拆分模板。"
+          }
+        ],
+        "learningActions": [
+          "把当前一个中型任务拆成 Architect 输出和 Builder 输出两份文档。",
+          "给 Builder 阶段添加“触达文件、验证命令、回滚说明”三项硬约束。",
+          "用 time-to-first-code 检查计划是否足够具体。"
+        ],
+        "tags": [
+          "Home",
+          "AI 编程流程",
+          "分阶段交付"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089054113522987448",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/pengzheng_/status/2089054113522987448",
+        "author": "Peng Zheng",
+        "handle": "pengzheng_",
+        "datetime": "2026-08-16T18:18:08.000Z",
+        "title": "Grok Bots 的组织方式暴露了 AI 侧边栏的信息架构问题",
+        "originalSummary": "Peng Zheng 用四张图总结 Grok Bots 的整理方法：pin 常用 Bot、调整侧边栏、给 Bot 加标题、按 section 分组。它是多 Bot 产品从“聊天列表”走向可管理工作台的信息架构样本。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为 13:00 登录态 Home/Following/Search 增量里出现了「AI Bot 管理 / 侧边栏 IA」信号；它能转成个人设计师或设计工程师可练习的方法，而不是只看热度。",
+        "deepSummary": "Peng Zheng 用四张图总结 Grok Bots 的整理方法：pin 常用 Bot、调整侧边栏、给 Bot 加标题、按 section 分组。它是多 Bot 产品从“聊天列表”走向可管理工作台的信息架构样本。 深读价值在于它能拆出具体判断：场景约束、界面组织方式、AI 工作流边界，以及下一步可复刻的小实验。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截图分析 Grok Bots 侧边栏如何处理常用、命名和分组。",
+          "为自己的 AI 工具清单做一版 pin/group/title 规则。",
+          "思考 Bot 数量超过 10 个后需要搜索、归档还是任务型分组。"
+        ],
+        "tags": [
+          "Home",
+          "AI Bot 管理",
+          "侧边栏 IA"
+        ],
+        "priority": "medium"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-17",
     "generatedAt": "2026-08-17T09:47:25+08:00",
     "batch": "x-ai-design-analysis-2026-08-17-0947",
     "analysisCount": 100,
