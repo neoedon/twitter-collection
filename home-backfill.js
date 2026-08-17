@@ -1,6 +1,652 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-17T01:09:21.000Z",
+    "author": "龙爪槐守望者real",
+    "handle": "ftium4real",
+    "avatar": "https://pbs.twimg.com/profile_images/1999662566566686720/cJE0jPDh_200x200.jpg",
+    "title": "大众点评把 AI 建议藏进长评高亮而不是摘要卡",
+    "summary": "龙爪槐守望者观察大众点评没有把用户长评压成 AI 总结卡，而是用荧光笔样式标出关键建议。它是 AI 落地如何保留真人语境和信任感的好例子。",
+    "url": "https://x.com/ftium4real/status/2089157599447167341",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP4twiHbgAAYz8R.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 21 VIEWS",
+    "links": [
+      "https://www.uisdc.com/hunter/0221680653.html"
+    ],
+    "_analysisTheme": "AI 摘要 / 信任 UX",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "uisdc.com",
+      "url": "https://www.uisdc.com/hunter/0221680653.html",
+      "preview": "很多产品做大模型落地，第一反应都是在顶部堆一个庞大的「AI 总结卡片」，大众点评反过来，在真实用户的长评，用荧光笔划线的样式把关键建议标出来。大家看大众点评，图的就是普通人字里行间的真实细节，如果全压成干巴巴的机器摘要，信任感立刻折损大半。"
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-17T01:07:03.000Z",
+    "author": "数字生命卡兹克",
+    "handle": "Khazix0918",
+    "avatar": "https://pbs.twimg.com/profile_images/1756592360367259648/GXJ4Kl6w_200x200.jpg",
+    "title": "AIHOT 把 Agent 真实工作成功率拆成分类评测",
+    "summary": "数字生命卡兹克用 AIHOT 排行榜延展出 Agent 分类评测：不同模型在不同真实任务上的成功率仍然差异很大。它提醒个人设计师看 Agent 产品时不要只看演示，而要追问任务类型、评价口径和失败边界。",
+    "url": "https://x.com/Khazix0918/status/2089157023594430952",
+    "media": [],
+    "metrics": "4 REPLIES · 0 REPOSTS · 18 LIKES · 12 BOOKMARKS · 2055 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent 评测 / 真实工作成功率",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "x-article",
+      "title": "说一个反常识的真相，Agent如今在真实工作场景的成功率依然很低。",
+      "preview": "",
+      "url": "https://x.com/i/article/2089156068534595584"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-17T00:54:00.000Z",
+    "author": "Robert Scoble",
+    "handle": "Scobleizer",
+    "avatar": "https://pbs.twimg.com/profile_images/1915614118876504066/zVnfpAMf_200x200.jpg",
+    "title": "Spacegrid 用数字孪生把船厂排程从物理白板迁到 AI 系统",
+    "summary": "Robert Scoble 采访 Spacegrid：先让船厂停止用实体白板组织工地，再用 digital twin 自动化。它是 AI 产品进入高摩擦线下行业时，从替换真实协调介质开始的案例。",
+    "url": "https://x.com/Scobleizer/status/2089153739580215604",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089147059492560896/vid/avc1/1920x1080/v87Bjk3dshKQ8Pkf.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089147059492560896/img/Mtxm2iCUsYXKz92t.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "9 REPLIES · 2 REPOSTS · 28 LIKES · 3 BOOKMARKS · 2832 VIEWS",
+    "links": [
+      "https://spacegrid.ai"
+    ],
+    "_analysisTheme": "Industrial digital twin",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "spacegrid.ai",
+      "url": "https://spacegrid.ai",
+      "preview": "Using AI in shipyards? Alex Hilger, founder/CEO of and his team built a digital twin and talks to me about automating shipyards. First step, get them to stop using a physical boar…"
+    }
+  },
+  {
+    "category": "AI CODING",
+    "datetime": "2026-08-17T00:48:47.000Z",
+    "author": "くるぴー",
+    "handle": "kurupical",
+    "avatar": "https://pbs.twimg.com/profile_images/878607075965755392/B6jR-Orv_200x200.jpg",
+    "title": "Lux AI 3 复盘把 Coding Agent 用在高效数据采集上",
+    "summary": "kurupical 读 Lux AI 3 复盘后强调“数据收集效率”最值得学，Coding Agent 帮他把 episode 采样提到每秒数千步。它适合学习如何让 Agent 服务实验基础设施，而不只是写 UI。",
+    "url": "https://x.com/kurupical/status/2089152424749699487",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP4oW97aMAAo2wu.png?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 2 REPOSTS · 34 LIKES · 15 BOOKMARKS · 701 VIEWS",
+    "links": [
+      "https://zenn.dev/kurupical/articles/61dbeedf89a29d"
+    ],
+    "_analysisTheme": "Coding Agent / 数据效率",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "zenn.dev",
+      "url": "https://zenn.dev/kurupical/articles/61dbeedf89a29d",
+      "preview": "Lux AI 3 の振り返り記事を読んで以下実行できたのはかなり良かった 特に「データ収集効率に限界までこだわる」はかなり良かった。高速化はCoding Agentが上手にやってくれて、3000~5000step/secでエピソード取れてた"
+    }
+  },
+  {
+    "category": "DESIGN SYSTEM",
+    "datetime": "2026-08-17T00:37:07.000Z",
+    "author": "金 成奎",
+    "handle": "seikei_kin",
+    "avatar": "https://pbs.twimg.com/profile_images/1108345732526829568/f5VZaqbz_200x200.png",
+    "title": "Cursor 600+ 图标系统强调 AI 公司里的人工视觉判断",
+    "summary": "seikei_kin 推荐 Cursor icons 制作文章，重点是 600+ 图标、一年手绘、16/24px 和线框/填充体系。它提醒设计工程师，AI 产品的可信质感仍来自细小的人类视觉判断。",
+    "url": "https://x.com/seikei_kin/status/2089149488359469293",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP4lYQYaYAANHcN.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 25 LIKES · 16 BOOKMARKS · 776 VIEWS",
+    "links": [
+      "https://www.minoradventures.co/blog/the-making-of-cursors-icons"
+    ],
+    "_analysisTheme": "Cursor icons / 图标系统",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "minoradventures.co",
+      "url": "https://www.minoradventures.co/blog/the-making-of-cursors-icons",
+      "preview": "Cursorが600種類以上のアイコンシステムを設計した壮大な記事。 AI企業であるCursorだけど、細かな視覚判断についてはAIに任せず、すべて人間のデザイナーが担当したとのこと。 The Making of Cursor's Icons – Minor Adventures"
+    }
+  },
+  {
+    "category": "VISUAL CRAFT",
+    "datetime": "2026-08-17T00:21:35.000Z",
+    "author": "Cartoons On The Moon",
+    "handle": "CartoonsOTMoon",
+    "avatar": "https://pbs.twimg.com/profile_images/1797994544002174976/PSGOtkHd_200x200.jpg",
+    "title": "Laika Wildwood 幕后把 stop-motion 定义成反 prompt 的工艺选择",
+    "summary": "Cartoons on the Moon 转发 Wildwood 幕后片段，强调在 prompt 可以生成一切的时代继续做 stop-motion 是一种反叛。它补充了 AI 视觉之外，材质、拍摄和手工执行仍然稀缺。",
+    "url": "https://x.com/CartoonsOTMoon/status/2089145581973176603",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089145034201309185/vid/avc1/1920x808/jQft7hD8jgS9drfp.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089145034201309185/img/98gAxlUKn4WfSEzY.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "15 REPLIES · 245 REPOSTS · 2678 LIKES · 193 BOOKMARKS · 23310 VIEWS",
+    "links": [],
+    "_analysisTheme": "Stop-motion / AI 时代手工艺",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI VIDEO",
+    "datetime": "2026-08-16T23:58:50.000Z",
+    "author": "Design Arena",
+    "handle": "DesignArena",
+    "avatar": "https://pbs.twimg.com/profile_images/1988401101797027844/yZ6rC4I7_200x200.jpg",
+    "title": "Seedance 2.5 在 Design Arena 多图生视频榜登顶",
+    "summary": "Design Arena 报告 Seedance 2.5 在 Multi-Image to Video 任务中 Elo 第一，MiniMax H3 居开源第一。这个榜单关注多参考图的一致性，对可控品牌视频和产品动效很关键。",
+    "url": "https://x.com/DesignArena/status/2089139856660476065",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP4ZCkQa0AAYMwu.jpg?name=orig"
+      }
+    ],
+    "metrics": "2 REPLIES · 6 REPOSTS · 46 LIKES · 9 BOOKMARKS · 3037 VIEWS",
+    "links": [],
+    "_analysisTheme": "Design Arena / Multi-image video",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-16T23:15:00.000Z",
+    "author": "0xMarioNawfal",
+    "handle": "RoundtableSpace",
+    "avatar": "https://pbs.twimg.com/profile_images/2012162102283407360/U-fPj6wg_200x200.jpg",
+    "title": "Claude 直接承担 Unity 游戏原型的脚本和调试",
+    "summary": "Roundtable 观察新手用 Claude 写 Unity C#、相机、状态和 hazard triggers，绕过引擎文档摩擦做出可玩原型。它显示创作工具的门槛正在从 API 熟练度转向意图表达。",
+    "url": "https://x.com/RoundtableSpace/status/2089128823162024431",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089110470066114560/vid/avc1/1920x1080/EVSsSZBUaDhJqUmT.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089110470066114560/img/xJlIckxqGOAJSUdI.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "8 REPLIES · 2 REPOSTS · 35 LIKES · 4 BOOKMARKS · 38389 VIEWS",
+    "links": [],
+    "_analysisTheme": "Claude / Unity prototype",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-16T22:38:39.000Z",
+    "author": "Fabio Sasso (abduzeedo)",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "allO Super 展示复杂餐饮前台的模块化平台设计",
+    "summary": "abduzeedo 收录 allO Super 的 B2B Restaurant Platform Design，用模块化 UI/UX 系统整理餐厅前台运营。它适合作为复杂业务工具如何降低操作密度、分层导航和统一视觉语言的参考。",
+    "url": "https://x.com/abduzeedo/status/2089119675754205409",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP4LPBXbcAArfks.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP4LQH_akAA9tYY.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP4LRMcboAAj1t0.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 5 LIKES · 6 BOOKMARKS · 1096 VIEWS",
+    "links": [
+      "https://abduzeedo.com/allo-super-significa-b2b-restaurant-platform-design"
+    ],
+    "_analysisTheme": "B2B 餐饮平台 / 模块化 UI",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "abduzeedo.com",
+      "url": "https://abduzeedo.com/allo-super-significa-b2b-restaurant-platform-design",
+      "preview": "allO Super significa: B2B Restaurant Platform Design The allO Super significa project is a modular UI/UX design system that simplifies complex front-of-house restaurant operations."
+    }
+  },
+  {
+    "category": "AI EVAL",
+    "datetime": "2026-08-16T22:22:49.000Z",
+    "author": "DogeDesigner",
+    "handle": "cb_doge",
+    "avatar": "https://pbs.twimg.com/profile_images/1498070100393754625/C2V-fbll_200x200.jpg",
+    "title": "Grok 4.6 登顶 VISTA，Figma 转 Web App 成为 Agent 评测焦点",
+    "summary": "cb_doge 展示 Grok 4.6 在 VISTA benchmark 中拿到 Figma design to working web app 第一。它提示前端设计还原能力正成为 coding agent 的核心评价项，而不是只看算法题。",
+    "url": "https://x.com/cb_doge/status/2089115693770035704",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089115658000936960/vid/avc1/1080x1080/aighZiJGx17gvGuu.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089115658000936960/img/eykQzGsrO7hAHKH_.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "44 REPLIES · 57 REPOSTS · 254 LIKES · 7 BOOKMARKS · 22512 VIEWS",
+    "links": [],
+    "_analysisTheme": "VISTA / Figma to app",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-16T22:12:43.000Z",
+    "author": "Gauri Gupta",
+    "handle": "gauri__gupta",
+    "avatar": "https://pbs.twimg.com/profile_images/1613780147035045888/Wb7_dkZU_200x200.jpg",
+    "title": "DeepSeek Harness 被拆成模型、工具、记忆和 UI 可替换运行时",
+    "summary": "Gauri Gupta 把 DeepSeek Harness 理解为 model-harness co-design：模型、工具、上下文、压缩、沙箱、记忆和 UI 都可插件化。它适合建立 Agent 产品架构的可解释清单。",
+    "url": "https://x.com/gauri__gupta/status/2089113148209127775",
+    "media": [],
+    "metrics": "3 REPLIES · 1 REPOSTS · 28 LIKES · 29 BOOKMARKS · 3728 VIEWS",
+    "links": [],
+    "_analysisTheme": "DeepSeek Harness / 可替换架构",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2087887408440164663",
+      "TweetText": "🧩 DeepSeek Harness v0.1 is now available in Developer Preview!\n\n🔹 We’re opening it up to developers building agent harnesses worldwide and open-sourcing the codebase in MIT license.\n🔹 Powered by the Cordis meta-framework, DeepSeek Harness is an agent harness built around one core idea: Everything is a plugin. Models, tools, skills, sessions, sandboxes, filesystems, loops, orchestration, and UI are ALL implemented as plugins, and can be mixed, matched, replaced, and extended.\n\nTry it now!\nhttps://github.com/deepseek-ai/deepseek-harness",
+      "TweetCreatedDate": "2026-08-13T13:02:03.000Z",
+      "Tweet Url": "https://x.com/deepseek_ai/status/2087887408440164663",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/1717417613775757312/Uk1zNOj4_200x200.jpg",
+      "UserProfileName": "DeepSeek",
+      "UserScreenName": "deepseek_ai",
+      "MediaType": "text",
+      "MediaImageUrl": "",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [],
+      "_metrics": "756 REPLIES · 2397 REPOSTS · 19681 LIKES · 7875 BOOKMARKS · 4095682 VIEWS",
+      "_article": {
+        "kind": "external",
+        "title": "github.com",
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "preview": "🧩 DeepSeek Harness v0.1 is now available in Developer Preview! 🔹 We’re opening it up to developers building agent harnesses worldwide and open-sourcing the codebase in MIT licen…"
+      }
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-16T21:41:00.000Z",
+    "author": "Dash",
+    "handle": "DashHuang",
+    "avatar": "https://pbs.twimg.com/profile_images/1126525862537351169/xJVtWSnu_200x200.jpg",
+    "title": "Cindy 第三周复盘开始从功能更新转向稳定性和付费体验",
+    "summary": "Dash 复盘开源 AI Agent 客户端 Cindy 第三周：功能继续增加，但开始降低正式版节奏，分出测试版，并补新手与付费体验。它显示 vibe 出来的产品进入真实服务阶段后的治理问题。",
+    "url": "https://x.com/DashHuang/status/2089105166666731536",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP399LRa4AAODXF.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3-DCVbwAEB2CS.jpg?name=orig"
+      }
+    ],
+    "metrics": "4 REPLIES · 0 REPOSTS · 9 LIKES · 7 BOOKMARKS · 14339 VIEWS",
+    "links": [],
+    "_analysisTheme": "Cindy / Agent 客户端",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2081231348950315112",
+      "TweetText": "向大家介绍 Cindy，我们创作的一款开源 AI Agent 客户端。她有很多有趣的地方，未来几天我会花时间来和大家一一介绍。\n但今天最想说的，不是她有多强大——相反，她还有很多不完善的地方，等着我们持续去改进。Cindy 本身就是一款纯 Vibe 出来的作品，对我们来说就是一场面向 AI Native 开发的大型实验。经历了最近几周的开发实践，我们现在已经对如何让她变得更好充满信心。\nhttps://github.com/makecindy/cindy",
+      "TweetCreatedDate": "2026-07-26T04:13:15.000Z",
+      "Tweet Url": "https://x.com/DashHuang/status/2081231348950315112",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/1126525862537351169/xJVtWSnu_200x200.jpg",
+      "UserProfileName": "Dash",
+      "UserScreenName": "DashHuang",
+      "MediaType": "text",
+      "MediaImageUrl": "",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [],
+      "_metrics": "170 REPLIES · 65 REPOSTS · 560 LIKES · 664 BOOKMARKS · 549229 VIEWS",
+      "_article": {
+        "kind": "external",
+        "title": "github.com",
+        "url": "https://github.com/makecindy/cindy",
+        "preview": "向大家介绍 Cindy，我们创作的一款开源 AI Agent 客户端。她有很多有趣的地方，未来几天我会花时间来和大家一一介绍。 但今天最想说的，不是她有多强大——相反，她还有很多不完善的地方，等着我们持续去改进。Cindy 本身就是一款纯 Vibe 出来的作品，对我们来说就是一场面向 AI Native 开发的大型实验。经历了最近几周的开发实践，我们现在已…"
+      }
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-16T21:34:50.000Z",
+    "author": "Krista Letz",
+    "handle": "kristaletz",
+    "avatar": "https://pbs.twimg.com/profile_images/1972112012185591809/25FG-WcS_200x200.jpg",
+    "title": "Grok Bot for GTM 把增长流程拆成可迭代 Agent",
+    "summary": "Kristal 在 X Article 中分享如何用 Grok Bot 服务 SpaceXAI 的 GTM 工作流，从线索、内容到协作反复迭代。它有价值，因为 Agent 不再只是编码助手，而是被嵌入市场与运营的多步骤流程。",
+    "url": "https://x.com/kristaletz/status/2089103618121314689",
+    "media": [],
+    "metrics": "49 REPLIES · 44 REPOSTS · 836 LIKES · 1873 BOOKMARKS · 126700 VIEWS",
+    "links": [],
+    "_analysisTheme": "GTM Agent / 工作流复用",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "x-article",
+      "title": "Grok Bot for GTM",
+      "preview": "It's been really fun leveraging @bot for GTM! Have spent a few weeks iterating on some of my workflows, so I wanted to share how I use Grok Bot at SpaceXAI.",
+      "url": "https://x.com/i/article/2088834358597877760"
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-16T21:06:38.000Z",
+    "author": "NO1ennn",
+    "handle": "N01ennn",
+    "avatar": "https://pbs.twimg.com/profile_images/2042704855702147072/Scs1uqIO_200x200.jpg",
+    "title": "Semantica 用可追溯图谱解决 Agent 记忆黑箱",
+    "summary": "N01ennn 介绍 Semantica：用 graph-native layer、PROV-O、Datalog/SPARQL 和时间旅行快照记录 Agent 决策来源。它是把记忆从向量检索升级为审计证据链的信号。",
+    "url": "https://x.com/N01ennn/status/2089096520679448927",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089096415683244033/vid/avc1/1920x1080/4L7xXB2PgJEi3BCH.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089096415683244033/img/T5dUyZ9IHsL3vYiI.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "11 REPLIES · 2 REPOSTS · 35 LIKES · 29 BOOKMARKS · 968 VIEWS",
+    "links": [
+      "https://github.com/semantica-agi/semantica"
+    ],
+    "_analysisTheme": "Semantica / Agent memory provenance",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "github.com",
+      "url": "https://github.com/semantica-agi/semantica",
+      "preview": "THIS IS F*CKING INSANE. picture asking your AI agent why it made a call six months ago, and actually getting the full answer: the data it pulled, the policies that applied, and th…"
+    },
+    "quote": {
+      "TweetID": "2088585405641679281",
+      "TweetText": "https://x.com/i/article/2088584345149718528",
+      "TweetCreatedDate": "2026-08-15T11:15:39.000Z",
+      "Tweet Url": "https://x.com/N01ennn/status/2088585405641679281",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/2042704855702147072/Scs1uqIO_200x200.jpg",
+      "UserProfileName": "NO1ennn",
+      "UserScreenName": "N01ennn",
+      "MediaType": "text",
+      "MediaImageUrl": "",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [],
+      "_metrics": "12 REPLIES · 0 REPOSTS · 68 LIKES · 81 BOOKMARKS · 30769 VIEWS",
+      "_article": {
+        "kind": "x-article",
+        "title": "The Invisible Stack: What GitHub Is Hiding From Everyone Still Paying for SaaS",
+        "preview": "",
+        "url": "https://x.com/i/article/2088584345149718528"
+      }
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-16T21:03:38.000Z",
+    "author": "Nett0",
+    "handle": "nett0eth",
+    "avatar": "https://pbs.twimg.com/profile_images/2079685694536941568/Yc3ShFNe_200x200.jpg",
+    "title": "Figma Agent skills 列表把设计评审、间距、handoff 变成命令",
+    "summary": "nett0eth 汇总 10 个 Figma agent skills，覆盖 design review、spacing audit、component handoff、motion opportunity 和 UX writing。它是设计师把画布工作拆成可调用能力的清单。",
+    "url": "https://x.com/nett0eth/status/2089095764387524798",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089095721945366529/vid/avc1/1440x1080/nFhZ75BcvH14hTbq.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089095721945366529/img/UR1T3DscCQwSEHRZ.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089095721945358337/vid/avc1/1440x1080/KkSxtCO3yulKZNbC.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089095721945358337/img/CWNlnOhtGpNJVsym.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089095721962110976/vid/avc1/1440x1080/ndzc487CaoVCCyb8.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089095721962110976/img/A4z_jmWjY-XB5Z-F.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089095721945321474/vid/avc1/1440x1080/dftOItE6Zi-IEXHb.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089095721945321474/img/krNR04ncWpD5FBkH.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 3 REPOSTS · 24 LIKES · 24 BOOKMARKS · 1010 VIEWS",
+    "links": [
+      "http://figma.com/pt-br/comunidade/skill/61238/better-interface",
+      "http://figma.com/community/skill/65434/superfuture-design-review",
+      "http://figma.com/community/skill/61009/analyze-components",
+      "http://figma.com/community/skill/70410/spacing-audit",
+      "http://figma.com/community/skill/67998/component-handoff",
+      "http://figma.com/community/skill/72495/desktop-to-mobile",
+      "http://figma.com/community/skill/71321/create-anatomy",
+      "http://figma.com/community/skill/68151/find-animation-opportunities",
+      "http://figma.com/community/skill/64048/balise-ux-writing",
+      "http://figma.com/community/skill/65614/design-system-gen"
+    ],
+    "_analysisTheme": "Figma agent skills",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "figma.com",
+      "url": "http://figma.com/pt-br/comunidade/skill/61238/better-interface",
+      "preview": "As 10 melhores agent skills do Figma, uma pra cada parte chata do trabalho. Review, spacing, handoff, anatomia, motion e UX writing, com link de cada uma, salva: 1. better-interfa…"
+    }
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-16T20:39:40.000Z",
+    "author": "Shann³",
+    "handle": "shannholmberg",
+    "avatar": "https://pbs.twimg.com/profile_images/2018272759122440192/JJPUdPDs_200x200.jpg",
+    "title": "wayfinder 把营销战役拆成 goal、tickets 和 frontier",
+    "summary": "Shannon 用 /wayfinder skill 示范营销 campaign map：用 goal、tickets、fog of war、frontier 管理未决问题。它把工程里的可恢复规划方法迁移到产品营销，适合拆 Launch 工作流。",
+    "url": "https://x.com/shannholmberg/status/2089089731980406984",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3wCKSbgAAZM44.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3wCdqaMAAe_IA.jpg?name=orig"
+      }
+    ],
+    "metrics": "6 REPLIES · 7 REPOSTS · 180 LIKES · 281 BOOKMARKS · 13703 VIEWS",
+    "links": [],
+    "_analysisTheme": "wayfinder / Campaign planning",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2087539757052285200",
+      "TweetText": "how to plan a full marketing campaign with @mattpocockuk's wayfinder skill\n\nwayfinder is a claude code skill (or other harnesses, codex..) for planning work too big for 1 session. matt built it for engineering, and it fits campaign planning just as well\n\nthe idea: on a big campaign you know the end goal, and every decision between now and launch is still open. you know \"product launch live in march\", without yet knowing the offer, the channels, the creative direction, or what depends on what\n\nwayfinder charts that as a map. the map is 1 issue on your tracker (github issues, linear, or a markdown file), and every open question on the campaign becomes a decision ticket, a sub issue holding 1 question to decide\n\nthe 4 ticket types in campaign terms:\n\n> grilling: the agent interviews you until a decision is made. the positioning, the offer, who this campaign is for\n> prototype: something to react to. 3 creative directions, a landing page mock, a draft email\n> research: an agent goes reading on its own. competitor campaigns, channel benchmarks\n> task: work that unblocks a decision. set up the ad account, get analytics access\n\nthen come the 2 parts I like most\n\nfog of war: the decisions you can see coming but can't put into a question yet. you know an email sequence is coming, but you can't decide it until the offer is locked, so it waits on the map as fog, a marked spot with no ticket written yet\n\nthe frontier: tickets you can take right now, with nothing blocking them. tickets block each other the way campaign decisions block each other, the offer blocks the emails and the audience decision blocks the creative, so your tracker shows you which decisions you can make today\n\nyou answer 1 ticket per session, the answer gets written on the ticket, and a decision list on the map grows a line at a time. by the time the map is clear, that list is your campaign brief, and the reasoning behind every choice sits one click away on its ticket\n\none warning from running it: scope the map to a single campaign. a whole-strategy map goes stale, because the decisions at the end rest on assumptions the early ones change.\n\nmatt's own phrase for the fix is \"prototypemaxxing, not planmaxxing\", decide by reacting to cheap drafts",
+      "TweetCreatedDate": "2026-08-12T14:00:37.000Z",
+      "Tweet Url": "https://x.com/shannholmberg/status/2087539757052285200",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/2018272759122440192/JJPUdPDs_200x200.jpg",
+      "UserProfileName": "Shann³",
+      "UserScreenName": "shannholmberg",
+      "MediaType": "photo",
+      "MediaImageUrl": "https://pbs.twimg.com/media/HPhuV-waoAAJ26-.jpg?name=orig",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPhuV-waoAAJ26-.jpg?name=orig"
+        }
+      ],
+      "_metrics": "21 REPLIES · 31 REPOSTS · 564 LIKES · 836 BOOKMARKS · 44639 VIEWS",
+      "_article": null
+    }
+  },
+  {
+    "category": "AI CODING",
+    "datetime": "2026-08-16T20:12:29.000Z",
+    "author": "Tibo",
+    "handle": "thsottiaux",
+    "avatar": "https://pbs.twimg.com/profile_images/2075819673263001600/pj1vyX6I_200x200.jpg",
+    "title": "Codex 1M context 配置把长项目历史留在会话里",
+    "summary": "Tibo 公开 Codex 使用 GPT-5.6 Sol 的 1M token context 配置，并解释自动压缩阈值。对设计工程师来说，这是大型代码库、长设计系统迁移和多轮验证任务的上下文管理样本。",
+    "url": "https://x.com/thsottiaux/status/2089082893804896524",
+    "media": [],
+    "metrics": "728 REPLIES · 687 REPOSTS · 9114 LIKES · 7862 BOOKMARKS · 992173 VIEWS",
+    "links": [],
+    "_analysisTheme": "Codex / 长上下文配置",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI RESEARCH",
+    "datetime": "2026-08-16T19:49:17.000Z",
+    "author": "Han Fang",
+    "handle": "Han_Fang_",
+    "avatar": "https://pbs.twimg.com/profile_images/2034851084595077120/4n5s4tNe_200x200.jpg",
+    "title": "Faraday 把 Codex 当作工具训练小模型做研究判断",
+    "summary": "Han Fang 分享 Faraday 论文：27B 模型学习复现实验、选择证据和调用 Codex，而不是把最大模型放在中心。它适合思考企业 Agent 中“会判断的小模型 + 强执行工具”的架构。",
+    "url": "https://x.com/Han_Fang_/status/2089077053932884126",
+    "media": [],
+    "metrics": "3 REPLIES · 0 REPOSTS · 26 LIKES · 30 BOOKMARKS · 3621 VIEWS",
+    "links": [],
+    "_analysisTheme": "Faraday / AI Scientist",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2088290794092298655",
+      "TweetText": "1/ Today, we introduce Faraday, a 27B-parameter AI Scientist that extends the capabilities of coding agents with a layer of scientific intuition. Trained via long-horizon RL, Faraday outperforms Claude Opus 4.8 and GPT-5.5 on the task of replicating research papers. 🧵",
+      "TweetCreatedDate": "2026-08-14T15:44:58.000Z",
+      "Tweet Url": "https://x.com/inherent_labs/status/2088290794092298655",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/2060060737955934213/FVZ3C15f_200x200.jpg",
+      "UserProfileName": "Inherent",
+      "UserScreenName": "inherent_labs",
+      "MediaType": "photo",
+      "MediaImageUrl": "https://pbs.twimg.com/media/HPsVL-uWkAAZN7M.jpg?name=orig",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPsVL-uWkAAZN7M.jpg?name=orig"
+        }
+      ],
+      "_metrics": "70 REPLIES · 218 REPOSTS · 1683 LIKES · 1173 BOOKMARKS · 313779 VIEWS",
+      "_article": null
+    }
+  },
+  {
+    "category": "AI CODING",
+    "datetime": "2026-08-16T19:32:44.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "ChatGPT 直接读 GitHub 仓库并提交 PR 的用户链路出现",
+    "summary": "宝玉记录 ChatGPT Pro 连接 GitHub 后，能从 Deep Research 方案进入代码实现并提交 PR。它对设计工程师的启发是：研究、方案、实现、权限确认已经开始合成一个产品链路。",
+    "url": "https://x.com/dotey/status/2089072890104725788",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3f0zPXUAA_XM5.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3f_SRXYAAAfI9.jpg?name=orig"
+      }
+    ],
+    "metrics": "21 REPLIES · 3 REPOSTS · 34 LIKES · 22 BOOKMARKS · 15101 VIEWS",
+    "links": [],
+    "_analysisTheme": "ChatGPT / GitHub PR",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-16T19:13:02.000Z",
+    "author": "Dexter Yang ᯅノ🌐🔗🧙🏻‍♂️👾🦋",
+    "handle": "dexteryy",
+    "avatar": "https://pbs.twimg.com/profile_images/1913241418526765056/5Jyy53Fr_200x200.jpg",
+    "title": "Cloudflare 被重新定义为 Agentic Web 的前端云",
+    "summary": "Dexter Yang 将 Cloudflare 描述为“前端云 / 前端 PaaS”，把 SSR、Server Component、Worker runtime 与 Agentic Web 联系起来。它对设计工程师理解 Web runtime 和 Agent 产品形态很有帮助。",
+    "url": "https://x.com/dexteryy/status/2089067929811992762",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3cM42boAAD0km.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3cM48a0AAttL9.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3cM43bQAAYawC.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3cM43awAAiU51.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 16 LIKES · 19 BOOKMARKS · 3275 VIEWS",
+    "links": [],
+    "_analysisTheme": "Frontend cloud / Agentic Web",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2085767151596773501",
+      "TweetText": "",
+      "TweetCreatedDate": "2026-08-07T16:36:55.000Z",
+      "Tweet Url": "https://x.com/dexteryy/status/2085767151596773501",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/1913241418526765056/5Jyy53Fr_200x200.jpg",
+      "UserProfileName": "Dexter Yang ᯅノ🌐🔗🧙🏻‍♂️👾🦋",
+      "UserScreenName": "dexteryy",
+      "MediaType": "text",
+      "MediaImageUrl": "",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [],
+      "_metrics": "1 REPLIES · 0 REPOSTS · 23 LIKES · 15 BOOKMARKS · 8064 VIEWS",
+      "_article": {
+        "kind": "x-article",
+        "title": "“互联网本身就是计算机”：前Agentic Web时代的Cloudflare革命三部曲",
+        "preview": "",
+        "url": ""
+      }
+    }
+  },
+  {
     "category": "AI AGENT",
     "datetime": "2026-08-16T06:57:44.000Z",
     "author": "向阳乔木",
@@ -57,23 +703,6 @@
     }
   },
   {
-    "category": "DESIGN ENGINEERING",
-    "datetime": "2026-08-16T05:52:12.000Z",
-    "author": "Ce Gao",
-    "handle": "gaocegege",
-    "avatar": "https://pbs.twimg.com/profile_images/750222290780983297/ij6IW73y_200x200.jpg",
-    "title": "Today AI 开发经验强调业务交付后的渐进重构",
-    "summary": "Ce Gao 从 AI infra 转到 ToC 应用开发后，复盘流式数据架构问题很容易被业务交付挤掉，认为 Codex 式维护 Agent + 固定重构时间更适合 vibe coding 时代。适合设计工程师理解“先交付再持续整理”的工作节奏。",
-    "url": "https://x.com/gaocegege/status/2088866394268155939",
-    "media": [],
-    "metrics": "1 REPLIES · 1 REPOSTS · 13 LIKES · 1 BOOKMARKS · 914 VIEWS",
-    "links": [
-      "http://today.ai"
-    ],
-    "_analysisTheme": "Vibe coding / 渐进重构",
-    "_analysisPriority": "high"
-  },
-  {
     "category": "AI AGENT",
     "datetime": "2026-08-16T06:36:28.000Z",
     "author": "宝玉",
@@ -118,28 +747,45 @@
     }
   },
   {
-    "category": "DESIGN TOOL",
-    "datetime": "2026-08-15T23:27:01.000Z",
-    "author": "Daniel White",
-    "handle": "dwhitedesign",
-    "avatar": "https://pbs.twimg.com/profile_images/2057915040057982976/gSIeaZnQ_200x200.jpg",
-    "title": "Drawably 用 4KB 手绘控件把 UI 状态变成风格资产",
-    "summary": "Daniel White 发布 Drawably，控件每次 mount 都生成新的手绘笔触，且支持按钮、输入、状态和 React 接入。它是轻量视觉系统如何从小库切入产品个性的好样本。",
-    "url": "https://x.com/dwhitedesign/status/2088769460043747432",
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-16T05:52:12.000Z",
+    "author": "Ce Gao",
+    "handle": "gaocegege",
+    "avatar": "https://pbs.twimg.com/profile_images/750222290780983297/ij6IW73y_200x200.jpg",
+    "title": "Today AI 开发经验强调业务交付后的渐进重构",
+    "summary": "Ce Gao 从 AI infra 转到 ToC 应用开发后，复盘流式数据架构问题很容易被业务交付挤掉，认为 Codex 式维护 Agent + 固定重构时间更适合 vibe coding 时代。适合设计工程师理解“先交付再持续整理”的工作节奏。",
+    "url": "https://x.com/gaocegege/status/2088866394268155939",
+    "media": [],
+    "metrics": "1 REPLIES · 1 REPOSTS · 13 LIKES · 1 BOOKMARKS · 914 VIEWS",
+    "links": [
+      "http://today.ai"
+    ],
+    "_analysisTheme": "Vibe coding / 渐进重构",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-16T04:11:39.000Z",
+    "author": "joshpuckett",
+    "handle": "joshpuckett",
+    "avatar": "https://pbs.twimg.com/profile_images/1270368527690522626/-3QQH-bB_200x200.jpg",
+    "title": "HyperCard 工具栏字形揭示早期 UI 资产复用方式",
+    "summary": "Josh Puckett 在 HyperCard 1.0.1 镜像中发现私有 FONT 文件，里面包含工具面板 glyph。这个历史细节能帮助理解早期 GUI 如何用字体技术管理图标、工具和界面一致性。",
+    "url": "https://x.com/joshpuckett/status/2088841090220830935",
     "media": [
       {
         "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2088769042563715072/vid/avc1/640x360/zLU0vWrwgRrFw0tV.mp4?tag=29",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088769042563715072/img/e1gSlHxOtSnXBxXj.jpg",
+        "src": "https://video.twimg.com/amplify_video/2088834228956086272/vid/avc1/474x360/LK10ohy690XJNtWo.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088834228956086272/img/9FWmK34HKXDdq5Ui.jpg",
         "crossOrigin": false
       }
     ],
-    "metrics": "3 REPLIES · 1 REPOSTS · 34 LIKES · 16 BOOKMARKS · 1485 VIEWS",
+    "metrics": "3 REPLIES · 7 REPOSTS · 101 LIKES · 53 BOOKMARKS · 3774 VIEWS",
     "links": [
-      "https://drawably-site.pages.dev/"
+      "https://joshpuckett.me/font-31756"
     ],
-    "_analysisTheme": "手绘 UI / 微型组件库",
-    "_analysisPriority": "high"
+    "_analysisTheme": "界面史 / 图标系统",
+    "_analysisPriority": "medium"
   },
   {
     "category": "AI WORKFLOW",
@@ -207,52 +853,6 @@
   },
   {
     "category": "PRODUCT DESIGN",
-    "datetime": "2026-08-16T04:11:39.000Z",
-    "author": "joshpuckett",
-    "handle": "joshpuckett",
-    "avatar": "https://pbs.twimg.com/profile_images/1270368527690522626/-3QQH-bB_200x200.jpg",
-    "title": "HyperCard 工具栏字形揭示早期 UI 资产复用方式",
-    "summary": "Josh Puckett 在 HyperCard 1.0.1 镜像中发现私有 FONT 文件，里面包含工具面板 glyph。这个历史细节能帮助理解早期 GUI 如何用字体技术管理图标、工具和界面一致性。",
-    "url": "https://x.com/joshpuckett/status/2088841090220830935",
-    "media": [
-      {
-        "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2088834228956086272/vid/avc1/474x360/LK10ohy690XJNtWo.mp4?tag=29",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088834228956086272/img/9FWmK34HKXDdq5Ui.jpg",
-        "crossOrigin": false
-      }
-    ],
-    "metrics": "3 REPLIES · 7 REPOSTS · 101 LIKES · 53 BOOKMARKS · 3774 VIEWS",
-    "links": [
-      "https://joshpuckett.me/font-31756"
-    ],
-    "_analysisTheme": "界面史 / 图标系统",
-    "_analysisPriority": "medium"
-  },
-  {
-    "category": "DESIGN ENGINEERING",
-    "datetime": "2026-08-16T01:33:43.000Z",
-    "author": "低空飞行",
-    "handle": "localhost_4173",
-    "avatar": "https://pbs.twimg.com/profile_images/2046898583031664640/tyEq8TiB_200x200.jpg",
-    "title": "Waku 0.1 把性能优化落到 markdown 渲染 UI",
-    "summary": "低空飞行提到 Waku 0.1 发布后明显降低 CPU 占用，并优化 markdown 渲染 UI。对前端工具来说，这是性能、编辑内容和阅读体验一起交付的版本信号。",
-    "url": "https://x.com/localhost_4173/status/2088801344941592880",
-    "media": [
-      {
-        "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2088800064051564544/vid/avc1/492x360/avUWpJRBwbl4bLHn.mp4?tag=29",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088800064051564544/img/mhFC-Bmg3WtZm55U.jpg",
-        "crossOrigin": false
-      }
-    ],
-    "metrics": "11 REPLIES · 2 REPOSTS · 46 LIKES · 15 BOOKMARKS · 7570 VIEWS",
-    "links": [],
-    "_analysisTheme": "前端框架 / Markdown UI",
-    "_analysisPriority": "medium"
-  },
-  {
-    "category": "PRODUCT DESIGN",
     "datetime": "2026-08-16T03:39:01.000Z",
     "author": "Gaurang",
     "handle": "GaurangAlat",
@@ -284,88 +884,26 @@
     "_analysisPriority": "medium"
   },
   {
-    "category": "AI RESEARCH",
-    "datetime": "2026-08-15T19:30:06.000Z",
-    "author": "Tianqi Chen",
-    "handle": "tqchenml",
-    "avatar": "https://pbs.twimg.com/profile_images/1126306484885774336/Wimu_mzv_200x200.png",
-    "title": "CAKE 把编译器也纳入 Agent 可共同进化的设计对象",
-    "summary": "Tianqi Chen 转发 CAKE 论文，强调 compiler-agent codesign 会成为 ML 编译和 kernel agents 的下一前沿。引用帖解释 CAKE IR 让失败模式进入 verifier、IR primitive 和 reusable tactic。",
-    "url": "https://x.com/tqchenml/status/2088709836896948676",
-    "media": [],
-    "metrics": "2 REPLIES · 13 REPOSTS · 105 LIKES · 38 BOOKMARKS · 11583 VIEWS",
-    "links": [],
-    "_analysisTheme": "AI Research / Compiler-Agent Co-design",
-    "_analysisPriority": "high",
-    "quote": {
-      "TweetID": "2088169906915393782",
-      "TweetText": "🍰 CAKE paper's out, the design bet: the compiler isn't a fixed black box the agent calls — it's part of the harness, and it's under evolution too.\n\nCAKE didn't inherit existing abstraction layer. no tile/layout abstractions: the vocabulary was distilled by agents from a corpus of production kernels. every pattern the agent couldn't express pushed new primitives into the IR, and the analyses to keep them checkable. every barrier/layout bug that kept coming back became a verifier rule.\n\nnone of this can be designed up front. the IR has to co-evolve with the kernels, and the workload tells you what's missing, the corpus tells you if the fix broke anything.\n\nthe best language for an agent is the one that tells you what's illegal, what's slow, and which decision might made it faster.\n\nhttp://arxiv.org/abs/2608.12629",
-      "TweetCreatedDate": "2026-08-14T07:44:36.000Z",
-      "Tweet Url": "https://x.com/ye_combinator/status/2088169906915393782",
-      "UserProfilePic": "https://pbs.twimg.com/profile_images/1234095226945294342/5E-qRWbB_200x200.jpg",
-      "UserProfileName": "Zihao Ye",
-      "UserScreenName": "ye_combinator",
-      "MediaType": "text",
-      "MediaImageUrl": "",
-      "MediaVideoUrl": "",
-      "Summary": "",
-      "Translation": "",
-      "_media": [],
-      "_metrics": "11 REPLIES · 71 REPOSTS · 272 LIKES · 207 BOOKMARKS · 85463 VIEWS",
-      "_article": {
-        "kind": "external",
-        "title": "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution",
-        "preview": "GPU kernel agents and GPU programming languages have advanced separately, leaving expert kernels difficult to reproduce. Agents usually treat the compiler as a fixed black box and receive only...",
-        "url": "http://arxiv.org/abs/2608.12629"
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-16T01:33:43.000Z",
+    "author": "低空飞行",
+    "handle": "localhost_4173",
+    "avatar": "https://pbs.twimg.com/profile_images/2046898583031664640/tyEq8TiB_200x200.jpg",
+    "title": "Waku 0.1 把性能优化落到 markdown 渲染 UI",
+    "summary": "低空飞行提到 Waku 0.1 发布后明显降低 CPU 占用，并优化 markdown 渲染 UI。对前端工具来说，这是性能、编辑内容和阅读体验一起交付的版本信号。",
+    "url": "https://x.com/localhost_4173/status/2088801344941592880",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088800064051564544/vid/avc1/492x360/avUWpJRBwbl4bLHn.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088800064051564544/img/mhFC-Bmg3WtZm55U.jpg",
+        "crossOrigin": false
       }
-    }
-  },
-  {
-    "category": "WEBGL DESIGN",
-    "datetime": "2026-08-15T20:51:54.000Z",
-    "author": "zihan",
-    "handle": "z1hanAI",
-    "avatar": "https://pbs.twimg.com/profile_images/2047483059151249408/MTrj8biL_200x200.jpg",
-    "title": "Codrops 拆解 HAOQI.DESIGN 的 DOM 与 WebGL 同帧系统",
-    "summary": "zihan 转发 Codrops 的 HAOQI.DESIGN 技术拆解，文章覆盖 scroll sync、glass shader、DOM/CSS/WebGL 协作和性能意识。它是设计工程师学习作品集级 WebGL 叙事的高密度案例。",
-    "url": "https://x.com/z1hanAI/status/2088730422083793144",
-    "media": [],
-    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 128 VIEWS",
-    "links": [
-      "https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/"
     ],
-    "_analysisTheme": "WebGL / Portfolio case study",
-    "_analysisPriority": "high",
-    "quote": {
-      "TweetID": "2088623450910781941",
-      "TweetText": "A childhood fascination with the iMac G3 became one of the sparks behind @wenhaoqi's portfolio.\n\nHaoqi takes us into the technical thinking behind the work, from synchronizing DOM and WebGL to building custom shaders, refraction, pointer interactions, and performance conscious effects.\n\nA fantastic weekend read: https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/",
-      "TweetCreatedDate": "2026-08-15T13:46:50.000Z",
-      "Tweet Url": "https://x.com/codrops/status/2088623450910781941",
-      "UserProfilePic": "https://pbs.twimg.com/profile_images/1784963500122550272/3kwa1gN5_200x200.jpg",
-      "UserProfileName": "Codrops",
-      "UserScreenName": "codrops",
-      "MediaType": "video",
-      "MediaImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2088623426298593280/pu/img/QPxiUZLil0wK6JNE.jpg",
-      "MediaVideoUrl": "https://video.twimg.com/ext_tw_video/2088623426298593280/pu/vid/avc1/486x360/gX8rHHFccwQ0q_Id.mp4?tag=12",
-      "Summary": "",
-      "Translation": "",
-      "_media": [
-        {
-          "type": "video",
-          "src": "https://video.twimg.com/ext_tw_video/2088623426298593280/pu/vid/avc1/486x360/gX8rHHFccwQ0q_Id.mp4?tag=12",
-          "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2088623426298593280/pu/img/QPxiUZLil0wK6JNE.jpg",
-          "crossOrigin": false
-        }
-      ],
-      "_metrics": "0 REPLIES · 1 REPOSTS · 40 LIKES · 24 BOOKMARKS · 4790 VIEWS",
-      "_article": null
-    },
-    "article": {
-      "kind": "external",
-      "title": "Inside HAOQI.DESIGN: Letting DOM and WebGL Share a Retro-Futurist Stage | Codrops",
-      "preview": "A technical look at the making of HAOQI.DESIGN, exploring scroll sync, glass shaders, and the interplay of DOM, CSS, and WebGL in a retro-futurist portfolio.",
-      "url": "https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/"
-    }
+    "metrics": "11 REPLIES · 2 REPOSTS · 46 LIKES · 15 BOOKMARKS · 7570 VIEWS",
+    "links": [],
+    "_analysisTheme": "前端框架 / Markdown UI",
+    "_analysisPriority": "medium"
   },
   {
     "category": "VISUAL DESIGN",
@@ -390,6 +928,30 @@
     "links": [],
     "_analysisTheme": "插画风格 / Anthropic",
     "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-15T23:27:01.000Z",
+    "author": "Daniel White",
+    "handle": "dwhitedesign",
+    "avatar": "https://pbs.twimg.com/profile_images/2057915040057982976/gSIeaZnQ_200x200.jpg",
+    "title": "Drawably 用 4KB 手绘控件把 UI 状态变成风格资产",
+    "summary": "Daniel White 发布 Drawably，控件每次 mount 都生成新的手绘笔触，且支持按钮、输入、状态和 React 接入。它是轻量视觉系统如何从小库切入产品个性的好样本。",
+    "url": "https://x.com/dwhitedesign/status/2088769460043747432",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088769042563715072/vid/avc1/640x360/zLU0vWrwgRrFw0tV.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088769042563715072/img/e1gSlHxOtSnXBxXj.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 1 REPOSTS · 34 LIKES · 16 BOOKMARKS · 1485 VIEWS",
+    "links": [
+      "https://drawably-site.pages.dev/"
+    ],
+    "_analysisTheme": "手绘 UI / 微型组件库",
+    "_analysisPriority": "high"
   },
   {
     "category": "PRODUCT DESIGN",
@@ -558,6 +1120,53 @@
     "_analysisPriority": "high"
   },
   {
+    "category": "WEBGL DESIGN",
+    "datetime": "2026-08-15T20:51:54.000Z",
+    "author": "zihan",
+    "handle": "z1hanAI",
+    "avatar": "https://pbs.twimg.com/profile_images/2047483059151249408/MTrj8biL_200x200.jpg",
+    "title": "Codrops 拆解 HAOQI.DESIGN 的 DOM 与 WebGL 同帧系统",
+    "summary": "zihan 转发 Codrops 的 HAOQI.DESIGN 技术拆解，文章覆盖 scroll sync、glass shader、DOM/CSS/WebGL 协作和性能意识。它是设计工程师学习作品集级 WebGL 叙事的高密度案例。",
+    "url": "https://x.com/z1hanAI/status/2088730422083793144",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 128 VIEWS",
+    "links": [
+      "https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/"
+    ],
+    "_analysisTheme": "WebGL / Portfolio case study",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2088623450910781941",
+      "TweetText": "A childhood fascination with the iMac G3 became one of the sparks behind @wenhaoqi's portfolio.\n\nHaoqi takes us into the technical thinking behind the work, from synchronizing DOM and WebGL to building custom shaders, refraction, pointer interactions, and performance conscious effects.\n\nA fantastic weekend read: https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/",
+      "TweetCreatedDate": "2026-08-15T13:46:50.000Z",
+      "Tweet Url": "https://x.com/codrops/status/2088623450910781941",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/1784963500122550272/3kwa1gN5_200x200.jpg",
+      "UserProfileName": "Codrops",
+      "UserScreenName": "codrops",
+      "MediaType": "video",
+      "MediaImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2088623426298593280/pu/img/QPxiUZLil0wK6JNE.jpg",
+      "MediaVideoUrl": "https://video.twimg.com/ext_tw_video/2088623426298593280/pu/vid/avc1/486x360/gX8rHHFccwQ0q_Id.mp4?tag=12",
+      "Summary": "",
+      "Translation": "",
+      "_media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/ext_tw_video/2088623426298593280/pu/vid/avc1/486x360/gX8rHHFccwQ0q_Id.mp4?tag=12",
+          "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2088623426298593280/pu/img/QPxiUZLil0wK6JNE.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "_metrics": "0 REPLIES · 1 REPOSTS · 40 LIKES · 24 BOOKMARKS · 4790 VIEWS",
+      "_article": null
+    },
+    "article": {
+      "kind": "external",
+      "title": "Inside HAOQI.DESIGN: Letting DOM and WebGL Share a Retro-Futurist Stage | Codrops",
+      "preview": "A technical look at the making of HAOQI.DESIGN, exploring scroll sync, glass shaders, and the interplay of DOM, CSS, and WebGL in a retro-futurist portfolio.",
+      "url": "https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/"
+    }
+  },
+  {
     "category": "AI AGENT",
     "datetime": "2026-08-15T20:31:00.000Z",
     "author": "Tibo",
@@ -630,6 +1239,43 @@
     ],
     "_analysisTheme": "独立 App / 编辑器",
     "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI RESEARCH",
+    "datetime": "2026-08-15T19:30:06.000Z",
+    "author": "Tianqi Chen",
+    "handle": "tqchenml",
+    "avatar": "https://pbs.twimg.com/profile_images/1126306484885774336/Wimu_mzv_200x200.png",
+    "title": "CAKE 把编译器也纳入 Agent 可共同进化的设计对象",
+    "summary": "Tianqi Chen 转发 CAKE 论文，强调 compiler-agent codesign 会成为 ML 编译和 kernel agents 的下一前沿。引用帖解释 CAKE IR 让失败模式进入 verifier、IR primitive 和 reusable tactic。",
+    "url": "https://x.com/tqchenml/status/2088709836896948676",
+    "media": [],
+    "metrics": "2 REPLIES · 13 REPOSTS · 105 LIKES · 38 BOOKMARKS · 11583 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Research / Compiler-Agent Co-design",
+    "_analysisPriority": "high",
+    "quote": {
+      "TweetID": "2088169906915393782",
+      "TweetText": "🍰 CAKE paper's out, the design bet: the compiler isn't a fixed black box the agent calls — it's part of the harness, and it's under evolution too.\n\nCAKE didn't inherit existing abstraction layer. no tile/layout abstractions: the vocabulary was distilled by agents from a corpus of production kernels. every pattern the agent couldn't express pushed new primitives into the IR, and the analyses to keep them checkable. every barrier/layout bug that kept coming back became a verifier rule.\n\nnone of this can be designed up front. the IR has to co-evolve with the kernels, and the workload tells you what's missing, the corpus tells you if the fix broke anything.\n\nthe best language for an agent is the one that tells you what's illegal, what's slow, and which decision might made it faster.\n\nhttp://arxiv.org/abs/2608.12629",
+      "TweetCreatedDate": "2026-08-14T07:44:36.000Z",
+      "Tweet Url": "https://x.com/ye_combinator/status/2088169906915393782",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/1234095226945294342/5E-qRWbB_200x200.jpg",
+      "UserProfileName": "Zihao Ye",
+      "UserScreenName": "ye_combinator",
+      "MediaType": "text",
+      "MediaImageUrl": "",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [],
+      "_metrics": "11 REPLIES · 71 REPOSTS · 272 LIKES · 207 BOOKMARKS · 85463 VIEWS",
+      "_article": {
+        "kind": "external",
+        "title": "CAKE: Compiler-Agent Co-Design for Frontier Kernel Evolution",
+        "preview": "GPU kernel agents and GPU programming languages have advanced separately, leaving expert kernels difficult to reproduce. Agents usually treat the compiler as a fixed black box and receive only...",
+        "url": "http://arxiv.org/abs/2608.12629"
+      }
+    }
   },
   {
     "category": "AI PRODUCT",

@@ -1,6 +1,436 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-15T19:14:11+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-17T09:47:25+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2088996874460303447",
+    "TwitterUserID": "1664115584236425220",
+    "UserScreenName": "VibeEverything",
+    "UserProfileName": "LOOPY",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2053897145498161152/21sjtifJ_200x200.jpg",
+    "TweetText": "UI 컴포넌트·템플릿·테마 라이브러리 웹사이트\n\n12,000개가 넘는 UI 리소스가 올라와 있음\n\n각 요소마다 'Copy prompt' 버튼이 있어서\nClaude Code나 Cursor에 붙여넣기만 하면\n프로젝트에 바로 적용할 수 있어서 좋음",
+    "Tweet Url": "https://x.com/VibeEverything/status/2088996874460303447",
+    "TweetCreatedDate": "2026-08-16T14:30:41.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088996133804834816/img/JUzgjbwV1XfqTkue.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088996133804834816/vid/avc1/1920x1080/8WM2YEKe9OCFC6ww.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088996133804834816/vid/avc1/1920x1080/8WM2YEKe9OCFC6ww.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088996133804834816/img/JUzgjbwV1XfqTkue.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "17 REPLIES · 51 REPOSTS · 296 LIKES · 342 BOOKMARKS · 13078 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-17T09:47:25+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-16T14:30:41.000Z"
+    }
+  },
+  {
+    "TweetID": "2088987487989329947",
+    "TwitterUserID": "1675456073375920129",
+    "UserScreenName": "noahelhadedy",
+    "UserProfileName": "𝐍𝐨𝐚𝐡",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2056319844094492672/8vkVV6Vj_200x200.jpg",
+    "TweetText": "Playing around with some micro interactions ⛹️‍♂️",
+    "Tweet Url": "https://x.com/noahelhadedy/status/2088987487989329947",
+    "TweetCreatedDate": "2026-08-16T13:53:23.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088876888928264192/img/jkCETNbuVfSSlN-p.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088876888928264192/vid/avc1/1000x1000/bg0-z2rfIjpTv3kp.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088876888928264192/vid/avc1/1000x1000/bg0-z2rfIjpTv3kp.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088876888928264192/img/jkCETNbuVfSSlN-p.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "2 REPLIES · 1 REPOSTS · 47 LIKES · 14 BOOKMARKS · 1096 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-17T09:47:25+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-16T13:53:23.000Z"
+    }
+  },
+  {
+    "TweetID": "2088750386605916429",
+    "TwitterUserID": "1553043003496960000",
+    "UserScreenName": "doganuraldesign",
+    "UserProfileName": "Dogan Ural",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1840794096291442688/JrhE7vnL_200x200.jpg",
+    "TweetText": "3D Neon Logo Signs with Imagine 2.0\n\nUpload your logo and use this prompt:\n\nTransform the uploaded logo into a highly stylized premium 3D neon sign. Keep the logo immediately recognizable through its core silhouette and iconic structure, but dramatically transform it into a physical illuminated signage object. The logo itself is constructed from thick glowing neon tubes following the logo geometry, with substantial dimensional depth, carefully bent tubing, rounded joints, realistic tube thickness and professional sign construction. The original flat logo should completely disappear as a flat graphic and become a real physical neon installation while remaining clearly recognizable as the original logo. Intense colored light emitted from inside the tubes, realistic neon glow, bright cores, soft atmospheric bloom, subtle reflections and luminous spill around the geometry. Dark professional sign-making details, small mounting elements and realistic electrical construction. Preserve the original logo colors through the neon illumination. Striking, cinematic, iconic and premium. Dramatic studio lighting, controlled highlights, subtle ambient occlusion, centered composition, isolated single logo, solid pure black background, premium commercial signage aesthetic, ultra high resolution.",
+    "Tweet Url": "https://x.com/doganuraldesign/status/2088750386605916429",
+    "TweetCreatedDate": "2026-08-15T22:11:13.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088750138382553088/img/sQQxdRN1y8797dKC.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088750138382553088/vid/avc1/1440x1920/OTl3-h-uVPMgKe_i.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088750138382553088/vid/avc1/1440x1920/OTl3-h-uVPMgKe_i.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088750138382553088/img/sQQxdRN1y8797dKC.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPy7NqJWoAAQrrt.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPy7O5eXYAAc6Iu.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPy7QAIWoAASpd_.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "33 REPLIES · 40 REPOSTS · 565 LIKES · 532 BOOKMARKS · 45248 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-17T09:47:25+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-15T22:11:13.000Z"
+    }
+  },
+  {
+    "TweetID": "2088707056396079514",
+    "TwitterUserID": "1386866076030488582",
+    "UserScreenName": "zellzoi",
+    "UserProfileName": "zellzoi",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2016503520166371328/7aPoJK2O_200x200.jpg",
+    "TweetText": "This is iPhone Folio\n\n(or iPhone \"Ultra\"...)",
+    "Tweet Url": "https://x.com/zellzoi/status/2088707056396079514",
+    "TweetCreatedDate": "2026-08-15T19:19:03.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088706964503068672/img/VkCvaQzJ9v1Bv1CV.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088706964503068672/vid/avc1/3840x2160/h5t4HTLIt6foaSMU.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088706964503068672/vid/avc1/3840x2160/h5t4HTLIt6foaSMU.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088706964503068672/img/VkCvaQzJ9v1Bv1CV.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "15 REPLIES · 20 REPOSTS · 363 LIKES · 120 BOOKMARKS · 51560 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-17T09:47:25+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-15T19:19:03.000Z"
+    }
+  },
+  {
+    "TweetID": "2088681724708639172",
+    "TwitterUserID": "2475171",
+    "UserScreenName": "rsms",
+    "UserProfileName": "Rasmus Andersson",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1996997851591917568/4zelt7SC_200x200.jpg",
+    "TweetText": "Same Playbit program running on a Mac and a Raspberry Pi, local-first multiplayer over internet relay (not LAN; real-world latency) and webgpu. Exact same wasm running in both places.\n@playbit_ for Linux (Wayland) coming soon!",
+    "Tweet Url": "https://x.com/rsms/status/2088681724708639172",
+    "TweetCreatedDate": "2026-08-15T17:38:23.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088681675048071168/img/GlDI-9G2OX0l7c1y.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088681675048071168/vid/avc1/2160x2670/Ca_qIWKp2L7sAObo.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088681675048071168/vid/avc1/2160x2670/Ca_qIWKp2L7sAObo.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088681675048071168/img/GlDI-9G2OX0l7c1y.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "8 REPLIES · 1 REPOSTS · 68 LIKES · 17 BOOKMARKS · 5010 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-17T09:47:25+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-15T17:38:23.000Z"
+    }
+  },
+  {
+    "TweetID": "2088623349890990336",
+    "TwitterUserID": "296593919",
+    "UserScreenName": "vikingmute",
+    "UserProfileName": "Viking",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/725179208528322560/TPjU7qop_200x200.jpg",
+    "TweetText": "今天最棒的阅读：\nhttps://www.minoradventures.co/blog/the-making-of-cursors-icons\n\nCursor 从零设计整套图标系统的过程，\n\n作者用了大约一年时间，手绘纯完成 600 多个图标，包含两种尺寸16px 和 24px 和两种风格Outline 线框 + Filled 填充，没有 AI 生成。\n\n提供了各种设计要点，里面有大量图示展示了从探索到最终实现过程，专业人士可以学图标设计的严谨过程，像我这样的外行可以纯纯看一个优质的产品是怎样一点点抠出来的，希望和自己共勉。\n\n喜欢看这种人味十足的文章，希望能有更多这样的活人文章，不要全都是为了追求流量的 AI 小作文。",
+    "Tweet Url": "https://x.com/vikingmute/status/2088623349890990336",
+    "TweetCreatedDate": "2026-08-15T13:46:26.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPxHtLKagAAAnQO.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPxHtLKagAAAnQO.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "TweetID": "2087939423824454058",
+      "TweetText": "I wrote an in-depth article on how I made @cursor_ai’s icons. Read it if you want to know: \n\n- How to keep 600+ icons consistent\n\n- Why I made optical adjustments nobody can see\n\n- Why the icon stroke weight is 1.25px (who does that, really?)\n\n- Why I drew 156 almost identical versions of a hamburger icon \n\n…and much, much more!\n\nhttps://www.minoradventures.co/blog/the-making-of-cursors-icons",
+      "TweetCreatedDate": "2026-08-13T16:28:45.000Z",
+      "Tweet Url": "https://x.com/MarekMinor/status/2087939423824454058",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/1786322815634837504/APmkfTLM_200x200.jpg",
+      "UserProfileName": "Marek Minor",
+      "UserScreenName": "MarekMinor",
+      "MediaType": "text",
+      "MediaImageUrl": "",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [],
+      "_metrics": "116 REPLIES · 156 REPOSTS · 1940 LIKES · 2485 BOOKMARKS · 301071 VIEWS",
+      "_article": {
+        "kind": "external",
+        "title": "minoradventures.co",
+        "url": "https://www.minoradventures.co/blog/the-making-of-cursors-icons",
+        "preview": "I wrote an in-depth article on how I made @cursor_ai’s icons. Read it if you want to know: - How to keep 600+ icons consistent - Why I made optical adjustments nobody can see - Wh…"
+      }
+    },
+    "_article": {
+      "kind": "external",
+      "title": "minoradventures.co",
+      "url": "https://www.minoradventures.co/blog/the-making-of-cursors-icons",
+      "preview": "今天最棒的阅读： Cursor 从零设计整套图标系统的过程， 作者用了大约一年时间，手绘纯完成 600 多个图标，包含两种尺寸16px 和 24px 和两种风格Outline 线框 + Filled 填充，没有 AI 生成。 提供了各种设计要点，里面有大量图示展示了从探索到最终实现过程，专业人士可以学图标设计的严谨过程，像我这样的外行可以纯纯看一个优质的产…"
+    },
+    "_metrics": "40 REPLIES · 49 REPOSTS · 414 LIKES · 539 BOOKMARKS · 43125 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-17T09:47:25+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-15T13:46:26.000Z"
+    }
+  },
+  {
+    "TweetID": "2088550597759000975",
+    "TwitterUserID": "588083665",
+    "UserScreenName": "tranmautritam",
+    "UserProfileName": "Tran Mau Tri Tam ✪",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1768219583218081792/HP1g3zAA_200x200.jpg",
+    "TweetText": "You've read the 12 principles of animation a hundred times. Raphael made a version you can actually feel.\n\nBookmarking this forever 👇\n\nhttps://www.raphaelsalaja.com/library/12-principles-of-animation",
+    "Tweet Url": "https://x.com/tranmautritam/status/2088550597759000975",
+    "TweetCreatedDate": "2026-08-15T08:57:20.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2088550514850193408/img/OMifQFE5HgNBz8H9.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2088550514850193408/vid/avc1/960x720/wrVC5nTdE1oHOcSs.mp4?tag=14",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Video",
+      "Tool"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2088550514850193408/vid/avc1/960x720/wrVC5nTdE1oHOcSs.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2088550514850193408/img/OMifQFE5HgNBz8H9.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "raphaelsalaja.com",
+      "url": "https://www.raphaelsalaja.com/library/12-principles-of-animation",
+      "preview": "You've read the 12 principles of animation a hundred times. Raphael made a version you can actually feel. Bookmarking this forever 👇"
+    },
+    "_metrics": "11 REPLIES · 46 REPOSTS · 890 LIKES · 1518 BOOKMARKS · 38326 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-17T09:47:25+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-15T08:57:20.000Z"
+    }
+  },
+  {
+    "TweetID": "2088539283049365580",
+    "TwitterUserID": "1265957219612258307",
+    "UserScreenName": "ewind_dev",
+    "UserProfileName": "Yifeng \"Evan\" Wang",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1949275362262913024/r3t_A4R2_200x200.jpg",
+    "TweetText": "我可以讲清楚这种启发具体是什么。\n\n所谓 “一切皆插件” 至少有三四种不同的架构含义，很多人会将其误解为类似 Webpack 和 Pi 中的 hook 模式，或 VSCode 中在主创团队决策下开放给第三方的插件场景。\n\n然而我对 DSH 插件架构要解决的问题的理解，其实还是来源于当年的 AFFiNE。\n\n那时，虽然 AFFiNE 在产品功能上相当于 OpenNotion，但我们非常希望架构要完全可定制，理想中任意需求最好都能不 fork 我们主干就能由第三方实现（请就这句话联想一下 harness 场景）。因为在我们的融资叙事里，AFFiNE 的长期愿景是成为一个通用的应用开发底座。AFFiNE 内部我负责的 BlockSuite 编辑引擎也遇到同样的问题。满足短期需求的产品功能快速侵入通用引擎，会让技术团队对通用性愿景逐渐失去信心。\n\n因此，当时 @EEEEYHN 设计实现了 Affine Framework，而 @mirone_saul 在 BlockSuite 中也做了类似的工作。其基本思路是将 DI 和 rxjs 结合来管理业务对象的生命周期，从而只要基于这套架构的逻辑，都是原理上能运行时动态替换的——很高兴看到今天 DeepSeek 甚至就此给出了数学证明！\n\n重复一遍，这种插件模式的重点在于运行时任意扩展的理论可能性。其精髓不同于 VSCode 那样人工决定“什么能被第三方扩展”，而是任意逻辑都默认能被第三方扩展。\n\n这项工作不存在于 AFFiNE 的公开文档中，因为项目后期我们已经无暇顾及开发者业务的叙事。且这种架构也会让代码显著地更为晦涩，在古法编程时代会拖慢开发效率。有兴趣的朋友欢迎用 codex 去考古。\n\n并且，我也不觉得我有资格声称“DSH 的理念早已被我们掌握”，因为 DSH 是第一个做到在 day one 就将我们未竟的理念贯彻为项目中一等公民的产品。这种技术方向上的产品化可能性，就是对我最大的启发。\n\n在离开 AFFiNE 加入 Lovart 后，我注意到了 Prisma 作者 Johannes 对 @EffectTS_ 的称赞。如果你将手搓 DSH 插件架构的思路做到极致，那么基本上你就会重新得到 Effect。只要把它的 layer 理解成 provider， 把 tag 理解成 service key 就够了。\n\n充分 Effect 化的代码里没有 setTimeout，能用 TestClock 做确定性模拟测试，从而将 E2E 墙钟时间压缩到单测时间。我认为这对提高软件可验证性有极大价值，甚至单独约过会向 Melvin 老板和 CTO 介绍过这项技术，然而也确实感觉没人能听懂我在说什么……\n\n现在回头看，我觉得 AFFiNE 有点像是个 General Magic 式的组织，它确实尝试过在一个宏大理想的 umbrella 下汇聚很多领域内最优秀的人各自的小理想。\n\n在 AFFiNE，我有幸光明正大地烧投资人的钱，专门去研究通用编辑引擎如何从第一性原理出发设计架构。这些 know how 并不是局外人“那样肯定搞不成”可以一笔带过的。\n\nGM 最后没有跑出来，但安卓、iPod、iPhone、Flash，其实都是技术条件成熟后 GM 团队当年理想的开枝散叶。AFFiNE 团队的核心成员去了 Manus、VoidZero 等地方，我也感觉是在追寻自己多年前的影子。像 PocketJS 能不能成为新一代的 Flash 呢？\n\n现在像是来到了十年前前端框架大乱斗风起云涌的年代，在这个技术奇点加速开蹬吧！",
+    "Tweet Url": "https://x.com/ewind_dev/status/2088539283049365580",
+    "TweetCreatedDate": "2026-08-15T08:12:22.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI"
+    ],
+    "_media": [],
+    "_quote": {
+      "TweetID": "2088282286529618286",
+      "TweetText": "Pi 作者对 DeekSeek Harness 评价",
+      "TweetCreatedDate": "2026-08-14T15:11:10.000Z",
+      "Tweet Url": "https://x.com/dotey/status/2088282286529618286",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+      "UserProfileName": "宝玉",
+      "UserScreenName": "dotey",
+      "MediaType": "photo",
+      "MediaImageUrl": "https://pbs.twimg.com/media/HPsRfMoXcAAYgWI.jpg?name=orig",
+      "MediaVideoUrl": "",
+      "Summary": "",
+      "Translation": "",
+      "_media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPsRfMoXcAAYgWI.jpg?name=orig"
+        }
+      ],
+      "_metrics": "110 REPLIES · 61 REPOSTS · 751 LIKES · 308 BOOKMARKS · 249897 VIEWS",
+      "_article": null
+    },
+    "_article": null,
+    "_metrics": "51 REPLIES · 19 REPOSTS · 176 LIKES · 101 BOOKMARKS · 27925 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-17T09:47:25+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-15T08:12:22.000Z"
+    }
+  },
+  {
+    "TweetID": "2088443238059585539",
+    "TwitterUserID": "1364222107551342592",
+    "UserScreenName": "absolute__tk",
+    "UserProfileName": "tk",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1881141187933077504/zG8MigAE_200x200.jpg",
+    "TweetText": "",
+    "Tweet Url": "https://x.com/absolute__tk/status/2088443238059585539",
+    "TweetCreatedDate": "2026-08-15T01:50:44.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPuj959a4AEWobr.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPuj959a4AEWobr.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPukC1wbIAA7JmT.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "TweetID": "2087195277094695096",
+      "TweetText": "Celebrating small wins is hardwired into \"Achieve,\" our goal-tracking sample app.\n\nWe wanted the simple act of checking off a task to feel like a celebration. Instead of the standard #Material ripple, we used Styles to drop in a custom, high-contrast completion animation—specifically, a brand-colored ring that expands and fades on tap, paired with a subtle pressed-state gradient.\n\nIt lets us focus entirely on polishing those custom, rewarding micro-interactions while Material handles the foundation.\n\n#GoogleDesign #MaterialDesign #JetpackCompose #AndroidDev #UXDesign #InteractionDesign",
+      "TweetCreatedDate": "2026-08-11T15:11:46.000Z",
+      "Tweet Url": "https://x.com/GoogleDesign/status/2087195277094695096",
+      "UserProfilePic": "https://pbs.twimg.com/profile_images/1856407846629359616/bW8F25x6_200x200.jpg",
+      "UserProfileName": "Google Design",
+      "UserScreenName": "GoogleDesign",
+      "MediaType": "animated_gif",
+      "MediaImageUrl": "https://pbs.twimg.com/tweet_video_thumb/HPc1CEBaIAALZi6.jpg",
+      "MediaVideoUrl": "https://video.twimg.com/tweet_video/HPc1CEBaIAALZi6.mp4",
+      "Summary": "",
+      "Translation": "",
+      "_media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/tweet_video/HPc1CEBaIAALZi6.mp4",
+          "poster": "https://pbs.twimg.com/tweet_video_thumb/HPc1CEBaIAALZi6.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "_metrics": "982 REPLIES · 69 REPOSTS · 1440 LIKES · 1144 BOOKMARKS · 4114593 VIEWS",
+      "_article": null
+    },
+    "_article": null,
+    "_metrics": "21 REPLIES · 31 REPOSTS · 1134 LIKES · 424 BOOKMARKS · 138090 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-17T09:47:25+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-15T01:50:44.000Z"
+    }
+  },
   {
     "TweetID": "2088304903076659605",
     "TwitterUserID": "867503322",
@@ -352,6 +782,44 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2087995561009897887",
+    "TwitterUserID": "36889519",
+    "UserScreenName": "RaminNasibov",
+    "UserProfileName": "Ramin Nasibov",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2006792793650323456/WI88G3rp_200x200.jpg",
+    "TweetText": "сlean game",
+    "Tweet Url": "https://x.com/RaminNasibov/status/2087995561009897887",
+    "TweetCreatedDate": "2026-08-13T20:11:49.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087995525744267265/img/BPu4qI0lu1itxgEK.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087995525744267265/vid/avc1/1088x832/UFTlSYwhj_0CsgCA.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087995525744267265/vid/avc1/1088x832/UFTlSYwhj_0CsgCA.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087995525744267265/img/BPu4qI0lu1itxgEK.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "37 REPLIES · 269 REPOSTS · 2063 LIKES · 237 BOOKMARKS · 104296 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-17T09:47:25+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-13T20:11:49.000Z"
+    }
+  },
+  {
     "TweetID": "2087992542264693010",
     "TwitterUserID": "2027787501666992128",
     "UserScreenName": "ItsMatthewAo",
@@ -590,6 +1058,43 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 3,
       "observedDatetime": "2026-08-13T16:39:14.000Z"
+    }
+  },
+  {
+    "TweetID": "2087939423824454058",
+    "TwitterUserID": "184002928",
+    "UserScreenName": "MarekMinor",
+    "UserProfileName": "Marek Minor",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1786322815634837504/APmkfTLM_200x200.jpg",
+    "TweetText": "I wrote an in-depth article on how I made @cursor_ai’s icons. Read it if you want to know: \n\n- How to keep 600+ icons consistent\n\n- Why I made optical adjustments nobody can see\n\n- Why the icon stroke weight is 1.25px (who does that, really?)\n\n- Why I drew 156 almost identical versions of a hamburger icon \n\n…and much, much more!\n\nhttps://www.minoradventures.co/blog/the-making-of-cursors-icons",
+    "Tweet Url": "https://x.com/MarekMinor/status/2087939423824454058",
+    "TweetCreatedDate": "2026-08-13T16:28:45.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "AI"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "minoradventures.co",
+      "url": "https://www.minoradventures.co/blog/the-making-of-cursors-icons",
+      "preview": "I wrote an in-depth article on how I made @cursor_ai’s icons. Read it if you want to know: - How to keep 600+ icons consistent - Why I made optical adjustments nobody can see - Wh…"
+    },
+    "_metrics": "116 REPLIES · 156 REPOSTS · 1940 LIKES · 2485 BOOKMARKS · 301071 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-17T09:47:25+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-13T16:28:45.000Z"
     }
   },
   {
@@ -1206,6 +1711,45 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-12T06:10:44.000Z"
+    }
+  },
+  {
+    "TweetID": "2087236868911902831",
+    "TwitterUserID": "1399866136787918850",
+    "UserScreenName": "hero_ui",
+    "UserProfileName": "HeroUI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1987160782765707265/xb07FQe5_200x200.jpg",
+    "TweetText": "HeroUI Native Pro beta 9 is out 🔥\n\n✓ Agenda → day / week / month calendar\n✓ Autocomplete → searchable select\n✓ ComboBox → input + listbox\n✓ RTL → mirrors with locale\n\nFull release notes 👇",
+    "Tweet Url": "https://x.com/hero_ui/status/2087236868911902831",
+    "TweetCreatedDate": "2026-08-11T17:57:03.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087235322157342720/img/bPm12yLHeoi8TghW.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087235322157342720/vid/avc1/1080x1080/7b-fXnypOjVLwtrG.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Design",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087235322157342720/vid/avc1/1080x1080/7b-fXnypOjVLwtrG.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087235322157342720/img/bPm12yLHeoi8TghW.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "3 REPLIES · 21 REPOSTS · 471 LIKES · 411 BOOKMARKS · 96087 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-17T09:47:25+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-11T17:57:03.000Z"
     }
   },
   {
