@@ -1,6 +1,566 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-18T00:49:37.000Z",
+    "author": "Tokdev",
+    "handle": "tokdev0",
+    "avatar": "https://pbs.twimg.com/profile_images/1999457553462243328/qWEWBMx7_200x200.jpg",
+    "title": "VisualWizard 把 Claude /design 类视觉流程带给其他 Agent",
+    "summary": "Tokdev 展示 VisualWizard，目标是让 Cursor、Codex 等 Agent 也具备类似 Claude /design 的视觉工作流。它是设计工程工具链正在围绕 artboard、视觉反馈和代码 Agent 融合的信号。",
+    "url": "https://x.com/tokdev0/status/2089515022124802346",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089514980177514496/vid/avc1/1428x720/ab2ymniN2zecqp38.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089514980177514496/img/3M5e4cGv3vXtRJDX.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 3 LIKES · 0 BOOKMARKS · 108 VIEWS",
+    "links": [
+      "https://visualwizard.app",
+      "https://x.com/ClaudeDevs/status/2089471692762673408"
+    ],
+    "_analysisTheme": "Visual Workflow / Agent 设计",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Visual Wizard — Design on working prototypes",
+      "url": "https://visualwizard.app/",
+      "preview": "A visual workspace where you and your coding agent design directly on working prototype code."
+    },
+    "quote": {
+      "id": "2089471692762673408",
+      "author": "ClaudeDevs",
+      "handle": "ClaudeDevs",
+      "text": "Claude Code can design now. The new /design skill (research preview) brings Claude Design's artboard workflow into the CLI and Desktop, built on artifacts.\n\nRun /design to get editable artboards for your UI — pick one, tweak it, then have Claude implement it.",
+      "url": "https://x.com/ClaudeDevs/status/2089471692762673408"
+    }
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-18T00:49:08.000Z",
+    "author": "数字生命卡兹克",
+    "handle": "Khazix0918",
+    "avatar": "https://pbs.twimg.com/profile_images/1756592360367259648/GXJ4Kl6w_200x200.jpg",
+    "title": "双向钢人 Prompt 用来抵抗 AI 谄媚和泛建议",
+    "summary": "数字生命卡兹克长文拆解 steelman/稻草人概念，并改写成先重述问题、强化正反双方、找关键变量、再行动的双向钢人 Prompt。它适合做个人决策和产品评审的提问模板。",
+    "url": "https://x.com/Khazix0918/status/2089514899504607342",
+    "media": [],
+    "metrics": "1 REPLIES · 3 REPOSTS · 53 LIKES · 81 BOOKMARKS · 3526 VIEWS",
+    "links": [
+      "https://x.com/i/article/2089513480349253633"
+    ],
+    "_analysisTheme": "Prompt / 决策思考",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "x-article",
+      "title": "一个极度实用的深度思考Prompt，帮你挖出最本质的答案。",
+      "url": "https://x.com/Khazix0918/article/2089514899504607342",
+      "preview": "要查看键盘快捷键，按下问号 查看键盘快捷键 一个极度实用的深度思考Prompt，帮你挖出最本质的答案。 数字生命卡兹克 @Khazix0918 · 53分钟 1 7 56 4,247 前几天，我在推特上刷到了一条很有意思的分享。 原文找不到了，只剩下了这张图。 大概意思就是，先不要让大模型直接回答，先进行一些深度思考，再给你回答。 我顺手也试了一下，效果确…"
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-18T00:48:56.000Z",
+    "author": "たかゆ | UI演出デザイナー",
+    "handle": "takayuP4",
+    "avatar": "https://pbs.twimg.com/profile_images/2011654347021815808/cD2H3Mbw_200x200.jpg",
+    "title": "Light Reference 让材质受光效果变成可查询参考",
+    "summary": "UI 演出设计师 たかゆ 发布光照参考网站，可指定纹理查看受光效果。它对界面演出和 3D/质感设计有直接价值：把“感觉像什么光”变成可验证的参考库。",
+    "url": "https://x.com/takayuP4/status/2089514849365807475",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP9x7o6aIAAORgs.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 2 REPOSTS · 11 LIKES · 9 BOOKMARKS · 543 VIEWS",
+    "links": [
+      "https://light-reference.takayustudio.jp/"
+    ],
+    "_analysisTheme": "光照参考 / 材质预览",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "光リファレンス | 光と反射の3Dシミュレーター",
+      "url": "https://light-reference.takayustudio.jp/",
+      "preview": "光源・影・材質・大気・レンズ・環境の条件を操作し、105の光表現をリアルタイム3Dで比較できる光表現シミュレーター。"
+    }
+  },
+  {
+    "category": "BRAND DESIGN",
+    "datetime": "2026-08-18T00:38:25.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "Taste Health 包装用粗排版和钴蓝建立营养品牌感",
+    "summary": "abduzeedo 分享 Dex Studio 的 Taste Health 营养品牌与包装项目，重点是大胆字体、钴蓝色块和字母 t 的细节。适合学习健康品类如何避免医疗冷感并保留清爽识别。",
+    "url": "https://x.com/abduzeedo/status/2089512203380805809",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP9v_4MaoAASECX.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP9wC2ibIAA37xQ.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP9wFW3a4AAyfQ9.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 8 LIKES · 3 BOOKMARKS · 448 VIEWS",
+    "links": [
+      "https://abduzeedo.com/taste-health-nutrition-branding-and-packaging-identity"
+    ],
+    "_analysisTheme": "包装品牌 / 字体细节",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Taste Health Nutrition Branding and Packaging Identity",
+      "url": "https://abduzeedo.com/taste-health-nutrition-branding-and-packaging-identity",
+      "preview": "Taste Health is a modern nutrition branding and packaging project by Dex Studio featuring bold typography and cobalt blue color fields. The visual system…"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-17T23:17:55.000Z",
+    "author": "Federico Viticci",
+    "handle": "viticci",
+    "avatar": "https://pbs.twimg.com/profile_images/2087452075915345920/JkXzbqYV_200x200.jpg",
+    "title": "@bot 的 iOS 体验把线程组织改成 Agent 组织",
+    "summary": "Federico Viticci 早期体验 @bot 后指出，它在 iOS 上把 thread-based 组织转向 bot/agent-based 组织，群聊 Agent 与 delegation 体验成熟。它适合研究多 Agent 信息架构的利弊。",
+    "url": "https://x.com/viticci/status/2089491947740078317",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP9d2Q9XYAALofl.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP9d2Q9WgAAeON0.jpg?name=orig"
+      }
+    ],
+    "metrics": "7 REPLIES · 2 REPOSTS · 55 LIKES · 24 BOOKMARKS · 4336 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent 客户端 / iOS IA",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI CODING",
+    "datetime": "2026-08-17T23:09:51.000Z",
+    "author": "˗ˏˋ 藤川 忠彦 ˎˊ˗",
+    "handle": "fujikawa",
+    "avatar": "https://pbs.twimg.com/profile_images/1912394643582365696/_9kO8O3N_200x200.jpg",
+    "title": "Cursor Origin 与 Claude Code 推动开发环境主导权重排",
+    "summary": "藤川忠彦长文把 Cursor Origin、Claude Code 自律运用、Qwen 本地模型等串成 24 小时开发环境趋势。它适合跟踪 AI coding 竞争从模型能力转向仓库、执行和基础设施控制。",
+    "url": "https://x.com/fujikawa/status/2089489914891301064",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 0 BOOKMARKS · 1059 VIEWS",
+    "links": [
+      "https://x.com/i/article/2089489623919804416"
+    ],
+    "_analysisTheme": "AI Dev Environment / 基础设施",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "x-article",
+      "title": "僕のフォロワーさんたちが、直近24時間でつぶやいたこと",
+      "url": "https://x.com/fujikawa/article/2089489914891301064",
+      "preview": "要查看键盘快捷键，按下问号 查看键盘快捷键 僕のフォロワーさんたちが、直近24時間でつぶやいたこと ˗ˏˋ 藤川 忠彦 ˎˊ˗ @fujikawa · 2小时 关注 3 1,079 開発環境の主導権争いがコードの置き場所にまで広がり、ローカルモデルの実用化とエージェントの自律運用が一気に具体化した24時間でした。僕には、単なるモデルの賢さ比べから、日々の作…"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-17T22:59:00.000Z",
+    "author": "Ding",
+    "handle": "dingyi",
+    "avatar": "https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_200x200.jpg",
+    "title": "Oak.id 的 AI SaaS 网站用清晰视觉建立可信感",
+    "summary": "Ding 标记 Oak.id 是一个让人眼前一亮的 AI SaaS 网站设计。它值得抓取，是因为 AI 产品官网容易同质化，而这个案例可以拆首屏叙事、空间感和可信度表达。",
+    "url": "https://x.com/dingyi/status/2089487186035188025",
+    "media": [],
+    "metrics": "2 REPLIES · 0 REPOSTS · 11 LIKES · 15 BOOKMARKS · 1644 VIEWS",
+    "links": [
+      "https://www.oak.id/"
+    ],
+    "_analysisTheme": "AI SaaS / 网站设计",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "The AI-Native Identity Operating System | Oak",
+      "url": "https://www.oak.id/",
+      "preview": "Oak is the identity operating system born complete: one AI-native platform that discovers, understands, and governs every human, machine, and AI agent identity."
+    }
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-17T22:11:15.000Z",
+    "author": "たく｜AI活用×実践ノウハウ",
+    "handle": "taku_ai_case",
+    "avatar": "https://pbs.twimg.com/profile_images/2078335983326789632/xUjJppYD_200x200.jpg",
+    "title": "截图生成操作手册需要把每一步状态都设计清楚",
+    "summary": "たく 的 X Article 总结用 Codex 做截图操作手册的 10 个工夫：分步、命名、标注、成功状态和发布前检查。它把 AI 文档生成变成可验证的信息设计流程。",
+    "url": "https://x.com/taku_ai_case/status/2089475167953293822",
+    "media": [],
+    "metrics": "1 REPLIES · 3 REPOSTS · 13 LIKES · 13 BOOKMARKS · 2325 VIEWS",
+    "links": [
+      "https://x.com/i/article/2089308489776775168"
+    ],
+    "_analysisTheme": "Codex / 操作手册信息设计",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "x-article",
+      "title": "Codexで操作手順書を作るとき、僕が必ず入れる10の工夫",
+      "url": "https://x.com/taku_ai_case/article/2089475167953293822",
+      "preview": "要查看键盘快捷键，按下问号 查看键盘快捷键 Codexで操作手順書を作るとき、僕が必ず入れる10の工夫 たく｜AI活用×実践ノウハウ @taku_ai_case · 3小时 关注 1 7 14 2,506 Codexにスクショを何枚か入れて、「操作手順書を作って」と頼む。 これだけでも、一応それらしい資料はできます。 でも、実際に使いやすい手順書になるかは…"
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-17T22:00:02.000Z",
+    "author": "Hermes Release Watch",
+    "handle": "HermesWatcher",
+    "avatar": "https://pbs.twimg.com/profile_images/2079058210410094592/t-ZASzl0_200x200.jpg",
+    "title": "Hermes 后台 computer-use 避免 Agent 抢鼠标键盘",
+    "summary": "Hermes Release Watch 解释其 computer-use 工具可在 macOS、Windows、Linux 后台点击、输入、滚动和拖拽，真实光标不被抢走。它是桌面 Agent 产品里“共用控制权”的高价值 UX 信号。",
+    "url": "https://x.com/HermesWatcher/status/2089472348156199195",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP9MBteaAAAlCZD.jpg?name=orig"
+      }
+    ],
+    "metrics": "2 REPLIES · 2 REPOSTS · 32 LIKES · 40 BOOKMARKS · 2879 VIEWS",
+    "links": [
+      "https://x.com/HermesWatcher/status/2086584792137756682?s=20",
+      "https://x.com/HermesWatcher/status/2086584792137756682"
+    ],
+    "_analysisTheme": "Computer-use / 控制权设计",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "x-article",
+      "title": "X status by Hermes Release Watch",
+      "url": "https://x.com/HermesWatcher/status/2086584792137756682",
+      "preview": "https://t.co/hO6cFsPeWP"
+    },
+    "quote": {
+      "id": "2086584792137756682",
+      "author": "Hermes Release Watch",
+      "handle": "HermesWatcher",
+      "text": "",
+      "url": "https://x.com/HermesWatcher/status/2086584792137756682"
+    }
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-17T21:13:06.000Z",
+    "author": "Kavsoft",
+    "handle": "_Kavsoft",
+    "avatar": "https://pbs.twimg.com/profile_images/1553505113633075200/MBkX8qZx_200x200.jpg",
+    "title": "Kavsoft 发现 Liquid Glass 转场顺序会改变形态",
+    "summary": "Kavsoft 验证 iOS 27 里 matchedTransitionSource 放在 glass effect 前后，会产生接近菜单 morphing 的不同转场。它把系统动效的 modifier 顺序变成可复用的设计工程知识点。",
+    "url": "https://x.com/_Kavsoft/status/2089460534341239055",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089460484718444544/vid/avc1/720x720/e0bYGKpVvZ4ym1dv.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089460484718444544/img/jOkphoeGMit6VvGH.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089460484718411776/vid/avc1/720x720/YCKC4DLc_SRkwE2B.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089460484718411776/img/fy8vARj3OBD_JdTy.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089460484701605888/vid/avc1/720x720/SLPnZaBEQF_3DIyP.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089460484701605888/img/pAcouDbIQn5NME8Z.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 8 REPOSTS · 177 LIKES · 206 BOOKMARKS · 11644 VIEWS",
+    "links": [
+      "https://youtu.be/fJ83SMan9vY",
+      "https://x.com/SebJVidal/status/2088508737250357725"
+    ],
+    "_analysisTheme": "SwiftUI / Liquid Glass 转场",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=fJ83SMan9vY&feature=youtu.be",
+      "preview": "(function() {window.ytplayer={}; ytcfg.set({\"CLIENT_CANARY_STATE\":\"none\",\"DEVICE\":\"ceng\\u003dUSER_DEFINED\\u0026cplatform\\u003dDESKTOP\",\"DISABLE_YT_IMG_DELAY_LOADING\":false,\"ELEMEN…"
+    },
+    "quote": {
+      "id": "2088508737250357725",
+      "author": "Seb Vidal",
+      "handle": "SebJVidal",
+      "text": "_UIPopoverView, the private class responsible for rendering popover view controllers' chrome, got a glow up in iOS 27 beta 5 with a more...liquid?...Liquid Glass transition.\n\nAppears to be using the same blobby animation trickery as _UIContextMenuView.\n\nLooks fantastic!",
+      "url": "https://x.com/SebJVidal/status/2088508737250357725"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-17T20:07:03.000Z",
+    "author": "Google AI Developers",
+    "handle": "googleaidevs",
+    "avatar": "https://pbs.twimg.com/profile_images/1865153179341426688/g3bdgQ0P_200x200.jpg",
+    "title": "Google AI 用 Gemini 从植物图谱 PDF 生成互动可视化",
+    "summary": "Google AI Developers 展示 Gemini 3.7 Flash 读取维多利亚植物插图 PDF，并按 APG IV 分类生成可交互可视化。它说明多模态理解的价值不止抽文本，而是把档案转成可探索界面。",
+    "url": "https://x.com/googleaidevs/status/2089443913493033058",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089443374860513280/vid/avc1/1280x720/TZZS-ATWXurBeLiu.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089443374860513280/img/FEldB8H0eV-TBLJO.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "5 REPLIES · 27 REPOSTS · 326 LIKES · 131 BOOKMARKS · 17737 VIEWS",
+    "links": [],
+    "_analysisTheme": "Gemini / 档案可视化",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-17T19:36:13.000Z",
+    "author": "FLORA ©",
+    "handle": "floraai",
+    "avatar": "https://pbs.twimg.com/profile_images/1892364060458471425/2DyQ8Y0L_200x200.jpg",
+    "title": "FLORA 把草图到渲染的误读成本前置消化",
+    "summary": "FLORA 用 Prada Linea Rossa 概念设计师案例说明，草图到渲染之间的误读可以被 AI 工作流压低，让领导层更早看到接近最终样品的效果。适合关注 AI 在时装/产品概念流程里的签核价值。",
+    "url": "https://x.com/floraai/status/2089436155196461478",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089436008878153728/vid/avc1/1280x720/Q1Hhpy1L8CWHPwWZ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089436008878153728/img/Q5KTwp3DQj2zzT6r.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 4 REPOSTS · 40 LIKES · 16 BOOKMARKS · 6342 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 概念设计 / 早期签核",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI CREATIVE TOOL",
+    "datetime": "2026-08-17T19:07:18.000Z",
+    "author": "Fuser",
+    "handle": "fuserstudio",
+    "avatar": "https://pbs.twimg.com/profile_images/2054707229123854336/r3NhejDO_200x200.jpg",
+    "title": "Fuser 用 UCLA AI & Art 学生作品展示模型组合工作流",
+    "summary": "Fuser 展示 UCLA DMA AI & Art Summer Institute 学生用 Fuser 组合模型、构建 workflow 并反思算法创作。它把 AI 创作工具从单张生成推进到教学、流程和批评语境。",
+    "url": "https://x.com/fuserstudio/status/2089428874396684484",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089427905260703744/vid/avc1/1280x720/KMGaMgMlzB0tO6-n.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089427905260703744/img/UHYsq_Dzme_rRZyW.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "2 REPLIES · 4 REPOSTS · 11 LIKES · 4 BOOKMARKS · 342 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 艺术教育 / Workflow",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-17T18:51:34.000Z",
+    "author": "João Desager",
+    "handle": "JohnKazArt",
+    "avatar": "https://pbs.twimg.com/profile_images/1760029410797957121/2lQIkUd8_200x200.jpg",
+    "title": "ConjureSDF v0.3.11 恢复 SDF to Mesh 能力",
+    "summary": "Joao Desager 预告 ConjureSDF v0.3.11 将恢复 SDF to Mesh。对 3D/Blender 设计师来说，这是把程序化形体从距离场转成可编辑 mesh 的实用工具信号。",
+    "url": "https://x.com/JohnKazArt/status/2089424914969207200",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089424293708861440/vid/avc1/1000x720/s5nqRAp8va63EaEz.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089424293708861440/img/XxajolqqJ3ZxZb2U.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "3 REPLIES · 9 REPOSTS · 79 LIKES · 19 BOOKMARKS · 2269 VIEWS",
+    "links": [],
+    "_analysisTheme": "SDF / 3D 建模工具",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-17T18:43:29.000Z",
+    "author": "HASSCO©",
+    "handle": "itshassco",
+    "avatar": "https://pbs.twimg.com/profile_images/1967922092004855808/73BvMNdG_200x200.png",
+    "title": "HASSCO 的对齐线条动效把强迫症细节做成观看点",
+    "summary": "HASSCO 做了一个线条永不错位的 OCD movement。它是很小但干净的 motion 参考：规则清楚、反馈明确，适合拆成动效曲线和网格约束练习。",
+    "url": "https://x.com/itshassco/status/2089422881570636265",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089422831834558464/vid/avc1/1150x720/BO7dOQf5X2k7s6Wg.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089422831834558464/img/3VZWwedgqQYDujoT.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 2 REPOSTS · 71 LIKES · 43 BOOKMARKS · 2165 VIEWS",
+    "links": [],
+    "_analysisTheme": "Motion / 对齐规则",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-17T18:33:43.000Z",
+    "author": "Federico Viticci",
+    "handle": "viticci",
+    "avatar": "https://pbs.twimg.com/profile_images/2087452075915345920/JkXzbqYV_200x200.jpg",
+    "title": "Codex Remote iOS 从手机直接启动远程任务",
+    "summary": "Federico Viticci 认为 Codex Remote for iOS 独特之处在于可从 iOS 直接启动任务、接近桌面 parity，并支持语音协调多个线程。它是移动端 AI 操作系统级入口的参考。",
+    "url": "https://x.com/viticci/status/2089420425193202065",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP8cbSHXgAAF1FD.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP8cbSFWgAAScpF.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP8cbSOXoAQhiSy.jpg?name=orig"
+      }
+    ],
+    "metrics": "38 REPLIES · 13 REPOSTS · 361 LIKES · 186 BOOKMARKS · 120959 VIEWS",
+    "links": [],
+    "_analysisTheme": "Codex Remote / 移动 Agent",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-17T18:26:50.000Z",
+    "author": "Cyandev",
+    "handle": "cyandev",
+    "avatar": "https://pbs.twimg.com/profile_images/2073483311520063489/Wz-2nK7A_200x200.jpg",
+    "title": "Apple 交通灯按钮更新撞上独立设计师旧方案",
+    "summary": "Cyandev 对比自己早前设计和 macOS 27 Beta 6 的 traffic light buttons 更新。它提醒设计师关注系统控件微调、历史方案归档和相似设计的演化边界。",
+    "url": "https://x.com/cyandev/status/2089418693956759877",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 15 LIKES · 8 BOOKMARKS · 10947 VIEWS",
+    "links": [
+      "https://x.com/cyandev/status/2083100157281976336",
+      "https://x.com/avstorm/status/2089411605477855728"
+    ],
+    "_analysisTheme": "系统控件 / 设计归档",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "x-article",
+      "title": "X status by Cyandev",
+      "url": "https://x.com/cyandev/status/2083100157281976336",
+      "preview": "interesting, and it's live now!"
+    },
+    "quote": {
+      "id": "2089411605477855728",
+      "author": "Andreas Storm",
+      "handle": "avstorm",
+      "text": "Apple has updated the traffic light buttons in macOS 27 Beta 6",
+      "url": "https://x.com/avstorm/status/2089411605477855728"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-17T18:22:48.000Z",
+    "author": "Andreas Storm",
+    "handle": "avstorm",
+    "avatar": "https://pbs.twimg.com/profile_images/1597285797316759566/e8EWx4QR_200x200.jpg",
+    "title": "macOS 27 Beta 6 新动态壁纸强化系统情绪",
+    "summary": "Andreas Storm 展示 macOS 27 Beta 6 的 Golden Gate Day / Evening 动态壁纸。它适合作为系统级视觉如何用时间、地标和运动节奏建立情绪记忆的参考。",
+    "url": "https://x.com/avstorm/status/2089417678750400526",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089416908302897152/vid/avc1/1364x720/9ROABP0elUNvPIuF.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089416908302897152/img/0awtYVXgWRTLewib.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089417505559252992/vid/avc1/1364x720/rbk7302Pj3XdueV8.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089417505559252992/img/I3bjobMf86HUu12H.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "8 REPLIES · 21 REPOSTS · 401 LIKES · 49 BOOKMARKS · 17610 VIEWS",
+    "links": [],
+    "_analysisTheme": "macOS / 系统视觉",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-17T18:06:39.000Z",
+    "author": "黄赟",
+    "handle": "huangyun_122",
+    "avatar": "https://pbs.twimg.com/profile_images/1183766724534882305/SIxSKinT_200x200.jpg",
+    "title": "同一 Skill 下 Gemini 与 Codex 视频产出差异明显",
+    "summary": "黄赟用同一套起号 Skill 对比 Gemini 与 Codex 的文案、生图和视频执行，认为 Codex 更完整。它的价值在于把“模型能力”落到真实多步骤创作链路，而不是单轮问答。",
+    "url": "https://x.com/huangyun_122/status/2089413613094408680",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089412269319024640/vid/avc1/960x540/bzw5ZXnKYuyB0Zh3.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089412269319024640/img/JPprIDQyvg8nUQya.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "2 REPLIES · 0 REPOSTS · 18 LIKES · 33 BOOKMARKS · 4917 VIEWS",
+    "links": [
+      "https://x.com/huangyun_122/status/2089292574444126352"
+    ],
+    "_analysisTheme": "Skill 评测 / 多模态产出",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "x-article",
+      "title": "X status by 黄赟",
+      "url": "https://x.com/huangyun_122/status/2089292574444126352",
+      "preview": "Gemini 真的是一步落后，步步落后了 同样的一套 Skill, 在 ChatGPT Harness 中流畅运行，Gemini 就常常缺斤少两。好在它还挺诚实，不敢往视频画布中加文字，就很坦诚地回我：加中字会乱码，所以不加 义父，Codex 该重置啦 ！！"
+    },
+    "quote": {
+      "id": "2089292574444126352",
+      "author": "黄赟",
+      "handle": "huangyun_122",
+      "text": "Gemini 真的是一步落后，步步落后了\n\n同样的一套 Skill, 在 ChatGPT Harness 中流畅运行，Gemini 就常常缺斤少两。好在它还挺诚实，不敢往视频画布中加文字，就很坦诚地回我：加中字会乱码，所以不加\n\n义父，Codex 该重置啦 ！！",
+      "url": "https://x.com/huangyun_122/status/2089292574444126352"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-17T17:08:49.000Z",
+    "author": "Cursor",
+    "handle": "cursor_ai",
+    "avatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_200x200.jpg",
+    "title": "Cursor Origin 把代码托管纳入 AI 编辑器工作流",
+    "summary": "Cursor 官方宣布 Origin 代码托管平台上线，强调快速、简单并与 Cursor 深度集成。对设计工程师来说，这是 AI 编辑器从写代码扩展到代码归属、协作和发布基础设施的信号。",
+    "url": "https://x.com/cursor_ai/status/2089399057659596847",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089397451237036032/vid/avc1/1280x720/NELTlGKos4P8-JKi.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089397451237036032/img/qeHLLgO7ic-M5GjF.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1126 REPLIES · 1543 REPOSTS · 17513 LIKES · 4487 BOOKMARKS · 3968998 VIEWS",
+    "links": [],
+    "_analysisTheme": "Cursor Origin / 代码托管",
+    "_analysisPriority": "high"
+  },
+  {
     "category": "PRODUCT DESIGN",
     "datetime": "2026-08-17T05:00:32.000Z",
     "author": "Hwang",
