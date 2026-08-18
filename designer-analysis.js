@@ -1,6 +1,606 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-18",
+    "generatedAt": "2026-08-18T13:14:15+08:00",
+    "batch": "x-ai-design-analysis-2026-08-18-1314",
+    "analysisCount": 18,
+    "homeCount": 12,
+    "likeCount": 6,
+    "linksInspected": 12,
+    "unavailableLinks": 0,
+    "summary": "2026-08-18 13:00 Asia/Shanghai 增量：当天 Home 已有 20 条，因此只追加 12 条新出现且有学习价值的 Home；Likes 新入口 /i/history/likes 观察到 91 个唯一 status，其中 7 个未在 CSV/backfill 中出现。Analysis 追加 19 个未分析 ID，不裁剪早上 100 条。",
+    "sourceWindow": {
+      "strategy": "Home 复用登录态 Home/Following/Search，排除已收录、回复、低质营销和泛观点；Likes 使用 x.com/i/history/likes 滚动到已知 ID 边界；Analysis 只追加本次新 Home 与 fresh Like。",
+      "newestHomeDatetime": "2026-08-18T05:06:53.000Z",
+      "oldestHomeDatetime": "2026-08-18T01:02:51.000Z",
+      "newestLikeDatetime": "2026-08-17T16:15:42.000Z",
+      "oldestLikeDatetime": "2026-08-11T17:18:27.000Z",
+      "expandedWindow": "Home 无需扩窗，新增 Home 均归入 Asia/Shanghai 2026-08-18。Likes 为用户收藏增量，包含 2026-08-12 至 2026-08-18 上海日范围内首次进入 backfill 的历史收藏。Analysis 日累计已超过 100，本批只追加新且有学习价值的 19 条。",
+      "observed": {
+        "homeRaw": 1486,
+        "homeUnique": 211,
+        "homeSameDayFreshNonReply": 152,
+        "selectedHomeIds": [
+          "2089579766542467077",
+          "2089579352182960438",
+          "2089578536851939364",
+          "2089559957339582639",
+          "2089558596098969978",
+          "2089557123944636674",
+          "2089555831373316387",
+          "2089551848013492695",
+          "2089537772751311029",
+          "2089536998327591280",
+          "2089522745184760112",
+          "2089518352989655177"
+        ],
+        "likeRaw": 730,
+        "likeUnique": 91,
+        "freshLikeIds": [
+          "2089385692875067530",
+          "2089372767934115883",
+          "2089053213806772360",
+          "2089043643680403573",
+          "2087240760764567786",
+          "2087227155076046995",
+          "2087224798078517251"
+        ],
+        "knownBoundaryAfterUniqueIndex": 7
+      }
+    },
+    "items": [
+      {
+        "id": "2089579766542467077",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/apurv019/status/2089579766542467077",
+        "author": "Apoorv Agarwal",
+        "handle": "apurv019",
+        "datetime": "2026-08-18T05:06:53.000Z",
+        "title": "AI 工具之间的偏好和项目记忆无法迁移",
+        "originalSummary": "原帖内容：1/ Every AI tool I use forgets everything I taught the last one. I spent months teaching Claude my preferences, corrections, and project context. Then I opened Codex—and started from zero. That’s been quietly driving me crazy.",
+        "whySaved": "",
+        "whyCaptured": "我抓取它，是因为它把「Agent Memory / Context Portability」暴露成今天可复盘的设计工程信号，能转成具体学习任务。",
+        "deepSummary": "AI 工具之间的偏好和项目记忆无法迁移 的价值在于把原帖现象转成个人设计师可行动的判断：看它如何定义问题、包装能力、呈现状态，并判断哪些部分能沉淀进自己的工具/界面方法库。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Agent Memory / Context Portability」拆成一个 30 分钟可复现的小练习。",
+          "记录原帖中最值得借鉴的界面/叙事/交互决策，并说明它解决了什么问题。",
+          "判断它是否值得进入个人设计工程素材库：保存链接、截图或实现关键词。"
+        ],
+        "tags": [
+          "AI WORKFLOW",
+          "Agent Memory",
+          "text"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089579352182960438",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/purvapande/status/2089579352182960438",
+        "author": "Purva van de Linde",
+        "handle": "purvapande",
+        "datetime": "2026-08-18T05:05:14.000Z",
+        "title": "Agent 失败常常不是模型问题而是组织上下文问题",
+        "originalSummary": "原帖内容：Your agents aren’t failing. Your context is. The model is fine. The knowledge your agents need lives in people’s heads and a thousand documents. Until that is written down as a live map, every agent is guessing. That’s the difference btw a demo and what survi…",
+        "whySaved": "",
+        "whyCaptured": "我抓取它，是因为它把「Agent Context / Knowledge Map」暴露成今天可复盘的设计工程信号，能转成具体学习任务。",
+        "deepSummary": "Agent 失败常常不是模型问题而是组织上下文问题 的价值在于把原帖现象转成个人设计师可行动的判断：看它如何定义问题、包装能力、呈现状态，并判断哪些部分能沉淀进自己的工具/界面方法库。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Agent Context / Knowledge Map」拆成一个 30 分钟可复现的小练习。",
+          "记录原帖中最值得借鉴的界面/叙事/交互决策，并说明它解决了什么问题。",
+          "判断它是否值得进入个人设计工程素材库：保存链接、截图或实现关键词。"
+        ],
+        "tags": [
+          "AI WORKFLOW",
+          "Agent Context",
+          "text"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089578536851939364",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Haruki_Sonehara/status/2089578536851939364",
+        "author": "Haruki Sonehara / 🇺🇸シリコンバレー企業のプロダクト戦略",
+        "handle": "Haruki_Sonehara",
+        "datetime": "2026-08-18T05:02:00.000Z",
+        "title": "AI Engineering 技能图把产品判断列入核心能力",
+        "originalSummary": "原帖内容：このスキルマップの中で、特に良いと思ったのが、 effective AI engineering requires having product sense and understanding business context and customer goals, so you can participate in shaping and driving the build. (効果的なAIエンジニアリングは、プロダクトセンス、ビジネス文脈と顧客のゴールの理解を必要とする。それで初めてプロダクト作りに参加できる…",
+        "whySaved": "",
+        "whyCaptured": "我抓取它，是因为它把「AI Engineering / Shaping the build」暴露成今天可复盘的设计工程信号，能转成具体学习任务。",
+        "deepSummary": "AI Engineering 技能图把产品判断列入核心能力 的价值在于把原帖现象转成个人设计师可行动的判断：看它如何定义问题、包装能力、呈现状态，并判断哪些部分能沉淀进自己的工具/界面方法库。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/hiroki_daichi/status/2089530336330076546",
+            "title": "Haruki/Hiroki AI Engineering 技能图转述",
+            "access": "full",
+            "value": "引用长文把 AI app、软件工程基础、coding agents 和 shaping the build 四类技能整理成职业学习框架。",
+            "learningValue": "适合转成个人设计工程师季度学习地图。"
+          },
+          {
+            "url": "https://x.com/AndrewYNg/article/2088302050706686198",
+            "title": "Andrew Ng X Article: AI Engineering Skills Map",
+            "access": "full",
+            "value": "已用登录态读到 X Article 全文，核心是 evals/error analysis、coding agent context、软件工程 tradeoff 和 product sense。",
+            "learningValue": "值得作为设计工程师从 UI 实现转向规格定义、验证和产品判断的主线读物。"
+          }
+        ],
+        "learningActions": [
+          "把「AI Engineering / Shaping the build」拆成一个 30 分钟可复现的小练习。",
+          "记录原帖中最值得借鉴的界面/叙事/交互决策，并说明它解决了什么问题。",
+          "判断它是否值得进入个人设计工程素材库：保存链接、截图或实现关键词。"
+        ],
+        "tags": [
+          "AI LEARNING",
+          "AI Engineering",
+          "text"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089559957339582639",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ZaynHao/status/2089559957339582639",
+        "author": "Zayn Hao",
+        "handle": "ZaynHao",
+        "datetime": "2026-08-18T03:48:10.000Z",
+        "title": "Rehat 个人网站把 AI 生图融入自我叙事",
+        "originalSummary": "原帖内容：将 AI 生图应用到个人网站中的设计案例： https://reh.at/ 还挺有意思的。",
+        "whySaved": "",
+        "whyCaptured": "我抓取它，是因为它把「Portfolio / AI Imagery」暴露成今天可复盘的设计工程信号，能转成具体学习任务。",
+        "deepSummary": "Rehat 个人网站把 AI 生图融入自我叙事 的价值在于把原帖现象转成个人设计师可行动的判断：看它如何定义问题、包装能力、呈现状态，并判断哪些部分能沉淀进自己的工具/界面方法库。",
+        "linkAnalysis": [
+          {
+            "url": "https://reh.at/",
+            "title": "Rehat personal site",
+            "access": "full",
+            "value": "页面把个人身份、长期项目、开源 agent 和视觉风格放在同一个叙事里。",
+            "learningValue": "可作为个人作品集如何整合 AI 图片但不沦为装饰的参考。"
+          }
+        ],
+        "learningActions": [
+          "把「Portfolio / AI Imagery」拆成一个 30 分钟可复现的小练习。",
+          "记录原帖中最值得借鉴的界面/叙事/交互决策，并说明它解决了什么问题。",
+          "判断它是否值得进入个人设计工程素材库：保存链接、截图或实现关键词。"
+        ],
+        "tags": [
+          "PORTFOLIO",
+          "Portfolio",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089558596098969978",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/nateparrott/status/2089558596098969978",
+        "author": "nate parrott",
+        "handle": "nateparrott",
+        "datetime": "2026-08-18T03:42:46.000Z",
+        "title": "Fable magic canvas 用拖拽把网页信息变成结构化 sheet",
+        "originalSummary": "原帖内容：quick fable prototype: a 'magic canvas' with browser tabs, text and 'magic sheets' that fill with whatever is described. here, i'm dragging restaurant names off a webpage and dropping them on a magic sheet that maps them",
+        "whySaved": "",
+        "whyCaptured": "我抓取它，是因为它把「Canvas UI / AI Prototype」暴露成今天可复盘的设计工程信号，能转成具体学习任务。",
+        "deepSummary": "Fable magic canvas 用拖拽把网页信息变成结构化 sheet 的价值在于把原帖现象转成个人设计师可行动的判断：看它如何定义问题、包装能力、呈现状态，并判断哪些部分能沉淀进自己的工具/界面方法库。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Canvas UI / AI Prototype」拆成一个 30 分钟可复现的小练习。",
+          "记录原帖中最值得借鉴的界面/叙事/交互决策，并说明它解决了什么问题。",
+          "判断它是否值得进入个人设计工程素材库：保存链接、截图或实现关键词。"
+        ],
+        "tags": [
+          "AI PRODUCT",
+          "Canvas UI",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089557123944636674",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/im_xiaoxiao/status/2089557123944636674",
+        "author": "Xiao",
+        "handle": "im_xiaoxiao",
+        "datetime": "2026-08-18T03:36:55.000Z",
+        "title": "X 需要不再通知来处理爆款帖通知疲劳",
+        "originalSummary": "原帖内容：X什么时候才能知道我们需要一个叫做 “不再通知”的功能，来避免无穷尽的被一两条受欢迎的tweet的fav/retweet通知所打扰。 （截图来自抖音） cc @benjitaylor",
+        "whySaved": "",
+        "whyCaptured": "我抓取它，是因为它把「Notification UX / Attention Control」暴露成今天可复盘的设计工程信号，能转成具体学习任务。",
+        "deepSummary": "X 需要不再通知来处理爆款帖通知疲劳 的价值在于把原帖现象转成个人设计师可行动的判断：看它如何定义问题、包装能力、呈现状态，并判断哪些部分能沉淀进自己的工具/界面方法库。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Notification UX / Attention Control」拆成一个 30 分钟可复现的小练习。",
+          "记录原帖中最值得借鉴的界面/叙事/交互决策，并说明它解决了什么问题。",
+          "判断它是否值得进入个人设计工程素材库：保存链接、截图或实现关键词。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Notification UX",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089555831373316387",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abduzeedo/status/2089555831373316387",
+        "author": "Fabio - abduzeedo",
+        "handle": "abduzeedo",
+        "datetime": "2026-08-18T03:31:46.000Z",
+        "title": "ABDZ 文章背景色从图片提取转向沉浸式色彩系统",
+        "originalSummary": "原帖内容：I’ve always loved color extraction, from early Abduzeedo drop shadows to Google Search. Now, I’m going all in with full background colors on ABDZ articles. Check this out :) and let me know wdyt!",
+        "whySaved": "",
+        "whyCaptured": "我抓取它，是因为它把「Color Extraction / Editorial UI」暴露成今天可复盘的设计工程信号，能转成具体学习任务。",
+        "deepSummary": "ABDZ 文章背景色从图片提取转向沉浸式色彩系统 的价值在于把原帖现象转成个人设计师可行动的判断：看它如何定义问题、包装能力、呈现状态，并判断哪些部分能沉淀进自己的工具/界面方法库。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Color Extraction / Editorial UI」拆成一个 30 分钟可复现的小练习。",
+          "记录原帖中最值得借鉴的界面/叙事/交互决策，并说明它解决了什么问题。",
+          "判断它是否值得进入个人设计工程素材库：保存链接、截图或实现关键词。"
+        ],
+        "tags": [
+          "VISUAL DESIGN",
+          "Color Extraction",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089551848013492695",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/anxndsgn/status/2089551848013492695",
+        "author": "XIN",
+        "handle": "anxndsgn",
+        "datetime": "2026-08-18T03:15:57.000Z",
+        "title": "用 AI 复刻 Stripe Accessible Color Systems 工具",
+        "originalSummary": "原帖内容：借助 AI，终于完美复刻出了 stripe 在文章里只有一张截图的颜色系统工具 https://stripe.com/blog/accessible-color-systems",
+        "whySaved": "",
+        "whyCaptured": "我抓取它，是因为它把「Color System / Accessibility Tooling」暴露成今天可复盘的设计工程信号，能转成具体学习任务。",
+        "deepSummary": "用 AI 复刻 Stripe Accessible Color Systems 工具 的价值在于把原帖现象转成个人设计师可行动的判断：看它如何定义问题、包装能力、呈现状态，并判断哪些部分能沉淀进自己的工具/界面方法库。",
+        "linkAnalysis": [
+          {
+            "url": "https://stripe.com/blog/accessible-color-systems",
+            "title": "Stripe accessible color systems",
+            "access": "full",
+            "value": "原文提供可访问色阶、鲜活颜色和对比度约束的设计背景，原帖只展示复刻结果。",
+            "learningValue": "值得继续拆成色板生成器、对比度检查和 token 命名练习。"
+          }
+        ],
+        "learningActions": [
+          "把「Color System / Accessibility Tooling」拆成一个 30 分钟可复现的小练习。",
+          "记录原帖中最值得借鉴的界面/叙事/交互决策，并说明它解决了什么问题。",
+          "判断它是否值得进入个人设计工程素材库：保存链接、截图或实现关键词。"
+        ],
+        "tags": [
+          "DESIGN TOOL",
+          "Color System",
+          "media:photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089537772751311029",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/leon7hao/status/2089537772751311029",
+        "author": "leon7hao",
+        "handle": "leon7hao",
+        "datetime": "2026-08-18T02:20:01.000Z",
+        "title": "token 用量可视化把 Agent 成本变成可感知形状",
+        "originalSummary": "原帖内容：再欣赏一下 @wibus_wee 设计的 token 用量可视化",
+        "whySaved": "",
+        "whyCaptured": "我抓取它，是因为它把「Token Usage / Data Visualization」暴露成今天可复盘的设计工程信号，能转成具体学习任务。",
+        "deepSummary": "token 用量可视化把 Agent 成本变成可感知形状 的价值在于把原帖现象转成个人设计师可行动的判断：看它如何定义问题、包装能力、呈现状态，并判断哪些部分能沉淀进自己的工具/界面方法库。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Token Usage / Data Visualization」拆成一个 30 分钟可复现的小练习。",
+          "记录原帖中最值得借鉴的界面/叙事/交互决策，并说明它解决了什么问题。",
+          "判断它是否值得进入个人设计工程素材库：保存链接、截图或实现关键词。"
+        ],
+        "tags": [
+          "DATA VISUALIZATION",
+          "Token Usage",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089536998327591280",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ZaynHao/status/2089536998327591280",
+        "author": "Zayn Hao",
+        "handle": "ZaynHao",
+        "datetime": "2026-08-18T02:16:56.000Z",
+        "title": "Ryo style 离开 Cursor 后暴露产品审美连续性问题",
+        "originalSummary": "原帖内容：当一个人的设计风格印在经常使用的产品中时是怎样的感觉？ 当知道将来 Cursor 的设计和更新将不再有 Ryo style 或 Ryo taste，竟然还有点“戒断反应”。 可能将来某一天 Benji 离开 X 时也会有这样的感觉吧。",
+        "whySaved": "",
+        "whyCaptured": "我抓取它，是因为它把「Design Taste / Product Continuity」暴露成今天可复盘的设计工程信号，能转成具体学习任务。",
+        "deepSummary": "Ryo style 离开 Cursor 后暴露产品审美连续性问题 的价值在于把原帖现象转成个人设计师可行动的判断：看它如何定义问题、包装能力、呈现状态，并判断哪些部分能沉淀进自己的工具/界面方法库。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Design Taste / Product Continuity」拆成一个 30 分钟可复现的小练习。",
+          "记录原帖中最值得借鉴的界面/叙事/交互决策，并说明它解决了什么问题。",
+          "判断它是否值得进入个人设计工程素材库：保存链接、截图或实现关键词。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Design Taste",
+          "text"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089522745184760112",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/aaronp613/status/2089522745184760112",
+        "author": "Aaron",
+        "handle": "aaronp613",
+        "datetime": "2026-08-18T01:20:18.000Z",
+        "title": "AirPods 摄像头演示把 Visual Intelligence 推到耳机入口",
+        "originalSummary": "原帖内容：Here is your first look at AirPods with Cameras in action using Visual Intelligence. This video file came from macOS 26.7 RC",
+        "whySaved": "",
+        "whyCaptured": "我抓取它，是因为它把「AI Hardware / Ambient UX」暴露成今天可复盘的设计工程信号，能转成具体学习任务。",
+        "deepSummary": "AirPods 摄像头演示把 Visual Intelligence 推到耳机入口 的价值在于把原帖现象转成个人设计师可行动的判断：看它如何定义问题、包装能力、呈现状态，并判断哪些部分能沉淀进自己的工具/界面方法库。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「AI Hardware / Ambient UX」拆成一个 30 分钟可复现的小练习。",
+          "记录原帖中最值得借鉴的界面/叙事/交互决策，并说明它解决了什么问题。",
+          "判断它是否值得进入个人设计工程素材库：保存链接、截图或实现关键词。"
+        ],
+        "tags": [
+          "AI HARDWARE",
+          "AI Hardware",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089518352989655177",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dingyi/status/2089518352989655177",
+        "author": "Ding",
+        "handle": "dingyi",
+        "datetime": "2026-08-18T01:02:51.000Z",
+        "title": "Okara AI CMO v2 用 Agent 团队包装增长工作流",
+        "originalSummary": "原帖内容：视频做得挺好👇",
+        "whySaved": "",
+        "whyCaptured": "我抓取它，是因为它把「AI Marketing Agent / Workflow Packaging」暴露成今天可复盘的设计工程信号，能转成具体学习任务。",
+        "deepSummary": "Okara AI CMO v2 用 Agent 团队包装增长工作流 的价值在于把原帖现象转成个人设计师可行动的判断：看它如何定义问题、包装能力、呈现状态，并判断哪些部分能沉淀进自己的工具/界面方法库。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/askOkara/status/2089366669613531602",
+            "title": "Okara v2 发布引用帖",
+            "access": "full",
+            "value": "官方引用帖补足“输入网站后部署增长 Agent 团队”的产品承诺和视频上下文。",
+            "learningValue": "可学习 AI SaaS 如何把复杂增长任务包装成一个角色化工作台。"
+          },
+          {
+            "url": "https://okara.ai/",
+            "title": "Okara product page",
+            "access": "full",
+            "value": "产品页展示 SEO、Reddit、X、UGC、GEO 等 Agent 与集成，说明它不是单一聊天工具。",
+            "learningValue": "适合复盘 AI CMO 的 IA、use case 分组和自动化承诺边界。"
+          }
+        ],
+        "learningActions": [
+          "把「AI Marketing Agent / Workflow Packaging」拆成一个 30 分钟可复现的小练习。",
+          "记录原帖中最值得借鉴的界面/叙事/交互决策，并说明它解决了什么问题。",
+          "判断它是否值得进入个人设计工程素材库：保存链接、截图或实现关键词。"
+        ],
+        "tags": [
+          "AI PRODUCT",
+          "AI Marketing Agent",
+          "text"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089385692875067530",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/ALmendili/status/2089385692875067530",
+        "author": "alaa mendili",
+        "handle": "ALmendili",
+        "datetime": "2026-08-17T16:15:42.000Z",
+        "title": "收藏：把代码库变成可讨论的动态视觉图",
+        "originalSummary": "原帖内容：As someone who’s highly visual and mildly technical, I love this idea! I took a stab at making my own version, and it’s been great to gain more clarity around how my app works.",
+        "whySaved": "你会收藏它，是因为它把「Codebase Visualization」变成了可观察的产品、视觉或实现样本，不只是一个好看的素材。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；这条内容能反推你对工具、视觉系统或 Agent 产品的关注点。",
+        "deepSummary": "收藏：把代码库变成可讨论的动态视觉图 的收藏价值在于它对个人设计师有可迁移的方法：从视觉样式、微型工具、AI teammate 品牌或上下文可视化里抽取一条可以实践的设计原则。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/fleetingbits/status/2088016749849682120",
+            "title": "FleetingBits codebase visual diagrams",
+            "access": "full",
+            "value": "引用帖展示 Claude 把代码库转成带数据点的视觉图，收藏帖补充了“视觉型但轻技术用户”的理解收益。",
+            "learningValue": "适合研究代码理解工具如何把抽象结构转成可讨论的图面。"
+          }
+        ],
+        "learningActions": [
+          "解释为什么「Codebase Visualization」触发收藏，并写下偏好标签。",
+          "抽取一个可复用的界面、动效或工具设计原则。",
+          "做一次轻量复刻或拆解，避免只停留在“看过”。"
+        ],
+        "tags": [
+          "Liked",
+          "Visual",
+          "Agent",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089372767934115883",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/emilkowalski/status/2089372767934115883",
+        "author": "Emil Kowalski",
+        "handle": "emilkowalski",
+        "datetime": "2026-08-17T15:24:21.000Z",
+        "title": "收藏：单一高饱和强调色驱动 markdown graph",
+        "originalSummary": "原帖内容：Currently I’m really into markdown graphs with one vibrant accent color",
+        "whySaved": "你会收藏它，是因为它把「Markdown Graph / Accent Color」变成了可观察的产品、视觉或实现样本，不只是一个好看的素材。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；这条内容能反推你对工具、视觉系统或 Agent 产品的关注点。",
+        "deepSummary": "收藏：单一高饱和强调色驱动 markdown graph 的收藏价值在于它对个人设计师有可迁移的方法：从视觉样式、微型工具、AI teammate 品牌或上下文可视化里抽取一条可以实践的设计原则。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "解释为什么「Markdown Graph / Accent Color」触发收藏，并写下偏好标签。",
+          "抽取一个可复用的界面、动效或工具设计原则。",
+          "做一次轻量复刻或拆解，避免只停留在“看过”。"
+        ],
+        "tags": [
+          "Liked",
+          "Visual",
+          "Graph",
+          "media:photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089053213806772360",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/alain_0012/status/2089053213806772360",
+        "author": "Alain Alvarez",
+        "handle": "alain_0012",
+        "datetime": "2026-08-16T18:14:33.000Z",
+        "title": "收藏：blobatar 用轻量确定性几何头像解决身份识别",
+        "originalSummary": "原帖内容：https://blobatar.dev Repo: https://github.com/Alain00/blobatar",
+        "whySaved": "你会收藏它，是因为它把「Identity System / Tiny Library」变成了可观察的产品、视觉或实现样本，不只是一个好看的素材。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；这条内容能反推你对工具、视觉系统或 Agent 产品的关注点。",
+        "deepSummary": "收藏：blobatar 用轻量确定性几何头像解决身份识别 的收藏价值在于它对个人设计师有可迁移的方法：从视觉样式、微型工具、AI teammate 品牌或上下文可视化里抽取一条可以实践的设计原则。",
+        "linkAnalysis": [
+          {
+            "url": "https://blobatar.dev/",
+            "title": "blobatar product page",
+            "access": "full",
+            "value": "页面说明任意字符串生成确定性几何头像、无依赖、约 3.7KB，并提供 React 用法和 trait 编辑。",
+            "learningValue": "可复用到评论区、侧栏、协作光标等低成本身份识别场景。"
+          },
+          {
+            "url": "https://github.com/Alain00/blobatar",
+            "title": "blobatar GitHub repo",
+            "access": "full",
+            "value": "仓库提供源码入口，证明它不是单张视觉 demo，而是可安装的小型库。",
+            "learningValue": "适合看 API 设计、包体控制和可动头像的实现边界。"
+          }
+        ],
+        "learningActions": [
+          "解释为什么「Identity System / Tiny Library」触发收藏，并写下偏好标签。",
+          "抽取一个可复用的界面、动效或工具设计原则。",
+          "做一次轻量复刻或拆解，避免只停留在“看过”。"
+        ],
+        "tags": [
+          "Liked",
+          "Tool",
+          "GitHub",
+          "text"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089043643680403573",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/op7418/status/2089043643680403573",
+        "author": "歸藏(guizang.ai)",
+        "handle": "op7418",
+        "datetime": "2026-08-16T17:36:31.000Z",
+        "title": "收藏：Grok 套餐把 Bot、Build 和创作额度捆绑销售",
+        "originalSummary": "原帖内容：卧槽，原来现在还是能以每个月 99 美元的价格，订阅 Grok Harvey 这个级别的会员，这个超值！ 你相当于一下获得了： 1. 价值 300 美元的 Grok Harvey（包括 Grok Build 权限） 2. 价值 200 美元的 Cursor Ultra 会员，还有 Fable 5 的额度。 3. Grok Bot 的独立额度（这三个额度都是独立的） 4. Grok Image 和 Video（图像与视频模型）的额度 5. 会自动送你一份 Twitter Premium+ 订阅 折合下来只要 700…",
+        "whySaved": "你会收藏它，是因为它把「AI Product Packaging」变成了可观察的产品、视觉或实现样本，不只是一个好看的素材。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；这条内容能反推你对工具、视觉系统或 Agent 产品的关注点。",
+        "deepSummary": "收藏：Grok 套餐把 Bot、Build 和创作额度捆绑销售 的收藏价值在于它对个人设计师有可迁移的方法：从视觉样式、微型工具、AI teammate 品牌或上下文可视化里抽取一条可以实践的设计原则。",
+        "linkAnalysis": [
+          {
+            "url": "https://grok.com/supergrok/targeted-offer/email-supergrok-50-off-2mo",
+            "title": "Grok targeted offer 50 off",
+            "access": "partial",
+            "value": "页面可访问但只暴露 Grok SPA 壳和通用描述，不能直接核验折扣明细。",
+            "learningValue": "只可作为产品包装线索，不能当作价格事实引用。"
+          },
+          {
+            "url": "https://grok.com/supergrok/targeted-offer/email-supergrok-67-off-3mo",
+            "title": "Grok targeted offer 67 off",
+            "access": "partial",
+            "value": "页面可访问但未读到具体权益细节，折扣与套餐组合需登录或后续确认。",
+            "learningValue": "适合观察 AI 产品如何用额度组合做转化，但不要据此做购买判断。"
+          }
+        ],
+        "learningActions": [
+          "解释为什么「AI Product Packaging」触发收藏，并写下偏好标签。",
+          "抽取一个可复用的界面、动效或工具设计原则。",
+          "做一次轻量复刻或拆解，避免只停留在“看过”。"
+        ],
+        "tags": [
+          "Liked",
+          "AI Product",
+          "Pricing",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2087240760764567786",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/doganuraldesign/status/2087240760764567786",
+        "author": "Dogan Ural",
+        "handle": "doganuraldesign",
+        "datetime": "2026-08-11T18:12:31.000Z",
+        "title": "收藏：Grok Bot mascot options 展示 AI 队友人格方向",
+        "originalSummary": "原帖内容：Grok Bot mascot options",
+        "whySaved": "你会收藏它，是因为它把「Mascot / AI Teammate」变成了可观察的产品、视觉或实现样本，不只是一个好看的素材。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；这条内容能反推你对工具、视觉系统或 Agent 产品的关注点。",
+        "deepSummary": "收藏：Grok Bot mascot options 展示 AI 队友人格方向 的收藏价值在于它对个人设计师有可迁移的方法：从视觉样式、微型工具、AI teammate 品牌或上下文可视化里抽取一条可以实践的设计原则。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/bot/status/2087224798078517251",
+            "title": "Grok Bot 官方发布帖",
+            "access": "full",
+            "value": "引用帖说明 Bot 是能登录工具、执行真实工作的 AI 队友；mascot options 则补足人格和形象方向。",
+            "learningValue": "可学习 AI teammate 的品牌角色、动效和信任感如何共同塑造。"
+          }
+        ],
+        "learningActions": [
+          "解释为什么「Mascot / AI Teammate」触发收藏，并写下偏好标签。",
+          "抽取一个可复用的界面、动效或工具设计原则。",
+          "做一次轻量复刻或拆解，避免只停留在“看过”。"
+        ],
+        "tags": [
+          "Liked",
+          "Brand",
+          "Motion",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2087227155076046995",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/benjitaylor/status/2087227155076046995",
+        "author": "Benji Taylor",
+        "handle": "benjitaylor",
+        "datetime": "2026-08-11T17:18:27.000Z",
+        "title": "收藏：Grok Bot 图标用代码实现状态和表情 morph",
+        "originalSummary": "原帖内容：Had a lot of fun animating our new Grok Bot icon. It's entirely made in code, with every state, shape and expression able to morph smoothly into the other. And of course, I made it with Grok Build.",
+        "whySaved": "你会收藏它，是因为它把「Code-driven Icon Motion」变成了可观察的产品、视觉或实现样本，不只是一个好看的素材。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；这条内容能反推你对工具、视觉系统或 Agent 产品的关注点。",
+        "deepSummary": "收藏：Grok Bot 图标用代码实现状态和表情 morph 的收藏价值在于它对个人设计师有可迁移的方法：从视觉样式、微型工具、AI teammate 品牌或上下文可视化里抽取一条可以实践的设计原则。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "解释为什么「Code-driven Icon Motion」触发收藏，并写下偏好标签。",
+          "抽取一个可复用的界面、动效或工具设计原则。",
+          "做一次轻量复刻或拆解，避免只停留在“看过”。"
+        ],
+        "tags": [
+          "Liked",
+          "Icon",
+          "Motion",
+          "media:video"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-18",
     "generatedAt": "2026-08-18T09:50:04+08:00",
     "batch": "x-ai-design-analysis-2026-08-18-0812",
     "analysisCount": 100,

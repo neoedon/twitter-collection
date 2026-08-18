@@ -1,6 +1,284 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-18T05:06:53.000Z",
+    "author": "Apoorv Agarwal",
+    "handle": "apurv019",
+    "avatar": "https://pbs.twimg.com/profile_images/2005948797289918464/6pghRyjr_200x200.jpg",
+    "title": "AI 工具之间的偏好和项目记忆无法迁移",
+    "summary": "Apoorv Agarwal 把 Claude、Codex 等工具之间重复交代偏好和项目上下文的问题讲清楚。它是个人设计工程工作台需要长期记忆、偏好迁移和上下文协议的信号。",
+    "url": "https://x.com/apurv019/status/2089579766542467077",
+    "media": [],
+    "metrics": "7 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 23 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent Memory / Context Portability",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-18T05:05:14.000Z",
+    "author": "Purva van de Linde",
+    "handle": "purvapande",
+    "avatar": "https://pbs.twimg.com/profile_images/2089522021655060480/GTO5HAHL_200x200.jpg",
+    "title": "Agent 失败常常不是模型问题而是组织上下文问题",
+    "summary": "Purva van de Linde 指出生产级 Agent 需要把人脑和文档中的知识写成活地图。对设计工程师来说，这是从 demo 走向可维护系统的上下文设计问题。",
+    "url": "https://x.com/purvapande/status/2089579352182960438",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 51 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent Context / Knowledge Map",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI LEARNING",
+    "datetime": "2026-08-18T05:02:00.000Z",
+    "author": "Haruki Sonehara / 🇺🇸シリコンバレー企業のプロダクト戦略",
+    "handle": "Haruki_Sonehara",
+    "avatar": "https://pbs.twimg.com/profile_images/1170937949061410816/0HlOljs2_200x200.jpg",
+    "title": "AI Engineering 技能图把产品判断列入核心能力",
+    "summary": "Haruki 转述 Andrew Ng 的 AI Engineering Skills Map，特别强调 product sense、业务语境和 shaping the build。它直接对应设计工程师从执行 UI 转向定义规格的能力升级。",
+    "url": "https://x.com/Haruki_Sonehara/status/2089578536851939364",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 152 VIEWS",
+    "links": [
+      "https://x.com/hiroki_daichi/status/2089530336330076546"
+    ],
+    "_analysisTheme": "AI Engineering / Shaping the build",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2089530336330076546",
+      "author": "広木 大地/ エンジニアリング組織論への招待",
+      "handle": "hiroki_daichi",
+      "text": "アンドリュー・エンが「AIエンジニアリングのスキルマップ」を公開しました。求人票1万件超の分析と数十件の専門家インタビューから、いま開発者が何を学ぶべきかを4つに整理したものです。北米ではRT 3,535に対してブックマークが47,299。拡散の13倍の数だけ「保存」されていて、誰かに教えたい情報というより、自分のキャリアのために読み返したい情報として受け取られています。\n\n前提の整理がまず面白い。AIエンジニアリングという職種が新しくできるのではなく、かつてのクラウドがそうだったように、すべての開発者が身につける共通スキルになる、という位置づけです。\n\n中身は4カテゴリ。\n\nAIアプリの構築とデプロイ。LLM、コンテキストエンジニアリング、RAG、エージェント型ワークフロー。核心は、出力が予測できないシステムを評価 (evals) とエラー分析のループで統計的に制御することに置かれています。\n\nソフトウェア工学の基礎。基礎力はむしろ前提として残る側です。セキュリティ、プライバシー、コスト、スケーラビリティのトレードオフを判断する力。\n\nコーディングエージェントの使いこなし。コンテキストの渡し方、出力を検証する仕組みの組み方。「書かせること」自体が独立したスキルとして一枠を与えられたのが今回の特徴です。\n\nShaping the build。曖昧な要望を明確な仕様に落とす力で、プロダクトセンス、ビジネス文脈の理解、MVPをいつ出すかの判断まで含みます。コードを書く手前の工程が、マップの4分の1を占めました。\n\n横串には「進化が速すぎるので、学び続ける姿勢そのものが必須スキル」という一項。\n\n通して眺めると、4つのうちモデルの賢さそのものに賭けているものはひとつもありません。仕様を決める、検証の仕組みを作る、トレードオフを判断する。モデルが賢くなるほど、人間側に残る仕事は設計とマネジメントに寄っていきます。2022年から作り方は大きく変わったのに、何を学ぶかの共通認識はありませんでした。この地図はその空白を埋めに来ていて、実際「context engineering」「evals」という語彙はこの数日で一気に共通言語になりつつあります。書き換わる途中のエンジニアリングの定義の、いまの断面図です。\n\nhttps://x.com/AndrewYNg/status/2088302050706686198",
+      "url": "https://x.com/hiroki_daichi/status/2089530336330076546",
+      "media": []
+    }
+  },
+  {
+    "category": "PORTFOLIO",
+    "datetime": "2026-08-18T03:48:10.000Z",
+    "author": "Zayn Hao",
+    "handle": "ZaynHao",
+    "avatar": "https://pbs.twimg.com/profile_images/1490844347721342981/_vcCNxRm_200x200.jpg",
+    "title": "Rehat 个人网站把 AI 生图融入自我叙事",
+    "summary": "Zayn Hao 抓到 reh.at 这个个人网站案例：AI 视觉不是单张装饰图，而是和软件工程、摄影、训练、开源 agent 项目一起构成个人身份表达。",
+    "url": "https://x.com/ZaynHao/status/2089559957339582639",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089559794172690433/vid/avc1/2578x2018/vFEmP60VbmbfDs-5.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089559794172690433/img/xP0rwKwlH6lO3CrB.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 1 REPOSTS · 8 LIKES · 6 BOOKMARKS · 909 VIEWS",
+    "links": [
+      "https://reh.at/"
+    ],
+    "_analysisTheme": "Portfolio / AI Imagery",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "Rehat",
+      "url": "https://reh.at/",
+      "preview": "个人网站把软件工程、摄影、力量训练和 Interbase agent 项目组织成带 AI 视觉气质的自我介绍。"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-18T03:42:46.000Z",
+    "author": "nate parrott",
+    "handle": "nateparrott",
+    "avatar": "https://pbs.twimg.com/profile_images/1148443145199337472/acT3nTR6_200x200.jpg",
+    "title": "Fable magic canvas 用拖拽把网页信息变成结构化 sheet",
+    "summary": "nate parrott 展示 Fable 原型：浏览器标签、文本和 magic sheets 同在画布里，拖动餐厅名称后自动生成地图。它展示了信息抽取、空间画布和 AI 填表的组合方式。",
+    "url": "https://x.com/nateparrott/status/2089558596098969978",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089558269601742848/vid/avc1/978x720/RB2HhBn4tPqSvXUj.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089558269601742848/img/KsaaUKO4HzuL3f_6.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "9 REPLIES · 1 REPOSTS · 88 LIKES · 46 BOOKMARKS · 3875 VIEWS",
+    "links": [],
+    "_analysisTheme": "Canvas UI / AI Prototype",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-18T03:36:55.000Z",
+    "author": "Xiao",
+    "handle": "im_xiaoxiao",
+    "avatar": "https://pbs.twimg.com/profile_images/1584067696114962434/Ng3Hp-pL_200x200.jpg",
+    "title": "X 需要不再通知来处理爆款帖通知疲劳",
+    "summary": "Xiao 用抖音截图类比“不要再通知”能力，指出社交产品需要给用户关闭单条爆款互动提醒的出口。适合加入通知系统和注意力治理的设计参考。",
+    "url": "https://x.com/im_xiaoxiao/status/2089557123944636674",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP-ZH9GbAAAdXi3.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 195 VIEWS",
+    "links": [],
+    "_analysisTheme": "Notification UX / Attention Control",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "VISUAL DESIGN",
+    "datetime": "2026-08-18T03:31:46.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "ABDZ 文章背景色从图片提取转向沉浸式色彩系统",
+    "summary": "Fabio 展示 Abduzeedo 文章页的全背景色尝试，把早期 drop shadow/Google Search 式取色经验转成内容页环境色。它适合观察 editorial UI 如何从图片生成页面氛围。",
+    "url": "https://x.com/abduzeedo/status/2089555831373316387",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089555762444140544/vid/avc1/1920x1288/Z7D6I4piXIP4L4So.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089555762444140544/img/0GDePqPX5o1Q3mTu.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 2 BOOKMARKS · 680 VIEWS",
+    "links": [],
+    "_analysisTheme": "Color Extraction / Editorial UI",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-18T03:15:57.000Z",
+    "author": "XIN",
+    "handle": "anxndsgn",
+    "avatar": "https://pbs.twimg.com/profile_images/1941543712850583552/wmCr-PT0_200x200.jpg",
+    "title": "用 AI 复刻 Stripe Accessible Color Systems 工具",
+    "summary": "XIN 复刻 Stripe 文章中只出现截图的可访问色彩系统工具。它是设计工程师把参考文章变成可操作工具的好样本，重点在对比度、色阶和交互化验证。",
+    "url": "https://x.com/anxndsgn/status/2089551848013492695",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP-T9w9bAAADZhh.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP-UReBaAAA6yWb.jpg?name=orig"
+      }
+    ],
+    "metrics": "2 REPLIES · 4 REPOSTS · 11 LIKES · 7 BOOKMARKS · 973 VIEWS",
+    "links": [
+      "https://stripe.com/blog/accessible-color-systems"
+    ],
+    "_analysisTheme": "Color System / Accessibility Tooling",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Designing accessible color systems",
+      "url": "https://stripe.com/blog/accessible-color-systems",
+      "preview": "Stripe 文章解释如何手工设计一套既鲜活又满足可访问性和对比度标准的颜色系统。"
+    }
+  },
+  {
+    "category": "DATA VISUALIZATION",
+    "datetime": "2026-08-18T02:20:01.000Z",
+    "author": "leon7hao",
+    "handle": "leon7hao",
+    "avatar": "https://pbs.twimg.com/profile_images/1659045486903578624/Fp_n53vj_200x200.jpg",
+    "title": "token 用量可视化把 Agent 成本变成可感知形状",
+    "summary": "leon7hao 分享 wibus_wee 设计的 token 用量可视化。它把抽象消耗量变成可读的空间/动效反馈，适合用于 AI 工具里的预算、上下文和等待状态设计。",
+    "url": "https://x.com/leon7hao/status/2089537772751311029",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089536682366468096/vid/avc1/2198x1900/LkM4QsROaD0kc9H0.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089536682366468096/img/C-qcEhLTd9Oqwx67.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "12 REPLIES · 1 REPOSTS · 52 LIKES · 29 BOOKMARKS · 3120 VIEWS",
+    "links": [],
+    "_analysisTheme": "Token Usage / Data Visualization",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-18T02:16:56.000Z",
+    "author": "Zayn Hao",
+    "handle": "ZaynHao",
+    "avatar": "https://pbs.twimg.com/profile_images/1490844347721342981/_vcCNxRm_200x200.jpg",
+    "title": "Ryo style 离开 Cursor 后暴露产品审美连续性问题",
+    "summary": "Zayn Hao 从 Cursor 设计风格变化谈到“Ryo taste”的戒断感。它提醒产品设计不只是组件一致性，还包含长期使用中可被用户识别的作者性和审美连续性。",
+    "url": "https://x.com/ZaynHao/status/2089536998327591280",
+    "media": [],
+    "metrics": "1 REPLIES · 0 REPOSTS · 2 LIKES · 1 BOOKMARKS · 952 VIEWS",
+    "links": [],
+    "_analysisTheme": "Design Taste / Product Continuity",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI HARDWARE",
+    "datetime": "2026-08-18T01:20:18.000Z",
+    "author": "Aaron",
+    "handle": "aaronp613",
+    "avatar": "https://pbs.twimg.com/profile_images/1837168376386371584/AJZZayD4_200x200.jpg",
+    "title": "AirPods 摄像头演示把 Visual Intelligence 推到耳机入口",
+    "summary": "Aaron 展示来自 macOS 26.7 RC 的 AirPods with Cameras 视觉智能视频文件。若属实，它提示穿戴式入口会把拍摄、识别和提示从手机屏幕迁移到更环境化的交互。",
+    "url": "https://x.com/aaronp613/status/2089522745184760112",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089521571396251648/vid/avc1/2160x3840/oQnD4dA6fPpOieMr.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089521571396251648/img/vXZijTI2AotCu58n.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "103 REPLIES · 158 REPOSTS · 2252 LIKES · 673 BOOKMARKS · 1056558 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Hardware / Ambient UX",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-18T01:02:51.000Z",
+    "author": "Ding",
+    "handle": "dingyi",
+    "avatar": "https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_200x200.jpg",
+    "title": "Okara AI CMO v2 用 Agent 团队包装增长工作流",
+    "summary": "Ding 转评 Okara AI CMO v2 发布视频。官方引用帖说明输入网站后部署增长 Agent 团队，这适合观察 AI SaaS 如何把复杂营销任务包装成一个可理解的 CMO 角色。",
+    "url": "https://x.com/dingyi/status/2089518352989655177",
+    "media": [],
+    "metrics": "9 REPLIES · 0 REPOSTS · 15 LIKES · 17 BOOKMARKS · 4931 VIEWS",
+    "links": [
+      "https://x.com/askOkara/status/2089366669613531602"
+    ],
+    "_analysisTheme": "AI Marketing Agent / Workflow Packaging",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Okara: The Only AI CMO That Puts Marketing on Autopilot",
+      "url": "https://okara.ai/",
+      "preview": "产品页把 SEO、Reddit、内容、UGC、X/Twitter 等增长任务拆成 Agent 与集成。"
+    },
+    "quote": {
+      "id": "2089366669613531602",
+      "author": "Okara",
+      "handle": "askOkara",
+      "text": "Today we're introducing Okara AI CMO v2.\n\nDrop in your website and it deploys a team of faster and smarter agents to help you get traffic, and users.\n\nTry it now at https://okara.ai",
+      "url": "https://x.com/askOkara/status/2089366669613531602",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2089362765085556736/vid/avc1/1920x1080/ep8cX8y70edy0ALG.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/media/HP7tnl_XkAAlwR6.jpg",
+          "crossOrigin": false
+        }
+      ]
+    }
+  },
+  {
     "category": "DESIGN TOOL",
     "datetime": "2026-08-18T00:49:37.000Z",
     "author": "Tokdev",

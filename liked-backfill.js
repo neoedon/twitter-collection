@@ -1,4 +1,4 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-18T09:50:04+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-18T13:14:15+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
   {
@@ -39,6 +39,58 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2089385692875067530",
+    "TwitterUserID": "24740770",
+    "UserScreenName": "ALmendili",
+    "UserProfileName": "alaa mendili",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1588169983728795648/iqcDPL5a_200x200.jpg",
+    "TweetText": "As someone who’s highly visual and mildly technical, I love this idea! I took a stab at making my own version, and it’s been great to gain more clarity around how my app works.",
+    "Tweet Url": "https://x.com/ALmendili/status/2089385692875067530",
+    "TweetCreatedDate": "2026-08-17T16:15:42.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089385493725396992/img/61Qv1A58_Lhqn1Qt.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2089385493725396992/vid/avc1/3840x2160/WTlGTytGyQbAXbll.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Visual",
+      "Agent",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089385493725396992/vid/avc1/3840x2160/WTlGTytGyQbAXbll.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089385493725396992/img/61Qv1A58_Lhqn1Qt.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": {
+      "id": "2088016749849682120",
+      "author": "FleetingBits",
+      "handle": "fleetingbits",
+      "text": "i've started having claude turn my codebases into visual diagrams so i can discuss the codebases with claude more easily - the moving dots are data snippets that i can inspect",
+      "url": "https://x.com/fleetingbits/status/2088016749849682120",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HPofaRHbMAA8NNO.jpg?name=orig"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "29 REPLIES · 64 REPOSTS · 1856 LIKES · 2391 BOOKMARKS · 139594 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-18T13:14:15+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-17T16:15:42.000Z"
+    }
+  },
+  {
     "TweetID": "2089376847561981962",
     "TwitterUserID": "3095145355",
     "UserScreenName": "BunnyxStudio",
@@ -76,6 +128,52 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 1,
       "observedDatetime": "2026-08-17T15:40:33.000Z"
+    }
+  },
+  {
+    "TweetID": "2089372767934115883",
+    "TwitterUserID": "1255500442898964481",
+    "UserScreenName": "emilkowalski",
+    "UserProfileName": "Emil Kowalski",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1469017066795679751/CjEOyirb_200x200.jpg",
+    "TweetText": "Currently I’m really into markdown graphs with one vibrant accent color",
+    "Tweet Url": "https://x.com/emilkowalski/status/2089372767934115883",
+    "TweetCreatedDate": "2026-08-17T15:24:21.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HP7xVmcWgAAGfWs.jpg?name=orig,https://pbs.twimg.com/media/HP7xWr2WgAARhKk.jpg?name=orig,https://pbs.twimg.com/media/HP7xXMqXUAASoP9.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Visual",
+      "Graph",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP7xVmcWgAAGfWs.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP7xWr2WgAARhKk.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP7xXMqXUAASoP9.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "33 REPLIES · 35 REPOSTS · 1824 LIKES · 1052 BOOKMARKS · 44154 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-18T13:14:15+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-17T15:24:21.000Z"
     }
   },
   {
@@ -468,6 +566,43 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2089053213806772360",
+    "TwitterUserID": "1048393757090041857",
+    "UserScreenName": "alain_0012",
+    "UserProfileName": "Alain Alvarez",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1978415747438129152/WLS6MYFi_200x200.jpg",
+    "TweetText": "https://blobatar.dev\nRepo: https://github.com/Alain00/blobatar",
+    "Tweet Url": "https://x.com/alain_0012/status/2089053213806772360",
+    "TweetCreatedDate": "2026-08-16T18:14:33.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Tool",
+      "GitHub"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "blobatar — deterministic geometric blobatars",
+      "url": "https://blobatar.dev/",
+      "preview": "确定性几何头像库：任意字符串生成稳定头像，无依赖，约 3.7KB。"
+    },
+    "_metrics": "0 REPLIES · 2 REPOSTS · 48 LIKES · 52 BOOKMARKS · 2457 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-18T13:14:15+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-16T18:14:33.000Z"
+    }
+  },
+  {
     "TweetID": "2089052291252781347",
     "TwitterUserID": "1048393757090041857",
     "UserScreenName": "alain_0012",
@@ -505,6 +640,52 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 1,
       "observedDatetime": "2026-08-16T18:10:53.000Z"
+    }
+  },
+  {
+    "TweetID": "2089043643680403573",
+    "TwitterUserID": "1669276256",
+    "UserScreenName": "op7418",
+    "UserProfileName": "歸藏(guizang.ai)",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_200x200.jpg",
+    "TweetText": "卧槽，原来现在还是能以每个月 99 美元的价格，订阅 Grok Harvey 这个级别的会员，这个超值！\n\n你相当于一下获得了：\n\n1. 价值 300 美元的 Grok Harvey（包括 Grok Build 权限）\n\n2. 价值 200 美元的 Cursor Ultra 会员，还有 Fable 5 的额度。\n\n3. Grok Bot 的独立额度（这三个额度都是独立的）\n\n4. Grok Image 和 Video（图像与视频模型）的额度\n\n5. 会自动送你一份 Twitter Premium+ 订阅\n\n折合下来只要 700 块钱一个月，简直夯爆了！\n\n尤其是 Grok 后面还有更强的模型要发布。\n\n可以看一下具体的使用路径：\n\n1. 准备 Grok 账号：先登录一个 Grok 账号。\n\n前提条件：如果你之前是用 Twitter（X）登录并订阅的，需要先取消 Twitter 订阅（取消后不会立即生效，所以我建议直接注册申请一个新的 Grok 账号。虽然新账号没办法共享你原有的 Twitter Premium，但这次订阅）。\n如果是用旧账户或者 Twitter 授权登录，操作起来会有点麻烦，所以强烈建议用新账户注册。\n\n2. 订阅促销活动：\n\n先去第一个链接(https://grok.com/supergrok/targeted-offer/email-supergrok-50-off-2mo)，订阅获取两个月的 Super Grok 促销。\n\n订阅成功后，再去下面第二个地址(https://grok.com/supergrok/targeted-offer/email-supergrok-67-off-3mo)，订阅连续三个月 99 美元的 Super Grok Harvey。\n\n注意：后续记得及时取消订阅，否则到期后会恢复成 300 美元/月。\n\n3. 绑定 Cursor 会员：\n\n下载并登录 Grok Bot，登录时有个选项会要求选择 Cursor 授权登录。\n\n这个时候，只要你有一个相同邮箱的 Cursor 账号（如果没有，就用这个邮箱注册一个），系统就会自动给你充值 Cursor 的 Ultra 会员。",
+    "Tweet Url": "https://x.com/op7418/status/2089043643680403573",
+    "TweetCreatedDate": "2026-08-16T17:36:31.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HP3F4QOawAAQGWM.jpg?name=orig,https://pbs.twimg.com/media/HP3F4WxboAAibhy.jpg?name=orig,https://pbs.twimg.com/media/HP3F4nLaEAAtQ-0.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "AI Product",
+      "Pricing",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3F4QOawAAQGWM.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3F4WxboAAibhy.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HP3F4nLaEAAtQ-0.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "66 REPLIES · 64 REPOSTS · 687 LIKES · 1200 BOOKMARKS · 230637 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-18T13:14:15+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-16T17:36:31.000Z"
     }
   },
   {
@@ -1086,7 +1267,7 @@ window.LIKED_BACKFILL = [
     "UserScreenName": "absolute__tk",
     "UserProfileName": "tk",
     "UserProfilePic": "https://pbs.twimg.com/profile_images/1881141187933077504/zG8MigAE_200x200.jpg",
-    "TweetText": "",
+    "TweetText": "Image-only quote: Google Design Achieve completion animation",
     "Tweet Url": "https://x.com/absolute__tk/status/2088443238059585539",
     "TweetCreatedDate": "2026-08-15T01:50:44.000Z",
     "MediaType": "photo",
@@ -2425,6 +2606,60 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2087240760764567786",
+    "TwitterUserID": "1553043003496960000",
+    "UserScreenName": "doganuraldesign",
+    "UserProfileName": "Dogan Ural",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1840794096291442688/JrhE7vnL_200x200.jpg",
+    "TweetText": "Grok Bot mascot options",
+    "Tweet Url": "https://x.com/doganuraldesign/status/2087240760764567786",
+    "TweetCreatedDate": "2026-08-11T18:12:31.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087240631965859840/img/I-9c6BrGDqqwGpW9.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087240631965859840/vid/avc1/1616x2160/w6vEIxpH4g5MkxBW.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Brand",
+      "Motion",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087240631965859840/vid/avc1/1616x2160/w6vEIxpH4g5MkxBW.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087240631965859840/img/I-9c6BrGDqqwGpW9.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": {
+      "id": "2087224798078517251",
+      "author": "Grok Bot",
+      "handle": "bot",
+      "text": "Introducing Grok Bot, now in early beta.\n\nBots are AI teammates that do real work for you. They sign in to your tools, use them just like you do, and come back with finished work.",
+      "url": "https://x.com/bot/status/2087224798078517251",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2087221157787525120/vid/avc1/3840x2160/6h-ilLTaW4Kxmusy.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2087221157787525120/img/n9OrR6nUrxVZL4oY.jpg",
+          "crossOrigin": false
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "38 REPLIES · 33 REPOSTS · 503 LIKES · 149 BOOKMARKS · 49377 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-18T13:14:15+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-11T18:12:31.000Z"
+    }
+  },
+  {
     "TweetID": "2087236868911902831",
     "TwitterUserID": "1399866136787918850",
     "UserScreenName": "hero_ui",
@@ -2461,6 +2696,86 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-11T17:57:03.000Z"
+    }
+  },
+  {
+    "TweetID": "2087227155076046995",
+    "TwitterUserID": "2606432720",
+    "UserScreenName": "benjitaylor",
+    "UserProfileName": "Benji Taylor",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1485350275372048384/FwGgXuTk_200x200.png",
+    "TweetText": "Had a lot of fun animating our new Grok Bot icon. It's entirely made in code, with every state, shape and expression able to morph smoothly into the other. And of course, I made it with Grok Build.",
+    "Tweet Url": "https://x.com/benjitaylor/status/2087227155076046995",
+    "TweetCreatedDate": "2026-08-11T17:18:27.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087226908824236032/img/2lluEMaw1rVeCdDL.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087226908824236032/vid/avc1/1458x1458/-efQBEAOkg0SIIIH.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Icon",
+      "Motion",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087226908824236032/vid/avc1/1458x1458/-efQBEAOkg0SIIIH.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087226908824236032/img/2lluEMaw1rVeCdDL.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "682 REPLIES · 470 REPOSTS · 11321 LIKES · 2476 BOOKMARKS · 1360925 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-18T13:14:15+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-11T17:18:27.000Z"
+    }
+  },
+  {
+    "TweetID": "2087224798078517251",
+    "TwitterUserID": "2085838061347217408",
+    "UserScreenName": "bot",
+    "UserProfileName": "Grok Bot",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2087219239275069440/KW6C403V_200x200.jpg",
+    "TweetText": "Introducing Grok Bot, now in early beta.\n\nBots are AI teammates that do real work for you. They sign in to your tools, use them just like you do, and come back with finished work.",
+    "Tweet Url": "https://x.com/bot/status/2087224798078517251",
+    "TweetCreatedDate": "2026-08-11T17:09:05.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087221157787525120/img/n9OrR6nUrxVZL4oY.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087221157787525120/vid/avc1/3840x2160/6h-ilLTaW4Kxmusy.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Liked",
+      "Agent",
+      "Product",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087221157787525120/vid/avc1/3840x2160/6h-ilLTaW4Kxmusy.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087221157787525120/img/n9OrR6nUrxVZL4oY.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "2692 REPLIES · 3691 REPOSTS · 32828 LIKES · 14358 BOOKMARKS · 34268613 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-18T13:14:15+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-11T17:09:05.000Z"
     }
   },
   {
@@ -18819,5 +19134,4 @@ window.LIKED_BACKFILL = [
       "observedDatetime": "2025-11-13T11:43:25.000Z"
     }
   }
-]
-  .sort((a, b) => new Date(b.TweetCreatedDate) - new Date(a.TweetCreatedDate));
+];
