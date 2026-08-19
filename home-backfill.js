@@ -2,6 +2,473 @@
   window.HOME_BACKFILL = [
   {
     "category": "AI WORKFLOW",
+    "datetime": "2026-08-19T00:06:11.000Z",
+    "author": "David.Z",
+    "handle": "suoyu007",
+    "avatar": "https://pbs.twimg.com/profile_images/1854072585899921408/wsKiCodw_200x200.jpg",
+    "title": "DeepSeek Harness 把 Agent 运行时插件化",
+    "summary": "David.Z 记录 DeepSeek 开源 Harness：模型、工具、沙箱和 agent loop 都可作为插件替换。它把 Agent 产品从“写死流程”推进到可组合运行时，适合作为设计工程师理解可替换 AI 基础设施的样本。",
+    "url": "https://x.com/suoyu007/status/2089866481332892144",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 4 VIEWS",
+    "links": [
+      "https://github.com/deepseek-ai/deepseek-harness"
+    ],
+    "_analysisTheme": "Agent Runtime / Plugin Architecture",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "DeepSeek Harness 把 Agent 运行时插件化",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "preview": "David.Z 记录 DeepSeek 开源 Harness：模型、工具、沙箱和 agent loop 都可作为插件替换。它把 Agent 产品从“写死流程”推进到可组合运行时，适合作为设计工程师理解可替换 AI 基础设施的样本。"
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-19T00:03:28.000Z",
+    "author": "Alcides Ticlla",
+    "handle": "AlcidesTicllaCh",
+    "avatar": "https://pbs.twimg.com/profile_images/476328870686519296/fLa8ofp4_200x200.jpeg",
+    "title": "Agent skills 过量常驻会拖慢上下文",
+    "summary": "Alcides Ticlla 转述论文观点：把大量 Skill 常驻进系统提示会占用上下文，按需加载和压缩才更适合长期 agent。它直接关系到个人设计工程师如何维护自己的 skill 库。",
+    "url": "https://x.com/AlcidesTicllaCh/status/2089865795325284707",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089861290902601728/vid/avc1/640x360/aBC2mxJq9akgE4I8.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089861290902601728/img/arWG18G53Te_mtRC.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 6 VIEWS",
+    "links": [
+      "https://arxiv.org/abs/2608.12610",
+      "https://youtu.be/YuZZOaSHCRE",
+      "https://www.youtube.com/playlist?list=PLD8LpDp2wyRE"
+    ],
+    "_analysisTheme": "Agent Skills / Context Budget",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Agent skills 过量常驻会拖慢上下文",
+      "url": "https://arxiv.org/abs/2608.12610",
+      "preview": "Alcides Ticlla 转述论文观点：把大量 Skill 常驻进系统提示会占用上下文，按需加载和压缩才更适合长期 agent。它直接关系到个人设计工程师如何维护自己的 skill 库。"
+    }
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-18T23:59:52.000Z",
+    "author": "Daniel San",
+    "handle": "dani_avila7",
+    "avatar": "https://pbs.twimg.com/profile_images/1952921529504649216/RYHFCSSM_200x200.jpg",
+    "title": "Claude Code 多 session 消息流变成工作台交互",
+    "summary": "Daniel San 演示 Claude Code + Ghostty 的 session-to-session messaging：一个主会话调度多个 agent 面板。它不是提示词技巧，而是多 Agent 工作台的信息流、上下文转交和状态可见性问题。",
+    "url": "https://x.com/dani_avila7/status/2089864893092540763",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089863813809995776/vid/avc1/544x360/HQu6feWM1HPUmRBF.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089863813809995776/img/OVeEjw7parMY2U1r.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 4 LIKES · 0 BOOKMARKS · 198 VIEWS",
+    "links": [],
+    "_analysisTheme": "Multi-agent Workspace / Session Messaging",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-18T23:59:47.000Z",
+    "author": "Uriel Bitton",
+    "handle": "uriel_builds",
+    "avatar": "https://pbs.twimg.com/profile_images/2079951061092028416/i_F11CUk_200x200.jpg",
+    "title": "Codex iOS 端把移动生成到发布串起来",
+    "summary": "Uriel Bitton 记录自己用 Codex iOS app 在手机上 prompt、generate、build、ship 一个 app。它是 agent 工具从桌面 IDE 延伸到移动端连续工作流的早期信号。",
+    "url": "https://x.com/uriel_builds/status/2089864869348524271",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 9 VIEWS",
+    "links": [],
+    "_analysisTheme": "Mobile Coding Agent / End-to-end Ship",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI RESEARCH",
+    "datetime": "2026-08-18T23:56:26.000Z",
+    "author": "Alcides Ticlla",
+    "handle": "AlcidesTicllaCh",
+    "avatar": "https://pbs.twimg.com/profile_images/476328870686519296/fLa8ofp4_200x200.jpeg",
+    "title": "Agent Skills 研究把工具选择做成实证问题",
+    "summary": "Alcides Ticlla 继续引用多校研究，用 8,135 次试验解释 SKILL.md 为什么有效。它提醒设计工程师不要只凭体感堆 skill，而要建立评测、触发和维护成本判断。",
+    "url": "https://x.com/AlcidesTicllaCh/status/2089864025362379072",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089861112686596096/vid/avc1/640x360/6GtGOgZrQmTfguOo.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089861112686596096/img/zt6rfhgx8vWWxPA7.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 12 VIEWS",
+    "links": [
+      "https://arxiv.org/abs/2608.14036",
+      "https://www.youtube.com/playlist?list=PLD8LpDp2wyRE"
+    ],
+    "_analysisTheme": "Agent Skills / Evaluation",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Agent Skills 研究把工具选择做成实证问题",
+      "url": "https://arxiv.org/abs/2608.14036",
+      "preview": "Alcides Ticlla 继续引用多校研究，用 8,135 次试验解释 SKILL.md 为什么有效。它提醒设计工程师不要只凭体感堆 skill，而要建立评测、触发和维护成本判断。"
+    }
+  },
+  {
+    "category": "AI SAFETY",
+    "datetime": "2026-08-18T23:56:12.000Z",
+    "author": "🟩_Cliffinkent",
+    "handle": "Cliffinkent",
+    "avatar": "https://pbs.twimg.com/profile_images/2065962443499593728/KwBamMgi_200x200.jpg",
+    "title": "Agent pilot 需要明确停止规则和责任人",
+    "summary": "Cliffinkent 用“工作场景 agent pilot 何时停止”来讲控制权问题。它提醒团队在上线前定义触发器、owner 和 control room，而不是等事故发生后补流程。",
+    "url": "https://x.com/Cliffinkent/status/2089863967585833218",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 31 VIEWS",
+    "links": [
+      "https://cliffinkent.com/opinions/ai-agent-pilot-stop-rule"
+    ],
+    "_analysisTheme": "Agent Safety / Stop Rule",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Agent pilot 需要明确停止规则和责任人",
+      "url": "https://cliffinkent.com/opinions/ai-agent-pilot-stop-rule",
+      "preview": "Cliffinkent 用“工作场景 agent pilot 何时停止”来讲控制权问题。它提醒团队在上线前定义触发器、owner 和 control room，而不是等事故发生后补流程。"
+    }
+  },
+  {
+    "category": "AI TOOLING",
+    "datetime": "2026-08-18T23:56:00.000Z",
+    "author": "Bryan",
+    "handle": "so_sthbryan",
+    "avatar": "https://pbs.twimg.com/profile_images/2043833503259799552/uX7PgjZa_200x200.jpg",
+    "title": "Tokencompress 用 MCP sidecar 清理 Agent 噪声",
+    "summary": "Bryan 介绍 Tokencompress：一个 Go MCP sidecar，在 LLM 看到工具噪声前做 sub-2ms prune。它是把上下文成本、工具日志和 agent 稳定性产品化的轻量样本。",
+    "url": "https://x.com/so_sthbryan/status/2089863916620750920",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 8 VIEWS",
+    "links": [
+      "https://github.com/dburnett11155-rgb/Tokencompress"
+    ],
+    "_analysisTheme": "MCP / Context Compression",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Tokencompress 用 MCP sidecar 清理 Agent 噪声",
+      "url": "https://github.com/dburnett11155-rgb/Tokencompress",
+      "preview": "Bryan 介绍 Tokencompress：一个 Go MCP sidecar，在 LLM 看到工具噪声前做 sub-2ms prune。它是把上下文成本、工具日志和 agent 稳定性产品化的轻量样本。"
+    }
+  },
+  {
+    "category": "MOTION DESIGN",
+    "datetime": "2026-08-18T23:51:14.000Z",
+    "author": "Micah",
+    "handle": "multimicah",
+    "avatar": "https://pbs.twimg.com/profile_images/1924704189411950592/WdTwdRdO_200x200.jpg",
+    "title": "跨工具的控制对象是动效工作流共通层",
+    "summary": "Micah 把 Figma Frame、After Effects Null、Blender Empty、TouchDesigner Null 等看作同一个 invisible controller object。这个抽象适合沉淀成动效和 3D 工具的通用心智模型。",
+    "url": "https://x.com/multimicah/status/2089862716945289485",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/tweet_video/HQCtAtSaYAAI1i-.mp4",
+        "poster": "https://pbs.twimg.com/tweet_video_thumb/HQCtAtSaYAAI1i-.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 93 VIEWS",
+    "links": [],
+    "_analysisTheme": "Creative Systems / Controller Object",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-18T23:48:45.000Z",
+    "author": "Moshood Mutiu",
+    "handle": "techdesignx",
+    "avatar": "https://pbs.twimg.com/profile_images/1973429558415163392/JNuU0JnU_200x200.jpg",
+    "title": "Landing page 问题常常是层级而不是区块数量",
+    "summary": "Moshood Mutiu 提醒 landing page 不一定需要更多 section，而是更清晰的信息层级。它是 CRO 和产品叙事里很容易被 AI 页面生成忽视的基本功。",
+    "url": "https://x.com/techdesignx/status/2089862094686491030",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089861709200564224/vid/avc1/598x360/InYRng58T1SwNpmF.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089861709200564224/img/oHSUMX-5-8LFUwjJ.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 12 VIEWS",
+    "links": [],
+    "_analysisTheme": "Landing Page / Information Hierarchy",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-18T23:40:18.000Z",
+    "author": "Sully",
+    "handle": "SullyOmarr",
+    "avatar": "https://pbs.twimg.com/profile_images/1965604603900428291/fp8poJR__200x200.jpg",
+    "title": "Figma 到 Cursor 原型降低设计师动手门槛",
+    "summary": "Sully 认为 AI coding 让设计师能先做出足够好的 prototypes，工程师再处理最后的精修和系统化。这是个人设计师从静态稿转向可运行原型的实际路径。",
+    "url": "https://x.com/SullyOmarr/status/2089859965855117726",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 2 LIKES · 0 BOOKMARKS · 331 VIEWS",
+    "links": [],
+    "_analysisTheme": "Designer Prototyping / Figma to Code",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI TOOL",
+    "datetime": "2026-08-18T22:58:00.000Z",
+    "author": "Sujee",
+    "handle": "sujee",
+    "avatar": "https://pbs.twimg.com/profile_images/1466204048277708807/ZqJe4XVW_200x200.jpg",
+    "title": "OpenCode 作为 Mac AI coding app 值得跟踪",
+    "summary": "Sujee 把 OpenCode 收进 Mac AI app 系列：终端、IDE、桌面 app、并行 session、LSP 和 75+ 模型提供商。它是 coding agent 从 CLI 走向多壳层产品体验的样本。",
+    "url": "https://x.com/sujee/status/2089849321982165404",
+    "media": [],
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 25 VIEWS",
+    "links": [
+      "https://macaiapps.com/apps/opencode"
+    ],
+    "_analysisTheme": "Coding Agent / Desktop UX",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "OpenCode 作为 Mac AI coding app 值得跟踪",
+      "url": "https://macaiapps.com/apps/opencode",
+      "preview": "Sujee 把 OpenCode 收进 Mac AI app 系列：终端、IDE、桌面 app、并行 session、LSP 和 75+ 模型提供商。它是 coding agent 从 CLI 走向多壳层产品体验的样本。"
+    }
+  },
+  {
+    "category": "CRO DESIGN",
+    "datetime": "2026-08-18T22:46:50.000Z",
+    "author": "Tom | Shopify & CRO",
+    "handle": "Frontend_Prince",
+    "avatar": "https://pbs.twimg.com/profile_images/1891864561982033920/wJ-cuR4R_200x200.jpg",
+    "title": "移动端 Hero 必须让产品第一眼可识别",
+    "summary": "Tom 用酒商移动端 hero 做 teardown：漂亮 vineyard 图没有呈现酒，导致品类信号缺失。这个案例可直接转成移动首屏审核规则。",
+    "url": "https://x.com/Frontend_Prince/status/2089846510125039709",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQCgSl-XMAAdMWs.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 30 VIEWS",
+    "links": [],
+    "_analysisTheme": "Mobile Hero / Product Signal",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-18T22:45:46.000Z",
+    "author": "FLORA ©",
+    "handle": "floraai",
+    "avatar": "https://pbs.twimg.com/profile_images/1892364060458471425/2DyQ8Y0L_200x200.jpg",
+    "title": "FLORA Fashion Studio 从手绘草图生成服装渲染",
+    "summary": "FLORA 展示 Fashion Studio：手绘 sketch 直接转成 photorealistic garment render，并可拉进 Canvas 继续迭代。它适合观察 AI 创意工具如何把草图、渲染和控制面板串起来。",
+    "url": "https://x.com/floraai/status/2089846241437892824",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089841462942822400/vid/avc1/480x600/xDGKJp3u1cokTKOZ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089841462942822400/img/Rv09V0v4QNnkrZ6a.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 9 LIKES · 5 BOOKMARKS · 637 VIEWS",
+    "links": [],
+    "_analysisTheme": "Fashion AI / Canvas Iteration",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN OPS",
+    "datetime": "2026-08-18T21:45:57.000Z",
+    "author": "Denys Moz",
+    "handle": "denys_moz",
+    "avatar": "https://pbs.twimg.com/profile_images/2013304464011071488/BroFXr78_200x200.jpg",
+    "title": "Figma AI 训练开关需要纳入团队检查清单",
+    "summary": "Denys Moz 提醒检查 Figma workspace 的 AI training 设置，称自己团队默认启用。无论最终策略如何，这都应该进入设计团队的隐私、素材和客户项目检查清单。",
+    "url": "https://x.com/denys_moz/status/2089831188353413182",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQCR3Y7XwAAQAwS.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 2 LIKES · 0 BOOKMARKS · 37 VIEWS",
+    "links": [],
+    "_analysisTheme": "Figma Governance / AI Training",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-18T20:54:03.000Z",
+    "author": "Lenny Rachitsky",
+    "handle": "lennysan",
+    "avatar": "https://pbs.twimg.com/profile_images/1592990461517389824/iln8hi1f_200x200.jpg",
+    "title": "OpenAI 产品设计负责人谈设计师生产力差距",
+    "summary": "Lenny 截取 OpenAI Head of Product Design Ian Silber 的观点：工程生产力被 AI 放大，但设计团队并没有同步 10x。它把设计师的机会放在判断力、品味和产品定义，而不是单纯产图速度。",
+    "url": "https://x.com/lennysan/status/2089818127270027461",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089389606668304387/vid/avc1/640x360/U1G1cRLeRtsmfCqF.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089389606668304387/img/JFdBQKUOAGa8Td-e.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "6 REPLIES · 2 REPOSTS · 27 LIKES · 14 BOOKMARKS · 9370 VIEWS",
+    "links": [],
+    "_analysisTheme": "Design Role / AI-era Productivity",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2089117846563590452",
+      "author": "Lenny Rachitsky",
+      "handle": "lennysan",
+      "text": "Designers are the unhappiest people in tech.\n\nI sat down with @OpenAI's Head of Design @iansilber to talk about why—and why he still thinks this is the best time in history to be one.\n\nWe discuss:\n🔸 His theory for why designers are so unhappy right now\n🔸 Why he thinks this is the best time in history to be a product designer\n🔸 His hot take that AI is already an incredible product designer\n🔸 How OpenAI designs at two speeds \n🔸 How Ian thinks about craft, taste, and what will be left for humans\n\nListen now 👇\nhttps://youtu.be/BV0hy6NET-U",
+      "url": "https://x.com/lennysan/status/2089117846563590452",
+      "media": []
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-18T20:42:24.000Z",
+    "author": "DANN©",
+    "handle": "DannPetty",
+    "avatar": "https://pbs.twimg.com/profile_images/1601396833883922432/OxFgbD5t_200x200.jpg",
+    "title": "矢量图形编辑正在出现新交互范式",
+    "summary": "Dann Petty 转发新的 vector graphics 编辑方式，重点不是单个效果，而是图形编辑从点线操作走向更高层的生成式控制。对图标、插画和 UI asset 工作流有直接参考。",
+    "url": "https://x.com/DannPetty/status/2089815199049994275",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/ext_tw_video/2089745283747913728/pu/vid/avc1/640x360/tWPOT6-iQrHqe5IF.mp4?tag=12",
+        "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2089745283747913728/pu/img/OUbnfzr25Ybjs9CM.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "5 REPLIES · 0 REPOSTS · 64 LIKES · 34 BOOKMARKS · 4661 VIEWS",
+    "links": [],
+    "_analysisTheme": "Vector Editing / Generative Graphics",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI TOOLING",
+    "datetime": "2026-08-18T20:41:05.000Z",
+    "author": "Reed Floren",
+    "handle": "reed_floren",
+    "avatar": "https://pbs.twimg.com/profile_images/1875401246258917376/Eb90_uI0_200x200.jpg",
+    "title": "Anthropic Skills repo 把工作流定义公开化",
+    "summary": "Reed Floren 记录 Anthropic 的 public Skills repo：coding agent 可以复用生产级工具定义，而不是每次重写上下文提示。它是个人 skill 库治理和复用格式的重要信号。",
+    "url": "https://x.com/reed_floren/status/2089814866819170724",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089814753862381568/vid/avc1/480x852/O6F4WwvH8U1ob0Bb.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089814753862381568/img/XJVWsRaSBNEUpLcC.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 2 BOOKMARKS · 49 VIEWS",
+    "links": [],
+    "_analysisTheme": "Skills Repository / Workflow Reuse",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-18T20:36:33.000Z",
+    "author": "Marina Budarina",
+    "handle": "marina_uiux",
+    "avatar": "https://pbs.twimg.com/profile_images/2008293764003983360/QGNlQZ0x_200x200.jpg",
+    "title": "互动项目教程把视觉案例转成可学习资源",
+    "summary": "Marina Budarina 发布 interactive project tutorial 和资源。它的价值在于把一个界面/视觉项目拆成可跟练的步骤，而不是只给最终截图。",
+    "url": "https://x.com/marina_uiux/status/2089813726345998667",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089731424169455616/vid/avc1/480x852/kNdRbRtLV6sm2u7C.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089731424169455616/img/JCV4jgqB7qT54yAW.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "5 REPLIES · 1 REPOSTS · 27 LIKES · 19 BOOKMARKS · 1408 VIEWS",
+    "links": [],
+    "_analysisTheme": "Interactive Project / Design Tutorial",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-18T19:44:21.000Z",
+    "author": "Altunjo",
+    "handle": "Altunjo",
+    "avatar": "https://pbs.twimg.com/profile_images/2084018737699573760/sLaNXmoT_200x200.jpg",
+    "title": "设计工具从写提示转向先看视觉选项再取代码",
+    "summary": "Altunjo 指出设计工具的关键变化不是“描述后生成代码”，而是先生成多个视觉选项、让人挑选，再进入代码交付。它更符合设计判断的自然工作流。",
+    "url": "https://x.com/Altunjo/status/2089800589865816339",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 7 VIEWS",
+    "links": [],
+    "_analysisTheme": "Visual Optioning / Code Handoff",
+    "_analysisPriority": "medium",
+    "quote": {
+      "id": "2089471692762673408",
+      "author": "ClaudeDevs",
+      "handle": "ClaudeDevs",
+      "text": "Claude Code can design now. The new /design skill (research preview) brings Claude Design's artboard workflow into the CLI and Desktop, built on artifacts.\n\nRun /design to get editable artboards for your UI — pick one, tweak it, then have Claude implement it.",
+      "url": "https://x.com/ClaudeDevs/status/2089471692762673408",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HP9LXQiasAAoPxJ.jpg?name=orig"
+        }
+      ]
+    }
+  },
+  {
+    "category": "AI VIDEO",
+    "datetime": "2026-08-18T17:23:31.000Z",
+    "author": "黄赟",
+    "handle": "huangyun_122",
+    "avatar": "https://pbs.twimg.com/profile_images/1183766724534882305/SIxSKinT_200x200.jpg",
+    "title": "白板动画仓库可接入 Codex 做批量视频",
+    "summary": "黄赟推荐 srt-whiteboard-animation，并展示用 Codex 接入后快速生成叙事短视频。它把视频生产拆成脚本、语音、白板动画和自动化流水线，对设计内容规模化很有参考价值。",
+    "url": "https://x.com/huangyun_122/status/2089765144658329911",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089764807864172544/vid/avc1/640x360/aB0_D7nwJVv7EYnh.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089764807864172544/img/qEN_SX5Be9Y1FAcH.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "15 REPLIES · 45 REPOSTS · 215 LIKES · 419 BOOKMARKS · 11670 VIEWS",
+    "links": [
+      "https://github.com/geeklee/srt-whiteboard-animation"
+    ],
+    "_analysisTheme": "AI Video / Code-generated Storytelling",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "白板动画仓库可接入 Codex 做批量视频",
+      "url": "https://github.com/geeklee/srt-whiteboard-animation",
+      "preview": "黄赟推荐 srt-whiteboard-animation，并展示用 Codex 接入后快速生成叙事短视频。它把视频生产拆成脚本、语音、白板动画和自动化流水线，对设计内容规模化很有参考价值。"
+    }
+  },
+  {
+    "category": "AI WORKFLOW",
     "datetime": "2026-08-18T05:06:53.000Z",
     "author": "Apoorv Agarwal",
     "handle": "apurv019",
