@@ -1,6 +1,399 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-19",
+    "generatedAt": "2026-08-19T13:12:40+08:00",
+    "batch": "x-ai-design-analysis-2026-08-19-1312",
+    "analysisCount": 12,
+    "homeCount": 12,
+    "likeCount": 0,
+    "linksInspected": 6,
+    "unavailableLinks": 0,
+    "summary": "2026-08-19 13:00 Asia/Shanghai 午后追加：当天 Home 已有 20 条、Analysis 已达 100 条，因此只追加 12 条新出现且有设计学习价值的 Home 信号；Likes 复核到已知边界且无 fresh 收藏。",
+    "sourceWindow": {
+      "strategy": "Home 复用登录态 X Home、Following tab、AI agent、product design、indie product 和 visual work 搜索；Likes 进入历史 Likes 页，首屏 24 个唯一 ID 全部已知，作为无新增边界确认。Analysis 只追加未分析 Home，不回补历史 Like。",
+      "newestHomeDatetime": "2026-08-19T05:03:55.000Z",
+      "oldestHomeDatetime": "2026-08-18T16:03:00.000Z",
+      "newestLikeDatetime": null,
+      "oldestLikeDatetime": null,
+      "expandedWindow": "未扩窗；12 条新增 Home 均属于 Asia/Shanghai 2026-08-19。Analysis 当天早批已满 100，本批只增补午后高价值同日内容。",
+      "observed": {
+        "homeRaw": 788,
+        "homeUnique": 108,
+        "homeFresh": 107,
+        "homeSameDayFresh": 82,
+        "selectedHomeIds": [
+          "2089941409403150448",
+          "2089933819168317604",
+          "2089925758001266981",
+          "2089919704496255432",
+          "2089835146514227386",
+          "2089813353208390022",
+          "2089789430752063837",
+          "2089781302094426377",
+          "2089744882973712389",
+          "2089894938934911053",
+          "2089908148866105802",
+          "2089941045924733310"
+        ],
+        "likeRaw": 182,
+        "likeUnique": 29,
+        "freshLikeIds": [],
+        "knownBoundary": "二次确认 Likes 首屏 24 个唯一 ID 全部已知；本轮无新增 Like。"
+      }
+    },
+    "items": [
+      {
+        "id": "2089941409403150448",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/pascowebdesigns/status/2089941409403150448",
+        "author": "Ray Velez",
+        "handle": "pascowebdesigns",
+        "datetime": "2026-08-19T05:03:55.000Z",
+        "title": "Material 作为 Design Token 的 Web 原型",
+        "originalSummary": "原帖内容：What if the web had material as a design token? Today, interfaces are built from tokens like color, spacing, typography, radius, and shadow. But they mostly describe how something ",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它把「Material Token / PBR UI」变成了可观察的产品或视觉信号，能服务个人设计师的工具判断与案例库。",
+        "deepSummary": "Ray Velez 把真实 GLB/PBR 材质接入 Web UI token 体系，提出颜色、间距、圆角之外的“材质 token”。它对个人设计师有价值，因为它把视觉语言从静态样式推进到可复用的材质属性。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Material 作为 Design Token 的 Web 原型」拆成一个可复用的设计观察卡：问题、界面/技术手段、可迁移方法。",
+          "判断它属于 Material Token / PBR UI 的哪一类能力，并补一条自己的实践假设。",
+          "用 30 分钟复刻其中一个最小细节，验证它是否能进入个人工作流。"
+        ],
+        "tags": [
+          "DESIGN TOOL",
+          "Material Token / PBR UI",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089933819168317604",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/vista8/status/2089933819168317604",
+        "author": "向阳乔木",
+        "handle": "vista8",
+        "datetime": "2026-08-19T04:33:46.000Z",
+        "title": "Agent 需要可调用的小红书/公众号数据源",
+        "originalSummary": "原帖内容：从 Coze 挖到了一个API提供商，可以抓取小红书和公众号内容。 这种事儿也只能第三方做，优质数据源太关键了。 非广，只觉得 Agent 确实需要类似API，用Computer Use太容易被封了。 注册给200积分，一次调用只用0.6，可以！ Grok 给了 x 搜索 API 后，大家开心，也是因为实时优质信息。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它把「Agent Data Source / Chinese Content API」变成了可观察的产品或视觉信号，能服务个人设计师的工具判断与案例库。",
+        "deepSummary": "向阳乔木从 Coze 挖到可抓取小红书和公众号的 API 服务，并指出优质实时数据比 Computer Use 更适合 Agent。它提醒设计工程师评估 Agent 产品时要看数据源、权限和稳定调用，而不是只看界面。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Agent 需要可调用的小红书/公众号数据源」拆成一个可复用的设计观察卡：问题、界面/技术手段、可迁移方法。",
+          "判断它属于 Agent Data Source / Chinese Content API 的哪一类能力，并补一条自己的实践假设。",
+          "用 30 分钟复刻其中一个最小细节，验证它是否能进入个人工作流。"
+        ],
+        "tags": [
+          "AI AGENT",
+          "Agent Data Source / Chinese Content API",
+          "media:image"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089925758001266981",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/heyshigeru/status/2089925758001266981",
+        "author": "Shigeru",
+        "handle": "heyshigeru",
+        "datetime": "2026-08-19T04:01:44.000Z",
+        "title": "Unplayed 付费墙用 CD 动效解释音乐收藏",
+        "originalSummary": "原帖内容：Played with a small CD animation on the https://unplayed.heyshigeru.com/ paywall.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它把「Paywall Motion / Indie App」变成了可观察的产品或视觉信号，能服务个人设计师的工具判断与案例库。",
+        "deepSummary": "Shigeru 在 Unplayed 付费墙里加入小型 CD 动效，把“稍后听音乐”的情绪价值转成可感知的交互。它适合作为个人产品付费墙如何用克制动效表达价值的参考。",
+        "linkAnalysis": [
+          {
+            "url": "https://unplayed.heyshigeru.com/",
+            "title": "Unplayed",
+            "access": "full",
+            "summary": "页面说明 Unplayed 是一个保存“稍后想听音乐”的 indie app，包含 TestFlight 入口、横向截图和从外部链接一键保存音乐的流程。",
+            "value": "原帖只展示 paywall 动效；页面补充了产品定位、截图结构和保存/播放路径，适合继续研究小型订阅产品如何用动效承接价值表达。"
+          }
+        ],
+        "learningActions": [
+          "把「Unplayed 付费墙用 CD 动效解释音乐收藏」拆成一个可复用的设计观察卡：问题、界面/技术手段、可迁移方法。",
+          "判断它属于 Paywall Motion / Indie App 的哪一类能力，并补一条自己的实践假设。",
+          "用 30 分钟复刻其中一个最小细节，验证它是否能进入个人工作流。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Paywall Motion / Indie App",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089919704496255432",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/onuro/status/2089919704496255432",
+        "author": "Onur Oztaskiran",
+        "handle": "onuro",
+        "datetime": "2026-08-19T03:37:41.000Z",
+        "title": "Fountible 把 Figma 选择变成 React/Tailwind 画布",
+        "originalSummary": "原帖内容：@yahyavision Uhhh, I actually made Figma gone for 700 people in 45 days with https://fountible.com/",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它把「Design as Code / Figma Alternative」变成了可观察的产品或视觉信号，能服务个人设计师的工具判断与案例库。",
+        "deepSummary": "Onur Oztaskiran 记录 Fountible 让 700 人在 45 天内离开 Figma 的尝试，产品定位是“设计即代码”。它值得跟进，因为 AI 设计工具正在从截图生成走向可编辑 React/Tailwind 图层。",
+        "linkAnalysis": [
+          {
+            "url": "https://fountible.com/",
+            "title": "Fountible",
+            "access": "full",
+            "summary": "官网定位为 Figma alternative where design is code，支持粘贴 Figma 选区、AI 生成、motion timeline、React/Tailwind 真实图层和代码导出。",
+            "value": "原帖只给迁移数字；官网证明它的核心差异是 editable code canvas，值得对比 Figma Make、Opacity 和代码优先设计工具的边界。"
+          }
+        ],
+        "learningActions": [
+          "把「Fountible 把 Figma 选择变成 React/Tailwind 画布」拆成一个可复用的设计观察卡：问题、界面/技术手段、可迁移方法。",
+          "判断它属于 Design as Code / Figma Alternative 的哪一类能力，并补一条自己的实践假设。",
+          "用 30 分钟复刻其中一个最小细节，验证它是否能进入个人工作流。"
+        ],
+        "tags": [
+          "DESIGN TOOL",
+          "Design as Code / Figma Alternative",
+          "link/text"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089835146514227386",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/clairevo/status/2089835146514227386",
+        "author": "claire vo 🖤",
+        "handle": "clairevo",
+        "datetime": "2026-08-18T22:01:40.000Z",
+        "title": "Grok/Bot/Cursor Origin 进入多 Agent 身份讨论",
+        "originalSummary": "原帖内容：Everything is coming up Grok these days. Grok @bot. @grok 4.6. And Grok Github (or as it's officially named: @cursor_ai origin) I cover it all in this week's mini-ep of How I AI, w",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它把「AI Product Workflow / Multi-agent Identity」变成了可观察的产品或视觉信号，能服务个人设计师的工具判断与案例库。",
+        "deepSummary": "Claire Vo 把 Grok Bot、Grok 4.6 和 Cursor Origin 放在同一期 How I AI 中讨论，重点是多 Agent 身份、代码托管和设计判断。它对设计工程师的价值在于观察 AI 产品如何从单一聊天走向工作流身份。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Grok/Bot/Cursor Origin 进入多 Agent 身份讨论」拆成一个可复用的设计观察卡：问题、界面/技术手段、可迁移方法。",
+          "判断它属于 AI Product Workflow / Multi-agent Identity 的哪一类能力，并补一条自己的实践假设。",
+          "用 30 分钟复刻其中一个最小细节，验证它是否能进入个人工作流。"
+        ],
+        "tags": [
+          "AI PRODUCT",
+          "AI Product Workflow / Multi-agent Identity",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089813353208390022",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/BasicAppleGuy/status/2089813353208390022",
+        "author": "Basic Apple Guy",
+        "handle": "BasicAppleGuy",
+        "datetime": "2026-08-18T20:35:04.000Z",
+        "title": "macOS Golden Gate 图标演进预览",
+        "originalSummary": "原帖内容：macOS 27 Golden Gate Icon Evolution Preview",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它把「System Icon Evolution / macOS」变成了可观察的产品或视觉信号，能服务个人设计师的工具判断与案例库。",
+        "deepSummary": "Basic Apple Guy 发布 macOS 27 Golden Gate 图标演进预览，呈现系统图标从熟悉隐喻到新视觉语言的延续。它适合作为系统级图标迭代、材质感和识别度平衡的视觉参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「macOS Golden Gate 图标演进预览」拆成一个可复用的设计观察卡：问题、界面/技术手段、可迁移方法。",
+          "判断它属于 System Icon Evolution / macOS 的哪一类能力，并补一条自己的实践假设。",
+          "用 30 分钟复刻其中一个最小细节，验证它是否能进入个人工作流。"
+        ],
+        "tags": [
+          "VISUAL SYSTEM",
+          "System Icon Evolution / macOS",
+          "media:image"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089789430752063837",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/vistar941/status/2089789430752063837",
+        "author": "ビスター(Vistar)",
+        "handle": "vistar941",
+        "datetime": "2026-08-18T19:00:01.000Z",
+        "title": "UIKit 私有 detent 做出 Find My 式 sheet",
+        "originalSummary": "原帖内容：It turns out that’s not specific to Find My. It’s UIKit magic🪄 You just need to add _𝚋𝚊𝚛𝙳𝚎𝚝𝚎𝚗𝚝 as a UISheetPresentationController.Detent.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它把「UIKit Sheet / Hidden Interaction API」变成了可观察的产品或视觉信号，能服务个人设计师的工具判断与案例库。",
+        "deepSummary": "Vistar 指出 Find My 的 sheet 效果可通过 UISheetPresentationController 的私有 `_barDetent` 实现。它对设计工程师有直接价值：很多系统级微交互来自框架隐藏能力，需要在可用性、风险和实现成本间判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「UIKit 私有 detent 做出 Find My 式 sheet」拆成一个可复用的设计观察卡：问题、界面/技术手段、可迁移方法。",
+          "判断它属于 UIKit Sheet / Hidden Interaction API 的哪一类能力，并补一条自己的实践假设。",
+          "用 30 分钟复刻其中一个最小细节，验证它是否能进入个人工作流。"
+        ],
+        "tags": [
+          "DESIGN ENGINEERING",
+          "UIKit Sheet / Hidden Interaction API",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089781302094426377",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/brdrck/status/2089781302094426377",
+        "author": "Jeff Broderick",
+        "handle": "brdrck",
+        "datetime": "2026-08-18T18:27:43.000Z",
+        "title": "Opacity 重新思考 Pen Tool 的智能编辑入口",
+        "originalSummary": "原帖内容：Yeahhhh....I'm re-thinking the pen tool. It's about to get a brain! I cannot wait for you to play with it!",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它把「Vector Editing / AI Canvas」变成了可观察的产品或视觉信号，能服务个人设计师的工具判断与案例库。",
+        "deepSummary": "Jeff Broderick 转发 Opacity 对 Pen Tool 的重做方向，强调传统矢量编辑器的底层交互正在被 AI/画布协作改写。它值得纳入 Home，因为这是设计工具核心操作模型的变化信号。",
+        "linkAnalysis": [
+          {
+            "url": "https://opacity.com/",
+            "title": "Opacity",
+            "access": "full",
+            "summary": "官网强调 design、build、deploy 都在同一 canvas 内完成，组件可以从画布发布并安装到代码库，目标是消除设计与代码分离。",
+            "value": "引用帖补足了 Jeff 的“pen tool 有脑子”语境：它不是单个工具按钮，而是把矢量编辑、组件发布和协作源头放回画布。"
+          }
+        ],
+        "learningActions": [
+          "把「Opacity 重新思考 Pen Tool 的智能编辑入口」拆成一个可复用的设计观察卡：问题、界面/技术手段、可迁移方法。",
+          "判断它属于 Vector Editing / AI Canvas 的哪一类能力，并补一条自己的实践假设。",
+          "用 30 分钟复刻其中一个最小细节，验证它是否能进入个人工作流。"
+        ],
+        "tags": [
+          "DESIGN TOOL",
+          "Vector Editing / AI Canvas",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089744882973712389",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/goo_vision/status/2089744882973712389",
+        "author": "goo.vision",
+        "handle": "goo_vision",
+        "datetime": "2026-08-18T16:03:00.000Z",
+        "title": "goo.vision 的水生视觉实验",
+        "originalSummary": "原帖内容：Aquatic",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它把「Visual Motion / Aquatic Material」变成了可观察的产品或视觉信号，能服务个人设计师的工具判断与案例库。",
+        "deepSummary": "goo.vision 发布 Aquatic 视觉短片，重点是水体、光泽和生物感运动语言。它适合作为 AI 视觉作品筛选样本：不是单张好看图，而是有稳定材质、节奏和镜头记忆点的运动参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「goo.vision 的水生视觉实验」拆成一个可复用的设计观察卡：问题、界面/技术手段、可迁移方法。",
+          "判断它属于 Visual Motion / Aquatic Material 的哪一类能力，并补一条自己的实践假设。",
+          "用 30 分钟复刻其中一个最小细节，验证它是否能进入个人工作流。"
+        ],
+        "tags": [
+          "关注 · 视觉作品",
+          "Visual Motion / Aquatic Material",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089894938934911053",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ryolu_/status/2089894938934911053",
+        "author": "Ryo Lu",
+        "handle": "ryolu_",
+        "datetime": "2026-08-19T01:59:16.000Z",
+        "title": "Ryo Lu 用 Bot + Notion 做搬家交易页",
+        "originalSummary": "原帖内容：first step moving to asia: help me empty my apartment! if you can pick up in SF, place an order and we meet next week :) made with @bot and @NotionHQ https://ryo.lu/sale",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它把「Personal Commerce / AI Prototype」变成了可观察的产品或视觉信号，能服务个人设计师的工具判断与案例库。",
+        "deepSummary": "Ryo Lu 用 Bot 和 Notion 快速搭了一个本地 pickup 的 garage sale 页面。它不是大产品发布，但对个人设计师很有启发：AI + 文档工具能把一次性真实需求快速包装成可执行服务。",
+        "linkAnalysis": [
+          {
+            "url": "https://ryo.lu/sale",
+            "title": "Ryo Lu garage sale",
+            "access": "partial",
+            "summary": "页面 meta 显示这是搬去亚洲前的本地 pickup sale，并提供 8 月 23-30 日预约窗口；正文由前端渲染，服务端只返回 JS 壳。",
+            "value": "信息密度来自真实用例：Bot + Notion 快速生成交易页面。可学习的是一次性工具如何降低发布成本，而不是页面文案本身。"
+          }
+        ],
+        "learningActions": [
+          "把「Ryo Lu 用 Bot + Notion 做搬家交易页」拆成一个可复用的设计观察卡：问题、界面/技术手段、可迁移方法。",
+          "判断它属于 Personal Commerce / AI Prototype 的哪一类能力，并补一条自己的实践假设。",
+          "用 30 分钟复刻其中一个最小细节，验证它是否能进入个人工作流。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Personal Commerce / AI Prototype",
+          "link/text"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089908148866105802",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Kongque_Chinese/status/2089908148866105802",
+        "author": "Eric Liu 𝕏 🦚",
+        "handle": "Kongque_Chinese",
+        "datetime": "2026-08-19T02:51:45.000Z",
+        "title": "The Type 书单页把字体阅读变成实物反馈",
+        "originalSummary": "原帖内容：昨天更新了@TheType 网站的「书单」页，结果就有热心读者发来了实物照片🥹有你们真好！ https://www.thetype.com/booklist/",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它把「Typography Knowledge Product / Reading List」变成了可观察的产品或视觉信号，能服务个人设计师的工具判断与案例库。",
+        "deepSummary": "Eric Liu 展示 The Type 书单页更新后收到读者实物照片反馈，说明专业内容目录可以形成真实购买和学习闭环。它适合放进设计师的字体、排版和知识产品参考库。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.thetype.com/booklist/",
+            "title": "The Type 相关书单",
+            "access": "partial",
+            "summary": "页面标题和描述确认它是 The Type 出品的字体排印相关书单，关联华语字体排印播客《字谈字畅》；正文未在服务端 HTML 中完整展开。",
+            "value": "原帖的实物反馈说明书单不是静态目录，而是能推动真实阅读和购买行为的知识产品。适合后续拆解信息架构和书目分类。"
+          }
+        ],
+        "learningActions": [
+          "把「The Type 书单页把字体阅读变成实物反馈」拆成一个可复用的设计观察卡：问题、界面/技术手段、可迁移方法。",
+          "判断它属于 Typography Knowledge Product / Reading List 的哪一类能力，并补一条自己的实践假设。",
+          "用 30 分钟复刻其中一个最小细节，验证它是否能进入个人工作流。"
+        ],
+        "tags": [
+          "TYPOGRAPHY",
+          "Typography Knowledge Product / Reading List",
+          "media:image"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089941045924733310",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/king1818888/status/2089941045924733310",
+        "author": "Kimberly",
+        "handle": "king1818888",
+        "datetime": "2026-08-19T05:02:29.000Z",
+        "title": "Superpowers 6 把编码 Agent 流程做成 skills 框架",
+        "originalSummary": "原帖内容：推荐一个GitHub高星开源项目：obra/superpowers（Superpowers 6） 仓库地址：https://github.com/obra/superpowers￼￼￼ 它不属于大模型，是面向AI编码Agent的完整工程流程增强框架，适配Claude Code、Cursor、Codex、Kimi Code等主流AI编程工具。 项目核心优势 1",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它把「Agent Skills / Workflow Framework」变成了可观察的产品或视觉信号，能服务个人设计师的工具判断与案例库。",
+        "deepSummary": "这条内容介绍 obra/superpowers：用 skills 和方法论把 coding agent 的预检、评审、上下文文件化和跨工具工作流标准化。它对设计工程师有价值，因为可迁移的 agent workflow 会决定个人效率上限。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/obra/superpowers",
+            "title": "obra/superpowers",
+            "access": "full",
+            "summary": "GitHub README 将 Superpowers 定义为面向 coding agents 的完整软件开发方法论，由可组合 skills 和启动指令组成，并覆盖 Codex、Cursor、Claude Code、Gemini CLI 等工具。",
+            "value": "链接提供了原帖没有的安装范围和 workflow 结构，适合继续研究如何把个人设计工程任务固化为可迁移 skill。"
+          }
+        ],
+        "learningActions": [
+          "把「Superpowers 6 把编码 Agent 流程做成 skills 框架」拆成一个可复用的设计观察卡：问题、界面/技术手段、可迁移方法。",
+          "判断它属于 Agent Skills / Workflow Framework 的哪一类能力，并补一条自己的实践假设。",
+          "用 30 分钟复刻其中一个最小细节，验证它是否能进入个人工作流。"
+        ],
+        "tags": [
+          "AI WORKFLOW",
+          "Agent Skills / Workflow Framework",
+          "link/text"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-19",
     "generatedAt": "2026-08-19T08:12:28+08:00",
     "batch": "x-ai-design-analysis-2026-08-19-0812",
     "analysisCount": 100,

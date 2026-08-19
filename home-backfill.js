@@ -1,6 +1,183 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-19T05:03:55.000Z",
+    "author": "Ray Velez",
+    "handle": "pascowebdesigns",
+    "avatar": "https://pbs.twimg.com/profile_images/2076065943277719552/QdRhOZuW_200x200.jpg",
+    "title": "Material 作为 Design Token 的 Web 原型",
+    "summary": "Ray Velez 把真实 GLB/PBR 材质接入 Web UI token 体系，提出颜色、间距、圆角之外的“材质 token”。它对个人设计师有价值，因为它把视觉语言从静态样式推进到可复用的材质属性。",
+    "url": "https://x.com/pascowebdesigns/status/2089941409403150448",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089940613785669632/vid/avc1/704x360/dSGR_6hiSqz9ueb1.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089940613785669632/img/G9GieTBM9oNUD31v.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 9 VIEWS",
+    "links": [],
+    "_analysisTheme": "Material Token / PBR UI",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-19T05:02:29.000Z",
+    "author": "Kimberly",
+    "handle": "king1818888",
+    "avatar": "https://pbs.twimg.com/profile_images/2084265366667374592/d2IhNMep_200x200.jpg",
+    "title": "Superpowers 6 把编码 Agent 流程做成 skills 框架",
+    "summary": "这条内容介绍 obra/superpowers：用 skills 和方法论把 coding agent 的预检、评审、上下文文件化和跨工具工作流标准化。它对设计工程师有价值，因为可迁移的 agent workflow 会决定个人效率上限。",
+    "url": "https://x.com/king1818888/status/2089941045924733310",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 53 VIEWS",
+    "links": [
+      "https://github.com/obra/superpowers"
+    ],
+    "_analysisTheme": "Agent Skills / Workflow Framework",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "preview": "GitHub README 将 Superpowers 定义为面向 coding agents 的完整软件开发方法论，由可组合 skills 和启动指令组成，并覆盖 Codex、Cursor、Claude Code、Gemini CLI 等工具。"
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-19T04:33:46.000Z",
+    "author": "向阳乔木",
+    "handle": "vista8",
+    "avatar": "https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_200x200.jpg",
+    "title": "Agent 需要可调用的小红书/公众号数据源",
+    "summary": "向阳乔木从 Coze 挖到可抓取小红书和公众号的 API 服务，并指出优质实时数据比 Computer Use 更适合 Agent。它提醒设计工程师评估 Agent 产品时要看数据源、权限和稳定调用，而不是只看界面。",
+    "url": "https://x.com/vista8/status/2089933819168317604",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQDrizjasAAUV0k.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQDu5NObkAAmVa3.jpg?name=orig"
+      }
+    ],
+    "metrics": "4 REPLIES · 0 REPOSTS · 14 LIKES · 33 BOOKMARKS · 1891 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent Data Source / Chinese Content API",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-19T04:01:44.000Z",
+    "author": "Shigeru",
+    "handle": "heyshigeru",
+    "avatar": "https://pbs.twimg.com/profile_images/1992518039322206208/kdedTdDG_200x200.jpg",
+    "title": "Unplayed 付费墙用 CD 动效解释音乐收藏",
+    "summary": "Shigeru 在 Unplayed 付费墙里加入小型 CD 动效，把“稍后听音乐”的情绪价值转成可感知的交互。它适合作为个人产品付费墙如何用克制动效表达价值的参考。",
+    "url": "https://x.com/heyshigeru/status/2089925758001266981",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089920986535911426/vid/avc1/480x360/LkkS0QJWiT-1pIAq.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089920986535911426/img/Jl1P0Gs1gd3l8W1I.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 1 REPOSTS · 7 LIKES · 2 BOOKMARKS · 139 VIEWS",
+    "links": [
+      "https://unplayed.heyshigeru.com/"
+    ],
+    "_analysisTheme": "Paywall Motion / Indie App",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "Unplayed",
+      "url": "https://unplayed.heyshigeru.com/",
+      "preview": "页面说明 Unplayed 是一个保存“稍后想听音乐”的 indie app，包含 TestFlight 入口、横向截图和从外部链接一键保存音乐的流程。"
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-19T03:37:41.000Z",
+    "author": "Onur Oztaskiran",
+    "handle": "onuro",
+    "avatar": "https://pbs.twimg.com/profile_images/2043597770569744384/1Zpjk5eg_200x200.jpg",
+    "title": "Fountible 把 Figma 选择变成 React/Tailwind 画布",
+    "summary": "Onur Oztaskiran 记录 Fountible 让 700 人在 45 天内离开 Figma 的尝试，产品定位是“设计即代码”。它值得跟进，因为 AI 设计工具正在从截图生成走向可编辑 React/Tailwind 图层。",
+    "url": "https://x.com/onuro/status/2089919704496255432",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 15 VIEWS",
+    "links": [
+      "https://fountible.com/"
+    ],
+    "_analysisTheme": "Design as Code / Figma Alternative",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Fountible",
+      "url": "https://fountible.com/",
+      "preview": "官网定位为 Figma alternative where design is code，支持粘贴 Figma 选区、AI 生成、motion timeline、React/Tailwind 真实图层和代码导出。"
+    }
+  },
+  {
+    "category": "TYPOGRAPHY",
+    "datetime": "2026-08-19T02:51:45.000Z",
+    "author": "Eric Liu 𝕏 🦚",
+    "handle": "Kongque_Chinese",
+    "avatar": "https://pbs.twimg.com/profile_images/1398442096260882434/8YLsYD48_200x200.jpg",
+    "title": "The Type 书单页把字体阅读变成实物反馈",
+    "summary": "Eric Liu 展示 The Type 书单页更新后收到读者实物照片反馈，说明专业内容目录可以形成真实购买和学习闭环。它适合放进设计师的字体、排版和知识产品参考库。",
+    "url": "https://x.com/Kongque_Chinese/status/2089908148866105802",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQDYYh4agAAt2eq.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQDYYh5aYAAIQgn.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 121 VIEWS",
+    "links": [
+      "https://www.thetype.com/booklist/"
+    ],
+    "_analysisTheme": "Typography Knowledge Product / Reading List",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "The Type 相关书单",
+      "url": "https://www.thetype.com/booklist/",
+      "preview": "页面标题和描述确认它是 The Type 出品的字体排印相关书单，关联华语字体排印播客《字谈字畅》；正文未在服务端 HTML 中完整展开。"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-19T01:59:16.000Z",
+    "author": "Ryo Lu",
+    "handle": "ryolu_",
+    "avatar": "https://pbs.twimg.com/profile_images/1915014653295697921/KmMbglaO_200x200.jpg",
+    "title": "Ryo Lu 用 Bot + Notion 做搬家交易页",
+    "summary": "Ryo Lu 用 Bot 和 Notion 快速搭了一个本地 pickup 的 garage sale 页面。它不是大产品发布，但对个人设计师很有启发：AI + 文档工具能把一次性真实需求快速包装成可执行服务。",
+    "url": "https://x.com/ryolu_/status/2089894938934911053",
+    "media": [],
+    "metrics": "51 REPLIES · 12 REPOSTS · 640 LIKES · 228 BOOKMARKS · 56448 VIEWS",
+    "links": [
+      "https://ryo.lu/sale"
+    ],
+    "_analysisTheme": "Personal Commerce / AI Prototype",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "Ryo Lu garage sale",
+      "url": "https://ryo.lu/sale",
+      "preview": "页面 meta 显示这是搬去亚洲前的本地 pickup sale，并提供 8 月 23-30 日预约窗口；正文由前端渲染，服务端只返回 JS 壳。"
+    }
+  },
+  {
     "category": "AI WORKFLOW",
     "datetime": "2026-08-19T00:06:11.000Z",
     "author": "David.Z",
@@ -294,6 +471,28 @@
     "_analysisPriority": "high"
   },
   {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-18T22:01:40.000Z",
+    "author": "claire vo 🖤",
+    "handle": "clairevo",
+    "avatar": "https://pbs.twimg.com/profile_images/1565475442470965248/LBMzyamM_200x200.jpg",
+    "title": "Grok/Bot/Cursor Origin 进入多 Agent 身份讨论",
+    "summary": "Claire Vo 把 Grok Bot、Grok 4.6 和 Cursor Origin 放在同一期 How I AI 中讨论，重点是多 Agent 身份、代码托管和设计判断。它对设计工程师的价值在于观察 AI 产品如何从单一聊天走向工作流身份。",
+    "url": "https://x.com/clairevo/status/2089835146514227386",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089832281624240128/vid/avc1/640x360/WRIMRYTYJcwOXQSv.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089832281624240128/img/vnr1wZwyqEWfhnTt.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "15 REPLIES · 12 REPOSTS · 145 LIKES · 80 BOOKMARKS · 17551 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Product Workflow / Multi-agent Identity",
+    "_analysisPriority": "high"
+  },
+  {
     "category": "DESIGN OPS",
     "datetime": "2026-08-18T21:45:57.000Z",
     "author": "Denys Moz",
@@ -410,6 +609,26 @@
     "_analysisPriority": "medium"
   },
   {
+    "category": "VISUAL SYSTEM",
+    "datetime": "2026-08-18T20:35:04.000Z",
+    "author": "Basic Apple Guy",
+    "handle": "BasicAppleGuy",
+    "avatar": "https://pbs.twimg.com/profile_images/1522623872717099013/h5fNVE5d_200x200.jpg",
+    "title": "macOS Golden Gate 图标演进预览",
+    "summary": "Basic Apple Guy 发布 macOS 27 Golden Gate 图标演进预览，呈现系统图标从熟悉隐喻到新视觉语言的延续。它适合作为系统级图标迭代、材质感和识别度平衡的视觉参考。",
+    "url": "https://x.com/BasicAppleGuy/status/2089813353208390022",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQCCGUZaUAAROJz.jpg?name=orig"
+      }
+    ],
+    "metrics": "6 REPLIES · 8 REPOSTS · 209 LIKES · 4 BOOKMARKS · 11603 VIEWS",
+    "links": [],
+    "_analysisTheme": "System Icon Evolution / macOS",
+    "_analysisPriority": "medium"
+  },
+  {
     "category": "DESIGN TOOL",
     "datetime": "2026-08-18T19:44:21.000Z",
     "author": "Altunjo",
@@ -435,6 +654,79 @@
           "src": "https://pbs.twimg.com/media/HP9LXQiasAAoPxJ.jpg?name=orig"
         }
       ]
+    }
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-18T19:00:01.000Z",
+    "author": "ビスター(Vistar)",
+    "handle": "vistar941",
+    "avatar": "https://pbs.twimg.com/profile_images/2018261091365924864/i2r7wbwj_200x200.jpg",
+    "title": "UIKit 私有 detent 做出 Find My 式 sheet",
+    "summary": "Vistar 指出 Find My 的 sheet 效果可通过 UISheetPresentationController 的私有 `_barDetent` 实现。它对设计工程师有直接价值：很多系统级微交互来自框架隐藏能力，需要在可用性、风险和实现成本间判断。",
+    "url": "https://x.com/vistar941/status/2089789430752063837",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089725243598553088/vid/avc1/480x598/VrOCrTGirv5r4HiD.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089725243598553088/img/pZfQ-Tfomnob5r8h.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "4 REPLIES · 15 REPOSTS · 290 LIKES · 282 BOOKMARKS · 19656 VIEWS",
+    "links": [],
+    "_analysisTheme": "UIKit Sheet / Hidden Interaction API",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-18T18:27:43.000Z",
+    "author": "Jeff Broderick",
+    "handle": "brdrck",
+    "avatar": "https://pbs.twimg.com/profile_images/1559593556897107968/JfNvqJww_200x200.jpg",
+    "title": "Opacity 重新思考 Pen Tool 的智能编辑入口",
+    "summary": "Jeff Broderick 转发 Opacity 对 Pen Tool 的重做方向，强调传统矢量编辑器的底层交互正在被 AI/画布协作改写。它值得纳入 Home，因为这是设计工具核心操作模型的变化信号。",
+    "url": "https://x.com/brdrck/status/2089781302094426377",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/ext_tw_video/2089745283747913728/pu/vid/avc1/640x360/tWPOT6-iQrHqe5IF.mp4?tag=12",
+        "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2089745283747913728/pu/img/OUbnfzr25Ybjs9CM.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "9 REPLIES · 4 REPOSTS · 118 LIKES · 41 BOOKMARKS · 9922 VIEWS",
+    "links": [
+      "https://opacity.com/"
+    ],
+    "_analysisTheme": "Vector Editing / AI Canvas",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Opacity",
+      "url": "https://opacity.com/",
+      "preview": "官网强调 design、build、deploy 都在同一 canvas 内完成，组件可以从画布发布并安装到代码库，目标是消除设计与代码分离。"
+    },
+    "quote": {
+      "id": "2089745364681163120",
+      "author": "Opacity",
+      "handle": "OpacityHQ",
+      "text": "The pen tool hasn't changed since 1987. We're rebuilding it at Opacity. Early access: https://opacity.com",
+      "url": "https://x.com/OpacityHQ/status/2089745364681163120",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/ext_tw_video/2089745283747913728/pu/vid/avc1/640x360/tWPOT6-iQrHqe5IF.mp4?tag=12",
+          "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2089745283747913728/pu/img/OUbnfzr25Ybjs9CM.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "_article": {
+        "kind": "external",
+        "title": "Opacity",
+        "url": "https://opacity.com/",
+        "preview": "Opacity 官网把 canvas 作为 design、build、deploy 的源头，强调从画布发布可安装组件。"
+      }
     }
   },
   {
@@ -466,6 +758,28 @@
       "url": "https://github.com/geeklee/srt-whiteboard-animation",
       "preview": "黄赟推荐 srt-whiteboard-animation，并展示用 Codex 接入后快速生成叙事短视频。它把视频生产拆成脚本、语音、白板动画和自动化流水线，对设计内容规模化很有参考价值。"
     }
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-18T16:03:00.000Z",
+    "author": "goo.vision",
+    "handle": "goo_vision",
+    "avatar": "https://pbs.twimg.com/profile_images/2023487210302173190/fVNP9plu_200x200.jpg",
+    "title": "goo.vision 的水生视觉实验",
+    "summary": "goo.vision 发布 Aquatic 视觉短片，重点是水体、光泽和生物感运动语言。它适合作为 AI 视觉作品筛选样本：不是单张好看图，而是有稳定材质、节奏和镜头记忆点的运动参考。",
+    "url": "https://x.com/goo_vision/status/2089744882973712389",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089744801604190208/vid/avc1/540x540/6wIoUv69MIX7cBGF.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089744801604190208/img/BDKhJiQVYs8aYakw.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "5 REPLIES · 297 REPOSTS · 2510 LIKES · 397 BOOKMARKS · 37502 VIEWS",
+    "links": [],
+    "_analysisTheme": "Visual Motion / Aquatic Material",
+    "_analysisPriority": "medium"
   },
   {
     "category": "AI WORKFLOW",
