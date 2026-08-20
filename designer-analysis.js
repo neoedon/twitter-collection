@@ -1,5 +1,2977 @@
 window.DESIGNER_ANALYSIS = [
   {
+    "date": "2026-08-20",
+    "generatedAt": "2026-08-20T08:11:14+08:00",
+    "batch": "x-ai-design-analysis-2026-08-20-0811",
+    "analysisCount": 100,
+    "homeCount": 20,
+    "likeCount": 80,
+    "linksInspected": 55,
+    "unavailableLinks": 6,
+    "summary": "2026-08-20 08:00 Asia/Shanghai 首批：Home 从登录态 X Home/Search 中筛出 20 条同日设计/AI/agent 信号；Likes 滚动到已知边界并写入 23 条 fresh 收藏；Analysis 用 57 条未分析历史 Like 回补到 100 条。",
+    "sourceWindow": {
+      "strategy": "Home 使用 ego-browser 登录态观察 X Home、AI/product/design/visual/indie 搜索；Likes 使用 x.com/i/history/likes 滚动到已知 ID 边界；Analysis 先纳入新 Home 与 fresh Likes，再从 CSV 中选择未分析历史 Like 回补。",
+      "newestHomeDatetime": "2026-08-20T00:05:08.000Z",
+      "oldestHomeDatetime": "2026-08-19T16:33:15.000Z",
+      "newestLikeDatetime": "2026-08-19T18:24:24.000Z",
+      "oldestLikeDatetime": "2026-01-10T02:37:23.000Z",
+      "expandedWindow": "Home 未扩窗，20 条均为 Asia/Shanghai 2026-08-20。同日可用 Analysis 内容不足 100，因此回补 57 条未分析历史 Like；最早回补原帖时间记录在 oldestLikeDatetime。",
+      "observed": {
+        "homeRaw": 1137,
+        "homeUnique": 233,
+        "homeSelected": 20,
+        "likeRaw": 146,
+        "likeUnique": 40,
+        "freshLikeIds": [
+          "2089895546068799850",
+          "2090118053354684808",
+          "2089932520708030678",
+          "2090110302969081899",
+          "2089937071511421356",
+          "2086728652163801144",
+          "2089882569232048614",
+          "2089966185777356829",
+          "2090142857932013838",
+          "2090106767711896045",
+          "2090005709169766903",
+          "2089799321013178670",
+          "2090007297686978928",
+          "2089774945182072877",
+          "2089705711534055668",
+          "2089829677770703241",
+          "2089770081459056765",
+          "2089844401409499513",
+          "2090000365131596114",
+          "2089984794671063068",
+          "2089878518272536863",
+          "2089958970882736480",
+          "2089960396245643706"
+        ],
+        "knownBoundary": "known-boundary",
+        "csvHistoryBackfill": 57,
+        "selectedHomeIds": [
+          "2090228404847026529",
+          "2090228006967230799",
+          "2090228138508992803",
+          "2090221870805303416",
+          "2090220247454232933",
+          "2090227289120534581",
+          "2090224733572751691",
+          "2090228318201123111",
+          "2090228604915617925",
+          "2090174763213664496",
+          "2090166227733713131",
+          "2090141816188268659",
+          "2090140149426626708",
+          "2090136956101414982",
+          "2090136227617952145",
+          "2090120567093617136",
+          "2090117512675659854",
+          "2090114882272141760",
+          "2090227326478848480",
+          "2090227583874900270"
+        ]
+      }
+    },
+    "items": [
+      {
+        "id": "2090228404847026529",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/creationline/status/2090228404847026529",
+        "author": "クリエーションライン株式会社【公式】",
+        "handle": "creationline",
+        "datetime": "2026-08-20T00:04:20.000Z",
+        "title": "Claude Code 多标签页用标题暴露任务状态",
+        "originalSummary": "原帖内容：複数タブでClaude Codeを使うと「どれがどの作業か」迷いませんか？🤔 agmsg×xfce4-terminalでタブタイトルを動的変更する方法を紹介📝 地味に効く時短術⚡ https://hubs.ly/Q04tFD1T0 #ClaudeCode #agmsg #xfce4",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Agent Terminal UX」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "creationline 介绍用 agmsg 与 xfce4-terminal 动态改写 Claude Code 多标签页标题。它不是大功能，而是把 agent 长任务的“哪一页在做什么”变成低成本状态可见性，适合设计工程师改造自己的开发工作台。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.creationline.com/tech-blog/chatgpt-ai/ai-driven-dev/85385?utm_content=384538541&utm_medium=social&utm_source=twitter&hss_channel=tw-563496644",
+            "title": "Claude Code + agmsg + xfce4-terminalでのタブタイトルの変更 #claude #agmsg #xfce4 - Tech Blog｜クリエーションライン",
+            "access": "full",
+            "summary": "AI駆動開発(AIDD), Claude / GitHub Copilot, d-higuchi |はじめに 筆者はDebian環境において、xfce4-terminalで複数タブを開き、それぞれでClaude",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「Claude Code 多标签页用标题暴露任务状态」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Terminal UX」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI WORKFLOW",
+          "Agent Terminal UX",
+          "media:text",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090228006967230799",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/khemaridh/status/2090228006967230799",
+        "author": "Khe Hy",
+        "handle": "khemaridh",
+        "datetime": "2026-08-20T00:02:46.000Z",
+        "title": "Grok Bot 早期体验暴露 Agent 信任与 VM 摩擦",
+        "originalSummary": "原帖内容：Initial reaction on @grok @bot. Not living up to the hype, Codex+iPhone is better. 1. The interface is good and simple. You start a chat. You add plug-ins. You set up computer use.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Agent Trust / Control Surface」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Khe Hy 的 Grok Bot 体验复盘把界面简单、MCP 连接顺滑、缺少 mental model、Computer Use 登录态摩擦拆开。它对个人设计师有价值，因为它把 agent 产品的信任、权限和执行环境问题说得很具体。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Grok Bot 早期体验暴露 Agent 信任与 VM 摩擦」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Trust / Control Surface」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI AGENT",
+          "Agent Trust / Control Surface",
+          "media:text"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090228138508992803",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dmitrychesnok0v/status/2090228138508992803",
+        "author": "Dmitry Chesnokov",
+        "handle": "dmitrychesnok0v",
+        "datetime": "2026-08-20T00:03:17.000Z",
+        "title": "Codex 从代码导入设计并生成多方向变体",
+        "originalSummary": "原帖内容：Watching Codex import the original design from my codebase, branch it into variations, and let the winner emerge as a combination of the best ones — all aligned, visualized with sh",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Design Branching / Agent Review」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Dmitry 观察 Codex 从代码库导入原设计、分支生成多个变体，再在 MagicPath 团队项目里合并优胜方案。它说明设计工程正在从单点改稿变成可比较、可评论、可组合的多候选工作流。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Codex 从代码导入设计并生成多方向变体」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Branching / Agent Review」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "DESIGN TOOL",
+          "Design Branching / Agent Review",
+          "media:photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090221870805303416",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/tantans_design/status/2090221870805303416",
+        "author": "たんたん｜プロダクトデザイナー",
+        "handle": "tantans_design",
+        "datetime": "2026-08-19T23:38:23.000Z",
+        "title": "Claude Design 适合简单 UI，Figma 仍适合模式资产化",
+        "originalSummary": "原帖内容：ここ数ヶ月Claude Designが業務のハブになってたので学び直し。 比較的シンプルなUIの改善がメインならClaudeに絞った方が効率感あるけど、Claudeでは表現しきれないデザインのパターン作成→検証→改善→資産化を中長期的に続けるならやはりFigmaかな 拡張機能の情報追えてなかったのは大反省、、、",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Figma vs Claude Design Workflow」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "tantans_design 反思几个月用 Claude Design 做业务 hub 后的分工：简单 UI 改善可交给 Claude，长期的模式生成、验证、改善和资产化仍需要 Figma。它是个人设计师选择工具边界的好样本。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Claude Design 适合简单 UI，Figma 仍适合模式资产化」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Figma vs Claude Design Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Figma vs Claude Design Workflow",
+          "media:text"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090220247454232933",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/cjav_dev/status/2090220247454232933",
+        "author": "CJ Avilla",
+        "handle": "cjav_dev",
+        "datetime": "2026-08-19T23:31:56.000Z",
+        "title": "Claude Platform session console 变成多 agent 观察台",
+        "originalSummary": "原帖内容：Lots of great new knobs and UX in the Claude Platform console for viewing sessions. I have a ton of agents that I use directly through the console, or driven by Claude Code with th",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Agent Session Console」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "cjav_dev 注意到 Claude Platform console 增加更多 session 查看旋钮和 UX，并用不同 persona 的 QA agents dogfood。重点是 agent 的过程可见性开始变成产品界面，而不是隐藏在终端日志里。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Claude Platform session console 变成多 agent 观察台」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Session Console」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI PRODUCT",
+          "Agent Session Console",
+          "media:text"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090227289120534581",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abenz95/status/2090227289120534581",
+        "author": "Alex",
+        "handle": "abenz95",
+        "datetime": "2026-08-19T23:59:54.000Z",
+        "title": "电商改版先看 checkout abandonment 而不是先画首页",
+        "originalSummary": "原帖内容：most ecommerce teams calling me for a redesign can't name their checkout abandonment rate. not cart, not conversion. checkout. those are two different problems with two different f",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Conversion Baseline / UX Audit」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Abenz 提醒 redesign 前必须先拆 checkout funnel，从 step 到 payment 再到 confirm 找基线。它对设计师的价值在于把“审美改版”转回可验证的转化问题，避免只交 Figma 图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「电商改版先看 checkout abandonment 而不是先画首页」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Conversion Baseline / UX Audit」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Conversion Baseline / UX Audit",
+          "media:text"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090224733572751691",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/elsaaamri/status/2090224733572751691",
+        "author": "Elsa",
+        "handle": "elsaaamri",
+        "datetime": "2026-08-19T23:49:45.000Z",
+        "title": "Soltar 用个人材料学习语言并由 Figma+Claude Code 构建",
+        "originalSummary": "原帖内容：I'm building an app for learning languages with your own material at your own pace! Designed in Figma and building it in Claude Code (https://heysoltar.io). Looking to connect with",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Indie Learning App」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Elsa 展示正在做的语言学习 app：用户用自己的材料按节奏学习，设计在 Figma，构建用 Claude Code。它适合作为小型教育产品从设计到实现的一人闭环样本。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.heysoltar.io/",
+            "title": "Soltar | Learn languages, your way",
+            "access": "full",
+            "summary": "Language learning built around your material. Upload lessons, build vocabulary, and practice conversations at your own pace.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「Soltar 用个人材料学习语言并由 Figma+Claude Code 构建」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Indie Learning App」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "INDIE PRODUCT",
+          "Indie Learning App",
+          "media:photo",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090228318201123111",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/XAMTO_AI/status/2090228318201123111",
+        "author": "Amto",
+        "handle": "XAMTO_AI",
+        "datetime": "2026-08-20T00:04:00.000Z",
+        "title": "ai-memory 为 coding agents 做长期记忆交接",
+        "originalSummary": "原帖内容：ai-memory专为 AI 编程 Agent 打造的长期记忆系统！ 会话上下文自动捕获，工具之间无缝交接，之前聊到什么进度、踩过什么坑、哪些问题还没解决，统统不用重复。 主流AI编程助手基本都接上了。 Claude Code、OpenAI Codex、Cursor、Gemini CLI、OpenCode这些都能用。 部署也灵活，本地优先，也支持Docker",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Agent Memory / Handoff」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "XAMTO_AI 介绍 ai-memory：自动捕获会话上下文、跨 Claude Code/Codex/Cursor/Gemini/OpenCode 交接，并支持本地优先部署。它提醒设计工程师把 agent 记忆当成工作流基础设施，而不是聊天记录。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/akitaonrails/ai-memory",
+            "title": "GitHub - akitaonrails/ai-memory: Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendo",
+            "access": "full",
+            "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors - akitaonrails/ai-memory",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「ai-memory 为 coding agents 做长期记忆交接」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Memory / Handoff」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI WORKFLOW",
+          "Agent Memory / Handoff",
+          "media:photo",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090228604915617925",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/lifeisameeme/status/2090228604915617925",
+        "author": "Lord Bean",
+        "handle": "lifeisameeme",
+        "datetime": "2026-08-20T00:05:08.000Z",
+        "title": "opencode 用高频 release 维持开源 coding agent 节奏",
+        "originalSummary": "原帖内容：There's an open source coding agent with 199K GitHub stars shipping a new release almost every single day. opencode is a fully open source coding agent - not a wrapper, the whole t",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Open-source Coding Agent」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "这条内容把 opencode 描述为完整开源 coding agent，而不是轻量 wrapper，并强调几乎每日发版。对个人设计工程师的价值在于观察开源 agent 如何用小步发布、插件和终端体验挑战重型 IDE。",
+        "linkAnalysis": [
+          {
+            "url": "https://opencode.ai/",
+            "title": "OpenCode | The open source AI coding agent",
+            "access": "full",
+            "summary": "OpenCode - The open source coding agent.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「opencode 用高频 release 维持开源 coding agent 节奏」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Open-source Coding Agent」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI DEV TOOL",
+          "Open-source Coding Agent",
+          "media:text",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090174763213664496",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/avstorm/status/2090174763213664496",
+        "author": "Andreas Storm",
+        "handle": "avstorm",
+        "datetime": "2026-08-19T20:31:11.000Z",
+        "title": "Uber 新图标系统展示品牌级 icon refresh",
+        "originalSummary": "原帖内容：Uber has introduced a new icon system",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Icon System Refresh」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Andreas Storm 记录 Uber 推出新的 icon system。它适合作为图标系统更新样本：看线宽、填充、动效和品牌一致性，而不是只收藏单个漂亮图标。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Uber 新图标系统展示品牌级 icon refresh」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Icon System Refresh」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "ICON SYSTEM",
+          "Icon System Refresh",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090166227733713131",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/getPlasticity/status/2090166227733713131",
+        "author": "Plasticity",
+        "handle": "getPlasticity",
+        "datetime": "2026-08-19T19:57:16.000Z",
+        "title": "Plasticity Slide beta 支持保留曲面流的 CV 调整",
+        "originalSummary": "原帖内容：Slide gets an upgrade in the newest beta. Move CVs while preserving the existing surface flow, now with proportional falloff for smoother adjustments. When sliding across multiple ",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「3D Modeling Direct Manipulation」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Plasticity 新 beta 的 Slide 能在移动 CV 时保留 surface flow，并用 proportional falloff 平滑跨面调整。它对 3D/工业设计工具学习有价值，因为它把复杂几何编辑变成可预期的直接操控。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Plasticity Slide beta 支持保留曲面流的 CV 调整」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「3D Modeling Direct Manipulation」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "DESIGN TOOL",
+          "3D Modeling Direct Manipulation",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090141816188268659",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/doodles/status/2090141816188268659",
+        "author": "doodles",
+        "handle": "doodles",
+        "datetime": "2026-08-19T18:20:16.000Z",
+        "title": "Doodles Toys 把图片或想法变成可拿在手里的物件",
+        "originalSummary": "原帖内容：turn any image or idea into something you can hold. https://doodles.toys",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「AI-to-Physical Product」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Doodles 展示从图像或想法生成实体玩具的产品路径。它的价值不是“又一个生成器”，而是把 AI 视觉输出接到实物化、商品化和情绪价值表达。",
+        "linkAnalysis": [
+          {
+            "url": "https://doodles.toys/",
+            "title": "Vercel Security Checkpoint",
+            "access": "unavailable",
+            "summary": "doodles.toys 返回 429，可读取到有限页面内容。",
+            "value": "页面不可读，不作为事实依据。"
+          }
+        ],
+        "learningActions": [
+          "把「Doodles Toys 把图片或想法变成可拿在手里的物件」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「AI-to-Physical Product」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI PRODUCT",
+          "AI-to-Physical Product",
+          "media:video",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090140149426626708",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/jojodecayz/status/2090140149426626708",
+        "author": "JO. Z",
+        "handle": "jojodecayz",
+        "datetime": "2026-08-19T18:13:39.000Z",
+        "title": "ComfyUI 可把平面图拆成 Photoshop PSD 图层",
+        "originalSummary": "原帖内容：ComfyUI can now split a flat image into separate editable layers and hand you a PSD that opens straight in Photoshop. Thanks to Node 2.0. The new layer nodes come from Terry (@jtyd",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「AI Image to Editable PSD」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Jojo Decay 记录 ComfyUI Node 2.0 新 layer nodes：把平面图拆成可编辑层并直接导出 PSD。它对设计师有价值，因为它把 AI 图像从一次性素材变成可再编辑的生产文件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「ComfyUI 可把平面图拆成 Photoshop PSD 图层」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「AI Image to Editable PSD」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI DESIGN TOOL",
+          "AI Image to Editable PSD",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090136956101414982",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/cursor_ai/status/2090136956101414982",
+        "author": "Cursor",
+        "handle": "cursor_ai",
+        "datetime": "2026-08-19T18:00:57.000Z",
+        "title": "Cursor cloud agents 改善事件触发和长任务保持目标",
+        "originalSummary": "原帖内容：We're continuing to improve cloud agents in Cursor. They pick up work from events, hold a goal until it's met, and stay on course through long sessions.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Cloud Agent Task Continuity」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Cursor 官方更新 cloud agents：能从事件接任务、保持目标直到完成，并在长 session 中不跑偏。它是 agent 产品状态机与任务边界设计的关键参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Cursor cloud agents 改善事件触发和长任务保持目标」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Cloud Agent Task Continuity」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI DEV TOOL",
+          "Cloud Agent Task Continuity",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090136227617952145",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ElevenLabs/status/2090136227617952145",
+        "author": "ElevenLabs",
+        "handle": "ElevenLabs",
+        "datetime": "2026-08-19T17:58:04.000Z",
+        "title": "Eleven v3 Conversational GA 强化实时语音情绪表达",
+        "originalSummary": "原帖内容：Eleven v3 Conversational, our most expressive model for realtime speech, is now generally available. For developers building voice experiences that respond with real emotion, Eleve",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Realtime Voice UX」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "ElevenLabs 宣布 Eleven v3 Conversational GA，面向能实时回应情绪的 voice experience。对产品设计来说，语音 agent 的情绪、延迟和轮流对话会直接改变交互节奏。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Eleven v3 Conversational GA 强化实时语音情绪表达」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Realtime Voice UX」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI PRODUCT",
+          "Realtime Voice UX",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090120567093617136",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/MengTo/status/2090120567093617136",
+        "author": "Meng To",
+        "handle": "MengTo",
+        "datetime": "2026-08-19T16:55:50.000Z",
+        "title": "Meng To 用 prompt 化 Three.js 模板库降低 3D UI 复用门槛",
+        "originalSummary": "原帖内容：I'm building a library of three.js templates with variants and customizations. They're all copyable as prompts. These components are 100–200 KB each and written entirely in procedu",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Three.js Template System」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Meng To 正在构建可复制为 prompt 的 Three.js 模板库，每个组件 100-200KB 并用程序化 shader/rendering。它对个人设计工程师很有价值：把 3D 视觉从 demo 变成可复用资产。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Meng To 用 prompt 化 Three.js 模板库降低 3D UI 复用门槛」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Three.js Template System」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "DESIGN ENGINEERING",
+          "Three.js Template System",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090117512675659854",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/jakevin7/status/2090117512675659854",
+        "author": "kabikabi",
+        "handle": "jakevin7",
+        "datetime": "2026-08-19T16:43:42.000Z",
+        "title": "Apache Maka 把 agent harness 做成中立开源项目",
+        "originalSummary": "原帖内容：Apache 孵化器迎来了第一个 Agent Harness 项目 —— Apache Maka (Incubating) 🎉 https://github.com/apache/maka Maka 目前是性能最前沿的 agent 之一，持续的打磨了Harness 效果和经济性，在benchmark上取得了顶尖的分数和排名，且报告完全开源可复现。 — Ma",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Open Agent Harness」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "jakevin7 介绍 Apache Maka 进入孵化器：一个本地优先、开源中立的 agent harness，强调 benchmark、测试和社区 PR 速度。它提醒设计工程师关注 agent 底层 harness，而不只是模型 UI。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/apache/maka",
+            "title": "GitHub - apache/maka: Maka — local-first AI desktop assistant · GitHub",
+            "access": "full",
+            "summary": "Maka — local-first AI desktop assistant. Contribute to apache/maka development by creating an account on GitHub.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          },
+          {
+            "url": "https://t.co/wVPBomVzMq",
+            "title": "t.co 短链接",
+            "access": "unavailable",
+            "summary": "短链接没有在可用元数据中展开。",
+            "value": "无法确认目标内容，只保留原帖可见证据。"
+          }
+        ],
+        "learningActions": [
+          "把「Apache Maka 把 agent harness 做成中立开源项目」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Open Agent Harness」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI AGENT",
+          "Open Agent Harness",
+          "media:text",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090114882272141760",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/superwhisper/status/2090114882272141760",
+        "author": "superwhisper",
+        "handle": "superwhisper",
+        "datetime": "2026-08-19T16:33:15.000Z",
+        "title": "superwhisper S1-mini 把转写处理放到本地小模型",
+        "originalSummary": "原帖内容：Introducing S1-mini ✨ Our first open-weights language model. A 0.6B parameter model that processes transcripts entirely on your device. Try it in app today.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「On-device Speech Model」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "superwhisper 发布 0.6B open-weights S1-mini，在设备端处理 transcripts。对个人工具设计的价值在于隐私、低延迟和离线能力可以成为 AI 语音产品的核心体验。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「superwhisper S1-mini 把转写处理放到本地小模型」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「On-device Speech Model」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI PRODUCT",
+          "On-device Speech Model",
+          "media:photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090227326478848480",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Architizer/status/2090227326478848480",
+        "author": "Architizer",
+        "handle": "Architizer",
+        "datetime": "2026-08-20T00:00:03.000Z",
+        "title": "Architizer 案例把阴影当成空间设计工具",
+        "originalSummary": "原帖内容：Rather than treating shadow as a limitation, this project uses it as a design tool, carefully framing changing light from evening through morning. 📍 Gyeongju-si, South Korea Proje",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Light and Shadow Composition」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Architizer 展示韩国项目如何把晨昏阴影作为设计语言，而不是限制条件。它适合作为视觉设计训练样本：关注光影如何组织节奏、边界和空间情绪。",
+        "linkAnalysis": [
+          {
+            "url": "https://architizer.com/projects/gyeongjuok/",
+            "title": "Gyeongjuok by 100A associates - Architizer",
+            "access": "full",
+            "summary": "A place of light and darkness, shaded tranquility: “Gyeongjuok” Enveloped by mountains and the sky, the first impression the site located in Sannae-myeon, Gye…",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「Architizer 案例把阴影当成空间设计工具」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Light and Shadow Composition」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "VISUAL DESIGN",
+          "Light and Shadow Composition",
+          "media:photo",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090227583874900270",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/zachmoskow/status/2090227583874900270",
+        "author": "Zach Moskow",
+        "handle": "zachmoskow",
+        "datetime": "2026-08-20T00:01:05.000Z",
+        "title": "Launch video 的虚假热度成本暴露增长设计问题",
+        "originalSummary": "原帖内容：Just so everyone knows...we got a quote for a “launch video” package from the company everyone uses. $17K for the video. +$25K and they hand you 50 influencers who will push it, re",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是同日出现的「Launch Video Distribution Reality」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Zach Moskow 公开 launch video 报价：视频制作加 50 个 influencer 推动可堆出 50 万播放。它提醒设计师判断“爆款案例”时要拆分内容质量、分发成本和真实产品信号。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Launch video 的虚假热度成本暴露增长设计问题」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Launch Video Distribution Reality」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "PRODUCT MARKETING",
+          "Launch Video Distribution Reality",
+          "media:text"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089895546068799850",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/studio_oneroom/status/2089895546068799850",
+        "author": "AIスタジオワンルーム（AIアニメ、動画、漫画）",
+        "handle": "studio_oneroom",
+        "datetime": "2026-08-19T02:01:41.000Z",
+        "title": "MiniMaxDesignでモーショングラフィックを勉強中！ 昨日から初めて、たった一日で大分、それっぽいものが作れるよ",
+        "originalSummary": "原帖内容：MiniMaxDesignでモーショングラフィックを勉強中！ 昨日から初めて、たった一日で大分、それっぽいものが作れるようになってきました。 アフターエフェクトを使えない私にとってモーショングラフィックは憧れでもあったので、これが無編集で、しかもT2Vで出来てしまうのは最高すぎます！！ 正直、MiniMax H3の可能性は底知れない・・・ 今まで私のようにモ",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「MiniMaxDesignでモーショングラフィックを勉強中！ 昨日から初めて、たった一日で大分、それっぽいものが作れるよ」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「MiniMaxDesignでモーショングラフィックを勉強中！ 昨日から初めて、たった一日で大分、それっぽいものが作れるよ」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090118053354684808",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/FarzadGodarz/status/2090118053354684808",
+        "author": "Farzad Godarz",
+        "handle": "FarzadGodarz",
+        "datetime": "2026-08-19T16:45:51.000Z",
+        "title": "Love this kind of cute interaction😌",
+        "originalSummary": "原帖内容：Love this kind of cute interaction😌",
+        "whySaved": "你会收藏它，是因为它把「个人收藏偏好」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Love this kind of cute interaction😌」。它提供了一个可复盘的 个人收藏偏好 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Love this kind of cute interaction😌」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「个人收藏偏好」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "个人收藏偏好",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089932520708030678",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/lachamade/status/2089932520708030678",
+        "author": "François Lefebvre",
+        "handle": "lachamade",
+        "datetime": "2026-08-19T04:28:36.000Z",
+        "title": "Fresh look at this dynamic grid, controlled by distance from",
+        "originalSummary": "原帖内容：Fresh look at this dynamic grid, controlled by distance from a null in After Effects. Leaving the bounding box visible to show how the distortions behave.",
+        "whySaved": "你会收藏它，是因为它把「Motion Design」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Fresh look at this dynamic grid, controlled by distance from」。它提供了一个可复盘的 Motion Design 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Fresh look at this dynamic grid, controlled by distance from」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Motion Design」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Motion Design",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090110302969081899",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Lonely__MH/status/2090110302969081899",
+        "author": "Lonely",
+        "handle": "Lonely__MH",
+        "datetime": "2026-08-19T16:15:03.000Z",
+        "title": "🎉好消息！ 8G 内存 Mac 也能部署 Qwen 3.8-27B 了！ @UnslothAI 刚刚整了个大活，发布了",
+        "originalSummary": "原帖内容：🎉好消息！ 8G 内存 Mac 也能部署 Qwen 3.8-27B 了！ @UnslothAI 刚刚整了个大活，发布了基于 Qwen3.8-27B 的 Dynamic 3.0 超级量化版本！ 以往 27B 这种体量的多模态大模型，至少需要 30G 以上的显存/内存才能勉强带得动 但这次，通过极致的 1-bit / 2-bit 量化（UD-IQ1_M / U",
+        "whySaved": "你会收藏它，是因为它把「个人收藏偏好」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「🎉好消息！ 8G 内存 Mac 也能部署 Qwen 3.8-27B 了！ @UnslothAI 刚刚整了个大活，发布了」。它提供了一个可复盘的 个人收藏偏好 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ2_S",
+            "title": "404 – Hugging Face",
+            "access": "unavailable",
+            "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+            "value": "页面不可读，不作为事实依据。"
+          }
+        ],
+        "learningActions": [
+          "把「🎉好消息！ 8G 内存 Mac 也能部署 Qwen 3.8-27B 了！ @UnslothAI 刚刚整了个大活，发布了」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「个人收藏偏好」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "个人收藏偏好",
+          "media:photo",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089937071511421356",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/lingxi/status/2089937071511421356",
+        "author": "Lingxi Li",
+        "handle": "lingxi",
+        "datetime": "2026-08-19T04:46:41.000Z",
+        "title": "dictation bar just got an experience upgrade in grok @bot on",
+        "originalSummary": "原帖内容：dictation bar just got an experience upgrade in grok @bot on iOS. it now fits your finger better, especially on one hand.",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「dictation bar just got an experience upgrade in grok @bot on」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「dictation bar just got an experience upgrade in grok @bot on」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2086728652163801144",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/viturejp/status/2086728652163801144",
+        "author": "VITURE Japan | ヴィチュアー",
+        "handle": "viturejp",
+        "datetime": "2026-08-10T08:17:34.000Z",
+        "title": "🎉 VITURE 5th Anniversary & New Product Experience Event \"On",
+        "originalSummary": "原帖内容：🎉 VITURE 5th Anniversary & New Product Experience Event \"One Day with VITURE\" Confirmed to Be Held!",
+        "whySaved": "你会收藏它，是因为它把「Product Design」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「🎉 VITURE 5th Anniversary & New Product Experience Event \"On」。它提供了一个可复盘的 Product Design 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「🎉 VITURE 5th Anniversary & New Product Experience Event \"On」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Product Design」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Product Design",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089882569232048614",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/MaxForAI/status/2089882569232048614",
+        "author": "Max For AI",
+        "handle": "MaxForAI",
+        "datetime": "2026-08-19T01:10:07.000Z",
+        "title": "啊？ @vercel 居然开源了一个Coding Agent？？ 这个Agent叫：fx 它有点反潮流，只有 6.3MB",
+        "originalSummary": "原帖内容：啊？ @vercel 居然开源了一个Coding Agent？？ 这个Agent叫：fx 它有点反潮流，只有 6.3MB 的大小。 现在的 Coding Agent 都在越做越重：IDE、TUI、浏览器、工作流、记忆、各种 Agent 编排全往里面塞。 fx 反过来，想把 Coding Agent 做成一个 Unix 工具。 它用 Zig 编写，是一个单独的",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「啊？ @vercel 居然开源了一个Coding Agent？？ 这个Agent叫：fx 它有点反潮流，只有 6.3MB」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「啊？ @vercel 居然开源了一个Coding Agent？？ 这个Agent叫：fx 它有点反潮流，只有 6.3MB」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089966185777356829",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/joelbqz/status/2089966185777356829",
+        "author": "Joel",
+        "handle": "joelbqz",
+        "datetime": "2026-08-19T06:42:23.000Z",
+        "title": "threejs - r3f - grok-4.6 - forge https://ui8.ai/forge",
+        "originalSummary": "原帖内容：threejs - r3f - grok-4.6 - forge https://ui8.ai/forge",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「threejs - r3f - grok-4.6 - forge https://ui8.ai/forge」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://ui8.ai/forge/",
+            "title": "Forge",
+            "access": "full",
+            "summary": "Forge is a free macOS app that turns any local web project into a visual canvas. Your work always lives on disk, in your repo, ready to commit.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「threejs - r3f - grok-4.6 - forge https://ui8.ai/forge」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090142857932013838",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/HeyDetya/status/2090142857932013838",
+        "author": "Hey Detya",
+        "handle": "HeyDetya",
+        "datetime": "2026-08-19T18:24:24.000Z",
+        "title": "best design resources I use daily 👇 - http://Animos.app — s",
+        "originalSummary": "原帖内容：best design resources I use daily 👇 - http://Animos.app — showcase designs in motion - http://Inspora.design — design inspiration - http://Hano.so — 3D device mockups - http://Sup",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「best design resources I use daily 👇 - http://Animos.app — s」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://animos.app/",
+            "title": "animos — Motion templates for design showcases",
+            "access": "full",
+            "summary": "animos — ready-made animation templates for showcasing your designs. Drop in images or videos, tweak, and export MP4/WebM in your browser.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          },
+          {
+            "url": "https://inspora.design/",
+            "title": "Vercel Security Checkpoint",
+            "access": "unavailable",
+            "summary": "inspora.design 返回 429，可读取到有限页面内容。",
+            "value": "页面不可读，不作为事实依据。"
+          }
+        ],
+        "learningActions": [
+          "把「best design resources I use daily 👇 - http://Animos.app — s」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090106767711896045",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/arlanoska/status/2090106767711896045",
+        "author": "Arlan",
+        "handle": "arlanoska",
+        "datetime": "2026-08-19T16:01:00.000Z",
+        "title": "text lens effect! copy code here: https://arlan.me/vault",
+        "originalSummary": "原帖内容：text lens effect! copy code here: https://arlan.me/vault",
+        "whySaved": "你会收藏它，是因为它把「个人收藏偏好」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「text lens effect! copy code here: https://arlan.me/vault」。它提供了一个可复盘的 个人收藏偏好 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.arlan.me/vault",
+            "title": "Vault",
+            "access": "full",
+            "summary": "www.arlan.me 返回 200，可读取到有限页面内容。",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「text lens effect! copy code here: https://arlan.me/vault」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「个人收藏偏好」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "个人收藏偏好",
+          "media:video",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090005709169766903",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/alaymanguy/status/2090005709169766903",
+        "author": "Aniket Pawar",
+        "handle": "alaymanguy",
+        "datetime": "2026-08-19T09:19:26.000Z",
+        "title": "wtf this is crazy: https://morphicons.com",
+        "originalSummary": "原帖内容：wtf this is crazy: https://morphicons.com",
+        "whySaved": "你会收藏它，是因为它把「Visual System」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「wtf this is crazy: https://morphicons.com」。它提供了一个可复盘的 Visual System 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.morphicons.com/",
+            "title": "morphicons — SVG icon morphing library for React, Vue &amp; Svelte",
+            "access": "full",
+            "summary": "Morph any SVG icon into any other with spring physics. Animate Lucide, Tabler and Heroicons in React, Vue, Svelte, React Native, Astro or vanilla JS. Zero dependencies, ~6 KB gzip.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「wtf this is crazy: https://morphicons.com」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Visual System」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Visual System",
+          "media:video",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089799321013178670",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/alain_0012/status/2089799321013178670",
+        "author": "Alain Alvarez",
+        "handle": "alain_0012",
+        "datetime": "2026-08-18T19:39:19.000Z",
+        "title": "adding more simple shapes to blobatar (capsule, triangle, he",
+        "originalSummary": "原帖内容：adding more simple shapes to blobatar (capsule, triangle, hexagon, droplet), the trades: - aprox +700 bytes gzip in `blobatar@2.0`, now 4.3Kb - each version is deterministic by its",
+        "whySaved": "你会收藏它，是因为它把「个人收藏偏好」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「adding more simple shapes to blobatar (capsule, triangle, he」。它提供了一个可复盘的 个人收藏偏好 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://blobatar.dev/",
+            "title": "blobatar — deterministic geometric blobatars",
+            "access": "full",
+            "summary": "Deterministic geometric blobatars from any string. No dependencies, about 3.7 KB.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「adding more simple shapes to blobatar (capsule, triangle, he」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「个人收藏偏好」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "个人收藏偏好",
+          "media:photo",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090007297686978928",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/m1ssuo/status/2090007297686978928",
+        "author": "Vincent Yang",
+        "handle": "m1ssuo",
+        "datetime": "2026-08-19T09:25:44.000Z",
+        "title": "Native macOS console for herdr — all your coding agents and ",
+        "originalSummary": "原帖内容：Native macOS console for herdr — all your coding agents and their live terminals, across devices Early stage software without full test coverage — expect bugs. PRs are very welcome",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Native macOS console for herdr — all your coding agents and 」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/missuo/herdrm",
+            "title": "GitHub - missuo/herdrm: Native macOS console for herdr — all your coding agents and their live terminals, across devices · GitHub",
+            "access": "full",
+            "summary": "Native macOS console for herdr — all your coding agents and their live terminals, across devices - missuo/herdrm",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「Native macOS console for herdr — all your coding agents and 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:text",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089774945182072877",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/archi_reum/status/2089774945182072877",
+        "author": "Archireum",
+        "handle": "archi_reum",
+        "datetime": "2026-08-18T18:02:27.000Z",
+        "title": "未命名收藏信号",
+        "originalSummary": "原帖内容：",
+        "whySaved": "你会收藏它，是因为它把「个人收藏偏好」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「未命名收藏信号」。它提供了一个可复盘的 个人收藏偏好 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「未命名收藏信号」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「个人收藏偏好」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "个人收藏偏好",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089705711534055668",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/alain_0012/status/2089705711534055668",
+        "author": "Alain Alvarez",
+        "handle": "alain_0012",
+        "datetime": "2026-08-18T13:27:21.000Z",
+        "title": "blobatar has a url now. https://blobatar.dev/avatar/alain00 ",
+        "originalSummary": "原帖内容：blobatar has a url now. https://blobatar.dev/avatar/alain00 any string - username, email, id, gravatar hash. 13 expressions, 4 backgrounds, svg, any size. no signup, no key, no sto",
+        "whySaved": "你会收藏它，是因为它把「个人收藏偏好」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「blobatar has a url now. https://blobatar.dev/avatar/alain00 」。它提供了一个可复盘的 个人收藏偏好 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://blobatar.dev/avatar/alain00",
+            "title": "blobatar.dev",
+            "access": "partial",
+            "summary": "blobatar.dev 返回 200，可读取到有限页面内容。",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「blobatar has a url now. https://blobatar.dev/avatar/alain00 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「个人收藏偏好」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "个人收藏偏好",
+          "media:video",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089829677770703241",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/emilwidlund/status/2089829677770703241",
+        "author": "emil",
+        "handle": "emilwidlund",
+        "datetime": "2026-08-18T21:39:56.000Z",
+        "title": "i had no idea what granular synthesis was 1 day ago. tonight",
+        "originalSummary": "原帖内容：i had no idea what granular synthesis was 1 day ago. tonight, i built a proper engine with a complete sampler, effects signal path & tape recorder. learnt a ton. coming soon.",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「i had no idea what granular synthesis was 1 day ago. tonight」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「i had no idea what granular synthesis was 1 day ago. tonight」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089770081459056765",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/elayadesigns/status/2089770081459056765",
+        "author": "Elaya",
+        "handle": "elayadesigns",
+        "datetime": "2026-08-18T17:43:08.000Z",
+        "title": "Animated in Higgsfield Seedance 2.5 + Cursor Composer 2.5 AI",
+        "originalSummary": "原帖内容：Animated in Higgsfield Seedance 2.5 + Cursor Composer 2.5 AI Skill: https://github.com/elayadesign/ai-design-skills",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Animated in Higgsfield Seedance 2.5 + Cursor Composer 2.5 AI」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/elayadesign/ai-design-skills",
+            "title": "GitHub - elayadesign/ai-design-skills · GitHub",
+            "access": "full",
+            "summary": "Contribute to elayadesign/ai-design-skills development by creating an account on GitHub.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「Animated in Higgsfield Seedance 2.5 + Cursor Composer 2.5 AI」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089844401409499513",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/jamesm/status/2089844401409499513",
+        "author": "James McDonald",
+        "handle": "jamesm",
+        "datetime": "2026-08-18T22:38:27.000Z",
+        "title": "Spent an hour today to put my own spin on the new Preview ap",
+        "originalSummary": "原帖内容：Spent an hour today to put my own spin on the new Preview app icon. Probably one of my favourites from the new update!",
+        "whySaved": "你会收藏它，是因为它把「Visual System」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Spent an hour today to put my own spin on the new Preview ap」。它提供了一个可复盘的 Visual System 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Spent an hour today to put my own spin on the new Preview ap」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Visual System」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Visual System",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090000365131596114",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/tranmautritam/status/2090000365131596114",
+        "author": "Tran Mau Tri Tam ✪",
+        "handle": "tranmautritam",
+        "datetime": "2026-08-19T08:58:12.000Z",
+        "title": "This tool is amazing! You can morph any SVG icon into anothe",
+        "originalSummary": "原帖内容：This tool is amazing! You can morph any SVG icon into another. Save it → https://morphicons.com",
+        "whySaved": "你会收藏它，是因为它把「Visual System」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「This tool is amazing! You can morph any SVG icon into anothe」。它提供了一个可复盘的 Visual System 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.morphicons.com/",
+            "title": "morphicons — SVG icon morphing library for React, Vue &amp; Svelte",
+            "access": "full",
+            "summary": "Morph any SVG icon into any other with spring physics. Animate Lucide, Tabler and Heroicons in React, Vue, Svelte, React Native, Astro or vanilla JS. Zero dependencies, ~6 KB gzip.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「This tool is amazing! You can morph any SVG icon into anothe」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Visual System」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Visual System",
+          "media:video",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089984794671063068",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/uidotcamera/status/2089984794671063068",
+        "author": "UI Camera",
+        "handle": "uidotcamera",
+        "datetime": "2026-08-19T07:56:19.000Z",
+        "title": "The best use of a mono font we've seen in a while https://gp",
+        "originalSummary": "原帖内容：The best use of a mono font we've seen in a while https://gps-01.dmytro.fyi/",
+        "whySaved": "你会收藏它，是因为它把「Visual System」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「The best use of a mono font we've seen in a while https://gp」。它提供了一个可复盘的 Visual System 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://gps-01.dmytro.fyi/",
+            "title": "GPS-01",
+            "access": "full",
+            "summary": "A tiny interactive explainer of how your phone finds itself using satellites, signal timing, and one very annoying clock error.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「The best use of a mono font we've seen in a while https://gp」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Visual System」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Visual System",
+          "media:video",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089878518272536863",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/molightme/status/2089878518272536863",
+        "author": "molight",
+        "handle": "molightme",
+        "datetime": "2026-08-19T00:54:01.000Z",
+        "title": "有钱有闲真好啊！ 前推特创始人 Jack 现在有事没事就做点有意思的产品然后开源出来给大家玩。 前段时间的 buzz /",
+        "originalSummary": "原帖内容：有钱有闲真好啊！ 前推特创始人 Jack 现在有事没事就做点有意思的产品然后开源出来给大家玩。 前段时间的 buzz / drift，现在又来个 berd，看起来是对标马斯克的 Grok Bot，用于构建 AI 智能体的趣味桌面应用。",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「有钱有闲真好啊！ 前推特创始人 Jack 现在有事没事就做点有意思的产品然后开源出来给大家玩。 前段时间的 buzz /」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「有钱有闲真好啊！ 前推特创始人 Jack 现在有事没事就做点有意思的产品然后开源出来给大家玩。 前段时间的 buzz /」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2089958970882736480",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/okasupportgroup/status/2089958970882736480",
+        "author": "小七",
+        "handle": "okasupportgroup",
+        "datetime": "2026-08-19T06:13:42.000Z",
+        "title": "强烈推荐所有苹果开发者抓紧去申请这个用户退订挽留API。测试过效果，非常不错。 https://developer.ap",
+        "originalSummary": "原帖内容：强烈推荐所有苹果开发者抓紧去申请这个用户退订挽留API。测试过效果，非常不错。 https://developer.apple.com/documentation/retentionmessaging",
+        "whySaved": "你会收藏它，是因为它把「Product Design」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「强烈推荐所有苹果开发者抓紧去申请这个用户退订挽留API。测试过效果，非常不错。 https://developer.ap」。它提供了一个可复盘的 Product Design 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://developer.apple.com/documentation/retentionmessaging",
+            "title": "Retention Messaging API | Apple Developer Documentation",
+            "access": "full",
+            "summary": "Provide a reason for customers to stay subscribed with a preconfigured message that you can choose in real time, appropriate to the product and locale.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「强烈推荐所有苹果开发者抓紧去申请这个用户退订挽留API。测试过效果，非常不错。 https://developer.ap」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Product Design」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Product Design",
+          "media:photo",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2089960396245643706",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/vikingmute/status/2089960396245643706",
+        "author": "Viking",
+        "handle": "vikingmute",
+        "datetime": "2026-08-19T06:19:22.000Z",
+        "title": "Departure Mono 超好看 https://departuremono.com/ 等宽像素字体 lo-fi 复",
+        "originalSummary": "原帖内容：Departure Mono 超好看 https://departuremono.com/ 等宽像素字体 lo-fi 复古，古早科幻的感觉，网站展示做的非常棒，尤其是航班表，飞行仪表盘的设计，最下面还有一个打砖块的游戏，和这个字体配合的非常好，网站和字体都算是一个艺术品。 假如产品只要适配英文就好了，就有那么多有趣的字体可以使用了。",
+        "whySaved": "你会收藏它，是因为它把「Visual System」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Departure Mono 超好看 https://departuremono.com/ 等宽像素字体 lo-fi 复」。它提供了一个可复盘的 Visual System 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://departuremono.com/",
+            "title": "Departure Mono",
+            "access": "full",
+            "summary": "Departure Mono is a monospaced pixel font by Helena Zhang, licensed under the SIL OFL.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「Departure Mono 超好看 https://departuremono.com/ 等宽像素字体 lo-fi 复」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Visual System」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Visual System",
+          "media:video",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2058226773679063491",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/viktoroddy/status/2058226773679063491",
+        "author": "Viktor Oddy",
+        "handle": "viktoroddy",
+        "datetime": "2026-05-23T16:41:17.000Z",
+        "title": "Access ALL prompts for stunning animated websites in one cli",
+        "originalSummary": "原帖内容：Access ALL prompts for stunning animated websites in one click: http://motionsites.ai **PROMPT:** Build a single-page hero section for a creative agency called \"Axion Studio\" using",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Access ALL prompts for stunning animated websites in one cli」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://motionsites.ai/",
+            "title": "MotionSites AI — Official Premium AI Website Prompts",
+            "access": "full",
+            "summary": "Beautiful Website Prompts for Lovable, Bolt, Cursor, and Claude. Build Stunning 3d Websites With AI. Just copy, paste, and launch",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          },
+          {
+            "url": "https://t.co/8ebpHNinZe",
+            "title": "t.co 短链接",
+            "access": "unavailable",
+            "summary": "短链接没有在可用元数据中展开。",
+            "value": "无法确认目标内容，只保留原帖可见证据。"
+          }
+        ],
+        "learningActions": [
+          "把「Access ALL prompts for stunning animated websites in one cli」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:text",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2071651317135692157",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/greensock/status/2071651317135692157",
+        "author": "GSAP",
+        "handle": "greensock",
+        "datetime": "2026-06-29T17:45:38.000Z",
+        "title": "💚 Site of the Day - Program Studio The website is designed ",
+        "originalSummary": "原帖内容：💚 Site of the Day - Program Studio The website is designed around a system of interactive widgets that allow users to shape their own experience. Core features include editable la",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「💚 Site of the Day - Program Studio The website is designed 」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://program.studio/",
+            "title": "Program Studio",
+            "access": "full",
+            "summary": "Program is a technical studio specializing in advanced web platforms, custom tools and interactive systems.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          },
+          {
+            "url": "https://smlxl.company/",
+            "title": "Home - SMLXL",
+            "access": "full",
+            "summary": "SMLXL is a full-service design company based in New York and Barcelona focused on branding, packaging, digital and editorial illustration.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「💚 Site of the Day - Program Studio The website is designed 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2009816811852976280",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/joshpuckett/status/2009816811852976280",
+        "author": "joshpuckett",
+        "handle": "joshpuckett",
+        "datetime": "2026-01-10T02:37:23.000Z",
+        "title": "New Tools for a New Era. Coding agents like Claude and Curso",
+        "originalSummary": "原帖内容：New Tools for a New Era. Coding agents like Claude and Cursor have dramatically reduced the time it takes to go from idea to functional software. But the experience of designing an",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「New Tools for a New Era. Coding agents like Claude and Curso」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「New Tools for a New Era. Coding agents like Claude and Curso」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2070885963476173245",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/dorukkavcioglu/status/2070885963476173245",
+        "author": "Doruk",
+        "handle": "dorukkavcioglu",
+        "datetime": "2026-06-27T15:04:23.000Z",
+        "title": "A big skill upgrade to text-to-lottie Better design taste, b",
+        "originalSummary": "原帖内容：A big skill upgrade to text-to-lottie Better design taste, better motion, fewer random design decisions, fewer refinements Generate polished Lottie animations with Claude Code, Cod",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「A big skill upgrade to text-to-lottie Better design taste, b」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「A big skill upgrade to text-to-lottie Better design taste, b」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2038406683865624800",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/dotey/status/2038406683865624800",
+        "author": "宝玉",
+        "handle": "dotey",
+        "datetime": "2026-03-30T00:03:19.000Z",
+        "title": "飞书 CLI 开源了，为什么 AI Agent 时代，大家都在做命令行工具？ 飞书刚开源了一个命令行工具 lark-cl",
+        "originalSummary": "原帖内容：飞书 CLI 开源了，为什么 AI Agent 时代，大家都在做命令行工具？ 飞书刚开源了一个命令行工具 lark-cli，能让 AI Agent 直接操作飞书：发消息、查日历、写文档、建多维表格、发邮件、管任务。你跟 AI 说一句话，它自己去操作飞书完成任务。 类似的 CLI 还很多，三周前 Google 也开源了 gws，让 AI Agent 操作 Go",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「飞书 CLI 开源了，为什么 AI Agent 时代，大家都在做命令行工具？ 飞书刚开源了一个命令行工具 lark-cl」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/larksuite/cli",
+            "title": "GitHub - larksuite/cli: The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core busine",
+            "access": "full",
+            "summary": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「飞书 CLI 开源了，为什么 AI Agent 时代，大家都在做命令行工具？ 飞书刚开源了一个命令行工具 lark-cl」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:photo",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2064465132198285457",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/AsaadMahmood5/status/2064465132198285457",
+        "author": "Asaad Mahmood - The Small Square",
+        "handle": "AsaadMahmood5",
+        "datetime": "2026-06-09T21:50:18.000Z",
+        "title": "I just designed a website with Claude Fable 5. It launched t",
+        "originalSummary": "原帖内容：I just designed a website with Claude Fable 5. It launched today. And honestly, the lines between AI generated designs and human designs is blurring fast! I run a design agency. AI",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「I just designed a website with Claude Fable 5. It launched t」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://cairn-site-pied.vercel.app/",
+            "title": "Cairn — Security you can rest on",
+            "access": "full",
+            "summary": "Cairn is the calm information security platform. Continuous detection, autonomous containment, and audit-ready compliance — without the noise.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「I just designed a website with Claude Fable 5. It launched t」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2061635638462681316",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/_zheergen/status/2061635638462681316",
+        "author": "爱吃折耳根的Ace",
+        "handle": "_zheergen",
+        "datetime": "2026-06-02T02:26:54.000Z",
+        "title": "我去！国外已经刷屏了，国内好像还没啥人聊🔥 PewDiePie @pewdiepie 搞了个本地版 ChatGPT /",
+        "originalSummary": "原帖内容：我去！国外已经刷屏了，国内好像还没啥人聊🔥 PewDiePie @pewdiepie 搞了个本地版 ChatGPT / Claude：Odysseus。 GitHub 5 月 31 日晚上才建，短短 2 天现在已经冲到 2 万星左右，涨得非常猛。 Odysseus 是什么？ 本地 / 自托管 AI 工作空间——运行在你自己的电脑或服务器上，也可以按需接 A",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「我去！国外已经刷屏了，国内好像还没啥人聊🔥 PewDiePie @pewdiepie 搞了个本地版 ChatGPT /」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/odysseus-dev/odysseus",
+            "title": "GitHub - odysseus-dev/odysseus: Self-hosted AI workspace. · GitHub",
+            "access": "full",
+            "summary": "Self-hosted AI workspace. . Contribute to odysseus-dev/odysseus development by creating an account on GitHub.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「我去！国外已经刷屏了，国内好像还没啥人聊🔥 PewDiePie @pewdiepie 搞了个本地版 ChatGPT /」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2036828679053902245",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/alex_barashkov/status/2036828679053902245",
+        "author": "Alex Barashkov",
+        "handle": "alex_barashkov",
+        "datetime": "2026-03-25T15:32:54.000Z",
+        "title": "UI component libraries and starters are more important than ",
+        "originalSummary": "原帖内容：UI component libraries and starters are more important than ever. AI needs a solid foundation to scale and build real projects. That’s why we created @primeuicom - the perfect star",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「UI component libraries and starters are more important than 」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「UI component libraries and starters are more important than 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2057808006222393670",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/faydesignsstuff/status/2057808006222393670",
+        "author": "Fay",
+        "handle": "faydesignsstuff",
+        "datetime": "2026-05-22T12:57:15.000Z",
+        "title": "another fun in-product announcement! designed the svgs in fi",
+        "originalSummary": "原帖内容：another fun in-product announcement! designed the svgs in figma and then built the animation and movement in cursor, this was SO fun to work on because I knew the animation would l",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「another fun in-product announcement! designed the svgs in fi」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「another fun in-product announcement! designed the svgs in fi」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2064167749220536685",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/ricouii/status/2064167749220536685",
+        "author": "RicoUI",
+        "handle": "ricouii",
+        "datetime": "2026-06-09T02:08:36.000Z",
+        "title": "DESIGN md 是一份用设计语言（而非产品语言）写成的指导文档，是把设计系统翻译成 AI 能理解的语言。它和 PRD",
+        "originalSummary": "原帖内容：DESIGN md 是一份用设计语言（而非产品语言）写成的指导文档，是把设计系统翻译成 AI 能理解的语言。它和 PRD 的区别很简单： PRD 管\"做什么\"——功能、流程、边界 DESIGN.md 管\"做成什么样\"——视觉风格、配色、排版、交互 你可以把它理解为：把 Figma 里的设计系统，翻译成 AI 能理解的语言。 一份完整的 DESIGN md 通",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「DESIGN md 是一份用设计语言（而非产品语言）写成的指导文档，是把设计系统翻译成 AI 能理解的语言。它和 PRD」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「DESIGN md 是一份用设计语言（而非产品语言）写成的指导文档，是把设计系统翻译成 AI 能理解的语言。它和 PRD」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2029922600579694944",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/alex_barashkov/status/2029922600579694944",
+        "author": "Alex Barashkov",
+        "handle": "alex_barashkov",
+        "datetime": "2026-03-06T14:10:36.000Z",
+        "title": "When we animate icons, we pick the tool based on what the ic",
+        "originalSummary": "原帖内容：When we animate icons, we pick the tool based on what the icon actually needs: - Simple SVG line icons → GSAP or Motion dev, animate inside the SVG. - Interactive, mix of vector an",
+        "whySaved": "你会收藏它，是因为它把「Motion Design」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「When we animate icons, we pick the tool based on what the ic」。它提供了一个可复盘的 Motion Design 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「When we animate icons, we pick the tool based on what the ic」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Motion Design」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Motion Design",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2074841125529997356",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/aureliensalomon/status/2074841125529997356",
+        "author": "Aurélien Salomon",
+        "handle": "aureliensalomon",
+        "datetime": "2026-07-08T13:00:47.000Z",
+        "title": "What happens when AI moves from your pocket to your wrist? W",
+        "originalSummary": "原帖内容：What happens when AI moves from your pocket to your wrist? We reimagined @ChatGPTapp for Apple Watch with glanceable UX, voice-first interactions, and minimal interfaces built for ",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「What happens when AI moves from your pocket to your wrist? W」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.behance.net/gallery/240999501/ChatGPT-on-Apple-Watch-AI-Assistance",
+            "title": "ChatGPT on Apple Watch - AI Assistance :: Behance",
+            "access": "full",
+            "summary": "Product concept, UX strategy, and interface design exploring how ChatGPT and conversational AI could live naturally on Apple Watch.The design focuses on reducing friction while maintaining usefulness, demonstrating how A",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「What happens when AI moves from your pocket to your wrist? W」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:photo",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2074656122032853231",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/NoushinPourmir1/status/2074656122032853231",
+        "author": "Noushin Pourmirza",
+        "handle": "NoushinPourmir1",
+        "datetime": "2026-07-08T00:45:39.000Z",
+        "title": "Interactive Grid built in @rive_app Move your cursor across ",
+        "originalSummary": "原帖内容：Interactive Grid built in @rive_app Move your cursor across the grid and watch it come to life. ⭐ Interactive link: https://rive.app/marketplace/28199-53265-reactive-grid/ #rive #U",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Interactive Grid built in @rive_app Move your cursor across 」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://rive.app/marketplace/28199-53265-reactive-grid/",
+            "title": "Reactive Grid ⭐<!-- --> by <!-- -->Noushin.Pourmirza<!-- --> - made with Rive",
+            "access": "full",
+            "summary": "Move your cursor across the grid and watch it come to life.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「Interactive Grid built in @rive_app Move your cursor across 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2045231921106673676",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Affinity/status/2045231921106673676",
+        "author": "Affinity",
+        "handle": "Affinity",
+        "datetime": "2026-04-17T20:04:23.000Z",
+        "title": "Design, edit, animate. @cavalry__app is now completely free ",
+        "originalSummary": "原帖内容：Design, edit, animate. @cavalry__app is now completely free with your Canva account 🎉 Motion has become a core part of modern brand work, and now you've got photo editing, vector ",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Design, edit, animate. @cavalry__app is now completely free 」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Design, edit, animate. @cavalry__app is now completely free 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2074137542039928989",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/AdhamDannaway/status/2074137542039928989",
+        "author": "Adham Dannaway",
+        "handle": "AdhamDannaway",
+        "datetime": "2026-07-06T14:25:00.000Z",
+        "title": "✨ Free animated component library Built for Framer, React, a",
+        "originalSummary": "原帖内容：✨ Free animated component library Built for Framer, React, and AI tools through MCP ✅ Ready-to-use components ✅ Clear previews ✅ Easy customisation controls ✅ Copy code → http://ww",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「✨ Free animated component library Built for Framer, React, a」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.originkit.dev/",
+            "title": "Originkit — Free Animated component library for modern websites",
+            "access": "full",
+            "summary": "The largest free animated component library for building modern websites. Copy code, use in Framer, or connect through MCP.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「✨ Free animated component library Built for Framer, React, a」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2044041810440319391",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/npm_i_shaders/status/2044041810440319391",
+        "author": "shaders",
+        "handle": "npm_i_shaders",
+        "datetime": "2026-04-14T13:15:18.000Z",
+        "title": "Introducing Shaders MCP 🔥 The way you build shaders just ch",
+        "originalSummary": "原帖内容：Introducing Shaders MCP 🔥 The way you build shaders just changed. Your agent now finds, tweaks, and ships the perfect shader preset; or designs one from scratch. Available for Pro",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Introducing Shaders MCP 🔥 The way you build shaders just ch」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://shaders.com/docs/guide/mcp",
+            "title": "Shaders MCP — Shaders Documentation",
+            "access": "full",
+            "summary": "Connect your AI coding agent to Shaders and build stunning effects without leaving your workflow",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「Introducing Shaders MCP 🔥 The way you build shaders just ch」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2043688125088903583",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/MengTo/status/2043688125088903583",
+        "author": "Meng To",
+        "handle": "MengTo",
+        "datetime": "2026-04-13T13:49:53.000Z",
+        "title": "Introducing Neuform Generate next-level designs with a livin",
+        "originalSummary": "原帖内容：Introducing Neuform Generate next-level designs with a living DESIGN.md. Turn design systems into skills and remix into any format with unique animations, webgl and threejs. It's a",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Introducing Neuform Generate next-level designs with a livin」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://neuform.ai/",
+            "title": "AI HTML Landing Page Builder and Remix Templates | Neuform",
+            "access": "full",
+            "summary": "Neuform turns prompts into AI HTML landing pages, remix templates, and reusable DESIGN.md files for agent-ready design systems.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「Introducing Neuform Generate next-level designs with a livin」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2071945191737438217",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/pierscowburn/status/2071945191737438217",
+        "author": "Piers Cowburn",
+        "handle": "pierscowburn",
+        "datetime": "2026-06-30T13:13:23.000Z",
+        "title": "3D extrusion shader in @figma. Draw content inside a frame w",
+        "originalSummary": "原帖内容：3D extrusion shader in @figma. Draw content inside a frame with the shader applied and it'll be transformed into 3D live as you're drawing. Stack with other shaders and animate to ",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「3D extrusion shader in @figma. Draw content inside a frame w」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.figma.com/design/a3WA5fHaTCNKQM5nOlu8gc/3D-Extrude",
+            "title": "Figma",
+            "access": "full",
+            "summary": "Created with Figma",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「3D extrusion shader in @figma. Draw content inside a frame w」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2079188236950520072",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/alex_barashkov/status/2079188236950520072",
+        "author": "Alex Barashkov",
+        "handle": "alex_barashkov",
+        "datetime": "2026-07-20T12:54:39.000Z",
+        "title": "Enjoy our recent brand and design project for the Databricks",
+        "originalSummary": "原帖内容：Enjoy our recent brand and design project for the Databricks Developer Portal. 🔉 While many companies prefer to fully vibe-code their websites, I’m glad Databricks used vibe codin",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Enjoy our recent brand and design project for the Databricks」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Enjoy our recent brand and design project for the Databricks」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2071268268950659456",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/miggi/status/2071268268950659456",
+        "author": "miggi from figgi",
+        "handle": "miggi",
+        "datetime": "2026-06-28T16:23:32.000Z",
+        "title": "And yes, @Figma motion context can be sent via Figma MCP. I ",
+        "originalSummary": "原帖内容：And yes, @Figma motion context can be sent via Figma MCP. I was able to take the motion bento from the keynote to create a motion explainer site, as an expressive brand doc.",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「And yes, @Figma motion context can be sent via Figma MCP. I 」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「And yes, @Figma motion context can be sent via Figma MCP. I 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2070923752473501784",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/motomiya333/status/2070923752473501784",
+        "author": "Miyamoto",
+        "handle": "motomiya333",
+        "datetime": "2026-06-27T17:34:33.000Z",
+        "title": "FigmaでのShader習作。AIみたいなオーブ感を目指してShaderをFigma Agentに作ってもらって、Fi",
+        "originalSummary": "原帖内容：FigmaでのShader習作。AIみたいなオーブ感を目指してShaderをFigma Agentに作ってもらって、Figma Motionでパラメーターでキーフレームを打って動画を作成。 質感を追い込むには専門知識が必要だなと感じる🤔",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「FigmaでのShader習作。AIみたいなオーブ感を目指してShaderをFigma Agentに作ってもらって、Fi」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「FigmaでのShader習作。AIみたいなオーブ感を目指してShaderをFigma Agentに作ってもらって、Fi」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2070471846856720649",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/wes_cream/status/2070471846856720649",
+        "author": "Wes Cockx",
+        "handle": "wes_cream",
+        "datetime": "2026-06-26T11:38:50.000Z",
+        "title": "Entrain. #maxon #cinema4d #redshift #redshift3d #sidefx #hou",
+        "originalSummary": "原帖内容：Entrain. #maxon #cinema4d #redshift #redshift3d #sidefx #houdini #copernicus #rendernetwork #render #adobe #rnd #lookdev #minimal #abstract #designsystem #composition #illustration",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Entrain. #maxon #cinema4d #redshift #redshift3d #sidefx #hou」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Entrain. #maxon #cinema4d #redshift #redshift3d #sidefx #hou」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2011701638269190394",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/dingyi/status/2011701638269190394",
+        "author": "Ding",
+        "handle": "dingyi",
+        "datetime": "2026-01-15T07:27:00.000Z",
+        "title": "收集一下目前针对 design engineers 的 skills： - UI Skills：https://www.",
+        "originalSummary": "原帖内容：收集一下目前针对 design engineers 的 skills： - UI Skills：https://www.ui-skills.com/ - Vercel 之前那个 web interface guidelines 整合到这里了，还有最新的 React 最佳实践：https://github.com/vercel-labs/agent-skill",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「收集一下目前针对 design engineers 的 skills： - UI Skills：https://www.」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.ui-skills.com/",
+            "title": "UI Skills for Design Engineers | UI Skills",
+            "access": "full",
+            "summary": "UI Skills is a collection of design-engineering skills for accessibility, motion, frontend craft, and interface quality.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          },
+          {
+            "url": "https://github.com/vercel-labs/agent-skills",
+            "title": "GitHub - vercel-labs/agent-skills: Vercel&#39;s official collection of agent skills · GitHub",
+            "access": "full",
+            "summary": "Vercel&#39;s official collection of agent skills. Contribute to vercel-labs/agent-skills development by creating an account on GitHub.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「收集一下目前针对 design engineers 的 skills： - UI Skills：https://www.」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:photo",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2069450495488606593",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/TweetsByTBI/status/2069450495488606593",
+        "author": "The Brand Identity",
+        "handle": "TweetsByTBI",
+        "datetime": "2026-06-23T16:00:21.000Z",
+        "title": "Meet 247Studio, a Gdynia-based branding agency building cust",
+        "originalSummary": "原帖内容：Meet 247Studio, a Gdynia-based branding agency building custom-coded digital products and tools for the brands it designs.",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Meet 247Studio, a Gdynia-based branding agency building cust」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Meet 247Studio, a Gdynia-based branding agency building cust」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2068112032046453152",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/greensock/status/2068112032046453152",
+        "author": "GSAP",
+        "handle": "greensock",
+        "datetime": "2026-06-19T23:21:46.000Z",
+        "title": "💚 Site of the Day - HLE Creative and fun design that is bro",
+        "originalSummary": "原帖内容：💚 Site of the Day - HLE Creative and fun design that is brought to a great level with a great and glitchy intro, that then continues with nice and smooth scroll animations. Credit",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「💚 Site of the Day - HLE Creative and fun design that is bro」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://thefirstthelast.agency/",
+            "title": "Award-Winning Creative Digital Agency in Miami &amp; Dubai | The First The Last®",
+            "access": "full",
+            "summary": "The First The Last® is a creative digital agency headquartered in Dubai & Miami. Recognized by Awwwards as the most award-winning agency in the Middle East and Florida, we deliver branding, digital strategy, website desi",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          },
+          {
+            "url": "https://hle.io/",
+            "title": "HLE",
+            "access": "full",
+            "summary": "Description",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「💚 Site of the Day - HLE Creative and fun design that is bro」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2065503278784274733",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/ultramock/status/2065503278784274733",
+        "author": "Ultramock",
+        "handle": "ultramock",
+        "datetime": "2026-06-12T18:35:31.000Z",
+        "title": "100% cooked in the browser 100% interactive 3D environment 1",
+        "originalSummary": "原帖内容：100% cooked in the browser 100% interactive 3D environment 100% customizable Turn your website, UI or app screens into premium product visuals 🔥",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「100% cooked in the browser 100% interactive 3D environment 1」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「100% cooked in the browser 100% interactive 3D environment 1」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2065098985589923887",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/anson7956/status/2065098985589923887",
+        "author": "秀才AI",
+        "handle": "anson7956",
+        "datetime": "2026-06-11T15:49:00.000Z",
+        "title": "发现了一个收集了各大知名品牌和现代科技公司网站的 DESIGN.md 的开源项目。 目前已收录 73+ 个知名品牌的设计",
+        "originalSummary": "原帖内容：发现了一个收集了各大知名品牌和现代科技公司网站的 DESIGN.md 的开源项目。 目前已收录 73+ 个知名品牌的设计系统，包括 Apple, Stripe, Linear, Cursor, Claude, Notion, Tesla 等。 开发者只需直接将其中某个品牌的 DESIGN.md 拖入自己的 AI 编程项目中，然后对 AI 说：“帮我生成一个长",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「发现了一个收集了各大知名品牌和现代科技公司网站的 DESIGN.md 的开源项目。 目前已收录 73+ 个知名品牌的设计」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/VoltAgent/awesome-design-md",
+            "title": "GitHub - VoltAgent/awesome-design-md: A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project a",
+            "access": "full",
+            "summary": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI. - VoltAgent/awesome-design-md",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「发现了一个收集了各大知名品牌和现代科技公司网站的 DESIGN.md 的开源项目。 目前已收录 73+ 个知名品牌的设计」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:photo",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2064734626287878619",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/alexdanilowicz/status/2064734626287878619",
+        "author": "Alex Danilowicz",
+        "handle": "alexdanilowicz",
+        "datetime": "2026-06-10T15:41:10.000Z",
+        "title": "Introducing a Design System Agent, powered by Fable 5. Sync ",
+        "originalSummary": "原帖内容：Introducing a Design System Agent, powered by Fable 5. Sync your components, typography, spacing, colors, rules. Share with your team, design anything. Watch me change everything w",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Introducing a Design System Agent, powered by Fable 5. Sync 」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Introducing a Design System Agent, powered by Fable 5. Sync 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2064511033671135538",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/greensock/status/2064511033671135538",
+        "author": "GSAP",
+        "handle": "greensock",
+        "datetime": "2026-06-10T00:52:41.000Z",
+        "title": "💚 Site of the Day - Project Aperture Project Aperture start",
+        "originalSummary": "原帖内容：💚 Site of the Day - Project Aperture Project Aperture started as a way to explore and experiment with design, color, and motion, using WebGL/WebGPU, TSL (Three.js Shading Language",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「💚 Site of the Day - Project Aperture Project Aperture start」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://isaakdeconinck.com/",
+            "title": "Isaak De Coninck — Creative Developer",
+            "access": "full",
+            "summary": "Creative developer specializing in immersive WebGL experiences, digital products, and commerce platforms. Where design meets engineering precision.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          },
+          {
+            "url": "https://www.project-aperture.com/",
+            "title": "Project Aperture — Travel Photography by Isaak De Coninck",
+            "access": "full",
+            "summary": "Cinematic travel photography from Italy, Scotland, Spain, Finnish Lapland, and the Swiss Alps. Scroll-driven, WebGL-powered galleries by photographer Isaak De Coninck.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「💚 Site of the Day - Project Aperture Project Aperture start」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2064187135725613254",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/songsummer920/status/2064187135725613254",
+        "author": "宋夏天Dazzle",
+        "handle": "songsummer920",
+        "datetime": "2026-06-09T03:25:38.000Z",
+        "title": "最近做了个 3D Map Visualization Skill 🚀 输入地区即可生成可交互的 3D 可视化地图： ✨",
+        "originalSummary": "原帖内容：最近做了个 3D Map Visualization Skill 🚀 输入地区即可生成可交互的 3D 可视化地图： ✨ 换视角 Camera Switch ✨ 换地图层级 Province / City / District ✨ 换主题色 Theme Customization ✨ 飞线效果 Fly Lines ✨ 撒点效果 Scatter Points ",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「最近做了个 3D Map Visualization Skill 🚀 输入地区即可生成可交互的 3D 可视化地图： ✨」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「最近做了个 3D Map Visualization Skill 🚀 输入地区即可生成可交互的 3D 可视化地图： ✨」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2062942695547375829",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/skirano/status/2062942695547375829",
+        "author": "Pietro Schirano",
+        "handle": "skirano",
+        "datetime": "2026-06-05T17:00:40.000Z",
+        "title": "Excited to share that MagicPath is now available as an offic",
+        "originalSummary": "原帖内容：Excited to share that MagicPath is now available as an official plugin for Codex, in collaboration with OpenAI! It's incredibly easy to give Codex an infinite multiplayer canvas wh",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Excited to share that MagicPath is now available as an offic」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Excited to share that MagicPath is now available as an offic」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2069392205052076091",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/gabriell_lab/status/2069392205052076091",
+        "author": "Gabriel",
+        "handle": "gabriell_lab",
+        "datetime": "2026-06-23T12:08:43.000Z",
+        "title": "Design Engineering Tip: Animation terms matter more than mos",
+        "originalSummary": "原帖内容：Design Engineering Tip: Animation terms matter more than most people think. When working with AI, saying “animate this icon” often leaves too much room for interpretation. Small ch",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Design Engineering Tip: Animation terms matter more than mos」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Design Engineering Tip: Animation terms matter more than mos」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2067235150786920504",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Vincent_AINotes/status/2067235150786920504",
+        "author": "Vincent",
+        "handle": "Vincent_AINotes",
+        "datetime": "2026-06-17T13:17:21.000Z",
+        "title": "这可能是目前最全的 Codex 入门教程了，80分钟，已加中文字幕，建议收藏慢慢看 Codex 是 OpenAI 的 A",
+        "originalSummary": "原帖内容：这可能是目前最全的 Codex 入门教程了，80分钟，已加中文字幕，建议收藏慢慢看 Codex 是 OpenAI 的 AI 编程代理，跟 Claude Code 是直接竞品。很多人听说了但一直没上手，要么不知道从哪开始，要么看了官方文档还是一头雾水 这个教程从零开始讲，适合完全没用过的人。80分钟很长，但看完基本就能上手了 为什么值得现在学 Codex： 之",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「这可能是目前最全的 Codex 入门教程了，80分钟，已加中文字幕，建议收藏慢慢看 Codex 是 OpenAI 的 A」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「这可能是目前最全的 Codex 入门教程了，80分钟，已加中文字幕，建议收藏慢慢看 Codex 是 OpenAI 的 A」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2059926823912526283",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/AISuperDomain/status/2059926823912526283",
+        "author": "AI超元域",
+        "handle": "AISuperDomain",
+        "datetime": "2026-05-28T09:16:41.000Z",
+        "title": "🎨太强了！Cursor 新功能:Design Sidebar 直接在 Cursor 内置浏览器里做可视化设计： 拖布局",
+        "originalSummary": "原帖内容：🎨太强了！Cursor 新功能:Design Sidebar 直接在 Cursor 内置浏览器里做可视化设计： 拖布局、调间距、改颜色、切换明暗主题,满意后点 Apply,Agent 自动把视觉改动翻译成代码 ⚡ 设计与编码真正同步,告别 Figma↔IDE 来回切换 🚀 #Cursor",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「🎨太强了！Cursor 新功能:Design Sidebar 直接在 Cursor 内置浏览器里做可视化设计： 拖布局」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「🎨太强了！Cursor 新功能:Design Sidebar 直接在 Cursor 内置浏览器里做可视化设计： 拖布局」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2030465573339971645",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/elrumo/status/2030465573339971645",
+        "author": "Elias",
+        "handle": "elrumo",
+        "datetime": "2026-03-08T02:08:11.000Z",
+        "title": "🔥 More details from the brand new http://macOSicons.com! I ",
+        "originalSummary": "原帖内容：🔥 More details from the brand new http://macOSicons.com! I wanted it to make it more fun, so I added a ton of small details like this subtle tvOS-like animation to icons. #macOS #",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「🔥 More details from the brand new http://macOSicons.com! I 」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://macosicons.com/",
+            "title": "macOSicons - 30,000+ free macOS icons",
+            "access": "full",
+            "summary": "The largest collection of free macOS app icons. Download .icns and PNG icons for your Mac and iOS devices.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「🔥 More details from the brand new http://macOSicons.com! I 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2066534707496444317",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/konstipaulus/status/2066534707496444317",
+        "author": "konstantinpaulus",
+        "handle": "konstipaulus",
+        "datetime": "2026-06-15T14:54:03.000Z",
+        "title": "Launching text-to-lottie v1.0.0 (stable) A framework for gen",
+        "originalSummary": "原帖内容：Launching text-to-lottie v1.0.0 (stable) A framework for generating production ready Lottie animations with Claude Code and Codex. What’s new: - Multi-project, multi-scene support ",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Launching text-to-lottie v1.0.0 (stable) A framework for gen」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Launching text-to-lottie v1.0.0 (stable) A framework for gen」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2057802373590843402",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/alex_barashkov/status/2057802373590843402",
+        "author": "Alex Barashkov",
+        "handle": "alex_barashkov",
+        "datetime": "2026-05-22T12:34:52.000Z",
+        "title": "Polar Signals rebranding, website redesign, and development ",
+        "originalSummary": "原帖内容：Polar Signals rebranding, website redesign, and development done by our team. < 3 months of teamwork. Built with Next.js and Tailwind CSS.",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Polar Signals rebranding, website redesign, and development 」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Polar Signals rebranding, website redesign, and development 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2057407019087278086",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/highwaywu/status/2057407019087278086",
+        "author": "海玮",
+        "handle": "highwaywu",
+        "datetime": "2026-05-21T10:23:52.000Z",
+        "title": "I built a screensaver clock app: YonderClock. https://apps.a",
+        "originalSummary": "原帖内容：I built a screensaver clock app: YonderClock. https://apps.apple.com/us/app/id6762817899 The concept: turn time zones into scenery. Screensaver clocks are a timeless category. Ther",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「I built a screensaver clock app: YonderClock. https://apps.a」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://apps.apple.com/cn/iphone/today",
+            "title": "‎iPhone 版“Today” - App Store",
+            "access": "full",
+            "summary": "在 App Store 上查找适用于 iPhone、iPad、Mac 等设备的 App 和游戏。",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「I built a screensaver clock app: YonderClock. https://apps.a」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2054330598596981218",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/dotey/status/2054330598596981218",
+        "author": "宝玉",
+        "handle": "dotey",
+        "datetime": "2026-05-12T22:39:16.000Z",
+        "title": "Anthropic 今天正式上线了一个叫做「Claude for Legal」的仓库，一口气放出了 12 个针对具体法律",
+        "originalSummary": "原帖内容：Anthropic 今天正式上线了一个叫做「Claude for Legal」的仓库，一口气放出了 12 个针对具体法律岗位的插件，以及超过 20 个连接行业常用软件的 MCP 连接器。 无论你是公司法务、打并购战的律所、专注隐私和 AI 治理的法律顾问，还是每天苦熬到半夜的诉讼律师，甚至是法学院里摸爬滚打的学生，这个仓库都给你准备好了对应的 AI 工具，直",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Anthropic 今天正式上线了一个叫做「Claude for Legal」的仓库，一口气放出了 12 个针对具体法律」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/anthropics/claude-for-legal",
+            "title": "GitHub - anthropics/claude-for-legal: A suite of plugins for legal workflows · GitHub",
+            "access": "full",
+            "summary": "A suite of plugins for legal workflows. Contribute to anthropics/claude-for-legal development by creating an account on GitHub.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          },
+          {
+            "url": "https://claude.com/blog/claude-for-the-legal-industry",
+            "title": "Claude for the legal industry | Claude by Anthropic",
+            "access": "full",
+            "summary": "We&#x27;re releasing 20+ new MCP connectors that link Claude to the software that the legal industry runs on and 12 new plugins tailored specific legal work and practice areas.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「Anthropic 今天正式上线了一个叫做「Claude for Legal」的仓库，一口气放出了 12 个针对具体法律」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2054031088625082792",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/paperseasons/status/2054031088625082792",
+        "author": "rebekah bek",
+        "handle": "paperseasons",
+        "datetime": "2026-05-12T02:49:08.000Z",
+        "title": "just launched: @mobbin mcp 💛 your AI agents can now search ",
+        "originalSummary": "原帖内容：just launched: @mobbin mcp 💛 your AI agents can now search 600,000+ real app screens. paywalls, onboarding, checkout, permissions — from apps that already shipped. ai tools can wr",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「just launched: @mobbin mcp 💛 your AI agents can now search 」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://mobbin.com/mcp",
+            "title": "Mobbin MCP — Design reference for AI agents",
+            "access": "full",
+            "summary": "Mobbin MCP connects your AI agents to 600,000+ real screens from shipped products. Build from proven design patterns, not guesswork.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「just launched: @mobbin mcp 💛 your AI agents can now search 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2053968705193996375",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/berryxia/status/2053968705193996375",
+        "author": "Berryxia.AI",
+        "handle": "berryxia",
+        "datetime": "2026-05-11T22:41:14.000Z",
+        "title": "Codex 现在直接把自己变成了能自己造 AI 产品的工厂。 OpenAI 今天官宣：Codex 新增「OpenAI D",
+        "originalSummary": "原帖内容：Codex 现在直接把自己变成了能自己造 AI 产品的工厂。 OpenAI 今天官宣：Codex 新增「OpenAI Developers」插件，能在终端里直接创建 API Key、调用 OpenAI 所有 API。 自动把想法变成完整可运行的 AI app 和 agent，完全不用手动配环境、写 boilerplate。",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Codex 现在直接把自己变成了能自己造 AI 产品的工厂。 OpenAI 今天官宣：Codex 新增「OpenAI D」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Codex 现在直接把自己变成了能自己造 AI 产品的工厂。 OpenAI 今天官宣：Codex 新增「OpenAI D」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2053879878693380346",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/gaborpribek/status/2053879878693380346",
+        "author": "Gábor Pribék",
+        "handle": "gaborpribek",
+        "datetime": "2026-05-11T16:48:16.000Z",
+        "title": "Played around with generating the internal anatomy of a crea",
+        "originalSummary": "原帖内容：Played around with generating the internal anatomy of a creature (skeletons and organs). I used GPT Images 2 to keep the creature anatomy consistent, while the code, interactions a",
+        "whySaved": "你会收藏它，是因为它把「3D / Shader」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Played around with generating the internal anatomy of a crea」。它提供了一个可复盘的 3D / Shader 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Played around with generating the internal anatomy of a crea」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「3D / Shader」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "3D / Shader",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2049905567838191929",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/marco_fugaro/status/2049905567838191929",
+        "author": "Marco Fugaro",
+        "handle": "marco_fugaro",
+        "datetime": "2026-04-30T17:35:47.000Z",
+        "title": "I have been testing 3d model and PBR textures generation in ",
+        "originalSummary": "原帖内容：I have been testing 3d model and PBR textures generation in @omma_ai Built a configurator app for a vase with controls to change its material. Making a thread below to show the pro",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「I have been testing 3d model and PBR textures generation in 」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://omma.build/p/stone-doric-column-3d-model-sk8fnq",
+            "title": "Stone Doric Column 3D Model",
+            "access": "full",
+            "summary": "Stone Doric Column 3D Model — created on Omma",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「I have been testing 3d model and PBR textures generation in 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2049283629017379181",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/greensock/status/2049283629017379181",
+        "author": "GSAP",
+        "handle": "greensock",
+        "datetime": "2026-04-29T00:24:25.000Z",
+        "title": "💚 Site of the Day - Keytom Very creative scroll animations ",
+        "originalSummary": "原帖内容：💚 Site of the Day - Keytom Very creative scroll animations and motion in every page with well crafted details everywhere give a great UX. Great job by ADELT Agency (http://adelt.i",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「💚 Site of the Day - Keytom Very creative scroll animations 」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.adelt.io/",
+            "title": "Adelt – Branding, websites &amp; strategies for startups",
+            "access": "full",
+            "summary": "Adelt is an international design and marketing agency that specializes in branding, websites, and strategies for businesses. We assist companies from the pre-market stage to scaling up, offering tailored go-to-market str",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          },
+          {
+            "url": "https://keytom.com/",
+            "title": "Euro IBAN, Crypto Account &amp; Visa® Card in 150+ Countries | Keytom",
+            "access": "full",
+            "summary": "Get a Euro IBAN, hold crypto with accounts in BTC, ETH, USDC, TON, TRX and others, pay and withdraw cash with a Visa® card in 150+ countries — all in one app.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「💚 Site of the Day - Keytom Very creative scroll animations 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2049054765292671230",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/beaucoup_studio/status/2049054765292671230",
+        "author": "Beaucoup.",
+        "handle": "beaucoup_studio",
+        "datetime": "2026-04-28T09:15:00.000Z",
+        "title": "🌐 Art Direction, UI/UX Design & Development for Prototype S",
+        "originalSummary": "原帖内容：🌐 Art Direction, UI/UX Design & Development for Prototype Studio We designed and developed a distinctive digital experience, shaping a clear and forward-thinking identity that ref",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「🌐 Art Direction, UI/UX Design & Development for Prototype S」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.prototypestudio.fr/",
+            "title": "Prototype - Creative house for daring brands",
+            "access": "full",
+            "summary": "Prototype is a creative-driven hybrid structure, a one-stop shop, from ideas to execution. We are not just a production house, we are an agency, a design studio, and a digital factory all in one place.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「🌐 Art Direction, UI/UX Design & Development for Prototype S」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2076738880473342248",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/harshjdhv/status/2076738880473342248",
+        "author": "Harsh",
+        "handle": "harshjdhv",
+        "datetime": "2026-07-13T18:41:47.000Z",
+        "title": "🚀 New Prism Gradient just dropped in Componentry! Liquid ch",
+        "originalSummary": "原帖内容：🚀 New Prism Gradient just dropped in Componentry! Liquid checkered motion + electric prism refraction + optional grain. Fully theme-aware and looks insane. Drop it as a hero backg",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「🚀 New Prism Gradient just dropped in Componentry! Liquid ch」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「🚀 New Prism Gradient just dropped in Componentry! Liquid ch」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2076623504963719206",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/itshassco/status/2076623504963719206",
+        "author": "HASSCO©",
+        "handle": "itshassco",
+        "datetime": "2026-07-13T11:03:20.000Z",
+        "title": "More Figma-made animations before Figma motion",
+        "originalSummary": "原帖内容：More Figma-made animations before Figma motion",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「More Figma-made animations before Figma motion」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「More Figma-made animations before Figma motion」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2046585874926743563",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/lusionltd/status/2046585874926743563",
+        "author": "Lusion™",
+        "handle": "lusionltd",
+        "datetime": "2026-04-21T13:44:30.000Z",
+        "title": "Part 3/7 of our Oryzo behind the scenes series is now live. ",
+        "originalSummary": "原帖内容：Part 3/7 of our Oryzo behind the scenes series is now live. This one covers the website UX/UI, illustrations, and the design decisions behind keeping the interface quiet while lett",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Part 3/7 of our Oryzo behind the scenes series is now live. 」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://blog.lusion.co/oryzo-bts-part-3-7-website-ux-ui-and-illustrations",
+            "title": "Oryzo BTS (Part 3 / 7) - Website UX/UI and Illustrations",
+            "access": "full",
+            "summary": "Explore the design system, illustrations, and UI choices that helped shape Oryzo’s final web experience.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「Part 3/7 of our Oryzo behind the scenes series is now live. 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2046303038047191176",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/TweetsByTBI/status/2046303038047191176",
+        "author": "The Brand Identity",
+        "handle": "TweetsByTBI",
+        "datetime": "2026-04-20T19:00:37.000Z",
+        "title": "Global agency @wearemotto buillt @heyivoai’s rebrand around ",
+        "originalSummary": "原帖内容：Global agency @wearemotto buillt @heyivoai’s rebrand around ‘Intelligence by Design,’ an idea drawn from the company’s obsessive approach to craft.",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Global agency @wearemotto buillt @heyivoai’s rebrand around 」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Global agency @wearemotto buillt @heyivoai’s rebrand around 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2074814502558892305",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/ashux_ui/status/2074814502558892305",
+        "author": "Ashish",
+        "handle": "ashux_ui",
+        "datetime": "2026-07-08T11:15:00.000Z",
+        "title": "Designed this Agent canvas Interface for an AI Observability",
+        "originalSummary": "原帖内容：Designed this Agent canvas Interface for an AI Observability Tool. https://x.com/ashux_ui/status/2065392418900307996?s=20",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Designed this Agent canvas Interface for an AI Observability」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Designed this Agent canvas Interface for an AI Observability」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2074261274175897739",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/_joshrg/status/2074261274175897739",
+        "author": "Josh Grazier",
+        "handle": "_joshrg",
+        "datetime": "2026-07-06T22:36:40.000Z",
+        "title": "Got tired of creating arc gradients in Figma So used Fable t",
+        "originalSummary": "原帖内容：Got tired of creating arc gradients in Figma So used Fable to build this design tool that makes it way easier",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Got tired of creating arc gradients in Figma So used Fable t」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Got tired of creating arc gradients in Figma So used Fable t」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2073357784985518314",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/viktoroddy/status/2073357784985518314",
+        "author": "Viktor Oddy",
+        "handle": "viktoroddy",
+        "datetime": "2026-07-04T10:46:31.000Z",
+        "title": "Premium 3D Animated website ❤️‍🔥 Fable 5 + Claude Code → Bu",
+        "originalSummary": "原帖内容：Premium 3D Animated website ❤️‍🔥 Fable 5 + Claude Code → Build Prompt ↓",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Premium 3D Animated website ❤️‍🔥 Fable 5 + Claude Code → Bu」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Premium 3D Animated website ❤️‍🔥 Fable 5 + Claude Code → Bu」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2073343020188172485",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/tranmautritam/status/2073343020188172485",
+        "author": "Tran Mau Tri Tam ✪",
+        "handle": "tranmautritam",
+        "datetime": "2026-07-04T09:47:51.000Z",
+        "title": "Asked @Framer Agents to build an Infinity Grid for my free 3",
+        "originalSummary": "原帖内容：Asked @Framer Agents to build an Infinity Grid for my free 3D cute icon set, and it works perfectly. Not just basic edits, the agents handled complex interactions I'd normally code",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Asked @Framer Agents to build an Infinity Grid for my free 3」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Asked @Framer Agents to build an Infinity Grid for my free 3」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2072752263299264724",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/AmirMushich/status/2072752263299264724",
+        "author": "AmirMušić",
+        "handle": "AmirMushich",
+        "datetime": "2026-07-02T18:40:24.000Z",
+        "title": "Someone open sourced the World Cup animations in Figma Motio",
+        "originalSummary": "原帖内容：Someone open sourced the World Cup animations in Figma Motion (Took me 3 mins to repaint it into some Bosnian vibes) Project link: https://www.figma.com/community/file/165194605454",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Someone open sourced the World Cup animations in Figma Motio」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.figma.com/community/file/1651946054545798705",
+            "title": "ERROR: The request could not be satisfied",
+            "access": "unavailable",
+            "summary": "www.figma.com 返回 403，可读取到有限页面内容。",
+            "value": "页面不可读，不作为事实依据。"
+          }
+        ],
+        "learningActions": [
+          "把「Someone open sourced the World Cup animations in Figma Motio」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2072407658284376300",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/thomaspaulmann/status/2072407658284376300",
+        "author": "Thomas Paul Mann",
+        "handle": "thomaspaulmann",
+        "datetime": "2026-07-01T19:51:03.000Z",
+        "title": "Bunch of nice developer tools built on @glazeapp: 📦 Clean s",
+        "originalSummary": "原帖内容：Bunch of nice developer tools built on @glazeapp: 📦 Clean stale Node module folders http://ray.so/y91SWz5 🍒 Cherry pick commits into release branches http://ray.so/nYrVi6r 🔗 Pre",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「Bunch of nice developer tools built on @glazeapp: 📦 Clean s」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.glaze.app/app/module-cleaner-h8MUhs",
+            "title": "App Not Found — Glaze",
+            "access": "full",
+            "summary": "Create software for you and your team. Lives on your Mac, connects to your files, tools and hardware.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          },
+          {
+            "url": "https://www.glaze.app/app/cherry-pick-2c9mkx",
+            "title": "Cherry Pick for Mac — Easy cherry-picking | Glaze",
+            "access": "full",
+            "summary": "Cherry picking made easy. Browse your list of commits, multi-select and cherry pick them to your destination branch.",
+            "value": "补充了原帖之外的目标页面、项目名或文档线索，值得作为后续设计/实现参考。"
+          }
+        ],
+        "learningActions": [
+          "把「Bunch of nice developer tools built on @glazeapp: 📦 Clean s」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:photo",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2072323272352444840",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/alex_barashkov/status/2072323272352444840",
+        "author": "Alex Barashkov",
+        "handle": "alex_barashkov",
+        "datetime": "2026-07-01T14:15:44.000Z",
+        "title": "It’s never been easier to build your own creative apps. npx ",
+        "originalSummary": "原帖内容：It’s never been easier to build your own creative apps. npx @​pixel-point/toolcraft create - Give your agent references from Pinterest - Write a short prompt describing your visual",
+        "whySaved": "你会收藏它，是因为它把「Agent Workflow」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「It’s never been easier to build your own creative apps. npx 」。它提供了一个可复盘的 Agent Workflow 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「It’s never been easier to build your own creative apps. npx 」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Workflow」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Agent Workflow",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2042661817550541253",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/grinich/status/2042661817550541253",
+        "author": "Michael Grinich",
+        "handle": "grinich",
+        "datetime": "2026-04-10T17:51:42.000Z",
+        "title": "The UI era is ending. 🪦 For 70 years we designed computer i",
+        "originalSummary": "原帖内容：The UI era is ending. 🪦 For 70 years we designed computer interfaces. Mainframe, CLI, GUI, Touch. But with AI, the interface is disappearing. What will come next? My talk from @ma",
+        "whySaved": "你会收藏它，是因为它把「Design Engineering」变成了可复盘的个人偏好信号，能帮助判断哪些视觉/工具/工作流值得进入方法库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次分析用于反推你关注的设计/工程判断。",
+        "deepSummary": "这条内容的核心是「The UI era is ending. 🪦 For 70 years we designed computer i」。它提供了一个可复盘的 Design Engineering 样本，适合个人设计师把审美、工具和实现方法拆成可执行练习。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「The UI era is ending. 🪦 For 70 years we designed computer i」拆成一张观察卡：问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Design Engineering」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "Design Engineering",
+          "media:video"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
     "date": "2026-08-19",
     "generatedAt": "2026-08-19T13:12:40+08:00",
     "batch": "x-ai-design-analysis-2026-08-19-1312",
@@ -543,7 +3515,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - deepseek-ai/deepseek-harness: DeepSeek Harness: Everything is a Plugin. · GitHub",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：DeepSeek Harness: Everything is a Plugin. Contribute to deepseek-ai/deepseek-harness development by creating an account on GitHub.",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - deepseek-ai/deepseek-harness: DeepSeek Harness: Everything is a Plugin. · GitHub"
           }
         ],
         "learningActions": [
@@ -601,21 +3574,24 @@ window.DESIGNER_ANALYSIS = [
             "title": "[2608.12610] @skills: Attention is all you have",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：Abstract page for arXiv paper 2608.12610: @skills: Attention is all you have",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "[2608.12610] @skills: Attention is all you have"
           },
           {
             "url": "https://youtu.be/YuZZOaSHCRE",
             "title": "@skills Protocol: Solving the Attention Crisis in Agent Skills - YouTube",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：A comprehensive technical breakdown of the @skills research paper (arXiv:2608.12610) from SylphAI and UT Austin.We cover the attention budget problem…",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "@skills Protocol: Solving the Attention Crisis in Agent Skills - YouTube"
           },
           {
             "url": "https://www.youtube.com/playlist?list=PLD8LpDp2wyRE",
             "title": "latentLLM - YouTube",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：Latent AI - NotebookLM study packs y deep dives de papers",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "latentLLM - YouTube"
           }
         ],
         "learningActions": [
@@ -648,7 +3624,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - geeklee/srt-whiteboard-animation: 将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。 · GitHub",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。 - geeklee/srt-whiteboard-animation",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - geeklee/srt-whiteboard-animation: 将 SRT 字幕做成暖米黄纸张底的流式笔迹白板手绘动画 skill：mask 分区遮罩编排 + stream 连续笔迹（ink→color）。 · GitHub"
           }
         ],
         "learningActions": [
@@ -681,14 +3658,16 @@ window.DESIGNER_ANALYSIS = [
             "title": "[2608.14036] Demystifying Agent Skills: Why They Work-Until They Don&#39;t",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Abstract page for arXiv paper 2608.14036: Demystifying Agent Skills: Why They Work-Until They Don&#39;t",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "[2608.14036] Demystifying Agent Skills: Why They Work-Until They Don&#39;t"
           },
           {
             "url": "https://www.youtube.com/playlist?list=PLD8LpDp2wyRE",
             "title": "latentLLM - YouTube",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：Latent AI - NotebookLM study packs y deep dives de papers",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "latentLLM - YouTube"
           }
         ],
         "learningActions": [
@@ -746,7 +3725,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "X status by Lenny Rachitsky",
             "access": "full",
             "value": "已读取关联 X 原帖：Designers are the unhappiest people in tech. I sat down with @OpenAI's Head of Design @iansilber to talk about why—and why he sti…",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by Lenny Rachitsky"
           }
         ],
         "learningActions": [
@@ -779,7 +3759,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "OpenCode - MacAIApps",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：Open source AI coding agent for terminal, IDE, and desktop",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "OpenCode - MacAIApps"
           }
         ],
         "learningActions": [
@@ -937,7 +3918,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - dburnett11155-rgb/Tokencompress · GitHub",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Contribute to dburnett11155-rgb/Tokencompress development by creating an account on GitHub.",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - dburnett11155-rgb/Tokencompress · GitHub"
           }
         ],
         "learningActions": [
@@ -970,7 +3952,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "X status by ClaudeDevs",
             "access": "full",
             "value": "已读取关联 X 原帖：Claude Code can design now. The new /design skill (research preview) brings Claude Design's artboard workflow into the CLI and De…",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by ClaudeDevs"
           }
         ],
         "learningActions": [
@@ -1103,7 +4086,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "https://www.cliffinkent.com/opinion/ai-agent-pilot-stop-rule",
             "access": "unavailable",
             "value": "HTTP 404，未能读取正文。",
-            "learningValue": "只保留原帖可见信息，不扩展推断。"
+            "learningValue": "只保留原帖可见信息，不扩展推断。",
+            "summary": "https://www.cliffinkent.com/opinion/ai-agent-pilot-stop-rule"
           }
         ],
         "learningActions": [
@@ -1136,7 +4120,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "movin.design — motion design inspiration",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：A curated gallery of the best motion design from X, updated with new clips daily.",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "movin.design — motion design inspiration"
           }
         ],
         "learningActions": [
@@ -1169,7 +4154,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "https://inspora.design/",
             "access": "unavailable",
             "value": "HTTP 429，未能读取正文。",
-            "learningValue": "只保留原帖可见信息，不扩展推断。"
+            "learningValue": "只保留原帖可见信息，不扩展推断。",
+            "summary": "https://inspora.design/"
           }
         ],
         "learningActions": [
@@ -1202,7 +4188,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Ingamana | Web development",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：Development partner for brands, agencies &amp; designers.",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Ingamana | Web development"
           }
         ],
         "learningActions": [
@@ -1235,7 +4222,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Okara: The Only AI CMO That Puts Marketing on Autopilot",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Your AI Chief Marketing Officer that automates SEO, Reddit engagement, and content creation. Get actionable marketing insights and opportunities 24/7.",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Okara: The Only AI CMO That Puts Marketing on Autopilot"
           }
         ],
         "learningActions": [
@@ -1268,7 +4256,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "X link",
             "access": "partial",
             "value": "链接为 X 页面，当前只确认跳转目标，未取得完整正文。",
-            "learningValue": "需要登录态打开时再细读上下文。"
+            "learningValue": "需要登录态打开时再细读上下文。",
+            "summary": "X link"
           }
         ],
         "learningActions": [
@@ -1351,7 +4340,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - s1dashu/ip-as-logo-skill: A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos. · GitHub",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos. - s1dashu/ip-as-logo-skill",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - s1dashu/ip-as-logo-skill: A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos. · GitHub"
           }
         ],
         "learningActions": [
@@ -1384,7 +4374,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Departure Mono",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Departure Mono is a monospaced pixel font by Helena Zhang, licensed under the SIL OFL.",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Departure Mono"
           }
         ],
         "learningActions": [
@@ -1417,28 +4408,32 @@ window.DESIGNER_ANALYSIS = [
             "title": "https://inspora.design/",
             "access": "unavailable",
             "value": "HTTP 429，未能读取正文。",
-            "learningValue": "只保留原帖可见信息，不扩展推断。"
+            "learningValue": "只保留原帖可见信息，不扩展推断。",
+            "summary": "https://inspora.design/"
           },
           {
             "url": "https://posts.design",
             "title": "posts.design - social post design inspiration",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：A curated reference wall for social post design.",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "posts.design - social post design inspiration"
           },
           {
             "url": "https://dark.design",
             "title": "Dark Themed Web Design Inspiration",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：The best hand-picked dark themed websites on the internet. From designers for designers. Curated with love.",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "Dark Themed Web Design Inspiration"
           },
           {
             "url": "https://macapp.supply",
             "title": "Macapp Supply — Beautifully designed macOS apps, curated",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：A hand-picked shelf of beautifully designed macOS apps. Discover thoughtfully crafted tools, utilities, and indie software for your Mac.",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "Macapp Supply — Beautifully designed macOS apps, curated"
           }
         ],
         "learningActions": [
@@ -1546,7 +4541,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Ignara Studio - Design. Develop. Launch.",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Ignara Studio creates premium websites for startups and founders,combining exceptional taste, thoughtful design, and high-performance development.",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "Ignara Studio - Design. Develop. Launch."
           }
         ],
         "learningActions": [
@@ -1604,7 +4600,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "X status by Google Design",
             "access": "full",
             "value": "已读取关联 X 原帖：Celebrating small wins is hardwired into \"Achieve,\" our goal-tracking sample app. We wanted the simple act of checking off a task…",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by Google Design"
           }
         ],
         "learningActions": [
@@ -1662,7 +4659,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Designing for 3 billion: how Instagram built a brand system that celebrates everyone’s point of view",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Designing for 3 billion: how Instagram built a brand system that celebrates everyone’s point of view Reading &quot; Designing for 3 billion: how... &…",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "Designing for 3 billion: how Instagram built a brand system that celebrates everyone’s point of view"
           }
         ],
         "learningActions": [
@@ -1720,7 +4718,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "X status by zellzoi",
             "access": "full",
             "value": "已读取关联 X 原帖：This is iPhone Folio (or iPhone \"Ultra\"...)",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by zellzoi"
           }
         ],
         "learningActions": [
@@ -1753,7 +4752,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "bloub, avatar SVG animé",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：bloub recrée en SVG animé l",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "bloub, avatar SVG animé"
           }
         ],
         "learningActions": [
@@ -1786,7 +4786,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Thinking orbs — Animated thinking orb component",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Dotted thought-orb loading indicators for AI and agent UIs. Nine hand-tuned states, two sizes, auto dark/light theme.",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Thinking orbs — Animated thinking orb component"
           }
         ],
         "learningActions": [
@@ -1844,7 +4845,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "MetalForge — Beautiful Metal shaders for SwiftUI",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Generate SwiftUI [[stitchable]] Metal shaders by tweaking sliders. No MSL written, real .metal file out.",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "MetalForge — Beautiful Metal shaders for SwiftUI"
           }
         ],
         "learningActions": [
@@ -1877,7 +4879,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Flowith AI - Your Agentic Workspace",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Flowith AI - Your Agentic Workspace for deep work. Experience next-gen AI collaboration with ChatGPT, Claude, DeepSeek and more. The ultimate AI whit…",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Flowith AI - Your Agentic Workspace"
           }
         ],
         "learningActions": [
@@ -1960,7 +4963,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Web Animations | VWLAB",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：VW Lab and The Master Web Animation course will guide you through, principles of motion, timeline animation, tools, and techniques used by award-winn…",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Web Animations | VWLAB"
           }
         ],
         "learningActions": [
@@ -1993,7 +4997,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - arknow91/liquid-taffy: Three liquid interactions you can grab, pull, and let snap back — anchored dropdown, morphing dropdown and speed dial on one goo",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Three liquid interactions you can grab, pull, and let snap back — anchored dropdown, morphing dropdown and speed dial on one goo engine. - arknow91/l…",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - arknow91/liquid-taffy: Three liquid interactions you can grab, pull, and let snap back — anchored dropdown, morphing dropdown and speed dial on one goo"
           }
         ],
         "learningActions": [
@@ -2051,7 +5056,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "bloub, avatar SVG animé",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：bloub recrée en SVG animé l",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "bloub, avatar SVG animé"
           }
         ],
         "learningActions": [
@@ -2084,7 +5090,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "X status by Ryo Lu",
             "access": "full",
             "value": "已读取关联 X 原帖：Cursor is hiring design engineers. looking for people with taste, systems thinking, and deep care for fast, polished experiences …",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by Ryo Lu"
           }
         ],
         "learningActions": [
@@ -2117,14 +5124,16 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - JimLiu/baoyu-design: Run Claude Design locally as an Agent Skill — Cursor, Claude Code &amp; more. Produce polished UI mockups, prototypes, decks &amp;",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Run Claude Design locally as an Agent Skill — Cursor, Claude Code &amp; more. Produce polished UI mockups, prototypes, decks &amp; wireframes as self…",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - JimLiu/baoyu-design: Run Claude Design locally as an Agent Skill — Cursor, Claude Code &amp; more. Produce polished UI mockups, prototypes, decks &amp;"
           },
           {
             "url": "https://x.com/dotey/status/2063475943402872982",
             "title": "X status by 宝玉",
             "access": "full",
             "value": "已读取关联 X 原帖：最近为了研究 Claude Design，专门写了一个工具，可以解析 HAR 文件，解密 Claude Design 传输的二进制内容，这样可以方便的看到请求的 Prompt",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by 宝玉"
           }
         ],
         "learningActions": [
@@ -2157,7 +5166,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - nexu-io/open-design: 🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding ag",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the des…",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - nexu-io/open-design: 🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding ag"
           }
         ],
         "learningActions": [
@@ -2240,21 +5250,24 @@ window.DESIGNER_ANALYSIS = [
             "title": "ui.sh",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：A collection of expertly crafted, task-oriented prompts and workflows for building UIs that don&#39;t suck.",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "ui.sh"
           },
           {
             "url": "http://rsms.me",
             "title": "rsms",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：rsms Hello, I'm Rasmus &#x25CF; About Projects Work Photography Shop Projects dream together Collaborative generative art project hophop Simple progr…",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "rsms"
           },
           {
             "url": "https://x.com/steveschoger/status/2035077141050622173",
             "title": "X status by Steve Schoger",
             "access": "full",
             "value": "已读取关联 X 原帖：I put together a one hour video on how I've been using Claude Code as my primary design tool. Packed with tons of 🔥 design tips.",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by Steve Schoger"
           }
         ],
         "learningActions": [
@@ -2337,21 +5350,24 @@ window.DESIGNER_ANALYSIS = [
             "title": "https://bytedance.larkoffice.com/wiki/SOQXwFtwmiLH16ktUiOckfN9nIg",
             "access": "unavailable",
             "value": "读取失败：fetch failed",
-            "learningValue": "只基于原帖可见证据总结，不补事实。"
+            "learningValue": "只基于原帖可见证据总结，不补事实。",
+            "summary": "https://bytedance.larkoffice.com/wiki/SOQXwFtwmiLH16ktUiOckfN9nIg"
           },
           {
             "url": "https://bytedance.larkoffice.com/wiki/YQWWwcyEBiVWrskcgPkcSPIOntb",
             "title": "https://bytedance.larkoffice.com/wiki/YQWWwcyEBiVWrskcgPkcSPIOntb",
             "access": "unavailable",
             "value": "读取失败：fetch failed",
-            "learningValue": "只基于原帖可见证据总结，不补事实。"
+            "learningValue": "只基于原帖可见证据总结，不补事实。",
+            "summary": "https://bytedance.larkoffice.com/wiki/YQWWwcyEBiVWrskcgPkcSPIOntb"
           },
           {
             "url": "https://lcnziv86vkx6.feishu.cn/wiki/XZOSwI51wi5a5okxCF4cAxHSnBh",
             "title": "https://accounts.feishu.cn/accounts/page/login?app_id=2&no_trap=1&query_scope=all&redirect_uri=https%3A%2F%2Flcnziv86vkx6.feishu.cn%2Fwiki%2FXZOSwI51wi5a5okxCF4",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：https://accounts.feishu.cn/accounts/page/login?app_id=2&no_trap=1&query_scope=all&redirect_uri=https%3A%2F%2Flcnziv86vkx6.feishu.cn%2Fwiki%2FXZOSwI51…",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "https://accounts.feishu.cn/accounts/page/login?app_id=2&no_trap=1&query_scope=all&redirect_uri=https%3A%2F%2Flcnziv86vkx6.feishu.cn%2Fwiki%2FXZOSwI51wi5a5okxCF4"
           }
         ],
         "learningActions": [
@@ -2409,28 +5425,32 @@ window.DESIGNER_ANALYSIS = [
             "title": "https://mimo.xiaomi.com/install",
             "access": "partial",
             "value": "资源类型 application/x-install-instructions，确认可访问但不适合正文解析。",
-            "learningValue": "适合作为素材或 demo 入口，需人工打开体验。"
+            "learningValue": "适合作为素材或 demo 入口，需人工打开体验。",
+            "summary": "https://mimo.xiaomi.com/install"
           },
           {
             "url": "https://mimo.xiaomi.com/mimocode",
             "title": "https://mimo.xiaomi.com/mimocode",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：https://mimo.xiaomi.com/mimocode",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "https://mimo.xiaomi.com/mimocode"
           },
           {
             "url": "https://mimo.xiaomi.com/zh/blog/mimo-code-long-horizon",
             "title": "https://mimo.xiaomi.com/zh/blog/mimo-code-long-horizon",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：MiMo Code 是小米 MiMo 团队基于 OpenCode 构建的终端编程 Agent，MIT 协议开源。本文围绕计算、记忆、进化三个主题，介绍其面向长程自动化编程任务的核心技术设计。",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "https://mimo.xiaomi.com/zh/blog/mimo-code-long-horizon"
           },
           {
             "url": "https://github.com/XiaomiMiMo/MiMo-Code",
             "title": "GitHub - XiaomiMiMo/MiMo-Code: MiMo Code: Where Models and Agents Co-Evolve · GitHub",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：MiMo Code: Where Models and Agents Co-Evolve. Contribute to XiaomiMiMo/MiMo-Code development by creating an account on GitHub.",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - XiaomiMiMo/MiMo-Code: MiMo Code: Where Models and Agents Co-Evolve · GitHub"
           }
         ],
         "learningActions": [
@@ -2538,28 +5558,32 @@ window.DESIGNER_ANALYSIS = [
             "title": "Apple Design Resources - Apple Developer",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Design apps accurately and quickly using official Apple design templates, icon production templates, color guides, and more.",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "Apple Design Resources - Apple Developer"
           },
           {
             "url": "https://developer.apple.com/icon-composer/",
             "title": "Icon Composer - Apple Developer",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Icon Composer lets you create layered icons out of Liquid Glass from a single design for iPhone, iPad, Mac, and Apple Watch. A multi-layer icon forma…",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "Icon Composer - Apple Developer"
           },
           {
             "url": "https://developer.apple.com/design/",
             "title": "Design - Apple Developer",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：Find documentation and resources for designing great apps for Apple platforms.",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "Design - Apple Developer"
           },
           {
             "url": "https://developer.apple.com/videos/play/wwdc2025/219/",
             "title": "Meet Liquid Glass - WWDC25 - Videos - Apple Developer",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Liquid Glass unifies Apple platform design language while providing a more dynamic and expressive user experience. Get to know the design...",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "Meet Liquid Glass - WWDC25 - Videos - Apple Developer"
           }
         ],
         "learningActions": [
@@ -2592,14 +5616,16 @@ window.DESIGNER_ANALYSIS = [
             "title": "Recent — Design Inspiration",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：The best design inspiration on the Internet.",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "Recent — Design Inspiration"
           },
           {
             "url": "https://x.com/tranmautritam/status/2071170530372468911",
             "title": "X status by Tran Mau Tri Tam ✪",
             "access": "full",
             "value": "已读取关联 X 原帖：Useful apps, sites for designers. Save this 👇 - http://animos.app - showcase designs in motion - http://hano.so - 3D device mock…",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by Tran Mau Tri Tam ✪"
           }
         ],
         "learningActions": [
@@ -2632,7 +5658,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Vibe Check: Opus 4.8—Anthropic Should’ve Rounded Up to 5",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Opus 4.8 tops both our Senior Engineer benchmark and our writing tests. It’s the most complete model we’ve tested. We just wish it had an app to matc…",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Vibe Check: Opus 4.8—Anthropic Should’ve Rounded Up to 5"
           }
         ],
         "learningActions": [
@@ -2665,7 +5692,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "X status by Max For AI",
             "access": "full",
             "value": "已读取关联 X 原帖：昨天见了一个非常牛逼的Agent团队，我敢说在国内绝对是T0的级别（之前DPSK还找他们搞了点Agent数据） 刚好聊到了这两天推上吵得非常热闹的AI产品（Agent）要不要用Python的话题 他们Founder说的很直接：SB才在Agent项目里用Pyt…",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by Max For AI"
           }
         ],
         "learningActions": [
@@ -2723,14 +5751,16 @@ window.DESIGNER_ANALYSIS = [
             "title": "DESIGN.md Generator | Figma",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：This plugin can be used to create extract local Figma style guidelines and generate DESIGN.md and SKILL.md files with design system specifications th…",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "DESIGN.md Generator | Figma"
           },
           {
             "url": "https://x.com/zoltanszogyenyi/status/2048810219359121697",
             "title": "X status by Zoltán Szőgyényi",
             "access": "full",
             "value": "已读取关联 X 原帖：I built a Figma plugin that extracts local styles (tokens and variables) and generates DESIGN md and SKILL md files that you can …",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by Zoltán Szőgyényi"
           }
         ],
         "learningActions": [
@@ -2788,14 +5818,16 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - ant-design/ant-design-cli: Ant Design on your command line. Query component knowledge, analyze project usage, and guide migrations — fully offline. · G",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Ant Design on your command line. Query component knowledge, analyze project usage, and guide migrations — fully offline. - GitHub - ant-design/ant-de…",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - ant-design/ant-design-cli: Ant Design on your command line. Query component knowledge, analyze project usage, and guide migrations — fully offline. · G"
           },
           {
             "url": "https://x.com/AntDesignUI/status/2036408608683077889",
             "title": "X status by Ant Design",
             "access": "full",
             "value": "已读取关联 X 原帖：Shipped @ant-design/cli 🚀 Query Ant Design props, tokens, changelogs & run project-wide lint/migration, fully offline. No networ…",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by Ant Design"
           }
         ],
         "learningActions": [
@@ -2828,28 +5860,32 @@ window.DESIGNER_ANALYSIS = [
             "title": "Impeccable: The missing design vocabulary for agents",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：1 skill, 23 commands, and curated anti-patterns for impeccable frontend design. Works with Cursor, Claude Code, GitHub Copilot, Gemini CLI, and Codex…",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Impeccable: The missing design vocabulary for agents"
           },
           {
             "url": "https://ui-skills.com",
             "title": "UI Skills for Design Engineers | UI Skills",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：UI Skills is a collection of design-engineering skills for accessibility, motion, frontend craft, and interface quality.",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "UI Skills for Design Engineers | UI Skills"
           },
           {
             "url": "https://github.com/Leonxlnx/taste-skill",
             "title": "GitHub - Leonxlnx/taste-skill: Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop · GitHub",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop - GitHub - Leonxlnx/taste-skill: Taste-Skill - gives your A…",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - Leonxlnx/taste-skill: Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop · GitHub"
           },
           {
             "url": "https://github.com/better-auth/better-icons",
             "title": "GitHub - better-auth/better-icons: Skill and MCP server for searching and retrieving icons · GitHub",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Skill and MCP server for searching and retrieving icons - better-auth/better-icons",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - better-auth/better-icons: Skill and MCP server for searching and retrieving icons · GitHub"
           }
         ],
         "learningActions": [
@@ -2882,7 +5918,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "X status by Okara",
             "access": "full",
             "value": "已读取关联 X 原帖：Today we're introducing the world's first AI CMO. Enter your website and it deploys a team of agents to help you get traffic and …",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by Okara"
           }
         ],
         "learningActions": [
@@ -2915,7 +5952,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Are.na",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：Are.na is a platform for connecting ideas and building knowledge.",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Are.na"
           }
         ],
         "learningActions": [
@@ -3073,7 +6111,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "X status by Riley Hennigh",
             "access": "full",
             "value": "已读取关联 X 原帖：ok i am going to finally spend some time digging into animation tools i am primarily interested in creating UI-based animations f…",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by Riley Hennigh"
           }
         ],
         "learningActions": [
@@ -3156,28 +6195,32 @@ window.DESIGNER_ANALYSIS = [
             "title": "animos — Motion templates for design showcases",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：animos — ready-made animation templates for showcasing your designs. Drop in images or videos, tweak, and export MP4/WebM in your browser.",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "animos — Motion templates for design showcases"
           },
           {
             "url": "http://hano.so",
             "title": "Hano | 3D Device Mockup &amp; Animation Studio",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Create 3D device mockups in your browser. Animate scenes, customize screens, and export polished product visuals.",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Hano | 3D Device Mockup &amp; Animation Studio"
           },
           {
             "url": "http://pixlo.me",
             "title": "Pixlo – Still images. Moving story.",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Pixlo turns your photos into beautiful video slideshows in seconds. Drop your images, customize each slide, and export a video ready for Reels, Stori…",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Pixlo – Still images. Moving story."
           },
           {
             "url": "http://tooooools.app",
             "title": "http://tooooools.app",
             "access": "unavailable",
             "value": "读取失败：fetch failed",
-            "learningValue": "只基于原帖可见证据总结，不补事实。"
+            "learningValue": "只基于原帖可见证据总结，不补事实。",
+            "summary": "http://tooooools.app"
           }
         ],
         "learningActions": [
@@ -3210,28 +6253,32 @@ window.DESIGNER_ANALYSIS = [
             "title": "Kinetics — Spring-physics motion for web interfaces",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：A library of spring-driven micro-interactions for web apps. Copy the CSS or React, tune the physics, ship the motion.",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Kinetics — Spring-physics motion for web interfaces"
           },
           {
             "url": "http://ripplix.com",
             "title": "7,000+ UI Animation &amp; Micro-interaction Library",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：The curated library of UI Animation. Stop shipping static interfaces. Access premium UI Animation examples for Mobile, Web, AR / VR and Smartwatches …",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "7,000+ UI Animation &amp; Micro-interaction Library"
           },
           {
             "url": "http://github.com/docker/awesome-compose",
             "title": "GitHub - docker/awesome-compose: Awesome Docker Compose samples · GitHub",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Awesome Docker Compose samples. Contribute to docker/awesome-compose development by creating an account on GitHub.",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - docker/awesome-compose: Awesome Docker Compose samples · GitHub"
           },
           {
             "url": "http://gradientbuttons.colorion.co",
             "title": "Buttons with CSS gradients - Gradient Buttons",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：Hundreds of CSS gradient buttons. One click copy to clipboard.",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Buttons with CSS gradients - Gradient Buttons"
           }
         ],
         "learningActions": [
@@ -3264,7 +6311,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Squeeze – A dead simple image compression app",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Effortlessly compress images to reduce file size without sacrificing quality, ideal for web developers and designers looking to optimize their projec…",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "Squeeze – A dead simple image compression app"
           }
         ],
         "learningActions": [
@@ -3297,7 +6345,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - KKKKhazix/khazix-skills: 数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer &amp; more — Claude Code, Co",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer &amp; more — Claude Code, Codex &amp; 40+ agents - …",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - KKKKhazix/khazix-skills: 数字生命卡兹克开源的 AI Skills 合集 | Agent Skills: leader（帮你定义目标）, neat-freak 洁癖, hv-analysis, khazix-writer &amp; more — Claude Code, Co"
           }
         ],
         "learningActions": [
@@ -3330,28 +6379,32 @@ window.DESIGNER_ANALYSIS = [
             "title": "http://curated.design",
             "access": "unavailable",
             "value": "读取失败：fetch failed",
-            "learningValue": "只基于原帖可见证据总结，不补事实。"
+            "learningValue": "只基于原帖可见证据总结，不补事实。",
+            "summary": "http://curated.design"
           },
           {
             "url": "http://landing.love",
             "title": "Showcase of the best 2141 Animation Websites - landing.love",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Get inspired by an amazing collection of over 2141 animation website designs. With a full-page video recording showcasing the best designs out there.",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Showcase of the best 2141 Animation Websites - landing.love"
           },
           {
             "url": "http://saaspo.com",
             "title": "https://saaspo.com/",
             "access": "unavailable",
             "value": "HTTP 403，未能读取正文。",
-            "learningValue": "只保留原帖可见信息，不扩展推断。"
+            "learningValue": "只保留原帖可见信息，不扩展推断。",
+            "summary": "https://saaspo.com/"
           },
           {
             "url": "http://navbar.gallery",
             "title": "Navbar Gallery – Navigation Design Inspiration",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：Navbar Gallery – Navigation Design Inspiration Navbar Gallery All Types Static Static/Sticky Navbar A simple navigation bar that is usually fixed to …",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "Navbar Gallery – Navigation Design Inspiration"
           }
         ],
         "learningActions": [
@@ -3384,7 +6437,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "X status by Thariq",
             "access": "full",
             "value": "已读取关联 X 原帖：Lots of people asked how I used Fable to edit its own launch video so I made a video about that! TLDR it wrote a lot of code & to…",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by Thariq"
           }
         ],
         "learningActions": [
@@ -3417,7 +6471,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - google-deepmind/science-skills: GDM Science Skills to speed up agentic scientific workflows with better grounding and higher token efficiency. Integrat",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：GDM Science Skills to speed up agentic scientific workflows with better grounding and higher token efficiency. Integrate insights from AlphaGenome, A…",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - google-deepmind/science-skills: GDM Science Skills to speed up agentic scientific workflows with better grounding and higher token efficiency. Integrat"
           }
         ],
         "learningActions": [
@@ -3450,7 +6505,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "X status by Murat Alpay",
             "access": "full",
             "value": "已读取关联 X 原帖：I’m open for new product design projects Daily Slack updates. Direct collaboration DMs open 💌",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by Murat Alpay"
           }
         ],
         "learningActions": [
@@ -3483,21 +6539,24 @@ window.DESIGNER_ANALYSIS = [
             "title": "https://ios.chorus.com/SKILL.md",
             "access": "full",
             "value": "页面提供了原帖外的补充信息：--- name: build-ios-apps description: Build, sign, install, and publish iOS apps using the Vibecode signing service. Use when the user wants to build…",
-            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。"
+            "learningValue": "可作为背景链接，优先级取决于是否要复刻该案例。",
+            "summary": "https://ios.chorus.com/SKILL.md"
           },
           {
             "url": "https://ios.chorus.com/skill/download",
             "title": "https://ios.chorus.com/skill/download",
             "access": "partial",
             "value": "资源类型 application/gzip，确认可访问但不适合正文解析。",
-            "learningValue": "适合作为素材或 demo 入口，需人工打开体验。"
+            "learningValue": "适合作为素材或 demo 入口，需人工打开体验。",
+            "summary": "https://ios.chorus.com/skill/download"
           },
           {
             "url": "https://x.com/anshnanda/status/2057661971328123380",
             "title": "X status by Ansh Nanda",
             "access": "full",
             "value": "已读取关联 X 原帖：3 months ago, Apple banned Vibecoding apps from the App Store. 2 months ago, we figured a way to make 10x better native Swift iOS…",
-            "learningValue": "可作为原帖上下文或引用链继续判断。"
+            "learningValue": "可作为原帖上下文或引用链继续判断。",
+            "summary": "X status by Ansh Nanda"
           }
         ],
         "learningActions": [
@@ -3655,7 +6714,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - tw93/Mole: 🐹 Clean, uninstall, analyze, optimize, and monitor your Mac. · GitHub",
             "access": "partial",
             "value": "页面提供了原帖外的补充信息：🐹 Clean, uninstall, analyze, optimize, and monitor your Mac. - tw93/Mole",
-            "learningValue": "值得继续读：信息密度或实现参考较高。"
+            "learningValue": "值得继续读：信息密度或实现参考较高。",
+            "summary": "GitHub - tw93/Mole: 🐹 Clean, uninstall, analyze, optimize, and monitor your Mac. · GitHub"
           }
         ],
         "learningActions": [
@@ -3815,14 +6875,16 @@ window.DESIGNER_ANALYSIS = [
             "title": "Haruki/Hiroki AI Engineering 技能图转述",
             "access": "full",
             "value": "引用长文把 AI app、软件工程基础、coding agents 和 shaping the build 四类技能整理成职业学习框架。",
-            "learningValue": "适合转成个人设计工程师季度学习地图。"
+            "learningValue": "适合转成个人设计工程师季度学习地图。",
+            "summary": "Haruki/Hiroki AI Engineering 技能图转述"
           },
           {
             "url": "https://x.com/AndrewYNg/article/2088302050706686198",
             "title": "Andrew Ng X Article: AI Engineering Skills Map",
             "access": "full",
             "value": "已用登录态读到 X Article 全文，核心是 evals/error analysis、coding agent context、软件工程 tradeoff 和 product sense。",
-            "learningValue": "值得作为设计工程师从 UI 实现转向规格定义、验证和产品判断的主线读物。"
+            "learningValue": "值得作为设计工程师从 UI 实现转向规格定义、验证和产品判断的主线读物。",
+            "summary": "Andrew Ng X Article: AI Engineering Skills Map"
           }
         ],
         "learningActions": [
@@ -3855,7 +6917,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Rehat personal site",
             "access": "full",
             "value": "页面把个人身份、长期项目、开源 agent 和视觉风格放在同一个叙事里。",
-            "learningValue": "可作为个人作品集如何整合 AI 图片但不沦为装饰的参考。"
+            "learningValue": "可作为个人作品集如何整合 AI 图片但不沦为装饰的参考。",
+            "summary": "Rehat personal site"
           }
         ],
         "learningActions": [
@@ -3963,7 +7026,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Stripe accessible color systems",
             "access": "full",
             "value": "原文提供可访问色阶、鲜活颜色和对比度约束的设计背景，原帖只展示复刻结果。",
-            "learningValue": "值得继续拆成色板生成器、对比度检查和 token 命名练习。"
+            "learningValue": "值得继续拆成色板生成器、对比度检查和 token 命名练习。",
+            "summary": "Stripe accessible color systems"
           }
         ],
         "learningActions": [
@@ -4071,14 +7135,16 @@ window.DESIGNER_ANALYSIS = [
             "title": "Okara v2 发布引用帖",
             "access": "full",
             "value": "官方引用帖补足“输入网站后部署增长 Agent 团队”的产品承诺和视频上下文。",
-            "learningValue": "可学习 AI SaaS 如何把复杂增长任务包装成一个角色化工作台。"
+            "learningValue": "可学习 AI SaaS 如何把复杂增长任务包装成一个角色化工作台。",
+            "summary": "Okara v2 发布引用帖"
           },
           {
             "url": "https://okara.ai/",
             "title": "Okara product page",
             "access": "full",
             "value": "产品页展示 SEO、Reddit、X、UGC、GEO 等 Agent 与集成，说明它不是单一聊天工具。",
-            "learningValue": "适合复盘 AI CMO 的 IA、use case 分组和自动化承诺边界。"
+            "learningValue": "适合复盘 AI CMO 的 IA、use case 分组和自动化承诺边界。",
+            "summary": "Okara product page"
           }
         ],
         "learningActions": [
@@ -4111,7 +7177,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "FleetingBits codebase visual diagrams",
             "access": "full",
             "value": "引用帖展示 Claude 把代码库转成带数据点的视觉图，收藏帖补充了“视觉型但轻技术用户”的理解收益。",
-            "learningValue": "适合研究代码理解工具如何把抽象结构转成可讨论的图面。"
+            "learningValue": "适合研究代码理解工具如何把抽象结构转成可讨论的图面。",
+            "summary": "FleetingBits codebase visual diagrams"
           }
         ],
         "learningActions": [
@@ -4171,14 +7238,16 @@ window.DESIGNER_ANALYSIS = [
             "title": "blobatar product page",
             "access": "full",
             "value": "页面说明任意字符串生成确定性几何头像、无依赖、约 3.7KB，并提供 React 用法和 trait 编辑。",
-            "learningValue": "可复用到评论区、侧栏、协作光标等低成本身份识别场景。"
+            "learningValue": "可复用到评论区、侧栏、协作光标等低成本身份识别场景。",
+            "summary": "blobatar product page"
           },
           {
             "url": "https://github.com/Alain00/blobatar",
             "title": "blobatar GitHub repo",
             "access": "full",
             "value": "仓库提供源码入口，证明它不是单张视觉 demo，而是可安装的小型库。",
-            "learningValue": "适合看 API 设计、包体控制和可动头像的实现边界。"
+            "learningValue": "适合看 API 设计、包体控制和可动头像的实现边界。",
+            "summary": "blobatar GitHub repo"
           }
         ],
         "learningActions": [
@@ -4212,14 +7281,16 @@ window.DESIGNER_ANALYSIS = [
             "title": "Grok targeted offer 50 off",
             "access": "partial",
             "value": "页面可访问但只暴露 Grok SPA 壳和通用描述，不能直接核验折扣明细。",
-            "learningValue": "只可作为产品包装线索，不能当作价格事实引用。"
+            "learningValue": "只可作为产品包装线索，不能当作价格事实引用。",
+            "summary": "Grok targeted offer 50 off"
           },
           {
             "url": "https://grok.com/supergrok/targeted-offer/email-supergrok-67-off-3mo",
             "title": "Grok targeted offer 67 off",
             "access": "partial",
             "value": "页面可访问但未读到具体权益细节，折扣与套餐组合需登录或后续确认。",
-            "learningValue": "适合观察 AI 产品如何用额度组合做转化，但不要据此做购买判断。"
+            "learningValue": "适合观察 AI 产品如何用额度组合做转化，但不要据此做购买判断。",
+            "summary": "Grok targeted offer 67 off"
           }
         ],
         "learningActions": [
@@ -4253,7 +7324,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "Grok Bot 官方发布帖",
             "access": "full",
             "value": "引用帖说明 Bot 是能登录工具、执行真实工作的 AI 队友；mascot options 则补足人格和形象方向。",
-            "learningValue": "可学习 AI teammate 的品牌角色、动效和信任感如何共同塑造。"
+            "learningValue": "可学习 AI teammate 的品牌角色、动效和信任感如何共同塑造。",
+            "summary": "Grok Bot 官方发布帖"
           }
         ],
         "learningActions": [
@@ -4937,7 +8009,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "youtube.com 补充了原帖之外的背景：(function() {window.ytplayer={}; ytcfg.set({\"CLIENT_CANARY_STATE\":\"none\",\"DEVICE\":\"ceng\\u003dUSER_DEFINED\\u0026cplatform\\u003dDESKTOP\",\"DISABLE_YT_IM…",
             "learningValue": "值得继续看 youtube.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "youtube.com 补充了原帖之外的背景：(function() {window.ytplayer={}; ytcfg.set({\"CLIENT_CANARY_STATE\":\"none\",\"DEVICE\":\"ceng\\u003dUSER_DEFINED\\u0026cplatform\\u003dDESKTOP\",\"DISABLE_YT_IM…",
-            "valueForDesignLearning": "值得继续看 youtube.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 youtube.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "youtube.com"
           },
           {
             "title": "X status by Seb Vidal",
@@ -4946,7 +8019,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Seb Vidal 补充了原帖之外的背景：_UIPopoverView, the private class responsible for rendering popover view controllers' chrome, got a glow up in iOS 27 beta 5 with a more...liquid?...…",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Seb Vidal 补充了原帖之外的背景：_UIPopoverView, the private class responsible for rendering popover view controllers' chrome, got a glow up in iOS 27 beta 5 with a more...liquid?...…",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Seb Vidal"
           }
         ],
         "learningActions": [
@@ -5056,7 +8130,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by 黄赟 补充了原帖之外的背景：Gemini 真的是一步落后，步步落后了 同样的一套 Skill, 在 ChatGPT Harness 中流畅运行，Gemini 就常常缺斤少两。好在它还挺诚实，不敢往视频画布中加文字，就很坦诚地回我：加中字会乱码，所以不加 义父，Codex 该重置啦 ！！",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by 黄赟 补充了原帖之外的背景：Gemini 真的是一步落后，步步落后了 同样的一套 Skill, 在 ChatGPT Harness 中流畅运行，Gemini 就常常缺斤少两。好在它还挺诚实，不敢往视频画布中加文字，就很坦诚地回我：加中字会乱码，所以不加 义父，Codex 该重置啦 ！！",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by 黄赟"
           }
         ],
         "learningActions": [
@@ -5091,7 +8166,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Taste Health Nutrition Branding and Packaging Identity 补充了原帖之外的背景：Taste Health is a modern nutrition branding and packaging project by Dex Studio featuring bold typography and cobalt blue color fields. The visual sy…",
             "learningValue": "值得继续看 abduzeedo.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Taste Health Nutrition Branding and Packaging Identity 补充了原帖之外的背景：Taste Health is a modern nutrition branding and packaging project by Dex Studio featuring bold typography and cobalt blue color fields. The visual sy…",
-            "valueForDesignLearning": "值得继续看 abduzeedo.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 abduzeedo.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Taste Health Nutrition Branding and Packaging Identity"
           }
         ],
         "learningActions": [
@@ -5126,7 +8202,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "一个极度实用的深度思考Prompt，帮你挖出最本质的答案。 补充了原帖之外的背景：要查看键盘快捷键，按下问号 查看键盘快捷键 一个极度实用的深度思考Prompt，帮你挖出最本质的答案。 数字生命卡兹克 @Khazix0918 · 53分钟 1 7 56 4,247 前几天，我在推特上刷到了一条很有意思的分享。 原文找不到了，只剩下了这张图。 大概意思就是，先不要让大模型直接回答…",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "一个极度实用的深度思考Prompt，帮你挖出最本质的答案。 补充了原帖之外的背景：要查看键盘快捷键，按下问号 查看键盘快捷键 一个极度实用的深度思考Prompt，帮你挖出最本质的答案。 数字生命卡兹克 @Khazix0918 · 53分钟 1 7 56 4,247 前几天，我在推特上刷到了一条很有意思的分享。 原文找不到了，只剩下了这张图。 大概意思就是，先不要让大模型直接回答…",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "一个极度实用的深度思考Prompt，帮你挖出最本质的答案。"
           }
         ],
         "learningActions": [
@@ -5161,7 +8238,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "The AI-Native Identity Operating System | Oak 补充了原帖之外的背景：Oak is the identity operating system born complete: one AI-native platform that discovers, understands, and governs every human, machine, and AI agen…",
             "learningValue": "值得继续看 oak.id 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "The AI-Native Identity Operating System | Oak 补充了原帖之外的背景：Oak is the identity operating system born complete: one AI-native platform that discovers, understands, and governs every human, machine, and AI agen…",
-            "valueForDesignLearning": "值得继续看 oak.id 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 oak.id 的信息密度、交互结构和可复用实现线索。",
+            "summary": "The AI-Native Identity Operating System | Oak"
           }
         ],
         "learningActions": [
@@ -5196,7 +8274,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Cyandev 补充了原帖之外的背景：interesting, and it's live now!",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Cyandev 补充了原帖之外的背景：interesting, and it's live now!",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Cyandev"
           },
           {
             "title": "X status by Andreas Storm",
@@ -5205,7 +8284,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Andreas Storm 补充了原帖之外的背景：Apple has updated the traffic light buttons in macOS 27 Beta 6",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Andreas Storm 补充了原帖之外的背景：Apple has updated the traffic light buttons in macOS 27 Beta 6",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Andreas Storm"
           }
         ],
         "learningActions": [
@@ -5240,7 +8320,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Hermes Release Watch 补充了原帖之外的背景：https://t.co/hO6cFsPeWP",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Hermes Release Watch 补充了原帖之外的背景：https://t.co/hO6cFsPeWP",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Hermes Release Watch"
           },
           {
             "title": "X status by Hermes Release Watch",
@@ -5249,7 +8330,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Hermes Release Watch 补充了原帖之外的背景：https://t.co/hO6cFsPeWP",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Hermes Release Watch 补充了原帖之外的背景：https://t.co/hO6cFsPeWP",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Hermes Release Watch"
           }
         ],
         "learningActions": [
@@ -5434,7 +8516,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Codexで操作手順書を作るとき、僕が必ず入れる10の工夫 补充了原帖之外的背景：要查看键盘快捷键，按下问号 查看键盘快捷键 Codexで操作手順書を作るとき、僕が必ず入れる10の工夫 たく｜AI活用×実践ノウハウ @taku_ai_case · 3小时 关注 1 7 14 2,506 Codexにスクショを何枚か入れて、「操作手順書を作って」と頼む。 これだけでも、一応それら…",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Codexで操作手順書を作るとき、僕が必ず入れる10の工夫 补充了原帖之外的背景：要查看键盘快捷键，按下问号 查看键盘快捷键 Codexで操作手順書を作るとき、僕が必ず入れる10の工夫 たく｜AI活用×実践ノウハウ @taku_ai_case · 3小时 关注 1 7 14 2,506 Codexにスクショを何枚か入れて、「操作手順書を作って」と頼む。 これだけでも、一応それら…",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Codexで操作手順書を作るとき、僕が必ず入れる10の工夫"
           }
         ],
         "learningActions": [
@@ -5469,7 +8552,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "僕のフォロワーさんたちが、直近24時間でつぶやいたこと 补充了原帖之外的背景：要查看键盘快捷键，按下问号 查看键盘快捷键 僕のフォロワーさんたちが、直近24時間でつぶやいたこと ˗ˏˋ 藤川 忠彦 ˎˊ˗ @fujikawa · 2小时 关注 3 1,079 開発環境の主導権争いがコードの置き場所にまで広がり、ローカルモデルの実用化とエージェントの自律運用が一気に具体化した…",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "僕のフォロワーさんたちが、直近24時間でつぶやいたこと 补充了原帖之外的背景：要查看键盘快捷键，按下问号 查看键盘快捷键 僕のフォロワーさんたちが、直近24時間でつぶやいたこと ˗ˏˋ 藤川 忠彦 ˎˊ˗ @fujikawa · 2小时 关注 3 1,079 開発環境の主導権争いがコードの置き場所にまで広がり、ローカルモデルの実用化とエージェントの自律運用が一気に具体化した…",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "僕のフォロワーさんたちが、直近24時間でつぶやいたこと"
           }
         ],
         "learningActions": [
@@ -5504,7 +8588,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "光リファレンス | 光と反射の3Dシミュレーター 补充了原帖之外的背景：光源・影・材質・大気・レンズ・環境の条件を操作し、105の光表現をリアルタイム3Dで比較できる光表現シミュレーター。",
             "learningValue": "值得继续看 light-reference.takayustudio.jp 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "光リファレンス | 光と反射の3Dシミュレーター 补充了原帖之外的背景：光源・影・材質・大気・レンズ・環境の条件を操作し、105の光表現をリアルタイム3Dで比較できる光表現シミュレーター。",
-            "valueForDesignLearning": "值得继续看 light-reference.takayustudio.jp 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 light-reference.takayustudio.jp 的信息密度、交互结构和可复用实现线索。",
+            "summary": "光リファレンス | 光と反射の3Dシミュレーター"
           }
         ],
         "learningActions": [
@@ -5539,7 +8624,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Visual Wizard — Design on working prototypes 补充了原帖之外的背景：A visual workspace where you and your coding agent design directly on working prototype code.",
             "learningValue": "值得继续看 visualwizard.app 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Visual Wizard — Design on working prototypes 补充了原帖之外的背景：A visual workspace where you and your coding agent design directly on working prototype code.",
-            "valueForDesignLearning": "值得继续看 visualwizard.app 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 visualwizard.app 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Visual Wizard — Design on working prototypes"
           },
           {
             "title": "X status by ClaudeDevs",
@@ -5548,7 +8634,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by ClaudeDevs 补充了原帖之外的背景：Claude Code can design now. The new /design skill (research preview) brings Claude Design's artboard workflow into the CLI and Desktop, built on arti…",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by ClaudeDevs 补充了原帖之外的背景：Claude Code can design now. The new /design skill (research preview) brings Claude Design's artboard workflow into the CLI and Desktop, built on arti…",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by ClaudeDevs"
           }
         ],
         "learningActions": [
@@ -5607,7 +8694,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Gavin Nelson — Workspace Tour #540 — Workspaces 补充了原帖之外的背景：Gavin Nelson is a designer at OpenAI, working on ChatGPT. See Gavin Nelson",
             "learningValue": "值得继续看 workspaces.xyz 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Gavin Nelson — Workspace Tour #540 — Workspaces 补充了原帖之外的背景：Gavin Nelson is a designer at OpenAI, working on ChatGPT. See Gavin Nelson",
-            "valueForDesignLearning": "值得继续看 workspaces.xyz 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 workspaces.xyz 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Gavin Nelson — Workspace Tour #540 — Workspaces"
           }
         ],
         "learningActions": [
@@ -5691,7 +8779,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "‎iPhone 版“Today” - App Store 补充了原帖之外的背景：在 App Store 上查找适用于 iPhone、iPad、Mac 等设备的 App 和游戏。",
             "learningValue": "值得继续看 apps.apple.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "‎iPhone 版“Today” - App Store 补充了原帖之外的背景：在 App Store 上查找适用于 iPhone、iPad、Mac 等设备的 App 和游戏。",
-            "valueForDesignLearning": "值得继续看 apps.apple.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 apps.apple.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "‎iPhone 版“Today” - App Store"
           }
         ],
         "learningActions": [
@@ -5726,7 +8815,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Interfaces › Design Engineering Magazine 补充了原帖之外的背景：Interfaces is a design engineering magazine about building great interfaces that covers topics such as animation, typography, layout and color.",
             "learningValue": "值得继续看 interfaces.dev 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Interfaces › Design Engineering Magazine 补充了原帖之外的背景：Interfaces is a design engineering magazine about building great interfaces that covers topics such as animation, typography, layout and color.",
-            "valueForDesignLearning": "值得继续看 interfaces.dev 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 interfaces.dev 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Interfaces › Design Engineering Magazine"
           }
         ],
         "learningActions": [
@@ -5786,7 +8876,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "GitHub - yetone/cumora: Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains. · GitHub 补充了原帖之外的背景：Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) bra…",
             "learningValue": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "GitHub - yetone/cumora: Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains. · GitHub 补充了原帖之外的背景：Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) bra…",
-            "valueForDesignLearning": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "GitHub - yetone/cumora: Where agent teams gather. Cross-platform team chat wher…"
           },
           {
             "title": "X status by yetone",
@@ -5795,7 +8886,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by yetone 补充了原帖之外的背景：One more thing https://cumora.ai",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by yetone 补充了原帖之外的背景：One more thing https://cumora.ai",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by yetone"
           }
         ],
         "learningActions": [
@@ -5830,7 +8922,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Larus Canus 补充了原帖之外的背景：📸 Portraits just hit better with type + linework! Let the type and lines follow the pose, movement, and negative space. 1. STAY WILD — rooftop wind …",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Larus Canus 补充了原帖之外的背景：📸 Portraits just hit better with type + linework! Let the type and lines follow the pose, movement, and negative space. 1. STAY WILD — rooftop wind …",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Larus Canus"
           }
         ],
         "learningActions": [
@@ -5865,7 +8958,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "movin.design — motion design inspiration 补充了原帖之外的背景：A curated gallery of the best motion design from X, updated with new clips daily.",
             "learningValue": "值得继续看 movin.design 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "movin.design — motion design inspiration 补充了原帖之外的背景：A curated gallery of the best motion design from X, updated with new clips daily.",
-            "valueForDesignLearning": "值得继续看 movin.design 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 movin.design 的信息密度、交互结构和可复用实现线索。",
+            "summary": "movin.design — motion design inspiration"
           }
         ],
         "learningActions": [
@@ -6047,7 +9141,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Originkit — Free Animated component library for modern websites 补充了原帖之外的背景：The largest free animated component library for building modern websites. Copy code, use in Framer, or connect through MCP.",
             "learningValue": "值得继续看 originkit.dev 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Originkit — Free Animated component library for modern websites 补充了原帖之外的背景：The largest free animated component library for building modern websites. Copy code, use in Framer, or connect through MCP.",
-            "valueForDesignLearning": "值得继续看 originkit.dev 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 originkit.dev 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Originkit — Free Animated component library for modern websites"
           },
           {
             "title": "Thinking orbs — Animated thinking orb component",
@@ -6056,7 +9151,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Thinking orbs — Animated thinking orb component 补充了原帖之外的背景：Dotted thought-orb loading indicators for AI and agent UIs. Nine hand-tuned states, two sizes, auto dark/light theme.",
             "learningValue": "值得继续看 orbs.jakubantalik.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Thinking orbs — Animated thinking orb component 补充了原帖之外的背景：Dotted thought-orb loading indicators for AI and agent UIs. Nine hand-tuned states, two sizes, auto dark/light theme.",
-            "valueForDesignLearning": "值得继续看 orbs.jakubantalik.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 orbs.jakubantalik.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Thinking orbs — Animated thinking orb component"
           },
           {
             "title": "Transitions.dev — Essential transitions for web apps",
@@ -6065,7 +9161,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Transitions.dev — Essential transitions for web apps 补充了原帖之外的背景：Collection of the most essential transitions for web apps that you can just copy and paste into any project.",
             "learningValue": "值得继续看 transitions.dev 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Transitions.dev — Essential transitions for web apps 补充了原帖之外的背景：Collection of the most essential transitions for web apps that you can just copy and paste into any project.",
-            "valueForDesignLearning": "值得继续看 transitions.dev 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 transitions.dev 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Transitions.dev — Essential transitions for web apps"
           },
           {
             "title": "Beautiful UI — Crafted primitives for AI-native interfaces",
@@ -6074,7 +9171,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Beautiful UI — Crafted primitives for AI-native interfaces 补充了原帖之外的背景：Beautiful UI — Crafted primitives for AI-native interfaces Beautiful UI for AI-native interfaces. Components Loading State Thinking Streaming Text Ap…",
             "learningValue": "值得继续看 beautifului.dev 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Beautiful UI — Crafted primitives for AI-native interfaces 补充了原帖之外的背景：Beautiful UI — Crafted primitives for AI-native interfaces Beautiful UI for AI-native interfaces. Components Loading State Thinking Streaming Text Ap…",
-            "valueForDesignLearning": "值得继续看 beautifului.dev 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 beautifului.dev 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Beautiful UI — Crafted primitives for AI-native interfaces"
           },
           {
             "title": "React Components, Templates & Themes — 12,000+ Crafted UI | 21st | 21st",
@@ -6083,7 +9181,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "React Components, Templates & Themes — 12,000+ Crafted UI | 21st | 21st 补充了原帖之外的背景：12,000+ hand-crafted React and Tailwind CSS components, templates, and shadcn themes by real design engineers. Preview live, install with one command…",
             "learningValue": "值得继续看 21st.dev 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "React Components, Templates & Themes — 12,000+ Crafted UI | 21st | 21st 补充了原帖之外的背景：12,000+ hand-crafted React and Tailwind CSS components, templates, and shadcn themes by real design engineers. Preview live, install with one command…",
-            "valueForDesignLearning": "值得继续看 21st.dev 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 21st.dev 的信息密度、交互结构和可复用实现线索。",
+            "summary": "React Components, Templates & Themes — 12,000+ Crafted UI | 21st | 21st"
           },
           {
             "title": "Aceternity UI — React & Tailwind CSS Component Library",
@@ -6092,7 +9191,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Aceternity UI — React & Tailwind CSS Component Library 补充了原帖之外的背景：Aceternity UI is a React component library with 200+ copy-paste components, blocks, and landing page templates built with Tailwind CSS and Motion.",
             "learningValue": "值得继续看 ui.aceternity.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Aceternity UI — React & Tailwind CSS Component Library 补充了原帖之外的背景：Aceternity UI is a React component library with 200+ copy-paste components, blocks, and landing page templates built with Tailwind CSS and Motion.",
-            "valueForDesignLearning": "值得继续看 ui.aceternity.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 ui.aceternity.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Aceternity UI — React & Tailwind CSS Component Library"
           },
           {
             "title": "The Component Gallery",
@@ -6101,7 +9201,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "The Component Gallery 补充了原帖之外的背景：An up-to-date repository of interface components based on examples from the world of design systems, designed to be a reference for anyone building u…",
             "learningValue": "值得继续看 component.gallery 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "The Component Gallery 补充了原帖之外的背景：An up-to-date repository of interface components based on examples from the world of design systems, designed to be a reference for anyone building u…",
-            "valueForDesignLearning": "值得继续看 component.gallery 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 component.gallery 的信息密度、交互结构和可复用实现线索。",
+            "summary": "The Component Gallery"
           },
           {
             "title": "Agentation",
@@ -6110,7 +9211,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Agentation 补充了原帖之外的背景：The visual feedback tool for agents.",
             "learningValue": "值得继续看 agentation.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Agentation 补充了原帖之外的背景：The visual feedback tool for agents.",
-            "valueForDesignLearning": "值得继续看 agentation.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 agentation.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Agentation"
           }
         ],
         "learningActions": [
@@ -6169,7 +9271,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Cutting mat bg generator 补充了原帖之外的背景：Cutting mat bg generator Cutting mat bg generator Fully customizable SVG cutting mat. Adjust size, grid, ticks, colors, and typography. Use it for ba…",
             "learningValue": "值得继续看 cutting-mat-generator.vercel.app 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Cutting mat bg generator 补充了原帖之外的背景：Cutting mat bg generator Cutting mat bg generator Fully customizable SVG cutting mat. Adjust size, grid, ticks, colors, and typography. Use it for ba…",
-            "valueForDesignLearning": "值得继续看 cutting-mat-generator.vercel.app 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 cutting-mat-generator.vercel.app 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Cutting mat bg generator"
           },
           {
             "title": "X status by Kailash",
@@ -6178,7 +9281,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Kailash 补充了原帖之外的背景：Want your UI to feel futuristic? This is your resource. (Li Meet Border Beams by @Jakubantalik Create beautiful animated border beams. Customize: • c…",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Kailash 补充了原帖之外的背景：Want your UI to feel futuristic? This is your resource. (Li Meet Border Beams by @Jakubantalik Create beautiful animated border beams. Customize: • c…",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Kailash"
           }
         ],
         "learningActions": [
@@ -6287,7 +9391,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "GitHub - StarTrail-org/PixelRAG: The end of web parsing. The beginning of scalable pixel-native search. link: https://pixelrag.ai/ · GitHub 补充了原帖之外的背景：The end of web parsing. The beginning of scalable pixel-native search. link: https://pixelrag.ai/ - StarTrail-org/PixelRAG",
             "learningValue": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "GitHub - StarTrail-org/PixelRAG: The end of web parsing. The beginning of scalable pixel-native search. link: https://pixelrag.ai/ · GitHub 补充了原帖之外的背景：The end of web parsing. The beginning of scalable pixel-native search. link: https://pixelrag.ai/ - StarTrail-org/PixelRAG",
-            "valueForDesignLearning": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "GitHub - StarTrail-org/PixelRAG: The end of web parsing. The beginning of scala…"
           }
         ],
         "learningActions": [
@@ -6471,7 +9576,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "BaoCut — Your AI agent for subtitles & video 补充了原帖之外的背景：BaoCut is a local-first macOS app that turns any video, audio, or recording into editable subtitles — then proofreads, translates, segments, and cuts…",
             "learningValue": "值得继续看 baocut.app 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "BaoCut — Your AI agent for subtitles & video 补充了原帖之外的背景：BaoCut is a local-first macOS app that turns any video, audio, or recording into editable subtitles — then proofreads, translates, segments, and cuts…",
-            "valueForDesignLearning": "值得继续看 baocut.app 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 baocut.app 的信息密度、交互结构和可复用实现线索。",
+            "summary": "BaoCut — Your AI agent for subtitles & video"
           },
           {
             "title": "GitHub - JimLiu/baocut: Open-source Agent Skill that drives the BaoCut macOS ap…",
@@ -6480,7 +9586,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "GitHub - JimLiu/baocut: Open-source Agent Skill that drives the BaoCut macOS app CLI (transcribe · subtitle · translate · cut) from Claude Code, Codex, and other agents · GitHub 补充了原帖之外的背景：Open-source Agent Skill that drives the BaoCut macOS app CLI (transcribe · subtitle · translate · cut) from Claude Code, Codex, and other agents - Ji…",
             "learningValue": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "GitHub - JimLiu/baocut: Open-source Agent Skill that drives the BaoCut macOS app CLI (transcribe · subtitle · translate · cut) from Claude Code, Codex, and other agents · GitHub 补充了原帖之外的背景：Open-source Agent Skill that drives the BaoCut macOS app CLI (transcribe · subtitle · translate · cut) from Claude Code, Codex, and other agents - Ji…",
-            "valueForDesignLearning": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "GitHub - JimLiu/baocut: Open-source Agent Skill that drives the BaoCut macOS ap…"
           }
         ],
         "learningActions": [
@@ -6540,7 +9647,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "GitHub - pengchujin/jzsub: JZSub — 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。 · GitHub 补充了原帖之外的背景：JZSub — 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。. Contribute to pengchujin/jzsub development by creating an account on GitHub.",
             "learningValue": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "GitHub - pengchujin/jzsub: JZSub — 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。 · GitHub 补充了原帖之外的背景：JZSub — 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。. Contribute to pengchujin/jzsub development by creating an account on GitHub.",
-            "valueForDesignLearning": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "GitHub - pengchujin/jzsub: JZSub — 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。 · GitHub"
           }
         ],
         "learningActions": [
@@ -6624,7 +9732,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "@oreo-design/avatar — avatar studio 补充了原帖之外的背景：@oreo-design/avatar — avatar studio oreo-design / avatar @oreo-design/avatar Figma-method soft gradient avatars. 6 shape families, 40 palettes, OKLCH…",
             "learningValue": "值得继续看 oreo-design-avatar.vercel.app 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "@oreo-design/avatar — avatar studio 补充了原帖之外的背景：@oreo-design/avatar — avatar studio oreo-design / avatar @oreo-design/avatar Figma-method soft gradient avatars. 6 shape families, 40 palettes, OKLCH…",
-            "valueForDesignLearning": "值得继续看 oreo-design-avatar.vercel.app 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 oreo-design-avatar.vercel.app 的信息密度、交互结构和可复用实现线索。",
+            "summary": "@oreo-design/avatar — avatar studio"
           },
           {
             "title": "X status by Mona",
@@ -6633,7 +9742,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Mona 补充了原帖之外的背景：agent avatars inspired by nikita chistilo will be included in oreo-ui",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Mona 补充了原帖之外的背景：agent avatars inspired by nikita chistilo will be included in oreo-ui",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Mona"
           }
         ],
         "learningActions": [
@@ -6667,7 +9777,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Superpowered Design 补充了原帖之外的背景：A curated English-only collection of agent-built design tools for designers, design engineers, and creative technologists.",
             "learningValue": "值得继续看 superpowered.design 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Superpowered Design 补充了原帖之外的背景：A curated English-only collection of agent-built design tools for designers, design engineers, and creative technologists.",
-            "valueForDesignLearning": "值得继续看 superpowered.design 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 superpowered.design 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Superpowered Design"
           }
         ],
         "learningActions": [
@@ -6702,7 +9813,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "LobeHub - Your Chief Agent Operator 补充了原帖之外的背景：The ultimate space for work and life: to find, build, and collaborate with agent teammates that grow with you.",
             "learningValue": "值得继续看 lobehub.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "LobeHub - Your Chief Agent Operator 补充了原帖之外的背景：The ultimate space for work and life: to find, build, and collaborate with agent teammates that grow with you.",
-            "valueForDesignLearning": "值得继续看 lobehub.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 lobehub.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "LobeHub - Your Chief Agent Operator"
           },
           {
             "title": "Sevalla | Ship Production Apps Without Infrastructure",
@@ -6711,7 +9823,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Sevalla | Ship Production Apps Without Infrastructure 补充了原帖之外的背景：Ship production apps without infrastructure overhead. Run applications, databases, storage, and static sites on one platform.",
             "learningValue": "值得继续看 sevalla.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Sevalla | Ship Production Apps Without Infrastructure 补充了原帖之外的背景：Ship production apps without infrastructure overhead. Run applications, databases, storage, and static sites on one platform.",
-            "valueForDesignLearning": "值得继续看 sevalla.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 sevalla.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Sevalla | Ship Production Apps Without Infrastructure"
           },
           {
             "title": "EasyMonitor — Multi-region uptime monitoring you can self-host",
@@ -6720,7 +9833,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "EasyMonitor — Multi-region uptime monitoring you can self-host 补充了原帖之外的背景：Open-source, self-hosted uptime monitoring with multi-region probes and quorum-based alerts. Status pages with custom domains, teams, five alert chan…",
             "learningValue": "值得继续看 easymonitor.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "EasyMonitor — Multi-region uptime monitoring you can self-host 补充了原帖之外的背景：Open-source, self-hosted uptime monitoring with multi-region probes and quorum-based alerts. Status pages with custom domains, teams, five alert chan…",
-            "valueForDesignLearning": "值得继续看 easymonitor.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 easymonitor.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "EasyMonitor — Multi-region uptime monitoring you can self-host"
           },
           {
             "title": "Phosphor Icons",
@@ -6729,7 +9843,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Phosphor Icons 补充了原帖之外的背景：A flexible icon family for interfaces, diagrams, presentations — whatever, really.",
             "learningValue": "值得继续看 phosphoricons.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Phosphor Icons 补充了原帖之外的背景：A flexible icon family for interfaces, diagrams, presentations — whatever, really.",
-            "valueForDesignLearning": "值得继续看 phosphoricons.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 phosphoricons.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Phosphor Icons"
           },
           {
             "title": "60fps - UI/UX animation inspiration for mobile & web apps",
@@ -6738,7 +9853,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "60fps - UI/UX animation inspiration for mobile & web apps 补充了原帖之外的背景：60fps is a curated collection of UI/UX animation and interaction design details from the world’s best iOS, and web apps.",
             "learningValue": "值得继续看 60fps.design 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "60fps - UI/UX animation inspiration for mobile & web apps 补充了原帖之外的背景：60fps is a curated collection of UI/UX animation and interaction design details from the world’s best iOS, and web apps.",
-            "valueForDesignLearning": "值得继续看 60fps.design 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 60fps.design 的信息密度、交互结构和可复用实现线索。",
+            "summary": "60fps - UI/UX animation inspiration for mobile & web apps"
           }
         ],
         "learningActions": [
@@ -6773,7 +9889,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Elena Hu 补充了原帖之外的背景：@Jackywine 老师可以在我们的主页看作品集和其他vibecoding的小玩意儿🙋‍♀️我白天在startup工作晚上vibecoding哈哈哈",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Elena Hu 补充了原帖之外的背景：@Jackywine 老师可以在我们的主页看作品集和其他vibecoding的小玩意儿🙋‍♀️我白天在startup工作晚上vibecoding哈哈哈",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Elena Hu"
           }
         ],
         "learningActions": [
@@ -6907,7 +10024,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Marcel 补充了原帖之外的背景：no one else makes UI this good 😏",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Marcel 补充了原帖之外的背景：no one else makes UI this good 😏",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Marcel"
           }
         ],
         "learningActions": [
@@ -6991,7 +10109,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Dhruv 补充了原帖之外的背景：« My Favourite Design Engineers on X »",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Dhruv 补充了原帖之外的背景：« My Favourite Design Engineers on X »",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Dhruv"
           }
         ],
         "learningActions": [
@@ -7025,7 +10144,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by rico 补充了原帖之外的背景：fun and unused concepts ✨",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by rico 补充了原帖之外的背景：fun and unused concepts ✨",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by rico"
           }
         ],
         "learningActions": [
@@ -7084,7 +10204,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "amir_mushich Official: Instagram, X, Threads | Linktree 补充了原帖之外的背景：Creative director ✦ AI: education for creators & strategy for brands ✦ Ex. Warner Music, PepsiCo, Spotify & more.",
             "learningValue": "值得继续看 linktr.ee 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "amir_mushich Official: Instagram, X, Threads | Linktree 补充了原帖之外的背景：Creative director ✦ AI: education for creators & strategy for brands ✦ Ex. Warner Music, PepsiCo, Spotify & more.",
-            "valueForDesignLearning": "值得继续看 linktr.ee 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 linktr.ee 的信息密度、交互结构和可复用实现线索。",
+            "summary": "amir_mushich Official: Instagram, X, Threads | Linktree"
           }
         ],
         "learningActions": [
@@ -7118,7 +10239,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "The Open Application Network Brand Guidelines - Deck.gallery 补充了原帖之外的背景：The Open Application Network brand guidelines: logo usage, color palettes, iconography, and brand standards. 27 slides.",
             "learningValue": "值得继续看 deck.gallery 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "The Open Application Network Brand Guidelines - Deck.gallery 补充了原帖之外的背景：The Open Application Network brand guidelines: logo usage, color palettes, iconography, and brand standards. 27 slides.",
-            "valueForDesignLearning": "值得继续看 deck.gallery 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 deck.gallery 的信息密度、交互结构和可复用实现线索。",
+            "summary": "The Open Application Network Brand Guidelines - Deck.gallery"
           }
         ],
         "learningActions": [
@@ -7153,7 +10275,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Mona 补充了原帖之外的背景：agent avatars inspired by nikita chistilo will be included in oreo-ui",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Mona 补充了原帖之外的背景：agent avatars inspired by nikita chistilo will be included in oreo-ui",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Mona"
           }
         ],
         "learningActions": [
@@ -7187,7 +10310,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Kinetics — Spring-physics motion for web interfaces 补充了原帖之外的背景：A library of spring-driven micro-interactions for web apps. Copy the CSS or React, tune the physics, ship the motion.",
             "learningValue": "值得继续看 kinetics.colorion.co 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Kinetics — Spring-physics motion for web interfaces 补充了原帖之外的背景：A library of spring-driven micro-interactions for web apps. Copy the CSS or React, tune the physics, ship the motion.",
-            "valueForDesignLearning": "值得继续看 kinetics.colorion.co 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 kinetics.colorion.co 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Kinetics — Spring-physics motion for web interfaces"
           }
         ],
         "learningActions": [
@@ -7222,7 +10346,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "GitHub - MengTo/Skills: Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents · GitHub 补充了原帖之外的背景：Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents - MengTo/Skills",
             "learningValue": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "GitHub - MengTo/Skills: Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents · GitHub 补充了原帖之外的背景：Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents - MengTo/Skills",
-            "valueForDesignLearning": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 github.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "GitHub - MengTo/Skills: Agent skills for designers and builders using Codex, Cl…"
           }
         ],
         "learningActions": [
@@ -7357,7 +10482,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Denys Bondartsov 🇺🇦 补充了原帖之外的背景：a friendly reminder on how we can create metaballs in After Effects using shapes only",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Denys Bondartsov 🇺🇦 补充了原帖之外的背景：a friendly reminder on how we can create metaballs in After Effects using shapes only",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Denys Bondartsov 🇺🇦"
           }
         ],
         "learningActions": [
@@ -7391,7 +10517,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "本轮无法读取该链接，只保留原帖可见上下文，不补充推断。",
             "learningValue": "后续需要手动打开或换登录态复查，暂不把它作为事实依据。",
             "whatItAdds": "本轮无法读取该链接，只保留原帖可见上下文，不补充推断。",
-            "valueForDesignLearning": "后续需要手动打开或换登录态复查，暂不把它作为事实依据。"
+            "valueForDesignLearning": "后续需要手动打开或换登录态复查，暂不把它作为事实依据。",
+            "summary": "figma.com"
           }
         ],
         "learningActions": [
@@ -7474,7 +10601,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "abtest.design 补充了原帖之外的背景：Curated collection of A/B test results from best-in-class apps",
             "learningValue": "值得继续看 abtest.design 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "abtest.design 补充了原帖之外的背景：Curated collection of A/B test results from best-in-class apps",
-            "valueForDesignLearning": "值得继续看 abtest.design 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 abtest.design 的信息密度、交互结构和可复用实现线索。",
+            "summary": "abtest.design"
           }
         ],
         "learningActions": [
@@ -7581,7 +10709,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Tailscale | Secure Connectivity for AI, IoT & Multi-Cloud 补充了原帖之外的背景：The connectivity platform for devs, IT, and security teams. Zero Trust identity-based access that deploys in minutes and scales to every resource. St…",
             "learningValue": "值得继续看 tailscale.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Tailscale | Secure Connectivity for AI, IoT & Multi-Cloud 补充了原帖之外的背景：The connectivity platform for devs, IT, and security teams. Zero Trust identity-based access that deploys in minutes and scales to every resource. St…",
-            "valueForDesignLearning": "值得继续看 tailscale.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 tailscale.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Tailscale | Secure Connectivity for AI, IoT & Multi-Cloud"
           },
           {
             "title": "X status by Lonely",
@@ -7590,7 +10719,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Lonely 补充了原帖之外的背景：🎉太赞了！ Shadowrocket 最新版，支持了Tailscale！ 还要什么自行车🚲 一个字：牛逼👍!",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Lonely 补充了原帖之外的背景：🎉太赞了！ Shadowrocket 最新版，支持了Tailscale！ 还要什么自行车🚲 一个字：牛逼👍!",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Lonely"
           }
         ],
         "learningActions": [
@@ -7699,7 +10829,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Ship Studio — Build it, ship it, host it without leaving the app 补充了原帖之外的背景：A free desktop app that runs on your machine and plugs into the subscriptions, GitHub account, and hosting you already pay for — agent, repo, and dep…",
             "learningValue": "值得继续看 ship.studio 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Ship Studio — Build it, ship it, host it without leaving the app 补充了原帖之外的背景：A free desktop app that runs on your machine and plugs into the subscriptions, GitHub account, and hosting you already pay for — agent, repo, and dep…",
-            "valueForDesignLearning": "值得继续看 ship.studio 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 ship.studio 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Ship Studio — Build it, ship it, host it without leaving the app"
           },
           {
             "title": "Track your Domain Rating - TraceDR",
@@ -7708,7 +10839,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "\n    Track your Domain Rating - TraceDR\n 补充了原帖之外的背景：Monitor Ahrefs Domain Rating history for your domains.",
             "learningValue": "值得继续看 tracedr.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "\n    Track your Domain Rating - TraceDR\n 补充了原帖之外的背景：Monitor Ahrefs Domain Rating history for your domains.",
-            "valueForDesignLearning": "值得继续看 tracedr.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 tracedr.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Track your Domain Rating - TraceDR"
           },
           {
             "title": "eve – The Agent Framework - Vercel",
@@ -7717,7 +10849,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "eve – The Agent Framework - Vercel 补充了原帖之外的背景：Like Next.js for web apps, but for agents. Markdown for instructions and skills, TypeScript for tools. Durable by default.",
             "learningValue": "值得继续看 vercel.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "eve – The Agent Framework - Vercel 补充了原帖之外的背景：Like Next.js for web apps, but for agents. Markdown for instructions and skills, TypeScript for tools. Durable by default.",
-            "valueForDesignLearning": "值得继续看 vercel.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 vercel.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "eve – The Agent Framework - Vercel"
           },
           {
             "title": "devl.dev — UI experiments built on coss-ui",
@@ -7726,7 +10859,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "devl.dev — UI experiments built on coss-ui 补充了原帖之外的背景：Two years of UI experiments. 159+ components built on coss-ui, all on the shadcn registry. Press 'c' on any design to copy the source.",
             "learningValue": "值得继续看 devl.dev 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "devl.dev — UI experiments built on coss-ui 补充了原帖之外的背景：Two years of UI experiments. 159+ components built on coss-ui, all on the shadcn registry. Press 'c' on any design to copy the source.",
-            "valueForDesignLearning": "值得继续看 devl.dev 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 devl.dev 的信息密度、交互结构和可复用实现线索。",
+            "summary": "devl.dev — UI experiments built on coss-ui"
           },
           {
             "title": "Recent — Design Inspiration",
@@ -7735,7 +10869,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Recent — Design Inspiration 补充了原帖之外的背景：The best design inspiration on the Internet.",
             "learningValue": "值得继续看 recent.design 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Recent — Design Inspiration 补充了原帖之外的背景：The best design inspiration on the Internet.",
-            "valueForDesignLearning": "值得继续看 recent.design 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 recent.design 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Recent — Design Inspiration"
           }
         ],
         "learningActions": [
@@ -7770,7 +10905,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "本轮无法读取该链接，只保留原帖可见上下文，不补充推断。",
             "learningValue": "后续需要手动打开或换登录态复查，暂不把它作为事实依据。",
             "whatItAdds": "本轮无法读取该链接，只保留原帖可见上下文，不补充推断。",
-            "valueForDesignLearning": "后续需要手动打开或换登录态复查，暂不把它作为事实依据。"
+            "valueForDesignLearning": "后续需要手动打开或换登录态复查，暂不把它作为事实依据。",
+            "summary": "figma.com"
           }
         ],
         "learningActions": [
@@ -7855,7 +10991,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "AI Mac 小屏幕 — 桌面上的 AI 状态小电脑 补充了原帖之外的背景：AI Mac 小屏幕：一台放在桌上的复古麦金塔小电脑，实时显示 Claude Code / Codex CLI 的工作状态与用量额度。基于 ESP8266，硬件与软件全部开源，桥接 app 同时支持 Windows 和 Mac，支持网页一键刷机。",
             "learningValue": "值得继续看 mac.qust.me 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "AI Mac 小屏幕 — 桌面上的 AI 状态小电脑 补充了原帖之外的背景：AI Mac 小屏幕：一台放在桌上的复古麦金塔小电脑，实时显示 Claude Code / Codex CLI 的工作状态与用量额度。基于 ESP8266，硬件与软件全部开源，桥接 app 同时支持 Windows 和 Mac，支持网页一键刷机。",
-            "valueForDesignLearning": "值得继续看 mac.qust.me 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 mac.qust.me 的信息密度、交互结构和可复用实现线索。",
+            "summary": "AI Mac 小屏幕 — 桌面上的 AI 状态小电脑"
           }
         ],
         "learningActions": [
@@ -7964,7 +11101,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "Klick 补充了原帖之外的背景：A cursor click animation library",
             "learningValue": "值得继续看 klick-here.vercel.app 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "Klick 补充了原帖之外的背景：A cursor click animation library",
-            "valueForDesignLearning": "值得继续看 klick-here.vercel.app 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 klick-here.vercel.app 的信息密度、交互结构和可复用实现线索。",
+            "summary": "Klick"
           }
         ],
         "learningActions": [
@@ -8023,7 +11161,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "zaro.ai 补充了原帖之外的背景：` tags into the same ` ` at runtime, so JS-capable visitors get route-specific values. Source of truth for these values lives in `src/features/websit…",
             "learningValue": "值得继续看 zaro.ai 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "zaro.ai 补充了原帖之外的背景：` tags into the same ` ` at runtime, so JS-capable visitors get route-specific values. Source of truth for these values lives in `src/features/websit…",
-            "valueForDesignLearning": "值得继续看 zaro.ai 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 zaro.ai 的信息密度、交互结构和可复用实现线索。",
+            "summary": "zaro.ai"
           },
           {
             "title": "X status by Zaro.ai",
@@ -8032,7 +11171,8 @@ window.DESIGNER_ANALYSIS = [
             "value": "X status by Zaro.ai 补充了原帖之外的背景：Today, we're excited to launch Zaro. Your knowledge is scattered across Slack threads, email chains, Google Docs, Notion pages, and calendar invites.…",
             "learningValue": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
             "whatItAdds": "X status by Zaro.ai 补充了原帖之外的背景：Today, we're excited to launch Zaro. Your knowledge is scattered across Slack threads, email chains, Google Docs, Notion pages, and calendar invites.…",
-            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。"
+            "valueForDesignLearning": "值得继续看 x.com 的信息密度、交互结构和可复用实现线索。",
+            "summary": "X status by Zaro.ai"
           }
         ],
         "learningActions": [
@@ -8164,7 +11304,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://railgo.dev/",
             "access": "full",
             "value": "RailGo 页面补充了原帖之外的信息：它不是单一车次查询，而是覆盖车次、车站、动车组、图鉴和列车信息屏的铁路信息工具。",
-            "learningValue": "值得继续看信息架构：多入口查询如何变成可复用内容源，以及数据型工具如何保留探索感。"
+            "learningValue": "值得继续看信息架构：多入口查询如何变成可复用内容源，以及数据型工具如何保留探索感。",
+            "summary": "RailGo · 铁路信息查询"
           }
         ],
         "learningActions": [
@@ -8272,7 +11413,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/i/article/2089196584802119680",
             "access": "full",
             "value": "X Article 补充了原帖没有展开的趋势框架：设计工具、AI assistants、项目空间和治理系统正在一起变成 agentic UX surface。",
-            "learningValue": "信息密度高，适合沉淀为 agentic UX checklist，特别是权限、协作和工具调用边界。"
+            "learningValue": "信息密度高，适合沉淀为 agentic UX checklist，特别是权限、协作和工具调用边界。",
+            "summary": "The UX surface is becoming agentic"
           }
         ],
         "learningActions": [
@@ -8430,7 +11572,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://youtu.be/BV0hy6NET-U",
             "access": "unavailable",
             "value": "YouTube 页面在本次浏览器快照中只返回空 root，无法读取正文或转录；当前仅使用原帖可见卡片和 Lenny 的摘要判断链接价值。",
-            "learningValue": "仍值得后续手动观看，因为主题直接对应 AI 时代设计师能力、craft/taste 和 OpenAI 设计流程。"
+            "learningValue": "仍值得后续手动观看，因为主题直接对应 AI 时代设计师能力、craft/taste 和 OpenAI 设计流程。",
+            "summary": "OpenAI’s Head of Design: This is the best time in history to be a product designer"
           }
         ],
         "learningActions": [
@@ -8488,7 +11631,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://arvz.tech/posts/architect-to-builder/",
             "access": "full",
             "value": "文章补充了原帖之外的可执行结构：Architect 只负责研究和计划，Builder 只执行一个批准阶段，并用计划、状态和验证约束减少 Agent 漂移。",
-            "learningValue": "实现参考价值高，可直接改造成个人 Codex/Cursor 任务拆分模板。"
+            "learningValue": "实现参考价值高，可直接改造成个人 Codex/Cursor 任务拆分模板。",
+            "summary": "Architect-to-Builder: a reliable way to ship with agents"
           }
         ],
         "learningActions": [
@@ -8575,7 +11719,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/i/article/2089156068534595584",
             "access": "partial",
             "value": "x.com 补充了原帖之外的页面背景：通过 X/fxtwitter 可见文章标题或预览，完整正文需要登录态页面阅读。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。",
+            "summary": "X Article: 说一个反常识的真相，Agent如今在真实工作场景的成功率依然很低。"
           }
         ],
         "learningActions": [
@@ -8607,7 +11752,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://abduzeedo.com/allo-super-significa-b2b-restaurant-platform-design",
             "access": "full",
             "value": "abduzeedo.com 补充了原帖之外的页面背景：The allO Super significa project is a modular UI/UX design system that simplifies complex front-of-house restaurant operations. For this release, the…",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "allO Super significa: B2B Restaurant Platform Design"
           }
         ],
         "learningActions": [
@@ -8640,7 +11786,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/i/article/2088834358597877760",
             "access": "partial",
             "value": "x.com 补充了原帖之外的页面背景：通过 X/fxtwitter 可见文章标题或预览，完整正文需要登录态页面阅读。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。",
+            "summary": "X Article: Grok Bot for GTM"
           }
         ],
         "learningActions": [
@@ -8696,7 +11843,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/shannholmberg/status/2087539757052285200",
             "access": "partial",
             "value": "x.com 补充了原帖之外的页面背景：识别到引用/跳转原帖，但本地 enrichment 未包含完整正文。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。",
+            "summary": "X status"
           }
         ],
         "learningActions": [
@@ -8779,7 +11927,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.uisdc.com/hunter/0221680653.html",
             "access": "full",
             "value": "uisdc.com 补充了原帖之外的页面背景：很多产品做大模型落地，第一反应都是在顶部堆一个庞大的「AI 总结卡片」，把十几条评论揉成一段工工整整的摘要。大众点评反过来做，直接在真实用户的长评里，用类似荧光笔划线的样式把关键建议标出来。这个改动很轻，但非常聪明。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。",
+            "summary": "为什么大众点评的AI划线设计，比摘要卡片更聪明？ - 优设网 - 学AI设计上优设"
           }
         ],
         "learningActions": [
@@ -8812,7 +11961,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/DashHuang/status/2081231348950315112",
             "access": "partial",
             "value": "x.com 补充了原帖之外的页面背景：识别到引用/跳转原帖，但本地 enrichment 未包含完整正文。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。",
+            "summary": "X status"
           }
         ],
         "learningActions": [
@@ -8845,7 +11995,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/inherent_labs/status/2088290794092298655",
             "access": "partial",
             "value": "x.com 补充了原帖之外的页面背景：识别到引用/跳转原帖，但本地 enrichment 未包含完整正文。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。",
+            "summary": "X status"
           }
         ],
         "learningActions": [
@@ -8877,70 +12028,80 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.figma.com/pt-br/comunidade/skill/61238/better-interface",
             "access": "full",
             "value": "figma.com 补充了原帖之外的页面背景：figma.com 可访问，页面未提供清晰摘要。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "figma.com"
           },
           {
             "title": "figma.com",
             "url": "https://www.figma.com/community/skill/65434/superfuture-design-review",
             "access": "full",
             "value": "figma.com 补充了原帖之外的页面背景：figma.com 可访问，页面未提供清晰摘要。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "figma.com"
           },
           {
             "title": "analyze-components | Figma",
             "url": "https://www.figma.com/community/skill/61009/analyze-components",
             "access": "full",
             "value": "figma.com 补充了原帖之外的页面背景：figma.com 可访问，页面未提供清晰摘要。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "analyze-components | Figma"
           },
           {
             "title": "spacing-audit | Figma",
             "url": "https://www.figma.com/community/skill/70410/spacing-audit",
             "access": "full",
             "value": "figma.com 补充了原帖之外的页面背景：figma.com 可访问，页面未提供清晰摘要。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "spacing-audit | Figma"
           },
           {
             "title": "component-handoff | Figma",
             "url": "https://www.figma.com/community/skill/67998/component-handoff",
             "access": "full",
             "value": "figma.com 补充了原帖之外的页面背景：figma.com 可访问，页面未提供清晰摘要。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "component-handoff | Figma"
           },
           {
             "title": "desktop-to-mobile | Figma",
             "url": "https://www.figma.com/community/skill/72495/desktop-to-mobile",
             "access": "full",
             "value": "figma.com 补充了原帖之外的页面背景：figma.com 可访问，页面未提供清晰摘要。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "desktop-to-mobile | Figma"
           },
           {
             "title": "figma.com",
             "url": "https://figma.com/community/skill/71321/create-anatomy",
             "access": "full",
             "value": "figma.com 补充了原帖之外的页面背景：figma.com 可访问，页面未提供清晰摘要。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "figma.com"
           },
           {
             "title": "figma.com",
             "url": "https://figma.com/community/skill/68151/find-animation-opportunities",
             "access": "full",
             "value": "figma.com 补充了原帖之外的页面背景：figma.com 可访问，页面未提供清晰摘要。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "figma.com"
           },
           {
             "title": "figma.com",
             "url": "https://figma.com/community/skill/64048/balise-ux-writing",
             "access": "full",
             "value": "figma.com 补充了原帖之外的页面背景：figma.com 可访问，页面未提供清晰摘要。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "figma.com"
           },
           {
             "title": "figma.com",
             "url": "https://figma.com/community/skill/65614/design-system-gen",
             "access": "full",
             "value": "figma.com 补充了原帖之外的页面背景：figma.com 可访问，页面未提供清晰摘要。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "figma.com"
           }
         ],
         "learningActions": [
@@ -8973,7 +12134,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.minoradventures.co/blog/the-making-of-cursors-icons",
             "access": "full",
             "value": "minoradventures.co 补充了原帖之外的页面背景：A year of drawing, testing, and shipping a complete icon system for the world&#x27;s favourite coding agent.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "The Making of Cursor&#x27;s Icons – Minor Adventures"
           }
         ],
         "learningActions": [
@@ -9031,7 +12193,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/deepseek_ai/status/2087887408440164663",
             "access": "partial",
             "value": "x.com 补充了原帖之外的页面背景：识别到引用/跳转原帖，但本地 enrichment 未包含完整正文。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "X status"
           }
         ],
         "learningActions": [
@@ -9063,14 +12226,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/semantica-agi/semantica",
             "access": "full",
             "value": "github.com 补充了原帖之外的页面背景：Graph-Native Infrastructure for Context and Accountable AI Systems - semantica-agi/semantica",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。",
+            "summary": "GitHub - semantica-agi/semantica: Graph-Native Infrastructure for Context and A…"
           },
           {
             "title": "X status",
             "url": "https://x.com/N01ennn/status/2088585405641679281",
             "access": "partial",
             "value": "x.com 补充了原帖之外的页面背景：识别到引用/跳转原帖，但本地 enrichment 未包含完整正文。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。",
+            "summary": "X status"
           }
         ],
         "learningActions": [
@@ -9103,7 +12268,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://zenn.dev/kurupical/articles/61dbeedf89a29d",
             "access": "full",
             "value": "zenn.dev 补充了原帖之外的页面背景：zenn.dev 可访问，页面未提供清晰摘要。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "kaggle Lux AI Season 3 強化学習ソリューションまとめ＋振り返り"
           }
         ],
         "learningActions": [
@@ -9161,7 +12327,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://spacegrid.ai/",
             "access": "full",
             "value": "spacegrid.ai 补充了原帖之外的页面背景：Space Grid AI is a 4D digital twin for shipyards and dry docks — put every vessel, lift, and piece of equipment in the right place at the right time,…",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。",
+            "summary": "Space Grid AI, Predictive Space Planning for Shipyards"
           }
         ],
         "learningActions": [
@@ -9194,7 +12361,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/dexteryy/status/2085767151596773501",
             "access": "partial",
             "value": "x.com 补充了原帖之外的页面背景：识别到引用/跳转原帖，但本地 enrichment 未包含完整正文。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "X status"
           }
         ],
         "learningActions": [
@@ -9277,7 +12445,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/dotey/status/2088282286529618286",
             "access": "partial",
             "value": "x.com 补充了原帖之外的页面背景：识别到引用/跳转原帖，但本地 enrichment 未包含完整正文。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。",
+            "summary": "X status"
           }
         ],
         "learningActions": [
@@ -9309,7 +12478,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/GoogleDesign/status/2087195277094695096",
             "access": "partial",
             "value": "x.com 补充了原帖之外的页面背景：识别到引用/跳转原帖，但本地 enrichment 未包含完整正文。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。",
+            "summary": "X status"
           }
         ],
         "learningActions": [
@@ -9417,7 +12587,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.minoradventures.co/blog/the-making-of-cursors-icons",
             "access": "full",
             "value": "minoradventures.co 补充了原帖之外的页面背景：A year of drawing, testing, and shipping a complete icon system for the world&#x27;s favourite coding agent.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "The Making of Cursor&#x27;s Icons – Minor Adventures"
           }
         ],
         "learningActions": [
@@ -9449,14 +12620,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.minoradventures.co/blog/the-making-of-cursors-icons",
             "access": "full",
             "value": "minoradventures.co 补充了原帖之外的页面背景：A year of drawing, testing, and shipping a complete icon system for the world&#x27;s favourite coding agent.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "The Making of Cursor&#x27;s Icons – Minor Adventures"
           },
           {
             "title": "X: Marek Minor",
             "url": "https://x.com/MarekMinor/status/2087939423824454058",
             "access": "full",
             "value": "x.com 补充了原帖之外的页面背景：I wrote an in-depth article on how I made @cursor_ai’s icons. Read it if you want to know: - How to keep 600+ icons consistent - Why I made optical a…",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "X: Marek Minor"
           }
         ],
         "learningActions": [
@@ -9514,7 +12687,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.raphaelsalaja.com/library/12-principles-of-animation",
             "access": "full",
             "value": "raphaelsalaja.com 补充了原帖之外的页面背景：A guide to the foundational principles of animation, from squash and stretch to timing and exaggeration, and how they can be applied to create more e…",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「动效 / 视觉表达」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「动效 / 视觉表达」相关。",
+            "summary": "12 Principles of Animation"
           }
         ],
         "learningActions": [
@@ -9747,7 +12921,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://cavalry.studio/en/",
             "access": "full",
             "value": "cavalry.studio 补充了原帖之外的页面背景：Download Cavalry free on Mac or Windows. Real-time 2D animation, motion design, and data-driven workflows - built for animators and motion designers.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。",
+            "summary": "Free 2D animation &amp; motion graphics software for Mac and Windows | Cavalry"
           }
         ],
         "learningActions": [
@@ -9805,7 +12980,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://styles.refero.design/",
             "access": "full",
             "value": "styles.refero.design 补充了原帖之外的页面背景：Browse a curated DESIGN.md library for AI agents: colors, typography, spacing, components, and design rules from leading product websites.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "DESIGN.md Examples for AI Agents | Refero Styles"
           }
         ],
         "learningActions": [
@@ -9838,7 +13014,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/claudeai/status/2045156267690213649",
             "access": "partial",
             "value": "x.com 补充了原帖之外的页面背景：识别到引用/跳转原帖，但本地 enrichment 未包含完整正文。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "X status"
           }
         ],
         "learningActions": [
@@ -10245,7 +13422,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://orbs.jakubantalik.com/",
             "access": "full",
             "value": "orbs.jakubantalik.com 补充了原帖之外的页面背景：Dotted thought-orb loading indicators for AI and agent UIs. Nine hand-tuned states, two sizes, auto dark/light theme.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "Thinking orbs — Animated thinking orb component"
           }
         ],
         "learningActions": [
@@ -10327,7 +13505,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://aside.com/",
             "access": "full",
             "value": "aside.com 补充了原帖之外的页面背景：A browser that gets complex work done across your websites, accounts, and history.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「动效 / 视觉表达」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「动效 / 视觉表达」相关。",
+            "summary": "Aside | The browser built to do real work for you"
           }
         ],
         "learningActions": [
@@ -10585,7 +13764,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://aave.com/design/building-glass-for-the-web",
             "access": "full",
             "value": "aave.com 补充了原帖之外的页面背景：How we built a cross-browser glass effect for the web, and how it shapes a family of components.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "Building Glass for the Web"
           }
         ],
         "learningActions": [
@@ -10717,7 +13897,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/bozhouDev/codex-orange-book",
             "access": "full",
             "value": "github.com 补充了原帖之外的页面背景：Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）. Contribute to bozhouDev/codex-orange-book development by creating an account on GitHub.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。",
+            "summary": "GitHub - bozhouDev/codex-orange-book: Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含…"
           }
         ],
         "learningActions": [
@@ -10750,7 +13931,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "http://www.ui-skills.com/",
             "access": "full",
             "value": "ui-skills.com 补充了原帖之外的页面背景：UI Skills is a collection of design-engineering skills for accessibility, motion, frontend craft, and interface quality.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "UI Skills for Design Engineers | UI Skills"
           }
         ],
         "learningActions": [
@@ -10858,14 +14040,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://loops.elorm.xyz/",
             "access": "full",
             "value": "loops.elorm.xyz 补充了原帖之外的页面背景：Copy closed-loop workflows for Cursor, Claude Code, and other coding agents. Self-pacing loops with feedback gates until the job is done.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。",
+            "summary": "loops! | Pre-built agent loops"
           },
           {
             "title": "X status",
             "url": "https://x.com/angeldot_/status/2065145486890164524",
             "access": "partial",
             "value": "x.com 补充了原帖之外的页面背景：识别到引用/跳转原帖，但本地 enrichment 未包含完整正文。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。",
+            "summary": "X status"
           }
         ],
         "learningActions": [
@@ -10898,7 +14082,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/tw93/kami",
             "access": "full",
             "value": "github.com 补充了原帖之外的页面背景：👩‍🚒 Good content deserves good paper. Contribute to tw93/Kami development by creating an account on GitHub.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "GitHub - tw93/Kami: 👩‍🚒 Good content deserves good paper. · GitHub"
           }
         ],
         "learningActions": [
@@ -10956,7 +14141,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.figma.com/login",
             "access": "full",
             "value": "figma.com 补充了原帖之外的页面背景：config.new 可访问，页面未提供清晰摘要。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。",
+            "summary": "Login | Figma"
           }
         ],
         "learningActions": [
@@ -10989,7 +14175,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/anthropics/skills",
             "access": "full",
             "value": "github.com 补充了原帖之外的页面背景：Public repository for Agent Skills. Contribute to anthropics/skills development by creating an account on GitHub.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "GitHub - anthropics/skills: Public repository for Agent Skills · GitHub"
           }
         ],
         "learningActions": [
@@ -11072,7 +14259,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/Leonxlnx/taste-skill",
             "access": "full",
             "value": "github.com 补充了原帖之外的页面背景：Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop - GitHub - Leonxlnx/taste-skill: Taste-Skill - gives your A…",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。",
+            "summary": "GitHub - Leonxlnx/taste-skill: Taste-Skill - gives your AI good taste. stops th…"
           }
         ],
         "learningActions": [
@@ -11129,7 +14317,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://pica.joshpuckett.me/",
             "access": "full",
             "value": "pica.joshpuckett.me 补充了原帖之外的页面背景：A better way to manage your fonts",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "Pica, a MacOS font management app"
           }
         ],
         "learningActions": [
@@ -11162,7 +14351,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://fonts.google.com/specimen/Playwrite+TZ",
             "access": "full",
             "value": "fonts.google.com 补充了原帖之外的页面背景：fonts.google.com 可访问，页面未提供清晰摘要。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "Playwrite Tanzania - Google Fonts"
           }
         ],
         "learningActions": [
@@ -11245,7 +14435,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.interfacecraft.dev/",
             "access": "full",
             "value": "interfacecraft.dev 补充了原帖之外的页面背景：A working library for those committed to designing with uncommon care.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "Interface Craft: a working library for those committed to designing with uncomm…"
           }
         ],
         "learningActions": [
@@ -11303,42 +14494,48 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://impeccable.style/",
             "access": "full",
             "value": "impeccable.style 补充了原帖之外的页面背景：1 skill, 23 commands, and curated anti-patterns for impeccable frontend design. Works with Cursor, Claude Code, GitHub Copilot, Gemini CLI, and Codex…",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "Impeccable: The missing design vocabulary for agents"
           },
           {
             "title": "UI Skills for Design Engineers | UI Skills",
             "url": "https://www.ui-skills.com/",
             "access": "full",
             "value": "ui-skills.com 补充了原帖之外的页面背景：UI Skills is a collection of design-engineering skills for accessibility, motion, frontend craft, and interface quality.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "UI Skills for Design Engineers | UI Skills"
           },
           {
             "title": "GitHub - Leonxlnx/taste-skill: Taste-Skill - gives your AI good taste. stops th…",
             "url": "https://github.com/Leonxlnx/taste-skill",
             "access": "full",
             "value": "github.com 补充了原帖之外的页面背景：Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop - GitHub - Leonxlnx/taste-skill: Taste-Skill - gives your A…",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "GitHub - Leonxlnx/taste-skill: Taste-Skill - gives your AI good taste. stops th…"
           },
           {
             "title": "GitHub - better-auth/better-icons: Skill and MCP server for searching and retri…",
             "url": "https://github.com/better-auth/better-icons",
             "access": "full",
             "value": "github.com 补充了原帖之外的页面背景：Skill and MCP server for searching and retrieving icons - better-auth/better-icons",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "GitHub - better-auth/better-icons: Skill and MCP server for searching and retri…"
           },
           {
             "title": "GitHub - carmahhawwari/ui-design-brain: A Cursor skill that gives AI agents rea…",
             "url": "https://github.com/carmahhawwari/ui-design-brain",
             "access": "full",
             "value": "github.com 补充了原帖之外的页面背景：A Cursor skill that gives AI agents real UI component knowledge — best practices, layout patterns, and design-system conventions for 60+ interface co…",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "GitHub - carmahhawwari/ui-design-brain: A Cursor skill that gives AI agents rea…"
           },
           {
             "title": "Motion AI Kit. MotionScore for Agents, current docs and CSS springs | Motion fo…",
             "url": "https://motion.dev/docs/ai-kit",
             "access": "full",
             "value": "motion.dev 补充了原帖之外的页面背景：Give your coding agent current Motion knowledge, MotionScore for Agents, premium examples, CSS spring generation and a transition editor.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「设计系统 / 设计工程」相关。",
+            "summary": "Motion AI Kit. MotionScore for Agents, current docs and CSS springs | Motion fo…"
           }
         ],
         "learningActions": [
@@ -11395,7 +14592,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://zed.dev/blog/zed-1-0",
             "access": "full",
             "value": "zed.dev 补充了原帖之外的页面背景：From the Zed Blog: The editor we set out to build is now 1.0.",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「个人收藏偏好」相关。",
+            "summary": "Zed is 1.0 — Zed&#x27;s Blog"
           }
         ],
         "learningActions": [
@@ -11453,14 +14651,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/multica-ai/andrej-karpathy-skills",
             "access": "full",
             "value": "github.com 补充了原帖之外的页面背景：A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy&#39;s observations on LLM coding pitfalls. - multica-ai/andrej-…",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。",
+            "summary": "GitHub - multica-ai/andrej-karpathy-skills: A single CLAUDE.md file to improve …"
           },
           {
             "title": "X status",
             "url": "https://x.com/Saccc_c/status/2058396860784505295",
             "access": "partial",
             "value": "x.com 补充了原帖之外的页面背景：识别到引用/跳转原帖，但本地 enrichment 未包含完整正文。",
-            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。"
+            "learningValue": "用于判断这条内容是否值得继续读：信息密度、可复用方法和实现参考价值与「AI Agent 工作流」相关。",
+            "summary": "X status"
           }
         ],
         "learningActions": [
@@ -11514,14 +14714,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/vista8/article/2088882495437812193",
             "access": "full",
             "value": "文章补充了 DSH 的安装入口、Node.js 运行时、一切皆插件理念、上千插件仓库、热门插件和 B 站 UP 主贡献者线索，信息量高于原帖摘要。",
-            "learningValue": "值得继续拆 Agent 平台如何设计插件分发、创作者激励、安装说明和社区展示。"
+            "learningValue": "值得继续拆 Agent 平台如何设计插件分发、创作者激励、安装说明和社区展示。",
+            "summary": "X Article: DeepSeek Harness 插件生态观察"
           },
           {
             "title": "GitHub: celebrity-naval skill",
             "url": "https://github.com/joeseesun/celebrity-naval",
             "access": "full",
             "value": "README 说明这是把 Naval Ravikant 心智模型蒸馏成可安装 Agent Skill 的仓库，包含安装命令、6 个模型、10 条决策规则和 agentic protocol。",
-            "learningValue": "适合作为“人物方法论变成可执行 Skill”的结构参考。"
+            "learningValue": "适合作为“人物方法论变成可执行 Skill”的结构参考。",
+            "summary": "GitHub: celebrity-naval skill"
           }
         ],
         "learningActions": [
@@ -11554,7 +14756,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://today.ai/",
             "access": "full",
             "value": "页面可读，定位为“懂你所想，为你先行的 AI 助理”，提供下载和登录入口，但公开信息偏少。",
-            "learningValue": "适合观察 ToC AI 助理首屏如何用情感承诺包装能力，同时需要进一步进入产品验证真实工作流。"
+            "learningValue": "适合观察 ToC AI 助理首屏如何用情感承诺包装能力，同时需要进一步进入产品验证真实工作流。",
+            "summary": "Product page: Today AI"
           }
         ],
         "learningActions": [
@@ -11587,7 +14790,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/ClaudeDevs/status/2088014831605702937",
             "access": "full",
             "value": "引用帖来自 ClaudeDevs，明确 auto-continue checkbox 会在 usage limit reset 后自动继续，并附有官方演示视频。",
-            "learningValue": "可拆成长任务状态、额度等待、自动恢复和用户可控开关的交互模式。"
+            "learningValue": "可拆成长任务状态、额度等待、自动恢复和用户可控开关的交互模式。",
+            "summary": "Quoted X: ClaudeDevs auto-continue"
           }
         ],
         "learningActions": [
@@ -11620,14 +14824,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://drawably-site.pages.dev/",
             "access": "full",
             "value": "页面显示 hand-drawn UI controls、npm install、React 组件和复制 agent.md 等入口，能直接看到控件视觉和安装路径。",
-            "learningValue": "适合拆小型设计库的首屏 demo、安装摩擦和“风格即功能”的展示方式。"
+            "learningValue": "适合拆小型设计库的首屏 demo、安装摩擦和“风格即功能”的展示方式。",
+            "summary": "Product page: Drawably"
           },
           {
             "title": "GitHub: drawably",
             "url": "https://github.com/Danilaa1/drawably",
             "access": "full",
             "value": "README 说明 Drawably 零依赖、约 4KB、每次 mount 生成新笔触，并提供按钮 loading/error/success 状态机和 checkbox/radio/toggle 接口。",
-            "learningValue": "可复用为轻量视觉系统如何同时覆盖状态、API 和 React 封装的样板。"
+            "learningValue": "可复用为轻量视觉系统如何同时覆盖状态、API 和 React 封装的样板。",
+            "summary": "GitHub: drawably"
           }
         ],
         "learningActions": [
@@ -11760,14 +14966,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/ye_combinator/status/2088169906915393782",
             "access": "full",
             "value": "引用帖解释 CAKE 的核心设计赌注：编译器不是 Agent 调用的黑箱，而是 harness 中一起进化的对象。",
-            "learningValue": "适合把“工具给 Agent 用”升级为“工具和 Agent 共同设计”的方法论案例。"
+            "learningValue": "适合把“工具给 Agent 用”升级为“工具和 Agent 共同设计”的方法论案例。",
+            "summary": "Quoted X: CAKE paper thread"
           },
           {
             "title": "arXiv: CAKE paper",
             "url": "https://arxiv.org/abs/2608.12629",
             "access": "full",
             "value": "arXiv 摘要说明 CAKE IR 暴露 warp role、memory movement、sync、pipeline，并把反复失败转成 verifier rules、IR primitives、calibration 和 reusable tactics。",
-            "learningValue": "适合继续读论文中的诊断接口、约束语言和 benchmark 设计，迁移到设计工程工具评估。"
+            "learningValue": "适合继续读论文中的诊断接口、约束语言和 benchmark 设计，迁移到设计工程工具评估。",
+            "summary": "arXiv: CAKE paper"
           }
         ],
         "learningActions": [
@@ -11800,14 +15008,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://tympanus.net/codrops/2026/08/15/inside-haoqi-design-letting-dom-and-webgl-share-a-retro-futurist-stage/",
             "access": "full",
             "value": "文章详细解释 DOM 与 WebGL 同帧滚动、Lenis/R3F frame loop、ScrollBus、glass shader、refraction 和 performance conscious effects。",
-            "learningValue": "适合做成作品集动效的实现拆解清单：滚动源、渲染循环、shader 负载和 DOM 排版边界。"
+            "learningValue": "适合做成作品集动效的实现拆解清单：滚动源、渲染循环、shader 负载和 DOM 排版边界。",
+            "summary": "Codrops: HAOQI.DESIGN technical case study"
           },
           {
             "title": "Quoted X: Codrops original post",
             "url": "https://x.com/codrops/status/2088623450910781941",
             "access": "full",
             "value": "Codrops 原帖概括了 iMac G3 灵感、DOM/WebGL 同步、custom shaders、refraction、pointer interaction 和性能意识。",
-            "learningValue": "适合学习如何把技术文章包装成一个周末可读的设计工程案例。"
+            "learningValue": "适合学习如何把技术文章包装成一个周末可读的设计工程案例。",
+            "summary": "Quoted X: Codrops original post"
           }
         ],
         "learningActions": [
@@ -11861,14 +15071,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://iso-city.com",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 iso-city.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: ISOCITY — Metropolis Builder"
           },
           {
             "title": "产品/演示页: Metropolis",
             "url": "https://metropolis-ten-gamma.vercel.app",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 metropolis-ten-gamma.vercel.app 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: Metropolis"
           }
         ],
         "learningActions": [
@@ -11901,7 +15113,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "http://video.play",
             "access": "unavailable",
             "value": "链接当前不可访问或被拦截，只保留原帖可见证据，不编造页面内容。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "页面: video.play"
           }
         ],
         "learningActions": [
@@ -11934,7 +15147,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://drawably-site.pages.dev/",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 drawably-site.pages.dev 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: drawably — hand-drawn UI controls"
           }
         ],
         "learningActions": [
@@ -11967,7 +15181,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://sv-table.vercel.app/blocks",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 sv-table.vercel.app 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: Svelte Data Table Blocks | Svelte Datatables Examples"
           }
         ],
         "learningActions": [
@@ -12025,7 +15240,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.zuoluo.tv",
             "access": "partial",
             "value": "链接只能部分读取，仍能确认它指向 x.zuoluo.tv，但需要人工打开核对完整内容。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "页面: Make X Great Again · 少看垃圾，多看人话"
           }
         ],
         "learningActions": [
@@ -12083,7 +15299,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://9to5mac.com/2026/08/15/indie-app-spotlight-notepad-exe-is-an-ultra-fast-lightweight-code-editor-for-your-mac/",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 9to5mac.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: Indie App Spotlight: ‘Notepad.exe’ is an ultra-fast, lightweight code editor for your Mac - 9to5Mac"
           }
         ],
         "learningActions": [
@@ -12116,7 +15333,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://freebuff.com/?ref=ref-13a730df-3c06-4496-93a9-8eac58556d65",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 freebuff.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: Freebuff — the free coding agent (free Claude Code, Codex, Cursor &amp; Lovable alternative)"
           }
         ],
         "learningActions": [
@@ -12249,7 +15467,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://inspira-ui.com",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 inspira-ui.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: inspira-ui.com"
           }
         ],
         "learningActions": [
@@ -12282,7 +15501,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/shynloc/acks-dsh-plugins",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 github.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续读源码、README、issue 和实现边界。"
+            "learningValue": "适合继续读源码、README、issue 和实现边界。",
+            "summary": "GitHub 仓库: GitHub - shynloc/acks-dsh-plugins: ACKS DeepSeek Harness 插件库 — AI Agent / Creative / Knowledge / Service 四类插件"
           }
         ],
         "learningActions": [
@@ -12365,28 +15585,32 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://roastify.tollbooth-dpyc.com/welcome",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 roastify.tollbooth-dpyc.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: Roastify Design Bench — manage a whole coffee line at once"
           },
           {
             "title": "产品/演示页: Roastify | Private Label Coffee",
             "url": "http://merchant.roastify.app",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 merchant.roastify.app 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: Roastify | Private Label Coffee"
           },
           {
             "title": "GitHub 仓库: GitHub - lonniev/tollbooth-dpyc: Don&#39;t Pester Your Customer (DPYC) — Bitcoin Lightning micropayments for ",
             "url": "http://github.com/lonniev/tollbooth-dpyc",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 github.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续读源码、README、issue 和实现边界。"
+            "learningValue": "适合继续读源码、README、issue 和实现边界。",
+            "summary": "GitHub 仓库: GitHub - lonniev/tollbooth-dpyc: Don&#39;t Pester Your Customer (DPYC) — Bitcoin Lightning micropayments for "
           },
           {
             "title": "产品/演示页: Tollbooth DPYC™ — MCP Monetization for Bitcoin Entrepreneurs",
             "url": "http://tollbooth-dpyc.com",
             "access": "partial",
             "value": "链接只能部分读取，仍能确认它指向 tollbooth-dpyc.com，但需要人工打开核对完整内容。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: Tollbooth DPYC™ — MCP Monetization for Bitcoin Entrepreneurs"
           }
         ],
         "learningActions": [
@@ -12444,7 +15668,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://visualwizard.app",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 visualwizard.app 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: Visual Wizard — Design on working prototypes"
           }
         ],
         "learningActions": [
@@ -13602,7 +16827,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://orbs.jakubantalik.com/",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 orbs.jakubantalik.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: Thinking orbs — Animated thinking orb component"
           }
         ],
         "learningActions": [
@@ -13660,7 +16886,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/pablostanley/yoinks",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 github.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续读源码、README、issue 和实现边界。"
+            "learningValue": "适合继续读源码、README、issue 和实现边界。",
+            "summary": "GitHub 仓库: GitHub - pablostanley/yoinks: yoink any video from your terminal. no shady ads. · GitHub"
           }
         ],
         "learningActions": [
@@ -13768,7 +16995,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/LiamGvchi/gc-minimal-zine-poster",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 github.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续读源码、README、issue 和实现边界。"
+            "learningValue": "适合继续读源码、README、issue 和实现边界。",
+            "summary": "GitHub 仓库: GitHub - LiamGvchi/gc-minimal-zine-poster: Codex skill for generating quiet minimal zine-style editorial post"
           }
         ],
         "learningActions": [
@@ -13851,7 +17079,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://bestdesignsonx.com",
             "access": "partial",
             "value": "链接只能部分读取，仍能确认它指向 bestdesignsonx.com，但需要人工打开核对完整内容。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: Best Designs On X.com"
           }
         ],
         "learningActions": [
@@ -14084,7 +17313,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/apple/container",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 github.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续读源码、README、issue 和实现边界。"
+            "learningValue": "适合继续读源码、README、issue 和实现边界。",
+            "summary": "GitHub 仓库: GitHub - apple/container: A tool for creating and running Linux containers using lightweight virtual machines"
           }
         ],
         "learningActions": [
@@ -14317,21 +17547,24 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/GiMi-Xiaomi/gimi-illustration-skill",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 github.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续读源码、README、issue 和实现边界。"
+            "learningValue": "适合继续读源码、README、issue 和实现边界。",
+            "summary": "GitHub 仓库: GitHub - GiMi-Xiaomi/gimi-illustration-skill: 文章/口播配图 skill ，支持自定义 IP、调尺寸、配置标题、换风格 · GitHub"
           },
           {
             "title": "GitHub 仓库: GitHub - okooo5km/5km-littlebox-illustrations: Closed-only hand-drawn Littlebox article illustration Codex Sk",
             "url": "https://github.com/okooo5km/5km-littlebox-illustrations",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 github.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续读源码、README、issue 和实现边界。"
+            "learningValue": "适合继续读源码、README、issue 和实现边界。",
+            "summary": "GitHub 仓库: GitHub - okooo5km/5km-littlebox-illustrations: Closed-only hand-drawn Littlebox article illustration Codex Sk"
           },
           {
             "title": "GitHub 仓库: GitHub - helloianneo/ian-xiaohei-illustrations: 中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill · GitH",
             "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
             "access": "full",
             "value": "链接可读，补充了原帖之外的 github.com 页面上下文，可用来判断产品定位、实现方式或展示细节。",
-            "learningValue": "适合继续读源码、README、issue 和实现边界。"
+            "learningValue": "适合继续读源码、README、issue 和实现边界。",
+            "summary": "GitHub 仓库: GitHub - helloianneo/ian-xiaohei-illustrations: 中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill · GitH"
           }
         ],
         "learningActions": [
@@ -14389,7 +17622,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "http://matthewyu.dev",
             "access": "unavailable",
             "value": "链接当前不可访问或被拦截，只保留原帖可见证据，不编造页面内容。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: matthewyu.dev"
           }
         ],
         "learningActions": [
@@ -14522,7 +17756,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://zest-chopper-a30.notion.site/Glyphica-32609a1767cc807a9543c216f4576195?source=copy_link",
             "access": "partial",
             "value": "链接只能部分读取，仍能确认它指向 zest-chopper-a30.notion.site，但需要人工打开核对完整内容。",
-            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。"
+            "learningValue": "适合继续拆信息架构、首屏承诺、定价/CTA 和 demo 可信度。",
+            "summary": "产品/演示页: Notion"
           }
         ],
         "learningActions": [
@@ -14626,7 +17861,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/WangBenson6541/status/2088059987855810983",
             "access": "full",
             "value": "引用帖补充了上下文：昨晚DeepSeek Harness 发布了 我们把官方 DeepSeek Harness 打包成了一个开箱即用的桌面应用 不需要安装 Node.js，也不用再通过命令行启动 目前支持： macOS Apple Silicon Window",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @WangBenson6541"
           }
         ],
         "learningActions": [
@@ -14659,7 +17895,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/kevinma_dev_zh/status/2088171980571001338",
             "access": "full",
             "value": "引用帖补充了上下文：说真的, @mattpocockuk 的 grill-me，应该是我使用频率最高，同时也觉得最有用的 Skill 之一。 我在做产品和技术设计时，经常会用它来帮我检查，还有哪些地方没有真正想清楚。 很多时候，大的交互框架、产品流程和技术方向",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @kevinma_dev_zh"
           }
         ],
         "learningActions": [
@@ -14717,7 +17954,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.inspora.design/",
             "access": "unavailable",
             "value": "本轮无法完整读取：页面返回访问验证或限流，无法完整读取。。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。",
+            "summary": "Vercel Security Checkpoint"
           }
         ],
         "learningActions": [
@@ -14775,7 +18013,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/Atomthecreator/status/2087609828042551741",
             "access": "full",
             "value": "引用帖补充了上下文：Work in progress 🚧 https://t.co/qIkmKDb30g",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @Atomthecreator"
           }
         ],
         "learningActions": [
@@ -14808,7 +18047,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/op7418/status/2088172365750645091",
             "access": "full",
             "value": "引用帖补充了上下文：Twitter 完全开源了他们的推荐算法 用 Codex 分析了一下，感觉跟以前我们的认知还是有不少变化的。 总结了六条创作者应该做的事情： 1. 应该做值得转发的原创内容。 2. 尽量少用首贴写钩子，把重要内容放在第二条推串里这种发帖形式",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @op7418"
           }
         ],
         "learningActions": [
@@ -14841,7 +18081,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://learn.chatgpt.com/docs/customization/computer-history",
             "access": "full",
             "value": "页面提供原帖外的信息：Turn recent computer activity into memories and a timeline that ChatGPT and Codex can use.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Computer History | ChatGPT Learn"
           }
         ],
         "learningActions": [
@@ -14924,7 +18165,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/adamhfry/status/2088349344248537250",
             "access": "full",
             "value": "引用帖补充了上下文：This week's ChatGPT feature drop - Aug 14: 1/ Quizzes - \"Quiz me on [topic]\" will now automatically generate quizzes rig",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @adamhfry"
           }
         ],
         "learningActions": [
@@ -14982,7 +18224,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.anthropic.com/news/claude-text-watermark",
             "access": "full",
             "value": "页面提供原帖外的信息：Future Claude models will generate text that contains a watermark. This is a way of determining the likelihood that Claude was involved in w",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "How Claude&#x27;s text watermarking works \\ Anthropic"
           }
         ],
         "learningActions": [
@@ -15141,7 +18384,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://abduzeedo.com/minimalist-branding-antix-digital-product-identity",
             "access": "full",
             "value": "页面提供原帖外的信息：Antix launches a refined digital ecosystem with strategic branding, combining monochrome packaging designed by Antix Studio. Creative studio",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Minimalist Branding for Antix Digital Product Identity"
           }
         ],
         "learningActions": [
@@ -15175,7 +18419,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://shadcn.com/copper",
             "access": "full",
             "value": "页面提供原帖外的信息：The useful parts of a to-do list, a clipboard, and a scratchpad in one app built for AI-assisted work. Capture with a keystroke, copy it bac",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Copper | shadcn"
           }
         ],
         "learningActions": [
@@ -15235,7 +18480,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.usehallmark.com/",
             "access": "full",
             "value": "页面提供原帖外的信息：Hallmark is a design skill for AI coding assistants. It encodes the anti-AI-slop consensus — typography, colour, layout, motion, interaction",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Hallmark — A design skill that refuses to look AI-generated"
           }
         ],
         "learningActions": [
@@ -15269,14 +18515,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.framer.com/",
             "access": "full",
             "value": "页面提供原帖外的信息：Go from idea to launch with an agent that designs and builds on the canvas. Keep each change editable, with hosting, security, analytics, CM",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Framer: AI design agent"
           },
           {
             "title": "ParticleLife — Living Nature Particle Animations",
             "url": "https://marinabudarina.github.io/particlelife/",
             "access": "full",
             "value": "页面提供原帖外的信息：Immersive nature-inspired particle simulations — swim with fish, flutter with butterflies, flock with birds, glow with fireflies, and drift ",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "ParticleLife — Living Nature Particle Animations"
           }
         ],
         "learningActions": [
@@ -15310,7 +18558,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.youtube.com/watch?v=oFSLN5TTrY4&feature=youtu.be",
             "access": "full",
             "value": "页面提供原帖外的信息：Hello Guys 🖐🖐🖐In this video, I’ll demonstrate how to recreate the X/Twitter App's New Swipeable Tab bar using SwiftUI | Scrollable Tabs S",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "X App's New Scrollable Tabbar Using SwiftUI | Swipeable Tabs | Xcode 27 - YouTube"
           }
         ],
         "learningActions": [
@@ -15369,7 +18618,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://superwhisper.com/blog/cohere",
             "access": "full",
             "value": "页面提供原帖外的信息：Superwhisper has partnered with Cohere to bring Cohere Transcribe to local dictation: a 2B open-source speech model with a 5.35% average wor",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Superwhisper partners with Cohere to bring Transcribe to local dictation"
           }
         ],
         "learningActions": [
@@ -15403,7 +18653,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/criscxuan/status/2081724369634730479",
             "access": "full",
             "value": "引用帖补充了上下文：https://t.co/XkFDa4RNA2",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @criscxuan"
           }
         ],
         "learningActions": [
@@ -15463,7 +18714,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://the-brandidentity.com/project/sonder-studio-brands-veritas-to-honour-a-factorys-past-and-future",
             "access": "full",
             "value": "页面提供原帖外的信息：In Wittenberge, a small town between Berlin and Hamburg, the former VERITAS sewing machine factory is being turned into an urban district of",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Sonder Studio brands VERITAS to honour a factory’s past and future — The Brand Identity – Home of the Greatest in Graphic & Brand Design"
           }
         ],
         "learningActions": [
@@ -15497,14 +18749,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://macmenubar.app/app/vinyl",
             "access": "full",
             "value": "页面提供原帖外的信息：A native macOS companion for Spotify that puts album art on your desktop as a photorealistic turntable wallpaper, with menu bar controls.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Vinyl - Mac Menubar Apps"
           },
           {
             "title": "X 引用帖 @Aurelien_Gz",
             "url": "https://x.com/Aurelien_Gz/status/2082204431748132867",
             "access": "full",
             "value": "引用帖补充了上下文：needed this.. this open source app turns your spotify song into an animated vinyl wallpaper wizard » @sxhivs https://t.c",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @Aurelien_Gz"
           }
         ],
         "learningActions": [
@@ -15564,7 +18818,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://rene.wang/essay/field-notes-01",
             "access": "full",
             "value": "页面提供原帖外的信息：Some of my decisions, revamping and feedback while building interfaces.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Field Notes · Rene Wang"
           }
         ],
         "learningActions": [
@@ -15598,7 +18853,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/marcelkargul/status/2081755696677208362",
             "access": "full",
             "value": "引用帖补充了上下文：everything is better animated btw https://t.co/Zh1TnJjxkq",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @marcelkargul"
           }
         ],
         "learningActions": [
@@ -15736,7 +18992,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://animos.app/",
             "access": "full",
             "value": "页面提供原帖外的信息：animos — ready-made animation templates for showcasing your designs. Drop in images or videos, tweak, and export MP4/WebM in your browser.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "animos — Motion templates for design showcases"
           }
         ],
         "learningActions": [
@@ -15822,7 +19079,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/marcelkargul/status/2080939043706056728",
             "access": "full",
             "value": "引用帖补充了上下文：the bento is the best part of a landing page. https://t.co/kwE84ZxoEj",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @marcelkargul"
           }
         ],
         "learningActions": [
@@ -15908,14 +19166,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://youmind.com/skills/city-observation-poster-generator-ZjjvmxuTFRMpgi",
             "access": "full",
             "value": "页面提供原帖外的信息：Upload a character reference, capture a city’s everyday mood, and create a concept card for a Japanese-style flat illustration city observat",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "City Observer Poster - YouMind Skill"
           },
           {
             "title": "X 引用帖 @YouMind_AI",
             "url": "https://x.com/YouMind_AI/status/2081576008143327668",
             "access": "full",
             "value": "引用帖补充了上下文：#oneskillperday Made this stunning poster to mark your travel. Super easy workflow, NO PROMPT NEEDED. Just click the Ski",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @YouMind_AI"
           }
         ],
         "learningActions": [
@@ -15948,7 +19208,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.heyclicky.com/",
             "access": "full",
             "value": "页面提供原帖外的信息：heyclicky is an ai assistant for your mac. it&#x27;s a little buddy on screen that teaches you anything, guides you when you&#x27;re stuck, ",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "heyclicky - an ai buddy on your mac"
           }
         ],
         "learningActions": [
@@ -15982,7 +19243,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/img2threejs/img2threejs",
             "access": "full",
             "value": "页面提供原帖外的信息：Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - img2threejs/img2threejs: Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D. · "
           }
         ],
         "learningActions": [
@@ -16016,7 +19278,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://abue-ammar.github.io/tinycast/",
             "access": "full",
             "value": "页面提供原帖外的信息：Tinycast is a tiny, fully native macOS launcher and a free, open-source Raycast alternative: fuzzy app search, inline calculator, clipboard ",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Tinycast — a tiny, native macOS launcher"
           }
         ],
         "learningActions": [
@@ -16050,7 +19313,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/egeberkina/status/2081133648724591030",
             "access": "full",
             "value": "引用帖补充了上下文：The confidence is part of the outfit https://t.co/kRTTdlsNF4",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @egeberkina"
           }
         ],
         "learningActions": [
@@ -16084,7 +19348,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://javii.tools/",
             "access": "full",
             "value": "页面提供原帖外的信息：A suite of tiny tools for big visuals, all in one place. TextLab for chat and social mockups, ReviewLab for star ratings and reviews, Instat",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "javiitools: tiny tools for big visuals"
           }
         ],
         "learningActions": [
@@ -16222,7 +19487,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/egeberkina/status/2081115225336508883",
             "access": "full",
             "value": "引用帖补充了上下文：Midjourney v8.2 is absolutely cooking https://t.co/AYFeVvWcKL",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @egeberkina"
           }
         ],
         "learningActions": [
@@ -16282,7 +19548,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/radiumcoders/status/2081058156466393458",
             "access": "full",
             "value": "引用帖补充了上下文：Been Cooking something Cant Wait to share with u guys https://t.co/Rq4ogiLzT5",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @radiumcoders"
           }
         ],
         "learningActions": [
@@ -16316,7 +19583,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://logosystem.co/",
             "access": "full",
             "value": "页面提供原帖外的信息：The biggest free logo inspiration library — browse 1,300+ logo examples, wordmarks, symbols and animated logos by top designers, and filter ",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Logo Inspiration — 1,300+ Logos & Animated Logos | Logosystem"
           }
         ],
         "learningActions": [
@@ -16375,7 +19643,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://tech100-five-into-one.vercel.app/",
             "access": "full",
             "value": "页面提供原帖外的信息：Astro description",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Five Into One"
           }
         ],
         "learningActions": [
@@ -16435,7 +19704,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://bestdesignsonx.com/",
             "access": "full",
             "value": "引用帖补充了上下文：Discover the best design inspiration from top creatives on X. Updated hourly with hand-picked visual showcases, logos, U",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "Best Designs On X.com"
           }
         ],
         "learningActions": [
@@ -16495,7 +19765,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/its_sslvr/status/2080186147721101649",
             "access": "full",
             "value": "引用帖补充了上下文：polar+opposites+ https://t.co/6RsmSqwShQ",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @its_sslvr"
           }
         ],
         "learningActions": [
@@ -16529,7 +19800,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/makecindy/cindy",
             "access": "full",
             "value": "页面提供原帖外的信息：Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。 - makecindy/cindy",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - makecindy/cindy: Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。 · GitHub"
           }
         ],
         "learningActions": [
@@ -16563,7 +19835,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.youtube.com/watch?v=691o2FUDs-8&feature=youtu.be",
             "access": "full",
             "value": "页面提供原帖外的信息：Hello Guys 🖐🖐🖐In this video, I’ll demonstrate how to recreate the Instagram App's Minimizable Tab Bar using SwiftUI | Scroll to Minimize ",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Instagram App's Minimizable Tab Bar Using SwiftUI | Scroll to Minimize Tab Bar | Xcode 27 - YouTube"
           }
         ],
         "learningActions": [
@@ -16623,7 +19896,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://abduzeedo.com/aeonik-pro-sans-serif-variable-font-specimen-visual-tension",
             "access": "full",
             "value": "页面提供原帖外的信息：The aeonik pro sans-serif variable font specimen has clear visual tension. Mash Creative designed this clean typographic system. This typefa",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Aeonik Pro Sans-Serif Variable Font Specimen: Visual Tension"
           }
         ],
         "learningActions": [
@@ -16891,7 +20165,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://deck.gallery/reece-evans-portfolio/",
             "access": "full",
             "value": "页面提供原帖外的信息：Reece Evans portfolio: Cambridge-based digital designer with clients including Burberry, Nike, Hypebeast, and eBay. 43 slides.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Reece Evans Portfolio - Deck.gallery"
           }
         ],
         "learningActions": [
@@ -16925,7 +20200,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/_atilla1/status/2080619830550446445",
             "access": "full",
             "value": "引用帖补充了上下文：Introducing Licht Cinema Camera. Film the way you remember. The moment was cinema. Now the footage is too. I call it Lic",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @_atilla1"
           }
         ],
         "learningActions": [
@@ -17063,7 +20339,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://abduzeedo.com/lu-yan-crafts-dieter-rams-inspired-system-icon-design",
             "access": "full",
             "value": "页面提供原帖外的信息：Rams System Icons launches a skeuomorphic icon suite with industrial design, combining Braun-inspired hardware by Lu Yan and Zhiyi Zhang. De",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Lu Yan Crafts Dieter Rams Inspired System Icon Design"
           }
         ],
         "learningActions": [
@@ -17097,7 +20374,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/stephenhaney/status/2080322390878486903",
             "access": "full",
             "value": "引用帖补充了上下文：Paper just raised $34M in our Series A from @Accel and @ICONIQCapital Paper is the pro design tool for teams shipping wi",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @stephenhaney"
           }
         ],
         "learningActions": [
@@ -17131,7 +20409,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/cats_juice/status/2079263950538248276",
             "access": "full",
             "value": "引用帖补充了上下文：想起当年手 k 过这个效果，现在用 GPT 5.6 Sol 很轻松就实现了，还支持了自定义富文本、自定义图像上传。已开源： 🔗在线体验： https://t.co/aSPhu1DC3r https://t.co/mhxlSoIhIh",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @cats_juice"
           }
         ],
         "learningActions": [
@@ -17165,7 +20444,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/vladimircherner/status/2079914833898557936",
             "access": "full",
             "value": "引用帖补充了上下文：Depth-map storyboards pipeline! idea from @_OAK200 - spent a couple of days building it into a full working pipeline, al",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @vladimircherner"
           }
         ],
         "learningActions": [
@@ -17225,7 +20505,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/liu8in/status/2080075081959776664",
             "access": "full",
             "value": "引用帖补充了上下文：we've eval-ing K3 and we were legit shocked K3 is incredibly good at @HyperFrames_ , winning over GPT-5.6 and Fable 5 at",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @liu8in"
           }
         ],
         "learningActions": [
@@ -17311,7 +20592,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "http://canvasui.dev/",
             "access": "full",
             "value": "页面提供原帖外的信息：An open source component library of creative html-in-canvas and WebGL effects for React, Solid, Preact, Vue, Svelte, and vanilla JS. Creativ",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Canvas UI: Creative Canvas and WebGL Component Library"
           }
         ],
         "learningActions": [
@@ -17371,7 +20653,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://app.flora.ai/techniques/layout-resizer?utm_source=twitter&utm_medium=social&utm_campaign=2026-07_fdc-use-case-video&utm_content=video",
             "access": "full",
             "value": "页面提供原帖外的信息：Run this AI-powered technique in your browser. Upload inputs, generate professional results in seconds. Free to try on FLORA.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Layout Resizer | FLORA"
           }
         ],
         "learningActions": [
@@ -17431,14 +20714,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://apps.apple.com/redeem/?ctx=offercodes&id=6770877568&code=LAUNCH33",
             "access": "full",
             "value": "页面提供原帖外的信息：https://apps.apple.com/redeem/?ctx=offercodes&id=6770877568&code=LAUNCH33",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "https://apps.apple.com/redeem/?ctx=offercodes&id=6770877568&code=LAUNCH33"
           },
           {
             "title": "X 引用帖 @screencam_app",
             "url": "https://x.com/screencam_app/status/2079965167279043011",
             "access": "full",
             "value": "引用帖补充了上下文：Meet ScreenCam for Mac. Lighter. Faster. More powerful. Record. Edit. Direct every frame. Learn more: https://t.co/zkfam",
-            "learningValue": "适合核对原帖引用链和观点来源。"
+            "learningValue": "适合核对原帖引用链和观点来源。",
+            "summary": "X 引用帖 @screencam_app"
           }
         ],
         "learningActions": [
@@ -17472,7 +20757,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "http://maps.to.design",
             "access": "unavailable",
             "value": "本轮无法完整读取：页面不可访问或需要浏览器验证。只基于原帖可见信息判断。",
-            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。"
+            "learningValue": "先保留为线索，后续需要人工打开确认信息密度。",
+            "summary": "http://maps.to.design"
           }
         ],
         "learningActions": [
@@ -17506,7 +20792,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.filomail.com/",
             "access": "full",
             "value": "页面提供原帖外的信息：FiloMail is a fast, lightweight AI email and to-do app for multiple accounts. Find tasks, get reminders, summarize threads, and reply faster",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "FiloMail - AI Email & To-Do App for Multiple Accounts"
           }
         ],
         "learningActions": [
@@ -17634,7 +20921,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Detail · Where craft lives",
             "value": "页面补充了原帖外信息：Detail · Where craft lives - A curated reference of small design decisions that shape better interfaces. For designers and engineers who care about the details.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Detail · Where craft lives"
           }
         ],
         "learningActions": [
@@ -17715,7 +21003,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "unavailable",
             "title": "Unavailable link",
             "value": "链接本次无法读取：fetch failed",
-            "learningValue": "只保留为线索，不基于不可访问内容扩展结论。"
+            "learningValue": "只保留为线索，不基于不可访问内容扩展结论。",
+            "summary": "Unavailable link"
           }
         ],
         "learningActions": [
@@ -17748,7 +21037,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "GitHub - zanwei/connected-filmstrip: A connected-filmstrip image lightbox as a zero-dependency ES module (MIT) · GitHub",
             "value": "页面补充了原帖外信息：GitHub - zanwei/connected-filmstrip: A connected-filmstrip image lightbox as a zero-dependency ES module (MIT) · GitHub - A connected-filmstrip image lightbox as a zero-dependency ES module (MIT) - zanwei/connected-films",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - zanwei/connected-filmstrip: A connected-filmstrip image lightbox as a zero-dependency ES module (MIT) · GitHub"
           }
         ],
         "learningActions": [
@@ -17853,7 +21143,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Raycast Store: Bento Window",
             "value": "页面补充了原帖外信息：Raycast Store: Bento Window - Tile multiple windows of the same app into a bento-box grid. The grid auto-adapts to the window count (2×2, 3×3, 5×2, etc.).",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Raycast Store: Bento Window"
           }
         ],
         "learningActions": [
@@ -17982,7 +21273,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Apple Photos App Tab Bar Using SwiftUI | iOS 27 | Xcode 27 - YouTube",
             "value": "页面补充了原帖外信息：Apple Photos App Tab Bar Using SwiftUI | iOS 27 | Xcode 27 - YouTube - Hello Guys 🖐🖐🖐In this Video I&#39;m going to recreate the Apple Photos App Tab Bar Interaction Using SwiftUI | SwiftUI Tab Bar Minimization Behavi",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Apple Photos App Tab Bar Using SwiftUI | iOS 27 | Xcode 27 - YouTube"
           }
         ],
         "learningActions": [
@@ -18039,7 +21331,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Zeron — control your coding agents from any device",
             "value": "页面补充了原帖外信息：Zeron — control your coding agents from any device - Zeron runs Claude Code, Codex, Grok, Hermes and Pi on your machines. Control them from any device, live.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Zeron — control your coding agents from any device"
           }
         ],
         "learningActions": [
@@ -18120,7 +21413,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Liquid Gooey — liquid UI for React",
             "value": "页面补充了原帖外信息：Liquid Gooey — liquid UI for React - Liquid UI effects for React. Morph merges, reshapes and dissolves touching pieces; Move trails a moving element as liquid rubber. Cross-browser, Safari included.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Liquid Gooey — liquid UI for React"
           }
         ],
         "learningActions": [
@@ -18155,7 +21449,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "LILGUY EYES",
             "value": "页面补充了原帖外信息：LILGUY EYES - 100 colorways. 4 shapes.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "LILGUY EYES"
           }
         ],
         "learningActions": [
@@ -18596,7 +21891,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "UIBook - UI Inspiration for Everyone",
             "value": "页面补充了原帖外信息：UIBook - UI Inspiration for Everyone - Browse thousands of handpicked website designs and UI components. Find UI inspiration for your next project.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "UIBook - UI Inspiration for Everyone"
           }
         ],
         "learningActions": [
@@ -18717,14 +22013,16 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "GitHub - CatsJuice/dockbar: A macOS-like dock component made with WebComponents · GitHub",
             "value": "页面补充了原帖外信息：GitHub - CatsJuice/dockbar: A macOS-like dock component made with WebComponents · GitHub - A macOS-like dock component made with WebComponents - CatsJuice/dockbar",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - CatsJuice/dockbar: A macOS-like dock component made with WebComponents · GitHub"
           },
           {
             "url": "https://dock.oooo.so/",
             "access": "full",
             "title": "Dockbar - Playground",
             "value": "页面补充了原帖外信息：Dockbar - Playground - macOS-like dock component made by web-components",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Dockbar - Playground"
           }
         ],
         "learningActions": [
@@ -19007,7 +22305,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Flor for Mac — Check in with yourself daily | Glaze",
             "value": "页面补充了原帖外信息：Flor for Mac — Check in with yourself daily | Glaze - Flor helps you build a more balanced view of your workdays through quick, proactive check-ins. Whether you’re a founder, freelancer, creator, student, or…",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Flor for Mac — Check in with yourself daily | Glaze"
           }
         ],
         "learningActions": [
@@ -19153,7 +22452,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Sticker Forge — Interactive Sticker Maker",
             "value": "页面补充了原帖外信息：Sticker Forge — Interactive Sticker Maker - Turn text or uploaded images into a tactile, peelable web sticker with live material and shadow controls.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Sticker Forge — Interactive Sticker Maker"
           }
         ],
         "learningActions": [
@@ -19464,35 +22764,40 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Kinetics — Spring-physics motion for web interfaces",
             "value": "页面补充了原帖外信息：Kinetics — Spring-physics motion for web interfaces - A library of spring-driven micro-interactions for web apps. Copy the CSS or React, tune the physics, ship the motion.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Kinetics — Spring-physics motion for web interfaces"
           },
           {
             "url": "https://zrok.io/",
             "access": "full",
             "title": "Home - zrok by NetFoundry",
             "value": "页面补充了原帖外信息：Home - zrok by NetFoundry - A next-generation sharing platform built on top of OpenZiti, a programmable zero-trust network overlay.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Home - zrok by NetFoundry"
           },
           {
             "url": "https://scalar.com/",
             "access": "full",
             "title": "Scalar — API Documentation, SDKs, API Client &amp; Registry",
             "value": "页面补充了原帖外信息：Scalar — API Documentation, SDKs, API Client &amp; Registry - Create beautiful docs, SDKs and secure MCP servers from your API. Scalar keeps every interface in sync as your API evolves.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Scalar — API Documentation, SDKs, API Client &amp; Registry"
           },
           {
             "url": "https://beszel.dev/",
             "access": "full",
             "title": "Beszel | Simple, lightweight server monitoring",
             "value": "页面补充了原帖外信息：Beszel | Simple, lightweight server monitoring - Lightweight server monitoring with historical data, Docker stats, and alerts.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Beszel | Simple, lightweight server monitoring"
           },
           {
             "url": "https://pglite.dev/",
             "access": "full",
             "title": "PGlite",
             "value": "页面补充了原帖外信息：PGlite - Lightweight WASM Postgres",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "PGlite"
           }
         ],
         "learningActions": [
@@ -19666,7 +22971,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "GitHub - gnipbao/story-to-handdrawn-video: Agent skill: convert Chinese story copy or ordered images into a hand-drawn d",
             "value": "页面补充了原帖外信息：GitHub - gnipbao/story-to-handdrawn-video: Agent skill: convert Chinese story copy or ordered images into a hand-drawn d - Agent skill: convert Chinese story copy or ordered images into a hand-drawn diary-comic animation",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - gnipbao/story-to-handdrawn-video: Agent skill: convert Chinese story copy or ordered images into a hand-drawn d"
           }
         ],
         "learningActions": [
@@ -19731,7 +23037,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Agentic UI - Figma Design System",
             "value": "页面补充了原帖外信息：Agentic UI - Figma Design System - The world’s first enterprise-grade design system for building scalable agentic experiences.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Agentic UI - Figma Design System"
           }
         ],
         "learningActions": [
@@ -19767,7 +23074,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Sticker Forge — Interactive Sticker Maker",
             "value": "页面补充了原帖外信息：Sticker Forge — Interactive Sticker Maker - Turn text or uploaded images into a tactile, peelable web sticker with live material and shadow controls.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Sticker Forge — Interactive Sticker Maker"
           }
         ],
         "learningActions": [
@@ -19886,7 +23194,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "unavailable",
             "title": "Attention Required! | Cloudflare",
             "value": "页面返回 HTTP 403，未读取到可用正文。",
-            "learningValue": "只能作为线索，需要后续手动确认。"
+            "learningValue": "只能作为线索，需要后续手动确认。",
+            "summary": "Attention Required! | Cloudflare"
           }
         ],
         "learningActions": [
@@ -19978,7 +23287,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Memmy",
             "value": "页面补充了原帖外信息：Memmy - Memmy is a local-first AI agent with a self-evolving memory foundation, letting the desktop app, CLI and external agents share the same long-term context.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Memmy"
           }
         ],
         "learningActions": [
@@ -20042,7 +23352,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "GitHub - awplanets/awplanet: AI 原生 3D 导演工作台与场景创作工具 / AI-native 3D direction and scene creation studio · GitHub",
             "value": "页面补充了原帖外信息：GitHub - awplanets/awplanet: AI 原生 3D 导演工作台与场景创作工具 / AI-native 3D direction and scene creation studio · GitHub - AI 原生 3D 导演工作台与场景创作工具 / AI-native 3D direction and scene creation studio - awplanets/awplanet",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - awplanets/awplanet: AI 原生 3D 导演工作台与场景创作工具 / AI-native 3D direction and scene creation studio · GitHub"
           }
         ],
         "learningActions": [
@@ -20079,7 +23390,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Framer Updates — July Update: Agent and Canvas",
             "value": "页面补充了原帖外信息：Framer Updates — July Update: Agent and Canvas - The July Update expands Agent with Page Effects, CMS video, accessible attributes, richer Overlays, and more, alongside Canvas and Vector Set improvements.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Framer Updates — July Update: Agent and Canvas"
           }
         ],
         "learningActions": [
@@ -20170,7 +23482,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "GitHub - HalfAI1102/anthropic-art: Generate full-background Anthropic-style editorial illustrations with verified palett",
             "value": "页面补充了原帖外信息：GitHub - HalfAI1102/anthropic-art: Generate full-background Anthropic-style editorial illustrations with verified palett - Generate full-background Anthropic-style editorial illustrations with verified palette and hand-d",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - HalfAI1102/anthropic-art: Generate full-background Anthropic-style editorial illustrations with verified palett"
           }
         ],
         "learningActions": [
@@ -20206,7 +23519,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "hello I'm Ian",
             "value": "页面补充了原帖外信息：hello I'm Ian - ian（伊恩），产品设计师，用 AI 做小产品和内容",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "hello I'm Ian"
           }
         ],
         "learningActions": [
@@ -20269,14 +23583,16 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "video-shotcraft — AI Video Skill for Claude Code &amp; Codex | Cinematic Product Videos with Remotion",
             "value": "页面补充了原帖外信息：video-shotcraft — AI Video Skill for Claude Code &amp; Codex | Cinematic Product Videos with Remotion - video-shotcraft is an AI agent skill for Claude Code &amp; Codex that makes cinematic product promo videos with Remo",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "video-shotcraft — AI Video Skill for Claude Code &amp; Codex | Cinematic Product Videos with Remotion"
           },
           {
             "url": "https://github.com/geekjourneyx/hyperframes-motion-director",
             "access": "full",
             "title": "GitHub - geekjourneyx/hyperframes-motion-director: Agent Skill for Chinese-first HyperFrames motion-video production fro",
             "value": "页面补充了原帖外信息：GitHub - geekjourneyx/hyperframes-motion-director: Agent Skill for Chinese-first HyperFrames motion-video production fro - Agent Skill for Chinese-first HyperFrames motion-video production from articles, products, websit",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - geekjourneyx/hyperframes-motion-director: Agent Skill for Chinese-first HyperFrames motion-video production fro"
           }
         ],
         "learningActions": [
@@ -20313,7 +23629,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Maka — Your work. Your agent.",
             "value": "页面补充了原帖外信息：Maka — Your work. Your agent. - A local-first Agent workspace where tools, permissions, artifacts, and durable progress stay visible.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Maka — Your work. Your agent."
           }
         ],
         "learningActions": [
@@ -20376,7 +23693,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "unavailable",
             "title": "Unavailable link",
             "value": "链接本次无法读取：fetch failed",
-            "learningValue": "只保留为线索，不基于不可访问内容扩展结论。"
+            "learningValue": "只保留为线索，不基于不可访问内容扩展结论。",
+            "summary": "Unavailable link"
           }
         ],
         "learningActions": [
@@ -20441,7 +23759,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "AI for Designers and Engineers",
             "value": "页面补充了原帖外信息：AI for Designers and Engineers - A course that teaches you how to use AI to help you build great interfaces.",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "AI for Designers and Engineers"
           }
         ],
         "learningActions": [
@@ -20477,7 +23796,8 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "VibeHub｜Vibe Coding 术语图鉴 · 用大白话找准前端、后端、AI 术语",
             "value": "页面补充了原帖外信息：VibeHub｜Vibe Coding 术语图鉴 · 用大白话找准前端、后端、AI 术语 - VibeHub（vibe-hub.org）是面向所有 Vibe Coding 用户的可视化术语图鉴：用界面示例、使用场景与边界讲清前端、后端、技术栈、AI、Agent、Git 与设计概念。用大白话也能搜到准确名称，更清楚向 AI 表达需求。共 250 个条目。",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "VibeHub｜Vibe Coding 术语图鉴 · 用大白话找准前端、后端、AI 术语"
           }
         ],
         "learningActions": [
@@ -20514,14 +23834,16 @@ window.DESIGNER_ANALYSIS = [
             "access": "full",
             "title": "Poche Digest — 2026-08-15",
             "value": "页面补充了原帖外信息：Poche Digest — 2026-08-15 - 设计师 Stas Polyakov 撰文复盘了为 AI 代码编辑器 Cursor 设计全套图标系统的完整历程。该项目历时约一年，旨在替换此前继承自 VS Code 的开源 Codicons 图标库，以解决原有图标缺乏维护、无法覆盖 AI Agent、并行执行与思考开销等新兴概念的问题。整套系统共包含 600 余个图标…",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Poche Digest — 2026-08-15"
           },
           {
             "url": "https://quaily.com/dingyi",
             "access": "full",
             "title": "DEX 周刊",
             "value": "页面补充了原帖外信息：DEX 周刊 - 一份关于产品、设计、前端、软件等内容的精华资讯邮件周刊。",
-            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "值得继续读，用来核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "DEX 周刊"
           }
         ],
         "learningActions": [
@@ -20602,7 +23924,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://youmind.com/skills/soft-neumorphic-app-icon-design-05WgebDFLQfGhB",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Design refined soft-realistic App icons for iOS, macOS, and Universal, following platform guidelines with prod",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Soft Skeuomorphic App Icons - YouMind Skill"
           }
         ],
         "learningActions": [
@@ -20635,7 +23958,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载 - alchaincyf/deepseek-har",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - alchaincyf/deepseek-harness-orange-book: DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载 · GitHub"
           }
         ],
         "learningActions": [
@@ -20692,7 +24016,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/i/article/2088074460138237953",
             "access": "full",
             "value": "X Article 补充了长文标题与摘要：在昨天正式发布DeepSeek V4 Pro正式版之后。 预告了很久的，DeepSeek家自己的Agent产品终于也发出来了。 名字叫，DeepSeek Harness。 理念也很",
-            "learningValue": "适合继续阅读全文，拆解作者的论证结构和产品判断。"
+            "learningValue": "适合继续阅读全文，拆解作者的论证结构和产品判断。",
+            "summary": "从0到1带你速通DeepSeek Harness。"
           }
         ],
         "learningActions": [
@@ -20725,7 +24050,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://abduzeedo.com/cicle-branding-katja-guseva-minimalist-identity",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Their cohesive cicle branding katja guseva system illustrates sophisticated contemporary furniture design craf",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Cicle Branding Katja Guseva: Minimalist Identity"
           }
         ],
         "learningActions": [
@@ -20757,7 +24083,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.ruanyifeng.com/blog/2026/08/weekly-issue-408.html",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Google短网址的API 2009年底，Google发布了短网址服务goo.gl。... 阮一峰 2011-01-16T22:37:52+08:00 --> 科技爱好者周刊（第 408 期）：你需要知道的 AI 缓存知",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "科技爱好者周刊（第 408 期）：你需要知道的 AI 缓存知识 - 阮一峰的网络日志"
           }
         ],
         "learningActions": [
@@ -20813,7 +24140,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：一个侧边栏的完整工作台，支持三方拓展注册新Tab页面，内置文件渲染编辑/终端/Git/子代理. Contribute to omdsh-dev/DSH-better-sidebar development by crea",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - omdsh-dev/DSH-better-sidebar: 一个侧边栏的完整工作台，支持三方拓展注册新Tab页面，内置文件渲染编辑/终端/Git/子代理 · GitHub"
           }
         ],
         "learningActions": [
@@ -21037,7 +24365,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://replit.com/design",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Build and deploy software collaboratively with the power of AI without spending a second on setup.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Replit Design - Replit"
           }
         ],
         "learningActions": [
@@ -21093,21 +24422,24 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.figma.com/community/skill/62736",
             "access": "unavailable",
             "value": "页面返回 HTTP 403，只能依据原帖可见信息判断。",
-            "learningValue": "保留为待人工复核链接。"
+            "learningValue": "保留为待人工复核链接。",
+            "summary": "ERROR: The request could not be satisfied"
           },
           {
             "title": "ERROR: The request could not be satisfied",
             "url": "https://www.figma.com/community/skill/64144",
             "access": "unavailable",
             "value": "页面返回 HTTP 403，只能依据原帖可见信息判断。",
-            "learningValue": "保留为待人工复核链接。"
+            "learningValue": "保留为待人工复核链接。",
+            "summary": "ERROR: The request could not be satisfied"
           },
           {
             "title": "ERROR: The request could not be satisfied",
             "url": "https://www.figma.com/community/skill/64012",
             "access": "unavailable",
             "value": "页面返回 HTTP 403，只能依据原帖可见信息判断。",
-            "learningValue": "保留为待人工复核链接。"
+            "learningValue": "保留为待人工复核链接。",
+            "summary": "ERROR: The request could not be satisfied"
           }
         ],
         "learningActions": [
@@ -21210,7 +24542,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.itsnicethat.com/features/behind-instagrams-first-major-refresh-in-10-years-partnership-130826?utm_source=twitter&utm_medium=social&utm_campaign=intsocial&utm_content=iglaunch_tw",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：“Instagram has evolved”: the process and craft behind Instagram’s first major refresh in over ten years",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "“Instagram has evolved”: the process and craft behind Instagram’s first major refresh in over ten years"
           }
         ],
         "learningActions": [
@@ -21243,42 +24576,48 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://cola.app/skills/photo-abstract-editorial/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：A Codex Skill that converts a photo into a vertical editorial work combining original photography area, abstra",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "photo-abstract-editorial - Cola Skill"
           },
           {
             "title": "heytea-style - Cola Skill",
             "url": "https://cola.app/skills/heytea-style/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Upload daily life photos to generate Heytea poster-inspired vertical posters with real object anchor, children",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "heytea-style - Cola Skill"
           },
           {
             "title": "gc-minimal-zine-poster - Cola Skill",
             "url": "https://cola.app/skills/gc-minimal-zine-poster/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Turn your theme, mood or content brief into a quiet minimal zine-style vertical editorial poster, outputting b",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "gc-minimal-zine-poster - Cola Skill"
           },
           {
             "title": "ip-illustration-for-yourself - Cola Skill",
             "url": "https://cola.app/skills/ip-illustration-for-yourself/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Generate exclusive doodle-style mini IP from your reference images, automatically understand article content t",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "ip-illustration-for-yourself - Cola Skill"
           },
           {
             "title": "photo-revival - Cola Skill",
             "url": "https://cola.app/skills/photo-revival/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：A Codex skill that redraws casual daily shots and unused photos into poetic hand-drawn illustrations on large-",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "photo-revival - Cola Skill"
           },
           {
             "title": "tait-crt-interface-skill - Cola Skill",
             "url": "https://cola.app/skills/tait-crt-interface-skill/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：A Codex image generation skill that transforms uploaded portraits, photos or text descriptions into retro pixe",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "tait-crt-interface-skill - Cola Skill"
           }
         ],
         "learningActions": [
@@ -21311,7 +24650,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.originkit.dev/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：The largest free animated component library for building modern websites. Copy code, use in Framer, or connect",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Originkit — Free Animated component library for modern websites"
           }
         ],
         "learningActions": [
@@ -21343,7 +24683,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://grainient.supply/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Grainient offers 1000+ awesome gradients, animated gradients, grainy textures, and AI-generated backgrounds. S",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Unlimited Gradients, Animated Gradients and AI-Generated Backgrounds"
           }
         ],
         "learningActions": [
@@ -21477,7 +24818,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://hugeicons-animated.com/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：A curated collection of hand-animated Hugeicons for React. Install each icon as plain source with the shadcn C",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Hugeicons Animated — Free Animated Icons for React"
           }
         ],
         "learningActions": [
@@ -21512,7 +24854,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/i/article/2087813886971887616",
             "access": "full",
             "value": "X Article 补充了长文标题与摘要：This article was written by Strobi, Stéphane’s avatar on Bible Strong. Stéphane is way to ",
-            "learningValue": "适合继续阅读全文，拆解作者的论证结构和产品判断。"
+            "learningValue": "适合继续阅读全文，拆解作者的论证结构和产品判断。",
+            "summary": "Giving a Blue Dot a Face - bible strong avatar studio"
           }
         ],
         "learningActions": [
@@ -21544,7 +24887,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://getdroppy.app/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Droppy turns your Mac",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "/meta/OG tags and the <main> contents differ. Page-specific CSS and JS live inline here (never in the shared assets/css/site.css or assets/js/site.js files). --> <!doctype html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <title>Droppy. Your Mac, just way better."
           }
         ],
         "learningActions": [
@@ -21576,7 +24920,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.designdisciplin.com/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：independent design research. Click to read Design Discipline, by Baytaş, a Substack publication with thousands",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Design Discipline | Baytaş | Substack"
           }
         ],
         "learningActions": [
@@ -21609,7 +24954,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://opacity.com/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：The next evolution in software development. Design, build, and deploy, all from Opacity.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Opacity — The future of software development"
           }
         ],
         "learningActions": [
@@ -21668,56 +25014,64 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://lucide-animated.com/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Free open-source library of 350+ beautifully crafted animated React icons. Built with Motion and Lucide. Copy-",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "lucide-animated | Free Animated React Icons Library"
           },
           {
             "title": "Lucide Animated Icons for React | AnimateIcons",
             "url": "https://animateicons.in/icons/lucide",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Animated Lucide icons for React. Drop-in components built on motion/react with hover and imperative triggers, ",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Lucide Animated Icons for React | AnimateIcons"
           },
           {
             "title": "heroicons-animated | Free Animated Heroicons for React",
             "url": "https://www.heroicons-animated.com/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Free open-source library of beautifully animated icons for React. Built with Motion and Heroicons. Copy-paste ",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "heroicons-animated | Free Animated Heroicons for React"
           },
           {
             "title": "GitHub - useAnimations/react-useanimations: React-useanimations is a collection of free animated open source icons for React.js. · GitHub",
             "url": "https://github.com/useAnimations/react-useanimations",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：React-useanimations is a collection of free animated open source icons for React.js. - useAnimations/react-use",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - useAnimations/react-useanimations: React-useanimations is a collection of free animated open source icons for React.js. · GitHub"
           },
           {
             "title": "GitHub - respeak-io/lucide-motion-vue: Animated Lucide icons for Vue 3 — ergonomic animateOnHover / animateOnTap / animateOnView triggers built on Motion for Vue. · GitHub",
             "url": "https://github.com/respeak-io/lucide-motion-vue",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Animated Lucide icons for Vue 3 — ergonomic animateOnHover / animateOnTap / animateOnView triggers built on Mo",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - respeak-io/lucide-motion-vue: Animated Lucide icons for Vue 3 — ergonomic animateOnHover / animateOnTap / animateOnView triggers built on Motion for Vue. · GitHub"
           },
           {
             "title": "Material Line Icons icon set - 1218 open source icons - Iconify",
             "url": "https://icon-sets.iconify.design/line-md",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Material Line Icons icon set - 1218 open source icons - Iconify @keyframes icon-set-samples-fade-in{0%{opacity",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Material Line Icons icon set - 1218 open source icons - Iconify"
           },
           {
             "title": "moving icons",
             "url": "https://www.movingicons.dev/icons",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：beautifully crafted, moving icons. for svelte.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "moving icons"
           },
           {
             "title": "Animated icons | Its Hover",
             "url": "https://www.itshover.com/icons",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Motion-first animated icons that moves with intent.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Animated icons | Its Hover"
           }
         ],
         "learningActions": [
@@ -21969,7 +25323,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/Vincentwei1021/video-shotcraft",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：AI video skill for Claude Code &amp; Codex — cinematic product videos with Remotion: 152 shot recipe cards, 20",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - Vincentwei1021/video-shotcraft: AI video skill for Claude Code &amp; Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template · GitHub"
           }
         ],
         "learningActions": [
@@ -22049,7 +25404,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/microsoft/skill-recorder",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an i",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - microsoft/skill-recorder: Desktop app that records your on-screen work session and uses the GitHub Copilot CLI to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Scout, Microsoft Copilot Cowork, or Copilot Studio. · GitHub"
           }
         ],
         "learningActions": [
@@ -22084,7 +25440,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "MiniMaxAI/MiniMax-H3 · Hugging Face"
           }
         ],
         "learningActions": [
@@ -22165,7 +25522,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/YTwsy/OpenSurge-for-Mac",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Surge-style whole-home gateway and control plane for macOS — mihomo TUN, dnsmasq-powered DHCP/DNS, per-device ",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - YTwsy/OpenSurge-for-Mac: Surge-style whole-home gateway and control plane for macOS — mihomo TUN, dnsmasq-powered DHCP/DNS, per-device routing, and an agent-friendly validation workspace. · GitHub"
           }
         ],
         "learningActions": [
@@ -22243,7 +25601,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.vinylformac.com/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Vinyl puts a photorealistic animated turntable on your Mac desktop. Connects to Spotify and Apple Music. A bea",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Vinyl - A photorealistic turntable for your Mac desktop"
           }
         ],
         "learningActions": [
@@ -22322,7 +25681,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://005.ui8.dev/v2/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：The Forge Manifesto · V2 MANIFESTO · V2 Scroll to dive ◂ V1 Built with Forge",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "The Forge Manifesto · V2"
           }
         ],
         "learningActions": [
@@ -22380,28 +25740,32 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://r3f.docs.pmnd.rs/getting-started/examples?utm_source=chatgpt.com",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：A few examples that demonstrate what you can do with React Three Fiber",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Examples - React Three Fiber"
           },
           {
             "title": "Codrops | Fueling web creativity since 2009",
             "url": "https://tympanus.net/codrops/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Explore the latest web design and frontend development trends with tutorials, demos, and creative coding resou",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Codrops | Fueling web creativity since 2009"
           },
           {
             "title": "React Three Fiber | Codrops",
             "url": "https://tympanus.net/codrops/tag/react-three-fiber/?utm_source=chatgpt.com",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：React Three Fiber | Codrops",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "React Three Fiber | Codrops"
           },
           {
             "title": "three.js webgpu - compute particles",
             "url": "https://threejs.org/examples/webgpu_compute_particles.html?utm_source=chatgpt.com",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：three.js webgpu - compute particles three.js Compute Particles 500k Particles.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "three.js webgpu - compute particles"
           }
         ],
         "learningActions": [
@@ -22460,14 +25824,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://wqu.guru/newshub%EF%BC%89%E4%B8%AD%E4%BD%BF%E7%94%A8",
             "access": "unavailable",
             "value": "页面返回 HTTP 404，只能依据原帖可见信息判断。",
-            "learningValue": "保留为待人工复核链接。"
+            "learningValue": "保留为待人工复核链接。",
+            "summary": "wqu.guru — 读懂 AI 与投资前沿，练成能交付的工程能力"
           },
           {
             "title": "Skills",
             "url": "https://jakub.kr/skills",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Agent skills for accessibility, layout, writing, typography, color, and UI polish.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Skills"
           }
         ],
         "learningActions": [
@@ -22574,14 +25940,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://anatomyatelier.vercel.app/en",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Explore medically detailed 3D organs — heart, brain, lungs, liver, kidneys, eye, intestine, pancreas, and skin",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Anatomy Atelier — Learn anatomy like an artist"
           },
           {
             "title": "GitHub - thebuggeddev/anatomy: An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol · GitHub",
             "url": "https://github.com/thebuggeddev/anatomy",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol - thebuggeddev/anatomy",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - thebuggeddev/anatomy: An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol · GitHub"
           }
         ],
         "learningActions": [
@@ -22616,7 +25984,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://collectui.com/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Discover amazing UI designs, portfolios, and inspiration curated by design magicians",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "CollectUI - Daily Design Inspiration"
           }
         ],
         "learningActions": [
@@ -22696,7 +26065,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.figma.com/community/file/1665642281405517675",
             "access": "unavailable",
             "value": "页面返回 HTTP 403，只能依据原帖可见信息判断。",
-            "learningValue": "保留为待人工复核链接。"
+            "learningValue": "保留为待人工复核链接。",
+            "summary": "ERROR: The request could not be satisfied"
           }
         ],
         "learningActions": [
@@ -22729,7 +26099,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/vercel/next-forge",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Production-grade Turborepo template for Next.js apps. - vercel/next-forge",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - vercel/next-forge: Production-grade Turborepo template for Next.js apps. · GitHub"
           }
         ],
         "learningActions": [
@@ -22762,7 +26133,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/dayinji/sen-3d-resume",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Contribute to dayinji/sen-3d-resume development by creating an account on GitHub.",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - dayinji/sen-3d-resume · GitHub"
           }
         ],
         "learningActions": [
@@ -22796,7 +26168,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://pica.joshpuckett.me/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：A better way to manage your fonts",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Pica, a MacOS font management app"
           }
         ],
         "learningActions": [
@@ -22976,7 +26349,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://animejs.com/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：A fast, multipurpose and lightweight JavaScript animation library",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Anime.js | JavaScript Animation Engine"
           }
         ],
         "learningActions": [
@@ -23055,7 +26429,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://herdr.dev/",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Herdr is the runtime your coding agents live on. It holds real terminals open on your laptop, your desktop or ",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "Herdr: the runtime coding agents run on"
           }
         ],
         "learningActions": [
@@ -23088,7 +26463,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/LiamGvchi/gc-minimal-zine-poster",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Codex skill for generating quiet minimal zine-style editorial poster prompts and images. - LiamGvchi/gc-minima",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - LiamGvchi/gc-minimal-zine-poster: Codex skill for generating quiet minimal zine-style editorial poster prompts and images. · GitHub"
           }
         ],
         "learningActions": [
@@ -23266,7 +26642,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/AmazingAng/ccvideo",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Claude-style promo videos from ground-truth captures — a Claude Code skill (Remotion) - AmazingAng/ccvideo",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "GitHub - AmazingAng/ccvideo: Claude-style promo videos from ground-truth captures — a Claude Code skill (Remotion) · GitHub"
           }
         ],
         "learningActions": [
@@ -23374,7 +26751,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.figma.com/@miggi/riffs/91be4f18-5809-45ad-b918-a7121d58240e",
             "access": "unavailable",
             "value": "页面返回 HTTP 403，只能依据原帖可见信息判断。",
-            "learningValue": "保留为待人工复核链接。"
+            "learningValue": "保留为待人工复核链接。",
+            "summary": "ERROR: The request could not be satisfied"
           }
         ],
         "learningActions": [
@@ -23407,7 +26785,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://www.figma.com/@miggi/riffs/91be4f18-5809-45ad-b918-a7121d58240e",
             "access": "unavailable",
             "value": "页面返回 HTTP 403，只能依据原帖可见信息判断。",
-            "learningValue": "保留为待人工复核链接。"
+            "learningValue": "保留为待人工复核链接。",
+            "summary": "ERROR: The request could not be satisfied"
           }
         ],
         "learningActions": [
@@ -23440,7 +26819,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://abduzeedo.com/woork-studio-designs-elegant-modern-branding-moodly",
             "access": "full",
             "value": "页面提供原帖外的标题/说明：Moodly launches a minimalist graphic identity with strategic branding, combining clean packaging layouts desig",
-            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。"
+            "learningValue": "可用于核验功能、案例、实现方式或视觉参考密度。",
+            "summary": "The Woork Studio Designs Elegant Modern Branding for Moodly"
           }
         ],
         "learningActions": [
@@ -23540,21 +26920,24 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
             "access": "partial",
             "value": "外链提供原帖之外的产品页、文章或演示入口。",
-            "learningValue": "可继续核验功能、定价、案例和实现参考价值。"
+            "learningValue": "可继续核验功能、定价、案例和实现参考价值。",
+            "summary": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"
           },
           {
             "title": "https://api-docs.deepseek.com/quick_start/pricing",
             "url": "https://api-docs.deepseek.com/quick_start/pricing",
             "access": "partial",
             "value": "外链提供原帖之外的产品页、文章或演示入口。",
-            "learningValue": "可继续核验功能、定价、案例和实现参考价值。"
+            "learningValue": "可继续核验功能、定价、案例和实现参考价值。",
+            "summary": "https://api-docs.deepseek.com/quick_start/pricing"
           },
           {
             "title": "https://x.ai/news/grok-4-6Quite",
             "url": "https://x.ai/news/grok-4-6Quite",
             "access": "partial",
             "value": "外链提供原帖之外的产品页、文章或演示入口。",
-            "learningValue": "可继续核验功能、定价、案例和实现参考价值。"
+            "learningValue": "可继续核验功能、定价、案例和实现参考价值。",
+            "summary": "https://x.ai/news/grok-4-6Quite"
           }
         ],
         "learningActions": [
@@ -23632,7 +27015,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/usgraphics/status/2087630707837587947",
             "access": "partial",
             "value": "引用帖补充了原作者的完整上下文、原始链接或更完整方法。",
-            "learningValue": "适合回到原帖确认方法链路，避免只收藏二次转述。"
+            "learningValue": "适合回到原帖确认方法链路，避免只收藏二次转述。",
+            "summary": "引用帖：U.S. Graphics Company"
           }
         ],
         "learningActions": [
@@ -23664,7 +27048,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://store.google.com/product/pixel_tag",
             "access": "partial",
             "value": "外链提供原帖之外的产品页、文章或演示入口。",
-            "learningValue": "可继续核验功能、定价、案例和实现参考价值。"
+            "learningValue": "可继续核验功能、定价、案例和实现参考价值。",
+            "summary": "store.google.com/product/pixel_…"
           }
         ],
         "learningActions": [
@@ -23719,7 +27104,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://techcrunch.com/2026/08/12/mesh-automattics-crm-for-everyone-comes-to-android/",
             "access": "partial",
             "value": "TechCrunch 卡片说明产品背景和平台扩展，比原帖多了公司、品类和发布语境。",
-            "learningValue": "用于判断产品是否只是 UI 更新，还是关系管理工作流的多端扩展。"
+            "learningValue": "用于判断产品是否只是 UI 更新，还是关系管理工作流的多端扩展。",
+            "summary": "techcrunch.com/2026/08/12/mes…"
           }
         ],
         "learningActions": [
@@ -23797,7 +27183,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/vista8/status/2087583384545776020",
             "access": "partial",
             "value": "引用帖补充了原作者的完整上下文、原始链接或更完整方法。",
-            "learningValue": "适合回到原帖确认方法链路，避免只收藏二次转述。"
+            "learningValue": "适合回到原帖确认方法链路，避免只收藏二次转述。",
+            "summary": "引用帖：向阳乔木"
           }
         ],
         "learningActions": [
@@ -23944,14 +27331,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "http://github.com/firecrawl/anydoc",
             "access": "full",
             "value": "GitHub 页面提供仓库、README 和实现边界，可核验这不是单纯概念展示。",
-            "learningValue": "适合继续读结构、脚本和使用方式，把它转成个人设计工程素材或 prompt 资产。"
+            "learningValue": "适合继续读结构、脚本和使用方式，把它转成个人设计工程素材或 prompt 资产。",
+            "summary": "github.com/firecrawl/anyd…"
           },
           {
             "title": "引用帖：Nicolas Camara",
             "url": "https://x.com/nickscamara_/status/2084669934194266370",
             "access": "partial",
             "value": "引用帖补充了原作者的完整上下文、原始链接或更完整方法。",
-            "learningValue": "适合回到原帖确认方法链路，避免只收藏二次转述。"
+            "learningValue": "适合回到原帖确认方法链路，避免只收藏二次转述。",
+            "summary": "引用帖：Nicolas Camara"
           }
         ],
         "learningActions": [
@@ -24029,7 +27418,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/benjitaylor/status/2087227155076046995",
             "access": "partial",
             "value": "引用帖补充了原作者的完整上下文、原始链接或更完整方法。",
-            "learningValue": "适合回到原帖确认方法链路，避免只收藏二次转述。"
+            "learningValue": "适合回到原帖确认方法链路，避免只收藏二次转述。",
+            "summary": "引用帖：Benji Taylor"
           }
         ],
         "learningActions": [
@@ -24061,7 +27451,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
             "access": "partial",
             "value": "外链提供原帖之外的产品页、文章或演示入口。",
-            "learningValue": "可继续核验功能、定价、案例和实现参考价值。"
+            "learningValue": "可继续核验功能、定价、案例和实现参考价值。",
+            "summary": "api-docs.deepseek.com/zh-cn/quick_st…"
           }
         ],
         "learningActions": [
@@ -24116,7 +27507,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://react.dev/learn/escape-hatches",
             "access": "partial",
             "value": "外链提供原帖之外的产品页、文章或演示入口。",
-            "learningValue": "可继续核验功能、定价、案例和实现参考价值。"
+            "learningValue": "可继续核验功能、定价、案例和实现参考价值。",
+            "summary": "react.dev/learn/escape-h…"
           }
         ],
         "learningActions": [
@@ -24194,7 +27586,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://vwlab.io/products/animations-with-webflow",
             "access": "partial",
             "value": "外链提供原帖之外的产品页、文章或演示入口。",
-            "learningValue": "可继续核验功能、定价、案例和实现参考价值。"
+            "learningValue": "可继续核验功能、定价、案例和实现参考价值。",
+            "summary": "vwlab.io/products/anima…"
           }
         ],
         "learningActions": [
@@ -24249,7 +27642,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://60fps.design/",
             "access": "full",
             "value": "站点本身是 App 微动画参考库，提供原帖之外的可浏览案例集合。",
-            "learningValue": "可作为动效拆解素材库，按触发、反馈、节奏和可复用模式归档。"
+            "learningValue": "可作为动效拆解素材库，按触发、反馈、节奏和可复用模式归档。",
+            "summary": "60fps.design"
           }
         ],
         "learningActions": [
@@ -24282,35 +27676,40 @@ window.DESIGNER_ANALYSIS = [
             "url": "http://styles.refero.design",
             "access": "partial",
             "value": "外链是工具/灵感目录或组件资源，信息密度来自可持续浏览的案例集合。",
-            "learningValue": "适合建立个人设计工程参考库，筛选成 UI、动效、组件、AI Coding 四类。"
+            "learningValue": "适合建立个人设计工程参考库，筛选成 UI、动效、组件、AI Coding 四类。",
+            "summary": "styles.refero.design"
           },
           {
             "title": "vibeindex.dev",
             "url": "http://vibeindex.dev",
             "access": "partial",
             "value": "外链是工具/灵感目录或组件资源，信息密度来自可持续浏览的案例集合。",
-            "learningValue": "适合建立个人设计工程参考库，筛选成 UI、动效、组件、AI Coding 四类。"
+            "learningValue": "适合建立个人设计工程参考库，筛选成 UI、动效、组件、AI Coding 四类。",
+            "summary": "vibeindex.dev"
           },
           {
             "title": "ui.aceternity.com",
             "url": "http://ui.aceternity.com",
             "access": "partial",
             "value": "外链是工具/灵感目录或组件资源，信息密度来自可持续浏览的案例集合。",
-            "learningValue": "适合建立个人设计工程参考库，筛选成 UI、动效、组件、AI Coding 四类。"
+            "learningValue": "适合建立个人设计工程参考库，筛选成 UI、动效、组件、AI Coding 四类。",
+            "summary": "ui.aceternity.com"
           },
           {
             "title": "animejs.com",
             "url": "http://animejs.com",
             "access": "partial",
             "value": "外链是工具/灵感目录或组件资源，信息密度来自可持续浏览的案例集合。",
-            "learningValue": "适合建立个人设计工程参考库，筛选成 UI、动效、组件、AI Coding 四类。"
+            "learningValue": "适合建立个人设计工程参考库，筛选成 UI、动效、组件、AI Coding 四类。",
+            "summary": "animejs.com"
           },
           {
             "title": "minimal.gallery",
             "url": "http://minimal.gallery",
             "access": "partial",
             "value": "外链提供原帖之外的产品页、文章或演示入口。",
-            "learningValue": "可继续核验功能、定价、案例和实现参考价值。"
+            "learningValue": "可继续核验功能、定价、案例和实现参考价值。",
+            "summary": "minimal.gallery"
           }
         ],
         "learningActions": [
@@ -24343,7 +27742,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "http://inspora.design",
             "access": "partial",
             "value": "外链是工具/灵感目录或组件资源，信息密度来自可持续浏览的案例集合。",
-            "learningValue": "适合建立个人设计工程参考库，筛选成 UI、动效、组件、AI Coding 四类。"
+            "learningValue": "适合建立个人设计工程参考库，筛选成 UI、动效、组件、AI Coding 四类。",
+            "summary": "inspora.design"
           }
         ],
         "learningActions": [
@@ -24376,7 +27776,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://x.com/cheerselflin/status/2085250181948457031",
             "access": "partial",
             "value": "引用帖补充了原作者的完整上下文、原始链接或更完整方法。",
-            "learningValue": "适合回到原帖确认方法链路，避免只收藏二次转述。"
+            "learningValue": "适合回到原帖确认方法链路，避免只收藏二次转述。",
+            "summary": "引用帖：林悦己Cheer"
           }
         ],
         "learningActions": [
@@ -24433,14 +27834,16 @@ window.DESIGNER_ANALYSIS = [
             "url": "http://github.com/eternityspring/shuohao-skills",
             "access": "full",
             "value": "GitHub 页面提供仓库、README 和实现边界，可核验这不是单纯概念展示。",
-            "learningValue": "适合继续读结构、脚本和使用方式，把它转成个人设计工程素材或 prompt 资产。"
+            "learningValue": "适合继续读结构、脚本和使用方式，把它转成个人设计工程素材或 prompt 资产。",
+            "summary": "github.com/eternityspring…"
           },
           {
             "title": "引用帖：烁皓",
             "url": "https://x.com/eternityspring/status/2086409857708757156",
             "access": "partial",
             "value": "引用帖补充了原作者的完整上下文、原始链接或更完整方法。",
-            "learningValue": "适合回到原帖确认方法链路，避免只收藏二次转述。"
+            "learningValue": "适合回到原帖确认方法链路，避免只收藏二次转述。",
+            "summary": "引用帖：烁皓"
           }
         ],
         "learningActions": [
@@ -24497,7 +27900,8 @@ window.DESIGNER_ANALYSIS = [
             "url": "https://github.com/ricocc/brands-design-md",
             "access": "full",
             "value": "GitHub 页面提供仓库、README 和实现边界，可核验这不是单纯概念展示。",
-            "learningValue": "适合继续读结构、脚本和使用方式，把它转成个人设计工程素材或 prompt 资产。"
+            "learningValue": "适合继续读结构、脚本和使用方式，把它转成个人设计工程素材或 prompt 资产。",
+            "summary": "github.com/ricocc/brands-…"
           }
         ],
         "learningActions": [
@@ -26647,9 +30051,10 @@ window.DESIGNER_ANALYSIS = [
           {
             "url": "https://x.com/mathelirium/status/2087077892723212441",
             "title": "引用帖：Mathelirium",
-            "access": "x-stored",
+            "access": "partial",
             "value": "引用帖补充了上游发布或案例背景：Another great account worth following. He does great things with math https://x.com/YoheiNishitsuji/status/2087060021528101362。它能帮助判断原帖是在评论、复刻、延展还是提出新方法。",
-            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。"
+            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。",
+            "summary": "引用帖：Mathelirium"
           }
         ],
         "learningActions": [
@@ -27194,9 +30599,10 @@ window.DESIGNER_ANALYSIS = [
           {
             "url": "https://x.com/Spotify/status/2086894118282641514",
             "title": "引用帖：Spotify",
-            "access": "x-stored",
+            "access": "partial",
             "value": "引用帖补充了上游发布或案例背景：Your listening just leveled up. Now on Spotify: 💬 Talk to Spotify to help you find your next listen 📌 Your Library now holds up to 20 pins 🎬 Videos For You brings fre…。它能帮助判断原帖是在评论、复刻、延展还是提出新方法。",
-            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。"
+            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。",
+            "summary": "引用帖：Spotify"
           }
         ],
         "learningActions": [
@@ -27229,9 +30635,10 @@ window.DESIGNER_ANALYSIS = [
           {
             "url": "https://x.com/ZhenZhu200/status/2086479520996151470",
             "title": "引用帖：Zhen Zhu",
-            "access": "x-stored",
+            "access": "partial",
             "value": "引用帖补充了上游发布或案例背景：AI数字人我提供一个新思路，AI数字人教练做运动训练产品，直击商业死穴：内容成本。 运动训练里的内容成本就是你的动作库，无论是健身，还是 网球、篮球、足球，包括体能训练、功能性训练，舞蹈瑜伽等，任何复杂的训练其传统商业模式都是，请教练拍动作，录制再放到自己APP里。 对于一个小公司，上千个动作如果都请模特、租场地、打灯、拍摄、剪辑，产品…。它能帮助判断原帖是在评论、复刻、延展还是提出新方法。",
-            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。"
+            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。",
+            "summary": "引用帖：Zhen Zhu"
           }
         ],
         "learningActions": [
@@ -27612,7 +31019,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - zanwei/design-dna",
             "access": "full",
             "value": "链接页提供了原帖之外的资源/文档上下文：Turn reference UIs into quantified Design DNA JSON, covering tokens, qualitative style, visual effects, then generate matching UI.。它的价值在于把灵感推进到可验证的实现或资料入口。",
-            "learningValue": "围绕「AI 视频 / 动效叙事」继续检查案例、README、参数或方法论，判断能否转成个人设计流程。"
+            "learningValue": "围绕「AI 视频 / 动效叙事」继续检查案例、README、参数或方法论，判断能否转成个人设计流程。",
+            "summary": "GitHub - zanwei/design-dna"
           }
         ],
         "learningActions": [
@@ -27648,7 +31056,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - VoltAgent/awesome-design-md",
             "access": "full",
             "value": "链接页提供了原帖之外的资源/文档上下文：A collection of DESIGN.md files analyzed from popular brand design systems, intended for coding agents to generate matching UI.。它的价值在于把灵感推进到可验证的实现或资料入口。",
-            "learningValue": "围绕「界面设计 / 设计工程」继续检查案例、README、参数或方法论，判断能否转成个人设计流程。"
+            "learningValue": "围绕「界面设计 / 设计工程」继续检查案例、README、参数或方法论，判断能否转成个人设计流程。",
+            "summary": "GitHub - VoltAgent/awesome-design-md"
           }
         ],
         "learningActions": [
@@ -27709,7 +31118,8 @@ window.DESIGNER_ANALYSIS = [
             "title": "GitHub - nutllwhy/seedance-tvc-director",
             "access": "full",
             "value": "链接页提供了原帖之外的资源/文档上下文：A Seedance 2.5 TVC director Skill for commercial video prompts, storyboards, voiceover routing and evidence-driven retakes.。它的价值在于把灵感推进到可验证的实现或资料入口。",
-            "learningValue": "围绕「AI 视频 / 动效叙事」继续检查案例、README、参数或方法论，判断能否转成个人设计流程。"
+            "learningValue": "围绕「AI 视频 / 动效叙事」继续检查案例、README、参数或方法论，判断能否转成个人设计流程。",
+            "summary": "GitHub - nutllwhy/seedance-tvc-director"
           }
         ],
         "learningActions": [
@@ -27794,9 +31204,10 @@ window.DESIGNER_ANALYSIS = [
           {
             "url": "https://x.com/AmirMushich/status/2086523169922331090",
             "title": "引用帖：AmirMušić",
-            "access": "x-stored",
+            "access": "partial",
             "value": "引用帖补充了上游发布或案例背景：Image-to-Conductive circuit board / GPT Image [dir. v8] Leverage my method of Asset shifting - a variable-based prompt system that turns any logo/icon into visual style …。它能帮助判断原帖是在评论、复刻、延展还是提出新方法。",
-            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。"
+            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。",
+            "summary": "引用帖：AmirMušić"
           }
         ],
         "learningActions": [
@@ -27934,9 +31345,10 @@ window.DESIGNER_ANALYSIS = [
           {
             "url": "https://x.com/AmirMushich/status/2086142130930790518",
             "title": "引用帖：AmirMušić",
-            "access": "x-stored",
+            "access": "partial",
             "value": "引用帖补充了上游发布或案例背景：3D collectible achievement badge / GPT Image [dir. v8] 3-variable prompt system, turns any logo/icon into a translucent frozen glass 3D simulation Prompt 🔽 -> Grow fast…。它能帮助判断原帖是在评论、复刻、延展还是提出新方法。",
-            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。"
+            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。",
+            "summary": "引用帖：AmirMušić"
           }
         ],
         "learningActions": [
@@ -28073,9 +31485,10 @@ window.DESIGNER_ANALYSIS = [
           {
             "url": "https://x.com/asherdipps/status/2082570113811948026",
             "title": "引用帖：Asher",
-            "access": "x-stored",
+            "access": "partial",
             "value": "引用帖补充了上游发布或案例背景：Join us August 15 for \"Mind bending.\", my Apple Event concept/recreation. It's my biggest project ever and I hope to see you there!。它能帮助判断原帖是在评论、复刻、延展还是提出新方法。",
-            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。"
+            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。",
+            "summary": "引用帖：Asher"
           }
         ],
         "learningActions": [
@@ -28189,9 +31602,10 @@ window.DESIGNER_ANALYSIS = [
           {
             "url": "https://x.com/eternityspring/status/2085328009704493196",
             "title": "引用帖：烁皓",
-            "access": "x-stored",
+            "access": "partial",
             "value": "引用帖补充了上游发布或案例背景：本地能跑 MiniMax H3 之后，都以为 AI 短剧的门槛天塌了 真正去做才发现，要把小说改成剧本然后分镜制作就必须得先固定人物角色。 我开源了一个 skill 专门来做这件事，Claude Code / Codex 都能跑： - 丢一本小说进去，AI 自动拆出每个角色：人物画像 + 卡通形象 prompt + 音色 prompt …。它能帮助判断原帖是在评论、复刻、延展还是提出新方法。",
-            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。"
+            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。",
+            "summary": "引用帖：烁皓"
           }
         ],
         "learningActions": [
@@ -28469,9 +31883,10 @@ window.DESIGNER_ANALYSIS = [
           {
             "url": "https://x.com/tweetbylokki/status/2085410925826445343",
             "title": "引用帖：Lokki",
-            "access": "x-stored",
+            "access": "partial",
             "value": "引用帖补充了上游发布或案例背景：Icon by icon, the pack is taking shape. Almost there. What do you think?。它能帮助判断原帖是在评论、复刻、延展还是提出新方法。",
-            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。"
+            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。",
+            "summary": "引用帖：Lokki"
           }
         ],
         "learningActions": [
@@ -28771,9 +32186,10 @@ window.DESIGNER_ANALYSIS = [
           {
             "url": "https://x.com/VincentWei93/status/2079118667074376114",
             "title": "引用帖：文森特",
-            "access": "x-stored",
+            "access": "partial",
             "value": "引用帖补充了上游发布或案例背景：最近研究了一个 skill能够生成类似产品发布宣传片质感的动效视频。前段时间在尝试 remotion 插件+Claude code，视频动效基本处于 PPT 动画的水平。没有镜头运动，没有转场，没有音效，没有足够丰富的动画特效。于是我开源了这个video-shotcraft skill：https://github.com/Vincen…。它能帮助判断原帖是在评论、复刻、延展还是提出新方法。",
-            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。"
+            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。",
+            "summary": "引用帖：文森特"
           }
         ],
         "learningActions": [
@@ -28805,9 +32221,10 @@ window.DESIGNER_ANALYSIS = [
           {
             "url": "https://x.com/markhurrell/status/2085464411549102481",
             "title": "引用帖：Mark Hurrell",
-            "access": "x-stored",
+            "access": "partial",
             "value": "引用帖补充了上游发布或案例背景：css overprint style generator for that David Carson thing https://thinkmake.github.io/overprinter.markhurrell.com/。它能帮助判断原帖是在评论、复刻、延展还是提出新方法。",
-            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。"
+            "learningValue": "回看引用帖与当前帖的差异，记录“原始案例”和“个人解读”各自可学习的部分。",
+            "summary": "引用帖：Mark Hurrell"
           }
         ],
         "learningActions": [

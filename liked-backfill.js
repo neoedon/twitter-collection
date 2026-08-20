@@ -1,6 +1,834 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-19T08:12:28+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-20T08:11:14+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2090142857932013838",
+    "TwitterUserID": "1560666650986237953",
+    "UserScreenName": "HeyDetya",
+    "UserProfileName": "Hey Detya",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1560666780531453952/bquHXSHX_200x200.jpg",
+    "TweetText": "best design resources I use daily 👇\n\n- http://Animos.app — showcase designs in motion\n- http://Inspora.design — design inspiration\n- http://Hano.so — 3D device mockups\n- http://Supaste.com — clipboard history for macOS\n- http://Dark.design — dark mode design gallery\n- http://Gradientool.com — unique gradients\n- http://Backgrounds.supply — backgrounds\n- http://Loadmo.re — animations & micro-interactions\n- http://Bestdesignsonx.com — discover creatives on 𝕏\n- http://Recent.design — best recent design, daily\n\nsave this one 👀",
+    "Tweet Url": "https://x.com/HeyDetya/status/2090142857932013838",
+    "TweetCreatedDate": "2026-08-19T18:24:24.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090142818899824640/img/DJQ1gddaCF8nDVhr.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090142818899824640/vid/avc1/960x720/psndHcYmhKPl4m7J.mp4?tag=14",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design Engineering",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090142818899824640/vid/avc1/960x720/psndHcYmhKPl4m7J.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090142818899824640/img/DJQ1gddaCF8nDVhr.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "6 REPLIES · 3 REPOSTS · 76 LIKES · 150 BOOKMARKS · 3663 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-19T18:24:24.000Z"
+    }
+  },
+  {
+    "TweetID": "2090118053354684808",
+    "TwitterUserID": "1658494035307134978",
+    "UserScreenName": "FarzadGodarz",
+    "UserProfileName": "Farzad Godarz",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2084612353463627776/UCqFnHTN_200x200.jpg",
+    "TweetText": "Love this kind of cute interaction😌",
+    "Tweet Url": "https://x.com/FarzadGodarz/status/2090118053354684808",
+    "TweetCreatedDate": "2026-08-19T16:45:51.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090117563988496384/img/BR57kzgdIvWqUNRD.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090117563988496384/vid/avc1/1080x1080/XkfgzcnFvPHCUKuO.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人收藏偏好",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090117563988496384/vid/avc1/1080x1080/XkfgzcnFvPHCUKuO.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090117563988496384/img/BR57kzgdIvWqUNRD.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "6 REPLIES · 5 REPOSTS · 55 LIKES · 38 BOOKMARKS · 3193 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-19T16:45:51.000Z"
+    }
+  },
+  {
+    "TweetID": "2090110302969081899",
+    "TwitterUserID": "2926712868",
+    "UserScreenName": "Lonely__MH",
+    "UserProfileName": "Lonely",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1141385957234470912/iJMy6F7u_200x200.jpg",
+    "TweetText": "🎉好消息！ 8G 内存 Mac 也能部署 Qwen 3.8-27B 了！\n\n@UnslothAI   刚刚整了个大活，发布了基于 Qwen3.8-27B 的 Dynamic 3.0 超级量化版本！\n\n以往 27B 这种体量的多模态大模型，至少需要 30G 以上的显存/内存才能勉强带得动\n\n但这次，通过极致的 1-bit / 2-bit 量化（UD-IQ1_M / UD-IQ2_S），模型体积直接被压缩到了 6G~8GB 左右！\n\n虽然是极限压缩，但它依然保留了多模态能力，还自带思维链深度思考！\n\n运行方式👇🏻\n\n1. 羊驼 Ollama 一键运行（适合小白）\n---\nollama run http://hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ2_S\n---\n\n2. llama.cpp 终端运行（推荐极客）\n---\nbrew install llama.cpp llama cli -hf unsloth/Qwen3.8-27B-GGUF:UD-IQ2_S\n---",
+    "Tweet Url": "https://x.com/Lonely__MH/status/2090110302969081899",
+    "TweetCreatedDate": "2026-08-19T16:15:03.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQGP-hIbYAAKzSZ.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人收藏偏好",
+      "Image",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQGP-hIbYAAKzSZ.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "47 REPLIES · 127 REPOSTS · 1182 LIKES · 1850 BOOKMARKS · 146114 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-19T16:15:03.000Z"
+    }
+  },
+  {
+    "TweetID": "2090106767711896045",
+    "TwitterUserID": "1497584507414798339",
+    "UserScreenName": "arlanoska",
+    "UserProfileName": "Arlan",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2080839382295273472/QTCSkJpQ_200x200.jpg",
+    "TweetText": "text lens effect!\n\ncopy code here:\nhttps://arlan.me/vault",
+    "Tweet Url": "https://x.com/arlanoska/status/2090106767711896045",
+    "TweetCreatedDate": "2026-08-19T16:01:00.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090001791211724800/img/zMBE3g8jvJQFeQ15.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090001791211724800/vid/avc1/1144x720/kdMYlPtBppq9yb0L.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人收藏偏好",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090001791211724800/vid/avc1/1144x720/kdMYlPtBppq9yb0L.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090001791211724800/img/zMBE3g8jvJQFeQ15.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "11 REPLIES · 5 REPOSTS · 174 LIKES · 117 BOOKMARKS · 4705 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-19T16:01:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2090007297686978928",
+    "TwitterUserID": "1206800829950259202",
+    "UserScreenName": "m1ssuo",
+    "UserProfileName": "Vincent Yang",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1589233256175923202/CsyqQfsK_200x200.png",
+    "TweetText": "Native macOS console for herdr — all your coding agents and their live terminals, across devices  \n\nEarly stage software without full test coverage — expect bugs. PRs are very welcome!  \n\nhttps://github.com/missuo/herdrm",
+    "Tweet Url": "https://x.com/m1ssuo/status/2090007297686978928",
+    "TweetCreatedDate": "2026-08-19T09:25:44.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Agent Workflow",
+      "Text",
+      "Link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "GitHub - missuo/herdrm: Native macOS console for herdr — all your coding agents and their live...",
+      "url": "https://github.com/missuo/herdrm",
+      "preview": "Native macOS console for herdr — all your coding agents and their live terminals, across devices - missuo/herdrm",
+      "cover": "https://pbs.twimg.com/card_img/2089975559938056192/SvHcx-_8?format=jpg&name=800x419"
+    },
+    "_metrics": "17 REPLIES · 35 REPOSTS · 410 LIKES · 544 BOOKMARKS · 84060 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-19T09:25:44.000Z"
+    }
+  },
+  {
+    "TweetID": "2090005709169766903",
+    "TwitterUserID": "1444537408431673345",
+    "UserScreenName": "alaymanguy",
+    "UserProfileName": "Aniket Pawar",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2077152176284262400/5eI1aHiZ_200x200.jpg",
+    "TweetText": "wtf this is crazy: https://morphicons.com",
+    "Tweet Url": "https://x.com/alaymanguy/status/2090005709169766903",
+    "TweetCreatedDate": "2026-08-19T09:19:26.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090004942941761536/img/n-0R8lhpCWsnOM_k.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090004942941761536/vid/avc1/1150x720/OOyGgXPMXgNHsUhB.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Visual System",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090004942941761536/vid/avc1/1150x720/OOyGgXPMXgNHsUhB.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090004942941761536/img/n-0R8lhpCWsnOM_k.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "5 REPLIES · 22 REPOSTS · 304 LIKES · 328 BOOKMARKS · 15131 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-19T09:19:26.000Z"
+    }
+  },
+  {
+    "TweetID": "2090000365131596114",
+    "TwitterUserID": "588083665",
+    "UserScreenName": "tranmautritam",
+    "UserProfileName": "Tran Mau Tri Tam ✪",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1768219583218081792/HP1g3zAA_200x200.jpg",
+    "TweetText": "This tool is amazing!\n\nYou can morph any SVG icon into another.\n\nSave it → https://morphicons.com",
+    "Tweet Url": "https://x.com/tranmautritam/status/2090000365131596114",
+    "TweetCreatedDate": "2026-08-19T08:58:12.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090000318516146176/img/iY7tKswwOyv5bo8F.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090000318516146176/vid/avc1/1280x720/qGBrgeoWvBlBNvcL.mp4?tag=14",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Visual System",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090000318516146176/vid/avc1/1280x720/qGBrgeoWvBlBNvcL.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090000318516146176/img/iY7tKswwOyv5bo8F.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "17 REPLIES · 61 REPOSTS · 999 LIKES · 1229 BOOKMARKS · 45787 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 3,
+      "observedDatetime": "2026-08-19T08:58:12.000Z"
+    }
+  },
+  {
+    "TweetID": "2089984794671063068",
+    "TwitterUserID": "2085700573148413952",
+    "UserScreenName": "uidotcamera",
+    "UserProfileName": "UI Camera",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2088766528648814592/ZgygvoWN_200x200.jpg",
+    "TweetText": "The best use of a mono font we've seen in a while https://gps-01.dmytro.fyi/",
+    "Tweet Url": "https://x.com/uidotcamera/status/2089984794671063068",
+    "TweetCreatedDate": "2026-08-19T07:56:19.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089984180071337984/img/cbTpMevLRnElTWgC.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2089984180071337984/vid/avc1/1280x720/c7DArwnMpAFJDr5Z.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Visual System",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089984180071337984/vid/avc1/1280x720/c7DArwnMpAFJDr5Z.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089984180071337984/img/cbTpMevLRnElTWgC.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "5 REPLIES · 10 REPOSTS · 257 LIKES · 251 BOOKMARKS · 10401 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 3,
+      "observedDatetime": "2026-08-19T07:56:19.000Z"
+    }
+  },
+  {
+    "TweetID": "2089966185777356829",
+    "TwitterUserID": "1214040433",
+    "UserScreenName": "joelbqz",
+    "UserProfileName": "Joel",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2016679314553745408/xj28Semj_200x200.jpg",
+    "TweetText": "threejs - r3f - grok-4.6 - forge\n\nhttps://ui8.ai/forge",
+    "Tweet Url": "https://x.com/joelbqz/status/2089966185777356829",
+    "TweetCreatedDate": "2026-08-19T06:42:23.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089966132874649600/img/npb-IR2BSyBP-P8S.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2089966132874649600/vid/avc1/1234x720/8PKzsQs015PPA9bF.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Agent Workflow",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089966132874649600/vid/avc1/1234x720/8PKzsQs015PPA9bF.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089966132874649600/img/npb-IR2BSyBP-P8S.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "0 REPLIES · 4 REPOSTS · 64 LIKES · 83 BOOKMARKS · 5493 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-19T06:42:23.000Z"
+    }
+  },
+  {
+    "TweetID": "2089960396245643706",
+    "TwitterUserID": "296593919",
+    "UserScreenName": "vikingmute",
+    "UserProfileName": "Viking",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/725179208528322560/TPjU7qop_200x200.jpg",
+    "TweetText": "Departure Mono 超好看 https://departuremono.com/\n\n等宽像素字体 lo-fi 复古，古早科幻的感觉，网站展示做的非常棒，尤其是航班表，飞行仪表盘的设计，最下面还有一个打砖块的游戏，和这个字体配合的非常好，网站和字体都算是一个艺术品。\n\n假如产品只要适配英文就好了，就有那么多有趣的字体可以使用了。",
+    "Tweet Url": "https://x.com/vikingmute/status/2089960396245643706",
+    "TweetCreatedDate": "2026-08-19T06:19:22.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089960063566061568/img/k5EtdaxkGoPKEVen.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2089960063566061568/vid/avc1/1280x720/pYzeNrvyqD0CTyqh.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Visual System",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089960063566061568/vid/avc1/1280x720/pYzeNrvyqD0CTyqh.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089960063566061568/img/k5EtdaxkGoPKEVen.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "48 REPLIES · 12 REPOSTS · 131 LIKES · 121 BOOKMARKS · 8726 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 3,
+      "observedDatetime": "2026-08-19T06:19:22.000Z"
+    }
+  },
+  {
+    "TweetID": "2089958970882736480",
+    "TwitterUserID": "201545178",
+    "UserScreenName": "okasupportgroup",
+    "UserProfileName": "小七",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1710933683648217088/DOdUM2c0_200x200.jpg",
+    "TweetText": "强烈推荐所有苹果开发者抓紧去申请这个用户退订挽留API。测试过效果，非常不错。 https://developer.apple.com/documentation/retentionmessaging",
+    "Tweet Url": "https://x.com/okasupportgroup/status/2089958970882736480",
+    "TweetCreatedDate": "2026-08-19T06:13:42.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQEGUV8akAAHQoC.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Product Design",
+      "Image",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQEGUV8akAAHQoC.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "6 REPLIES · 17 REPOSTS · 216 LIKES · 331 BOOKMARKS · 23122 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 3,
+      "observedDatetime": "2026-08-19T06:13:42.000Z"
+    }
+  },
+  {
+    "TweetID": "2089937071511421356",
+    "TwitterUserID": "899564621631299585",
+    "UserScreenName": "lingxi",
+    "UserProfileName": "Lingxi Li",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1715769013978968064/_vP6HKPd_200x200.jpg",
+    "TweetText": "dictation bar just got an experience upgrade in grok @bot on iOS.\n\nit now fits your finger better, especially on one hand.",
+    "Tweet Url": "https://x.com/lingxi/status/2089937071511421356",
+    "TweetCreatedDate": "2026-08-19T04:46:41.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQDygNmbsAA1pgb.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Agent Workflow",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQDygNmbsAA1pgb.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "21 REPLIES · 10 REPOSTS · 523 LIKES · 257 BOOKMARKS · 19058 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-19T04:46:41.000Z"
+    }
+  },
+  {
+    "TweetID": "2089932520708030678",
+    "TwitterUserID": "48113686",
+    "UserScreenName": "lachamade",
+    "UserProfileName": "François Lefebvre",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/528435334636638208/qknjm3o__200x200.jpeg",
+    "TweetText": "Fresh look at this dynamic grid, controlled by distance from a null in After Effects. Leaving the bounding box visible to show how the distortions behave.",
+    "Tweet Url": "https://x.com/lachamade/status/2089932520708030678",
+    "TweetCreatedDate": "2026-08-19T04:28:36.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089932368240873472/img/x-xSjDo035jWgWVo.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2089932368240873472/vid/avc1/1204x720/yky3f3grsfeQ2GOw.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Motion Design",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089932368240873472/vid/avc1/1204x720/yky3f3grsfeQ2GOw.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089932368240873472/img/x-xSjDo035jWgWVo.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "3 REPLIES · 40 REPOSTS · 503 LIKES · 310 BOOKMARKS · 15864 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-19T04:28:36.000Z"
+    }
+  },
+  {
+    "TweetID": "2089895546068799850",
+    "TwitterUserID": "2018850860957302784",
+    "UserScreenName": "studio_oneroom",
+    "UserProfileName": "AIスタジオワンルーム（AIアニメ、動画、漫画）",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2046596178683559936/DCL295Eb_200x200.jpg",
+    "TweetText": "MiniMaxDesignでモーショングラフィックを勉強中！\n\n昨日から初めて、たった一日で大分、それっぽいものが作れるようになってきました。\n\nアフターエフェクトを使えない私にとってモーショングラフィックは憧れでもあったので、これが無編集で、しかもT2Vで出来てしまうのは最高すぎます！！\n\n正直、MiniMax H3の可能性は底知れない・・・\n\n今まで私のようにモーショングラフィックを眺めているだけだった人でも、今日から始められます！！\n\nMV、商用利用、アニメのOP、などなど\n可能性は無限大だと思いました！！\n\n#MiniMaxH3 #MiniMaxDesig",
+    "Tweet Url": "https://x.com/studio_oneroom/status/2089895546068799850",
+    "TweetCreatedDate": "2026-08-19T02:01:41.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089893595331645440/img/4oa1TNQIF0j3gfyl.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2089893595331645440/vid/avc1/1280x720/QatPwPKHnOqk4Glq.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design Engineering",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089893595331645440/vid/avc1/1280x720/QatPwPKHnOqk4Glq.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089893595331645440/img/4oa1TNQIF0j3gfyl.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "9 REPLIES · 35 REPOSTS · 385 LIKES · 380 BOOKMARKS · 35882 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-19T02:01:41.000Z"
+    }
+  },
+  {
+    "TweetID": "2089882569232048614",
+    "TwitterUserID": "1699797396589588480",
+    "UserScreenName": "MaxForAI",
+    "UserProfileName": "Max For AI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1885611457376903171/zWWnahYp_200x200.jpg",
+    "TweetText": "啊？ @vercel  居然开源了一个Coding Agent？？\n\n这个Agent叫：fx\n\n它有点反潮流，只有 6.3MB 的大小。\n\n现在的 Coding Agent 都在越做越重：IDE、TUI、浏览器、工作流、记忆、各种 Agent 编排全往里面塞。\n\nfx 反过来，想把 Coding Agent 做成一个 Unix 工具。\n\n它用 Zig 编写，是一个单独的本地二进制文件：\n\n只有 6.3MiB\n冷启动约 10µs\n基础内存占用只有个位数 MB\n不需要 Node、Python 等运行时\nApache-2.0 开源\n模型和供应商无关，本地模型、云模型都能接\n\n更重要的是，fx 一开始就不是按照“终端 IDE”设计的。\n\n它的 CLI 更像 shell：输出尽可能少，不搞复杂 TUI；fx ask --json 可以直接返回结构化结果，fx acp 可以接编辑器和其他客户端，整个系统甚至还能编译成 WebAssembly，直接跑在浏览器里。\n\n扩展则交给 Skills、Plugins 和 MCP。\n\n这意味着 fx 真正瞄准的，可能不只是普通开发者写代码。\n\n它非常适合塞进 Agent 沙盒、Benchmark、模型评测、训练环境，以及其他产品内部，批量拉起 Agent 时也不用先装一大坨运行时和依赖。\n\nVercel 自己也说，fx 最开始就是内部研究工具。\n\nVercel 不是又做了一个 Claude Code，而是在尝试把 Coding Agent 压成一种基础设施。\n\n某种程度上，Coding Agent 也开始有自己的 BusyBox 了。",
+    "Tweet Url": "https://x.com/MaxForAI/status/2089882569232048614",
+    "TweetCreatedDate": "2026-08-19T01:10:07.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQDBEEqbMAAqxLi.png?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Agent Workflow",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQDBEEqbMAAqxLi.png?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "37 REPLIES · 17 REPOSTS · 226 LIKES · 224 BOOKMARKS · 40966 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-19T01:10:07.000Z"
+    }
+  },
+  {
+    "TweetID": "2089878518272536863",
+    "TwitterUserID": "190151042",
+    "UserScreenName": "molightme",
+    "UserProfileName": "molight",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1821165033633804291/SpdOZ7RO_200x200.jpg",
+    "TweetText": "有钱有闲真好啊！\n\n前推特创始人 Jack 现在有事没事就做点有意思的产品然后开源出来给大家玩。\n\n前段时间的 buzz / drift，现在又来个 berd，看起来是对标马斯克的 Grok Bot，用于构建 AI 智能体的趣味桌面应用。",
+    "Tweet Url": "https://x.com/molightme/status/2089878518272536863",
+    "TweetCreatedDate": "2026-08-19T00:54:01.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089876646946066432/img/qSzZgVVXWSD6dwqU.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2089876646946066432/vid/avc1/1082x720/EVEbvy8MJBmM0XwK.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Agent Workflow",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089876646946066432/vid/avc1/1082x720/EVEbvy8MJBmM0XwK.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089876646946066432/img/qSzZgVVXWSD6dwqU.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "6 REPLIES · 5 REPOSTS · 52 LIKES · 50 BOOKMARKS · 5764 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 3,
+      "observedDatetime": "2026-08-19T00:54:01.000Z"
+    }
+  },
+  {
+    "TweetID": "2089844401409499513",
+    "TwitterUserID": "14275130",
+    "UserScreenName": "jamesm",
+    "UserProfileName": "James McDonald",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2016625187282710528/ViCWldId_200x200.jpg",
+    "TweetText": "Spent an hour today to put my own spin on the new Preview app icon.\n\nProbably one of my favourites from the new update!",
+    "Tweet Url": "https://x.com/jamesm/status/2089844401409499513",
+    "TweetCreatedDate": "2026-08-18T22:38:27.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQCeZ3ybQAEE7vc.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Visual System",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQCeZ3ybQAEE7vc.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "18 REPLIES · 4 REPOSTS · 365 LIKES · 67 BOOKMARKS · 21025 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 3,
+      "observedDatetime": "2026-08-18T22:38:27.000Z"
+    }
+  },
+  {
+    "TweetID": "2089829677770703241",
+    "TwitterUserID": "96238468",
+    "UserScreenName": "emilwidlund",
+    "UserProfileName": "emil",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2025671217093464064/_ToPjoq__200x200.jpg",
+    "TweetText": "i had no idea what granular synthesis was 1 day ago.\n\ntonight, i built a proper engine with a complete sampler, effects signal path & tape recorder. learnt a ton. \n\ncoming soon.",
+    "Tweet Url": "https://x.com/emilwidlund/status/2089829677770703241",
+    "TweetCreatedDate": "2026-08-18T21:39:56.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089829109115334656/img/3HjFfCH1WbMh2j9d.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2089829109115334656/vid/avc1/644x360/0m4vHugA6FZJjhFE.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design Engineering",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089829109115334656/vid/avc1/644x360/0m4vHugA6FZJjhFE.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089829109115334656/img/3HjFfCH1WbMh2j9d.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "58 REPLIES · 36 REPOSTS · 1109 LIKES · 905 BOOKMARKS · 44174 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-18T21:39:56.000Z"
+    }
+  },
+  {
+    "TweetID": "2089799321013178670",
+    "TwitterUserID": "1048393757090041857",
+    "UserScreenName": "alain_0012",
+    "UserProfileName": "Alain Alvarez",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1978415747438129152/WLS6MYFi_200x200.jpg",
+    "TweetText": "adding more simple shapes to blobatar (capsule, triangle,\nhexagon, droplet), the trades:\n- aprox +700 bytes gzip in `blobatar@2.0`, now 4.3Kb\n- each version is deterministic by itself, upgrading from\nv1 to v2 may produce different results for the same seed\n\nHTTP default will be v2, to keep v1 results use ?gen=1 param\n\nhttp://blobatar.dev default will be v2",
+    "Tweet Url": "https://x.com/alain_0012/status/2089799321013178670",
+    "TweetCreatedDate": "2026-08-18T19:39:19.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQB1Y_3XwAABGlw.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人收藏偏好",
+      "Image",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQB1Y_3XwAABGlw.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "5 REPLIES · 3 REPOSTS · 107 LIKES · 69 BOOKMARKS · 5101 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-18T19:39:19.000Z"
+    }
+  },
+  {
+    "TweetID": "2089774945182072877",
+    "TwitterUserID": "1644691512398082048",
+    "UserScreenName": "archi_reum",
+    "UserProfileName": "Archireum",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1743260240252903424/SVQGvonT_200x200.jpg",
+    "TweetText": "原帖无可见文本，作为媒体/视觉收藏信号保留。",
+    "Tweet Url": "https://x.com/archi_reum/status/2089774945182072877",
+    "TweetCreatedDate": "2026-08-18T18:02:27.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQBfPMUWoAENU6h.jpg?name=orig,https://pbs.twimg.com/media/HQBfPHLWcAAp0jj.jpg?name=orig,https://pbs.twimg.com/media/HQBfPIZXgAEnyOJ.jpg?name=orig,https://pbs.twimg.com/media/HQBfPHdXYAAnYle.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人收藏偏好",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQBfPMUWoAENU6h.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQBfPHLWcAAp0jj.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQBfPIZXgAEnyOJ.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQBfPHdXYAAnYle.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "5 REPLIES · 46 REPOSTS · 867 LIKES · 161 BOOKMARKS · 27407 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-18T18:02:27.000Z"
+    }
+  },
+  {
+    "TweetID": "2089770081459056765",
+    "TwitterUserID": "1104748235049046016",
+    "UserScreenName": "elayadesigns",
+    "UserProfileName": "Elaya",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2066402050725027840/UAoYKzll_200x200.jpg",
+    "TweetText": "Animated in Higgsfield Seedance 2.5 + Cursor Composer 2.5\n\nAI Skill: https://github.com/elayadesign/ai-design-skills",
+    "Tweet Url": "https://x.com/elayadesigns/status/2089770081459056765",
+    "TweetCreatedDate": "2026-08-18T17:43:08.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089769960751112192/img/IGQ-v_r36cHU0Iq4.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2089769960751112192/vid/avc1/1112x720/TjuclgdWF2mgRfLY.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Agent Workflow",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089769960751112192/vid/avc1/1112x720/TjuclgdWF2mgRfLY.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089769960751112192/img/IGQ-v_r36cHU0Iq4.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "10 REPLIES · 27 REPOSTS · 687 LIKES · 751 BOOKMARKS · 35096 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 3,
+      "observedDatetime": "2026-08-18T17:43:08.000Z"
+    }
+  },
   {
     "TweetID": "2089740889778176092",
     "TwitterUserID": "1974233244770951170",
@@ -138,6 +966,46 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 8,
       "observedDatetime": "2026-08-18T14:26:07.000Z"
+    }
+  },
+  {
+    "TweetID": "2089705711534055668",
+    "TwitterUserID": "1048393757090041857",
+    "UserScreenName": "alain_0012",
+    "UserProfileName": "Alain Alvarez",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1978415747438129152/WLS6MYFi_200x200.jpg",
+    "TweetText": "blobatar has a url now.\n\nhttps://blobatar.dev/avatar/alain00\n\nany string - username, email, id, gravatar hash.\n13 expressions, 4 backgrounds, svg, any size.\n\nno signup, no key, no storage.",
+    "Tweet Url": "https://x.com/alain_0012/status/2089705711534055668",
+    "TweetCreatedDate": "2026-08-18T13:27:21.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089704335139573760/img/y-g1YXTAi5YhcC9P.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2089704335139573760/vid/avc1/1280x720/c5uF1YxYFFfYfCEr.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人收藏偏好",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089704335139573760/vid/avc1/1280x720/c5uF1YxYFFfYfCEr.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089704335139573760/img/y-g1YXTAi5YhcC9P.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "8 REPLIES · 2 REPOSTS · 113 LIKES · 74 BOOKMARKS · 6657 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-18T13:27:21.000Z"
     }
   },
   {
@@ -503,7 +1371,7 @@ window.LIKED_BACKFILL = [
     "TweetText": "如果你也想要苹果质感的文字动画，请保存这个skill https://x.com/i/article/2089605392590643200",
     "Tweet Url": "https://x.com/jiex13716/status/2089605777397047427",
     "TweetCreatedDate": "2026-08-18T06:50:14.000Z",
-    "MediaType": "",
+    "MediaType": "text",
     "MediaImageUrl": "",
     "MediaVideoUrl": "",
     "HasLink": "True",
@@ -4952,6 +5820,43 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-10T08:52:57.000Z"
+    }
+  },
+  {
+    "TweetID": "2086728652163801144",
+    "TwitterUserID": "1606130227884982273",
+    "UserScreenName": "viturejp",
+    "UserProfileName": "VITURE Japan | ヴィチュアー",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1635243741203296256/R6LzvSHF_200x200.png",
+    "TweetText": "🎉 VITURE 5th Anniversary & New Product Experience Event\n\"One Day with VITURE\" Confirmed to Be Held!",
+    "Tweet Url": "https://x.com/viturejp/status/2086728652163801144",
+    "TweetCreatedDate": "2026-08-10T08:17:34.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HPH8KwtakAAoqc3.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Product Design",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPH8KwtakAAoqc3.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "0 REPLIES · 2 REPOSTS · 48 LIKES · 17 BOOKMARKS · 285497 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-20T08:11:14+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-10T08:17:34.000Z"
     }
   },
   {

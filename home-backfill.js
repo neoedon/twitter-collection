@@ -1,6 +1,421 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "AI DEV TOOL",
+    "datetime": "2026-08-20T00:05:08.000Z",
+    "author": "Lord Bean",
+    "handle": "lifeisameeme",
+    "avatar": "https://pbs.twimg.com/profile_images/1774735134484525056/G4AEoKzW_200x200.jpg",
+    "title": "opencode 用高频 release 维持开源 coding agent 节奏",
+    "summary": "这条内容把 opencode 描述为完整开源 coding agent，而不是轻量 wrapper，并强调几乎每日发版。对个人设计工程师的价值在于观察开源 agent 如何用小步发布、插件和终端体验挑战重型 IDE。",
+    "url": "https://x.com/lifeisameeme/status/2090228604915617925",
+    "media": [],
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 6 VIEWS",
+    "links": [
+      "https://opencode.ai"
+    ],
+    "_analysisTheme": "Open-source Coding Agent",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-20T00:04:20.000Z",
+    "author": "クリエーションライン株式会社【公式】",
+    "handle": "creationline",
+    "avatar": "https://pbs.twimg.com/profile_images/2012044600475860995/TNALbJH1_200x200.jpg",
+    "title": "Claude Code 多标签页用标题暴露任务状态",
+    "summary": "creationline 介绍用 agmsg 与 xfce4-terminal 动态改写 Claude Code 多标签页标题。它不是大功能，而是把 agent 长任务的“哪一页在做什么”变成低成本状态可见性，适合设计工程师改造自己的开发工作台。",
+    "url": "https://x.com/creationline/status/2090228404847026529",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 14 VIEWS",
+    "links": [
+      "https://hubs.ly/Q04tFD1T0"
+    ],
+    "_analysisTheme": "Agent Terminal UX",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Claude Code + agmsg + xfce4-terminalでのタブタイトルの変更 #claude #agmsg #xfce4 - Tech Blog｜クリエーションライン",
+      "url": "https://hubs.ly/Q04tFD1T0",
+      "preview": "AI駆動開発(AIDD), Claude / GitHub Copilot, d-higuchi |はじめに 筆者はDebian環境において、xfce4-terminalで複数タブを開き、それぞれでClaude",
+      "cover": "https://pbs.twimg.com/card_img/2090228408198246400/rMz3WXeg?format=jpg&name=800x419"
+    }
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-20T00:04:00.000Z",
+    "author": "Amto",
+    "handle": "XAMTO_AI",
+    "avatar": "https://pbs.twimg.com/profile_images/2054618779120984064/1iLfLP0Y_200x200.jpg",
+    "title": "ai-memory 为 coding agents 做长期记忆交接",
+    "summary": "XAMTO_AI 介绍 ai-memory：自动捕获会话上下文、跨 Claude Code/Codex/Cursor/Gemini/OpenCode 交接，并支持本地优先部署。它提醒设计工程师把 agent 记忆当成工作流基础设施，而不是聊天记录。",
+    "url": "https://x.com/XAMTO_AI/status/2090228318201123111",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQHt_qPbMAANCNl.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 65 VIEWS",
+    "links": [
+      "https://github.com/akitaonrails/ai-memory"
+    ],
+    "_analysisTheme": "Agent Memory / Handoff",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-20T00:03:17.000Z",
+    "author": "Dmitry Chesnokov",
+    "handle": "dmitrychesnok0v",
+    "avatar": "https://pbs.twimg.com/profile_images/2055043003404656640/uCL0lZAO_200x200.jpg",
+    "title": "Codex 从代码导入设计并生成多方向变体",
+    "summary": "Dmitry 观察 Codex 从代码库导入原设计、分支生成多个变体，再在 MagicPath 团队项目里合并优胜方案。它说明设计工程正在从单点改稿变成可比较、可评论、可组合的多候选工作流。",
+    "url": "https://x.com/dmitrychesnok0v/status/2090228138508992803",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQH219yboAASlN3.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 13 VIEWS",
+    "links": [],
+    "_analysisTheme": "Design Branching / Agent Review",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-20T00:02:46.000Z",
+    "author": "Khe Hy",
+    "handle": "khemaridh",
+    "avatar": "https://pbs.twimg.com/profile_images/1993486891098759168/gtfYOnT3_200x200.jpg",
+    "title": "Grok Bot 早期体验暴露 Agent 信任与 VM 摩擦",
+    "summary": "Khe Hy 的 Grok Bot 体验复盘把界面简单、MCP 连接顺滑、缺少 mental model、Computer Use 登录态摩擦拆开。它对个人设计师有价值，因为它把 agent 产品的信任、权限和执行环境问题说得很具体。",
+    "url": "https://x.com/khemaridh/status/2090228006967230799",
+    "media": [],
+    "metrics": "2 REPLIES · 0 REPOSTS · 2 LIKES · 0 BOOKMARKS · 88 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent Trust / Control Surface",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT MARKETING",
+    "datetime": "2026-08-20T00:01:05.000Z",
+    "author": "Zach Moskow",
+    "handle": "zachmoskow",
+    "avatar": "https://pbs.twimg.com/profile_images/2053162078018437125/0yBEJNDX_200x200.jpg",
+    "title": "Launch video 的虚假热度成本暴露增长设计问题",
+    "summary": "Zach Moskow 公开 launch video 报价：视频制作加 50 个 influencer 推动可堆出 50 万播放。它提醒设计师判断“爆款案例”时要拆分内容质量、分发成本和真实产品信号。",
+    "url": "https://x.com/zachmoskow/status/2090227583874900270",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 33 VIEWS",
+    "links": [],
+    "_analysisTheme": "Launch Video Distribution Reality",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "VISUAL DESIGN",
+    "datetime": "2026-08-20T00:00:03.000Z",
+    "author": "Architizer",
+    "handle": "Architizer",
+    "avatar": "https://pbs.twimg.com/profile_images/842415551955759109/om8egmBt_200x200.jpg",
+    "title": "Architizer 案例把阴影当成空间设计工具",
+    "summary": "Architizer 展示韩国项目如何把晨昏阴影作为设计语言，而不是限制条件。它适合作为视觉设计训练样本：关注光影如何组织节奏、边界和空间情绪。",
+    "url": "https://x.com/Architizer/status/2090227326478848480",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQH6qglWoAA1cD-.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQH6qw5XsAA0iKR.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQH6rBiXcAAdVA1.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQH6rTdXUAAah6R.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 246 VIEWS",
+    "links": [
+      "https://hubs.la/Q04tzC_l0"
+    ],
+    "_analysisTheme": "Light and Shadow Composition",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-19T23:59:54.000Z",
+    "author": "Alex",
+    "handle": "abenz95",
+    "avatar": "https://pbs.twimg.com/profile_images/2079793635441418241/7kXOWTso_200x200.jpg",
+    "title": "电商改版先看 checkout abandonment 而不是先画首页",
+    "summary": "Abenz 提醒 redesign 前必须先拆 checkout funnel，从 step 到 payment 再到 confirm 找基线。它对设计师的价值在于把“审美改版”转回可验证的转化问题，避免只交 Figma 图。",
+    "url": "https://x.com/abenz95/status/2090227289120534581",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 12 VIEWS",
+    "links": [],
+    "_analysisTheme": "Conversion Baseline / UX Audit",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "INDIE PRODUCT",
+    "datetime": "2026-08-19T23:49:45.000Z",
+    "author": "Elsa",
+    "handle": "elsaaamri",
+    "avatar": "https://pbs.twimg.com/profile_images/1825529345957380096/maKi1ZWr_200x200.jpg",
+    "title": "Soltar 用个人材料学习语言并由 Figma+Claude Code 构建",
+    "summary": "Elsa 展示正在做的语言学习 app：用户用自己的材料按节奏学习，设计在 Figma，构建用 Claude Code。它适合作为小型教育产品从设计到实现的一人闭环样本。",
+    "url": "https://x.com/elsaaamri/status/2090224733572751691",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQH3-UiXYAAJBaF.png?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 96 VIEWS",
+    "links": [
+      "https://heysoltar.io"
+    ],
+    "_analysisTheme": "Indie Learning App",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-19T23:38:23.000Z",
+    "author": "たんたん｜プロダクトデザイナー",
+    "handle": "tantans_design",
+    "avatar": "https://pbs.twimg.com/profile_images/1796315965376094210/rJQl2Ttv_200x200.jpg",
+    "title": "Claude Design 适合简单 UI，Figma 仍适合模式资产化",
+    "summary": "tantans_design 反思几个月用 Claude Design 做业务 hub 后的分工：简单 UI 改善可交给 Claude，长期的模式生成、验证、改善和资产化仍需要 Figma。它是个人设计师选择工具边界的好样本。",
+    "url": "https://x.com/tantans_design/status/2090221870805303416",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 2 LIKES · 0 BOOKMARKS · 59 VIEWS",
+    "links": [],
+    "_analysisTheme": "Figma vs Claude Design Workflow",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-19T23:31:56.000Z",
+    "author": "CJ Avilla",
+    "handle": "cjav_dev",
+    "avatar": "https://pbs.twimg.com/profile_images/2062345307031998464/9QLN0HR0_200x200.jpg",
+    "title": "Claude Platform session console 变成多 agent 观察台",
+    "summary": "cjav_dev 注意到 Claude Platform console 增加更多 session 查看旋钮和 UX，并用不同 persona 的 QA agents dogfood。重点是 agent 的过程可见性开始变成产品界面，而不是隐藏在终端日志里。",
+    "url": "https://x.com/cjav_dev/status/2090220247454232933",
+    "media": [],
+    "metrics": "3 REPLIES · 0 REPOSTS · 6 LIKES · 0 BOOKMARKS · 291 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent Session Console",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "ICON SYSTEM",
+    "datetime": "2026-08-19T20:31:11.000Z",
+    "author": "Andreas Storm",
+    "handle": "avstorm",
+    "avatar": "https://pbs.twimg.com/profile_images/1597285797316759566/e8EWx4QR_200x200.jpg",
+    "title": "Uber 新图标系统展示品牌级 icon refresh",
+    "summary": "Andreas Storm 记录 Uber 推出新的 icon system。它适合作为图标系统更新样本：看线宽、填充、动效和品牌一致性，而不是只收藏单个漂亮图标。",
+    "url": "https://x.com/avstorm/status/2090174763213664496",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090172787398709248/vid/avc1/1280x720/bAQCypECgOjU8lIm.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090172787398709248/img/3H8QOwowvRo_Teg_.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "11 REPLIES · 27 REPOSTS · 695 LIKES · 272 BOOKMARKS · 20623 VIEWS",
+    "links": [],
+    "_analysisTheme": "Icon System Refresh",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-19T19:57:16.000Z",
+    "author": "Plasticity",
+    "handle": "getPlasticity",
+    "avatar": "https://pbs.twimg.com/profile_images/1745818146634665985/j31G8KrA_200x200.jpg",
+    "title": "Plasticity Slide beta 支持保留曲面流的 CV 调整",
+    "summary": "Plasticity 新 beta 的 Slide 能在移动 CV 时保留 surface flow，并用 proportional falloff 平滑跨面调整。它对 3D/工业设计工具学习有价值，因为它把复杂几何编辑变成可预期的直接操控。",
+    "url": "https://x.com/getPlasticity/status/2090166227733713131",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090165812829011969/vid/avc1/720x1280/c8XaD_ZwOxKGg34m.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090165812829011969/img/v3EOIvNyr9MJueEa.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 6 REPOSTS · 62 LIKES · 12 BOOKMARKS · 1710 VIEWS",
+    "links": [],
+    "_analysisTheme": "3D Modeling Direct Manipulation",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-19T18:20:16.000Z",
+    "author": "doodles",
+    "handle": "doodles",
+    "avatar": "https://pbs.twimg.com/profile_images/1999705009307480065/pYyZa73W_200x200.jpg",
+    "title": "Doodles Toys 把图片或想法变成可拿在手里的物件",
+    "summary": "Doodles 展示从图像或想法生成实体玩具的产品路径。它的价值不是“又一个生成器”，而是把 AI 视觉输出接到实物化、商品化和情绪价值表达。",
+    "url": "https://x.com/doodles/status/2090141816188268659",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090141535408996352/vid/avc1/1280x720/VlTf1v42de-XlY8Y.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090141535408996352/img/d_DZbEcowUbjYWSY.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "143 REPLIES · 108 REPOSTS · 767 LIKES · 239 BOOKMARKS · 212532 VIEWS",
+    "links": [
+      "https://doodles.toys"
+    ],
+    "_analysisTheme": "AI-to-Physical Product",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI DESIGN TOOL",
+    "datetime": "2026-08-19T18:13:39.000Z",
+    "author": "JO. Z",
+    "handle": "jojodecayz",
+    "avatar": "https://pbs.twimg.com/profile_images/1969346874542080006/XJ3DEDxr_200x200.jpg",
+    "title": "ComfyUI 可把平面图拆成 Photoshop PSD 图层",
+    "summary": "Jojo Decay 记录 ComfyUI Node 2.0 新 layer nodes：把平面图拆成可编辑层并直接导出 PSD。它对设计师有价值，因为它把 AI 图像从一次性素材变成可再编辑的生产文件。",
+    "url": "https://x.com/jojodecayz/status/2090140149426626708",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090140116908154880/vid/avc1/1280x720/CKNXQtX_PxPFxXJx.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090140116908154880/img/7810-tJ8fAabt-JO.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "8 REPLIES · 44 REPOSTS · 380 LIKES · 423 BOOKMARKS · 11416 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Image to Editable PSD",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI DEV TOOL",
+    "datetime": "2026-08-19T18:00:57.000Z",
+    "author": "Cursor",
+    "handle": "cursor_ai",
+    "avatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_200x200.jpg",
+    "title": "Cursor cloud agents 改善事件触发和长任务保持目标",
+    "summary": "Cursor 官方更新 cloud agents：能从事件接任务、保持目标直到完成，并在长 session 中不跑偏。它是 agent 产品状态机与任务边界设计的关键参考。",
+    "url": "https://x.com/cursor_ai/status/2090136956101414982",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090134542501789697/vid/avc1/1280x720/u3mwCXzfboOBA9Ja.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090134542501789697/img/62CXY3RFQdCl4FTe.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "82 REPLIES · 114 REPOSTS · 1971 LIKES · 302 BOOKMARKS · 219913 VIEWS",
+    "links": [],
+    "_analysisTheme": "Cloud Agent Task Continuity",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-19T17:58:04.000Z",
+    "author": "ElevenLabs",
+    "handle": "ElevenLabs",
+    "avatar": "https://pbs.twimg.com/profile_images/2047043946807754752/7xmvtysh_200x200.png",
+    "title": "Eleven v3 Conversational GA 强化实时语音情绪表达",
+    "summary": "ElevenLabs 宣布 Eleven v3 Conversational GA，面向能实时回应情绪的 voice experience。对产品设计来说，语音 agent 的情绪、延迟和轮流对话会直接改变交互节奏。",
+    "url": "https://x.com/ElevenLabs/status/2090136227617952145",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090133314132754432/vid/avc1/1280x720/7ENcKlzv2ANqTNK3.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090133314132754432/img/Ldf3VymDMRDYAh2Z.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "22 REPLIES · 65 REPOSTS · 593 LIKES · 238 BOOKMARKS · 45170 VIEWS",
+    "links": [],
+    "_analysisTheme": "Realtime Voice UX",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-19T16:55:50.000Z",
+    "author": "Meng To",
+    "handle": "MengTo",
+    "avatar": "https://pbs.twimg.com/profile_images/1098613826709348353/_9_0Nd2X_200x200.png",
+    "title": "Meng To 用 prompt 化 Three.js 模板库降低 3D UI 复用门槛",
+    "summary": "Meng To 正在构建可复制为 prompt 的 Three.js 模板库，每个组件 100-200KB 并用程序化 shader/rendering。它对个人设计工程师很有价值：把 3D 视觉从 demo 变成可复用资产。",
+    "url": "https://x.com/MengTo/status/2090120567093617136",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090114734104449026/vid/avc1/960x720/wKX-1RSP4pnMRo5_.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090114734104449026/img/XWP4G4JO4MASr6K4.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "47 REPLIES · 39 REPOSTS · 642 LIKES · 673 BOOKMARKS · 23701 VIEWS",
+    "links": [],
+    "_analysisTheme": "Three.js Template System",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-19T16:43:42.000Z",
+    "author": "kabikabi",
+    "handle": "jakevin7",
+    "avatar": "https://pbs.twimg.com/profile_images/1420768031827841031/36-lz-Jz_200x200.jpg",
+    "title": "Apache Maka 把 agent harness 做成中立开源项目",
+    "summary": "jakevin7 介绍 Apache Maka 进入孵化器：一个本地优先、开源中立的 agent harness，强调 benchmark、测试和社区 PR 速度。它提醒设计工程师关注 agent 底层 harness，而不只是模型 UI。",
+    "url": "https://x.com/jakevin7/status/2090117512675659854",
+    "media": [],
+    "metrics": "26 REPLIES · 41 REPOSTS · 229 LIKES · 174 BOOKMARKS · 18127 VIEWS",
+    "links": [
+      "https://github.com/apache/maka",
+      "https://t.co/wVPBomVzMq"
+    ],
+    "_analysisTheme": "Open Agent Harness",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "GitHub - apache/maka: Maka — local-first AI desktop assistant",
+      "url": "https://t.co/wVPBomVzMq",
+      "preview": "Maka — local-first AI desktop assistant. Contribute to apache/maka development by creating an account on GitHub.",
+      "cover": "https://pbs.twimg.com/card_img/2090116938630565888/EFB6k1Qj?format=jpg&name=800x419"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-19T16:33:15.000Z",
+    "author": "superwhisper",
+    "handle": "superwhisper",
+    "avatar": "https://pbs.twimg.com/profile_images/2085092229693997056/Eet7ytkG_200x200.jpg",
+    "title": "superwhisper S1-mini 把转写处理放到本地小模型",
+    "summary": "superwhisper 发布 0.6B open-weights S1-mini，在设备端处理 transcripts。对个人工具设计的价值在于隐私、低延迟和离线能力可以成为 AI 语音产品的核心体验。",
+    "url": "https://x.com/superwhisper/status/2090114882272141760",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQGTxRQWAAAPh39.jpg?name=orig"
+      }
+    ],
+    "metrics": "53 REPLIES · 136 REPOSTS · 1953 LIKES · 1332 BOOKMARKS · 102216 VIEWS",
+    "links": [],
+    "_analysisTheme": "On-device Speech Model",
+    "_analysisPriority": "high"
+  },
+  {
     "category": "DESIGN TOOL",
     "datetime": "2026-08-19T05:03:55.000Z",
     "author": "Ray Velez",
