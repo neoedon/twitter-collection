@@ -1,6 +1,551 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-20",
+    "generatedAt": "2026-08-20T13:05:44+08:00",
+    "batch": "x-ai-design-analysis-2026-08-20-1305",
+    "analysisCount": 15,
+    "homeCount": 15,
+    "likeCount": 0,
+    "linksInspected": 13,
+    "unavailableLinks": 1,
+    "summary": "2026-08-20 13:00 Asia/Shanghai 午后补充：Home 已达 20 条后继续从登录态 Home/Following/Search 中筛出 15 条未收录高信号内容；Likes 到 known-ID 边界无新增；Analysis 追加 15 条 Home-only 深读。",
+    "sourceWindow": {
+      "strategy": "Home 使用 ego-browser 登录态观察 X Home tabs、Following、Design Engineers、AI 御三家超级员工、独立创造者与 AI/product/design/visual/indie 搜索；Likes 使用 x.com/i/history/likes 滚动到连续 known-ID 边界；Analysis 只追加未分析的 Home 增量。",
+      "newestHomeDatetime": "2026-08-20T05:07:56.000Z",
+      "oldestHomeDatetime": "2026-08-19T17:42:08.000Z",
+      "newestLikeDatetime": null,
+      "oldestLikeDatetime": null,
+      "expandedWindow": "未扩窗。运行前 Asia/Shanghai 2026-08-20 Home 已有 20 条、Analysis 已有 100 条；本批只追加同日或上海自然日内午后新观察到的高价值 Home，不回补历史 Like。",
+      "observed": {
+        "homeRaw": 1407,
+        "homeUnique": 288,
+        "homeFreshCandidates": 288,
+        "homeSelected": 15,
+        "selectedHomeIds": [
+          "2090230646497251387",
+          "2090248297214525569",
+          "2090132218262044767",
+          "2090171332205871211",
+          "2090304805306814818",
+          "2090265356615184678",
+          "2090304228493337041",
+          "2090301216924270831",
+          "2090150733949645025",
+          "2090260530292461831",
+          "2090257538688373142",
+          "2090273807080763719",
+          "2090219815801634872",
+          "2090240159115853956",
+          "2090304409167417611"
+        ],
+        "quoteOriginalReplacements": [
+          "2090265356615184678",
+          "2090240159115853956"
+        ],
+        "likeRaw": 12,
+        "likeUnique": 12,
+        "freshLikeIds": [],
+        "knownBoundary": "known-boundary",
+        "rejectedHomeCandidates": 273
+      }
+    },
+    "items": [
+      {
+        "id": "2090230646497251387",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/OpenAIDevs/status/2090230646497251387",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "datetime": "2026-08-20T00:13:15.000Z",
+        "title": "OpenAI 把 Codex harness 作为可嵌入 agent 平台",
+        "originalSummary": "原帖内容：Teams are using the open-source Codex harness to bring agents into the tools they already use, from internal apps to operations dashboards. Their applications control the interface, context, tools, and approvals while the harness handles the agent loop. https:",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Agent Platform / Approval Surface」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "OpenAI Developers 用官方案例说明 Codex harness 不只服务 CLI/IDE，也能嵌入内部应用、运营 dashboard 和既有工作流。对个人设计工程师的价值在于：agent UI 的控制面、上下文、工具和审批可以由产品自己设计。",
+        "linkAnalysis": [
+          {
+            "url": "https://developers.openai.com/blog/codex-as-a-platform",
+            "title": "Codex as a platform: build on the open agent harness",
+            "access": "full",
+            "summary": "官方页面说明 Codex harness 可嵌入自有产品和工作流，应用负责界面、上下文、工具与审批，harness 负责 agent loop。",
+            "value": "信息密度高，直接对应 agent 产品的权限、审批和嵌入式控制面设计。"
+          }
+        ],
+        "learningActions": [
+          "把「OpenAI 把 Codex harness 作为可嵌入 agent 平台」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Platform / Approval Surface」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI AGENT PLATFORM",
+          "Agent Platform / Approval Surface",
+          "media:text",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090248297214525569",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/GoogleCloudTech/status/2090248297214525569",
+        "author": "Google Cloud Tech",
+        "handle": "GoogleCloudTech",
+        "datetime": "2026-08-20T01:23:23.000Z",
+        "title": "Google Cloud 总结长任务 agent harness 的设计模式",
+        "originalSummary": "原帖内容：https://x.com/i/article/2090246025403408384",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Long-horizon Agent Harness」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Google Cloud Tech 发布 X Article，主题是 long-horizon agent harness。虽然文章正文在本轮登录态只返回空壳，但原帖标题已经指出关键方向：长期运行 agent 需要比单次任务更强的状态、恢复和评估设计。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2090246025403408384",
+            "title": "5 design patterns for long-horizon agent harness",
+            "access": "unavailable",
+            "summary": "X Article 链接在本轮登录态只返回 X 导航/空正文，无法读取完整文章。",
+            "value": "只保留原帖可见标题作为选题线索；后续需要能打开正文后再做方法拆解。"
+          }
+        ],
+        "learningActions": [
+          "把「Google Cloud 总结长任务 agent harness 的设计模式」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Long-horizon Agent Harness」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI AGENT",
+          "Long-horizon Agent Harness",
+          "media:text",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090132218262044767",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/CasperKessels/status/2090132218262044767",
+        "author": "Casper Kessels",
+        "handle": "CasperKessels",
+        "datetime": "2026-08-19T17:42:08.000Z",
+        "title": "Rivian 新设计语言覆盖车机、Web、Mobile 与内部工具",
+        "originalSummary": "原帖内容：Here's what we've been up to these past months! A whole new design language for Rivian, across the vehicles, web, mobile, and even down to our internal tools. We put together a little something to celebrate the hard work that went into every last pixel.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Cross-surface Design Language」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Casper Kessels 展示 Rivian 过去数月推进的新设计语言，并强调覆盖车辆、Web、移动端和内部工具。它适合作为“硬件品牌如何统一多端体验”的参考，而不是只看单屏 UI。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rivian 新设计语言覆盖车机、Web、Mobile 与内部工具」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Cross-surface Design Language」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Cross-surface Design Language",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090171332205871211",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/notrab/status/2090171332205871211",
+        "author": "Jamie Barton 🥕",
+        "handle": "notrab",
+        "datetime": "2026-08-19T20:17:33.000Z",
+        "title": "Orchard 把 Apple Containers 包成原生 macOS 管理界面",
+        "originalSummary": "原帖内容：Setup a new Mac. Gone full Apple Container instead of Docker. This app makes it so much nicer https://orchard.andon.dev 🍏",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Local Dev Tool UX」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Jamie Barton 推荐 Orchard：一个 Apple Containers 的原生 macOS GUI。它把机器、容器、本地 AI 模型和 agent sandbox 组织到可视化工具里，适合观察开发基础设施如何产品化。",
+        "linkAnalysis": [
+          {
+            "url": "https://orchard.andon.dev",
+            "title": "Orchard - native macOS GUI for Apple Containers",
+            "access": "full",
+            "summary": "页面说明 Orchard 是 Apple Containers 的原生 macOS GUI，可管理容器、machines，把本地 AI 模型接入容器，并在隔离 sandbox 中运行 agents。",
+            "value": "可作为本地开发基础设施产品化参考，尤其是容器、模型和 agent sandbox 的信息架构。"
+          }
+        ],
+        "learningActions": [
+          "把「Orchard 把 Apple Containers 包成原生 macOS 管理界面」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Local Dev Tool UX」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "DEV TOOL",
+          "Local Dev Tool UX",
+          "media:image",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090304805306814818",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/wong2__/status/2090304805306814818",
+        "author": "wong2",
+        "handle": "wong2__",
+        "datetime": "2026-08-20T05:07:56.000Z",
+        "title": "codex-resets 为 Codex 限额重置做 API 化",
+        "originalSummary": "原帖内容：对了，https://codex-resets.com有API了：https://codex-resets.com/api/docs 查了下日志已经有一些应用在调了",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Micro SaaS / Agent Utility API」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "wong2 把 codex-resets 从网页提醒扩展到 API 文档，说明小众工具开始被其他应用集成。对设计工程师来说，这是把“个人痛点页面”升级成可组合数据服务的轻量样本。",
+        "linkAnalysis": [
+          {
+            "url": "https://codex-resets.com",
+            "title": "Codex Limit Reset Tracker & History",
+            "access": "full",
+            "summary": "页面展示 Codex reset 追踪、历史、邮件/Telegram 提醒和 reset 统计。",
+            "value": "适合学习把个人频繁查询的状态信息做成轻量工具和订阅提醒。"
+          },
+          {
+            "url": "https://codex-resets.com/api/docs",
+            "title": "codex-resets API docs",
+            "access": "partial",
+            "summary": "页面返回 200 但正文抽取为空，只能确认 API docs 路由存在。",
+            "value": "后续需要浏览器或接口 schema 读回，当前只能作为“已有 API 化入口”的弱证据。"
+          }
+        ],
+        "learningActions": [
+          "把「codex-resets 为 Codex 限额重置做 API 化」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Micro SaaS / Agent Utility API」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI DEV TOOL",
+          "Micro SaaS / Agent Utility API",
+          "media:image",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090265356615184678",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/YinsenW_/status/2090265356615184678",
+        "author": "Yinsen",
+        "handle": "YinsenW_",
+        "datetime": "2026-08-20T02:31:10.000Z",
+        "title": "多 agent 并行从 GUI 转向 headless CLI 调度",
+        "originalSummary": "原帖内容：原来在 16G 的 mac mini 上装 Codex，UU 远程上去并行三四个任务，偶尔会爆内存。 后面全部改成 CLI 了，Codex CLI，antigravity cli，Grok Build，Comate CLI（当百度搜索用），Codebuddy CLI当公众号搜索用），DSH，Pi agent，全都 headless 模式，用一个 agent 做统一的调度。 最后跑上几个任务，内存占用也基本是衣角微脏，挺舒服的。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Headless Agent Workbench」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Yinsen 记录在 16G Mac mini 上并行 Codex、Antigravity、Grok Build、Comate、DSH、Pi agent 等工具，最终改用 headless CLI + 统一调度来降低内存压力。它提供了个人 agent 工作台的真实约束。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「多 agent 并行从 GUI 转向 headless CLI 调度」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Headless Agent Workbench」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI WORKFLOW",
+          "Headless Agent Workbench",
+          "media:image",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090304228493337041",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/riyadahmod1/status/2090304228493337041",
+        "author": "Riyad - Your design partner",
+        "handle": "riyadahmod1",
+        "datetime": "2026-08-20T05:05:38.000Z",
+        "title": "糖果网站 redesign 用商品本身做转化主角",
+        "originalSummary": "原帖内容：I redesigned a candy store website from outdated to conversion-focused 🍬 A website can have a great product and still make it difficult for people to buy. For The Candymaker, I redesigned the experience around one simple idea: Make the candy the hero. The ori",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「E-commerce Redesign」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Riyad 展示 The Candymaker 网站从过时页面改为 conversion-focused 体验。这个案例的学习点不是视觉糖果风，而是如何让商品、购买路径和首屏层级共同服务转化。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「糖果网站 redesign 用商品本身做转化主角」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「E-commerce Redesign」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "E-commerce Redesign",
+          "media:image",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090301216924270831",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/_atilla1/status/2090301216924270831",
+        "author": "Atilla",
+        "handle": "_atilla1",
+        "datetime": "2026-08-20T04:53:40.000Z",
+        "title": "Bauhaus Clock 用 stretch/squish 增强开关触感",
+        "originalSummary": "原帖内容：Stretch and squish on https://bauhausclock.com https://x.com/flornkm/status/2089749302960615875?s=20",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Microinteraction / Press Feedback」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Atilla 展示 Bauhaus Clock 的 stretch and squish 微交互。这个细节适合拆解“按下反馈”如何在等待/时钟类产品中增加可感知质感，而不是只靠颜色或阴影。",
+        "linkAnalysis": [
+          {
+            "url": "https://bauhausclock.com",
+            "title": "Bauhaus Clock",
+            "access": "full",
+            "summary": "页面定位为 Mac、iPhone、iPad 上的优雅时钟，用等待场景和系统字体/平台版本组织产品表达。",
+            "value": "适合把微交互与产品定位一起看：触感动效要服务等待体验，而不是孤立装饰。"
+          },
+          {
+            "url": "https://x.com/flornkm/status/2089749302960615875?s=20",
+            "title": "https://x.com/flornkm/status/2089749302960615875?s=20",
+            "access": "partial",
+            "summary": "链接来自原帖，但本轮只完成基础可见性判断。",
+            "value": "作为后续设计学习线索保留，需要进一步深读。"
+          }
+        ],
+        "learningActions": [
+          "把「Bauhaus Clock 用 stretch/squish 增强开关触感」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Microinteraction / Press Feedback」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "INTERACTION DESIGN",
+          "Microinteraction / Press Feedback",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090150733949645025",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/sucodeee/status/2090150733949645025",
+        "author": "sucodee",
+        "handle": "sucodeee",
+        "datetime": "2026-08-19T18:55:42.000Z",
+        "title": "MetalForge 输出跨 SwiftUI / React Native 的 Grok Bot 动画",
+        "originalSummary": "原帖内容：Animated Grok Bots for SwiftUI, react native ,wed with https://metalforge.xyz",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Shader Tool / Cross-platform Motion」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "sucodee 用 MetalForge 做 Animated Grok Bots，并指向 SwiftUI、React Native 和 Web 场景。它说明动效/材质工具的价值在于导出真实工程资产，而不是只停留在预览。",
+        "linkAnalysis": [
+          {
+            "url": "https://metalforge.xyz",
+            "title": "MetalForge",
+            "access": "full",
+            "summary": "页面说明可用 sliders 生成 SwiftUI 与 React Native/Skia shader，并导出 .metal 或 Skia shader。",
+            "value": "对设计工程师有实现参考价值：把视觉材质调参转成可交付代码资产。"
+          }
+        ],
+        "learningActions": [
+          "把「MetalForge 输出跨 SwiftUI / React Native 的 Grok Bot 动画」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Shader Tool / Cross-platform Motion」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "DESIGN TOOL",
+          "Shader Tool / Cross-platform Motion",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090260530292461831",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/geekbb/status/2090260530292461831",
+        "author": "Geek",
+        "handle": "geekbb",
+        "datetime": "2026-08-20T02:12:00.000Z",
+        "title": "emotion-ball 用纯 SVG 给 AI 助手加状态表情层",
+        "originalSummary": "原帖内容：给 AI 对话或桌面悬浮助手配一套表情小球，只要输出一个 emotionId 就能切到对应表情，不用自己搭表情动画系统。 Grok 风格的表情小球，用纯 SVG 加原生 JavaScript 写，不依赖任何框架，也不加载图片资源。内置 32 种表情，按生命周期、情绪反应、代理工作状态三大组分类，全都存在配置文件里。 https://github.com/sam70361/emotion-ball",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Agent Emotion / Status Feedback」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Geek 介绍 emotion-ball：AI 只输出 emotionId，小球即可切换 32 种生命周期、情绪反应和 agent 工作状态表情。它是 agent 反馈层的轻量实现参考。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/sam70361/emotion-ball",
+            "title": "sam70361/emotion-ball",
+            "access": "full",
+            "summary": "GitHub README 描述 32 种状态表情，由纯 SVG 和原生 JavaScript 驱动，AI 侧只需输出 emotionId。",
+            "value": "可直接复用为 agent 状态反馈层的组件练习。"
+          }
+        ],
+        "learningActions": [
+          "把「emotion-ball 用纯 SVG 给 AI 助手加状态表情层」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Emotion / Status Feedback」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI UI",
+          "Agent Emotion / Status Feedback",
+          "media:image",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090257538688373142",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/GoSailGlobal/status/2090257538688373142",
+        "author": "Jason Zhu",
+        "handle": "GoSailGlobal",
+        "datetime": "2026-08-20T02:00:06.000Z",
+        "title": "ip-as-logo-skill 把品牌 mascot 生成规则封装成 agent skill",
+        "originalSummary": "原帖内容：离谱，一个做logo的技能48小时涨了849星 ip-as-logo-skill，一句话把任何IP做成圆润拟物风mascot，商用免费 最妙的是它管得极细：轮廓限定6到10个基础形状，配色只锁三种，AI想画歪都难 Cursor、Codex、OpenCode一条命令就能装：npx skills add s1dashu/ip-as-logo-skill",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Agent Skill / Visual System Prompt」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Jason Zhu 观察 ip-as-logo-skill 48 小时涨星，重点在它用轮廓数量、配色数量和拟物风约束把“logo 生成”变成可复用 agent skill。适合学习如何把视觉风格写成可执行规则。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/s1dashu/ip-as-logo-skill",
+            "title": "s1dashu/ip-as-logo-skill",
+            "access": "full",
+            "summary": "GitHub 项目描述为用于简化、圆润、轻拟物 IP mascot logo 的 compact Agent Skill。",
+            "value": "把视觉风格限制写成 agent skill，是设计系统 prompt 化的好样本。"
+          }
+        ],
+        "learningActions": [
+          "把「ip-as-logo-skill 把品牌 mascot 生成规则封装成 agent skill」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Skill / Visual System Prompt」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "DESIGN SKILL",
+          "Agent Skill / Visual System Prompt",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090273807080763719",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ZaynHao/status/2090273807080763719",
+        "author": "Zayn Hao",
+        "handle": "ZaynHao",
+        "datetime": "2026-08-20T03:04:45.000Z",
+        "title": "Honkish 文章复盘实时聊天产品的细节设计",
+        "originalSummary": "原帖内容：如果你也喜欢探索和研究 UI 设计细节，这篇来自 @benjitaylor 去年写的关于 Honkish 这个应用是如何设计的文章，绝对值得一看。 里面有很多意想不到，打破常规的设计。游戏性、温度、实时情感提示等。 优秀的软件是由其所有静心设计的细节共同构成的。 https://benji.org/honkish",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Product Detail / Emotional UX」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Zayn Hao 推荐 Benji Taylor 关于 Honkish 的长文。原文把游戏性、温度和实时情感提示放进一个已停运产品的设计复盘，对个人设计师很适合作为“细节如何共同构成产品性格”的深读材料。",
+        "linkAnalysis": [
+          {
+            "url": "https://benji.org/honkish",
+            "title": "Honkish",
+            "access": "full",
+            "summary": "文章复盘已停运实时聊天 App Honk 的产品细节、情绪表达和实验性互动。",
+            "value": "信息密度高，适合拆成“产品性格由多个细节共同生成”的 UI 研究卡。"
+          }
+        ],
+        "learningActions": [
+          "把「Honkish 文章复盘实时聊天产品的细节设计」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Product Detail / Emotional UX」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Product Detail / Emotional UX",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090219815801634872",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/yatingzhao_ux/status/2090219815801634872",
+        "author": "Yating Zhao",
+        "handle": "yatingzhao_ux",
+        "datetime": "2026-08-19T23:30:13.000Z",
+        "title": "RevenueCat 付费墙案例解释试用入口与收入的取舍",
+        "originalSummary": "原帖内容：关于付费墙 Paywall 的设计。 付费页面应该直接引导用户开启试用 (左图)，还是把试用当做一个额外的选项 (右图)？前者可能会让原本就愿意付费的用户选择了先不付费，后者又可能会让想要免费试用的用户没那么容易发现试用。 从数据上来说，到底哪个选择更好呢？ 推荐这篇文章，里面的几个案例都非常好，解释了在它的实验中，付费墙的一些不同设计导致了什么数据差异，以及背后的用户心理过程。 《How four paywall redesigns boosted conversions and revenue》 https:/",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Paywall Experiment / Conversion」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Yating Zhao 推荐 RevenueCat 的付费墙 redesign 案例，讨论直接引导试用还是把试用作为额外选项。它把 paywall UI 选择和转化/收入实验连起来，适合做增长设计反例库。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.revenuecat.com/blog/growth/paywall-redesigns-case-studies",
+            "title": "How four paywall redesigns boosted conversions and revenue",
+            "access": "full",
+            "summary": "RevenueCat 文章整理四个付费墙 redesign 案例，讨论试用入口、计划呈现和收入/转化结果。",
+            "value": "可复用为 paywall A/B 测试清单，帮助避免只凭审美改付费页。"
+          }
+        ],
+        "learningActions": [
+          "把「RevenueCat 付费墙案例解释试用入口与收入的取舍」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Paywall Experiment / Conversion」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "GROWTH DESIGN",
+          "Paywall Experiment / Conversion",
+          "media:image",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090240159115853956",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Benioff/status/2090240159115853956",
+        "author": "Marc Benioff",
+        "handle": "Benioff",
+        "datetime": "2026-08-20T00:51:03.000Z",
+        "title": "Slack Code 把人和 agent 放进同一个代码频道",
+        "originalSummary": "原帖内容：Don’t code alone. Slack Code is live. Humans and agents. Same channel. Same work. Launching today with agents from @AnthropicAI, @github, @Cognition, and @vercel. This is real multiplayer coding. See it at @Dreamforce #DF26",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Agent Collaboration Surface」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "Marc Benioff 宣布 Slack Code live，并把 Anthropic、GitHub、Cognition、Vercel 等 agent 放进同一频道协作。它是 agent 控制面从 IDE 转向团队协作流的强信号。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Slack Code 把人和 agent 放进同一个代码频道」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Agent Collaboration Surface」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "AI WORKFLOW",
+          "Agent Collaboration Surface",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090304409167417611",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/mei_999_/status/2090304409167417611",
+        "author": "めい / 桜草メイ @北の大地",
+        "handle": "mei_999_",
+        "datetime": "2026-08-20T05:06:21.000Z",
+        "title": "iris 用 Rust 做可选择器定位的网站截图工具",
+        "originalSummary": "原帖内容：MCPでもskillsでもいける devtoolを使ったスクショツール 並列は最大4で動いて Rustだから爆速で動く。 --selectorで要素ごとに取れるの楽でいいな、フロントエンドで使えるじゃん。 https://github.com/brijr/iris",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是午后登录态 X 中出现的「Visual QA / Screenshot Tool」高质量信号，能服务个人设计师的产品判断、案例库和实现练习。",
+        "deepSummary": "めい 推荐 brijr/iris：一个面向 live websites 的截图工具，支持 selector 级截图和并行。它对前端/设计工程师的价值在于把视觉验收、组件截图和自动化检查变成轻工具。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/brijr/iris",
+            "title": "brijr/iris",
+            "access": "full",
+            "summary": "GitHub 项目描述为 live websites screenshot 工具，minimal interface + powerful engine。原帖补充它支持 selector 和并行截图。",
+            "value": "适合用于设计验收、组件快照和前端视觉回归的轻量自动化。"
+          }
+        ],
+        "learningActions": [
+          "把「iris 用 Rust 做可选择器定位的网站截图工具」拆成一张观察卡：原始问题、界面/技术手段、可迁移方法。",
+          "用自己的产品语境判断它属于「Visual QA / Screenshot Tool」里的哪类能力，并写一个实践假设。",
+          "挑一个最小细节做 30 分钟复刻或反例分析，避免只停留在收藏。"
+        ],
+        "tags": [
+          "DEV TOOL",
+          "Visual QA / Screenshot Tool",
+          "media:text",
+          "link"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-20",
     "generatedAt": "2026-08-20T08:11:14+08:00",
     "batch": "x-ai-design-analysis-2026-08-20-0811",
     "analysisCount": 100,

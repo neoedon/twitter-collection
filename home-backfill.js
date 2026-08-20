@@ -2,6 +2,347 @@
   window.HOME_BACKFILL = [
   {
     "category": "AI DEV TOOL",
+    "datetime": "2026-08-20T05:07:56.000Z",
+    "author": "wong2",
+    "handle": "wong2__",
+    "avatar": "https://pbs.twimg.com/profile_images/1674463328264134657/IySD9Y3X_200x200.jpg",
+    "title": "codex-resets 为 Codex 限额重置做 API 化",
+    "summary": "wong2 把 codex-resets 从网页提醒扩展到 API 文档，说明小众工具开始被其他应用集成。对设计工程师来说，这是把“个人痛点页面”升级成可组合数据服务的轻量样本。",
+    "url": "https://x.com/wong2__/status/2090304805306814818",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQJBBdsbEAAosh2.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 5 LIKES · 1 BOOKMARKS · 249 VIEWS",
+    "links": [
+      "https://codex-resets.com",
+      "https://codex-resets.com/api/docs"
+    ],
+    "_analysisTheme": "Micro SaaS / Agent Utility API",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DEV TOOL",
+    "datetime": "2026-08-20T05:06:21.000Z",
+    "author": "めい / 桜草メイ @北の大地",
+    "handle": "mei_999_",
+    "avatar": "https://pbs.twimg.com/profile_images/2063105967966052352/iCqNjKME_200x200.jpg",
+    "title": "iris 用 Rust 做可选择器定位的网站截图工具",
+    "summary": "めい 推荐 brijr/iris：一个面向 live websites 的截图工具，支持 selector 级截图和并行。它对前端/设计工程师的价值在于把视觉验收、组件截图和自动化检查变成轻工具。",
+    "url": "https://x.com/mei_999_/status/2090304409167417611",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 25 VIEWS",
+    "links": [
+      "https://github.com/brijr/iris"
+    ],
+    "_analysisTheme": "Visual QA / Screenshot Tool",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "GitHub - brijr/iris: Screenshots of live websites. Minimal interface, powerful engine.",
+      "url": "https://github.com/brijr/iris",
+      "preview": "Screenshots of live websites. Minimal interface, powerful engine. - brijr/iris",
+      "cover": "https://pbs.twimg.com/card_img/2090060743190495232/rpvTk44p?format=jpg&name=800x419"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-20T05:05:38.000Z",
+    "author": "Riyad - Your design partner",
+    "handle": "riyadahmod1",
+    "avatar": "https://pbs.twimg.com/profile_images/2070538348196945920/-wl-twwr_200x200.jpg",
+    "title": "糖果网站 redesign 用商品本身做转化主角",
+    "summary": "Riyad 展示 The Candymaker 网站从过时页面改为 conversion-focused 体验。这个案例的学习点不是视觉糖果风，而是如何让商品、购买路径和首屏层级共同服务转化。",
+    "url": "https://x.com/riyadahmod1/status/2090304228493337041",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQJAfBQbUAEuhYd.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 2 VIEWS",
+    "links": [],
+    "_analysisTheme": "E-commerce Redesign",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "INTERACTION DESIGN",
+    "datetime": "2026-08-20T04:53:40.000Z",
+    "author": "Atilla",
+    "handle": "_atilla1",
+    "avatar": "https://pbs.twimg.com/profile_images/1773347134403649537/RjKHHxrp_200x200.jpg",
+    "title": "Bauhaus Clock 用 stretch/squish 增强开关触感",
+    "summary": "Atilla 展示 Bauhaus Clock 的 stretch and squish 微交互。这个细节适合拆解“按下反馈”如何在等待/时钟类产品中增加可感知质感，而不是只靠颜色或阴影。",
+    "url": "https://x.com/_atilla1/status/2090301216924270831",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090300839298514944/vid/avc1/468x360/BhwjD7HtuC9fO9RP.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090300839298514944/img/1mQc6gp_yNZn68Re.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 3 BOOKMARKS · 383 VIEWS",
+    "links": [
+      "https://bauhausclock.com",
+      "https://x.com/flornkm/status/2089749302960615875?s=20"
+    ],
+    "_analysisTheme": "Microinteraction / Press Feedback",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-20T03:04:45.000Z",
+    "author": "Zayn Hao",
+    "handle": "ZaynHao",
+    "avatar": "https://pbs.twimg.com/profile_images/1490844347721342981/_vcCNxRm_200x200.jpg",
+    "title": "Honkish 文章复盘实时聊天产品的细节设计",
+    "summary": "Zayn Hao 推荐 Benji Taylor 关于 Honkish 的长文。原文把游戏性、温度和实时情感提示放进一个已停运产品的设计复盘，对个人设计师很适合作为“细节如何共同构成产品性格”的深读材料。",
+    "url": "https://x.com/ZaynHao/status/2090273807080763719",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090273006870470656/vid/avc1/406x360/Lf1paxOB6rqQ10kQ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090273006870470656/img/zdCvl3v3GDbWiC5I.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "2 REPLIES · 3 REPOSTS · 34 LIKES · 42 BOOKMARKS · 1473 VIEWS",
+    "links": [
+      "https://benji.org/honkish"
+    ],
+    "_analysisTheme": "Product Detail / Emotional UX",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-20T02:31:10.000Z",
+    "author": "Yinsen",
+    "handle": "YinsenW_",
+    "avatar": "https://pbs.twimg.com/profile_images/1892102864560062468/HqBEmDlS_200x200.jpg",
+    "title": "多 agent 并行从 GUI 转向 headless CLI 调度",
+    "summary": "Yinsen 记录在 16G Mac mini 上并行 Codex、Antigravity、Grok Build、Comate、DSH、Pi agent 等工具，最终改用 headless CLI + 统一调度来降低内存压力。它提供了个人 agent 工作台的真实约束。",
+    "url": "https://x.com/YinsenW_/status/2090265356615184678",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQIcfFJa4AANrnq.jpg?name=orig"
+      }
+    ],
+    "metrics": "14 REPLIES · 2 REPOSTS · 37 LIKES · 52 BOOKMARKS · 8432 VIEWS",
+    "links": [],
+    "_analysisTheme": "Headless Agent Workbench",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI UI",
+    "datetime": "2026-08-20T02:12:00.000Z",
+    "author": "Geek",
+    "handle": "geekbb",
+    "avatar": "https://pbs.twimg.com/profile_images/1644898947272671233/7959WGOK_200x200.jpg",
+    "title": "emotion-ball 用纯 SVG 给 AI 助手加状态表情层",
+    "summary": "Geek 介绍 emotion-ball：AI 只输出 emotionId，小球即可切换 32 种生命周期、情绪反应和 agent 工作状态表情。它是 agent 反馈层的轻量实现参考。",
+    "url": "https://x.com/geekbb/status/2090260530292461831",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQILLrdboAA1_wG.jpg?name=orig"
+      }
+    ],
+    "metrics": "5 REPLIES · 4 REPOSTS · 40 LIKES · 43 BOOKMARKS · 3584 VIEWS",
+    "links": [
+      "https://github.com/sam70361/emotion-ball"
+    ],
+    "_analysisTheme": "Agent Emotion / Status Feedback",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN SKILL",
+    "datetime": "2026-08-20T02:00:06.000Z",
+    "author": "Jason Zhu",
+    "handle": "GoSailGlobal",
+    "avatar": "https://pbs.twimg.com/profile_images/2002004911635210240/14rERQZ7_200x200.jpg",
+    "title": "ip-as-logo-skill 把品牌 mascot 生成规则封装成 agent skill",
+    "summary": "Jason Zhu 观察 ip-as-logo-skill 48 小时涨星，重点在它用轮廓数量、配色数量和拟物风约束把“logo 生成”变成可复用 agent skill。适合学习如何把视觉风格写成可执行规则。",
+    "url": "https://x.com/GoSailGlobal/status/2090257538688373142",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090257521219121152/vid/avc1/640x360/Gff64Gd7SK1fQLNc.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090257521219121152/img/QhQHfvZJFotH40gV.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "6 REPLIES · 1 REPOSTS · 16 LIKES · 26 BOOKMARKS · 1621 VIEWS",
+    "links": [
+      "https://github.com/s1dashu/ip-as-logo-skill"
+    ],
+    "_analysisTheme": "Agent Skill / Visual System Prompt",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-20T01:23:23.000Z",
+    "author": "Google Cloud Tech",
+    "handle": "GoogleCloudTech",
+    "avatar": "https://pbs.twimg.com/profile_images/2047008659629391872/BfLTYOuh_200x200.jpg",
+    "title": "Google Cloud 总结长任务 agent harness 的设计模式",
+    "summary": "Google Cloud Tech 发布 X Article，主题是 long-horizon agent harness。虽然文章正文在本轮登录态只返回空壳，但原帖标题已经指出关键方向：长期运行 agent 需要比单次任务更强的状态、恢复和评估设计。",
+    "url": "https://x.com/GoogleCloudTech/status/2090248297214525569",
+    "media": [],
+    "metrics": "0 REPLIES · 29 REPOSTS · 145 LIKES · 187 BOOKMARKS · 13562 VIEWS",
+    "links": [
+      "https://x.com/i/article/2090246025403408384"
+    ],
+    "_analysisTheme": "Long-horizon Agent Harness",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "x-article",
+      "title": "5 design patterns for long-horizon agent harness",
+      "url": "https://x.com/i/article/2090246025403408384",
+      "preview": "X Article 正文在本轮登录态未能读出，只保留原帖标题线索。"
+    }
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-20T00:51:03.000Z",
+    "author": "Marc Benioff",
+    "handle": "Benioff",
+    "avatar": "https://pbs.twimg.com/profile_images/1978181723356884992/VIhB1Jru_200x200.jpg",
+    "title": "Slack Code 把人和 agent 放进同一个代码频道",
+    "summary": "Marc Benioff 宣布 Slack Code live，并把 Anthropic、GitHub、Cognition、Vercel 等 agent 放进同一频道协作。它是 agent 控制面从 IDE 转向团队协作流的强信号。",
+    "url": "https://x.com/Benioff/status/2090240159115853956",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090235761711104000/vid/avc1/640x360/dpNyuMA30_Qbg1LF.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090235761711104000/img/7duS52FmPujjk-0c.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "77 REPLIES · 88 REPOSTS · 1085 LIKES · 547 BOOKMARKS · 198805 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent Collaboration Surface",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT PLATFORM",
+    "datetime": "2026-08-20T00:13:15.000Z",
+    "author": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "avatar": "https://pbs.twimg.com/profile_images/2022002720971096064/l3Kyt4qt_200x200.jpg",
+    "title": "OpenAI 把 Codex harness 作为可嵌入 agent 平台",
+    "summary": "OpenAI Developers 用官方案例说明 Codex harness 不只服务 CLI/IDE，也能嵌入内部应用、运营 dashboard 和既有工作流。对个人设计工程师的价值在于：agent UI 的控制面、上下文、工具和审批可以由产品自己设计。",
+    "url": "https://x.com/OpenAIDevs/status/2090230646497251387",
+    "media": [],
+    "metrics": "39 REPLIES · 64 REPOSTS · 977 LIKES · 688 BOOKMARKS · 172529 VIEWS",
+    "links": [
+      "https://developers.openai.com/blog/codex-as-a-platform"
+    ],
+    "_analysisTheme": "Agent Platform / Approval Surface",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Codex as a platform: build on the open agent harness | OpenAI Developers",
+      "url": "https://developers.openai.com/blog/codex-as-a-platform",
+      "preview": "Build Codex into the products and workflows your users already know.",
+      "cover": "https://pbs.twimg.com/card_img/2090230647763906560/jMFcepC5?format=jpg&name=800x419"
+    }
+  },
+  {
+    "category": "GROWTH DESIGN",
+    "datetime": "2026-08-19T23:30:13.000Z",
+    "author": "Yating Zhao",
+    "handle": "yatingzhao_ux",
+    "avatar": "https://pbs.twimg.com/profile_images/1805131800106385408/X_1s5Zr3_200x200.jpg",
+    "title": "RevenueCat 付费墙案例解释试用入口与收入的取舍",
+    "summary": "Yating Zhao 推荐 RevenueCat 的付费墙 redesign 案例，讨论直接引导试用还是把试用作为额外选项。它把 paywall UI 选择和转化/收入实验连起来，适合做增长设计反例库。",
+    "url": "https://x.com/yatingzhao_ux/status/2090219815801634872",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQHz2G2XsAA0go4.jpg?name=orig"
+      }
+    ],
+    "metrics": "2 REPLIES · 5 REPOSTS · 54 LIKES · 83 BOOKMARKS · 4681 VIEWS",
+    "links": [
+      "https://www.revenuecat.com/blog/growth/paywall-redesigns-case-studies"
+    ],
+    "_analysisTheme": "Paywall Experiment / Conversion",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DEV TOOL",
+    "datetime": "2026-08-19T20:17:33.000Z",
+    "author": "Jamie Barton 🥕",
+    "handle": "notrab",
+    "avatar": "https://pbs.twimg.com/profile_images/2087629461298536449/_m-mtrdW_200x200.jpg",
+    "title": "Orchard 把 Apple Containers 包成原生 macOS 管理界面",
+    "summary": "Jamie Barton 推荐 Orchard：一个 Apple Containers 的原生 macOS GUI。它把机器、容器、本地 AI 模型和 agent sandbox 组织到可视化工具里，适合观察开发基础设施如何产品化。",
+    "url": "https://x.com/notrab/status/2090171332205871211",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQHHv3vWkAE3yj5.jpg?name=orig"
+      }
+    ],
+    "metrics": "38 REPLIES · 65 REPOSTS · 1133 LIKES · 1664 BOOKMARKS · 96660 VIEWS",
+    "links": [
+      "https://orchard.andon.dev"
+    ],
+    "_analysisTheme": "Local Dev Tool UX",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-19T18:55:42.000Z",
+    "author": "sucodee",
+    "handle": "sucodeee",
+    "avatar": "https://pbs.twimg.com/profile_images/2063579703961636864/0i2DyZ4l_200x200.jpg",
+    "title": "MetalForge 输出跨 SwiftUI / React Native 的 Grok Bot 动画",
+    "summary": "sucodee 用 MetalForge 做 Animated Grok Bots，并指向 SwiftUI、React Native 和 Web 场景。它说明动效/材质工具的价值在于导出真实工程资产，而不是只停留在预览。",
+    "url": "https://x.com/sucodeee/status/2090150733949645025",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090150623735902208/vid/avc1/496x360/1stbpCNXTU3JPJJQ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090150623735902208/img/M3jcJdQeIksUVK6M.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 1 REPOSTS · 49 LIKES · 30 BOOKMARKS · 1885 VIEWS",
+    "links": [
+      "https://metalforge.xyz"
+    ],
+    "_analysisTheme": "Shader Tool / Cross-platform Motion",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-19T17:42:08.000Z",
+    "author": "Casper Kessels",
+    "handle": "CasperKessels",
+    "avatar": "https://pbs.twimg.com/profile_images/1333494974260912131/_x4lGNW8_200x200.jpg",
+    "title": "Rivian 新设计语言覆盖车机、Web、Mobile 与内部工具",
+    "summary": "Casper Kessels 展示 Rivian 过去数月推进的新设计语言，并强调覆盖车辆、Web、移动端和内部工具。它适合作为“硬件品牌如何统一多端体验”的参考，而不是只看单屏 UI。",
+    "url": "https://x.com/CasperKessels/status/2090132218262044767",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090131025821392896/vid/avc1/640x360/kbdw4l7GIeR7b7bx.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090131025821392896/img/P70NiG5QB1G9JXq6.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "19 REPLIES · 19 REPOSTS · 414 LIKES · 130 BOOKMARKS · 29953 VIEWS",
+    "links": [],
+    "_analysisTheme": "Cross-surface Design Language",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI DEV TOOL",
     "datetime": "2026-08-20T00:05:08.000Z",
     "author": "Lord Bean",
     "handle": "lifeisameeme",
