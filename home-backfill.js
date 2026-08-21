@@ -1,6 +1,432 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "ACCESSIBILITY",
+    "datetime": "2026-08-21T00:07:40.000Z",
+    "author": "Kuntal Go",
+    "handle": "Kuntalgo",
+    "avatar": "https://pbs.twimg.com/profile_images/1964183265394511873/H6kivSp5_200x200.jpg",
+    "title": "Notion 开关用 1/0 提升单色视觉可辨性",
+    "summary": "Kuntal Go 从 a11y 角度解释开关状态不能只靠颜色变化，1/0 能给单色视觉用户提供绝对锚点。这是微交互里低成本提升可达性的好例子。",
+    "url": "https://x.com/Kuntalgo/status/2090591628050456643",
+    "media": [],
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 56 VIEWS",
+    "links": [],
+    "_analysisTheme": "Accessibility / State Encoding",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-21T00:04:46.000Z",
+    "author": "David Villegas",
+    "handle": "labsdvx",
+    "avatar": "https://pbs.twimg.com/profile_images/1421141975/FacebookHomescreenImage_200x200.jpg",
+    "title": "Code Workspace 把 AI coding 带到 iPad diff 审核",
+    "summary": "AI coding 不应依赖常开笔记本或自建 VPS，Code Workspace 试图把项目打开、AI provider 连接和 agent diff review 放进 iPad。对个人设计工程师来说，这是移动端 agent 工作台的信息架构样本。",
+    "url": "https://x.com/labsdvx/status/2090590899034050982",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQNFGT-WUAAG3kU.png?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 21 VIEWS",
+    "links": [
+      "https://getcodeworkspace.com/"
+    ],
+    "_analysisTheme": "Mobile Agent Workspace",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "",
+      "url": "https://getcodeworkspace.com/",
+      "preview": "",
+      "cover": ""
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-21T00:04:00.000Z",
+    "author": "Poplab",
+    "handle": "Poplab_io",
+    "avatar": "https://pbs.twimg.com/profile_images/1393499061974675458/DC4Mwc09_200x200.jpg",
+    "title": "Figma AI critique 不能替代漏斗判断",
+    "summary": "Poplab 用 Figma AI critique 切入 onboarding/funnel 问题，提醒 AI 点评只能发现界面问题，不能替代转化路径和用户意图判断。适合作为 AI 设计评审的边界案例。",
+    "url": "https://x.com/Poplab_io/status/2090590708142858386",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 4 VIEWS",
+    "links": [
+      "https://poplab.io/blog/figma-ai-critique-onboarding-ux-still-broken/"
+    ],
+    "_analysisTheme": "AI Critique / Funnel UX",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "",
+      "url": "https://poplab.io/blog/figma-ai-critique-onboarding-ux-still-broken/",
+      "preview": "",
+      "cover": ""
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-21T00:03:41.000Z",
+    "author": "Mike Futia",
+    "handle": "mikefutia",
+    "avatar": "https://pbs.twimg.com/profile_images/1923873453498646528/wNZGnvlf_200x200.jpg",
+    "title": "Claude Code + Figma 生成可编辑广告静态图",
+    "summary": "Mike Futia 展示用 Claude Code/Figma 做 Meta 静态广告，并把 AI 文本变成可编辑素材。它适合拆解「生成后仍可被设计师修改」的广告生产流。",
+    "url": "https://x.com/mikefutia/status/2090590625733202119",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 2 BOOKMARKS · 500 VIEWS",
+    "links": [
+      "https://mikefutia.com/claude-higgs-figma-lm/"
+    ],
+    "_analysisTheme": "AI Ad Production / Editable Output",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI DEV TOOL",
+    "datetime": "2026-08-21T00:03:30.000Z",
+    "author": "jaleel",
+    "handle": "lyczak",
+    "avatar": "https://pbs.twimg.com/profile_images/1120500508458999808/Y3tTdmYp_200x200.png",
+    "title": "Codex CLI 0.149 变成 agent 任务面板",
+    "summary": "这条中文摘要捕捉到 Codex agents、queue 和 doctor 的变化：CLI 从单次对话向本地/远程会话控制台演进。对设计工程师的价值是观察 agent 调度界面如何变成日常工具。",
+    "url": "https://x.com/lyczak/status/2090590582012084724",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 10 VIEWS",
+    "links": [
+      "https://github.com/openai/codex/releases/tag/rust-v0.149.0"
+    ],
+    "_analysisTheme": "Agent Session Console",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0",
+      "preview": "",
+      "cover": ""
+    }
+  },
+  {
+    "category": "AI DEV TOOL",
+    "datetime": "2026-08-21T00:00:06.000Z",
+    "author": "Jimmy at Voxel51",
+    "handle": "jimmy_voxel51",
+    "avatar": "https://pbs.twimg.com/profile_images/2024885710126546946/Ru3OECvy_200x200.jpg",
+    "title": "Voxel51 把本地开源模型接进统一模型选择器",
+    "summary": "Voxel51 展示把本地 Gemma 模型接进与 Claude/Gemini 相同的 picker。学习点在于本地模型不应成为另一个割裂入口，而应进入同一模型选择和任务编排界面。",
+    "url": "https://x.com/jimmy_voxel51/status/2090589725966966981",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/tweet_video/HQNEQTLWYAAQi5z.mp4",
+        "poster": "https://pbs.twimg.com/tweet_video_thumb/HQNEQTLWYAAQi5z.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 16 VIEWS",
+    "links": [
+      "https://hubs.ly/Q04tCs4G0"
+    ],
+    "_analysisTheme": "Local Model UX",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "",
+      "url": "https://hubs.ly/Q04tCs4G0",
+      "preview": "",
+      "cover": ""
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-20T23:30:52.000Z",
+    "author": "Steve Merrill",
+    "handle": "merrills",
+    "avatar": "https://pbs.twimg.com/profile_images/1745972169501556736/N-N1fZtt_200x200.jpg",
+    "title": "巧克力品牌为 AI 可读性重写商品数据",
+    "summary": "Steve Merrill 说他们通过重建内容和商品数据让 AI 工具更容易读取、信任和引用，从而提升 organic sessions。对产品设计师来说，这是 AI 搜索时代的商品信息架构案例。",
+    "url": "https://x.com/merrills/status/2090582366754427126",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 10 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Search / Product Data",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-20T23:20:52.000Z",
+    "author": "Andreas Mahringer",
+    "handle": "a_mahringer",
+    "avatar": "https://pbs.twimg.com/profile_images/1986150073148059648/idURcTRC_200x200.jpg",
+    "title": "企业 AI 输出需要脱离聊天窗口沉淀",
+    "summary": "Andreas Mahringer 指出聊天窗口适合生成，但企业输出必须在会话之外长期存在。这是设计 agent 工具时从 chat-first 转向 artifact-first 的关键提醒。",
+    "url": "https://x.com/a_mahringer/status/2090579852613034048",
+    "media": [],
+    "metrics": "5 REPLIES · 1 REPOSTS · 5 LIKES · 0 BOOKMARKS · 3660 VIEWS",
+    "links": [
+      "https://x.com/i/article/2090175792277864448"
+    ],
+    "_analysisTheme": "Artifact-first AI Workflow",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "x-article",
+      "title": "",
+      "url": "https://x.com/i/article/2090175792277864448",
+      "preview": "",
+      "cover": ""
+    }
+  },
+  {
+    "category": "AI DEV TOOL",
+    "datetime": "2026-08-20T22:43:08.000Z",
+    "author": "Tom Greenwald",
+    "handle": "tomgreenwald",
+    "avatar": "https://pbs.twimg.com/profile_images/2075449714590511104/BQkVXXwh_200x200.jpg",
+    "title": "本地 AI coding 硬件分层给预算判断",
+    "summary": "Tom Greenwald 用价格层级解释本地 AI coding 需要的硬件、速度和并发权衡。它能帮助个人设计工程师判断何时买硬件、何时继续用云端模型。",
+    "url": "https://x.com/tomgreenwald/status/2090570356713275672",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQMyjJdawAAdO1e.jpg?name=orig"
+      }
+    ],
+    "metrics": "3 REPLIES · 4 REPOSTS · 9 LIKES · 8 BOOKMARKS · 837 VIEWS",
+    "links": [],
+    "_analysisTheme": "Local AI Coding Budget",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-20T21:43:07.000Z",
+    "author": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "avatar": "https://pbs.twimg.com/profile_images/2022002720971096064/l3Kyt4qt_200x200.jpg",
+    "title": "PR 上下文不该依赖截图考古",
+    "summary": "OpenAI Developers 把 shared snapshot 文档直接指向 PR context，强调交接不应靠截图翻找。它补充了 agent 协作里「可验证上下文」的产品细节。",
+    "url": "https://x.com/OpenAIDevs/status/2090555253200769288",
+    "media": [],
+    "metrics": "4 REPLIES · 1 REPOSTS · 21 LIKES · 10 BOOKMARKS · 7887 VIEWS",
+    "links": [
+      "https://learn.chatgpt.com/docs/use-chatgpt#share-a-read-only-snapshot-of-a-codex-thread"
+    ],
+    "_analysisTheme": "PR Context / Snapshot UX",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "",
+      "url": "https://learn.chatgpt.com/docs/use-chatgpt#share-a-read-only-snapshot-of-a-codex-thread",
+      "preview": "",
+      "cover": ""
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-20T21:43:04.000Z",
+    "author": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "avatar": "https://pbs.twimg.com/profile_images/2022002720971096064/l3Kyt4qt_200x200.jpg",
+    "title": "Codex 共享线程把构建过程变成可读上下文",
+    "summary": "OpenAI Developers 展示 Codex/ChatGPT Work 的 shared threads，可用只读链接说明 PR、深读或交接背后的过程。对 agent 产品而言，这是把推理过程产品化的案例。",
+    "url": "https://x.com/OpenAIDevs/status/2090555241343418814",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090555212516003840/vid/avc1/640x360/KyMxF6d4ViMXFdIt.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090555212516003840/img/hK7gxPmPyq4OeakM.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "28 REPLIES · 32 REPOSTS · 388 LIKES · 107 BOOKMARKS · 30338 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent Handoff / Context Sharing",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-20T21:08:15.000Z",
+    "author": "lauren",
+    "handle": "poteto",
+    "avatar": "https://pbs.twimg.com/profile_images/2049256514091929600/Qu4030T2_200x200.jpg",
+    "title": "PR gardener 是代码库健康的轻量角色",
+    "summary": "Lauren 提出团队需要 quietly watching PR stream 的 gardener，观察重复模式和 lint suppressions。这能转译为 AI code review/设计系统治理的后台角色。",
+    "url": "https://x.com/poteto/status/2090546476464451907",
+    "media": [],
+    "metrics": "22 REPLIES · 11 REPOSTS · 272 LIKES · 91 BOOKMARKS · 21997 VIEWS",
+    "links": [],
+    "_analysisTheme": "Codebase Health / Review Role",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI DEV TOOL",
+    "datetime": "2026-08-20T21:06:36.000Z",
+    "author": "genevieveh@",
+    "handle": "genevieve__h",
+    "avatar": "https://pbs.twimg.com/profile_images/2084384724068204544/Og6wSXeS_200x200.jpg",
+    "title": "AI Studio 双向 GitHub 同步补全应用工作流",
+    "summary": "Google AI Studio 的双向 GitHub sync 与图像生成能力说明 AI app builder 正在补齐从原型到资产到代码同步的闭环。适合跟踪 AI IDE 的端到端工作流。",
+    "url": "https://x.com/genevieve__h/status/2090546063266431357",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090541910825869312/vid/avc1/626x360/aIlAnhIiqOXXmqQ0.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090541910825869312/img/FIohZ4kRhCGJ4OfF.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 3 REPOSTS · 44 LIKES · 12 BOOKMARKS · 1981 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI App Builder Workflow",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT QA",
+    "datetime": "2026-08-20T20:42:21.000Z",
+    "author": "Evgenii Mozharovskii",
+    "handle": "mozharovsky",
+    "avatar": "https://pbs.twimg.com/profile_images/1958571674883760128/r0MkUpIO_200x200.jpg",
+    "title": "AI coding 放大 App Store 提交前 QA 缺口",
+    "summary": "Evgenii 用 Apple 审核数据提醒：AI coding 提高提交速度后，crash、bug 和半成品流程会成为排队成本。对产品团队是把自动化 QA 前置的证据。",
+    "url": "https://x.com/mozharovsky/status/2090539960629633360",
+    "media": [],
+    "metrics": "1 REPLIES · 2 REPOSTS · 7 LIKES · 0 BOOKMARKS · 2040 VIEWS",
+    "links": [],
+    "_analysisTheme": "Release QA / AI Coding",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-20T20:14:55.000Z",
+    "author": "usagimaru ⌘",
+    "handle": "usagimaruma",
+    "avatar": "https://pbs.twimg.com/profile_images/1612626140103061507/J0iMVfNY_200x200.png",
+    "title": "atatapp 暴露文本字段干预的 macOS API 边界",
+    "summary": "usagimaru 讨论文本字段介入交互和 macOS accessibility API 能力边界。对设计工程师来说，这是桌面级输入增强产品必须先验证系统 API 的提醒。",
+    "url": "https://x.com/usagimaruma/status/2090533056679743961",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 7 BOOKMARKS · 709 VIEWS",
+    "links": [
+      "https://atatapp.com"
+    ],
+    "_analysisTheme": "Desktop Input / Accessibility API",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "",
+      "url": "https://atatapp.com",
+      "preview": "",
+      "cover": ""
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-20T19:48:52.000Z",
+    "author": "Vincent van der Meulen",
+    "handle": "vinvan",
+    "avatar": "https://pbs.twimg.com/profile_images/1005529542373457920/PLm2vl58_200x200.jpg",
+    "title": "pstack 与 Grok bot 出现在 AI 工作流笔记里",
+    "summary": "Vincent 的 ai notes 把 pstack、Grok bot、dictation transcript mining 和并行 prompting 放在一起，像一张设计工程师个人工具链快照。",
+    "url": "https://x.com/vinvan/status/2090526502404096016",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQMEFn3WwAAL8qn.jpg?name=orig"
+      }
+    ],
+    "metrics": "3 REPLIES · 0 REPOSTS · 7 LIKES · 3 BOOKMARKS · 966 VIEWS",
+    "links": [],
+    "_analysisTheme": "Personal AI Workflow Stack",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-20T19:32:51.000Z",
+    "author": "DANN©",
+    "handle": "DannPetty",
+    "avatar": "https://pbs.twimg.com/profile_images/1601396833883922432/OxFgbD5t_200x200.jpg",
+    "title": "Quiver sidebar 展示设计师直接交付 PR 的路径",
+    "summary": "Dann Petty 说自己设计了 working prototype，又在真实代码里提交 PR 给工程继续打磨。它是设计师从 mockup 进入代码交付的清晰信号。",
+    "url": "https://x.com/DannPetty/status/2090522470080033225",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090520725815705600/vid/avc1/540x540/CMt68Mma67bqqIJQ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090520725815705600/img/D_hNIAdH_dQMWxJm.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "18 REPLIES · 0 REPOSTS · 178 LIKES · 72 BOOKMARKS · 6601 VIEWS",
+    "links": [],
+    "_analysisTheme": "Designer-to-PR Workflow",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-20T18:31:55.000Z",
+    "author": "Shellie Hu",
+    "handle": "shellwetwit1",
+    "avatar": "https://pbs.twimg.com/profile_images/2057531088243658752/Xq6Y6vf6_200x200.jpg",
+    "title": "Shellie Hu 新个人站作为设计师作品站样本",
+    "summary": "Shellie Hu 展示 20 天完成的新个人站。它适合作为个人设计师作品站的视觉节奏、首屏气质和自我表达参考。",
+    "url": "https://x.com/shellwetwit1/status/2090507135239016845",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090507111809617920/vid/avc1/576x360/u7yZWevFnMqoHovp.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/media/HQL5JGaWgAAmoML.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "24 REPLIES · 1 REPOSTS · 210 LIKES · 128 BOOKMARKS · 6840 VIEWS",
+    "links": [],
+    "_analysisTheme": "Designer Portfolio / Site Craft",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-20T17:24:11.000Z",
+    "author": "Susan STEM",
+    "handle": "feltanimalworld",
+    "avatar": "https://pbs.twimg.com/profile_images/1941884420048265216/Dbcchu0q_200x200.jpg",
+    "title": "text-to-CAD 仍需要设计者的空间推理",
+    "summary": "Susan STEM 指出 text-to-CAD 好用的前提不是魔法，而是设计者能画出脑图和空间约束，再让 AI 补足机械细节。这是 AI 3D 工作流的能力边界。",
+    "url": "https://x.com/feltanimalworld/status/2090490091596882372",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQLkedwXgAE_lah.jpg?name=orig"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090484508462096384/vid/avc1/636x360/16pI6XytWOdZgtqr.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090484508462096384/img/JLk_fgg_4cLlnpuD.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 1 REPOSTS · 3 LIKES · 6 BOOKMARKS · 1363 VIEWS",
+    "links": [],
+    "_analysisTheme": "Text-to-CAD / Spatial Reasoning",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI DEV TOOL",
+    "datetime": "2026-08-20T17:16:18.000Z",
+    "author": "Simon Yu",
+    "handle": "simon_ycl",
+    "avatar": "https://pbs.twimg.com/profile_images/1678065249486794755/jTKXo3JA_200x200.jpg",
+    "title": "SPADE 用 agent 自生成训练环境",
+    "summary": "Simon Yu 介绍 SPADE：让 RL environments 由 agent 自生成并持续改进。它对产品设计的启发是 agent 系统也需要自己生成任务环境与验证场。",
+    "url": "https://x.com/simon_ycl/status/2090488103970480635",
+    "media": [],
+    "metrics": "1 REPLIES · 7 REPOSTS · 36 LIKES · 15 BOOKMARKS · 3216 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent Evaluation / Self-play",
+    "_analysisPriority": "medium"
+  },
+  {
     "category": "AI DEV TOOL",
     "datetime": "2026-08-20T05:07:56.000Z",
     "author": "wong2",
@@ -252,96 +678,6 @@
     }
   },
   {
-    "category": "GROWTH DESIGN",
-    "datetime": "2026-08-19T23:30:13.000Z",
-    "author": "Yating Zhao",
-    "handle": "yatingzhao_ux",
-    "avatar": "https://pbs.twimg.com/profile_images/1805131800106385408/X_1s5Zr3_200x200.jpg",
-    "title": "RevenueCat 付费墙案例解释试用入口与收入的取舍",
-    "summary": "Yating Zhao 推荐 RevenueCat 的付费墙 redesign 案例，讨论直接引导试用还是把试用作为额外选项。它把 paywall UI 选择和转化/收入实验连起来，适合做增长设计反例库。",
-    "url": "https://x.com/yatingzhao_ux/status/2090219815801634872",
-    "media": [
-      {
-        "type": "image",
-        "src": "https://pbs.twimg.com/media/HQHz2G2XsAA0go4.jpg?name=orig"
-      }
-    ],
-    "metrics": "2 REPLIES · 5 REPOSTS · 54 LIKES · 83 BOOKMARKS · 4681 VIEWS",
-    "links": [
-      "https://www.revenuecat.com/blog/growth/paywall-redesigns-case-studies"
-    ],
-    "_analysisTheme": "Paywall Experiment / Conversion",
-    "_analysisPriority": "high"
-  },
-  {
-    "category": "DEV TOOL",
-    "datetime": "2026-08-19T20:17:33.000Z",
-    "author": "Jamie Barton 🥕",
-    "handle": "notrab",
-    "avatar": "https://pbs.twimg.com/profile_images/2087629461298536449/_m-mtrdW_200x200.jpg",
-    "title": "Orchard 把 Apple Containers 包成原生 macOS 管理界面",
-    "summary": "Jamie Barton 推荐 Orchard：一个 Apple Containers 的原生 macOS GUI。它把机器、容器、本地 AI 模型和 agent sandbox 组织到可视化工具里，适合观察开发基础设施如何产品化。",
-    "url": "https://x.com/notrab/status/2090171332205871211",
-    "media": [
-      {
-        "type": "image",
-        "src": "https://pbs.twimg.com/media/HQHHv3vWkAE3yj5.jpg?name=orig"
-      }
-    ],
-    "metrics": "38 REPLIES · 65 REPOSTS · 1133 LIKES · 1664 BOOKMARKS · 96660 VIEWS",
-    "links": [
-      "https://orchard.andon.dev"
-    ],
-    "_analysisTheme": "Local Dev Tool UX",
-    "_analysisPriority": "medium"
-  },
-  {
-    "category": "DESIGN TOOL",
-    "datetime": "2026-08-19T18:55:42.000Z",
-    "author": "sucodee",
-    "handle": "sucodeee",
-    "avatar": "https://pbs.twimg.com/profile_images/2063579703961636864/0i2DyZ4l_200x200.jpg",
-    "title": "MetalForge 输出跨 SwiftUI / React Native 的 Grok Bot 动画",
-    "summary": "sucodee 用 MetalForge 做 Animated Grok Bots，并指向 SwiftUI、React Native 和 Web 场景。它说明动效/材质工具的价值在于导出真实工程资产，而不是只停留在预览。",
-    "url": "https://x.com/sucodeee/status/2090150733949645025",
-    "media": [
-      {
-        "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2090150623735902208/vid/avc1/496x360/1stbpCNXTU3JPJJQ.mp4?tag=29",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090150623735902208/img/M3jcJdQeIksUVK6M.jpg",
-        "crossOrigin": false
-      }
-    ],
-    "metrics": "0 REPLIES · 1 REPOSTS · 49 LIKES · 30 BOOKMARKS · 1885 VIEWS",
-    "links": [
-      "https://metalforge.xyz"
-    ],
-    "_analysisTheme": "Shader Tool / Cross-platform Motion",
-    "_analysisPriority": "high"
-  },
-  {
-    "category": "PRODUCT DESIGN",
-    "datetime": "2026-08-19T17:42:08.000Z",
-    "author": "Casper Kessels",
-    "handle": "CasperKessels",
-    "avatar": "https://pbs.twimg.com/profile_images/1333494974260912131/_x4lGNW8_200x200.jpg",
-    "title": "Rivian 新设计语言覆盖车机、Web、Mobile 与内部工具",
-    "summary": "Casper Kessels 展示 Rivian 过去数月推进的新设计语言，并强调覆盖车辆、Web、移动端和内部工具。它适合作为“硬件品牌如何统一多端体验”的参考，而不是只看单屏 UI。",
-    "url": "https://x.com/CasperKessels/status/2090132218262044767",
-    "media": [
-      {
-        "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2090131025821392896/vid/avc1/640x360/kbdw4l7GIeR7b7bx.mp4?tag=14",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090131025821392896/img/P70NiG5QB1G9JXq6.jpg",
-        "crossOrigin": false
-      }
-    ],
-    "metrics": "19 REPLIES · 19 REPOSTS · 414 LIKES · 130 BOOKMARKS · 29953 VIEWS",
-    "links": [],
-    "_analysisTheme": "Cross-surface Design Language",
-    "_analysisPriority": "high"
-  },
-  {
     "category": "AI DEV TOOL",
     "datetime": "2026-08-20T00:05:08.000Z",
     "author": "Lord Bean",
@@ -556,6 +892,28 @@
     "_analysisPriority": "high"
   },
   {
+    "category": "GROWTH DESIGN",
+    "datetime": "2026-08-19T23:30:13.000Z",
+    "author": "Yating Zhao",
+    "handle": "yatingzhao_ux",
+    "avatar": "https://pbs.twimg.com/profile_images/1805131800106385408/X_1s5Zr3_200x200.jpg",
+    "title": "RevenueCat 付费墙案例解释试用入口与收入的取舍",
+    "summary": "Yating Zhao 推荐 RevenueCat 的付费墙 redesign 案例，讨论直接引导试用还是把试用作为额外选项。它把 paywall UI 选择和转化/收入实验连起来，适合做增长设计反例库。",
+    "url": "https://x.com/yatingzhao_ux/status/2090219815801634872",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQHz2G2XsAA0go4.jpg?name=orig"
+      }
+    ],
+    "metrics": "2 REPLIES · 5 REPOSTS · 54 LIKES · 83 BOOKMARKS · 4681 VIEWS",
+    "links": [
+      "https://www.revenuecat.com/blog/growth/paywall-redesigns-case-studies"
+    ],
+    "_analysisTheme": "Paywall Experiment / Conversion",
+    "_analysisPriority": "high"
+  },
+  {
     "category": "ICON SYSTEM",
     "datetime": "2026-08-19T20:31:11.000Z",
     "author": "Andreas Storm",
@@ -578,6 +936,28 @@
     "_analysisPriority": "high"
   },
   {
+    "category": "DEV TOOL",
+    "datetime": "2026-08-19T20:17:33.000Z",
+    "author": "Jamie Barton 🥕",
+    "handle": "notrab",
+    "avatar": "https://pbs.twimg.com/profile_images/2087629461298536449/_m-mtrdW_200x200.jpg",
+    "title": "Orchard 把 Apple Containers 包成原生 macOS 管理界面",
+    "summary": "Jamie Barton 推荐 Orchard：一个 Apple Containers 的原生 macOS GUI。它把机器、容器、本地 AI 模型和 agent sandbox 组织到可视化工具里，适合观察开发基础设施如何产品化。",
+    "url": "https://x.com/notrab/status/2090171332205871211",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQHHv3vWkAE3yj5.jpg?name=orig"
+      }
+    ],
+    "metrics": "38 REPLIES · 65 REPOSTS · 1133 LIKES · 1664 BOOKMARKS · 96660 VIEWS",
+    "links": [
+      "https://orchard.andon.dev"
+    ],
+    "_analysisTheme": "Local Dev Tool UX",
+    "_analysisPriority": "medium"
+  },
+  {
     "category": "DESIGN TOOL",
     "datetime": "2026-08-19T19:57:16.000Z",
     "author": "Plasticity",
@@ -597,6 +977,30 @@
     "metrics": "1 REPLIES · 6 REPOSTS · 62 LIKES · 12 BOOKMARKS · 1710 VIEWS",
     "links": [],
     "_analysisTheme": "3D Modeling Direct Manipulation",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-19T18:55:42.000Z",
+    "author": "sucodee",
+    "handle": "sucodeee",
+    "avatar": "https://pbs.twimg.com/profile_images/2063579703961636864/0i2DyZ4l_200x200.jpg",
+    "title": "MetalForge 输出跨 SwiftUI / React Native 的 Grok Bot 动画",
+    "summary": "sucodee 用 MetalForge 做 Animated Grok Bots，并指向 SwiftUI、React Native 和 Web 场景。它说明动效/材质工具的价值在于导出真实工程资产，而不是只停留在预览。",
+    "url": "https://x.com/sucodeee/status/2090150733949645025",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090150623735902208/vid/avc1/496x360/1stbpCNXTU3JPJJQ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090150623735902208/img/M3jcJdQeIksUVK6M.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "0 REPLIES · 1 REPOSTS · 49 LIKES · 30 BOOKMARKS · 1885 VIEWS",
+    "links": [
+      "https://metalforge.xyz"
+    ],
+    "_analysisTheme": "Shader Tool / Cross-platform Motion",
     "_analysisPriority": "high"
   },
   {
@@ -687,6 +1091,28 @@
     "metrics": "22 REPLIES · 65 REPOSTS · 593 LIKES · 238 BOOKMARKS · 45170 VIEWS",
     "links": [],
     "_analysisTheme": "Realtime Voice UX",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-19T17:42:08.000Z",
+    "author": "Casper Kessels",
+    "handle": "CasperKessels",
+    "avatar": "https://pbs.twimg.com/profile_images/1333494974260912131/_x4lGNW8_200x200.jpg",
+    "title": "Rivian 新设计语言覆盖车机、Web、Mobile 与内部工具",
+    "summary": "Casper Kessels 展示 Rivian 过去数月推进的新设计语言，并强调覆盖车辆、Web、移动端和内部工具。它适合作为“硬件品牌如何统一多端体验”的参考，而不是只看单屏 UI。",
+    "url": "https://x.com/CasperKessels/status/2090132218262044767",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090131025821392896/vid/avc1/640x360/kbdw4l7GIeR7b7bx.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090131025821392896/img/P70NiG5QB1G9JXq6.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "19 REPLIES · 19 REPOSTS · 414 LIKES · 130 BOOKMARKS · 29953 VIEWS",
+    "links": [],
+    "_analysisTheme": "Cross-surface Design Language",
     "_analysisPriority": "high"
   },
   {

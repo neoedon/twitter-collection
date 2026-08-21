@@ -1,5 +1,2691 @@
 window.DESIGNER_ANALYSIS = [
   {
+    "date": "2026-08-21",
+    "generatedAt": "2026-08-21T08:18:00+08:00",
+    "batch": "x-ai-design-analysis-2026-08-21-0818",
+    "analysisCount": 100,
+    "homeCount": 20,
+    "likeCount": 80,
+    "linksInspected": 33,
+    "unavailableLinks": 2,
+    "summary": "2026-08-21 08:00 Asia/Shanghai 首批：Home 从登录态 Home/Following/列表/Search 的 238 个唯一候选中精选 20 条同日信号；Likes 滚动到 known-ID 边界无新增；Analysis 用 20 Home + 80 条未分析历史 CSV Like 补足今日 100 条。",
+    "sourceWindow": {
+      "strategy": "Home 使用 ego-browser 登录态观察 X Home、正在关注、Design Engineers、JPI、AI 御三家超级员工、独立创造者与 AI/product/design/visual/indie 搜索；Likes 使用 x.com/i/history/likes 滚动到 known-ID 边界；Analysis 在本次无新 Like 的情况下回补未分析历史 CSV Like。",
+      "newestHomeDatetime": "2026-08-21T00:07:40.000Z",
+      "oldestHomeDatetime": "2026-08-20T17:16:18.000Z",
+      "newestLikeDatetime": "2026-03-07T14:31:00.000Z",
+      "oldestLikeDatetime": "2025-12-12T19:10:45.000Z",
+      "expandedWindow": "Home 未扩窗，20 条均按原帖时间归入 Asia/Shanghai 2026-08-21。Like 同步无新增，为满足每日 100 条 Analysis，回补更早未分析 CSV 收藏，未写入 liked-backfill。",
+      "observed": {
+        "homeRaw": 1021,
+        "homeUnique": 238,
+        "homeFreshCandidates": 238,
+        "homeSelected": 20,
+        "selectedHomeIds": [
+          "2090590899034050982",
+          "2090590625733202119",
+          "2090590582012084724",
+          "2090590708142858386",
+          "2090591628050456643",
+          "2090589725966966981",
+          "2090582366754427126",
+          "2090579852613034048",
+          "2090570356713275672",
+          "2090555241343418814",
+          "2090555253200769288",
+          "2090546063266431357",
+          "2090546476464451907",
+          "2090539960629633360",
+          "2090533056679743961",
+          "2090522470080033225",
+          "2090526502404096016",
+          "2090507135239016845",
+          "2090490091596882372",
+          "2090488103970480635"
+        ],
+        "likeRaw": 252,
+        "likeUnique": 54,
+        "freshLikeIds": [],
+        "knownBoundary": "step 24, confirmed through step 28",
+        "rejectedHomeCandidates": 218,
+        "historicalCsvLikeBackfill": 80
+      }
+    },
+    "items": [
+      {
+        "id": "2090590899034050982",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/labsdvx/status/2090590899034050982",
+        "author": "David Villegas",
+        "handle": "labsdvx",
+        "datetime": "2026-08-21T00:04:46.000Z",
+        "title": "Code Workspace 把 AI coding 带到 iPad diff 审核",
+        "originalSummary": "原帖内容：AI coding shouldn’t mean leaving a laptop open or maintaining your own VPS. I’m building Code Workspace for iPad: connect an AI provider, open a project, and review agent-made Git ",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "AI coding 不应依赖常开笔记本或自建 VPS，Code Workspace 试图把项目打开、AI provider 连接和 agent diff review 放进 iPad。对个人设计工程师来说，这是移动端 agent 工作台的信息架构样本。",
+        "linkAnalysis": [
+          {
+            "url": "https://getcodeworkspace.com/",
+            "title": "Code Workspace | AI coding agents for iPhone and iPad",
+            "access": "full",
+            "summary": "Code Workspace brings an agent-first coding workspace, real project files and Git to iPhone and iPad.",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「Code Workspace 把 AI coding 带到 iPad diff 审核」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Mobile Agent Workspace」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Mobile Agent Workspace"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090590625733202119",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/mikefutia/status/2090590625733202119",
+        "author": "Mike Futia",
+        "handle": "mikefutia",
+        "datetime": "2026-08-21T00:03:41.000Z",
+        "title": "Claude Code + Figma 生成可编辑广告静态图",
+        "originalSummary": "原帖内容：How to make Meta static ads with Claude Code + Figma. Finally, you can edit the text that AI generates. 📌 Grab the free Claude skill >> https://mikefutia.com/claude-higgs-figma-lm",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Mike Futia 展示用 Claude Code/Figma 做 Meta 静态广告，并把 AI 文本变成可编辑素材。它适合拆解「生成后仍可被设计师修改」的广告生产流。",
+        "linkAnalysis": [
+          {
+            "url": "https://mikefutia.com/claude-higgs-figma-lm/",
+            "title": "Claude + Higgsfield + Figma [2026-08-01 LM] - mikefutia.com",
+            "access": "full",
+            "summary": "HTTP 200 text/html; charset=UTF-8",
+            "value": "可作为实现/产品判断来源，值得继续读。"
+          }
+        ],
+        "learningActions": [
+          "把「Claude Code + Figma 生成可编辑广告静态图」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「AI Ad Production / Editable Output」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI Ad Production / Editable Output"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090590582012084724",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/lyczak/status/2090590582012084724",
+        "author": "jaleel",
+        "handle": "lyczak",
+        "datetime": "2026-08-21T00:03:30.000Z",
+        "title": "Codex CLI 0.149 变成 agent 任务面板",
+        "originalSummary": "原帖内容：Codex CLI 0.149.0 发布：新增 codex agents 任务面板与 codex queue，可管理 Agent，并向现有本地或远程会话继续投递消息；codex doctor 也扩展了网络、代理和桌面诊断。Codex 正从单次终端对话变成会话控制台。 来源：https://github.com/openai/codex/releases/ta",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "这条中文摘要捕捉到 Codex agents、queue 和 doctor 的变化：CLI 从单次对话向本地/远程会话控制台演进。对设计工程师的价值是观察 agent 调度界面如何变成日常工具。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0",
+            "title": "Release 0.149.0 · openai/codex · GitHub",
+            "access": "full",
+            "summary": "Lightweight coding agent that runs in your terminal - Release 0.149.0 · openai/codex",
+            "value": "可作为实现/产品判断来源，值得继续读。"
+          }
+        ],
+        "learningActions": [
+          "把「Codex CLI 0.149 变成 agent 任务面板」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Agent Session Console」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "AI DEV TOOL",
+          "Agent Session Console"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090590708142858386",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Poplab_io/status/2090590708142858386",
+        "author": "Poplab",
+        "handle": "Poplab_io",
+        "datetime": "2026-08-21T00:04:00.000Z",
+        "title": "Figma AI critique 不能替代漏斗判断",
+        "originalSummary": "原帖内容：Figma Can Critique Your Designs Now. It Still Won't Fix Your Funnel. https://poplab.io/blog/figma-ai-critique-onboarding-ux-still-broken/",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Poplab 用 Figma AI critique 切入 onboarding/funnel 问题，提醒 AI 点评只能发现界面问题，不能替代转化路径和用户意图判断。适合作为 AI 设计评审的边界案例。",
+        "linkAnalysis": [
+          {
+            "url": "https://poplab.io/blog/figma-ai-critique-onboarding-ux-still-broken/",
+            "title": "Figma Now Critiques Your Designs. So Why Is Your Onboarding Still Broken?",
+            "access": "full",
+            "summary": "Figma&apos;s AI critique panel is live. It&apos;s useful for component-level polish — but it won&apos;t catch why your pricing page doesn&apos;t convert or your onboarding loses us",
+            "value": "可作为实现/产品判断来源，值得继续读。"
+          }
+        ],
+        "learningActions": [
+          "把「Figma AI critique 不能替代漏斗判断」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「AI Critique / Funnel UX」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI Critique / Funnel UX"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090591628050456643",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Kuntalgo/status/2090591628050456643",
+        "author": "Kuntal Go",
+        "handle": "Kuntalgo",
+        "datetime": "2026-08-21T00:07:40.000Z",
+        "title": "Notion 开关用 1/0 提升单色视觉可辨性",
+        "originalSummary": "原帖内容：Why this matters from a UI/UX & #A11y perspective: 👇 For users with monochromatic vision, a color shift means nothing. The “1” and “0” provide an absolute visual anchor. Adding bi",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Kuntal Go 从 a11y 角度解释开关状态不能只靠颜色变化，1/0 能给单色视觉用户提供绝对锚点。这是微交互里低成本提升可达性的好例子。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Notion 开关用 1/0 提升单色视觉可辨性」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Accessibility / State Encoding」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "ACCESSIBILITY",
+          "Accessibility / State Encoding"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090589725966966981",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/jimmy_voxel51/status/2090589725966966981",
+        "author": "Jimmy at Voxel51",
+        "handle": "jimmy_voxel51",
+        "datetime": "2026-08-21T00:00:06.000Z",
+        "title": "Voxel51 把本地开源模型接进统一模型选择器",
+        "originalSummary": "原帖内容：You can now run a fully open source model, on your own hardware, and it shows up in the exact same picker as Claude and Gemini - https://hubs.ly/Q04tCs4G0 We served Google's Gemma ",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Voxel51 展示把本地 Gemma 模型接进与 Claude/Gemini 相同的 picker。学习点在于本地模型不应成为另一个割裂入口，而应进入同一模型选择和任务编排界面。",
+        "linkAnalysis": [
+          {
+            "url": "https://hubs.ly/Q04tCs4G0",
+            "title": "Gemma 4 + FiftyOne Agent: Bring Your Own Open Source Model",
+            "access": "full",
+            "summary": "See how we served Google&#x27;s Gemma 4 with vLLM and wired it into FiftyOne Agent, so a self-hosted open source model works like any hosted provider.",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「Voxel51 把本地开源模型接进统一模型选择器」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Local Model UX」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "AI DEV TOOL",
+          "Local Model UX"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090582366754427126",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/merrills/status/2090582366754427126",
+        "author": "Steve Merrill",
+        "handle": "merrills",
+        "datetime": "2026-08-20T23:30:52.000Z",
+        "title": "巧克力品牌为 AI 可读性重写商品数据",
+        "originalSummary": "原帖内容：A chocolate brand we work on saw Google organic sessions climb 428% in 30 days. We ran zero ads to make that happen. We rebuilt the store's content and product data so AI tools cou",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Steve Merrill 说他们通过重建内容和商品数据让 AI 工具更容易读取、信任和引用，从而提升 organic sessions。对产品设计师来说，这是 AI 搜索时代的商品信息架构案例。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「巧克力品牌为 AI 可读性重写商品数据」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「AI Search / Product Data」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI Search / Product Data"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090579852613034048",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/a_mahringer/status/2090579852613034048",
+        "author": "Andreas Mahringer",
+        "handle": "a_mahringer",
+        "datetime": "2026-08-20T23:20:52.000Z",
+        "title": "企业 AI 输出需要脱离聊天窗口沉淀",
+        "originalSummary": "原帖内容：Every AI tool is a chat window. That works until the output has to outlive the conversation. In a company, it always does. https://x.com/i/article/2090175792277864448",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Andreas Mahringer 指出聊天窗口适合生成，但企业输出必须在会话之外长期存在。这是设计 agent 工具时从 chat-first 转向 artifact-first 的关键提醒。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2090175792277864448",
+            "title": "X Article",
+            "access": "partial",
+            "summary": "X Article 需要登录上下文，自动读取只能确认入口与原帖关系。",
+            "value": "适合后续人工打开阅读全文；本批不编造正文。"
+          }
+        ],
+        "learningActions": [
+          "把「企业 AI 输出需要脱离聊天窗口沉淀」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Artifact-first AI Workflow」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "AI PRODUCT",
+          "Artifact-first AI Workflow"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090570356713275672",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/tomgreenwald/status/2090570356713275672",
+        "author": "Tom Greenwald",
+        "handle": "tomgreenwald",
+        "datetime": "2026-08-20T22:43:08.000Z",
+        "title": "本地 AI coding 硬件分层给预算判断",
+        "originalSummary": "原帖内容：Consumer Hardware Tiers for Local AI Coding (August 2026) TLDR: $1k buys the smartest model most people can run. The next $9k buys speed, context, and concurrency. The next intelli",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Tom Greenwald 用价格层级解释本地 AI coding 需要的硬件、速度和并发权衡。它能帮助个人设计工程师判断何时买硬件、何时继续用云端模型。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「本地 AI coding 硬件分层给预算判断」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Local AI Coding Budget」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "AI DEV TOOL",
+          "Local AI Coding Budget"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090555241343418814",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/OpenAIDevs/status/2090555241343418814",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "datetime": "2026-08-20T21:43:04.000Z",
+        "title": "Codex 共享线程把构建过程变成可读上下文",
+        "originalSummary": "原帖内容：Shared threads in Codex and ChatGPT Work let you show the process behind your build with a read-only link, giving others the context and reasoning behind a pull request, deep dive,",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "OpenAI Developers 展示 Codex/ChatGPT Work 的 shared threads，可用只读链接说明 PR、深读或交接背后的过程。对 agent 产品而言，这是把推理过程产品化的案例。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Codex 共享线程把构建过程变成可读上下文」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Agent Handoff / Context Sharing」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Agent Handoff / Context Sharing"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090555253200769288",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/OpenAIDevs/status/2090555253200769288",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "datetime": "2026-08-20T21:43:07.000Z",
+        "title": "PR 上下文不该依赖截图考古",
+        "originalSummary": "原帖内容：PR context shouldn’t require screenshot archaeology 🔍 https://learn.chatgpt.com/docs/use-chatgpt#share-a-read-only-snapshot-of-a-codex-thread",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "OpenAI Developers 把 shared snapshot 文档直接指向 PR context，强调交接不应靠截图翻找。它补充了 agent 协作里「可验证上下文」的产品细节。",
+        "linkAnalysis": [
+          {
+            "url": "https://learn.chatgpt.com/docs/use-chatgpt#share-a-read-only-snapshot-of-a-codex-thread",
+            "title": "Use ChatGPT | ChatGPT Learn",
+            "access": "full",
+            "summary": "Choose Chat, ChatGPT Work, or Codex, add useful context, and refine the result.",
+            "value": "可作为实现/产品判断来源，值得继续读。"
+          }
+        ],
+        "learningActions": [
+          "把「PR 上下文不该依赖截图考古」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「PR Context / Snapshot UX」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "PR Context / Snapshot UX"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090546063266431357",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/genevieve__h/status/2090546063266431357",
+        "author": "genevieveh@",
+        "handle": "genevieve__h",
+        "datetime": "2026-08-20T21:06:36.000Z",
+        "title": "AI Studio 双向 GitHub 同步补全应用工作流",
+        "originalSummary": "原帖内容：AI Studio now has bi-directional GitHub sync! But did you know about our other recent feature launches? Here are ten amazing power user tips, starting with my fav: ask AI Studio to",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Google AI Studio 的双向 GitHub sync 与图像生成能力说明 AI app builder 正在补齐从原型到资产到代码同步的闭环。适合跟踪 AI IDE 的端到端工作流。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「AI Studio 双向 GitHub 同步补全应用工作流」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「AI App Builder Workflow」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "AI DEV TOOL",
+          "AI App Builder Workflow"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090546476464451907",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/poteto/status/2090546476464451907",
+        "author": "lauren",
+        "handle": "poteto",
+        "datetime": "2026-08-20T21:08:15.000Z",
+        "title": "PR gardener 是代码库健康的轻量角色",
+        "originalSummary": "原帖内容：every team needs a gardener. someone quietly watching the stream of PRs flowing into your codebase, noticing the smells: the third isRecord this week, the lint suppressions creepin",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Lauren 提出团队需要 quietly watching PR stream 的 gardener，观察重复模式和 lint suppressions。这能转译为 AI code review/设计系统治理的后台角色。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「PR gardener 是代码库健康的轻量角色」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Codebase Health / Review Role」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Codebase Health / Review Role"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090539960629633360",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/mozharovsky/status/2090539960629633360",
+        "author": "Evgenii Mozharovskii",
+        "handle": "mozharovsky",
+        "datetime": "2026-08-20T20:42:21.000Z",
+        "title": "AI coding 放大 App Store 提交前 QA 缺口",
+        "originalSummary": "原帖内容：Apple reviewed 7.77M submissions last year and rejected 1.93M. One in four. 64% of rejections are \"performance\" — crashes, bugs, half-finished flows. All catchable before submit. M",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Evgenii 用 Apple 审核数据提醒：AI coding 提高提交速度后，crash、bug 和半成品流程会成为排队成本。对产品团队是把自动化 QA 前置的证据。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「AI coding 放大 App Store 提交前 QA 缺口」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Release QA / AI Coding」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "PRODUCT QA",
+          "Release QA / AI Coding"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090533056679743961",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/usagimaruma/status/2090533056679743961",
+        "author": "usagimaru ⌘",
+        "handle": "usagimaruma",
+        "datetime": "2026-08-20T20:14:55.000Z",
+        "title": "atatapp 暴露文本字段干预的 macOS API 边界",
+        "originalSummary": "原帖内容：このテキストフィールドに介入するインタラクションねえ。 以前似たようなことやろうとした時に、macOSのアクセシビリティAPIが十分な機能要件を満たしてなくてできなかったんだよねえ。今はできるのかな。 https://atatapp.com",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "usagimaru 讨论文本字段介入交互和 macOS accessibility API 能力边界。对设计工程师来说，这是桌面级输入增强产品必须先验证系统 API 的提醒。",
+        "linkAnalysis": [
+          {
+            "url": "https://atatapp.com",
+            "title": "@@ for Mac — Your AI agent in any text field",
+            "access": "full",
+            "summary": "Type @@ in any Mac text field to start the agent CLI you already run — Claude Code, Codex, or your own — with screen, selection, Finder, and clipboard context attached, then place ",
+            "value": "可作为实现/产品判断来源，值得继续读。"
+          }
+        ],
+        "learningActions": [
+          "把「atatapp 暴露文本字段干预的 macOS API 边界」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Desktop Input / Accessibility API」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "AI PRODUCT",
+          "Desktop Input / Accessibility API"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090522470080033225",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/DannPetty/status/2090522470080033225",
+        "author": "DANN©",
+        "handle": "DannPetty",
+        "datetime": "2026-08-20T19:32:51.000Z",
+        "title": "Quiver sidebar 展示设计师直接交付 PR 的路径",
+        "originalSummary": "原帖内容：New sidebar coming soon to Quiver. I designed this working prototype, then built it in actual code and sent real PRs for engineering to polish and ship. I'm not a developer. I've N",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Dann Petty 说自己设计了 working prototype，又在真实代码里提交 PR 给工程继续打磨。它是设计师从 mockup 进入代码交付的清晰信号。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Quiver sidebar 展示设计师直接交付 PR 的路径」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Designer-to-PR Workflow」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Designer-to-PR Workflow"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090526502404096016",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/vinvan/status/2090526502404096016",
+        "author": "Vincent van der Meulen",
+        "handle": "vinvan",
+        "datetime": "2026-08-20T19:48:52.000Z",
+        "title": "pstack 与 Grok bot 出现在 AI 工作流笔记里",
+        "originalSummary": "原帖内容：ai notes 08/20: - pstack is the best thing i've tried in a while - giving grok bot linux versions of apps is underrated - mine dictation transcripts for factory improvements - prom",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Vincent 的 ai notes 把 pstack、Grok bot、dictation transcript mining 和并行 prompting 放在一起，像一张设计工程师个人工具链快照。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「pstack 与 Grok bot 出现在 AI 工作流笔记里」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Personal AI Workflow Stack」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Personal AI Workflow Stack"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090507135239016845",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/shellwetwit1/status/2090507135239016845",
+        "author": "Shellie Hu",
+        "handle": "shellwetwit1",
+        "datetime": "2026-08-20T18:31:55.000Z",
+        "title": "Shellie Hu 新个人站作为设计师作品站样本",
+        "originalSummary": "原帖内容：After 20 days, here is my new site! 🧣",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Shellie Hu 展示 20 天完成的新个人站。它适合作为个人设计师作品站的视觉节奏、首屏气质和自我表达参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Shellie Hu 新个人站作为设计师作品站样本」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Designer Portfolio / Site Craft」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "AI PRODUCT",
+          "Designer Portfolio / Site Craft"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090490091596882372",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/feltanimalworld/status/2090490091596882372",
+        "author": "Susan STEM",
+        "handle": "feltanimalworld",
+        "datetime": "2026-08-20T17:24:11.000Z",
+        "title": "text-to-CAD 仍需要设计者的空间推理",
+        "originalSummary": "原帖内容：为什么你的text-to-CAD不可用？因为你自己没有建模能力。只要你自己有把脑图画下来并且空间想象，那text-to-CAD就是执行你的一切想象力。 这个比自己亲自建模来的好的地方在于，你可以忽略一些暂时无法机械化的元素。比如我再做的复杂一些，有曲线，有铆合的结构，这些需要机械知识/建模/生产经验推理的，可以暂时用绘画代替。然后再和AI逐步推理。在实际建模",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Susan STEM 指出 text-to-CAD 好用的前提不是魔法，而是设计者能画出脑图和空间约束，再让 AI 补足机械细节。这是 AI 3D 工作流的能力边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「text-to-CAD 仍需要设计者的空间推理」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Text-to-CAD / Spatial Reasoning」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Text-to-CAD / Spatial Reasoning"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090488103970480635",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/simon_ycl/status/2090488103970480635",
+        "author": "Simon Yu",
+        "handle": "simon_ycl",
+        "datetime": "2026-08-20T17:16:18.000Z",
+        "title": "SPADE 用 agent 自生成训练环境",
+        "originalSummary": "原帖内容：We introduce SPADE♠, self-play for agentic environment scaling, where RL envs are generated and continuously improved by agent. we believe it's the key step towards RSI: AI decidin",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，是因为它是今天登录态 Home/Following/Search 中出现的高价值设计工程信号，可直接转化为工具判断、界面案例或实现练习。",
+        "deepSummary": "Simon Yu 介绍 SPADE：让 RL environments 由 agent 自生成并持续改进。它对产品设计的启发是 agent 系统也需要自己生成任务环境与验证场。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「SPADE 用 agent 自生成训练环境」拆成一张案例卡：用户场景、界面机制、可复用做法。",
+          "用自己的 viaim/个人工具语境写一个 30 分钟复刻或反例验证任务。",
+          "判断它属于「Agent Evaluation / Self-play」中的哪个能力缺口，并记录可行动下一步。"
+        ],
+        "tags": [
+          "AI DEV TOOL",
+          "Agent Evaluation / Self-play"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2030290120360755461",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/hansonerere2/status/2030290120360755461",
+        "author": "hansonerere",
+        "handle": "hansonerere2",
+        "datetime": "2026-03-07T14:31:00.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：Spider Web Effect v2.0 🕷️ Node script for spider web, path effect node for spider body @rive_app",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2029590359773163670",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/KMkota0/status/2029590359773163670",
+        "author": "xavier (jack)",
+        "handle": "KMkota0",
+        "datetime": "2026-03-05T16:10:24.000Z",
+        "title": "设计工程师能力转型案例",
+        "originalSummary": "原帖内容：my favorite design engineer (and great friend) has joined me to build a new type of animation tool we’ve been obsessing over the details → @jesper_vos",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「设计工程师能力转型案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2029285755172835489",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/fuserstudio/status/2029285755172835489",
+        "author": "Fuser",
+        "handle": "fuserstudio",
+        "datetime": "2026-03-04T20:00:00.000Z",
+        "title": "字体/排版资源收藏",
+        "originalSummary": "原帖内容：Compositor is here: inpainting, masking, blending, layering, variable fonts, repositioning. All inside Fuser.",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏可作为个人设计师的产品判断素材：识别它解决的问题、目标用户、可迁移方法和后续练习价值。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「字体/排版资源收藏」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "AI WORKFLOW",
+          "TYPOGRAPHY"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2028566881989165163",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/jeffamcavoy/status/2028566881989165163",
+        "author": "Jeff McAvoy",
+        "handle": "jeffamcavoy",
+        "datetime": "2026-03-02T20:23:28.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：Ripple effect with a scripted image mesh in @rive_app.",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2028566773725851899",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/radbar_1/status/2028566773725851899",
+        "author": "Bartek Radziejewski",
+        "handle": "radbar_1",
+        "datetime": "2026-03-02T20:23:02.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：🌱 @rive_app",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2028085657919226291",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/elrumo/status/2028085657919226291",
+        "author": "Elias",
+        "handle": "elrumo",
+        "datetime": "2026-03-01T12:31:15.000Z",
+        "title": "UI 组件与设计系统案例",
+        "originalSummary": "原帖内容：A lot of http://macOSicons.com related updates coming soon, starting with the new icon! #macOS #apple #BuildInPublic",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [
+          {
+            "url": "http://macOSicons.com",
+            "title": "macOSicons - 30,000+ free macOS icons",
+            "access": "full",
+            "summary": "The largest collection of free macOS app icons. Download .icns and PNG icons for your Mac and iOS devices.",
+            "value": "可作为实现/产品判断来源，值得继续读。"
+          }
+        ],
+        "learningActions": [
+          "把「UI 组件与设计系统案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2027819626445607214",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Zaidbren/status/2027819626445607214",
+        "author": "Zaid",
+        "handle": "Zaidbren",
+        "datetime": "2026-02-28T18:54:08.000Z",
+        "title": "UI 组件与设计系统案例",
+        "originalSummary": "原帖内容：http://Phia.app 3.0.1 is live. AI voice overs are now built into the editor. Generate AI narration instantly, fully editable in your timeline. This took a lot of work to get right.",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [
+          {
+            "url": "http://Phia.app",
+            "title": "Dina — Your ideas, Perfected",
+            "access": "full",
+            "summary": "Screen recorder for macOS. Create engaging demos, tutorials, courses, and social media videos with automatic zoom, smooth cursor movement, captions, and cinematic effects.",
+            "value": "可作为实现/产品判断来源，值得继续读。"
+          },
+          {
+            "url": "https://phia.app",
+            "title": "Dina — Your ideas, Perfected",
+            "access": "full",
+            "summary": "Screen recorder for macOS. Create engaging demos, tutorials, courses, and social media videos with automatic zoom, smooth cursor movement, captions, and cinematic effects.",
+            "value": "可作为实现/产品判断来源，值得继续读。"
+          },
+          {
+            "url": "https://phia.app/changelog",
+            "title": "Changelog — Dina",
+            "access": "full",
+            "summary": "Discover the latest updates, features, and improvements in Dina.",
+            "value": "可作为实现/产品判断来源，值得继续读。"
+          }
+        ],
+        "learningActions": [
+          "把「UI 组件与设计系统案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2026505748469944563",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/dingyi/status/2026505748469944563",
+        "author": "Ding",
+        "handle": "dingyi",
+        "datetime": "2026-02-25T03:53:15.000Z",
+        "title": "Figma 与 AI/代码协作案例",
+        "originalSummary": "原帖内容：Paper 桌面版终于发布了，还有 MCP 支持和 AI agents 直接对话生成设计。 加油，干死 Figma！ ",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Figma 与 AI/代码协作案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2025571859580813736",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/jrgarciadev/status/2025571859580813736",
+        "author": "Junior García",
+        "handle": "jrgarciadev",
+        "datetime": "2026-02-22T14:02:19.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：I'm building a node-based tool that turns any SVG into animated SVGs using Gemini 3.1 Pro it preserves the original aesthetics and the results are insane",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "MOTION / VISUAL"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2025156702404846012",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/marina_uiux/status/2025156702404846012",
+        "author": "Marina Budarina",
+        "handle": "marina_uiux",
+        "datetime": "2026-02-21T10:32:38.000Z",
+        "title": "6 stunning personal websites, all do",
+        "originalSummary": "原帖内容：6 stunning personal websites, all done in with no-code tool @framer",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「6 stunning personal websites, all do」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2024907125890449800",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/anxndsgn/status/2024907125890449800",
+        "author": "XIN",
+        "handle": "anxndsgn",
+        "datetime": "2026-02-20T18:00:54.000Z",
+        "title": "Figma 与 AI/代码协作案例",
+        "originalSummary": "原帖内容：flowingto figma 插件也在路上了！感谢@woshiniguang 的建议。基于 figma 插件模板和已有的组件库，opus 4.6 制定好计划后使用 codex 5.3 review，只用了一晚上时间就完成了 mvp 版本，以前真的是无法想象",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Figma 与 AI/代码协作案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2024328678688379023",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Jadon_Bao/status/2024328678688379023",
+        "author": "Jadon7",
+        "handle": "Jadon_Bao",
+        "datetime": "2026-02-19T03:42:21.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：最早学习@rive_app 的时候尝试着做了很多 Apple Watch 的表盘效果，这个效果随着 Rive 功能升级也做了四五次迭代，一边感叹 Databinding 带来的效率提升，另一方面也惊讶于 Apple 在表盘细节上打磨是真足，以我自己的设计效率完全复刻出来也花了好几天时间，很难想象原方案花了设计师和工程师多少投入",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2024164408784515404",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/getPlasticity/status/2024164408784515404",
+        "author": "Plasticity",
+        "handle": "getPlasticity",
+        "datetime": "2026-02-18T16:49:36.000Z",
+        "title": "UI 组件与设计系统案例",
+        "originalSummary": "原帖内容：Stop rebuilding surfaces. Let xNURBS solve the curves and generate a clean, production-ready surface instantly. Try Plasticity for free at http://plasticity.xyz",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [
+          {
+            "url": "http://plasticity.xyz",
+            "title": "Plasticity",
+            "access": "full",
+            "summary": "Plasticity is a 3D modeling and CAD program that is easy to use and has a focus on artistic workflows.",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「UI 组件与设计系统案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2023887686302658693",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/adet0m1wa/status/2023887686302658693",
+        "author": "olomi",
+        "handle": "adet0m1wa",
+        "datetime": "2026-02-17T22:30:01.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：Prototyped in @createwithplay Illustration inspired by @ShruPosts and animated in @rive_app Read case study here https://contra.com/p/oEArg7R3-retro-futurist-music-experience?r=ade",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [
+          {
+            "url": "https://contra.com/p/oEArg7R3-retro-futurist-music-experience?r=adetomiwaade0314_i6pmrozi",
+            "title": "Retro-Futurist Music Experience by Adetomiwa Adewunmi",
+            "access": "full",
+            "summary": "Created a futuristic-retro music app blending iPod nostalgia with modern UI.",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2023789281639055595",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/bohdanmotion/status/2023789281639055595",
+        "author": "Bohdan Motion",
+        "handle": "bohdanmotion",
+        "datetime": "2026-02-17T15:58:59.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：Generative AI platform launch video Concept → Design → Animation Delivered in just 1 week",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2023427001588273157",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/KMkota0/status/2023427001588273157",
+        "author": "xavier (jack)",
+        "handle": "KMkota0",
+        "datetime": "2026-02-16T15:59:25.000Z",
+        "title": "UI 组件与设计系统案例",
+        "originalSummary": "原帖内容：built an open source asset processing library that runs 100% in browser with webGPU 1) build pipelines with the node editor 2) run them in your web app using the runtime try it out",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [
+          {
+            "url": "https://pipemagic.mo1.app/",
+            "title": "PipeMagic",
+            "access": "full",
+            "summary": "HTTP 200 text/html; charset=utf-8",
+            "value": "可作为实现/产品判断来源，值得继续读。"
+          }
+        ],
+        "learningActions": [
+          "把「UI 组件与设计系统案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2021265383567581338",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/richprjcts/status/2021265383567581338",
+        "author": "Riccardo Agostinelli",
+        "handle": "richprjcts",
+        "datetime": "2026-02-10T16:49:55.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：Coinbase - System Update Styleframes & Motion Design - OOH, Website, Main Stage Event & Social Media Direction - Coinbase Creative Studio",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2021252776085291496",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/op7418/status/2021252776085291496",
+        "author": "歸藏(guizang.ai)",
+        "handle": "op7418",
+        "datetime": "2026-02-10T15:59:49.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：Seedance 2.0 is absolutely next level for product promos and motion graphics. 🤯 You just drop in your screenshots, and it instantly generates a slick, Apple-style app trailer. The",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2021243939513160163",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Y0uView/status/2021243939513160163",
+        "author": "Piyush Rathod",
+        "handle": "Y0uView",
+        "datetime": "2026-02-10T15:24:42.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：Short teaser of upcoming 2D and 3D motion design work!!!",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2021208879921611079",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/essential/status/2021208879921611079",
+        "author": "Essential",
+        "handle": "essential",
+        "datetime": "2026-02-10T13:05:23.000Z",
+        "title": "UI 组件与设计系统案例",
+        "originalSummary": "原帖内容：Create apps shaped exactly around your specific needs and context. That's what Essential Apps are. You describe what you need. AI builds it. It appears on your phone's home screen,",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「UI 组件与设计系统案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2020988120875839963",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/drawsgood/status/2020988120875839963",
+        "author": "Drawsgood",
+        "handle": "drawsgood",
+        "datetime": "2026-02-09T22:28:10.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：This is so cool, gave it a go in @rive_app (with the help of the agent).",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2020862036092293158",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/juanbuis/status/2020862036092293158",
+        "author": "juan",
+        "handle": "juanbuis",
+        "datetime": "2026-02-09T14:07:09.000Z",
+        "title": "the new ferrari interior design by j",
+        "originalSummary": "原帖内容：the new ferrari interior design by jony ive and lovefrom is absolutely stunning *this* is what an apple car could've looked like",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏可作为个人设计师的产品判断素材：识别它解决的问题、目标用户、可迁移方法和后续练习价值。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「the new ferrari interior design by j」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "个人收藏偏好"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2020754180613525950",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/op7418/status/2020754180613525950",
+        "author": "歸藏(guizang.ai)",
+        "handle": "op7418",
+        "datetime": "2026-02-09T06:58:35.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：Holy sh*t. This is actually insane. 🤯 Seedance 2.0 handling UI motion & app promos now?! Just generated a demo for Codepilot. RIP manual rendering. This changes everything. ",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "MOTION / VISUAL"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2020728930278531232",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/lepadphone/status/2020728930278531232",
+        "author": "padphone",
+        "handle": "lepadphone",
+        "datetime": "2026-02-09T05:18:14.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：Seedance 2.0 doesn’t just disrupt filmmaking — it steamrolls motion design too. One image, one sentence, a few minutes, and you’ve got a premium, expensive-looking Microsoft Fluent",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2020725216947720195",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/drawsgood/status/2020725216947720195",
+        "author": "Drawsgood",
+        "handle": "drawsgood",
+        "datetime": "2026-02-09T05:03:29.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：Got this loaded using the @rive_app Apple runtime! It utilizes scripting, cool to see it all working in the simulator.",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2020714786041082242",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/dingyi/status/2020714786041082242",
+        "author": "Ding",
+        "handle": "dingyi",
+        "datetime": "2026-02-09T04:22:02.000Z",
+        "title": "设计交互都很有趣的 macOS 启动器。",
+        "originalSummary": "原帖内容：设计交互都很有趣的 macOS 启动器。https://tunaformac.com/",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏可作为个人设计师的产品判断素材：识别它解决的问题、目标用户、可迁移方法和后续练习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://tunaformac.com/",
+            "title": "Tuna",
+            "access": "full",
+            "summary": "New, modern launcher for macOS.",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「设计交互都很有趣的 macOS 启动器。」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "个人收藏偏好"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2020498447863042510",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Aurelien_Gz/status/2020498447863042510",
+        "author": "Aurelien",
+        "handle": "Aurelien_Gz",
+        "datetime": "2026-02-08T14:02:23.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：this site hits hard... straight out of a futuristic lab ​minimalist gray gradients and floating 3d objects → high-tech branding peak wizard » @anton_skv ",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2019823906497130641",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/avstorm/status/2019823906497130641",
+        "author": "Andreas Storm",
+        "handle": "avstorm",
+        "datetime": "2026-02-06T17:22:00.000Z",
+        "title": "Gemini AI Visual Design",
+        "originalSummary": "原帖内容：Gemini AI Visual Design https://design.google/library/gemini-ai-visual-design",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏可作为个人设计师的产品判断素材：识别它解决的问题、目标用户、可迁移方法和后续练习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://design.google/library/gemini-ai-visual-design",
+            "title": "Gemini AI Visual Design",
+            "access": "full",
+            "summary": "Explore how Google designers use gradients, motion, and foundational shapes to build trust and intuition within the evolving Gemini AI assistant experience.",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「Gemini AI Visual Design」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2019718461669462211",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/pan_cao/status/2019718461669462211",
+        "author": "Maybe: Pan",
+        "handle": "pan_cao",
+        "datetime": "2026-02-06T10:23:00.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：Getting Rive data-binding animation onto a big screen. @rive_app",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2019458674281050207",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/seldom/status/2019458674281050207",
+        "author": "Dennis Jin",
+        "handle": "seldom",
+        "datetime": "2026-02-05T17:10:42.000Z",
+        "title": "AI agent 进入设计实现工作流",
+        "originalSummary": "原帖内容：Designing with Claude Code just got a lot easier: we’re releasing Agentation 2.0! Agents can now directly interact with your design annotations in real time. Give it a spin http://",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [
+          {
+            "url": "http://agentation.dev",
+            "title": "Agentation",
+            "access": "full",
+            "summary": "The visual feedback tool for agents.",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「AI agent 进入设计实现工作流」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2019329655757791520",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/heyrobinai/status/2019329655757791520",
+        "author": "Robin Delta",
+        "handle": "heyrobinai",
+        "datetime": "2026-02-05T08:38:01.000Z",
+        "title": "don’t create presentation manually a",
+        "originalSummary": "原帖内容：don’t create presentation manually anymore.. we’re in 2026 this AI tool can analyse your branding and design slides for you in mins tutorial below:",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏可作为个人设计师的产品判断素材：识别它解决的问题、目标用户、可迁移方法和后续练习价值。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「don’t create presentation manually a」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2018849885798408638",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/RookieRicardoR/status/2018849885798408638",
+        "author": "耳朵",
+        "handle": "RookieRicardoR",
+        "datetime": "2026-02-04T00:51:35.000Z",
+        "title": "AI agent 进入设计实现工作流",
+        "originalSummary": "原帖内容：第一个使用 Claude 驱动的视频生成产品来了， Higgsfield 刚刚推出了 Vibe-Motion，由 Claude 模型驱动。 他们把 Vibe Coding 那套逻辑，直接放到了视频生成里。 以前做 AI 视频是把提示词写好，点生成，如果不满意还要改个词重来，之前的神态、光影全变了。 接入 Claude 后的 Higgsfield Vibe-M",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「AI agent 进入设计实现工作流」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2018741322774126803",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/_Kavsoft/status/2018741322774126803",
+        "author": "Kavsoft",
+        "handle": "_Kavsoft",
+        "datetime": "2026-02-03T17:40:12.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：Recreated the BlueNote app’s paywall animation using SwiftUI✌️",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2017330782793072905",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/drawsgood/status/2017330782793072905",
+        "author": "Drawsgood",
+        "handle": "drawsgood",
+        "datetime": "2026-01-30T20:15:13.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：Messing around with the Font Awesome brands set and the @rive_app particle effect I've been working on. Fun stuff!",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "TYPOGRAPHY"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2017227163653521750",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/bossadizenith/status/2017227163653521750",
+        "author": "zenith",
+        "handle": "bossadizenith",
+        "datetime": "2026-01-30T13:23:28.000Z",
+        "title": "Spinners are lazy UX. State-based sh",
+        "originalSummary": "原帖内容：Spinners are lazy UX. State-based shimmer isn’t. inspired by @MistralAI",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Spinners are lazy UX. State-based sh」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2016792108158554334",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Kubai087/status/2016792108158554334",
+        "author": "枯白啃设计",
+        "handle": "Kubai087",
+        "datetime": "2026-01-29T08:34:43.000Z",
+        "title": "Figma 与 AI/代码协作案例",
+        "originalSummary": "原帖内容：借助了下 Figma MCP，实现了很喜欢的小动效 卡片主题色可动态匹配喔",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Figma 与 AI/代码协作案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2016490175795175439",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/brice_deg/status/2016490175795175439",
+        "author": "Brice",
+        "handle": "brice_deg",
+        "datetime": "2026-01-28T12:34:57.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：Took a 3D model I made in Blender, imported it into @splinetool, and experimented with different materials. Ended up adding a material switcher to showcase the variations, happy wi",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2016464150566768876",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/angeloldesigns/status/2016464150566768876",
+        "author": "Angelo Libero",
+        "handle": "angeloldesigns",
+        "datetime": "2026-01-28T10:51:32.000Z",
+        "title": "UI 组件与设计系统案例",
+        "originalSummary": "原帖内容：Excited to share something I've been working on. 3 years of color tools. 2 months building this. Supa Colors generates palettes where every shade looks balanced — visually, not jus",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [
+          {
+            "url": "http://supacolors.studio",
+            "title": "Professional Color System Builder | Supa Colors",
+            "access": "full",
+            "summary": "The professional color system builder. Create accessible palettes with perceptual accuracy, export to 10+ formats including Tailwind &amp; Figma.",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「UI 组件与设计系统案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2016171868559180131",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/shivanimatla/status/2016171868559180131",
+        "author": "Shivani",
+        "handle": "shivanimatla",
+        "datetime": "2026-01-27T15:30:06.000Z",
+        "title": "AI agent 进入设计实现工作流",
+        "originalSummary": "原帖内容：volume on 🔊 built a tiny focus music maker where you can doodle your own ambient soundtrack and time your work sessions. made using @cursor_ai & @claudeai give it a try - https://",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [
+          {
+            "url": "https://focus-music-maker.vercel.app/",
+            "title": "Focus Music Maker",
+            "access": "full",
+            "summary": "A pixel grid sequencer for creating ambient focus music",
+            "value": "可作为实现/产品判断来源，值得继续读。"
+          }
+        ],
+        "learningActions": [
+          "把「AI agent 进入设计实现工作流」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2016087818284458289",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/maryojo_mo/status/2016087818284458289",
+        "author": "gifted 🌸 | Design Engineer",
+        "handle": "maryojo_mo",
+        "datetime": "2026-01-27T09:56:07.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：I was stunned when I came across this @Airbnb interaction last year, this is incredible work McLane! 👏 Then, I recreated it using @motiondotdev, Tailwind and React",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2016081756206846255",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/KimiProduct/status/2016081756206846255",
+        "author": "Kimi Product",
+        "handle": "KimiProduct",
+        "datetime": "2026-01-27T09:32:02.000Z",
+        "title": "One-shot \"Video to code\" result from",
+        "originalSummary": "原帖内容：One-shot \"Video to code\" result from Kimi K2.5 It not only clones a website, but also all the visual interactions and UX designs. No need to describe it in detail, all you need to ",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [
+          {
+            "url": "https://riyd2bvh7ofju.beta-ok.kimi.link/",
+            "title": "https://riyd2bvh7ofju.beta-ok.kimi.link/",
+            "access": "unavailable",
+            "summary": "自动读取失败或超时：TypeError: fetch failed",
+            "value": "只记录为不可访问链接，不基于它扩展事实。"
+          }
+        ],
+        "learningActions": [
+          "把「One-shot \"Video to code\" result from」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2015986432842596707",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/drawsgood/status/2015986432842596707",
+        "author": "Drawsgood",
+        "handle": "drawsgood",
+        "datetime": "2026-01-27T03:13:15.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：Some more path effect/particle fun in @rive_app",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2015940283066712183",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/greensock/status/2015940283066712183",
+        "author": "GSAP",
+        "handle": "greensock",
+        "datetime": "2026-01-27T00:09:52.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：💚 Site of the Day - Design by Dylan Great design and scroll animations that bring the entire site to life. Nice route transitions that use the main design theme craete the feeling",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [
+          {
+            "url": "http://linkedin.com/in/dylan-brouwer-b4192884",
+            "title": "Checking your browser - reCAPTCHA",
+            "access": "full",
+            "summary": "HTTP 200 text/html; charset=utf-8",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          },
+          {
+            "url": "http://dylanbrouwer.design",
+            "title": "©Design by Dylan ✦ Digital Designer &amp; Webflow Developer",
+            "access": "full",
+            "summary": "Dutch digital designer &amp; Webflow developer crafting experience-driven websites for brands &amp; agencies. Bold, intuitive design with motion &amp; purpose.",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          },
+          {
+            "url": "http://gsap.com/showcase",
+            "title": "GSAP Showcase",
+            "access": "full",
+            "summary": "We make the tools, you make the magic. A selection of sites from the top agencies and most talented GSAP developers in the industry. Will yours be next? Submit it today.",
+            "value": "可作为实现/产品判断来源，值得继续读。"
+          }
+        ],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2015799565467652371",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/mclaneteitel/status/2015799565467652371",
+        "author": "McLane",
+        "handle": "mclaneteitel",
+        "datetime": "2026-01-26T14:50:42.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：While on @Airbnb's design team, I introduced the idea of using 3D characters from the Airbnb brand to represent guest capacity. The idea simply came out of my desire to add visual ",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2015092323336716396",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/mnowakdesign/status/2015092323336716396",
+        "author": "Michael Nowak",
+        "handle": "mnowakdesign",
+        "datetime": "2026-01-24T16:00:23.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：simple and clean grocery app - in motion ✨",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2014600947138245048",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/mrdavidfabiyi/status/2014600947138245048",
+        "author": "David TF",
+        "handle": "mrdavidfabiyi",
+        "datetime": "2026-01-23T07:27:49.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：Another variation I forgot to share from yesterday with @rive_app scripting. It's interesting that the entire mesh is one line, in one artboard, instanced like a thousand times.",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2014403215031247152",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/skirano/status/2014403215031247152",
+        "author": "Pietro Schirano",
+        "handle": "skirano",
+        "datetime": "2026-01-22T18:22:06.000Z",
+        "title": "Figma 与 AI/代码协作案例",
+        "originalSummary": "原帖内容：Introducing Figma Connect. The best way to turn your Figma designs into code. No MCP hell. No plugins. Just copy and paste your designs into MagicPath and turn them into interactiv",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Figma 与 AI/代码协作案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2014379112605921445",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/sketch/status/2014379112605921445",
+        "author": "Sketch",
+        "handle": "sketch",
+        "datetime": "2026-01-22T16:46:20.000Z",
+        "title": "AI agent 进入设计实现工作流",
+        "originalSummary": "原帖内容：[2/5] Adding realism to UI. If you’re mocking up a UI, you can use Claude to take the tedium out of swapping placeholder text with something more realistic. This works especially w",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「AI agent 进入设计实现工作流」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2014283345098907951",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Gorden_Sun/status/2014283345098907951",
+        "author": "Gorden Sun",
+        "handle": "Gorden_Sun",
+        "datetime": "2026-01-22T10:25:47.000Z",
+        "title": "Figma 与 AI/代码协作案例",
+        "originalSummary": "原帖内容：Pencil：基于Claude Code的AI设计画布 独立的应用，但是需要Claude Code登录后才能用。内置了几套设计组件库供选择，使用Claude按组件库的风格生成前端代码。特点是无限画布，且可以交互式操作，手动修改画布里的文案、颜色等。支持导入Figma文件。 相比于谷歌的Stitch：优势是可以交互式可视化操作，Stitch必须手动改代码；内置",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.pencil.dev/",
+            "title": "pen.dev – Design on canvas. Land in code.",
+            "access": "full",
+            "summary": "pen.dev fundamentally increases your engineering speed by bringing designing directly into your preferred IDE.",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「Figma 与 AI/代码协作案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2014268381202128934",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/arvsrn/status/2014268381202128934",
+        "author": "Aarav Sareen",
+        "handle": "arvsrn",
+        "datetime": "2026-01-22T09:26:20.000Z",
+        "title": "UI 组件与设计系统案例",
+        "originalSummary": "原帖内容：22.1.26 2 months into building a design tool from scratch",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「UI 组件与设计系统案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2014220017928442181",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/penny777/status/2014220017928442181",
+        "author": "Penny777 🦊",
+        "handle": "penny777",
+        "datetime": "2026-01-22T06:14:09.000Z",
+        "title": "AI agent 进入设计实现工作流",
+        "originalSummary": "原帖内容：最近正好在研究用 Claude code 制作 JS 动画视频。 今天试了试这个 Remotion Agent Skills 给 heyPrompt 生成了一个展示的视频。 效果觉得还行，基础的位移、旋转、淡入淡出都能实现。简单出个 demo 还是可以的。想要效果更好则需要给到具体的关键帧参考，和详细的动画 Prompt 了。 使用顺序： 首先，添加 Ski",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「AI agent 进入设计实现工作流」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2014028990810300498",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/tomkrcha/status/2014028990810300498",
+        "author": "Tom Krcha",
+        "handle": "tomkrcha",
+        "datetime": "2026-01-21T17:35:04.000Z",
+        "title": "AI agent 进入设计实现工作流",
+        "originalSummary": "原帖内容：Excited to launch Pencil INFINITE DESIGN CANVAS for Claude Code > Superfast WebGL canvas, fully editable, running parallel design agents > Runs locally with Claude Code → turn desi",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「AI agent 进入设计实现工作流」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2013661582417375320",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/JulianGarnier/status/2013661582417375320",
+        "author": "Julian Garnier",
+        "handle": "JulianGarnier",
+        "datetime": "2026-01-20T17:15:07.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：Introducing Auto Layout in Anime.js v4.3! - Animate display flex / grid / none, etc. - Enter / Leave animations - Animate DOM position changes - Interruptible animations - Staggere",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2013626968386765291",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Remotion/status/2013626968386765291",
+        "author": "Remotion",
+        "handle": "Remotion",
+        "datetime": "2026-01-20T14:57:35.000Z",
+        "title": "AI agent 进入设计实现工作流",
+        "originalSummary": "原帖内容：Remotion now has Agent Skills - make videos just with Claude Code! $ npx skills add remotion-dev/skills This animation was created just by prompting 👇",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「AI agent 进入设计实现工作流」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2013612476957372626",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/alexgilev/status/2013612476957372626",
+        "author": "Alex",
+        "handle": "alexgilev",
+        "datetime": "2026-01-20T14:00:00.000Z",
+        "title": "AI agent 进入设计实现工作流",
+        "originalSummary": "原帖内容：Guys, it's happening🤩! Agentic UI is AVAILABLE for pre-order 👇. → http://agenticui.net/preorder",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [
+          {
+            "url": "http://agenticui.net/preorder",
+            "title": "Agentic UI - Figma Design System",
+            "access": "full",
+            "summary": "The world’s first enterprise-grade design system for building scalable agentic experiences.",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「AI agent 进入设计实现工作流」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2013552974178423260",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/rafahari/status/2013552974178423260",
+        "author": "Rafa",
+        "handle": "rafahari",
+        "datetime": "2026-01-20T10:03:33.000Z",
+        "title": "UI 组件与设计系统案例",
+        "originalSummary": "原帖内容：Hand Mirror 4 is out now, you can take a Snap, draw on it, and save it to your Photo Library 📸 Here's some of my favorite UI details:",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「UI 组件与设计系统案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2013244250532856150",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/tranmautritam/status/2013244250532856150",
+        "author": "Tran Mau Tri Tam ✪",
+        "handle": "tranmautritam",
+        "datetime": "2026-01-19T13:36:48.000Z",
+        "title": "Choose your bookmarks and let the AI",
+        "originalSummary": "原帖内容：Choose your bookmarks and let the AI handle the rest. This is the simple idea behind my new app design concept. Illustration demo → https://dub.sh/Loopbox",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏可作为个人设计师的产品判断素材：识别它解决的问题、目标用户、可迁移方法和后续练习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://dub.sh/Loopbox",
+            "title": "Vercel Security Checkpoint",
+            "access": "partial",
+            "summary": "HTTP 429 text/html; charset=utf-8",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「Choose your bookmarks and let the AI」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2013167494190739655",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/jshguo/status/2013167494190739655",
+        "author": "Joshua Guo",
+        "handle": "jshguo",
+        "datetime": "2026-01-19T08:31:48.000Z",
+        "title": "UI 组件与设计系统案例",
+        "originalSummary": "原帖内容：The new week started, continuing to optimize Aesthetron AI. http://v2space.net/s/Aesthetron-AI",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [
+          {
+            "url": "http://v2space.net/s/Aesthetron-AI",
+            "title": "ERROR: The request could not be satisfied",
+            "access": "partial",
+            "summary": "HTTP 403 text/html",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「UI 组件与设计系统案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2012839649946091616",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/GitHub_Daily/status/2012839649946091616",
+        "author": "GitHubDaily",
+        "handle": "GitHub_Daily",
+        "datetime": "2026-01-18T10:49:03.000Z",
+        "title": "UI 组件与设计系统案例",
+        "originalSummary": "原帖内容：AI 生成 UI 的思路要变了，Vercel Labs 团队最近开源 json-render，正在推翻旧规则。 抛弃以往不稳定的代码生成，实现全新的生成流程：AI → JSON → UI，短短三天，就斩获 6000+ Star。 其核心逻辑，不再让 AI 自由发挥，而是强制它在“护栏”内运行，输出完全可预测的结构化数据。 GitHub：http://gith",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [
+          {
+            "url": "http://github.com/vercel-labs/json-render",
+            "title": "http://github.com/vercel-labs/json-render",
+            "access": "unavailable",
+            "summary": "自动读取失败或超时：AbortError: This operation was aborted",
+            "value": "只记录为不可访问链接，不基于它扩展事实。"
+          }
+        ],
+        "learningActions": [
+          "把「UI 组件与设计系统案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2012758500359709114",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/sundyme/status/2012758500359709114",
+        "author": "sundyme",
+        "handle": "sundyme",
+        "datetime": "2026-01-18T05:26:36.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：这个脑洞好酷！把你的桌面绿植打造成可交互的电子宠物。 Sajal Kumar @deanimatedmonk 用 @rive_app 的数据绑定、GPT 和一些硬件（ESP32 和几个传感器如触摸、湿度、湿度、光照、温度）制作了这个超酷的演示，后面还计划加入语音交互。 ",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2012684707113357800",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/QingQ77/status/2012684707113357800",
+        "author": "Geek Lite",
+        "handle": "QingQ77",
+        "datetime": "2026-01-18T00:33:22.000Z",
+        "title": "AI agent 进入设计实现工作流",
+        "originalSummary": "原帖内容：一个由 21st .dev 团队开发的 UI 应用程序，这玩意儿就是个给（ClaudeCode、OpenCode、Codex）穿的衣服，UI 比原版舒服多了，还能并行跑代理。 安装方式： 白嫖党：自己编译。前提是装了 Bun、Python 和 Xcode 命令行工具（macOS 用户） 氪金玩家：直接订阅 1code. dev，预构建版本 + 后台代理支持，",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/21st-dev/1code",
+            "title": "GitHub - 21st-dev/1code: Orchestration layer for coding agents (Claude Code, Codex) · GitHub",
+            "access": "full",
+            "summary": "Orchestration layer for coding agents (Claude Code, Codex) - 21st-dev/1code",
+            "value": "可作为实现/产品判断来源，值得继续读。"
+          }
+        ],
+        "learningActions": [
+          "把「AI agent 进入设计实现工作流」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2012540333859451142",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/dmitriychuta/status/2012540333859451142",
+        "author": "Dmytro Chuta",
+        "handle": "dmitriychuta",
+        "datetime": "2026-01-17T14:59:41.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：Another import option is Notion, where many people keep a list of their paid subscriptions. By the way, I have slightly refined the animation and improved the results screen to hig",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2012540030334414870",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/type01_/status/2012540030334414870",
+        "author": "TYPE01",
+        "handle": "type01_",
+        "datetime": "2026-01-17T14:58:29.000Z",
+        "title": "Nothing better than seeing TYPEONE M",
+        "originalSummary": "原帖内容：Nothing better than seeing TYPEONE Magazine in good company with @martavillegaasdesign \"Tell me you’re a designer without telling me you’re a designer 👀 Me unboxing Type 10 like i",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏可作为个人设计师的产品判断素材：识别它解决的问题、目标用户、可迁移方法和后续练习价值。",
+        "linkAnalysis": [
+          {
+            "url": "http://type-01.com/typeonemagazine",
+            "title": "TYPEONE Magazine — Issue 01",
+            "access": "full",
+            "summary": "TYPEONE is our new bi-annual gloss magazine that fuses typographic mediums with topics such as culture, business, technology, innovation, and variety of global issues using type, i",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「Nothing better than seeing TYPEONE M」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "个人收藏偏好"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2012063830466314450",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Praha37v/status/2012063830466314450",
+        "author": "Praha",
+        "handle": "Praha37v",
+        "datetime": "2026-01-16T07:26:14.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：The only tool we use for animation is @rive_app. Our agency relies entirely on Rive for its features, and we believe it's the #1 solution for this type of animation. Rive animation",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2011865573961949314",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/riomadeit/status/2011865573961949314",
+        "author": "RIO",
+        "handle": "riomadeit",
+        "datetime": "2026-01-15T18:18:26.000Z",
+        "title": "字体/排版资源收藏",
+        "originalSummary": "原帖内容：Font Sniper Extract and download fonts from ANY website Available now in Raycast ↓",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏可作为个人设计师的产品判断素材：识别它解决的问题、目标用户、可迁移方法和后续练习价值。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「字体/排版资源收藏」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "AI WORKFLOW",
+          "TYPOGRAPHY"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2011519210284073094",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/TobiasWhetton/status/2011519210284073094",
+        "author": "Τobias Whetton",
+        "handle": "TobiasWhetton",
+        "datetime": "2026-01-14T19:22:06.000Z",
+        "title": "UI 组件与设计系统案例",
+        "originalSummary": "原帖内容：We're hiring a Product Designer at @withdelphi ✨ Shape the future of our consumer product. Work directly with me & @JoeASobrero. Help us build our new AI-focused design system from",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「UI 组件与设计系统案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2011455766813675583",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/kaushik_murali/status/2011455766813675583",
+        "author": "Kaushik",
+        "handle": "kaushik_murali",
+        "datetime": "2026-01-14T15:10:00.000Z",
+        "title": "设计工程师能力转型案例",
+        "originalSummary": "原帖内容：Product Designer → Design Engineer It took me a year, but I now believe more than ever that I want to be a Design Engineer, full-time ✨ What began in 2025 with apprehension turned ",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「设计工程师能力转型案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2011441452094472328",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/MattJedrzejewsk/status/2011441452094472328",
+        "author": "MattJedrzejewski",
+        "handle": "MattJedrzejewsk",
+        "datetime": "2026-01-14T14:13:07.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：Flash is back. It’s called @rive_app now Fully interactive 3D particle globe? Yeah, why not. Easy to implement into web/app? Yeah, why not. So easy to tweak you can go full @Strang",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2011397221837930745",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/realvjy/status/2011397221837930745",
+        "author": "vijay verma",
+        "handle": "realvjy",
+        "datetime": "2026-01-14T11:17:22.000Z",
+        "title": "Figma 与 AI/代码协作案例",
+        "originalSummary": "原帖内容：Still waiting for a @figma slot so I can replace these components used in new Kigen design system. Releasing soon...",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Figma 与 AI/代码协作案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2011182914180972926",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/SloppyJ44/status/2011182914180972926",
+        "author": "Jerry Liu",
+        "handle": "SloppyJ44",
+        "datetime": "2026-01-13T21:05:47.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：Some quickie 3D experiments in @rive_app w/ Scripting. Should be fun fleshing this one out a bit!",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2011020027617480803",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/FonsMans/status/2011020027617480803",
+        "author": "Fons Mans",
+        "handle": "FonsMans",
+        "datetime": "2026-01-13T10:18:32.000Z",
+        "title": "An insightful piece from Google Desi",
+        "originalSummary": "原帖内容：An insightful piece from Google Design on their AI visual design language: https://design.google/library/gemini-ai-visual-design",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏可作为个人设计师的产品判断素材：识别它解决的问题、目标用户、可迁移方法和后续练习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://design.google/library/gemini-ai-visual-design",
+            "title": "Gemini AI Visual Design",
+            "access": "full",
+            "summary": "Explore how Google designers use gradients, motion, and foundational shapes to build trust and intuition within the evolving Gemini AI assistant experience.",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「An insightful piece from Google Desi」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2010342511345291302",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/LgyLight/status/2010342511345291302",
+        "author": "三秋十李 Sergio",
+        "handle": "LgyLight",
+        "datetime": "2026-01-11T13:26:19.000Z",
+        "title": "Rive 动效/数据绑定实践案例",
+        "originalSummary": "原帖内容：Rive翻译助手2.0来啦！🎉 ✅ 免费 & 开源 ✅ 本地处理（以隐私为先）✅ 支持自定义词典，人工校对词库 ✅ 翻译时使用 ✅ 比微信截图更流畅 非常适合Rive、Figma、以及更多设计开发工具！ 欢迎大家使用，也欢迎社区贡献！ 下一个您想看到哪个工具被翻译？ #Rive #DesignTools #macOS",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Rive 动效/数据绑定实践案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "MOTION / VISUAL"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2009926467296342440",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/oragnes/status/2009926467296342440",
+        "author": "比特币橙子Trader",
+        "handle": "oragnes",
+        "datetime": "2026-01-10T09:53:07.000Z",
+        "title": "AI agent 进入设计实现工作流",
+        "originalSummary": "原帖内容：字节的桌面Agent也来了 这是一个本地运行的桌面AI代理，支持自然语言控制电脑和浏览器操作，无需云端连接，已获22k GitHub星标。 完全开源，UI-TARS-desktop",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「AI agent 进入设计实现工作流」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2009634263428112651",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/googledocs/status/2009634263428112651",
+        "author": "Google Docs",
+        "handle": "googledocs",
+        "datetime": "2026-01-09T14:32:00.000Z",
+        "title": "UI 组件与设计系统案例",
+        "originalSummary": "原帖内容：Our AI avatars in Google Vids just got a major upgrade! 🚀 Now powered by Veo 3.1, avatars are more realistic with smoother lip-syncing and natural expressions. Create professional",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [
+          {
+            "url": "http://vids.new",
+            "title": "Google Vids: Sign-in",
+            "access": "full",
+            "summary": "Google Vids is an AI-powered video creation and editing tool. Use it to generate Veo clips, record your screen, convert your presentations to videos, and more. Access Vids with you",
+            "value": "补充了原帖外部来源，但信息密度需要按页面内容再筛。"
+          }
+        ],
+        "learningActions": [
+          "把「UI 组件与设计系统案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2009281651260481675",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/k_grajeda/status/2009281651260481675",
+        "author": "Kevin Grajeda",
+        "handle": "k_grajeda",
+        "datetime": "2026-01-08T15:10:50.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：can your vibe coding tool do this? real prod codebase, no setup pain prompt: \"Render all the spinner animation patterns from the @​N​o​t​i​f​i​c​a​t​i​o​n component in a grid layou",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2008931776962691513",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/DenisJeliazkov/status/2008931776962691513",
+        "author": "Denislav Jeliazkov",
+        "handle": "DenisJeliazkov",
+        "datetime": "2026-01-07T16:00:34.000Z",
+        "title": "视觉动效与生成图形案例",
+        "originalSummary": "原帖内容：I'm an Apple fanboy. Here are 30 times @Apple nailed their design: 1) Physical card animation",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合研究动效表达如何服务产品说明、品牌感和可实现性。重点看运动节奏、工具链和可复用组件。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「视觉动效与生成图形案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "MOTION / VISUAL",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2002729591451054127",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/cloudxdev/status/2002729591451054127",
+        "author": "CloudAI-X",
+        "handle": "cloudxdev",
+        "datetime": "2025-12-21T13:15:18.000Z",
+        "title": "M2.1 is a beast in design area @mini",
+        "originalSummary": "原帖内容：M2.1 is a beast in design area @minimax_ai 🤝 @FactoryAI",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏可作为个人设计师的产品判断素材：识别它解决的问题、目标用户、可迁移方法和后续练习价值。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「M2.1 is a beast in design area @mini」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "AI WORKFLOW"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2001967923653706227",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/natkohasic/status/2001967923653706227",
+        "author": "Natko Hasic",
+        "handle": "natkohasic",
+        "datetime": "2025-12-19T10:48:42.000Z",
+        "title": "Figma 与 AI/代码协作案例",
+        "originalSummary": "原帖内容：My small contribution to the \"made in Figma\" event - tool that changed how I think about design ❤️",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Figma 与 AI/代码协作案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2001584675983089703",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Abmankendrick/status/2001584675983089703",
+        "author": "Abraham John 🦄🦓",
+        "handle": "Abmankendrick",
+        "datetime": "2025-12-18T09:25:49.000Z",
+        "title": "UI 组件与设计系统案例",
+        "originalSummary": "原帖内容：Designers, this Airbnb Design System might be the best ever created in 2025 ✨ Absolutely Sleek 🔥",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏适合沉淀 UI 结构、视觉层级和设计系统方法。重点看信息密度、交互反馈和工程落地方式。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「UI 组件与设计系统案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1999557555312320536",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/figma/status/1999557555312320536",
+        "author": "Figma",
+        "handle": "figma",
+        "datetime": "2025-12-12T19:10:45.000Z",
+        "title": "Figma 与 AI/代码协作案例",
+        "originalSummary": "原帖内容：Replay from our Figma Live: @OpenAI's Codex and Figma MCP Server",
+        "whySaved": "我会收藏它，是因为它能补充个人设计师在设计工程、AI 工具、动效表达或产品判断上的案例库，不是泛资讯。",
+        "whyCaptured": "用户已收藏，说明它反映了长期偏好；本批作为历史 Like 回补，用于补足当天 100 条学习素材。",
+        "deepSummary": "这条收藏的价值在于把 AI 工具放进真实设计/代码链路中，而不是只看模型能力。重点应拆解输入、可编辑输出、交接方式和失败边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Figma 与 AI/代码协作案例」归档到个人设计学习库，标注可复用方法。",
+          "提取一个可执行练习：复刻一个交互/动效/信息架构细节，或写一个产品判断 checklist。",
+          "记录为什么当时会收藏它，并判断现在是否仍值得继续深读。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI WORKFLOW"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
     "date": "2026-08-20",
     "generatedAt": "2026-08-20T13:05:44+08:00",
     "batch": "x-ai-design-analysis-2026-08-20-1305",
