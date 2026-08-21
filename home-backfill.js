@@ -1,6 +1,222 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-21T04:09:40.000Z",
+    "author": "nyk",
+    "handle": "nykdotdev",
+    "avatar": "https://pbs.twimg.com/profile_images/2036527079349428224/DVL_8NyU_200x200.jpg",
+    "title": "Landing page design skill 把审美规则装进 agent",
+    "summary": "nyk 提到 landing-page-design-skill.md + Higgsfield + Cursor Composer 组合，说明网页审美规范正在被封装成可复用 agent skill。",
+    "url": "https://x.com/nykdotdev/status/2090652532699984019",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090356042320556032/vid/avc1/1752x1080/lmtjbqBifMj_rm3Q.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090356042320556032/img/aOm_IN-NRd341BSW.jpg"
+      }
+    ],
+    "metrics": "10 REPLIES · 6 REPOSTS · 70 LIKES · 44 BOOKMARKS · 5863 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent Skill / Landing Page",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-21T04:05:08.000Z",
+    "author": "窓の杜",
+    "handle": "madonomori",
+    "avatar": "https://pbs.twimg.com/profile_images/2039200144781139968/L-4ONqWw_200x200.jpg",
+    "title": "Claude Academy 用课程路径降低 Claude 学习门槛",
+    "summary": "窓の杜报道 Claude Academy 免费开放，覆盖 AI 基础、Claude Code 和 Cowork 等路径。对个人设计工程师，值得当作团队 AI enablement 的课程结构样本。",
+    "url": "https://x.com/madonomori/status/2090651389450145955",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQN8WzVbEAE_DfD.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQN8W5nacAAtqIO.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQN8XCya0AAnCE1.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 17 REPOSTS · 38 LIKES · 32 BOOKMARKS · 3955 VIEWS",
+    "links": [
+      "https://forest.watch.impress.co.jp/docs/news/2134400.html"
+    ],
+    "_analysisTheme": "AI Education / Claude",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "Anthropic、「Claude」の学習サイト「Claude Academy」を無償開設 - 窓の杜",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2134400.html",
+      "preview": "米Anthropicは8月20日（現地時間）、「Claude」の使い方を学習できるWebサイト「Claude Academy」を公開した。コースやチュートリアルは無償で、誰でも利用できる。",
+      "cover": ""
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-21T04:03:33.000Z",
+    "author": "数字生命卡兹克",
+    "handle": "Khazix0918",
+    "avatar": "https://pbs.twimg.com/profile_images/1756592360367259648/GXJ4Kl6w_200x200.jpg",
+    "title": "OpenRouter Ox Alpha 进入 1M 多模态 agent coding 观察窗",
+    "summary": "OpenRouter 新 stealth model 被中文开发者快速实测：1M 上下文、多模态输入、偏 coding/agentic work。它适合进入模型评估清单，而不是只当免费额度消息。",
+    "url": "https://x.com/Khazix0918/status/2090650993268752744",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQN758DagAAniUP.jpg?name=orig"
+      }
+    ],
+    "metrics": "7 REPLIES · 1 REPOSTS · 29 LIKES · 21 BOOKMARKS · 13102 VIEWS",
+    "links": [
+      "https://openrouter.ai/stealth/ox-alpha"
+    ],
+    "_analysisTheme": "AI Model / Agent Coding",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Ox Alpha - API Pricing &amp; Providers | OpenRouter",
+      "url": "https://openrouter.ai/stealth/ox-alpha",
+      "preview": "Ox Alpha is a reasoning model designed for coding, sustained agentic work, and production workloads. This model is free to use. 1,048,576 token context window, maximum output of 131,072 tokens.",
+      "cover": ""
+    },
+    "quote": {
+      "id": "2090544970923184269",
+      "url": "https://x.com/OpenRouter/status/2090544970923184269",
+      "author": "OpenRouter",
+      "handle": "OpenRouter",
+      "text": "🥷 New stealth model: Ox Alpha Ox Alpha is a frontier model built for efficient coding, sustained agentic work, and real-world production use. - 1M token context window - Text, image, and video input Try it now and share feedback to improve the model! https://openrouter.ai/stealth/ox-alpha",
+      "media": []
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-21T03:58:59.000Z",
+    "author": "蓝点网",
+    "handle": "landiantech",
+    "avatar": "https://pbs.twimg.com/profile_images/1602322985750532101/74lzDoYy_200x200.jpg",
+    "title": "Codex 配额消耗成了设计审计工作流约束",
+    "summary": "蓝点网用一次 UI 审计展示 Codex 周额度快速消耗。它不是单纯吐槽，而是提醒 agent 产品要把预算、强度和任务粒度做成可见控制。",
+    "url": "https://x.com/landiantech/status/2090649841299083660",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQN67s8aIAAIJdo.png?name=orig"
+      }
+    ],
+    "metrics": "4 REPLIES · 0 REPOSTS · 29 LIKES · 2 BOOKMARKS · 3356 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent Cost / Workflow Constraint",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2090418813645009118",
+      "url": "https://x.com/landiantech/status/2090418813645009118",
+      "author": "蓝点网",
+      "handle": "landiantech",
+      "text": "这几天的使用观察：#Codex 额度似乎被降低了？看到有 X 友说几遍使用 Luna 模型，额度消耗也明显变快了。 以前都是跑半天额度都不带动的，现在一点简单的任务就产生 1%~2% 的消耗。 我目前确实有这种感觉，这个号是美区 Plus 的。",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQKoiaibYAAlvSP.png?name=orig"
+        }
+      ]
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-21T03:49:35.000Z",
+    "author": "sensho",
+    "handle": "sensho",
+    "avatar": "https://pbs.twimg.com/profile_images/1906194775889383424/8TjWEhRj_200x200.jpg",
+    "title": "Sensho 区分 subagent 与 multi-agent env",
+    "summary": "Sensho 把 subagent orchestration、multi-agent env、browser/computer/file system 等概念拆开，能帮助设计 agent 产品时避免把「多个模型」和「多工作环境」混为一谈。",
+    "url": "https://x.com/sensho/status/2090647478777606191",
+    "media": [],
+    "metrics": "14 REPLIES · 2 REPOSTS · 36 LIKES · 15 BOOKMARKS · 1281 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent Architecture / Vocabulary",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-21T03:32:51.000Z",
+    "author": "Derrick Choi",
+    "handle": "derrickcchoi",
+    "avatar": "https://pbs.twimg.com/profile_images/2038764215398531072/40W77WEZ_200x200.jpg",
+    "title": "Codex 反馈集中在性能、同步、模型选择与记忆",
+    "summary": "Derrick Choi 汇总 Codex 用户反馈：Mac/Windows 性能、跨设备同步、模型强度、时区和项目记忆。对个人设计工程师，这是 agent 工具体验的真实痛点清单。",
+    "url": "https://x.com/derrickcchoi/status/2090643264970100962",
+    "media": [],
+    "metrics": "78 REPLIES · 1 REPOSTS · 118 LIKES · 8 BOOKMARKS · 8049 VIEWS",
+    "links": [],
+    "_analysisTheme": "Codex UX / Feedback Themes",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-21T02:54:53.000Z",
+    "author": "Justineo",
+    "handle": "_justineo",
+    "avatar": "https://pbs.twimg.com/profile_images/1049873523085365248/Z76THGc-_200x200.jpg",
+    "title": "自适应虚线 divider 是小组件质量信号",
+    "summary": "Justineo 转述一个会随容器宽度重新分配 dash 的 divider。它提醒设计系统里的「小线条」也有响应式边界，不只是装饰。",
+    "url": "https://x.com/_justineo/status/2090633710026867155",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 302 VIEWS",
+    "links": [],
+    "_analysisTheme": "Micro UI / Responsive Detail",
+    "_analysisPriority": "medium",
+    "quote": {
+      "id": "2090476578497331448",
+      "url": "https://x.com/pqoqubbw/status/2090476578497331448",
+      "author": "dmytro",
+      "handle": "pqoqubbw",
+      "text": "dashed divider that actually resizes based on the width of the container to show all dashes properly without cutoffs",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2090476557999673344/vid/avc1/1260x720/XcWeTG00yUTrMEUe.mp4?tag=14",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2090476557999673344/img/JgHx1i-sRcGqgBRs.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-21T02:25:15.000Z",
+    "author": "leon7hao",
+    "handle": "leon7hao",
+    "avatar": "https://pbs.twimg.com/profile_images/1659045486903578624/Fp_n53vj_200x200.jpg",
+    "title": "Lody message anchor 值得拆成对话产品控件",
+    "summary": "Lody 的 message anchor 让长对话里的定位、回看和引用更明确。对聊天、会议纪要、AI agent 日志类产品都可复用。",
+    "url": "https://x.com/leon7hao/status/2090626252533285161",
+    "media": [],
+    "metrics": "3 REPLIES · 0 REPOSTS · 15 LIKES · 2 BOOKMARKS · 1842 VIEWS",
+    "links": [],
+    "_analysisTheme": "Conversation UI / Anchor",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2090624972146581736",
+      "url": "https://x.com/lody_ai/status/2090624972146581736",
+      "author": "lody",
+      "handle": "lody_ai",
+      "text": "Message anchor in Lody",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2090624715920719872/vid/avc1/2382x1722/WN8ctkz_BRS97uFM.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2090624715920719872/img/EzntnZa34IhOzFvY.jpg"
+        }
+      ]
+    }
+  },
+  {
     "category": "ACCESSIBILITY",
     "datetime": "2026-08-21T00:07:40.000Z",
     "author": "Kuntal Go",
@@ -283,6 +499,40 @@
     "_analysisPriority": "high"
   },
   {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-20T20:52:53.000Z",
+    "author": "Kevin Kern",
+    "handle": "kevinkern",
+    "avatar": "https://pbs.twimg.com/profile_images/1849574174785732608/ltlLcyaT_200x200.jpg",
+    "title": "GPT-Image-2 透明背景降低营销素材后期成本",
+    "summary": "OpenAI 开放 GPT-Image-2 透明背景预览，Kevin Kern 关注它对产品图、网站 mockup 和营销素材的可复用价值。重点是生成后能直接进入设计后期。",
+    "url": "https://x.com/kevinkern/status/2090542608984440973",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQMZPykWYAAqiIQ.jpg?name=orig"
+      }
+    ],
+    "metrics": "3 REPLIES · 1 REPOSTS · 37 LIKES · 8 BOOKMARKS · 3834 VIEWS",
+    "links": [],
+    "_analysisTheme": "Image Generation / Asset Pipeline",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2090536933571330440",
+      "url": "https://x.com/OpenAIDevs/status/2090536933571330440",
+      "author": "OpenAI Developers",
+      "handle": "OpenAIDevs",
+      "text": "Transparent backgrounds are now available in preview for GPT-Image-2 in the API. Generate reusable assets you can place on any background—for product imagery, graphic design, website mockups, and marketing campaigns.",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2090536890466525184/vid/avc1/1280x720/yVo8c6WU4aChP9fG.mp4?tag=14",
+          "poster": "https://pbs.twimg.com/media/HQMVJ0_WgAAoq7L.jpg"
+        }
+      ]
+    }
+  },
+  {
     "category": "PRODUCT QA",
     "datetime": "2026-08-20T20:42:21.000Z",
     "author": "Evgenii Mozharovskii",
@@ -365,6 +615,86 @@
   },
   {
     "category": "AI PRODUCT",
+    "datetime": "2026-08-20T19:17:14.000Z",
+    "author": "Grok",
+    "handle": "grok",
+    "avatar": "https://pbs.twimg.com/profile_images/2057885623374290944/lmj0pawP_200x200.jpg",
+    "title": "Grok 把一句话 app 发布到独立域名",
+    "summary": "Grok 宣布 SuperGrok/X Premium 可从一句提示生成并发布 app。它是 AI app builder 从「生成界面」走向「可分享域名」的又一个信号。",
+    "url": "https://x.com/grok/status/2090518541480898973",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090518342238937088/vid/avc1/1920x1080/8hefXWKgGGCFIwg7.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090518342238937088/img/DQ6qpTjxTbuxkkpJ.jpg"
+      }
+    ],
+    "metrics": "195 REPLIES · 301 REPOSTS · 2665 LIKES · 950 BOOKMARKS · 1465149 VIEWS",
+    "links": [
+      "https://grok.com"
+    ],
+    "_analysisTheme": "AI App Builder / Publish Flow",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Grok",
+      "url": "https://grok.com/",
+      "preview": "Grok is an AI assistant built by SpaceXAI. Chat, create images, write code, and get real-time answers from the web and X.",
+      "cover": ""
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-20T19:16:14.000Z",
+    "author": "Tibo",
+    "handle": "thsottiaux",
+    "avatar": "https://pbs.twimg.com/profile_images/2075819673263001600/pj1vyX6I_200x200.jpg",
+    "title": "ChatGPT Sites 协作把 Codex/Git/CI 藏进多人编辑",
+    "summary": "Tibo 用 ChatGPT Sites 协作建站，背后是多人编辑、Codex 管 Git 和 CI。对设计师来说，关键是协作入口变轻，而工程流水线被产品化。",
+    "url": "https://x.com/thsottiaux/status/2090518287532916854",
+    "media": [],
+    "metrics": "558 REPLIES · 62 REPOSTS · 1553 LIKES · 283 BOOKMARKS · 306832 VIEWS",
+    "links": [],
+    "_analysisTheme": "Sites / Collaboration Workflow",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2090515079058108745",
+      "url": "https://x.com/OpenAIDevs/status/2090515079058108745",
+      "author": "OpenAI Developers",
+      "handle": "OpenAIDevs",
+      "text": "Add teammates as editors to your ChatGPT Sites so you can build and publish together. Collaborators can push changes to the same project while Codex handles git management and CI behind the scenes.",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2090515064856166400/vid/avc1/1280x720/RzqZ5PAOC3fsEUU1.mp4?tag=14",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2090515064856166400/img/UyYj4kahCxXKvLgA.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-20T19:01:27.000Z",
+    "author": "FLORA ©",
+    "handle": "floraai",
+    "avatar": "https://pbs.twimg.com/profile_images/1892364060458471425/2DyQ8Y0L_200x200.jpg",
+    "title": "FLORA Fashion Studio 用行业专家证明工具深度",
+    "summary": "FLORA 把 Fashion Studio 背后的行业负责人拿出来讲，说明 AI 创作工具需要垂直工作流知识，而不是只堆模型能力。",
+    "url": "https://x.com/floraai/status/2090514569848328335",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090507795636338688/vid/avc1/3840x2160/I8yfrUfRyG0kO3zS.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090507795636338688/img/WNc9C791ZfrBQvE4.jpg"
+      }
+    ],
+    "metrics": "5 REPLIES · 2 REPOSTS · 26 LIKES · 3 BOOKMARKS · 1527 VIEWS",
+    "links": [],
+    "_analysisTheme": "Fashion AI / Domain Workflow",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI PRODUCT",
     "datetime": "2026-08-20T18:31:55.000Z",
     "author": "Shellie Hu",
     "handle": "shellwetwit1",
@@ -384,6 +714,61 @@
     "links": [],
     "_analysisTheme": "Designer Portfolio / Site Craft",
     "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-20T18:04:35.000Z",
+    "author": "Spline",
+    "handle": "splinetool",
+    "avatar": "https://pbs.twimg.com/profile_images/1583261404001435648/oL_UX6EJ_200x200.jpg",
+    "title": "Spline V2 把 3D 编辑器重做成 agentic 工作台",
+    "summary": "Spline V2 同时强调新 UI、AI Agent Mode、MCP、WebGPU、PBR/HDR 和 scripting。它是 3D 工具进入 agentic era 的完整产品信号。",
+    "url": "https://x.com/splinetool/status/2090500256190603636",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090459598633480192/vid/avc1/3840x2160/58OvrDadeMwcsX98.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090459598633480192/img/EizUN61dJv6T4CZW.jpg"
+      }
+    ],
+    "metrics": "41 REPLIES · 66 REPOSTS · 836 LIKES · 558 BOOKMARKS · 76173 VIEWS",
+    "links": [],
+    "_analysisTheme": "3D Tool / Agentic Editor",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-20T17:51:42.000Z",
+    "author": "Peng Zheng",
+    "handle": "pengzheng_",
+    "avatar": "https://pbs.twimg.com/profile_images/1950000586084233216/-bvk_-H3_200x200.png",
+    "title": "Grok Bot 被实体按键化，给 AI bot 一个物理触点",
+    "summary": "Peng Zheng 把 Grok Bot 做成 keycap 的想法很小，但它提示 AI bot 可以有物理触点、状态和仪式感，而不是只停留在聊天列表里。",
+    "url": "https://x.com/pengzheng_/status/2090497016338288662",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090496804358103040/vid/avc1/2112x1320/M2QJ_zEfX8Qew1UQ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090496804358103040/img/UTp5PLLL1o7LuIUS.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQLvxsrboAAenU4.jpg?name=orig"
+      }
+    ],
+    "metrics": "8 REPLIES · 2 REPOSTS · 51 LIKES · 5 BOOKMARKS · 2361 VIEWS",
+    "links": [
+      "https://luma.com/cursor-tx4t"
+    ],
+    "_analysisTheme": "AI Bot / Physical Touchpoint",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "Grok Bot Founder Build Night feat. Harper (YC W25) &amp; professional headshot activation · Luma",
+      "url": "https://luma.com/cursor-tx4t",
+      "preview": "About Grok Bot just shipped. Come be the first to build with it at the SpaceXAI office. We’ll spend the evening coworking, with a short demo block in the…",
+      "cover": ""
+    }
   },
   {
     "category": "PRODUCT DESIGN",
@@ -424,6 +809,39 @@
     "metrics": "1 REPLIES · 7 REPOSTS · 36 LIKES · 15 BOOKMARKS · 3216 VIEWS",
     "links": [],
     "_analysisTheme": "Agent Evaluation / Self-play",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-20T16:00:50.000Z",
+    "author": "The Brand Identity",
+    "handle": "TweetsByTBI",
+    "avatar": "https://pbs.twimg.com/profile_images/1774761854306324480/-imXshxF_200x200.jpg",
+    "title": "品牌 guidelines 模板把资产维护做成干净系统",
+    "summary": "The Brand Identity 展示 InDesign/Illustrator guidelines template，适合作为个人或小团队品牌资产整理的结构参考。",
+    "url": "https://x.com/TweetsByTBI/status/2090469115622482399",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090469101059907584/vid/avc1/960x720/_flbQ5BCHw4Ws9Cn.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090469101059907584/img/uJDJhlsccmmzQtMr.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQLWlDiagAAIskr.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQLWlMUbIAAgDwx.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQLWlUfbYAAfXXv.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 6 REPOSTS · 31 LIKES · 26 BOOKMARKS · 1474 VIEWS",
+    "links": [],
+    "_analysisTheme": "Brand System / Template",
     "_analysisPriority": "medium"
   },
   {

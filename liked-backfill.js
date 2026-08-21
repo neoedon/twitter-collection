@@ -1,6 +1,1530 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-20T08:11:14+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-21T13:07:46+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2090518650251804742",
+    "TwitterUserID": "1943306828697550848",
+    "UserScreenName": "claudeai",
+    "UserProfileName": "Claude",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+    "TweetText": "Claude Academy is now live.\n\nWhether you're figuring out what AI is or already using Claude every day, there's a path that meets you where you are. The courses and tutorials are free and open to anyone at https://academy.claude.com",
+    "Tweet Url": "https://x.com/claudeai/status/2090518650251804742",
+    "TweetCreatedDate": "2026-08-20T19:17:40.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQMDs9VbUAA9vdk.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090517847659167745/vid/avc1/1920x1080/FwW9ptzVvoBMXvby.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Education",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090517847659167745/vid/avc1/1920x1080/FwW9ptzVvoBMXvby.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/media/HQMDs9VbUAA9vdk.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Claude Academy · Learn to work and build with Claude",
+      "url": "https://academy.claude.com/",
+      "preview": "Free courses, tutorials, and use cases from Anthropic — whether you’re exploring AI, getting started with Claude, or rolling it out to your team.",
+      "cover": ""
+    },
+    "_metrics": "314 REPLIES · 1875 REPOSTS · 17697 LIKES · 18004 BOOKMARKS · 2325983 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-20T19:17:40.000Z"
+    }
+  },
+  {
+    "TweetID": "2090515962617339908",
+    "TwitterUserID": "1048393757090041857",
+    "UserScreenName": "alain_0012",
+    "UserProfileName": "Alain Alvarez",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1978415747438129152/WLS6MYFi_200x200.jpg",
+    "TweetText": "blobatar now installs with the shadcn CLI\n\nnpx shadcn@latest add https://blobatar.dev/r/avatar.json",
+    "Tweet Url": "https://x.com/alain_0012/status/2090515962617339908",
+    "TweetCreatedDate": "2026-08-20T19:07:00.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQL-4R-WcAAt7ED.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Component Utility",
+      "Image",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQL-4R-WcAAt7ED.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "",
+      "url": "https://blobatar.dev/r/avatar.json",
+      "preview": "",
+      "cover": ""
+    },
+    "_metrics": "1 REPLIES · 0 REPOSTS · 41 LIKES · 27 BOOKMARKS · 3234 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-20T19:07:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2090472031418794389",
+    "TwitterUserID": "1780945436267720704",
+    "UserScreenName": "beiyue66",
+    "UserProfileName": "beiyue1",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1821466529449259008/B-se40qD_200x200.jpg",
+    "TweetText": "虽然这个gasp这个skills已经发布有好几个月了 但是还是要感慨一下他的牛逼\n\n内置timeline 结合审美比较好的ai 能一键做出很多精美的前端动效\n而且skills内置了gasp团队多年积累的工程化经验 直接阅读.md文档也能学到很多东西\nhttps://github.com/greensock/gsap-skills",
+    "Tweet Url": "https://x.com/beiyue66/status/2090472031418794389",
+    "TweetCreatedDate": "2026-08-20T16:12:26.000Z",
+    "MediaType": "",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Motion",
+      "Link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "GitHub - greensock/gsap-skills: Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices,",
+      "url": "https://github.com/greensock/gsap-skills",
+      "preview": "Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage. - greensock/gsap-skills",
+      "cover": ""
+    },
+    "_metrics": "9 REPLIES · 2 REPOSTS · 81 LIKES · 126 BOOKMARKS · 6632 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-20T16:12:26.000Z"
+    }
+  },
+  {
+    "TweetID": "2090466428608487623",
+    "TwitterUserID": "24910558",
+    "UserScreenName": "greensock",
+    "UserProfileName": "GSAP",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1713633504431394816/h28jJ1qM_200x200.jpg",
+    "TweetText": "💚 Site of the Day - Jason Bradley Portfolio\n\nDesigned with Bruno Arizio @BrunoArizio , \n\n⚙️ SplitText\n🛠️  Vue\n\nsite → https://jasonbradley.co/ \nshowcase → https://gsap.com/showcase",
+    "Tweet Url": "https://x.com/greensock/status/2090466428608487623",
+    "TweetCreatedDate": "2026-08-20T15:50:10.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090466389668564992/img/-EYTJdU5e1lxzVQb.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090466389668564992/vid/avc1/1920x1080/cEBa4hVtoDHiw3pY.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Portfolio",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090466389668564992/vid/avc1/1920x1080/cEBa4hVtoDHiw3pY.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090466389668564992/img/-EYTJdU5e1lxzVQb.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Jason Bradley — Jason Bradley",
+      "url": "https://jasonbradley.co/",
+      "preview": "Portfolio by Design Technologist Jason Bradley",
+      "cover": ""
+    },
+    "_metrics": "1 REPLIES · 3 REPOSTS · 28 LIKES · 24 BOOKMARKS · 1620 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 11,
+      "observedDatetime": "2026-08-20T15:50:10.000Z"
+    }
+  },
+  {
+    "TweetID": "2090453771516359164",
+    "TwitterUserID": "1375129339747037186",
+    "UserScreenName": "arthur_designss",
+    "UserProfileName": "Arthur @ WeCreateBrand",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1832364582817460225/Eyq55J8u_200x200.jpg",
+    "TweetText": "A little eye candy for your feed. 🍬",
+    "Tweet Url": "https://x.com/arthur_designss/status/2090453771516359164",
+    "TweetCreatedDate": "2026-08-20T14:59:52.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090453617354665984/img/u16EyRWna6s0ONj6.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090453617354665984/vid/avc1/2160x2216/5RNUFvp52hUddsTr.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Visual Taste",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090453617354665984/vid/avc1/2160x2216/5RNUFvp52hUddsTr.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090453617354665984/img/u16EyRWna6s0ONj6.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "3 REPLIES · 3 REPOSTS · 124 LIKES · 85 BOOKMARKS · 4271 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-20T14:59:52.000Z"
+    }
+  },
+  {
+    "TweetID": "2090450895616245886",
+    "TwitterUserID": "61396300",
+    "UserScreenName": "kshift",
+    "UserProfileName": "kshift",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2036629916427456512/QdOkMHn9_200x200.jpg",
+    "TweetText": "环大陆上架了…",
+    "Tweet Url": "https://x.com/kshift/status/2090450895616245886",
+    "TweetCreatedDate": "2026-08-20T14:48:26.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090450880076333056/img/bdS4TK3etxx8aLcA.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090450880076333056/vid/avc1/720x1280/cJui4ceZEh8AeKhD.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Indie Product",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090450880076333056/vid/avc1/720x1280/cJui4ceZEh8AeKhD.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090450880076333056/img/bdS4TK3etxx8aLcA.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 0 REPOSTS · 7 LIKES · 3 BOOKMARKS · 12321 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-20T14:48:26.000Z"
+    }
+  },
+  {
+    "TweetID": "2090447110168822128",
+    "TwitterUserID": "1986087438721449984",
+    "UserScreenName": "xiaoxiaodong01",
+    "UserProfileName": "小小东",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2046072820095176704/QBve47KI_200x200.jpg",
+    "TweetText": "GPT2 x 立体  x 模型  x 微缩 x 美学提示词 x VOL.028\n\n好喜欢这组提示词：\n\n它会把照片里的主角\n变成一个小小的纸上模型\n像被轻轻放进展台里\n\n有点像建筑沙盘\n也有点像生活我们认真拾掇起来~\n\n颜色还是从原图里来\n但会变得更柔和更耐看\n\n最后再放一点点文字\n像给这一瞬间留下一句轻轻的注解\n整张图，也就有了安静又很特别的感觉\n\nprompt by xiaoxiaodong：\n\n```\n🚗\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有艺术杂志、独立出版物和展览摄影质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，重构为精致的极简等距视角插画，如一件陈列在纸面上的微缩立体模型或建筑沙盘。不要机械复刻照片细节，而是以概括体块、清晰边缘、简洁层级和微型场景关系重新表达主体，使其保留一眼可辨的身份特征，同时具有安静、克制、诗意的编辑插画气质。\n\n整体采用**等距视角、微缩景观、纸面模型感**的构图逻辑：主体像被切割并安放在一小块纸面或微型基座上，周围保留大面积留白，通过体量对比、边缘裁切、轻微投影和少量微小细节建立尺度感与孤独感。可加入极少量辅助元素承托主体，但不得形成第二视觉中心。\n\n配色完全从上方原始照片中提取，优先保留最具辨识度、最有气质和最能代表主体的颜色，再将复杂色彩**归纳、提纯、柔化并统一为有限色盘**。保留原图的冷暖关系与色彩性格，但降低杂色和视觉噪声，使颜色更平静、克制、柔和、有纸上编辑插画感；通过同色深浅、邻近色关系和少量色差区分体块，不凭空加入与原图无关的固定色系。使用精细墨线、扁平色面、轻微阴影和纸张颗粒表现结构与层次。\n\n文字作为构图的一部分巧妙介入，从照片的主题、地点、动作、状态或情绪中提炼一个简短英文标题，并搭配极少量编号、短句或微型注释。文字保持细瘦、克制、现代编辑感，可沿留白边缘、主体基座、水平轴线或等距结构排列，与图形共同形成安静而精致的版式节奏。\n\n整体参考**极简等距插画、微缩立体模型、纸上景观和高级编辑设计**，呈现安静、诗意、克制、精致、具有收藏感的视觉气质。避免卡通感、高饱和撞色、与原图无关的固定配色、塑料3D感、复杂场景堆积、电商感和模板感。\n🚗\n```",
+    "Tweet Url": "https://x.com/xiaoxiaodong01/status/2090447110168822128",
+    "TweetCreatedDate": "2026-08-20T14:33:24.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQLBlW8bsAAsgzZ.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Image Prompt",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQLBlW8bsAAsgzZ.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQLBmnobgAAbPcA.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQLBn1EawAAzAAw.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQLCQ9SaYAAnWya.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "id": "2090444626285261046",
+      "url": "https://x.com/xiaoxiaodong01/status/2090444626285261046",
+      "author": "小小东",
+      "handle": "xiaoxiaodong01",
+      "text": "GPT2 x 浮雕 x 金 x 高级 x 美学提示词 x VOL.027 下半部分很妙： 轮廓会留下来 姿态会留下来 关系也会留下来 所以就算变得很极简 你还是能一眼认出它是谁 少量的金色装饰 像光刚好停在重点元素上 不抢戏、却很提气 它既像摄影 又像一件被收藏的纸上作品 如下是完整提示词： ``` 请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。 上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有艺术杂志、独立出版物与展览摄",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQK9HtNakAAKs-M.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQK9IsOa0AAUhMm.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQK9J1BbQAAcw2B.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQK9LLaa8AAeies.jpg?name=orig"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "12 REPLIES · 171 REPOSTS · 1291 LIKES · 1391 BOOKMARKS · 83742 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 15,
+      "observedDatetime": "2026-08-20T14:33:24.000Z"
+    }
+  },
+  {
+    "TweetID": "2090439670484402249",
+    "TwitterUserID": "1882698491878891520",
+    "UserScreenName": "crycryptor",
+    "UserProfileName": "第五人格 | 💎 1000X GEM",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2081766929866637312/TG_MOz-D_200x200.jpg",
+    "TweetText": "@BTC99M",
+    "Tweet Url": "https://x.com/crycryptor/status/2090439670484402249",
+    "TweetCreatedDate": "2026-08-20T14:03:50.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090439515722928128/img/lvovhdKcsrO0QyJJ.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090439515722928128/vid/avc1/720x1280/LirlliVmGMHqUw6V.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人收藏偏好",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090439515722928128/vid/avc1/720x1280/LirlliVmGMHqUw6V.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090439515722928128/img/lvovhdKcsrO0QyJJ.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 4 REPOSTS · 47 LIKES · 16 BOOKMARKS · 9461 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 15,
+      "observedDatetime": "2026-08-20T14:03:50.000Z"
+    }
+  },
+  {
+    "TweetID": "2090438712274686392",
+    "TwitterUserID": "2054698817824399360",
+    "UserScreenName": "ApexDistrictX",
+    "UserProfileName": "ApexDistrict",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2054702281849761792/MtvJNCnD_200x200.jpg",
+    "TweetText": "Honda NSX 🌳",
+    "Tweet Url": "https://x.com/ApexDistrictX/status/2090438712274686392",
+    "TweetCreatedDate": "2026-08-20T14:00:02.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQHZgIaWAAAdzCR.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人收藏偏好",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQHZgIaWAAAdzCR.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQHZgIXWkAAuzu7.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQHZgIiXoAAbCGO.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQHZgIlXgAAInel.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "17 REPLIES · 369 REPOSTS · 5236 LIKES · 407 BOOKMARKS · 85093 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-20T14:00:02.000Z"
+    }
+  },
+  {
+    "TweetID": "2090427863988355450",
+    "TwitterUserID": "3050564824",
+    "UserScreenName": "basit_designs",
+    "UserProfileName": "Basit A. Khan",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2035703029631201280/MiiHz_yG_200x200.jpg",
+    "TweetText": "Save these Gems for your daily day designs :)\n\n- http://grainient.supply unlimited gradients BG & animated gradients\n- http://animos.app Showcase your design presentation\n- http://arqe.ai Curated Images Gallery\n- http://posts.design Best design inspiration\n- http://toolfolio.io unlimited tools\n- http://youworkforthem.com/fonts Curated fonts\n- http://surface-motion.com Dynamic way to showcase\n- http://brik.space WebGL dynamic components\n- http://recent.design curated designs Inspiration\n\nSave it 😇",
+    "Tweet Url": "https://x.com/basit_designs/status/2090427863988355450",
+    "TweetCreatedDate": "2026-08-20T13:16:55.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090425320386232320/img/6varp1MSJtAosxdX.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090425320386232320/vid/avc1/1080x608/9VLHkztPVFdi4UFP.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design Resource",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090425320386232320/vid/avc1/1080x608/9VLHkztPVFdi4UFP.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090425320386232320/img/6varp1MSJtAosxdX.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Unlimited Gradients, Animated Gradients and AI-Generated Backgrounds",
+      "url": "https://grainient.supply/",
+      "preview": "Grainient offers 1000+ awesome gradients, animated gradients, grainy textures, and AI-generated backgrounds. Subscribe for unlimited downloads and elevate your designs with our premium collections.",
+      "cover": ""
+    },
+    "_metrics": "13 REPLIES · 25 REPOSTS · 521 LIKES · 755 BOOKMARKS · 18716 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-20T13:16:55.000Z"
+    }
+  },
+  {
+    "TweetID": "2090426300783792264",
+    "TwitterUserID": "296593919",
+    "UserScreenName": "vikingmute",
+    "UserProfileName": "Viking",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/725179208528322560/TPjU7qop_200x200.jpg",
+    "TweetText": "https://uisfx.com/ 一个有声音的网站，太有趣了，一个专门做声音效果的库，12 不同的风格，总共有 936 种声音，我觉得现在 agent 的时代，这种提示音还是非常必要的，这个做的真的很好，不同种类的都有，网页也做的很精致。",
+    "Tweet Url": "https://x.com/vikingmute/status/2090426300783792264",
+    "TweetCreatedDate": "2026-08-20T13:10:43.000Z",
+    "MediaType": "",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Interface Sound",
+      "Link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "UI Sound Design: 936 Interface Sound Effects | UI SFX",
+      "url": "https://uisfx.com/",
+      "preview": "Preview 936 open-source UI sound effects for web, mobile, SaaS, and games. Compare 12 sonic styles, one-shots, and seamless loops.",
+      "cover": ""
+    },
+    "_metrics": "32 REPLIES · 47 REPOSTS · 270 LIKES · 353 BOOKMARKS · 13876 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 14,
+      "observedDatetime": "2026-08-20T13:10:43.000Z"
+    }
+  },
+  {
+    "TweetID": "2090415295131500987",
+    "TwitterUserID": "1664115584236425220",
+    "UserScreenName": "VibeEverything",
+    "UserProfileName": "LOOPY",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2053897145498161152/21sjtifJ_200x200.jpg",
+    "TweetText": "브라우저 기반 스위스 스타일 포스터 디자인 툴\n\n다양한 템플릿·레이아웃·폰트 페어링 등을 제공해서\n복잡한 툴 없이 포스터 디자인을 쉽게 할 수 있음\n\n특히 AI 보조 기능이 있어서 타이포 자동 수정, \n카피 자동 맞춤/리사이즈, 디자인 리뷰까지 해 줌\n\n빠르게 여러 시안을 뽑아보고 싶을 때도 유용할 듯\n\n가입 없음. 전부 무료.",
+    "Tweet Url": "https://x.com/VibeEverything/status/2090415295131500987",
+    "TweetCreatedDate": "2026-08-20T12:26:59.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090405962410819584/img/-VmtdsggoIdzjUsQ.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090405962410819584/vid/avc1/1926x1080/hV5i-vJD8j2GLmgf.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Poster Tool",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090405962410819584/vid/avc1/1926x1080/hV5i-vJD8j2GLmgf.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090405962410819584/img/-VmtdsggoIdzjUsQ.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "11 REPLIES · 51 REPOSTS · 256 LIKES · 289 BOOKMARKS · 10242 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 14,
+      "observedDatetime": "2026-08-20T12:26:59.000Z"
+    }
+  },
+  {
+    "TweetID": "2090414975701721517",
+    "TwitterUserID": "1452681194001285120",
+    "UserScreenName": "SebCornelius",
+    "UserProfileName": "Seb Cornelius",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1910194496966680576/wwkh7f8r_200x200.jpg",
+    "TweetText": "Details, details",
+    "Tweet Url": "https://x.com/SebCornelius/status/2090414975701721517",
+    "TweetCreatedDate": "2026-08-20T12:25:42.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090414912329895936/img/xp1peZKH2tLkcvgK.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090414912329895936/vid/avc1/2880x2160/CrmMWyslpuil8Rfj.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Interaction Detail",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090414912329895936/vid/avc1/2880x2160/CrmMWyslpuil8Rfj.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090414912329895936/img/xp1peZKH2tLkcvgK.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "13 REPLIES · 2 REPOSTS · 224 LIKES · 93 BOOKMARKS · 6249 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 12,
+      "observedDatetime": "2026-08-20T12:25:42.000Z"
+    }
+  },
+  {
+    "TweetID": "2090397295951097927",
+    "TwitterUserID": "1650376699580936192",
+    "UserScreenName": "codebydinil",
+    "UserProfileName": "Dinil",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2075813664251428864/hksPPqVl_200x200.jpg",
+    "TweetText": "A new GuideFrame update is out 🎉\n\nThe Geometry Inspector can now measure spacing between pinned elements and visualize padding, margins, flex gaps, grid gaps, and tracks directly in the browser.\n\nI also simplified the interaction:\n\n• Hover for dimensions\n• Hold Option for spacing\n• Use Shift + Option for advanced details\n\nLess visual noise and less eyeballing.\nOpen source update available now.\n\nDemo 👇",
+    "Tweet Url": "https://x.com/codebydinil/status/2090397295951097927",
+    "TweetCreatedDate": "2026-08-20T11:15:27.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090396100817829888/img/12PoScM4PmsLrFW9.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090396100817829888/vid/avc1/1682x1080/i1eQ2YtHZjE4pWhW.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design QA",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090396100817829888/vid/avc1/1682x1080/i1eQ2YtHZjE4pWhW.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090396100817829888/img/12PoScM4PmsLrFW9.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": {
+      "id": "2083883736689713551",
+      "url": "https://x.com/codebydinil/status/2083883736689713551",
+      "author": "Dinil",
+      "handle": "codebydinil",
+      "text": "My biggest pain point when building from Figma was checking whether the final UI actually matched the intended grid, spacing, and alignment. I kept switching between Figma and the browser and still ended up eyeballing it. So I built GuideFrame: Figma-style grids, rulers, and draggable guides directl",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2083883230848294912/vid/avc1/1720x1080/WWM-DP7NJ9wvXwAt.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2083883230848294912/img/Zug7YJlNhQfOoDmK.jpg"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "4 REPLIES · 4 REPOSTS · 41 LIKES · 51 BOOKMARKS · 3088 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 10,
+      "observedDatetime": "2026-08-20T11:15:27.000Z"
+    }
+  },
+  {
+    "TweetID": "2090393539209568727",
+    "TwitterUserID": "859790145871937537",
+    "UserScreenName": "ZeroZ_JQ",
+    "UserProfileName": "关木",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1975379890187943936/tSLkEX9E_200x200.jpg",
+    "TweetText": "这个 ESP-32 太好玩了\n\n这才是硬件该有的样子\n\n",
+    "Tweet Url": "https://x.com/ZeroZ_JQ/status/2090393539209568727",
+    "TweetCreatedDate": "2026-08-20T11:00:32.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090328835841740801/img/tvcZYJIsAYRRYKYJ.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090328835841740801/vid/avc1/2160x3840/4RkGX-0RdkTWGt6K.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Hardware",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090328835841740801/vid/avc1/2160x3840/4RkGX-0RdkTWGt6K.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090328835841740801/img/tvcZYJIsAYRRYKYJ.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "23 REPLIES · 71 REPOSTS · 638 LIKES · 484 BOOKMARKS · 65427 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 12,
+      "observedDatetime": "2026-08-20T11:00:32.000Z"
+    }
+  },
+  {
+    "TweetID": "2090388965526290943",
+    "TwitterUserID": "1974233244770951170",
+    "UserScreenName": "insporadesign",
+    "UserProfileName": "Inspora",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2081820944947871744/w38Rv_0d_200x200.jpg",
+    "TweetText": "Shader Stamps by @raul_dronca \n\nMore on →https://inspora.design",
+    "Tweet Url": "https://x.com/insporadesign/status/2090388965526290943",
+    "TweetCreatedDate": "2026-08-20T10:42:21.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090388849243430912/img/RW2Ipcior5ZOBKYd.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090388849243430912/vid/avc1/3840x2156/peSSnTz69zBPANFi.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Shader",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090388849243430912/vid/avc1/3840x2156/peSSnTz69zBPANFi.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090388849243430912/img/RW2Ipcior5ZOBKYd.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "",
+      "url": "https://inspora.design/",
+      "preview": "",
+      "cover": ""
+    },
+    "_metrics": "0 REPLIES · 0 REPOSTS · 42 LIKES · 22 BOOKMARKS · 1274 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 4,
+      "observedDatetime": "2026-08-20T10:42:21.000Z"
+    }
+  },
+  {
+    "TweetID": "2090360844609630212",
+    "TwitterUserID": "1675456073375920129",
+    "UserScreenName": "noahelhadedy",
+    "UserProfileName": "𝐍𝐨𝐚𝐡",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2056319844094492672/8vkVV6Vj_200x200.jpg",
+    "TweetText": "Free invoice templates \n4 styles, all free \n\nhttps://noahelhadedy.com/resources/free-invoice-template",
+    "Tweet Url": "https://x.com/noahelhadedy/status/2090360844609630212",
+    "TweetCreatedDate": "2026-08-20T08:50:37.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQJ0ETtW0AAxIQ1.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Template Resource",
+      "Image",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQJ0ETtW0AAxIQ1.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQJ0FKLW0AAJxlx.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQJ0FuOWgAAgA2e.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQJ0GcnXwAAtlyY.png?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Free Invoice Template for Figma — Noah Elhadedy",
+      "url": "https://noahelhadedy.com/resources/free-invoice-template",
+      "preview": "Two invoice layouts for Figma. Light and dark, fully tokenised, A4 ready.",
+      "cover": ""
+    },
+    "_metrics": "0 REPLIES · 4 REPOSTS · 56 LIKES · 84 BOOKMARKS · 3335 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 9,
+      "observedDatetime": "2026-08-20T08:50:37.000Z"
+    }
+  },
+  {
+    "TweetID": "2090359684003704974",
+    "TwitterUserID": "1327292278000349185",
+    "UserScreenName": "Xudong07452910",
+    "UserProfileName": "Xudong Han",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1327292688736034816/vJTxjjLU_200x200.jpg",
+    "TweetText": "OpenAI 今天发布了了一篇关于 Codex 的文章，开始重新定位 Codex 。\n\nCodex 现在已经不只是 App、CLI 或 IDE 里的 Coding Agent。\n\nOpenAI 把它背后的开源 Harness 单独拿了出来。\n\nContext 怎么维护、工具怎么调用、任务怎么跨多轮继续、什么时候需要 approval、sandbox 怎么限制，这些 Agent loop 里的东西都可以直接复用。\n\n开发者现在可以通过 \"codex exec\"、SDK 和 app-server，把这套 Agent 能力嵌进自己的产品。\n\n文章里也提到了一个判断: 以后做 Agent 产品，没必要都造一个聊天框。\n\n客服可以继续用客服后台，安全团队继续看 incident dashboard，运营继续看自己的业务系统。产品负责 Context、业务规则和工具，Codex 在下面负责 Agent loop。\n\n我觉得这可能也是 Harness 接下来很重要的一种形态。\n\n模型负责能力，Harness 负责把这种能力真正接进一个具体工作流里。\n\nCodex 正在开始做这一层的平台。\n\n文章\nhttps://developers.openai.com/blog/codex-as-a-platform",
+    "Tweet Url": "https://x.com/Xudong07452910/status/2090359684003704974",
+    "TweetCreatedDate": "2026-08-20T08:46:00.000Z",
+    "MediaType": "",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Open Agent Harness",
+      "Link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Codex as a platform: build on the open agent harness | OpenAI Developers",
+      "url": "https://developers.openai.com/blog/codex-as-a-platform",
+      "preview": "Build Codex into the products and workflows your users already know.",
+      "cover": ""
+    },
+    "_metrics": "42 REPLIES · 74 REPOSTS · 405 LIKES · 575 BOOKMARKS · 47599 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 15,
+      "observedDatetime": "2026-08-20T08:46:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2090339190936662160",
+    "TwitterUserID": "3302628253",
+    "UserScreenName": "vyshnav_xyz",
+    "UserProfileName": "˗ˏˋ vyshnav ˊˎ˗",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2070885758257524736/xeLtMTas_200x200.jpg",
+    "TweetText": "✨ A new visual language: Flex bubbles\n\nby Calendly",
+    "Tweet Url": "https://x.com/vyshnav_xyz/status/2090339190936662160",
+    "TweetCreatedDate": "2026-08-20T07:24:34.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQJgE89acAA4WfJ.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Brand Motion",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQJgE89acAA4WfJ.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQJgE8_aEAAof0X.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQJgE9Cb0AAuJDs.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "13 REPLIES · 14 REPOSTS · 578 LIKES · 451 BOOKMARKS · 26074 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-20T07:24:34.000Z"
+    }
+  },
+  {
+    "TweetID": "2090325459590578572",
+    "TwitterUserID": "1626432411377733633",
+    "UserScreenName": "cmfbynothing",
+    "UserProfileName": "CMF by Nothing",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1809267552389902336/yEm_aue9_200x200.jpg",
+    "TweetText": "Introducing Buds Neo.\nPretty Perfect.",
+    "Tweet Url": "https://x.com/cmfbynothing/status/2090325459590578572",
+    "TweetCreatedDate": "2026-08-20T06:30:00.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090069167915573248/img/F0L5FE9gU5R909XR.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090069167915573248/vid/avc1/3840x2160/reAFYq1-F7fXsDQY.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Hardware Launch",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090069167915573248/vid/avc1/3840x2160/reAFYq1-F7fXsDQY.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090069167915573248/img/F0L5FE9gU5R909XR.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "13 REPLIES · 66 REPOSTS · 999 LIKES · 88 BOOKMARKS · 44631 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 5,
+      "observedDatetime": "2026-08-20T06:30:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2090317913513136235",
+    "TwitterUserID": "1384465129924960256",
+    "UserScreenName": "arknow91",
+    "UserProfileName": "Arek",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2075743967723851776/qGvK0WF9_200x200.jpg",
+    "TweetText": "liquid-taffy update:  \n- sound effects (watch with 🔊) - thanks @ggsimm  \n- multi-select pattern \n- dark mode with PS easter eggs\n\nhttps://github.com/arknow91/liquid-taffy",
+    "Tweet Url": "https://x.com/arknow91/status/2090317913513136235",
+    "TweetCreatedDate": "2026-08-20T06:00:01.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090249406725468160/img/mcsfZreW6Y84s12-.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090249406725468160/vid/avc1/2160x2160/nBf-e0SLwLYEmtSr.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Interactive Prototype",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090249406725468160/vid/avc1/2160x2160/nBf-e0SLwLYEmtSr.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090249406725468160/img/mcsfZreW6Y84s12-.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "GitHub - arknow91/liquid-taffy: Three liquid interactions you can grab, pull, and let snap back — anchored dropdown, morphing dropdown and speed dial on one goo engine. · GitHub",
+      "url": "https://github.com/arknow91/liquid-taffy",
+      "preview": "Three liquid interactions you can grab, pull, and let snap back — anchored dropdown, morphing dropdown and speed dial on one goo engine. - arknow91/liquid-taffy",
+      "cover": ""
+    },
+    "_metrics": "23 REPLIES · 20 REPOSTS · 461 LIKES · 425 BOOKMARKS · 18940 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 16,
+      "observedDatetime": "2026-08-20T06:00:01.000Z"
+    }
+  },
+  {
+    "TweetID": "2090310144190218272",
+    "TwitterUserID": "1662111037347491841",
+    "UserScreenName": "zhidawang219555",
+    "UserProfileName": "DAAI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2081770445213446144/RCobOxkg_200x200.jpg",
+    "TweetText": "🧐继续探索4拼风格\n\n📷原图→青花瓷绘 → 敦煌壁画 → 刺绣锦缎📷\n\n#gptimage2 #prompt\n\n请将我上传的照片制作成一张竖版拼图海报，整体采用 3:4 竖版构图。画面从上到下严格四等分为四个横向区域，每个区域的高度必须精确控制为整体画面高度的25%（四层比例严格为1:1:1:1，不允许出现比例偏差），区域之间无缝衔接，不设分隔线、不留间隙，顺序为：原图→风格1→风格2→风格3。由于每层为约3:1的极扁宽幅比例，各层主体建议横向居中排布，强调左右开阔留白与呼吸感，避免元素纵向拉伸变形或贴边拥挤。四层在人物站位、场景结构、视线方向上保持连贯呼应，呈现同一画面、四种转译的整体感。风格层（第二至四层）须遵循极简原则：每层视觉元素数量压缩至最低限度，只保留1个最核心的主体符号，其余次要装饰、背景细节与陪衬元素一律省略，画面留白占比不低于60%。\n\n第一层保留原始照片的主体结构、人物真实互动关系与姿态、真实质感、自然光影与原有色彩氛围，仅进行轻微高级摄影调色，呈现杂志摄影质感，不改变人物关系与构图逻辑，并可在不改变人物关系与构图逻辑的前提下自然扩展天空、地面或环境背景，使整体更具空间感与叙事感。\n\n第二层为青花瓷绘风格：借鉴青花瓷绘画技法，以钴蓝色线条与晕染在米白底上表现人物与场景，呈现瓷器纹样的疏朗雅致感。色彩以钴蓝与米白为主的单色系。避免蓝色浓淡层次过多显杂，避免图案化装饰堆砌。\n\n第三层为敦煌壁画风格：借鉴敦煌壁画矿物重彩质感，表现古朴斑驳的美感，需简化线条与色块。背景为土黄或赭石底色，带斑驳壁画肌理感。色彩以赭石、石青、朱砂、土黄为主。避免裂纹肌理过多堆砌，避免复杂纹样装饰。\n\n第四层为刺绣锦缎风格：以刺绣针脚肌理表现人物与场景轮廓，呈现丝缎光泽与针线纹理感，图案需极简概括。背景为米白或浅灰缎面底色。色彩以2至3种柔和色搭配金线点缀。避免针脚过密显繁琐，避免金线过多显浮夸。\n\n每一层需将主体与场景统一转换为对应风格，整体表达极度克制与简化，只保留最核心的一个主体符号及其基本轮廓关系，删除一切非必要的背景元素、装饰细节与陪衬物；人物之间的关键位置关系、互动方向与姿态特征需保留，但应抽象为可识别的轮廓关系，做到“元素越少、关系越清晰”。色彩均从原图中提取归纳，每层严格控制在2-4种主色以内。四个区域的高度比例须严格保持1:1:1:1（各占25%），不可出现拼接错位或比例偏差。整体避免朋克/赛博朋克风格、写实照片质感强行叠加、卡通风格、3D渲染感、商业海报感、复杂背景堆砌、元素过多或画面拥挤、相邻两层风格雷同，以及任何文字、Logo、水印或标题。",
+    "Tweet Url": "https://x.com/zhidawang219555/status/2090310144190218272",
+    "TweetCreatedDate": "2026-08-20T05:29:09.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQJFwTSaEAAYerS.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Image Prompt",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQJFwTSaEAAYerS.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQJF8gjbwAAezR0.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "id": "2090274693601480772",
+      "url": "https://x.com/zhidawang219555/status/2090274693601480772",
+      "author": "DAAI",
+      "handle": "zhidawang219555",
+      "text": "🧐继续探索4拼风格 🌟原图→木刻版画→ 撕纸拼贴 → 蓝晒氰版🌟 #gptimage2 #prompt 请将我上传的照片制作成一张竖版拼图海报，整体采用 3:4 竖版构图。画面从上到下严格四等分为四个横向区域，每个区域的高度必须精确控制为整体画面高度的25%（四层比例严格为1:1:1:1，不允许出现比例偏差），区域之间无缝衔接，不设分隔线、不留间隙，顺序为：原图→风格1→风格2→风格3。由于每层为约3:1的极扁宽幅比例，各层主体建议横向居中排布，强调左右开阔留白与呼吸感，避免元素纵向拉伸变形或贴边拥挤。四层在人物站位、场景结构、视线方向上保持连贯呼应，呈现同一画面、四种转译的整体感。风格",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQIk1JKbMAAlVtN.jpg?name=orig"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "8 REPLIES · 25 REPOSTS · 115 LIKES · 121 BOOKMARKS · 56344 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 10,
+      "observedDatetime": "2026-08-20T05:29:09.000Z"
+    }
+  },
+  {
+    "TweetID": "2090291510545903803",
+    "TwitterUserID": "1504293487222558724",
+    "UserScreenName": "sanyuanVC",
+    "UserProfileName": "园长｜YuanMan",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2016349626530725888/2HWP0q2h_200x200.jpg",
+    "TweetText": "下面请欣赏，七夕摄影大赛第一名：\n\n《跌落凡间（房间）的天使》",
+    "Tweet Url": "https://x.com/sanyuanVC/status/2090291510545903803",
+    "TweetCreatedDate": "2026-08-20T04:15:06.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQI0drEbQAAZFjG.jpg?name=orig",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090290892708225024/vid/avc1/720x1280/8oshuOtgEWHmCDKH.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人收藏偏好",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQI0drEbQAAZFjG.jpg?name=orig"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090290892708225024/vid/avc1/720x1280/8oshuOtgEWHmCDKH.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090290892708225024/img/lxjO-DLiXlHuFXbt.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQI0hFabIAAkCXK.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "719 REPLIES · 59 REPOSTS · 1380 LIKES · 597 BOOKMARKS · 680908 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 12,
+      "observedDatetime": "2026-08-20T04:15:06.000Z"
+    }
+  },
+  {
+    "TweetID": "2090288159984898097",
+    "TwitterUserID": "1704894035767484416",
+    "UserScreenName": "s1dashu",
+    "UserProfileName": "sida",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2048847807482896384/Xw26XdlC_200x200.jpg",
+    "TweetText": "没想到 ip-as-logo-skill 发布后这么火。这两天我一直在测试和修补问题：\n\n1. Codex ImageGen 容易因为「logo」一词生成透明背景，现已调整提示词，透明图比例明显降低。\n2. 少数图片曾出现边缘残缺，主要是透明背景生成导致的；调整后已很少出现。\n3. 很多 Agent 没有生图能力，目前 Codex、豆包、Workbuddy、Coze、Youmind 等支持较好。Claude Code  等 Agent 可能会尝试 SVG 绘制，效果不理想，这个问题暂时无法解决。\n\n不过，对于没有 Codex 等 Agent 的用户，可以试试我新开发的这个网站：\nhttps://ipaslogo.com/\n\n我把我这两天测试过程中生成的三千多张 Logo 全部挂上去了。感谢赛博菩萨 Cloudflare 的 R2，让我几乎零成本host 几千张图~\n\n这个网站没有任何收费服务，所有图片直接免费下载，全部可商业，无附加条款。随便下～\n\nSkill 也已经更新最新版本，昨天体验不好的可以再试试：https://github.com/s1dashu/ip-as-logo-skill",
+    "Tweet Url": "https://x.com/s1dashu/status/2090288159984898097",
+    "TweetCreatedDate": "2026-08-20T04:01:47.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQIx9ErbYAIuOR8.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Skill Product",
+      "Image",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQIx9ErbYAIuOR8.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "IP as Logo Skill",
+      "url": "https://ipaslogo.com/",
+      "preview": "Browse and download free mascot logos made with IP as Logo Skill.",
+      "cover": ""
+    },
+    "_metrics": "43 REPLIES · 76 REPOSTS · 790 LIKES · 909 BOOKMARKS · 47000 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-20T04:01:47.000Z"
+    }
+  },
+  {
+    "TweetID": "2090284190172647460",
+    "TwitterUserID": "1664115584236425220",
+    "UserScreenName": "VibeEverything",
+    "UserProfileName": "LOOPY",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2053897145498161152/21sjtifJ_200x200.jpg",
+    "TweetText": "인용글 영상 XAZINGA라는 크리에이터분 작품인데\n작업물 아카이브 사이트도 직접 운영 중이심\n\n영상에 쓴 프롬프트들이 공개돼 있고\n프롬프트 번역, 캐릭터 시트 생성,\n제미나이 워터마크 제거 기능까지 있음!\n\n워터마크 제거 방법은 영상 후반부에 나와요",
+    "Tweet Url": "https://x.com/VibeEverything/status/2090284190172647460",
+    "TweetCreatedDate": "2026-08-20T03:46:01.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090282573629161472/img/bnbLDD-v2O2Ig9k5.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090282573629161472/vid/avc1/1592x1080/kY-MNsz-6m8DTrLW.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Video",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090282573629161472/vid/avc1/1592x1080/kY-MNsz-6m8DTrLW.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090282573629161472/img/bnbLDD-v2O2Ig9k5.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": {
+      "id": "2090010477745299650",
+      "url": "https://x.com/hmmmmmm1458/status/2090010477745299650",
+      "author": "H",
+      "handle": "hmmmmmm1458",
+      "text": "헐 내가 본 AI영상중에 너무 슬프고 역대급이야.. 자신의 아이가 좀비가 됐어.. 도망가는중 내 아이가 넘어지면 어떡할거야?? 😭😭😭😭 진짜 영상 만들거면 이정도 기획은 해야하나봐",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2090010407855648768/vid/avc1/1104x734/Hby_VACWsC1aTCTf.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2090010407855648768/img/GL8HRxSeWGmolRn5.jpg"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "20 REPLIES · 31 REPOSTS · 147 LIKES · 196 BOOKMARKS · 91835 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 15,
+      "observedDatetime": "2026-08-20T03:46:01.000Z"
+    }
+  },
+  {
+    "TweetID": "2090278674943914377",
+    "TwitterUserID": "854722070101360641",
+    "UserScreenName": "ZaynHao",
+    "UserProfileName": "Zayn Hao",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1490844347721342981/_vcCNxRm_200x200.jpg",
+    "TweetText": "还好把它给修复了。",
+    "Tweet Url": "https://x.com/ZaynHao/status/2090278674943914377",
+    "TweetCreatedDate": "2026-08-20T03:24:06.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQIpQxdbAAAHq4L.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "System UI",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQIpQxdbAAAHq4L.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "id": "2090271431909347477",
+      "url": "https://x.com/ZaynHao/status/2090271431909347477",
+      "author": "Zayn Hao",
+      "handle": "ZaynHao",
+      "text": "macOS 都到 27 了。这个原生日期选择器的 UI 就舍不得更新一下... 哪怕更新成和 iOS 一模一样的都行。",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQIip0Aa0AAgNOH.png?name=orig"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "29 REPLIES · 1 REPOSTS · 28 LIKES · 21 BOOKMARKS · 14606 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 5,
+      "observedDatetime": "2026-08-20T03:24:06.000Z"
+    }
+  },
+  {
+    "TweetID": "2090273732308931035",
+    "TwitterUserID": "1239771839464783872",
+    "UserScreenName": "LinearUncle",
+    "UserProfileName": "LinearUncle",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1906323582759874560/6Elwf5WN_200x200.jpg",
+    "TweetText": "多花 10-20% 心思在 UI 上，就是在这个 AI slop 满天飞的时代最大的竞争优势！\n\n太给力了，Together AI 的大神哈桑分享了他是如何用 agents 设计优美 UI 的：\n\n他做了个叫 /Hallmark 的 design skill（25.8k star），把所有 AI slop 套路都列成\"别这么干\"的规则喂给模型，效果很好！\n\n其他心得：\n1. 摸清\"AI 套路\"才能让 agent 避开\n2. 最重要：给 agent 喂参考图和截图\n3. 提示词越长越具体越好\n4. 用便宜小模型迭代——GLM 5.2 效果跟 Opus 几乎分不出来，但是速度快很多\n\nhttps://github.com/nutlope/hallmark",
+    "Tweet Url": "https://x.com/LinearUncle/status/2090273732308931035",
+    "TweetCreatedDate": "2026-08-20T03:04:27.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQIkR-5aUAAR9TQ.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI UI Quality",
+      "Image",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQIkR-5aUAAR9TQ.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQIkrtsaIAEbzto.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "id": "2089899624551092468",
+      "url": "https://x.com/nutlope/status/2089899624551092468",
+      "author": "Hassan",
+      "handle": "nutlope",
+      "text": "Stop letting your agents ship ugly UIs. In this talk, I break down everything I know about how to make AI apps with great designs:",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2089897615177453570/vid/avc1/1920x1080/bbJnH_S3y6mwxe8k.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2089897615177453570/img/arTP9bNlI42b9Xv5.jpg"
+        }
+      ]
+    },
+    "_article": {
+      "kind": "external",
+      "title": "GitHub - Nutlope/hallmark: Anti-AI-slop design skill for Claude Code, Cursor, and Codex. · GitHub",
+      "url": "https://github.com/nutlope/hallmark",
+      "preview": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex. - Nutlope/hallmark",
+      "cover": ""
+    },
+    "_metrics": "21 REPLIES · 62 REPOSTS · 375 LIKES · 686 BOOKMARKS · 66397 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 15,
+      "observedDatetime": "2026-08-20T03:04:27.000Z"
+    }
+  },
+  {
+    "TweetID": "2090263283320443045",
+    "TwitterUserID": "1879711867205222400",
+    "UserScreenName": "ricouii",
+    "UserProfileName": "RicoUI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1890332571105693696/PUB5_Lvj_200x200.jpg",
+    "TweetText": "Snapcn 这个 Remotion 视频方案比 Skills 稳定多了\n\n简单的说就是视频模板，不过是用代码实现精准的动效动画，然后渲染视频。 现在把素材库抽离出来，方便直接更换素材，简单但效果稳定。\n\nhttps://github.com/snapcndev/snapcn\n\n目前内置 22个视频模板，侧重产品演示，有非常大的扩展空间，我先 fork 过来二开！",
+    "Tweet Url": "https://x.com/ricouii/status/2090263283320443045",
+    "TweetCreatedDate": "2026-08-20T02:22:56.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090262500390649856/img/syKKNvMXCIxBXSM7.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090262500390649856/vid/avc1/1152x720/biceOHs15hvareSQ.mp4?tag=14",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Code Video",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090262500390649856/vid/avc1/1152x720/biceOHs15hvareSQ.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090262500390649856/img/syKKNvMXCIxBXSM7.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "GitHub - snapcndev/snapcn: A shadcn registry of Remotion components for product demo videos. Install a text reveal, device frame, terminal session, logo sting or a whole scene with",
+      "url": "https://github.com/snapcndev/snapcn",
+      "preview": "A shadcn registry of Remotion components for product demo videos. Install a text reveal, device frame, terminal session, logo sting or a whole scene with a command. - snapcndev/snapcn",
+      "cover": ""
+    },
+    "_metrics": "0 REPLIES · 12 REPOSTS · 134 LIKES · 248 BOOKMARKS · 8566 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-20T02:22:56.000Z"
+    }
+  },
+  {
+    "TweetID": "2090258296171266449",
+    "TwitterUserID": "1817140974965194752",
+    "UserScreenName": "dddanielwang",
+    "UserProfileName": "DanielW",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2073318766696644608/CYqZ2Yc7_200x200.jpg",
+    "TweetText": "对departure mono这种像素复古风格完全没有抵抗力\n\n进入字体官网几秒钟就让AI给我个人网站还上了\n\n还问了一下AI，这种风格叫 lo-fi，全称是 low fidelity，意思是低保真的，故意体现粗糙和不完美",
+    "Tweet Url": "https://x.com/dddanielwang/status/2090258296171266449",
+    "TweetCreatedDate": "2026-08-20T02:03:07.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQIW0YxaAAAoXZT.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Typography",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQIW0YxaAAAoXZT.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQIW1hYa0AAdEjB.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "3 REPLIES · 3 REPOSTS · 47 LIKES · 45 BOOKMARKS · 2751 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-20T02:03:07.000Z"
+    }
+  },
+  {
+    "TweetID": "2090224778980532481",
+    "TwitterUserID": "431617343",
+    "UserScreenName": "berryxia",
+    "UserProfileName": "Berryxia.AI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2016043556964605952/Tqi9KA2r_200x200.jpg",
+    "TweetText": "卧槽，这个小语音模型看着真不错啊！Superwhisper放出了自己的第一个开源权重模型S1-mini。\n\n只有0.6B参数，专门在设备端处理语音转写文本，完全本地运行。\n\n配合他们的离线语音转文字应用，数据不离开你的电脑或手机。\n\n小模型、专场景、端侧推理，继续把隐私和实用性放在一起。对注重本地处理的用户来说，又多了一个可直接用的选择。\n\n地址见下面👇",
+    "Tweet Url": "https://x.com/berryxia/status/2090224778980532481",
+    "TweetCreatedDate": "2026-08-19T23:49:56.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQH4WofWcAAySDv.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "On-device Voice",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQH4WofWcAAySDv.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "id": "2090114882272141760",
+      "url": "https://x.com/superwhisper/status/2090114882272141760",
+      "author": "superwhisper",
+      "handle": "superwhisper",
+      "text": "Introducing S1-mini ✨ Our first open-weights language model. A 0.6B parameter model that processes transcripts entirely on your device. Try it in app today.",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQGTxRQWAAAPh39.jpg?name=orig"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "26 REPLIES · 28 REPOSTS · 153 LIKES · 214 BOOKMARKS · 18950 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 5,
+      "observedDatetime": "2026-08-19T23:49:56.000Z"
+    }
+  },
+  {
+    "TweetID": "2090216408462274889",
+    "TwitterUserID": "1217632293747142656",
+    "UserScreenName": "nett0eth",
+    "UserProfileName": "Nett0",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2079685694536941568/Yc3ShFNe_200x200.jpg",
+    "TweetText": "série de cartazes editoriais brutalist:\n\nGPT Image 2.0\n\nprompt completo no primeiro comentário",
+    "Tweet Url": "https://x.com/nett0eth/status/2090216408462274889",
+    "TweetCreatedDate": "2026-08-19T23:16:40.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQHwvMjXAAAUxRW.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Editorial Poster",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQHwvMjXAAAUxRW.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQHwvMjXIAAuz8m.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQHwvMpXsAAJw2A.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 0 REPOSTS · 19 LIKES · 26 BOOKMARKS · 1061 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 5,
+      "observedDatetime": "2026-08-19T23:16:40.000Z"
+    }
+  },
+  {
+    "TweetID": "2090197024490533215",
+    "TwitterUserID": "1749593931287851010",
+    "UserScreenName": "toolfolio",
+    "UserProfileName": "Toolfolio",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2078162572579065856/z4UaHq-Z_200x200.jpg",
+    "TweetText": "Must have bookmarked for Designers\n\nTools You Need to Know - (Day 299)",
+    "Tweet Url": "https://x.com/toolfolio/status/2090197024490533215",
+    "TweetCreatedDate": "2026-08-19T21:59:39.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090196773608251392/img/pWaXYq-xg2hpLx4V.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090196773608251392/vid/avc1/3840x2016/tyH9MAtVxh_8RpeC.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design Tools",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090196773608251392/vid/avc1/3840x2016/tyH9MAtVxh_8RpeC.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090196773608251392/img/pWaXYq-xg2hpLx4V.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "6 REPLIES · 4 REPOSTS · 125 LIKES · 166 BOOKMARKS · 8781 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 5,
+      "observedDatetime": "2026-08-19T21:59:39.000Z"
+    }
+  },
+  {
+    "TweetID": "2090171747668799618",
+    "TwitterUserID": "93867085",
+    "UserScreenName": "mikesmith187",
+    "UserProfileName": "Mike Smith",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1544323457562906625/5G1a50xJ_200x200.jpg",
+    "TweetText": "🗓️ NEW WORK FOR @Calendly 🗓️\n\nBack when we first started S&D one of the most needless hassles that drove me crazy was the email tennis of scheduling a meeting. A few years ago, we started using Calendly, and it was infinitely better. So when they asked us to work on their brand it felt like karma.\n\nIt's so rare that you get to work on an identity for something that actually changed your business. So we knew we had to do it right.\n\nRead the full case study here\n↓\nhttps://smith-diction.medium.com/branding-calendly-d86116281a52?sharedUserId=smith-diction\n\nSpecial thanks to my whole team at @Smith_Diction who constantly inspire me every day and to @gavinpotenza, @liz__meyer, @studiojud, @j3rks_inc, and @JustinLawes for hopping in with us on this one. Literally couldnt have done it without you.",
+    "Tweet Url": "https://x.com/mikesmith187/status/2090171747668799618",
+    "TweetCreatedDate": "2026-08-19T20:19:12.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQHDhymXoAEhyuV.jpg?name=orig",
+    "MediaVideoUrl": "https://video.twimg.com/tweet_video/HQHDhywWoAAuAhf.mp4",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Brand Case",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/tweet_video/HQHDhywWoAAuAhf.mp4",
+        "poster": "https://pbs.twimg.com/tweet_video_thumb/HQHDhywWoAAuAhf.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQHDhymXoAEhyuV.jpg?name=orig"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/tweet_video/HQHHmfGXYAALtfl.mp4",
+        "poster": "https://pbs.twimg.com/tweet_video_thumb/HQHHmfGXYAALtfl.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/tweet_video/HQHHotMXoAAk1ON.mp4",
+        "poster": "https://pbs.twimg.com/tweet_video_thumb/HQHHotMXoAAk1ON.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "",
+      "url": "https://smith-diction.medium.com/branding-calendly-d86116281a52?sharedUserId=smith-diction",
+      "preview": "",
+      "cover": ""
+    },
+    "_metrics": "230 REPLIES · 179 REPOSTS · 3049 LIKES · 1600 BOOKMARKS · 386212 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 15,
+      "observedDatetime": "2026-08-19T20:19:12.000Z"
+    }
+  },
   {
     "TweetID": "2090142857932013838",
     "TwitterUserID": "1560666650986237953",
@@ -42,6 +1566,45 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2090119145647976806",
+    "TwitterUserID": "1238402549838987265",
+    "UserScreenName": "adrianinmotion",
+    "UserProfileName": "Adrian",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2037100070164959232/vTLhyS1v_200x200.jpg",
+    "TweetText": "With the recent video made by ordinary folk for Harvey and the praise it received for its visual style, I thought I'd share some snippets of previous videos made for @Medium",
+    "Tweet Url": "https://x.com/adrianinmotion/status/2090119145647976806",
+    "TweetCreatedDate": "2026-08-19T16:50:11.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090118895738789888/img/3zfCP5gNQRZocM2O.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090118895738789888/vid/avc1/1920x1080/Ydpma6WD2G3qBK6R.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Motion Direction",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090118895738789888/vid/avc1/1920x1080/Ydpma6WD2G3qBK6R.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090118895738789888/img/3zfCP5gNQRZocM2O.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "18 REPLIES · 12 REPOSTS · 509 LIKES · 346 BOOKMARKS · 11286 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 12,
+      "observedDatetime": "2026-08-19T16:50:11.000Z"
+    }
+  },
+  {
     "TweetID": "2090118053354684808",
     "TwitterUserID": "1658494035307134978",
     "UserScreenName": "FarzadGodarz",
@@ -78,6 +1641,43 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/i/history/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-19T16:45:51.000Z"
+    }
+  },
+  {
+    "TweetID": "2090113322255622509",
+    "TwitterUserID": "1332370121071816706",
+    "UserScreenName": "_heyrico",
+    "UserProfileName": "rico",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2058377902014812160/9QBWe5nI_200x200.jpg",
+    "TweetText": "Micro illustrations to make product design look crispy 🤌",
+    "Tweet Url": "https://x.com/_heyrico/status/2090113322255622509",
+    "TweetCreatedDate": "2026-08-19T16:27:03.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQGS_KebEAMVVA2.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Micro Illustration",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQGS_KebEAMVVA2.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "22 REPLIES · 11 REPOSTS · 429 LIKES · 222 BOOKMARKS · 14335 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 5,
+      "observedDatetime": "2026-08-19T16:27:03.000Z"
     }
   },
   {
@@ -156,6 +1756,219 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/i/history/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-19T16:01:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2090106334201225285",
+    "TwitterUserID": "1595792880576401408",
+    "UserScreenName": "Sikandar_Bhide",
+    "UserProfileName": "{Bhide}.Svelte",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1734257897247514625/IaW4s_ba_200x200.jpg",
+    "TweetText": "wtf this is Crazyyy\n\nhttps://sv-animations.vercel.app\nhttps://sv-table.vercel.app\nhttps://sv-blocks.vercel.app\nhttps://sv-efferd.pages.dev\nhttps://sv-matrix.vercel.app\nhttps://sv-particles.vercel.app\nhttps://sv-agentation.com",
+    "Tweet Url": "https://x.com/Sikandar_Bhide/status/2090106334201225285",
+    "TweetCreatedDate": "2026-08-19T15:59:17.000Z",
+    "MediaType": "",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Frontend Motion",
+      "Link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Svelte Animations Components",
+      "url": "https://sv-animations.vercel.app/",
+      "preview": "50+ free and open-source animated components and effects. Built with Svelte 5, Typescript, Tailwind CSS, and Motion SV.",
+      "cover": ""
+    },
+    "_metrics": "61 REPLIES · 396 REPOSTS · 4218 LIKES · 10528 BOOKMARKS · 499127 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 15,
+      "observedDatetime": "2026-08-19T15:59:17.000Z"
+    }
+  },
+  {
+    "TweetID": "2090083867281482190",
+    "TwitterUserID": "1499051022295179268",
+    "UserScreenName": "dqnamo",
+    "UserProfileName": "JP",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2085680253515534336/6B_q7Fzp_200x200.jpg",
+    "TweetText": "Experimenting with paper burn effects using threejs 🔥",
+    "Tweet Url": "https://x.com/dqnamo/status/2090083867281482190",
+    "TweetCreatedDate": "2026-08-19T14:30:00.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090069129113792512/img/N9eHIwZyL4Pgmotv.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090069129113792512/vid/avc1/3840x2160/EXAQGlxCsdrlqXvk.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "WebGL",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090069129113792512/vid/avc1/3840x2160/EXAQGlxCsdrlqXvk.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090069129113792512/img/N9eHIwZyL4Pgmotv.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "9 REPLIES · 2 REPOSTS · 199 LIKES · 112 BOOKMARKS · 4961 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 5,
+      "observedDatetime": "2026-08-19T14:30:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2090080846237884576",
+    "TwitterUserID": "818265445165895680",
+    "UserScreenName": "TylerJBeauchamp",
+    "UserProfileName": "Tyler Beauchamp",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1851359181623967744/dFkHuqQR_200x200.jpg",
+    "TweetText": "fun little particle experiment, built with codex 🤗\n\nplay with it here: https://particles.tylerbeauchamp.net",
+    "Tweet Url": "https://x.com/TylerJBeauchamp/status/2090080846237884576",
+    "TweetCreatedDate": "2026-08-19T14:18:00.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090080644449890304/img/X4HWUmIwJ2-uWjfR.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090080644449890304/vid/avc1/3592x2160/7LkuIbWBR_LFEdtD.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Codex",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090080644449890304/vid/avc1/3592x2160/7LkuIbWBR_LFEdtD.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090080644449890304/img/X4HWUmIwJ2-uWjfR.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Particles",
+      "url": "https://particles.tylerbeauchamp.net/",
+      "preview": "A tiny image playground where photographs dissolve into thousands of particles.",
+      "cover": ""
+    },
+    "_metrics": "10 REPLIES · 11 REPOSTS · 236 LIKES · 186 BOOKMARKS · 9788 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 4,
+      "observedDatetime": "2026-08-19T14:18:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2090073799790371129",
+    "TwitterUserID": "1969758674559381505",
+    "UserScreenName": "369Serena",
+    "UserProfileName": "Serena 木瓜",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2014165849188495360/r8DM6qHC_200x200.jpg",
+    "TweetText": "呜呜呜，这个提示词太好看了！\n\n我要拿着这个杀回小红书",
+    "Tweet Url": "https://x.com/369Serena/status/2090073799790371129",
+    "TweetCreatedDate": "2026-08-19T13:50:00.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQFmLIcXUAAiuvs.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Image Prompt",
+      "Image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQFmLIcXUAAiuvs.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "id": "2089960426624758079",
+      "url": "https://x.com/AdrianPunk115/status/2089960426624758079",
+      "author": "Adrian Punk",
+      "handle": "AdrianPunk115",
+      "text": "https://x.com/i/article/2089686612363845632",
+      "media": []
+    },
+    "_article": null,
+    "_metrics": "52 REPLIES · 129 REPOSTS · 746 LIKES · 699 BOOKMARKS · 82284 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 5,
+      "observedDatetime": "2026-08-19T13:50:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2090048814665122172",
+    "TwitterUserID": "24910558",
+    "UserScreenName": "greensock",
+    "UserProfileName": "GSAP",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1713633504431394816/h28jJ1qM_200x200.jpg",
+    "TweetText": "🏆 Site of the Week - Gionatan Nese '26\n\n @YousufSoomroDev, @gionatannese \n\n⚙️ ScrollTrigger, SplitText, Text, CustomEase, useGSAP\n🛠️ Three.js, React, Web GL\n\nsite → https://gionatannese.com/\nshowcase → https://gsap.com/showcase",
+    "Tweet Url": "https://x.com/greensock/status/2090048814665122172",
+    "TweetCreatedDate": "2026-08-19T12:10:43.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090048775175737344/img/v6f1KUEL87HOHZcA.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090048775175737344/vid/avc1/1720x1080/4KM9QC34T0DIpUqU.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Frontend Motion",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090048775175737344/vid/avc1/1720x1080/4KM9QC34T0DIpUqU.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090048775175737344/img/v6f1KUEL87HOHZcA.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Gionatan Nese — Multi-Disciplinary Designer",
+      "url": "https://www.gionatannese.com/",
+      "preview": "Multi-disciplinary designer based in Italy. Gionatan Nese crafts websites, brand identities, and visual experiences that leave an impression.",
+      "cover": ""
+    },
+    "_metrics": "1 REPLIES · 8 REPOSTS · 114 LIKES · 55 BOOKMARKS · 4056 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 12,
+      "observedDatetime": "2026-08-19T12:10:43.000Z"
     }
   },
   {
@@ -278,6 +2091,52 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2089999006227218657",
+    "TwitterUserID": "1820349356584710144",
+    "UserScreenName": "ancaguiux",
+    "UserProfileName": "Anca-Gabriela 🦋",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2052294754491088896/vfwA6_TX_200x200.jpg",
+    "TweetText": "Just wanted to share this website. So much amazing footer inspiration 👀\n\nhttps://www.footer.design/",
+    "Tweet Url": "https://x.com/ancaguiux/status/2089999006227218657",
+    "TweetCreatedDate": "2026-08-19T08:52:48.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089998938296160256/img/QKU6aedGSaUD3zf0.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2089998938296160256/vid/avc1/1440x1080/F7haHRZdaYV3nC92.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Web Pattern",
+      "Video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089998938296160256/vid/avc1/1440x1080/F7haHRZdaYV3nC92.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089998938296160256/img/QKU6aedGSaUD3zf0.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Footer — The only footer gallery on earth.",
+      "url": "https://www.footer.design/",
+      "preview": "Footer is a curated gallery of the top website footer inspiration on earth. Find the footers you need and sort by type and style.",
+      "cover": ""
+    },
+    "_metrics": "16 REPLIES · 5 REPOSTS · 127 LIKES · 106 BOOKMARKS · 5041 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 16,
+      "observedDatetime": "2026-08-19T08:52:48.000Z"
+    }
+  },
+  {
     "TweetID": "2089984794671063068",
     "TwitterUserID": "2085700573148413952",
     "UserScreenName": "uidotcamera",
@@ -315,6 +2174,44 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/i/history/likes",
       "observedStep": 3,
       "observedDatetime": "2026-08-19T07:56:19.000Z"
+    }
+  },
+  {
+    "TweetID": "2089972695643639869",
+    "TwitterUserID": "991319283786395650",
+    "UserScreenName": "0xLogicrw",
+    "UserProfileName": "思维怪怪",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2083261639135244288/KoOQO6zp_200x200.jpg",
+    "TweetText": "智谱联合创始人唐杰发长文复盘 Scaling Law。\n\n过去几年，大模型一发布，大家最爱问「多少参数」。但在唐杰看来，参数早已不能单独解释模型能力。数据有多少、算力花在哪、模型最终怎么用，同样重要。\n\n行业已经为此走过一次弯路。2020 年，Kaplan 等人的 Scaling Law 认为，算力增加后，参数应该比训练数据增长得更快。GPT-3、Gopher、MT-NLG 都沿着这个方向越做越大，行业一路冲向万亿参数。\n\n两年后的 Chinchilla 改写了这个结论。很多大模型做得太大，训练数据却没跟上。与其继续堆参数，不如拿更多算力把模型训得更充分。算力规模越大，这种失衡还会越严重。唐杰回头看，那轮万亿参数竞赛，是整个行业一起走过、后来又掉头的弯路。\n\n但 Chinchilla 算的还只是训练这笔账。现在模型上线后会被反复调用，长期来看，推理成本可能比训练更重要。把推理成本也算进去，最优解又变了。模型未必要做得特别大，可以缩小参数，再用更多数据训练更久。后来 Llama-2-7B、Gemma-2-9B 等模型，已经在往这个方向走。\n\n再往后，MoE 又把问题变复杂了。总参数更多，通常意味着能装下更多知识；每次真正参与计算的参数有多少、计算走多深，则更影响推理能力。两者不是一回事。到 2025 年，新的研究进一步发现，不同任务连最合适的 Scaling 方法都不同。记忆更吃参数，推理更吃数据；在 MoE 里，一味增加总参数甚至可能拖累推理，让更多专家参与计算反而更有效。\n\n漏洞挖掘就是个很好的例子。发现新漏洞，不是多背几条 CVE 就够了。难的是把二十步推理一路走到底，中间不能断。这样的能力更依赖计算深度和训练方式，单纯增加总参数未必有用。\n\nGLM-5.3 就是在这个思路下做出来的。它和 GLM-5.2 用同一个基座、同一套架构，总参数和激活参数都没变。团队又花了一个月扩大长程任务环境和强化学习，能力依然明显提升。这一次加的是后训练，因为这里还有最大的余量。\n\n但下一次未必还是后训练。Scaling 远没有结束。参数、预训练数据、单次计算、后训练，都还有空间。它们不必一起往上加，上一代最值得加的东西，下一代未必还是它。\n\n大模型下一轮竞争，比的可能不再是谁的参数最多，而是谁更知道算力该花在哪。",
+    "Tweet Url": "https://x.com/0xLogicrw/status/2089972695643639869",
+    "TweetCreatedDate": "2026-08-19T07:08:15.000Z",
+    "MediaType": "",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Strategy"
+    ],
+    "_media": [],
+    "_quote": {
+      "id": "2089941544581403107",
+      "url": "https://x.com/jietang/status/2089941544581403107",
+      "author": "jietang",
+      "handle": "jietang",
+      "text": "Thoughts About Scaling Law Scaling, but not only of parameters. Every model release now ends with the same question: how many parameters? It isn't a question that can be answered on its own. Parameter count is only meaningful alongside three others — how much data you have, where you intend to spend",
+      "media": []
+    },
+    "_article": null,
+    "_metrics": "49 REPLIES · 10 REPOSTS · 58 LIKES · 26 BOOKMARKS · 73316 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-19T07:08:15.000Z"
     }
   },
   {
@@ -700,6 +2597,45 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/i/history/likes",
       "observedStep": 1,
       "observedDatetime": "2026-08-18T21:39:56.000Z"
+    }
+  },
+  {
+    "TweetID": "2089824030677172313",
+    "TwitterUserID": "1896503246329368576",
+    "UserScreenName": "rndr_realm",
+    "UserProfileName": "Rndr Realm",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1898108050281467904/SBHWlKmt_200x200.jpg",
+    "TweetText": "Sidebar exploration with a splash💧\n🔊🔛",
+    "Tweet Url": "https://x.com/rndr_realm/status/2089824030677172313",
+    "TweetCreatedDate": "2026-08-18T21:17:30.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089822542127087616/img/HJWVrrf1cvAkoJWX.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2089822542127087616/vid/avc1/3840x2156/H0hNgjRN7YXDKOBF.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Sidebar Motion",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089822542127087616/vid/avc1/3840x2156/H0hNgjRN7YXDKOBF.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089822542127087616/img/HJWVrrf1cvAkoJWX.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 17 REPOSTS · 100 LIKES · 82 BOOKMARKS · 25339 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-18T21:17:30.000Z"
     }
   },
   {
@@ -5078,6 +7014,45 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-11T09:11:20.000Z"
+    }
+  },
+  {
+    "TweetID": "2087011999104557541",
+    "TwitterUserID": "118295767",
+    "UserScreenName": "rachelhxw",
+    "UserProfileName": "Rachel How",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2065219438841049088/tokFEgP5_200x200.jpg",
+    "TweetText": "🌊 'calming glass animation' on @mobbin 🍃",
+    "Tweet Url": "https://x.com/rachelhxw/status/2087011999104557541",
+    "TweetCreatedDate": "2026-08-11T03:03:30.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2087011779293626368/img/pnHiZQBhLFl3-0MX.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2087011779293626368/vid/avc1/2352x1694/ZZXwZxhK7LEC5adl.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Mobbin",
+      "Video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2087011779293626368/vid/avc1/2352x1694/ZZXwZxhK7LEC5adl.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2087011779293626368/img/pnHiZQBhLFl3-0MX.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "4 REPLIES · 3 REPOSTS · 51 LIKES · 15 BOOKMARKS · 2660 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-21T13:07:46+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-11T03:03:30.000Z"
     }
   },
   {
