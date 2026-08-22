@@ -2,6 +2,244 @@
   window.HOME_BACKFILL = [
     {
       "category": "AI PRODUCT",
+      "datetime": "2026-08-22T05:36:13.000Z",
+      "author": "笠山儀孝|salesスキル|webマーケ |WEB制作|AI開発",
+      "handle": "kassarweb41897",
+      "avatar": "https://pbs.twimg.com/profile_images/1717563623965605888/0ZK7FSPS_200x200.jpg",
+      "title": "OpenAI 商品发现把 SEO 推向结构化商品台账",
+      "summary": "日本开发者解读 OpenAI 商品发现：商家需要向 ChatGPT 提供商品信息、价格库存、图片和评价。它值得抓取，因为 AI 搜索优化正在从写文章转向维护可机器读取的商品数据。",
+      "url": "https://x.com/kassarweb41897/status/2091036700541906976",
+      "media": [],
+      "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 8 VIEWS",
+      "links": [
+        "https://openai.com/chatgpt/search-product-discovery/"
+      ],
+      "_analysisTheme": "AI Commerce / Product Discovery",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "OpenAI ChatGPT product discovery page",
+        "url": "https://openai.com/chatgpt/search-product-discovery/",
+        "preview": "Node fetch 返回 403，仅能确认原帖可见的官方 URL；未读取到页面正文。",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI VIDEO",
+      "datetime": "2026-08-22T05:35:44.000Z",
+      "author": "Ur Meer",
+      "handle": "UrMeer289",
+      "avatar": "https://pbs.twimg.com/profile_images/1883904443529191424/S-eujrmk_200x200.jpg",
+      "title": "MiniMax Design 把产品广告从概念推到成片视觉",
+      "summary": "Ur Meer 展示用 MiniMax Design 把手表概念做成商业级广告，包含灯光、motion graphics、VFX 和 hero shot。它适合观察 AI 视频工具在产品广告里的可控性边界。",
+      "url": "https://x.com/UrMeer289/status/2091036577187463187",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091034834349293568/vid/avc1/2560x1440/F9RpEJskcXF0Huec.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091034834349293568/img/i98FkfKV-Vw9-g_f.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "1 REPLIES · 1 REPOSTS · 1 LIKES · 0 BOOKMARKS · 18 VIEWS",
+      "links": [],
+      "_analysisTheme": "AI Video / Product Ad",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "AI MODEL",
+      "datetime": "2026-08-22T05:33:16.000Z",
+      "author": "小朱记 | CHU HUB",
+      "handle": "usleaderlab",
+      "avatar": "https://pbs.twimg.com/profile_images/2090011331571359744/t2qgYE8a_200x200.jpg",
+      "title": "OpenAI 降价信号更利好高频 Agent 产品",
+      "summary": "小朱记指出 GPT-5.6 Sol API/credit 降价对重度 API、Codex 和自动化产品更直接。它值得抓取，因为成本下降会改变 agent 产品的功能边界和默认交互频率。",
+      "url": "https://x.com/usleaderlab/status/2091035957420261448",
+      "media": [],
+      "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 17 VIEWS",
+      "links": [],
+      "_analysisTheme": "Agent Cost / Product Feasibility",
+      "_analysisPriority": "high",
+      "quote": {
+        "id": "2090885187634905500",
+        "url": "https://x.com/OpenAI/status/2090885187634905500",
+        "author": "OpenAI",
+        "handle": "OpenAI",
+        "text": "As we continue to push the frontier of capabilities while improving efficiency, we're dropping API and credit pricing of GPT-5.6 Sol by over 20% for the next 3 months.",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://video.twimg.com/amplify_video/2090884941819285504/vid/avc1/1536x864/9_LuUV_1fc2wFv6Y.mp4?tag=29",
+            "poster": "https://pbs.twimg.com/amplify_video_thumb/2090884941819285504/img/JpIf7VDQGLhawgzB.jpg",
+            "crossOrigin": false
+          }
+        ]
+      }
+    },
+    {
+      "category": "DESIGN TOOL",
+      "datetime": "2026-08-22T05:32:59.000Z",
+      "author": "かねここうた｜金子デザインワークス",
+      "handle": "K2De_sign",
+      "avatar": "https://pbs.twimg.com/profile_images/1917435625227382784/VEwF8AER_200x200.jpg",
+      "title": "Figma Skills 让设计流程也开始沉淀为 Agent 能力",
+      "summary": "金子デザインワークス观察 Figma Community 已出现 50+ Agent Skills，并可把重复设计作业沉淀为 skill。它值得抓取，因为设计团队的工作法会从长 prompt 迁移到可复用流程资产。",
+      "url": "https://x.com/K2De_sign/status/2091035886540722355",
+      "media": [],
+      "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 20 VIEWS",
+      "links": [],
+      "_analysisTheme": "Figma / Agent Skills",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "PRODUCT DESIGN",
+      "datetime": "2026-08-22T05:28:01.000Z",
+      "author": "Abid ✦ AI SaaS Design",
+      "handle": "abid_led_design",
+      "avatar": "https://pbs.twimg.com/profile_images/2077657775644258304/OM0VcBBr_200x200.jpg",
+      "title": "AI 设计工具功能页用问题结构解释 workflow",
+      "summary": "Abid 分析一个 AI design tool feature page：每段回答 generation、responsiveness、variation、systems、collaboration 等问题。它值得抓取，因为这是设计工具官网从炫图转向解释工作流的好案例。",
+      "url": "https://x.com/abid_led_design/status/2091034635203674437",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQTY3Y4bAAAe35p.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQTY5dja0AAPnv1.jpg?name=orig"
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 5 VIEWS",
+      "links": [],
+      "_analysisTheme": "AI SaaS / Feature Page",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "DESIGN TOOL",
+      "datetime": "2026-08-22T04:44:25.000Z",
+      "author": "Máté Rauscher",
+      "handle": "rauschermate",
+      "avatar": "https://pbs.twimg.com/profile_images/1694183046755573760/UuZAiZXE_200x200.jpg",
+      "title": "CSS color-mix 可视化工具辅助设计系统配色",
+      "summary": "Máté Rauscher 做了一个 color-mix 可视化工具，用来理解和生成色阶。它值得抓取，因为它把 CSS 新能力转成设计系统和数据可视化可用的调试界面。",
+      "url": "https://x.com/rauschermate/status/2091023664187900282",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091022110563127296/vid/avc1/1328x1080/ajFvkeWYdCiHfFzp.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091022110563127296/img/vvB3nLIy7ctF9duD.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 9 VIEWS",
+      "links": [],
+      "_analysisTheme": "Design System / Color Tool",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "PRODUCT DESIGN",
+      "datetime": "2026-08-22T03:52:05.000Z",
+      "author": "Baye",
+      "handle": "waylybaye",
+      "avatar": "https://pbs.twimg.com/profile_images/1807439424009175040/F2mBMzcN_200x200.jpg",
+      "title": "DAMA 因隐私打码能力登上 App Store 推荐",
+      "summary": "Baye 记录 DAMA 被 Apple App Store 首页推荐，并引用此前重新设计 onboarding 动画的迭代。它值得抓取，因为小工具增长常来自核心能力、入口解释和系统推荐三者对齐。",
+      "url": "https://x.com/waylybaye/status/2091010495897817562",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQTCcK4bQAA-Jyu.jpg?name=orig"
+        }
+      ],
+      "metrics": "12 REPLIES · 0 REPOSTS · 82 LIKES · 8 BOOKMARKS · 12992 VIEWS",
+      "links": [
+        "https://apps.apple.com/us/app/dama-auto-redact-privacy/id1534690075?ct=website&pt=118260435"
+      ],
+      "_analysisTheme": "Indie App / Onboarding",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "DAMA - Auto Redact Privacy App - App Store",
+        "url": "https://apps.apple.com/us/app/dama-auto-redact-privacy/id1534690075?ct=website&pt=118260435",
+        "preview": "App Store 页面显示 DAMA 是 Photo & Video 类隐私打码工具，主张自动识别人脸、证件、聊天和二维码，检测在 iPhone 本地完成，并有评分与截图证明。",
+        "cover": ""
+      },
+      "quote": {
+        "id": "2086754666386457032",
+        "url": "https://x.com/waylybaye/status/2086754666386457032",
+        "author": "Baye",
+        "handle": "waylybaye",
+        "text": "😂 长按选词打码其实已经有了好几年了，所以我这次特意给 DAMA 重新做了一个新的引导动画。我以后一定要做好 onboarding，默默做了很多功能结果用户都不知道。",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://video.twimg.com/amplify_video/2086752947099373568/vid/avc1/1206x2622/4kGz9GVERu_s7r8y.mp4?tag=29",
+            "poster": "https://pbs.twimg.com/amplify_video_thumb/2086752947099373568/img/BBW2dD_3yPtcFdLE.jpg",
+            "crossOrigin": false
+          }
+        ]
+      }
+    },
+    {
+      "category": "PRODUCT DESIGN",
+      "datetime": "2026-08-22T03:45:59.000Z",
+      "author": "即刻精选",
+      "handle": "jike_collection",
+      "avatar": "https://pbs.twimg.com/profile_images/985403677350346752/tw6tRCVW_200x200.jpg",
+      "title": "叮咚买菜的智能细节适合作为大产品小交互样本",
+      "summary": "即刻精选转发叮咚买菜的智能功能细节。它值得抓取，因为成熟消费应用的小功能经常比新概念更能说明识别、推荐和下单链路如何减少用户判断成本。",
+      "url": "https://x.com/jike_collection/status/2091008960774217748",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQTBkXpbcAAUHhk.jpg?name=orig"
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 1 BOOKMARKS · 1498 VIEWS",
+      "links": [],
+      "_analysisTheme": "Consumer App / Detail UX",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "3D TOOL",
+      "datetime": "2026-08-22T02:58:15.000Z",
+      "author": "AlanWyatt3D",
+      "handle": "Tradigital3D",
+      "avatar": "https://pbs.twimg.com/profile_images/1621231232838246400/kg5JsDZb_200x200.jpg",
+      "title": "Blender 5.3 Light Nodes 把光照反应纳入材质节点",
+      "summary": "AlanWyatt3D 展示 Blender 5.3 Light Nodes：在单个 shader plane 里控制材质如何响应光照。它适合作为设计工程师理解实时材质、PBR UI 和视觉解释工具的实现参考。",
+      "url": "https://x.com/Tradigital3D/status/2090996946513145983",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2090995873836670976/vid/avc1/720x720/ugIXMB2O6n2Uu9cW.mp4?tag=14",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2090995873836670976/img/BZUymHnPP46rYqJl.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "3 REPLIES · 6 REPOSTS · 130 LIKES · 57 BOOKMARKS · 3015 VIEWS",
+      "links": [],
+      "_analysisTheme": "3D Material / Light Nodes",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "PRODUCT DESIGN",
+      "datetime": "2026-08-22T02:13:13.000Z",
+      "author": "Tw93",
+      "handle": "HiTw93",
+      "avatar": "https://pbs.twimg.com/profile_images/1960753219115868169/EOxKSK4w_200x200.jpg",
+      "title": "Tw93 用妙言、Pake、MiaoYan 拆解产品命名方法",
+      "summary": "Tw93 长文从妙言、Pake 等产品命名讲到语义、国际化、发音和持续迭代信心。它值得抓取，因为 AI coding 时代产品越来越多，名字仍是定位、传播和长期维护意愿的第一层界面。",
+      "url": "https://x.com/HiTw93/status/2090985612648341686",
+      "media": [],
+      "metrics": "13 REPLIES · 8 REPOSTS · 108 LIKES · 51 BOOKMARKS · 9386 VIEWS",
+      "links": [],
+      "_analysisTheme": "Product Naming / Indie Product",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "AI PRODUCT",
       "datetime": "2026-08-22T00:00:13.000Z",
       "author": "foursignals",
       "handle": "foursignalsdev",
@@ -258,6 +496,26 @@
       "_analysisPriority": "high"
     },
     {
+      "category": "PRODUCT DESIGN",
+      "datetime": "2026-08-21T22:10:28.000Z",
+      "author": "Fadi Hares",
+      "handle": "fadihares95",
+      "avatar": "https://pbs.twimg.com/profile_images/2075682547602804736/BAA4EeaA_200x200.jpg",
+      "title": "视频 review 工具把评论密度直接编码进时间线",
+      "summary": "Fadi Hares 观察 Drento 视频 review 概念：评论 marker 按真实秒点聚集在 player timeline 上。它值得抓取，因为它把协作上下文从侧栏文字变成可扫读的时间结构。",
+      "url": "https://x.com/fadihares95/status/2090924523101311475",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQR0xf0bwAAs2xO.jpg?name=orig"
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 3 LIKES · 0 BOOKMARKS · 60 VIEWS",
+      "links": [],
+      "_analysisTheme": "Review Tool / Timeline UX",
+      "_analysisPriority": "high"
+    },
+    {
       "category": "AI PRODUCT",
       "datetime": "2026-08-21T21:06:16.000Z",
       "author": "Justin Rands",
@@ -271,6 +529,28 @@
       "links": [],
       "_analysisTheme": "Agent Workflow / Figma Automation",
       "_analysisPriority": "high"
+    },
+    {
+      "category": "AI DESIGN TOOL",
+      "datetime": "2026-08-21T20:59:40.000Z",
+      "author": "weber",
+      "handle": "weberwongwong",
+      "avatar": "https://pbs.twimg.com/profile_images/1641189380714016774/56toQXnG_200x200.jpg",
+      "title": "Krea 2 portrait workflow 展示风格一致的批量变体",
+      "summary": "weber 展示 Krea 2 把一张人像生成 20 个 style-matched variants。它值得抓取，因为个人设计师需要评估 AI 变体工具是否能保持 aesthetic consistency，而不只是生成数量。",
+      "url": "https://x.com/weberwongwong/status/2090906705987068207",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2090898014877454336/vid/avc1/1920x1080/HGGLRH4vfIvGArzB.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2090898014877454336/img/l7qju77SA-61yT4V.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "9 REPLIES · 2 REPOSTS · 55 LIKES · 23 BOOKMARKS · 2276 VIEWS",
+      "links": [],
+      "_analysisTheme": "AI Image / Style Consistency",
+      "_analysisPriority": "medium"
     },
     {
       "category": "AI PRODUCT",
@@ -348,6 +628,35 @@
       }
     },
     {
+      "category": "DEV TOOL",
+      "datetime": "2026-08-21T20:17:35.000Z",
+      "author": "PulseNotch",
+      "handle": "pulsenotch",
+      "avatar": "https://pbs.twimg.com/profile_images/2059415797785628681/ea_jh-JI_200x200.png",
+      "title": "CleanDev 用一键安全清理解决 Mac 开发缓存负债",
+      "summary": "PulseNotch 展示 CleanDev 清理 Xcode DerivedData、simulator、Gradle、npm 等缓存。它值得抓取，因为开发工具的好体验来自把高风险清理动作分级解释清楚，而非只给删除按钮。",
+      "url": "https://x.com/pulsenotch/status/2090896114438316337",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQRZvSObIAAD6gp.jpg?name=orig"
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 4 BOOKMARKS · 6536 VIEWS",
+      "links": [
+        "https://cleandev.cc/?twclid=277spfw84250xntl200fqc6a5e"
+      ],
+      "_analysisTheme": "Developer Utility / Safety UX",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "CleanDev — Reclaim Gigabytes from Your Mac Dev Tools",
+        "url": "https://cleandev.cc/?twclid=277spfw84250xntl200fqc6a5e",
+        "preview": "页面说明它是 macOS 14+ menu bar utility，可清理 Xcode DerivedData、simulator caches、Gradle、npm、Docker 等开发缓存，并强调 free、no account、4 MB、v1.9.0。",
+        "cover": ""
+      }
+    },
+    {
       "category": "DESIGN TOOL",
       "datetime": "2026-08-21T20:06:36.000Z",
       "author": "Irsyad A. Panjaitan",
@@ -415,6 +724,28 @@
     },
     {
       "category": "AI PRODUCT",
+      "datetime": "2026-08-21T19:43:33.000Z",
+      "author": "FLORA ©",
+      "handle": "floraai",
+      "avatar": "https://pbs.twimg.com/profile_images/1892364060458471425/2DyQ8Y0L_200x200.jpg",
+      "title": "FLORA Fashion Studio 支持局部 fabric 和 colorway 替换",
+      "summary": "FLORA 展示在 Fashion Studio 中批量替换服装面料与配色。它值得抓取，因为垂直 AI 创作工具的关键不是生成整张图，而是让用户选择并替换具体部件。",
+      "url": "https://x.com/floraai/status/2090887551825391991",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2090886054475681793/vid/avc1/1080x1350/nE_M211Mydxak5Yx.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2090886054475681793/img/PWq6x895q0sVAOix.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "3 REPLIES · 1 REPOSTS · 14 LIKES · 3 BOOKMARKS · 1228 VIEWS",
+      "links": [],
+      "_analysisTheme": "Fashion AI / Localized Editing",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "AI PRODUCT",
       "datetime": "2026-08-21T19:19:35.000Z",
       "author": "Gemini Notebook",
       "handle": "Gemini_Notebook",
@@ -434,6 +765,28 @@
       "links": [],
       "_analysisTheme": "Knowledge Product / Notebook UX",
       "_analysisPriority": "high"
+    },
+    {
+      "category": "BRAND DESIGN",
+      "datetime": "2026-08-21T18:50:29.000Z",
+      "author": "Offgrid",
+      "handle": "byoffgrid",
+      "avatar": "https://pbs.twimg.com/profile_images/2007773144426102784/ssbS-Crj_200x200.jpg",
+      "title": "Offgrid 发布 Ramp brand refresh 的动态系统样本",
+      "summary": "Offgrid 展示 Ramp 品牌刷新合作成果。它值得抓取，因为金融/企业工具品牌正在用高质量 motion 和系统图形建立可信但不沉闷的产品感。",
+      "url": "https://x.com/byoffgrid/status/2090874195320139869",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2090872572388818944/vid/avc1/3840x2160/NiZgMN1mEGZ4XZtl.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2090872572388818944/img/4NZKDYp-7dXCfAzo.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "2 REPLIES · 1 REPOSTS · 137 LIKES · 91 BOOKMARKS · 18433 VIEWS",
+      "links": [],
+      "_analysisTheme": "Brand System / Motion",
+      "_analysisPriority": "medium"
     },
     {
       "category": "PRODUCT DESIGN",
@@ -500,6 +853,28 @@
       "_analysisPriority": "medium"
     },
     {
+      "category": "DESIGN TOOL",
+      "datetime": "2026-08-21T17:48:59.000Z",
+      "author": "HeroUI",
+      "handle": "hero_ui",
+      "avatar": "https://pbs.twimg.com/profile_images/1987160782765707265/xb07FQe5_200x200.jpg",
+      "title": "HeroUI Native Pro beta 增加表格、轮播与 MorphButton",
+      "summary": "HeroUI Native Pro 1.0.0-beta.10 发布 selectable/sortable Table、snap Carousel、spring MorphButton 和 PhoneNumberField。它值得抓取，因为这些都是移动 UI 组件库里高频但容易做粗糙的复杂控件。",
+      "url": "https://x.com/hero_ui/status/2090858719407968344",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2090858528541937664/vid/avc1/1080x1080/asl3LRzdv-T2mUnJ.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2090858528541937664/img/fQXda75c8FlzNIUE.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "4 REPLIES · 2 REPOSTS · 88 LIKES · 46 BOOKMARKS · 5126 VIEWS",
+      "links": [],
+      "_analysisTheme": "Component Library / Native UI",
+      "_analysisPriority": "high"
+    },
+    {
       "category": "AI PRODUCT",
       "datetime": "2026-08-21T17:23:32.000Z",
       "author": "Claude",
@@ -543,6 +918,65 @@
           {
             "type": "image",
             "src": "https://pbs.twimg.com/media/HQPAp6QbkAEF8x4.jpg?name=orig"
+          }
+        ]
+      }
+    },
+    {
+      "category": "DESIGN TOOL",
+      "datetime": "2026-08-21T16:26:01.000Z",
+      "author": "Axis Wang",
+      "handle": "WangxsNB",
+      "avatar": "https://pbs.twimg.com/profile_images/1921399854007291904/kjUx__5i_200x200.jpg",
+      "title": "Pencil dev 被评价为更适合直出设计图的 design agent",
+      "summary": "Axis Wang 对比泛 skill 和专业 design agent，认为 pencil dev 直出设计图效果更好。它值得抓取，因为设计 agent 的价值需要看是否能真正产出可评审画面，而不是只会组织 prompt。",
+      "url": "https://x.com/WangxsNB/status/2090837841320583304",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQQl7TpbgAAfnQJ.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQQl7tWa4AAa7In.jpg?name=orig"
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 187 VIEWS",
+      "links": [],
+      "_analysisTheme": "Design Agent / Output Quality",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "PRODUCT DESIGN",
+      "datetime": "2026-08-21T16:05:46.000Z",
+      "author": "BunnyLau",
+      "handle": "BunnyxStudio",
+      "avatar": "https://pbs.twimg.com/profile_images/1896040579634774019/Yew8LLPq_200x200.jpg",
+      "title": "iPadOS Magic Keyboard hover effect 是细节体验基线",
+      "summary": "BunnyLau 希望更多 iPadOS 应用支持 Magic Keyboard hover，并引用 SwiftUI 快速实现的 onboarding 细节。它值得抓取，因为移动端外设状态正在成为专业 App 的可访问性和质感标准。",
+      "url": "https://x.com/BunnyxStudio/status/2090832744901378411",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQQhS53b0AAJ6EA.jpg?name=orig"
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 14 LIKES · 5 BOOKMARKS · 1429 VIEWS",
+      "links": [],
+      "_analysisTheme": "iPadOS / Microinteraction",
+      "_analysisPriority": "medium",
+      "quote": {
+        "id": "2090831736813031548",
+        "url": "https://x.com/BunnyxStudio/status/2090831736813031548",
+        "author": "BunnyLau",
+        "handle": "BunnyxStudio",
+        "text": "Even the simplest interactions deserve good onboarding, and I particularly enjoy using SwiftUI for these details, because it is very fast and flexible, making it easy to achieve such effects.",
+        "media": [
+          {
+            "type": "video",
+            "src": "https://video.twimg.com/amplify_video/2090831222171934721/vid/avc1/2816x1940/ky9ErBpViCcArh2X.mp4?tag=29",
+            "poster": "https://pbs.twimg.com/media/HQQf6zoakAAycuS.jpg",
+            "crossOrigin": false
           }
         ]
       }

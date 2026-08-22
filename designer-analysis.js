@@ -1,6 +1,621 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-22",
+    "generatedAt": "2026-08-22T13:42:00+08:00",
+    "batch": "x-ai-design-analysis-2026-08-22-1342",
+    "analysisCount": 21,
+    "homeCount": 18,
+    "likeCount": 3,
+    "linksInspected": 3,
+    "unavailableLinks": 1,
+    "summary": "2026-08-22 午后增量：当天 Home 和 Analysis 已在 08:00 达标，本批继续用登录态 Home/Following/X 搜索观察 1094 条、242 个唯一 Home 候选，追加 18 条高价值 Home；Likes 滚动到 known-ID 边界，发现并写入 3 条 fresh Like；Analysis 追加 18 Home + 3 Like，不裁剪上午 100 条。",
+    "sourceWindow": {
+      "strategy": "使用 ego-browser 独立 task space 复用 X 登录态；Home 覆盖 Home/Following、补充简单 X 搜索 AI/Codex/Figma/design tool/AI product；Likes 进入 x.com/neoedon414/likes 并滚动到 known-ID 边界。外链只读取原帖可见链接，不使用普通网页搜索替代 X 采集。",
+      "newestHomeDatetime": "2026-08-22T05:36:13.000Z",
+      "oldestHomeDatetime": "2026-08-21T16:05:46.000Z",
+      "newestLikeDatetime": "2026-08-21T14:31:13.000Z",
+      "oldestLikeDatetime": "2026-06-07T12:43:38.000Z",
+      "expandedWindow": "Home 18 条均按原帖真实发布时间归入 Asia/Shanghai 2026-08-22；当天 Analysis 已有 100 条，本批只追加午后新出现且有学习价值的内容。Likes 中 2063602783635296296 是登录态 Likes 时间线中新浮出的旧收藏，按真实 2026-06-07 时间记录。",
+      "observed": {
+        "homeRaw": 1094,
+        "homeUnique": 242,
+        "homeSelected": 18,
+        "rejectedHomeCandidates": 224,
+        "selectedHomeIds": [
+          "2091036700541906976",
+          "2091035957420261448",
+          "2091035886540722355",
+          "2091034635203674437",
+          "2091036577187463187",
+          "2091023664187900282",
+          "2091010495897817562",
+          "2091008960774217748",
+          "2090996946513145983",
+          "2090985612648341686",
+          "2090924523101311475",
+          "2090906705987068207",
+          "2090896114438316337",
+          "2090887551825391991",
+          "2090874195320139869",
+          "2090858719407968344",
+          "2090837841320583304",
+          "2090832744901378411"
+        ],
+        "likeRaw": 34,
+        "likeUnique": 9,
+        "freshLikeIds": [
+          "2090808948366487578",
+          "2090552976616124581",
+          "2063602783635296296"
+        ],
+        "knownBoundary": [
+          "2090514377732444490",
+          "2090786265922953496",
+          "2090756239907025135",
+          "2090722001132650986",
+          "2090730287848431648",
+          "2090697370732548488"
+        ],
+        "analysisHomeIds": [
+          "2091036700541906976",
+          "2091035957420261448",
+          "2091035886540722355",
+          "2091034635203674437",
+          "2091036577187463187",
+          "2091023664187900282",
+          "2091010495897817562",
+          "2091008960774217748",
+          "2090996946513145983",
+          "2090985612648341686",
+          "2090924523101311475",
+          "2090906705987068207",
+          "2090896114438316337",
+          "2090887551825391991",
+          "2090874195320139869",
+          "2090858719407968344",
+          "2090837841320583304",
+          "2090832744901378411"
+        ],
+        "analysisLikeIds": [
+          "2090808948366487578",
+          "2090552976616124581",
+          "2063602783635296296"
+        ]
+      }
+    },
+    "items": [
+      {
+        "id": "2091036700541906976",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/kassarweb41897/status/2091036700541906976",
+        "author": "笠山儀孝|salesスキル|webマーケ |WEB制作|AI開発",
+        "handle": "kassarweb41897",
+        "datetime": "2026-08-22T05:36:13.000Z",
+        "title": "OpenAI 商品发现把 SEO 推向结构化商品台账",
+        "originalSummary": "日本开发者解读 OpenAI 商品发现：商家需要向 ChatGPT 提供商品信息、价格库存、图片和评价。它值得抓取，因为 AI 搜索优化正在从写文章转向维护可机器读取的商品数据。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「AI Commerce / Product Discovery」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：日本开发者解读 OpenAI 商品发现：商家需要向 ChatGPT 提供商品信息、价格库存、图片和评价。它值得抓取，因为 AI 搜索优化正在从写文章转向维护可机器读取的商品数据。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [
+          {
+            "url": "https://openai.com/chatgpt/search-product-discovery/",
+            "access": "unavailable",
+            "title": "OpenAI ChatGPT product discovery page",
+            "summary": "Node fetch 返回 403，仅能确认原帖可见的官方 URL；未读取到页面正文。",
+            "value": "作为官方入口值得后续人工重读，但本批不基于不可见页面扩写事实。"
+          }
+        ],
+        "learningActions": [
+          "拆解「OpenAI 商品发现把 SEO 推向结构化商品台账」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "AI PRODUCT",
+          "AI Commerce / Product Discovery"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091035957420261448",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/usleaderlab/status/2091035957420261448",
+        "author": "小朱记 | CHU HUB",
+        "handle": "usleaderlab",
+        "datetime": "2026-08-22T05:33:16.000Z",
+        "title": "OpenAI 降价信号更利好高频 Agent 产品",
+        "originalSummary": "小朱记指出 GPT-5.6 Sol API/credit 降价对重度 API、Codex 和自动化产品更直接。它值得抓取，因为成本下降会改变 agent 产品的功能边界和默认交互频率。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「Agent Cost / Product Feasibility」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：小朱记指出 GPT-5.6 Sol API/credit 降价对重度 API、Codex 和自动化产品更直接。它值得抓取，因为成本下降会改变 agent 产品的功能边界和默认交互频率。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「OpenAI 降价信号更利好高频 Agent 产品」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "AI MODEL",
+          "Agent Cost / Product Feasibility"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091035886540722355",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/K2De_sign/status/2091035886540722355",
+        "author": "かねここうた｜金子デザインワークス",
+        "handle": "K2De_sign",
+        "datetime": "2026-08-22T05:32:59.000Z",
+        "title": "Figma Skills 让设计流程也开始沉淀为 Agent 能力",
+        "originalSummary": "金子デザインワークス观察 Figma Community 已出现 50+ Agent Skills，并可把重复设计作业沉淀为 skill。它值得抓取，因为设计团队的工作法会从长 prompt 迁移到可复用流程资产。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「Figma / Agent Skills」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：金子デザインワークス观察 Figma Community 已出现 50+ Agent Skills，并可把重复设计作业沉淀为 skill。它值得抓取，因为设计团队的工作法会从长 prompt 迁移到可复用流程资产。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「Figma Skills 让设计流程也开始沉淀为 Agent 能力」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "DESIGN TOOL",
+          "Figma / Agent Skills"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091034635203674437",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abid_led_design/status/2091034635203674437",
+        "author": "Abid ✦ AI SaaS Design",
+        "handle": "abid_led_design",
+        "datetime": "2026-08-22T05:28:01.000Z",
+        "title": "AI 设计工具功能页用问题结构解释 workflow",
+        "originalSummary": "Abid 分析一个 AI design tool feature page：每段回答 generation、responsiveness、variation、systems、collaboration 等问题。它值得抓取，因为这是设计工具官网从炫图转向解释工作流的好案例。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「AI SaaS / Feature Page」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：Abid 分析一个 AI design tool feature page：每段回答 generation、responsiveness、variation、systems、collaboration 等问题。它值得抓取，因为这是设计工具官网从炫图转向解释工作流的好案例。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「AI 设计工具功能页用问题结构解释 workflow」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "AI SaaS / Feature Page"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091036577187463187",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/UrMeer289/status/2091036577187463187",
+        "author": "Ur Meer",
+        "handle": "UrMeer289",
+        "datetime": "2026-08-22T05:35:44.000Z",
+        "title": "MiniMax Design 把产品广告从概念推到成片视觉",
+        "originalSummary": "Ur Meer 展示用 MiniMax Design 把手表概念做成商业级广告，包含灯光、motion graphics、VFX 和 hero shot。它适合观察 AI 视频工具在产品广告里的可控性边界。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「AI Video / Product Ad」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：Ur Meer 展示用 MiniMax Design 把手表概念做成商业级广告，包含灯光、motion graphics、VFX 和 hero shot。它适合观察 AI 视频工具在产品广告里的可控性边界。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「MiniMax Design 把产品广告从概念推到成片视觉」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "AI VIDEO",
+          "AI Video / Product Ad"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091023664187900282",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/rauschermate/status/2091023664187900282",
+        "author": "Máté Rauscher",
+        "handle": "rauschermate",
+        "datetime": "2026-08-22T04:44:25.000Z",
+        "title": "CSS color-mix 可视化工具辅助设计系统配色",
+        "originalSummary": "Máté Rauscher 做了一个 color-mix 可视化工具，用来理解和生成色阶。它值得抓取，因为它把 CSS 新能力转成设计系统和数据可视化可用的调试界面。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「Design System / Color Tool」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：Máté Rauscher 做了一个 color-mix 可视化工具，用来理解和生成色阶。它值得抓取，因为它把 CSS 新能力转成设计系统和数据可视化可用的调试界面。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「CSS color-mix 可视化工具辅助设计系统配色」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "DESIGN TOOL",
+          "Design System / Color Tool"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091010495897817562",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/waylybaye/status/2091010495897817562",
+        "author": "Baye",
+        "handle": "waylybaye",
+        "datetime": "2026-08-22T03:52:05.000Z",
+        "title": "DAMA 因隐私打码能力登上 App Store 推荐",
+        "originalSummary": "Baye 记录 DAMA 被 Apple App Store 首页推荐，并引用此前重新设计 onboarding 动画的迭代。它值得抓取，因为小工具增长常来自核心能力、入口解释和系统推荐三者对齐。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「Indie App / Onboarding」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：Baye 记录 DAMA 被 Apple App Store 首页推荐，并引用此前重新设计 onboarding 动画的迭代。它值得抓取，因为小工具增长常来自核心能力、入口解释和系统推荐三者对齐。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [
+          {
+            "url": "https://apps.apple.com/us/app/dama-auto-redact-privacy/id1534690075?ct=website&pt=118260435",
+            "access": "full",
+            "title": "DAMA - Auto Redact Privacy App - App Store",
+            "summary": "App Store 页面显示 DAMA 是 Photo & Video 类隐私打码工具，主张自动识别人脸、证件、聊天和二维码，检测在 iPhone 本地完成，并有评分与截图证明。",
+            "value": "原帖只记录被推荐；页面补足了隐私卖点、品类、设备范围和本地处理叙事，可用于学习工具型 App 如何把安全感写成首屏价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解「DAMA 因隐私打码能力登上 App Store 推荐」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Indie App / Onboarding"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091008960774217748",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/jike_collection/status/2091008960774217748",
+        "author": "即刻精选",
+        "handle": "jike_collection",
+        "datetime": "2026-08-22T03:45:59.000Z",
+        "title": "叮咚买菜的智能细节适合作为大产品小交互样本",
+        "originalSummary": "即刻精选转发叮咚买菜的智能功能细节。它值得抓取，因为成熟消费应用的小功能经常比新概念更能说明识别、推荐和下单链路如何减少用户判断成本。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「Consumer App / Detail UX」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：即刻精选转发叮咚买菜的智能功能细节。它值得抓取，因为成熟消费应用的小功能经常比新概念更能说明识别、推荐和下单链路如何减少用户判断成本。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「叮咚买菜的智能细节适合作为大产品小交互样本」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Consumer App / Detail UX"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090996946513145983",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Tradigital3D/status/2090996946513145983",
+        "author": "AlanWyatt3D",
+        "handle": "Tradigital3D",
+        "datetime": "2026-08-22T02:58:15.000Z",
+        "title": "Blender 5.3 Light Nodes 把光照反应纳入材质节点",
+        "originalSummary": "AlanWyatt3D 展示 Blender 5.3 Light Nodes：在单个 shader plane 里控制材质如何响应光照。它适合作为设计工程师理解实时材质、PBR UI 和视觉解释工具的实现参考。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「3D Material / Light Nodes」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：AlanWyatt3D 展示 Blender 5.3 Light Nodes：在单个 shader plane 里控制材质如何响应光照。它适合作为设计工程师理解实时材质、PBR UI 和视觉解释工具的实现参考。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「Blender 5.3 Light Nodes 把光照反应纳入材质节点」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "3D TOOL",
+          "3D Material / Light Nodes"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090985612648341686",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/HiTw93/status/2090985612648341686",
+        "author": "Tw93",
+        "handle": "HiTw93",
+        "datetime": "2026-08-22T02:13:13.000Z",
+        "title": "Tw93 用妙言、Pake、MiaoYan 拆解产品命名方法",
+        "originalSummary": "Tw93 长文从妙言、Pake 等产品命名讲到语义、国际化、发音和持续迭代信心。它值得抓取，因为 AI coding 时代产品越来越多，名字仍是定位、传播和长期维护意愿的第一层界面。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「Product Naming / Indie Product」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：Tw93 长文从妙言、Pake 等产品命名讲到语义、国际化、发音和持续迭代信心。它值得抓取，因为 AI coding 时代产品越来越多，名字仍是定位、传播和长期维护意愿的第一层界面。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「Tw93 用妙言、Pake、MiaoYan 拆解产品命名方法」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Product Naming / Indie Product"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090924523101311475",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/fadihares95/status/2090924523101311475",
+        "author": "Fadi Hares",
+        "handle": "fadihares95",
+        "datetime": "2026-08-21T22:10:28.000Z",
+        "title": "视频 review 工具把评论密度直接编码进时间线",
+        "originalSummary": "Fadi Hares 观察 Drento 视频 review 概念：评论 marker 按真实秒点聚集在 player timeline 上。它值得抓取，因为它把协作上下文从侧栏文字变成可扫读的时间结构。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「Review Tool / Timeline UX」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：Fadi Hares 观察 Drento 视频 review 概念：评论 marker 按真实秒点聚集在 player timeline 上。它值得抓取，因为它把协作上下文从侧栏文字变成可扫读的时间结构。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「视频 review 工具把评论密度直接编码进时间线」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "Review Tool / Timeline UX"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090906705987068207",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/weberwongwong/status/2090906705987068207",
+        "author": "weber",
+        "handle": "weberwongwong",
+        "datetime": "2026-08-21T20:59:40.000Z",
+        "title": "Krea 2 portrait workflow 展示风格一致的批量变体",
+        "originalSummary": "weber 展示 Krea 2 把一张人像生成 20 个 style-matched variants。它值得抓取，因为个人设计师需要评估 AI 变体工具是否能保持 aesthetic consistency，而不只是生成数量。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「AI Image / Style Consistency」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：weber 展示 Krea 2 把一张人像生成 20 个 style-matched variants。它值得抓取，因为个人设计师需要评估 AI 变体工具是否能保持 aesthetic consistency，而不只是生成数量。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「Krea 2 portrait workflow 展示风格一致的批量变体」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "AI DESIGN TOOL",
+          "AI Image / Style Consistency"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090896114438316337",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/pulsenotch/status/2090896114438316337",
+        "author": "PulseNotch",
+        "handle": "pulsenotch",
+        "datetime": "2026-08-21T20:17:35.000Z",
+        "title": "CleanDev 用一键安全清理解决 Mac 开发缓存负债",
+        "originalSummary": "PulseNotch 展示 CleanDev 清理 Xcode DerivedData、simulator、Gradle、npm 等缓存。它值得抓取，因为开发工具的好体验来自把高风险清理动作分级解释清楚，而非只给删除按钮。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「Developer Utility / Safety UX」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：PulseNotch 展示 CleanDev 清理 Xcode DerivedData、simulator、Gradle、npm 等缓存。它值得抓取，因为开发工具的好体验来自把高风险清理动作分级解释清楚，而非只给删除按钮。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [
+          {
+            "url": "https://cleandev.cc/?twclid=277spfw84250xntl200fqc6a5e",
+            "access": "full",
+            "title": "CleanDev — Reclaim Gigabytes from Your Mac Dev Tools",
+            "summary": "页面说明它是 macOS 14+ menu bar utility，可清理 Xcode DerivedData、simulator caches、Gradle、npm、Docker 等开发缓存，并强调 free、no account、4 MB、v1.9.0。",
+            "value": "原帖只说 one click；页面补足了安全边界、可回收空间分类和低门槛安装信息，适合学习危险操作如何用扫描、分类和确认来降低焦虑。"
+          }
+        ],
+        "learningActions": [
+          "拆解「CleanDev 用一键安全清理解决 Mac 开发缓存负债」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "DEV TOOL",
+          "Developer Utility / Safety UX"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090887551825391991",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/floraai/status/2090887551825391991",
+        "author": "FLORA ©",
+        "handle": "floraai",
+        "datetime": "2026-08-21T19:43:33.000Z",
+        "title": "FLORA Fashion Studio 支持局部 fabric 和 colorway 替换",
+        "originalSummary": "FLORA 展示在 Fashion Studio 中批量替换服装面料与配色。它值得抓取，因为垂直 AI 创作工具的关键不是生成整张图，而是让用户选择并替换具体部件。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「Fashion AI / Localized Editing」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：FLORA 展示在 Fashion Studio 中批量替换服装面料与配色。它值得抓取，因为垂直 AI 创作工具的关键不是生成整张图，而是让用户选择并替换具体部件。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「FLORA Fashion Studio 支持局部 fabric 和 colorway 替换」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "AI PRODUCT",
+          "Fashion AI / Localized Editing"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090874195320139869",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/byoffgrid/status/2090874195320139869",
+        "author": "Offgrid",
+        "handle": "byoffgrid",
+        "datetime": "2026-08-21T18:50:29.000Z",
+        "title": "Offgrid 发布 Ramp brand refresh 的动态系统样本",
+        "originalSummary": "Offgrid 展示 Ramp 品牌刷新合作成果。它值得抓取，因为金融/企业工具品牌正在用高质量 motion 和系统图形建立可信但不沉闷的产品感。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「Brand System / Motion」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：Offgrid 展示 Ramp 品牌刷新合作成果。它值得抓取，因为金融/企业工具品牌正在用高质量 motion 和系统图形建立可信但不沉闷的产品感。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「Offgrid 发布 Ramp brand refresh 的动态系统样本」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "BRAND DESIGN",
+          "Brand System / Motion"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090858719407968344",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/hero_ui/status/2090858719407968344",
+        "author": "HeroUI",
+        "handle": "hero_ui",
+        "datetime": "2026-08-21T17:48:59.000Z",
+        "title": "HeroUI Native Pro beta 增加表格、轮播与 MorphButton",
+        "originalSummary": "HeroUI Native Pro 1.0.0-beta.10 发布 selectable/sortable Table、snap Carousel、spring MorphButton 和 PhoneNumberField。它值得抓取，因为这些都是移动 UI 组件库里高频但容易做粗糙的复杂控件。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「Component Library / Native UI」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：HeroUI Native Pro 1.0.0-beta.10 发布 selectable/sortable Table、snap Carousel、spring MorphButton 和 PhoneNumberField。它值得抓取，因为这些都是移动 UI 组件库里高频但容易做粗糙的复杂控件。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「HeroUI Native Pro beta 增加表格、轮播与 MorphButton」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "DESIGN TOOL",
+          "Component Library / Native UI"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090837841320583304",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/WangxsNB/status/2090837841320583304",
+        "author": "Axis Wang",
+        "handle": "WangxsNB",
+        "datetime": "2026-08-21T16:26:01.000Z",
+        "title": "Pencil dev 被评价为更适合直出设计图的 design agent",
+        "originalSummary": "Axis Wang 对比泛 skill 和专业 design agent，认为 pencil dev 直出设计图效果更好。它值得抓取，因为设计 agent 的价值需要看是否能真正产出可评审画面，而不是只会组织 prompt。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「Design Agent / Output Quality」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：Axis Wang 对比泛 skill 和专业 design agent，认为 pencil dev 直出设计图效果更好。它值得抓取，因为设计 agent 的价值需要看是否能真正产出可评审画面，而不是只会组织 prompt。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「Pencil dev 被评价为更适合直出设计图的 design agent」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "DESIGN TOOL",
+          "Design Agent / Output Quality"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090832744901378411",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/BunnyxStudio/status/2090832744901378411",
+        "author": "BunnyLau",
+        "handle": "BunnyxStudio",
+        "datetime": "2026-08-21T16:05:46.000Z",
+        "title": "iPadOS Magic Keyboard hover effect 是细节体验基线",
+        "originalSummary": "BunnyLau 希望更多 iPadOS 应用支持 Magic Keyboard hover，并引用 SwiftUI 快速实现的 onboarding 细节。它值得抓取，因为移动端外设状态正在成为专业 App 的可访问性和质感标准。",
+        "whySaved": "",
+        "whyCaptured": "帮你抓取它，是因为它把「iPadOS / Microinteraction」落在可观察的产品、界面或工作流证据上，不是泛泛而谈。",
+        "deepSummary": "这条内容对个人设计师的价值在于：BunnyLau 希望更多 iPadOS 应用支持 Magic Keyboard hover，并引用 SwiftUI 快速实现的 onboarding 细节。它值得抓取，因为移动端外设状态正在成为专业 App 的可访问性和质感标准。 进一步看，它可以转成一次小型设计复盘，关注信息结构、控制边界、视觉完成度或工具化路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解「iPadOS Magic Keyboard hover effect 是细节体验基线」背后的核心界面机制，记录可迁移到 viaim 或个人工具的 1 个组件模式。",
+          "把原帖中的证据分为价值主张、交互路径、视觉风格和实现约束四栏，不只保存截图。",
+          "若涉及工具或网页，补做一次 15 分钟实测，验证它是否真的改善设计/开发流程。"
+        ],
+        "tags": [
+          "PRODUCT DESIGN",
+          "iPadOS / Microinteraction"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2090808948366487578",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/jonrundle/status/2090808948366487578",
+        "author": "Jon Rundle",
+        "handle": "jonrundle",
+        "datetime": "2026-08-21T14:31:13.000Z",
+        "title": "收藏：Make this proto during a recent hackdays and now",
+        "originalSummary": "原帖内容：Make this proto during a recent hackdays and now I can't stop thinking about how I want a timeline view like this for all agent chat histories on mobile.",
+        "whySaved": "你会收藏它，核心原因是Jon Rundle 收藏级原型把 agent chat 历史做成移动端 timeline 视图，适合研究长任务、分支和历史回看如何在小屏幕上可视化。",
+        "whyCaptured": "因用户已收藏，作为个人审美与产品判断偏好的强信号保留。",
+        "deepSummary": "这条收藏适合进入设计学习项：Jon Rundle 收藏级原型把 agent chat 历史做成移动端 timeline 视图，适合研究长任务、分支和历史回看如何在小屏幕上可视化。 对个人设计师来说，重点不是复述帖文，而是提取可复用的界面节奏、视觉叙事或素材组织方法。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "复盘这条收藏的第一屏吸引点：是动效节奏、信息架构、材质质感还是叙事钩子。",
+          "截取 3 个关键帧或状态，标注它们各自解决的设计问题。",
+          "把可复用原则写成一条 prompt/设计准则，下一次原型或视频参考时直接调用。"
+        ],
+        "tags": [
+          "Like",
+          "Agent Chat / Timeline UX"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090552976616124581",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/noahhermanyt/status/2090552976616124581",
+        "author": "Noah Herman",
+        "handle": "noahhermanyt",
+        "datetime": "2026-08-20T21:34:04.000Z",
+        "title": "收藏：loveee Apple's newest MacBook Neo ad 🤩",
+        "originalSummary": "原帖内容：loveee Apple's newest MacBook Neo ad 🤩",
+        "whySaved": "你会收藏它，核心原因是Noah Herman 收藏 Apple MacBook Neo 广告，是一个观察硬件广告节奏、镜头隐喻和产品人格的视觉参考。",
+        "whyCaptured": "因用户已收藏，作为个人审美与产品判断偏好的强信号保留。",
+        "deepSummary": "这条收藏适合进入设计学习项：Noah Herman 收藏 Apple MacBook Neo 广告，是一个观察硬件广告节奏、镜头隐喻和产品人格的视觉参考。 对个人设计师来说，重点不是复述帖文，而是提取可复用的界面节奏、视觉叙事或素材组织方法。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "复盘这条收藏的第一屏吸引点：是动效节奏、信息架构、材质质感还是叙事钩子。",
+          "截取 3 个关键帧或状态，标注它们各自解决的设计问题。",
+          "把可复用原则写成一条 prompt/设计准则，下一次原型或视频参考时直接调用。"
+        ],
+        "tags": [
+          "Like",
+          "Apple Ad / Product Storytelling"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2063602783635296296",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/dmiiiitrii/status/2063602783635296296",
+        "author": "Dmitri",
+        "handle": "dmiiiitrii",
+        "datetime": "2026-06-07T12:43:38.000Z",
+        "title": "收藏：this is next level",
+        "originalSummary": "原帖内容：this is next level",
+        "whySaved": "你会收藏它，核心原因是Dmitri 只写了 next level，但收藏信号来自视频本身：适合作为高完成度视觉/动效质感参考，而不是文本观点。",
+        "whyCaptured": "因用户已收藏，作为个人审美与产品判断偏好的强信号保留。",
+        "deepSummary": "这条收藏适合进入设计学习项：Dmitri 只写了 next level，但收藏信号来自视频本身：适合作为高完成度视觉/动效质感参考，而不是文本观点。 对个人设计师来说，重点不是复述帖文，而是提取可复用的界面节奏、视觉叙事或素材组织方法。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "复盘这条收藏的第一屏吸引点：是动效节奏、信息架构、材质质感还是叙事钩子。",
+          "截取 3 个关键帧或状态，标注它们各自解决的设计问题。",
+          "把可复用原则写成一条 prompt/设计准则，下一次原型或视频参考时直接调用。"
+        ],
+        "tags": [
+          "Like",
+          "Visual Motion / Craft Reference"
+        ],
+        "priority": "medium"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-22",
     "generatedAt": "2026-08-22T08:16:00+08:00",
     "batch": "x-ai-design-analysis-2026-08-22-0816",
     "analysisCount": 100,
@@ -40768,4 +41383,5 @@ window.DESIGNER_ANALYSIS = [
       }
     ]
   }
-];
+]
+  .sort((a, b) => new Date(b.generatedAt || b.date) - new Date(a.generatedAt || a.date));

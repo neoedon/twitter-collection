@@ -1,6 +1,48 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-22T08:16:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-22T13:42:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2090808948366487578",
+    "TwitterUserID": "14354238",
+    "UserScreenName": "jonrundle",
+    "UserProfileName": "Jon Rundle",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1322293100543414273/GR2YdT_d_200x200.jpg",
+    "TweetText": "Make this proto during a recent hackdays and now I can't stop thinking about how I want a timeline view like this for all agent chat histories on mobile.",
+    "Tweet Url": "https://x.com/jonrundle/status/2090808948366487578",
+    "TweetCreatedDate": "2026-08-21T14:31:13.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090808851234775040/img/2ikKVETwfjUzVa_d.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090808851234775040/vid/avc1/3840x2160/IULCW8gRAwY_q4ZC.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:video",
+      "Agent Chat / Timeline UX"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090808851234775040/vid/avc1/3840x2160/IULCW8gRAwY_q4ZC.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090808851234775040/img/2ikKVETwfjUzVa_d.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "31 REPLIES · 23 REPOSTS · 467 LIKES · 512 BOOKMARKS · 51202 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-22T13:42:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-21T14:31:13.000Z"
+    },
+    "_analysisTheme": "Agent Chat / Timeline UX",
+    "_analysisPriority": "high",
+    "_analysisNote": "Jon Rundle 收藏级原型把 agent chat 历史做成移动端 timeline 视图，适合研究长任务、分支和历史回看如何在小屏幕上可视化。"
+  },
   {
     "TweetID": "2090786265922953496",
     "TwitterUserID": "1198293183697952769",
@@ -205,6 +247,48 @@ window.LIKED_BACKFILL = [
       "observedStep": 0,
       "observedDatetime": "2026-08-21T07:07:51.000Z"
     }
+  },
+  {
+    "TweetID": "2090552976616124581",
+    "TwitterUserID": "1400917721664135173",
+    "UserScreenName": "noahhermanyt",
+    "UserProfileName": "Noah Herman",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2017814106451886080/nQlUHwX9_200x200.jpg",
+    "TweetText": "loveee Apple's newest MacBook Neo ad 🤩",
+    "Tweet Url": "https://x.com/noahhermanyt/status/2090552976616124581",
+    "TweetCreatedDate": "2026-08-20T21:34:04.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090552924111769600/img/y-gP1DFxgphJN5WV.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090552924111769600/vid/avc1/1920x1080/vWqTg65Z_67WBnaX.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:video",
+      "Apple Ad / Product Storytelling"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090552924111769600/vid/avc1/1920x1080/vWqTg65Z_67WBnaX.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090552924111769600/img/y-gP1DFxgphJN5WV.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "4 REPLIES · 15 REPOSTS · 567 LIKES · 68 BOOKMARKS · 28207 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-22T13:42:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-20T21:34:04.000Z"
+    },
+    "_analysisTheme": "Apple Ad / Product Storytelling",
+    "_analysisPriority": "medium",
+    "_analysisNote": "Noah Herman 收藏 Apple MacBook Neo 广告，是一个观察硬件广告节奏、镜头隐喻和产品人格的视觉参考。"
   },
   {
     "TweetID": "2090518650251804742",
@@ -23357,6 +23441,48 @@ window.LIKED_BACKFILL = [
       "observedStep": 53,
       "observedDatetime": "2026-06-08T11:23:17.000Z"
     }
+  },
+  {
+    "TweetID": "2063602783635296296",
+    "TwitterUserID": "28194661",
+    "UserScreenName": "dmiiiitrii",
+    "UserProfileName": "Dmitri",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1877035811834658816/kBuiNboD_200x200.jpg",
+    "TweetText": "this is next level",
+    "Tweet Url": "https://x.com/dmiiiitrii/status/2063602783635296296",
+    "TweetCreatedDate": "2026-06-07T12:43:38.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2057839105002606592/img/d6Z-5-Mj9nvoFOaV.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2057839105002606592/vid/avc1/3840x2160/FNS6N8IiNf7HH5pC.mp4?tag=27",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:video",
+      "Visual Motion / Craft Reference"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2057839105002606592/vid/avc1/3840x2160/FNS6N8IiNf7HH5pC.mp4?tag=27",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2057839105002606592/img/d6Z-5-Mj9nvoFOaV.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "30 REPLIES · 21 REPOSTS · 745 LIKES · 684 BOOKMARKS · 87655 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-22T13:42:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-06-07T12:43:38.000Z"
+    },
+    "_analysisTheme": "Visual Motion / Craft Reference",
+    "_analysisPriority": "medium",
+    "_analysisNote": "Dmitri 只写了 next level，但收藏信号来自视频本身：适合作为高完成度视觉/动效质感参考，而不是文本观点。"
   },
   {
     "TweetID": "2061734808041251085",
