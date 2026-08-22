@@ -1,6 +1,211 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-21T13:07:46+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-22T08:16:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2090786265922953496",
+    "TwitterUserID": "1198293183697952769",
+    "UserScreenName": "raycast",
+    "UserProfileName": "Raycast",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1973045346675638272/61MGDa3k_200x200.png",
+    "TweetText": "Next week.",
+    "Tweet Url": "https://x.com/raycast/status/2090786265922953496",
+    "TweetCreatedDate": "2026-08-21T13:01:05.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://video.twimg.com/amplify_video/2090786247610621952/vid/avc1/1280x720/gcbNgpl9S4s3Oi8E.mp4?tag=14",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090786247610621952/vid/avc1/1280x720/gcbNgpl9S4s3Oi8E.mp4?tag=14",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090786247610621952/vid/avc1/1280x720/gcbNgpl9S4s3Oi8E.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090786247610621952/img/Pfrselxk2TcR_9ld.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "49 REPLIES · 27 REPOSTS · 823 LIKES · 128 BOOKMARKS · 111184 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-22T08:16:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-21T13:01:05.000Z"
+    }
+  },
+  {
+    "TweetID": "2090756239907025135",
+    "TwitterUserID": "2032392734674427904",
+    "UserScreenName": "Droppyformac",
+    "UserProfileName": "Jordy Spruit",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2078888724067217408/6egaJ7fw_200x200.jpg",
+    "TweetText": "Hide? Show? Reorder? All possible. Customise your own Dynamic Island on Mac. http://Getdroppy.app",
+    "Tweet Url": "https://x.com/Droppyformac/status/2090756239907025135",
+    "TweetCreatedDate": "2026-08-21T11:01:46.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://video.twimg.com/amplify_video/2090755594110091266/vid/avc1/1120x720/CtK7AtwVsqamvHCs.mp4?tag=29",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090755594110091266/vid/avc1/1120x720/CtK7AtwVsqamvHCs.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090755594110091266/vid/avc1/1120x720/CtK7AtwVsqamvHCs.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090755594110091266/img/Jh9dt6_8doWHwKjY.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Droppy. Your Mac, just way better.",
+      "url": "http://Getdroppy.app",
+      "preview": "Droppy turns your Mac",
+      "cover": ""
+    },
+    "_metrics": "0 REPLIES · 0 REPOSTS · 19 LIKES · 12 BOOKMARKS · 1883 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-22T08:16:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-21T11:01:46.000Z"
+    }
+  },
+  {
+    "TweetID": "2090730287848431648",
+    "TwitterUserID": "1363515523963658242",
+    "UserScreenName": "thecuvii",
+    "UserProfileName": "Cuvii",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1929453396807053312/R2uVQcUm_200x200.jpg",
+    "TweetText": "把最近 vibe coding 的一些尝试整理了出来：\n\n» http://labs.cuvii.dev\n\n每一个效果都可以复制，粘贴，运用到你的项目中。\n\n首批包含两个合集：\n\n» 001 MOTION 動 效：用代码复刻 Jerry Liu 的 FUI Field Guide。\n\n» 002 PHOSPHOR 磷 光：一些复古 CRT Shader。\n\n还有更多合集整理中。",
+    "Tweet Url": "https://x.com/thecuvii/status/2090730287848431648",
+    "TweetCreatedDate": "2026-08-21T09:18:39.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://video.twimg.com/amplify_video/2090727133333393408/vid/avc1/1090x720/3lMRdBb_Zs9EWRPz.mp4?tag=29",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090727133333393408/vid/avc1/1090x720/3lMRdBb_Zs9EWRPz.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "media:video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090727133333393408/vid/avc1/1090x720/3lMRdBb_Zs9EWRPz.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090727133333393408/img/_yjGT9aLy14yOBR9.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "[+] LABS · cuvii",
+      "url": "http://labs.cuvii.dev",
+      "preview": "A gallery of signal-inspired interface effects.",
+      "cover": ""
+    },
+    "_metrics": "24 REPLIES · 8 REPOSTS · 75 LIKES · 62 BOOKMARKS · 4817 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-22T08:16:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-21T09:18:39.000Z"
+    }
+  },
+  {
+    "TweetID": "2090722001132650986",
+    "TwitterUserID": "3050564824",
+    "UserScreenName": "basit_designs",
+    "UserProfileName": "Basit A. Khan",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2035703029631201280/MiiHz_yG_200x200.jpg",
+    "TweetText": "This is what happens when we combine the luxury+minimalism into the landing page visual design.\n\nAnd guess what, it doesn’t cost $10K, wild right?😅",
+    "Tweet Url": "https://x.com/basit_designs/status/2090722001132650986",
+    "TweetCreatedDate": "2026-08-21T08:45:43.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://video.twimg.com/amplify_video/2090721938348060672/vid/avc1/1022x720/cKPcUlOVGic8Pi1z.mp4?tag=29",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090721938348060672/vid/avc1/1022x720/cKPcUlOVGic8Pi1z.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090721938348060672/vid/avc1/1022x720/cKPcUlOVGic8Pi1z.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090721938348060672/img/oZsAek2eg1WSRHM3.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "21 REPLIES · 20 REPOSTS · 787 LIKES · 798 BOOKMARKS · 31624 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-22T08:16:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-21T08:45:43.000Z"
+    }
+  },
+  {
+    "TweetID": "2090697370732548488",
+    "TwitterUserID": "1628794781257302016",
+    "UserScreenName": "DLKFZWilliam2",
+    "UserProfileName": "独立开发者William",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2008690803015557120/ShVfeubt_200x200.jpg",
+    "TweetText": "我申请了，秒过！Apple送钱了啊啊啊啊啊！\n\n朋友们都可以去试试！Apple免费的云端AI Private Cloud Compute（PCC）调用云端的 Apple Foundation Models，一分钱不要！！！\n\n以后在 App 里我要全部加AI功能了！！！成本为0！！！​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ 大家快搞起！我把链接放进来：👇",
+    "Tweet Url": "https://x.com/DLKFZWilliam2/status/2090697370732548488",
+    "TweetCreatedDate": "2026-08-21T07:07:51.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQOmLEcaMAAythK.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQOmLEcaMAAythK.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "95 REPLIES · 131 REPOSTS · 1163 LIKES · 1895 BOOKMARKS · 183579 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-22T08:16:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-21T07:07:51.000Z"
+    }
+  },
   {
     "TweetID": "2090518650251804742",
     "TwitterUserID": "1943306828697550848",
@@ -89,6 +294,46 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-20T19:07:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2090514377732444490",
+    "TwitterUserID": "790367561418506240",
+    "UserScreenName": "weplash",
+    "UserProfileName": "Weplash⚡️",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1928480175622066176/dlXNcOjw_200x200.jpg",
+    "TweetText": "Si estás pensando en renovar tu foto de perfil, este estilo funciona demasiado bien.\n\nRetrato limpio, cinematográfico, realista y con suficiente personalidad para usarlo en LinkedIn, portafolio, marca personal o simplemente tener una buena foto en stock.\n\nPrompt abajo ⬇️",
+    "Tweet Url": "https://x.com/weplash/status/2090514377732444490",
+    "TweetCreatedDate": "2026-08-20T19:00:42.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQL_GrSWsAAeKoA.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQL_GrSWsAAeKoA.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQL_GoeWoAAQS2m.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "15 REPLIES · 134 REPOSTS · 1507 LIKES · 2435 BOOKMARKS · 226658 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-22T08:16:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-20T19:00:42.000Z"
     }
   },
   {
