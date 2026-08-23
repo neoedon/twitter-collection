@@ -1,6 +1,528 @@
 (() => {
   window.HOME_BACKFILL = [
     {
+      "category": "DESIGN ENGINEERING",
+      "datetime": "2026-08-23T00:03:46.000Z",
+      "author": "Danna R.",
+      "handle": "daaaaanc",
+      "avatar": "https://pbs.twimg.com/profile_images/2023161130466840576/D9plKcBZ_200x200.jpg",
+      "title": "Claude Code + Appshotr MCP 自动生成 App Store 截图",
+      "summary": "Daan 用 Claude Code 加 Appshotr MCP 为运动控制拳击 app 迭代 App Store 截图，一路用对话生成多风格 Apple 尺寸素材。它值得抓取，因为上架物料从手工模板转向 agent 可调用的设计生产线。",
+      "url": "https://x.com/daaaaanc/status/2091315423308329112",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQXX9szWwAA-sfF.jpg?name=orig"
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 2 LIKES · 0 BOOKMARKS · 19 VIEWS",
+      "links": [],
+      "_analysisTheme": "App Store Screenshot / MCP",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "AI NEWS",
+      "datetime": "2026-08-23T00:02:42.000Z",
+      "author": "The Wall Street Journal",
+      "handle": "WSJ",
+      "avatar": "https://pbs.twimg.com/profile_images/971415515754266624/zCX0q9d5_200x200.jpg",
+      "title": "Poolside 协议指向美国开放 AI 生态竞争",
+      "summary": "WSJ 报道 Poolside 相关合作，目标是构建能和中美 AI 巨头竞争的开放 AI 生态。它值得抓取，因为 AI 基础设施竞争会影响设计工具和开发者平台的默认能力。",
+      "url": "https://x.com/WSJ/status/2091315156466663843",
+      "media": [],
+      "metrics": "4 REPLIES · 2 REPOSTS · 11 LIKES · 0 BOOKMARKS · 9117 VIEWS",
+      "links": [
+        "https://on.wsj.com/4xfFIWL"
+      ],
+      "_analysisTheme": "AI Ecosystem / Infrastructure",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "on.wsj.com",
+        "url": "https://on.wsj.com/4xfFIWL",
+        "preview": "HTTP 401",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI AGENT",
+      "datetime": "2026-08-23T00:02:05.000Z",
+      "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信⚡️》",
+      "handle": "masahirochaen",
+      "avatar": "https://pbs.twimg.com/profile_images/1689665533929725953/fClFlzLd_200x200.jpg",
+      "title": "X Ads MCP 把广告运营交给 agent 工具调用",
+      "summary": "masahirochaen 介绍 X Ads MCP：agent 可读取广告数据、调预算、暂停低效 campaign，并把自然语言变成投放操作。它值得抓取，因为营销后台正在从表格操作转向可审计的 agent 工作流。",
+      "url": "https://x.com/masahirochaen/status/2091314999855886553",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091314980364980226/vid/avc1/1280x720/9EI452Dar0-ruzuL.mp4?tag=14",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091314980364980226/img/C-0eDbHig_iMGJC3.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 5 LIKES · 2 BOOKMARKS · 1237 VIEWS",
+      "links": [],
+      "_analysisTheme": "Ads Agent / MCP",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "AI ENGINEERING",
+      "datetime": "2026-08-23T00:01:03.000Z",
+      "author": "freeCodeCamp.org",
+      "handle": "freeCodeCamp",
+      "avatar": "https://pbs.twimg.com/profile_images/1276770212927410176/qTgTIejk_200x200.jpg",
+      "title": "freeCodeCamp 知识图谱手册适合补 Agent 记忆底座",
+      "summary": "freeCodeCamp 发布 Python + Neo4j 知识图谱手册，覆盖建模、加载、索引、查询调优和 AI 系统支撑。它值得抓取，因为个人设计工程师需要理解关系型知识如何支撑长上下文产品。",
+      "url": "https://x.com/freeCodeCamp/status/2091314741029302489",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQXXrKLWkAAwTeC.jpg?name=orig"
+        }
+      ],
+      "metrics": "0 REPLIES · 2 REPOSTS · 6 LIKES · 0 BOOKMARKS · 2004 VIEWS",
+      "links": [
+        "https://www.freecodecamp.org/news/how-to-build-a-knowledge-graph-with-python-and-neo4j-handbook/"
+      ],
+      "_analysisTheme": "Knowledge Graph / AI Systems",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "How to Build a Knowledge Graph with Python and Neo4j [Full Handbook]",
+        "url": "https://www.freecodecamp.org/news/how-to-build-a-knowledge-graph-with-python-and-neo4j-handbook/",
+        "preview": "Most of the data you work with is really about relationships. A customer belongs to an account. An incident affects a service. An engineer owns a repository. You store all of that in tables, and for a",
+        "cover": ""
+      }
+    },
+    {
+      "category": "关注 · 视觉作品",
+      "datetime": "2026-08-22T23:18:54.000Z",
+      "author": "kyle",
+      "handle": "unimaginative",
+      "avatar": "https://pbs.twimg.com/profile_images/1932161454280769536/uMBVi1Lq_200x200.jpg",
+      "title": "TrySoar onboarding 用 Figma + AE 打磨转场节奏",
+      "summary": "unimaginative 展示 TrySoar onboarding 动效，明确用 Figma + After Effects 做视觉推进。它值得抓取，因为它给产品初次进入流程提供了可拆帧的动效参考。",
+      "url": "https://x.com/unimaginative/status/2091304131650863181",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091304085601554432/vid/avc1/3840x2160/T8zEbx6g9Wpm50cU.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091304085601554432/img/5d0C4vDcortaSJ1g.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "0 REPLIES · 1 REPOSTS · 4 LIKES · 3 BOOKMARKS · 62 VIEWS",
+      "links": [],
+      "_analysisTheme": "Onboarding Motion / Figma AE",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "AI WORKFLOW",
+      "datetime": "2026-08-22T23:15:44.000Z",
+      "author": "BACKWOOD",
+      "handle": "0xBackwood",
+      "avatar": "https://pbs.twimg.com/profile_images/2077088057296056320/SplDhS1S_200x200.jpg",
+      "title": "开源 AI 工作流栈替代订阅式工具组合",
+      "summary": "0xBackwood 列出 n8n、MarkItDown、browser-use、OpenHands、crawl4ai、Cline 组成的自托管 AI workflow stack。它值得抓取，因为个人设计工程师可以把这些工具拆成可复用的采集、转换、浏览器和编码能力。",
+      "url": "https://x.com/0xBackwood/status/2091303334900871346",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091300779881639936/vid/avc1/1920x1046/xTK4wz8VFIwSeNDY.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091300779881639936/img/zqymTqJ5rfHh-PLB.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "4 REPLIES · 0 REPOSTS · 4 LIKES · 3 BOOKMARKS · 82 VIEWS",
+      "links": [
+        "https://github.com/n8n-io/n8n",
+        "https://github.com/microsoft/markitdown",
+        "https://github.com/browser-use/browser-use",
+        "https://github.com/All-Hands-AI/OpenHands",
+        "https://github.com/unclecode/crawl4ai",
+        "https://github.com/cline/cline"
+      ],
+      "_analysisTheme": "Open-source AI Stack",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "GitHub - n8n-io/n8n: Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. · GitHub",
+        "url": "https://github.com/n8n-io/n8n",
+        "preview": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations. - n8n-io/n8n",
+        "cover": ""
+      }
+    },
+    {
+      "category": "PRODUCT DESIGN",
+      "datetime": "2026-08-22T22:51:37.000Z",
+      "author": "EEG Inc.",
+      "handle": "eeginc",
+      "avatar": "https://pbs.twimg.com/profile_images/1995768658354995202/cZGoWVNK_200x200.jpg",
+      "title": "AI 时代会议要对齐评价标准而不是等待审批",
+      "summary": "EEG 写到 AI 时代会议会同时出现多个提案、画面和文案，团队更需要先统一判断轴。它值得抓取，因为设计团队使用 AI 后，核心协作问题会从产出不足转向评价标准不足。",
+      "url": "https://x.com/eeginc/status/2091297268267896960",
+      "media": [],
+      "metrics": "0 REPLIES · 1 REPOSTS · 4 LIKES · 0 BOOKMARKS · 235 VIEWS",
+      "links": [
+        "https://note.com/eegjp/n/n1a6047243a66"
+      ],
+      "_analysisTheme": "AI Team Workflow / Decision Criteria",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "【7割と3割の組織論】AI時代の会議は承認より評価基準を揃える｜EEG代表 shiganet",
+        "url": "https://note.com/eegjp/n/n1a6047243a66",
+        "preview": "AI時代の会議は承認より評価基準を揃える 月曜朝の企画会議。AIが作った提案書が八案、画面案が十二案、キャッチコピーが三十案並んでいる。以前なら案を出すことが会議の仕事でした。今は案が多すぎて、「私はこれが好き」「社長はどれがいいですか」と、最後は声の大きい人の好みで決まりやすくなっています。 選択肢が増えるほど、人は合理的に選べるとは限りません。比べる軸がないと判断の負担が増え、決定を先送りするか、肩書きの高い人に任せて安心しようとします。AI時代の会議で先に揃えるべきものは、承認の順番ではなく、何をもって良い案とするかという評価基準です。 Figmaの2026年調査では、AI",
+        "cover": ""
+      }
+    },
+    {
+      "category": "PRODUCT DESIGN",
+      "datetime": "2026-08-22T22:40:41.000Z",
+      "author": "Tom | Shopify & CRO",
+      "handle": "Frontend_Prince",
+      "avatar": "https://pbs.twimg.com/profile_images/1891864561982033920/wJ-cuR4R_200x200.jpg",
+      "title": "Shopify PDP 改版把转化逻辑显性化",
+      "summary": "Frontend Prince 用商品页改版讲清 social proof、bundle、subscription upsell、CTA 和风险反转。它值得抓取，因为电商页面的设计价值来自信息顺序和购买焦虑处理，而不只是视觉包装。",
+      "url": "https://x.com/Frontend_Prince/status/2091294514644181131",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQXFROrXgAA5ct9.jpg?name=orig"
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 4 LIKES · 0 BOOKMARKS · 40 VIEWS",
+      "links": [],
+      "_analysisTheme": "PDP CRO / Layout Strategy",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "DESIGN TOOL",
+      "datetime": "2026-08-22T22:32:21.000Z",
+      "author": "Sipke Schoorstra",
+      "handle": "sfmskywalker",
+      "avatar": "https://pbs.twimg.com/profile_images/2084042354973933568/bBCucsgu_200x200.jpg",
+      "title": "Elsa Studio 从 workflow editor 进化为运营控制台",
+      "summary": "Elsa Studio 3.8 RC2 将工作流编辑器扩展成 dashboard、diagnostics、alterations designer 和 SSO 管理。它值得抓取，因为工具产品从编辑器走向日常运营面板，信息架构会明显变化。",
+      "url": "https://x.com/sfmskywalker/status/2091292418205163693",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQXDTkbXAAAPjys.jpg?name=orig"
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 2 LIKES · 0 BOOKMARKS · 19 VIEWS",
+      "links": [
+        "https://github.com/elsa-workflows/elsa-studio/releases/tag/3.8.0-rc2"
+      ],
+      "_analysisTheme": "Workflow Editor / Operations Console",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "Release 3.8.0 RC2 · elsa-workflows/elsa-studio · GitHub",
+        "url": "https://github.com/elsa-workflows/elsa-studio/releases/tag/3.8.0-rc2",
+        "preview": "A modular, extensible dashboard application framework - Release 3.8.0 RC2 · elsa-workflows/elsa-studio",
+        "cover": ""
+      }
+    },
+    {
+      "category": "INDIE PRODUCT",
+      "datetime": "2026-08-22T22:30:06.000Z",
+      "author": "diff.w",
+      "handle": "83dwn",
+      "avatar": "https://pbs.twimg.com/profile_images/2042269816665354240/ZER4ib3f_200x200.jpg",
+      "title": "Outbid 用竞拍机制把小产品做成增长事件",
+      "summary": "83dwn 追踪 outbid.lol 最高出价到 15000 美金、71 小时收入 17 万美金，并复盘开发者一个月前还在担忧收入。它值得抓取，因为这是独立产品把定价、社交传播和稀缺机制合成增长事件的样本。",
+      "url": "https://x.com/83dwn/status/2091291850472599724",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQXC2qrXsAARwng.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQXC2l-WUAAQh2L.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQXC2xTXsAEUsPw.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQXC2moXgAArM9P.jpg?name=orig"
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 107 VIEWS",
+      "links": [
+        "https://outbid.lol/",
+        "http://RXlingo.com"
+      ],
+      "_analysisTheme": "Indie Growth / Auction Mechanics",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "outbid.lol",
+        "url": "https://outbid.lol/",
+        "preview": "HTTP 429",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI AGENT",
+      "datetime": "2026-08-22T22:08:25.000Z",
+      "author": "Lukas Levert",
+      "handle": "lukaslevert",
+      "avatar": "https://pbs.twimg.com/profile_images/2088637843279417344/4bvsYnF6_200x200.jpg",
+      "title": "Grok Bot onboarding 展示企业 agent 接入成本",
+      "summary": "Lukas Levert 记录 Grok Bot 30 分钟接入 p0、Hex、Ahrefs、AirOps、Slack、GitHub、Vercel、Granola、Figma、Sanity。它值得抓取，因为企业 agent 的关键体验是连接器编排和首日可用性。",
+      "url": "https://x.com/lukaslevert/status/2091286394555748473",
+      "media": [],
+      "metrics": "1 REPLIES · 0 REPOSTS · 5 LIKES · 0 BOOKMARKS · 304 VIEWS",
+      "links": [],
+      "_analysisTheme": "Grok Bot / Connector Onboarding",
+      "_analysisPriority": "high",
+      "quote": {
+        "id": "2091255294521459015",
+        "url": "https://x.com/mntruell/status/2091255294521459015",
+        "author": "Michael Truell",
+        "handle": "mntruell",
+        "text": "We're opening up Grok Bot access to a small set of enterprises this weekend.\n\nReply if you'd like for us to swing by your office in San Francisco and onboard your team tomorrow or Monday.",
+        "media": []
+      }
+    },
+    {
+      "category": "AI VIDEO",
+      "datetime": "2026-08-22T22:06:35.000Z",
+      "author": "Dheepan Ratnam",
+      "handle": "Dheepanratnam",
+      "avatar": "https://pbs.twimg.com/profile_images/2003752693735604224/vHCLO7Z-_200x200.jpg",
+      "title": "Seedance + Suno 做 1970s 胶片感工作流",
+      "summary": "Dheepanratnam 用 Seedance 2.5 + Suno 测试 warm amber tungsten、Ektachrome 和记忆质感。它值得抓取，因为 AI 视频风格控制要看镜头、色调、音乐和情绪的一致性。",
+      "url": "https://x.com/Dheepanratnam/status/2091285934884991169",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091285290165972992/vid/avc1/1280x720/VI6v-8FGFOBuKBPv.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091285290165972992/img/v2V9SzVRvQFaJGom.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 3 LIKES · 0 BOOKMARKS · 160 VIEWS",
+      "links": [],
+      "_analysisTheme": "AI Video / Analog Film Style",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "AI HARDWARE",
+      "datetime": "2026-08-22T21:59:25.000Z",
+      "author": "dylan ツ",
+      "handle": "demian_ai",
+      "avatar": "https://pbs.twimg.com/profile_images/1744658981954408448/op-wVUke_200x200.jpg",
+      "title": "机器人产品栈真正瓶颈在部署和回本",
+      "summary": "demian_ai 拆解机器人从材料、电机、感知、控制、工业化到部署的 6 层栈，指出价值瓶颈会随阶段移动。它值得抓取，因为硬件 AI 产品设计不能只看外形，要看校准、服务、远程运维和客户回本。",
+      "url": "https://x.com/demian_ai/status/2091284132349317218",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQW71VaXIAEOJER.jpg?name=orig"
+        }
+      ],
+      "metrics": "3 REPLIES · 9 REPOSTS · 84 LIKES · 86 BOOKMARKS · 8752 VIEWS",
+      "links": [
+        "https://aibottlenecks.app/app/energy/watchlist"
+      ],
+      "_analysisTheme": "Robotics Product Stack",
+      "_analysisPriority": "high",
+      "quote": {
+        "id": "2090570650901451214",
+        "url": "https://x.com/demian_ai/status/2090570650901451214",
+        "author": "dylan ツ",
+        "handle": "demian_ai",
+        "text": "f*** it, complete mapping of the robotics space coming to https://aibottlenecks.app in a few days 👀\n\nbeen cooking on this one, also completely revamped the website, enriched the energy book, added more features, made design changes etc\n\nthis one will be gated to alpha members only",
+        "media": []
+      },
+      "article": {
+        "kind": "external",
+        "title": "Bottlenecks, map what AI, power, and robotics cannot scale without",
+        "url": "https://aibottlenecks.app/app/energy/watchlist",
+        "preview": "Map the physical constraints behind AI, power, and robotics, then track each listed thesis through a dated, inspectable evidence trail.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "DESIGN ENGINEERING",
+      "datetime": "2026-08-22T21:36:35.000Z",
+      "author": "Allen Zhou",
+      "handle": "allenzhou101",
+      "avatar": "https://pbs.twimg.com/profile_images/2069967811523604480/J4l421Zc_200x200.jpg",
+      "title": "AI 改变工程、产品、设计协作方式",
+      "summary": "Allen Zhou 预告与 Notion/Amplitude 讨论 AI 如何重塑工程、产品、设计和业务团队围绕构建速度协作。它值得抓取，因为设计工程师需要观察团队协作协议如何被 AI 工作流改写。",
+      "url": "https://x.com/allenzhou101/status/2091278383514808767",
+      "media": [],
+      "metrics": "0 REPLIES · 1 REPOSTS · 9 LIKES · 1 BOOKMARKS · 436 VIEWS",
+      "links": [
+        "https://bit.ly/4fz3bdS"
+      ],
+      "_analysisTheme": "AI Collaboration / Product Teams",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "Inside the research: The new reality of AI engineering — Notion Webinars",
+        "url": "https://bit.ly/4fz3bdS",
+        "preview": "Register for an upcoming Notion webinar.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI PRODUCT",
+      "datetime": "2026-08-22T21:35:48.000Z",
+      "author": "Michael Guo",
+      "handle": "Michaelzsguo",
+      "avatar": "https://pbs.twimg.com/profile_images/1484637162108825608/755rQsty_200x200.jpg",
+      "title": "Omarchy 把 AI Agent 视为操作系统原生用户",
+      "summary": "Michael Guo 把 Omarchy 解释为 AI-first OS：安装即带 Codex/Claude/OpenCode、Crash Watcher、模型用量、文件传输和本地语音输入。它值得抓取，因为 agent 产品会推动 PC 生态和系统级工具重新设计。",
+      "url": "https://x.com/Michaelzsguo/status/2091278187355312509",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQW2YWJWkAAywVP.jpg?name=orig"
+        }
+      ],
+      "metrics": "2 REPLIES · 1 REPOSTS · 13 LIKES · 4 BOOKMARKS · 1395 VIEWS",
+      "links": [],
+      "_analysisTheme": "AI-first OS / Local Agent",
+      "_analysisPriority": "high",
+      "quote": {
+        "id": "2091217800366809387",
+        "url": "https://x.com/Michaelzsguo/status/2091217800366809387",
+        "author": "Michael Guo",
+        "handle": "Michaelzsguo",
+        "text": "If you think Omarchy is just another Linux distro, you’re missing the bigger picture.\n\nOmarchy is shaping up to be the first truly AI-first operating system. Building an agentic workflow doesn’t require yet another orchestration tool (who still remembers OpenClaw?). Omarchy itself can serve as the orchestrator, providing native scheduling, notifications, keyboard shortcuts, desktop panels, approval gates, and agent handoffs.\n\nHere is an OmaBot I built: it checks Gmail, triages incoming messages, summarizes your newsletters, identifies potential junk, and asks for your approval before moving anything to Trash.\n\nThe LLM provides the reasoning. Omarchy provides the operating system around it. That's AI-native OS in the working.",
+        "media": [
+          {
+            "type": "image",
+            "src": "https://pbs.twimg.com/media/HQV_NfaXQAAVF99.jpg?name=orig"
+          }
+        ]
+      }
+    },
+    {
+      "category": "DESIGN TOOL",
+      "datetime": "2026-08-22T20:31:00.000Z",
+      "author": "Roshan",
+      "handle": "rolledpipe",
+      "avatar": "https://pbs.twimg.com/profile_images/1919707745995075584/lXXyhucU_200x200.jpg",
+      "title": "Rive 随机按钮把状态变化做成可玩动效",
+      "summary": "Rive 作者展示 randomize button：按钮状态不是只换标签，而是通过网格、弹性运动和随机反馈让控件本身变成可玩的生成器。它适合抓取，因为微交互正在从装饰动效转向可解释的产品状态。",
+      "url": "https://x.com/rolledpipe/status/2091261878370517427",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091222104784130048/vid/avc1/1436x1434/KEeHMhnOlo5TI2GX.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091222104784130048/img/wrQn0r4qG5JADmHO.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "11 REPLIES · 11 REPOSTS · 148 LIKES · 59 BOOKMARKS · 4086 VIEWS",
+      "links": [],
+      "_analysisTheme": "Interactive Motion / Rive",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "PRODUCT DESIGN",
+      "datetime": "2026-08-22T18:45:12.000Z",
+      "author": "Darius Dan",
+      "handle": "dariusdan",
+      "avatar": "https://pbs.twimg.com/profile_images/2010635171083505664/voFt50Pj_200x200.jpg",
+      "title": "Figma 图标跟随 macOS 外观模式变化",
+      "summary": "Darius Dan 观察 Figma 图标会按 macOS 明暗、清透和 tinted 设置变化，并点出 Framer、Paper 仍有适配空间。它值得抓取，因为系统主题适配已经进入品牌图标和桌面小细节。",
+      "url": "https://x.com/dariusdan/status/2091235253306159192",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091234460515676160/vid/avc1/1056x422/UhL03zVHxRgjdhMz.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091234460515676160/img/STgAG3lwJDDlrMWB.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "5 REPLIES · 0 REPOSTS · 36 LIKES · 12 BOOKMARKS · 4151 VIEWS",
+      "links": [],
+      "_analysisTheme": "Icon System / macOS Theme",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "PRODUCT DESIGN",
+      "datetime": "2026-08-22T18:40:19.000Z",
+      "author": "Emojipedia",
+      "handle": "Emojipedia",
+      "avatar": "https://pbs.twimg.com/profile_images/1377511626065248257/ZVniExax_200x200.jpg",
+      "title": "Android 7 emoji 变更提醒符号系统会持续演化",
+      "summary": "Emojipedia 回顾 Android 7.0 增加 Unicode 9、肤色修饰符，并让人物设计逐步替代 blobs。它值得抓取，因为表情符号是跨文化 icon system 的长期演进案例。",
+      "url": "https://x.com/Emojipedia/status/2091234026711396415",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQWN2siWkAA4wL5.jpg?name=orig"
+        }
+      ],
+      "metrics": "0 REPLIES · 2 REPOSTS · 39 LIKES · 1 BOOKMARKS · 2204 VIEWS",
+      "links": [
+        "https://blog.emojipedia.org/android-7-0-emoji-changelog/"
+      ],
+      "_analysisTheme": "Emoji System / Icon Evolution",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "Android 7.0 Nougat Emoji Changelog",
+        "url": "https://blog.emojipedia.org/android-7-0-emoji-changelog/",
+        "preview": "In the second major emoji update in 10 months [https://blog.emojipedia.org/android-6-0-1-emoji-changelog/], Google today released [https://android.googleblog.com/2016/08/android-70-nougat-more-powerful-os-made.html] Android 7.0 &quot;Nougat&quot; with a bunch of emoji additions. This latest release adds",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI MODEL",
+      "datetime": "2026-08-22T17:29:07.000Z",
+      "author": "黄赟",
+      "handle": "huangyun_122",
+      "avatar": "https://pbs.twimg.com/profile_images/1183766724534882305/SIxSKinT_200x200.jpg",
+      "title": "Gemini 3.7 Flash 在中文写稿上出现可感知优势",
+      "summary": "黄赟记录 Gemini 3.7 Flash 中文写稿首次体验强过 Opus 4.6，重点不是跑分，而是 AI 味更轻、中文逻辑更顺。它值得抓取，因为模型选择会直接影响写作产品的默认体验。",
+      "url": "https://x.com/huangyun_122/status/2091216106119963109",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQV9sxmbMAAmdVg.png?name=orig"
+        }
+      ],
+      "metrics": "6 REPLIES · 5 REPOSTS · 59 LIKES · 44 BOOKMARKS · 7557 VIEWS",
+      "links": [],
+      "_analysisTheme": "Chinese Writing / Model UX",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "AI CODING",
+      "datetime": "2026-08-22T17:08:18.000Z",
+      "author": "向阳乔木",
+      "handle": "vista8",
+      "avatar": "https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_200x200.jpg",
+      "title": "Codex 把 TRAE AI Passport 改成背单词工具",
+      "summary": "Vista8 用 Type-C 连接电脑，让 Codex 把 TRAE AI Passport 改成能显示中文和发音的背单词工具。它值得抓取，因为它展示了本地设备、AI coding 和轻量教育工具之间的真实改造路径。",
+      "url": "https://x.com/vista8/status/2091210866410897886",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091210577888833536/vid/avc1/1080x1920/IZWC9qejkUSKMkYz.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091210577888833536/img/1g05uz6-4C1N6e6M.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "11 REPLIES · 0 REPOSTS · 10 LIKES · 9 BOOKMARKS · 4055 VIEWS",
+      "links": [],
+      "_analysisTheme": "AI Coding / Device Workflow",
+      "_analysisPriority": "high"
+    },
+    {
       "category": "AI PRODUCT",
       "datetime": "2026-08-22T05:36:13.000Z",
       "author": "笠山儀孝|salesスキル|webマーケ |WEB制作|AI開発",

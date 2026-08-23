@@ -1,6 +1,310 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-22T13:42:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-23T08:18:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2091159920683237597",
+    "TwitterUserID": "296593919",
+    "UserScreenName": "vikingmute",
+    "UserProfileName": "Viking",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/725179208528322560/TPjU7qop_200x200.jpg",
+    "TweetText": "这个设计 skill 很棒：scandinavian-design，北欧极简风格，适合喜欢 minimal design 的各位，黑白中性色基础，性冷淡风格，https://scandinavian-design.vercel.app/\n\n有点像 IKEA那种少即是多的感觉。\n\n网站中提供了好多对比，我很喜欢改版以后的 github 的风格，录了个屏大家可以看看。",
+    "Tweet Url": "https://x.com/vikingmute/status/2091159920683237597",
+    "TweetCreatedDate": "2026-08-22T13:45:51.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091159823576682496/img/oKc5HmC-MS4LlRaQ.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2091159823576682496/vid/avc1/1920x1080/QPz5Sx_r9fgoj40x.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "App 体验 / 系统触点",
+      "media:video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091159823576682496/vid/avc1/1920x1080/QPz5Sx_r9fgoj40x.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091159823576682496/img/oKc5HmC-MS4LlRaQ.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Scandinavian design — before and after",
+      "url": "https://scandinavian-design.vercel.app/",
+      "preview": "Scandinavian design — before and after /scandinavian-design npx skills add ericzakariasson/scandinavian-design @ericzakariasson GitHub Pages Desktop Mobile Arrow keys move between pages. D and M switch desktop and mobile. Go to top",
+      "cover": ""
+    },
+    "_metrics": "17 REPLIES · 8 REPOSTS · 88 LIKES · 116 BOOKMARKS · 6614 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-23T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-22T13:45:51.000Z"
+    },
+    "_analysisTheme": "App 体验 / 系统触点",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这个设计 skill 很棒：scandinavian-design，北欧极简风格，适合喜欢 minimal design 的各位，黑白中性色基础，性冷淡风格，https://scandinavian-design.vercel.app/ … 这条可作为App 体验 / 系统触点参考。"
+  },
+  {
+    "TweetID": "2091117498041295055",
+    "TwitterUserID": "5869832",
+    "UserScreenName": "dexteryy",
+    "UserProfileName": "Dexter Yang ᯅノ🌐🔗🧙🏻‍♂️👾🦋",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1913241418526765056/5Jyy53Fr_200x200.jpg",
+    "TweetText": "除了以为苹果做的是VR，还有一个常见误区是以为Vision Pro这种「头显（headset）」产品是「AI眼镜」前的过渡形态和走弯路\n\n实际上「眼镜」和轻量化后的头显——「目镜（goggles）」，分别属于会长期共存的两个不同品类，解决的是不同场景的问题，这两个品类就是「手机」和「笔记本电脑/平板电脑」\n\n「笔记本电脑/平板电脑」面向的通用个人计算场景是：可以在不同地点使用，便于随身携带，但不能一直随身「穿戴」随时随地使用（就好像不能在走路的时候脖子上挂个小桌板持续用笔记本，也不能随时举起笔记本扫码拍照）。在使用过程中所处位置是相对固定的，并且即使在公众场合使用，也会更多集中在几种特定的场合（比如工位、会议室、咖啡馆），这些场合中的人都在做偏生产力和协作的事情，对效率或体验的追求（比如大屏幕、多任务、结构化可视化的信息、快速直观的输入、快捷协作），远胜于对外观、轻巧无感的追求（就好像大家不会都拿着个性化外观的手机一身轻松的在会议室开会），不能牺牲基本性能和完整能力。在软件方面主要是需要多任务、长会话和沉浸专注使用的应用场景\n\n而「手机」面向的通用个人计算场景是：一直「保持穿戴」（能随手掏出/举起手机也算「保持穿戴」），在日常生活的各种场景和各种行为中随时随地使用，走到哪用到哪，可以边移动边用。涉及的公众场合包括有大量强社交互动的场景，外观和无感（要轻巧无感到能随身保持穿戴）优先，为此可以牺牲性能和能力。在软件方面主要是短会话、跟日常生活和环境有结合的应用场景——现在你经常脱离现实埋头刷手机几小时，实际上是用手机在干手机并不最适合干的事情，只是因为手头缺少「笔记本/平板」式的设备\n\n「笔记本电脑/平板电脑」在海外称作「桌面设备」，在国内被俗称为「PC」，生态也像名字一样差别很大，海外的桌面平台是很发达很普及的，中国因为起步晚，PC生态（以及连带的Web生态）还没发展起来就被跳过了\n\n但AI agent会促进「PC生态」的普及和进一步发展，PC之于agent的重点不是它有没有端侧模型能力，而是它能给agent提供友好开放全能的本地Tool环境和代码Runtime，这样得到的「本地agent」跟你共用同一套客户端软件环境、共享所有状态，无缝协作，就像结对编程，是无法被云端agent取代的\n\n低延迟、隐私和降低token成本的需求，又会进一步推动这种「PC生态」快速演进到具备端侧AI能力和端侧多模态交互能力的「AI PC」（见之前发的帖子）\n\n「目镜」和「眼镜」一方面都可以作为自身品类中现有主力设备的「周边设备」来使用（目镜连笔记本，眼镜连手机），一方面都可以连接「算力盒子」，但上述两种场景的差异决定了只有前者的「盒子」和「主力设备」才能起到「PC / AI PC」的作用\n\n另外，就好像AI agent把以前只有少数专业极客power user拥有的复杂软件使用能力和通过写代码来高效使用软件的能力普及给大众，有完整空间计算能力的「目镜」设备也在把以前只有少数极客power user才拥有的「屏幕设备和交互设备」能力普及给大众（比如我书桌有超宽显示器、studio显示器等三个大屏、固定位置使用的12寸iPad Pro副屏和大量IoT/传感器小屏，沙发有10寸iPad Pro、小屏mbp、85寸电视和大量IoT/传感器小屏），「眼镜」对外观和无感（可一直保持穿戴）的优先追求让它的光学能力硬件能力软件能力都无法提供这种对屏幕设备的全面合并/取代/超越\n\n下下周字节要发布的PICO Space Pro可能是「PC」品类演进到「目镜」形态的第一代产品，后续有很多使用场景和AI用法等待着被解锁",
+    "Tweet Url": "https://x.com/dexteryy/status/2091117498041295055",
+    "TweetCreatedDate": "2026-08-22T10:57:17.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQUkRw9aIAAJaLJ.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Agent 工作流 / 设计工程",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQUkRw9aIAAJaLJ.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "id": "2091033761588609268",
+      "url": "https://x.com/dexteryy/status/2091033761588609268",
+      "author": "Dexter Yang ᯅノ🌐🔗🧙🏻‍♂️👾🦋",
+      "handle": "dexteryy",
+      "text": "所以Appleinsider最初那条新闻其实也没写错，说的很清楚是「team dedicated to VR development」、Apple Vision Group 的「VR team」\n\n实际情况是缩减了沉浸式视频团队和Siri团队、关了一个专注visionOS游戏的团队，跟PICO之前那轮调整差不多，缩减内容投入，专注主赛道，跟OS、软件、硬件没关系， 也不是只针对vision部门，裁的200人里有100人来自AI 部门\n\n问题是在很多人眼里vision pro就是VR，我昨天跟人扯了半天Apple做的不是VR😂",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQTYHieaAAAAi6u.jpg?name=orig"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "0 REPLIES · 1 REPOSTS · 10 LIKES · 2 BOOKMARKS · 2879 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-23T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-22T10:57:17.000Z"
+    },
+    "_analysisTheme": "Agent 工作流 / 设计工程",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：除了以为苹果做的是VR，还有一个常见误区是以为Vision Pro这种「头显（headset）」产品是「AI眼镜」前的过渡形态和走弯路 实际上「眼镜」和轻量化后的头显——「目镜（goggles）」，分别属于会长期共存的两个不同品类，解决的… 这条可作为Agent 工作流 / 设计工程参考。"
+  },
+  {
+    "TweetID": "2091110631659151637",
+    "TwitterUserID": "2032392734674427904",
+    "UserScreenName": "Droppyformac",
+    "UserProfileName": "Jordy Spruit",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2078888724067217408/6egaJ7fw_200x200.jpg",
+    "TweetText": "Add tasks blazingly fast with Droppy's calendar. Supports natural language as well! http://Getdroppy.app\n\nDynamic Island for macOS.",
+    "Tweet Url": "https://x.com/Droppyformac/status/2091110631659151637",
+    "TweetCreatedDate": "2026-08-22T10:30:00.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090878809314557952/img/alXJJEq0b2cYa9Ts.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090878809314557952/vid/avc1/1690x1030/SIKzyYybdcSU_5os.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "App 体验 / 系统触点",
+      "media:video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090878809314557952/vid/avc1/1690x1030/SIKzyYybdcSU_5os.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090878809314557952/img/alXJJEq0b2cYa9Ts.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Droppy. Your Mac, just way better.",
+      "url": "http://Getdroppy.app",
+      "preview": "Droppy turns your Mac",
+      "cover": ""
+    },
+    "_metrics": "0 REPLIES · 0 REPOSTS · 59 LIKES · 43 BOOKMARKS · 3417 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-23T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-22T10:30:00.000Z"
+    },
+    "_analysisTheme": "App 体验 / 系统触点",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：Add tasks blazingly fast with Droppy's calendar. Supports natural language as well! http://Getdroppy.app Dynamic Island… 这条可作为App 体验 / 系统触点参考。"
+  },
+  {
+    "TweetID": "2091101450671968608",
+    "TwitterUserID": "1752022872015417344",
+    "UserScreenName": "Manixh02",
+    "UserProfileName": "Manish Kumar",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2063627005753778176/JVC810VY_200x200.jpg",
+    "TweetText": "Found this today.\n\n- http://posts.design shows what real companies actually ship on socials\n- Not random inspiration, actual announcement cards and product posts\n- Updated daily, clean reference wall\n\nUseful when you need to see how the good ones do it.",
+    "Tweet Url": "https://x.com/Manixh02/status/2091101450671968608",
+    "TweetCreatedDate": "2026-08-22T09:53:31.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091101415242686464/img/WyqL2Am-6moB4C_V.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2091101415242686464/vid/avc1/1280x720/DczkAB9G_8fgfVVR.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计收藏偏好",
+      "media:video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091101415242686464/vid/avc1/1280x720/DczkAB9G_8fgfVVR.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091101415242686464/img/WyqL2Am-6moB4C_V.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Social post design inspiration — posts.design",
+      "url": "http://posts.design",
+      "preview": "See what the best companies actually ship to their socials.",
+      "cover": ""
+    },
+    "_metrics": "15 REPLIES · 18 REPOSTS · 171 LIKES · 178 BOOKMARKS · 6329 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-23T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-22T09:53:31.000Z"
+    },
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Found this today. - http://posts.design shows what real companies actually ship on socials - Not random inspiration, ac… 这条可作为个人设计收藏偏好参考。"
+  },
+  {
+    "TweetID": "2090932059103789116",
+    "TwitterUserID": "495154216",
+    "UserScreenName": "tjcages",
+    "UserProfileName": "ty",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1887955709356101632/YEV7-z6u_200x200.jpg",
+    "TweetText": "last week i shared this text animation\n\nnow it's installable. paste this into your agent:\n\n`Implement https://offbr.co/tools/shimmer-text/installation`",
+    "Tweet Url": "https://x.com/tjcages/status/2090932059103789116",
+    "TweetCreatedDate": "2026-08-21T22:40:25.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090932042972434432/img/v5DPWxmkvQq1se_Q.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090932042972434432/vid/avc1/1280x720/NyUlnC8pOcuxoAMw.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "交互动效 / 视觉原型",
+      "media:video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090932042972434432/vid/avc1/1280x720/NyUlnC8pOcuxoAMw.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090932042972434432/img/v5DPWxmkvQq1se_Q.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "shimmer-text — JavaScript Package — Off brand",
+      "url": "https://offbr.co/tools/shimmer-text/installation",
+      "preview": "A wavy soft-blur front sweeps across your text, chromatic aberration on the leading edge, then settles crisp. One file, zero dependencies, 8 kB gzipped.",
+      "cover": ""
+    },
+    "_metrics": "0 REPLIES · 8 REPOSTS · 195 LIKES · 254 BOOKMARKS · 8162 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-23T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-21T22:40:25.000Z"
+    },
+    "_analysisTheme": "交互动效 / 视觉原型",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：last week i shared this text animation now it's installable. paste this into your agent: `Implement https://offbr.co/to… 这条可作为交互动效 / 视觉原型参考。"
+  },
+  {
+    "TweetID": "2090928682881917175",
+    "TwitterUserID": "1881991469730594816",
+    "UserScreenName": "gkxspace",
+    "UserProfileName": "余温",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1952432952928784384/k7SIkQ7I_200x200.jpg",
+    "TweetText": "Grok Bot 下放啦，老马是真的舍得给资源啊！！！\n\n现在不止是 Ultra 会员，SuperGrok Plus、Cursor Pro+ 都可以用了，估计马上就要到 20刀 会员了。\n\n英区老外们已经把 Grok Bot 当员工用了：\n\nGrok 的 Agent 能力 + 一台持续在线的 Linux 云电脑\n\n1、有人只用手机发了两个提示词，Bot 自己装插件、搭前后端、买域名、配 Cloudflare，最后直接交一个能访问的网站。\n\n2、一个独立游戏开发者，把代码和自己的生图工具交给它。\n两个小时，74 个美术素材全部生成、裁切、去背景，再接回游戏里。后面连试玩和发版也一起交了。\n\n3、还有人拿它清邮箱、追退款、管 Stripe 客服、参加会议、做销售线索、每天整理播客和 X 热点。\n\n老马给每个账号配了一台一直在线的云电脑，浏览器会保留登录态，文件一直在里面，你建的多个 Bot 共用这台电脑，可以互相交任务。你的 Mac 合上了，它们还在继续干活。\n\nGrok Bot 用着舒服，很大一部分就来自这里。它把云电脑、浏览器操作、插件、Skills、定时任务、多 Agent 协作全装在一起，而且用起来就是发消息，根本不用先学工作流。\n\nhttps://x.com/bot/status/2090852881373311369/video/1",
+    "Tweet Url": "https://x.com/gkxspace/status/2090928682881917175",
+    "TweetCreatedDate": "2026-08-21T22:27:00.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090852806257422336/img/KVKEJeuQ9gDJ9zg7.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090852806257422336/vid/avc1/1920x1080/9sy3WyzjUKr5Zl6j.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Agent 工作流 / 设计工程",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090852806257422336/vid/avc1/1920x1080/9sy3WyzjUKr5Zl6j.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090852806257422336/img/KVKEJeuQ9gDJ9zg7.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": {
+      "id": "2090852881373311369",
+      "url": "https://x.com/bot/status/2090852881373311369",
+      "author": "Grok Bot",
+      "handle": "bot",
+      "text": "We're making Grok Bot more widely available.\n\nAll SuperGrok Plus, Cursor Pro+, and Cursor Teams subscribers now have access.\n\nWe're also offering a free trial with limited usage for all other users.",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2090852806257422336/vid/avc1/1920x1080/9sy3WyzjUKr5Zl6j.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2090852806257422336/img/KVKEJeuQ9gDJ9zg7.jpg",
+          "crossOrigin": false
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "39 REPLIES · 17 REPOSTS · 203 LIKES · 193 BOOKMARKS · 46303 VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-23T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-21T22:27:00.000Z"
+    },
+    "_analysisTheme": "Agent 工作流 / 设计工程",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Grok Bot 下放啦，老马是真的舍得给资源啊！！！ 现在不止是 Ultra 会员，SuperGrok Plus、Cursor Pro+ 都可以用了，估计马上就要到 20刀 会员了。 英区老外们已经把 Grok Bot 当员工用了： G… 这条可作为Agent 工作流 / 设计工程参考。"
+  },
   {
     "TweetID": "2090808948366487578",
     "TwitterUserID": "14354238",
