@@ -1,6 +1,479 @@
 (() => {
   window.HOME_BACKFILL = [
     {
+      "category": "DESIGN RESOURCE",
+      "datetime": "2026-08-23T07:39:45.000Z",
+      "author": "Manish Kumar",
+      "handle": "Manixh02",
+      "avatar": "https://pbs.twimg.com/profile_images/2063627005753778176/JVC810VY_200x200.jpg",
+      "title": "真实站点 Hero Section 库适合落地页参考",
+      "summary": "Manish Kumar 展示一个按 dark、minimal、bento、3D、gradient 等风格筛选的真实 hero section 参考库。它值得抓取，因为设计工程师做 landing page 时需要真实案例，而不是抽象灵感图。",
+      "url": "https://x.com/Manixh02/status/2091430174810329501",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091430130463977472/vid/avc1/640x360/ACSGLra47TrsfQuW.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091430130463977472/img/2beaIzjjYYz_FFtO.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 46 VIEWS",
+      "links": [],
+      "_analysisTheme": "Hero Section References",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "DESIGN WORKFLOW",
+      "datetime": "2026-08-23T07:29:14.000Z",
+      "author": "Siray L",
+      "handle": "siray_l",
+      "avatar": "https://pbs.twimg.com/profile_images/2068532672071364608/jckAuZ3U_200x200.jpg",
+      "title": "把 design skills 交给 agent 编排，但质量判断留给人",
+      "summary": "Siray L 说自己不再手选 taste、motion、anti-slop、prototyping 等 design skills，而是让 Claude Code/Cursor 按步骤调度，自己只负责判断 live cards。它值得抓取，因为这正是个人设计师的 agent workflow：自动化流程，人保留品味闸门。",
+      "url": "https://x.com/siray_l/status/2091427530268148150",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQY-PaTbkAANseR.png?name=orig"
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 13 VIEWS",
+      "links": [],
+      "_analysisTheme": "Design Skills Orchestration",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "DESIGN TOOL",
+      "datetime": "2026-08-23T07:28:08.000Z",
+      "author": "Nero",
+      "handle": "neropursue",
+      "avatar": "https://pbs.twimg.com/profile_images/2044050048720195584/2igILgnd_200x200.jpg",
+      "title": "Motion 工具清单覆盖 Spline、Rive、GSAP 到 Cavalry",
+      "summary": "Nero 汇总 Spline、Lottielab、Jitter、Rive、LottieFiles、GSAP、Cavalry、Motion 等动效工具。它值得抓取，因为动效栈选择正在影响从原型、网页动画到产品可交互资产的交付方式。",
+      "url": "https://x.com/neropursue/status/2091427253078962211",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091424403267493888/vid/avc1/622x360/oex9EJu1C8wwYeEv.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091424403267493888/img/es3B_q3qVlp53xRv.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "2 REPLIES · 1 REPOSTS · 11 LIKES · 6 BOOKMARKS · 243 VIEWS",
+      "links": [
+        "http://spline.design",
+        "http://lottielab.com",
+        "http://jitter.video",
+        "http://rive.app",
+        "http://lottiefiles.com",
+        "http://gsap.com",
+        "http://cavalry.studio",
+        "http://motion.dev"
+      ],
+      "_analysisTheme": "Motion Tool Stack",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "Spline - 3D Design tool in the browser with real-time collaboration",
+        "url": "https://spline.design/",
+        "preview": "Spline is a free 3D design software with real-time collaboration to create web interactive experiences in the browser. Easy 3d modeling, animation, textures, and more.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI TOOLING",
+      "datetime": "2026-08-23T07:26:33.000Z",
+      "author": "wong2",
+      "handle": "wong2__",
+      "avatar": "https://pbs.twimg.com/profile_images/1674463328264134657/IySD9Y3X_200x200.jpg",
+      "title": "codex-resets 把 Tibo 的重置时间转换为本地可读时间",
+      "summary": "wong2 为 codex-resets.com 增加 UTC 与本地时间 hover，解决 Tibo 用加州时间描述重置导致的理解偏差。它值得抓取，因为小型工具可以精准修复 AI 工具的日常使用摩擦。",
+      "url": "https://x.com/wong2__/status/2091426853315830136",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQY8UuqaMAAOKmX.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQY8_2YaEAAys0O.jpg?name=orig"
+        }
+      ],
+      "metrics": "1 REPLIES · 1 REPOSTS · 4 LIKES · 0 BOOKMARKS · 552 VIEWS",
+      "links": [
+        "http://codex-resets.com"
+      ],
+      "_analysisTheme": "Codex Quota UX",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "Codex Limit Reset Tracker & History | Codex Resets",
+        "url": "https://codex-resets.com/",
+        "preview": "Track the latest OpenAI Codex limit reset, browse Codex reset history, and get notified when new Codex resets are announced.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "DESIGN ENGINEERING",
+      "datetime": "2026-08-23T07:24:22.000Z",
+      "author": "Fayaz Ahmed",
+      "handle": "fayazara",
+      "avatar": "https://pbs.twimg.com/profile_images/2044198899313979393/KepZgE0z_200x200.jpg",
+      "title": "Shiki 被 Fayaz port 到 native Swift",
+      "summary": "Fayaz 提到自己把 Shiki port 到 native Swift，并放出 shiki-swift 仓库。它值得抓取，因为代码高亮和主题渲染是开发者工具、文档和 AI 工作台的基础视觉能力。",
+      "url": "https://x.com/fayazara/status/2091426303601999989",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQY8_48bIAAE84P.jpg?name=orig"
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 2 LIKES · 2 BOOKMARKS · 173 VIEWS",
+      "links": [
+        "https://github.com/fayazara/shiki-swift"
+      ],
+      "_analysisTheme": "Shiki Swift",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "GitHub - fayazara/shiki-swift · GitHub",
+        "url": "https://github.com/fayazara/shiki-swift",
+        "preview": "Contribute to fayazara/shiki-swift development by creating an account on GitHub.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI PRODUCT",
+      "datetime": "2026-08-23T07:22:10.000Z",
+      "author": "宝玉",
+      "handle": "dotey",
+      "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+      "title": "服务与 App 应提供 MCP/CLI，而不是强塞内置 agent",
+      "summary": "宝玉指出每个人常用 agent 只有两三个，服务或 App 更好的形式是提供 MCP 或 CLI，让用户从自己的 agent 里访问。它值得抓取，因为这明确指向 AI 产品集成策略。",
+      "url": "https://x.com/dotey/status/2091425749739643124",
+      "media": [],
+      "metrics": "2 REPLIES · 0 REPOSTS · 12 LIKES · 2 BOOKMARKS · 3.1K VIEWS",
+      "links": [],
+      "_analysisTheme": "MCP / CLI Product Surface",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "AI INFRA",
+      "datetime": "2026-08-23T07:19:20.000Z",
+      "author": "Fayaz Ahmed",
+      "handle": "fayazara",
+      "avatar": "https://pbs.twimg.com/profile_images/2044198899313979393/KepZgE0z_200x200.jpg",
+      "title": "Durable Objects are Computers 帮 Fayaz 理解 DOs",
+      "summary": "Fayaz 分享 Sunil Pai 的 Durable Objects 文章，称它让自己理解了 DOs。它值得抓取，因为边缘状态和长生命周期对象会影响 AI 产品的实时协作架构。",
+      "url": "https://x.com/fayazara/status/2091425037735928233",
+      "media": [],
+      "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 1 BOOKMARKS · 196 VIEWS",
+      "links": [
+        "https://sunilpai.dev/posts/durable-objects-are-computers/"
+      ],
+      "_analysisTheme": "Durable Objects Mental Model",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "Durable Objects are Computers / Containers / Servers • Solving the decision problem",
+        "url": "https://sunilpai.dev/posts/durable-objects-are-computers/",
+        "preview": "(everything old is new again)",
+        "cover": ""
+      }
+    },
+    {
+      "category": "DESIGN TOOL",
+      "datetime": "2026-08-23T07:10:57.000Z",
+      "author": "NeneQi Xia",
+      "handle": "neneqi2924",
+      "avatar": "https://pbs.twimg.com/profile_images/2046776213021315072/H9ClcAZx_200x200.png",
+      "title": "OpenPencil 把 AI-native vector canvas 推到开源协作",
+      "summary": "NeneQi Xia 抓到 OpenPencil v0.8.4：一个 MIT 开源的 AI-native vector canvas，用并行 agent 在无限画布上拆分落地页模块。它值得抓取，因为它把“设计稿生成”从单次 prompt 推向可并行、可版本化的视觉编译流程。",
+      "url": "https://x.com/neneqi2924/status/2091422929498349687",
+      "media": [],
+      "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 40 VIEWS",
+      "links": [
+        "http://Pencil.dev",
+        "https://github.com/ZSeven-W/openpencil"
+      ],
+      "_analysisTheme": "AI Native Vector Canvas",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "pen.dev – Design on canvas. Land in code.",
+        "url": "https://www.pen.dev/",
+        "preview": "pen.dev fundamentally increases your engineering speed by bringing designing directly into your preferred IDE.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI RESEARCH",
+      "datetime": "2026-08-23T07:06:59.000Z",
+      "author": "Zhihu Frontier",
+      "handle": "ZhihuFrontier",
+      "avatar": "https://pbs.twimg.com/profile_images/1962724102051090432/DqU5eS4W_200x200.jpg",
+      "title": "Agent 模型可能在 overfit harness 而不是学任务",
+      "summary": "Zhihu Frontier 指出 DeepSeek V4 Pro 在不同 agent harness 里表现分裂，提示模型可能靠适配评测环境接近上限。它值得抓取，因为 AI 产品不能只看榜单分数，还要看真实框架、任务分布和工具链鲁棒性。",
+      "url": "https://x.com/ZhihuFrontier/status/2091421929546932351",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQY4_cPawAE70Ge.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQY5GTzagAAKSip.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQY5IA3aAAAY0mI.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQY5Jk5bQAA0JIy.jpg?name=orig"
+        }
+      ],
+      "metrics": "2 REPLIES · 0 REPOSTS · 7 LIKES · 5 BOOKMARKS · 407 VIEWS",
+      "links": [
+        "https://zhuanlan.zhihu.com/p/2074614450179543828"
+      ],
+      "_analysisTheme": "Agent Evaluation / Harness",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "https://zhuanlan.zhihu.com/p/2074614450179543828",
+        "url": "https://zhuanlan.zhihu.com/p/2074614450179543828",
+        "preview": "知乎，让每一次点击都充满意义 —— 欢迎来到知乎，发现问题背后的世界。",
+        "cover": ""
+      }
+    },
+    {
+      "category": "DESIGN ENGINEERING",
+      "datetime": "2026-08-23T07:02:43.000Z",
+      "author": "十里",
+      "handle": "okooo5km",
+      "avatar": "https://pbs.twimg.com/profile_images/2020293051302965250/jJjJxUI6_200x200.jpg",
+      "title": "C# + WinUI3 + FluentUI 也能做出高质感原生 app",
+      "summary": "十里在 Zipic Windows 和 Clips 开发后认为，C# + WinUI3 + FluentUI 能做出不输 macOS 的质感，但最后 20% 仍靠产品思维与审美。它值得抓取，因为 AI coding 不能替代平台设计判断。",
+      "url": "https://x.com/okooo5km/status/2091420855373033700",
+      "media": [],
+      "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 119 VIEWS",
+      "links": [],
+      "_analysisTheme": "WinUI Native App",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "DESIGN TOOL",
+      "datetime": "2026-08-23T06:46:19.000Z",
+      "author": "Fayaz Ahmed",
+      "handle": "fayazara",
+      "avatar": "https://pbs.twimg.com/profile_images/2044198899313979393/KepZgE0z_200x200.jpg",
+      "title": "Fayaz 把 tactile image filters 加进 textures studio",
+      "summary": "Fayaz 把新的纹理效果加入 texture.fayaz.workers.dev，并用视频展示 tactile image filters。它值得抓取，因为轻量视觉滤镜工具适合快速做品牌质感和网页背景实验。",
+      "url": "https://x.com/fayazara/status/2091416730891649516",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091416461546016768/vid/avc1/544x360/2OTWmTgCnC6vlEbF.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091416461546016768/img/VECR6nlMyq-O0QBn.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "1 REPLIES · 2 REPOSTS · 41 LIKES · 45 BOOKMARKS · 3.4K VIEWS",
+      "links": [
+        "https://texture.fayaz.workers.dev"
+      ],
+      "_analysisTheme": "Texture Studio",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "Textures - Tactile image filters",
+        "url": "https://texture.fayaz.workers.dev/",
+        "preview": "Add print, glyph, paper, and painterly textures to images locally in your browser.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI UX",
+      "datetime": "2026-08-23T06:37:28.000Z",
+      "author": "Udayan Walvekar",
+      "handle": "udayan_w",
+      "avatar": "https://pbs.twimg.com/profile_images/1905507726937280512/L5ZlTTlF_200x200.jpg",
+      "title": "Codex /rename 需求暴露多终端 agent 识别成本",
+      "summary": "Udayan 提议 Codex 支持 /rename：自动生成名称和颜色，固定显示在 terminal 底部，解决十几个 sessions 长得一样的问题。它值得抓取，因为多 agent 并行后，身份、状态和回看成本成为核心 UX。",
+      "url": "https://x.com/udayan_w/status/2091414503070277804",
+      "media": [],
+      "metrics": "2 REPLIES · 0 REPOSTS · 6 LIKES · 0 BOOKMARKS · 581 VIEWS",
+      "links": [],
+      "_analysisTheme": "Codex Thread Naming",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "PRODUCT DESIGN",
+      "datetime": "2026-08-23T06:18:42.000Z",
+      "author": "LUCERRÁ",
+      "handle": "lucerrastudio",
+      "avatar": "https://pbs.twimg.com/profile_images/2052217083115753472/OUhBQ0EZ_200x200.jpg",
+      "title": "LUCERRÁ experience 获 FWA，适合研究 cinematic web",
+      "summary": "LUCERRÁ 宣布其新数字体验获得 FWA，并链接到 lucerra.co。它值得抓取，因为影视化网页体验适合观察声音、滚动、空间镜头与品牌叙事如何结合。",
+      "url": "https://x.com/lucerrastudio/status/2091409778950180948",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091409238530904064/vid/avc1/540x540/jw3qtlnvJg1jiNXM.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091409238530904064/img/V_fIVn_NDnq2iSKV.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "0 REPLIES · 1 REPOSTS · 2 LIKES · 0 BOOKMARKS · 31 VIEWS",
+      "links": [
+        "https://lucerra.co/"
+      ],
+      "_analysisTheme": "FWA Digital Experience",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "LUCERRÁ | Digital experiences, directed as cinema",
+        "url": "https://www.lucerra.co/",
+        "preview": "We believe digital design should transcend to become a living, cinematic experience. We are for the architects of the unknown that understand the rulebook of art and storytelling.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI AGENT",
+      "datetime": "2026-08-23T04:29:28.000Z",
+      "author": "Fayaz Ahmed",
+      "handle": "fayazara",
+      "avatar": "https://pbs.twimg.com/profile_images/2044198899313979393/KepZgE0z_200x200.jpg",
+      "title": "Cloudflare OS 暴露 shared Context 和 Skills library",
+      "summary": "Fayaz 注意到 Cloudflare OS 有 shared Context 和 Skills library，还支持团队专家维护、自建 private skills、甚至用 git repo mirror。它值得抓取，因为 agent 工作台正在把组织知识做成可编辑、可同步的技能层。",
+      "url": "https://x.com/fayazara/status/2091382291314737200",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQYUFDobwAEhFK8.png?name=orig"
+        }
+      ],
+      "metrics": "3 REPLIES · 3 REPOSTS · 77 LIKES · 69 BOOKMARKS · 6.7K VIEWS",
+      "links": [],
+      "_analysisTheme": "Cloudflare OS / Skills",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "DESIGN TOOL",
+      "datetime": "2026-08-23T04:20:24.000Z",
+      "author": "Fayaz Ahmed",
+      "handle": "fayazara",
+      "avatar": "https://pbs.twimg.com/profile_images/2044198899313979393/KepZgE0z_200x200.jpg",
+      "title": "Screendrop 只有 6.8MB 且开源",
+      "summary": "Fayaz 补充 Screendrop 体积只有 6.8MB 并且开源。它值得抓取，因为小体积、开源、单一场景的截图/屏幕工具，正好对抗越来越重的设计生产应用。",
+      "url": "https://x.com/fayazara/status/2091380007553917282",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091379861659262976/vid/avc1/556x360/HMOdanwnvRg1xzAJ.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091379861659262976/img/nkgCFlaNNgi2lv0s.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "15 REPLIES · 6 REPOSTS · 224 LIKES · 224 BOOKMARKS · 12K VIEWS",
+      "links": [],
+      "_analysisTheme": "Screendrop",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "AI VIDEO",
+      "datetime": "2026-08-23T04:09:30.000Z",
+      "author": "林悦己Cheer",
+      "handle": "cheerselflin",
+      "avatar": "https://pbs.twimg.com/profile_images/2082701454712934400/l4yjO2LF_200x200.jpg",
+      "title": "Wan 3.0 以更低单价挑战 Seedance 2.5 视频生成",
+      "summary": "林悦己 Cheer 对比 wan3 与 Seedance 2.5：同提示词下 wan3 可生成 30s，720p 单价约 $0.11/s，对比 Seedance 2.5 约 $0.293/s。它值得抓取，因为 AI 视频工具选型必须同时看成本、时长和稳定性。",
+      "url": "https://x.com/cheerselflin/status/2091377263048622131",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091377112510840832/vid/avc1/480x852/xjmVsdKoCkwLTCYD.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091377112510840832/img/tPH8E7aTIWjc4Txt.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 3 BOOKMARKS · 819 VIEWS",
+      "links": [
+        "https://evolink.ai/wan-3-0?utm_source=twitter&utm_medium=thread&utm_campaign=wan3"
+      ],
+      "_analysisTheme": "Wan 3.0 / Seedance Cost Test",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "Wan 3.0 API: Pricing, Model IDs & 30s Video | EvoLink",
+        "url": "https://evolink.ai/wan-3-0?utm_source=twitter&utm_medium=thread&utm_campaign=wan3",
+        "preview": "Use Wan 3.0 through EvoLink&#x27;s unified video API. Choose text, image, or reference routes, compare 480p-1080p pricing, and generate video up to 30 seconds.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI PRODUCT",
+      "datetime": "2026-08-23T03:52:47.000Z",
+      "author": "向阳乔木",
+      "handle": "vista8",
+      "avatar": "https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_200x200.jpg",
+      "title": "48 个 AI Newsletter 被做成自用 iOS 阅读器并开源",
+      "summary": "向阳乔木把常看的 48 个 AI Newsletter 做成自用原生 iOS 阅读器，并公开 qmreader-ios。它值得抓取，因为信息流整理从手工收藏变成可自部署的个人 AI 阅读系统。",
+      "url": "https://x.com/vista8/status/2091373058913366257",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQYL-vqagAAj9hh.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQYMTiOa0AAnX16.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQYMrOCbQAE0S00.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQYMtDmbMAAO-F-.jpg?name=orig"
+        }
+      ],
+      "metrics": "10 REPLIES · 3 REPOSTS · 58 LIKES · 79 BOOKMARKS · 9.1K VIEWS",
+      "links": [
+        "https://github.com/joeseesun/qmreader-ios"
+      ],
+      "_analysisTheme": "Personal AI Reader",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "GitHub - joeseesun/qmreader-ios: 专注中文长文、翻译与乔木改写的原生 iOS 阅读器 | Native iOS reader for Chinese long-form reading, translation, and Qiaomu rewrites. · GitHub",
+        "url": "https://github.com/joeseesun/qmreader-ios",
+        "preview": "专注中文长文、翻译与乔木改写的原生 iOS 阅读器 | Native iOS reader for Chinese long-form reading, translation, and Qiaomu rewrites. - joeseesun/qmreader-ios",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI AGENT",
+      "datetime": "2026-08-23T03:28:24.000Z",
+      "author": "向阳乔木",
+      "handle": "vista8",
+      "avatar": "https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_200x200.jpg",
+      "title": "Nowledge-mem 把 Codex 记忆变成跨任务效率补丁",
+      "summary": "向阳乔木推荐 Nowledge-mem：支持 Codex 等 agent，让上下文记忆随使用积累，能找回上次开发交付状态。它值得抓取，因为 agent 记忆正在从“聊天记录”变成生产工作台的一部分。",
+      "url": "https://x.com/vista8/status/2091366920188813634",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQYHHwvaAAAe3s3.jpg?name=orig"
+        }
+      ],
+      "metrics": "18 REPLIES · 3 REPOSTS · 52 LIKES · 80 BOOKMARKS · 11K VIEWS",
+      "links": [],
+      "_analysisTheme": "Agent Memory",
+      "_analysisPriority": "high"
+    },
+    {
       "category": "DESIGN ENGINEERING",
       "datetime": "2026-08-23T00:03:46.000Z",
       "author": "Danna R.",
@@ -430,6 +903,21 @@
       "_analysisPriority": "high"
     },
     {
+      "category": "AI WORKFLOW",
+      "datetime": "2026-08-22T19:01:33.000Z",
+      "author": "响马",
+      "handle": "xicilion",
+      "avatar": "https://pbs.twimg.com/profile_images/1792551913969631232/tBrYW9Vq_200x200.jpg",
+      "title": "AI 时代文档可能转向 PlantUML 式语义图",
+      "summary": "响马认为 AI 普及后信息交换瓶颈在 AI 与人，而非人和人，支持 PlantUML 这类 AI 容易表达、人也能读懂的语义绘图。它值得抓取，因为设计交付物需要适配 agent 解析。",
+      "url": "https://x.com/xicilion/status/2091239367046213727",
+      "media": [],
+      "metrics": "37 REPLIES · 8 REPOSTS · 83 LIKES · 49 BOOKMARKS · 12K VIEWS",
+      "links": [],
+      "_analysisTheme": "AI-readable Documentation",
+      "_analysisPriority": "medium"
+    },
+    {
       "category": "PRODUCT DESIGN",
       "datetime": "2026-08-22T18:45:12.000Z",
       "author": "Darius Dan",
@@ -521,6 +1009,51 @@
       "links": [],
       "_analysisTheme": "AI Coding / Device Workflow",
       "_analysisPriority": "high"
+    },
+    {
+      "category": "DESIGN RESOURCE",
+      "datetime": "2026-08-22T16:58:26.000Z",
+      "author": "MAZE",
+      "handle": "remvze",
+      "avatar": "https://pbs.twimg.com/profile_images/2082915897627324417/xHjxpMlG_200x200.jpg",
+      "title": "mnmm.xyz 新增四个 minimal website 参考",
+      "summary": "MAZE 更新 mnmm.xyz 的 minimal websites：Flo Höller、Xchyler Drenth、Sanyam Punia、Rohan Kadakia 等案例。它值得抓取，因为高质量 minimal portfolio 是视觉节奏、留白和动效克制的实战参考。",
+      "url": "https://x.com/remvze/status/2091208387337838878",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQV26iIXMAA-sCP.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQV27DkWIAA7HC3.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQV27umWsAArZ0z.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQV28MXWIAAZsDF.jpg?name=orig"
+        }
+      ],
+      "metrics": "5 REPLIES · 0 REPOSTS · 46 LIKES · 62 BOOKMARKS · 2.6K VIEWS",
+      "links": [
+        "http://mnmm.xyz",
+        "http://flohoeller.com",
+        "http://xchyler.works",
+        "http://sanyam.sh",
+        "http://rokadakia.com"
+      ],
+      "_analysisTheme": "Minimal Websites Directory",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "Minimum: Minimal Websites Directory",
+        "url": "https://mnmm.xyz/",
+        "preview": "A carefully curated collection of minimal websites.",
+        "cover": ""
+      }
     },
     {
       "category": "AI PRODUCT",

@@ -1,6 +1,855 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-23",
+    "generatedAt": "2026-08-23T15:40:00+08:00",
+    "batch": "x-ai-design-analysis-2026-08-23-1540",
+    "analysisCount": 22,
+    "homeCount": 20,
+    "likeCount": 2,
+    "linksInspected": 25,
+    "unavailableLinks": 2,
+    "summary": "2026-08-23 午后补充：通过登录态 X Home/Following/时间线 tab 与搜索观察 659 条 Home appearances、210 个唯一 fresh Home 候选，精选 20 条同日 Home；Likes 滚动 69 条、17 个唯一 ID，遇到 known-ID 边界并写入 2 条 fresh Like；今日 Analysis 已有 100 条，本批只追加 22 条新学习项，不做历史回补。",
+    "sourceWindow": {
+      "strategy": "使用 ego-browser 独立 task space 10 复用 X 登录态；Home 覆盖 For You、正在关注、Design Engineers、JPI、AI 御三家超级员工、独立创造者，以及 AI/agent、AI product、design tool、product design、visual work、indie product 搜索；Likes 进入 x.com/neoedon414/likes 并滚动到连续 known-ID 边界。外链只读取原帖暴露 URL，不使用普通网页搜索替代 X 采集。",
+      "newestHomeDatetime": "2026-08-23T07:39:45.000Z",
+      "oldestHomeDatetime": "2026-08-23T06:18:42.000Z",
+      "newestLikeDatetime": "2026-08-22T14:35:51.000Z",
+      "oldestLikeDatetime": "2026-08-21T16:07:28.000Z",
+      "expandedWindow": "Home 新增 20 条均属于 Asia/Shanghai 2026-08-23；当天已达 20 条目标，本批属于午后高价值增量。Analysis 当天运行前已有 100 条，本批只追加新 Home 与 fresh Like，不回补历史。",
+      "observed": {
+        "homeRaw": 659,
+        "homeUnique": 210,
+        "homeSelected": 20,
+        "rejectedHomeCandidates": 190,
+        "selectedHomeIds": [
+          "2091430174810329501",
+          "2091422929498349687",
+          "2091427253078962211",
+          "2091421929546932351",
+          "2091427530268148150",
+          "2091373058913366257",
+          "2091366920188813634",
+          "2091416730891649516",
+          "2091382291314737200",
+          "2091425749739643124",
+          "2091420855373033700",
+          "2091426853315830136",
+          "2091426303601999989",
+          "2091414503070277804",
+          "2091425037735928233",
+          "2091380007553917282",
+          "2091377263048622131",
+          "2091239367046213727",
+          "2091208387337838878",
+          "2091409933304803700"
+        ],
+        "likeRaw": 69,
+        "likeUnique": 17,
+        "freshLikeIds": [
+          "2091172503041499611",
+          "2090833170359079158"
+        ],
+        "likeBoundary": "known-id-boundary",
+        "linksRead": 25,
+        "unavailableLinks": 2
+      }
+    },
+    "items": [
+      {
+        "id": "2091430174810329501",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Manixh02/status/2091430174810329501",
+        "author": "Manish Kumar",
+        "handle": "Manixh02",
+        "datetime": "2026-08-23T07:39:45.000Z",
+        "title": "真实站点 Hero Section 库适合落地页参考",
+        "originalSummary": "原帖内容：Found a solid library of website hero sections. - Curated collection of real, high-quality heroes from actual sites - Filter by style like dark, minimal, bento, 3D, gradient, illustration - Great reference when you need ",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：Manish Kumar 展示一个按 dark、minimal、bento、3D、gradient 等风格筛选的真实 hero section 参考库。它值得抓取，因为设计工程师做 landing page 时需要真实案例，而不是抽象灵感图。",
+        "deepSummary": "这条的价值在于把 hero 参考从“看漂亮截图”变成可按风格筛选的真实站点素材库；适合沉淀到落地页首屏、动效和信息层级的参考清单。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Hero Section References」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Hero",
+          "Landing Page",
+          "视觉参考",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091422929498349687",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/neneqi2924/status/2091422929498349687",
+        "author": "NeneQi Xia",
+        "handle": "neneqi2924",
+        "datetime": "2026-08-23T07:10:57.000Z",
+        "title": "OpenPencil 把 AI-native vector canvas 推到开源协作",
+        "originalSummary": "原帖内容：The GitHub Rust weekly board is carrying a design tool, not another coding harness. OpenPencil cut v0.8.4 on August 11 and has added about 628 stars this week, now 5.6k: an MIT-licensed, AI-native vector canvas that trea",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：NeneQi Xia 抓到 OpenPencil v0.8.4：一个 MIT 开源的 AI-native vector canvas，用并行 agent 在无限画布上拆分落地页模块。它值得抓取，因为它把“设计稿生成”从单次 prompt 推向可并行、可版本化的视觉编译流程。",
+        "deepSummary": "OpenPencil 值得深读的是它把设计画布、代码生成和 agent 团队拆工放在同一界面里：个人设计师可以观察其节点模型、并行生成边界和 GitHub 项目结构，判断这类工具能否进入真实产品页生产。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.pen.dev/",
+            "title": "pen.dev – Design on canvas. Land in code.",
+            "access": "partial",
+            "summary": "pen.dev fundamentally increases your engineering speed by bringing designing directly into your preferred IDE.",
+            "value": "pen.dev – Design on canvas. Land in code. 提供原帖之外的页面语境：pen.dev fundamentally increases your engineering speed by bringing designing directly into your preferred IDE.",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          },
+          {
+            "url": "https://github.com/ZSeven-W/openpencil",
+            "title": "GitHub - ZSeven-W/openpencil: The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil. · GitHub",
+            "access": "full",
+            "summary": "The world&#39;s first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A ",
+            "value": "GitHub - ZSeven-W/openpencil: The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil. · GitHub 提供原帖之外的页面语境：The world&#39;s first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-a",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "把「AI Native Vector Canvas」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Open Source",
+          "Design Tool",
+          "AI Canvas",
+          "Link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091427253078962211",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/neropursue/status/2091427253078962211",
+        "author": "Nero",
+        "handle": "neropursue",
+        "datetime": "2026-08-23T07:28:08.000Z",
+        "title": "Motion 工具清单覆盖 Spline、Rive、GSAP 到 Cavalry",
+        "originalSummary": "原帖内容：The best motion and animation tools you need to know. Save this 👇 - http://spline.design 3D Design that runs in the browser. - http://lottielab.com Design tool for product teams - http://jitter.video The easiest tool fo",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：Nero 汇总 Spline、Lottielab、Jitter、Rive、LottieFiles、GSAP、Cavalry、Motion 等动效工具。它值得抓取，因为动效栈选择正在影响从原型、网页动画到产品可交互资产的交付方式。",
+        "deepSummary": "这条不是新闻，而是个人设计工程师的工具地图：需要把每个工具放到“概念原型、交互动效、代码动效、可导出资产”四类里，避免只收藏链接而不形成选型准则。",
+        "linkAnalysis": [
+          {
+            "url": "https://spline.design/",
+            "title": "Spline - 3D Design tool in the browser with real-time collaboration",
+            "access": "full",
+            "summary": "Spline is a free 3D design software with real-time collaboration to create web interactive experiences in the browser. Easy 3d modeling, animation, textures, and more.",
+            "value": "Spline - 3D Design tool in the browser with real-time collaboration 提供原帖之外的页面语境：Spline is a free 3D design software with real-time collaboration to create web interactive experiences in the browser. E",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          },
+          {
+            "url": "https://www.lottielab.com/",
+            "title": "Lottielab | Create & edit Lottie animations",
+            "access": "full",
+            "summary": "Create and ship animations to your products faster. Bring your websites and apps to life with the simplest editor for Lottie animations.",
+            "value": "Lottielab | Create & edit Lottie animations 提供原帖之外的页面语境：Create and ship animations to your products faster. Bring your websites and apps to life with the simplest editor for Lo",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          },
+          {
+            "url": "https://jitter.video/",
+            "title": "Jitter · A fast and simple motion design tool on the web",
+            "access": "full",
+            "summary": "Jitter is a collaborative motion design tool that lets you create professional animations in minutes, no matter your experience with motion.",
+            "value": "Jitter · A fast and simple motion design tool on the web 提供原帖之外的页面语境：Jitter is a collaborative motion design tool that lets you create professional animations in minutes, no matter your exp",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          },
+          {
+            "url": "https://rive.app/",
+            "title": "Rive — the interactive experience engine",
+            "access": "full",
+            "summary": "Behind Spotify Wrapped, Duolingo, and products reaching 2 billion users. Design, animate, and code in one place. Ship everywhere.",
+            "value": "Rive — the interactive experience engine 提供原帖之外的页面语境：Behind Spotify Wrapped, Duolingo, and products reaching 2 billion users. Design, animate, and code in one place. Ship ev",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          },
+          {
+            "url": "https://lottiefiles.com/",
+            "title": "Just a moment...",
+            "access": "unavailable",
+            "summary": "Just a moment... Enable JavaScript and cookies to continue (function(){window._cf_chl_opt = {cFPWv: 'b',cH: 'aPumYuktjwONqsnG6k_qvfKUk6Az7dcBq7PBN_OC4b0-1787471312-1.2.1.1-ylxmzaUB",
+            "value": "无法读取：页面未返回可用摘要或访问受限。只保留原帖可见信息，不扩展事实。",
+            "learningValue": "访问受限，后续只作为待核验线索。"
+          },
+          {
+            "url": "https://gsap.com/",
+            "title": "Homepage | GSAP",
+            "access": "full",
+            "summary": "Supported by Webflow. Animate Anything - A wildly robust JavaScript animation library built for professionals.",
+            "value": "Homepage | GSAP 提供原帖之外的页面语境：Supported by Webflow. Animate Anything - A wildly robust JavaScript animation library built for professionals.",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          },
+          {
+            "url": "https://cavalry.studio/en/",
+            "title": "Free 2D animation & motion graphics software for Mac and Windows | Cavalry",
+            "access": "full",
+            "summary": "Download Cavalry free on Mac or Windows. Real-time 2D animation, motion design, and data-driven workflows - built for animators and motion designers.",
+            "value": "Free 2D animation & motion graphics software for Mac and Windows | Cavalry 提供原帖之外的页面语境：Download Cavalry free on Mac or Windows. Real-time 2D animation, motion design, and data-driven workflows - built for an",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          },
+          {
+            "url": "https://motion.dev/",
+            "title": "Motion (prev Framer Motion): JavaScript & React animation library",
+            "access": "full",
+            "summary": "Motion (prev Framer Motion) is a fast, production-grade animation library for React, JavaScript and Vue. Build smooth UI animations at a tiny footprint.",
+            "value": "Motion (prev Framer Motion): JavaScript & React animation library 提供原帖之外的页面语境：Motion (prev Framer Motion) is a fast, production-grade animation library for React, JavaScript and Vue. Build smooth UI",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "把「Motion Tool Stack」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Motion",
+          "Animation",
+          "Tool Stack",
+          "media:video",
+          "Link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091421929546932351",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ZhihuFrontier/status/2091421929546932351",
+        "author": "Zhihu Frontier",
+        "handle": "ZhihuFrontier",
+        "datetime": "2026-08-23T07:06:59.000Z",
+        "title": "Agent 模型可能在 overfit harness 而不是学任务",
+        "originalSummary": "原帖内容：🧩 Your Agent Model May Be Overfitting the Harness, Not Learning the Task DeepSeek V4 Pro has exposed a growing Agent problem: the same weights can approach their ceiling under DSH’s minimal preset, then degrade under st",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：Zhihu Frontier 指出 DeepSeek V4 Pro 在不同 agent harness 里表现分裂，提示模型可能靠适配评测环境接近上限。它值得抓取，因为 AI 产品不能只看榜单分数，还要看真实框架、任务分布和工具链鲁棒性。",
+        "deepSummary": "对设计团队有用的是评测方法论：把 agent 能力拆成任务理解、工具调用、框架适配和真实完成度，产品判断不能只引用同一个 harness 的分数。",
+        "linkAnalysis": [
+          {
+            "url": "https://zhuanlan.zhihu.com/p/2074614450179543828",
+            "title": "https://zhuanlan.zhihu.com/p/2074614450179543828",
+            "access": "unavailable",
+            "summary": "知乎，让每一次点击都充满意义 —— 欢迎来到知乎，发现问题背后的世界。",
+            "value": "无法读取：页面未返回可用摘要或访问受限。只保留原帖可见信息，不扩展事实。",
+            "learningValue": "访问受限，后续只作为待核验线索。"
+          }
+        ],
+        "learningActions": [
+          "把「Agent Evaluation / Harness」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Agent Eval",
+          "DeepSeek",
+          "Product Judgment",
+          "media:image",
+          "Link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091427530268148150",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/siray_l/status/2091427530268148150",
+        "author": "Siray L",
+        "handle": "siray_l",
+        "datetime": "2026-08-23T07:29:14.000Z",
+        "title": "把 design skills 交给 agent 编排，但质量判断留给人",
+        "originalSummary": "原帖内容：Small confession: I stopped picking design skills by hand. I kept collecting them — taste, motion, anti-slop, prototyping — and then forgetting which one to reach for when. So I handed that job to my AI agent (Claude Cod",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：Siray L 说自己不再手选 taste、motion、anti-slop、prototyping 等 design skills，而是让 Claude Code/Cursor 按步骤调度，自己只负责判断 live cards。它值得抓取，因为这正是个人设计师的 agent workflow：自动化流程，人保留品味闸门。",
+        "deepSummary": "这条适合转成实践事项：把设计流程拆成技能路由、候选方案、人工审批和复盘四段；agent 负责调用，设计师负责质量标准和最终选择。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Design Skills Orchestration」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Design Skills",
+          "Agent Workflow",
+          "Quality Bar",
+          "media:image"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091373058913366257",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/vista8/status/2091373058913366257",
+        "author": "向阳乔木",
+        "handle": "vista8",
+        "datetime": "2026-08-23T03:52:47.000Z",
+        "title": "48 个 AI Newsletter 被做成自用 iOS 阅读器并开源",
+        "originalSummary": "原帖内容：把自己常看的48个AI Newsletter做成了自用的iOS App。 没上架，只是方便装手机里阅读。 开源地址：https://github.com/joeseesun/qmreader-ios",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：向阳乔木把常看的 48 个 AI Newsletter 做成自用原生 iOS 阅读器，并公开 qmreader-ios。它值得抓取，因为信息流整理从手工收藏变成可自部署的个人 AI 阅读系统。",
+        "deepSummary": "这条能变成个人信息系统案例：源列表、长文阅读、翻译/改写和移动端收集可以合成一个轻量产品；设计上重点看信息密度、阅读节奏和内容来源管理。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/joeseesun/qmreader-ios",
+            "title": "GitHub - joeseesun/qmreader-ios: 专注中文长文、翻译与乔木改写的原生 iOS 阅读器 | Native iOS reader for Chinese long-form reading, translation, and Qiaomu rewrites. · GitHub",
+            "access": "full",
+            "summary": "专注中文长文、翻译与乔木改写的原生 iOS 阅读器 | Native iOS reader for Chinese long-form reading, translation, and Qiaomu rewrites. - joeseesun/qmreader-ios",
+            "value": "GitHub - joeseesun/qmreader-ios: 专注中文长文、翻译与乔木改写的原生 iOS 阅读器 | Native iOS reader for Chinese long-form reading, translation, and Qiaomu rewrites. · GitHub 提供原帖之外的页面语境：专注中文长文、翻译与乔木改写的原生 iOS 阅读器 | Native iOS reader for Chinese long-form reading, translation, and Qiaomu rewrites. - joesees",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "把「Personal AI Reader」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "iOS",
+          "Reader",
+          "Open Source",
+          "media:image",
+          "Link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091366920188813634",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/vista8/status/2091366920188813634",
+        "author": "向阳乔木",
+        "handle": "vista8",
+        "datetime": "2026-08-23T03:28:24.000Z",
+        "title": "Nowledge-mem 把 Codex 记忆变成跨任务效率补丁",
+        "originalSummary": "原帖内容：强烈建议安装 Nowledge-mem，支持Codex等各种Agent。 来自 @wey_gu 团队开发。 用的越多，上下文记忆越多，Vibe Coding效率和准确性越好。 比如开发自用的iOS RSS阅读器，它会找上次的开发交付状态。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：向阳乔木推荐 Nowledge-mem：支持 Codex 等 agent，让上下文记忆随使用积累，能找回上次开发交付状态。它值得抓取，因为 agent 记忆正在从“聊天记录”变成生产工作台的一部分。",
+        "deepSummary": "对个人设计工程师来说，重点是把项目状态、交付边界和偏好沉淀成可检索上下文；否则多任务 agent 很快会被重复解释和状态丢失拖慢。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Agent Memory」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Agent Memory",
+          "Codex",
+          "Workflow",
+          "media:image"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091416730891649516",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/fayazara/status/2091416730891649516",
+        "author": "Fayaz Ahmed",
+        "handle": "fayazara",
+        "datetime": "2026-08-23T06:46:19.000Z",
+        "title": "Fayaz 把 tactile image filters 加进 textures studio",
+        "originalSummary": "原帖内容：Loved these so much, added them in my textures studio https://texture.fayaz.workers.dev",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：Fayaz 把新的纹理效果加入 texture.fayaz.workers.dev，并用视频展示 tactile image filters。它值得抓取，因为轻量视觉滤镜工具适合快速做品牌质感和网页背景实验。",
+        "deepSummary": "这条可以作为视觉工具评估：观察滤镜是否只产生装饰感，还是能形成可复用的品牌材质语言；同时看 Cloudflare Workers 这类轻部署方式。",
+        "linkAnalysis": [
+          {
+            "url": "https://texture.fayaz.workers.dev/",
+            "title": "Textures - Tactile image filters",
+            "access": "partial",
+            "summary": "Add print, glyph, paper, and painterly textures to images locally in your browser.",
+            "value": "Textures - Tactile image filters 提供原帖之外的页面语境：Add print, glyph, paper, and painterly textures to images locally in your browser.",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "把「Texture Studio」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Texture",
+          "Visual Tool",
+          "Design Engineering",
+          "media:video",
+          "Link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091382291314737200",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/fayazara/status/2091382291314737200",
+        "author": "Fayaz Ahmed",
+        "handle": "fayazara",
+        "datetime": "2026-08-23T04:29:28.000Z",
+        "title": "Cloudflare OS 暴露 shared Context 和 Skills library",
+        "originalSummary": "原帖内容：Cloudflare OS has thought of everything. We have our own shared Context and Skills library made by lots teams and experts. You can even create your own private skills - editable docs or even mirror it with a git repo",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：Fayaz 注意到 Cloudflare OS 有 shared Context 和 Skills library，还支持团队专家维护、自建 private skills、甚至用 git repo mirror。它值得抓取，因为 agent 工作台正在把组织知识做成可编辑、可同步的技能层。",
+        "deepSummary": "这条对团队设计工程有直接启发：技能库不应只是 prompt 文件，而要支持权限、版本、私有空间和团队专家维护，才能成为组织级生产能力。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Cloudflare OS / Skills」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Skills",
+          "Cloudflare",
+          "Team Context",
+          "media:image"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091425749739643124",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dotey/status/2091425749739643124",
+        "author": "宝玉",
+        "handle": "dotey",
+        "datetime": "2026-08-23T07:22:10.000Z",
+        "title": "服务与 App 应提供 MCP/CLI，而不是强塞内置 agent",
+        "originalSummary": "原帖内容：是这个道理，每个人常用的 agent 就那么两三个，没必要我用个服务或者 App 还要用你的内置 agent，最佳形式是这些服务或 App 提供 MCP 或者 cli，从 agent 里面去访问相应的服务或应用就完了。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：宝玉指出每个人常用 agent 只有两三个，服务或 App 更好的形式是提供 MCP 或 CLI，让用户从自己的 agent 里访问。它值得抓取，因为这明确指向 AI 产品集成策略。",
+        "deepSummary": "这条是产品设计原则：不要把所有软件都包装成独立 agent；更好的体验是把核心能力做成可被用户主 agent 调用的工具接口，并设计好权限、反馈和审计。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「MCP / CLI Product Surface」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "MCP",
+          "Product Strategy",
+          "Agent UX"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091420855373033700",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/okooo5km/status/2091420855373033700",
+        "author": "十里",
+        "handle": "okooo5km",
+        "datetime": "2026-08-23T07:02:43.000Z",
+        "title": "C# + WinUI3 + FluentUI 也能做出高质感原生 app",
+        "originalSummary": "原帖内容：经过 Zipic Windows 版本的开发和 Clips 的开发，发现 C# + WinUI3 + FluentUI 也能轻松做出不输 macOS 版本那种质感的app！ AI 开发 Win 下的原生应用也是手拿把掐的，但 UI/UX 和其他任何可交互的应用一样，剩下 20% 的美感提升关键还在于人——产品思维+设计审美！",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：十里在 Zipic Windows 和 Clips 开发后认为，C# + WinUI3 + FluentUI 能做出不输 macOS 的质感，但最后 20% 仍靠产品思维与审美。它值得抓取，因为 AI coding 不能替代平台设计判断。",
+        "deepSummary": "这条适合作为跨平台 UI 实践提醒：AI 能搭出原生框架和交互，但视觉 polish、平台习惯和美感仍要靠设计师定义验收标准。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「WinUI Native App」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "WinUI",
+          "Native App",
+          "Design Polish"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091426853315830136",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/wong2__/status/2091426853315830136",
+        "author": "wong2",
+        "handle": "wong2__",
+        "datetime": "2026-08-23T07:26:33.000Z",
+        "title": "codex-resets 把 Tibo 的重置时间转换为本地可读时间",
+        "originalSummary": "原帖内容：Tibo发重置预告的时候，是以他所在的加州来描述时间的，这常把人搞混。所以现在 http://codex-resets.com 加了一个贴心的小功能，把Tibo口中的时间转成UTC时间，并且hover后可以看到你的本地时间",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：wong2 为 codex-resets.com 增加 UTC 与本地时间 hover，解决 Tibo 用加州时间描述重置导致的理解偏差。它值得抓取，因为小型工具可以精准修复 AI 工具的日常使用摩擦。",
+        "deepSummary": "它展示了一个好的 microtool 模式：不做大平台，只解决“额度重置时间”这种高频认知成本；适合借鉴到设计团队内部工具。",
+        "linkAnalysis": [
+          {
+            "url": "https://codex-resets.com/",
+            "title": "Codex Limit Reset Tracker & History | Codex Resets",
+            "access": "full",
+            "summary": "Track the latest OpenAI Codex limit reset, browse Codex reset history, and get notified when new Codex resets are announced.",
+            "value": "Codex Limit Reset Tracker & History | Codex Resets 提供原帖之外的页面语境：Track the latest OpenAI Codex limit reset, browse Codex reset history, and get notified when new Codex resets are announ",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "把「Codex Quota UX」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Microtool",
+          "Codex",
+          "Time UX",
+          "media:image",
+          "Link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091426303601999989",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/fayazara/status/2091426303601999989",
+        "author": "Fayaz Ahmed",
+        "handle": "fayazara",
+        "datetime": "2026-08-23T07:24:22.000Z",
+        "title": "Shiki 被 Fayaz port 到 native Swift",
+        "originalSummary": "原帖内容：I had also ported Shiki to native swift last week https://github.com/fayazara/shiki-swift",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：Fayaz 提到自己把 Shiki port 到 native Swift，并放出 shiki-swift 仓库。它值得抓取，因为代码高亮和主题渲染是开发者工具、文档和 AI 工作台的基础视觉能力。",
+        "deepSummary": "对设计工程师来说，这条可以追踪语法高亮从 Web 到原生平台的迁移方式：主题、token、性能和 Swift 包结构都值得看。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/fayazara/shiki-swift",
+            "title": "GitHub - fayazara/shiki-swift · GitHub",
+            "access": "full",
+            "summary": "Contribute to fayazara/shiki-swift development by creating an account on GitHub.",
+            "value": "GitHub - fayazara/shiki-swift · GitHub 提供原帖之外的页面语境：Contribute to fayazara/shiki-swift development by creating an account on GitHub.",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "把「Shiki Swift」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Swift",
+          "Syntax Highlight",
+          "Open Source",
+          "media:image",
+          "Link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091414503070277804",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/udayan_w/status/2091414503070277804",
+        "author": "Udayan Walvekar",
+        "handle": "udayan_w",
+        "datetime": "2026-08-23T06:37:28.000Z",
+        "title": "Codex /rename 需求暴露多终端 agent 识别成本",
+        "originalSummary": "原帖内容：request to Codex /rename, like claude code. the interaction can be really simple: /rename → codex automatically figures a name → codex gives it a distinct colour → that name stays highlighted at the bottom of the termina",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：Udayan 提议 Codex 支持 /rename：自动生成名称和颜色，固定显示在 terminal 底部，解决十几个 sessions 长得一样的问题。它值得抓取，因为多 agent 并行后，身份、状态和回看成本成为核心 UX。",
+        "deepSummary": "这条是典型 agent 控制台 UX：命名、颜色、状态持久化和快速识别比新功能更影响长期使用效率。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Codex Thread Naming」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Codex",
+          "Agent UX",
+          "Thread Management"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091425037735928233",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/fayazara/status/2091425037735928233",
+        "author": "Fayaz Ahmed",
+        "handle": "fayazara",
+        "datetime": "2026-08-23T07:19:20.000Z",
+        "title": "Durable Objects are Computers 帮 Fayaz 理解 DOs",
+        "originalSummary": "原帖内容：This article from @threepointone unlocked DOs for me https://sunilpai.dev/posts/durable-objects-are-computers/",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：Fayaz 分享 Sunil Pai 的 Durable Objects 文章，称它让自己理解了 DOs。它值得抓取，因为边缘状态和长生命周期对象会影响 AI 产品的实时协作架构。",
+        "deepSummary": "这条可以作为架构学习入口：设计工程师不用实现 Cloudflare DO，但要理解“状态在边缘对象里”如何改变协作、实时编辑和 agent 会话持久化。",
+        "linkAnalysis": [
+          {
+            "url": "https://sunilpai.dev/posts/durable-objects-are-computers/",
+            "title": "Durable Objects are Computers / Containers / Servers • Solving the decision problem",
+            "access": "full",
+            "summary": "(everything old is new again)",
+            "value": "Durable Objects are Computers / Containers / Servers • Solving the decision problem 提供原帖之外的页面语境：(everything old is new again)",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "把「Durable Objects Mental Model」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Cloudflare",
+          "Durable Objects",
+          "Architecture",
+          "Link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091380007553917282",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/fayazara/status/2091380007553917282",
+        "author": "Fayaz Ahmed",
+        "handle": "fayazara",
+        "datetime": "2026-08-23T04:20:24.000Z",
+        "title": "Screendrop 只有 6.8MB 且开源",
+        "originalSummary": "原帖内容：Screendrop is just 6.8 mb fyi and open source",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：Fayaz 补充 Screendrop 体积只有 6.8MB 并且开源。它值得抓取，因为小体积、开源、单一场景的截图/屏幕工具，正好对抗越来越重的设计生产应用。",
+        "deepSummary": "这条提醒我们评估工具时别只看功能数：分发体积、冷启动、开源可审计和单一任务完成度，都是设计工程产品的重要指标。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Screendrop」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Screendrop",
+          "Open Source",
+          "Utility App",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091377263048622131",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/cheerselflin/status/2091377263048622131",
+        "author": "林悦己Cheer",
+        "handle": "cheerselflin",
+        "datetime": "2026-08-23T04:09:30.000Z",
+        "title": "Wan 3.0 以更低单价挑战 Seedance 2.5 视频生成",
+        "originalSummary": "原帖内容：阿里雄起了？ 继快乐🐎拉垮一后，鼓起勇气测了一下wan3 对比一下价格，seedance 2.5是wan3的2.66倍！ 相同提示词，我觉得效果还可以，还能直出30s Seedance 2.5 15s 4.395美金 wan 3.0 30s 3.31美金 720p 单价 wan3.0 $0.11 VS seedance 2.5 $0.293 大家确实可以试试wan 3.0 https://evolink.ai/wan-3-0?utm_",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：林悦己 Cheer 对比 wan3 与 Seedance 2.5：同提示词下 wan3 可生成 30s，720p 单价约 $0.11/s，对比 Seedance 2.5 约 $0.293/s。它值得抓取，因为 AI 视频工具选型必须同时看成本、时长和稳定性。",
+        "deepSummary": "这条适合做视频模型评估模板：同 prompt、同镜头约束、同输出时长，再比较成本、画面连续性、动作稳定和后期可控性。",
+        "linkAnalysis": [
+          {
+            "url": "https://evolink.ai/wan-3-0?utm_source=twitter&utm_medium=thread&utm_campaign=wan3",
+            "title": "Wan 3.0 API: Pricing, Model IDs & 30s Video | EvoLink",
+            "access": "full",
+            "summary": "Use Wan 3.0 through EvoLink&#x27;s unified video API. Choose text, image, or reference routes, compare 480p-1080p pricing, and generate video up to 30 seconds.",
+            "value": "Wan 3.0 API: Pricing, Model IDs & 30s Video | EvoLink 提供原帖之外的页面语境：Use Wan 3.0 through EvoLink&#x27;s unified video API. Choose text, image, or reference routes, compare 480p-1080p pricin",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "把「Wan 3.0 / Seedance Cost Test」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "AI Video",
+          "Wan 3.0",
+          "Cost Benchmark",
+          "media:video",
+          "Link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091239367046213727",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/xicilion/status/2091239367046213727",
+        "author": "响马",
+        "handle": "xicilion",
+        "datetime": "2026-08-22T19:01:33.000Z",
+        "title": "AI 时代文档可能转向 PlantUML 式语义图",
+        "originalSummary": "原帖内容：我认为人类为人类写文档只剩下很短暂的过渡期了。AI 普及后，信息交换的瓶颈在 AI 和 人，而非人类和人类。没有人类会再去读另外一个人类写的文档了。 因此我坚定地站 PlantUML 这样 AI 可以无脑表达得很好，人类可以一眼看明白的语义绘图方式。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：响马认为 AI 普及后信息交换瓶颈在 AI 与人，而非人和人，支持 PlantUML 这类 AI 容易表达、人也能读懂的语义绘图。它值得抓取，因为设计交付物需要适配 agent 解析。",
+        "deepSummary": "这条可以转为设计文档策略：减少只给人看的长段落，增加结构化图、状态机、流程和组件关系，让 AI 也能可靠修改和验证。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「AI-readable Documentation」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Documentation",
+          "PlantUML",
+          "Agent-readable"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091208387337838878",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/remvze/status/2091208387337838878",
+        "author": "MAZE",
+        "handle": "remvze",
+        "datetime": "2026-08-22T16:58:26.000Z",
+        "title": "mnmm.xyz 新增四个 minimal website 参考",
+        "originalSummary": "原帖内容：New minimal websites on http://mnmm.xyz: 01 • http://flohoeller.com by @flohoeller 02 • http://xchyler.works by @xchylerdrenth 03 • http://sanyam.sh by @sanyampunia 04 • http://rokadakia.com by @dvvdle",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：MAZE 更新 mnmm.xyz 的 minimal websites：Flo Höller、Xchyler Drenth、Sanyam Punia、Rohan Kadakia 等案例。它值得抓取，因为高质量 minimal portfolio 是视觉节奏、留白和动效克制的实战参考。",
+        "deepSummary": "这条的价值是建立可复用的参考库：每个案例都可拆解首屏层级、文字密度、动效节奏和响应式细节，帮助避免泛化“极简风”。",
+        "linkAnalysis": [
+          {
+            "url": "https://mnmm.xyz/",
+            "title": "Minimum: Minimal Websites Directory",
+            "access": "full",
+            "summary": "A carefully curated collection of minimal websites.",
+            "value": "Minimum: Minimal Websites Directory 提供原帖之外的页面语境：A carefully curated collection of minimal websites.",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          },
+          {
+            "url": "https://www.flohoeller.com/",
+            "title": "Florian Höller · Design Engineer",
+            "access": "full",
+            "summary": "Florian Höller is a Design Engineer from near Vienna, Austria, living in Wrocław, Poland. He runs adfects, a design studio for SaaS and AI startups.",
+            "value": "Florian Höller · Design Engineer 提供原帖之外的页面语境：Florian Höller is a Design Engineer from near Vienna, Austria, living in Wrocław, Poland. He runs adfects, a design stud",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          },
+          {
+            "url": "https://www.xchyler.works/",
+            "title": "Xchyler Drenth",
+            "access": "full",
+            "summary": "Interdisciplinary and product designer based in the Philippines. Full-cycle experimental designer at hex.inc while building fervor.studio",
+            "value": "Xchyler Drenth 提供原帖之外的页面语境：Interdisciplinary and product designer based in the Philippines. Full-cycle experimental designer at hex.inc while build",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          },
+          {
+            "url": "https://sanyam.sh/",
+            "title": "Sanyam Punia",
+            "access": "full",
+            "summary": "Full-stack developer from India, currently a frontend engineer at Oliv AI. Writes about frontend, ships small dev tools and keeps a lab of UI experiments.",
+            "value": "Sanyam Punia 提供原帖之外的页面语境：Full-stack developer from India, currently a frontend engineer at Oliv AI. Writes about frontend, ships small dev tools ",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          },
+          {
+            "url": "https://rokadakia.com/",
+            "title": "Rohan Kadakia",
+            "access": "full",
+            "summary": "Rohan Kadakia &#127758; Rohan Kadakia Timeline Thoughts Founder, Internet We are a creative venture and holding company building consumer software and products. Previously ran Perf",
+            "value": "Rohan Kadakia 提供原帖之外的页面语境：Rohan Kadakia &#127758; Rohan Kadakia Timeline Thoughts Founder, Internet We are a creative venture and holding company ",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "把「Minimal Websites Directory」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Minimal",
+          "Portfolio",
+          "Visual Reference",
+          "media:image",
+          "Link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091409933304803700",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/lucerrastudio/status/2091409778950180948",
+        "author": "LUCERRÁ",
+        "handle": "lucerrastudio",
+        "datetime": "2026-08-23T06:18:42.000Z",
+        "title": "LUCERRÁ experience 获 FWA，适合研究 cinematic web",
+        "originalSummary": "原帖内容：The new LUCERRÁ experience just won The @fwa Thank you to all the judges and the platform https://lucerra.co/ Kudos to our music production partners @Mooders_music",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它对个人设计师/设计工程师有直接参考价值：LUCERRÁ 宣布其新数字体验获得 FWA，并链接到 lucerra.co。它值得抓取，因为影视化网页体验适合观察声音、滚动、空间镜头与品牌叙事如何结合。",
+        "deepSummary": "这条可以作为品牌站案例：重点看 loading、音画节奏、交互是否服务信息，而不是只追求特效；也适合评估 WebGL/视频类体验的性能边界。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.lucerra.co/",
+            "title": "LUCERRÁ | Digital experiences, directed as cinema",
+            "access": "partial",
+            "summary": "We believe digital design should transcend to become a living, cinematic experience. We are for the architects of the unknown that understand the rulebook of art and storytelling.",
+            "value": "LUCERRÁ | Digital experiences, directed as cinema 提供原帖之外的页面语境：We believe digital design should transcend to become a living, cinematic experience. We are for the architects of the un",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "把「FWA Digital Experience」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "FWA",
+          "Cinematic Web",
+          "Brand Experience",
+          "media:video",
+          "Link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091172503041499611",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/limbopeng/status/2091172503041499611",
+        "author": "LimboAI",
+        "handle": "limbopeng",
+        "datetime": "2026-08-22T14:35:51.000Z",
+        "title": "收藏：SwiftUI / iOS design skills 清单",
+        "originalSummary": "原帖内容：分享一些做 iOS ，使用 SwiftUI 开发的一些 skill，绝对好用： 1、Appllama/appllama-skills — 让 AI 学会「抄」爆款 App Appllama 本身是一个头部畅销 App 的设计库（收录真实界面、流程、UI 模式 + 收入/下载量数据）。这两个技能把该库变成 Agent 的工作方法论。 2、emilkowalski/skills — 动画品味天花板 Emil Kowalski 是前 Verc",
+        "whySaved": "你会收藏它，是因为它能补充个人设计工程方法库：这条收藏的价值是把 iOS 与 SwiftUI 的 agent skills 分成三个层次：真实 App 模式库、动效品味清单、原生 SwiftUI 纠错器；它能直接变成个人 iOS 设计工程的技能路由表。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次同步后纳入今日分析。",
+        "deepSummary": "这条收藏的价值是把 iOS 与 SwiftUI 的 agent skills 分成三个层次：真实 App 模式库、动效品味清单、原生 SwiftUI 纠错器；它能直接变成个人 iOS 设计工程的技能路由表。",
+        "linkAnalysis": [
+          {
+            "url": "https://animations.dev/",
+            "title": "animations.dev",
+            "access": "full",
+            "summary": "animations.dev Login Notify me How do you craft animations that feel right? Learn the theory and practice behind great animations with this interactive learning experience. Taught ",
+            "value": "animations.dev 提供原帖之外的页面语境：animations.dev Login Notify me How do you craft animations that feel right? Learn the theory and practice behind great a",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "把「SwiftUI Agent Skills」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Like",
+          "SwiftUI",
+          "Design Skills",
+          "Link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2090833170359079158",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/creativedash/status/2090833170359079158",
+        "author": "Dash",
+        "handle": "creativedash",
+        "datetime": "2026-08-21T16:07:28.000Z",
+        "title": "收藏：Holo UI 用 Forge 搭建的高质感界面",
+        "originalSummary": "原帖内容：http://holo.ui8.dev built with Forge",
+        "whySaved": "你会收藏它，是因为它能补充个人设计工程方法库：这条收藏说明你对“生成式工具做出来但仍保持商业级视觉完成度”的案例敏感；Holo UI 值得看的是材质、空间层次和 Forge 生成到落地页的完成度。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本次同步后纳入今日分析。",
+        "deepSummary": "这条收藏说明你对“生成式工具做出来但仍保持商业级视觉完成度”的案例敏感；Holo UI 值得看的是材质、空间层次和 Forge 生成到落地页的完成度。",
+        "linkAnalysis": [
+          {
+            "url": "https://holo.ui8.dev/",
+            "title": "Forge",
+            "access": "partial",
+            "summary": "Forge is a free macOS app that turns any local web project into a visual canvas. Your work always lives on disk, in your repo, ready to commit.",
+            "value": "Forge 提供原帖之外的页面语境：Forge is a free macOS app that turns any local web project into a visual canvas. Your work always lives on disk, in your",
+            "learningValue": "可继续用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "把「Holo UI / Forge」拆成一个可复用检查清单。",
+          "从原帖/链接中提炼 1 个可在当前设计或 agent workflow 中试用的动作。",
+          "记录这个案例的适用边界，避免只收藏不复盘。"
+        ],
+        "tags": [
+          "Like",
+          "Visual UI",
+          "Forge",
+          "media:video",
+          "Link"
+        ],
+        "priority": "medium"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-23",
     "generatedAt": "2026-08-23T08:18:00+08:00",
     "batch": "x-ai-design-analysis-2026-08-23-0818",
     "analysisCount": 100,

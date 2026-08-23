@@ -1,6 +1,48 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-23T08:18:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-23T15:40:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2091172503041499611",
+    "TwitterUserID": "2935230838",
+    "UserScreenName": "limbopeng",
+    "UserProfileName": "LimboAI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1522159814897405952/0LMXgYr8_200x200.jpg",
+    "TweetText": "分享一些做 iOS ，使用 SwiftUI 开发的一些 skill，绝对好用：\n\n1、Appllama/appllama-skills — 让 AI 学会「抄」爆款 App\nAppllama 本身是一个头部畅销 App 的设计库（收录真实界面、流程、UI 模式 + 收入/下载量数据）。这两个技能把该库变成 Agent 的工作方法论。\n\n2、emilkowalski/skills — 动画品味天花板\nEmil Kowalski 是前 Vercel / Linear 的设计工程师，Sonner（著名 toast 库）作者，http://animations.dev 课程作者，这套技能把他多年的专家经验清单化。\n\n3、twostraws/SwiftUI-Agent-Skill — 原生 SwiftUI 纠错器\n作者： Paul Hudson（twostraws），Hacking with Swift 创始人，Swift 社区最有影响力的教育者之一。这个SKILl是基于他数千小时的真实 SwiftUI 项目经验，直接瞄准 LLM 在 SwiftUI 里实际会犯的错误。",
+    "Tweet Url": "https://x.com/limbopeng/status/2091172503041499611",
+    "TweetCreatedDate": "2026-08-22T14:35:51.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "SwiftUI",
+      "Design Skills",
+      "Link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "animations.dev",
+      "url": "https://animations.dev/",
+      "preview": "animations.dev Login Notify me How do you craft animations that feel right? Learn the theory and practice behind great animations with this interactive learning experience. Taught by Emil Kowalski Enrollment is closed 11",
+      "cover": ""
+    },
+    "_metrics": "7 REPLIES · 30 REPOSTS · 255 LIKES · 431 BOOKMARKS · 13K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-23T15:40:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-22T14:35:51.000Z"
+    },
+    "_analysisTheme": "SwiftUI Agent Skills",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：这条收藏的价值是把 iOS 与 SwiftUI 的 agent skills 分成三个层次：真实 App 模式库、动效品味清单、原生 SwiftUI 纠错器；它能直接变成个人 iOS 设计工程的技能路由表。"
+  },
   {
     "TweetID": "2091159920683237597",
     "TwitterUserID": "296593919",
@@ -304,6 +346,56 @@ window.LIKED_BACKFILL = [
     "_analysisTheme": "Agent 工作流 / 设计工程",
     "_analysisPriority": "high",
     "_analysisNote": "收藏原因：Grok Bot 下放啦，老马是真的舍得给资源啊！！！ 现在不止是 Ultra 会员，SuperGrok Plus、Cursor Pro+ 都可以用了，估计马上就要到 20刀 会员了。 英区老外们已经把 Grok Bot 当员工用了： G… 这条可作为Agent 工作流 / 设计工程参考。"
+  },
+  {
+    "TweetID": "2090833170359079158",
+    "TwitterUserID": "596823630",
+    "UserScreenName": "creativedash",
+    "UserProfileName": "Dash",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2066087070951673856/cw_TKU-7_200x200.jpg",
+    "TweetText": "http://holo.ui8.dev\nbuilt with Forge",
+    "Tweet Url": "https://x.com/creativedash/status/2090833170359079158",
+    "TweetCreatedDate": "2026-08-21T16:07:28.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090832582732914688/img/SbpLUZrEosLaWfrk.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090832582732914688/vid/avc1/394x360/UEiDoazl2PrItHCn.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Visual UI",
+      "Forge",
+      "media:video",
+      "Link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090832582732914688/vid/avc1/394x360/UEiDoazl2PrItHCn.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090832582732914688/img/SbpLUZrEosLaWfrk.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Forge",
+      "url": "https://holo.ui8.dev/",
+      "preview": "Forge is a free macOS app that turns any local web project into a visual canvas. Your work always lives on disk, in your repo, ready to commit.",
+      "cover": ""
+    },
+    "_metrics": "37 REPLIES · 163 REPOSTS · 2.4K LIKES · 1.7K BOOKMARKS · 73K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-23T15:40:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-21T16:07:28.000Z"
+    },
+    "_analysisTheme": "Holo UI / Forge",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏说明你对“生成式工具做出来但仍保持商业级视觉完成度”的案例敏感；Holo UI 值得看的是材质、空间层次和 Forge 生成到落地页的完成度。"
   },
   {
     "TweetID": "2090808948366487578",
@@ -733,7 +825,7 @@ window.LIKED_BACKFILL = [
     "TweetText": "虽然这个gasp这个skills已经发布有好几个月了 但是还是要感慨一下他的牛逼\n\n内置timeline 结合审美比较好的ai 能一键做出很多精美的前端动效\n而且skills内置了gasp团队多年积累的工程化经验 直接阅读.md文档也能学到很多东西\nhttps://github.com/greensock/gsap-skills",
     "Tweet Url": "https://x.com/beiyue66/status/2090472031418794389",
     "TweetCreatedDate": "2026-08-20T16:12:26.000Z",
-    "MediaType": "",
+    "MediaType": "text",
     "MediaImageUrl": "",
     "MediaVideoUrl": "",
     "HasLink": "True",
@@ -1102,7 +1194,7 @@ window.LIKED_BACKFILL = [
     "TweetText": "https://uisfx.com/ 一个有声音的网站，太有趣了，一个专门做声音效果的库，12 不同的风格，总共有 936 种声音，我觉得现在 agent 的时代，这种提示音还是非常必要的，这个做的真的很好，不同种类的都有，网页也做的很精致。",
     "Tweet Url": "https://x.com/vikingmute/status/2090426300783792264",
     "TweetCreatedDate": "2026-08-20T13:10:43.000Z",
-    "MediaType": "",
+    "MediaType": "text",
     "MediaImageUrl": "",
     "MediaVideoUrl": "",
     "HasLink": "True",
@@ -1411,7 +1503,7 @@ window.LIKED_BACKFILL = [
     "TweetText": "OpenAI 今天发布了了一篇关于 Codex 的文章，开始重新定位 Codex 。\n\nCodex 现在已经不只是 App、CLI 或 IDE 里的 Coding Agent。\n\nOpenAI 把它背后的开源 Harness 单独拿了出来。\n\nContext 怎么维护、工具怎么调用、任务怎么跨多轮继续、什么时候需要 approval、sandbox 怎么限制，这些 Agent loop 里的东西都可以直接复用。\n\n开发者现在可以通过 \"codex exec\"、SDK 和 app-server，把这套 Agent 能力嵌进自己的产品。\n\n文章里也提到了一个判断: 以后做 Agent 产品，没必要都造一个聊天框。\n\n客服可以继续用客服后台，安全团队继续看 incident dashboard，运营继续看自己的业务系统。产品负责 Context、业务规则和工具，Codex 在下面负责 Agent loop。\n\n我觉得这可能也是 Harness 接下来很重要的一种形态。\n\n模型负责能力，Harness 负责把这种能力真正接进一个具体工作流里。\n\nCodex 正在开始做这一层的平台。\n\n文章\nhttps://developers.openai.com/blog/codex-as-a-platform",
     "Tweet Url": "https://x.com/Xudong07452910/status/2090359684003704974",
     "TweetCreatedDate": "2026-08-20T08:46:00.000Z",
-    "MediaType": "",
+    "MediaType": "text",
     "MediaImageUrl": "",
     "MediaVideoUrl": "",
     "HasLink": "True",
@@ -2400,7 +2492,7 @@ window.LIKED_BACKFILL = [
     "TweetText": "wtf this is Crazyyy\n\nhttps://sv-animations.vercel.app\nhttps://sv-table.vercel.app\nhttps://sv-blocks.vercel.app\nhttps://sv-efferd.pages.dev\nhttps://sv-matrix.vercel.app\nhttps://sv-particles.vercel.app\nhttps://sv-agentation.com",
     "Tweet Url": "https://x.com/Sikandar_Bhide/status/2090106334201225285",
     "TweetCreatedDate": "2026-08-19T15:59:17.000Z",
-    "MediaType": "",
+    "MediaType": "text",
     "MediaImageUrl": "",
     "MediaVideoUrl": "",
     "HasLink": "True",
@@ -2818,7 +2910,7 @@ window.LIKED_BACKFILL = [
     "TweetText": "智谱联合创始人唐杰发长文复盘 Scaling Law。\n\n过去几年，大模型一发布，大家最爱问「多少参数」。但在唐杰看来，参数早已不能单独解释模型能力。数据有多少、算力花在哪、模型最终怎么用，同样重要。\n\n行业已经为此走过一次弯路。2020 年，Kaplan 等人的 Scaling Law 认为，算力增加后，参数应该比训练数据增长得更快。GPT-3、Gopher、MT-NLG 都沿着这个方向越做越大，行业一路冲向万亿参数。\n\n两年后的 Chinchilla 改写了这个结论。很多大模型做得太大，训练数据却没跟上。与其继续堆参数，不如拿更多算力把模型训得更充分。算力规模越大，这种失衡还会越严重。唐杰回头看，那轮万亿参数竞赛，是整个行业一起走过、后来又掉头的弯路。\n\n但 Chinchilla 算的还只是训练这笔账。现在模型上线后会被反复调用，长期来看，推理成本可能比训练更重要。把推理成本也算进去，最优解又变了。模型未必要做得特别大，可以缩小参数，再用更多数据训练更久。后来 Llama-2-7B、Gemma-2-9B 等模型，已经在往这个方向走。\n\n再往后，MoE 又把问题变复杂了。总参数更多，通常意味着能装下更多知识；每次真正参与计算的参数有多少、计算走多深，则更影响推理能力。两者不是一回事。到 2025 年，新的研究进一步发现，不同任务连最合适的 Scaling 方法都不同。记忆更吃参数，推理更吃数据；在 MoE 里，一味增加总参数甚至可能拖累推理，让更多专家参与计算反而更有效。\n\n漏洞挖掘就是个很好的例子。发现新漏洞，不是多背几条 CVE 就够了。难的是把二十步推理一路走到底，中间不能断。这样的能力更依赖计算深度和训练方式，单纯增加总参数未必有用。\n\nGLM-5.3 就是在这个思路下做出来的。它和 GLM-5.2 用同一个基座、同一套架构，总参数和激活参数都没变。团队又花了一个月扩大长程任务环境和强化学习，能力依然明显提升。这一次加的是后训练，因为这里还有最大的余量。\n\n但下一次未必还是后训练。Scaling 远没有结束。参数、预训练数据、单次计算、后训练，都还有空间。它们不必一起往上加，上一代最值得加的东西，下一代未必还是它。\n\n大模型下一轮竞争，比的可能不再是谁的参数最多，而是谁更知道算力该花在哪。",
     "Tweet Url": "https://x.com/0xLogicrw/status/2089972695643639869",
     "TweetCreatedDate": "2026-08-19T07:08:15.000Z",
-    "MediaType": "",
+    "MediaType": "text",
     "MediaImageUrl": "",
     "MediaVideoUrl": "",
     "HasLink": "False",
