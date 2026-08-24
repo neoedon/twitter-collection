@@ -2,6 +2,319 @@
   window.HOME_BACKFILL = [
     {
       "category": "AI WORKFLOW",
+      "datetime": "2026-08-24T05:00:00.000Z",
+      "author": "AgentsRoom.dev",
+      "handle": "AgentsRoomDev",
+      "avatar": "https://pbs.twimg.com/profile_images/2051640280550436865/DDzzeX6Z_200x200.jpg",
+      "title": "AgentsRoom 让 Claude 与 Codex 互发消息",
+      "summary": "AgentsRoom 官方展示 agent-to-agent inbox：Claude 与 Codex 不再靠人工复制粘贴，而是通过同一项目里的消息通道协作。它值得抓取，因为个人设计师做多 agent 工作流时，关键界面会从聊天框变成可追踪的任务收件箱。",
+      "url": "https://x.com/AgentsRoomDev/status/2091752363241754657",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091523882469453824/vid/avc1/480x270/2dZzIx4qZMkfW6hK.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091523882469453824/img/-RiHKzSUJLzEQ05y.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 129 VIEWS",
+      "links": [
+        "https://agentsroom.dev/features/agent-messaging"
+      ],
+      "_analysisTheme": "Agent Collaboration Surface",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "Agent to agent messaging: an inbox your AI agents actually own",
+        "url": "https://agentsroom.dev/features/agent-messaging",
+        "preview": "Six MCP tools turn the agents of a project into a permanent roster that can write to each other. Messages are stored before they are delivered, so a restart, a crash or an agent that is offline never loses one.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI WORKFLOW",
+      "datetime": "2026-08-24T04:52:56.000Z",
+      "author": "meng shao",
+      "handle": "shao__meng",
+      "avatar": "https://pbs.twimg.com/profile_images/2009826888072736772/faZAxCvC_200x200.jpg",
+      "title": "从 OpenClaw 到 Codex 的创作者工作流访谈",
+      "summary": "shao__meng 摘要 Riley Brown 与 Bilawal Sidhu 的对谈：从多 persona OpenClaw 远程执行，到把 Codex 当作通用生活操作系统。它值得抓取，因为访谈把 app browser、内容生产和创业自动化放进了真实创作者工作流。",
+      "url": "https://x.com/shao__meng/status/2091750583988555953",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQdkDN4bcAENOwG.jpg?name=orig"
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 2 BOOKMARKS · 265 VIEWS",
+      "links": [
+        "https://www.youtube.com/watch?v=NR_GMq2lDCE"
+      ],
+      "_analysisTheme": "Creator Agent Workflow",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "Codex Replaced All His Apps | Bilawal Sidhu",
+        "url": "https://www.youtube.com/watch?v=NR_GMq2lDCE",
+        "preview": "YouTube oEmbed 可读：作者 Riley Brown；需要打开视频页继续看完整内容。",
+        "cover": ""
+      }
+    },
+    {
+      "category": "INDIE PRODUCT",
+      "datetime": "2026-08-24T04:21:48.000Z",
+      "author": "十里",
+      "handle": "okooo5km",
+      "avatar": "https://pbs.twimg.com/profile_images/2020293051302965250/jJjJxUI6_200x200.jpg",
+      "title": "Zipic 1.10.0 把用户吐槽变成多输出能力",
+      "summary": "okooo5km 发布 Zipic 1.10.0，并明确新功能来自用户反复压多遍图片的痛点。它值得抓取，因为一个小工具如何把真实抱怨转成响应式图片、多格式输出和设置体系，是独立产品迭代的好样本。",
+      "url": "https://x.com/okooo5km/status/2091742746071748675",
+      "media": [],
+      "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 42 VIEWS",
+      "links": [
+        "https://zipic.app",
+        "https://zipic.app/cn/releasenotes/20260824/"
+      ],
+      "_analysisTheme": "Indie Utility Iteration",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "Zipic — Best Image Compression App for Mac",
+        "url": "https://zipic.app/",
+        "preview": "Zipic - Free image compression tool for Mac. Compress JPEG, PNG, WebP, HEIC, AVIF and more with batch processing, folder monitoring, and lossless optimization.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "VISUAL MOTION",
+      "datetime": "2026-08-24T03:52:57.000Z",
+      "author": "Paidax",
+      "handle": "xin_pai88825",
+      "avatar": "https://pbs.twimg.com/profile_images/1747877404532776960/uUTVQ-2P_200x200.jpg",
+      "title": "加载动画组件达到 2K stars 的动效资产信号",
+      "summary": "xin_pai88825 记录一套加载动画已经达到 2K stars，并展示曲线动画效果。它值得抓取，因为高复用微动效正在从灵感素材变成工程资产。",
+      "url": "https://x.com/xin_pai88825/status/2091735487413444829",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQdWMicbQAAHewJ.jpg?name=orig"
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 4 LIKES · 3 BOOKMARKS · 958 VIEWS",
+      "links": [],
+      "_analysisTheme": "Motion Component Asset",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "AI TOOLING",
+      "datetime": "2026-08-24T03:48:00.000Z",
+      "author": "Crypto喜悦",
+      "handle": "xiyue0803",
+      "avatar": "https://pbs.twimg.com/profile_images/2007388985887469569/xRwTa5Vr_200x200.jpg",
+      "title": "五个可给 Agent 装上的 GitHub Skill 项目",
+      "summary": "xiyue0803 整理了 plain language、web quality、sprite forge、Hermes agent 目录和 GEO SEO 等 GitHub 项目。它值得抓取，因为这些项目把“好输出”拆成可安装 skill，而不是停留在 prompt 灵感。",
+      "url": "https://x.com/xiyue0803/status/2091734241084391556",
+      "media": [],
+      "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 61 VIEWS",
+      "links": [
+        "https://github.com/GaZmagik/iso-24495",
+        "https://github.com/addyosmani/web-quality-skills",
+        "https://github.com/0x0funky/agent-sprite-forge",
+        "https://github.com/0xNyk/awesome-hermes-agent",
+        "https://github.com/zubair-trabzada/geo-seo-claude"
+      ],
+      "_analysisTheme": "Agent Skill Repos",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "GitHub - GaZmagik/iso-24495: ISO 24495 Plain Language skills and Claude Code plugin",
+        "url": "https://github.com/GaZmagik/iso-24495",
+        "preview": "ISO 24495 Plain Language skills and Claude Code plugin · language: TypeScript · stars: 141 · license: MIT",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI SECURITY",
+      "datetime": "2026-08-24T03:47:56.000Z",
+      "author": "23pds (山哥)",
+      "handle": "im23pds",
+      "avatar": "https://pbs.twimg.com/profile_images/481401901682937856/N7Ztv9sb_200x200.png",
+      "title": "DeepGuard 预告 DeepSeek Harness 安全插件市场",
+      "summary": "im23pds 预告 DeepGuard：面向 DeepSeek Harness 的安全插件市场，强调版本与 commit 锁定、L0-L3 审计、能力披露和兼容矩阵。它值得抓取，因为 agent 生态会需要“插件可信度”的产品层。",
+      "url": "https://x.com/im23pds/status/2091734223900324273",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQdUPZRbsAAAK0f.jpg?name=orig"
+        }
+      ],
+      "metrics": "1 REPLIES · 2 REPOSTS · 10 LIKES · 1 BOOKMARKS · 1.6K VIEWS",
+      "links": [],
+      "_analysisTheme": "Agent Plugin Trust",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "AI WORKFLOW",
+      "datetime": "2026-08-24T03:26:52.000Z",
+      "author": "AI 辅助软件开发伍斌",
+      "handle": "wubin28",
+      "avatar": "https://pbs.twimg.com/profile_images/2085972348277325824/0-aNxDN9_200x200.jpg",
+      "title": "Omarchy 把 Agent 入口做进 Linux 桌面体验",
+      "summary": "wubin28 记录 Omarchy 的三点体验：自动提示设置第一个 Agent、缺软件时自动安装、右上角监控 Claude Code/Codex 状态。它值得抓取，因为 AI-first OS 的关键不是炫技，而是把配置、安装和状态监控做顺。",
+      "url": "https://x.com/wubin28/status/2091728924405608468",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQdQXfobIAA0ZEv.jpg?name=orig"
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 32 VIEWS",
+      "links": [],
+      "_analysisTheme": "AI-first OS UX",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "AI PRODUCT",
+      "datetime": "2026-08-24T03:22:39.000Z",
+      "author": "Derrick Choi",
+      "handle": "derrickcchoi",
+      "avatar": "https://pbs.twimg.com/profile_images/2038764215398531072/40W77WEZ_200x200.jpg",
+      "title": "ChatGPT Background conversations 成为系统级触点",
+      "summary": "Derrick Choi 展示打开 ChatGPT mobile 的 Background conversations，并把 iPhone 锁屏小组件改成直接进入语音聊天。它值得抓取，因为 AI 对话正在从 app 内功能扩展到锁屏和后台状态。",
+      "url": "https://x.com/derrickcchoi/status/2091727862244204904",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091727331312414721/vid/avc1/320x568/Yf1t-D7ocA_Xzwo0.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091727331312414721/img/E7DUhhBaOxuL3fa8.jpg",
+          "crossOrigin": false
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQdO7RiaIAAYgTx.jpg?name=orig"
+        }
+      ],
+      "metrics": "2 REPLIES · 0 REPOSTS · 38 LIKES · 4 BOOKMARKS · 1.9K VIEWS",
+      "links": [],
+      "_analysisTheme": "System Touchpoint AI",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "AI TOOLING",
+      "datetime": "2026-08-24T02:57:39.000Z",
+      "author": "VΞKING",
+      "handle": "veeeeking",
+      "avatar": "https://pbs.twimg.com/profile_images/2087927139488452608/U9__zSwe_200x200.jpg",
+      "title": "Marketing Skills 把 SEO/CRO/文案变成 Agent 工作流",
+      "summary": "veeeeking 推荐 coreyhaines31/marketingskills：把 SEO、CRO、copy、analytics 和 growth engineering 封装成 Claude Code/AI agent skills。它值得抓取，因为小团队增长可以被做成可运行的设计工程流程。",
+      "url": "https://x.com/veeeeking/status/2091721570167492772",
+      "media": [],
+      "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 34 VIEWS",
+      "links": [
+        "https://github.com/coreyhaines31/marketingskills"
+      ],
+      "_analysisTheme": "Growth Agent Skills",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "GitHub - coreyhaines31/marketingskills: Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+        "url": "https://github.com/coreyhaines31/marketingskills",
+        "preview": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. · language: JavaScript · stars: 45398 · license: MIT",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI WORKFLOW",
+      "datetime": "2026-08-24T02:45:11.000Z",
+      "author": "Dmitry Lyalin",
+      "handle": "LyalinDotCom",
+      "avatar": "https://pbs.twimg.com/profile_images/2062256437967900672/fL5iP8CH_200x200.jpg",
+      "title": "Agent 可能伪造截图，验证 UX 需要更硬证据",
+      "summary": "LyalinDotCom 提醒：现在让 agent “改完后给截图”还有效，但未来 agent 可能在模拟器失败时伪造截图且忘记说明。它值得抓取，因为 AI 编程产品需要把截图、运行和设备证据分开。",
+      "url": "https://x.com/LyalinDotCom/status/2091718434807578660",
+      "media": [],
+      "metrics": "9 REPLIES · 0 REPOSTS · 33 LIKES · 0 BOOKMARKS · 1.8K VIEWS",
+      "links": [],
+      "_analysisTheme": "AI Verification UX",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "AI RESEARCH",
+      "datetime": "2026-08-24T02:27:01.000Z",
+      "author": "Shubham Saboo",
+      "handle": "Saboo_Shubham_",
+      "avatar": "https://pbs.twimg.com/profile_images/2011150989668270080/wQ4NP39W_200x200.jpg",
+      "title": "LLM-as-a-Verifier 用模型挑选 SWE Agent 轨迹",
+      "summary": "Saboo_Shubham_ 摘要 Stanford LLM-as-a-Verifier：同一模型采样多条 swe-agent 轨迹、排序并保留最佳，使 deepseek-v4-flash 在 terminal-bench 上从 78.7% 到 88%。它值得抓取，因为评估和自检会影响 agent 产品的结果呈现。",
+      "url": "https://x.com/Saboo_Shubham_/status/2091713863368802322",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQdCrIUbIAAW2US.jpg?name=orig"
+        }
+      ],
+      "metrics": "15 REPLIES · 17 REPOSTS · 86 LIKES · 109 BOOKMARKS · 4.8K VIEWS",
+      "links": [],
+      "_analysisTheme": "Agent Evaluation",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "AI TOOLING",
+      "datetime": "2026-08-24T02:17:16.000Z",
+      "author": "老韭菜南亥",
+      "handle": "daweifs",
+      "avatar": "https://pbs.twimg.com/profile_images/2086467830900473856/eqnEbCa9_200x200.jpg",
+      "title": "ECC 把 Codex/Claude 项目规约做成可复用系统",
+      "summary": "daweifs 介绍 ECC：把规划、测试、Code Review、安全检查、修 Build、Skills、Hooks、Rules 和 Memory 打包给 Claude Code/Codex 使用。它值得抓取，因为团队 prompt 规范正在产品化。",
+      "url": "https://x.com/daweifs/status/2091711406806880656",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091711221921947648/vid/avc1/480x270/30oa0hFFYjoHfLMo.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091711221921947648/img/FU5a-My0bF-0TKds.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "42 REPLIES · 0 REPOSTS · 41 LIKES · 0 BOOKMARKS · 983 VIEWS",
+      "links": [
+        "https://github.com/affaan-m/ECC"
+      ],
+      "_analysisTheme": "Agent Workflow Template",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "GitHub - affaan-m/ECC: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+        "url": "https://github.com/affaan-m/ECC",
+        "preview": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. · language: JavaScript · stars: 242645 · license: MIT",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI RESEARCH",
+      "datetime": "2026-08-24T02:16:05.000Z",
+      "author": "Chun",
+      "handle": "springuper",
+      "avatar": "https://pbs.twimg.com/profile_images/1158700887/springLogo_200x200.jpg",
+      "title": "五款 Agent Harness 用同一模型做横向实测",
+      "summary": "springuper 发布长文，把 Claude Code、Codex、OpenCode、Pi 和 DeepSeek Harness 用同一个 deepseek-v4-flash 任务横向比较。它值得抓取，因为 harness 本身正在成为 agent 体验差异的来源。",
+      "url": "https://x.com/springuper/status/2091711112513511807",
+      "media": [],
+      "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 61 VIEWS",
+      "links": [
+        "https://springuper.github.io/agent-harness-comparison/"
+      ],
+      "_analysisTheme": "Agent Harness Comparison",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "给大脑配一副好鞍具：五款 Agent Harness 的解剖与实测 - Shang Chun",
+        "url": "https://springuper.github.io/agent-harness-comparison/",
+        "preview": "给大脑配一副好鞍具：五款 Agent Harness 的解剖与实测",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI WORKFLOW",
       "datetime": "2026-08-24T01:49:55.000Z",
       "author": "Indie Fox",
       "handle": "indie_maker_fox",
@@ -57,6 +370,50 @@
         "text": "Claude CodeにMiniMax H3のプロンプトを丸投げしたら、この動画ができました😃 Claude Codeに投げたプロンプト↓ ------------------- MiniMax H3を使ってモーショングラフィックスをバリバリ使った15秒のCMを作りたい。 どんな内容が良いと思う？ 条件は以下 ・モ…",
         "url": "https://x.com/tanabe_fragm/status/2090306302966919515"
       }
+    },
+    {
+      "category": "AI PRODUCT",
+      "datetime": "2026-08-24T01:44:33.000Z",
+      "author": "Tak 🦞",
+      "handle": "cherry_mx_reds",
+      "avatar": "https://pbs.twimg.com/profile_images/2031371699866972164/T-b_IaFi_200x200.jpg",
+      "title": "Openclaw 新移动 Web UI 支持 code mode side chat",
+      "summary": "cherry_mx_reds 展示 Openclaw 即将发布的 mobile web UI：围绕 code mode guardian approval PR 开 side chat。它值得抓取，因为移动端 AI coding 需要处理主任务、审查、分支讨论和审批的并存。",
+      "url": "https://x.com/cherry_mx_reds/status/2091703176013492358",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQc4mXqXMAAMine.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQc4mXoXgAAsVbk.jpg?name=orig"
+        }
+      ],
+      "metrics": "3 REPLIES · 3 REPOSTS · 24 LIKES · 2 BOOKMARKS · 5.9K VIEWS",
+      "links": [],
+      "_analysisTheme": "Mobile Agent Workspace",
+      "_analysisPriority": "high"
+    },
+    {
+      "category": "AI PRODUCT",
+      "datetime": "2026-08-24T01:43:01.000Z",
+      "author": "RemNote",
+      "handle": "remnote",
+      "avatar": "https://pbs.twimg.com/profile_images/1743384406352650240/L5fx-_Hc_200x200.jpg",
+      "title": "RemNote 让本地 AI Agent 连接个人知识库",
+      "summary": "RemNote 官方宣布 Codex、Claude 等本地 agent 可连接 RemNote，询问知识库并创建文档。它值得抓取，因为个人知识库正从阅读/复习工具变成 agent 可操作的上下文源。",
+      "url": "https://x.com/remnote/status/2091702789915152593",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQc4ml9XUAAs5C0.jpg?name=orig"
+        }
+      ],
+      "metrics": "3 REPLIES · 2 REPOSTS · 10 LIKES · 6 BOOKMARKS · 543 VIEWS",
+      "links": [],
+      "_analysisTheme": "Knowledge Product / Agent Context",
+      "_analysisPriority": "high"
     },
     {
       "category": "AI PRODUCT",
@@ -287,6 +644,35 @@
       "links": [],
       "_analysisTheme": "Codex Side Chat",
       "_analysisPriority": "medium"
+    },
+    {
+      "category": "DEV TOOLING",
+      "datetime": "2026-08-24T00:06:32.000Z",
+      "author": "tobi lutke",
+      "handle": "tobi",
+      "avatar": "https://pbs.twimg.com/profile_images/1999293930936909824/_HWYanot_200x200.jpg",
+      "title": "walgit 把 Git at Scale 思路做成单二进制对象存储 Git 服务",
+      "summary": "Tobi 读完 Cursor 的 Git at Scale 后周末实现开源 walgit：一个放在 S3/GCS 前的 Git server。它值得抓取，因为设计工程师需要理解大规模协作背后的版本、缓存和发布基础设施。",
+      "url": "https://x.com/tobi/status/2091678506992222258",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQcieUaXYAEiFPZ.jpg?name=orig"
+        }
+      ],
+      "metrics": "88 REPLIES · 115 REPOSTS · 2.6K LIKES · 1.5K BOOKMARKS · 194.8K VIEWS",
+      "links": [
+        "https://github.com/tobi/walgit"
+      ],
+      "_analysisTheme": "Git Infrastructure UX",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "GitHub - tobi/walgit: a git server that is one binary in front of an object store",
+        "url": "https://github.com/tobi/walgit",
+        "preview": "walgit hosts Git repositories with no database, no leader, and no local state that matters; a single binary points at S3/GCS and supports smart HTTP, bundle-uri, Git LFS, web UI, JSON API, policy, and webhooks.",
+        "cover": ""
+      }
     },
     {
       "category": "AI WORKFLOW",

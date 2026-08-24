@@ -1,6 +1,571 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-24",
+    "generatedAt": "2026-08-24T13:24:00+08:00",
+    "batch": "x-ai-design-analysis-2026-08-24-1324",
+    "analysisCount": 16,
+    "homeCount": 16,
+    "likeCount": 0,
+    "linksInspected": 13,
+    "unavailableLinks": 0,
+    "summary": "2026-08-24 午后补充：通过登录态 X Home/Following/列表 tab 与 X 站内搜索观察 603 条 Home appearances、120 个唯一候选，在当天已有 20 条 Home 和 100 条 Analysis 的基础上追加 16 条同日 Home 深读；Likes 页观察 20 个唯一 ID，全部已知，未写入 Like。",
+    "sourceWindow": {
+      "strategy": "使用 ego-browser 独立 task space 13 复用 X 登录态；Home 覆盖 For You、正在关注、Design Engineers、JPI、AI 御三家超级员工、独立创造者，以及 AI agent/product/design/tool/indie 搜索。Likes 进入 x.com/neoedon414/likes 并由 X 跳转到 i/history/likes，滚动到 known-ID 边界。外链只读取原帖暴露 URL，不使用普通网页搜索替代 X 采集。",
+      "newestHomeDatetime": "2026-08-24T05:00:00.000Z",
+      "oldestHomeDatetime": "2026-08-24T00:06:32.000Z",
+      "newestLikeDatetime": null,
+      "oldestLikeDatetime": null,
+      "expandedWindow": "未扩窗；16 条 Home 新增均属于 Asia/Shanghai 2026-08-24。Analysis 日内已达到 100 条，本轮只追加新 Home 中有学习价值的项目。",
+      "observed": {
+        "homeRaw": 603,
+        "homeUnique": 120,
+        "sameDayFreshHomeCandidates": 93,
+        "homeSelected": 16,
+        "rejectedHomeCandidates": 104,
+        "selectedHomeIds": [
+          "2091752363241754657",
+          "2091750583988555953",
+          "2091742746071748675",
+          "2091734241084391556",
+          "2091734223900324273",
+          "2091728924405608468",
+          "2091727862244204904",
+          "2091721570167492772",
+          "2091718434807578660",
+          "2091713863368802322",
+          "2091711406806880656",
+          "2091711112513511807",
+          "2091703176013492358",
+          "2091702789915152593",
+          "2091678506992222258",
+          "2091735487413444829"
+        ],
+        "likeRaw": 20,
+        "likeUnique": 20,
+        "freshLikeIds": [],
+        "likeBoundary": "known-id-boundary",
+        "analysisBeforeTodayUnique": 100,
+        "linksRead": 13,
+        "unavailableLinks": 0
+      }
+    },
+    "items": [
+      {
+        "id": "2091752363241754657",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/AgentsRoomDev/status/2091752363241754657",
+        "author": "AgentsRoom.dev",
+        "handle": "AgentsRoomDev",
+        "datetime": "2026-08-24T05:00:00.000Z",
+        "title": "AgentsRoom 让 Claude 与 Codex 互发消息",
+        "originalSummary": "原帖内容：Claude sending messages to Codex? We made it! 📬 Two AI agents on the same project, and the only way they talk is you: copy from one terminal, paste into the other 😅 We gave them a real inbox instead: https://agentsroom.dev/features/agent-messaging Claude wri…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把多 agent 协作从“复制粘贴两端上下文”推进到有收件箱、历史和项目成员关系的产品界面，适合拆解 agent team 的信息架构。",
+        "deepSummary": "这条的价值不是“Claude 能和 Codex 说话”本身，而是把 agent 间协作设计成可持久化、可追责、可恢复的消息系统。个人设计师可以学习如何给异步 agent 工作加入 roster、inbox、message state 和跨 CLI 语境。",
+        "linkAnalysis": [
+          {
+            "url": "https://agentsroom.dev/features/agent-messaging",
+            "title": "Agent to agent messaging: an inbox your AI agents actually own",
+            "access": "full",
+            "summary": "Six MCP tools turn the agents of a project into a permanent roster that can write to each other. Messages are stored before they are delivered, so a restart, a crash or an agent that is offline never loses one.",
+            "value": "Agent to agent messaging: an inbox your AI agents actually own 提供原帖之外的信息：Six MCP tools turn the agents of a project into a permanent roster that can write to each other. Messages are stored before they are delivered, so a restart, a crash or an agent that is offline never loses one.",
+            "learningValue": "值得继续读，用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "画出 agent inbox 的信息层级：项目、成员、消息、状态、引用文件分别放在哪里。",
+          "记录跨 CLI 协作的失败点：消息丢失、上下文断裂、谁该响应、如何回看。",
+          "把自己的 Codex/Claude 工作流试着改写成“任务消息”而不是一次性 prompt。"
+        ],
+        "tags": [
+          "Agent UX",
+          "Codex",
+          "MCP"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091750583988555953",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/shao__meng/status/2091750583988555953",
+        "author": "meng shao",
+        "handle": "shao__meng",
+        "datetime": "2026-08-24T04:52:56.000Z",
+        "title": "从 OpenClaw 到 Codex 的创作者工作流访谈",
+        "originalSummary": "原帖内容：从 OpenClaw 到 Codex：AI Agent 如何重塑内容创作与创业 来自 @rileybrown 和 @bilawalsidhu 的深度对谈，Bilawal 从「一台 MacBook Pro 上跑 6 个不同人设的 OpenClaw，通过 WhatsApp/Telegram 远程发指令，自动汇总会议记录和 YouTube 数据」到「全面转向 Codex 作为\"通用生活操作系统\"」，过程中「Codex 应用内浏览器」是他认为非常关键的特性！ https://www.youtube.com/watch?v=…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它不是泛泛讨论 agent，而是把 OpenClaw、Codex、移动指令入口和内容运营串成可观察的创作者工作台案例。",
+        "deepSummary": "这条适合研究“AI 工作台如何替代一组松散 app”。对个人设计师来说，重点是观察 creator 端如何在同一个系统里调度内容、会议、数据和发布，而不是只看模型能力。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.youtube.com/watch?v=NR_GMq2lDCE",
+            "title": "Codex Replaced All His Apps | Bilawal Sidhu",
+            "access": "partial",
+            "summary": "YouTube oEmbed 可读：作者 Riley Brown；需要打开视频页继续看完整内容。",
+            "value": "Codex Replaced All His Apps | Bilawal Sidhu 提供原帖之外的信息：YouTube oEmbed 可读：作者 Riley Brown；需要打开视频页继续看完整内容。",
+            "learningValue": "可作为访谈线索继续看，当前只读到视频标题和作者，完整观点需打开视频页。"
+          }
+        ],
+        "learningActions": [
+          "看访谈时只记录 interface moments：哪里需要 browser、哪里需要审批、哪里需要结果回看。",
+          "把“Codex 作为生活 OS”的说法拆成 3 个真实任务流：收集、处理、发布。",
+          "比较 OpenClaw 的多 persona 远程控制和 Codex app browser 的交互边界。"
+        ],
+        "tags": [
+          "Creator Workflow",
+          "Codex",
+          "OpenClaw"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091742746071748675",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/okooo5km/status/2091742746071748675",
+        "author": "十里",
+        "handle": "okooo5km",
+        "datetime": "2026-08-24T04:21:48.000Z",
+        "title": "Zipic 1.10.0 把用户吐槽变成多输出能力",
+        "originalSummary": "原帖内容：回头一看，Zipic 1.10.0 里大部分功能和改进都是从用户“吐槽”/建议里磨出来的，感谢各位共创！ 免费下载：https://zipic.app 完整更新日志：https://zipic.app/cn/releasenotes/20260824/",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它展示了独立工具从用户“麻烦动作”里抽象新功能的过程，能直接用于学习轻量产品的迭代判断。",
+        "deepSummary": "Zipic 这次更新的学习点是：不要只听用户要“更快压缩”，而要还原他们为什么重复操作。多输出、HDR 保真、配置同步和剪贴板白名单，本质上是在减少高频图片处理的重复成本。",
+        "linkAnalysis": [
+          {
+            "url": "https://zipic.app/",
+            "title": "Zipic — Best Image Compression App for Mac",
+            "access": "full",
+            "summary": "Zipic - Free image compression tool for Mac. Compress JPEG, PNG, WebP, HEIC, AVIF and more with batch processing, folder monitoring, and lossless optimization.",
+            "value": "Zipic — Best Image Compression App for Mac 提供原帖之外的信息：Zipic - Free image compression tool for Mac. Compress JPEG, PNG, WebP, HEIC, AVIF and more with batch processing, folder monitoring, and lossless optimization.",
+            "learningValue": "值得继续读，页面补足产品定位、更新范围和真实功能边界。"
+          },
+          {
+            "url": "https://zipic.app/cn/releasenotes/20260824/",
+            "title": "V1.10.0 - Zipic 发布日志",
+            "access": "full",
+            "summary": "Zipic v1.10.0 新增多输出、HDR 保真（JPEG/AVIF/HEIC/JXL）、iCloud 配置与预设同步、全新设置窗口、配置导出导入、剪贴板格式白名单与按比例缩放，并全面升级压缩引擎。",
+            "value": "V1.10.0 - Zipic 发布日志 提供原帖之外的信息：Zipic v1.10.0 新增多输出、HDR 保真（JPEG/AVIF/HEIC/JXL）、iCloud 配置与预设同步、全新设置窗口、配置导出导入、剪贴板格式白名单与按比例缩放，并全面升级压缩引擎。",
+            "learningValue": "值得继续读，页面补足产品定位、更新范围和真实功能边界。"
+          }
+        ],
+        "learningActions": [
+          "把“用户吐槽”改写成 job story：什么时候、为了什么结果、不得不重复做什么。",
+          "拆 Zipic 发布日志里的设置分组，看哪些属于核心任务，哪些属于专业用户控制项。",
+          "为自己的工具清单补一列：是否支持一次输入、多种输出。"
+        ],
+        "tags": [
+          "Indie Product",
+          "Utility UX",
+          "Image Workflow"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091734241084391556",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/xiyue0803/status/2091734241084391556",
+        "author": "Crypto喜悦",
+        "handle": "xiyue0803",
+        "datetime": "2026-08-24T03:48:00.000Z",
+        "title": "五个可给 Agent 装上的 GitHub Skill 项目",
+        "originalSummary": "原帖内容：今天整理 5 个最近看到的 GitHub 项目，方向都挺实用，直接补 AI 写作、网页优化、游戏素材、Hermes Agent 和 AI 搜索优化这几块。 1️⃣ iso-24495 https://github.com/GaZmagik/iso-24495 AI 写东西最烦的，就是开头铺一堆废话，句子又长又绕。这个项目把 ISO 24495 简明语言标准做成了一套 Skill，直接约束 AI 的输出方式。 它会要求 AI 删掉填充开场、缩短句子和段落、多用主动语态、把指令写得能直接照做。还带法律文本审校和代码可读…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 AI 写作、网页质量、游戏素材、Hermes Agent 和 AI 搜索优化都落到可复用仓库，适合纳入个人设计工程 skill 库。",
+        "deepSummary": "这条是一次高密度工具清单。对个人设计师的价值是分辨哪些设计质量可以转成 agent 可执行规则：简明语言、性能/a11y、素材生成、工具目录和 GEO/SEO 都能成为上线前检查流程。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/GaZmagik/iso-24495",
+            "title": "GitHub - GaZmagik/iso-24495: ISO 24495 Plain Language skills and Claude Code plugin",
+            "access": "full",
+            "summary": "ISO 24495 Plain Language skills and Claude Code plugin · language: TypeScript · stars: 141 · license: MIT",
+            "value": "GitHub - GaZmagik/iso-24495: ISO 24495 Plain Language skills and Claude Code plugin 提供原帖之外的信息：ISO 24495 Plain Language skills and Claude Code plugin · language: TypeScript · stars: 141 · license: MIT",
+            "learningValue": "值得继续读，仓库能直接提供实现结构、安装方式和可复用规则。"
+          },
+          {
+            "url": "https://github.com/addyosmani/web-quality-skills",
+            "title": "GitHub - addyosmani/web-quality-skills: Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals.",
+            "access": "full",
+            "summary": "Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals. · language: Shell · stars: 2686 · license: MIT",
+            "value": "GitHub - addyosmani/web-quality-skills: Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals. 提供原帖之外的信息：Agent Skills for optimizing web quality based on Lighthouse and Core Web Vitals. · language: Shell · stars: 2686 · license: MIT",
+            "learningValue": "值得继续读，仓库能直接提供实现结构、安装方式和可复用规则。"
+          },
+          {
+            "url": "https://github.com/0x0funky/agent-sprite-forge",
+            "title": "GitHub - 0x0funky/agent-sprite-forge: Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts.",
+            "access": "full",
+            "summary": "Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts. · language: Python · stars: 3870 · license: MIT",
+            "value": "GitHub - 0x0funky/agent-sprite-forge: Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts. 提供原帖之外的信息：Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts. · language: Python · stars: 3870 · license: MIT",
+            "learningValue": "值得继续读，仓库能直接提供实现结构、安装方式和可复用规则。"
+          },
+          {
+            "url": "https://github.com/0xNyk/awesome-hermes-agent",
+            "title": "GitHub - 0xNyk/awesome-hermes-agent: Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent.",
+            "access": "full",
+            "summary": "Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent. · stars: 5427 · license: NOASSERTION",
+            "value": "GitHub - 0xNyk/awesome-hermes-agent: Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent. 提供原帖之外的信息：Independent directory of useful skills, plugins, memory providers, tools, surfaces, and guides for Nous Research's open-source Hermes Agent. · stars: 5427 · license: NOASSERTION",
+            "learningValue": "值得继续读，仓库能直接提供实现结构、安装方式和可复用规则。"
+          },
+          {
+            "url": "https://github.com/zubair-trabzada/geo-seo-claude",
+            "title": "GitHub - zubair-trabzada/geo-seo-claude: GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports.  If you want learn how to sell this to real businesses, check out the skool community",
+            "access": "full",
+            "summary": "GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports.  If you want learn how to sell this to real businesses, check out the skool community · language: Python · stars: 9442 · license: MIT",
+            "value": "GitHub - zubair-trabzada/geo-seo-claude: GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports.  If you want learn how to sell this to real businesses, check out the skool community 提供原帖之外的信息：GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports.  If you want learn how to sell this to real businesses, check out the skool community · language: Python · stars: 9442 · license: MIT",
+            "learningValue": "值得继续读，仓库能直接提供实现结构、安装方式和可复用规则。"
+          }
+        ],
+        "learningActions": [
+          "把 5 个仓库按“写作质量、网页质量、素材生产、目录发现、增长优化”建成自己的 skill 分类。",
+          "优先试 web-quality-skills：让 agent 对一个页面跑性能、a11y、SEO 检查清单。",
+          "把 ISO 24495 的 plain-language 规则用于产品文案 review，而不只用于长文写作。"
+        ],
+        "tags": [
+          "Agent Skills",
+          "GitHub",
+          "Web Quality"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091734223900324273",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/im23pds/status/2091734223900324273",
+        "author": "23pds (山哥)",
+        "handle": "im23pds",
+        "datetime": "2026-08-24T03:47:56.000Z",
+        "title": "DeepGuard 预告 DeepSeek Harness 安全插件市场",
+        "originalSummary": "原帖内容：👉业余时间 @T41nk_ 和我碰撞出来的实验产品 DeepGuard 面向 #DeepSeek Harness 生态的安全插件市场： 每个版本与代码提交（commit）双重锁定、L0–L3 四层纵深审计、能力披露与兼容矩阵，全部报告公开可查。 AI Token 由 @BAI_AGI 支持 @sunyuchentron 😉 感兴趣的朋友可以拭目以待",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 agent 插件安全做成市场和报告体系，直接对应未来插件安装、权限、审计和兼容性的设计问题。",
+        "deepSummary": "这条的重点是插件生态的信任设计：版本锁定、审计级别、能力披露和兼容矩阵都应该成为安装前可见信息。个人设计师可以把它作为 agent marketplace 的安全信息架构参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画一个插件详情页，强制包含版本、commit、权限、审计级别和兼容矩阵。",
+          "为 agent 插件定义 L0-L3 风险标签，避免只用“安全/不安全”二分。",
+          "观察 DeepGuard 后续公开报告格式，提取可复用的 trust badge 文案。"
+        ],
+        "tags": [
+          "Security UX",
+          "Plugin Market",
+          "DeepSeek Harness"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091728924405608468",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/wubin28/status/2091728924405608468",
+        "author": "AI 辅助软件开发伍斌",
+        "handle": "wubin28",
+        "datetime": "2026-08-24T03:26:52.000Z",
+        "title": "Omarchy 把 Agent 入口做进 Linux 桌面体验",
+        "originalSummary": "原帖内容：这两天在用 Omarchy这个面向智能体的 Linux 操作系统，发现它有三大优势。 首先，它助推你用 AI Agent，你安装后它会自动提示你去设置你的第一个 Agent，我就设置了 Pi，这样呢你再连上 GLM 大模型，你就能够在你电脑上干你想干的任何事情，使用传说中很难配置的 Arch 家族的 Linux 就不再那么令人感到畏惧。 第二个呢，就是它的图形界面是基于用户的使用角度来设计的。比如，它不会让你自己打开一个终端去安装常用的软件，而是在你想用的时候，比方说你在终端里输入一个 obsidian，其实你还没…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 AI coding 的环境准备和状态反馈变成系统级引导，是桌面 agent workspace 的具体交互线索。",
+        "deepSummary": "这条说明 AI-first 桌面体验的核心是降低配置恐惧：首次 Agent 设置、按需安装和运行状态监控，让用户感觉系统在配合工作，而不是要求用户懂底层。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆 Omarchy 的首次启动路径：什么时候提示设置 agent，什么时候才暴露高级配置。",
+          "为 Codex/Claude Code 状态监控列一个最小信息集：正在运行、等待输入、失败原因、费用/上下文。",
+          "比较传统 Linux 安装体验与“输入命令即触发安装引导”的交互差异。"
+        ],
+        "tags": [
+          "Desktop UX",
+          "Agent OS",
+          "Codex"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091727862244204904",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/derrickcchoi/status/2091727862244204904",
+        "author": "Derrick Choi",
+        "handle": "derrickcchoi",
+        "datetime": "2026-08-24T03:22:39.000Z",
+        "title": "ChatGPT Background conversations 成为系统级触点",
+        "originalSummary": "原帖内容：Turn on Background conversations in the ChatGPT mobile app to continue chatting even if other apps are open or your phone is locked. I changed my iPhone lock screen widget to directly kick off a voice chat as well.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为这是 AI assistant 从 app tab 走向锁屏、后台和语音持续会话的清晰产品信号，适合研究移动端入口设计。",
+        "deepSummary": "这条的设计价值在系统触点：AI 会话不再只是前台聊天页，而需要考虑锁屏启动、后台持续、隐私提示和恢复上下文。个人设计师可以据此整理移动 AI assistant 的入口和状态模型。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "列出后台语音会话必须显示的状态：正在听、正在说、已暂停、隐私/麦克风。",
+          "为锁屏小组件设计 2 个动作：立即继续上一段会话、新建语音任务。",
+          "检查自己的移动产品概念是否只停留在 app 内，而缺少系统级入口。"
+        ],
+        "tags": [
+          "Mobile AI",
+          "Voice UX",
+          "System Touchpoint"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091721570167492772",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/veeeeking/status/2091721570167492772",
+        "author": "VΞKING",
+        "handle": "veeeeking",
+        "datetime": "2026-08-24T02:57:39.000Z",
+        "title": "Marketing Skills 把 SEO/CRO/文案变成 Agent 工作流",
+        "originalSummary": "原帖内容：New site live. Zero traffic. No idea how to market it? Just found an open-source gem that actually helps 🔥 Marketing Skills turns SEO, CRO, copy, and growth tactics into skills your AI coding agent can use. In your editor, just say: • “Audit this landing page…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把落地页审计、Schema、欢迎邮件这类增长任务变成可安装 skill，适合个人设计师补齐产品发布后的增长能力。",
+        "deepSummary": "这条的价值是把“营销建议”变成可执行检查流。对个人设计师来说，CRO、SEO、copy 和 analytics 不应是上线后的附加项，而可以提前做成 agent 可重复调用的质量关卡。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/coreyhaines31/marketingskills",
+            "title": "GitHub - coreyhaines31/marketingskills: Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+            "access": "full",
+            "summary": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. · language: JavaScript · stars: 45398 · license: MIT",
+            "value": "GitHub - coreyhaines31/marketingskills: Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. 提供原帖之外的信息：Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering. · language: JavaScript · stars: 45398 · license: MIT",
+            "learningValue": "值得继续读，仓库能直接提供实现结构、安装方式和可复用规则。"
+          }
+        ],
+        "learningActions": [
+          "把一个自己的 landing page 丢给 agent，先跑 CRO 审计，再跑 copy rewrite。",
+          "从仓库里挑 3 个 skill，转成产品发布前 checklist。",
+          "记录 skill 之间如何共享 product context，避免每次重新解释品牌和受众。"
+        ],
+        "tags": [
+          "Growth Design",
+          "Agent Skills",
+          "SEO"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091718434807578660",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/LyalinDotCom/status/2091718434807578660",
+        "author": "Dmitry Lyalin",
+        "handle": "LyalinDotCom",
+        "datetime": "2026-08-24T02:45:11.000Z",
+        "title": "Agent 可能伪造截图，验证 UX 需要更硬证据",
+        "originalSummary": "原帖内容：I’m realizing that while today “show me a screenshot of the app after you changed it” works well, it’s just a matter of time until some agent fakes a screenshot when it can’t get the simulator working or something and totally will forget to mention it 😅.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它正好对应设计工程里的验收边界：截图不是运行证明，preview 不是发布证明，需要更清晰的 evidence state。",
+        "deepSummary": "这条是 agent 产品信任设计的提醒。个人设计师在做 AI coding 工作流时，应把 screenshot、build、launch、interaction、media playback 和 publish readback 分成不同状态，而不是让一个截图承担全部证明。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把你的 AI coding 验收文案改成证据清单：build、render、interaction、readback 分开。",
+          "设计一个“截图来源”标识：模拟器截图、浏览器截图、用户上传图分别区分。",
+          "在 PR/交付模板里加入“无法验证时必须显式说明”的规则。"
+        ],
+        "tags": [
+          "Verification",
+          "AI Coding",
+          "Trust UX"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091713863368802322",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Saboo_Shubham_/status/2091713863368802322",
+        "author": "Shubham Saboo",
+        "handle": "Saboo_Shubham_",
+        "datetime": "2026-08-24T02:27:01.000Z",
+        "title": "LLM-as-a-Verifier 用模型挑选 SWE Agent 轨迹",
+        "originalSummary": "原帖内容：WILD...the model grades its own answers and beats itself. Stanford's LLM-as-a-Verifier sampled 5 swe-agent trajectories, ranked them with the same model, kept the winner. deepseek-v4-flash went from 78.7% to 88% on terminal-bench without fine-tuning. 100% Open…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 agent 质量提升放在“多轨迹选择”而非单次回答，适合转成设计端的候选方案比较界面。",
+        "deepSummary": "这条给设计工程的启发是：agent 不一定只输出一个答案，可以并行生成多条执行轨迹，再用 verifier 选择。UI 上需要展示候选、评分依据和为什么保留某条路径。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "为 agent 结果页增加“候选轨迹/评分/最终选择”的信息结构草图。",
+          "研究 terminal-bench 这类任务如何定义成功，避免 UI 只显示自信结论。",
+          "把“模型自评”标记为辅助信号，保留人工复核入口。"
+        ],
+        "tags": [
+          "Agent Eval",
+          "SWE Agent",
+          "Research"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091711406806880656",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/daweifs/status/2091711406806880656",
+        "author": "老韭菜南亥",
+        "handle": "daweifs",
+        "datetime": "2026-08-24T02:17:16.000Z",
+        "title": "ECC 把 Codex/Claude 项目规约做成可复用系统",
+        "originalSummary": "原帖内容：如果你平时用 Claude Code 或 Codex，应该遇到过这种情况： 每开一个新项目，又得重新跟 AI 交代一遍规矩——先规划、写完测、别乱动无关文件、自己 Review…… ECC 就是把这些反复写的 Prompt 提前配好了。 里面有规划、测试、Code Review、安全检查、修 Build 的专门 Agent，还有 Skills、Hooks、Rules 和 Memory。 一个任务没做完，下次开 Claude Code / Codex 还能直接接上上下文。 现在 Claude Code 支持最完整，C…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把每个项目反复交代的 AI coding 规则变成可安装的规约系统，适合设计团队沉淀自己的 agent 工作法。",
+        "deepSummary": "ECC 的核心不是又一套 prompt，而是把“先规划、写完测、别乱动、自己 review”等团队约束做成可迁移 runtime。个人设计师可以借它思考如何把 UI 品味、验收标准和项目记忆打包给 agent。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/affaan-m/ECC",
+            "title": "GitHub - affaan-m/ECC: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+            "access": "full",
+            "summary": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. · language: JavaScript · stars: 242645 · license: MIT",
+            "value": "GitHub - affaan-m/ECC: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. 提供原帖之外的信息：The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. · language: JavaScript · stars: 242645 · license: MIT",
+            "learningValue": "值得继续读，仓库能直接提供实现结构、安装方式和可复用规则。"
+          }
+        ],
+        "learningActions": [
+          "把设计团队常用的验收规则写成 ECC 风格的 rules/memory，而不是散在聊天记录里。",
+          "对比 Skills、Hooks、Rules 的职责，避免把所有约束塞进一个大 prompt。",
+          "为项目模板加“接上次上下文”的记忆摘要字段。"
+        ],
+        "tags": [
+          "Codex",
+          "Claude Code",
+          "Team Workflow"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091711112513511807",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/springuper/status/2091711112513511807",
+        "author": "Chun",
+        "handle": "springuper",
+        "datetime": "2026-08-24T02:16:05.000Z",
+        "title": "五款 Agent Harness 用同一模型做横向实测",
+        "originalSummary": "原帖内容：跟 DeepSeek Harness 一起肝了篇长文：把五个 AI 编程工具——Claude Code / Codex / OpenCode / Pi / 还有 DeepSeek Harness 自己——挨个拆开比了一遍 🔪 为了公平，五家全用 deepseek-v4-flash 跑一个任务，比的就是工具本身。一些结论还挺有意思，譬如 codex 远比想象中大 https://springuper.github.io/agent-harness-comparison/",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把模型变量固定后比较工具本身，能帮助个人设计师判断 agent 产品体验到底来自模型还是 harness。",
+        "deepSummary": "这条对设计工程最有用的地方是评测方法：同模型、同任务、比较 harness 的上下文管理、工具调用、失败恢复和界面支持。它能转化为自己的 AI coding 工具评估表。",
+        "linkAnalysis": [
+          {
+            "url": "https://springuper.github.io/agent-harness-comparison/",
+            "title": "给大脑配一副好鞍具：五款 Agent Harness 的解剖与实测 - Shang Chun",
+            "access": "full",
+            "summary": "给大脑配一副好鞍具：五款 Agent Harness 的解剖与实测",
+            "value": "给大脑配一副好鞍具：五款 Agent Harness 的解剖与实测 - Shang Chun 提供原帖之外的信息：给大脑配一副好鞍具：五款 Agent Harness 的解剖与实测",
+            "learningValue": "值得继续读，用于拆解信息架构、实现细节或工具选型。"
+          }
+        ],
+        "learningActions": [
+          "阅读长文时只摘 5 个维度：上下文、工具、恢复、界面、成本。",
+          "为自己常用的 Codex/Claude/Pi 做同任务横测，记录主观体验和实际成功率。",
+          "把“模型强弱”与“harness 体验”分开写进工具选型表。"
+        ],
+        "tags": [
+          "Agent Harness",
+          "Codex",
+          "DeepSeek"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091703176013492358",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/cherry_mx_reds/status/2091703176013492358",
+        "author": "Tak 🦞",
+        "handle": "cherry_mx_reds",
+        "datetime": "2026-08-24T01:44:33.000Z",
+        "title": "Openclaw 新移动 Web UI 支持 code mode side chat",
+        "originalSummary": "原帖内容：I’m having a side chat about a code mode guardian approval PR that I’ve been working on in the new mobile web ui in the upcoming release of Openclaw.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为截图显示 agent coding 在移动端不只是聊天，而要容纳 side chat、approval 和 PR 语境，是高价值交互参考。",
+        "deepSummary": "这条适合研究移动端 agent 工作台的信息密度。side chat 不能遮掉主任务上下文，approval 也不能变成单独弹窗孤岛；关键是让讨论、代码变更和审批状态互相可追踪。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把 mobile coding agent 画成三层：主任务、side chat、approval 状态。",
+          "检查 side chat 是否能引用具体 PR/代码片段，而不是只靠自然语言回忆。",
+          "为移动端审批设计“先看证据再批准”的最短路径。"
+        ],
+        "tags": [
+          "Mobile UI",
+          "Openclaw",
+          "Code Review"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091702789915152593",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/remnote/status/2091702789915152593",
+        "author": "RemNote",
+        "handle": "remnote",
+        "datetime": "2026-08-24T01:43:01.000Z",
+        "title": "RemNote 让本地 AI Agent 连接个人知识库",
+        "originalSummary": "原帖内容：Local AI agents in Codex, Claude, etc, can now connect to RemNote! Ask questions about your knowledge base, create documents, etc. Go to Settings > Desktop App. Then, copy and paste the install instructions to your agent.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把个人知识库接入本地 agent，直接影响设计师如何保存灵感、文档和项目记忆。",
+        "deepSummary": "RemNote 这条的重点是知识库从“人读”变成“agent 读写”。设计上要处理授权、可见范围、创建文档的确认、以及 agent 写回后如何被用户复核。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "列出知识库给 agent 的最小权限：只读、创建文档、编辑现有文档分别何时开启。",
+          "设计 agent 写入笔记后的 review 状态，避免自动内容污染长期知识库。",
+          "把自己的设计收藏分成“可直接给 agent 用”和“仅供人读”的两层。"
+        ],
+        "tags": [
+          "Knowledge Base",
+          "Local Agent",
+          "RemNote"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2091678506992222258",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/tobi/status/2091678506992222258",
+        "author": "tobi lutke",
+        "handle": "tobi",
+        "datetime": "2026-08-24T00:06:32.000Z",
+        "title": "walgit 把 Git at Scale 思路做成单二进制对象存储 Git 服务",
+        "originalSummary": "原帖内容：Git at Scale (by cursor) has been one of the most interesting blog posts i've read in a while. It came right when I was frustrated with Shopify's internal git system. As an exercise, I've implemented it over the weekend as open source. It's a single rust binar…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把一篇基础设施文章转成可运行开源项目，适合观察复杂工程概念如何被产品化成简单安装模型。",
+        "deepSummary": "walgit 的学习价值在“复杂能力，简单部署”：无数据库、无 leader、本地状态可丢弃，bucket 才是仓库。做设计工程工具时，这类基础设施抽象会影响团队协作速度和错误恢复体验。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/tobi/walgit",
+            "title": "GitHub - tobi/walgit: a git server that is one binary in front of an object store",
+            "access": "full",
+            "summary": "walgit hosts Git repositories with no database, no leader, and no local state that matters; a single binary points at S3/GCS and supports smart HTTP, bundle-uri, Git LFS, web UI, JSON API, policy, and webhooks.",
+            "value": "GitHub - tobi/walgit: a git server that is one binary in front of an object store 提供原帖之外的信息：walgit hosts Git repositories with no database, no leader, and no local state that matters; a single binary points at S3/GCS and supports smart HTTP, bundle-uri, Git LFS, web UI, JSON API, policy, and webhooks.",
+            "learningValue": "值得继续读，仓库能直接提供实现结构、安装方式和可复用规则。"
+          }
+        ],
+        "learningActions": [
+          "阅读 README 时关注用户心智：一个 binary、一个 bucket、哪些状态可丢弃。",
+          "把“Git at Scale”转成界面问题：clone、push、LFS、web UI、policy 如何暴露。",
+          "思考设计资产版本库能否借鉴对象存储和 disposable cache 的模型。"
+        ],
+        "tags": [
+          "Git",
+          "Infrastructure",
+          "Open Source"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2091735487413444829",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/xin_pai88825/status/2091735487413444829",
+        "author": "Paidax",
+        "handle": "xin_pai88825",
+        "datetime": "2026-08-24T03:52:57.000Z",
+        "title": "加载动画组件达到 2K stars 的动效资产信号",
+        "originalSummary": "原帖内容：没想到这套加载动画已经 2k star 啦",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它是可复用 loading motion 的真实受欢迎信号，适合补充设计系统里的动效组件库。",
+        "deepSummary": "这条的价值是动效组件化：loading 不只是“有动画”，而是曲线、节奏、可配置程度和工程接入方式的组合。个人设计师可以用它反查自己的产品是否缺少统一 loading 语言。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截图拆解动画曲线：进入、循环、退出分别用了什么节奏。",
+          "给自己的组件库补一个 loading motion 分类：占位、等待、进度、成功过渡。",
+          "评估 star 信号时同时看可安装性和视觉完成度，而不是只收藏动图。"
+        ],
+        "tags": [
+          "Motion",
+          "Design System",
+          "Microinteraction"
+        ],
+        "priority": "medium"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-24",
     "generatedAt": "2026-08-24T10:12:00+08:00",
     "batch": "x-ai-design-analysis-2026-08-24-1012",
     "analysisCount": 100,
