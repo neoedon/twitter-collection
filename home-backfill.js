@@ -1,6 +1,502 @@
 (() => {
   window.HOME_BACKFILL = [
     {
+      "category": "AI WORKFLOW",
+      "datetime": "2026-08-24T01:49:55.000Z",
+      "author": "Indie Fox",
+      "handle": "indie_maker_fox",
+      "avatar": "https://pbs.twimg.com/profile_images/1905643474952880129/HiunneWW_200x200.jpg",
+      "title": "MkAgent 开源跨平台 Agent 产品基座",
+      "summary": "Indie Fox 宣布 MkAgent 开源：基于 Pi Agent 的跨平台桌面端 agent 产品模板，同时给出官网和 GitHub。它值得抓取，因为个人设计工程师可以直接学习 agent 产品的壳、插件与扩展结构。",
+      "url": "https://x.com/indie_maker_fox/status/2091704526218903812",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQc6LlEawAE-cNW.png?name=orig"
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 97 VIEWS",
+      "links": [
+        "https://mkagent.app",
+        "https://github.com/MkThingsHQ/mkagent"
+      ],
+      "_analysisTheme": "Agent Product Template",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "MkAgent - Your agent. Your code.",
+        "url": "https://mkagent.app/",
+        "preview": "MkAgent is a local-first, Pi-powered AI agent workspace for Desktop, WebUI, and CLI.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI VIDEO",
+      "datetime": "2026-08-24T01:45:30.000Z",
+      "author": "タナベ | AI動画 × マーケティング",
+      "handle": "tanabe_fragm",
+      "avatar": "https://pbs.twimg.com/profile_images/2046030035241607168/148F4m4X_200x200.jpg",
+      "title": "MiniMax Design 把参考视频转成可复用 Skill",
+      "summary": "tanabe_fragm 展示在 MiniMax Design 中把引用视频 Skill 化，再用 MiniMax H3 生成视频。它值得抓取，因为视频创意可以被沉淀成可复用模板。",
+      "url": "https://x.com/tanabe_fragm/status/2091703413268726004",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091702431742881792/vid/avc1/640x360/NtWAT7vgZX0lRBU2.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091702431742881792/img/pfGyiWuOjqY28ZR0.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 71 VIEWS",
+      "links": [],
+      "_analysisTheme": "Video Skill Template",
+      "_analysisPriority": "medium",
+      "quote": {
+        "author": "タナベ | AI動画 × マーケティング",
+        "handle": "tanabe_fragm",
+        "text": "Claude CodeにMiniMax H3のプロンプトを丸投げしたら、この動画ができました😃 Claude Codeに投げたプロンプト↓ ------------------- MiniMax H3を使ってモーショングラフィックスをバリバリ使った15秒のCMを作りたい。 どんな内容が良いと思う？ 条件は以下 ・モ…",
+        "url": "https://x.com/tanabe_fragm/status/2090306302966919515"
+      }
+    },
+    {
+      "category": "AI PRODUCT",
+      "datetime": "2026-08-24T01:38:22.000Z",
+      "author": "Polsia",
+      "handle": "polsia",
+      "avatar": "https://pbs.twimg.com/profile_images/2073110017335844864/pDaak9Vq_200x200.jpg",
+      "title": "Earnedpress 把编辑与证据放在 AI 发布前",
+      "summary": "Polsia 介绍 Earnedpress：不宣称 no editor，而是在 agent 与发布之间加入 proof 与 disclosure。它值得抓取，因为 AI 内容产品的信任层会成为设计重点。",
+      "url": "https://x.com/polsia/status/2091701620627398964",
+      "media": [],
+      "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 14 VIEWS",
+      "links": [
+        "https://earnedpress.polsia.app"
+      ],
+      "_analysisTheme": "AI Writing Governance",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "Earnedpress",
+        "url": "https://earnedpress.polsia.app/",
+        "preview": "Editor-led AI publishing for commercially-intent affiliate verticals — niche research, briefs, drafts, and WordPress publishing with mandatory E-E-A-T review.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI WORKFLOW",
+      "datetime": "2026-08-24T01:37:16.000Z",
+      "author": "lencx",
+      "handle": "lencx_",
+      "avatar": "https://pbs.twimg.com/profile_images/1777510753672785921/p0hrP-Qm_200x200.png",
+      "title": "Minke 下一版支持 Agent 操作浏览器",
+      "summary": "lencx 预告 Minke 将支持 agent 操作浏览器，并公开 GitHub。它值得抓取，因为浏览器执行层正在成为个人 agent workflow 的基础能力。",
+      "url": "https://x.com/lencx_/status/2091701343010582683",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091700617131765760/vid/avc1/572x360/0f68bjkbg3lUKAEX.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091700617131765760/img/D9I1SWprsPhcQ8A-.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 128 VIEWS",
+      "links": [
+        "https://github.com/lencx/Minke"
+      ],
+      "_analysisTheme": "Browser Agent Runtime",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "GitHub - lencx/Minke: 🐳 DeepSeek Harness Desktop · GitHub",
+        "url": "https://github.com/lencx/Minke",
+        "preview": "🐳 DeepSeek Harness Desktop. Contribute to lencx/Minke development by creating an account on GitHub.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI TOOLING",
+      "datetime": "2026-08-24T01:33:53.000Z",
+      "author": "EasyChen",
+      "handle": "easychen",
+      "avatar": "https://pbs.twimg.com/profile_images/2003997640367972352/ng6UJ5qp_200x200.jpg",
+      "title": "DeepSeek Harness 原生 GUI 启动器",
+      "summary": "EasyChen 展示 Mac 上的 DeepSeek Harness 原生启动器，封装前后端、置顶透明、菜单栏和分屏联动。它值得抓取，因为本地 AI 工具的可用性经常取决于这些桌面级交互细节。",
+      "url": "https://x.com/easychen/status/2091700489901814216",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091700434419494912/vid/avc1/640x360/7HI44mSsmmV6cdY5.mp4?tag=14",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091700434419494912/img/Uk6DBQ5vGQQXMMlS.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 174 VIEWS",
+      "links": [
+        "https://dshell.ft07.com"
+      ],
+      "_analysisTheme": "Desktop Harness UX",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "DshShell — 超轻量的 DeepSeek Harness 外壳",
+        "url": "https://dshell.ft07.com/",
+        "preview": "DshShell 是 DeepSeek Harness 的轻量 macOS 外壳：不到 4 MB，打开即用，背后的服务随界面一键启动和关闭。原生体验、透明度、置顶、最小化到菜单栏。",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI TOOLING",
+      "datetime": "2026-08-24T01:32:55.000Z",
+      "author": "angel",
+      "handle": "angelbrodin",
+      "avatar": "https://pbs.twimg.com/profile_images/2066206663682510849/0kNr7fkV_200x200.jpg",
+      "title": "ChatGPT Work 三分钟生成本地打码小工具",
+      "summary": "angel brodin 为了打码截图，让 ChatGPT Work 生成了一个可用的本地 pixelation app。它值得抓取，因为这类一次性私人工具正是个人工作流提效场景。",
+      "url": "https://x.com/angelbrodin/status/2091700247781068889",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091700143867281408/vid/avc1/486x360/uO1iln9I-AiDSL9z.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091700143867281408/img/65fuH1hnm6GkGn22.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "2 REPLIES · 0 REPOSTS · 11 LIKES · 0 BOOKMARKS · 409 VIEWS",
+      "links": [],
+      "_analysisTheme": "Tiny Utility Generation",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "AI PRODUCT",
+      "datetime": "2026-08-24T01:24:13.000Z",
+      "author": "Server For Agent",
+      "handle": "ServerForAgent",
+      "avatar": "https://pbs.twimg.com/profile_images/2070970652581044224/wCelSKTL_200x200.jpg",
+      "title": "Server4Agent 把咨询分析重排成客户原型",
+      "summary": "Server For Agent 指出咨询公司重复交付同类分析，AI agents 可把思考内容重排成客户原型。它值得抓取，因为服务型工作流的交付物正在产品化。",
+      "url": "https://x.com/ServerForAgent/status/2091698057993949560",
+      "media": [],
+      "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 17 VIEWS",
+      "links": [
+        "https://www.server4agent.com/blog/agencies-ship-client-prototypes-with-ai-agents?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v2&utm_content=nt2_m06"
+      ],
+      "_analysisTheme": "Agency Agent Workflow",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "How agencies can ship client prototypes faster with AI agents · Server4Agent",
+        "url": "https://www.server4agent.com/blog/agencies-ship-client-prototypes-with-ai-agents?utm_source=x&utm_medium=social&utm_campaign=x_nontechnical_bank_2026_v2&utm_content=nt2_m06",
+        "preview": "How agencies and automation builders use AI agents to turn client requests into hosted prototypes with review URLs, reusable templates, and clean handoffs.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI PRODUCT",
+      "datetime": "2026-08-24T01:14:25.000Z",
+      "author": "Viking",
+      "handle": "vikingmute",
+      "avatar": "https://pbs.twimg.com/profile_images/725179208528322560/TPjU7qop_200x200.jpg",
+      "title": "网易邮箱大师 Mail Agent 把邮件变个人知识库",
+      "summary": "Viking 观察网易邮箱大师里的 Mail Agent，可读邮件、按自然语言执行、形成记忆并检索资料。它值得抓取，因为传统生产力工具正在把 agent 嵌入私有数据场景。",
+      "url": "https://x.com/vikingmute/status/2091695592028430533",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091694995149594625/vid/avc1/640x360/PXVd5ocPbWTQvxA9.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091694995149594625/img/UKFRg00fUFT9KDlV.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 2 BOOKMARKS · 705 VIEWS",
+      "links": [],
+      "_analysisTheme": "Mail Agent UX",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "DESIGN ENGINEERING",
+      "datetime": "2026-08-24T01:10:47.000Z",
+      "author": "我的头最小",
+      "handle": "james_tenbyte",
+      "avatar": "https://pbs.twimg.com/profile_images/2083106739415896064/CHdfSag__200x200.jpg",
+      "title": "diagram-design 给 Codex/Claude Code 出图规范",
+      "summary": "Tenbyte 提到 diagram-design 可给 Codex/Claude Code 生成 HTML、SVG、PNG 图，并提醒 PPT 中 SVG 透明色风险。它值得抓取，因为它把「汇报图」从手摆方框变成可复用技能。",
+      "url": "https://x.com/james_tenbyte/status/2091694676361515158",
+      "media": [],
+      "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 22 VIEWS",
+      "links": [
+        "https://github.com/cathrynlavery/diagram-design"
+      ],
+      "_analysisTheme": "Diagram Skill",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "GitHub - cathrynlavery/diagram-design: 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop. · Git…",
+        "url": "https://github.com/cathrynlavery/diagram-design",
+        "preview": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop. - cathrynlavery/diagram-design",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI VIDEO",
+      "datetime": "2026-08-24T00:55:50.000Z",
+      "author": "Leo Antunes",
+      "handle": "lenxism",
+      "avatar": "https://pbs.twimg.com/profile_images/2089852575327625216/Rj0mxVbp_200x200.jpg",
+      "title": "fal agent 串联 Seedance 2.5 与 ElevenLabs",
+      "summary": "Leo Antunes 展示用 fal agent、Seedance 2.5 和 ElevenLabs SFX 构建内容。它值得抓取，因为视频 agent 正从单模型生成走向管线编排。",
+      "url": "https://x.com/lenxism/status/2091690914271895706",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091690674844241923/vid/avc1/644x360/lDWVVe7rOKagxuMs.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091690674844241923/img/ue4sq-V4vcj8qie4.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 2 LIKES · 0 BOOKMARKS · 312 VIEWS",
+      "links": [],
+      "_analysisTheme": "AI Video Pipeline",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "AI WORKFLOW",
+      "datetime": "2026-08-24T00:26:54.000Z",
+      "author": "Ryan Lopopolo",
+      "handle": "_lopopolo",
+      "avatar": "https://pbs.twimg.com/profile_images/1845315531123064833/Yk0aQY5E_200x200.jpg",
+      "title": "从 Deep Research 到 Coding Agent 的产物形态迁移",
+      "summary": "lopopolo 比较 deep research 和 coding agents 都是 tool-calling agent 产出 artifact 的新包装。它值得抓取，因为它提醒评估 agent 产品时要看产物结构而不是热词。",
+      "url": "https://x.com/_lopopolo/status/2091683634122211436",
+      "media": [],
+      "metrics": "5 REPLIES · 1 REPOSTS · 17 LIKES · 0 BOOKMARKS · 2.3K VIEWS",
+      "links": [],
+      "_analysisTheme": "Agent Artifact Pattern",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "AI WORKFLOW",
+      "datetime": "2026-08-24T00:24:49.000Z",
+      "author": "Derrick Choi",
+      "handle": "derrickcchoi",
+      "avatar": "https://pbs.twimg.com/profile_images/2038764215398531072/40W77WEZ_200x200.jpg",
+      "title": "Codex App side chat 适合主任务等待期协作",
+      "summary": "Derrick Choi 提到 Codex app 的 side chat 在主线程等待时很有用。它值得抓取，因为并行沟通/主任务执行的界面关系会影响 agent 工作效率。",
+      "url": "https://x.com/derrickcchoi/status/2091683108269805794",
+      "media": [],
+      "metrics": "10 REPLIES · 0 REPOSTS · 28 LIKES · 0 BOOKMARKS · 5.9K VIEWS",
+      "links": [],
+      "_analysisTheme": "Codex Side Chat",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "AI WORKFLOW",
+      "datetime": "2026-08-24T00:00:21.000Z",
+      "author": "Anand Butani",
+      "handle": "AnandButani",
+      "avatar": "https://pbs.twimg.com/profile_images/1326188085411934208/2s3t9uzU_200x200.jpg",
+      "title": "6 个能教 Coding Agent 新技能的仓库",
+      "summary": "Anand Butani 汇总 agent-skills、diagram-design、openwork、google/skills 等 6 个仓库。它值得抓取，因为这些 repo 是个人设计工程师扩展 agent 能力的素材库。",
+      "url": "https://x.com/AnandButani/status/2091676950037233747",
+      "media": [],
+      "metrics": "0 REPLIES · 0 REPOSTS · 2 LIKES · 3 BOOKMARKS · 285 VIEWS",
+      "links": [
+        "https://github.com/addyosmani/agent-skills",
+        "https://github.com/cathrynlavery/diagram-design",
+        "https://github.com/different-ai/openwork",
+        "https://github.com/google/skills",
+        "https://github.com/virgiliojr94/book-to-skill",
+        "https://github.com/ayghri/i-have-adhd"
+      ],
+      "_analysisTheme": "Agent Skill Repos",
+      "_analysisPriority": "high",
+      "article": {
+        "kind": "external",
+        "title": "GitHub - addyosmani/agent-skills: Production-grade engineering skills for AI coding agents. · GitHub",
+        "url": "https://github.com/addyosmani/agent-skills",
+        "preview": "Production-grade engineering skills for AI coding agents. - addyosmani/agent-skills",
+        "cover": ""
+      }
+    },
+    {
+      "category": "DESIGN TOOL",
+      "datetime": "2026-08-23T22:24:21.000Z",
+      "author": "Joel",
+      "handle": "joelbqz",
+      "avatar": "https://pbs.twimg.com/profile_images/2016679314553745408/xj28Semj_200x200.jpg",
+      "title": "ui8 Forge 生成 Vercel 风格 Hero",
+      "summary": "Joel 用 ui8.ai/forge 演示为 Vercel 设计师生成 hero 的效果。它值得抓取，因为 landing hero 生成正在变成可直接评估的设计生产工具。",
+      "url": "https://x.com/joelbqz/status/2091652792423248303",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091652271436189696/vid/avc1/616x360/kUX52kAWS7LdyosT.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091652271436189696/img/pcevz2QcBavqZtwC.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "1 REPLIES · 0 REPOSTS · 17 LIKES · 12 BOOKMARKS · 965 VIEWS",
+      "links": [
+        "http://ui8.ai/forge"
+      ],
+      "_analysisTheme": "AI Hero Builder",
+      "_analysisPriority": "medium",
+      "article": {
+        "kind": "external",
+        "title": "Forge",
+        "url": "http://ui8.ai/forge/",
+        "preview": "Forge is a free macOS app that turns any local web project into a visual canvas. Your work always lives on disk, in your repo, ready to commit.",
+        "cover": ""
+      }
+    },
+    {
+      "category": "AI PRODUCT",
+      "datetime": "2026-08-23T22:13:48.000Z",
+      "author": "Peter Steinberger 🦞",
+      "handle": "steipete",
+      "avatar": "https://pbs.twimg.com/profile_images/1131851609774985216/OcsssQ9J_200x200.png",
+      "title": "AI Coding 需要 UI 可视化与团队上下文",
+      "summary": "Peter Steinberger 认为 CLI 有价值，但带 UI 可视化和团队上下文的工作区更好。它值得抓取，因为这正指向 Codex/agent 产品的协作界面方向。",
+      "url": "https://x.com/steipete/status/2091650136506327253",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQcInPOasAANya1.jpg?name=orig"
+        }
+      ],
+      "metrics": "64 REPLIES · 23 REPOSTS · 666 LIKES · 284 BOOKMARKS · 65K VIEWS",
+      "links": [],
+      "_analysisTheme": "AI Coding Workspace",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "AI DESIGN TOOL",
+      "datetime": "2026-08-23T19:43:50.000Z",
+      "author": "Insomnia",
+      "handle": "insomnia_vip",
+      "avatar": "https://pbs.twimg.com/profile_images/1970230208960610304/-kqZLC2D_200x200.jpg",
+      "title": "Claude Design 模式生成交互原型与动画",
+      "summary": "Insomnia 展示 Claude Design mode 生成交互原型、演示和动画的过程。它值得抓取，因为它是 AI 设计工具从静态稿走向可交互产物的信号。",
+      "url": "https://x.com/insomnia_vip/status/2091612397244936561",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091612253736816640/vid/avc1/480x852/4wsadOCdtHY9hfkB.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091612253736816640/img/ctkdx0g34YXGQRSx.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "5 REPLIES · 0 REPOSTS · 26 LIKES · 19 BOOKMARKS · 502 VIEWS",
+      "links": [],
+      "_analysisTheme": "Claude Design Mode",
+      "_analysisPriority": "medium",
+      "quote": {
+        "author": "Insomnia",
+        "handle": "insomnia_vip",
+        "text": "",
+        "url": "https://x.com/insomnia_vip/status/2067227394994221289"
+      }
+    },
+    {
+      "category": "AI DESIGN TOOL",
+      "datetime": "2026-08-23T17:30:00.000Z",
+      "author": "SONIA",
+      "handle": "S0N_IA",
+      "avatar": "https://pbs.twimg.com/profile_images/2073547315353092096/5ypSvW6r_200x200.jpg",
+      "title": "Open Design 被描述为开源 Claude Design 替代",
+      "summary": "SONIA 提到 open design 可把 agents 变成在本机运行的设计工作室。它值得抓取，因为设计 agent 工具正在从平台内功能走向本地可控的开源形态。",
+      "url": "https://x.com/S0N_IA/status/2091578717470658865",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091360009330237440/vid/avc1/372x360/yHfC-DOADx745d4M.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091360009330237440/img/SaM6TWjVAEAGT52b.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "13 REPLIES · 11 REPOSTS · 75 LIKES · 69 BOOKMARKS · 5K VIEWS",
+      "links": [],
+      "_analysisTheme": "Open Source Design Agent",
+      "_analysisPriority": "medium"
+    },
+    {
+      "category": "UI COMPONENT",
+      "datetime": "2026-08-23T17:22:24.000Z",
+      "author": "Chánh Đại",
+      "handle": "iamncdai",
+      "avatar": "https://pbs.twimg.com/profile_images/1905665979662958595/Y0_Ifuk5_200x200.jpg",
+      "title": "异步按钮组件加入 loading/success 状态",
+      "summary": "Nico Prananta 发布 shadcn status-button：按钮在异步动作中展示 loading 与 success 反馈。它值得抓取，因为这是产品中高频但容易粗糙的微交互模式。",
+      "url": "https://x.com/iamncdai/status/2091576803026677887",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091576626786320384/vid/avc1/572x360/N1PCUIoEiZRPOZvf.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091576626786320384/img/IRJILDv_x_wlatk2.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "6 REPLIES · 0 REPOSTS · 44 LIKES · 31 BOOKMARKS · 3.9K VIEWS",
+      "links": [],
+      "_analysisTheme": "Async Button Pattern",
+      "_analysisPriority": "medium",
+      "quote": {
+        "author": "Chánh Đại",
+        "handle": "iamncdai",
+        "text": "Red 🔴 I have to ship more components.",
+        "url": "https://x.com/iamncdai/status/2090066636640555428"
+      }
+    },
+    {
+      "category": "DESIGN ENGINEERING",
+      "datetime": "2026-08-23T17:01:49.000Z",
+      "author": "Meng To",
+      "handle": "MengTo",
+      "avatar": "https://pbs.twimg.com/profile_images/1098613826709348353/_9_0Nd2X_200x200.png",
+      "title": "Meng To 追加 60 个 Three.js 组件变体",
+      "summary": "Meng To 展示 Claude Code 生成的 60 个 Three.js 组件变体，覆盖主题、环境和交互。它值得抓取，因为这是 AI 辅助高质量视觉组件生产的可观察案例。",
+      "url": "https://x.com/MengTo/status/2091571624390881664",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091570014818390016/vid/avc1/480x360/wF5oJj6gFxXKxO6l.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091570014818390016/img/wur0ippbUa-EIuMZ.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "31 REPLIES · 39 REPOSTS · 572 LIKES · 631 BOOKMARKS · 41K VIEWS",
+      "links": [],
+      "_analysisTheme": "Three.js Component Variants",
+      "_analysisPriority": "high",
+      "quote": {
+        "author": "Meng To",
+        "handle": "MengTo",
+        "text": "I open-sourced ThreeUI, my library of three.js components and landing pages. 160+ are free, and the tool is free too. It includes procedural 3D hero sections, …",
+        "url": "https://x.com/MengTo/status/2090817187900780961"
+      }
+    },
+    {
+      "category": "DESIGN SKILL",
+      "datetime": "2026-08-23T16:18:23.000Z",
+      "author": "Ram Maheshwari",
+      "handle": "rammcodes",
+      "avatar": "https://pbs.twimg.com/profile_images/1670741259030495232/mYClo23G_200x200.jpg",
+      "title": "Hallmark 用设计 skill 降低 AI UI 泛化感",
+      "summary": "Ram Maheshwari 推荐 Hallmark：用于 Claude Code、Cursor、Codex 的开源设计 skill，帮助生成和审查更少模板味的 UI。它值得抓取，因为它直接对应个人设计师的品味护栏。",
+      "url": "https://x.com/rammcodes/status/2091560695490043924",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091560513285369856/vid/avc1/544x360/kvMsmqVCnzV4RFVo.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2091560513285369856/img/ctMVpEHFpGr_Mfo5.jpg",
+          "crossOrigin": false
+        }
+      ],
+      "metrics": "3 REPLIES · 10 REPOSTS · 75 LIKES · 97 BOOKMARKS · 4.2K VIEWS",
+      "links": [],
+      "_analysisTheme": "Polished UI Skill",
+      "_analysisPriority": "high"
+    },
+    {
       "category": "DESIGN RESOURCE",
       "datetime": "2026-08-23T07:39:45.000Z",
       "author": "Manish Kumar",
@@ -10091,6 +10587,5 @@
       ],
       "metrics": "392 LIKES · 42.2K VIEWS"
     }
-  ]
-    .sort((a, b) => new Date(b.datetime) - new Date(a.datetime));
+  ];
 })();

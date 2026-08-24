@@ -1,6 +1,400 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-23T15:40:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-24T10:12:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2091504932708917535",
+    "TwitterUserID": "1549821720315531264",
+    "UserScreenName": "sucodeee",
+    "UserProfileName": "sucodee",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2063579703961636864/0i2DyZ4l_200x200.jpg",
+    "TweetText": "Thinking orbs for SwiftUI, react, web\nhttp://metalforge.xyz",
+    "Tweet Url": "https://x.com/sucodeee/status/2091504932708917535",
+    "TweetCreatedDate": "2026-08-23T12:36:48.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091504899703832576/img/RmVhVt7FMU3imCww.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2091504899703832576/vid/avc1/540x360/bkM8E3nc-PbeNWuN.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "Design Engineering",
+      "Link",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091504899703832576/vid/avc1/540x360/bkM8E3nc-PbeNWuN.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091504899703832576/img/RmVhVt7FMU3imCww.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "MetalForge — Beautiful Metal shaders for SwiftUI",
+      "url": "https://metalforge.xyz/",
+      "preview": "Generate SwiftUI [[stitchable]] Metal shaders by tweaking sliders. No MSL written, real .metal file out.",
+      "cover": ""
+    },
+    "_metrics": "26 REPLIES · 119 REPOSTS · 2K LIKES · 2.4K BOOKMARKS · 92K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-24T10:12:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-23T12:36:48.000Z"
+    },
+    "_analysisTheme": "Apple Platform Design",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：这条收藏可作为「Apple Platform Design」参考，原帖提供了可继续深读的链接与设计/产品线索，适合转成个人实践清单。"
+  },
+  {
+    "TweetID": "2091479075697430784",
+    "TwitterUserID": "3050564824",
+    "UserScreenName": "basit_designs",
+    "UserProfileName": "Basit A. Khan",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2035703029631201280/MiiHz_yG_200x200.jpg",
+    "TweetText": "We are working on the new animated gradients collection “Dither Animation”\nIt will be live on http://grainient.supply this week.\n\nAnd here is the first look. Stay tuned",
+    "Tweet Url": "https://x.com/basit_designs/status/2091479075697430784",
+    "TweetCreatedDate": "2026-08-23T10:54:04.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091478970227392512/img/nR-ZJffmvkEP9LQu.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2091478970227392512/vid/avc1/490x360/Lo1dY81JBFSvQ1EW.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "Link",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091478970227392512/vid/avc1/490x360/Lo1dY81JBFSvQ1EW.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091478970227392512/img/nR-ZJffmvkEP9LQu.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Unlimited Gradients, Animated Gradients and AI-Generated Backgrounds",
+      "url": "https://grainient.supply/",
+      "preview": "Grainient offers 1000+ awesome gradients, animated gradients, grainy textures, and AI-generated backgrounds. Subscribe for unlimited downloads and elevate your designs with our pr…",
+      "cover": ""
+    },
+    "_metrics": "10 REPLIES · 15 REPOSTS · 412 LIKES · 384 BOOKMARKS · 14K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-24T10:12:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-23T10:54:04.000Z"
+    },
+    "_analysisTheme": "Motion / Visual System",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：这条收藏可作为「Motion / Visual System」参考，原帖提供了可继续深读的链接与设计/产品线索，适合转成个人实践清单。"
+  },
+  {
+    "TweetID": "2091467742209552818",
+    "TwitterUserID": "2394249966",
+    "UserScreenName": "itshassco",
+    "UserProfileName": "HASSCO©",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1967922092004855808/73BvMNdG_200x200.png",
+    "TweetText": "Don't ask me why. But here is the most useless watch face",
+    "Tweet Url": "https://x.com/itshassco/status/2091467742209552818",
+    "TweetCreatedDate": "2026-08-23T10:09:01.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091467504140931072/img/xH0gNVkfSlDmPfad.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2091467504140931072/vid/avc1/574x360/Kmc6EpXDoD69tp-Z.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091467504140931072/vid/avc1/574x360/Kmc6EpXDoD69tp-Z.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091467504140931072/img/xH0gNVkfSlDmPfad.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "40 REPLIES · 80 REPOSTS · 1.7K LIKES · 537 BOOKMARKS · 745K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-24T10:12:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-23T10:09:01.000Z"
+    },
+    "_analysisTheme": "Design Reference",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「Design Reference」参考，原帖提供了可观察的设计/产品线索，适合转成个人实践清单。"
+  },
+  {
+    "TweetID": "2091466675681911121",
+    "TwitterUserID": "1001797450825388032",
+    "UserScreenName": "oguzyagizkara",
+    "UserProfileName": "Oğuz Yağız Kara",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1958503624784400384/W2P6bsFH_200x200.jpg",
+    "TweetText": "Product pages from the past work 🤍",
+    "Tweet Url": "https://x.com/oguzyagizkara/status/2091466675681911121",
+    "TweetCreatedDate": "2026-08-23T10:04:47.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091466416125796352/img/iltgF2cag45JwHpU.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2091466416125796352/vid/avc1/610x360/EGiq7v3q5G3TzGJV.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091466416125796352/vid/avc1/610x360/EGiq7v3q5G3TzGJV.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091466416125796352/img/iltgF2cag45JwHpU.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091466416734019584/vid/avc1/640x360/25sgwrUPExnxNdDL.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091466416734019584/img/Zj9JkKaKmRTxxkmG.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091466416113307648/vid/avc1/640x360/WF3LOiSZaG50v1WD.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091466416113307648/img/jRogFQkqegEe2QQa.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091466416117481472/vid/avc1/640x360/hDfd_lpUIJ2QPGIa.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091466416117481472/img/2iQaEqkrS-SATA-i.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "30 REPLIES · 20 REPOSTS · 692 LIKES · 481 BOOKMARKS · 18K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-24T10:12:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-23T10:04:47.000Z"
+    },
+    "_analysisTheme": "Product Design",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「Product Design」参考，原帖提供了可观察的设计/产品线索，适合转成个人实践清单。"
+  },
+  {
+    "TweetID": "2091449978355093745",
+    "TwitterUserID": "588083665",
+    "UserScreenName": "tranmautritam",
+    "UserProfileName": "Tran Mau Tri Tam ✪",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1768219583218081792/HP1g3zAA_200x200.jpg",
+    "TweetText": "Have a lovely weekend 🥰",
+    "Tweet Url": "https://x.com/tranmautritam/status/2091449978355093745",
+    "TweetCreatedDate": "2026-08-23T08:58:26.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091449870066544640/img/1V3iVFhGFOpfwayv.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2091449870066544640/vid/avc1/480x360/RBWX7vV1G4W7OC1d.mp4?tag=14",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091449870066544640/vid/avc1/480x360/RBWX7vV1G4W7OC1d.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091449870066544640/img/1V3iVFhGFOpfwayv.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091449897300156416/vid/avc1/480x360/ACXBOSC0nQy6ad5k.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091449897300156416/img/g6gJwJrtiO0GU_AI.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091449931257323520/vid/avc1/480x360/xN5BoktlqgNjIkea.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091449931257323520/img/UkGguHAKrebm8pqq.jpg",
+        "crossOrigin": false
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091449951717142528/vid/avc1/480x360/GCO6VTp26RijUsrG.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091449951717142528/img/0IsNGOYlgsvmCIOl.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "18 REPLIES · 11 REPOSTS · 264 LIKES · 149 BOOKMARKS · 9.8K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-24T10:12:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-23T08:58:26.000Z"
+    },
+    "_analysisTheme": "Design Reference",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「Design Reference」参考，原帖提供了可观察的设计/产品线索，适合转成个人实践清单。"
+  },
+  {
+    "TweetID": "2091360120769020395",
+    "TwitterUserID": "168139512",
+    "UserScreenName": "geekbb",
+    "UserProfileName": "Geek",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1644898947272671233/7959WGOK_200x200.jpg",
+    "TweetText": "ThreeUI 的社区版整个开源了\n\n不用注册登录，50 个 Three.js/React 交互组件可以随便看源码，也能直接 npm 装进自己的项目。\n\nhttps://github.com/MengTo/threeui",
+    "Tweet Url": "https://x.com/geekbb/status/2091360120769020395",
+    "TweetCreatedDate": "2026-08-23T03:01:23.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQYA5B0bAAAbOLe.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "Open Source",
+      "Design Engineering",
+      "Link",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQYA5B0bAAAbOLe.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "GitHub - MengTo/threeui: Open-source ThreeUI Community catalog with live interactive components and complete Community source. · GitHub",
+      "url": "https://github.com/MengTo/threeui",
+      "preview": "Open-source ThreeUI Community catalog with live interactive components and complete Community source. - MengTo/threeui",
+      "cover": ""
+    },
+    "_metrics": "22 REPLIES · 48 REPOSTS · 226 LIKES · 363 BOOKMARKS · 28K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-24T10:12:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-23T03:01:23.000Z"
+    },
+    "_analysisTheme": "Motion / Visual System",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：这条收藏可作为「Motion / Visual System」参考，原帖提供了可继续深读的链接与设计/产品线索，适合转成个人实践清单。"
+  },
+  {
+    "TweetID": "2091347438506562018",
+    "TwitterUserID": "1801304529675370496",
+    "UserScreenName": "Delroy715",
+    "UserProfileName": "码农暖爸",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2022298850355302400/4KQAruFZ_200x200.jpg",
+    "TweetText": "如果你的网站或者APP接入的有AI功能，需要显示AI思考动画组件，给兄弟们\n推荐一个拿来即用的开源仓库\n\n一个基于 WebGPU 的实时液态玻璃球编辑器（Liquid Orb Editor），可自由定义\n\n在线直接调颜色、流动速度、折射率和外发光，内置 11 种预设，那个液态金属和色散玻璃质感拉满了，建议收藏以防用的时候找不到\n链接我放评论区了👇",
+    "Tweet Url": "https://x.com/Delroy715/status/2091347438506562018",
+    "TweetCreatedDate": "2026-08-23T02:10:59.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091346956555816960/img/KHIyUYfUh0bj-0ml.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2091346956555816960/vid/avc1/480x360/PVFfo8XVYDRpw9rW.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "AI Workflow",
+      "Open Source",
+      "Design Engineering",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091346956555816960/vid/avc1/480x360/PVFfo8XVYDRpw9rW.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091346956555816960/img/KHIyUYfUh0bj-0ml.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "31 REPLIES · 196 REPOSTS · 1.9K LIKES · 2.8K BOOKMARKS · 120K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-24T10:12:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-23T02:10:59.000Z"
+    },
+    "_analysisTheme": "Motion / Visual System",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：这条收藏可作为「Motion / Visual System」参考，原帖提供了可观察的设计/产品线索，适合转成个人实践清单。"
+  },
+  {
+    "TweetID": "2091322231997571450",
+    "TwitterUserID": "1901372809701400576",
+    "UserScreenName": "Ryrenz",
+    "UserProfileName": "Ren",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2047148133746933760/iEtNYePb_200x200.jpg",
+    "TweetText": "🔥 高德团队刚开源了一个狠东西，能让 Claude Code、Codex 这些 AI 接了活之后，连着干几十个小时不跑偏。\n\n论文挂在 arXiv 上，还上过 Hugging Face 每周论文榜的第一名。\n\n用 AI 干过长活的都懂那种崩溃：你让它把一个东西从头做完，前两个小时挺像样，越往后越离谱，最后甩你一句「已完成」，点开一看一半是空的。它不是不努力，是干着干着把自己一开始要干嘛给忘了。\n\nLongHorizon-Harness 的解法很像一个靠谱的小团队：一个人管进度，只负责想下一步做什么；一个人埋头干这一步，每次都是清清爽爽的脑子上工；还有一个人专门当验收员，不听干活的自己汇报，直接去电脑上翻文件、点界面、看日志、跑测试，对得上才算数，对不上就把证据记下来重做。\n\n同一个模型、同一个工具，只是套上这层壳，官方测下来那种要跨软件折腾一两个小时的任务，能做完的从一半左右提到了八成；命令行和写代码那类活儿也稳了一截，而且 token 还比原来少烧 24%。干得更多，花得更少，这个是真少见。\n\n它管的也不只是敲代码。浏览器、表格、文档、设计软件、3D 软件都能上手，一个任务可以从浏览器开始，中间转到命令行处理数据，再回到桌面软件里出成品，最后回终端跑一遍验证。\n\n而且它不挑模型也不挑工具，Claude、GPT、Qwen 都能接，Claude Code、Codex CLI、OpenCode 这些现成的直接就能用，管进度的、干活的、验收的还能各用各的模型。\n\nGitHub：https://github.com/AMAP-ML/LongHorizon-Harness\n\n项目团队在这儿 @loopcua",
+    "Tweet Url": "https://x.com/Ryrenz/status/2091322231997571450",
+    "TweetCreatedDate": "2026-08-23T00:30:49.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Workflow",
+      "Open Source",
+      "Link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "GitHub - AMAP-ML/LongHorizon-Harness: The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preservin…",
+      "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
+      "preview": "The long-horizon computer-use harness. Run AI agents across desktop apps and the CLI for extended periods while preserving task state and making reliable progress on complex workf…",
+      "cover": ""
+    },
+    "_metrics": "19 REPLIES · 94 REPOSTS · 465 LIKES · 660 BOOKMARKS · 35K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-24T10:12:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-23T00:30:49.000Z"
+    },
+    "_analysisTheme": "AI Workflow",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：这条收藏可作为「AI Workflow」参考，原帖提供了可继续深读的链接与设计/产品线索，适合转成个人实践清单。"
+  },
   {
     "TweetID": "2091172503041499611",
     "TwitterUserID": "2935230838",
@@ -42,6 +436,57 @@ window.LIKED_BACKFILL = [
     "_analysisTheme": "SwiftUI Agent Skills",
     "_analysisPriority": "high",
     "_analysisNote": "收藏原因：这条收藏的价值是把 iOS 与 SwiftUI 的 agent skills 分成三个层次：真实 App 模式库、动效品味清单、原生 SwiftUI 纠错器；它能直接变成个人 iOS 设计工程的技能路由表。"
+  },
+  {
+    "TweetID": "2091165270664413620",
+    "TwitterUserID": "1790083138959400961",
+    "UserScreenName": "egeberkina",
+    "UserProfileName": "Ege",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1948123483214401536/u8qBu-WZ_200x200.jpg",
+    "TweetText": "Money is just architecture with consequences",
+    "Tweet Url": "https://x.com/egeberkina/status/2091165270664413620",
+    "TweetCreatedDate": "2026-08-22T14:07:07.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQVPTA4WgAAV5bV.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQVPTA4WgAAV5bV.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQVPTlJWIAA8Xdb.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQVPbgvXgAADGa9.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQVPdCUWsAEUmOZ.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "12 REPLIES · 38 REPOSTS · 984 LIKES · 567 BOOKMARKS · 50K VIEWS",
+    "_likedSync": {
+      "capturedAt": "2026-08-24T10:12:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-22T14:07:07.000Z"
+    },
+    "_analysisTheme": "Design Reference",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「Design Reference」参考，原帖提供了可观察的设计/产品线索，适合转成个人实践清单。"
   },
   {
     "TweetID": "2091159920683237597",
