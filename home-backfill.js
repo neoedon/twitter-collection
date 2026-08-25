@@ -1,6 +1,387 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-25T05:06:56.000Z",
+    "author": "Tony Dinh",
+    "handle": "tdinh_me",
+    "avatar": "https://pbs.twimg.com/profile_images/1995658612677771266/TPla_3lg_200x200.jpg",
+    "title": "150+ agents 并行成为企业代码工作方式",
+    "summary": "我会帮你抓取它，因为它把 agent 并行从单人实验推到企业代码库规模，提醒个人设计工程师要重新理解任务拆分、上下文交接和成本边界。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/tdinh_me/status/2092116495447065034",
+    "media": [],
+    "metrics": "5 REPLIES · 0 REPOSTS · 4 LIKES · 0 BOOKMARKS · 402 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent 工作流 / 产品实现",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-25T05:06:45.000Z",
+    "author": "FardaKarim",
+    "handle": "fardakarimov",
+    "avatar": "https://pbs.twimg.com/profile_images/1906973544333836288/FXyaNwhv_200x200.jpg",
+    "title": "claude-obsidian 把材料变成 Markdown 知识图谱",
+    "summary": "我会帮你抓取它，因为它把 Obsidian、Claude Code 和 Markdown 知识图谱连成一个可复用信息工作流，适合设计师沉淀项目资料。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/fardakarimov/status/2092116446897733706",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 5 VIEWS",
+    "links": [
+      "https://github.com/AgriciDaniel/claude-obsidian"
+    ],
+    "_analysisTheme": "个人知识库 / Agent workflow",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "GitHub - AgriciDaniel/claude-obsidian: Self-organizing AI second brain for Obsidian + Claude Code....",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "preview": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, perso...",
+      "cover": "https://pbs.twimg.com/card_img/2090740041274265600/Tml3y3sy?format=jpg&name=800x419"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-25T05:06:27.000Z",
+    "author": "Olivier Miossec",
+    "handle": "omiossec_med",
+    "avatar": "https://pbs.twimg.com/profile_images/1156133563877732352/xGjiiOFB_200x200.jpg",
+    "title": "Azure Copilot 开放直接访问 Agents",
+    "summary": "我会帮你抓取它，因为它说明云平台正在把 agent 入口放进 Copilot 的日常运维场景，值得观察 B2B 工具如何把 agent 从聊天变成动作入口。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/omiossec_med/status/2092116370842333591",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 11 VIEWS",
+    "links": [
+      "https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-copilot-introduces-direct-access-to-agents/4547932"
+    ],
+    "_analysisTheme": "Agent 工作流 / 产品实现",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "Azure Copilot Introduces Direct Access to Agents | Microsoft Community Hub",
+      "url": "https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-copilot-introduces-direct-access-to-agents/4547932",
+      "preview": "Whether you are troubleshooting an application issue at 2 a.m., validating a deployment plan before a release, optimizing cloud resources, or improving...",
+      "cover": "https://pbs.twimg.com/card_img/2089840839497244672/5jKDLJZF?format=jpg&name=800x419"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-25T05:06:19.000Z",
+    "author": "Aram Stepanian",
+    "handle": "araamiya",
+    "avatar": "https://pbs.twimg.com/profile_images/2092115172840419329/LczknKWb_200x200.jpg",
+    "title": "UX 设计师用 coding agents 进入生产代码",
+    "summary": "我会帮你抓取它，因为它直接命中个人设计师的能力迁移：从交付稿件转向能用 Codex/Claude Code 写内部 AI 工具和生产代码。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/araamiya/status/2092116337929687126",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 12 VIEWS",
+    "links": [],
+    "_analysisTheme": "设计工程能力成长",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-25T05:05:08.000Z",
+    "author": "Awe Morris",
+    "handle": "awe_morris",
+    "avatar": "https://pbs.twimg.com/profile_images/2063053893190533120/spd5buFg_200x200.jpg",
+    "title": "MWP-Q 给 agentic coding 补方法论模板",
+    "summary": "我会帮你抓取它，因为它不是展示一个小 demo，而是把“规模变大后不会指挥 agent”的问题转成可安装的方法论仓库。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/awe_morris/status/2092116041015209993",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQivo1Aa8AET3Qh.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 17 VIEWS",
+    "links": [
+      "https://github.com/awemorris/MWP-Q-Agentic-Coding-Method"
+    ],
+    "_analysisTheme": "AI 设计工程 / 工具链",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-25T05:01:34.000Z",
+    "author": "Shawn Neal",
+    "handle": "shawnneal200",
+    "avatar": "https://pbs.twimg.com/profile_images/2088143078091870209/2LAsdJG__200x200.jpg",
+    "title": "把 recurring skills 打包成 Codex plugins 降成本",
+    "summary": "我会帮你抓取它，因为它把“提示词优化”转向“工作流封装”：长期任务应沉淀成 plugin/skill，而不是每次重新消耗上下文。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/shawnneal200/status/2092115145329946804",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQivaRGakAAvvya.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 5 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 设计工程 / 工具链",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-25T04:51:08.000Z",
+    "author": "Aulex",
+    "handle": "Aulex_0",
+    "avatar": "https://pbs.twimg.com/profile_images/2091731430413926400/-nzrk1Qo_200x200.jpg",
+    "title": "从 Figma 到 Flutter 的车辆应用完整练习",
+    "summary": "我会帮你抓取它，因为它展示了从 Figma 设计到 Flutter 多页面功能闭环的个人练习，适合拆解设计工程的端到端交付粒度。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/Aulex_0/status/2092112516788728178",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092108245208879104/vid/avc1/480x562/7BfzaBvvoXZvX9a-.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092108245208879104/img/HBpNORSc5l3YUd1I.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 7 VIEWS",
+    "links": [],
+    "_analysisTheme": "设计到实现 / 移动端产品",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-25T03:51:49.000Z",
+    "author": "Orange AI",
+    "handle": "oran_ge",
+    "avatar": "https://pbs.twimg.com/profile_images/1760074488073629696/ceSsuVCY_200x200.png",
+    "title": "Clean X Up 把 X 干扰项做成可控开关",
+    "summary": "我会帮你抓取它，因为它是用户自己时间线里直接可用的微型工具：隐藏红点、新帖条、右栏和 unread tab，能反向学习注意力减负设计。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/oran_ge/status/2092097590351544324",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQifIpxbwAA577Y.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 3 LIKES · 7 BOOKMARKS · 1,963 VIEWS",
+    "links": [
+      "https://chromewebstore.google.com/detail/clean-x-up/fkcemmgglcdomeffagocfemhhmjdgfjb",
+      "https://github.com/orange2ai/cleanxup"
+    ],
+    "_analysisTheme": "浏览器插件 / 注意力设计",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-25T03:21:01.000Z",
+    "author": "Hal",
+    "handle": "hal__lee",
+    "avatar": "https://pbs.twimg.com/profile_images/1737299776407015424/oRK-Ara8_200x200.jpg",
+    "title": "Punchcard 把一天软件使用变成收据",
+    "summary": "我会帮你抓取它，因为它把时间追踪做成“收据”隐喻，适合学习个人工具如何用低负担表达替代复杂 dashboard。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/hal__lee/status/2092089838711488777",
+    "media": [],
+    "metrics": "1 REPLIES · 0 REPOSTS · 2 LIKES · 1 BOOKMARKS · 509 VIEWS",
+    "links": [
+      "https://macmenubar.app/app/punchcard"
+    ],
+    "_analysisTheme": "独立产品 / 信息可视化",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Punchcard - Mac Menubar Apps",
+      "url": "https://macmenubar.app/app/punchcard",
+      "preview": "A menu bar time tracker that quietly notices where your day went and prints you an itemized receipt at closing time.",
+      "cover": "https://pbs.twimg.com/card_img/2092089842637447168/lOA3p7Rz?format=png&name=800x419"
+    }
+  },
+  {
+    "category": "关注 · MICRO INTERACTION",
+    "datetime": "2026-08-25T03:05:30.000Z",
+    "author": "Kevin Grajeda",
+    "handle": "k_grajeda",
+    "avatar": "https://pbs.twimg.com/profile_images/1825568786637787136/iROwSjCR_200x200.jpg",
+    "title": "拖拽上传动效保留落点动量",
+    "summary": "我会帮你抓取它，因为它把拖拽上传的“drop”瞬间做成连续动量，能直接转成文件上传、附件、卡片投递类交互的动效参考。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/k_grajeda/status/2092085935038972272",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092085838003761153/vid/avc1/480x590/iNtDI96EeFVKctgs.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092085838003761153/img/o5cZi5wkWMZCogfy.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "6 REPLIES · 2 REPOSTS · 50 LIKES · 19 BOOKMARKS · 1,203 VIEWS",
+    "links": [],
+    "_analysisTheme": "微交互 / 动效",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-25T03:04:42.000Z",
+    "author": "Orange AI",
+    "handle": "oran_ge",
+    "avatar": "https://pbs.twimg.com/profile_images/1760074488073629696/ceSsuVCY_200x200.png",
+    "title": "Cola Skill 自媒体创作技能合集",
+    "summary": "我会帮你抓取它，因为它把社交封面、公众号 HTML、内容创作和小红书封面等高频设计运营任务拆成可调用 skill，适合设计师做自己的工具栈。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/oran_ge/status/2092085734102696423",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQiU2YiaoAAsvyh.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQiU25gacAANgkE.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQiU3azaoAAP2Nv.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQiU4EyasAAxfs8.jpg?name=orig"
+      }
+    ],
+    "metrics": "4 REPLIES · 9 REPOSTS · 57 LIKES · 132 BOOKMARKS · 6,078 VIEWS",
+    "links": [
+      "http://go.colaskill.com/punk",
+      "http://go.colaskill.com/gzh",
+      "http://go.colaskill.com/baoyu",
+      "http://go.colaskill.com/cover"
+    ],
+    "_analysisTheme": "内容设计 / Skill 工作流",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-25T03:02:59.000Z",
+    "author": "林悦己Cheer",
+    "handle": "cheerselflin",
+    "avatar": "https://pbs.twimg.com/profile_images/2082701454712934400/l4yjO2LF_200x200.jpg",
+    "title": "GPT image 2 官方贴纸入口与 emoji 玩法",
+    "summary": "我会帮你抓取它，因为它把 ChatGPT Images 的 Stickers 入口变成了具体 emoji 玩法，适合观察 AI 图像功能如何进入轻量社交表达。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/cheerselflin/status/2092085300721766466",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092084925662994432/vid/avc1/540x540/b-D8bP7oCYw8AI1P.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092084925662994432/img/Hnj0x5TAqHSuyNzN.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "1 REPLIES · 2 REPOSTS · 12 LIKES · 7 BOOKMARKS · 1,382 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 图像产品 / 轻量创作",
+    "_analysisPriority": "medium",
+    "quote": {
+      "label": "引用原帖",
+      "author": "ChatGPT",
+      "handle": "ChatGPT",
+      "avatar": "https://pbs.twimg.com/profile_images/2081980424666935296/qU5G7mQg_200x200.jpg",
+      "text": "Select \"Images\" in the sidebar and then \"Stickers\" to get started.",
+      "url": "https://x.com/ChatGPT/status/2091996387512602788",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2091996188425793536/vid/avc1/640x360/gPliEuPhkXGcz9OZ.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/media/HQhD6sPWUAA7P7b.jpg",
+          "crossOrigin": false
+        }
+      ]
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-25T02:04:15.000Z",
+    "author": "Atty Eleti",
+    "handle": "athyuttamre",
+    "avatar": "https://pbs.twimg.com/profile_images/1989601303065235462/nYQkiL9H_200x200.jpg",
+    "title": "ChatGPT Voice Live Activity 跟随强调色",
+    "summary": "我会帮你抓取它，因为它是一个很小但可学习的系统级触点：Live Activity 使用 accent color tint，让语音状态更像原生 OS 元素。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/athyuttamre/status/2092070519730294869",
+    "media": [],
+    "metrics": "5 REPLIES · 2 REPOSTS · 74 LIKES · 2 BOOKMARKS · 3,078 VIEWS",
+    "links": [],
+    "_analysisTheme": "系统级触点 / 小细节",
+    "_analysisPriority": "medium",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Gavin Nelson",
+      "handle": "Gavmn",
+      "avatar": "https://pbs.twimg.com/profile_images/1910772072546193408/yFnZH7wE_200x200.jpg",
+      "text": "Also, ChatGPT Voice Live Activities now get a nice little tint of your accent color.",
+      "url": "https://x.com/Gavmn/status/2092021590435454991",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQhajNxaoAAqMOP.jpg?name=orig"
+        }
+      ]
+    }
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-25T01:30:07.000Z",
+    "author": "Adrian",
+    "handle": "adriankuleszo",
+    "avatar": "https://pbs.twimg.com/profile_images/2022632685311598592/hXu3NHSJ_200x200.jpg",
+    "title": "Ballogy 手工 Figma 徽章系统",
+    "summary": "我会帮你抓取它，因为它展示了手工 Figma 徽章系统如何把运动产品身份做成可动的视觉资产，适合作为品牌组件化参考。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/adriankuleszo/status/2092061928487272873",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092061903975755776/vid/avc1/640x360/6InmupKnk6JdYE60.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092061903975755776/img/cR1cGXw1tdlyICkv.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "metrics": "7 REPLIES · 3 REPOSTS · 90 LIKES · 35 BOOKMARKS · 2,916 VIEWS",
+    "links": [],
+    "_analysisTheme": "品牌视觉 / Figma 工艺",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-25T01:21:55.000Z",
+    "author": "Atty Eleti",
+    "handle": "athyuttamre",
+    "avatar": "https://pbs.twimg.com/profile_images/1989601303065235462/nYQkiL9H_200x200.jpg",
+    "title": "ChatGPT Voice 在 Live Activity 显示 widgets",
+    "summary": "我会帮你抓取它，因为它显示 AI 语音不再只是一个后台通话状态，而是能在 Live Activity 承载可视化 widget。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/athyuttamre/status/2092059865103708420",
+    "media": [],
+    "metrics": "6 REPLIES · 1 REPOSTS · 78 LIKES · 5 BOOKMARKS · 3,823 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 产品 / 系统级触点",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Gavin Nelson",
+      "handle": "Gavmn",
+      "avatar": "https://pbs.twimg.com/profile_images/1910772072546193408/yFnZH7wE_200x200.jpg",
+      "text": "ChatGPT Voice can now show visual widgets in the Live Activity",
+      "url": "https://x.com/Gavmn/status/2092008814631604628",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQhO7j7aIAAxeHu.jpg?name=orig"
+        }
+      ]
+    }
+  },
+  {
+    "category": "AI NEWS",
+    "datetime": "2026-08-25T01:16:43.000Z",
+    "author": "Tibo",
+    "handle": "thsottiaux",
+    "avatar": "https://pbs.twimg.com/profile_images/2075819673263001600/pj1vyX6I_200x200.jpg",
+    "title": "Codex/ChatGPT Plus 5 小时限制回归",
+    "summary": "我会帮你抓取它，因为它来自 OpenAI 相关负责人，直接影响个人设计工程师用 Codex/ChatGPT Work 安排长任务、并行任务和重置节奏。 对个人设计师来说，重点是把原帖里的结构、交互、工具链或产品规则转成可复用方法。",
+    "url": "https://x.com/thsottiaux/status/2092058556707344708",
+    "media": [],
+    "metrics": "2,328 REPLIES · 483 REPOSTS · 8,062 LIKES · 756 BOOKMARKS · 951,823 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 产品规则 / 成本边界",
+    "_analysisPriority": "high"
+  },
+  {
     "category": "PRODUCT DESIGN",
     "datetime": "2026-08-25T00:00:06.000Z",
     "author": "Indie Fox",

@@ -1,6 +1,574 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-25",
+    "generatedAt": "2026-08-25T13:15:49+08:00",
+    "batch": "x-ai-design-analysis-2026-08-25-1315",
+    "analysisCount": 16,
+    "homeCount": 16,
+    "likeCount": 0,
+    "linksInspected": 13,
+    "unavailableLinks": 1,
+    "summary": "2026-08-25 午后补充：当天 Home 已有 20 条，登录态 X Home/tabs/search 新观察 1219 条 appearances、256 个唯一候选，追加 16 条同日 Home 高信号增量；Likes 页面观察 419 条 appearances、73 个唯一 ID，全部已知，无 fresh Like。当天 Analysis 已达 100，本批只追加 16 条 Home-only 未分析内容。",
+    "sourceWindow": {
+      "strategy": "使用 ego-browser 独立 task space 16 复用 X 登录态；Home 覆盖为你推荐、正在关注、Design Engineers、JPI、AI 御三家超级员工，以及 AI agent/product/design/tool/visual/indie/Codex X 站内搜索。Likes 进入 x.com/neoedon414/likes 并由 X 跳转到 i/history/likes，滚动到连续 known-ID 边界。外链只读取原帖暴露 URL，不使用普通网页搜索替代 X 采集。",
+      "newestHomeDatetime": "2026-08-25T05:06:56.000Z",
+      "oldestHomeDatetime": "2026-08-25T01:16:43.000Z",
+      "newestLikeDatetime": "",
+      "oldestLikeDatetime": "",
+      "expandedWindow": "Home 不扩窗：本地当天运行前已有 20 条，新增 16 条也均属于 Asia/Shanghai 2026-08-25。Analysis 运行前当天已达 100 条，本批不回补历史 Like，只追加未分析的 Home 高价值增量。",
+      "observed": {
+        "homeRaw": 1219,
+        "homeUnique": 256,
+        "homeFresh": 255,
+        "sameDayFreshHomeCandidates": 212,
+        "homeSelected": 16,
+        "rejectedHomeCandidates": 239,
+        "existingHomeDuplicates": 1,
+        "likeRaw": 419,
+        "likeUnique": 73,
+        "freshLikes": 0,
+        "knownLikeBoundary": 73,
+        "analysisBeforeTodayUnique": 100,
+        "selectedHomeIds": [
+          "2092116495447065034",
+          "2092116337929687126",
+          "2092116446897733706",
+          "2092116041015209993",
+          "2092116370842333591",
+          "2092115145329946804",
+          "2092112516788728178",
+          "2092097590351544324",
+          "2092089838711488777",
+          "2092085935038972272",
+          "2092085734102696423",
+          "2092085300721766466",
+          "2092070519730294869",
+          "2092059865103708420",
+          "2092061928487272873",
+          "2092058556707344708"
+        ],
+        "selectedFreshLikeIds": [],
+        "selectedHistoricalLikeIds": []
+      }
+    },
+    "items": [
+      {
+        "id": "2092116495447065034",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/tdinh_me/status/2092116495447065034",
+        "author": "Tony Dinh",
+        "handle": "tdinh_me",
+        "datetime": "2026-08-25T05:06:56.000Z",
+        "title": "150+ agents 并行成为企业代码工作方式",
+        "originalSummary": "原帖内容：I just talked to a guy who runs 150+ agents in parallel with 14 Claude Code accounts for the past two weeks, doing a mountain of work for a big enterprise codebase. I'm using agents wrong 😂",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 agent 并行从单人实验推到企业代码库规模，提醒个人设计工程师要重新理解任务拆分、上下文交接和成本边界。",
+        "deepSummary": "这条的价值在于把“多 agent”从概念变成组织级生产方式信号：不是多开几个窗口，而是如何把任务、账号、上下文和验收并行化。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "复盘一个设计工程任务，拆成可并行 agent 子任务和最终人工验收点。",
+          "记录多 agent 并行时必须共享的上下文模板，避免每个 agent 重读项目。",
+          "把成本、限额和代码审查作为并行流程的一部分，而不是事后补救。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流",
+          "设计工程"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092116337929687126",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/araamiya/status/2092116337929687126",
+        "author": "Aram Stepanian",
+        "handle": "araamiya",
+        "datetime": "2026-08-25T05:06:19.000Z",
+        "title": "UX 设计师用 coding agents 进入生产代码",
+        "originalSummary": "原帖内容：I'm a UX designer who ships production code at Walmart. no CS degree, just AI coding agents and 8 months of building. I work on internal AI tools, think Codex or Claude Code Desktop terri...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它直接命中个人设计师的能力迁移：从交付稿件转向能用 Codex/Claude Code 写内部 AI 工具和生产代码。",
+        "deepSummary": "原帖把“设计师会写代码”描述成 8 个月内可训练的工作流变化，适合跟踪后续方法论，而不是只看成个人励志故事。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "整理自己从设计到可运行代码的最短闭环：需求、原型、实现、验证。",
+          "建立一套“设计师用 agent 出货”的项目日志模板，记录提示词和验收标准。",
+          "关注作者后续分享，提取可复用的 AI 内部工具设计流程。"
+        ],
+        "tags": [
+          "Home",
+          "设计工程",
+          "AI coding"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092116446897733706",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/fardakarimov/status/2092116446897733706",
+        "author": "FardaKarim",
+        "handle": "fardakarimov",
+        "datetime": "2026-08-25T05:06:45.000Z",
+        "title": "claude-obsidian 把材料变成 Markdown 知识图谱",
+        "originalSummary": "原帖内容：Claude-obsidian turns source materials into a connected Markdown knowledge graph for Claude Code. It has picked up 234 stars in the last week. https://github.com/AgriciDaniel/claude-obsid...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 Obsidian、Claude Code 和 Markdown 知识图谱连成一个可复用信息工作流，适合设计师沉淀项目资料。",
+        "deepSummary": "链接显示这是一个围绕 plain Markdown 所有权、自动链接和材料归档的开源项目，对个人设计知识库比普通笔记模板更接近长期系统。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/AgriciDaniel/claude-obsidian",
+            "finalUrl": "https://github.com/AgriciDaniel/claude-obsidian",
+            "access": "full",
+            "title": "GitHub - AgriciDaniel/claude-obsidian: Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy&#39;s LLM Wiki pattern. · GitHub",
+            "summary": "GitHub 仓库 AgriciDaniel/claude-obsidian，当前 GitHub API 读到 12,055 stars；说明为：Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.。",
+            "value": "仓库链接有实现参考价值，适合继续看 README、文件结构和可复用方法。"
+          }
+        ],
+        "learningActions": [
+          "对照自己的设计资料，定义“输入材料 -> 自动链接 -> 输出笔记”的最小流程。",
+          "评估该仓库 README 的信息架构，判断是否能迁移到项目复盘和素材库。",
+          "把自动归档后的人工审核点写清楚，避免知识库被低质量摘要污染。"
+        ],
+        "tags": [
+          "Home",
+          "知识管理",
+          "GitHub"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092116041015209993",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/awe_morris/status/2092116041015209993",
+        "author": "Awe Morris",
+        "handle": "awe_morris",
+        "datetime": "2026-08-25T05:05:08.000Z",
+        "title": "MWP-Q 给 agentic coding 补方法论模板",
+        "originalSummary": "原帖内容：エージェントで小さなアプリはサクッと作れるように。 でも規模が大きくなると「うまく指示を出せない」。それを解決するテンプレを用意してみました！このリポジトリのURLをエージェントに伝えて「方法論を取り込んで」と書けば、CodexもClaudeも思いのままに！ https://github.com/awemorris/MWP-Q-Agentic-Coding-Method",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它不是展示一个小 demo，而是把“规模变大后不会指挥 agent”的问题转成可安装的方法论仓库。",
+        "deepSummary": "GitHub 仓库说明显示它定位为 agentic coding 的开发方法论，价值在于让设计工程任务有可复制流程，而不是每次临时写 prompt。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/awemorris/MWP-Q-Agentic-Coding-Method",
+            "finalUrl": "https://github.com/awemorris/MWP-Q-Agentic-Coding-Method",
+            "access": "full",
+            "title": "GitHub - awemorris/MWP-Q-Agentic-Coding-Method: A development methodology for the agentic coding · GitHub",
+            "summary": "GitHub 仓库 awemorris/MWP-Q-Agentic-Coding-Method，当前 GitHub API 读到 0 stars；说明为：A development methodology for the agentic coding。",
+            "value": "仓库链接有实现参考价值，适合继续看 README、文件结构和可复用方法。"
+          }
+        ],
+        "learningActions": [
+          "查看仓库结构，提炼适合 UI/原型开发的任务分解模板。",
+          "把一个正在做的前端任务套进 MWP-Q，看是否减少返工。",
+          "记录模板缺失的设计验收项，例如视觉 diff、交互状态和响应式检查。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 方法论",
+          "GitHub"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092116370842333591",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/omiossec_med/status/2092116370842333591",
+        "author": "Olivier Miossec",
+        "handle": "omiossec_med",
+        "datetime": "2026-08-25T05:06:27.000Z",
+        "title": "Azure Copilot 开放直接访问 Agents",
+        "originalSummary": "原帖内容：Azure Copilot Introduces Direct Access to Agents #Azure #AI https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-copilot-introduces-direct-access-to-agents/4547932",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它说明云平台正在把 agent 入口放进 Copilot 的日常运维场景，值得观察 B2B 工具如何把 agent 从聊天变成动作入口。",
+        "deepSummary": "原帖指向 Microsoft TechCommunity，但正文页面被 Azure WAF 拦截；只能确认标题和 X 卡片摘要，不能把具体能力细节写死。",
+        "linkAnalysis": [
+          {
+            "url": "https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-copilot-introduces-direct-access-to-agents/4547932",
+            "finalUrl": "https://techcommunity.microsoft.com/blog/AzureInfrastructureBlog/azure-copilot-introduces-direct-access-to-agents/4547932",
+            "access": "unavailable",
+            "title": "Azure WAF",
+            "summary": "页面返回 403，本轮未读取正文；只保留原帖和 X 卡片可见信息。",
+            "value": "链接补足了原帖之外的上下文，可用于判断工具功能、实现细节或设计方法是否值得继续拆解。"
+          }
+        ],
+        "learningActions": [
+          "后续用可访问的官方文档补读 Azure Copilot agents 的实际入口和权限边界。",
+          "对比 B2B 工具里的 agent 入口：聊天框、命令 palette、任务卡、直接执行。",
+          "设计 agent 功能时先列出权限、审计和回滚提示，不只画一个对话面板。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品",
+          "Agent"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092115145329946804",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/shawnneal200/status/2092115145329946804",
+        "author": "Shawn Neal",
+        "handle": "shawnneal200",
+        "datetime": "2026-08-25T05:01:34.000Z",
+        "title": "把 recurring skills 打包成 Codex plugins 降成本",
+        "originalSummary": "原帖内容：Next month I’m dropping my Codex plan from $100 back to $20. I turned recurring skills (especially the ones that pull external data and use websearch) into Codex plugins. Same workflows. ...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把“提示词优化”转向“工作流封装”：长期任务应沉淀成 plugin/skill，而不是每次重新消耗上下文。",
+        "deepSummary": "这条是个人实践观察，证据主要来自原帖截图和描述；它对设计工程师的价值是提醒把可重复的信息抓取、网页读取、报告生成变成可复用工具。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "盘点自己一周内重复三次以上的 Codex 工作流，判断是否值得封装成 skill/plugin。",
+          "把外部数据读取和报告生成的输入输出契约写成模板。",
+          "比较“更长 prompt”和“工具封装”的成本差异，保留可验证证据。"
+        ],
+        "tags": [
+          "Home",
+          "Codex",
+          "工作流"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092112516788728178",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Aulex_0/status/2092112516788728178",
+        "author": "Aulex",
+        "handle": "Aulex_0",
+        "datetime": "2026-08-25T04:51:08.000Z",
+        "title": "从 Figma 到 Flutter 的车辆应用完整练习",
+        "originalSummary": "原帖内容：I started this project from a Figma design and decided to bring the entire experience to life with Flutter. I’ve now completed: → Home & vehicle discovery → Search, sorting & filters → Ve...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它展示了从 Figma 设计到 Flutter 多页面功能闭环的个人练习，适合拆解设计工程的端到端交付粒度。",
+        "deepSummary": "原帖列出首页、搜索筛选、详情、购物车、钱包和账户等完整模块，重点不是视觉新颖，而是一个设计稿如何被推进成可演示产品。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把视频里的页面流转拆成信息架构图，标出哪些状态必须设计。",
+          "复盘 Figma 到 Flutter 的组件映射，找出重复卡片和表单控件。",
+          "为自己的练习项目设定“可演示闭环”标准，而不是只做一个首页。"
+        ],
+        "tags": [
+          "Home",
+          "移动应用",
+          "设计工程"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092097590351544324",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/oran_ge/status/2092097590351544324",
+        "author": "Orange AI",
+        "handle": "oran_ge",
+        "datetime": "2026-08-25T03:51:49.000Z",
+        "title": "Clean X Up 把 X 干扰项做成可控开关",
+        "originalSummary": "原帖内容：最近写的 Twitter 插件通过 Chrome 的审核了 这个插件主要是自用的，隐藏 Twitter 官网所有的干扰注意力的项目 小蓝点，小蓝条，趋势和新闻 未来还会加入更多 如果你也需要可以在这里下载 Clean X Up ：清静地刷推 https://chromewebstore.google.com/detail/clean-x-up/fkcemmgglcdome...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它是用户自己时间线里直接可用的微型工具：隐藏红点、新帖条、右栏和 unread tab，能反向学习注意力减负设计。",
+        "deepSummary": "Chrome Web Store 和 GitHub 都可访问；仓库说明确认它围绕 X 的通知徽标、新帖条、右侧栏和 tab unread 计数做隐藏，适合拆解“删掉什么”的产品判断。",
+        "linkAnalysis": [
+          {
+            "url": "https://chromewebstore.google.com/detail/clean-x-up/fkcemmgglcdomeffagocfemhhmjdgfjb",
+            "finalUrl": "https://chromewebstore.google.com/detail/clean-x-up/fkcemmgglcdomeffagocfemhhmjdgfjb",
+            "access": "full",
+            "title": "Clean X Up - Chrome Web Store",
+            "summary": "X is already loud enough. Clean X Up hides notification badges, the new-posts bar, the right sidebar, and tab unread counts.",
+            "value": "商店页可核验插件定位和安装入口，适合判断是否值得试用。"
+          },
+          {
+            "url": "https://github.com/orange2ai/cleanxup",
+            "finalUrl": "https://github.com/orange2ai/cleanxup",
+            "access": "full",
+            "title": "GitHub - orange2ai/cleanxup: X is already loud enough. Clean X Up hides notification badges, the new-posts bar, the right sidebar, and tab unread counts. · GitHub",
+            "summary": "GitHub 仓库 orange2ai/cleanxup，当前 GitHub API 读到 4 stars；说明为：X is already loud enough. Clean X Up hides notification badges, the new-posts bar, the right sidebar, and tab unread counts.。",
+            "value": "仓库链接有实现参考价值，适合继续看 README、文件结构和可复用方法。"
+          }
+        ],
+        "learningActions": [
+          "试装或阅读源码，列出每个被隐藏元素对应的注意力成本。",
+          "把“清理干扰”转成 viaim/Web 工具的设置项设计原则。",
+          "评估插件 UI 是否需要给用户清晰的撤销和分项控制。"
+        ],
+        "tags": [
+          "Home",
+          "浏览器插件",
+          "注意力设计"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092089838711488777",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/hal__lee/status/2092089838711488777",
+        "author": "Hal",
+        "handle": "hal__lee",
+        "datetime": "2026-08-25T03:21:01.000Z",
+        "title": "Punchcard 把一天软件使用变成收据",
+        "originalSummary": "原帖内容：这个 App 有意思，可以统计这一天你在电脑中都使用了什么，多长时间，最后给你生成一张收据。 https://macmenubar.app/app/punchcard",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把时间追踪做成“收据”隐喻，适合学习个人工具如何用低负担表达替代复杂 dashboard。",
+        "deepSummary": "MacMenubar 页面确认它是菜单栏时间追踪工具，会安静记录一天的软件使用并在结束时打印 itemized receipt；这比传统统计图更有记忆点。",
+        "linkAnalysis": [
+          {
+            "url": "https://macmenubar.app/app/punchcard",
+            "finalUrl": "https://macmenubar.app/app/punchcard",
+            "access": "full",
+            "title": "Punchcard - Mac Menubar Apps",
+            "summary": "A menu bar time tracker that quietly notices where your day went and prints you an itemized receipt at closing time.",
+            "value": "产品页把概念、平台和使用场景说清楚，适合拆解独立产品包装。"
+          }
+        ],
+        "learningActions": [
+          "截图分析 Punchcard 的收据隐喻：字段、层级、语气和可分享性。",
+          "对比常见时间追踪 dashboard，判断哪些指标可以变成叙事化输出。",
+          "把“每日收据”机制迁移到设计工作日志或电脑使用复盘。"
+        ],
+        "tags": [
+          "Home",
+          "独立产品",
+          "信息设计"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092085935038972272",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/k_grajeda/status/2092085935038972272",
+        "author": "Kevin Grajeda",
+        "handle": "k_grajeda",
+        "datetime": "2026-08-25T03:05:30.000Z",
+        "title": "拖拽上传动效保留落点动量",
+        "originalSummary": "原帖内容：drag and drop but more satisfying when u drop, the drop zone animates into the file and keeps that momentum until it lands on the attachments",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把拖拽上传的“drop”瞬间做成连续动量，能直接转成文件上传、附件、卡片投递类交互的动效参考。",
+        "deepSummary": "视频展示 drop zone 在文件落下后继续沿动量进入附件位，核心方法是把物理动作的方向、速度和最终容器绑定，而不是只做淡入淡出。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "逐帧记录拖拽、落点变形、附件落位三个阶段的时长和 easing。",
+          "给当前项目的上传/添加附件流程补一个动量连续版本。",
+          "检查动效是否有 reduced-motion fallback，避免只服务视觉展示。"
+        ],
+        "tags": [
+          "Home",
+          "微交互",
+          "动效"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092085734102696423",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/oran_ge/status/2092085734102696423",
+        "author": "Orange AI",
+        "handle": "oran_ge",
+        "datetime": "2026-08-25T03:04:42.000Z",
+        "title": "Cola Skill 自媒体创作技能合集",
+        "originalSummary": "原帖内容：本周 Skill 推荐：自媒体必备 Skill 合集 1. Punk-skill 把文章转成多个社交媒体平台封面，提供极简、拼贴、杂志、科技、建筑等多种风格 http://go.colaskill.com/punk 2. gzh-design-skill 将Markdown一键转为可直接粘贴进公众号编辑器的精致HTML http://go.colaskill.com/gz...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把社交封面、公众号 HTML、内容创作和小红书封面等高频设计运营任务拆成可调用 skill，适合设计师做自己的工具栈。",
+        "deepSummary": "4 个 Cola Skill 链接都可访问，分别覆盖社交封面风格、公众号 Markdown 转 HTML、宝玉 skills 合集和人像小红书封面模板，信息密度高于单条 prompt。",
+        "linkAnalysis": [
+          {
+            "url": "http://go.colaskill.com/punk",
+            "finalUrl": "https://cola.app/skills/zh/punk-skill/",
+            "access": "full",
+            "title": "Punk 视觉生成AI技能合集 - Cola Skill",
+            "summary": "面向AI Agent的视觉生成技能合集，支持生成多平台内容封面和个性化头像、宠物纪念卡",
+            "value": "Skill 页面提供了比原帖更完整的任务范围和示例，可转成自己的设计工作流。"
+          },
+          {
+            "url": "http://go.colaskill.com/gzh",
+            "finalUrl": "https://cola.app/skills/gzh-design-skill/",
+            "access": "full",
+            "title": "gzh-design-skill - Cola Skill",
+            "summary": "An AI Agent compatible skill that converts Markdown into paste-ready, format-stable HTML for WeChat Official Account articles, with 6 pre-built themes and custom theme generation support.",
+            "value": "Skill 页面提供了比原帖更完整的任务范围和示例，可转成自己的设计工作流。"
+          },
+          {
+            "url": "http://go.colaskill.com/baoyu",
+            "finalUrl": "https://colaskill.com/baoyu-skills/",
+            "access": "full",
+            "title": "baoyu-skills - Cola Skill",
+            "summary": "A 15+ skill suite for Xiaohongshu cards, infographics, translation, WeChat publishing, group-chat summaries, and more.",
+            "value": "Skill 页面提供了比原帖更完整的任务范围和示例，可转成自己的设计工作流。"
+          },
+          {
+            "url": "http://go.colaskill.com/cover",
+            "finalUrl": "https://colaskill.com/zh/gbro-cover-design/",
+            "access": "full",
+            "title": "GBro 封面设计助手 - Cola Skill",
+            "summary": "专为公众号和小红书打造的封面提示词生成工具，支持 10 种构图风格与人脸一致性保持。",
+            "value": "Skill 页面提供了比原帖更完整的任务范围和示例，可转成自己的设计工作流。"
+          }
+        ],
+        "learningActions": [
+          "按任务类型整理这些 skills：封面、公众号、内容生成、视频/分发。",
+          "挑一个高频设计运营任务，写成自己的 SKILL.md 输入输出约束。",
+          "比较 skill 页面示例与自己的品牌规范，决定哪些可直接复用、哪些要改。"
+        ],
+        "tags": [
+          "Home",
+          "Skill",
+          "内容设计"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092085300721766466",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/cheerselflin/status/2092085300721766466",
+        "author": "林悦己Cheer",
+        "handle": "cheerselflin",
+        "datetime": "2026-08-25T03:02:59.000Z",
+        "title": "GPT image 2 官方贴纸入口与 emoji 玩法",
+        "originalSummary": "原帖内容：GPT image 2 官方出的表情包用法 吗的太可爱了！！ 没有粉丝 只能自己给自己制作 提示词和结果👇 自定义任何emoji吧 大家甚至可以试试微信的表情包",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 ChatGPT Images 的 Stickers 入口变成了具体 emoji 玩法，适合观察 AI 图像功能如何进入轻量社交表达。",
+        "deepSummary": "引用的 ChatGPT 原帖说明入口在 Images sidebar 的 Stickers；用户帖补充了提示词和效果演示，价值在于把官方功能转成可复制的小创作流程。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/ChatGPT/status/2091996387512602788",
+            "finalUrl": "https://x.com/ChatGPT/status/2091996387512602788",
+            "access": "full",
+            "title": "X 引用帖 · ChatGPT",
+            "summary": "引用帖补充了原帖判断依据：Select \"Images\" in the sidebar and then \"Stickers\" to get started.",
+            "value": "引用帖提供了原始上下文，比只看转述更适合判断产品细节和学习价值。"
+          }
+        ],
+        "learningActions": [
+          "记录 Stickers 入口、输入方式和输出形态，评估是否适合微信/社交素材。",
+          "整理一组品牌可控的 emoji/sticker prompt，测试一致性。",
+          "观察官方入口如何降低用户对“图像生成”的心理门槛。"
+        ],
+        "tags": [
+          "Home",
+          "AI 图像",
+          "ChatGPT"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092070519730294869",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/athyuttamre/status/2092070519730294869",
+        "author": "Atty Eleti",
+        "handle": "athyuttamre",
+        "datetime": "2026-08-25T02:04:15.000Z",
+        "title": "ChatGPT Voice Live Activity 跟随强调色",
+        "originalSummary": "原帖内容：🐞 Little big details:",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它是一个很小但可学习的系统级触点：Live Activity 使用 accent color tint，让语音状态更像原生 OS 元素。",
+        "deepSummary": "引用帖补充了 ChatGPT Voice Live Activities 的强调色细节；对设计师的价值是理解系统 UI 中“品牌存在感”可以靠 tint 和状态一致性完成。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/Gavmn/status/2092021590435454991",
+            "finalUrl": "https://x.com/Gavmn/status/2092021590435454991",
+            "access": "full",
+            "title": "X 引用帖 · Gavin Nelson",
+            "summary": "引用帖补充了原帖判断依据：Also, ChatGPT Voice Live Activities now get a nice little tint of your accent color.",
+            "value": "引用帖提供了原始上下文，比只看转述更适合判断产品细节和学习价值。"
+          }
+        ],
+        "learningActions": [
+          "截图归档该 Live Activity tint，标注颜色、背景和文字层级。",
+          "把系统级触点的品牌色使用规则写成 token，而不是临时挑色。",
+          "检查类似状态卡在暗色/浅色模式下是否仍有足够对比。"
+        ],
+        "tags": [
+          "Home",
+          "系统 UI",
+          "ChatGPT"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092059865103708420",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/athyuttamre/status/2092059865103708420",
+        "author": "Atty Eleti",
+        "handle": "athyuttamre",
+        "datetime": "2026-08-25T01:21:55.000Z",
+        "title": "ChatGPT Voice 在 Live Activity 显示 widgets",
+        "originalSummary": "原帖内容：Widgets now in Live Activities:",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它显示 AI 语音不再只是一个后台通话状态，而是能在 Live Activity 承载可视化 widget。",
+        "deepSummary": "引用的 Gavin Nelson 原帖说明 ChatGPT Voice can now show visual widgets in the Live Activity；这是 AI 助手系统触点从“录音中”走向“可看见任务状态”的信号。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/Gavmn/status/2092008814631604628",
+            "finalUrl": "https://x.com/Gavmn/status/2092008814631604628",
+            "access": "full",
+            "title": "X 引用帖 · Gavin Nelson",
+            "summary": "引用帖补充了原帖判断依据：ChatGPT Voice can now show visual widgets in the Live Activity",
+            "value": "引用帖提供了原始上下文，比只看转述更适合判断产品细节和学习价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解 Live Activity widget 需要显示哪些状态：听、想、说、结果、错误。",
+          "为语音 AI 场景设计一个 compact/minimal/expanded 三态草图。",
+          "验证 widget 信息量不抢占主应用，同时能给用户足够控制感。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品",
+          "系统触点"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092061928487272873",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/adriankuleszo/status/2092061928487272873",
+        "author": "Adrian",
+        "handle": "adriankuleszo",
+        "datetime": "2026-08-25T01:30:07.000Z",
+        "title": "Ballogy 手工 Figma 徽章系统",
+        "originalSummary": "原帖内容：Custom badges we did for Ballogy, all hand-made in Figma. @designme team really cooked hard with this!",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它展示了手工 Figma 徽章系统如何把运动产品身份做成可动的视觉资产，适合作为品牌组件化参考。",
+        "deepSummary": "视频重点不是单张插画，而是一组 badge 在节奏、描边、形状和运动里保持一致；这对设计系统里的品牌资产组件化很有借鉴价值。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取徽章帧，归纳形状、描边、阴影和色彩的可复用规则。",
+          "尝试把一个品牌活动视觉拆成 6-8 个 badge 组件。",
+          "检查动效中每个 badge 是否仍保留静态识别度。"
+        ],
+        "tags": [
+          "Home",
+          "视觉作品",
+          "Figma"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092058556707344708",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/thsottiaux/status/2092058556707344708",
+        "author": "Tibo",
+        "handle": "thsottiaux",
+        "datetime": "2026-08-25T01:16:43.000Z",
+        "title": "Codex/ChatGPT Plus 5 小时限制回归",
+        "originalSummary": "原帖内容：Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it. This is necessary as (a) the 5h limit al...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它来自 OpenAI 相关负责人，直接影响个人设计工程师用 Codex/ChatGPT Work 安排长任务、并行任务和重置节奏。",
+        "deepSummary": "原帖说明 Plus 账户在 ChatGPT Work 和 Codex 将恢复 5 小时限制，理由是平滑算力负载并避免用户一次性消耗整周额度；这是工作流规划事实，不只是新闻。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把 Codex 长任务拆成 5 小时窗口内可验收的批次。",
+          "区分 Plus 与 Pro 的任务策略，避免把关键发布卡在额度边界。",
+          "在自动化报告里记录模型/计划限制变化对交付节奏的影响。"
+        ],
+        "tags": [
+          "Home",
+          "Codex",
+          "AI 规则"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-25",
     "generatedAt": "2026-08-25T08:15:00+08:00",
     "batch": "x-ai-design-analysis-2026-08-25-0815",
     "analysisCount": 100,
