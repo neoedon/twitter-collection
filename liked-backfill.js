@@ -1,6 +1,456 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-24T10:12:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-25T08:15:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2091827869198823460",
+    "TwitterUserID": "1081481035991248898",
+    "UserScreenName": "rea1DonandTrump",
+    "UserProfileName": "Rene Wang",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1719683721845198848/EIth0eWl_200x200.jpg",
+    "TweetText": "Detail 的 Resource 库新增了 Skills 栏目，帮助设计、构建高质量的交互与界面 每月 1 号刷新，精挑细选，不多不少。 http://detail.design/resource",
+    "Tweet Url": "https://x.com/rea1DonandTrump/status/2091827869198823460",
+    "TweetCreatedDate": "2026-08-24T10:00:02.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQeaUMIbQAALtl3.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "Link",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQeaUMIbQAALtl3.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "0 REPLIES · 1 REPOSTS · 7 LIKES · 23 BOOKMARKS · 1,188 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「个人设计收藏偏好」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-24T10:00:02.000Z"
+    }
+  },
+  {
+    "TweetID": "2091823092675010994",
+    "TwitterUserID": "1265308893099393025",
+    "UserScreenName": "anxndsgn",
+    "UserProfileName": "XIN",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1941543712850583552/wmCr-PT0_200x200.jpg",
+    "TweetText": "@hal__lee research preview 来了🤓 http://color.anxndsgn.com",
+    "Tweet Url": "https://x.com/anxndsgn/status/2091823092675010994",
+    "TweetCreatedDate": "2026-08-24T09:41:04.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "Link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 0 REPOSTS · 2 LIKES · 2 BOOKMARKS · 94 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「个人设计收藏偏好」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-24T09:41:04.000Z"
+    }
+  },
+  {
+    "TweetID": "2091820514956185763",
+    "TwitterUserID": "934414761500073985",
+    "UserScreenName": "FonsMans",
+    "UserProfileName": "Fons Mans",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2007800580949921792/6Omy52Tk_200x200.jpg",
+    "TweetText": "Looking for tools like this:",
+    "Tweet Url": "https://x.com/FonsMans/status/2091820514956185763",
+    "TweetCreatedDate": "2026-08-24T09:30:49.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2029232793692323842/img/rzLIokO2_79wsHiR.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2029232793692323842/vid/avc1/320x320/BbGkBeD3N2L8qR3I.mp4?tag=14",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2029232793692323842/vid/avc1/320x320/BbGkBeD3N2L8qR3I.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2029232793692323842/img/rzLIokO2_79wsHiR.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "5 REPLIES · 1 REPOSTS · 25 LIKES · 21 BOOKMARKS · 2,504 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「个人设计收藏偏好」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-24T09:30:49.000Z"
+    }
+  },
+  {
+    "TweetID": "2091816736685502873",
+    "TwitterUserID": "1699797396589588480",
+    "UserScreenName": "MaxForAI",
+    "UserProfileName": "Max For AI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1885611457376903171/zWWnahYp_200x200.jpg",
+    "TweetText": "地址： https://github.com/b-nnett/grok-bot-0.18-reconstructed",
+    "Tweet Url": "https://x.com/MaxForAI/status/2091816736685502873",
+    "TweetCreatedDate": "2026-08-24T09:15:48.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Agent",
+      "Link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "0 REPLIES · 0 REPOSTS · 15 LIKES · 28 BOOKMARKS · 5,652 VIEWS",
+    "_analysisTheme": "Agent 工作流 / 产品实现",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：这条收藏可作为「Agent 工作流 / 产品实现」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-24T09:15:48.000Z"
+    }
+  },
+  {
+    "TweetID": "2091816696978010355",
+    "TwitterUserID": "1699797396589588480",
+    "UserScreenName": "MaxForAI",
+    "UserProfileName": "Max For AI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1885611457376903171/zWWnahYp_200x200.jpg",
+    "TweetText": "笑死我了，Cursor 居然也是草台班子啊🤣 之前 Claude Code 那次泄露，我就已经觉得够抽象了。 网友 Bennett 今天突然发现，Grok Bot 0.18.0 发正式版的时候，居然直接带着 runtime source maps一起发出来了。 然后他顺藤摸瓜，直接把 Grok Bot 的客户端代码重构了出来，还把仓库扔到了 GitHub。 这是什么概念？ 正常闭源产品发版，JS 都会经过压缩、打包，外面的人看到基本是一坨。 Source Maps 就是开发者调试的时候，用来把这坨东西重新映射回原始文件和代码结构的。 结果 Cursor 打包的时候，把地图也一起送给你了。 现在 Agent Coordinator、模型路由、本地执行、协议这些 Grok Bot 的核心实现，都可以被一路往下扒。 甚至已经有人在重构版本上继续魔改，接 Claude Code、Codex、OpenRouter。 当然这不是Cursor 完整源码泄露。 但一个做 AI Coding、天天帮别人写代码的公司： 前脚 Coco 泄露， 后脚 Grok Bot 连 Source Maps 都忘了关。 只能说硅谷顶级 AI 公司，草台起来也挺一视同仁的。 PS：建议快去fork一份，估计很快就被Grok bot给投诉下架了🤣",
+    "Tweet Url": "https://x.com/MaxForAI/status/2091816696978010355",
+    "TweetCreatedDate": "2026-08-24T09:15:39.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQegMO9bMAATazq.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Agent",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQegMO9bMAATazq.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "url": "https://x.com/b_nnett/status/2091630242792112480",
+      "id": "2091630242792112480",
+      "text": "The Cursor team shipped Grok bot (0.18.0) with runtime source maps enabled. Surprised nobody noticed until now.\n\nSource code reconstructed (and downloads) here: https://github.com/b-nnett/grok-bot-0.18-reconstructed",
+      "raw_text": {
+        "text": "The Cursor team shipped Grok bot (0.18.0) with runtime source maps enabled. Surprised nobody noticed until now.\n\nSource code reconstructed (and downloads) here: https://t.co/56CPNs2YR6",
+        "display_text_range": [
+          0,
+          184
+        ],
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              161,
+              184
+            ],
+            "original": "https://t.co/56CPNs2YR6",
+            "replacement": "https://github.com/b-nnett/grok-bot-0.18-reconstructed",
+            "display": "github.com/b-nnett/grok-b…"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "b_nnett",
+        "url": "https://x.com/b_nnett",
+        "id": "1219026197667028992",
+        "followers": 10676,
+        "following": 1169,
+        "likes": 15816,
+        "media_count": 1194,
+        "name": "Bennett",
+        "description": "full steam developer. make fun things.",
+        "raw_description": {
+          "text": "full steam developer. make fun things.",
+          "facets": []
+        },
+        "location": "london",
+        "banner_url": "https://pbs.twimg.com/profile_banners/1219026197667028992/1787562841",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2002759009007177728/ArlpZFf2_200x200.jpg",
+        "joined": "Sun Jan 19 22:37:54 +0000 2020",
+        "protected": false,
+        "website": {
+          "url": "http://b-nnett.com",
+          "display_url": "b-nnett.com"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "avatar_color": null
+      },
+      "replies": 60,
+      "retweets": 108,
+      "likes": 1764,
+      "bookmarks": 2452,
+      "quotes": 57,
+      "created_at": "Sun Aug 23 20:54:45 +0000 2026",
+      "created_timestamp": 1787518485,
+      "possibly_sensitive": false,
+      "views": 897928,
+      "is_note_tweet": false,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "replying_to_status": null,
+      "source": "Twitter Web App",
+      "card": {
+        "url": "https://github.com/b-nnett/grok-bot-0.18-reconstructed",
+        "title": "GitHub - b-nnett/grok-bot-0.18-reconstructed: Unofficial source-oriented reconstruction and...",
+        "description": "Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS - b-nnett/grok-bot-0.18-reconstructed",
+        "domain": "github.com",
+        "image": {
+          "width": 800,
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2091840576186695681/siXDujd6?format=jpg&name=800x419"
+        }
+      },
+      "twitter_card": "tweet",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "_article": null,
+    "_metrics": "42 REPLIES · 38 REPOSTS · 384 LIKES · 357 BOOKMARKS · 101,095 VIEWS",
+    "_analysisTheme": "Agent 工作流 / 产品实现",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：这条收藏可作为「Agent 工作流 / 产品实现」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-24T09:15:39.000Z"
+    }
+  },
+  {
+    "TweetID": "2091815778160885920",
+    "TwitterUserID": "1331454937977405448",
+    "UserScreenName": "dsgnevrywhr",
+    "UserProfileName": "Design Everywhere",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1376419441517371393/nPkErF99_200x200.jpg",
+    "TweetText": "Fresh Festival by Robin Eberwein & Studio11x1.",
+    "Tweet Url": "https://x.com/dsgnevrywhr/status/2091815778160885920",
+    "TweetCreatedDate": "2026-08-24T09:12:00.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090441754768252930/img/HBOH5kCLHkScK5ot.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090441754768252930/vid/avc1/320x400/0-sBP5g3elWGRkJ8.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090441754768252930/vid/avc1/320x400/0-sBP5g3elWGRkJ8.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090441754768252930/img/HBOH5kCLHkScK5ot.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "0 REPLIES · 3 REPOSTS · 87 LIKES · 23 BOOKMARKS · 2,916 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「个人设计收藏偏好」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-24T09:12:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2091814074577498364",
+    "TwitterUserID": "854722070101360641",
+    "UserScreenName": "ZaynHao",
+    "UserProfileName": "Zayn Hao",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1490844347721342981/_vcCNxRm_200x200.jpg",
+    "TweetText": "推荐一篇讲 UI 设计中，关于动画的 12 个基本原理的精彩好文， 搭配了大量的实际可体验的 UI 过渡动画的 Demo，非常不错。 理解这些原则可以帮助你在软件中创建更自然、更直观的动画。 https://www.raphaelsalaja.com/library/12-principles-of-animation",
+    "Tweet Url": "https://x.com/ZaynHao/status/2091814074577498364",
+    "TweetCreatedDate": "2026-08-24T09:05:14.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091813840011051008/img/gPapHP0wAm3RTRAk.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2091813840011051008/vid/avc1/300x270/n2Rf7Opr8nAukoDB.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Link",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091813840011051008/vid/avc1/300x270/n2Rf7Opr8nAukoDB.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091813840011051008/img/gPapHP0wAm3RTRAk.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "13 REPLIES · 23 REPOSTS · 187 LIKES · 206 BOOKMARKS · 7,859 VIEWS",
+    "_analysisTheme": "视觉动效 / 交互原型",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：这条收藏可作为「视觉动效 / 交互原型」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-24T09:05:14.000Z"
+    }
+  },
+  {
+    "TweetID": "2091798881369493833",
+    "TwitterUserID": "1001797450825388032",
+    "UserScreenName": "oguzyagizkara",
+    "UserProfileName": "Oğuz Yağız Kara",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1958503624784400384/W2P6bsFH_200x200.jpg",
+    "TweetText": "Generative Explorations 🤍",
+    "Tweet Url": "https://x.com/oguzyagizkara/status/2091798881369493833",
+    "TweetCreatedDate": "2026-08-24T08:04:51.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQeP8CnX0AAkaEK.jpg?name=orig,https://pbs.twimg.com/media/HQeP8CgW8AAQdbZ.jpg?name=orig,https://pbs.twimg.com/media/HQeP8CiWAAA_UAB.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQeP8CnX0AAkaEK.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQeP8CgW8AAQdbZ.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQeP8CiWAAA_UAB.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "12 REPLIES · 4 REPOSTS · 201 LIKES · 50 BOOKMARKS · 5,684 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「个人设计收藏偏好」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-24T08:04:51.000Z"
+    }
+  },
+  {
+    "TweetID": "2091554005772321204",
+    "TwitterUserID": "939870716391854082",
+    "UserScreenName": "yyyole",
+    "UserProfileName": "沐阳",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1986002260447707136/lf3UN9Xp_200x200.jpg",
+    "TweetText": "发现一个很酷的动效库！！！ 它把粒子、流体、玻璃质感这些复杂效果，直接做成了可以调参的模板！选好效果以后，颜色、速度、循环和亮度都能自己调整，还能实时预览！！ 超多“thinking orb”效果，刚好需要，拿来就能用！",
+    "Tweet Url": "https://x.com/yyyole/status/2091554005772321204",
+    "TweetCreatedDate": "2026-08-23T15:51:48.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091553026377146369/img/704fGZAsnfpGrlW0.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2091553026377146369/vid/avc1/432x270/bfr59epWRFkNLnDj.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091553026377146369/vid/avc1/432x270/bfr59epWRFkNLnDj.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091553026377146369/img/704fGZAsnfpGrlW0.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "34 REPLIES · 262 REPOSTS · 2,598 LIKES · 3,614 BOOKMARKS · 163,926 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「个人设计收藏偏好」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-23T15:51:48.000Z"
+    }
+  },
   {
     "TweetID": "2091504932708917535",
     "TwitterUserID": "1549821720315531264",
@@ -688,6 +1138,129 @@ window.LIKED_BACKFILL = [
     "_analysisNote": "收藏原因：Found this today. - http://posts.design shows what real companies actually ship on socials - Not random inspiration, ac… 这条可作为个人设计收藏偏好参考。"
   },
   {
+    "TweetID": "2091033761588609268",
+    "TwitterUserID": "5869832",
+    "UserScreenName": "dexteryy",
+    "UserProfileName": "Dexter Yang ᯅノ🌐🔗🧙🏻‍♂️👾🦋",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1913241418526765056/5Jyy53Fr_200x200.jpg",
+    "TweetText": "所以Appleinsider最初那条新闻其实也没写错，说的很清楚是「team dedicated to VR development」、Apple Vision Group 的「VR team」 实际情况是缩减了沉浸式视频团队和Siri团队、关了一个专注visionOS游戏的团队，跟PICO之前那轮调整差不多，缩减内容投入，专注主赛道，跟OS、软件、硬件没关系， 也不是只针对vision部门，裁的200人里有100人来自AI 部门 问题是在很多人眼里vision pro就是VR，我昨天跟人扯了半天Apple做的不是VR😂",
+    "Tweet Url": "https://x.com/dexteryy/status/2091033761588609268",
+    "TweetCreatedDate": "2026-08-22T05:24:32.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQTYHieaAAAAi6u.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQTYHieaAAAAi6u.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "url": "https://x.com/markgurman/status/2090875310585905285",
+      "id": "2090875310585905285",
+      "text": "BREAKING: Apple is largely eliminating its Vision Pro gaming team, scaling back its Vision Pro immersive video team and cutting jobs across both Siri and its Intelligence Systems Experience team in software engineering. https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams",
+      "raw_text": {
+        "text": "BREAKING: Apple is largely eliminating its Vision Pro gaming team, scaling back its Vision Pro immersive video team and cutting jobs across both Siri and its Intelligence Systems Experience team in software engineering. https://t.co/gvwKuP8yyb",
+        "display_text_range": [
+          0,
+          243
+        ],
+        "facets": [
+          {
+            "type": "url",
+            "indices": [
+              220,
+              243
+            ],
+            "original": "https://t.co/gvwKuP8yyb",
+            "replacement": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams",
+            "display": "bloomberg.com/news/articles/…"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "markgurman",
+        "url": "https://x.com/markgurman",
+        "id": "15958614",
+        "followers": 469317,
+        "following": 2217,
+        "likes": 29191,
+        "media_count": 936,
+        "name": "Mark Gurman",
+        "description": "Breaking News on Apple & Tech. Bloomberg Managing Editor. @UMSI Board Member. Send secure tips on Signal: markgurman.01 or email markgurman@protonmail.com.",
+        "raw_description": {
+          "text": "Breaking News on Apple & Tech. Bloomberg Managing Editor. @UMSI Board Member. Send secure tips on Signal: markgurman.01 or email markgurman@protonmail.com.",
+          "facets": []
+        },
+        "location": "Los Angeles, CA",
+        "banner_url": "https://pbs.twimg.com/profile_banners/15958614/1725461052",
+        "avatar_url": "https://pbs.twimg.com/profile_images/1831342499719479296/biKqSezf_200x200.jpg",
+        "joined": "Sat Aug 23 16:43:17 +0000 2008",
+        "protected": false,
+        "website": {
+          "url": "http://markgurman.com",
+          "display_url": "markgurman.com"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "avatar_color": null
+      },
+      "replies": 95,
+      "retweets": 124,
+      "likes": 1674,
+      "bookmarks": 223,
+      "quotes": 55,
+      "created_at": "Fri Aug 21 18:54:55 +0000 2026",
+      "created_timestamp": 1787338495,
+      "possibly_sensitive": false,
+      "views": 1121273,
+      "is_note_tweet": false,
+      "community_note": null,
+      "lang": "en",
+      "replying_to": null,
+      "replying_to_status": null,
+      "source": "Twitter Web App",
+      "card": {
+        "url": "https://www.bloomberg.com/news/articles/2026-08-21/apple-cuts-jobs-in-siri-vision-pro-immersive-video-and-gaming-teams",
+        "title": "Apple Cuts Jobs in Siri, Vision Pro Immersive Video and Gaming Teams",
+        "description": "Apple Inc. is cutting jobs across teams responsible for the Siri digital assistant and the Vision Pro headset, part of an effort to focus on new devices and artificial intelligence.",
+        "domain": "www.bloomberg.com",
+        "image": {
+          "width": 800,
+          "height": 419,
+          "url": "https://pbs.twimg.com/card_img/2090874613114793984/E0UR4ott?format=jpg&name=800x419"
+        }
+      },
+      "twitter_card": "tweet",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "_article": null,
+    "_metrics": "2 REPLIES · 0 REPOSTS · 12 LIKES · 4 BOOKMARKS · 10,627 VIEWS",
+    "_analysisTheme": "产品设计 / 增长案例",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「产品设计 / 增长案例」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-22T05:24:32.000Z"
+    }
+  },
+  {
     "TweetID": "2090932059103789116",
     "TwitterUserID": "495154216",
     "UserScreenName": "tjcages",
@@ -920,6 +1493,48 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-21T13:01:05.000Z"
+    }
+  },
+  {
+    "TweetID": "2090764115794919897",
+    "TwitterUserID": "1836376340431290368",
+    "UserScreenName": "folaoftech",
+    "UserProfileName": "F.O.L.A",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1865872107353124864/RAYWNWQD_200x200.jpg",
+    "TweetText": "This might be beyond Claude’s knowledge.",
+    "Tweet Url": "https://x.com/folaoftech/status/2090764115794919897",
+    "TweetCreatedDate": "2026-08-21T11:33:04.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2090763887574417408/img/FTzAj8lNXEu4D-xV.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2090763887574417408/vid/avc1/320x568/_CCxJB9QzFC6HXIb.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Agent",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2090763887574417408/vid/avc1/320x568/_CCxJB9QzFC6HXIb.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2090763887574417408/img/FTzAj8lNXEu4D-xV.jpg",
+        "crossOrigin": false
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "284 REPLIES · 84 REPOSTS · 2,756 LIKES · 2,331 BOOKMARKS · 4,042,043 VIEWS",
+    "_analysisTheme": "Agent 工作流 / 产品实现",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：这条收藏可作为「Agent 工作流 / 产品实现」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-21T11:33:04.000Z"
     }
   },
   {
@@ -1494,6 +2109,183 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 15,
       "observedDatetime": "2026-08-20T14:33:24.000Z"
+    }
+  },
+  {
+    "TweetID": "2090444626285261046",
+    "TwitterUserID": "1986087438721449984",
+    "UserScreenName": "xiaoxiaodong01",
+    "UserProfileName": "小小东",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2046072820095176704/QBve47KI_200x200.jpg",
+    "TweetText": "GPT2 x 浮雕 x 金 x 高级 x 美学提示词 x VOL.027 下半部分很妙： 轮廓会留下来 姿态会留下来 关系也会留下来 所以就算变得很极简 你还是能一眼认出它是谁 少量的金色装饰 像光刚好停在重点元素上 不抢戏、却很提气 它既像摄影 又像一件被收藏的纸上作品 如下是完整提示词： ``` 请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。 上半部分保留原始照片，保持主体身份、结构、姿态、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有艺术杂志、独立出版物与展览摄影质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。 下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，重构为中国印压浮雕 / 纸雕凹凸质感的极简艺术海报。整体像压印在厚重乳白色纸张上，以浅浮雕、细腻阴影、极简线刻和克制层次重新概括主体，不机械复刻细节，而是保留最核心的结构特征与空间关系，使人一眼能够识别与上方为同一对象。根据主体类型，可将其转化为俯瞰、正视、微俯视或轴线延展的浅浮雕构图，并适度保留与主体相关的环境轮廓，使画面具有清晰主次、纵深秩序与博物馆展陈般的宁静感。 整体以下半部分大面积乳白、暖白或浅纸色留白为基底，主体及相关元素统一以同色系浅浮雕呈现，通过压印高低差、边缘投影和细微明暗建立层次；可仅在主体最关键的局部结构或视觉焦点处加入少量哑金色细节与柔和暖白光感，用来强化核心识别点，避免颜色杂乱、过度装饰和堆砌场景。 文字需转化为画面结构的一部分，而不是普通标题说明。从照片的主体身份、地点属性、主题气质、动作状态或象征意义中提炼简短文字，可使用**标题 + 关键词 + 少量编号、地点或微型注释 / 哲理金句**。文字采用克制的金色或深灰色衬线 / 高级编辑字体，可置于中央轴线、主体下方、留白边缘或与浮雕结构对齐，使其与压印主体共同形成秩序感与展览海报气质，而非后期贴上的信息层。 整体风格追求**高级、宁静、极简、克制、东方美学、博物馆海报感与纸张雕塑感**。无论原图是建筑、人物、动物、植物、器物、交通工具或自然景观，下半部分都应保持真实摄影与压印浮雕重构之间清晰而优雅的视觉呼应。避免文字乱码、低清晰度、主体畸形、颜色杂乱、构图拥挤、廉价3D感和模板感。 ```",
+    "Tweet Url": "https://x.com/xiaoxiaodong01/status/2090444626285261046",
+    "TweetCreatedDate": "2026-08-20T14:23:32.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQK9HtNakAAKs-M.jpg?name=orig,https://pbs.twimg.com/media/HQK9IsOa0AAUhMm.jpg?name=orig,https://pbs.twimg.com/media/HQK9J1BbQAAcw2B.jpg?name=orig,https://pbs.twimg.com/media/HQK9LLaa8AAeies.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQK9HtNakAAKs-M.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQK9IsOa0AAUhMm.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQK9J1BbQAAcw2B.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQK9LLaa8AAeies.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "url": "https://x.com/xiaoxiaodong01/status/2090433161096581434",
+      "id": "2090433161096581434",
+      "text": "GPT2 x 浮雕  x 裁剪  x 冷静 x 美学提示词 x VOL.026\n\n照片下面这一半\n它不是把照片再画一遍\n而是抓住里面最有意思的东西 重新表达~\n\n把复杂的画面，慢慢减到只剩几根线和几个色块。\n但神奇的是，你还是一眼能认出来。\n这也是极简设计很好玩的地方。\n\n安安静静的，但会让人忍不住多看两秒\n我真的很喜欢这组提示词 \n\nprompt by xiaoxiaodong：\n\n```\n\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有杂志摄影和艺术展览质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，重构为极简抽象的几何视觉表达。使用简洁几何形状、扁平色块、细线条、结构线与留白重新概括主体，不做写实插画，不堆砌复杂细节，但必须保留清晰特征，使人能够一眼识别原物。可根据原图关系加入少量水平线、轮廓线、空间分割线或抽象环境元素，让画面在克制中保有秩序与呼吸感。\n\n构图强调**平衡、节奏与人文气质**。以下半部分主体为唯一视觉核心，整体偏居中但不僵硬对称，通过比例控制、正负形关系、疏密变化、轻微层次错动和大面积留白建立安静而专业的版面秩序。画面应简洁、稳定、克制，同时带有一点温和的空间起伏与浅浅的浮雕感，让几何形体仿佛轻微压印或微微隆起于纸面之上，形成细腻、含蓄的立体层次，而不是明显3D效果。\n\n配色从上方照片中提取，但不机械照搬，而是转化为更具**人文主义气质**的柔和色组。以米白、暖白、浅灰、沙色、灰粉、浅赭、雾蓝、鼠尾草绿等低刺激、温润、克制的颜色为基调，从原图中保留最有气质的主色与辅助色，通过有限色盘形成和谐、安静、耐看的关系。整体色彩应温和、清透、富有文化感与生活感，避免廉价高饱和、脏灰失真、冰冷科技感和普通商业配色。\n\n文字保持少量且高级，不只是地点名，而应从照片的**主题、身份、情绪、动作、时间或隐喻**中提炼简洁英文标题，并搭配少量编号、状态词或微型注释。文字可沿主体轮廓、结构线、留白边缘或画面轴线自然排布，以克制的高级编辑方式与图形共同构图，形成低调但有设计感的版式关系。\n\n整体参考国际设计工作室、建筑海报、艺术展览海报与高级品牌视觉系统，呈现**高级、现代、安静、人文、艺术化、克制而温柔**的视觉气质。避免普通滤镜、廉价矢量感、过强3D、卡通感、电商感和模板感。\n```",
+      "raw_text": {
+        "text": "GPT2 x 浮雕  x 裁剪  x 冷静 x 美学提示词 x VOL.026\n\n照片下面这一半\n它不是把照片再画一遍\n而是抓住里面最有意思的东西 重新表达~\n\n把复杂的画面，慢慢减到只剩几根线和几个色块。\n但神奇的是，你还是一眼能认出来。\n这也是极简设计很好玩的地方。\n\n安安静静的，但会让人忍不住多看两秒\n我真的很喜欢这组提示词 \n\nprompt by xiaoxiaodong：\n\n```\n\n请将我上传的每一张照片分别制作成一张独立的高级设计海报，不多图拼接，每张照片单独输出。整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级摄影调色，使其具有杂志摄影和艺术展览质感。为适配画幅，可自然扩展天空、地面或环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中最具识别性的**主体、轮廓、姿态与叙事关系**，重构为极简抽象的几何视觉表达。使用简洁几何形状、扁平色块、细线条、结构线与留白重新概括主体，不做写实插画，不堆砌复杂细节，但必须保留清晰特征，使人能够一眼识别原物。可根据原图关系加入少量水平线、轮廓线、空间分割线或抽象环境元素，让画面在克制中保有秩序与呼吸感。\n\n构图强调**平衡、节奏与人文气质**。以下半部分主体为唯一视觉核心，整体偏居中但不僵硬对称，通过比例控制、正负形关系、疏密变化、轻微层次错动和大面积留白建立安静而专业的版面秩序。画面应简洁、稳定、克制，同时带有一点温和的空间起伏与浅浅的浮雕感，让几何形体仿佛轻微压印或微微隆起于纸面之上，形成细腻、含蓄的立体层次，而不是明显3D效果。\n\n配色从上方照片中提取，但不机械照搬，而是转化为更具**人文主义气质**的柔和色组。以米白、暖白、浅灰、沙色、灰粉、浅赭、雾蓝、鼠尾草绿等低刺激、温润、克制的颜色为基调，从原图中保留最有气质的主色与辅助色，通过有限色盘形成和谐、安静、耐看的关系。整体色彩应温和、清透、富有文化感与生活感，避免廉价高饱和、脏灰失真、冰冷科技感和普通商业配色。\n\n文字保持少量且高级，不只是地点名，而应从照片的**主题、身份、情绪、动作、时间或隐喻**中提炼简洁英文标题，并搭配少量编号、状态词或微型注释。文字可沿主体轮廓、结构线、留白边缘或画面轴线自然排布，以克制的高级编辑方式与图形共同构图，形成低调但有设计感的版式关系。\n\n整体参考国际设计工作室、建筑海报、艺术展览海报与高级品牌视觉系统，呈现**高级、现代、安静、人文、艺术化、克制而温柔**的视觉气质。避免普通滤镜、廉价矢量感、过强3D、卡通感、电商感和模板感。\n```",
+        "display_text_range": [
+          0,
+          1117
+        ],
+        "facets": [
+          {
+            "type": "media",
+            "indices": [
+              155,
+              178
+            ],
+            "id": "2090431632641789953",
+            "display": "pic.x.com/EsGClp7ah7",
+            "original": "https://t.co/EsGClp7ah7",
+            "replacement": "https://x.com/xiaoxiaodong01/status/2090433161096581434/photo/1"
+          },
+          {
+            "type": "media",
+            "indices": [
+              155,
+              178
+            ],
+            "id": "2090432761513586688",
+            "display": "pic.x.com/EsGClp7ah7",
+            "original": "https://t.co/EsGClp7ah7",
+            "replacement": "https://x.com/xiaoxiaodong01/status/2090433161096581434/photo/1"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "xiaoxiaodong01",
+        "url": "https://x.com/xiaoxiaodong01",
+        "id": "1986087438721449984",
+        "followers": 23827,
+        "following": 54,
+        "likes": 292,
+        "media_count": 762,
+        "name": "小小东",
+        "description": "国际 不知名 提示词专家 / 植物爱好者 / AI作图基建\nskills/chrom plugin/prompt/art/logo/ppt\n 微信:：newbe2012\n有星球 营业中",
+        "raw_description": {
+          "text": "国际 不知名 提示词专家 / 植物爱好者 / AI作图基建\nskills/chrom plugin/prompt/art/logo/ppt\n 微信:：newbe2012\n有星球 营业中",
+          "facets": []
+        },
+        "location": "",
+        "banner_url": "https://pbs.twimg.com/profile_banners/1986087438721449984/1776952560",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2046072820095176704/QBve47KI_200x200.jpg",
+        "joined": "Wed Nov 05 15:09:51 +0000 2025",
+        "protected": false,
+        "website": {
+          "url": "https://vip.xiaoxiaodong.ai",
+          "display_url": "vip.xiaoxiaodong.ai"
+        },
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "avatar_color": null
+      },
+      "replies": 4,
+      "retweets": 13,
+      "likes": 98,
+      "bookmarks": 165,
+      "quotes": 3,
+      "created_at": "Thu Aug 20 13:37:58 +0000 2026",
+      "created_timestamp": 1787233078,
+      "possibly_sensitive": false,
+      "views": 33884,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "zh",
+      "replying_to": null,
+      "replying_to_status": null,
+      "media": {
+        "all": [
+          {
+            "type": "photo",
+            "id": "2090431632641789953",
+            "url": "https://pbs.twimg.com/media/HQK0forakAEWQKs.jpg?name=orig",
+            "width": 1086,
+            "height": 1449
+          },
+          {
+            "type": "photo",
+            "id": "2090432761513586688",
+            "url": "https://pbs.twimg.com/media/HQK1hWDbMAA3nqE.jpg?name=orig",
+            "width": 1086,
+            "height": 1448
+          }
+        ],
+        "photos": [
+          {
+            "type": "photo",
+            "id": "2090431632641789953",
+            "url": "https://pbs.twimg.com/media/HQK0forakAEWQKs.jpg?name=orig",
+            "width": 1086,
+            "height": 1449
+          },
+          {
+            "type": "photo",
+            "id": "2090432761513586688",
+            "url": "https://pbs.twimg.com/media/HQK1hWDbMAA3nqE.jpg?name=orig",
+            "width": 1086,
+            "height": 1448
+          }
+        ],
+        "mosaic": {
+          "type": "mosaic_photo",
+          "formats": {
+            "jpeg": "https://mosaic.fxtwitter.com/jpeg/2090433161096581434/HQK0forakAEWQKs/HQK1hWDbMAA3nqE",
+            "webp": "https://mosaic.fxtwitter.com/webp/2090433161096581434/HQK0forakAEWQKs/HQK1hWDbMAA3nqE"
+          }
+        }
+      },
+      "source": "Twitter Web App",
+      "twitter_card": "summary_large_image",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "_article": null,
+    "_metrics": "7 REPLIES · 20 REPOSTS · 297 LIKES · 440 BOOKMARKS · 220,220 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「个人设计收藏偏好」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-20T14:23:32.000Z"
     }
   },
   {
@@ -2353,6 +3145,184 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2090274693601480772",
+    "TwitterUserID": "1662111037347491841",
+    "UserScreenName": "zhidawang219555",
+    "UserProfileName": "DAAI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2081770445213446144/RCobOxkg_200x200.jpg",
+    "TweetText": "🧐继续探索4拼风格 🌟原图→木刻版画→ 撕纸拼贴 → 蓝晒氰版🌟 #gptimage2 #prompt 请将我上传的照片制作成一张竖版拼图海报，整体采用 3:4 竖版构图。画面从上到下严格四等分为四个横向区域，每个区域的高度必须精确控制为整体画面高度的25%（四层比例严格为1:1:1:1，不允许出现比例偏差），区域之间无缝衔接，不设分隔线、不留间隙，顺序为：原图→风格1→风格2→风格3。由于每层为约3:1的极扁宽幅比例，各层主体建议横向居中排布，强调左右开阔留白与呼吸感，避免元素纵向拉伸变形或贴边拥挤。四层在人物站位、场景结构、视线方向上保持连贯呼应，呈现同一画面、四种转译的整体感。风格层（第二至四层）须遵循极简原则：每层视觉元素数量压缩至最低限度，只保留1个最核心的主体符号，其余次要装饰、背景细节与陪衬元素一律省略，画面留白占比不低于60%。 第一层保留原始照片的主体结构、人物真实互动关系与姿态、真实质感、自然光影与原有色彩氛围，仅进行轻微高级摄影调色，呈现杂志摄影质感，不改变人物关系与构图逻辑，并可在不改变人物关系与构图逻辑的前提下自然扩展天空、地面或环境背景，使整体更具空间感与叙事感。 第二层为木刻版画风格：以高对比黑白木刻刀痕表现场景肌理与人物剪影，辅以一至两处限定色点缀。背景为米白或浅灰纸底，刀痕线条粗犷有力但不杂乱。色彩以黑、米白为主，搭配一处点缀色。避免刀痕过密，避免灰阶层次过多导致画面发灰。 第三层为撕纸拼贴风格：以撕边纸张色块拼贴表现人物与环境，层叠边缘保留自然撕痕肌理。背景为米白牛皮纸底色。主体元素由数张撕边色纸叠放构成，层次不超过三层。色彩控制在2至4种自然色系以内。避免纸片过多导致画面凌乱，避免裁剪边缘过于精细。 第四层为蓝晒氰版风格：采用氰版摄影（蓝晒）风格，以单一普鲁士蓝与白表现人物与环境剪影，营造老工艺质感。背景为米白或浅蓝白底，可有轻微显影颗粒感。色彩为普鲁士蓝与白的单色系。避免加入其他杂色，避免颗粒感过重显脏。 每一层需将主体与场景统一转换为对应风格，整体表达极度克制与简化，只保留最核心的一个主体符号及其基本轮廓关系，删除一切非必要的背景元素、装饰细节与陪衬物；人物之间的关键位置关系、互动方向与姿态特征需保留，但应抽象为可识别的轮廓关系，做到“元素越少、关系越清晰”。色彩均从原图中提取归纳，每层严格控制在2-4种主色以内。四个区域的高度比例须严格保持1:1:1:1（各占25%），不可出现拼接错位或比例偏差。整体避免朋克/赛博朋克风格、写实照片质感强行叠加、卡通风格、3D渲染感、商业海报感、复杂背景堆砌、元素过多或画面拥挤、相邻两层风格雷同，以及任何文字、Logo、水印或标题。",
+    "Tweet Url": "https://x.com/zhidawang219555/status/2090274693601480772",
+    "TweetCreatedDate": "2026-08-20T03:08:17.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQIk1JKbMAAlVtN.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQIk1JKbMAAlVtN.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "url": "https://x.com/zhidawang219555/status/2090007870557614413",
+      "id": "2090007870557614413",
+      "text": "突发奇想试了下四拼风格的\n\n效果也还可以，后续可以用拼图快速测试风格了✌️\n\n#gptimage2 #prompt\n\n请将我上传的每一张合照制作成一张独立的高级极简设计海报，整体采用 3:4 竖版长图构图。画面从上到下严格四等分为四个横向区域（各占 25% 高度），区域之间**无缝衔接**，不设分隔线、不留间隙，共同构成一张完整的竖版长图。\n\n## 整体顺序（从上到下）\n\n1. 原始摄影画面\n2. 极简丙烯插画风格\n3. 极简线描速写风格\n4. 极简水彩晕染风格\n\n四个区域在构图逻辑上保持连贯——人物站位、视线方向、场景走向应彼此呼应，使整幅长图看起来像同一时刻由真实到抽象、逐层递进的视觉转译，而非四张随意拼接的图片。由于每个区域呈横向宽幅比例，各层主体建议横向居中排布，左右保留充分留白，避免贴边或拥挤。\n\n## 第一层：原始摄影画面\n\n保留原始合照主体结构、多人真实互动关系、真实质感、自然光影与原有色彩氛围，仅进行轻微高级摄影调色，呈现杂志摄影与艺术展览海报质感。可在不改变人物关系与构图逻辑的前提下自然扩展地面或环境背景，使画面适应横向宽幅区域，增强空间感与叙事感。\n\n## 第二层：极简丙烯插画风格\n\n整体以厚重丙烯颜料为主要表现媒介，但表达必须克制与简化，删减一切非必要元素，只保留最核心的主体结构与视觉关系。\n\n- 背景使用米白色、浅灰白色或天然纸张质感底色，带有细腻轻微的纸纤维纹理与轻微颜料渗透感。\n- 主体适当缩小，横向居中排布，左右两侧保留大面积纯净留白。\n- 人物、树木、建筑、水面、地面、石块、道路等元素均采用高度概括的丙烯色块与极简轮廓表达，只保留最基础的形状与方向关系。\n- 笔触尽量简化为少量方向明确的平刷或单一色块覆盖，避免复杂结构、纹理堆叠或装饰性笔触。\n- 色块之间清晰分离，严禁重叠、叠压或复杂交错，形状独立、边界明确。\n\n## 第三层：极简线描速写风格\n\n以极简连续线条为主要表现语言，类似高级时装速写或建筑线稿的克制美感。\n\n- 线条粗细均匀或仅有轻微变化以强调关键轮廓，不使用排线、阴影或质感堆砌。\n- 背景为纯净米白或浅灰留白，不添加任何纹理装饰。\n- 人物之间的站位关系、互动方向与姿态特征通过精简的轮廓线传达，做到\"看得懂关系，但看不见细节\"。\n- 允许极少量的单色平涂或淡彩点缀（不超过1-2处），但整体仍以线条为主导，保持画面空气感与呼吸感。\n- 避免过多线条堆积、交叉排线、写实描摹或装饰性花纹。\n\n## 第四层：极简水彩晕染风格\n\n以稀释水彩的通透晕染为主要表现媒介，色彩边缘自然扩散但整体保持克制与秩序，不产生浑浊感。\n\n- 背景保留纸张肌理与微量水痕，色彩以大面积柔和色块自然过渡，避免生硬边界。\n- 人物与场景整体简化为柔和的色彩团块与轻盈轮廓，减少笔触堆叠与细节描绘。\n- 色彩层次通过水分浓淡自然区分，而非线条或轮廓分割，画面应呈现轻盈、透气、诗意的氛围。\n- 避免大面积混色发灰、色彩堆积浑浊、笔触杂乱或过度渲染。\n\n## 统一色彩逻辑\n\n三种风格区域的色彩均从最上层原图中提取并重新归纳，使用适度鲜艳但保持艺术感的色系，例如更明亮的橄榄绿、清晰的草绿、纯净蓝灰、明亮赭石、柔和柠檬黄、干净的矿物白等。每个区域建议控制在 2–4 种主色以内，整体统一克制，避免杂乱与颜色堆积。\n\n## 禁止事项\n\n避免写实油画感、复杂插画、细节堆砌、高饱和混乱配色、卡通风格、3D 渲染感、商业海报感、电商感、廉价滤镜感、复杂背景、元素重叠、画面拥挤、装饰性符号，以及任何文字、Logo、水印或标题。",
+      "raw_text": {
+        "text": "突发奇想试了下四拼风格的\n\n效果也还可以，后续可以用拼图快速测试风格了✌️\n\n#gptimage2 #prompt\n\n请将我上传的每一张合照制作成一张独立的高级极简设计海报，整体采用 3:4 竖版长图构图。画面从上到下严格四等分为四个横向区域（各占 25% 高度），区域之间**无缝衔接**，不设分隔线、不留间隙，共同构成一张完整的竖版长图。\n\n## 整体顺序（从上到下）\n\n1. 原始摄影画面\n2. 极简丙烯插画风格\n3. 极简线描速写风格\n4. 极简水彩晕染风格\n\n四个区域在构图逻辑上保持连贯——人物站位、视线方向、场景走向应彼此呼应，使整幅长图看起来像同一时刻由真实到抽象、逐层递进的视觉转译，而非四张随意拼接的图片。由于每个区域呈横向宽幅比例，各层主体建议横向居中排布，左右保留充分留白，避免贴边或拥挤。\n\n## 第一层：原始摄影画面\n\n保留原始合照主体结构、多人真实互动关系、真实质感、自然光影与原有色彩氛围，仅进行轻微高级摄影调色，呈现杂志摄影与艺术展览海报质感。可在不改变人物关系与构图逻辑的前提下自然扩展地面或环境背景，使画面适应横向宽幅区域，增强空间感与叙事感。\n\n## 第二层：极简丙烯插画风格\n\n整体以厚重丙烯颜料为主要表现媒介，但表达必须克制与简化，删减一切非必要元素，只保留最核心的主体结构与视觉关系。\n\n- 背景使用米白色、浅灰白色或天然纸张质感底色，带有细腻轻微的纸纤维纹理与轻微颜料渗透感。\n- 主体适当缩小，横向居中排布，左右两侧保留大面积纯净留白。\n- 人物、树木、建筑、水面、地面、石块、道路等元素均采用高度概括的丙烯色块与极简轮廓表达，只保留最基础的形状与方向关系。\n- 笔触尽量简化为少量方向明确的平刷或单一色块覆盖，避免复杂结构、纹理堆叠或装饰性笔触。\n- 色块之间清晰分离，严禁重叠、叠压或复杂交错，形状独立、边界明确。\n\n## 第三层：极简线描速写风格\n\n以极简连续线条为主要表现语言，类似高级时装速写或建筑线稿的克制美感。\n\n- 线条粗细均匀或仅有轻微变化以强调关键轮廓，不使用排线、阴影或质感堆砌。\n- 背景为纯净米白或浅灰留白，不添加任何纹理装饰。\n- 人物之间的站位关系、互动方向与姿态特征通过精简的轮廓线传达，做到\"看得懂关系，但看不见细节\"。\n- 允许极少量的单色平涂或淡彩点缀（不超过1-2处），但整体仍以线条为主导，保持画面空气感与呼吸感。\n- 避免过多线条堆积、交叉排线、写实描摹或装饰性花纹。\n\n## 第四层：极简水彩晕染风格\n\n以稀释水彩的通透晕染为主要表现媒介，色彩边缘自然扩散但整体保持克制与秩序，不产生浑浊感。\n\n- 背景保留纸张肌理与微量水痕，色彩以大面积柔和色块自然过渡，避免生硬边界。\n- 人物与场景整体简化为柔和的色彩团块与轻盈轮廓，减少笔触堆叠与细节描绘。\n- 色彩层次通过水分浓淡自然区分，而非线条或轮廓分割，画面应呈现轻盈、透气、诗意的氛围。\n- 避免大面积混色发灰、色彩堆积浑浊、笔触杂乱或过度渲染。\n\n## 统一色彩逻辑\n\n三种风格区域的色彩均从最上层原图中提取并重新归纳，使用适度鲜艳但保持艺术感的色系，例如更明亮的橄榄绿、清晰的草绿、纯净蓝灰、明亮赭石、柔和柠檬黄、干净的矿物白等。每个区域建议控制在 2–4 种主色以内，整体统一克制，避免杂乱与颜色堆积。\n\n## 禁止事项\n\n避免写实油画感、复杂插画、细节堆砌、高饱和混乱配色、卡通风格、3D 渲染感、商业海报感、电商感、廉价滤镜感、复杂背景、元素重叠、画面拥挤、装饰性符号，以及任何文字、Logo、水印或标题。",
+        "display_text_range": [
+          0,
+          1482
+        ],
+        "facets": [
+          {
+            "type": "hashtag",
+            "indices": [
+              39,
+              49
+            ],
+            "original": "gptimage2"
+          },
+          {
+            "type": "hashtag",
+            "indices": [
+              50,
+              57
+            ],
+            "original": "prompt"
+          },
+          {
+            "type": "media",
+            "indices": [
+              129,
+              152
+            ],
+            "id": "2090007187280281600",
+            "display": "pic.x.com/dRNKxjMn87",
+            "original": "https://t.co/dRNKxjMn87",
+            "replacement": "https://x.com/zhidawang219555/status/2090007870557614413/photo/1"
+          },
+          {
+            "type": "media",
+            "indices": [
+              129,
+              152
+            ],
+            "id": "2090007187267649536",
+            "display": "pic.x.com/dRNKxjMn87",
+            "original": "https://t.co/dRNKxjMn87",
+            "replacement": "https://x.com/zhidawang219555/status/2090007870557614413/photo/1"
+          }
+        ]
+      },
+      "author": {
+        "screen_name": "zhidawang219555",
+        "url": "https://x.com/zhidawang219555",
+        "id": "1662111037347491841",
+        "followers": 438,
+        "following": 139,
+        "likes": 347,
+        "media_count": 352,
+        "name": "DAAI",
+        "description": "A small publication about synthetic imagination\nAI Art Director & Prompt Engineer\n每周：原创视觉案例 × 可执行提示词\n不定期：AI 新品、商业机会与冷静判断\nEdited by DAAI",
+        "raw_description": {
+          "text": "A small publication about synthetic imagination\nAI Art Director & Prompt Engineer\n每周：原创视觉案例 × 可执行提示词\n不定期：AI 新品、商业机会与冷静判断\nEdited by DAAI",
+          "facets": []
+        },
+        "location": "",
+        "banner_url": "https://pbs.twimg.com/profile_banners/1662111037347491841/1786089924",
+        "avatar_url": "https://pbs.twimg.com/profile_images/2081770445213446144/RCobOxkg_200x200.jpg",
+        "joined": "Fri May 26 14:59:09 +0000 2023",
+        "protected": false,
+        "website": null,
+        "verification": {
+          "verified": true,
+          "verified_at": null,
+          "type": "individual"
+        },
+        "avatar_color": null
+      },
+      "replies": 3,
+      "retweets": 59,
+      "likes": 258,
+      "bookmarks": 296,
+      "quotes": 3,
+      "created_at": "Wed Aug 19 09:28:01 +0000 2026",
+      "created_timestamp": 1787131681,
+      "possibly_sensitive": false,
+      "views": 28034,
+      "is_note_tweet": true,
+      "community_note": null,
+      "lang": "zh",
+      "replying_to": null,
+      "replying_to_status": null,
+      "media": {
+        "all": [
+          {
+            "type": "photo",
+            "id": "2090007187280281600",
+            "url": "https://pbs.twimg.com/media/HQEydqfawAA1Bxp.jpg?name=orig",
+            "width": 1086,
+            "height": 1448
+          },
+          {
+            "type": "photo",
+            "id": "2090007187267649536",
+            "url": "https://pbs.twimg.com/media/HQEydqcaAAAxJj5.jpg?name=orig",
+            "width": 1086,
+            "height": 1448
+          }
+        ],
+        "photos": [
+          {
+            "type": "photo",
+            "id": "2090007187280281600",
+            "url": "https://pbs.twimg.com/media/HQEydqfawAA1Bxp.jpg?name=orig",
+            "width": 1086,
+            "height": 1448
+          },
+          {
+            "type": "photo",
+            "id": "2090007187267649536",
+            "url": "https://pbs.twimg.com/media/HQEydqcaAAAxJj5.jpg?name=orig",
+            "width": 1086,
+            "height": 1448
+          }
+        ],
+        "mosaic": {
+          "type": "mosaic_photo",
+          "formats": {
+            "jpeg": "https://mosaic.fxtwitter.com/jpeg/2090007870557614413/HQEydqfawAA1Bxp/HQEydqcaAAAxJj5",
+            "webp": "https://mosaic.fxtwitter.com/webp/2090007870557614413/HQEydqfawAA1Bxp/HQEydqcaAAAxJj5"
+          }
+        }
+      },
+      "source": "Twitter Web App",
+      "twitter_card": "summary_large_image",
+      "color": null,
+      "provider": "twitter",
+      "reposted_by": null
+    },
+    "_article": null,
+    "_metrics": "0 REPLIES · 3 REPOSTS · 34 LIKES · 36 BOOKMARKS · 9,782 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「个人设计收藏偏好」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-20T03:08:17.000Z"
+    }
+  },
+  {
     "TweetID": "2090273732308931035",
     "TwitterUserID": "1239771839464783872",
     "UserScreenName": "LinearUncle",
@@ -2411,6 +3381,46 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 15,
       "observedDatetime": "2026-08-20T03:04:27.000Z"
+    }
+  },
+  {
+    "TweetID": "2090271431909347477",
+    "TwitterUserID": "854722070101360641",
+    "UserScreenName": "ZaynHao",
+    "UserProfileName": "Zayn Hao",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1490844347721342981/_vcCNxRm_200x200.jpg",
+    "TweetText": "macOS 都到 27 了。这个原生日期选择器的 UI 就舍不得更新一下... 哪怕更新成和 iOS 一模一样的都行。",
+    "Tweet Url": "https://x.com/ZaynHao/status/2090271431909347477",
+    "TweetCreatedDate": "2026-08-20T02:55:19.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQIip0Aa0AAgNOH.png?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQIip0Aa0AAgNOH.png?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "2 REPLIES · 0 REPOSTS · 12 LIKES · 1 BOOKMARKS · 19,643 VIEWS",
+    "_analysisTheme": "设计工具 / 设计系统",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：这条收藏可作为「设计工具 / 设计系统」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-20T02:55:19.000Z"
     }
   },
   {
@@ -2811,6 +3821,46 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/i/history/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-19T16:45:51.000Z"
+    }
+  },
+  {
+    "TweetID": "2090114882272141760",
+    "TwitterUserID": "1643282878992642048",
+    "UserScreenName": "superwhisper",
+    "UserProfileName": "superwhisper",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2085092229693997056/Eet7ytkG_200x200.jpg",
+    "TweetText": "Introducing S1-mini ✨ Our first open-weights language model. A 0.6B parameter model that processes transcripts entirely on your device. Try it in app today.",
+    "Tweet Url": "https://x.com/superwhisper/status/2090114882272141760",
+    "TweetCreatedDate": "2026-08-19T16:33:15.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQGTxRQWAAAPh39.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Design",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQGTxRQWAAAPh39.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "93 REPLIES · 256 REPOSTS · 3,619 LIKES · 2,518 BOOKMARKS · 288,328 VIEWS",
+    "_analysisTheme": "产品设计 / 增长案例",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：这条收藏可作为「产品设计 / 增长案例」参考，适合转成个人实践清单；重点观察它的产品表达、交互模式或视觉方法，而不是只保存素材。",
+    "_likedSync": {
+      "capturedAt": "2026-08-25T08:15:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-19T16:33:15.000Z"
     }
   },
   {
