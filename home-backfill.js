@@ -2,6 +2,397 @@
   window.HOME_BACKFILL = [
   {
     "category": "AI PRODUCT",
+    "datetime": "2026-08-26T05:12:45.000Z",
+    "author": "Seiya Yazaki",
+    "handle": "saiya_moebius",
+    "avatar": "https://pbs.twimg.com/profile_images/488679946366091265/yfbuWPL5_200x200.png",
+    "title": "Fable 5 用 Claude Code 指挥 sub-agents",
+    "summary": "我会帮你抓取它，因为它把 Claude Code 放在指挥层、让多个 coding agent 承接实际任务，适合观察复杂产品开发如何从单 agent 过渡到编排式工作台。对个人设计师来说，重点是把 issue/文档驱动的任务分配和验收节点画成可复用流程。",
+    "url": "https://x.com/saiya_moebius/status/2092480345262502354",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 12 VIEWS",
+    "links": [],
+    "_analysisTheme": "把多 agent 编排拆成任务、状态、验收和人工插入点",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-26T05:12:34.000Z",
+    "author": "Marrow",
+    "handle": "marrow_ai",
+    "avatar": "https://pbs.twimg.com/profile_images/2075014353825492993/G-JxmZba_200x200.jpg",
+    "title": "Agent “完成”需要可验证 receipt",
+    "summary": "我会帮你抓取它，因为这篇 X Article 明确指出 agent 自报完成不是交付证据，正好对应产品设计里“状态、日志、回执、人工确认”的核心问题。对个人设计师来说，重点是学习如何为 agent 行为设计可验收的证据链。",
+    "url": "https://x.com/marrow_ai/status/2092480298496020961",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 11 VIEWS",
+    "links": [
+      "https://x.com/i/article/2092480292779167744"
+    ],
+    "_analysisTheme": "为 agent 完成态设计证据和控制层",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "x-article",
+      "title": "The agent said it was done",
+      "url": "https://x.com/i/article/2092480292779167744",
+      "preview": "The agent marked the ticket done. The commit was not there. The mail was not sent. The hook never moved. Someone still closed the ticket, because the dashboard was green and the wr",
+      "cover": "https://pbs.twimg.com/media/HQn7vKSbUAAuLat.jpg"
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-26T05:10:31.000Z",
+    "author": "Aris Cursor 🔥",
+    "handle": "arisberikut",
+    "avatar": "https://pbs.twimg.com/profile_images/1945764279002492928/_Erc5I0v_200x200.jpg",
+    "title": "reui MCP 被用作 agent 设计测试速查表",
+    "summary": "我会帮你抓取它，因为它显示设计测试和 MCP 组件知识正在进入 coding agent 工作流。对个人设计师来说，重点是评估组件库、设计规则和 agent 之间如何形成可执行的检查清单。",
+    "url": "https://x.com/arisberikut/status/2092479783565402318",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQn5MsXasAAQUQ3.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQn526OaIAAS5kj.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 12 VIEWS",
+    "links": [],
+    "_analysisTheme": "把设计测试规则转成 agent 可调用的组件知识",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-26T05:09:22.000Z",
+    "author": "思维怪怪",
+    "handle": "0xLogicrw",
+    "avatar": "https://pbs.twimg.com/profile_images/2083261639135244288/KoOQO6zp_200x200.jpg",
+    "title": "多 coding agent 配置文件开始分裂",
+    "summary": "我会帮你抓取它，因为它把 Shopify 对 AGENTS.md 与 CLAUDE.md 的冲突拉到台前，说明团队级 agent 规则需要统一事实源。对个人设计师来说，重点是为跨工具协作设计一套可维护的项目上下文约定。",
+    "url": "https://x.com/0xLogicrw/status/2092479493399248947",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQn6ZgPagAAzYcT.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQn6ZgTaIAASG7J.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQn6cxoaoAA7x5u.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQn6cxyasAAr-lh.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 49 VIEWS",
+    "links": [
+      "https://x.com/tobi/status/2092259436538495186"
+    ],
+    "_analysisTheme": "统一多 agent 项目上下文和规则文件",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2092259436538495186",
+      "url": "https://x.com/tobi/status/2092259436538495186",
+      "author": "tobi lutke",
+      "handle": "tobi",
+      "text": "I’m thinking about banning Claude code at Shopify until they change their mind and read AGENTS.md and .agents/skills etc. Insisting on only reading CLAUDE.md sometimes leads to split brain problems when different team members use different "
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-26T05:08:00.000Z",
+    "author": "lumxss",
+    "handle": "bkdgiffug",
+    "avatar": "https://pbs.twimg.com/profile_images/1865771523463954432/cSwn54mJ_200x200.jpg",
+    "title": "动画、微交互和 CSS 资源组合清单",
+    "summary": "我会帮你抓取它，因为它收集了 spring 动效、UI 动画库、coverflow、Docker compose 和渐变按钮等可直接试用资源。对个人设计师来说，重点是把灵感资源变成可复用动效参数和前端实现片段。",
+    "url": "https://x.com/bkdgiffug/status/2092479149445095843",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQlIXVQbwAAjaR3.png?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 25 VIEWS",
+    "links": [
+      "https://kinetics.colorion.co",
+      "https://ripplix.com",
+      "http://coverflow.ashishgogula.in",
+      "https://github.com/docker/awesome-compose",
+      "https://gradientbuttons.colorion.co"
+    ],
+    "_analysisTheme": "从动效资源库提炼可复用交互参数",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "Kinetics — Spring-physics motion for web interfaces",
+      "url": "https://kinetics.colorion.co",
+      "preview": "A library of spring-driven micro-interactions for web apps. Copy the CSS or React, tune the physics, ship the motion.",
+      "cover": ""
+    }
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-26T05:04:10.000Z",
+    "author": "Tanjim",
+    "handle": "Tanjim38",
+    "avatar": "https://pbs.twimg.com/profile_images/1972193264649621506/kCQd0-Mf_200x200.jpg",
+    "title": "Crypto 移动 App 的动态界面展示",
+    "summary": "我会帮你抓取它，因为它是一个短视频式 UI motion 样本，适合观察金融/crypto 产品如何通过动效增强层级和速度感。对个人设计师来说，重点是拆解转场、卡片节奏和信息密度。",
+    "url": "https://x.com/Tanjim38/status/2092478186202259733",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092477981096640513/vid/avc1/480x360/fbIubmjzxMbhOKhC.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092477981096640513/img/4blSKjIf1QKLACwI.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 49 VIEWS",
+    "links": [],
+    "_analysisTheme": "拆解移动金融界面的 motion 节奏",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-26T05:01:18.000Z",
+    "author": "NOVA",
+    "handle": "N0V4Dev",
+    "avatar": "https://pbs.twimg.com/profile_images/2062443806214205440/C9wHoXgP_200x200.jpg",
+    "title": "RikkaHub 作为 Material You 多模型 Android 客户端",
+    "summary": "我会帮你抓取它，因为它把多 LLM provider 聚合到 Android 原生 Material You 体验里，适合对比桌面 AI 客户端之外的移动端模型切换设计。对个人设计师来说，重点是评估多模型入口、深色模式和会话管理。",
+    "url": "https://x.com/N0V4Dev/status/2092477463515341031",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQn5JduWEAAA1js.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 5 VIEWS",
+    "links": [
+      "https://github.com/rikkahub/rikkahub"
+    ],
+    "_analysisTheme": "研究移动端多模型 AI 客户端的信息架构",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "GitHub - rikkahub/rikkahub: RikkaHub is an Android APP that supports for multiple LLM providers. · GitHub",
+      "url": "https://github.com/rikkahub/rikkahub",
+      "preview": "RikkaHub is an Android APP that supports for multiple LLM providers. - rikkahub/rikkahub",
+      "cover": ""
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-26T05:00:01.000Z",
+    "author": "AgentsRoom.dev",
+    "handle": "AgentsRoomDev",
+    "avatar": "https://pbs.twimg.com/profile_images/2051640280550436865/DDzzeX6Z_200x200.jpg",
+    "title": "AgentsRoom 增加项目与 agent 成本估算",
+    "summary": "我会帮你抓取它，因为 agent 工具开始把成本估算纳入项目和 agent 维度，这会影响设计团队选择模型、分配任务和展示预算的方式。对个人设计师来说，重点是学习 AI 成本如何进入工作台信息架构。",
+    "url": "https://x.com/AgentsRoomDev/status/2092477141195858211",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQjnkcCWgAABrnL.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 2 VIEWS",
+    "links": [],
+    "_analysisTheme": "把 agent 成本估算放进项目工作台",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-26T04:57:20.000Z",
+    "author": "Alok Goyal",
+    "handle": "alokgoyal1971",
+    "avatar": "https://pbs.twimg.com/profile_images/620091471203471360/s7743sSQ_200x200.jpg",
+    "title": "AI native services 从 SaaS 预算转向交付工作流",
+    "summary": "我会帮你抓取它，因为这篇 X Article 把 AI native services 定义为直接出售完成工作流，而不是只卖软件席位。对个人设计师来说，重点是理解 B2B AI 产品的价值证明要从功能页转向结果、异常处理和交付责任。",
+    "url": "https://x.com/alokgoyal1971/status/2092476464797290905",
+    "media": [],
+    "metrics": "1 REPLIES · 1 REPOSTS · 2 LIKES · 1 BOOKMARKS · 81 VIEWS",
+    "links": [
+      "https://x.com/i/article/2092472834119626752"
+    ],
+    "_analysisTheme": "从完成工作流角度设计 AI native services",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "x-article",
+      "title": "Why AI native services is the next big bet",
+      "url": "https://x.com/i/article/2092472834119626752",
+      "preview": "AI has pulled venture attention back to the application layer. Every week, the same debates come around in a slightly different form: will agents replace SaaS, will incumbents keep",
+      "cover": "https://pbs.twimg.com/media/HQn1BLibIAAtqal.jpg"
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-26T04:57:14.000Z",
+    "author": "Anuj",
+    "handle": "anujcodes_21",
+    "avatar": "https://pbs.twimg.com/profile_images/1823409668993245187/zP-_Y2Cg_200x200.jpg",
+    "title": "Relume Publish 强调人造组件而非幻觉页面",
+    "summary": "我会帮你抓取它，因为它把 AI 建站从“生成漂亮首屏”转向 human-made component assembly 和上线后的增长工作流。对个人设计师来说，重点是判断 AI website builder 如何保证多页面一致性。",
+    "url": "https://x.com/anujcodes_21/status/2092476442378641533",
+    "media": [],
+    "metrics": "1 REPLIES · 2 REPOSTS · 11 LIKES · 2 BOOKMARKS · 728 VIEWS",
+    "links": [
+      "http://relume.ai/publish",
+      "https://x.com/relume_ai/status/2092344512207048726"
+    ],
+    "_analysisTheme": "评估 AI 建站的一致性和组件来源",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2092344512207048726",
+      "url": "https://x.com/relume_ai/status/2092344512207048726",
+      "author": "Relume",
+      "handle": "relume_ai",
+      "text": "Websites exist to drive outcomes, not win awards. Launch day is day zero. The real work starts after. So we built Relume Publish, the website builder for freelancers and agencies. Build a client site in minutes, publish it, then let AI agen"
+    },
+    "article": {
+      "kind": "external",
+      "title": "Relume — Build and Grow Marketing Websites with AI",
+      "url": "http://relume.ai/publish",
+      "preview": "Build your marketing website from human-made components, publish it live, and grow it with AI agents. The system behind 2M+ websites. Start for free.",
+      "cover": ""
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-26T04:57:11.000Z",
+    "author": "Erik Erelöf",
+    "handle": "erelof1",
+    "avatar": "https://pbs.twimg.com/profile_images/2080265936565645312/ugKXq7vV_200x200.jpg",
+    "title": "从 prompt engineering 转向 harness engineering",
+    "summary": "我会帮你抓取它，因为它把 agent 失败归因到上下文、系统状态和工具编排，而不是只归因到 prompt。对个人设计师来说，重点是学习把 agent 体验拆成 harness、memory、state 和 recovery。",
+    "url": "https://x.com/erelof1/status/2092476427207577872",
+    "media": [],
+    "metrics": "2 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 7 VIEWS",
+    "links": [],
+    "_analysisTheme": "把 agent 体验拆成 harness、状态和恢复机制",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-26T04:55:24.000Z",
+    "author": "Manny(locked in)",
+    "handle": "mwillmit",
+    "avatar": "https://pbs.twimg.com/profile_images/2009022984384622594/rGAQTkPg_200x200.jpg",
+    "title": "ThreeUI 把 shadcn 模式带到 3D Web",
+    "summary": "我会帮你抓取它，因为它把“复制组件即可使用”的设计工程模式迁移到 Three.js React 组件，说明 3D Web UI 正在靠组件库降低落地门槛。对个人设计师来说，重点是评估 3D 组件如何进入真实产品界面。",
+    "url": "https://x.com/mwillmit/status/2092475978110873644",
+    "media": [],
+    "metrics": "2 REPLIES · 2 REPOSTS · 10 LIKES · 0 BOOKMARKS · 284 VIEWS",
+    "links": [],
+    "_analysisTheme": "把 3D Web UI 组件化成可交付设计资产",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-26T04:55:11.000Z",
+    "author": "0xCkvin",
+    "handle": "0xCkvin",
+    "avatar": "https://pbs.twimg.com/profile_images/1883060826103590912/v1RsQg3V_200x200.jpg",
+    "title": "MulmoTerminal 用浏览器网格管理多 agent 终端",
+    "summary": "我会帮你抓取它，因为它把多个 Claude Code/Codex 会话的等待、完成和权限状态放进同一个浏览器网格，是多 agent 监控界面的具体样本。对个人设计师来说，重点是拆解并行 agent 的状态可见性。",
+    "url": "https://x.com/0xCkvin/status/2092475924495085993",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/tweet_video/HQn3uVqWsAEwVOU.mp4",
+        "poster": "https://pbs.twimg.com/tweet_video_thumb/HQn3uVqWsAEwVOU.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 30 VIEWS",
+    "links": [
+      "https://github.com/receptron/mulmoterminal"
+    ],
+    "_analysisTheme": "设计多 agent 终端调度台的状态可见性",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "GitHub - receptron/mulmoterminal: Run multiple Claude Code and Codex sessions in parallel — a browser terminal grid that shows which agent needs you. Local, tmux-backed, MIT. · GitHub",
+      "url": "https://github.com/receptron/mulmoterminal",
+      "preview": "Run multiple Claude Code and Codex sessions in parallel — a browser terminal grid that shows which agent needs you. Local, tmux-backed, MIT. - receptron/mulmoterminal",
+      "cover": ""
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-26T04:54:40.000Z",
+    "author": "Jason Culbertson",
+    "handle": "jculbertson",
+    "avatar": "https://pbs.twimg.com/profile_images/1281083979702005762/PhCjaQIT_200x200.jpg",
+    "title": "Awake AI 用小工具支撑 agent 长跑",
+    "summary": "我会帮你抓取它，因为它把“保持机器唤醒、内联 agent 运行状态”做成 Mac 小工具，说明围绕 agent 长任务的周边工具正在出现。对个人设计师来说，重点是识别 agent 工作流里那些低调但刚需的系统触点。",
+    "url": "https://x.com/jculbertson/status/2092475793096282182",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQn3o5HagAACYiZ.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 8 VIEWS",
+    "links": [
+      "https://apps.apple.com/us/app/awake-ai/id6761450359"
+    ],
+    "_analysisTheme": "为 agent 长任务设计系统级触点",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "‎Awake AI App - App Store",
+      "url": "https://apps.apple.com/us/app/awake-ai/id6761450359",
+      "preview": "Download Awake AI by Jason CULBERTSON on the App Store. See screenshots, ratings and reviews, user tips, and more apps like Awake AI.",
+      "cover": ""
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-26T04:54:06.000Z",
+    "author": "Polsia",
+    "handle": "polsia",
+    "avatar": "https://pbs.twimg.com/profile_images/2073110017335844864/pDaak9Vq_200x200.jpg",
+    "title": "MCP 长期 OAuth token 需要治理层",
+    "summary": "我会帮你抓取它，因为它提醒 MCP 配置里的长期 token 是真实产品风险，agent-native 工具不能只设计连接，还要设计凭证范围、审计和撤销。对个人设计师来说，重点是把安全治理放入连接流程。",
+    "url": "https://x.com/polsia/status/2092475650728956029",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 13 VIEWS",
+    "links": [],
+    "_analysisTheme": "设计 MCP 凭证治理、审计和撤销体验",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-26T04:52:00.000Z",
+    "author": "Prasenjit Sarkar",
+    "handle": "stretchcloud",
+    "avatar": "https://pbs.twimg.com/profile_images/1966979113316409344/BkqBhdQb_200x200.jpg",
+    "title": "Perplexity Portable Computer 指向本地 agent runtime",
+    "summary": "我会帮你抓取它，因为它讨论把 orchestrator、subagents 和 harness 移到本地硬件，代表 agent 产品的算力/隐私/响应速度新边界。对个人设计师来说，重点是思考本地 agent runtime 的状态、权限和资源提示。",
+    "url": "https://x.com/stretchcloud/status/2092475123202707724",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 19 VIEWS",
+    "links": [
+      "https://x.com/AravSrinivas/status/2092270041471598820"
+    ],
+    "_analysisTheme": "设计本地 agent runtime 的权限与资源反馈",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2092270041471598820",
+      "url": "https://x.com/AravSrinivas/status/2092270041471598820",
+      "author": "Aravind Srinivas",
+      "handle": "AravSrinivas",
+      "text": "In a compute and power-constrained world, a good chunk of agentic inference needs to move to local hardware. A drastic version of that is a fully local agent runtime, where the model (orchestrator and subagents) and the harness run locally."
+    }
+  },
+  {
+    "category": "AI PRODUCT",
     "datetime": "2026-08-26T00:08:00.000Z",
     "author": "Tetsuro Miyatake",
     "handle": "tmiyatake1",

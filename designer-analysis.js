@@ -1,6 +1,798 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-26",
+    "generatedAt": "2026-08-26T13:17:16+08:00",
+    "batch": "x-ai-design-analysis-2026-08-26-1317",
+    "analysisCount": 24,
+    "homeCount": 16,
+    "likeCount": 8,
+    "linksInspected": 17,
+    "unavailableLinks": 0,
+    "summary": "2026-08-26 午后增量：登录态 X Home/search 观察 2943 条 appearances、190 个唯一 fresh Home/search 候选，因当天 Home 已有 20 条，本批只追加 16 条高价值设计工程/AI 产品/视觉作品；Likes 观察 105 条 appearances、24 个唯一 ID，新增 9 条 Like，并在 fresh 后连续 15 个 known ID 达到边界。当天 Analysis 已达 100，本批只追加未分析的 16 Home + 8 Like。",
+    "sourceWindow": {
+      "strategy": "使用 ego-browser 独立 task space 21 复用 X 登录态；Home 覆盖 Home、AI/product/design/tool/visual/indie/Codex X 搜索。Likes 进入 x.com/neoedon414/likes/历史页滚动到 known-ID 边界。链接读取仅限原帖暴露的 X Article、引用帖、产品页、GitHub 和官网。",
+      "newestHomeDatetime": "2026-08-26T05:12:45.000Z",
+      "oldestHomeDatetime": "2026-08-26T04:52:00.000Z",
+      "newestLikeDatetime": "2026-08-26T00:48:16.000Z",
+      "oldestLikeDatetime": "2026-08-25T05:48:56.000Z",
+      "expandedWindow": "Home 不扩窗：16 条新增 Home 均属于 Asia/Shanghai 2026-08-26。Analysis 已超过 100，只追加新出现且有学习价值的未分析内容；Like 中 2092337179607572694 已在上午 Home Analysis 分析，故本批 Analysis 跳过该重复 ID。",
+      "observed": {
+        "homeRaw": 2943,
+        "homeUnique": 190,
+        "sameDayFreshHomeCandidates": 173,
+        "homeSelected": 16,
+        "rejectedHomeCandidates": 174,
+        "existingHomeDuplicates": 0,
+        "likeRaw": 105,
+        "likeUnique": 24,
+        "freshLikes": 9,
+        "knownLikeBoundary": 15,
+        "analysisBeforeTodayUnique": 100,
+        "selectedHomeIds": [
+          "2092480345262502354",
+          "2092480298496020961",
+          "2092479783565402318",
+          "2092479493399248947",
+          "2092479149445095843",
+          "2092478186202259733",
+          "2092477141195858211",
+          "2092477463515341031",
+          "2092475978110873644",
+          "2092475924495085993",
+          "2092475793096282182",
+          "2092475650728956029",
+          "2092476427207577872",
+          "2092476442378641533",
+          "2092475123202707724",
+          "2092476464797290905"
+        ],
+        "selectedLikeIds": [
+          "2092350050055712975",
+          "2092337179607572694",
+          "2092323535196672028",
+          "2092179097250070588",
+          "2092195951012442112",
+          "2092127063910342799",
+          "2092413786129076730",
+          "2092331503997116759",
+          "2092383723039719890"
+        ],
+        "skippedAlreadyAnalyzedLikeIds": [
+          "2092337179607572694"
+        ],
+        "historicalLikeExpansion": 0
+      }
+    },
+    "items": [
+      {
+        "id": "2092480345262502354",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/saiya_moebius/status/2092480345262502354",
+        "author": "Seiya Yazaki",
+        "handle": "saiya_moebius",
+        "datetime": "2026-08-26T05:12:45.000Z",
+        "title": "Fable 5 用 Claude Code 指挥 sub-agents",
+        "originalSummary": "Fable 5 claude code を指揮官にしながら sub-agent ないし別 coding agent に実働させるメソッドが、大規模なものでも安定稼働しつつあり便利。 GitHub issues または .md ファイルを監視させておき、人間が横から課題や指摘をバンバン投げてくのがちょうど良い感じに機能する。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 Claude Code 放在指挥层、让多个 coding agent 承接实际任务，适合观察复杂产品开发如何从单 agent 过渡到编排式工作台。对个人设计师来说，重点是把 issue/文档驱动的任务分配和验收节点画成可复用流程。",
+        "deepSummary": "这条内容的核心价值是：把多 agent 编排拆成任务、状态、验收和人工插入点。原帖提供了明确观点或链接，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「把多 agent 编排拆成任务、状态、验收和人工插入点」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "AI 产品",
+          "设计工程"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092480298496020961",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/marrow_ai/status/2092480298496020961",
+        "author": "Marrow",
+        "handle": "marrow_ai",
+        "datetime": "2026-08-26T05:12:34.000Z",
+        "title": "Agent “完成”需要可验证 receipt",
+        "originalSummary": "https://x.com/i/article/2092480292779167744",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为这篇 X Article 明确指出 agent 自报完成不是交付证据，正好对应产品设计里“状态、日志、回执、人工确认”的核心问题。对个人设计师来说，重点是学习如何为 agent 行为设计可验收的证据链。",
+        "deepSummary": "这条内容的核心价值是：为 agent 完成态设计证据和控制层。原帖提供了明确观点或链接，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2092480292779167744",
+            "finalUrl": "https://x.com/i/article/2092480292779167744",
+            "access": "full",
+            "title": "The agent said it was done",
+            "summary": "X Article 展开了“agent 说完成但没有真实交付”的控制层问题，强调 done 需要 receipt、权限前置和事后证据。",
+            "value": "信息密度高，适合作为 agent 产品验收态、审计日志和人机确认设计的学习材料。"
+          }
+        ],
+        "learningActions": [
+          "把「为 agent 完成态设计证据和控制层」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "AI 产品",
+          "设计工程"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092479783565402318",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/arisberikut/status/2092479783565402318",
+        "author": "Aris Cursor 🔥",
+        "handle": "arisberikut",
+        "datetime": "2026-08-26T05:10:31.000Z",
+        "title": "reui MCP 被用作 agent 设计测试速查表",
+        "originalSummary": "Seems I need to give my bot team a lot of lecture about my design test. Also, @reui_io MCP is like a cheat sheet for agent. I'll pause my live stream.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它显示设计测试和 MCP 组件知识正在进入 coding agent 工作流。对个人设计师来说，重点是评估组件库、设计规则和 agent 之间如何形成可执行的检查清单。",
+        "deepSummary": "这条内容的核心价值是：把设计测试规则转成 agent 可调用的组件知识。原帖提供了可观察媒体/截图，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「把设计测试规则转成 agent 可调用的组件知识」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "设计工具",
+          "设计工程"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092479493399248947",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/0xLogicrw/status/2092479493399248947",
+        "author": "思维怪怪",
+        "handle": "0xLogicrw",
+        "datetime": "2026-08-26T05:09:22.000Z",
+        "title": "多 coding agent 配置文件开始分裂",
+        "originalSummary": "Agent 也要分苹果.MD、安卓.MD？ Shopify CEO Tobi Lütke 正考虑在公司禁用 Claude Code。不是 Claude 不好用，而是它偏要用自己的 CLAUDE.md。 Shopify 同时用 Claude Code、Codex 等多种 Agent。其他工具可以共用 AGENTS.md，Claude Code 却只读 CLAUDE.md。两套文件还会在大型代码仓库里层层递归。哪一层漏同步一个，就有人拿到错误的规则。Shopify 已经专门写自动化检查兜底，Tobi 觉得这纯属没事找事",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 Shopify 对 AGENTS.md 与 CLAUDE.md 的冲突拉到台前，说明团队级 agent 规则需要统一事实源。对个人设计师来说，重点是为跨工具协作设计一套可维护的项目上下文约定。",
+        "deepSummary": "这条内容的核心价值是：统一多 agent 项目上下文和规则文件。原帖提供了可观察媒体/截图，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/tobi/status/2092259436538495186",
+            "finalUrl": "https://x.com/tobi/status/2092259436538495186",
+            "access": "full",
+            "title": "引用帖：tobi lutke",
+            "summary": "引用帖来自 Shopify CEO Tobi，明确表达希望 Claude Code 读取 AGENTS.md/.agents/skills 等共享规则。",
+            "value": "它把配置文件问题从工具偏好提升为团队协作标准，适合继续整理多 agent 项目约定。"
+          }
+        ],
+        "learningActions": [
+          "把「统一多 agent 项目上下文和规则文件」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "AI 产品",
+          "设计工程"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092479149445095843",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/bkdgiffug/status/2092479149445095843",
+        "author": "lumxss",
+        "handle": "bkdgiffug",
+        "datetime": "2026-08-26T05:08:00.000Z",
+        "title": "动画、微交互和 CSS 资源组合清单",
+        "originalSummary": "前端和移动端开发的同学，这波开源项目值得关注一下。动画、UI组件、部署配置，都是日常开发高频场景，能直接拿过来提效。 动画与交互 Kinetics：基于弹簧物理模型的CSS/React动画片段库，每个动画都配好了提示词，直接复制就能用，不用自己从头搓参数。 🔗 https://kinetics.colorion.co Ripplix：规模不小的UI动画和微交互合集，找动效灵感、看常见交互实现方案，来这里翻翻就够了。 🔗 https://ripplix.com React Cover Flow：在React里实现",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它收集了 spring 动效、UI 动画库、coverflow、Docker compose 和渐变按钮等可直接试用资源。对个人设计师来说，重点是把灵感资源变成可复用动效参数和前端实现片段。",
+        "deepSummary": "这条内容的核心价值是：从动效资源库提炼可复用交互参数。原帖提供了可观察媒体/截图，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [
+          {
+            "url": "https://kinetics.colorion.co",
+            "finalUrl": "https://kinetics.colorion.co/",
+            "access": "full",
+            "title": "Kinetics — Spring-physics motion for web interfaces",
+            "summary": "Kinetics 页面说明这是 spring-driven micro-interactions 库，支持复制 CSS/React 并调整物理参数。",
+            "value": "可复用价值高，适合把动效参数和组件状态收进个人 motion pattern。"
+          },
+          {
+            "url": "https://ripplix.com",
+            "finalUrl": "https://www.ripplix.com/",
+            "access": "full",
+            "title": "7,000+ UI Animation &amp; Micro-interaction Library",
+            "summary": "Ripplix 页面定位为 7,000+ UI animation / micro-interaction library。",
+            "value": "适合做竞品级动效参考库，但需要筛选真实可落地样式。"
+          },
+          {
+            "url": "http://coverflow.ashishgogula.in",
+            "finalUrl": "https://coverflow.ashishgogula.in/",
+            "access": "full",
+            "title": "Cover Flow — iOS-Style Coverflow Component for React",
+            "summary": "Cover Flow 页面说明它是 React 组件，支持拖拽、触控、滚轮和键盘。",
+            "value": "实现参考明确，可用于复刻 iOS 风格空间滑动组件。"
+          },
+          {
+            "url": "https://github.com/docker/awesome-compose",
+            "finalUrl": "https://github.com/docker/awesome-compose",
+            "access": "full",
+            "title": "GitHub - docker/awesome-compose: Awesome Docker Compose samples · GitHub",
+            "summary": "GitHub 仓库是 Docker Compose samples，与动效无直接关系但可作为开发环境示例。",
+            "value": "对设计学习价值较弱，更多是工程搭建补充。"
+          },
+          {
+            "url": "https://gradientbuttons.colorion.co",
+            "finalUrl": "https://gradientbuttons.colorion.co/",
+            "access": "full",
+            "title": "Buttons with CSS gradients - Gradient Buttons",
+            "summary": "Gradient Buttons 提供可复制 CSS 渐变按钮。",
+            "value": "信息密度中等，可作为视觉 token/渐变按钮快速参考。"
+          }
+        ],
+        "learningActions": [
+          "把「从动效资源库提炼可复用交互参数」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "设计工具",
+          "动效"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092478186202259733",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Tanjim38/status/2092478186202259733",
+        "author": "Tanjim",
+        "handle": "Tanjim38",
+        "datetime": "2026-08-26T05:04:10.000Z",
+        "title": "Crypto 移动 App 的动态界面展示",
+        "originalSummary": "Mobile app design for crypto in motion",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它是一个短视频式 UI motion 样本，适合观察金融/crypto 产品如何通过动效增强层级和速度感。对个人设计师来说，重点是拆解转场、卡片节奏和信息密度。",
+        "deepSummary": "这条内容的核心价值是：拆解移动金融界面的 motion 节奏。原帖提供了可观察媒体/截图，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「拆解移动金融界面的 motion 节奏」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "视觉作品",
+          "动效"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092477141195858211",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/AgentsRoomDev/status/2092477141195858211",
+        "author": "AgentsRoom.dev",
+        "handle": "AgentsRoomDev",
+        "datetime": "2026-08-26T05:00:01.000Z",
+        "title": "AgentsRoom 增加项目与 agent 成本估算",
+        "originalSummary": "🚀 New in AgentsRoom: AI cost estimation by project and agent You can now estimate the cost of each project and each agent based on your subscriptions and usage quotas, including 5-hour usage windows and weekly limits. See where your AI budget is going, compar",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 agent 工具开始把成本估算纳入项目和 agent 维度，这会影响设计团队选择模型、分配任务和展示预算的方式。对个人设计师来说，重点是学习 AI 成本如何进入工作台信息架构。",
+        "deepSummary": "这条内容的核心价值是：把 agent 成本估算放进项目工作台。原帖提供了可观察媒体/截图，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「把 agent 成本估算放进项目工作台」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "AI 产品",
+          "设计工程"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092477463515341031",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/N0V4Dev/status/2092477463515341031",
+        "author": "NOVA",
+        "handle": "N0V4Dev",
+        "datetime": "2026-08-26T05:01:18.000Z",
+        "title": "RikkaHub 作为 Material You 多模型 Android 客户端",
+        "originalSummary": "Found a new Kotlin-based Android client called rikkahub that lets you juggle multiple LLM providers in one place. It uses a clean Material You design with dark mode and handles everything from standard text to images, PDFs, and Docx files. The standout feature",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把多 LLM provider 聚合到 Android 原生 Material You 体验里，适合对比桌面 AI 客户端之外的移动端模型切换设计。对个人设计师来说，重点是评估多模型入口、深色模式和会话管理。",
+        "deepSummary": "这条内容的核心价值是：研究移动端多模型 AI 客户端的信息架构。原帖提供了可观察媒体/截图，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/rikkahub/rikkahub",
+            "finalUrl": "https://github.com/rikkahub/rikkahub",
+            "access": "full",
+            "title": "GitHub - rikkahub/rikkahub: RikkaHub is an Android APP that supports for multiple LLM providers. · GitHub",
+            "summary": "GitHub 页面确认 RikkaHub 是支持 multiple LLM providers 的 Android App。",
+            "value": "实现参考价值高，可观察移动端多模型切换、provider 设置和 Material You 适配。"
+          }
+        ],
+        "learningActions": [
+          "把「研究移动端多模型 AI 客户端的信息架构」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "AI 产品",
+          "移动设计"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092475978110873644",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/mwillmit/status/2092475978110873644",
+        "author": "Manny(locked in)",
+        "handle": "mwillmit",
+        "datetime": "2026-08-26T04:55:24.000Z",
+        "title": "ThreeUI 把 shadcn 模式带到 3D Web",
+        "originalSummary": "ThreeUI is shadcn/ui for the 3D web. 50 production-ready Three.js React components — copy, install, ship — MIT free, backed by a Pro tier from Design+Code's Meng To. 3,988 stars in 4 days proves the demand: every developer wants cinematic 3D on the web, nobody",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把“复制组件即可使用”的设计工程模式迁移到 Three.js React 组件，说明 3D Web UI 正在靠组件库降低落地门槛。对个人设计师来说，重点是评估 3D 组件如何进入真实产品界面。",
+        "deepSummary": "这条内容的核心价值是：把 3D Web UI 组件化成可交付设计资产。原帖提供了明确观点或链接，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「把 3D Web UI 组件化成可交付设计资产」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "设计工具",
+          "3D Web"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092475924495085993",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/0xCkvin/status/2092475924495085993",
+        "author": "0xCkvin",
+        "handle": "0xCkvin",
+        "datetime": "2026-08-26T04:55:11.000Z",
+        "title": "MulmoTerminal 用浏览器网格管理多 agent 终端",
+        "originalSummary": "兄弟们，发现一个好用的多 agent 终端调度台，MulmoTerminal。 解决的问题是同时跑多个 Claude Code 会话时没法盯。哪个在等你确认权限、哪个跑完了、哪个还在干活，全靠逐个终端点过去看。 一条 npx 命令起一个浏览器终端网格，每个格子一个独立会话，Claude Code、Codex、Antigravity、Grok 随便混开。每个格子边框颜色就是状态，蓝色在干活，琥珀色在等你，绿圈是跑完了没审。扫一眼颜色，只去被叫到的格子就行。 几个设计很扎实。 会话挂在 tmux 上，服务器崩了页面刷新",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把多个 Claude Code/Codex 会话的等待、完成和权限状态放进同一个浏览器网格，是多 agent 监控界面的具体样本。对个人设计师来说，重点是拆解并行 agent 的状态可见性。",
+        "deepSummary": "这条内容的核心价值是：设计多 agent 终端调度台的状态可见性。原帖提供了可观察媒体/截图，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/receptron/mulmoterminal",
+            "finalUrl": "https://github.com/receptron/mulmoterminal",
+            "access": "full",
+            "title": "GitHub - receptron/mulmoterminal: Run multiple Claude Code and Codex sessions in parallel — a browser terminal grid that shows which agent needs you. Local, tmux-backed, MIT. · GitHub",
+            "summary": "GitHub 页面确认 MulmoTerminal 可并行运行 Claude Code 和 Codex 会话，并用浏览器终端网格显示状态。",
+            "value": "非常适合作为多 agent 监控台设计参考，尤其是等待权限、完成、出错的可见状态。"
+          }
+        ],
+        "learningActions": [
+          "把「设计多 agent 终端调度台的状态可见性」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "AI 产品",
+          "设计工程"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092475793096282182",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/jculbertson/status/2092475793096282182",
+        "author": "Jason Culbertson",
+        "handle": "jculbertson",
+        "datetime": "2026-08-26T04:54:40.000Z",
+        "title": "Awake AI 用小工具支撑 agent 长跑",
+        "originalSummary": "Design leaders who only direct are going to get left behind, soI built a Mac app with ChatGPT in less than a week. Awake AI keeps your machine up during agent runs and inludes tiny games for waitmaxxing. It's free and live. https://apps.apple.com/us/app/awake-",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把“保持机器唤醒、内联 agent 运行状态”做成 Mac 小工具，说明围绕 agent 长任务的周边工具正在出现。对个人设计师来说，重点是识别 agent 工作流里那些低调但刚需的系统触点。",
+        "deepSummary": "这条内容的核心价值是：为 agent 长任务设计系统级触点。原帖提供了可观察媒体/截图，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [
+          {
+            "url": "https://apps.apple.com/us/app/awake-ai/id6761450359",
+            "finalUrl": "https://apps.apple.com/us/app/awake-ai/id6761450359?mt=12",
+            "access": "full",
+            "title": "‎Awake AI App - App Store",
+            "summary": "App Store 页面确认 Awake AI 是 Mac app，页面可见截图、评论和应用描述。",
+            "value": "适合作为 system-level agent companion 工具参考，但还需实际安装体验才能验证细节。"
+          }
+        ],
+        "learningActions": [
+          "把「为 agent 长任务设计系统级触点」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "AI 产品",
+          "Mac 工具"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092475650728956029",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/polsia/status/2092475650728956029",
+        "author": "Polsia",
+        "handle": "polsia",
+        "datetime": "2026-08-26T04:54:06.000Z",
+        "title": "MCP 长期 OAuth token 需要治理层",
+        "originalSummary": "Every AI agent carrying a long-lived OAuth token in plaintext MCP config is a liability. We built the governed layer that should have shipped with the protocol — credentials issued with intent, scoped by policy, revokable in a heartbeat.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提醒 MCP 配置里的长期 token 是真实产品风险，agent-native 工具不能只设计连接，还要设计凭证范围、审计和撤销。对个人设计师来说，重点是把安全治理放入连接流程。",
+        "deepSummary": "这条内容的核心价值是：设计 MCP 凭证治理、审计和撤销体验。原帖提供了明确观点或链接，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「设计 MCP 凭证治理、审计和撤销体验」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "AI 产品",
+          "安全"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092476427207577872",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/erelof1/status/2092476427207577872",
+        "author": "Erik Erelöf",
+        "handle": "erelof1",
+        "datetime": "2026-08-26T04:57:11.000Z",
+        "title": "从 prompt engineering 转向 harness engineering",
+        "originalSummary": "Prompt engineering is dying. Harness engineering is taking over. Agents don't fail because the model is dumb, they fail because static context rots the moment system state changes. Nodl handles this by serving live system state directly to your agent harness v",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 agent 失败归因到上下文、系统状态和工具编排，而不是只归因到 prompt。对个人设计师来说，重点是学习把 agent 体验拆成 harness、memory、state 和 recovery。",
+        "deepSummary": "这条内容的核心价值是：把 agent 体验拆成 harness、状态和恢复机制。原帖提供了明确观点或链接，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「把 agent 体验拆成 harness、状态和恢复机制」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "AI 产品",
+          "设计工程"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092476442378641533",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/anujcodes_21/status/2092476442378641533",
+        "author": "Anuj",
+        "handle": "anujcodes_21",
+        "datetime": "2026-08-26T04:57:14.000Z",
+        "title": "Relume Publish 强调人造组件而非幻觉页面",
+        "originalSummary": "Most AI website builders generate pages that look fine in the demo and drift by page three. @relume_ai Publish does the opposite. Assembled from human-made components—not hallucinated layouts. Edit by hand or prompt the AI. Then publish to a live URL without l",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 AI 建站从“生成漂亮首屏”转向 human-made component assembly 和上线后的增长工作流。对个人设计师来说，重点是判断 AI website builder 如何保证多页面一致性。",
+        "deepSummary": "这条内容的核心价值是：评估 AI 建站的一致性和组件来源。原帖提供了明确观点或链接，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [
+          {
+            "url": "http://relume.ai/publish",
+            "finalUrl": "https://www.relume.ai/publish",
+            "access": "full",
+            "title": "Relume — Build and Grow Marketing Websites with AI",
+            "summary": "Relume Publish 页面强调 human-made components、发布和增长 agent，而不是单纯生成页面。",
+            "value": "可作为 AI 建站产品从生成到运营闭环的设计样本。"
+          },
+          {
+            "url": "https://x.com/relume_ai/status/2092344512207048726",
+            "finalUrl": "https://x.com/relume_ai/status/2092344512207048726",
+            "access": "full",
+            "title": "引用帖：Relume",
+            "summary": "引用帖补充 Relume 的定位：网站上线只是 day zero，后续优化才是重点。",
+            "value": "帮助判断它不是普通 landing generator，而是把运营任务纳入产品叙事。"
+          }
+        ],
+        "learningActions": [
+          "把「评估 AI 建站的一致性和组件来源」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "设计工具",
+          "AI 产品"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092475123202707724",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/stretchcloud/status/2092475123202707724",
+        "author": "Prasenjit Sarkar",
+        "handle": "stretchcloud",
+        "datetime": "2026-08-26T04:52:00.000Z",
+        "title": "Perplexity Portable Computer 指向本地 agent runtime",
+        "originalSummary": "The boundary between cloud and local inference is moving, and Perplexity just made the argument concrete. Portable Computer launched today. Fully local agent runtime: orchestrator, subagent LLM, agent harness, tool sandbox all run on the device. No cloud depen",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它讨论把 orchestrator、subagents 和 harness 移到本地硬件，代表 agent 产品的算力/隐私/响应速度新边界。对个人设计师来说，重点是思考本地 agent runtime 的状态、权限和资源提示。",
+        "deepSummary": "这条内容的核心价值是：设计本地 agent runtime 的权限与资源反馈。原帖提供了明确观点或链接，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/AravSrinivas/status/2092270041471598820",
+            "finalUrl": "https://x.com/AravSrinivas/status/2092270041471598820",
+            "access": "full",
+            "title": "引用帖：Aravind Srinivas",
+            "summary": "引用帖来自 Perplexity CEO，说明 Portable Computer 是面向 DGX Spark 的 fully local agent runtime。",
+            "value": "它补充了本地推理的产品边界：算力、隐私、延迟和 harness 都要被界面表达。"
+          }
+        ],
+        "learningActions": [
+          "把「设计本地 agent runtime 的权限与资源反馈」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "AI 产品",
+          "硬件"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092476464797290905",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/alokgoyal1971/status/2092476464797290905",
+        "author": "Alok Goyal",
+        "handle": "alokgoyal1971",
+        "datetime": "2026-08-26T04:57:20.000Z",
+        "title": "AI native services 从 SaaS 预算转向交付工作流",
+        "originalSummary": "My colleague @swapnalidalal and I have met hundreds of companies building in AI Native services. We have written a series of articles that distil the patterns we are seeing and the lens we have started using to make sense of them. Here's the first article. htt",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为这篇 X Article 把 AI native services 定义为直接出售完成工作流，而不是只卖软件席位。对个人设计师来说，重点是理解 B2B AI 产品的价值证明要从功能页转向结果、异常处理和交付责任。",
+        "deepSummary": "这条内容的核心价值是：从完成工作流角度设计 AI native services。原帖提供了明确观点或链接，适合把它转成个人设计工程练习，而不是只当资讯浏览。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2092472834119626752",
+            "finalUrl": "https://x.com/i/article/2092472834119626752",
+            "access": "full",
+            "title": "Why AI native services is the next big bet",
+            "summary": "X Article 解释 AI native services 的机会在于完成 claims、payments、renewals、compliance 等具体工作流。",
+            "value": "信息密度高，适合学习如何把 B2B AI 产品价值从软件功能转成可交付结果。"
+          }
+        ],
+        "learningActions": [
+          "把「从完成工作流角度设计 AI native services」拆成一个可复用的界面/流程检查清单。",
+          "记录原帖中可迁移到个人项目的状态、权限、反馈或动效模式。",
+          "挑一个最小 demo 或竞品截图做复盘，验证它是否真的提升设计交付。"
+        ],
+        "tags": [
+          "AI 产品",
+          "产品策略"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092350050055712975",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Droppyformac/status/2092350050055712975",
+        "author": "Jordy Spruit",
+        "handle": "Droppyformac",
+        "datetime": "2026-08-25T20:35:00.000Z",
+        "title": "Droppy 把 Dynamic Island 式控件搬到 Mac",
+        "originalSummary": "Hold up, we're still arguing that the Dynamic Island should be on Mac? 👀 https://Getdroppy.app, simply the best one out there.",
+        "whySaved": "你会收藏它，是因为它把 Mac notch / Dynamic Island 争论转成可用产品：文件架、剪贴板、锁屏和媒体控制都围绕一个系统触点展开。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条 Like 的学习价值在于：它把 Mac notch / Dynamic Island 争论转成可用产品：文件架、剪贴板、锁屏和媒体控制都围绕一个系统触点展开。 它适合进入个人设计参考库，后续应从具体界面、视频或工具实现中提炼方法。",
+        "linkAnalysis": [
+          {
+            "url": "https://Getdroppy.app",
+            "finalUrl": "https://getdroppy.app/",
+            "access": "full",
+            "title": "Droppy. Your Mac, just way better.",
+            "summary": "Droppy 官网定位为 Mac productivity suite，围绕 file shelf、clipboard、lock screen、media controls 和 live activities。",
+            "value": "适合继续研究 Mac 系统触点和 notch/overlay 交互。"
+          }
+        ],
+        "learningActions": [
+          "解释为什么「Droppy 把 Dynamic Island 式控件搬到 Mac」会触发收藏，并标注偏好类型。",
+          "截取关键界面/动效帧，拆解层级、节奏、反馈和视觉 token。",
+          "把收藏原因转成一个可复用的设计检查项或实现试验。"
+        ],
+        "tags": [
+          "Liked",
+          "Mac 工具",
+          "动效"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092323535196672028",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/aaronp613/status/2092323535196672028",
+        "author": "Aaron",
+        "handle": "aaronp613",
+        "datetime": "2026-08-25T18:49:38.000Z",
+        "title": "Apple 公开 M6 Mac mini 视频幕后",
+        "originalSummary": "Apple has published a behind the scenes look at how the M6 Mac mini video was made",
+        "whySaved": "你会收藏它，是因为它提供了 Apple 产品视频制作幕后，能反向学习工业产品镜头、材质呈现和制作流程。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条 Like 的学习价值在于：它提供了 Apple 产品视频制作幕后，能反向学习工业产品镜头、材质呈现和制作流程。 它适合进入个人设计参考库，后续应从具体界面、视频或工具实现中提炼方法。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "解释为什么「Apple 公开 M6 Mac mini 视频幕后」会触发收藏，并标注偏好类型。",
+          "截取关键界面/动效帧，拆解层级、节奏、反馈和视觉 token。",
+          "把收藏原因转成一个可复用的设计检查项或实现试验。"
+        ],
+        "tags": [
+          "Liked",
+          "品牌视频"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092179097250070588",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/rebrandgallery/status/2092179097250070588",
+        "author": "Rebrand",
+        "handle": "rebrandgallery",
+        "datetime": "2026-08-25T09:15:42.000Z",
+        "title": "ING by AKQA 品牌刷新视觉样本",
+        "originalSummary": "ING Brand Refresh by @AKQA 🦁",
+        "whySaved": "你会收藏它，是因为它是银行品牌 refresh 的高质量运动/图形样本，适合拆解金融品牌如何在稳重和活力之间平衡。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条 Like 的学习价值在于：它是银行品牌 refresh 的高质量运动/图形样本，适合拆解金融品牌如何在稳重和活力之间平衡。 它适合进入个人设计参考库，后续应从具体界面、视频或工具实现中提炼方法。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "解释为什么「ING by AKQA 品牌刷新视觉样本」会触发收藏，并标注偏好类型。",
+          "截取关键界面/动效帧，拆解层级、节奏、反馈和视觉 token。",
+          "把收藏原因转成一个可复用的设计检查项或实现试验。"
+        ],
+        "tags": [
+          "Liked",
+          "品牌设计"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092195951012442112",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/beebomco/status/2092195951012442112",
+        "author": "Beebom",
+        "handle": "beebomco",
+        "datetime": "2026-08-25T10:22:40.000Z",
+        "title": "NothingOS 5.0 UI 变化集合",
+        "originalSummary": "NothingOS 5.0 is Here! Here are all the changes. How do you like the new UI and changes? Tell us!",
+        "whySaved": "你会收藏它，是因为 NothingOS 的系统 UI 改动能作为移动系统视觉语言、组件密度和品牌一致性的参考。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条 Like 的学习价值在于： NothingOS 的系统 UI 改动能作为移动系统视觉语言、组件密度和品牌一致性的参考。 它适合进入个人设计参考库，后续应从具体界面、视频或工具实现中提炼方法。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "解释为什么「NothingOS 5.0 UI 变化集合」会触发收藏，并标注偏好类型。",
+          "截取关键界面/动效帧，拆解层级、节奏、反馈和视觉 token。",
+          "把收藏原因转成一个可复用的设计检查项或实现试验。"
+        ],
+        "tags": [
+          "Liked",
+          "移动设计"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092127063910342799",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/xiaohu/status/2092127063910342799",
+        "author": "小互",
+        "handle": "xiaohu",
+        "datetime": "2026-08-25T05:48:56.000Z",
+        "title": "Anthropic AI-native SDLC 指南中文解读",
+        "originalSummary": "Anthropic 发布： AI 原生 SDLC（软件开发生命周期）实施指南 指南按 Plan、Design、Build、Test、Deploy、Maintain 六个阶段，讲解怎样把 Agent 接入软件开发生命周期。 它来自 Anthropic Applied AI 团队的日常实践，也吸收了客户项目经验。 推荐阅读 https://best.xiaohu.ai/article/ai-native-sdlc-playbook/",
+        "whySaved": "你会收藏它，是因为它把 agent 接入软件交付的 Plan/Design/Build/Test/Deploy/Maintain 六阶段讲清楚，适合转成团队流程清单。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条 Like 的学习价值在于：它把 agent 接入软件交付的 Plan/Design/Build/Test/Deploy/Maintain 六阶段讲清楚，适合转成团队流程清单。 它适合进入个人设计参考库，后续应从具体界面、视频或工具实现中提炼方法。",
+        "linkAnalysis": [
+          {
+            "url": "https://best.xiaohu.ai/article/ai-native-sdlc-playbook/",
+            "finalUrl": "https://best.xiaohu.ai/article/ai-native-sdlc-playbook/",
+            "access": "full",
+            "title": "Anthropic 发布：AI 原生 SDLC（软件开发生命周期）实施指南 · 小互 · AI 解读站",
+            "summary": "中文解读页把 Anthropic AI-native SDLC 拆成结构化工件、验证和人类 gate。",
+            "value": "对设计工程团队流程化使用 agent 有直接参考价值。"
+          }
+        ],
+        "learningActions": [
+          "解释为什么「Anthropic AI-native SDLC 指南中文解读」会触发收藏，并标注偏好类型。",
+          "截取关键界面/动效帧，拆解层级、节奏、反馈和视觉 token。",
+          "把收藏原因转成一个可复用的设计检查项或实现试验。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092413786129076730",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/yyyole/status/2092413786129076730",
+        "author": "沐阳",
+        "handle": "yyyole",
+        "datetime": "2026-08-26T00:48:16.000Z",
+        "title": "Apodex FrontierAgent 开源 ReAct/Agent Team 框架",
+        "originalSummary": "Apodex 1.1也已经在GitHub上开源，支持ReAct和Agent Team，本地命令行即可运行，不强制依赖Docker，有兴趣的Builder也可以仓库点个Star。 https://github.com/ApodexAI/FrontierAgent",
+        "whySaved": "你会收藏它，是因为它提供本地命令行可跑的 agent framework，可作为比较 ReAct、Agent Team 和本地 TUI 工作流的实现参考。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条 Like 的学习价值在于：它提供本地命令行可跑的 agent framework，可作为比较 ReAct、Agent Team 和本地 TUI 工作流的实现参考。 它适合进入个人设计参考库，后续应从具体界面、视频或工具实现中提炼方法。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/ApodexAI/FrontierAgent",
+            "finalUrl": "https://github.com/ApodexAI/FrontierAgent",
+            "access": "full",
+            "title": "GitHub - ApodexAI/FrontierAgent: 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency. · GitHub",
+            "summary": "GitHub 页面确认 FrontierAgent 开源，包含 native command-line TUI、ReAct 和 Agent Team modes。",
+            "value": "实现参考价值高，适合对比本地 agent framework 的任务分派和命令行 UI。"
+          }
+        ],
+        "learningActions": [
+          "解释为什么「Apodex FrontierAgent 开源 ReAct/Agent Team 框架」会触发收藏，并标注偏好类型。",
+          "截取关键界面/动效帧，拆解层级、节奏、反馈和视觉 token。",
+          "把收藏原因转成一个可复用的设计检查项或实现试验。"
+        ],
+        "tags": [
+          "Liked",
+          "AI 工具"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092331503997116759",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/EditByPorosh/status/2092331503997116759",
+        "author": "Porosh",
+        "handle": "EditByPorosh",
+        "datetime": "2026-08-25T19:21:18.000Z",
+        "title": "Recent Motions 招募动效 DM",
+        "originalSummary": "A Recent Motions DM’s are open ✉️",
+        "whySaved": "你会收藏它，是因为它是一个动效作品/服务信号，适合留作近期 motion 视觉风格和外包合作语境参考。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条 Like 的学习价值在于：它是一个动效作品/服务信号，适合留作近期 motion 视觉风格和外包合作语境参考。 它适合进入个人设计参考库，后续应从具体界面、视频或工具实现中提炼方法。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "解释为什么「Recent Motions 招募动效 DM」会触发收藏，并标注偏好类型。",
+          "截取关键界面/动效帧，拆解层级、节奏、反馈和视觉 token。",
+          "把收藏原因转成一个可复用的设计检查项或实现试验。"
+        ],
+        "tags": [
+          "Liked",
+          "动效"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092383723039719890",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/gavinpotenza/status/2092383723039719890",
+        "author": "Gavin Potenza",
+        "handle": "gavinpotenza",
+        "datetime": "2026-08-25T22:48:48.000Z",
+        "title": "Calendly rebrand pattern engine",
+        "originalSummary": "Built a little pattern engine for the Calendly rebrand with @Smith_Diction. It got me thinking about what tools are actually good for in branding.",
+        "whySaved": "你会收藏它，是因为它把品牌系统里的 pattern engine 暴露出来，能学习品牌重塑中“工具”如何服务一致性，而不只是做单张 KV。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条 Like 的学习价值在于：它把品牌系统里的 pattern engine 暴露出来，能学习品牌重塑中“工具”如何服务一致性，而不只是做单张 KV。 它适合进入个人设计参考库，后续应从具体界面、视频或工具实现中提炼方法。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "解释为什么「Calendly rebrand pattern engine」会触发收藏，并标注偏好类型。",
+          "截取关键界面/动效帧，拆解层级、节奏、反馈和视觉 token。",
+          "把收藏原因转成一个可复用的设计检查项或实现试验。"
+        ],
+        "tags": [
+          "Liked",
+          "品牌设计"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-26",
     "generatedAt": "2026-08-26T08:15:49+08:00",
     "batch": "x-ai-design-analysis-2026-08-26-0815",
     "analysisCount": 100,

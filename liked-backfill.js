@@ -1,6 +1,251 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-26T08:15:49+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-26T13:17:16+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2092413786129076730",
+    "TwitterUserID": "939870716391854082",
+    "UserScreenName": "yyyole",
+    "UserProfileName": "沐阳",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1986002260447707136/lf3UN9Xp_200x200.jpg",
+    "TweetText": "Apodex 1.1也已经在GitHub上开源，支持ReAct和Agent Team，本地命令行即可运行，不强制依赖Docker，有兴趣的Builder也可以仓库点个Star。\nhttps://github.com/ApodexAI/FrontierAgent",
+    "Tweet Url": "https://x.com/yyyole/status/2092413786129076730",
+    "TweetCreatedDate": "2026-08-26T00:48:16.000Z",
+    "MediaType": "link",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI 工具"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "GitHub - ApodexAI/FrontierAgent: 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency. · GitHub",
+      "url": "https://github.com/ApodexAI/FrontierAgent",
+      "preview": "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docke",
+      "cover": ""
+    },
+    "_metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 4 BOOKMARKS · 574 VIEWS",
+    "_analysisTheme": "Apodex FrontierAgent 开源 ReAct/Agent Team 框架",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T13:10:53+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-26T00:48:16.000Z"
+    }
+  },
+  {
+    "TweetID": "2092383723039719890",
+    "TwitterUserID": "6053262",
+    "UserScreenName": "gavinpotenza",
+    "UserProfileName": "Gavin Potenza",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1594848148337426432/DpaWGIox_200x200.jpg",
+    "TweetText": "Built a little pattern engine for the Calendly rebrand with @Smith_Diction. \n\nIt got me thinking about what tools are actually good for in branding.",
+    "Tweet Url": "https://x.com/gavinpotenza/status/2092383723039719890",
+    "TweetCreatedDate": "2026-08-25T22:48:48.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/tweet_video_thumb/HQmWI56WEAAfDzY.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/tweet_video/HQmWI56WEAAfDzY.mp4",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "品牌设计",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/tweet_video/HQmWI56WEAAfDzY.mp4",
+        "poster": "https://pbs.twimg.com/tweet_video_thumb/HQmWI56WEAAfDzY.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "7 REPLIES · 16 REPOSTS · 248 LIKES · 192 BOOKMARKS · 6485 VIEWS",
+    "_analysisTheme": "Calendly rebrand pattern engine",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T13:10:53+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-25T22:48:48.000Z"
+    }
+  },
+  {
+    "TweetID": "2092350050055712975",
+    "TwitterUserID": "2032392734674427904",
+    "UserScreenName": "Droppyformac",
+    "UserProfileName": "Jordy Spruit",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2078888724067217408/6egaJ7fw_200x200.jpg",
+    "TweetText": "Hold up, we're still arguing that the Dynamic Island should be on Mac? 👀\n\nhttps://Getdroppy.app, simply the best one out there.",
+    "Tweet Url": "https://x.com/Droppyformac/status/2092350050055712975",
+    "TweetCreatedDate": "2026-08-25T20:35:00.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092349956417880064/img/DH45MIRUv_-5u7Oy.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092349956417880064/vid/avc1/720x874/5a8wJXiTikL35nwy.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Mac 工具",
+      "动效",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092349956417880064/vid/avc1/720x874/5a8wJXiTikL35nwy.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092349956417880064/img/DH45MIRUv_-5u7Oy.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Droppy. Your Mac, just way better.",
+      "url": "https://Getdroppy.app",
+      "preview": "Droppy turns your Mac",
+      "cover": ""
+    },
+    "_metrics": "11 REPLIES · 8 REPOSTS · 222 LIKES · 159 BOOKMARKS · 16214 VIEWS",
+    "_analysisTheme": "Droppy 把 Dynamic Island 式控件搬到 Mac",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T13:10:53+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-25T20:35:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2092337179607572694",
+    "TwitterUserID": "1679227189022146560",
+    "UserScreenName": "dudufolio",
+    "UserProfileName": "dudu",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1766536348591157248/GXLvx4qg_200x200.jpg",
+    "TweetText": "Today we're launching  Shotbase \n\nOne place for everything Screenshots and Screen Recordings\n\nCapture, trim, annotate, share - no exporting between four tools\n\nQuick ideas, polished demos, team updates, social posts, and everything in between\n\nThe capture tool your  Mac should have had",
+    "Tweet Url": "https://x.com/dudufolio/status/2092337179607572694",
+    "TweetCreatedDate": "2026-08-25T19:43:52.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092336038257815552/img/bNjzCbFNVsXYei0E.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092336038257815552/vid/avc1/640x360/1zvAm2jjAS8QVPC1.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092336038257815552/vid/avc1/640x360/1zvAm2jjAS8QVPC1.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092336038257815552/img/bNjzCbFNVsXYei0E.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "237 REPLIES · 104 REPOSTS · 1489 LIKES · 1367 BOOKMARKS · 203697 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T13:10:53+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-25T19:43:52.000Z"
+    }
+  },
+  {
+    "TweetID": "2092331503997116759",
+    "TwitterUserID": "1616509820110254080",
+    "UserScreenName": "EditByPorosh",
+    "UserProfileName": "Porosh",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2002520649932419074/IR80FvbF_200x200.jpg",
+    "TweetText": "A Recent Motions\n\nDM’s are open ✉️",
+    "Tweet Url": "https://x.com/EditByPorosh/status/2092331503997116759",
+    "TweetCreatedDate": "2026-08-25T19:21:18.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092331440113635328/img/_d0PJ-A7ARyBNrE8.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092331440113635328/vid/avc1/640x360/kr0CVTJbJQzVunqm.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "动效",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092331440113635328/vid/avc1/640x360/kr0CVTJbJQzVunqm.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092331440113635328/img/_d0PJ-A7ARyBNrE8.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "2 REPLIES · 0 REPOSTS · 16 LIKES · 12 BOOKMARKS · 1530 VIEWS",
+    "_analysisTheme": "Recent Motions 招募动效 DM",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T13:10:53+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-25T19:21:18.000Z"
+    }
+  },
+  {
+    "TweetID": "2092323535196672028",
+    "TwitterUserID": "2751197421",
+    "UserScreenName": "aaronp613",
+    "UserProfileName": "Aaron",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1837168376386371584/AJZZayD4_200x200.jpg",
+    "TweetText": "Apple has published a behind the scenes look at how the M6 Mac mini video was made",
+    "Tweet Url": "https://x.com/aaronp613/status/2092323535196672028",
+    "TweetCreatedDate": "2026-08-25T18:49:38.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092322915903512577/img/BNv42hXXp6cDP2fk.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092322915903512577/vid/avc1/720x1280/CeTiR0IGPyikYGDX.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "品牌视频",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092322915903512577/vid/avc1/720x1280/CeTiR0IGPyikYGDX.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092322915903512577/img/BNv42hXXp6cDP2fk.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "138 REPLIES · 570 REPOSTS · 7854 LIKES · 1320 BOOKMARKS · 556171 VIEWS",
+    "_analysisTheme": "Apple 公开 M6 Mac mini 视频幕后",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T13:10:53+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-25T18:49:38.000Z"
+    }
+  },
   {
     "TweetID": "2092240504121618863",
     "TwitterUserID": "1427478803312381972",
@@ -178,6 +423,57 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2092195951012442112",
+    "TwitterUserID": "289945091",
+    "UserScreenName": "beebomco",
+    "UserProfileName": "Beebom",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1729008580047634432/B3rb25oz_200x200.jpg",
+    "TweetText": "NothingOS 5.0 is Here!\n\nHere are all the changes. How do you like the new UI and changes? Tell us!",
+    "Tweet Url": "https://x.com/beebomco/status/2092195951012442112",
+    "TweetCreatedDate": "2026-08-25T10:22:40.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQj495taMAAeu1j.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "移动设计",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQj495taMAAeu1j.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQj4_gXbUAArWI0.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQj4_8LbwAAqpBj.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQj5EPGbcAAekmC.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "6 REPLIES · 4 REPOSTS · 337 LIKES · 13 BOOKMARKS · 12322 VIEWS",
+    "_analysisTheme": "NothingOS 5.0 UI 变化集合",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T13:10:53+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-25T10:22:40.000Z"
+    }
+  },
+  {
     "TweetID": "2092195279114264652",
     "TwitterUserID": "1348211074429030400",
     "UserScreenName": "nothing",
@@ -216,6 +512,85 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-25T10:20:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2092179097250070588",
+    "TwitterUserID": "1684118409787609088",
+    "UserScreenName": "rebrandgallery",
+    "UserProfileName": "Rebrand",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1692208083559219200/6MKdjLEQ_200x200.png",
+    "TweetText": "ING Brand Refresh by @AKQA 🦁",
+    "Tweet Url": "https://x.com/rebrandgallery/status/2092179097250070588",
+    "TweetCreatedDate": "2026-08-25T09:15:42.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092178982246461441/img/Azw5uhlyvtFK04Oa.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092178982246461441/vid/avc1/720x720/dibIsVOwoCs6esWI.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "品牌设计",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092178982246461441/vid/avc1/720x720/dibIsVOwoCs6esWI.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092178982246461441/img/Azw5uhlyvtFK04Oa.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "5 REPLIES · 22 REPOSTS · 621 LIKES · 296 BOOKMARKS · 13404 VIEWS",
+    "_analysisTheme": "ING by AKQA 品牌刷新视觉样本",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T13:10:53+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-25T09:15:42.000Z"
+    }
+  },
+  {
+    "TweetID": "2092127063910342799",
+    "TwitterUserID": "1764818331822182400",
+    "UserScreenName": "xiaohu",
+    "UserProfileName": "小互",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1765404718959095808/BX7VN1hS_200x200.jpg",
+    "TweetText": "Anthropic 发布：\nAI 原生 SDLC（软件开发生命周期）实施指南\n\n指南按 Plan、Design、Build、Test、Deploy、Maintain 六个阶段，讲解怎样把 Agent 接入软件开发生命周期。\n\n它来自 Anthropic Applied AI 团队的日常实践，也吸收了客户项目经验。\n\n推荐阅读 https://best.xiaohu.ai/article/ai-native-sdlc-playbook/",
+    "Tweet Url": "https://x.com/xiaohu/status/2092127063910342799",
+    "TweetCreatedDate": "2026-08-25T05:48:56.000Z",
+    "MediaType": "link",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Anthropic 发布：AI 原生 SDLC（软件开发生命周期）实施指南 · 小互 · AI 解读站",
+      "url": "https://best.xiaohu.ai/article/ai-native-sdlc-playbook/",
+      "preview": "写代码不再是主要瓶颈，需求、测试、评审和运维开始堵住交付。Anthropic 给出的实施路径，是用结构化工件驱动 Agent 接力，让系统先验证、人类只在关键 Gate 判断。",
+      "cover": ""
+    },
+    "_metrics": "44 REPLIES · 88 REPOSTS · 511 LIKES · 768 BOOKMARKS · 39802 VIEWS",
+    "_analysisTheme": "Anthropic AI-native SDLC 指南中文解读",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T13:10:53+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-25T05:48:56.000Z"
     }
   },
   {
