@@ -2,6 +2,507 @@
   window.HOME_BACKFILL = [
   {
     "category": "AI PRODUCT",
+    "datetime": "2026-08-26T00:08:00.000Z",
+    "author": "Tetsuro Miyatake",
+    "handle": "tmiyatake1",
+    "avatar": "https://pbs.twimg.com/profile_images/1788226644341334016/u9pztrH9_200x200.jpg",
+    "title": "Clueso 用 agent 自动生成产品演示视频",
+    "summary": "我会帮你抓取它，因为它把录屏、剪辑和产品说明视频生成交给 agent，正中设计团队 demo 制作和上线介绍痛点。对个人设计师来说，重点是评估 AI demo 视频是否能替代重复剪辑流程。",
+    "url": "https://x.com/tmiyatake1/status/2092403651826372981",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092269048361017344/vid/avc1/640x360/8O42AEZrGG8rIclG.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092269048361017344/img/JaIjzkhIid4JoeMm.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 157 VIEWS",
+    "links": [
+      "https://www.clueso.io/agents"
+    ],
+    "_analysisTheme": "评估 AI demo 视频是否能替代重复剪辑流程",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Create incredible product videos and documentation with Clueso Agents",
+      "url": "https://www.clueso.io/agents",
+      "preview": "页面说明：Clueso agents help you create, update, and translate product videos at scale without comprimising on quality",
+      "cover": ""
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-26T00:08:00.000Z",
+    "author": "Tetsuro Miyatake",
+    "handle": "tmiyatake1",
+    "avatar": "https://pbs.twimg.com/profile_images/1788226644341334016/u9pztrH9_200x200.jpg",
+    "title": "虚拟办公室式 AI agent 协作界面",
+    "summary": "我会帮你抓取它，因为它把聊天式 agent 换成游戏化办公室界面，提供了一个可视化管理多个 agent 的交互隐喻。对个人设计师来说，重点是比较空间化界面和聊天界面的任务管理成本。",
+    "url": "https://x.com/tmiyatake1/status/2092403651776000250",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092362865244254208/vid/avc1/632x360/coieWyNrTuqtEAdJ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092362865244254208/img/or3kdZnpxkLpIZtg.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 177 VIEWS",
+    "links": [],
+    "_analysisTheme": "比较空间化界面和聊天界面的任务管理成本",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2092245009810493916",
+      "url": "https://x.com/davidfromkansas/status/2092245009810493916",
+      "author": "david lietjauw",
+      "handle": "davidfromkansas",
+      "text": "Got tired of watching my agents work through a chat interface, so I gave them an office instead! Now I can watch them run around doing tasks, and when they’re done, they drop their work in my mailbox This visual interfac"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-26T00:05:00.000Z",
+    "author": "Guangzheng Li",
+    "handle": "iguangzhengli",
+    "avatar": "https://pbs.twimg.com/profile_images/1558725699665416198/kzh2dLrr_200x200.jpg",
+    "title": "本地/BYOA AI 会议助手预告",
+    "summary": "我会帮你抓取它，因为它指向本地优先会议上下文汇总工具，符合个人知识和 agent 上下文的长期方向。对个人设计师来说，重点是关注会议资料如何成为 agent 可用上下文。",
+    "url": "https://x.com/iguangzhengli/status/2092402896990048730",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQkyxxZa8AABmOY.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 31 VIEWS",
+    "links": [],
+    "_analysisTheme": "关注会议资料如何成为 agent 可用上下文",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-26T00:03:45.000Z",
+    "author": "Peter Zakin ✈️ Hot Chips",
+    "handle": "pzakin",
+    "avatar": "https://pbs.twimg.com/profile_images/1496661200981004289/y9SfOD2l_200x200.jpg",
+    "title": "tools-for-agents 比 custom agent 更省切换成本",
+    "summary": "我会帮你抓取它，因为它直接讨论工具给主 agent 使用，而不是每个场景新建 agent，适合判断产品架构。对个人设计师来说，重点是用注意力成本和上下文切换来评估 agent 功能形态。",
+    "url": "https://x.com/pzakin/status/2092402584875311531",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 151 VIEWS",
+    "links": [],
+    "_analysisTheme": "用注意力成本和上下文切换来评估 agent 功能形态",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2092321154979750224",
+      "url": "https://x.com/RhysSullivan/status/2092321154979750224",
+      "author": "Rhys",
+      "handle": "RhysSullivan",
+      "text": "companies building their own agent rather than exposing an mcp / cli for their uses is like if you had to download a separate browser for every website you use"
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-25T23:51:56.000Z",
+    "author": "MalikZ ⌘",
+    "handle": "MalikZ1942",
+    "avatar": "https://pbs.twimg.com/profile_images/2088207349588938752/FABs9k3d_200x200.jpg",
+    "title": "CalmMouse 修复 Magic Mouse 误滚动",
+    "summary": "我会帮你抓取它，因为它是小而精准的设计工具痛点：Figma/Rhino 拖拽时误滚动，适合作为独立产品切入案例。对个人设计师来说，重点是学习从一个高频摩擦点做出开源微工具。",
+    "url": "https://x.com/MalikZ1942/status/2092399610639892627",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 2 LIKES · 1 BOOKMARKS · 16 VIEWS",
+    "links": [
+      "https://calmmouse.malikzhang.com/?v=1"
+    ],
+    "_analysisTheme": "学习从一个高频摩擦点做出开源微工具",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "CalmMouse — Magic Mouse UX fixes for macOS",
+      "url": "https://calmmouse.malikzhang.com/?v=1",
+      "preview": "页面说明：CalmMouse stops your Magic Mouse from scrolling the page every time you click — plus tap to click, drag gestures, straight-line scrolling, per-app rules, and more. Free and open source for macOS.",
+      "cover": ""
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-25T23:50:32.000Z",
+    "author": "Marc",
+    "handle": "altlef",
+    "avatar": "https://pbs.twimg.com/profile_images/2080145498791411712/hZzkpnnK_200x200.jpg",
+    "title": "Figma color lab 快速测试设计系统颜色",
+    "summary": "我会帮你抓取它，因为它把色彩系统提交前的试验环境前置，适合设计系统维护者验证 token 组合。对个人设计师来说，重点是建立颜色 token 变更前的可视化实验台。",
+    "url": "https://x.com/altlef/status/2092399258074771602",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQmxwluWMAAeOg2.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 7 VIEWS",
+    "links": [],
+    "_analysisTheme": "建立颜色 token 变更前的可视化实验台",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-25T23:31:00.000Z",
+    "author": "Piscu",
+    "handle": "paradona24",
+    "avatar": "https://pbs.twimg.com/profile_images/2084041668844474368/h-ZqFh3n_200x200.jpg",
+    "title": "diagram-design 把系统图做成可读设计产物",
+    "summary": "我会帮你抓取它，因为它强调 agent 编码时代仍需要高质量系统图，和设计工程师的表达能力直接相关。对个人设计师来说，重点是把复杂系统图从 Mermaid 占位提升到可读视觉表达。",
+    "url": "https://x.com/paradona24/status/2092394340714942957",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQkygtLWMAAuaug.jpg?name=orig"
+      }
+    ],
+    "metrics": "3 REPLIES · 0 REPOSTS · 2 LIKES · 0 BOOKMARKS · 18 VIEWS",
+    "links": [],
+    "_analysisTheme": "把复杂系统图从 Mermaid 占位提升到可读视觉表达",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI MODEL",
+    "datetime": "2026-08-25T23:23:53.000Z",
+    "author": "向阳乔木",
+    "handle": "vista8",
+    "avatar": "https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_200x200.jpg",
+    "title": "Apodex 开源模型和 Agent Harness",
+    "summary": "我会帮你抓取它，因为它补充了模型权重和 GitHub 框架入口，可以从产品观感进一步追到实现边界。对个人设计师来说，重点是核对开源模型、Agent Harness 和本地部署可能性。",
+    "url": "https://x.com/vista8/status/2092392552704217538",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQmr4zwaoAEsGH2.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQmr7U8aIAAoOtR.jpg?name=orig"
+      }
+    ],
+    "metrics": "4 REPLIES · 0 REPOSTS · 10 LIKES · 8 BOOKMARKS · 1766 VIEWS",
+    "links": [
+      "https://huggingface.co/collections/apodex/apodex-11",
+      "https://github.com/ApodexAI/FrontierAgent"
+    ],
+    "_analysisTheme": "核对开源模型、Agent Harness 和本地部署可能性",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Apodex-1.1 - a apodex Collection",
+      "url": "https://huggingface.co/collections/apodex/apodex-11",
+      "preview": "页面说明：We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+      "cover": ""
+    },
+    "quote": {
+      "id": "2092391737675370948",
+      "url": "https://x.com/vista8/status/2092391737675370948",
+      "author": "向阳乔木",
+      "handle": "vista8",
+      "text": "Apodex ：一个能把复杂任务从原始材料推进到可检查交付物的科研 AI Agent 系统。 这两天用它完成不少任务，无论内容准确性、交付质量都超预期，比如： ① 生成了一套 8w 字讲如何在现实生活中应用讲故事技巧的课程。 ② 为最近 X 最流行的 Linux 操作系统 Omarchy 生成了一份6w字的学习手册。 ③ 调研分析了100个最热的 Obsidian 插件，生成了一份 PDF 白皮书。 ④ 上传美国人口和婚姻调研数据 CS"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-25T23:20:39.000Z",
+    "author": "向阳乔木",
+    "handle": "vista8",
+    "avatar": "https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_200x200.jpg",
+    "title": "Apodex 把复杂任务推进到可检查交付物",
+    "summary": "我会帮你抓取它，因为它展示科研/分析 agent 从原始材料到白皮书、课程和数据洞察的交付闭环。对个人设计师来说，重点是观察长任务 agent 的输入、过程证据和最终文件形态。",
+    "url": "https://x.com/vista8/status/2092391737675370948",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQmrDknaYAAJ86l.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQmrFrwbQAEa4F1.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQmrIKobsAAgq-U.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQmrKukaYAAcRlE.jpg?name=orig"
+      }
+    ],
+    "metrics": "2 REPLIES · 0 REPOSTS · 9 LIKES · 21 BOOKMARKS · 3431 VIEWS",
+    "links": [],
+    "_analysisTheme": "观察长任务 agent 的输入、过程证据和最终文件形态",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-25T23:17:53.000Z",
+    "author": "ty",
+    "handle": "tjcages",
+    "avatar": "https://pbs.twimg.com/profile_images/1887955709356101632/YEV7-z6u_200x200.jpg",
+    "title": "progress-check skill 给 agent 加进度条",
+    "summary": "我会帮你抓取它，因为它把长任务黑箱改成可视化进度状态，是 agent 工具体验里非常具体的小组件。对个人设计师来说，重点是为长任务设计状态、预计进度和用户等待反馈。",
+    "url": "https://x.com/tjcages/status/2092391042243076502",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092391006008451072/vid/avc1/676x360/l3FmIpceoI6uKMUs.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092391006008451072/img/ViSvVm1WTahhyUJK.jpg"
+      }
+    ],
+    "metrics": "3 REPLIES · 0 REPOSTS · 15 LIKES · 11 BOOKMARKS · 845 VIEWS",
+    "links": [],
+    "_analysisTheme": "为长任务设计状态、预计进度和用户等待反馈",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2091958634163179955",
+      "url": "https://x.com/tjcages/status/2091958634163179955",
+      "author": "ty",
+      "handle": "tjcages",
+      "text": "started making agents print ascii progress bars as they work. otherwise it's such a black box"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-25T22:52:23.000Z",
+    "author": "joshpuckett",
+    "handle": "joshpuckett",
+    "avatar": "https://pbs.twimg.com/profile_images/1270368527690522626/-3QQH-bB_200x200.jpg",
+    "title": "Safari WebGL 视频纹理的设计工程经验",
+    "summary": "我会帮你抓取它，因为它把一个动效网站真实性能坑讲清楚，直接关系到视频纹理、WebGL 交互和首屏动画的落地质量。对个人设计师来说，重点是把视觉实现限制转成可复用的前端 QA 检查。",
+    "url": "https://x.com/joshpuckett/status/2092384622844019089",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092377716675022848/vid/avc1/522x360/dGY0tlGd6B7ZT0o1.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092377716675022848/img/aQmXLc7UfXhEM9pj.jpg"
+      }
+    ],
+    "metrics": "6 REPLIES · 4 REPOSTS · 190 LIKES · 151 BOOKMARKS · 3978 VIEWS",
+    "links": [],
+    "_analysisTheme": "把视觉实现限制转成可复用的前端 QA 检查",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-25T22:31:23.000Z",
+    "author": "ty",
+    "handle": "tjcages",
+    "avatar": "https://pbs.twimg.com/profile_images/1887955709356101632/YEV7-z6u_200x200.jpg",
+    "title": "把 PR 写作建议做成 personal skill",
+    "summary": "我会帮你抓取它，因为它说明 agent skill 可以承载小型个人流程，把经验提示变成可复用工作单元。对个人设计师来说，重点是整理自己的设计评审/PR/汇报 skill 模板。",
+    "url": "https://x.com/tjcages/status/2092379340646519126",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 8 LIKES · 12 BOOKMARKS · 751 VIEWS",
+    "links": [
+      "https://offbr.co/skills/pr-writing"
+    ],
+    "_analysisTheme": "整理自己的设计评审/PR/汇报 skill 模板",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "PR Writing — Agent Skills — Off brand",
+      "url": "https://offbr.co/skills/pr-writing",
+      "preview": "页面说明：Write clear commit messages and pull requests that explain what changed and why.",
+      "cover": ""
+    },
+    "quote": {
+      "id": "2087294922378637680",
+      "url": "https://x.com/zackkanter/status/2087294922378637680",
+      "author": "Zack Kanter",
+      "handle": "zackkanter",
+      "text": "Mostly solvable. Have agents incorporate the following: - https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html - https://cbea.ms/git-commit/ - ASD-STE100 / Simplified Technical English + Google developer"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-25T22:07:30.000Z",
+    "author": "Massi",
+    "handle": "Massimokris",
+    "avatar": "https://pbs.twimg.com/profile_images/2066635829825699840/wEBZptG__200x200.jpg",
+    "title": "Warvis 把语音助手放进 iPhone 键盘",
+    "summary": "我会帮你抓取它，因为它把屏幕理解、写消息和 App 控制放进键盘入口，对可穿戴/随身助手交互很有启发。对个人设计师来说，重点是研究低打断语音助手的入口和权限边界。",
+    "url": "https://x.com/Massimokris/status/2092373327901778161",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092370540463837184/vid/avc1/320x694/laTfiYwHa_Lpa4M0.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092370540463837184/img/s2TQS5sDl34OKb8G.jpg"
+      }
+    ],
+    "metrics": "4 REPLIES · 0 REPOSTS · 6 LIKES · 1 BOOKMARKS · 282 VIEWS",
+    "links": [],
+    "_analysisTheme": "研究低打断语音助手的入口和权限边界",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI NEWS",
+    "datetime": "2026-08-25T20:37:19.000Z",
+    "author": "James Sun",
+    "handle": "JamesZmSun",
+    "avatar": "https://pbs.twimg.com/profile_images/1565470294625566720/STSzQ2m1_200x200.jpg",
+    "title": "ChatGPT 桌面浏览器开始支持 WebMCP",
+    "summary": "我会帮你抓取它，因为这是平台级支持信号，说明 agent 可以在普通网站里发现和调用工具，设计团队需要提前理解新型网页能力声明。对个人设计师来说，重点是关注 OpenAI WebMCP 挑战和工具暴露模式。",
+    "url": "https://x.com/JamesZmSun/status/2092350632833520035",
+    "media": [],
+    "metrics": "3 REPLIES · 12 REPOSTS · 193 LIKES · 98 BOOKMARKS · 26933 VIEWS",
+    "links": [],
+    "_analysisTheme": "关注 OpenAI WebMCP 挑战和工具暴露模式",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2092344873764704345",
+      "url": "https://x.com/OpenAIDevs/status/2092344873764704345",
+      "author": "OpenAI Developers",
+      "handle": "OpenAIDevs",
+      "text": "The WebMCP Challenge is here. We’ve teamed up with @ChromiumDev, @CloudflareDev, @ShopifyDevs, @vercel, @render, and @Netlify for a 10-day hackathon. Up for grabs: $35,000 in cash prizes, Codex Micros, ChatGPT Pro subscr"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-25T20:34:31.000Z",
+    "author": "Wes Bos",
+    "handle": "wesbos",
+    "avatar": "https://pbs.twimg.com/profile_images/877525007185858562/7G9vGTca_200x200.jpg",
+    "title": "WebMCP 让网站向 ChatGPT 暴露工具",
+    "summary": "我会帮你抓取它，因为它把网页从“可被浏览”推进到“可被 agent 调用工具”，会影响产品官网、SaaS 后台和设计工具的交互边界。对个人设计师来说，重点是学习 agent-native web 的入口、权限提示和人机共用界面。",
+    "url": "https://x.com/wesbos/status/2092349927129035086",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092349816969809920/vid/avc1/640x360/WIgmv6aQ9mpTL1ak.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092349816969809920/img/edRT8hQz071dJjNG.jpg"
+      }
+    ],
+    "metrics": "7 REPLIES · 10 REPOSTS · 236 LIKES · 185 BOOKMARKS · 19696 VIEWS",
+    "links": [],
+    "_analysisTheme": "学习 agent-native web 的入口、权限提示和人机共用界面",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-25T20:17:22.000Z",
+    "author": "Swift Language",
+    "handle": "SwiftLang",
+    "avatar": "https://pbs.twimg.com/profile_images/1336716675287113728/woTnm-UB_200x200.jpg",
+    "title": "Swift 文档统一到新的中心入口",
+    "summary": "我会帮你抓取它，因为它是开发者文档 IA 的更新，值得观察如何把语言、库、工具和平台说明统一到一个信息架构里。对个人设计师来说，重点是借鉴大型开发者文档的导航和内容组织。",
+    "url": "https://x.com/SwiftLang/status/2092345612830454174",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQmA8m1aAAE48qf.jpg?name=orig"
+      }
+    ],
+    "metrics": "4 REPLIES · 30 REPOSTS · 216 LIKES · 81 BOOKMARKS · 10078 VIEWS",
+    "links": [
+      "https://docs.swift.org"
+    ],
+    "_analysisTheme": "借鉴大型开发者文档的导航和内容组织",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "docs.swift.org",
+      "url": "https://docs.swift.org/",
+      "preview": "页面可访问，但只读到有限标题/正文元信息。",
+      "cover": ""
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-25T19:43:52.000Z",
+    "author": "dudu",
+    "handle": "dudufolio",
+    "avatar": "https://pbs.twimg.com/profile_images/1766536348591157248/GXLvx4qg_200x200.jpg",
+    "title": "Shotbase 聚合截图录屏的产品发布",
+    "summary": "我会帮你抓取它，因为它把截图、录屏、修剪、标注、分享合并成一个轻量内容工作台，正好贴近设计师日常素材流。对个人设计师来说，重点是比较它如何减少多个工具之间的导出成本。",
+    "url": "https://x.com/dudufolio/status/2092337179607572694",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092336038257815552/vid/avc1/640x360/1zvAm2jjAS8QVPC1.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092336038257815552/img/bNjzCbFNVsXYei0E.jpg"
+      }
+    ],
+    "metrics": "168 REPLIES · 71 REPOSTS · 927 LIKES · 823 BOOKMARKS · 105508 VIEWS",
+    "links": [],
+    "_analysisTheme": "比较它如何减少多个工具之间的导出成本",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-25T18:51:42.000Z",
+    "author": "Andreas Storm",
+    "handle": "avstorm",
+    "avatar": "https://pbs.twimg.com/profile_images/1597285797316759566/e8EWx4QR_200x200.jpg",
+    "title": "Apple Mac mini 介绍片的手工制作幕后",
+    "summary": "我会帮你抓取它，因为它展示 Apple 产品片背后的实体手工质感，对工业产品视觉、转场和材料表达很有参考价值。对个人设计师来说，重点是拆解产品片中“手工真实感”和科技产品关系。",
+    "url": "https://x.com/avstorm/status/2092324054547997064",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092323944220983296/vid/avc1/320x568/JmlcetCcibjPqYlR.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092323944220983296/img/_uPxj75bW0nXNmjX.jpg"
+      }
+    ],
+    "metrics": "38 REPLIES · 169 REPOSTS · 1975 LIKES · 372 BOOKMARKS · 84975 VIEWS",
+    "links": [],
+    "_analysisTheme": "拆解产品片中“手工真实感”和科技产品关系",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-25T16:03:55.000Z",
+    "author": "Adam Whitcroft",
+    "handle": "AdamWhitcroft",
+    "avatar": "https://pbs.twimg.com/profile_images/1606497559551561729/6bj2XpEc_200x200.jpg",
+    "title": "Adam Whitcroft 调试产品交互动效",
+    "summary": "我会帮你抓取它，因为它是高密度微交互演示，适合作为图标、控件反馈和节奏曲线的参考素材。对个人设计师来说，重点是拆动效帧，提取持续时间、缓动和反馈层级。",
+    "url": "https://x.com/AdamWhitcroft/status/2092281829747511432",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092281367468056576/vid/avc1/522x360/3H5cIXXLQthZUMJR.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092281367468056576/img/IrJ5bCtIleWCdx40.jpg"
+      }
+    ],
+    "metrics": "16 REPLIES · 0 REPOSTS · 116 LIKES · 60 BOOKMARKS · 5876 VIEWS",
+    "links": [],
+    "_analysisTheme": "拆动效帧，提取持续时间、缓动和反馈层级",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-25T16:03:14.000Z",
+    "author": "xavier (jack)",
+    "handle": "KMkota0",
+    "avatar": "https://pbs.twimg.com/profile_images/773427888360161280/TgO3ynCO_200x200.jpg",
+    "title": "Launch video 应控制在 10 秒内",
+    "summary": "我会帮你抓取它，因为它用一句话提醒产品发布视频的时间压缩原则，适合复盘 demo 如何更快进入价值点。对个人设计师来说，重点是训练短视频产品叙事的对象、动作和结果节奏。",
+    "url": "https://x.com/KMkota0/status/2092281657579507775",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092280099139641344/vid/avc1/540x540/J--mLSUDSR3GH4_H.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092280099139641344/img/BvYi-V0w_ZUfljdm.jpg"
+      }
+    ],
+    "metrics": "48 REPLIES · 9 REPOSTS · 760 LIKES · 491 BOOKMARKS · 42838 VIEWS",
+    "links": [],
+    "_analysisTheme": "训练短视频产品叙事的对象、动作和结果节奏",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2087242519847538994",
+      "url": "https://x.com/stephenhaney/status/2087242519847538994",
+      "author": "Stephen Haney",
+      "handle": "stephenhaney",
+      "text": "Today Paper has something special to share Tabs are live in @paper ✨ This is a big deal because you and your agent can now work on multiple files at the same time. Unblock parallel prompting: explore faster, stay in flow"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
     "datetime": "2026-08-25T05:06:56.000Z",
     "author": "Tony Dinh",
     "handle": "tdinh_me",

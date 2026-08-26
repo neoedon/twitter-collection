@@ -1,6 +1,268 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-25T08:15:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-26T08:15:49+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2092240504121618863",
+    "TwitterUserID": "1427478803312381972",
+    "UserScreenName": "wangzhihong_com",
+    "UserProfileName": "WANGZHIHONG CO.",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1566739628903698433/7sQp9S-S_200x200.jpg",
+    "TweetText": "Recently, I’ve noticed that posting photos of book spines on X has become somewhat of a trend. I’ve always found designing book spines to be an interesting part of the process. Here are four books I designed in the past.",
+    "Tweet Url": "https://x.com/wangzhihong_com/status/2092240504121618863",
+    "TweetCreatedDate": "2026-08-25T13:19:42.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQkhoqjaQAEpiMv.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQkhoqjaQAEpiMv.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQkhoq7aYAAtPwN.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQkhoqgb0AEpmZP.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQkhoq1bQAAV-BK.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 3 REPOSTS · 21 LIKES · 3 BOOKMARKS · 381 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T08:15:49+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 4,
+      "observedDatetime": "2026-08-25T13:19:42.000Z"
+    }
+  },
+  {
+    "TweetID": "2092239148065149291",
+    "TwitterUserID": "809153395",
+    "UserScreenName": "avstorm",
+    "UserProfileName": "Andreas Storm",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1597285797316759566/e8EWx4QR_200x200.jpg",
+    "TweetText": "The new Mac Studio",
+    "Tweet Url": "https://x.com/avstorm/status/2092239148065149291",
+    "TweetCreatedDate": "2026-08-25T13:14:19.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092239001012850689/img/dtuQFG1o6E0dz0si.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092239001012850689/vid/avc1/640x360/iQmVYICm-tj-kzb-.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092239001012850689/vid/avc1/640x360/iQmVYICm-tj-kzb-.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092239001012850689/img/dtuQFG1o6E0dz0si.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "4 REPLIES · 22 REPOSTS · 384 LIKES · 89 BOOKMARKS · 32725 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T08:15:49+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 2,
+      "observedDatetime": "2026-08-25T13:14:19.000Z"
+    }
+  },
+  {
+    "TweetID": "2092238608958734645",
+    "TwitterUserID": "809153395",
+    "UserScreenName": "avstorm",
+    "UserProfileName": "Andreas Storm",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1597285797316759566/e8EWx4QR_200x200.jpg",
+    "TweetText": "Apple has introduced new Mac mini",
+    "Tweet Url": "https://x.com/avstorm/status/2092238608958734645",
+    "TweetCreatedDate": "2026-08-25T13:12:10.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092238371758235648/img/wiQEQtUjIrw6SNSU.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092238371758235648/vid/avc1/640x360/Cj-o-7teTtc9ETrB.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092238371758235648/vid/avc1/640x360/Cj-o-7teTtc9ETrB.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092238371758235648/img/wiQEQtUjIrw6SNSU.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "32 REPLIES · 81 REPOSTS · 2018 LIKES · 323 BOOKMARKS · 148114 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T08:15:49+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-25T13:12:10.000Z"
+    }
+  },
+  {
+    "TweetID": "2092215307217895626",
+    "TwitterUserID": "1427478803312381972",
+    "UserScreenName": "wangzhihong_com",
+    "UserProfileName": "WANGZHIHONG CO.",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1566739628903698433/7sQp9S-S_200x200.jpg",
+    "TweetText": "This is my design for Eikoh Hosoe’s autobiography trilogy.",
+    "Tweet Url": "https://x.com/wangzhihong_com/status/2092215307217895626",
+    "TweetCreatedDate": "2026-08-25T11:39:35.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQkKsQ0aIAArFo0.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQkKsQ0aIAArFo0.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQkKsrTbUAAnqBB.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQkKtdVbIAATYHb.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "3 REPLIES · 19 REPOSTS · 195 LIKES · 32 BOOKMARKS · 6497 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T08:15:49+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 3,
+      "observedDatetime": "2026-08-25T11:39:35.000Z"
+    }
+  },
+  {
+    "TweetID": "2092195279114264652",
+    "TwitterUserID": "1348211074429030400",
+    "UserScreenName": "nothing",
+    "UserProfileName": "Nothing",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2026962551846957056/J0ultDtI_200x200.jpg",
+    "TweetText": "Nothing OS 5.0 brings a major design refresh, a more adaptive home screen, new ways to use widgets, faster and smoother animations, improved Essential AI tools and the best of Android 17.\n\nOpen Beta starts tomorrow with Phone (3).",
+    "Tweet Url": "https://x.com/nothing/status/2092195279114264652",
+    "TweetCreatedDate": "2026-08-25T10:20:00.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092183948839247872/img/x2AC4AbrJhQ46jp8.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092183948839247872/vid/avc1/540x540/YUJ5RViF5CELye75.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI 产品",
+      "设计工程",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092183948839247872/vid/avc1/540x540/YUJ5RViF5CELye75.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092183948839247872/img/x2AC4AbrJhQ46jp8.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "74 REPLIES · 201 REPOSTS · 2031 LIKES · 194 BOOKMARKS · 140401 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T08:15:49+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-25T10:20:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2092055940774465899",
+    "TwitterUserID": "50683",
+    "UserScreenName": "dingyi",
+    "UserProfileName": "Ding",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_200x200.jpg",
+    "TweetText": "Apodex AI 发布了 Apodex 1.1，一个专门处理复杂专业工作的 Agent，非常适合科学研究、金融分析和深度搜索领域。想不到这次还开源了 Agent 框架和本地版模型。",
+    "Tweet Url": "https://x.com/dingyi/status/2092055940774465899",
+    "TweetCreatedDate": "2026-08-25T01:06:19.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQh5xvMasAADmBU.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI 产品",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQh5xvMasAADmBU.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "id": "2091916791308313018",
+      "url": "https://x.com/Apodex_AI/status/2091916791308313018",
+      "author": "Apodex",
+      "handle": "Apodex_AI",
+      "text": "Meet Apodex 1.1: Scaling Agentic Intelligence for Complex Work Open Source Harness: https://github.com/ApodexAI/FrontierAgent Open Weights: https://huggingface.co/collections/apodex/apodex-11 We’re excited to introduce A"
+    },
+    "_article": null,
+    "_metrics": "36 REPLIES · 2 REPOSTS · 22 LIKES · 22 BOOKMARKS · 6287 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T08:15:49+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 5,
+      "observedDatetime": "2026-08-25T01:06:19.000Z"
+    }
+  },
   {
     "TweetID": "2091827869198823460",
     "TwitterUserID": "1081481035991248898",
@@ -362,6 +624,47 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2091806868284829883",
+    "TwitterUserID": "4250829659",
+    "UserScreenName": "MotreskuKosta",
+    "UserProfileName": "Kosta",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2037617005604548608/wMsKFhF4_200x200.jpg",
+    "TweetText": "Wait is this tool free?🤯 \n\nhttp://designminis.com/tools/ui-camera",
+    "Tweet Url": "https://x.com/MotreskuKosta/status/2091806868284829883",
+    "TweetCreatedDate": "2026-08-24T08:36:35.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091806461860954112/img/sDn734iRtS-L-Y-S.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2091806461860954112/vid/avc1/540x540/hXOB4IvFHHjasKqe.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI 产品",
+      "设计工程",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091806461860954112/vid/avc1/540x540/hXOB4IvFHHjasKqe.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091806461860954112/img/sDn734iRtS-L-Y-S.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "19 REPLIES · 55 REPOSTS · 984 LIKES · 1481 BOOKMARKS · 42629 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T08:15:49+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 7,
+      "observedDatetime": "2026-08-24T08:36:35.000Z"
+    }
+  },
+  {
     "TweetID": "2091798881369493833",
     "TwitterUserID": "1001797450825388032",
     "UserScreenName": "oguzyagizkara",
@@ -407,6 +710,46 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/i/history/likes",
       "observedStep": null,
       "observedDatetime": "2026-08-24T08:04:51.000Z"
+    }
+  },
+  {
+    "TweetID": "2091771652652802288",
+    "TwitterUserID": "1801304529675370496",
+    "UserScreenName": "Delroy715",
+    "UserProfileName": "码农暖爸",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2022298850355302400/4KQAruFZ_200x200.jpg",
+    "TweetText": "说实话，数学这玩意有时候真挺迷人的\n\n刷到一段用三角函数画 3D 甜甜圈环面的公式\n\nt=0\ndraw=_=>{t||createCanvas(W=600,W,WEBGL)\nbackground(0)\np=PI/40\nnoStroke`#つぶやきProcessing`\nrotateX(.5)\nrotateY(-.5)\nr=90\nfor(y=40;y--;)for(x=80;x--;pop(sphere(cos(v)+.3)))push(),translate((2+sin(v=(y+t)*p*2))*cos(u=(x+t)*p)*r,(2+sin(v))*sin(u)*r,z=cos(v)*r)\nt=(t+.02)%1}\n\n没忍住动手折腾了一下，搞了个 3200 颗粒子的星环 Demo，顺手加了一堆物理交互：\n\n1、拖拽带惯性阻尼，甩起来有流星拉丝的拖尾\n2、鼠标放上去有局部聚光打光\n3、点一下会炸出能量冲击波，整个环面跟着微震\n还可以自定义主题色\n感兴趣的兄弟可以收藏去摸鱼玩玩\n源码和在线体验链接我都放评论区置顶了\n\n大家觉得哪个配色好看？（直接回数字就行）\n1、深空蓝\n2、极光绿\n3、星云紫\n4、经典黑白\n5、其他__",
+    "Tweet Url": "https://x.com/Delroy715/status/2091771652652802288",
+    "TweetCreatedDate": "2026-08-24T06:16:39.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2091770502272651264/img/_vzcHfQYRRmJRZ7d.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2091770502272651264/vid/avc1/432x360/VVAwOYIFQI1mz3qk.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "实现参考",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2091770502272651264/vid/avc1/432x360/VVAwOYIFQI1mz3qk.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2091770502272651264/img/_vzcHfQYRRmJRZ7d.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "8 REPLIES · 28 REPOSTS · 237 LIKES · 184 BOOKMARKS · 9835 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-26T08:15:49+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 6,
+      "observedDatetime": "2026-08-24T06:16:39.000Z"
     }
   },
   {
