@@ -1,6 +1,84 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-26T13:17:16+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-27T08:18:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2092645980306890992",
+    "TwitterUserID": "809153395",
+    "UserScreenName": "avstorm",
+    "UserProfileName": "Andreas Storm",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1597285797316759566/e8EWx4QR_200x200.jpg",
+    "TweetText": "Surprise and shine.\n\n#AppleEvent on Wednesday, September 9",
+    "Tweet Url": "https://x.com/avstorm/status/2092645980306890992",
+    "TweetCreatedDate": "2026-08-26T16:10:55.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092645922505203712/img/9TdijoJ6Pxghmhlt.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092645922505203712/vid/avc1/720x1280/T5qHtH7_2TgWZIW9.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092645922505203712/vid/avc1/720x1280/T5qHtH7_2TgWZIW9.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092645922505203712/img/9TdijoJ6Pxghmhlt.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "7 REPLIES · 44 REPOSTS · 600 LIKES · 89 BOOKMARKS · 26962 VIEWS",
+    "_analysisTheme": "Surprise and shine.",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-27T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-26T16:10:55.000Z"
+    }
+  },
+  {
+    "TweetID": "2092567393843216800",
+    "TwitterUserID": "1588268414115651588",
+    "UserScreenName": "andrijacrafts",
+    "UserProfileName": "Andrija Filipovic",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2073389357742878720/s6XpJFsF_200x200.jpg",
+    "TweetText": "This project's price was €4,000",
+    "Tweet Url": "https://x.com/andrijacrafts/status/2092567393843216800",
+    "TweetCreatedDate": "2026-08-26T10:58:39.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092567265350668288/img/k2Kw0hxgOgTcuR36.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092567265350668288/vid/avc1/1182x720/TP-toE76uCbMwLhM.mp4?tag=14",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092567265350668288/vid/avc1/1182x720/TP-toE76uCbMwLhM.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092567265350668288/img/k2Kw0hxgOgTcuR36.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 1 REPOSTS · 70 LIKES · 31 BOOKMARKS · 1903 VIEWS",
+    "_analysisTheme": "This project's price was €4,000",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-27T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-26T10:58:39.000Z"
+    }
+  },
   {
     "TweetID": "2092413786129076730",
     "TwitterUserID": "939870716391854082",
@@ -373,6 +451,46 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 1,
       "observedDatetime": "2026-08-25T13:12:10.000Z"
+    }
+  },
+  {
+    "TweetID": "2092220473299836938",
+    "TwitterUserID": "1255500442898964481",
+    "UserScreenName": "emilkowalski",
+    "UserProfileName": "Emil Kowalski",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1469017066795679751/CjEOyirb_200x200.jpg",
+    "TweetText": "Most animations don’t feel off because of the code. They feel off because of the decisions behind them: the easing, the timing, or the properties you chose to animate.\n\nMy course teaches you how to make those decisions. You can enroll for the next 10 days.\n\nHere’s what’s inside:",
+    "Tweet Url": "https://x.com/emilkowalski/status/2092220473299836938",
+    "TweetCreatedDate": "2026-08-25T12:00:07.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092218556419043328/img/EXKddXlwFL9QNYHh.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092218556419043328/vid/avc1/1280x720/wTZj_b0Vh8tclMef.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "visual-system",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092218556419043328/vid/avc1/1280x720/wTZj_b0Vh8tclMef.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092218556419043328/img/EXKddXlwFL9QNYHh.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "13 REPLIES · 44 REPOSTS · 898 LIKES · 426 BOOKMARKS · 49992 VIEWS",
+    "_analysisTheme": "Most animations don’t feel off because o",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-27T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": null,
+      "observedDatetime": "2026-08-25T12:00:07.000Z"
     }
   },
   {

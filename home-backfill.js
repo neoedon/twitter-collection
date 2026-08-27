@@ -1,6 +1,510 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "MOTION DESIGN",
+    "datetime": "2026-08-26T23:12:50.000Z",
+    "author": "JcToon",
+    "handle": "HelloJcToon",
+    "avatar": "https://pbs.twimg.com/profile_images/1082589000479752192/mObYMtb2_200x200.jpg",
+    "title": "Rive 动画制作和测试的轻快样本",
+    "summary": "我会帮你抓取它，因为它展示了 Rive 从绘制、动画到测试的短循环。对个人设计师来说，重点是把角色/交互动效做成可即时验证的组件，而不是只输出静态动效稿。",
+    "url": "https://x.com/HelloJcToon/status/2092752157904883994",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092751837023870976/vid/avc1/2160x3840/-8gMH_mEc2UGlRDt.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092751837023870976/img/BHSXaUd-EyHMmcrz.jpg"
+      }
+    ],
+    "metrics": "2 REPLIES · 6 REPOSTS · 25 LIKES · 3 BOOKMARKS · 366 VIEWS",
+    "links": [],
+    "_analysisTheme": "Rive 动画验证短循环",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-26T22:41:05.000Z",
+    "author": "Aibek Yegemberdin",
+    "handle": "aibek_design",
+    "avatar": "https://pbs.twimg.com/profile_images/2047029590447841280/Z3t2iyg5_200x200.jpg",
+    "title": "Wonder 把 GitHub PR 降低到设计师可用",
+    "summary": "我会帮你抓取它，因为它把“设计师打开 PR”从工程流程翻译成画布动作。对个人设计师来说，重点是研究设计画布如何连接真实代码库，而不是停留在 mockup 交付。",
+    "url": "https://x.com/aibek_design/status/2092744166463905898",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 160 VIEWS",
+    "links": [
+      "https://x.com/usewonder/status/2086853206760374451?s=46"
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Wonder",
+      "handle": "usewonder",
+      "avatar": "https://pbs.twimg.com/profile_images/2045192997797519361/yHA1qzir_200x200.jpg",
+      "text": "Stop rebuilding what's already in your codebase. Introducing Wonder Github integration! 🚀",
+      "url": "https://x.com/usewonder/status/2086853206760374451",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2086843546779181056/vid/avc1/1920x1080/R8MwpPhzRkCdBxle.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2086843546779181056/img/gCN3-2fgEFbKV_d9.jpg"
+        }
+      ]
+    },
+    "_analysisTheme": "设计画布到 GitHub PR 的工作流",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "VISUAL TOOL",
+    "datetime": "2026-08-26T22:23:16.000Z",
+    "author": "Dmitry Novikov 🇺🇦",
+    "handle": "novikoff",
+    "avatar": "https://pbs.twimg.com/profile_images/1910233655747727361/gJv0ssrv_200x200.jpg",
+    "title": "zerotake 视频色彩质量逼近相机流程",
+    "summary": "我会帮你抓取它，因为它讨论移动视频、重型相机、稳定和调色之间的取舍。对个人设计师来说，重点是判断轻量拍摄工具何时能替代传统视觉制作链路。",
+    "url": "https://x.com/novikoff/status/2092739682832724374",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092738213320208384/vid/avc1/2160x3840/0x3XpZhbZTZ6iTdc.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092738213320208384/img/39Q9SjlRdwlauuNU.jpg"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092739371602423808/vid/avc1/3840x2160/lD6yH67_4aEKhCJB.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092739371602423808/img/NWV0tREqKarJAwOA.jpg"
+      }
+    ],
+    "metrics": "2 REPLIES · 0 REPOSTS · 17 LIKES · 7 BOOKMARKS · 1014 VIEWS",
+    "links": [],
+    "_analysisTheme": "轻量视频工具和色彩质量判断",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI DESIGN",
+    "datetime": "2026-08-26T21:46:55.000Z",
+    "author": "Stitch by Google",
+    "handle": "stitchbygoogle",
+    "avatar": "https://pbs.twimg.com/profile_images/2037662082771116032/ZQ1T1io3_200x200.png",
+    "title": "Stitch 把设计 agent 放在编码前",
+    "summary": "我会帮你抓取它，因为 Google Stitch 明确把 agent 定位为协作式设计伙伴，先探索多套 UI 再进 AI Studio 原型。对个人设计师来说，重点是把“方案发散”变成可操作的 agent 工作流。",
+    "url": "https://x.com/stitchbygoogle/status/2092730534405509611",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092730377769299968/vid/avc1/1080x1350/M5aNLUuQyXNXsiN5.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092730377769299968/img/NDIvFIBb5NKhD6vd.jpg"
+      }
+    ],
+    "metrics": "9 REPLIES · 8 REPOSTS · 89 LIKES · 37 BOOKMARKS · 6619 VIEWS",
+    "links": [],
+    "_analysisTheme": "先设计探索再进入编码 agent",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-26T20:56:18.000Z",
+    "author": "shaders",
+    "handle": "npm_i_shaders",
+    "avatar": "https://pbs.twimg.com/profile_images/2077002279719243776/UKfSub_w_200x200.jpg",
+    "title": "用 Shaders 复刻 Apple 邀请函阳光材质",
+    "summary": "我会帮你抓取它，因为它把 Apple 事件视觉拆成可复用 shader preset。对个人设计师来说，重点是学习如何把品牌动效转译成可应用到前端的材质参数。",
+    "url": "https://x.com/npm_i_shaders/status/2092717799252890102",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092717740750680064/vid/avc1/1280x720/hlPbtzT2IiY56-i-.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092717740750680064/img/Rsp5NOxDM_yPNt_D.jpg"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 15 LIKES · 5 BOOKMARKS · 1392 VIEWS",
+    "links": [],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Greg Joswiak",
+      "handle": "gregjoz",
+      "avatar": "https://pbs.twimg.com/profile_images/1535411147087790081/5qbJDG-P_200x200.jpg",
+      "text": "Surprise and shine! It’s almost time for the #AppleEvent, on Wednesday, September 9!",
+      "url": "https://x.com/gregjoz/status/2092645294832054275",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2092644503589195776/vid/avc1/1080x1080/ZrRjwlkV42ZN4NX0.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2092644503589195776/img/4el2CHr0qdmu38_O.jpg"
+        }
+      ]
+    },
+    "_analysisTheme": "品牌视觉到 shader preset",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "VISUAL DESIGN",
+    "datetime": "2026-08-26T20:52:15.000Z",
+    "author": "Oğuz Yağız Kara",
+    "handle": "oguzyagizkara",
+    "avatar": "https://pbs.twimg.com/profile_images/1958503624784400384/W2P6bsFH_200x200.jpg",
+    "title": "产品功能插画的构图参考",
+    "summary": "我会帮你抓取它，因为它是一组高密度产品功能插画样本。对个人设计师来说，重点是拆解如何用图形层级说明功能，而不是用装饰插图填空。",
+    "url": "https://x.com/oguzyagizkara/status/2092716778111500446",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQrSsepXMAA0gzb.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQrSserWIAAynq_.jpg?name=orig"
+      }
+    ],
+    "metrics": "8 REPLIES · 1 REPOSTS · 82 LIKES · 41 BOOKMARKS · 3240 VIEWS",
+    "links": [],
+    "_analysisTheme": "产品功能插画层级",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "MOTION DESIGN",
+    "datetime": "2026-08-26T19:30:41.000Z",
+    "author": "Good Boy Ninja",
+    "handle": "goodboyninja",
+    "avatar": "https://pbs.twimg.com/profile_images/2074188196330557440/A9H-nUb7_200x200.jpg",
+    "title": "motion designers poetry 的短动效语感",
+    "summary": "我会帮你抓取它，因为它用极短 motion 展示节奏、停顿和视觉诗性。对个人设计师来说，重点是练习用时间曲线表达情绪，而不是只追求复杂特效。",
+    "url": "https://x.com/goodboyninja/status/2092696251116445826",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092695944068300803/vid/avc1/720x1280/tGMez4Tfe1i9bAD1.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092695944068300803/img/LQl_wz5TEd3ScK-8.jpg"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 2 LIKES · 0 BOOKMARKS · 234 VIEWS",
+    "links": [],
+    "_analysisTheme": "短动效节奏和情绪",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "INDUSTRIAL DESIGN",
+    "datetime": "2026-08-26T18:56:57.000Z",
+    "author": "Darius Dan",
+    "handle": "dariusdan",
+    "avatar": "https://pbs.twimg.com/profile_images/2010635171083505664/voFt50Pj_200x200.jpg",
+    "title": "Lofree 计算器强化实体按钮欲望",
+    "summary": "我会帮你抓取它，因为它提醒触屏时代仍有强烈实体按键需求。对个人设计师来说，重点是复盘触觉、按压反馈和桌面物件的情感价值。",
+    "url": "https://x.com/dariusdan/status/2092687762012942528",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQq4KwsXgAIzFwM.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQq4McfWgAAaSbr.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQq4N8OXYAAGdJC.jpg?name=orig"
+      }
+    ],
+    "metrics": "3 REPLIES · 1 REPOSTS · 110 LIKES · 10 BOOKMARKS · 3593 VIEWS",
+    "links": [],
+    "_analysisTheme": "实体按钮和触觉价值",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCTIVITY",
+    "datetime": "2026-08-26T18:53:00.000Z",
+    "author": "mymind",
+    "handle": "mymind",
+    "avatar": "https://pbs.twimg.com/profile_images/1737155428167856128/sBofGlY__200x200.jpg",
+    "title": "mymind 与 Raycast 集成个人资料流",
+    "summary": "我会帮你抓取它，因为它把私人知识库接进 Raycast 高频入口。对个人设计师来说，重点是观察“保存、检索、回到工作流”的个人信息架构如何缩短。",
+    "url": "https://x.com/mymind/status/2092686767258259735",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092685315437723649/vid/avc1/2294x1440/nir24BekQpeAyESu.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092685315437723649/img/bV2NpS0jWLu4Ft4D.jpg"
+      }
+    ],
+    "metrics": "4 REPLIES · 2 REPOSTS · 125 LIKES · 39 BOOKMARKS · 7805 VIEWS",
+    "links": [],
+    "_analysisTheme": "个人知识库进入启动器工作流",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PORTFOLIO",
+    "datetime": "2026-08-26T18:45:31.000Z",
+    "author": "Fuser",
+    "handle": "fuserstudio",
+    "avatar": "https://pbs.twimg.com/profile_images/2054707229123854336/r3NhejDO_200x200.jpg",
+    "title": "作品集网格开始回答作品问题",
+    "summary": "我会帮你抓取它，因为 Fuser 展示了作品集从展示页变成可询问界面。对个人设计师来说，重点是学习如何给作品卡片补上下文问答，而不是只放视觉缩略图。",
+    "url": "https://x.com/fuserstudio/status/2092684884645204081",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092673739855208448/vid/avc1/1920x1080/2fDLhADLv7A5J5qB.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092673739855208448/img/BBOwM1yaxWj4GliW.jpg"
+      }
+    ],
+    "metrics": "1 REPLIES · 2 REPOSTS · 11 LIKES · 7 BOOKMARKS · 1022 VIEWS",
+    "links": [],
+    "_analysisTheme": "可问答作品集",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-26T18:43:17.000Z",
+    "author": "GREG ISENBERG",
+    "handle": "gregisenberg",
+    "avatar": "https://pbs.twimg.com/profile_images/1577116785656139776/5mi0qgTz_200x200.jpg",
+    "title": "“给普通人的 GitHub”成为 AI 构建缺口",
+    "summary": "我会帮你抓取它，因为它点出了非技术用户用 AI 构建软件后的协作、版本和发布断层。对个人设计师来说，重点是重新设计 GitHub 概念在普通创作者端的界面语言。",
+    "url": "https://x.com/gregisenberg/status/2092684321497006483",
+    "media": [],
+    "metrics": "181 REPLIES · 26 REPOSTS · 702 LIKES · 341 BOOKMARKS · 67646 VIEWS",
+    "links": [],
+    "_analysisTheme": "非技术创作者的软件协作界面",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "OPEN SOURCE",
+    "datetime": "2026-08-26T17:47:17.000Z",
+    "author": "Frad",
+    "handle": "FradSer",
+    "avatar": "https://pbs.twimg.com/profile_images/1309149063120642051/BKmpWP-l_200x200.jpg",
+    "title": "celldock-for-mac 把手机网络能力接到 Mac",
+    "summary": "我会帮你抓取它，因为它是硬件能力、桌面端和开源工具结合的具体案例。对个人设计师来说，重点是看系统能力如何被包装成可理解的 Mac 辅助工作流。",
+    "url": "https://x.com/FradSer/status/2092670229738557566",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQqoYVzaEAAPotT.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 1 REPOSTS · 16 LIKES · 18 BOOKMARKS · 1259 VIEWS",
+    "links": [
+      "https://github.com/celldock/celldock-for-mac"
+    ],
+    "article": {
+      "kind": "external",
+      "title": "GitHub - celldock/celldock-for-mac: Use cellular network, SMS, and calls on your Mac. · GitHub",
+      "url": "https://github.com/celldock/celldock-for-mac",
+      "preview": "Use cellular network, SMS, and calls on your Mac. Contribute to celldock/celldock-for-mac development by creating an account on GitHub.",
+      "cover": ""
+    },
+    "_analysisTheme": "跨设备能力的桌面封装",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-26T17:31:18.000Z",
+    "author": "Leon Gao",
+    "handle": "leongao",
+    "avatar": "https://pbs.twimg.com/profile_images/1932761589012365312/tW7Nlbfs_200x200.jpg",
+    "title": "BoneUpRuntime 把动画文件交给 Codex 集成",
+    "summary": "我会帮你抓取它，因为它把动效编辑器、运行时 SDK 和 Codex 集成串成闭环。对个人设计师来说，重点是设计资产如何从编辑工具直接进入工程实现。",
+    "url": "https://x.com/leongao/status/2092666207984026027",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQqkNU4aEAAdOdB.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 3 BOOKMARKS · 358 VIEWS",
+    "links": [],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Leon Gao",
+      "handle": "leongao",
+      "avatar": "https://pbs.twimg.com/profile_images/1932761589012365312/tW7Nlbfs_200x200.jpg",
+      "text": "今天的Genstant Cam 的 UI 细节打磨：当你选择了一个已经用完库存的胶片时，会有一只红色小手从屏幕外伸进来提示你该补仓了 :) \n\n提示动画的制作来自于我即将发布的 Mesh骨骼动画小工具 Bone Up，通过它可以很方便的在 iOS、macOS 应用中添加富有趣味的动画。",
+      "url": "https://x.com/leongao/status/2092655086208270657",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2092654919933386752/vid/avc1/1206x2622/7fiuLrbZvcPV5bEc.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2092654919933386752/img/72VWFRq4-4hck9EC.jpg"
+        }
+      ]
+    },
+    "_analysisTheme": "动效资产到运行时 SDK",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-26T17:20:20.000Z",
+    "author": "BunnyLau",
+    "handle": "BunnyxStudio",
+    "avatar": "https://pbs.twimg.com/profile_images/1896040579634774019/Yew8LLPq_200x200.jpg",
+    "title": "iPadOS 浏览器同时适配触控和触控板",
+    "summary": "我会帮你抓取它，因为它讨论同一浏览器在触控和指针模式之间自动切换体验。对个人设计师来说，重点是把多输入模式做成状态机，而不是简单放大按钮。",
+    "url": "https://x.com/BunnyxStudio/status/2092663448425677075",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092662663176495105/vid/avc1/3840x2064/EyDid_vAT6trmqaS.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092662663176495105/img/pkFPUA-ZG-_jgxia.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 13 LIKES · 4 BOOKMARKS · 856 VIEWS",
+    "links": [],
+    "_analysisTheme": "触控与指针共存的交互状态机",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-26T17:00:09.000Z",
+    "author": "shaders",
+    "handle": "npm_i_shaders",
+    "avatar": "https://pbs.twimg.com/profile_images/2077002279719243776/UKfSub_w_200x200.jpg",
+    "title": "Specular Lines preset 的棱镜质感变体",
+    "summary": "我会帮你抓取它，因为它展示 shader preset 如何通过颜色和 glow 微调形成新质感。对个人设计师来说，重点是建立参数化视觉资产，而不是每次重画。",
+    "url": "https://x.com/npm_i_shaders/status/2092658369014411353",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092658339276787712/vid/avc1/1280x720/iovFYYLwAiVHQMjy.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092658339276787712/img/ESDm7mlS0dla__KF.jpg"
+      }
+    ],
+    "metrics": "1 REPLIES · 2 REPOSTS · 20 LIKES · 17 BOOKMARKS · 1319 VIEWS",
+    "links": [
+      "https://shaders.com/collection/specular-lines"
+    ],
+    "article": {
+      "kind": "external",
+      "title": "Specular Lines — Shaders",
+      "url": "https://shaders.com/collection/specular-lines",
+      "preview": "Explore Specular Lines shader variants.",
+      "cover": ""
+    },
+    "_analysisTheme": "参数化 shader 视觉资产",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI MODEL",
+    "datetime": "2026-08-26T16:50:34.000Z",
+    "author": "歸藏(guizang.ai)",
+    "handle": "op7418",
+    "avatar": "https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_200x200.jpg",
+    "title": "Ox-Alpha GLM-5.3 Flash 的视觉能力信号",
+    "summary": "我会帮你抓取它，因为它把价格、视觉能力和模型迭代速度放在同一条评测线索里。对个人设计师来说，重点是持续比较低成本模型能否承担视觉生成/理解任务。",
+    "url": "https://x.com/op7418/status/2092655955037376886",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092655822010720256/vid/avc1/1080x1440/o1uQiImeNn6bXjYL.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092655822010720256/img/ivwqvuR0wZBe6NKA.jpg"
+      }
+    ],
+    "metrics": "32 REPLIES · 2 REPOSTS · 87 LIKES · 77 BOOKMARKS · 23402 VIEWS",
+    "links": [],
+    "quote": {
+      "label": "引用原帖",
+      "author": "歸藏(guizang.ai)",
+      "handle": "op7418",
+      "avatar": "https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_200x200.jpg",
+      "text": "https://x.com/i/article/2092629689856905217",
+      "url": "https://x.com/op7418/status/2092632212487499881",
+      "media": []
+    },
+    "_analysisTheme": "低成本多模态模型的设计可用性",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "MICRO INTERACTION",
+    "datetime": "2026-08-26T16:47:06.000Z",
+    "author": "Leon Gao",
+    "handle": "leongao",
+    "avatar": "https://pbs.twimg.com/profile_images/1932761589012365312/tW7Nlbfs_200x200.jpg",
+    "title": "Genstant Cam 用红色小手提示库存耗尽",
+    "summary": "我会帮你抓取它，因为它把“库存耗尽”做成带角色感的微交互，并透露 Bone Up 动画工具。对个人设计师来说，重点是把错误/空状态做成品牌记忆点。",
+    "url": "https://x.com/leongao/status/2092655086208270657",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092654919933386752/vid/avc1/1206x2622/7fiuLrbZvcPV5bEc.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092654919933386752/img/72VWFRq4-4hck9EC.jpg"
+      }
+    ],
+    "metrics": "1 REPLIES · 1 REPOSTS · 15 LIKES · 13 BOOKMARKS · 1114 VIEWS",
+    "links": [],
+    "_analysisTheme": "错误状态的角色化微交互",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI DESIGN",
+    "datetime": "2026-08-26T16:09:10.000Z",
+    "author": "Viktor Oddy",
+    "handle": "viktoroddy",
+    "avatar": "https://pbs.twimg.com/profile_images/1941325782829113344/buT3DYqx_200x200.jpg",
+    "title": "3D AI Website 教程作为高端网页制作信号",
+    "summary": "我会帮你抓取它，因为它代表 3D 网站视觉正在被教程化、prompt 化。对个人设计师来说，重点是拆分哪些视觉层可以用 AI 生成，哪些仍要手工控制交互和性能。",
+    "url": "https://x.com/viktoroddy/status/2092645536637870267",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092641076301750272/vid/avc1/3324x2160/aQ_MPhOCz1CI8MVe.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092641076301750272/img/FUX9C05LYA9O5YAM.jpg"
+      }
+    ],
+    "metrics": "8 REPLIES · 48 REPOSTS · 507 LIKES · 617 BOOKMARKS · 26065 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 辅助 3D 网页制作流程",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "3D DESIGN",
+    "datetime": "2026-08-26T16:01:58.000Z",
+    "author": "Spline",
+    "handle": "splinetool",
+    "avatar": "https://pbs.twimg.com/profile_images/1583261404001435648/oL_UX6EJ_200x200.jpg",
+    "title": "Spline V2 新 dust shader 视觉质感",
+    "summary": "我会帮你抓取它，因为 Spline 的 dust shader 说明 3D 工具正在把材质效果产品化。对个人设计师来说，重点是学习如何用工具内 preset 快速建立可交互质感。",
+    "url": "https://x.com/splinetool/status/2092643727185764519",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092643540203659264/vid/avc1/3840x2160/8GsXG9gE8y2SxjLK.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092643540203659264/img/g51Gp-o1VP5L0iJz.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 25 LIKES · 6 BOOKMARKS · 2376 VIEWS",
+    "links": [],
+    "_analysisTheme": "3D 工具中的材质产品化",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DETAIL",
+    "datetime": "2026-08-26T16:01:00.000Z",
+    "author": "Dia",
+    "handle": "diabrowser",
+    "avatar": "https://pbs.twimg.com/profile_images/1932577234310631424/vB2kuq9S_200x200.jpg",
+    "title": "Dia Windows 打磨浏览器性能与细节",
+    "summary": "我会帮你抓取它，因为 Dia 用 Windows Wednesday 展示跨平台体验优化。对个人设计师来说，重点是看一个 AI 浏览器如何在不同系统上维持速度、细节和品牌一致性。",
+    "url": "https://x.com/diabrowser/status/2092643483353784789",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092624667408273408/vid/avc1/1920x1080/DR_m_5jXOcw1VCHK.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/media/HQp_LZSXAAE_uTl.jpg"
+      }
+    ],
+    "metrics": "9 REPLIES · 2 REPOSTS · 108 LIKES · 15 BOOKMARKS · 6492 VIEWS",
+    "links": [
+      "https://form.typeform.com/to/mqWoiHW0"
+    ],
+    "article": {
+      "kind": "external",
+      "title": "Meet Dia. Join the waitlist.",
+      "url": "https://form.typeform.com/to/mqWoiHW0",
+      "preview": "If you&#x27;re reading this, you&#x27;ve expressed interest in gaining Beta access to with Dia. Please fill out this form and we will let you know when we&#x27;re opening doors via email.  Warmly, Dena at The Browser Company",
+      "cover": ""
+    },
+    "_analysisTheme": "跨平台 AI 浏览器细节",
+    "_analysisPriority": "high"
+  },
+  {
     "category": "AI PRODUCT",
     "datetime": "2026-08-26T05:12:45.000Z",
     "author": "Seiya Yazaki",
