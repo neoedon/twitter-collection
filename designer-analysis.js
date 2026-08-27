@@ -1,6 +1,511 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-27",
+    "generatedAt": "2026-08-27T13:26:00+08:00",
+    "batch": "x-ai-design-analysis-2026-08-27-1326",
+    "analysisCount": 15,
+    "homeCount": 9,
+    "likeCount": 6,
+    "linksInspected": 7,
+    "unavailableLinks": 0,
+    "summary": "2026-08-27 13:00 补充：登录态 X Home 新观察 1804 次 appearances、262 个唯一 status，运行前当天 Home 已有 20 条；本轮从 79 个同日未收录候选里筛出 11 条写入 Home，淘汰 68 条回复/噪声/低相关内容，其中 BaoCut 长视频因本地媒体播放占用过高未写入 Home。Likes 页观察 102 次 appearances、20 个唯一 status，新增 6 条 Like 后到达连续 known-ID 边界。Analysis 运行前当天已有 100 个唯一 ID，本轮追加 15 个未分析高价值 ID，其中 9 个以 Home 为主、6 个以 Like 为主。",
+    "sourceWindow": {
+      "strategy": "使用 ego-browser 独立 task space 1 复用 X 登录态；Home 打开 x.com/home 后滚动 64 步，Likes 打开 x.com/neoedon414/likes 并重定向到 /i/history/likes。fxtwitter 仅用于稳定媒体和 t.co 链接展开；外链读取限于原帖/引用中出现或官方可核验页面。",
+      "newestHomeDatetime": "2026-08-27T05:01:25.000Z",
+      "oldestHomeDatetime": "2026-08-26T16:15:56.000Z",
+      "newestLikeDatetime": "2026-08-26T20:56:21.000Z",
+      "oldestLikeDatetime": "2026-07-17T16:50:16.000Z",
+      "expandedWindow": "Home 不为补足 20 而扩窗：运行前当天已经 20 条，本轮仍在 Asia/Shanghai 2026-08-27 同日候选中追加 11 条；BaoCut 长视频因本地播放稳定性不足未写入。Likes 是真实收藏时间线补洞，包含用户近期收藏的历史帖；Analysis 因当天已达 100，只追加新出现且有学习价值的未分析内容。",
+      "observed": {
+        "homeRaw": 1804,
+        "homeUnique": 262,
+        "homeFreshSameDayCandidates": 79,
+        "homeSelected": 11,
+        "homeRejectedSameDay": 68,
+        "likeRaw": 102,
+        "likeUnique": 20,
+        "freshLikes": 6,
+        "knownLikeBoundaryHits": 7,
+        "knownLikeBoundaryReason": "continuous known-ID boundary",
+        "analysisBeforeTodayUnique": 100,
+        "selectedHomeIds": [
+          "2092827531967918205",
+          "2092826647716381089",
+          "2092825185888182377",
+          "2092814414248649101",
+          "2092805163476283569",
+          "2092798367500058734",
+          "2092794240707481869",
+          "2092738149298622952",
+          "2092730191189574026",
+          "2092660873311436832",
+          "2092717811395387877"
+        ],
+        "selectedLikeIds": [
+          "2092623468672004567",
+          "2078160365276319826",
+          "2092660873311436832",
+          "2092597322098364571",
+          "2092717811395387877",
+          "2089564261597266056"
+        ],
+        "analysisAddedIds": [
+          "2092827531967918205",
+          "2092826647716381089",
+          "2092825185888182377",
+          "2092814414248649101",
+          "2092805163476283569",
+          "2092798367500058734",
+          "2092794240707481869",
+          "2092738149298622952",
+          "2092730191189574026",
+          "2092623468672004567",
+          "2078160365276319826",
+          "2092660873311436832",
+          "2092597322098364571",
+          "2092717811395387877",
+          "2089564261597266056"
+        ],
+        "linkInspectionUrls": [
+          "https://github.com/nexu-io/open-design",
+          "https://abduzeedo.com/packaging-design-yugen-matcha-oun-deth",
+          "https://github.com/dingyi/omaportless",
+          "https://vibecafe.ai/usage",
+          "https://launchnothing.com",
+          "https://appica.dev/ui",
+          "https://shaders.com/collection/sunlight-surprise"
+        ]
+      }
+    },
+    "items": [
+      {
+        "id": "2092827531967918205",
+        "sourceTab": "home",
+        "title": "OpenDesign 正把设计能力拆成可安装资源",
+        "originalSummary": "Tom Huang 表示 OpenDesign 已集成 1000+ Plugins、Skills 和 Design Systems，并引用 90K Star 的开源进展。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它直接关系到设计 agent 的资源分发方式：能力不只在模型里，也在插件和设计系统里。",
+        "deepSummary": "这条适合持续跟踪 OpenDesign 的生态化方向。个人设计师可学习如何把设计系统、prompt、插件和 agent runtime 包装成可复用资产，而不是每次从空白画布开始。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/nexu-io/open-design",
+            "title": "OpenDesign GitHub repo",
+            "access": "full",
+            "value": "GitHub API/README 可读，仓库定位为 open-source Claude Design alternative，并在 README 中列出模型、agent harness 和设计交付场景；适合作为设计工具生态化样本。"
+          }
+        ],
+        "learningActions": [
+          "把 OpenDesign 的 Plugins、Skills、Design Systems 三类资源画成能力地图。",
+          "研究设计系统如何从 Figma 资产升级为 agent 可调用资源。",
+          "记录它进入插件市场后的安装、发现和复用路径。"
+        ],
+        "tags": [
+          "OpenDesign",
+          "design agent",
+          "ecosystem"
+        ],
+        "priority": "high",
+        "statusUrl": "https://x.com/tuturetom/status/2092827531967918205",
+        "author": "Tom Huang",
+        "handle": "tuturetom",
+        "datetime": "2026-08-27T04:12:21.000Z"
+      },
+      {
+        "id": "2092826647716381089",
+        "sourceTab": "home",
+        "title": "Yugen Matcha 是克制包装的信息层级样本",
+        "originalSummary": "Abduzeedo 分享 Oun Deth 的 Yugen Matcha 包装，强调简单标记、暖白、深绿和负空间。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供非 AI 但高质量的品牌视觉参考，可以校准设计审美而不被工具流淹没。",
+        "deepSummary": "它的价值不是“好看的包装”，而是展示如何减少营销噪声：品牌名、符号、材质色和版面留白共同建立产品信任感。适合进入个人包装/品牌 moodboard。",
+        "linkAnalysis": [
+          {
+            "url": "https://abduzeedo.com/packaging-design-yugen-matcha-oun-deth",
+            "title": "Abduzeedo Yugen Matcha article",
+            "access": "full",
+            "value": "文章可读，补充了项目作者、包装/视觉身份、earth-toned layout grids 和 minimalist packaging 语境；适合读图并抽取版式规则。"
+          }
+        ],
+        "learningActions": [
+          "截取包装图，标注 logo、品名、留白、色块和信息密度。",
+          "整理“少说话”的食品包装首屏/电商卡片写法。",
+          "把深绿、暖白、自然材质三者的比例转成可复用色板。"
+        ],
+        "tags": [
+          "brand design",
+          "packaging",
+          "minimal"
+        ],
+        "priority": "medium",
+        "statusUrl": "https://x.com/abduzeedo/status/2092826647716381089",
+        "author": "Fabio - abduzeedo",
+        "handle": "abduzeedo",
+        "datetime": "2026-08-27T04:08:50.000Z"
+      },
+      {
+        "id": "2092825185888182377",
+        "sourceTab": "home",
+        "title": "Omaportless 说明小工具价值来自入口而非复杂度",
+        "originalSummary": "Ding 看到收费 Mac menubar 端口工具后，用 AI 做了 Omarchy 插件 Omaportless，用命名 .localhost 地址管理本地 dev servers。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它是独立开发和 AI coding 的现实样本：低复杂功能只要入口清楚，也能形成产品感。",
+        "deepSummary": "对设计工程师最有用的是“扫描已运行监听端口，不包 npm run dev”这个边界。它把开发者日常痛点压成 menubar 命名动作，适合借鉴到本地工具、agent 状态栏和调试面板。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/dingyi/omaportless",
+            "title": "dingyi/omaportless GitHub",
+            "access": "full",
+            "value": "GitHub 和 README 可读，说明它给本地 dev server 命名 .localhost 地址、从 Omarchy bar 重命名，并扫描已有 listener；实现参考价值高。"
+          }
+        ],
+        "learningActions": [
+          "把本地开发端口混乱问题拆成发现、命名、打开、清理四个交互。",
+          "对比收费 Mac 工具和开源插件的首屏包装差异。",
+          "尝试做一个 Codex/Claude/Cursor 本地任务端口索引原型。"
+        ],
+        "tags": [
+          "indie tool",
+          "developer UX",
+          "open source"
+        ],
+        "priority": "high",
+        "statusUrl": "https://x.com/dingyi/status/2092825185888182377",
+        "author": "Ding",
+        "handle": "dingyi",
+        "datetime": "2026-08-27T04:03:01.000Z"
+      },
+      {
+        "id": "2092814414248649101",
+        "sourceTab": "home",
+        "title": "Vibe Usage 把 AI 编程成本变成可复盘指标",
+        "originalSummary": "Ming Yin 表示 Vibe Usage 最近两个月日活增长 2x+，并链接到 VibeCafé 的 AI 编程用量追踪页。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它连接 AI coding 使用增长与可视化指标，是设计工程师日常工作台会需要的能力。",
+        "deepSummary": "它的价值在于把 token、费用、工具来源和排行做成产品视图。对个人设计师来说，这类仪表盘能帮助判断不同 agent 工作流是否真的高效，而不是只凭体感。",
+        "linkAnalysis": [
+          {
+            "url": "https://vibecafe.ai/usage",
+            "title": "Vibe Usage page",
+            "access": "full",
+            "value": "页面可读，描述支持 Claude Code、Codex、Grok 等工具的 token 消耗、费用估算、多维筛选和排行榜；适合作为 AI coding 成本仪表盘参考。"
+          }
+        ],
+        "learningActions": [
+          "列出自己常用 AI coding 工具的成本/产出指标。",
+          "研究 Vibe Usage 如何处理排行榜、过滤器和费用估算。",
+          "把“增长 2x+”拆成可验证的留存/活跃/使用频率问题。"
+        ],
+        "tags": [
+          "AI coding",
+          "analytics",
+          "dashboard"
+        ],
+        "priority": "high",
+        "statusUrl": "https://x.com/kalasoo/status/2092814414248649101",
+        "author": "Ming Yin",
+        "handle": "kalasoo",
+        "datetime": "2026-08-27T03:20:13.000Z"
+      },
+      {
+        "id": "2092805163476283569",
+        "sourceTab": "home",
+        "title": "AI coding 正进入高复杂视觉算法原型",
+        "originalSummary": "Yi Shen 展示让 GPT-5.6 Sol 实现 ReSTIR PT 的 WebGPU/path tracing WIP，并附多张渲染图。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它说明 AI coding 不只做 CRUD，也能协助探索渲染算法和图形原型。",
+        "deepSummary": "个人设计师可从中学习“让模型先铺实现，设计工程师再判断画质”的工作方式。关键是记录 prompt、输入约束、错误类型和最终视觉差距，而不是只看是否跑通。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解 ReSTIR PT 截图中的噪点、光照、材质和收敛问题。",
+          "建立一个 WebGPU/Shader 原型验收清单：画面、帧率、参数、回退。",
+          "把 AI 生成代码与人工图形判断分成两层记录。"
+        ],
+        "tags": [
+          "WebGPU",
+          "rendering",
+          "AI coding"
+        ],
+        "priority": "high",
+        "statusUrl": "https://x.com/pissang1/status/2092805163476283569",
+        "author": "Yi Shen",
+        "handle": "pissang1",
+        "datetime": "2026-08-27T02:43:28.000Z"
+      },
+      {
+        "id": "2092798367500058734",
+        "sourceTab": "home",
+        "title": "Playdate 约束提醒设计先收敛机制",
+        "originalSummary": "独立开发者 William 说 Playdate 的两个按键、crank、音乐和算力限制迫使他重新思考小游戏机制、Art 和 Assets。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把硬件约束如何反推创意讲得非常具体，适合做交互设计训练。",
+        "deepSummary": "这条对个人设计师的价值在于“限制不是降级，而是决策工具”。Playdate 的输入/输出边界让机制优先级变清楚，也能防止视觉资产失控。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "用 Playdate 双按钮 + crank 写一个 1-bit 小游戏交互约束表。",
+          "把一个现有 App 功能压缩到两个动作，观察信息架构变化。",
+          "整理低算力/低色彩限制下的资产命名和状态切换规则。"
+        ],
+        "tags": [
+          "game design",
+          "constraints",
+          "1-bit"
+        ],
+        "priority": "medium",
+        "statusUrl": "https://x.com/DLKFZWilliam2/status/2092798367500058734",
+        "author": "独立开发者William",
+        "handle": "DLKFZWilliam2",
+        "datetime": "2026-08-27T02:16:27.000Z"
+      },
+      {
+        "id": "2092794240707481869",
+        "sourceTab": "home",
+        "title": "多模型影像工作流需要角色分工",
+        "originalSummary": "Viktor Oddy 展示 GPT Image 2、Seedance 2 和 Claude 组合生成影像，并提示下方有 prompt。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它是个人设计师用多模型拼接短片的一手流程信号。",
+        "deepSummary": "关键不在“用了三个模型”，而是每个模型承担什么：图像设定、动态生成、提示结构化和迭代修正。后续要关注画面连续性、主体一致性、转场节奏和提示复用。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录该流程中图像模型、视频模型、语言模型各自负责的输入输出。",
+          "做一张多模型短片管线卡：角色、文件、验收点、失败处理。",
+          "重点复盘 prompt 是否控制了镜头、动作、材质和节奏。"
+        ],
+        "tags": [
+          "AI video",
+          "prompt workflow",
+          "Seedance"
+        ],
+        "priority": "high",
+        "statusUrl": "https://x.com/viktoroddy/status/2092794240707481869",
+        "author": "Viktor Oddy",
+        "handle": "viktoroddy",
+        "datetime": "2026-08-27T02:00:03.000Z"
+      },
+      {
+        "id": "2092738149298622952",
+        "sourceTab": "home",
+        "title": "Cloudflare 的产品话术在压缩全栈复杂度",
+        "originalSummary": "Cloudflare 官方表示可以用集成后端逻辑、数据库和存储来交付 React、Vue 或 NextJS 应用。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它反映前端平台正在把部署、后端、数据和存储合成一个产品心智。",
+        "deepSummary": "对设计工程师的启发是：平台文案越短，背后要承载的概念越多。设计工具若要服务个人创作者，也需要把“从界面到可运行应用”的路径做成一个连续模型。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解 Cloudflare 这句承诺对应的用户任务：写 UI、加数据、部署、监控。",
+          "对比自己常用部署平台的 onboarding 是否把前后端概念讲清楚。",
+          "为设计工程工具写一句类似的“端到端交付”定位文案。"
+        ],
+        "tags": [
+          "developer platform",
+          "full-stack",
+          "product messaging"
+        ],
+        "priority": "medium",
+        "statusUrl": "https://x.com/Cloudflare/status/2092738149298622952",
+        "author": "Cloudflare",
+        "handle": "Cloudflare",
+        "datetime": "2026-08-26T22:17:10.000Z"
+      },
+      {
+        "id": "2092730191189574026",
+        "sourceTab": "home",
+        "title": "LaunchNothing 把玩笑做成转化型页面",
+        "originalSummary": "Ted / unfair.so 发布 “there is no launch” 并链接 launchnothing.com，用反发布概念导向 creator GTM demo。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它是一个概念型 landing page，把社交传播、反差叙事和明确 CTA 接在一起。",
+        "deepSummary": "这条适合学习轻量增长页：首屏不是解释产品，而是制造记忆点，再把流量导向 demo 或 creator GTM。对个人设计师来说，要观察它如何避免空梗，落回真实服务。",
+        "linkAnalysis": [
+          {
+            "url": "https://launchnothing.com",
+            "title": "LaunchNothing page",
+            "access": "full",
+            "value": "页面可读，标题、社交截图、Book a demo 和 creator GTM 叙事完整；信息密度中等，但转化机制和概念包装值得拆解。"
+          }
+        ],
+        "learningActions": [
+          "截取首屏，标注反差标题、社交证明和 CTA 的位置关系。",
+          "写一个“反发布”风格的设计服务 landing page 文案草稿。",
+          "判断哪些数据是可验证证明，哪些只是增长叙事。"
+        ],
+        "tags": [
+          "landing page",
+          "GTM",
+          "web design"
+        ],
+        "priority": "medium",
+        "statusUrl": "https://x.com/notmiramurati/status/2092730191189574026",
+        "author": "Ted | unfair.so",
+        "handle": "notmiramurati",
+        "datetime": "2026-08-26T21:45:33.000Z"
+      },
+      {
+        "id": "2092623468672004567",
+        "sourceTab": "like",
+        "title": "M6 小盒子收藏点在硬件价值密度",
+        "originalSummary": "Darius Dan 收藏/发布 M6 chip、32GB RAM、1500 美元以内的小型硬件视频，强调体积、性能和价格组合。",
+        "whySaved": "你会收藏它，是因为它把硬件产品的价值判断压缩成体积、性能、内存和价格四个变量，适合做桌面 AI/创作设备参考。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；它说明你关注小型硬件如何服务个人创作工作台。",
+        "deepSummary": "这类内容的学习点不是参数本身，而是“高性能小盒子”的产品叙事：创作者愿意为了桌面占用、散热、外观和性价比重新考虑主机形态。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "列出个人创作硬件选择的四个指标：体积、内存、噪音、价格。",
+          "观察视频里如何通过尺度参照表达“小盒子”的价值。",
+          "把它加入桌面 AI 设备/本地模型硬件参考库。"
+        ],
+        "tags": [
+          "Liked",
+          "hardware",
+          "creator setup"
+        ],
+        "priority": "medium",
+        "statusUrl": "https://x.com/dariusdan/status/2092623468672004567",
+        "author": "Darius Dan",
+        "handle": "dariusdan",
+        "datetime": "2026-08-26T14:41:28.000Z"
+      },
+      {
+        "id": "2078160365276319826",
+        "sourceTab": "like",
+        "title": "Appica UI 的收藏价值在 AI-ready 组件库",
+        "originalSummary": "Appica 宣传 React UI 组件库：60+ polished components、npm package、accessible、themeable、TypeScript-strict、AI-agent ready、MIT 免费。",
+        "whySaved": "你会收藏它，是因为它把组件库的卖点从“漂亮”推进到可维护、可主题化、类型严格和 AI agent 可用，正好对应设计工程师的长期资产。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；它能反推你对组件库生产质量和 agent 兼容性的关注。",
+        "deepSummary": "Appica UI 值得深读的是组件库如何同时服务人和 agent：文档、命名、可访问性、主题 token、TypeScript 边界都可能影响 AI 生成代码的成功率。",
+        "linkAnalysis": [
+          {
+            "url": "https://appica.dev/ui",
+            "title": "Appica UI docs",
+            "access": "full",
+            "value": "官网可读，说明基于 Base UI、Tailwind 和 Motion，提供组件、Icons、Country Flags、Figma 与搜索；实现和文档参考价值高。"
+          }
+        ],
+        "learningActions": [
+          "抽样查看 Appica 的 Button、Dialog、Form 组件 API。",
+          "比较它的 Figma/Docs/代码三端命名是否一致。",
+          "整理“AI-agent ready”组件库应具备的文档规则。"
+        ],
+        "tags": [
+          "Liked",
+          "component library",
+          "React"
+        ],
+        "priority": "high",
+        "statusUrl": "https://x.com/Appica_dev/status/2078160365276319826",
+        "author": "Appica",
+        "handle": "Appica_dev",
+        "datetime": "2026-07-17T16:50:16.000Z"
+      },
+      {
+        "id": "2092660873311436832",
+        "sourceTab": "like",
+        "title": "superwhisper 免费 Whisper 是垂直 AI 工具的入口策略",
+        "originalSummary": "superwhisper 官方宣布 Whisper 模型对所有用户免费，并重置 Pro usage，强调 local、private、fast voice-to-text。",
+        "whySaved": "你会收藏它，是因为语音转文字是个人知识采集和 always-on assistant 的关键入口，定价变化会直接影响日常工作流。",
+        "whyCaptured": "同时出现在 Home 候选和用户 Likes；我把它作为收藏偏好优先分析，因为它是你主动保存的语音 AI 工具信号。",
+        "deepSummary": "产品判断重点是“免费核心能力 + Pro 试用额度”的组合：它降低初次使用门槛，同时把高级能力保留在后续转化里。对设计师来说，要看隐私、本地模型和编辑流是否被 UI 明确证明。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "试用或截图 superwhisper 免费模型入口，记录 onboarding 和额度说明。",
+          "把本地语音转文字流程拆成采集、转写、修订、入库四步。",
+          "对比 Plaud/系统听写/Whisper 工具的隐私表达。"
+        ],
+        "tags": [
+          "Liked",
+          "voice AI",
+          "local-first"
+        ],
+        "priority": "high",
+        "statusUrl": "https://x.com/superwhisper/status/2092660873311436832",
+        "author": "superwhisper",
+        "handle": "superwhisper",
+        "datetime": "2026-08-26T17:10:06.000Z"
+      },
+      {
+        "id": "2092597322098364571",
+        "sourceTab": "like",
+        "title": "Shaders Chrome 组件把 logo 材质化变成前端资产",
+        "originalSummary": "Shaders 官方展示上传 SVG logo 并在几秒内转成 metallic chrome hero 视觉的组件。",
+        "whySaved": "你会收藏它，是因为它把品牌 logo 的高级视觉从一次性动效制作变成可复用前端组件，适合产品官网首屏和活动页。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；它延续你对 shader、品牌材质和可导出前端效果的关注。",
+        "deepSummary": "这条对设计工程最有价值：上传 SVG、生成 chrome 材质、用于 hero section，整个流程天然连接品牌、动效和代码交付。后续要看参数、响应式和性能成本。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Chrome 组件的视频交互步骤：上传、预览、调参、导出。",
+          "用一个 viaim 或个人 logo 测试金属材质在浅/深背景下的可读性。",
+          "建立 shader hero 的性能和降级检查表。"
+        ],
+        "tags": [
+          "Liked",
+          "shader",
+          "brand motion"
+        ],
+        "priority": "high",
+        "statusUrl": "https://x.com/npm_i_shaders/status/2092597322098364571",
+        "author": "shaders",
+        "handle": "npm_i_shaders",
+        "datetime": "2026-08-26T12:57:34.000Z"
+      },
+      {
+        "id": "2092717811395387877",
+        "sourceTab": "like",
+        "title": "Sunlight Surprise 值得收藏是因为它给了可调预设",
+        "originalSummary": "Shaders 在 AppleEvent 风格演示下补充 Sunlight Surprise collection 链接，可用自己的 SVG logo 试。",
+        "whySaved": "你会收藏它，是因为它从“看起来像 Apple 邀请函”推进到可打开、可替换 logo、可调参数的设计工具页面。",
+        "whyCaptured": "同时出现在 Home 补充项和 Likes；我把它保留为收藏分析，因为它补齐了上午 Home 中 shader 灵感的可操作链接。",
+        "deepSummary": "这条的核心价值是把灵感变成操作面板。对个人设计师来说，应重点看 preset 浏览、参数调节、代码导出和 Pro 门槛如何影响试用路径。",
+        "linkAnalysis": [
+          {
+            "url": "https://shaders.com/collection/sunlight-surprise",
+            "title": "Sunlight Surprise collection",
+            "access": "full",
+            "value": "页面可读，展示 collection、preset、Pro 解锁、编辑器和 Vue/React/Svelte/Solid/JS 导出方向；复用设计方法和实现参考都较强。"
+          }
+        ],
+        "learningActions": [
+          "用一个 SVG logo 测试 Sunlight Surprise，记录默认参数和导出路径。",
+          "拆解 collection 页的信息层级：preset、unlock、editor、export。",
+          "把 Apple 风格材质抽象成光线、折射、边缘高光和背景四组参数。"
+        ],
+        "tags": [
+          "Liked",
+          "shader preset",
+          "front-end"
+        ],
+        "priority": "high",
+        "statusUrl": "https://x.com/npm_i_shaders/status/2092717811395387877",
+        "author": "shaders",
+        "handle": "npm_i_shaders",
+        "datetime": "2026-08-26T20:56:21.000Z"
+      },
+      {
+        "id": "2089564261597266056",
+        "sourceTab": "like",
+        "title": "60fps 的 Bevel companion 动效是健康产品情绪层参考",
+        "originalSummary": "60fps 分享 Bevel Health 的 Companions 动效视频，重点是健康产品里的陪伴对象和细节反馈。",
+        "whySaved": "你会收藏它，是因为它展示了高频健康应用如何用轻量角色/动效建立陪伴感，而不是只展示指标。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；它说明你关注系统状态、健康数据和情绪反馈的结合。",
+        "deepSummary": "这条适合做 micro-interaction 学习：companion 不能抢走数据主体，但能降低冷冰冰的健康指标感。后续应观察它在空状态、达标、提醒和复盘里的动作范围。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "逐帧看 companion 动效的进入、停留和退出节奏。",
+          "为一个健康/习惯卡片设计三种 companion 状态。",
+          "检查角色动效是否干扰核心数据阅读。"
+        ],
+        "tags": [
+          "Liked",
+          "micro-interaction",
+          "health UX"
+        ],
+        "priority": "medium",
+        "statusUrl": "https://x.com/60fpsdesign/status/2089564261597266056",
+        "author": "60fps",
+        "handle": "60fpsdesign",
+        "datetime": "2026-08-18T04:05:16.000Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-27",
     "generatedAt": "2026-08-27T08:18:00+08:00",
     "batch": "x-ai-design-analysis-2026-08-27-0818",
     "analysisCount": 100,

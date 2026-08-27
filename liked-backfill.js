@@ -1,6 +1,85 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-27T08:18:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-27T13:26:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2092717811395387877",
+    "TwitterUserID": "1935434970513772545",
+    "UserScreenName": "npm_i_shaders",
+    "UserProfileName": "shaders",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2077002279719243776/UKfSub_w_200x200.jpg",
+    "TweetText": "Try it with your own SVG logo:\n\nhttps://shaders.com/collection/sunlight-surprise",
+    "Tweet Url": "https://x.com/npm_i_shaders/status/2092717811395387877",
+    "TweetCreatedDate": "2026-08-26T20:56:21.000Z",
+    "MediaType": "link",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "shader 预设",
+      "link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Sunlight Surprise — Shaders",
+      "preview": "Explore Sunlight Surprise shader variants. Customize in the design editor and export code for Vue, React, Svelte, Solid & JS.",
+      "cover": "https://pbs.twimg.com/card_img/2092717813651951616/0clmAIro?format=jpg&name=800x419",
+      "url": "https://shaders.com/collection/sunlight-surprise"
+    },
+    "_metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 3 BOOKMARKS · 204 VIEWS",
+    "_analysisTheme": "Sunlight Surprise shader 预设",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-27T13:26:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-26T20:56:21.000Z"
+    }
+  },
+  {
+    "TweetID": "2092660873311436832",
+    "TwitterUserID": "1643282878992642048",
+    "UserScreenName": "superwhisper",
+    "UserProfileName": "superwhisper",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2085092229693997056/Eet7ytkG_200x200.jpg",
+    "TweetText": "We're making Whisper models free for all users.\n\nStarting today, you no longer need a Superwhisper Pro subscription to use them.\n\nWe’ve also reset Pro usage for everyone. \n\nIf you’d already reached your limit, you now have 3,000 words to try the latest Pro features.\n\nLocal, private, and fast voice-to-text. Free for everyone.",
+    "Tweet Url": "https://x.com/superwhisper/status/2092660873311436832",
+    "TweetCreatedDate": "2026-08-26T17:10:06.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQqf-TKXMAAJ1xg.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "语音 AI",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQqf-TKXMAAJ1xg.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "42 REPLIES · 49 REPOSTS · 754 LIKES · 468 BOOKMARKS · 78052 VIEWS",
+    "_analysisTheme": "本地语音工具免费入口",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-27T13:26:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-26T17:10:06.000Z"
+    }
+  },
   {
     "TweetID": "2092645980306890992",
     "TwitterUserID": "809153395",
@@ -38,6 +117,86 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": null,
       "observedDatetime": "2026-08-26T16:10:55.000Z"
+    }
+  },
+  {
+    "TweetID": "2092623468672004567",
+    "TwitterUserID": "1077685212",
+    "UserScreenName": "dariusdan",
+    "UserProfileName": "Darius Dan",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2010635171083505664/voFt50Pj_200x200.jpg",
+    "TweetText": "M6 chip with 32gb RAM under $1500 in a small box. This is a great deal. 🤍",
+    "Tweet Url": "https://x.com/dariusdan/status/2092623468672004567",
+    "TweetCreatedDate": "2026-08-26T14:41:28.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092621774525480960/img/B2nOj0YLQb8e91l1.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092621774525480960/vid/avc1/944x720/SaNdO1FcdU0zkNRP.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "硬件产品",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092621774525480960/vid/avc1/944x720/SaNdO1FcdU0zkNRP.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092621774525480960/img/B2nOj0YLQb8e91l1.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "6 REPLIES · 2 REPOSTS · 75 LIKES · 9 BOOKMARKS · 6452 VIEWS",
+    "_analysisTheme": "小型桌面硬件价值判断",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-27T13:26:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-26T14:41:28.000Z"
+    }
+  },
+  {
+    "TweetID": "2092597322098364571",
+    "TwitterUserID": "1935434970513772545",
+    "UserScreenName": "npm_i_shaders",
+    "UserProfileName": "shaders",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2077002279719243776/UKfSub_w_200x200.jpg",
+    "TweetText": "New Chrome component just dropped ✨\n\nUpload any SVG logo and turn it into metallic chrome in seconds. Perfect for hero sections that need that extra polish.",
+    "Tweet Url": "https://x.com/npm_i_shaders/status/2092597322098364571",
+    "TweetCreatedDate": "2026-08-26T12:57:34.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092597299285569536/img/Z53sWixkj_argnjU.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092597299285569536/vid/avc1/640x360/4mPYG__ZnCIhy-Bu.mp4?tag=14",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "shader 工具",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092597299285569536/vid/avc1/640x360/4mPYG__ZnCIhy-Bu.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092597299285569536/img/Z53sWixkj_argnjU.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "2 REPLIES · 2 REPOSTS · 29 LIKES · 24 BOOKMARKS · 1714 VIEWS",
+    "_analysisTheme": "SVG 到 chrome hero 材质",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-27T13:26:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-26T12:57:34.000Z"
     }
   },
   {
@@ -6435,6 +6594,46 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 16,
       "observedDatetime": "2026-08-18T06:33:22.000Z"
+    }
+  },
+  {
+    "TweetID": "2089564261597266056",
+    "TwitterUserID": "1671113976925798400",
+    "UserScreenName": "60fpsdesign",
+    "UserProfileName": "60fps",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1727303967737294848/zS3hLMSI_200x200.jpg",
+    "TweetText": "Companions @bevel_health 👻",
+    "Tweet Url": "https://x.com/60fpsdesign/status/2089564261597266056",
+    "TweetCreatedDate": "2026-08-18T04:05:16.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2089564136007213056/img/5m8NJ2gyxvlKlK-L.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2089564136007213056/vid/avc1/720x720/8MljqYsesd4xkLxh.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "交互动效",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2089564136007213056/vid/avc1/720x720/8MljqYsesd4xkLxh.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2089564136007213056/img/5m8NJ2gyxvlKlK-L.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "4 REPLIES · 22 REPOSTS · 490 LIKES · 367 BOOKMARKS · 29424 VIEWS",
+    "_analysisTheme": "健康应用 companion 动效",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-27T13:26:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-18T04:05:16.000Z"
     }
   },
   {
@@ -25820,6 +26019,46 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2078160365276319826",
+    "TwitterUserID": "2073701393542602753",
+    "UserScreenName": "Appica_dev",
+    "UserProfileName": "Appica",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2077354503645306880/pxHVbcXv_200x200.jpg",
+    "TweetText": "React UI without the maintenance headaches: 60+ polished components as a real npm package — accessible, themeable, TypeScript-strict, AI-agent ready.\n\nFree forever. MIT.\nhttps://appica.dev/ui",
+    "Tweet Url": "https://x.com/Appica_dev/status/2078160365276319826",
+    "TweetCreatedDate": "2026-07-17T16:50:16.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HNcbzVaXIAAghd-.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "UI 组件库",
+      "media:photo",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HNcbzVaXIAAghd-.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "45 REPLIES · 116 REPOSTS · 1829 LIKES · 3167 BOOKMARKS · 4565249 VIEWS",
+    "_analysisTheme": "AI-ready React 组件库",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-27T13:26:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-07-17T16:50:16.000Z"
+    }
+  },
+  {
     "TweetID": "2078130602990346646",
     "TwitterUserID": "1094263925640757249",
     "UserScreenName": "eduardwieandt",
@@ -26470,4 +26709,4 @@ window.LIKED_BACKFILL = [
       "observedDatetime": "2025-11-13T11:43:25.000Z"
     }
   }
-];
+].sort((a, b) => new Date(b.TweetCreatedDate) - new Date(a.TweetCreatedDate));

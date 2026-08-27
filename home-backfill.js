@@ -1,6 +1,196 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "AI DESIGN",
+    "datetime": "2026-08-27T04:12:21.000Z",
+    "author": "Tom Huang",
+    "handle": "tuturetom",
+    "avatar": "https://pbs.twimg.com/profile_images/1033199673035522048/WI-JLSAc_200x200.jpg",
+    "title": "OpenDesign 把 Plugins、Skills 和设计系统做成资源库",
+    "summary": "我会帮你抓取它，因为 OpenDesign 正在把设计 agent 的能力拆成可复用插件、Skills 和 Design Systems。对个人设计师来说，重点是研究设计能力如何像代码依赖一样被发现、安装和复用。",
+    "url": "https://x.com/tuturetom/status/2092827531967918205",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092827485314703360/vid/avc1/550x360/0ysI7ajFUGJO61JH.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092827485314703360/img/b8pf09_Ewci0SL1g.jpg"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 2 LIKES · 1 BOOKMARKS · 803 VIEWS",
+    "links": [],
+    "_analysisTheme": "设计 agent 资源复用",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Tom Huang",
+      "handle": "tuturetom",
+      "avatar": "https://pbs.twimg.com/profile_images/1033199673035522048/WI-JLSAc_200x200.jpg",
+      "text": "OpenDesign 正式突破 90K Star 🚀 跻身 Github 历史排名前 150 的开源项目🔥\n\n过去3个多月，我们发布了 30+ 个版本，进入了 Codex 官方插件市场，开源了全球首个AI协作设计工作台，影响了全球 80 多个国家的开发者、设计师、团队和独立创作者！\n\n感谢全球开源社区和每一位用户，下一站，100K！🔥🚀",
+      "url": "https://x.com/tuturetom/status/2092807560982069415",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQsj5iHWoAAJX3P.jpg?name=orig"
+        }
+      ]
+    }
+  },
+  {
+    "category": "BRAND DESIGN",
+    "datetime": "2026-08-27T04:08:50.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "Yugen Matcha 包装用留白降低营销噪声",
+    "summary": "我会帮你抓取它，因为这组包装用极简标记、暖白底和深绿建立茶品牌的安静高级感。对个人设计师来说，重点是学习如何用负空间、材质色和信息节制替代过度卖点堆叠。",
+    "url": "https://x.com/abduzeedo/status/2092826647716381089",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQs2vTZbUAAfhuL.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQs2vfCbcAADGQy.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQs2vqVa0AAcDAF.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 5 LIKES · 1 BOOKMARKS · 423 VIEWS",
+    "links": [
+      "https://abduzeedo.com/packaging-design-yugen-matcha-oun-deth"
+    ],
+    "_analysisTheme": "包装留白和品牌克制",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "INDIE TOOL",
+    "datetime": "2026-08-27T04:03:01.000Z",
+    "author": "Ding",
+    "handle": "dingyi",
+    "avatar": "https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_200x200.jpg",
+    "title": "Omaportless 把本地端口变成可命名 menubar 工具",
+    "summary": "我会帮你抓取它，因为它从一个 9 美金 Mac 小工具反推到开源 Linux 插件，展示 AI 辅助下小工具的实现门槛变化。对个人设计师来说，重点是把开发环境痛点做成低摩擦系统入口。",
+    "url": "https://x.com/dingyi/status/2092825185888182377",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQs1apJaMAAgAoN.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 15 LIKES · 10 BOOKMARKS · 2320 VIEWS",
+    "links": [
+      "https://github.com/dingyi/omaportless"
+    ],
+    "_analysisTheme": "本地开发环境轻工具",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-27T03:20:13.000Z",
+    "author": "Ming Yin",
+    "handle": "kalasoo",
+    "avatar": "https://pbs.twimg.com/profile_images/1218534066842042368/In5G1777_200x200.jpg",
+    "title": "Vibe Usage 把 AI 编程 token 消耗可视化",
+    "summary": "我会帮你抓取它，因为它把 Claude Code、Codex、Grok 等工具的 token 和费用追踪做成面向创作者的仪表盘。对个人设计师来说，重点是把抽象的 AI 使用成本转成可比较、可复盘的产品指标。",
+    "url": "https://x.com/kalasoo/status/2092814414248649101",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQsrf7hawAAyf6w.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 4 LIKES · 0 BOOKMARKS · 280 VIEWS",
+    "links": [
+      "https://vibecafe.ai/usage"
+    ],
+    "_analysisTheme": "AI 编程用量仪表盘",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-27T02:43:28.000Z",
+    "author": "Yi Shen",
+    "handle": "pissang1",
+    "avatar": "https://pbs.twimg.com/profile_images/1798893433026924544/TkoshKC1_200x200.png",
+    "title": "GPT-5.6 Sol 生成 WebGPU path tracing 原型",
+    "summary": "我会帮你抓取它，因为它把 AI coding 用在 ReSTIR PT / WebGPU 这种高复杂视觉实现上。对个人设计师来说，重点是学习如何让模型承担渲染算法原型，再由设计工程师做质量判断和取舍。",
+    "url": "https://x.com/pissang1/status/2092805163476283569",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQsidxiagAAIFQD.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQsieRQaAAAsvwu.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQsikHRbkAA3qZP.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQsik9YbIAA4azt.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 2 BOOKMARKS · 337 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 辅助高阶视觉实现",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "GAME DESIGN",
+    "datetime": "2026-08-27T02:16:27.000Z",
+    "author": "独立开发者William",
+    "handle": "DLKFZWilliam2",
+    "avatar": "https://pbs.twimg.com/profile_images/2092800981776130048/mIhmxeaB_200x200.jpg",
+    "title": "Playdate 1-bit 游戏迫使机制和资产收敛",
+    "summary": "我会帮你抓取它，因为 Playdate 的双按钮、crank、音频和算力限制把设计约束说得很具体。对个人设计师来说，重点是用硬约束反推机制、Art 和 Assets，而不是先堆 3D 复杂度。",
+    "url": "https://x.com/DLKFZWilliam2/status/2092798367500058734",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQsc-WTbUAAJVY7.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQsc-T6aIAEhxXi.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQsc-T8a4AAHfGP.jpg?name=orig"
+      }
+    ],
+    "metrics": "3 REPLIES · 0 REPOSTS · 9 LIKES · 3 BOOKMARKS · 767 VIEWS",
+    "links": [],
+    "_analysisTheme": "硬件约束下的游戏机制",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI VIDEO",
+    "datetime": "2026-08-27T02:00:03.000Z",
+    "author": "Viktor Oddy",
+    "handle": "viktoroddy",
+    "avatar": "https://pbs.twimg.com/profile_images/1941325782829113344/buT3DYqx_200x200.jpg",
+    "title": "GPT Image 2 + Seedance + Claude 组成短片实验链路",
+    "summary": "我会帮你抓取它，因为它把图像生成、视频模型和语言模型提示串成一个可观察的创作流程。对个人设计师来说，重点是拆解多模型接力时的角色分工、画面连续性和提示复用。",
+    "url": "https://x.com/viktoroddy/status/2092794240707481869",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092794192926040064/vid/avc1/972x720/p8JgyWAx7quecHSX.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092794192926040064/img/JuZn77aO5GAkaAUv.jpg"
+      }
+    ],
+    "metrics": "1 REPLIES · 3 REPOSTS · 57 LIKES · 61 BOOKMARKS · 4439 VIEWS",
+    "links": [],
+    "_analysisTheme": "多模型 AI 影像流程",
+    "_analysisPriority": "high"
+  },
+  {
     "category": "MOTION DESIGN",
     "datetime": "2026-08-26T23:12:50.000Z",
     "author": "JcToon",
@@ -80,6 +270,26 @@
     "_analysisPriority": "medium"
   },
   {
+    "category": "DEV PLATFORM",
+    "datetime": "2026-08-26T22:17:10.000Z",
+    "author": "Cloudflare",
+    "handle": "Cloudflare",
+    "avatar": "https://pbs.twimg.com/profile_images/2016613099034345472/zHWjcVEQ_200x200.jpg",
+    "title": "Cloudflare 把前端框架和后端逻辑打包交付",
+    "summary": "我会帮你抓取它，因为 Cloudflare 用一句产品承诺把 React、Vue、NextJS、数据库、存储和后端逻辑放到同一部署心智里。对设计工程师来说，重点是理解前端工具正在变成完整应用交付面。",
+    "url": "https://x.com/Cloudflare/status/2092738149298622952",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPn4uUzb0AAzvYL.jpg?name=orig"
+      }
+    ],
+    "metrics": "2 REPLIES · 9 REPOSTS · 119 LIKES · 33 BOOKMARKS · 447725 VIEWS",
+    "links": [],
+    "_analysisTheme": "前后端一体化部署心智",
+    "_analysisPriority": "medium"
+  },
+  {
     "category": "AI DESIGN",
     "datetime": "2026-08-26T21:46:55.000Z",
     "author": "Stitch by Google",
@@ -99,6 +309,53 @@
     "links": [],
     "_analysisTheme": "先设计探索再进入编码 agent",
     "_analysisPriority": "high"
+  },
+  {
+    "category": "WEB DESIGN",
+    "datetime": "2026-08-26T21:45:33.000Z",
+    "author": "Ted | unfair.so",
+    "handle": "notmiramurati",
+    "avatar": "https://pbs.twimg.com/profile_images/2069030170766262272/S6Kgn0Oc_200x200.jpg",
+    "title": "LaunchNothing 用反发布页测试创作者 GTM",
+    "summary": "我会帮你抓取它，因为它把“没有发布任何东西”做成一个反向落地页，用流量和表单验证创作者增长叙事。对个人设计师来说，重点是学习概念型 landing page 如何把一句玩笑变成明确转化路径。",
+    "url": "https://x.com/notmiramurati/status/2092730191189574026",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092729147600646144/vid/avc1/1280x720/NwWf0fxji9V1UOGK.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092729147600646144/img/XZ60PXwT09k7njPE.jpg"
+      }
+    ],
+    "metrics": "168 REPLIES · 68 REPOSTS · 1650 LIKES · 514 BOOKMARKS · 124832 VIEWS",
+    "links": [
+      "https://launchnothing.com"
+    ],
+    "_analysisTheme": "反发布 landing page",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-26T20:56:21.000Z",
+    "author": "shaders",
+    "handle": "npm_i_shaders",
+    "avatar": "https://pbs.twimg.com/profile_images/2077002279719243776/UKfSub_w_200x200.jpg",
+    "title": "Shaders Sunlight Surprise 提供 Apple 风格材质预设",
+    "summary": "我会帮你抓取它，因为它把上一条 Apple 风格 shader 演示补成可打开的 collection 页面。对个人设计师来说，重点是把品牌视觉灵感落到可调参数、预设和前端导出流程。",
+    "url": "https://x.com/npm_i_shaders/status/2092717811395387877",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 3 BOOKMARKS · 204 VIEWS",
+    "links": [
+      "https://shaders.com/collection/sunlight-surprise"
+    ],
+    "_analysisTheme": "品牌材质预设到前端导出",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Sunlight Surprise — Shaders",
+      "preview": "Explore Sunlight Surprise shader variants. Customize in the design editor and export code for Vue, React, Svelte, Solid & JS.",
+      "cover": "https://pbs.twimg.com/card_img/2092717813651951616/0clmAIro?format=jpg&name=800x419",
+      "url": "https://shaders.com/collection/sunlight-surprise"
+    }
   },
   {
     "category": "DESIGN TOOL",
@@ -349,6 +606,26 @@
     "metrics": "0 REPLIES · 0 REPOSTS · 13 LIKES · 4 BOOKMARKS · 856 VIEWS",
     "links": [],
     "_analysisTheme": "触控与指针共存的交互状态机",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "VOICE AI",
+    "datetime": "2026-08-26T17:10:06.000Z",
+    "author": "superwhisper",
+    "handle": "superwhisper",
+    "avatar": "https://pbs.twimg.com/profile_images/2085092229693997056/Eet7ytkG_200x200.jpg",
+    "title": "superwhisper 把 Whisper 模型免费开放",
+    "summary": "我会帮你抓取它，因为 superwhisper 把本地、私密、快速的语音转文字能力从 Pro 门槛降到免费。对个人设计师来说，重点是观察垂直 AI 工具如何用免费核心模型扩大入口，再保留高级功能空间。",
+    "url": "https://x.com/superwhisper/status/2092660873311436832",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQqf-TKXMAAJ1xg.jpg?name=orig"
+      }
+    ],
+    "metrics": "42 REPLIES · 49 REPOSTS · 754 LIKES · 468 BOOKMARKS · 78052 VIEWS",
+    "links": [],
+    "_analysisTheme": "本地语音转文字定价策略",
     "_analysisPriority": "high"
   },
   {
