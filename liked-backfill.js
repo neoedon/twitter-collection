@@ -1,6 +1,161 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-28T08:17:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-28T13:18:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2093009825613664671",
+    "TwitterUserID": "1466995432429551616",
+    "UserScreenName": "jiangding01",
+    "UserProfileName": "一页繁华",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1466997057806233607/5V-p4Y_I_200x200.jpg",
+    "TweetText": "@yyyole 我让GPT去找，他说大概率是这个项目\nhttps://github.com/brownhci/Remotion\n另外还可以参考这个项目：CristianOlivera1/openvid",
+    "Tweet Url": "https://x.com/jiangding01/status/2093009825613664671",
+    "TweetCreatedDate": "2026-08-27T16:16:43.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程",
+      "link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "GitHub - brownhci/Remotion: Remotion is an open-source platform that visualizes smartphone user movements · GitHub",
+      "preview": "GitHub 页面说明 Remotion 是 visualizes smartphone user movements 的 open-source platform。",
+      "cover": "",
+      "url": "https://github.com/brownhci/Remotion"
+    },
+    "_metrics": "1 REPLIES · 3 REPOSTS · 25 LIKES · 20 BOOKMARKS · 896 VIEWS",
+    "_analysisTheme": "手机动效录屏 / Demo 工具",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T13:18:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-27T16:16:43.000Z"
+    }
+  },
+  {
+    "TweetID": "2092934131391013371",
+    "TwitterUserID": "939870716391854082",
+    "UserScreenName": "yyyole",
+    "UserProfileName": "沐阳",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1986002260447707136/lf3UN9Xp_200x200.jpg",
+    "TweetText": "最近看到很多人都在Vibe类似的工具！\n\n倒不难，就是实时同步手机陀螺仪数据和屏幕显示。很适合用来做产品UI或者功能演示的3D录屏！\n\n不过我记得有一个差不多的开源项目，忘记叫啥了，我找找分享出来。",
+    "Tweet Url": "https://x.com/yyyole/status/2092934131391013371",
+    "TweetCreatedDate": "2026-08-27T11:15:56.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092934029238755328/img/tTprx7Tsu_uJ19ye.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092934029238755328/vid/avc1/640x360/bHVzYCkXovCPdYEJ.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品演示",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092934029238755328/vid/avc1/640x360/bHVzYCkXovCPdYEJ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092934029238755328/img/tTprx7Tsu_uJ19ye.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "66 REPLIES · 22 REPOSTS · 211 LIKES · 223 BOOKMARKS · 29107 VIEWS",
+    "_analysisTheme": "产品 UI 演示 / 3D 录屏",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T13:18:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-27T11:15:56.000Z"
+    }
+  },
+  {
+    "TweetID": "2093045473133437039",
+    "TwitterUserID": "1978137413793841152",
+    "UserScreenName": "di1424190811083",
+    "UserProfileName": "n",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2050248424910655492/5ddg3ksG_200x200.jpg",
+    "TweetText": "孙宇晨的前女友曾颖爆了孙宇晨和谷爱凌的裸照",
+    "Tweet Url": "https://x.com/di1424190811083/status/2093045473133437039",
+    "TweetCreatedDate": "2026-08-27T18:38:22.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "privacy-risk",
+      "media-redacted"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "441 REPLIES · 210 REPOSTS · 3840 LIKES · 1649 BOOKMARKS · 2388472 VIEWS",
+    "_analysisTheme": "个人收藏偏好",
+    "_analysisPriority": "low",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T13:18:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-27T18:38:22.000Z",
+      "mediaRedacted": "疑似非合意私密影像传播风险，仅同步文本和 status ID，不保存媒体 URL。"
+    }
+  },
+  {
+    "TweetID": "2093036491710586886",
+    "TwitterUserID": "756319701861601281",
+    "UserScreenName": "AI_Jasonyu",
+    "UserProfileName": "鱼总聊AI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1877193368725581824/7_ocNC-C_200x200.jpg",
+    "TweetText": "行了，也确实是第一次为了一个男人熬夜、买token、做片。\n\n五分钟，花了我不少钱，大家别吃文字版的瓜了，视频给你们准备好了～\n\n孙割，你这新概念作文一等奖真不是盖的，你这故事后面拍电影必火，一定要找我合作🤝",
+    "Tweet Url": "https://x.com/AI_Jasonyu/status/2093036491710586886",
+    "TweetCreatedDate": "2026-08-27T18:02:41.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093036281605316608/img/jK5ekbdFGQwpZfQk.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093036281605316608/vid/avc1/840x360/Mu6RZMNtn4mkGuGO.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI视频",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093036281605316608/vid/avc1/840x360/Mu6RZMNtn4mkGuGO.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093036281605316608/img/jK5ekbdFGQwpZfQk.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "312 REPLIES · 321 REPOSTS · 3684 LIKES · 1548 BOOKMARKS · 661413 VIEWS",
+    "_analysisTheme": "AI 视频传播 / 成本信号",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T13:18:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-27T18:02:41.000Z"
+    }
+  },
   {
     "TweetID": "2092979483502649583",
     "TwitterUserID": "6782882",

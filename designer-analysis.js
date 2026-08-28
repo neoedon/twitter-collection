@@ -1,6 +1,780 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-28",
+    "generatedAt": "2026-08-28T13:18:00+08:00",
+    "batch": "x-ai-design-analysis-2026-08-28-1318",
+    "analysisCount": 23,
+    "homeCount": 20,
+    "likeCount": 3,
+    "linksInspected": 12,
+    "unavailableLinks": 0,
+    "summary": "2026-08-28 13:00 增量：运行前当天 Home 已有 20 条、Analysis 已有 100 个唯一 ID；本轮登录态 Home 观察 660 次 appearances、125 个唯一 status，其中 Asia/Shanghai 同日候选 63 个，追加 20 条上午 AI/设计/工具精选。Likes 页观察 191 次 appearances、36 个唯一 status，到达 known-ID 边界 2092885632460660844，新增同步 4 条 Like；其中 1 条因疑似私密影像传播风险仅同步文本与 status ID，不保存媒体 URL。Analysis 追加 23 个未分析 ID，累计当天 123 个唯一 ID。",
+    "sourceWindow": {
+      "strategy": "使用 ego-browser 独立 task space 6 复用 X 登录态；Home 打开 x.com/home 滚动观察，Likes 打开 x.com/neoedon414/likes 并重定向到 /i/history/likes。fxtwitter 仅用于稳定媒体、真实作者时间和 t.co 展开；外链读取限于原帖/引用帖出现的产品页、GitHub、文档、Demo 或文章。",
+      "newestHomeDatetime": "2026-08-28T04:38:26.000Z",
+      "oldestHomeDatetime": "2026-08-27T16:16:34.000Z",
+      "newestLikeDatetime": "2026-08-27T18:38:22.000Z",
+      "oldestLikeDatetime": "2026-08-27T11:15:56.000Z",
+      "expandedWindow": "不需要扩窗：Asia/Shanghai 2026-08-28 同日 Home 候选充足；Analysis 已达 100 后仅追加新出现且有学习价值的未分析内容，没有回补历史 Like。",
+      "observed": {
+        "homeBeforeTodayCount": 20,
+        "homeRaw": 660,
+        "homeUnique": 125,
+        "homeFreshSameDayCandidates": 63,
+        "homeSelected": 20,
+        "homeRejectedSameDay": 43,
+        "likeRaw": 191,
+        "likeUnique": 36,
+        "freshLikes": 4,
+        "knownLikeBoundary": "2092885632460660844",
+        "knownLikeBoundaryHits": 169,
+        "skippedLikes": 0,
+        "mediaRedactedLikeIds": [
+          "2093045473133437039"
+        ],
+        "analysisBeforeTodayUnique": 100,
+        "analysisRawCandidateTotal": 161,
+        "analysisAddedIds": [
+          "2093196484661620853",
+          "2093188492054642740",
+          "2093178578246434926",
+          "2093173464513569016",
+          "2093161568154575272",
+          "2093160359477817741",
+          "2093152195248279632",
+          "2093149814032925111",
+          "2093149481378459780",
+          "2093121872791580934",
+          "2093120034419995079",
+          "2093117733978468711",
+          "2093102238059434121",
+          "2093084249695965237",
+          "2093075555763540130",
+          "2093048132879990937",
+          "2093024678487175339",
+          "2093020617171984402",
+          "2093013376582722028",
+          "2093009789542404556",
+          "2093009825613664671",
+          "2092934131391013371",
+          "2093036491710586886"
+        ],
+        "selectedHomeIds": [
+          "2093196484661620853",
+          "2093188492054642740",
+          "2093178578246434926",
+          "2093173464513569016",
+          "2093161568154575272",
+          "2093160359477817741",
+          "2093152195248279632",
+          "2093149814032925111",
+          "2093149481378459780",
+          "2093121872791580934",
+          "2093120034419995079",
+          "2093117733978468711",
+          "2093102238059434121",
+          "2093084249695965237",
+          "2093075555763540130",
+          "2093048132879990937",
+          "2093024678487175339",
+          "2093020617171984402",
+          "2093013376582722028",
+          "2093009789542404556"
+        ],
+        "selectedLikeIds": [
+          "2093009825613664671",
+          "2092934131391013371",
+          "2093045473133437039",
+          "2093036491710586886"
+        ],
+        "analysisSkippedAlreadyAnalyzed": []
+      }
+    },
+    "items": [
+      {
+        "id": "2093196484661620853",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abduzeedo/status/2093196484661620853",
+        "author": "Fabio - abduzeedo",
+        "handle": "abduzeedo",
+        "datetime": "2026-08-28T04:38:26.000Z",
+        "title": "Spring & Tonic 品牌识别把结构与柔软感结合",
+        "originalSummary": "Check out the visual identity for London PR agency Spring & Tonic by Ricardo Chacoa, a project I really wanted to share for its smart balance of structure and softness. The pairing of custom serif letterforms with delicate vector botanical illustrations and ri",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「品牌识别 / Editorial 系统」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "Spring & Tonic 品牌识别把结构与柔软感结合 的价值不在热度，而在它把 品牌识别 / Editorial 系统 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [
+          {
+            "url": "https://abduzeedo.com/visual-identity-spring-tonic-ricardo-chacoa",
+            "title": "Visual Identity: Spring & Tonic by Ricardo Chacoa",
+            "access": "partial",
+            "summary": "Abduzeedo 页面明确这是 Ricardo Chacoa 为 London PR agency Spring & Tonic 做的 visual identity，并提到 botanical line illustrations 与 custom editorial typography。",
+            "whatItAdds": "补齐了项目作者、行业场景、视觉语言关键词和更多版式图像，不只是 X 上的三张预览。",
+            "value": "值得继续读，用来拆品牌系统里“结构感 + 柔软插画”的平衡。"
+          }
+        ],
+        "learningActions": [
+          "把这条内容归档到「品牌识别 / Editorial 系统」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "BRAND DESIGN",
+          "品牌识别 / Editorial 系统"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093188492054642740",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/xin_pai88825/status/2093188492054642740",
+        "author": "Paidax",
+        "handle": "xin_pai88825",
+        "datetime": "2026-08-28T04:06:40.000Z",
+        "title": "GLM 5.3 Flash 设计稿还原与 3D 网页生成测试",
+        "originalSummary": "前天智谱发布了 Glm5.3 Flash 模型，这次我觉得他是真的看得懂设计了，我丢了几张设计稿给他去还原，没想到效果意外的可以，并且还能直接生成可交互的3D 网页。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「模型评测 / 设计还原」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "GLM 5.3 Flash 设计稿还原与 3D 网页生成测试 的价值不在热度，而在它把 模型评测 / 设计还原 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把这条内容归档到「模型评测 / 设计还原」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "AI DESIGN TOOL",
+          "模型评测 / 设计还原"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093178578246434926",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/WarrenLau_/status/2093178578246434926",
+        "author": "Warren",
+        "handle": "WarrenLau_",
+        "datetime": "2026-08-28T03:27:17.000Z",
+        "title": "拦截猫上线 AI 反诈截图判断能力",
+        "originalSummary": "👋 拦截猫新功能「AI 反诈」来了 👉 这个功能从去年开始规划，今天终于和大家见面了！ 经过长期的数据积累与训练，我们终于发布了。 📱 遇到这些情况 ： • 收到奇怪的短信，不确定有没有问题？ • 陌生人让你转账、下载App、点击链接？ • 遇到没见过的「客服」「退款」「投资」等套路？ • 对方说得很真，一时间拿不准？ 任何无法确定的诈骗套路，都可以问问猫AI，也可以直接发送截图，让它帮你分析其中可能存在的风险，并提供判断参考。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「安全产品 / AI 判断」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "拦截猫上线 AI 反诈截图判断能力 的价值不在热度，而在它把 安全产品 / AI 判断 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把这条内容归档到「安全产品 / AI 判断」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "AI PRODUCT",
+          "安全产品 / AI 判断"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093173464513569016",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/immersivetran/status/2093173464513569016",
+        "author": "沉浸式翻译",
+        "handle": "immersivetran",
+        "datetime": "2026-08-28T03:06:57.000Z",
+        "title": "A Soft Murmur 用极简混音做专注环境声",
+        "originalSummary": "据研究表明，约 70 dB 左右的咖啡馆中度环境音适度增加认知阻力，能够促使大脑跳出常规联想路径，激发抽象思考。 适度的白噪音或稳定节奏的无词音乐能补足神经唤醒度的不足，反而比纯静音环境更利于聚焦。 今天要推荐的网站是 A Soft Murmur，一个免费、极简且没有多余广告的环境白噪音混合器。 与普通的白噪音音频不同，它最大的特点是支持自定义声音配比。 1️⃣多轨道环境音自由混音：网站提供了雨声（Rain）、雷声（Thunder）、海浪（Waves）、风声（Wind）、壁炉柴火声（Fire）、鸟鸣（Birds）、",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「专注工具 / 极简交互」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "A Soft Murmur 用极简混音做专注环境声 的价值不在热度，而在它把 专注工具 / 极简交互 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [
+          {
+            "url": "https://asoftmurmur.com/",
+            "title": "A Soft Murmur",
+            "access": "partial",
+            "summary": "页面定位是混合环境声以帮助专注或放松，核心价值来自多轨声音比例控制。",
+            "whatItAdds": "补齐了产品真实交互对象：不是文章，而是一个可直接操作的声音混合器。",
+            "value": "适合观察极简工具如何把单一任务做到低学习成本。"
+          }
+        ],
+        "learningActions": [
+          "把这条内容归档到「专注工具 / 极简交互」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "PRODUCTIVITY TOOL",
+          "专注工具 / 极简交互"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093161568154575272",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/vista8/status/2093161568154575272",
+        "author": "向阳乔木",
+        "handle": "vista8",
+        "datetime": "2026-08-28T02:19:41.000Z",
+        "title": "Grok Bot 更适合榜单监控与自动化测试",
+        "originalSummary": "感觉Grok Bot最佳场景之一是各种榜单监控，自动化测试。 比如让它监控Github Trend，给项目写摘要，自动安装运行给报告。 让它每天自动访问 Producthunt，发现好的产品，自动注册测试，每天9点发昨天的体验报告。 它能一直运行，登录你给的各种账号，超级的Computer Use。 群聊协作目前还没感觉到特别大的必要性。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Computer Use / 自动化监控」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "Grok Bot 更适合榜单监控与自动化测试 的价值不在热度，而在它把 Computer Use / 自动化监控 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把这条内容归档到「Computer Use / 自动化监控」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "AI AGENT",
+          "Computer Use / 自动化监控"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093160359477817741",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Lumosous/status/2093160359477817741",
+        "author": "広志",
+        "handle": "Lumosous",
+        "datetime": "2026-08-28T02:14:53.000Z",
+        "title": "CocoCut Vlog 把零散 Live Photos 自动变成 mini vlog",
+        "originalSummary": "大家好呀！ 想和大家分享一款我新做的应用：CocoCut Vlog。 一句话介绍：遇到喜欢的事物，停下来拍几秒，几天后自动变成你的专属 Vlog。 在东京生活时，我很喜欢用原生相机随手拍些日常片段，再剪成日式 mini vlog。但很快我遇到了一个痛点：拍摄没有门槛，后期整理却是噩梦——尤其隔了一周后，要从满是截图、照片、工作素材的杂乱相册里捞出当时拍的几个视频，再导入剪辑软件拼接。繁琐的整理流程，甚至开始让我抗拒拿起手机去记录。 记录生活本该是一件轻松快乐的事。 为了消除这种阻力，我做了 CocoCut： 你只需",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「创作者工具 / 自动剪辑」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "CocoCut Vlog 把零散 Live Photos 自动变成 mini vlog 的价值不在热度，而在它把 创作者工具 / 自动剪辑 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把这条内容归档到「创作者工具 / 自动剪辑」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "CREATOR APP",
+          "创作者工具 / 自动剪辑"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093152195248279632",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/yihui_indie/status/2093152195248279632",
+        "author": "Yihui",
+        "handle": "yihui_indie",
+        "datetime": "2026-08-28T01:42:26.000Z",
+        "title": "从 YouMind、OjO 到 ChatCut 讨论 Agent 产品未来",
+        "originalSummary": "从YouMind、OjO 到 ChatCut ，聊聊我认为的 Agent 产品的未来，以及普通人应该如何使用 Agent。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 产品 / 使用范式」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "从 YouMind、OjO 到 ChatCut 讨论 Agent 产品未来 的价值不在热度，而在它把 Agent 产品 / 使用范式 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把这条内容归档到「Agent 产品 / 使用范式」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "AI PRODUCT",
+          "Agent 产品 / 使用范式"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093149814032925111",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/DashHuang/status/2093149814032925111",
+        "author": "Dash",
+        "handle": "DashHuang",
+        "datetime": "2026-08-28T01:32:59.000Z",
+        "title": "游戏创作模型 Benchmark 更新斩杀线",
+        "originalSummary": "昨天新上线的两个模型在游戏创作上的表现。斩杀线又更新了。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「模型评测 / 游戏创作」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "游戏创作模型 Benchmark 更新斩杀线 的价值不在热度，而在它把 模型评测 / 游戏创作 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [
+          {
+            "url": "https://maker.taptap.cn/leaderboard/",
+            "title": "TapTap Maker Benchmark — Leaderboard",
+            "access": "partial",
+            "summary": "页面说明 TapTap Maker Benchmark 是让 AI agents 为 UrhoX 引擎写 Lua 游戏代码的确定性评测，并展示置信区间与成本。",
+            "whatItAdds": "把原帖的“斩杀线更新”落到可检查 leaderboard、成本和执行型 benchmark。",
+            "value": "适合借鉴到设计生成评测：用真实任务和可运行结果替代主观打分。"
+          }
+        ],
+        "learningActions": [
+          "把这条内容归档到「模型评测 / 游戏创作」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "AI BENCHMARK",
+          "模型评测 / 游戏创作"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093149481378459780",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/MrGafish/status/2093149481378459780",
+        "author": "Mr Gafish | 鱼哥",
+        "handle": "MrGafish",
+        "datetime": "2026-08-28T01:31:39.000Z",
+        "title": "Apodex 用洪水地图数据生成救援分析报告",
+        "originalSummary": "这次西藏和尼泊尔边境上的这场突发洪灾真的让人震惊，刚好看到 Planet Labs 公开了他们关于这次遇灾地区的最新地图数据集 @planet，我就想能不能用最近刚上线的 Apodex 1.1 来把这个数据集做一个分析并生成一份可供救灾一线人员使用的报告，于是就有了下面这份分析过程和报告。 当我们把这条紧急任务完整跑一遍时，真正值得记住的，是它如何把数据变成可执行的动作。这次的任务输入是一场真实的尼泊尔边境河道溃决洪水（博特科西—特里苏利），输入是一份开放的灾后影像数据集，目标是为六类前线队伍产出一份应急行动版防灾",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「重型研究 agent / 灾害数据」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "Apodex 用洪水地图数据生成救援分析报告 的价值不在热度，而在它把 重型研究 agent / 灾害数据 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.apodex.ai/share/cccae5ec-a410-465d-bfe8-e33530ae0d48",
+            "title": "洪水灾害数据分析与前线救援指南 | Apodex",
+            "access": "partial",
+            "summary": "分享页标题为洪水灾害数据分析与前线救援指南，描述里引用 Planet Labs 开放灾害数据作为输入。",
+            "whatItAdds": "提供了原帖之外的实际报告页面、数据来源和救援使用场景。",
+            "value": "值得复盘 agent 报告如何标注来源、风险和一线执行动作。"
+          },
+          {
+            "url": "https://apodex.ai",
+            "title": "Apodex | Self-Evolving Heavy-Duty Solver",
+            "access": "partial",
+            "summary": "Apodex 官方页定位为 Self-Evolving Heavy-Duty Solver，强调 deep research 与每一步检查。",
+            "whatItAdds": "补齐产品定位，说明它不是普通聊天工具，而是面向重型问题的可验证研究流程。",
+            "value": "可作为研究型 agent 产品的信息架构参考。"
+          }
+        ],
+        "learningActions": [
+          "把这条内容归档到「重型研究 agent / 灾害数据」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "AI AGENT",
+          "重型研究 agent / 灾害数据"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093121872791580934",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Flomerboy/status/2093121872791580934",
+        "author": "Ryan Mather",
+        "handle": "Flomerboy",
+        "datetime": "2026-08-27T23:41:57.000Z",
+        "title": "Anthropic 预览 Model Hardware Standard",
+        "originalSummary": "stoked about this",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 安全 / 硬件接口」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "Anthropic 预览 Model Hardware Standard 的价值不在热度，而在它把 Agent 安全 / 硬件接口 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+            "title": "Previewing the Model Hardware Standard \\ Anthropic",
+            "access": "partial",
+            "summary": "Anthropic 页面说明 MHS 是让 AI agents 安全操作物理设备的共享 specification research preview。",
+            "whatItAdds": "补齐官方背景：硬件操作标准、研究预览和安全接口边界。",
+            "value": "值得继续读，尤其是 agent 权限、物理世界风险和人工监督设计。"
+          }
+        ],
+        "learningActions": [
+          "把这条内容归档到「Agent 安全 / 硬件接口」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "AI SAFETY",
+          "Agent 安全 / 硬件接口"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093120034419995079",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/hwwaanng/status/2093120034419995079",
+        "author": "Hwang",
+        "handle": "hwwaanng",
+        "datetime": "2026-08-27T23:34:39.000Z",
+        "title": "Codex 广告牌用克制视觉建立工程感",
+        "originalSummary": "Codex 的广告牌，味道很对",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「AI 品牌 / 户外视觉」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "Codex 广告牌用克制视觉建立工程感 的价值不在热度，而在它把 AI 品牌 / 户外视觉 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把这条内容归档到「AI 品牌 / 户外视觉」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "BRAND DESIGN",
+          "AI 品牌 / 户外视觉"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093117733978468711",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/jojodecayz/status/2093117733978468711",
+        "author": "JO. Z",
+        "handle": "jojodecayz",
+        "datetime": "2026-08-27T23:25:30.000Z",
+        "title": "ComfyUI 获 MiniMax 开源媒体模型商业分发许可",
+        "originalSummary": "I will always prefer the effort to allow people to use open weights.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「开源模型 / 创意工作流」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "ComfyUI 获 MiniMax 开源媒体模型商业分发许可 的价值不在热度，而在它把 开源模型 / 创意工作流 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把这条内容归档到「开源模型 / 创意工作流」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "AI CREATIVE TOOL",
+          "开源模型 / 创意工作流"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093102238059434121",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abduzeedo/status/2093102238059434121",
+        "author": "Fabio - abduzeedo",
+        "handle": "abduzeedo",
+        "datetime": "2026-08-27T22:23:56.000Z",
+        "title": "Maria RM 把饼干浮雕转成可变字体系统",
+        "originalSummary": "Featuring Maria RM by Rui Marques. We selected this project because of how brilliantly it turns everyday nostalgia into a modern design tool. Rui took the relief letters stamped on the classic Maria biscuit and expanded them into a full variable typeface, usin",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「字体设计 / 物件转译」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "Maria RM 把饼干浮雕转成可变字体系统 的价值不在热度，而在它把 字体设计 / 物件转译 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [
+          {
+            "url": "https://abduzeedo.com/maria-rm-variable-typeface-biscuit-lettering-display-craft",
+            "title": "Maria RM Variable Typeface: Biscuit Lettering to Display Craft",
+            "access": "partial",
+            "summary": "Abduzeedo 页面说明 Rui Marques 的 Maria RM 是受 Maria biscuit 浮雕字启发的 expressive variable typeface。",
+            "whatItAdds": "补齐字形来源、variable serif 的设计方向和更完整视觉样张。",
+            "value": "适合做字体灵感到系统化字形设计的拆解练习。"
+          }
+        ],
+        "learningActions": [
+          "把这条内容归档到「字体设计 / 物件转译」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "TYPE DESIGN",
+          "字体设计 / 物件转译"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093084249695965237",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/agentnative_/status/2093084249695965237",
+        "author": "Agent Native",
+        "handle": "agentnative_",
+        "datetime": "2026-08-27T21:12:27.000Z",
+        "title": "Cursor 从生成网页扩展到 Origin 存储和 Vercel 部署",
+        "originalSummary": "Not Just Grokbot… Cursor is also evolving.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「AI Coding / 发布链路」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "Cursor 从生成网页扩展到 Origin 存储和 Vercel 部署 的价值不在热度，而在它把 AI Coding / 发布链路 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把这条内容归档到「AI Coding / 发布链路」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "AI CODING",
+          "AI Coding / 发布链路"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093075555763540130",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/kevinkern/status/2093075555763540130",
+        "author": "Kevin Kern",
+        "handle": "kevinkern",
+        "datetime": "2026-08-27T20:37:54.000Z",
+        "title": "Blender authoring skills 输出到 Unity playable build",
+        "originalSummary": "Worked this week on the \"blender-to-unity\" pipeline. scenes are built using blender authoring skills, then exported to unity as playable builds. still slop, but making progress.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「3D 管线 / Skill 到 Runtime」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "Blender authoring skills 输出到 Unity playable build 的价值不在热度，而在它把 3D 管线 / Skill 到 Runtime 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把这条内容归档到「3D 管线 / Skill 到 Runtime」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "DESIGN ENGINEERING",
+          "3D 管线 / Skill 到 Runtime"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093048132879990937",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/framer/status/2093048132879990937",
+        "author": "Framer",
+        "handle": "framer",
+        "datetime": "2026-08-27T18:48:56.000Z",
+        "title": "Framer 展示小团队 agency 的高完成度交付",
+        "originalSummary": "Meet @TrueformCo, a Swiss agency of top-notch Framer Creators. Co-founders @cedric_design and Sam, alongside engineering lead Dominik, have worked with companies like Miro, Bilt, and more, proving what a small team can accomplish with Framer",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Framer / 小团队交付」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "Framer 展示小团队 agency 的高完成度交付 的价值不在热度，而在它把 Framer / 小团队交付 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把这条内容归档到「Framer / 小团队交付」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "WEB DESIGN",
+          "Framer / 小团队交付"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093024678487175339",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/johnbai/status/2093024678487175339",
+        "author": "John Bai",
+        "handle": "johnbai",
+        "datetime": "2026-08-27T17:15:44.000Z",
+        "title": "Bot village 把 agent 工作状态拟物化成小岛",
+        "originalSummary": "If nobody stops me I just might push my bot village to prod",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 状态 / 空间可视化」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "Bot village 把 agent 工作状态拟物化成小岛 的价值不在热度，而在它把 Agent 状态 / 空间可视化 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把这条内容归档到「Agent 状态 / 空间可视化」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "AI AGENT UX",
+          "Agent 状态 / 空间可视化"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093020617171984402",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/jshguo/status/2093020617171984402",
+        "author": "Joshua Guo",
+        "handle": "jshguo",
+        "datetime": "2026-08-27T16:59:36.000Z",
+        "title": "Vercel 开源面向 agent 的 WebGPU 库 vgpu",
+        "originalSummary": "Beautiful",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「WebGPU / Agent-first 图形」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "Vercel 开源面向 agent 的 WebGPU 库 vgpu 的价值不在热度，而在它把 WebGPU / Agent-first 图形 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [
+          {
+            "url": "https://vgpu.sh",
+            "title": "vgpu",
+            "access": "partial",
+            "summary": "vgpu 页面定位为 The WebGPU library, designed for agents。",
+            "whatItAdds": "验证了原帖中的 agent-first WebGPU 叙事，并给出产品入口。",
+            "value": "可用于研究 AI 生成视觉和图形测试如何进入工程基础设施。"
+          },
+          {
+            "url": "https://vercel.com",
+            "title": "Agentic Infrastructure - Vercel",
+            "access": "partial",
+            "summary": "Vercel 首页定位为 Agentic Infrastructure，强调 app 与 agent 的自治堆栈。",
+            "whatItAdds": "补齐 vgpu 所在的 Vercel 基础设施叙事。",
+            "value": "用于判断图形库、部署平台和 agent 工作流是否正在合流。"
+          }
+        ],
+        "learningActions": [
+          "把这条内容归档到「WebGPU / Agent-first 图形」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "WEB GRAPHICS",
+          "WebGPU / Agent-first 图形"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093013376582722028",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Laure_Michelon/status/2093013376582722028",
+        "author": "Laure Michelon",
+        "handle": "Laure_Michelon",
+        "datetime": "2026-08-27T16:30:49.000Z",
+        "title": "Fuser 应用让 Dieter Rams 判断物件设计",
+        "originalSummary": "Made an app in @fuserstudio that puts object designs in front of Dieter Rams for judgment",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「AI 设计评审 / 设计原则」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "Fuser 应用让 Dieter Rams 判断物件设计 的价值不在热度，而在它把 AI 设计评审 / 设计原则 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把这条内容归档到「AI 设计评审 / 设计原则」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "AI DESIGN TOOL",
+          "AI 设计评审 / 设计原则"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093009789542404556",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Emojipedia/status/2093009789542404556",
+        "author": "Emojipedia",
+        "handle": "Emojipedia",
+        "datetime": "2026-08-27T16:16:34.000Z",
+        "title": "Emojipedia 对比 Samsung Loudly Crying Face 十年演变",
+        "originalSummary": "😭 Loudly Crying Face on Samsung devices #2016vs2026 https://emojipedia.org/loudly-crying-face#designs",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「图标设计 / Emoji 演化」的高信号样本，能转成个人设计师的观察、拆解或实现练习。",
+        "deepSummary": "Emojipedia 对比 Samsung Loudly Crying Face 十年演变 的价值不在热度，而在它把 图标设计 / Emoji 演化 放进了可观察的真实发布语境。对个人设计师和设计工程师来说，应重点复盘它的界面结构、证据链、工作流或视觉系统，而不是只保存截图。",
+        "linkAnalysis": [
+          {
+            "url": "https://emojipedia.org/loudly-crying-face#designs",
+            "title": "😭 Loudly Crying Face Emoji | Meaning, Copy And Paste",
+            "access": "partial",
+            "summary": "Emojipedia 页面解释 Loudly Crying Face 的语义，并提供不同平台设计演变入口。",
+            "whatItAdds": "把 X 的一张对比图扩展为可查的跨平台 emoji 设计档案。",
+            "value": "适合做小图标语义、平台差异和时间演进分析。"
+          }
+        ],
+        "learningActions": [
+          "把这条内容归档到「图标设计 / Emoji 演化」，写下可复用的设计判断。",
+          "截取一个关键界面或视觉细节，标注它解决的问题和限制。",
+          "如果涉及工具或模型，补一个最小复现实验，验证原帖主张是否能转成自己的流程。"
+        ],
+        "tags": [
+          "Home",
+          "ICON DESIGN",
+          "图标设计 / Emoji 演化"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093009825613664671",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/jiangding01/status/2093009825613664671",
+        "author": "一页繁华",
+        "handle": "jiangding01",
+        "datetime": "2026-08-27T16:16:43.000Z",
+        "title": "收藏：@yyyole 我让GPT去找，他说大概率是这个项目 https://github.",
+        "originalSummary": "@yyyole 我让GPT去找，他说大概率是这个项目 https://github.com/brownhci/Remotion 另外还可以参考这个项目：CristianOlivera1/openvid",
+        "whySaved": "你会收藏它，是因为它提供了「手机动效录屏 / Demo 工具」的可观察线索，能服务产品演示、AI 视频或设计工程方法的后续复盘。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本轮只分析有学习价值且未历史分析的 Like。",
+        "deepSummary": "这条收藏的价值是把 手机动效录屏 / Demo 工具 从泛灵感变成可执行学习对象：看它如何表达问题、展示过程、连接开源项目或暴露创作成本。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/brownhci/Remotion",
+            "title": "GitHub - brownhci/Remotion: Remotion is an open-source platform that visualizes smartphone user movements · GitHub",
+            "access": "partial",
+            "summary": "GitHub 页面说明 Remotion 是 visualizes smartphone user movements 的 open-source platform。",
+            "whatItAdds": "补齐了手机运动可视化方案的真实开源项目名、结构和用途。",
+            "value": "适合参考手机 UI/功能演示中的运动数据同步和屏幕投射。"
+          },
+          {
+            "url": "https://github.com/CristianOlivera1/openvid",
+            "title": "GitHub - CristianOlivera1/openvid: Create professional demos and 3D mockups in seconds, directly in your browser · GitHub",
+            "access": "partial",
+            "summary": "GitHub 页面说明 openvid 可在浏览器中快速创建 professional demos and 3D mockups。",
+            "whatItAdds": "补充了同类产品演示工具的实现入口，可和 Remotion 对比。",
+            "value": "适合评估本地 UI demo、3D mockup 和录屏生产工具链。"
+          }
+        ],
+        "learningActions": [
+          "记录它触发收藏的具体原因，并归入「手机动效录屏 / Demo 工具」。",
+          "把原帖中可复用的方法拆成一个小练习。",
+          "若有链接，继续读实现或产品页，判断是否值得纳入个人工具链。"
+        ],
+        "tags": [
+          "Like",
+          "设计工程",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092934131391013371",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/yyyole/status/2092934131391013371",
+        "author": "沐阳",
+        "handle": "yyyole",
+        "datetime": "2026-08-27T11:15:56.000Z",
+        "title": "收藏：最近看到很多人都在Vibe类似的工具！ 倒不难，就是实时同步手机陀螺仪数据和屏幕显示",
+        "originalSummary": "最近看到很多人都在Vibe类似的工具！ 倒不难，就是实时同步手机陀螺仪数据和屏幕显示。很适合用来做产品UI或者功能演示的3D录屏！ 不过我记得有一个差不多的开源项目，忘记叫啥了，我找找分享出来。",
+        "whySaved": "你会收藏它，是因为它提供了「产品 UI 演示 / 3D 录屏」的可观察线索，能服务产品演示、AI 视频或设计工程方法的后续复盘。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本轮只分析有学习价值且未历史分析的 Like。",
+        "deepSummary": "这条收藏的价值是把 产品 UI 演示 / 3D 录屏 从泛灵感变成可执行学习对象：看它如何表达问题、展示过程、连接开源项目或暴露创作成本。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录它触发收藏的具体原因，并归入「产品 UI 演示 / 3D 录屏」。",
+          "把原帖中可复用的方法拆成一个小练习。",
+          "若有链接，继续读实现或产品页，判断是否值得纳入个人工具链。"
+        ],
+        "tags": [
+          "Like",
+          "产品演示",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093036491710586886",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/AI_Jasonyu/status/2093036491710586886",
+        "author": "鱼总聊AI",
+        "handle": "AI_Jasonyu",
+        "datetime": "2026-08-27T18:02:41.000Z",
+        "title": "收藏：行了，也确实是第一次为了一个男人熬夜、买token、做片。 五分钟，花了我不少钱，大",
+        "originalSummary": "行了，也确实是第一次为了一个男人熬夜、买token、做片。 五分钟，花了我不少钱，大家别吃文字版的瓜了，视频给你们准备好了～ 孙割，你这新概念作文一等奖真不是盖的，你这故事后面拍电影必火，一定要找我合作🤝",
+        "whySaved": "你会收藏它，是因为它提供了「AI 视频传播 / 成本信号」的可观察线索，能服务产品演示、AI 视频或设计工程方法的后续复盘。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；本轮只分析有学习价值且未历史分析的 Like。",
+        "deepSummary": "这条收藏的价值是把 AI 视频传播 / 成本信号 从泛灵感变成可执行学习对象：看它如何表达问题、展示过程、连接开源项目或暴露创作成本。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录它触发收藏的具体原因，并归入「AI 视频传播 / 成本信号」。",
+          "把原帖中可复用的方法拆成一个小练习。",
+          "若有链接，继续读实现或产品页，判断是否值得纳入个人工具链。"
+        ],
+        "tags": [
+          "Like",
+          "AI视频",
+          "media:video"
+        ],
+        "priority": "medium"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-28",
     "generatedAt": "2026-08-28T08:17:00+08:00",
     "batch": "x-ai-design-analysis-2026-08-28-0817",
     "analysisCount": 100,

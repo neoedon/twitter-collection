@@ -1,6 +1,596 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "BRAND DESIGN",
+    "datetime": "2026-08-28T04:38:26.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "Spring & Tonic 品牌识别把结构与柔软感结合",
+    "summary": "我会帮你抓取它，因为 Fabio 展示了一个既有编辑感字体又有植物线稿的品牌系统案例。对个人设计师来说，重点是学习如何用少量图形语言、色调和版式节奏支撑完整视觉识别。",
+    "url": "https://x.com/abduzeedo/status/2093196484661620853",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQyG_mgakAAr7PQ.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQyHCu1bEAAQQQE.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQyHFKcbQAA2o-M.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 161 VIEWS",
+    "links": [
+      "https://abduzeedo.com/visual-identity-spring-tonic-ricardo-chacoa"
+    ],
+    "_analysisTheme": "品牌识别 / Editorial 系统",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Visual Identity: Spring & Tonic by Ricardo Chacoa",
+      "preview": "Abduzeedo 页面明确这是 Ricardo Chacoa 为 London PR agency Spring & Tonic 做的 visual identity，并提到 botanical line illustrations 与 custom editorial typography。",
+      "cover": "",
+      "url": "https://abduzeedo.com/visual-identity-spring-tonic-ricardo-chacoa"
+    }
+  },
+  {
+    "category": "AI DESIGN TOOL",
+    "datetime": "2026-08-28T04:06:40.000Z",
+    "author": "Paidax",
+    "handle": "xin_pai88825",
+    "avatar": "https://pbs.twimg.com/profile_images/1747877404532776960/uUTVQ-2P_200x200.jpg",
+    "title": "GLM 5.3 Flash 设计稿还原与 3D 网页生成测试",
+    "summary": "我会帮你抓取它，因为它直接展示国产模型对设计稿理解、还原和交互式 3D 页面生成的进展。对设计工程师来说，重点是把模型输出拆成视觉还原、布局稳定性和交互可用性三项验证。",
+    "url": "https://x.com/xin_pai88825/status/2093188492054642740",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093184665654079488/vid/avc1/480x640/YrkQJjc2_p4KAi-F.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093184665654079488/img/W8ZLs9ToIlOuOr5u.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 375 VIEWS",
+    "links": [],
+    "_analysisTheme": "模型评测 / 设计还原",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-28T03:27:17.000Z",
+    "author": "Warren",
+    "handle": "WarrenLau_",
+    "avatar": "https://pbs.twimg.com/profile_images/1908160416741728258/cJEziyxO_200x200.jpg",
+    "title": "拦截猫上线 AI 反诈截图判断能力",
+    "summary": "我会帮你抓取它，因为它把 AI 能力放进高风险生活场景，不是聊天噱头，而是截图识别、风险解释和行动建议。对产品设计来说，重点是学习安全类 AI 功能如何建立信任、证据和误判边界。",
+    "url": "https://x.com/WarrenLau_/status/2093178578246434926",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQx2fvGWEAA41Em.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQx2gkiWoAANXAw.jpg?name=orig"
+      }
+    ],
+    "metrics": "3 REPLIES · 1 REPOSTS · 2 LIKES · 0 BOOKMARKS · 376 VIEWS",
+    "links": [],
+    "_analysisTheme": "安全产品 / AI 判断",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCTIVITY TOOL",
+    "datetime": "2026-08-28T03:06:57.000Z",
+    "author": "沉浸式翻译",
+    "handle": "immersivetran",
+    "avatar": "https://pbs.twimg.com/profile_images/2014635262534680578/668bCwx8_200x200.jpg",
+    "title": "A Soft Murmur 用极简混音做专注环境声",
+    "summary": "我会帮你抓取它，因为它是低复杂度、高可感知价值的工具型界面：声音轨道、配比和即时反馈构成主要体验。对个人设计师来说，重点是观察如何用少控件完成沉浸式专注产品。",
+    "url": "https://x.com/immersivetran/status/2093173464513569016",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093173341293252608/vid/avc1/636x360/pH21qJ6J2g2IzsMS.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093173341293252608/img/BYcVJzxrUwCAWXd6.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 10 LIKES · 17 BOOKMARKS · 1379 VIEWS",
+    "links": [
+      "https://asoftmurmur.com/"
+    ],
+    "_analysisTheme": "专注工具 / 极简交互",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "A Soft Murmur",
+      "preview": "页面定位是混合环境声以帮助专注或放松，核心价值来自多轨声音比例控制。",
+      "cover": "",
+      "url": "https://asoftmurmur.com/"
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-28T02:19:41.000Z",
+    "author": "向阳乔木",
+    "handle": "vista8",
+    "avatar": "https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_200x200.jpg",
+    "title": "Grok Bot 更适合榜单监控与自动化测试",
+    "summary": "我会帮你抓取它，因为它把 Computer Use agent 的价值落在日常监控、自动安装运行和体验报告，而不只是群聊协作。对设计工程师来说，重点是为长任务设计权限、状态、证据和失败回读。",
+    "url": "https://x.com/vista8/status/2093161568154575272",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQxmzt7bwAABO9c.jpg?name=orig"
+      }
+    ],
+    "metrics": "3 REPLIES · 0 REPOSTS · 9 LIKES · 15 BOOKMARKS · 2834 VIEWS",
+    "links": [],
+    "_analysisTheme": "Computer Use / 自动化监控",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "CREATOR APP",
+    "datetime": "2026-08-28T02:14:53.000Z",
+    "author": "広志",
+    "handle": "Lumosous",
+    "avatar": "https://pbs.twimg.com/profile_images/1684165489227100161/Gr6G9wHS_200x200.jpg",
+    "title": "CocoCut Vlog 把零散 Live Photos 自动变成 mini vlog",
+    "summary": "我会帮你抓取它，因为它解决的是创作者真实痛点：拍摄容易，整理和剪辑困难。对个人设计师来说，重点是拆解相册输入、时间延迟、自动筛选和最终成片之间的体验闭环。",
+    "url": "https://x.com/Lumosous/status/2093160359477817741",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQxmDYzbAAAGNu3.jpg?name=orig"
+      }
+    ],
+    "metrics": "8 REPLIES · 2 REPOSTS · 26 LIKES · 12 BOOKMARKS · 2834 VIEWS",
+    "links": [],
+    "_analysisTheme": "创作者工具 / 自动剪辑",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-28T01:42:26.000Z",
+    "author": "Yihui",
+    "handle": "yihui_indie",
+    "avatar": "https://pbs.twimg.com/profile_images/1804848821702377472/fSfFlGTf_200x200.jpg",
+    "title": "从 YouMind、OjO 到 ChatCut 讨论 Agent 产品未来",
+    "summary": "我会帮你抓取它，因为它把多个 Agent 产品放在同一趋势里比较：普通人如何把 agent 用成信息整理、研究和创作工具。对个人设计师来说，重点是提炼 agent 产品的入口、记忆、执行和输出形态。",
+    "url": "https://x.com/yihui_indie/status/2093152195248279632",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093149396137582592/vid/avc1/640x360/pvKvX_Ys5FLpckel.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093149396137582592/img/08LlIjLJ2y0I9x6d.jpg"
+      }
+    ],
+    "metrics": "9 REPLIES · 5 REPOSTS · 33 LIKES · 34 BOOKMARKS · 8929 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent 产品 / 使用范式",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI BENCHMARK",
+    "datetime": "2026-08-28T01:32:59.000Z",
+    "author": "Dash",
+    "handle": "DashHuang",
+    "avatar": "https://pbs.twimg.com/profile_images/1126525862537351169/xJVtWSnu_200x200.jpg",
+    "title": "游戏创作模型 Benchmark 更新斩杀线",
+    "summary": "我会帮你抓取它，因为 TapTap Maker Benchmark 把模型能力放进可执行游戏任务，而不是只看文本分数。对设计工程师来说，重点是学习如何用真实引擎结果、成本和置信区间评价生成式能力。",
+    "url": "https://x.com/DashHuang/status/2093149814032925111",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQxcZAaakAAmcdv.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQxcapTaoAA6OXN.jpg?name=orig"
+      }
+    ],
+    "metrics": "12 REPLIES · 1 REPOSTS · 31 LIKES · 16 BOOKMARKS · 12131 VIEWS",
+    "links": [
+      "https://maker.taptap.cn/leaderboard/"
+    ],
+    "_analysisTheme": "模型评测 / 游戏创作",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "TapTap Maker Benchmark — Leaderboard",
+      "preview": "页面说明 TapTap Maker Benchmark 是让 AI agents 为 UrhoX 引擎写 Lua 游戏代码的确定性评测，并展示置信区间与成本。",
+      "cover": "",
+      "url": "https://maker.taptap.cn/leaderboard/"
+    },
+    "quote": {
+      "label": "引用原帖",
+      "author": "Dash",
+      "handle": "DashHuang",
+      "avatar": "https://pbs.twimg.com/profile_images/1126525862537351169/xJVtWSnu_200x200.jpg",
+      "text": "今天我们还公布了一个全新的，基于游戏研发这一特定场景的 Benchmark 榜单，既能让大家看到不同的模型在游戏创作能力上的差别，也能看到平均每任务的成本差别。\nhttps://maker.taptap.cn/leaderboard/",
+      "url": "https://x.com/DashHuang/status/2081253322657513921",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HOIXUBrbYAAbCvV.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HOIXZWnagAA1m1h.jpg?name=orig"
+        }
+      ]
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-28T01:31:39.000Z",
+    "author": "Mr Gafish | 鱼哥",
+    "handle": "MrGafish",
+    "avatar": "https://pbs.twimg.com/profile_images/1888247810040152064/mwSBtOtn_200x200.jpg",
+    "title": "Apodex 用洪水地图数据生成救援分析报告",
+    "summary": "我会帮你抓取它，因为它展示了 agent 从公开灾害数据到结构化报告和前线行动建议的完整链路。对设计工程师来说，重点是研究数据来源、推理过程、风险提示和可执行输出如何呈现。",
+    "url": "https://x.com/MrGafish/status/2093149481378459780",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQxbggjboAADHj0.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQxbja9bMAAQn_h.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQxbqKIbYAAYLss.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQxbv_QasAAuhIZ.jpg?name=orig"
+      }
+    ],
+    "metrics": "20 REPLIES · 1 REPOSTS · 16 LIKES · 11 BOOKMARKS · 1904 VIEWS",
+    "links": [
+      "https://www.apodex.ai/share/cccae5ec-a410-465d-bfe8-e33530ae0d48",
+      "https://apodex.ai"
+    ],
+    "_analysisTheme": "重型研究 agent / 灾害数据",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "洪水灾害数据分析与前线救援指南 | Apodex",
+      "preview": "分享页标题为洪水灾害数据分析与前线救援指南，描述里引用 Planet Labs 开放灾害数据作为输入。",
+      "cover": "",
+      "url": "https://www.apodex.ai/share/cccae5ec-a410-465d-bfe8-e33530ae0d48"
+    }
+  },
+  {
+    "category": "AI SAFETY",
+    "datetime": "2026-08-27T23:41:57.000Z",
+    "author": "Ryan Mather",
+    "handle": "Flomerboy",
+    "avatar": "https://pbs.twimg.com/profile_images/2074320565901418496/gAS1FCqj_200x200.jpg",
+    "title": "Anthropic 预览 Model Hardware Standard",
+    "summary": "我会帮你抓取它，因为 MHS 关注 AI agent 操作物理设备时的安全标准和接口规范。对设计工程师来说，重点是理解 agent 从软件界面走向实体控制后，权限、验证和人工介入如何成为核心设计对象。",
+    "url": "https://x.com/Flomerboy/status/2093121872791580934",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 7 LIKES · 0 BOOKMARKS · 1014 VIEWS",
+    "links": [
+      "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+    ],
+    "_analysisTheme": "Agent 安全 / 硬件接口",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Previewing the Model Hardware Standard \\ Anthropic",
+      "preview": "Anthropic 页面说明 MHS 是让 AI agents 安全操作物理设备的共享 specification research preview。",
+      "cover": "",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+    },
+    "quote": {
+      "label": "引用原帖",
+      "author": "Anthropic",
+      "handle": "AnthropicAI",
+      "avatar": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_200x200.jpg",
+      "text": "Today, we're kicking off the first phase of the research preview for Model Hardware Standard (MHS): a new standard for AI agents to safely operate physical equipment in scientific research and advanced manufacturing. \n\nRead more: https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "url": "https://x.com/AnthropicAI/status/2093038426140651791",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2093037958257610752/vid/avc1/524x360/Fdn9qSvZYj_Vat-1.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/media/HQwLzwAbkAEQf1S.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "category": "BRAND DESIGN",
+    "datetime": "2026-08-27T23:34:39.000Z",
+    "author": "Hwang",
+    "handle": "hwwaanng",
+    "avatar": "https://pbs.twimg.com/profile_images/1361512556930600969/LBwP2_YZ_200x200.jpg",
+    "title": "Codex 广告牌用克制视觉建立工程感",
+    "summary": "我会帮你抓取它，因为它是 AI coding 产品如何在户外媒介里建立品牌气质的样本。对个人设计师来说，重点是观察字体、留白、短句和物理场景如何服务“可信赖工具”而不是热闹营销。",
+    "url": "https://x.com/hwwaanng/status/2093120034419995079",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQxBk5VaEAAorm0.jpg?name=orig"
+      }
+    ],
+    "metrics": "3 REPLIES · 0 REPOSTS · 21 LIKES · 4 BOOKMARKS · 1836 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 品牌 / 户外视觉",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI CREATIVE TOOL",
+    "datetime": "2026-08-27T23:25:30.000Z",
+    "author": "JO. Z",
+    "handle": "jojodecayz",
+    "avatar": "https://pbs.twimg.com/profile_images/1969346874542080006/XJ3DEDxr_200x200.jpg",
+    "title": "ComfyUI 获 MiniMax 开源媒体模型商业分发许可",
+    "summary": "我会帮你抓取它，因为开源权重和商业许可会直接影响创意工具生态。对设计师来说，重点是判断模型开放度、授权边界和工具集成会怎样改变视频、图像和节点式工作流。",
+    "url": "https://x.com/jojodecayz/status/2093117733978468711",
+    "media": [],
+    "metrics": "0 REPLIES · 0 REPOSTS · 15 LIKES · 3 BOOKMARKS · 1472 VIEWS",
+    "links": [],
+    "_analysisTheme": "开源模型 / 创意工作流",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "ComfyUI",
+      "handle": "ComfyUI",
+      "avatar": "https://pbs.twimg.com/profile_images/2047708517570887680/vasvAmZR_200x200.jpg",
+      "text": "Today, we're announcing that Comfy is the first and only commercial license distributor for @MiniMax_AI's generative media models.\n\nMiniMax open weight models have been downloaded through Comfy close to 20M times.\n\nNow you can license them for commercial work.\n\n→ Full commercial rights to your outputs\n→ Fine-tuning and LoRA training, fully allowed\n→ Client and agency projects covered\n→ MiniMax Audio & Music, not just video\n\nProfessional and Enterprise plans, with Enterprise covering every H3 model version.\n\nRequest a license with the link below today ⬇️",
+      "url": "https://x.com/ComfyUI/status/2093100726415507859",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2093100694870114304/vid/avc1/640x360/URvlEFXhNLPnLltw.mp4?tag=14",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2093100694870114304/img/T_DSDwKOfhmSMyv8.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "category": "TYPE DESIGN",
+    "datetime": "2026-08-27T22:23:56.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "Maria RM 把饼干浮雕转成可变字体系统",
+    "summary": "我会帮你抓取它，因为这是从日常物件抽取字体特征并扩展成 display typeface 的清晰案例。对个人设计师来说，重点是拆解参考物、字形骨架、可变轴和应用版式如何互相支撑。",
+    "url": "https://x.com/abduzeedo/status/2093102238059434121",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQwxY4KbsAAwm5t.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQwxZBXbUAAsBn7.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQwxZLBbkAAEntb.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 5 REPOSTS · 43 LIKES · 13 BOOKMARKS · 2373 VIEWS",
+    "links": [
+      "https://abduzeedo.com/maria-rm-variable-typeface-biscuit-lettering-display-craft"
+    ],
+    "_analysisTheme": "字体设计 / 物件转译",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Maria RM Variable Typeface: Biscuit Lettering to Display Craft",
+      "preview": "Abduzeedo 页面说明 Rui Marques 的 Maria RM 是受 Maria biscuit 浮雕字启发的 expressive variable typeface。",
+      "cover": "",
+      "url": "https://abduzeedo.com/maria-rm-variable-typeface-biscuit-lettering-display-craft"
+    }
+  },
+  {
+    "category": "AI CODING",
+    "datetime": "2026-08-27T21:12:27.000Z",
+    "author": "Agent Native",
+    "handle": "agentnative_",
+    "avatar": "https://pbs.twimg.com/profile_images/2083367799150317569/19pGI7Pd_200x200.jpg",
+    "title": "Cursor 从生成网页扩展到 Origin 存储和 Vercel 部署",
+    "summary": "我会帮你抓取它，因为它说明 AI coding 工具正在从编辑器内补全走向生成、托管和发布链路。对设计工程师来说，重点是思考代码生成结果如何进入版本、部署、预览和协作流程。",
+    "url": "https://x.com/agentnative_/status/2093084249695965237",
+    "media": [],
+    "metrics": "1 REPLIES · 5 REPOSTS · 107 LIKES · 33 BOOKMARKS · 13555 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Coding / 发布链路",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Cursor",
+      "handle": "cursor_ai",
+      "avatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_200x200.jpg",
+      "text": "You can now create new web apps with Cursor, store the code with Origin, and deploy to Vercel.",
+      "url": "https://x.com/cursor_ai/status/2093077548649570777",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2093077313680515072/vid/avc1/640x360/bB7NS0XOaXY-wbaB.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2093077313680515072/img/B6glgi6wP3QskwB2.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-27T20:37:54.000Z",
+    "author": "Kevin Kern",
+    "handle": "kevinkern",
+    "avatar": "https://pbs.twimg.com/profile_images/1849574174785732608/ltlLcyaT_200x200.jpg",
+    "title": "Blender authoring skills 输出到 Unity playable build",
+    "summary": "我会帮你抓取它，因为它把 3D 创作 skill、Blender 场景和 Unity 可玩构建串成了一条自动化管线。对设计工程师来说，重点是研究 3D 资产从生成到可交互运行时的接口和质量门槛。",
+    "url": "https://x.com/kevinkern/status/2093075555763540130",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093071942215434240/vid/avc1/640x360/rMaLwAr-CkM4VM9e.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093071942215434240/img/tWUabfrlpYCES1z4.jpg"
+      }
+    ],
+    "metrics": "2 REPLIES · 0 REPOSTS · 9 LIKES · 1 BOOKMARKS · 1071 VIEWS",
+    "links": [],
+    "_analysisTheme": "3D 管线 / Skill 到 Runtime",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "WEB DESIGN",
+    "datetime": "2026-08-27T18:48:56.000Z",
+    "author": "Framer",
+    "handle": "framer",
+    "avatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW_200x200.jpg",
+    "title": "Framer 展示小团队 agency 的高完成度交付",
+    "summary": "我会帮你抓取它，因为 Trueform 案例强调小型设计工程团队如何用 Framer 承接高质量网站项目。对个人设计师来说，重点是学习作品集、模板、工程支持和客户案例如何形成可信的服务叙事。",
+    "url": "https://x.com/framer/status/2093048132879990937",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093048066479976448/vid/avc1/640x360/t-JUsfcoEigF1Wum.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093048066479976448/img/UMtw_M9-88LlkHEu.jpg"
+      }
+    ],
+    "metrics": "6 REPLIES · 3 REPOSTS · 47 LIKES · 6 BOOKMARKS · 4490 VIEWS",
+    "links": [],
+    "_analysisTheme": "Framer / 小团队交付",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI AGENT UX",
+    "datetime": "2026-08-27T17:15:44.000Z",
+    "author": "John Bai",
+    "handle": "johnbai",
+    "avatar": "https://pbs.twimg.com/profile_images/2028332477136470016/hoMb1xtf_200x200.jpg",
+    "title": "Bot village 把 agent 工作状态拟物化成小岛",
+    "summary": "我会帮你抓取它，因为它把多个 bot 的工作、休息和历史状态可视化成空间场景。对设计师来说，重点是研究长任务 agent 的可见性、情绪反馈和状态聚合可以如何从列表转成环境式界面。",
+    "url": "https://x.com/johnbai/status/2093024678487175339",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093023991426625536/vid/avc1/576x360/ls0o37MR32lKumuH.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093023991426625536/img/dTwPJPKbEX6e2AsA.jpg"
+      }
+    ],
+    "metrics": "20 REPLIES · 8 REPOSTS · 259 LIKES · 58 BOOKMARKS · 22003 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent 状态 / 空间可视化",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "lauren",
+      "handle": "poteto",
+      "avatar": "https://pbs.twimg.com/profile_images/2092115777113763840/5S-OeIgL_200x200.jpg",
+      "text": "i built an island that visualizes my bots as they work! it's cute watching them work and then go to bed and their little houses when they're resting 🥺\n\nprompt to make this is below!",
+      "url": "https://x.com/poteto/status/2093023531642863686",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2093017875565146112/vid/avc1/560x360/8Aip6PLUJKBO8Y0l.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2093017875565146112/img/hHaVWpZzoA4Kd3cJ.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "category": "WEB GRAPHICS",
+    "datetime": "2026-08-27T16:59:36.000Z",
+    "author": "Joshua Guo",
+    "handle": "jshguo",
+    "avatar": "https://pbs.twimg.com/profile_images/2063816273201684481/ww5fuepg_200x200.jpg",
+    "title": "Vercel 开源面向 agent 的 WebGPU 库 vgpu",
+    "summary": "我会帮你抓取它，因为 vgpu 把 WebGPU、headless Node、CPU sandbox 和可复用 WGSL 模块连到一起。对设计工程师来说，重点是判断视觉生成、测试和 CI 中图形能力怎样变成可调用基础设施。",
+    "url": "https://x.com/jshguo/status/2093020617171984402",
+    "media": [],
+    "metrics": "2 REPLIES · 1 REPOSTS · 19 LIKES · 9 BOOKMARKS · 2153 VIEWS",
+    "links": [
+      "https://vgpu.sh",
+      "https://vercel.com"
+    ],
+    "_analysisTheme": "WebGPU / Agent-first 图形",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "vgpu",
+      "preview": "vgpu 页面定位为 The WebGPU library, designed for agents。",
+      "cover": "",
+      "url": "https://vgpu.sh"
+    },
+    "quote": {
+      "label": "引用原帖",
+      "author": "Vercel",
+      "handle": "vercel",
+      "avatar": "https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_200x200.png",
+      "text": "We built https://vgpu.sh to ship shaders on https://vercel.com. Now it's open source.\n\n▪︎ Minimal agent-first WebGPU library\n▪︎ Run in the browser or headless Node.js\n▪︎ Render in CPU sandboxes and CI tests\n▪︎ Create reusable .wgsl modules",
+      "url": "https://x.com/vercel/status/2092999180780556643",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2092999146655645696/vid/avc1/498x360/NN1aEMkEsWv1SZji.mp4?tag=14",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2092999146655645696/img/FgRJeSsf_c3kJSlF.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "category": "AI DESIGN TOOL",
+    "datetime": "2026-08-27T16:30:49.000Z",
+    "author": "Laure Michelon",
+    "handle": "Laure_Michelon",
+    "avatar": "https://pbs.twimg.com/profile_images/2008266375081717760/GSb5lJ_U_200x200.jpg",
+    "title": "Fuser 应用让 Dieter Rams 判断物件设计",
+    "summary": "我会帮你抓取它，因为它把经典设计原则变成可交互的评价角色，适合观察 AI 设计评审如何从文本建议转成产品功能。对个人设计师来说，重点是把审美标准显性化，并测试它是否能提供可行动反馈。",
+    "url": "https://x.com/Laure_Michelon/status/2093013376582722028",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093012520294576131/vid/avc1/640x360/02vsIQmEb25UT_jz.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093012520294576131/img/JjtZwqf9giPL2Kkp.jpg"
+      }
+    ],
+    "metrics": "2 REPLIES · 3 REPOSTS · 26 LIKES · 14 BOOKMARKS · 3657 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 设计评审 / 设计原则",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "ICON DESIGN",
+    "datetime": "2026-08-27T16:16:34.000Z",
+    "author": "Emojipedia",
+    "handle": "Emojipedia",
+    "avatar": "https://pbs.twimg.com/profile_images/1377511626065248257/ZVniExax_200x200.jpg",
+    "title": "Emojipedia 对比 Samsung Loudly Crying Face 十年演变",
+    "summary": "我会帮你抓取它，因为 emoji 是高频小图标系统，十年演变能看到平台语气、表情强度和细节风格的变化。对图标设计来说，重点是学习同一语义在不同年代如何保持识别同时调整情绪。",
+    "url": "https://x.com/Emojipedia/status/2093009789542404556",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQvdOEkXAAALjGP.png?name=orig"
+      }
+    ],
+    "metrics": "3 REPLIES · 0 REPOSTS · 61 LIKES · 6 BOOKMARKS · 4056 VIEWS",
+    "links": [
+      "https://emojipedia.org/loudly-crying-face#designs"
+    ],
+    "_analysisTheme": "图标设计 / Emoji 演化",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "😭 Loudly Crying Face Emoji | Meaning, Copy And Paste",
+      "preview": "Emojipedia 页面解释 Loudly Crying Face 的语义，并提供不同平台设计演变入口。",
+      "cover": "",
+      "url": "https://emojipedia.org/loudly-crying-face#designs"
+    }
+  },
+  {
     "category": "AI AGENT",
     "datetime": "2026-08-27T23:54:55.000Z",
     "author": "向阳乔木",
