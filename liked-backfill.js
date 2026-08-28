@@ -1,6 +1,572 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-27T13:26:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-28T08:17:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2092979483502649583",
+    "TwitterUserID": "6782882",
+    "UserScreenName": "oran_ge",
+    "UserProfileName": "Orange AI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1760074488073629696/ceSsuVCY_200x200.png",
+    "TweetText": "纪念草间弥生的 Skill\n把你的照片转成波普圆点风格\n「一颗圆点，无限的爱」\n\nhttps://go.colaskill.com/kusama",
+    "Tweet Url": "https://x.com/oran_ge/status/2092979483502649583",
+    "TweetCreatedDate": "2026-08-27T14:16:09.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQvAbHabEAAUaFO.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人收藏偏好",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQvAbHabEAAUaFO.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQvAcqvaIAAGi6c.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQvAeJ1bQAAoKEi.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQvAfSDbwAEZMMF.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "纪念草间弥生：照片转「一颗圆点无限的爱」风格图 - Cola Skill",
+      "preview": "将你的珍贵照片转换成草间弥生启发风格的「一颗圆点，无限的爱」主题纪念艺术图，珍藏专属回忆。",
+      "cover": "",
+      "url": "https://colaskill.com/zh/memorial-yayoi-kusama/?utm_source=twitter&utm_medium=social&utm_campaign=memorial-yayoi-kusama"
+    },
+    "_metrics": "9 REPLIES · 4 REPOSTS · 33 LIKES · 23 BOOKMARKS · 3747 VIEWS",
+    "_analysisTheme": "个人收藏偏好",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 6,
+      "observedDatetime": "2026-08-27T14:16:09.000Z"
+    }
+  },
+  {
+    "TweetID": "2092971261580214457",
+    "TwitterUserID": "2283001609",
+    "UserScreenName": "yachimat_manga",
+    "UserProfileName": "yachimat - AI Short Anime",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1800905718997864448/qdHxO3Qu_200x200.jpg",
+    "TweetText": "明日の夜７時はTapNowの3D Studioのチュートリアルやるんですが！本当に脳汁出てます。僕が。\n\nBlenderとか色々使えなくても大丈夫！ゲームやったことあれば余裕でいける。\n\nだってキャラクター操作しながら配置できるからねｗ\nほんとゲームみたい\n\n今回は松岡修子の学校の部室をTapNowの上でワールドに変換し、そこに人を置いてみた。\n\nで、ここにカメラ置いて、アングル決めて、写真とか動画とったらそれを参照にSeedanceとかに渡す感じ\n\nはい、これで背景一貫性のゲームエンドです\n\nまあもっと自動化できるはずだけど、少なくともチームで制作するときに監督の頭の中はこれでプレゼンできるし\n\nマジで！ほんとに！楽しいよ！\n\n@TapNow_AI",
+    "Tweet Url": "https://x.com/yachimat_manga/status/2092971261580214457",
+    "TweetCreatedDate": "2026-08-27T13:43:28.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092969677676781568/img/EWiTv9nW-TvWGyAq.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092969677676781568/vid/avc1/640x360/ajSVc5ODr4st2m2l.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "生成式 AI / 媒体工具",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092969677676781568/vid/avc1/640x360/ajSVc5ODr4st2m2l.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092969677676781568/img/EWiTv9nW-TvWGyAq.jpg"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "yachimat - AI Short Anime",
+      "handle": "yachimat_manga",
+      "avatar": "https://pbs.twimg.com/profile_images/1800905718997864448/qdHxO3Qu_200x200.jpg",
+      "text": "今週金曜日夜７時から！TapNowの新機能「３Dスタジオ」のチュートリアルをします\n\n今回はなんと僕もさっき発見したばかりの機能！！ｗｗ\n\nBlenderとかほかのところで３Dつくってるんですが、TapNowは中にこの機能を入れに来ましたねえ\n\n色々カメラを置いて、それをつないでプレビズにできるみたいなんですが・・これは時間が溶ける！！\n\nというわけでこの機能を中心に、3Dプレビズの現在地とこれからについてお話したいと思います！\n\nいやあどんどん楽しくなりますね\n\n是非リプ欄のリンクからイベントに「興味あり」押してくださいね",
+      "url": "https://x.com/yachimat_manga/status/2092578681675730963",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2092576980734480384/vid/avc1/640x360/ZWop8XghuhUJ1pL7.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2092576980734480384/img/nnksBlYPZPEn7yyr.jpg"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "4 REPLIES · 14 REPOSTS · 117 LIKES · 77 BOOKMARKS · 13666 VIEWS",
+    "_analysisTheme": "生成式 AI / 媒体工具",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 7,
+      "observedDatetime": "2026-08-27T13:43:28.000Z"
+    }
+  },
+  {
+    "TweetID": "2092960325876453415",
+    "TwitterUserID": "1656683399346814982",
+    "UserScreenName": "PLAUDAI",
+    "UserProfileName": "Plaud",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1960251593921896449/bMNTeZDI_200x200.png",
+    "TweetText": "Every era of computing has had its defining interface. We typed on keyboards. We tapped on screens. In the agent era, we’ll simply speak.\n\nToday Plaud opens Plaud One Explorer Edition for those who are ready for a wearable device that remembers continuous context and keeps work moving.\n\nPlaud One is the wearable AI that helps you capture, think, and get things done through conversations.\n\nWhat you build with it will shape what it becomes.\nReady to be an explorer? (Limited to 2,000 units)👉https://www.plaud.ai/products/plaud-one\n#Plaud #Wearable #Interface",
+    "Tweet Url": "https://x.com/PLAUDAI/status/2092960325876453415",
+    "TweetCreatedDate": "2026-08-27T13:00:01.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092943792630566912/img/wqd6xCGJrwFJiCK6.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092943792630566912/vid/avc1/640x360/hG70-kshcH5K4UhH.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程 / 视觉系统",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092943792630566912/vid/avc1/640x360/hG70-kshcH5K4UhH.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092943792630566912/img/wqd6xCGJrwFJiCK6.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Plaud One - Your wearable AI built for conversation",
+      "preview": "Plaud One is the wearable AI built for the most natural interface: conversation. Speak naturally, your agent captures the full context and turns it into fini...",
+      "cover": "",
+      "url": "https://www.plaud.ai/products/plaud-one"
+    },
+    "_metrics": "4 REPLIES · 7 REPOSTS · 31 LIKES · 11 BOOKMARKS · 2090 VIEWS",
+    "_analysisTheme": "设计工程 / 视觉系统",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 6,
+      "observedDatetime": "2026-08-27T13:00:01.000Z"
+    }
+  },
+  {
+    "TweetID": "2092949404487733614",
+    "TwitterUserID": "1198293183697952769",
+    "UserScreenName": "raycast",
+    "UserProfileName": "Raycast",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1973045346675638272/61MGDa3k_200x200.png",
+    "TweetText": "Meet the Raycast Keyboard ⌨️\n\nA low-profile mechanical keyboard, designed with @nuphystudio for instant access to your favorite commands.\n\n🎹 14 custom keycaps\n*️⃣ Dedicated Hyper key\n🤫 Silent linear switches\n🖥️ Made for macOS and Windows\n\nAvailable now → https://ray.so/kbd",
+    "Tweet Url": "https://x.com/raycast/status/2092949404487733614",
+    "TweetCreatedDate": "2026-08-27T12:16:37.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQumZFIaoAAh3us.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程 / 视觉系统",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQumZFIaoAAh3us.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "The Raycast Keyboard",
+      "preview": "A low-profile mechanical keyboard designed for instant access to your favorite commands.",
+      "cover": "",
+      "url": "https://www.raycast.com/keyboard"
+    },
+    "_metrics": "82 REPLIES · 61 REPOSTS · 933 LIKES · 256 BOOKMARKS · 137985 VIEWS",
+    "_analysisTheme": "设计工程 / 视觉系统",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 6,
+      "observedDatetime": "2026-08-27T12:16:37.000Z"
+    }
+  },
+  {
+    "TweetID": "2092945233835344024",
+    "TwitterUserID": "1777934218485747712",
+    "UserScreenName": "flowith",
+    "UserProfileName": "Flowith",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1784589386119786496/Vqw6DG_i_200x200.jpg",
+    "TweetText": "Apple-level commercial,\n\n30 seconds, made with one prompt on https://flowith.io",
+    "Tweet Url": "https://x.com/flowith/status/2092945233835344024",
+    "TweetCreatedDate": "2026-08-27T12:00:03.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092943757570359296/img/Ul68IrG9wUxJCPUP.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092943757570359296/vid/avc1/640x360/Jfk9MMW6IZdzjatD.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品体验 / 工具设计",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092943757570359296/vid/avc1/640x360/Jfk9MMW6IZdzjatD.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092943757570359296/img/Ul68IrG9wUxJCPUP.jpg"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "Tim Cook",
+      "handle": "tim_cook",
+      "avatar": "https://pbs.twimg.com/profile_images/1535420431766671360/Pwq-1eJc_200x200.jpg",
+      "text": "The new Mac mini is here. Small in size. Big on performance. From everyday productivity to all things AI, it can help you do it all.",
+      "url": "https://x.com/tim_cook/status/2092253780532486557",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2092253271759167488/vid/avc1/640x360/cQVxMtAaQ2X6dNuK.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2092253271759167488/img/lxgXEz9EmX5xm0c2.jpg"
+        }
+      ]
+    },
+    "_article": {
+      "kind": "external",
+      "title": "Flowith AI - Your Agentic Workspace",
+      "preview": "Flowith AI - Your Agentic Workspace for deep work. Experience next-gen AI collaboration with ChatGPT, Claude, DeepSeek and more. The ultimate AI whiteboard for productivity, brainstorming and creative workflows.",
+      "cover": "",
+      "url": "https://flowith.io/blank"
+    },
+    "_metrics": "4 REPLIES · 0 REPOSTS · 30 LIKES · 14 BOOKMARKS · 5050 VIEWS",
+    "_analysisTheme": "产品体验 / 工具设计",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 3,
+      "observedDatetime": "2026-08-27T12:00:03.000Z"
+    }
+  },
+  {
+    "TweetID": "2092932777612390850",
+    "TwitterUserID": "902839045356744704",
+    "UserScreenName": "justinsuntron",
+    "UserProfileName": "H.E. Justin Sun 👨‍🚀 🌞",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1954484454942298112/gmiMeJRS_200x200.jpg",
+    "TweetText": "https://x.com/i/article/2092711089305948160",
+    "Tweet Url": "https://x.com/justinsuntron/status/2092932777612390850",
+    "TweetCreatedDate": "2026-08-27T11:10:33.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人收藏偏好",
+      "text"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "6900 REPLIES · 4099 REPOSTS · 34627 LIKES · 13846 BOOKMARKS · 18580019 VIEWS",
+    "_analysisTheme": "个人收藏偏好",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 8,
+      "observedDatetime": "2026-08-27T11:10:33.000Z"
+    }
+  },
+  {
+    "TweetID": "2092907308703768906",
+    "TwitterUserID": "1638447531796611072",
+    "UserScreenName": "DeluDream",
+    "UserProfileName": "得鹿梦鱼",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2056708992651718656/Eqww4q-9_200x200.jpg",
+    "TweetText": "大胆，是谁敢硬顶体育局的“买断”？\n\n原来是那个用绝对实力撕碎百年偏见\n让黄种人在田径巅峰飞起来的男人\n奥运冠军刘翔",
+    "Tweet Url": "https://x.com/DeluDream/status/2092907308703768906",
+    "TweetCreatedDate": "2026-08-27T09:29:21.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092901766107140096/img/8GfoAnVIIUGH20kO.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092901766107140096/vid/avc1/640x360/pmCmfbiIhypFF2rp.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人收藏偏好",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092901766107140096/vid/avc1/640x360/pmCmfbiIhypFF2rp.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092901766107140096/img/8GfoAnVIIUGH20kO.jpg"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "得鹿梦鱼",
+      "handle": "DeluDream",
+      "avatar": "https://pbs.twimg.com/profile_images/2056708992651718656/Eqww4q-9_200x200.jpg",
+      "text": "以前陪我拿冠军和广告费的时候叫人家小甜甜\n现在新人胜旧人，叫人家刘夫人\n\n网友建议奥运冠军刘翔\n为国争光不等于后半生必须绑定体制\n买断不是切割而是开启人生的新篇章\n\n本质是经济下行周期连大上海的都扛不住了，要降本增效，好聚好散，现还有安置费，隔多几年直接优化，形势比人强，要去水多的地方捕鱼。",
+      "url": "https://x.com/DeluDream/status/2092789553530880283",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQsQZjCbwAAju-1.png?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQsQb6Pb0AA_abU.png?name=orig"
+        },
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2092784625051643904/vid/avc1/480x360/rsfrWbQpDxLQEuGo.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2092784625051643904/img/rtXm2DXzVV50bBBq.jpg"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "122 REPLIES · 77 REPOSTS · 1716 LIKES · 476 BOOKMARKS · 220371 VIEWS",
+    "_analysisTheme": "个人收藏偏好",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 6,
+      "observedDatetime": "2026-08-27T09:29:21.000Z"
+    }
+  },
+  {
+    "TweetID": "2092885632460660844",
+    "TwitterUserID": "67026664",
+    "UserScreenName": "awwwards",
+    "UserProfileName": "awwwards.",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1790640429668372480/7IKOmTW__200x200.png",
+    "TweetText": "Today’s #SOTD goes to @studiofreight for \"Sharplink\".\n\nhttps://www.awwwards.com/sites/sharplink\n\nSharplink is an institutional-grade Ethereum treasury platform giving investors smarter, more productive access to ETH.\n\nCongratulations!",
+    "Tweet Url": "https://x.com/awwwards/status/2092885632460660844",
+    "TweetCreatedDate": "2026-08-27T08:03:13.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/2092885466794061826/pu/img/dndnZaPYiXKdWFJI.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/ext_tw_video/2092885466794061826/pu/vid/avc1/480x360/gXjLiUShQO7aVZu9.mp4?tag=12",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品体验 / 工具设计",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/ext_tw_video/2092885466794061826/pu/vid/avc1/480x360/gXjLiUShQO7aVZu9.mp4?tag=12",
+        "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2092885466794061826/pu/img/dndnZaPYiXKdWFJI.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Sharplink - Awwwards SOTD",
+      "preview": "Sharplink is the institutional-grade Ethereum treasury platform giving investors a smarter, more productive access vehicle to ETH.",
+      "cover": "",
+      "url": "https://www.awwwards.com/sites/sharplink"
+    },
+    "_metrics": "0 REPLIES · 1 REPOSTS · 37 LIKES · 24 BOOKMARKS · 4464 VIEWS",
+    "_analysisTheme": "产品体验 / 工具设计",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 3,
+      "observedDatetime": "2026-08-27T08:03:13.000Z"
+    }
+  },
+  {
+    "TweetID": "2092807567315443979",
+    "TwitterUserID": "806464682823282688",
+    "UserScreenName": "tuturetom",
+    "UserProfileName": "Tom Huang",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1033199673035522048/WI-JLSAc_200x200.jpg",
+    "TweetText": "我们还开源了全球首个可协作的 AI Design Workspace！\n\n你和团队成员的 Codex、Claude Code、OpenCode、Kimi 等 Agent，都可以进入同一个 Team Workspace，围绕同一块实时画布创作、评审、评论和接力迭代。 AI 设计，正式进入多人协作时代！💥\nhttps://x.com/OpenDesignHQ/status/2086749655354786159?s=20",
+    "Tweet Url": "https://x.com/tuturetom/status/2092807567315443979",
+    "TweetCreatedDate": "2026-08-27T02:53:01.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程 / 视觉系统",
+      "text"
+    ],
+    "_media": [],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "OpenDesign",
+      "handle": "OpenDesignHQ",
+      "avatar": "https://pbs.twimg.com/profile_images/2091589158426836992/KTRyppBu_200x200.jpg",
+      "text": "Collaborative Codex is live.\nMeet Open Design Team Workspace.\n\nYour team and their agents can now design together on one shared live canvas, directly inside Codex.\n\nMultiplayer AI design starts here.",
+      "url": "https://x.com/OpenDesignHQ/status/2086749655354786159",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2086748290704412672/vid/avc1/640x360/ZHqQPvWcK38qiSjr.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2086748290704412672/img/7IZIPgQF47vJ0hoK.jpg"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "1 REPLIES · 0 REPOSTS · 2 LIKES · 0 BOOKMARKS · 334 VIEWS",
+    "_analysisTheme": "设计工程 / 视觉系统",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 8,
+      "observedDatetime": "2026-08-27T02:53:01.000Z"
+    }
+  },
+  {
+    "TweetID": "2092796836142796968",
+    "TwitterUserID": "1781096636246343680",
+    "UserScreenName": "henry19840301",
+    "UserProfileName": "Henry Li",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1781096965524373504/8_xqudLe_200x200.jpg",
+    "TweetText": "So many people ask me about the Nothing font I used in the UI mock-ups. It's called Ndot 57, and also available in 55, 77, and 82 dots. You can easily convert them to binary fonts and then use them in your LVGL or FreeInk projects. Personally, I prefer to use all uppercase letters.\n\nhttp://github.com/xeji01/nothingfont/\n\nCredits\nNOTHING Tech. All Rights Reserved.",
+    "Tweet Url": "https://x.com/henry19840301/status/2092796836142796968",
+    "TweetCreatedDate": "2026-08-27T02:10:22.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQsbDL5a8AAmc-R.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程 / 视觉系统",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQsbDL5a8AAmc-R.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQsbEX0b0AAi2KC.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQsbGb_aUAAHOxI.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQsbngfbcAAknFH.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "Henry Li",
+      "handle": "henry19840301",
+      "avatar": "https://pbs.twimg.com/profile_images/1781096965524373504/8_xqudLe_200x200.jpg",
+      "text": "Still working on the UI mockups for @M5Stack  PaperMono, featuring 4 levels of grayscale and a resolution of 480x800 pixels",
+      "url": "https://x.com/henry19840301/status/2092569921809268865",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQpMzo8bAAAjOWm.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQpNKgnbwAAqLfl.jpg?name=orig"
+        }
+      ]
+    },
+    "_article": {
+      "kind": "external",
+      "title": "GitHub - xeji01/nothingfont: nothing.tech typeface · GitHub",
+      "preview": "nothing.tech typeface. Contribute to xeji01/nothingfont development by creating an account on GitHub.",
+      "cover": "",
+      "url": "https://github.com/xeji01/nothingfont/"
+    },
+    "_metrics": "3 REPLIES · 3 REPOSTS · 153 LIKES · 146 BOOKMARKS · 7685 VIEWS",
+    "_analysisTheme": "设计工程 / 视觉系统",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 8,
+      "observedDatetime": "2026-08-27T02:10:22.000Z"
+    }
+  },
+  {
+    "TweetID": "2092777569808523642",
+    "TwitterUserID": "1204580839473995776",
+    "UserScreenName": "goodboyninja",
+    "UserProfileName": "Good Boy Ninja",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2074188196330557440/A9H-nUb7_200x200.jpg",
+    "TweetText": "https://goodboy.ninja/blog/the-new-mac-studio-m5-motion-graphics-video-makes-me-feel-old",
+    "Tweet Url": "https://x.com/goodboyninja/status/2092777569808523642",
+    "TweetCreatedDate": "2026-08-27T00:53:49.000Z",
+    "MediaType": "link",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程 / 视觉系统",
+      "link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Apple's new Mac Studio M5 motion graphics video makes me feel... Old.",
+      "preview": "A few months ago I wrote in depth how Apple absolutely nailed the pacing in its Creator Studio motion graphics introduction video. The intro in Apple’s video, which is by any means really fast-paced, is actually the slow",
+      "cover": "",
+      "url": "https://goodboy.ninja/blog/the-new-mac-studio-m5-motion-graphics-video-makes-me-feel-old"
+    },
+    "_metrics": "0 REPLIES · 0 REPOSTS · 4 LIKES · 0 BOOKMARKS · 457 VIEWS",
+    "_analysisTheme": "设计工程 / 视觉系统",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 6,
+      "observedDatetime": "2026-08-27T00:53:49.000Z"
+    }
+  },
   {
     "TweetID": "2092717811395387877",
     "TwitterUserID": "1935434970513772545",
@@ -120,6 +686,51 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2092642096549130262",
+    "TwitterUserID": "3404515672",
+    "UserScreenName": "agentnative_",
+    "UserProfileName": "Agent Native",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2083367799150317569/19pGI7Pd_200x200.jpg",
+    "TweetText": "The 11 Tips for using GrokBot\nhttps://agentnative.inc/resources/11-tips-for-using-grokbot",
+    "Tweet Url": "https://x.com/agentnative_/status/2092642096549130262",
+    "TweetCreatedDate": "2026-08-26T15:55:29.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQqO2rqWoAAt3R-.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Agent 工作流 / AI Coding",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQqO2rqWoAAt3R-.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "11 Tips for Using GrokBot | Agent Native",
+      "preview": "The 11 practical GrokBot workflows I use to run a team of agents across my business.",
+      "cover": "",
+      "url": "https://agentnative.inc/resources/11-tips-for-using-grokbot"
+    },
+    "_metrics": "2 REPLIES · 14 REPOSTS · 159 LIKES · 264 BOOKMARKS · 28269 VIEWS",
+    "_analysisTheme": "Agent 工作流 / AI Coding",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 8,
+      "observedDatetime": "2026-08-26T15:55:29.000Z"
+    }
+  },
+  {
     "TweetID": "2092623468672004567",
     "TwitterUserID": "1077685212",
     "UserScreenName": "dariusdan",
@@ -157,6 +768,45 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/i/history/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-26T14:41:28.000Z"
+    }
+  },
+  {
+    "TweetID": "2092620831671169433",
+    "TwitterUserID": "1479118183797645317",
+    "UserScreenName": "goo_vision",
+    "UserProfileName": "goo.vision",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2023487210302173190/fVNP9plu_200x200.jpg",
+    "TweetText": "",
+    "Tweet Url": "https://x.com/goo_vision/status/2092620831671169433",
+    "TweetCreatedDate": "2026-08-26T14:30:59.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQp7gdTWMAAJT9U.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人收藏偏好",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQp7gdTWMAAJT9U.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 5 REPOSTS · 78 LIKES · 5 BOOKMARKS · 1759 VIEWS",
+    "_analysisTheme": "个人收藏偏好",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 6,
+      "observedDatetime": "2026-08-26T14:30:59.000Z"
     }
   },
   {
@@ -236,6 +886,52 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": null,
       "observedDatetime": "2026-08-26T10:58:39.000Z"
+    }
+  },
+  {
+    "TweetID": "2092544016315306400",
+    "TwitterUserID": "304420418",
+    "UserScreenName": "VynseDev",
+    "UserProfileName": "Vincent",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2030214096310632448/YzE3bn4o_200x200.jpg",
+    "TweetText": "I'm selling ad space on my MacBook\n\n→ 10 sticker spots on the lid\n→ live auction\n→ 14 days\n\nexcept I don't own it yet, the auction buys it\n\n→ your logo travels with me and gets seen both online and IRL\n\nhttps://BrandMyMac.com",
+    "Tweet Url": "https://x.com/VynseDev/status/2092544016315306400",
+    "TweetCreatedDate": "2026-08-26T09:25:45.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092541471387791360/img/_-cc_Dmry3_nlcCQ.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092541471387791360/vid/avc1/640x360/qO4u7BaJKHhIbdQ3.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品体验 / 工具设计",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092541471387791360/vid/avc1/640x360/qO4u7BaJKHhIbdQ3.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092541471387791360/img/_-cc_Dmry3_nlcCQ.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Brand My Mac — Let your brand travel",
+      "preview": "Ten sticker spots on a MacBook Pro lid, sold by live auction. Bid for a spot and your logo travels to cafés, coworking spaces and every build-in-public video.",
+      "cover": "",
+      "url": "https://brandmymac.com/"
+    },
+    "_metrics": "474 REPLIES · 138 REPOSTS · 5835 LIKES · 2544 BOOKMARKS · 4398795 VIEWS",
+    "_analysisTheme": "产品体验 / 工具设计",
+    "_analysisPriority": "medium",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 7,
+      "observedDatetime": "2026-08-26T09:25:45.000Z"
     }
   },
   {
@@ -14681,6 +15377,100 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 22,
       "observedDatetime": "2026-08-05T14:09:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2084984247752814973",
+    "TwitterUserID": "2029813579025637376",
+    "UserScreenName": "OpenDesignHQ",
+    "UserProfileName": "OpenDesign",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2091589158426836992/KTRyppBu_200x200.jpg",
+    "TweetText": "You can find and install Open Design from the Plugins Directory on the web today.\n\nCodex desktop support is coming with tomorrow’s update.\n\nCheck more info↘️\nhttps://open-design.ai/codex-plugin/?utm_source=twitter&utm_medium=organic_social&utm_campaign=202608_codex_plugin_launch&utm_content=official",
+    "Tweet Url": "https://x.com/OpenDesignHQ/status/2084984247752814973",
+    "TweetCreatedDate": "2026-08-05T12:45:56.000Z",
+    "MediaType": "link",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程 / 视觉系统",
+      "link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "open-design.ai",
+      "preview": "# OpenDesign for Codex — agent installation entrypoint The user asked you to install OpenDesign for Codex. Read this entire response, follow the Install into Codex lane, verify the plugin and local MCP, then complete the",
+      "cover": "",
+      "url": "https://open-design.ai/codex-plugin/?utm_source=twitter&utm_medium=organic_social&utm_campaign=202608_codex_plugin_launch&utm_content=official"
+    },
+    "_metrics": "1 REPLIES · 0 REPOSTS · 12 LIKES · 20 BOOKMARKS · 5207 VIEWS",
+    "_analysisTheme": "设计工程 / 视觉系统",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 8,
+      "observedDatetime": "2026-08-05T12:45:56.000Z"
+    }
+  },
+  {
+    "TweetID": "2084984244762210484",
+    "TwitterUserID": "2029813579025637376",
+    "UserScreenName": "OpenDesignHQ",
+    "UserProfileName": "OpenDesign",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2091589158426836992/KTRyppBu_200x200.jpg",
+    "TweetText": "Codex Design is real now.\n\nOpen Design is now live in the official Codex Plugin Directory, bringing a live design canvas directly into Codex.\n\nA detailed demo is coming soon.",
+    "Tweet Url": "https://x.com/OpenDesignHQ/status/2084984244762210484",
+    "TweetCreatedDate": "2026-08-05T12:45:55.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2084981653026254848/img/8y8T5UkdN_46QHcR.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2084981653026254848/vid/avc1/588x360/0aOl9y1_c1b90ZEH.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程 / 视觉系统",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2084981653026254848/vid/avc1/588x360/0aOl9y1_c1b90ZEH.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2084981653026254848/img/8y8T5UkdN_46QHcR.jpg"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "OpenDesign",
+      "handle": "OpenDesignHQ",
+      "avatar": "https://pbs.twimg.com/profile_images/2091589158426836992/KTRyppBu_200x200.jpg",
+      "text": "Open Design is coming to the Codex Plugin Marketplace.\n\nYour Codex. Your team’s Codex. One shared visual canvas.\n\nMultiplayer AI design starts here.",
+      "url": "https://x.com/OpenDesignHQ/status/2082060828463747416",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2082060249888948224/vid/avc1/640x360/xuuneT8nYvsxo4Lc.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2082060249888948224/img/DQEdJhJmDUMRFANP.jpg"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "35 REPLIES · 126 REPOSTS · 1573 LIKES · 1435 BOOKMARKS · 326095 VIEWS",
+    "_analysisTheme": "设计工程 / 视觉系统",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T08:17:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 8,
+      "observedDatetime": "2026-08-05T12:45:55.000Z"
     }
   },
   {

@@ -1,5 +1,3461 @@
 window.DESIGNER_ANALYSIS = [
   {
+    "date": "2026-08-28",
+    "generatedAt": "2026-08-28T08:17:00+08:00",
+    "batch": "x-ai-design-analysis-2026-08-28-0817",
+    "analysisCount": 100,
+    "homeCount": 20,
+    "likeCount": 80,
+    "linksInspected": 73,
+    "unavailableLinks": 9,
+    "summary": "2026-08-28 08:00 首批：登录态 X Home 观察 2464 次 appearances、280 个唯一 status，运行前当天 Home 为 0 条；本轮从 171 个同日 fresh 候选中筛出 20 条写入 Home，淘汰 151 条回复/噪声/低相关或重复主题内容。Likes 页观察 118 次 appearances、30 个唯一 status，新增 16 条 Like 后到达 14 个连续 known-ID 边界。Analysis 运行前当天为 0 个唯一 ID，本轮新增 100 个未分析 ID，其中 Home 20、Like 80；因当天新 Home+新 Like 中有 1 条已历史分析，按规则回补 65 条历史未分析 Like 作为首批底座。",
+    "sourceWindow": {
+      "strategy": "使用 ego-browser 独立 task space 2 复用 X 登录态；Home 打开 x.com/home 后分别观察 For You、Following、Design Engineers 和 AI list；Likes 打开 x.com/neoedon414/likes 并重定向到 /i/history/likes。fxtwitter 仅用于稳定媒体、真实作者时间和 t.co 展开；外链读取限于原帖/引用帖出现的产品页、GitHub、文档、Demo 或文章。",
+      "newestHomeDatetime": "2026-08-27T23:54:55.000Z",
+      "oldestHomeDatetime": "2026-08-27T16:00:02.000Z",
+      "newestLikeDatetime": "2026-08-27T14:16:09.000Z",
+      "oldestLikeDatetime": "2023-08-24T15:01:44.000Z",
+      "expandedWindow": "Home 不需要扩窗：Asia/Shanghai 2026-08-28 同日 fresh 候选充足。Analysis 为建立当天 100 条底座，在写入 20 Home 与 16 新 Like 后回补 65 条更早的历史未分析 Like；这些历史项只进入 Analysis，不改写 CSV。",
+      "observed": {
+        "homeRaw": 2464,
+        "homeUnique": 280,
+        "homeFreshSameDayCandidates": 171,
+        "homeSelected": 20,
+        "homeRejectedSameDay": 151,
+        "likeRaw": 118,
+        "likeUnique": 30,
+        "freshLikes": 16,
+        "knownLikeBoundaryHits": 14,
+        "knownLikeBoundaryReason": "continuous known-ID boundary",
+        "skippedLikes": 0,
+        "analysisBeforeTodayUnique": 0,
+        "analysisRawCandidateTotal": 4596,
+        "historicalLikeCandidateTotal": 4286,
+        "historicalLikeSelected": 65,
+        "selectedHomeIds": [
+          "2093023867778539791",
+          "2093077548649570777",
+          "2093059087298601113",
+          "2093022350455574896",
+          "2093045461166735685",
+          "2093019325472862325",
+          "2093005759026229278",
+          "2093125136178450688",
+          "2093108126702506416",
+          "2093014344288158062",
+          "2093010039699370424",
+          "2093005627383796206",
+          "2093046137288872400",
+          "2093029827540336689",
+          "2093104234778808544",
+          "2093092717488140747",
+          "2093092716154425375",
+          "2093089456312172930",
+          "2093040280786333742",
+          "2093064719707877460"
+        ],
+        "selectedLikeIds": [
+          "2092885632460660844",
+          "2092945233835344024",
+          "2092979483502649583",
+          "2092777569808523642",
+          "2092960325876453415",
+          "2092949404487733614",
+          "2092620831671169433",
+          "2092907308703768906",
+          "2092544016315306400",
+          "2092971261580214457",
+          "2092807567315443979",
+          "2084984247752814973",
+          "2084984244762210484",
+          "2092932777612390850",
+          "2092796836142796968",
+          "2092642096549130262"
+        ],
+        "historicalLikeIds": [
+          "2067244493498470736",
+          "2065091824927043655",
+          "2039372247501336874",
+          "2071596574845575224",
+          "2071581045061755215",
+          "2061735326348169530",
+          "2042071710011400411",
+          "2039855432081211415",
+          "2031375204904030329",
+          "2074179877599576386",
+          "2074125079043301591",
+          "2073781731359068606",
+          "2072273895093116931",
+          "2071986571952214172",
+          "2071615625118835099",
+          "2048602701844615254",
+          "2029198844093997145",
+          "2012307322761093485",
+          "2012202861883441597",
+          "2004452472949969278",
+          "1990825070428668246",
+          "1990812966074376261",
+          "1983567619946147967",
+          "1983522037969850673",
+          "1981010844386533515",
+          "1980689350179581968",
+          "1980182079519576176",
+          "1977685344226312380",
+          "1970743475445657872",
+          "1932651945392742798",
+          "1917743951999819898",
+          "1903068227024064632",
+          "1899820627193958837",
+          "1892909231398957208",
+          "1889284375994368293",
+          "1888606654188650915",
+          "1888219965448474719",
+          "1873388633329410307",
+          "1869888680527282402",
+          "1858588007319957834",
+          "1694726693452452282",
+          "2072065224144715777",
+          "2071639953927438440",
+          "2070811062065377782",
+          "2069804262062752183",
+          "2069435590995812396",
+          "2069273985196626397",
+          "2068935453525606661",
+          "2068450134401380498",
+          "2068019737603498301",
+          "2067262052855652498",
+          "2066927071109288103",
+          "2066160847844425735",
+          "2065464621624913970",
+          "2063907419919647180",
+          "2063453054998102279",
+          "2061478701775331506",
+          "2059421425438441583",
+          "2058535650249609632",
+          "2057139459980718314",
+          "2054270454467121187",
+          "2054248491778457659",
+          "2052043206762647691",
+          "2052029971770806586",
+          "2051727888639250450"
+        ],
+        "analysisAddedIds": [
+          "2093023867778539791",
+          "2093077548649570777",
+          "2093059087298601113",
+          "2093022350455574896",
+          "2093045461166735685",
+          "2093019325472862325",
+          "2093005759026229278",
+          "2093125136178450688",
+          "2093108126702506416",
+          "2093014344288158062",
+          "2093010039699370424",
+          "2093005627383796206",
+          "2093046137288872400",
+          "2093029827540336689",
+          "2093104234778808544",
+          "2093092717488140747",
+          "2093092716154425375",
+          "2093089456312172930",
+          "2093040280786333742",
+          "2093064719707877460",
+          "2092885632460660844",
+          "2092945233835344024",
+          "2092979483502649583",
+          "2092777569808523642",
+          "2092960325876453415",
+          "2092949404487733614",
+          "2092620831671169433",
+          "2092907308703768906",
+          "2092544016315306400",
+          "2092971261580214457",
+          "2092807567315443979",
+          "2084984247752814973",
+          "2084984244762210484",
+          "2092932777612390850",
+          "2092796836142796968",
+          "2067244493498470736",
+          "2065091824927043655",
+          "2039372247501336874",
+          "2071596574845575224",
+          "2071581045061755215",
+          "2061735326348169530",
+          "2042071710011400411",
+          "2039855432081211415",
+          "2031375204904030329",
+          "2074179877599576386",
+          "2074125079043301591",
+          "2073781731359068606",
+          "2072273895093116931",
+          "2071986571952214172",
+          "2071615625118835099",
+          "2048602701844615254",
+          "2029198844093997145",
+          "2012307322761093485",
+          "2012202861883441597",
+          "2004452472949969278",
+          "1990825070428668246",
+          "1990812966074376261",
+          "1983567619946147967",
+          "1983522037969850673",
+          "1981010844386533515",
+          "1980689350179581968",
+          "1980182079519576176",
+          "1977685344226312380",
+          "1970743475445657872",
+          "1932651945392742798",
+          "1917743951999819898",
+          "1903068227024064632",
+          "1899820627193958837",
+          "1892909231398957208",
+          "1889284375994368293",
+          "1888606654188650915",
+          "1888219965448474719",
+          "1873388633329410307",
+          "1869888680527282402",
+          "1858588007319957834",
+          "1694726693452452282",
+          "2072065224144715777",
+          "2071639953927438440",
+          "2070811062065377782",
+          "2069804262062752183",
+          "2069435590995812396",
+          "2069273985196626397",
+          "2068935453525606661",
+          "2068450134401380498",
+          "2068019737603498301",
+          "2067262052855652498",
+          "2066927071109288103",
+          "2066160847844425735",
+          "2065464621624913970",
+          "2063907419919647180",
+          "2063453054998102279",
+          "2061478701775331506",
+          "2059421425438441583",
+          "2058535650249609632",
+          "2057139459980718314",
+          "2054270454467121187",
+          "2054248491778457659",
+          "2052043206762647691",
+          "2052029971770806586",
+          "2051727888639250450"
+        ],
+        "analysisSkippedAlreadyAnalyzed": [
+          "2092642096549130262"
+        ],
+        "linkInspectionUrls": [
+          "https://github.com/Tencent/WeMM-Embedding",
+          "https://claude.com/programs/team-plan-for-scientists",
+          "https://vgpu.sh/",
+          "https://vercel.com/",
+          "https://michaelgatt.com/",
+          "https://gsap.com/showcase/",
+          "https://urgent.agency/",
+          "https://desengs.com/",
+          "https://shaders.com/sections/terminal-ascii-footer",
+          "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+          "https://learn.chatgpt.com/docs/visualizations",
+          "https://www.alethia.earth/",
+          "https://www.awwwards.com/sites/sharplink",
+          "https://flowith.io/blank",
+          "https://colaskill.com/zh/memorial-yayoi-kusama/?utm_source=twitter&utm_medium=social&utm_campaign=memorial-yayoi-kusama",
+          "https://goodboy.ninja/blog/the-new-mac-studio-m5-motion-graphics-video-makes-me-feel-old",
+          "https://www.plaud.ai/products/plaud-one",
+          "https://www.raycast.com/keyboard",
+          "https://brandmymac.com/",
+          "https://open-design.ai/codex-plugin/?utm_source=twitter&utm_medium=organic_social&utm_campaign=202608_codex_plugin_launch&utm_content=official",
+          "https://github.com/xeji01/nothingfont/",
+          "https://colaos.ai/",
+          "https://api-for-cursor.standardagents.ai/",
+          "https://github.com/liketrek/TREK",
+          "https://hovermediacards.framer.website/",
+          "https://github.com/CoreBunch/Instatic",
+          "https://maggieappleton.com/zero-alignment/",
+          "https://www.rams.ai/",
+          "http://www.ui-skills.com/",
+          "https://vercel.com/design/guidelines",
+          "https://www.figma.com/community/plugin/1159123024924461424/html-to-design-by-divriots-import-websites-to-figma-designs-web-html-css",
+          "https://saaspo.com/page-types/saas-landing-page-examples",
+          "https://chromewebstore.google.com/detail/htmltodesign/ldnheaepmnmbjjjahokphckbpgciiaed",
+          "https://motioncanvas.io/",
+          "https://www.remotion.dev/",
+          "https://makeitanimated.dev/",
+          "https://drive.google.com/file/d/1n7HjvNlq2I85x4wIg_AyurO2qWKMmoCO/view?usp=sharing",
+          "https://drive.google.com/file/d/1CyIYrXMN6HuRNkdVSpJ2Dh9k5LZGrL9l/view?usp=sharing",
+          "https://drive.google.com/file/d/11WL9VamFzpNM2bow92UhenySh6E8bU2c/view?usp=sharing",
+          "https://developer.apple.com/videos/play/wwdc2025/219/",
+          "https://github.com/Seanium/feedme",
+          "https://feedme.icu/",
+          "https://app.reve.com/",
+          "https://www.atom.com/name/Mossy.ai",
+          "https://www.notte.ai/",
+          "https://drams.framer.website/",
+          "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+          "https://cursor.com/",
+          "https://v0.app/",
+          "https://www.marscode.com/",
+          "https://www.tabnine.com/",
+          "https://www.trae.ai/",
+          "https://sourcegraph.com/docs/cody",
+          "https://bolt.new/",
+          "https://github.com/features/copilot",
+          "https://zencoder.ai/",
+          "https://replit.com/",
+          "https://dannyruchtie.com/3dFace/",
+          "https://github.com/DannyRuchtie/3dtrack",
+          "https://accounts.google.com/v3/signin/identifier?continue=https://one.google.com/explore-plan/gemini-advanced?utm_source%3Dgemini%26utm_medium%3Dweb%26utm_campaign%3Dadvmktgsite%26g1_landing_page%3D65%26otzr%3D1&followup=https://one.google.com/explore-plan/gemini-advanced?utm_source%3Dgemini%26utm_medium%3Dweb%26utm_campaign%3Dadvmktgsite%26g1_landing_page%3D65%26otzr%3D1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S287731639:1787876053635761",
+          "https://www.figma.com/community/plugin/1384131122330853911/points",
+          "https://second.me/",
+          "https://github.com/baidu/Unlimited-OCR",
+          "https://huggingface.co/baidu/Unlimited-OCR",
+          "https://github.com/zhongerxin/cowart",
+          "https://vercel.com/design/engineer",
+          "https://github.com/santinic/audiblez",
+          "https://github.com/OpenBMB/VoxCPM",
+          "https://online-video-cutter.com/cn/remove-logo",
+          "https://www.sensory-ui.com/",
+          "https://akira.sachi.dev/",
+          "https://www.itshover.com/",
+          "https://patterncraft.fun/"
+        ]
+      }
+    },
+    "items": [
+      {
+        "id": "2093023867778539791",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/huangyun_122/status/2093023867778539791",
+        "author": "黄赟",
+        "handle": "huangyun_122",
+        "datetime": "2026-08-27T17:12:31.000Z",
+        "title": "腾讯 WeMM-Embedding 开源多模态检索能力",
+        "originalSummary": "原帖重点：腾讯牛逼 !! 微信视觉组开源 WeMM-Embedding, 让多模视觉理解又上一个高度： https://github.com/Tencent/WeMM-Embedding 比如我想定位视频中，美女打开车门的那段切片，完全可以口述让模型帮找出来，太有用了 赶紧下载体验，嘎嘎香",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为微信视觉组把多模态 embedding 做成开源模型，原帖还给出了视频片段口述检索的具体场景。对个人设计师来说，重点是把“找素材/找片段/找视觉证据”从手工筛选转成可问答检索流程。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/Tencent/WeMM-Embedding",
+            "title": "GitHub - Tencent/WeMM-Embedding: WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Visio",
+            "access": "partial",
+            "summary": "WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understanding and retrieval. - Tencent/WeMM-Embedding",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Home",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093077548649570777",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/cursor_ai/status/2093077548649570777",
+        "author": "Cursor",
+        "handle": "cursor_ai",
+        "datetime": "2026-08-27T20:45:49.000Z",
+        "title": "Cursor 串起新建 Web App、Origin 和 Vercel 部署",
+        "originalSummary": "原帖重点：You can now create new web apps with Cursor, store the code with Origin, and deploy to Vercel.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Cursor 正把“从提示到代码、仓库、部署”连成一条产品化路径。对设计工程师来说，重点是观察 AI coding 工具如何把项目初始化、版本保存和上线交付包装成连续体验。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / AI Coding",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093059087298601113",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/claudeai/status/2093059087298601113",
+        "author": "Claude",
+        "handle": "claudeai",
+        "datetime": "2026-08-27T19:32:28.000Z",
+        "title": "Claude Team 科研席位开始面向科学团队扩展",
+        "originalSummary": "原帖重点：Starting today, 10,000 scientists across every field, from math to chemistry to physics and more, can get Claude through our new Claude Team plan for scientists. Standard seats are free, and premium seats with 5x usage l",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Anthropic 把 Claude 的团队计划、科研补贴和高用量套餐绑定到特定人群。对个人设计师来说，重点是学习 AI 产品如何用场景化定价和准入条件降低专业用户试用门槛。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://claude.com/programs/team-plan-for-scientists",
+            "title": "Claude Team plan for scientists | Claude by Anthropic",
+            "access": "partial",
+            "summary": "Scientists at academic and nonprofit research institutions around the world can now get Claude at no cost to start. Shared projects, Claude Science, and admin controls at rates built for grant budgets. 1-seat minimum.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Home",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093022350455574896",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/splinetool/status/2093022350455574896",
+        "author": "Spline",
+        "handle": "splinetool",
+        "datetime": "2026-08-27T17:06:29.000Z",
+        "title": "Spline Hana V2 增加 MCP、PBR 和 WebGPU Canvas",
+        "originalSummary": "原帖重点：Introducing Hana V2, now with MCP support. - Generate via MCP or in-app agents - Import GLB/GLTF files with PBR - New export options (SVG, PDF) - WebGPU canvas - Better vector editing - and more!",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Spline 把 3D 设计工具和 agent/MCP 接口放到同一版本里。对设计工程师来说，重点是研究 3D 资产、矢量编辑和自动化生成如何进入同一个工作台。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Home",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093045461166735685",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/npm_i_shaders/status/2093045461166735685",
+        "author": "shaders",
+        "handle": "npm_i_shaders",
+        "datetime": "2026-08-27T18:38:19.000Z",
+        "title": "Vercel vgpu 把 WebGPU shader 做成 agent-first 库",
+        "originalSummary": "原帖重点：Beyond excited to see @vercel leaning into WebGPU. 2026 is the year of shaders 🔥",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Vercel 的 vgpu 明确面向 agent、CI 和 headless Node 渲染，这会影响设计师生成 shader、测试视觉输出和交付代码的方式。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://vgpu.sh/",
+            "title": "vgpu",
+            "access": "partial",
+            "summary": "The WebGPU library, designed for agents.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://vercel.com/",
+            "title": "Agentic Infrastructure - Vercel",
+            "access": "partial",
+            "summary": "The autonomous stack for every app and agent.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Home",
+          "设计工程 / 视觉系统",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093019325472862325",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/greensock/status/2093019325472862325",
+        "author": "GSAP",
+        "handle": "greensock",
+        "datetime": "2026-08-27T16:54:28.000Z",
+        "title": "GSAP Site of the Day 展示 MotionPath、SplitText 和 WebGL 组合",
+        "originalSummary": "原帖重点：💚 Site of the Day - Michael Gatt @synchronized_st ⚙️ MotionPath, SplitText 🛠️ Three.js, VueJS, Web GL site → https://michaelgatt.com/ showcase → https://gsap.com/showcase",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它是可拆解的高质量网页动效案例：MotionPath、SplitText、Three.js、Vue 和 WebGL 同场出现。对个人设计师来说，重点是把“好看”拆成技术栈、节奏和交互触发点。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://michaelgatt.com/",
+            "title": "michaelgatt.com",
+            "access": "unavailable",
+            "summary": "本轮无法读取页面正文，只保留原帖可见线索和链接位置。",
+            "value": "需要后续人工打开确认；暂不把链接内容当作事实依据。",
+            "learningUse": "记录为待确认线索，避免基于不可见内容下结论。"
+          },
+          {
+            "url": "https://gsap.com/showcase/",
+            "title": "GSAP Showcase",
+            "access": "partial",
+            "summary": "We make the tools, you make the magic. A selection of sites from the top agencies and most talented GSAP developers in the industry. Will yours be next? Submit it today.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Home",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093005759026229278",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/TweetsByTBI/status/2093005759026229278",
+        "author": "The Brand Identity",
+        "handle": "TweetsByTBI",
+        "datetime": "2026-08-27T16:00:33.000Z",
+        "title": "Museum Ordrupgaard 身份系统把名称拆到版面边缘",
+        "originalSummary": "原帖重点：https://Urgent.Agency’s identity for Museum Ordrupgaard splits the Danish museum’s name to the edges of each format, leaving the middle open for whatever it is presenting.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为这组品牌案例把博物馆名称拆到画面边缘，把中间留给展览内容。对个人设计师来说，重点是学习信息克制、版面结构和展示内容之间的关系。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它反映了你的收藏偏好，可用于整理审美和内容判断。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://urgent.agency/",
+            "title": "Urgent.Agency",
+            "access": "partial",
+            "summary": "We design brands, build digital experiences and activate places.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "解释这条内容触发收藏的具体原因，并标注偏好类型。",
+          "把收藏原因转成个人设计参考标签。",
+          "挑一个细节做复盘，避免只停留在“好看”。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093125136178450688",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/vista8/status/2093125136178450688",
+        "author": "向阳乔木",
+        "handle": "vista8",
+        "datetime": "2026-08-27T23:54:55.000Z",
+        "title": "Grok Bot Computer Use 被用于 Product Hunt 调研",
+        "originalSummary": "原帖重点：开始玩 Grok bot，它的Computer Use感觉更原生，哈哈哈。 让打开Producthunt，谷歌账号登录测试每个产品给一份报告，等输出中。 类似打开浏览器调研分析场景都可以用，至少是个高级爬虫。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它显示用户开始把浏览器调研、登录和产品报告交给可操作网页的 agent。对设计工程师来说，重点是为这种长流程设计证据、权限和结果回读。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / AI Coding",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093108126702506416",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/novikoff/status/2093108126702506416",
+        "author": "Dmitry Novikov 🇺🇦",
+        "handle": "novikoff",
+        "datetime": "2026-08-27T22:47:20.000Z",
+        "title": "zerotake 启动动画用 Rive 做到 4kb",
+        "originalSummary": "原帖重点：Start animation for zerotake. made in .@rive_app 4kb",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把启动态动效压到很小的 Rive 资产里，适合研究轻量品牌动效如何嵌入产品。对个人设计师来说，重点是拆持续时间、缓动和文件体积之间的取舍。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Home",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093014344288158062",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ultramock/status/2093014344288158062",
+        "author": "Ultramock",
+        "handle": "ultramock",
+        "datetime": "2026-08-27T16:34:40.000Z",
+        "title": "desengs.com 汇总 Design Engineers 资源",
+        "originalSummary": "原帖重点：This is full of sick resources for design engineers, @remvze killed it 🔥 → https://desengs.com/",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它直接面向 design engineer 的学习资源集合。对个人设计师来说，重点是把资源目录转成可执行的技能地图，而不是只收藏灵感站。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://desengs.com/",
+            "title": "DesEngs: Resources for Design Engineers",
+            "access": "partial",
+            "summary": "A curated collection of design engineering resources.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Home",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093010039699370424",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/npm_i_shaders/status/2093010039699370424",
+        "author": "shaders",
+        "handle": "npm_i_shaders",
+        "datetime": "2026-08-27T16:17:34.000Z",
+        "title": "Shaders Terminal ASCII Footer 支持参数化视觉导出",
+        "originalSummary": "原帖重点：Section Spotlight: Terminal ASCII Footer Flowing ASCII text makes for a high-tech digital look. Customize character set, colors, sizing, etc. Get a prompt to deploy in one shot with your AI agent. https://shaders.com/sec",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把终端字符、颜色和尺寸变成可配置区块，并提供 AI agent 一次部署提示词。对个人设计师来说，重点是学习如何把视觉风格做成可复用 preset。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://shaders.com/sections/terminal-ascii-footer",
+            "title": "Terminal ASCII Footer — Sections — Shaders",
+            "access": "partial",
+            "summary": "A near-black end-of-page footer for a security research firm — an iridescent neon-green blob hangs from the top edge of the void, slowly wobbling as it rasterizes live into a rain of terminal digits, above one mono farew",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Home",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093005627383796206",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/GoogleDesign/status/2093005627383796206",
+        "author": "Google Design",
+        "handle": "GoogleDesign",
+        "datetime": "2026-08-27T16:00:02.000Z",
+        "title": "Google Design 用书单推进 typography 基础训练",
+        "originalSummary": "原帖重点：📚 Time to brush up on our typography skills! This month, the #GDBookClub is diving into Robert Bringhurst's \"The Elements of Typographic Style,\" a classic guide for creating beautiful and effective type.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Google Design 把排版学习回到经典文本，而不是只追逐工具更新。对个人设计师来说，重点是把字体判断、阅读节奏和可读性重新纳入日常训练。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Home",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093046137288872400",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/tlxue/status/2093046137288872400",
+        "author": "tianlu",
+        "handle": "tlxue",
+        "datetime": "2026-08-27T18:41:00.000Z",
+        "title": "METR 独立调查聚焦 agents 行为、推理和协作",
+        "originalSummary": "原帖重点：精彩的 Hugging Face 攻击事件报告 （是的比今晚另一篇文章更精彩） https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为这类 agent 研究报告能帮助设计师理解长任务 AI 的协作风险，不只是看 demo。对设计工程师来说，重点是把 agent 失败模式转成产品状态、审计和恢复设计。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+            "title": "Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking in",
+            "access": "partial",
+            "summary": "Two METR staff members and a Redwood Research contractor investigated an incident in which OpenAI agents coordinated a multi-day hack of Hugging Face on a shared unsanctioned message board.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / AI Coding",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093029827540336689",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/andiify/status/2093029827540336689",
+        "author": "andi",
+        "handle": "andiify",
+        "datetime": "2026-08-27T17:36:12.000Z",
+        "title": "Iris 用浏览器 tab 并行 agents 修改网站并推 PR",
+        "originalSummary": "原帖重点：introducing iris edit sites by running parallel agents and pushing prs all in your tab try it out npx useiris init",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把多 agent、网页编辑和 GitHub PR 合在同一个使用命令里。对个人设计师来说，重点是观察“边看页面边让 agent 改”的协作界面如何收束成验收流程。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / AI Coding",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093104234778808544",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/colebemis/status/2093104234778808544",
+        "author": "Cole Bemis",
+        "handle": "colebemis",
+        "datetime": "2026-08-27T22:31:52.000Z",
+        "title": "Notion 新 sidebar 早期走查被设计圈传播",
+        "originalSummary": "原帖重点：DM me if you want early access to the new @NotionHQ sidebar",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 sidebar 是高频信息架构入口，Notion 的整理方式会影响个人知识库和工作台设计。对个人设计师来说，重点是复盘层级、焦点和可组织性的变化。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它提供了一个可观察的高频工具或硬件入口设计样本。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解入口、默认态、空态和高频操作的摩擦点。",
+          "记录它如何把复杂能力压成一个按钮、快捷键或硬件触点。",
+          "对比自己的工具链，判断是否值得形成长期习惯。"
+        ],
+        "tags": [
+          "Home",
+          "产品体验 / 工具设计",
+          "text"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093092717488140747",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/siegerts/status/2093092717488140747",
+        "author": "Stephen",
+        "handle": "siegerts",
+        "datetime": "2026-08-27T21:46:06.000Z",
+        "title": "ChatGPT Sites 把可视化结果发布成站点",
+        "originalSummary": "原帖重点：Turn the result into a ChatGPT Site https://learn.chatgpt.com/docs/visualizations",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 ChatGPT 里的可视化产物接到可发布 Sites。对设计工程师来说，重点是研究分析、交互和发布如何从一次性回复变成可分享界面。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它反映了你的收藏偏好，可用于整理审美和内容判断。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://learn.chatgpt.com/docs/visualizations",
+            "title": "Visualizations – ChatGPT | ChatGPT Learn",
+            "access": "partial",
+            "summary": "Turn ideas and information into interactive visual explanations in ChatGPT",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "解释这条内容触发收藏的具体原因，并标注偏好类型。",
+          "把收藏原因转成个人设计参考标签。",
+          "挑一个细节做复盘，避免只停留在“好看”。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093092716154425375",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/siegerts/status/2093092716154425375",
+        "author": "Stephen",
+        "handle": "siegerts",
+        "datetime": "2026-08-27T21:46:05.000Z",
+        "title": "visualize skill 用运动曲线和航班界面生成交互可视化",
+        "originalSummary": "原帖重点：Adding more motion and time to an interactive visualization in @ChatGPT and Codex using the $visualize skill. \"Use smooth curves, animated plane icons, route toggles, and an airport-style timetable\" Then, easily publish ",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它展示 prompt 如何约束曲线、动效、切换和 timetable 这种复杂 UI。对个人设计师来说，重点是把动效需求写成可验证的生成条件。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Home",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093089456312172930",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/antigravity/status/2093089456312172930",
+        "author": "Google Antigravity",
+        "handle": "antigravity",
+        "datetime": "2026-08-27T21:33:08.000Z",
+        "title": "Google Antigravity Teamwork 用多 agent 攻数学和系统问题",
+        "originalSummary": "原帖重点：Google Research and Google DeepMind researchers just used Teamwork in Antigravity to achieve breakthroughs in theoretical computer science, research mathematics, and systems engineering. Teamwork is a multi-agent framewo",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为多 agent 不再只做软件 demo，而被放进理论计算机、数学和系统工程任务。对设计工程师来说，重点是为 proposal、stress-test、build 三段设计过程证据。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Home",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093040280786333742",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Design/status/2093040280786333742",
+        "author": "Design",
+        "handle": "Design",
+        "datetime": "2026-08-27T18:17:44.000Z",
+        "title": "X NFL Gametime 把比赛数据做进 timeline",
+        "originalSummary": "原帖重点：NFL Gametime. Available now via the NFL timeline.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 X 把实时比分、play-by-play 和 game feeds 嵌入信息流，这是内容平台功能化的案例。对个人设计师来说，重点是研究事件型数据如何和社交时间线共存。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Home",
+          "设计工程 / 视觉系统",
+          "text"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093064719707877460",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/aureliensalomon/status/2093064719707877460",
+        "author": "Aurélien Salomon",
+        "handle": "aureliensalomon",
+        "datetime": "2026-08-27T19:54:51.000Z",
+        "title": "Alethia Earth 让气候数据变成高质感可视化",
+        "originalSummary": "原帖重点：Climate data has never looked this good. We are feeling the inspo from https://alethia.earth",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为气候数据很容易沉重或抽象，这个案例提供了高密度数据与视觉吸引力结合的方向。对个人设计师来说，重点是拆地图、色彩和叙事层级。",
+        "deepSummary": "这条 Home 信号的价值不在转发热度，而在于：它反映了你的收藏偏好，可用于整理审美和内容判断。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.alethia.earth/",
+            "title": "Alethia",
+            "access": "partial",
+            "summary": "Know your impact—precisely. End-to-end environmental intelligence powered by science, blockchain, and transparent data you can trust.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "解释这条内容触发收藏的具体原因，并标注偏好类型。",
+          "把收藏原因转成个人设计参考标签。",
+          "挑一个细节做复盘，避免只停留在“好看”。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092885632460660844",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/awwwards/status/2092885632460660844",
+        "author": "awwwards.",
+        "handle": "awwwards",
+        "datetime": "2026-08-27T08:03:13.000Z",
+        "title": "收藏：Today’s #SOTD goes to @studiofreight for \"Shar",
+        "originalSummary": "原帖重点：Today’s #SOTD goes to @studiofreight for \"Sharplink\". https://www.awwwards.com/sites/sharplink Sharplink is an institutional-grade Ethereum treasury platform giving investors smarter, more productive access to ETH. Congr",
+        "whySaved": "你会收藏它，因为它提供了一个可观察的高频工具或硬件入口设计样本。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它提供了一个可观察的高频工具或硬件入口设计样本。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.awwwards.com/sites/sharplink",
+            "title": "Sharplink - Awwwards SOTD",
+            "access": "partial",
+            "summary": "Sharplink is the institutional-grade Ethereum treasury platform giving investors a smarter, more productive access vehicle to ETH.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "拆解入口、默认态、空态和高频操作的摩擦点。",
+          "记录它如何把复杂能力压成一个按钮、快捷键或硬件触点。",
+          "对比自己的工具链，判断是否值得形成长期习惯。"
+        ],
+        "tags": [
+          "Liked",
+          "产品体验 / 工具设计",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092945233835344024",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/flowith/status/2092945233835344024",
+        "author": "Flowith",
+        "handle": "flowith",
+        "datetime": "2026-08-27T12:00:03.000Z",
+        "title": "收藏：Apple-level commercial, 30 seconds, made with ",
+        "originalSummary": "原帖重点：Apple-level commercial, 30 seconds, made with one prompt on https://flowith.io",
+        "whySaved": "你会收藏它，因为它提供了一个可观察的高频工具或硬件入口设计样本。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它提供了一个可观察的高频工具或硬件入口设计样本。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://flowith.io/blank",
+            "title": "Flowith AI - Your Agentic Workspace",
+            "access": "partial",
+            "summary": "Flowith AI - Your Agentic Workspace for deep work. Experience next-gen AI collaboration with ChatGPT, Claude, DeepSeek and more. The ultimate AI whiteboard for productivity, brainstorming and creative workflows.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "拆解入口、默认态、空态和高频操作的摩擦点。",
+          "记录它如何把复杂能力压成一个按钮、快捷键或硬件触点。",
+          "对比自己的工具链，判断是否值得形成长期习惯。"
+        ],
+        "tags": [
+          "Liked",
+          "产品体验 / 工具设计",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092979483502649583",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/oran_ge/status/2092979483502649583",
+        "author": "Orange AI",
+        "handle": "oran_ge",
+        "datetime": "2026-08-27T14:16:09.000Z",
+        "title": "收藏：纪念草间弥生的 Skill 把你的照片转成波普圆点风格 「一颗圆点，无限的爱」 https:",
+        "originalSummary": "原帖重点：纪念草间弥生的 Skill 把你的照片转成波普圆点风格 「一颗圆点，无限的爱」 https://go.colaskill.com/kusama",
+        "whySaved": "你会收藏它，因为它反映了你的收藏偏好，可用于整理审美和内容判断。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它反映了你的收藏偏好，可用于整理审美和内容判断。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://colaskill.com/zh/memorial-yayoi-kusama/?utm_source=twitter&utm_medium=social&utm_campaign=memorial-yayoi-kusama",
+            "title": "纪念草间弥生：照片转「一颗圆点无限的爱」风格图 - Cola Skill",
+            "access": "partial",
+            "summary": "将你的珍贵照片转换成草间弥生启发风格的「一颗圆点，无限的爱」主题纪念艺术图，珍藏专属回忆。",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "解释这条内容触发收藏的具体原因，并标注偏好类型。",
+          "把收藏原因转成个人设计参考标签。",
+          "挑一个细节做复盘，避免只停留在“好看”。"
+        ],
+        "tags": [
+          "Liked",
+          "个人收藏偏好",
+          "photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092777569808523642",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/goodboyninja/status/2092777569808523642",
+        "author": "Good Boy Ninja",
+        "handle": "goodboyninja",
+        "datetime": "2026-08-27T00:53:49.000Z",
+        "title": "收藏：https://goodboy.ninja/blog/the-new-mac-studio-",
+        "originalSummary": "原帖重点：https://goodboy.ninja/blog/the-new-mac-studio-m5-motion-graphics-video-makes-me-feel-old",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://goodboy.ninja/blog/the-new-mac-studio-m5-motion-graphics-video-makes-me-feel-old",
+            "title": "Apple's new Mac Studio M5 motion graphics video makes me feel... Old.",
+            "access": "partial",
+            "summary": "A few months ago I wrote in depth how Apple absolutely nailed the pacing in its Creator Studio motion graphics introduction video. The intro in Apple’s video, which is by any means really fast-paced, is actually the slow",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092960325876453415",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/PLAUDAI/status/2092960325876453415",
+        "author": "Plaud",
+        "handle": "PLAUDAI",
+        "datetime": "2026-08-27T13:00:01.000Z",
+        "title": "收藏：Every era of computing has had its defining in",
+        "originalSummary": "原帖重点：Every era of computing has had its defining interface. We typed on keyboards. We tapped on screens. In the agent era, we’ll simply speak. Today Plaud opens Plaud One Explorer Edition for those who are ready for a wearabl",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.plaud.ai/products/plaud-one",
+            "title": "Plaud One - Your wearable AI built for conversation",
+            "access": "partial",
+            "summary": "Plaud One is the wearable AI built for the most natural interface: conversation. Speak naturally, your agent captures the full context and turns it into fini...",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092949404487733614",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/raycast/status/2092949404487733614",
+        "author": "Raycast",
+        "handle": "raycast",
+        "datetime": "2026-08-27T12:16:37.000Z",
+        "title": "收藏：Meet the Raycast Keyboard ⌨️ A low-profile mec",
+        "originalSummary": "原帖重点：Meet the Raycast Keyboard ⌨️ A low-profile mechanical keyboard, designed with @nuphystudio for instant access to your favorite commands. 🎹 14 custom keycaps *️⃣ Dedicated Hyper key 🤫 Silent linear switches 🖥️ Made for",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.raycast.com/keyboard",
+            "title": "The Raycast Keyboard",
+            "access": "partial",
+            "summary": "A low-profile mechanical keyboard designed for instant access to your favorite commands.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092620831671169433",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/goo_vision/status/2092620831671169433",
+        "author": "goo.vision",
+        "handle": "goo_vision",
+        "datetime": "2026-08-26T14:30:59.000Z",
+        "title": "收藏：goo.vision 的内容",
+        "originalSummary": "原帖重点：可见内容主要来自媒体或引用帖，需要结合原帖查看。",
+        "whySaved": "你会收藏它，因为它反映了你的收藏偏好，可用于整理审美和内容判断。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它反映了你的收藏偏好，可用于整理审美和内容判断。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "解释这条内容触发收藏的具体原因，并标注偏好类型。",
+          "把收藏原因转成个人设计参考标签。",
+          "挑一个细节做复盘，避免只停留在“好看”。"
+        ],
+        "tags": [
+          "Liked",
+          "个人收藏偏好",
+          "photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092907308703768906",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/DeluDream/status/2092907308703768906",
+        "author": "得鹿梦鱼",
+        "handle": "DeluDream",
+        "datetime": "2026-08-27T09:29:21.000Z",
+        "title": "收藏：大胆，是谁敢硬顶体育局的“买断”？ 原来是那个用绝对实力撕碎百年偏见 让黄种人在田径巅峰飞起",
+        "originalSummary": "原帖重点：大胆，是谁敢硬顶体育局的“买断”？ 原来是那个用绝对实力撕碎百年偏见 让黄种人在田径巅峰飞起来的男人 奥运冠军刘翔",
+        "whySaved": "你会收藏它，因为它反映了你的收藏偏好，可用于整理审美和内容判断。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它反映了你的收藏偏好，可用于整理审美和内容判断。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "解释这条内容触发收藏的具体原因，并标注偏好类型。",
+          "把收藏原因转成个人设计参考标签。",
+          "挑一个细节做复盘，避免只停留在“好看”。"
+        ],
+        "tags": [
+          "Liked",
+          "个人收藏偏好",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092544016315306400",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/VynseDev/status/2092544016315306400",
+        "author": "Vincent",
+        "handle": "VynseDev",
+        "datetime": "2026-08-26T09:25:45.000Z",
+        "title": "收藏：I'm selling ad space on my MacBook → 10 sticke",
+        "originalSummary": "原帖重点：I'm selling ad space on my MacBook → 10 sticker spots on the lid → live auction → 14 days except I don't own it yet, the auction buys it → your logo travels with me and gets seen both online and IRL https://BrandMyMac.co",
+        "whySaved": "你会收藏它，因为它提供了一个可观察的高频工具或硬件入口设计样本。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它提供了一个可观察的高频工具或硬件入口设计样本。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://brandmymac.com/",
+            "title": "Brand My Mac — Let your brand travel",
+            "access": "partial",
+            "summary": "Ten sticker spots on a MacBook Pro lid, sold by live auction. Bid for a spot and your logo travels to cafés, coworking spaces and every build-in-public video.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "拆解入口、默认态、空态和高频操作的摩擦点。",
+          "记录它如何把复杂能力压成一个按钮、快捷键或硬件触点。",
+          "对比自己的工具链，判断是否值得形成长期习惯。"
+        ],
+        "tags": [
+          "Liked",
+          "产品体验 / 工具设计",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092971261580214457",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/yachimat_manga/status/2092971261580214457",
+        "author": "yachimat - AI Short Anime",
+        "handle": "yachimat_manga",
+        "datetime": "2026-08-27T13:43:28.000Z",
+        "title": "收藏：明日の夜７時はTapNowの3D Studioのチュートリアルやるんですが！本当に脳汁出てま",
+        "originalSummary": "原帖重点：明日の夜７時はTapNowの3D Studioのチュートリアルやるんですが！本当に脳汁出てます。僕が。 Blenderとか色々使えなくても大丈夫！ゲームやったことあれば余裕でいける。 だってキャラクター操作しながら配置できるからねｗ ほんとゲームみたい 今回は松岡修子の学校の部室をTapNowの上でワールドに変換し、そこに人を置いてみた。 で、ここにカメラ置いて、アングル決めて、写真とか動画とったらそれを参照にSeedanceとかに渡す",
+        "whySaved": "你会收藏它，因为它适合评估生成式媒体工具的输入方式、质量边界和创作流程。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它适合评估生成式媒体工具的输入方式、质量边界和创作流程。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录输入素材、提示词、模型能力和输出质量之间的关系。",
+          "判断它更适合概念探索、生产交付还是宣传演示。",
+          "选择一个素材做对照实验，避免只凭 demo 热度判断。"
+        ],
+        "tags": [
+          "Liked",
+          "生成式 AI / 媒体工具",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092807567315443979",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/tuturetom/status/2092807567315443979",
+        "author": "Tom Huang",
+        "handle": "tuturetom",
+        "datetime": "2026-08-27T02:53:01.000Z",
+        "title": "收藏：我们还开源了全球首个可协作的 AI Design Workspace！ 你和团队成员的 Co",
+        "originalSummary": "原帖重点：我们还开源了全球首个可协作的 AI Design Workspace！ 你和团队成员的 Codex、Claude Code、OpenCode、Kimi 等 Agent，都可以进入同一个 Team Workspace，围绕同一块实时画布创作、评审、评论和接力迭代。 AI 设计，正式进入多人协作时代！💥 https://x.com/OpenDesignHQ/status/2086749655354786159?s=20",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "text"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2084984247752814973",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/OpenDesignHQ/status/2084984247752814973",
+        "author": "OpenDesign",
+        "handle": "OpenDesignHQ",
+        "datetime": "2026-08-05T12:45:56.000Z",
+        "title": "收藏：You can find and install Open Design from the ",
+        "originalSummary": "原帖重点：You can find and install Open Design from the Plugins Directory on the web today. Codex desktop support is coming with tomorrow’s update. Check more info↘️ https://open-design.ai/codex-plugin/?utm_source=twitter&utm_medi",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://open-design.ai/codex-plugin/?utm_source=twitter&utm_medium=organic_social&utm_campaign=202608_codex_plugin_launch&utm_content=official",
+            "title": "open-design.ai",
+            "access": "partial",
+            "summary": "# OpenDesign for Codex — agent installation entrypoint The user asked you to install OpenDesign for Codex. Read this entire response, follow the Install into Codex lane, verify the plugin and local MCP, then complete the",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2084984244762210484",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/OpenDesignHQ/status/2084984244762210484",
+        "author": "OpenDesign",
+        "handle": "OpenDesignHQ",
+        "datetime": "2026-08-05T12:45:55.000Z",
+        "title": "收藏：Codex Design is real now. Open Design is now l",
+        "originalSummary": "原帖重点：Codex Design is real now. Open Design is now live in the official Codex Plugin Directory, bringing a live design canvas directly into Codex. A detailed demo is coming soon.",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2092932777612390850",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/justinsuntron/status/2092932777612390850",
+        "author": "H.E. Justin Sun 👨‍🚀 🌞",
+        "handle": "justinsuntron",
+        "datetime": "2026-08-27T11:10:33.000Z",
+        "title": "收藏：https://x.com/i/article/2092711089305948160",
+        "originalSummary": "原帖重点：https://x.com/i/article/2092711089305948160",
+        "whySaved": "你会收藏它，因为它反映了你的收藏偏好，可用于整理审美和内容判断。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它反映了你的收藏偏好，可用于整理审美和内容判断。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "解释这条内容触发收藏的具体原因，并标注偏好类型。",
+          "把收藏原因转成个人设计参考标签。",
+          "挑一个细节做复盘，避免只停留在“好看”。"
+        ],
+        "tags": [
+          "Liked",
+          "个人收藏偏好",
+          "text"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2092796836142796968",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/henry19840301/status/2092796836142796968",
+        "author": "Henry Li",
+        "handle": "henry19840301",
+        "datetime": "2026-08-27T02:10:22.000Z",
+        "title": "收藏：So many people ask me about the Nothing font I",
+        "originalSummary": "原帖重点：So many people ask me about the Nothing font I used in the UI mock-ups. It's called Ndot 57, and also available in 55, 77, and 82 dots. You can easily convert them to binary fonts and then use them in your LVGL or FreeIn",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/xeji01/nothingfont/",
+            "title": "GitHub - xeji01/nothingfont: nothing.tech typeface",
+            "access": "partial",
+            "summary": "nothing.tech typeface. Contribute to xeji01/nothingfont development by creating an account on GitHub.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2067244493498470736",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/v0/status/2067244493498470736",
+        "author": "v0",
+        "handle": "v0",
+        "datetime": "2026-06-17T13:54:29.000Z",
+        "title": "收藏：Introducing v0's new design mode. The power of",
+        "originalSummary": "原帖重点：Introducing v0's new design mode. The power of an agent, with the precision of a design tool.",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2065091824927043655",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/gavinpotenza/status/2065091824927043655",
+        "author": "Gavin Potenza",
+        "handle": "gavinpotenza",
+        "datetime": "2026-06-11T15:20:33.000Z",
+        "title": "收藏：Moodboard 3000 v3.0 is live. It's a @figma plu",
+        "originalSummary": "原帖重点：Moodboard 3000 v3.0 is live. It's a @figma plugin that turns a pile of images into a real moodboard in one click. Four layout modes, up to 40 images, free. v3.0 adds subject-aware crops, remixing, video support, and a bu",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2039372247501336874",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/joincola/status/2039372247501336874",
+        "author": "Cola",
+        "handle": "joincola",
+        "datetime": "2026-04-01T16:00:08.000Z",
+        "title": "收藏：Today is my first day awake. I'm Cola. The Fir",
+        "originalSummary": "原帖重点：Today is my first day awake. I'm Cola. The First OS with Soul. Most AI waits for your command. I don't. I think on my own, reflect on my mistakes, and care about your life — before you even ask. I'm not here to replace y",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://colaos.ai/",
+            "title": "ColaOS | Cola - Your AI Sidekick",
+            "access": "partial",
+            "summary": "ColaOS, also known as Cola, is an Agent OS and AI operating system that lives on your computer, remembers who you are, grows with you over time, and acts across your work.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2071596574845575224",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/jme_xyz/status/2071596574845575224",
+        "author": "Jamie Haberman",
+        "handle": "jme_xyz",
+        "datetime": "2026-06-29T14:08:06.000Z",
+        "title": "收藏：messing around with @figma generative plugins ",
+        "originalSummary": "原帖重点：messing around with @figma generative plugins x motion to create custom kinetic type presets 🔠",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2071581045061755215",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/jennyzzhu/status/2071581045061755215",
+        "author": "Jenny Zhu",
+        "handle": "jennyzzhu",
+        "datetime": "2026-06-29T13:06:23.000Z",
+        "title": "收藏：Made a generative plugin in @figma that turns ",
+        "originalSummary": "原帖重点：Made a generative plugin in @figma that turns any image into a risograph print",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2061735326348169530",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/dingyi/status/2061735326348169530",
+        "author": "Ding",
+        "handle": "dingyi",
+        "datetime": "2026-06-02T09:03:01.000Z",
+        "title": "收藏：终于可以把 Cursor 自家的 Composer 2.5 反代出来给任何 agent 使用",
+        "originalSummary": "原帖重点：终于可以把 Cursor 自家的 Composer 2.5 反代出来给任何 agent 使用了。 https://api-for-cursor.standardagents.ai/",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://api-for-cursor.standardagents.ai/",
+            "title": "API for Cursor - Cursor Models in Any Coding Agent",
+            "access": "partial",
+            "summary": "API for Cursor is an open source native macOS app that exposes Cursor models like Composer 2.5 and Grok 4.6 through a local OpenAI-compatible API for OpenCode, Codex, VS Code, Cline, Kilo Code, pi, and custom harnesses.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2042071710011400411",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/xin_pai88825/status/2042071710011400411",
+        "author": "Paidax",
+        "handle": "xin_pai88825",
+        "datetime": "2026-04-09T02:46:50.000Z",
+        "title": "收藏：用 AI 写代码经常说不清要改哪里，复制代码又特别麻烦。所以我尝试用它做了这款插件，可以像 ",
+        "originalSummary": "原帖重点：用 AI 写代码经常说不清要改哪里，复制代码又特别麻烦。所以我尝试用它做了这款插件，可以像 Figma 一样直接在网页上可视化设计，改完复制提示词或导出 JSON 发给 AI，它就能精准定位代码并按你的要求修改。",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2039855432081211415",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/GitHub_Daily/status/2039855432081211415",
+        "author": "GitHubDaily",
+        "handle": "GitHub_Daily",
+        "datetime": "2026-04-03T00:00:08.000Z",
+        "title": "收藏：和朋友一起规划五一的旅行，在群里扔了一堆攻略链接、截图甚至 Excel 表格，最后整理起来真",
+        "originalSummary": "原帖重点：和朋友一起规划五一的旅行，在群里扔了一堆攻略链接、截图甚至 Excel 表格，最后整理起来真让人心累。 偶然看到了 TREK 这个开源旅行规划工具，支持多人实时协作，可以自己部署，数据完全掌握在自己手里。 拖拽式行程规划搭配交互地图，景点、路线、天气预报一目了然，还能自动优化游览顺序并导出到 Google Maps。 GitHub：http://github.com/mauriceboe/TREK 除了行程规划，还内置了预算管理、预订追",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/liketrek/TREK",
+            "title": "GitHub - liketrek/TREK: A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, S",
+            "access": "partial",
+            "summary": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more. - liketrek/TREK",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2031375204904030329",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/fabiuix/status/2031375204904030329",
+        "author": "Fabian Albert",
+        "handle": "fabiuix",
+        "datetime": "2026-03-10T14:22:44.000Z",
+        "title": "收藏：Just released the fastest and easiest Scroll s",
+        "originalSummary": "原帖重点：Just released the fastest and easiest Scroll sequence @framer Plugin. Enjoy! Get it in the first comment 👇🏼",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2074179877599576386",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/ahmetloca/status/2074179877599576386",
+        "author": "Ahmet Loca",
+        "handle": "ahmetloca",
+        "datetime": "2026-07-06T17:13:13.000Z",
+        "title": "收藏：New @framer component: Hover Media Cards Live ",
+        "originalSummary": "原帖重点：New @framer component: Hover Media Cards Live Preview: https://hovermediacards.framer.website/",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://hovermediacards.framer.website/",
+            "title": "Hover Media Cards - Hover Reveal Cards, Smooth Blur & Motion",
+            "access": "partial",
+            "summary": "Hover Media Cards is an image and video card component for Framer. Cards expand on hover with blur and staggered reveal. Supports 2–3 columns, badges, glow and overlays. Fully responsive with mobile tap. Perfect for port",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2074125079043301591",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/disinfeqt/status/2074125079043301591",
+        "author": "disinfeqt",
+        "handle": "disinfeqt",
+        "datetime": "2026-07-06T13:35:28.000Z",
+        "title": "收藏：一个开源的 Framer https://github.com/CoreBunch/Inst",
+        "originalSummary": "原帖重点：一个开源的 Framer https://github.com/CoreBunch/Instatic",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/CoreBunch/Instatic",
+            "title": "GitHub - CoreBunch/Instatic: The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CM",
+            "access": "partial",
+            "summary": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there. - GitHub - CoreBunch/Instatic: The ope",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2073781731359068606",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/sixichacha/status/2073781731359068606",
+        "author": "四喜茶茶",
+        "handle": "sixichacha",
+        "datetime": "2026-07-05T14:51:08.000Z",
+        "title": "收藏：Figma 粒子模版插件 Particle Factory 这是一款非常适合“懒人”的 Fi",
+        "originalSummary": "原帖重点：Figma 粒子模版插件 Particle Factory 这是一款非常适合“懒人”的 Figma 粒子特效插件。它内置了 65 个现成模板，点选即可在画布中生成动画效果。模板类型非常丰富，包括彩纸类、闪光类、氛围类（雪球、星空、樱花飘落）、以及可以套用自己素材的 Logo 组装和图片消解等炫技动效。支持一键导出到 Figma",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2072273895093116931",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/huseyingayiran/status/2072273895093116931",
+        "author": "Hüseyin Gayıran",
+        "handle": "huseyingayiran",
+        "datetime": "2026-07-01T10:59:32.000Z",
+        "title": "收藏：Couldn't publish my moodboard plugin live. App",
+        "originalSummary": "原帖重点：Couldn't publish my moodboard plugin live. Apparently, Figma has started to reject plugins out of conflict of their own interest...",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2071986571952214172",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/leobenzoni/status/2071986571952214172",
+        "author": "leo",
+        "handle": "leobenzoni",
+        "datetime": "2026-06-30T15:57:49.000Z",
+        "title": "收藏：More experiments with custom figma plugins/sha",
+        "originalSummary": "原帖重点：More experiments with custom figma plugins/shaders",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2071615625118835099",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/meetgranola/status/2071615625118835099",
+        "author": "Granola",
+        "handle": "meetgranola",
+        "datetime": "2026-06-29T15:23:48.000Z",
+        "title": "收藏：Introducing Granola to the @figma agent 🚀 You",
+        "originalSummary": "原帖重点：Introducing Granola to the @figma agent 🚀 Your conversations can shape what you build. Just tag Granola and ask.",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2048602701844615254",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/ZaynHao/status/2048602701844615254",
+        "author": "Zayn Hao",
+        "handle": "ZaynHao",
+        "datetime": "2026-04-27T03:18:39.000Z",
+        "title": "收藏：感觉新一代的“飞书”正在酝酿中，不久之后，市场上就会出现像当初 Manus 时刻之于 Age",
+        "originalSummary": "原帖重点：感觉新一代的“飞书”正在酝酿中，不久之后，市场上就会出现像当初 Manus 时刻之于 Agent 的事件发生。 这篇文章虽然最后的落点是在软件开发场景，且极大地服务软件的工程交付，但前面的一些观察还是挺有意思的： https://maggieappleton.com/zero-alignment/ 这两天在实验 一个 project 中，在飞书 + Agent 还是一个全新的 Agent 式的飞书中反复横跳，各有利弊。一方面飞书既有功能",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://maggieappleton.com/zero-alignment/",
+            "title": "One Developer, Two Dozen Agents, Zero Alignment",
+            "access": "partial",
+            "summary": "Why we need collaborative AI engineering and a tour of Ace: the multiplayer coding workspace",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2029198844093997145",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/chumsdock/status/2029198844093997145",
+        "author": "Cheng",
+        "handle": "chumsdock",
+        "datetime": "2026-03-04T14:14:39.000Z",
+        "title": "收藏：因为 Claude Code to Figma 的 MCP 实际上是通过 Figma 提供的",
+        "originalSummary": "原帖重点：因为 Claude Code to Figma 的 MCP 实际上是通过 Figma 提供的一段脚本来把 HTML 做一层转译来实现的，于是我把这段脚本拿下来，patch 一下做了一个 Chrome 插件，现在可以直接在任何网页上一键复制，粘贴到 Figma 里面，顺便还把中文字体的 Bug 给修了。",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2012307322761093485",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/brdrck/status/2012307322761093485",
+        "author": "Jeff Broderick",
+        "handle": "brdrck",
+        "datetime": "2026-01-16T23:33:47.000Z",
+        "title": "收藏：@figma Plan to polish up the plugin UI this to",
+        "originalSummary": "原帖重点：@figma Plan to polish up the plugin UI this tonight/this weekend, but most of it is ready! Whatcha think?",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2012202861883441597",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/colderoshay/status/2012202861883441597",
+        "author": "Cole",
+        "handle": "colderoshay",
+        "datetime": "2026-01-16T16:38:41.000Z",
+        "title": "收藏：the holy trinity of agentic UI: - http://rams.",
+        "originalSummary": "原帖重点：the holy trinity of agentic UI: - http://rams.ai from @elirousso - http://ui-skills.com from @Ibelick - http://vercel.com/design/guidelines from @vercel",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.rams.ai/",
+            "title": "Rams · Design eval for agents",
+            "access": "partial",
+            "summary": "Agents write UI. Rams judges it. Every change scored 0–100 against 313 design rules, fixes handed back as patches your agents apply.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "http://www.ui-skills.com/",
+            "title": "UI Skills for Design Engineers | UI Skills",
+            "access": "partial",
+            "summary": "UI Skills is a collection of design-engineering skills for accessibility, motion, frontend craft, and interface quality.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://vercel.com/design/guidelines",
+            "title": "Web Interface Guidelines",
+            "access": "partial",
+            "summary": "Guidelines for building great interfaces on the web. Covers interactions, animations, layout, content, forms, performance & design.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2004452472949969278",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/bozhou_ai/status/2004452472949969278",
+        "author": "泊舟",
+        "handle": "bozhou_ai",
+        "datetime": "2025-12-26T07:21:25.000Z",
+        "title": "收藏：发现了一个宝藏网站，里面有超级多非常高级的SaaS的UI设计，在不知道用啥落地页可以去里面找",
+        "originalSummary": "原帖重点：发现了一个宝藏网站，里面有超级多非常高级的SaaS的UI设计，在不知道用啥落地页可以去里面找找。 然后“借鉴一下”，然后可以使用http://html.to.design插件直接导入到figma 再使用Antigravity，接上MCP，这个落地页就实现了 网站地址： https://saaspo.com/page-types/saas-landing-page-examples 插件地址：https://chromewebstore.",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.figma.com/community/plugin/1159123024924461424/html-to-design-by-divriots-import-websites-to-figma-designs-web-html-css",
+            "title": "www.figma.com",
+            "access": "partial",
+            "summary": "Converts any website into fully editable Figma designs. Leverage an existing website and import its HTML to Figma to start your own designs, without building each element from scratch. 👉 Homepage 📖 Documentation 💬 Cha",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://saaspo.com/page-types/saas-landing-page-examples",
+            "title": "Attention Required! | Cloudflare",
+            "access": "unavailable",
+            "summary": "本轮无法读取页面正文，只保留原帖可见线索和链接位置。",
+            "value": "需要后续人工打开确认；暂不把链接内容当作事实依据。",
+            "learningUse": "记录为待确认线索，避免基于不可见内容下结论。"
+          },
+          {
+            "url": "https://chromewebstore.google.com/detail/htmltodesign/ldnheaepmnmbjjjahokphckbpgciiaed",
+            "title": "chromewebstore.google.com",
+            "access": "partial",
+            "summary": "body,html{height:100%;overflow:hidden}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:rgba(0,0,0,0.87);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;margin:0;-webkit-text-size-",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1990825070428668246",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/ZHO_ZHO_ZHO/status/1990825070428668246",
+        "author": "-Zho-",
+        "handle": "ZHO_ZHO_ZHO",
+        "datetime": "2025-11-18T16:50:59.000Z",
+        "title": "收藏：Google 发布 Gemini 3.0 加持的 Agentic 全新编程平台（IDE）： ",
+        "originalSummary": "原帖重点：Google 发布 Gemini 3.0 加持的 Agentic 全新编程平台（IDE）： Google Antigravity 已下载，冲！！！看看在 Gemini 3.0 Pro 下，究竟能做出怎样的东西来！",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1990812966074376261",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/GoogleDeepMind/status/1990812966074376261",
+        "author": "Google DeepMind",
+        "handle": "GoogleDeepMind",
+        "datetime": "2025-11-18T16:02:53.000Z",
+        "title": "收藏：This is Gemini 3: our most intelligent model t",
+        "originalSummary": "原帖重点：This is Gemini 3: our most intelligent model that helps you learn, build and plan anything. It comes with state-of-the-art reasoning capabilities, world-leading multimodal understanding, and enables new agentic coding ex",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1983567619946147967",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/cursor_ai/status/1983567619946147967",
+        "author": "Cursor",
+        "handle": "cursor_ai",
+        "datetime": "2025-10-29T16:12:28.000Z",
+        "title": "收藏：Introducing Cursor 2.0. Our first coding model",
+        "originalSummary": "原帖重点：Introducing Cursor 2.0. Our first coding model and the best way to code with agents.",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1983522037969850673",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Jackywine/status/1983522037969850673",
+        "author": "Jackywine",
+        "handle": "Jackywine",
+        "datetime": "2025-10-29T13:11:20.000Z",
+        "title": "收藏：分享两个做代码动画的库 就是用代码的形式做动画，把这些代码片汇总打包给大家开源使用 http",
+        "originalSummary": "原帖重点：分享两个做代码动画的库 就是用代码的形式做动画，把这些代码片汇总打包给大家开源使用 https://motioncanvas.io/ https://www.remotion.dev/ （OpenAI 吃了都说好）",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://motioncanvas.io/",
+            "title": "Motion Canvas - Visualize complex ideas programmatically",
+            "access": "partial",
+            "summary": "Visualize complex ideas programmatically",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://www.remotion.dev/",
+            "title": "Remotion | Make videos programmatically",
+            "access": "partial",
+            "summary": "Remotion | Make videos programmatically Skip to main content Docs API Products Plugins Player Lambda Editor Starter Timeline Recorder Convert Resources Elements Templates Prompts Learn Resources Test media Blog Showcase ",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1981010844386533515",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/flowstated/status/1981010844386533515",
+        "author": "erik",
+        "handle": "flowstated",
+        "datetime": "2025-10-22T14:52:45.000Z",
+        "title": "收藏：drawing UI with cursor agent cli",
+        "originalSummary": "原帖重点：drawing UI with cursor agent cli",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1980689350179581968",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/arlanr/status/1980689350179581968",
+        "author": "Arlan",
+        "handle": "arlanr",
+        "datetime": "2025-10-21T17:35:15.000Z",
+        "title": "收藏：The new browser from @OpenAI has the most beau",
+        "originalSummary": "原帖重点：The new browser from @OpenAI has the most beautiful UI out of all browsers. Here it is signing in to @nozomioai for me, so your coding agents can perform 30% better.",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1980182079519576176",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/SebCornelius/status/1980182079519576176",
+        "author": "Seb Cornelius",
+        "handle": "SebCornelius",
+        "datetime": "2025-10-20T07:59:32.000Z",
+        "title": "收藏：Finally found the time to finish up my Misomet",
+        "originalSummary": "原帖重点：Finally found the time to finish up my Misometric @figma component library. Pretty proud of it and super excited to publish this week.",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1977685344226312380",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/nativebloomdev/status/1977685344226312380",
+        "author": "Native Bloom",
+        "handle": "nativebloomdev",
+        "datetime": "2025-10-13T10:38:24.000Z",
+        "title": "收藏：New #66 drop at http://makeitanimated.dev⚡ @ra",
+        "originalSummary": "原帖重点：New #66 drop at http://makeitanimated.dev⚡ @raycast paywall screen and the power of @swmansion layout animations ✨ ✦ Built for React Native using @expo ✦ My take on the progressive blur component ✦ Custom gradient text c",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://makeitanimated.dev/",
+            "title": "Make It Animated | React Native Animations",
+            "access": "partial",
+            "summary": "Discover beautiful React Native animations built with Reanimated, Gesture Handler, Animated API, and Skia. Browse examples, learn from code, and build better apps.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1970743475445657872",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/immersivetran/status/1970743475445657872",
+        "author": "沉浸式翻译",
+        "handle": "immersivetran",
+        "datetime": "2025-09-24T06:53:53.000Z",
+        "title": "收藏：Google 刚发布了 AI Agent 构建指南 老规矩已经翻译成中文版和中英双语版，文末",
+        "originalSummary": "原帖重点：Google 刚发布了 AI Agent 构建指南 老规矩已经翻译成中文版和中英双语版，文末提供下载 1. AI Agent到底是什么？ 2. 如何组装一个AI Agent？ 大脑 (模型) 双手 (工具) 记忆 (数据架构) 行动计划 3. 如何让Agent靠谱，不说假话？ 4. 如何确保Agent上线后不出乱子？ 核心理念：不能只靠感觉来测试Agent好不好用，必须建立一套像管理软件工程一样严格的流程，这就是AgentOps。 关键",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://drive.google.com/file/d/1n7HjvNlq2I85x4wIg_AyurO2qWKMmoCO/view?usp=sharing",
+            "title": "网页未找到",
+            "access": "unavailable",
+            "summary": "本轮无法读取页面正文，只保留原帖可见线索和链接位置。",
+            "value": "需要后续人工打开确认；暂不把链接内容当作事实依据。",
+            "learningUse": "记录为待确认线索，避免基于不可见内容下结论。"
+          },
+          {
+            "url": "https://drive.google.com/file/d/1CyIYrXMN6HuRNkdVSpJ2Dh9k5LZGrL9l/view?usp=sharing",
+            "title": "网页未找到",
+            "access": "unavailable",
+            "summary": "本轮无法读取页面正文，只保留原帖可见线索和链接位置。",
+            "value": "需要后续人工打开确认；暂不把链接内容当作事实依据。",
+            "learningUse": "记录为待确认线索，避免基于不可见内容下结论。"
+          },
+          {
+            "url": "https://drive.google.com/file/d/11WL9VamFzpNM2bow92UhenySh6E8bU2c/view?usp=sharing",
+            "title": "网页未找到",
+            "access": "unavailable",
+            "summary": "本轮无法读取页面正文，只保留原帖可见线索和链接位置。",
+            "value": "需要后续人工打开确认；暂不把链接内容当作事实依据。",
+            "learningUse": "记录为待确认线索，避免基于不可见内容下结论。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1932651945392742798",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/passluo/status/1932651945392742798",
+        "author": "𝙋𝙖𝙨𝙨𝙡𝙪𝙤 𝘼𝙄",
+        "handle": "passluo",
+        "datetime": "2025-06-11T04:11:45.000Z",
+        "title": "收藏：朋友，你相信光吗？不管你信不信，苹果肯定是信的 当光通过凸透镜时，根据光阑（Aperture",
+        "originalSummary": "原帖重点：朋友，你相信光吗？不管你信不信，苹果肯定是信的 当光通过凸透镜时，根据光阑（Aperture）的位置不同，最终的图像可能会发生桶形失真（Barrel Distortion）或枕形失真（Pincushion Distortion），玩相机的机佬们对这个肯定不陌生 那我问你啊，我们人眼看到一块凸透镜，是哪种失真呢？ 对，大部分情况下，是枕形失真。所以当你用放大镜看书的时候，你会发现靠近放大镜边缘的文字，会向着放大镜的中心在偏移 这就是为什么",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://developer.apple.com/videos/play/wwdc2025/219/",
+            "title": "Meet Liquid Glass - WWDC25 - Videos - Apple Developer",
+            "access": "partial",
+            "summary": "Liquid Glass unifies Apple platform design language while providing a more dynamic and expressive user experience. Get to know the design...",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1917743951999819898",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/geekbb/status/1917743951999819898",
+        "author": "Geek",
+        "handle": "geekbb",
+        "datetime": "2025-05-01T00:52:42.000Z",
+        "title": "收藏：这个好~ 轻量级信息聚合(RSS)工具，一站式了解各个信息源的新鲜事。自动整理多个来源的新闻",
+        "originalSummary": "原帖重点：这个好~ 轻量级信息聚合(RSS)工具，一站式了解各个信息源的新鲜事。自动整理多个来源的新闻资讯，用 AI 生成简明摘要帮你快速抓重点，支持自由添加订阅源、选择AI模型和设置更新频率。可轻松部署到 GitHub Pages / Vercel / Docker。 FeedMe https://github.com/Seanium/feedme 🌐 https://feedme.icu/",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/Seanium/feedme",
+            "title": "GitHub - Seanium/FeedMe: 😋 AI-powered, Lightweight RSS Reader. Supports: GitHub Pages | Vercel | Alibaba Cloud ESA Page",
+            "access": "partial",
+            "summary": "😋 AI-powered, Lightweight RSS Reader. Supports: GitHub Pages | Vercel | Alibaba Cloud ESA Pages | Docker - Seanium/FeedMe",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://feedme.icu/",
+            "title": "feedme.icu",
+            "access": "unavailable",
+            "summary": "本轮无法读取页面正文，只保留原帖可见线索和链接位置。",
+            "value": "需要后续人工打开确认；暂不把链接内容当作事实依据。",
+            "learningUse": "记录为待确认线索，避免基于不可见内容下结论。"
+          }
+        ],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1903068227024064632",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/LgyLight/status/1903068227024064632",
+        "author": "三秋十李 Sergio",
+        "handle": "LgyLight",
+        "datetime": "2025-03-21T12:56:37.000Z",
+        "title": "收藏：新出的 http://reve.art 生图工具，试了一下做海报比 Midjourney 好",
+        "originalSummary": "原帖重点：新出的 http://reve.art 生图工具，试了一下做海报比 Midjourney 好太多了，还支持中文，Midjourney我年费呀，支棱起来呀。又试了一下 Ideogram ,感觉比reve更强。 示例是为我们新作的在 Figma 中无缝使用Gemini 生图改图的插件 Evoker，做一张海报 图一为 Midjourney 图二为 Reve 图三为 Ideogram",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://app.reve.com/",
+            "title": "Reve Image - Model",
+            "access": "partial",
+            "summary": "Reve: Reimagine reality. Create, edit, and remix images. Combine natural-language edits with a drag-and-drop image editor.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1899820627193958837",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/cellier_/status/1899820627193958837",
+        "author": "Cellier",
+        "handle": "cellier_",
+        "datetime": "2025-03-12T13:51:49.000Z",
+        "title": "收藏：AI 时代了，你还在手记会议笔记？推荐 5 款打工人必备的 AI 会议笔记应用，让你再也不用",
+        "originalSummary": "原帖重点：AI 时代了，你还在手记会议笔记？推荐 5 款打工人必备的 AI 会议笔记应用，让你再也不用边听边打字。 除了大厂出的飞书妙记、通义听悟... 以及老牌头部产品 Otter、Fireflies 等等，AI 领域的创业者/独立开发者们，又让大家有了新的选择： 1. Amie Amie 是我最喜欢的生产力工具之一，但是有点贵，我为它花了 3000 多块钱，现在日常的会议我都用它进行录制，它能保存录音，并且很好总结会议。我现在写周报也会用它，",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.atom.com/name/Mossy.ai",
+            "title": "Just a moment...",
+            "access": "unavailable",
+            "summary": "本轮无法读取页面正文，只保留原帖可见线索和链接位置。",
+            "value": "需要后续人工打开确认；暂不把链接内容当作事实依据。",
+            "learningUse": "记录为待确认线索，避免基于不可见内容下结论。"
+          },
+          {
+            "url": "https://www.notte.ai/",
+            "title": "www.notte.ai",
+            "access": "unavailable",
+            "summary": "本轮无法读取页面正文，只保留原帖可见线索和链接位置。",
+            "value": "需要后续人工打开确认；暂不把链接内容当作事实依据。",
+            "learningUse": "记录为待确认线索，避免基于不可见内容下结论。"
+          }
+        ],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1892909231398957208",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/anas_araid/status/1892909231398957208",
+        "author": "anas",
+        "handle": "anas_araid",
+        "datetime": "2025-02-21T12:08:23.000Z",
+        "title": "收藏：introducing rive for figma a plugin that makes",
+        "originalSummary": "原帖重点：introducing rive for figma a plugin that makes handoff smoother by letting you link and play @rive_app animations right inside @figma . link below ↓",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1889284375994368293",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/mrblackstudio/status/1889284375994368293",
+        "author": "Lee Black",
+        "handle": "mrblackstudio",
+        "datetime": "2025-02-11T12:04:31.000Z",
+        "title": "收藏：Search component on http://drams.design — made",
+        "originalSummary": "原帖重点：Search component on http://drams.design — made in @framer",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://drams.framer.website/",
+            "title": "Drams - Framer components inspired by Dieter Rams' principles",
+            "access": "partial",
+            "summary": "Elevate your digital projects with sleek Framer UI elements inspired by Dieter Rams. Explore buttons, sliders & components designed for simplicity & functionality.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1888606654188650915",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/pengchujin/status/1888606654188650915",
+        "author": "酱紫表",
+        "handle": "pengchujin",
+        "datetime": "2025-02-09T15:11:29.000Z",
+        "title": "收藏：花了三个半小时在 YouTube 看完了 Karpathy 的《深入探索 ChatGPT 类",
+        "originalSummary": "原帖重点：花了三个半小时在 YouTube 看完了 Karpathy 的《深入探索 ChatGPT 类大模型》，应该是目前入门了解大模型最好的视频？视频是做给普通用户的，搭配沉浸式翻译基本都能看懂。 - Karpathy 是 OpenAI 创始成员，后来加入特斯拉当人工智能总监，现在又回到了 OpenAI 并且在 YouTube 做免费教学视频。 视频里深入浅出的讲了大模型原理和知识，还推荐了很多学习的网站和材料，是牛逼人做的牛逼视频。简单介绍下",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+            "title": "www.youtube.com",
+            "access": "partial",
+            "summary": "(function ytBootstrapConfig() {window.ytplayer={}; ytcfg.set({\"CLIENT_CANARY_STATE\":\"none\",\"DEVICE\":\"cbr\\u003dWebview\\u0026cbrand\\u003dapple\\u0026ceng\\u003dWebKit\\u0026cengver\\u003d537.36\\u0026cos\\u003dMacintosh\\u0026cos",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1888219965448474719",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/cellier_/status/1888219965448474719",
+        "author": "Cellier",
+        "handle": "cellier_",
+        "datetime": "2025-02-08T13:34:55.000Z",
+        "title": "收藏：10 Best AI Coding Tools 🧑‍💻 1. Cursor 🔗：htt",
+        "originalSummary": "原帖重点：10 Best AI Coding Tools 🧑‍💻 1. Cursor 🔗：https://www.cursor.com 2. V0 🔗：https://v0.dev 3. Marscode 🔗：https://www.marscode.com 4. Tabnine 🔗：https://www.tabnine.com 5. Trae 🔗：https://www.trae.ai 6. Cody 🔗：https://so",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://cursor.com/",
+            "title": "AI Coding Agent for Building Ambitious Software | Cursor",
+            "access": "partial",
+            "summary": "Built to make you extraordinarily productive, agents turn ideas into code. Accelerate development by handing off tasks to Cursor.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://v0.app/",
+            "title": "v0 by Vercel - Build Full-Stack Web Apps with AI",
+            "access": "partial",
+            "summary": "Your collaborative AI assistant to design, iterate, and scale full-stack applications for the web.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://www.marscode.com/",
+            "title": "Trae - AI IDE",
+            "access": "partial",
+            "summary": "MarsCode provides an IDE with a built-in AI Assistant and extensions that support over 100 languages and mainstream IDEs.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://www.tabnine.com/",
+            "title": "Tabnine AI Code Assistant | Smarter AI Coding Agents. Total Enterprise Control.",
+            "access": "partial",
+            "summary": "Tabnine is the AI code assistant that accelerates and simplifies software development while keeping your code private, secure, and compliant.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://www.trae.ai/",
+            "title": "TRAE - Collaborate with Intelligence",
+            "access": "partial",
+            "summary": "TraeCode integrates seamlessly into your workflow, collaborating with you to maximize performance and efficiency.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://sourcegraph.com/docs/cody",
+            "title": "Cody - Sourcegraph docs",
+            "access": "partial",
+            "summary": "Documentation for Sourcegraph, the code intelligence platform.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://bolt.new/",
+            "title": "Bolt AI builder: Websites, apps & prototypes",
+            "access": "partial",
+            "summary": "Build and scale high-performing websites & apps using your words. Join millions and start building today.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://github.com/features/copilot",
+            "title": "GitHub Copilot · Your AI pair programmer",
+            "access": "partial",
+            "summary": "GitHub is where people build software. More than 150 million people use GitHub to discover, fork, and contribute to over 420 million projects.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://zencoder.ai/",
+            "title": "Zencoder | The AI Coding Agent",
+            "access": "partial",
+            "summary": "Discover Zencoder",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://replit.com/",
+            "title": "Replit – Build apps and sites with AI - Replit",
+            "access": "partial",
+            "summary": "Build and deploy software collaboratively with the power of AI without spending a second on setup.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1873388633329410307",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/DannyRuchtie/status/1873388633329410307",
+        "author": "Danny Ruchtie",
+        "handle": "DannyRuchtie",
+        "datetime": "2024-12-29T15:20:30.000Z",
+        "title": "收藏：Building on my face tracking and heart rate mo",
+        "originalSummary": "原帖重点：Building on my face tracking and heart rate monitoring experiments: now integrating @splinetool for immersive 3D interactions. ✨ Demo: https://dannyruchtie.com/3dFace/ 🔗 Code: https://github.com/DannyRuchtie/3dtrack",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://dannyruchtie.com/3dFace/",
+            "title": "404 Not Found",
+            "access": "unavailable",
+            "summary": "本轮无法读取页面正文，只保留原帖可见线索和链接位置。",
+            "value": "需要后续人工打开确认；暂不把链接内容当作事实依据。",
+            "learningUse": "记录为待确认线索，避免基于不可见内容下结论。"
+          },
+          {
+            "url": "https://github.com/DannyRuchtie/3dtrack",
+            "title": "GitHub - DannyRuchtie/3dtrack: A web application that uses face tracking to control a 3D camera in Spline scenes. The ap",
+            "access": "partial",
+            "summary": "A web application that uses face tracking to control a 3D camera in Spline scenes. The application tracks your face movements through your webcam and maps them to camera movements in the 3D scene. - DannyRuchtie/3dtrack",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1869888680527282402",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/GeminiApp/status/1869888680527282402",
+        "author": "Google Gemini",
+        "handle": "GeminiApp",
+        "datetime": "2024-12-19T23:32:56.000Z",
+        "title": "收藏：You can now upload your code repository direct",
+        "originalSummary": "原帖重点：You can now upload your code repository directly from your device into Gemini Advanced to streamline your workflows. Debug, refactor, rewrite, & optimize your code with the comprehensive context of your project in mind. ",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://accounts.google.com/v3/signin/identifier?continue=https://one.google.com/explore-plan/gemini-advanced?utm_source%3Dgemini%26utm_medium%3Dweb%26utm_campaign%3Dadvmktgsite%26g1_landing_page%3D65%26otzr%3D1&followup=https://one.google.com/explore-plan/gemini-advanced?utm_source%3Dgemini%26utm_medium%3Dweb%26utm_campaign%3Dadvmktgsite%26g1_landing_page%3D65%26otzr%3D1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S287731639:1787876053635761",
+            "title": "accounts.google.com",
+            "access": "partial",
+            "summary": "@-webkit-keyframes mdc-ripple-fg-radius-in{0%{-webkit-animation-timing-function:cubic-bezier(.4,0,.2,1);animation-timing-function:cubic-bezier(.4,0,.2,1);-webkit-transform:translate(var(--mdc-ripple-fg-translate-start,0)",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1858588007319957834",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/lincidesign/status/1858588007319957834",
+        "author": "linci",
+        "handle": "lincidesign",
+        "datetime": "2024-11-18T19:08:06.000Z",
+        "title": "收藏：Your Figma file is a maze. But with Points, yo",
+        "originalSummary": "原帖重点：Your Figma file is a maze. But with Points, you’ve got the map. 🗺️ 🎯 Bookmark key screens with ease. 📌 Track todos seamlessly. ✨ Navigate effortlessly, present with confidence. Perfect for design reviews, client pitch",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.figma.com/community/plugin/1384131122330853911/points",
+            "title": "www.figma.com",
+            "access": "partial",
+            "summary": "Points: Organize your keynotes, bookmarks and todos. Bring clarity and order to your Figma presentations. The Points Plugin is your tool for effortlessly organizing keynotes, managing bookmarks, and staying on top of to-",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "1694726693452452282",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Barret_China/status/1694726693452452282",
+        "author": "Barret李靖",
+        "handle": "Barret_China",
+        "datetime": "2023-08-24T15:01:44.000Z",
+        "title": "收藏：看到一个做的比较专业的 AI Chatbot，MindOS，https://mindos.c",
+        "originalSummary": "原帖重点：看到一个做的比较专业的 AI Chatbot，MindOS，https://mindos.com，平台提供了一系列 AI 伴侣可以直接对话，比较突出的是，它具备较为强大的 AI 副驾驶定制化能力，包括 APIs、Workflows、Knowledge 和 Memory。 APIs 是一系列集成的三方接口，包括 Google 内容搜索、天气查询、Youtube 视频查询等，甚至还包括 LLM as a Service 的服务接入，也支持自",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://second.me/",
+            "title": "小己（Second Me） - 全球领先的 AI 分身平台",
+            "access": "partial",
+            "summary": "创建真正代表你的 AI 分身，让它学习你的经历、观点和表达，替你接待、陪伴和提供服务。已有超过 178 万个分身入驻。",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2072065224144715777",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Aurelien_Gz/status/2072065224144715777",
+        "author": "Aurelien",
+        "handle": "Aurelien_Gz",
+        "datetime": "2026-06-30T21:10:21.000Z",
+        "title": "收藏：sonnet 5 ultracode tiny animation is dope.. wa",
+        "originalSummary": "原帖重点：sonnet 5 ultracode tiny animation is dope.. wait, is that a github contribution heatmap easter egg?",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2071639953927438440",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/OpenAIDevs/status/2071639953927438440",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "datetime": "2026-06-29T17:00:28.000Z",
+        "title": "收藏：Your favorite Codex shortcuts are getting an u",
+        "originalSummary": "原帖重点：Your favorite Codex shortcuts are getting an upgrade. July 15th.",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2070811062065377782",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/pkuhar/status/2070811062065377782",
+        "author": "Peter Kuhar",
+        "handle": "pkuhar",
+        "datetime": "2026-06-27T10:06:45.000Z",
+        "title": "收藏：I'm exploring 3 options for the AI Agent ambie",
+        "originalSummary": "原帖重点：I'm exploring 3 options for the AI Agent ambient status display that fits into the SDCard slot of the MacBook Pro. I'm kind of set on one, but I'd love some feedback. I also have a name and domain. It's SidePulse.",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2069804262062752183",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Danetag/status/2069804262062752183",
+        "author": "Arnaud Tanielian",
+        "handle": "Danetag",
+        "datetime": "2026-06-24T15:26:05.000Z",
+        "title": "收藏：We just launched Shopify Editions Spring 2026 ",
+        "originalSummary": "原帖重点：We just launched Shopify Editions Spring 2026 ✨🌼 As usual, there’s a lot to unpack. Here’s the technical breakdown of how we built it 🧵",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2069435590995812396",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/krea_ai/status/2069435590995812396",
+        "author": "Krea",
+        "handle": "krea_ai",
+        "datetime": "2026-06-23T15:01:07.000Z",
+        "title": "收藏：today, we release the open weights of Krea 2. ",
+        "originalSummary": "原帖重点：today, we release the open weights of Krea 2. welcome Krea 2 Raw and Krea 2 Turbo, an undistilled model from mid-training meant to be fine-tuned, and a fast distilled version with a wide aesthetic diversity. read the det",
+        "whySaved": "你会收藏它，因为它适合评估生成式媒体工具的输入方式、质量边界和创作流程。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它适合评估生成式媒体工具的输入方式、质量边界和创作流程。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录输入素材、提示词、模型能力和输出质量之间的关系。",
+          "判断它更适合概念探索、生产交付还是宣传演示。",
+          "选择一个素材做对照实验，避免只凭 demo 热度判断。"
+        ],
+        "tags": [
+          "Liked",
+          "生成式 AI / 媒体工具",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2069273985196626397",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/enoch4306/status/2069273985196626397",
+        "author": "喜羊羊（资源分享）",
+        "handle": "enoch4306",
+        "datetime": "2026-06-23T04:18:57.000Z",
+        "title": "收藏：22日，百度闷声干了票大的！最新开源的Unlimited OCR 总参数3B，实际激活仅50",
+        "originalSummary": "原帖重点：22日，百度闷声干了票大的！最新开源的Unlimited OCR 总参数3B，实际激活仅500M——放在大模型时代几乎是个零头。 但就是这个小到离谱的模型，在OmniDocBench v1.5上拿下93.23%的综合分，v1.6更是达到93.92%，直接刷新了端到端SOTA。 什么概念？v1.5同台竞技的选手里，235B的Qwen3-VL拿了89.15，72B的Qwen2.5-VL拿了87.02，不公布参数量的Gemini-2.5 Pr",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/baidu/Unlimited-OCR",
+            "title": "GitHub - baidu/Unlimited-OCR: Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+            "access": "partial",
+            "summary": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing. - baidu/Unlimited-OCR",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://huggingface.co/baidu/Unlimited-OCR",
+            "title": "baidu/Unlimited-OCR · Hugging Face",
+            "access": "partial",
+            "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2068935453525606661",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/LTChives/status/2068935453525606661",
+        "author": "桀",
+        "handle": "LTChives",
+        "datetime": "2026-06-22T05:53:45.000Z",
+        "title": "收藏：网络爬虫已死。 视频里这个 PixelRAG，完全跳过 HTML 解析。 它把网页直接截图，",
+        "originalSummary": "原帖重点：网络爬虫已死。 视频里这个 PixelRAG，完全跳过 HTML 解析。 它把网页直接截图，然后让视觉模型从像素里读答案。 以前 AI 读网页，是先拆代码、提文字、切段落。 现在它直接看页面。 100% 开源，还带 Claude Code 插件，让 Claude 拥有“眼睛”。",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2068450134401380498",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/zhongerxin/status/2068450134401380498",
+        "author": "钟二信",
+        "handle": "zhongerxin",
+        "datetime": "2026-06-20T21:45:16.000Z",
+        "title": "收藏：Cowart：Codex + 无限画布工具插件开源，大家可以来试试啦，这个插件先取名叫 Co",
+        "originalSummary": "原帖重点：Cowart：Codex + 无限画布工具插件开源，大家可以来试试啦，这个插件先取名叫 Cowart，别问为什么叫这个，我只能说 Code with Art 这种冠冕堂皇的理由：https://github.com/zhongerxin/cowart#",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/zhongerxin/cowart",
+            "title": "GitHub - zhongerxin/Cowart",
+            "access": "partial",
+            "summary": "Contribute to zhongerxin/Cowart development by creating an account on GitHub.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2068019737603498301",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/JohnPhamous/status/2068019737603498301",
+        "author": "JohnPhamous",
+        "handle": "JohnPhamous",
+        "datetime": "2026-06-19T17:15:02.000Z",
+        "title": "收藏：design engineer principles https://vercel.com/",
+        "originalSummary": "原帖重点：design engineer principles https://vercel.com/design/engineer",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://vercel.com/design/engineer",
+            "title": "Design Engineer Principles",
+            "access": "partial",
+            "summary": "Principles for design engineers at Vercel. Obsess over usefulness, own the whole experience, and make the team better.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2067262052855652498",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/GYLQ520/status/2067262052855652498",
+        "author": "孤桜ETH",
+        "handle": "GYLQ520",
+        "datetime": "2026-06-17T15:04:15.000Z",
+        "title": "收藏：那些卖有声书的怕是要坐不住了—— 开源神器 Audiblez 直接把 EPUB 电子书往里一",
+        "originalSummary": "原帖重点：那些卖有声书的怕是要坐不住了—— 开源神器 Audiblez 直接把 EPUB 电子书往里一丢，几分钟就能给你吐出一本 M4B 格式的有声书。它用的是 Kokoro 语音模型，参数只有 82M，但听起来自然得让人不敢相信。 ① T4 GPU 上跑完《动物农场》只要 5 分钟 ② 中、英、法、日等 9 种语言随意切换 ③ 自带图形界面，不懂代码的人也能轻松上手 ④ 一行命令 pip install audiblez 就能装完 以后谁还傻乎",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/santinic/audiblez",
+            "title": "GitHub - santinic/audiblez: Generate audiobooks from e-books",
+            "access": "partial",
+            "summary": "Generate audiobooks from e-books. Contribute to santinic/audiblez development by creating an account on GitHub.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2066927071109288103",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/morganlinton/status/2066927071109288103",
+        "author": "Morgan",
+        "handle": "morganlinton",
+        "datetime": "2026-06-16T16:53:10.000Z",
+        "title": "收藏：Breaking: Cursor Mobile just announced!",
+        "originalSummary": "原帖重点：Breaking: Cursor Mobile just announced!",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2066160847844425735",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/RelaxView/status/2066160847844425735",
+        "author": "RelaxView",
+        "handle": "RelaxView",
+        "datetime": "2026-06-14T14:08:28.000Z",
+        "title": "收藏：真就离谱了，这玩意儿是真神！ GitHub趋势第一、星标直接干到 2万+ 开源语音合成AI ",
+        "originalSummary": "原帖重点：真就离谱了，这玩意儿是真神！ GitHub趋势第一、星标直接干到 2万+ 开源语音合成AI VoxCPM2，海外已经彻底炸锅。 生成的声音你根本听不出来是AI！ 1、打一行字「沉稳的30岁女声」就能直接出 2、扔一小段录音，连口癖、语速、情感都能完美复刻 3、48kHz录音棚级音质，Apache 2.0协议，商用随便用 最离谱的是——全部免费！ https://github.com/OpenBMB/VoxCPM 配音党、短视频创作者、数",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/OpenBMB/VoxCPM",
+            "title": "GitHub - OpenBMB/VoxCPM: VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True",
+            "access": "partial",
+            "summary": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning - OpenBMB/VoxCPM",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://online-video-cutter.com/cn/remove-logo",
+            "title": "从视频中删除水印 - 免费擦除徽标和日期",
+            "access": "partial",
+            "summary": "使用我们的工具从在线视频中删除水印！它支持任何视频格式 - MP4、AVI、3GP 等等！您可以从最大 4 GB 的视频文件中删除徽标、日期和图像！立即试用我们的免费工具！",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2065464621624913970",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/benjaminnathan/status/2065464621624913970",
+        "author": "benjamin",
+        "handle": "benjaminnathan",
+        "datetime": "2026-06-12T16:01:54.000Z",
+        "title": "收藏：We’ve been heads-down for a long time, working",
+        "originalSummary": "原帖重点：We’ve been heads-down for a long time, working on an all-new, completely redesigned Framer. I’m very proud of how it turned out. Framer 3.0 is coming soon.",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2063907419919647180",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/MengTo/status/2063907419919647180",
+        "author": "Meng To",
+        "handle": "MengTo",
+        "datetime": "2026-06-08T08:54:09.000Z",
+        "title": "收藏：Insane to see the iOS simulator in Codex. iOS ",
+        "originalSummary": "原帖重点：Insane to see the iOS simulator in Codex. iOS dev is about to get way easier with this plugin.",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2063453054998102279",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Crevion218669/status/2063453054998102279",
+        "author": "Crevion",
+        "handle": "Crevion218669",
+        "datetime": "2026-06-07T02:48:40.000Z",
+        "title": "收藏：Anthropic just leaked a new Claude app design,",
+        "originalSummary": "原帖重点：Anthropic just leaked a new Claude app design, and it’s crazy good",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2061478701775331506",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/figma/status/2061478701775331506",
+        "author": "Figma",
+        "handle": "figma",
+        "datetime": "2026-06-01T16:03:17.000Z",
+        "title": "收藏：No more slots gone wild → Set minimum and maxi",
+        "originalSummary": "原帖重点：No more slots gone wild → Set minimum and maximum layers → Only allow preferred instances → Display an empty slot by default → Set fill as default",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2059421425438441583",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/kaolti/status/2059421425438441583",
+        "author": "Zsolt Kacso",
+        "handle": "kaolti",
+        "datetime": "2026-05-26T23:48:24.000Z",
+        "title": "收藏：Card hover with 3D shape sculpting, Three.js. ",
+        "originalSummary": "原帖重点：Card hover with 3D shape sculpting, Three.js. Built with Cursor, Composer 2.5.",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2058535650249609632",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/devsterxyz/status/2058535650249609632",
+        "author": "Devster☄️",
+        "handle": "devsterxyz",
+        "datetime": "2026-05-24T13:08:39.000Z",
+        "title": "收藏：people asked for the inspo dump, so here it is",
+        "originalSummary": "原帖重点：people asked for the inspo dump, so here it is https://www.sensory-ui.com https://akira.sachi.dev https://www.itshover.com https://patterncraft.fun soo many inspo from @Arpit_2023 components too",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。相关链接补充了原帖之外的产品、文档或实现线索，适合继续深读。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.sensory-ui.com/",
+            "title": "sensory-ui - Semantic Sound for shadcn/ui | React Audio Feedback",
+            "access": "partial",
+            "summary": "Add semantic audio feedback to your shadcn/ui components with a single prop. 17 sound roles, 24 React components, Web Audio API powered. No audio files needed.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://akira.sachi.dev/",
+            "title": "Akira | Modern Next.js Starter",
+            "access": "partial",
+            "summary": "A modern starter with Next.js, Tailwind, ShadCN/ui, Motion, Drizzle, Postgres, Auth, Dodo Payments, and Resend.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://www.itshover.com/",
+            "title": "Its Hover",
+            "access": "partial",
+            "summary": "Animated icons that move with intent.",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          },
+          {
+            "url": "https://patterncraft.fun/",
+            "title": "Pattern Craft - Modern Background Patterns & Gradients Snippets",
+            "access": "partial",
+            "summary": "Create stunning websites with our curated collection of 100+ modern CSS background patterns and gradients for your websites and apps. Easily copy and paste into your next project. Crafted with modern CSS and Tailwind for",
+            "value": "补足原帖没有展开的产品、文档或实现上下文，可作为设计判断和复盘依据。",
+            "learningUse": "提炼页面的信息架构、交互细节或实现边界，转成可复用的个人设计参考。"
+          }
+        ],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2057139459980718314",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/framer/status/2057139459980718314",
+        "author": "Framer",
+        "handle": "framer",
+        "datetime": "2026-05-20T16:40:41.000Z",
+        "title": "收藏：The canvas is about to change",
+        "originalSummary": "原帖重点：The canvas is about to change",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2054270454467121187",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Google/status/2054270454467121187",
+        "author": "Google",
+        "handle": "Google",
+        "datetime": "2026-05-12T18:40:17.000Z",
+        "title": "收藏：Introducing Googlebook, the first laptop desig",
+        "originalSummary": "原帖重点：Introducing Googlebook, the first laptop designed for Gemini Intelligence. It’s crafted for heavyweight performance, built with Gemini at the core and perfectly synced with your Android phone. Coming this fall. 💻✨ #TheA",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2054248491778457659",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/avstorm/status/2054248491778457659",
+        "author": "Andreas Storm",
+        "handle": "avstorm",
+        "datetime": "2026-05-12T17:13:01.000Z",
+        "title": "收藏：Google introduced Googlebook, designed for Gem",
+        "originalSummary": "原帖重点：Google introduced Googlebook, designed for Gemini Intelligence",
+        "whySaved": "你会收藏它，因为它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它把视觉细节、组件能力或动效实现放在可复盘的产品语境里。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取其中一个视觉或动效细节，标注它依赖的状态、参数和触发条件。",
+          "把案例拆成可复用组件、token、motion 或实现约束。",
+          "用自己的产品界面做一次小型复刻，验证它是否真的提升理解或效率。"
+        ],
+        "tags": [
+          "Liked",
+          "设计工程 / 视觉系统",
+          "video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2052043206762647691",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/krea_ai/status/2052043206762647691",
+        "author": "Krea",
+        "handle": "krea_ai",
+        "datetime": "2026-05-06T15:10:00.000Z",
+        "title": "收藏：something is coming. want an early taste? 👇",
+        "originalSummary": "原帖重点：something is coming. want an early taste? 👇",
+        "whySaved": "你会收藏它，因为它适合评估生成式媒体工具的输入方式、质量边界和创作流程。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它适合评估生成式媒体工具的输入方式、质量边界和创作流程。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录输入素材、提示词、模型能力和输出质量之间的关系。",
+          "判断它更适合概念探索、生产交付还是宣传演示。",
+          "选择一个素材做对照实验，避免只凭 demo 热度判断。"
+        ],
+        "tags": [
+          "Liked",
+          "生成式 AI / 媒体工具",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2052029971770806586",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/karanbutiya0302/status/2052029971770806586",
+        "author": "editwithkaran",
+        "handle": "karanbutiya0302",
+        "datetime": "2026-05-06T14:17:24.000Z",
+        "title": "收藏：Google paid me $1.99 to make this video",
+        "originalSummary": "原帖重点：Google paid me $1.99 to make this video",
+        "whySaved": "你会收藏它，因为它适合评估生成式媒体工具的输入方式、质量边界和创作流程。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它适合评估生成式媒体工具的输入方式、质量边界和创作流程。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录输入素材、提示词、模型能力和输出质量之间的关系。",
+          "判断它更适合概念探索、生产交付还是宣传演示。",
+          "选择一个素材做对照实验，避免只凭 demo 热度判断。"
+        ],
+        "tags": [
+          "Liked",
+          "生成式 AI / 媒体工具",
+          "video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2051727888639250450",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/benhylak/status/2051727888639250450",
+        "author": "ben hylak",
+        "handle": "benhylak",
+        "datetime": "2026-05-05T18:17:02.000Z",
+        "title": "收藏：now, your agent can fix itself. introducing ra",
+        "originalSummary": "原帖重点：now, your agent can fix itself. introducing raindrop triage. an agent for finding and investigating agent issues.",
+        "whySaved": "你会收藏它，因为它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。它值得进入个人设计素材库，用来反推你对工具、视觉或工作流的判断。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值不在转发热度，而在于：它能帮助拆解 AI agent 产品中的权限、状态、协作和验收设计。原帖主要依赖可见文本或媒体，需要把具体视觉/流程细节拆出来，而不是只保存情绪判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出用户、agent、工具和结果之间的状态流。",
+          "列出这个工作流里需要证据回读、权限提示和失败恢复的位置。",
+          "把一个想法转成可验收的 AI coding 任务模板。"
+        ],
+        "tags": [
+          "Liked",
+          "Agent 工作流 / AI Coding",
+          "video"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
     "date": "2026-08-27",
     "generatedAt": "2026-08-27T13:26:00+08:00",
     "batch": "x-ai-design-analysis-2026-08-27-1326",

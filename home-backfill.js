@@ -1,6 +1,470 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "AI AGENT",
+    "datetime": "2026-08-27T23:54:55.000Z",
+    "author": "向阳乔木",
+    "handle": "vista8",
+    "avatar": "https://pbs.twimg.com/profile_images/1960882043249942533/h4J39ERy_200x200.jpg",
+    "title": "Grok Bot Computer Use 被用于 Product Hunt 调研",
+    "summary": "我会帮你抓取它，因为它显示用户开始把浏览器调研、登录和产品报告交给可操作网页的 agent。对设计工程师来说，重点是为这种长流程设计证据、权限和结果回读。",
+    "url": "https://x.com/vista8/status/2093125136178450688",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093124141268500480/vid/avc1/474x360/frjtgHbG9QmUXOu6.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093124141268500480/img/YBLW3EORcQd1eCBg.jpg"
+      }
+    ],
+    "metrics": "2 REPLIES · 0 REPOSTS · 4 LIKES · 1 BOOKMARKS · 778 VIEWS",
+    "links": [],
+    "_analysisTheme": "Computer Use / 调研 agent",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "MOTION DESIGN",
+    "datetime": "2026-08-27T22:47:20.000Z",
+    "author": "Dmitry Novikov 🇺🇦",
+    "handle": "novikoff",
+    "avatar": "https://pbs.twimg.com/profile_images/1910233655747727361/gJv0ssrv_200x200.jpg",
+    "title": "zerotake 启动动画用 Rive 做到 4kb",
+    "summary": "我会帮你抓取它，因为它把启动态动效压到很小的 Rive 资产里，适合研究轻量品牌动效如何嵌入产品。对个人设计师来说，重点是拆持续时间、缓动和文件体积之间的取舍。",
+    "url": "https://x.com/novikoff/status/2093108126702506416",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093107899278958592/vid/avc1/560x360/JVFHtHscEsZ_3jZw.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093107899278958592/img/WgOsLkHuw0rcuxqb.jpg"
+      }
+    ],
+    "metrics": "2 REPLIES · 0 REPOSTS · 25 LIKES · 5 BOOKMARKS · 878 VIEWS",
+    "links": [],
+    "_analysisTheme": "Rive / 轻量启动动画",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-27T22:31:52.000Z",
+    "author": "Cole Bemis",
+    "handle": "colebemis",
+    "avatar": "https://pbs.twimg.com/profile_images/1950087739187351552/9aa-zJbF_200x200.jpg",
+    "title": "Notion 新 sidebar 早期走查被设计圈传播",
+    "summary": "我会帮你抓取它，因为 sidebar 是高频信息架构入口，Notion 的整理方式会影响个人知识库和工作台设计。对个人设计师来说，重点是复盘层级、焦点和可组织性的变化。",
+    "url": "https://x.com/colebemis/status/2093104234778808544",
+    "media": [],
+    "metrics": "8 REPLIES · 3 REPOSTS · 18 LIKES · 0 BOOKMARKS · 3835 VIEWS",
+    "links": [],
+    "_analysisTheme": "信息架构 / Sidebar",
+    "_analysisPriority": "medium",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Dave de Céspedes",
+      "handle": "NotionCoach",
+      "avatar": "https://pbs.twimg.com/profile_images/1957917828763316224/sQdaP8xa_200x200.jpg",
+      "text": "Okay, we haven’t done a full deep dive on this yet, but if you’re curious how @NotionHQ’s new sidebar works, here’s a quick three-minute walkthrough.\n\nTL;DR: It’s awesome. Cleaner, more focused, and way easier to organize.",
+      "url": "https://x.com/NotionCoach/status/2093100874004390185",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2093100537176633344/vid/avc1/480x852/TPB4fFQ2RLwpCzZS.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2093100537176633344/img/IjerQSEkyk7BD5pe.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-27T21:46:06.000Z",
+    "author": "Stephen",
+    "handle": "siegerts",
+    "avatar": "https://pbs.twimg.com/profile_images/1451716073426808835/oF2MB_aB_200x200.jpg",
+    "title": "ChatGPT Sites 把可视化结果发布成站点",
+    "summary": "我会帮你抓取它，因为它把 ChatGPT 里的可视化产物接到可发布 Sites。对设计工程师来说，重点是研究分析、交互和发布如何从一次性回复变成可分享界面。",
+    "url": "https://x.com/siegerts/status/2093092717488140747",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQwob5WWUAAMWTU.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 79 VIEWS",
+    "links": [
+      "https://learn.chatgpt.com/docs/visualizations"
+    ],
+    "_analysisTheme": "ChatGPT Sites / 可视化发布",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI DESIGN",
+    "datetime": "2026-08-27T21:46:05.000Z",
+    "author": "Stephen",
+    "handle": "siegerts",
+    "avatar": "https://pbs.twimg.com/profile_images/1451716073426808835/oF2MB_aB_200x200.jpg",
+    "title": "visualize skill 用运动曲线和航班界面生成交互可视化",
+    "summary": "我会帮你抓取它，因为它展示 prompt 如何约束曲线、动效、切换和 timetable 这种复杂 UI。对个人设计师来说，重点是把动效需求写成可验证的生成条件。",
+    "url": "https://x.com/siegerts/status/2093092716154425375",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093090963652521984/vid/avc1/474x360/uWzCixNH1IR6TJz1.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093090963652521984/img/tK3R_aAYBxGiqTZd.jpg"
+      }
+    ],
+    "metrics": "4 REPLIES · 2 REPOSTS · 23 LIKES · 4 BOOKMARKS · 1363 VIEWS",
+    "links": [],
+    "_analysisTheme": "可视化生成 / 动效约束",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-27T21:33:08.000Z",
+    "author": "Google Antigravity",
+    "handle": "antigravity",
+    "avatar": "https://pbs.twimg.com/profile_images/1990585614279049216/-Zz6T2nk_200x200.png",
+    "title": "Google Antigravity Teamwork 用多 agent 攻数学和系统问题",
+    "summary": "我会帮你抓取它，因为多 agent 不再只做软件 demo，而被放进理论计算机、数学和系统工程任务。对设计工程师来说，重点是为 proposal、stress-test、build 三段设计过程证据。",
+    "url": "https://x.com/antigravity/status/2093089456312172930",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQwlmbJb0AE5xj5.jpg?name=orig"
+      }
+    ],
+    "metrics": "16 REPLIES · 46 REPOSTS · 469 LIKES · 181 BOOKMARKS · 19570 VIEWS",
+    "links": [],
+    "_analysisTheme": "多 agent 框架 / Teamwork",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-27T20:45:49.000Z",
+    "author": "Cursor",
+    "handle": "cursor_ai",
+    "avatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_200x200.jpg",
+    "title": "Cursor 串起新建 Web App、Origin 和 Vercel 部署",
+    "summary": "我会帮你抓取它，因为 Cursor 正把“从提示到代码、仓库、部署”连成一条产品化路径。对设计工程师来说，重点是观察 AI coding 工具如何把项目初始化、版本保存和上线交付包装成连续体验。",
+    "url": "https://x.com/cursor_ai/status/2093077548649570777",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093077313680515072/vid/avc1/640x360/bB7NS0XOaXY-wbaB.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093077313680515072/img/B6glgi6wP3QskwB2.jpg"
+      }
+    ],
+    "metrics": "77 REPLIES · 97 REPOSTS · 1591 LIKES · 329 BOOKMARKS · 102721 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI 建站 / 发布链路",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DATA VISUALIZATION",
+    "datetime": "2026-08-27T19:54:51.000Z",
+    "author": "Aurélien Salomon",
+    "handle": "aureliensalomon",
+    "avatar": "https://pbs.twimg.com/profile_images/2011671566229422080/QSSlEvR__200x200.jpg",
+    "title": "Alethia Earth 让气候数据变成高质感可视化",
+    "summary": "我会帮你抓取它，因为气候数据很容易沉重或抽象，这个案例提供了高密度数据与视觉吸引力结合的方向。对个人设计师来说，重点是拆地图、色彩和叙事层级。",
+    "url": "https://x.com/aureliensalomon/status/2093064719707877460",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093062941729763328/vid/avc1/638x360/ef_8ksLJWYVElssP.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093062941729763328/img/zhbHL9UMAIdsf8HV.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 37 VIEWS",
+    "links": [
+      "https://alethia.earth/"
+    ],
+    "_analysisTheme": "数据可视化 / 气候产品",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-27T19:32:28.000Z",
+    "author": "Claude",
+    "handle": "claudeai",
+    "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+    "title": "Claude Team 科研席位开始面向科学团队扩展",
+    "summary": "我会帮你抓取它，因为 Anthropic 把 Claude 的团队计划、科研补贴和高用量套餐绑定到特定人群。对个人设计师来说，重点是学习 AI 产品如何用场景化定价和准入条件降低专业用户试用门槛。",
+    "url": "https://x.com/claudeai/status/2093059087298601113",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093049007329116160/vid/avc1/640x360/EZ6jxz0TA8c_iiL5.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093049007329116160/img/5X2ymmLb8kxUv3r9.jpg"
+      }
+    ],
+    "metrics": "230 REPLIES · 408 REPOSTS · 4766 LIKES · 1583 BOOKMARKS · 465624 VIEWS",
+    "links": [
+      "https://claude.com/programs/team-plan-for-scientists"
+    ],
+    "_analysisTheme": "AI 产品定价 / 专业场景",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI RESEARCH",
+    "datetime": "2026-08-27T18:41:00.000Z",
+    "author": "tianlu",
+    "handle": "tlxue",
+    "avatar": "https://pbs.twimg.com/profile_images/2006544684441808896/OIMXmo_d_200x200.jpg",
+    "title": "METR 独立调查聚焦 agents 行为、推理和协作",
+    "summary": "我会帮你抓取它，因为这类 agent 研究报告能帮助设计师理解长任务 AI 的协作风险，不只是看 demo。对设计工程师来说，重点是把 agent 失败模式转成产品状态、审计和恢复设计。",
+    "url": "https://x.com/tlxue/status/2093046137288872400",
+    "media": [],
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 49 VIEWS",
+    "links": [
+      "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation"
+    ],
+    "_analysisTheme": "Agent 评估 / 协作风险",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI DESIGN",
+    "datetime": "2026-08-27T18:38:19.000Z",
+    "author": "shaders",
+    "handle": "npm_i_shaders",
+    "avatar": "https://pbs.twimg.com/profile_images/2077002279719243776/UKfSub_w_200x200.jpg",
+    "title": "Vercel vgpu 把 WebGPU shader 做成 agent-first 库",
+    "summary": "我会帮你抓取它，因为 Vercel 的 vgpu 明确面向 agent、CI 和 headless Node 渲染，这会影响设计师生成 shader、测试视觉输出和交付代码的方式。",
+    "url": "https://x.com/npm_i_shaders/status/2093045461166735685",
+    "media": [],
+    "metrics": "1 REPLIES · 1 REPOSTS · 15 LIKES · 4 BOOKMARKS · 1464 VIEWS",
+    "links": [
+      "https://vgpu.sh/",
+      "https://vercel.com/"
+    ],
+    "_analysisTheme": "WebGPU / 视觉工程",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Vercel",
+      "handle": "vercel",
+      "avatar": "https://pbs.twimg.com/profile_images/1767351110228918272/3Pndc5OT_200x200.png",
+      "text": "We built https://vgpu.sh to ship shaders on https://vercel.com. Now it's open source.\n\n▪︎ Minimal agent-first WebGPU library\n▪︎ Run in the browser or headless Node.js\n▪︎ Render in CPU sandboxes and CI tests\n▪︎ Create reusable .wgsl modules",
+      "url": "https://x.com/vercel/status/2092999180780556643",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2092999146655645696/vid/avc1/498x360/NN1aEMkEsWv1SZji.mp4?tag=14",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2092999146655645696/img/FgRJeSsf_c3kJSlF.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-27T18:17:44.000Z",
+    "author": "Design",
+    "handle": "Design",
+    "avatar": "https://pbs.twimg.com/profile_images/2047013500430827520/7Xa_d8NE_200x200.jpg",
+    "title": "X NFL Gametime 把比赛数据做进 timeline",
+    "summary": "我会帮你抓取它，因为 X 把实时比分、play-by-play 和 game feeds 嵌入信息流，这是内容平台功能化的案例。对个人设计师来说，重点是研究事件型数据如何和社交时间线共存。",
+    "url": "https://x.com/Design/status/2093040280786333742",
+    "media": [],
+    "metrics": "8 REPLIES · 8 REPOSTS · 152 LIKES · 12 BOOKMARKS · 13760 VIEWS",
+    "links": [],
+    "_analysisTheme": "实时信息流 / Sports UI",
+    "_analysisPriority": "medium",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Benji Taylor",
+      "handle": "benjitaylor",
+      "avatar": "https://pbs.twimg.com/profile_images/1485350275372048384/FwGgXuTk_200x200.png",
+      "text": "We've launched NFL Gametime for 𝕏, a new way to track live scores, play-by-play, game feeds and more. The experience is great. If you're a football fan, this one's for you.",
+      "url": "https://x.com/benjitaylor/status/2093024605946679630",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2093023755585155072/vid/avc1/486x360/ZkyTTrOWcjb6hYzc.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2093023755585155072/img/5JRbZR2u1p_SmChv.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-27T17:36:12.000Z",
+    "author": "andi",
+    "handle": "andiify",
+    "avatar": "https://pbs.twimg.com/profile_images/1871666118764449792/Dkjhi4Oa_200x200.jpg",
+    "title": "Iris 用浏览器 tab 并行 agents 修改网站并推 PR",
+    "summary": "我会帮你抓取它，因为它把多 agent、网页编辑和 GitHub PR 合在同一个使用命令里。对个人设计师来说，重点是观察“边看页面边让 agent 改”的协作界面如何收束成验收流程。",
+    "url": "https://x.com/andiify/status/2093029827540336689",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093026496252174336/vid/avc1/632x360/IW_YR55nsKNqK34a.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093026496252174336/img/PZy74uwJSPU88F3L.jpg"
+      }
+    ],
+    "metrics": "14 REPLIES · 6 REPOSTS · 49 LIKES · 18 BOOKMARKS · 2248 VIEWS",
+    "links": [],
+    "_analysisTheme": "多 agent / Web 编辑",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI MODEL",
+    "datetime": "2026-08-27T17:12:31.000Z",
+    "author": "黄赟",
+    "handle": "huangyun_122",
+    "avatar": "https://pbs.twimg.com/profile_images/1183766724534882305/SIxSKinT_200x200.jpg",
+    "title": "腾讯 WeMM-Embedding 开源多模态检索能力",
+    "summary": "我会帮你抓取它，因为微信视觉组把多模态 embedding 做成开源模型，原帖还给出了视频片段口述检索的具体场景。对个人设计师来说，重点是把“找素材/找片段/找视觉证据”从手工筛选转成可问答检索流程。",
+    "url": "https://x.com/huangyun_122/status/2093023867778539791",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093023102779404288/vid/avc1/480x544/OsyPR-7WHSerx1T_.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093023102779404288/img/WFCIUd7V_Sem3X2D.jpg"
+      }
+    ],
+    "metrics": "3 REPLIES · 25 REPOSTS · 120 LIKES · 176 BOOKMARKS · 8777 VIEWS",
+    "links": [
+      "https://github.com/Tencent/WeMM-Embedding"
+    ],
+    "_analysisTheme": "多模态检索 / 视觉素材库",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-27T17:06:29.000Z",
+    "author": "Spline",
+    "handle": "splinetool",
+    "avatar": "https://pbs.twimg.com/profile_images/1583261404001435648/oL_UX6EJ_200x200.jpg",
+    "title": "Spline Hana V2 增加 MCP、PBR 和 WebGPU Canvas",
+    "summary": "我会帮你抓取它，因为 Spline 把 3D 设计工具和 agent/MCP 接口放到同一版本里。对设计工程师来说，重点是研究 3D 资产、矢量编辑和自动化生成如何进入同一个工作台。",
+    "url": "https://x.com/splinetool/status/2093022350455574896",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093016802439884800/vid/avc1/640x360/TfUsUD04dOcRKfg6.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093016802439884800/img/lDXDSxb9ug569Gfb.jpg"
+      }
+    ],
+    "metrics": "8 REPLIES · 18 REPOSTS · 132 LIKES · 66 BOOKMARKS · 10093 VIEWS",
+    "links": [],
+    "_analysisTheme": "3D 设计工具 / MCP",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "MOTION DESIGN",
+    "datetime": "2026-08-27T16:54:28.000Z",
+    "author": "GSAP",
+    "handle": "greensock",
+    "avatar": "https://pbs.twimg.com/profile_images/1713633504431394816/h28jJ1qM_200x200.jpg",
+    "title": "GSAP Site of the Day 展示 MotionPath、SplitText 和 WebGL 组合",
+    "summary": "我会帮你抓取它，因为它是可拆解的高质量网页动效案例：MotionPath、SplitText、Three.js、Vue 和 WebGL 同场出现。对个人设计师来说，重点是把“好看”拆成技术栈、节奏和交互触发点。",
+    "url": "https://x.com/greensock/status/2093019325472862325",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093019238877249536/vid/avc1/640x360/1N5JPwtx-2WEvIOp.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093019238877249536/img/iwDfDyjAdT3VcGwR.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 10 LIKES · 8 BOOKMARKS · 887 VIEWS",
+    "links": [
+      "https://michaelgatt.com/",
+      "https://gsap.com/showcase"
+    ],
+    "_analysisTheme": "网页动效 / 案例拆解",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-27T16:34:40.000Z",
+    "author": "Ultramock",
+    "handle": "ultramock",
+    "avatar": "https://pbs.twimg.com/profile_images/2062528213289472000/Ex-WW61h_200x200.jpg",
+    "title": "desengs.com 汇总 Design Engineers 资源",
+    "summary": "我会帮你抓取它，因为它直接面向 design engineer 的学习资源集合。对个人设计师来说，重点是把资源目录转成可执行的技能地图，而不是只收藏灵感站。",
+    "url": "https://x.com/ultramock/status/2093014344288158062",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093014214692487168/vid/avc1/640x360/8TzQtLwy8og6gHt_.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093014214692487168/img/TRr_EtdSAdGkREr3.jpg"
+      }
+    ],
+    "metrics": "2 REPLIES · 2 REPOSTS · 40 LIKES · 87 BOOKMARKS · 14341 VIEWS",
+    "links": [
+      "https://desengs.com/"
+    ],
+    "_analysisTheme": "设计工程资源 / 学习地图",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "VISUAL TOOL",
+    "datetime": "2026-08-27T16:17:34.000Z",
+    "author": "shaders",
+    "handle": "npm_i_shaders",
+    "avatar": "https://pbs.twimg.com/profile_images/2077002279719243776/UKfSub_w_200x200.jpg",
+    "title": "Shaders Terminal ASCII Footer 支持参数化视觉导出",
+    "summary": "我会帮你抓取它，因为它把终端字符、颜色和尺寸变成可配置区块，并提供 AI agent 一次部署提示词。对个人设计师来说，重点是学习如何把视觉风格做成可复用 preset。",
+    "url": "https://x.com/npm_i_shaders/status/2093010039699370424",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093010022469079040/vid/avc1/682x360/d_cy49XTX_7Qar_R.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093010022469079040/img/F5XBjtCHtGRlGmQ3.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 5 BOOKMARKS · 595 VIEWS",
+    "links": [
+      "https://shaders.com/sections/terminal-ascii-footer"
+    ],
+    "_analysisTheme": "参数化 shader / 视觉 preset",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "BRAND DESIGN",
+    "datetime": "2026-08-27T16:00:33.000Z",
+    "author": "The Brand Identity",
+    "handle": "TweetsByTBI",
+    "avatar": "https://pbs.twimg.com/profile_images/1774761854306324480/-imXshxF_200x200.jpg",
+    "title": "Museum Ordrupgaard 身份系统把名称拆到版面边缘",
+    "summary": "我会帮你抓取它，因为这组品牌案例把博物馆名称拆到画面边缘，把中间留给展览内容。对个人设计师来说，重点是学习信息克制、版面结构和展示内容之间的关系。",
+    "url": "https://x.com/TweetsByTBI/status/2093005759026229278",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093005722074411008/vid/avc1/480x600/5IJ8GDNbxV1xc07K.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093005722074411008/img/EXGYVKE3TbfeGycg.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQvZpStaUAE698b.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 805 VIEWS",
+    "links": [
+      "https://urgent.agency/"
+    ],
+    "_analysisTheme": "品牌系统 / 版式留白",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN LEARNING",
+    "datetime": "2026-08-27T16:00:02.000Z",
+    "author": "Google Design",
+    "handle": "GoogleDesign",
+    "avatar": "https://pbs.twimg.com/profile_images/1856407846629359616/bW8F25x6_200x200.jpg",
+    "title": "Google Design 用书单推进 typography 基础训练",
+    "summary": "我会帮你抓取它，因为 Google Design 把排版学习回到经典文本，而不是只追逐工具更新。对个人设计师来说，重点是把字体判断、阅读节奏和可读性重新纳入日常训练。",
+    "url": "https://x.com/GoogleDesign/status/2093005627383796206",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HPjN0RJakAAu0IE.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 12 LIKES · 9 BOOKMARKS · 3826 VIEWS",
+    "links": [],
+    "_analysisTheme": "Typography / 设计基本功",
+    "_analysisPriority": "medium"
+  },
+  {
     "category": "AI DESIGN",
     "datetime": "2026-08-27T04:12:21.000Z",
     "author": "Tom Huang",
