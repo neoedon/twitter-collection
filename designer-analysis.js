@@ -1,6 +1,522 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-29",
+    "generatedAt": "2026-08-29T14:28:00+08:00",
+    "batch": "x-ai-design-analysis-2026-08-29-1428",
+    "analysisCount": 14,
+    "homeCount": 13,
+    "likeCount": 1,
+    "linksInspected": 7,
+    "unavailableLinks": 0,
+    "summary": "2026-08-29 午间补充：运行前当天 Home 已 20 条、Analysis 已 100 个唯一 ID；本轮登录态 Home 观察 828 次 appearances、151 个唯一 status，去重后 149 个未收录，精选追加 13 条；Likes 观察 386 次 appearances、60 个唯一 status，在 2093333750104956994 命中旧边界，新增安全同步 1 条，另 1 条疑似成人/私密影像传播风险未写入。Analysis 追加 14 个未分析 ID，Home/Like 拆分 13/1。",
+    "sourceWindow": {
+      "strategy": "使用 ego-browser 独立 task space 3 复用 X 登录态；Home 覆盖 x.com/home 的为你推荐、正在关注、Design Engineers、独立创造者；Likes 打开 x.com/neoedon414/likes 并重定向到 /i/history/likes。fxtwitter 用于稳定作者、时间、媒体、指标和 t.co 展开；外链读取限于原帖中的官方页、产品页、GitHub、文档或 Demo。",
+      "newestHomeDatetime": "2026-08-29T06:09:05.000Z",
+      "oldestHomeDatetime": "2026-08-28T16:56:17.000Z",
+      "newestLikeDatetime": "2026-08-28T14:35:31.000Z",
+      "oldestLikeDatetime": "2026-08-28T13:48:51.000Z",
+      "expandedWindow": "不需要扩窗补足：Asia/Shanghai 2026-08-29 运行前 Home 已有 20 条、Analysis 已有 100 个唯一 ID；本轮只追加午间新出现且有学习价值的内容。",
+      "observed": {
+        "homeBeforeTodayCount": 20,
+        "homeRaw": 828,
+        "homeUnique": 151,
+        "homeFreshUnknown": 149,
+        "homeSelected": 13,
+        "homeRejectedOrLeftover": 136,
+        "homeDuplicateKnown": 2,
+        "likeRaw": 386,
+        "likeUnique": 60,
+        "freshLikesObserved": 2,
+        "freshLikesWritten": 1,
+        "knownLikeBoundary": "2093333750104956994",
+        "knownLikeBoundaryHits": 58,
+        "skippedLikes": [
+          {
+            "id": "2093335001295429708",
+            "reason": "疑似成人/私密影像传播风险，未写入站点与媒体"
+          }
+        ],
+        "analysisBeforeTodayUnique": 100,
+        "analysisRawCandidateTotal": 150,
+        "analysisAddedIds": [
+          "2093539751127040157",
+          "2093554319396360532",
+          "2093494500924477523",
+          "2093560530107760775",
+          "2093549721323483152",
+          "2093544515034570932",
+          "2093517233926631513",
+          "2093509765452472521",
+          "2093499718760370225",
+          "2093428221291163999",
+          "2093382171318952444",
+          "2093568040550211971",
+          "2093532254006063557",
+          "2093346744797184325"
+        ],
+        "selectedHomeIds": [
+          "2093539751127040157",
+          "2093554319396360532",
+          "2093494500924477523",
+          "2093560530107760775",
+          "2093549721323483152",
+          "2093544515034570932",
+          "2093517233926631513",
+          "2093509765452472521",
+          "2093499718760370225",
+          "2093428221291163999",
+          "2093382171318952444",
+          "2093568040550211971",
+          "2093532254006063557"
+        ],
+        "selectedLikeIds": [
+          "2093346744797184325"
+        ],
+        "linksRead": 7,
+        "unavailableLinks": 0
+      }
+    },
+    "items": [
+      {
+        "id": "2093539751127040157",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dotey/status/2093539751127040157",
+        "author": "宝玉",
+        "handle": "dotey",
+        "datetime": "2026-08-29T03:22:27.000Z",
+        "title": "Warp/Claude 自我改进 Agent 案例",
+        "originalSummary": "原帖内容：Claude 新的一篇博文《How Warp builds self-improving agents on Claude》 https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude ，看了后还是挺有收获，它解决的是 Skill 的进化问题。\n\n这个问题我以前也研究过，我写了一个反编译 JS 代码的 Skill（http://github.com/JimLiu/decode-codex/blob/main/.agents/skills/deobfuscate-javascript/SKILL.md#maintaining-this-skill-self-improvement-protocol），每次 Agent 反编译的时候遇到新的场景解决了就自己更新自己的 Skill，效果还不错，能一直优化，就是 Skill 文件越来越大。\n\n我还研究过写作的自我进化 Skill，那个就一言难尽，因为它其实没有自己统一的标准，经常负优化，越写越糟糕。\n\n说回来 Warp 这个，Warp 是一个挺有名的终端工具，内部尝试借助 AI 做 Code Review。一开始让 Agent review 代码，效果并不理想，主要问题体现在 Agent 不了解你的项目，不知道你的团队规范，不知道历史经验教训，就算你指出来问题它下次还记不住。简单来说就是没有记忆。\n\n初期他们采取了很多补救措施：\n- 手动根据失败案例改系统提示词\n- 完善项目的 AGENTS.md 文件（有意思的是这篇文章是 Claude 发的，但是用的是 AGENTS.md 而不是 CLAUDE.md，我记得 Claude 默认不支持 AGENTS.md 的😅）\n\n但效果并不理想，一方面它依赖于人主动去做，成本较高；另一方面团队成员在 Code Review 时人工在 PR 写的高质量评论完全没用上。\n\n所以他们搞了个解决方案，一个基础 Skill 负责做代码审查，一个改进 Skill 负责定期收集人类工程师在代码审查时的评论，尤其是对 Agent 审查结果的评论，根据人类工程师的评论去更新代码审查的 Skill。\n\n换句话说，它不是依赖于模型自己去改进自己，而是 Agent 根据人类对模型结果的标注（人类对代码审查的评论），去改进技能。\n\n只不过它把这个事做的摩擦力极低，不需要人手工去收集整理评论，不需要填写调查问卷，人只要自然的去代码下写评论，后面的事情都是 Agent 自动完成。\n\n这可能正是 Agent 的最佳实践方案之一：人负责高纬度的标注、评论、反馈这些事情，Agent 去做执行的工作，Agent 根据人类的反馈去改进 Skill。\n\n除此之外，他们还总结了一些最佳实践：\n\n1. 写原则，不要写死规则。\n\n编写 skill 时，要像在指导一个聪明人，而不是在给计算机编程。在 Skill 中写“寻找重复代码”，比列出详尽的变量命名规则更有效。\n\n2. 解释为什么。\n说明规则背后的理由，能让智能体针对问题进行推理，而不是机械执行僵化指令，也因此更容易举一反三。\n\n3. 让反馈没有摩擦毫不费力。\n在人们原本工作的地方收集反馈，例如直接评论 PR 或 issue。同时让收集过程自动发生，不要增加额外的提交步骤。低摩擦才能让信号持续流动。如果反馈太麻烦，你就收不到反馈，也就无法改进 Skill。\n\n4. 保持 Skill 精简，并使用渐进式披露。\n优秀的 skill 文件不会很庞大；它会引用资源文件和脚本，而不是一次性把所有内容都塞进上下文。\n\n5. 反馈质量大于数量，但数量也有帮助。\n\n一位资深工程师给出的少量、详细且与领域相关的反馈，可能比大量草率反馈更有价值，因为简单的赞成／反对并不能说明“为什么”。\n\n即使样本量相对较小，只要反馈来自掌握领域知识的人，而且足够详细，你也能得到非常好的信号——这些知识是智能体通过其他方式根本无法获得的。话虽如此，优质信号的语料越多，效果越好。\n\n6. 做好改进 Skill 的 Skill，可以用来改进其他 Skill。\n\n把改进 Skill（也就是前面提到的一个代码审查 Skill 一个改进 Skill）做好，收益不只限于眼前这套 Agent 循环，因为改进 Skill 在不同用例之间具有很高的复用性。除了领域专用知识这一部分，它其实是一套相当通用、可复用的机制。代码审查 Agent 的改进 skill，也可以应用到其他 Skill 的改进上。\n\n可能有人会担心：如果反馈本身是错的呢？\n\nWarp 的做法是永远不让 Agent 盲目接受反馈。给它足够的上下文来做基本的合理性检查，限制谁的反馈有权影响技能更新（不是所有人的意见都同等重要），最后始终保留人在循环中审核改动。\n\n对于那些有明确标准答案的领域，比如代码是否通过了测试、部署是否成功，可以先建一个验证基准，让 Agent 自己对着基准跑。没有标准答案的领域，比如代码风格、文档质量，就靠领域专家的判断，不要开放给所有人随意反馈。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 Warp 代码审查 agent 的失败反馈、项目记忆和 Skill 更新串成了可执行流程。对设计工程师来说，重点是把“下次别再犯”的经验沉淀成可验证的技能协议。",
+        "deepSummary": "这条的学习点是把 agent 的失败反馈变成可积累系统，而不是继续手工加提示词。对个人设计师，类似机制可用于沉淀视觉审稿标准、组件验收规则和自动化报告偏好。",
+        "linkAnalysis": [
+          {
+            "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+            "title": "How Warp builds self-improving agents on Claude",
+            "access": "partial",
+            "summary": "页面 200 可访问，标题和 meta 说明这是 Warp 用 Claude 构建自我改进 agent 的案例；正文抽取到 AGENTS.md、反馈消失、Agent Skills 等段落，但未完整结构化读取。",
+            "whatItAdds": "补充官方案例背景和 Warp/Claude 的自我改进 agent 方法。",
+            "value": "值得继续读：它把 agent 记忆从提示词维护推进到可迭代 Skill，适合转成个人设计工程 SOP。",
+            "learningValue": "整理一套“反馈进入技能”的检查表：何时写入、如何验证、如何防止技能膨胀。"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/JimLiu/decode-codex/main/.agents/skills/deobfuscate-javascript/SKILL.md",
+            "title": "decode-codex deobfuscate-javascript SKILL.md",
+            "access": "full",
+            "summary": "Raw GitHub 文件可读，内容定义了反混淆 JavaScript skill 的触发范围、三阶段恢复流程和质量门。",
+            "whatItAdds": "补充原帖提到的个人实践样本，不只是官方博客。",
+            "value": "实现参考价值高：能看到一个真实 skill 如何把复杂工程流程拆成可调用步骤。",
+            "learningValue": "比较这份 Skill 的阶段门槛与自己的设计分析自动化，提炼“何时进入深度模式”。"
+          }
+        ],
+        "learningActions": [
+          "把“反馈消失”问题映射到自己的设计自动化：哪些纠正需要进入长期规则。",
+          "建立 Skill 更新门槛：新增规则必须有失败样本、验证命令和反例。",
+          "复盘这条视频里的代码审查循环，提炼可移植到设计 QA 的状态字段。"
+        ],
+        "tags": [
+          "Home",
+          "AI AGENT",
+          "Agent Skills / 反馈记忆",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093554319396360532",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/joshpuckett/status/2093554319396360532",
+        "author": "joshpuckett",
+        "handle": "joshpuckett",
+        "datetime": "2026-08-29T04:20:20.000Z",
+        "title": "Pica 字体管理速度与预览设计",
+        "originalSummary": "原帖内容：Speed is everything in software. Here's Pica compared to Apple's own Font Book.\n\nFont Book takes 3 seconds to display fonts. Pica is like 600ms. Pretty proud of that.\n\nCheck it out if you're into fonts. It's fully native and fully free!\n\nhttps://pica.joshpuckett.me/",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Pica 把字体管理的价值落在启动速度、预览和一键启用这类高频细节上。对个人设计师来说，重点是比较专业工具如何用性能建立信任感。",
+        "deepSummary": "Pica 的价值不是功能堆叠，而是用原生速度和可视化预览降低字体选择成本。个人设计师可以借鉴它处理专业资源库的方式：快、可扫读、可按项目组织。",
+        "linkAnalysis": [
+          {
+            "url": "https://pica.joshpuckett.me/",
+            "title": "Pica, a MacOS font management app",
+            "access": "full",
+            "summary": "页面可读，强调 Native & Free、Custom Collections、Logo/color previews、OpenType support、one-click activation、watch folders 和 CJK 支持。",
+            "whatItAdds": "补充下载页上的功能清单和产品定位。",
+            "value": "信息密度高：它把字体工具的差异化压缩到速度、预览、启用和文件夹监听这些高频动作。",
+            "learningValue": "拆 Pica 首屏，把“性能承诺 + 功能证据”的组合迁移到自己的工具页。"
+          }
+        ],
+        "learningActions": [
+          "记录 Pica 与 Font Book 在首屏、启动速度、预览密度上的差异。",
+          "给自己的字体/资产库设计一个“快速试用”流程。",
+          "拆解一键启用和 watch folders 对长期维护成本的影响。"
+        ],
+        "tags": [
+          "Home",
+          "DESIGN TOOL",
+          "字体工具 / 原生 Mac App",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093494500924477523",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/madebyhex/status/2093494500924477523",
+        "author": "Marek Jóźwiak",
+        "handle": "madebyhex",
+        "datetime": "2026-08-29T00:22:38.000Z",
+        "title": "Motion GPU 液体模拟的设计工程价值",
+        "originalSummary": "原帖内容：Liquid Simulation made with Motion GPU and compute shaders\nhttps://motion-gpu.dev/",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为这个液体模拟把 compute shader、实时流体和前端组件框架连接起来。对设计工程师来说，重点是学习视觉效果如何通过类型安全的 WebGPU 管线产品化。",
+        "deepSummary": "这条展示了 shader demo 如何被框架化：视觉效果背后有运行时契约、帧调度和类型安全 WGSL。它值得作为 WebGPU 视觉组件产品化的学习样本。",
+        "linkAnalysis": [
+          {
+            "url": "https://motion-gpu.dev/",
+            "title": "Motion GPU — A minimalist WebGPU framework for Svelte 5, React 19, and Vue 3",
+            "access": "full",
+            "summary": "页面可读，定位为 WebGPU framework，强调声明式 API、严格运行时契约、type-safe WGSL、frame scheduling 和 post processing。",
+            "whatItAdds": "补充框架定位和可复用能力边界。",
+            "value": "实现参考价值高：适合把 shader demo 从一次性作品拆成组件库和管线设计。",
+            "learningValue": "用一个小 shader demo 对比“直接 Three.js 写法”和“组件化 GPU 管线写法”的维护成本。"
+          }
+        ],
+        "learningActions": [
+          "用 Motion GPU 做一个 10 秒交互 shader 小样，验证 API 心智模型。",
+          "列出 shader 组件需要暴露的 uniforms、纹理和主题参数。",
+          "比较视频演示中“看起来顺滑”的部分对应哪些技术约束。"
+        ],
+        "tags": [
+          "Home",
+          "WEBGL / SHADER",
+          "WebGPU / Motion System",
+          "media:video",
+          "link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093560530107760775",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/okooo5km/status/2093560530107760775",
+        "author": "十里",
+        "handle": "okooo5km",
+        "datetime": "2026-08-29T04:45:01.000Z",
+        "title": "3D 吉祥物 Skill 的提示词产品化",
+        "originalSummary": "原帖内容：轻松完成 3D 生动动物角色 IP 设计，只需要我新做的这个技能！\n\n在 Youmind 中安装就能用上，话不多说直接上链接\n\nhttps://youmind.com/skills/3d-animal-mascot-design-yrXyuR40L6Rdhi",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把品牌承诺、物种特征、图标可读性和 3D 体积感写成了可安装 Skill。对个人设计师来说，重点是把视觉风格提示词转成可复用的设计流程。",
+        "deepSummary": "这条把一个具体审美风格转成 Skill，重点是约束和验收：物种真实、品牌承诺、图标尺寸、跨姿态延展。对个人设计师，价值在于把风格灵感沉淀成可复用生成流程。",
+        "linkAnalysis": [
+          {
+            "url": "https://youmind.com/skills/3d-animal-mascot-design-yrXyuR40L6Rdhi",
+            "title": "3D Vivid Animal Mascot - YouMind Skill",
+            "access": "full",
+            "summary": "页面可读，说明 Skill 会从真实物种解剖、自然色彩、品牌承诺、iOS/macOS 图标可读性和跨姿态延展来生成 3D 吉祥物。",
+            "whatItAdds": "补充 Skill 页面里的目标、推荐理由和设计约束。",
+            "value": "方法复用价值高：它把“可爱 3D IP”从审美词变成输入约束和验收标准。",
+            "learningValue": "将自己的图标/吉祥物提示词改写成“物种、品牌承诺、32px 可读性、跨姿态”四段结构。"
+          }
+        ],
+        "learningActions": [
+          "把现有 IP/图标需求按“物种、姿态、材质、32px 可读性”重写一次。",
+          "保存 YouMind 页面作为 Skill 化提示词的结构参考。",
+          "检查生成结果是否能在 iOS/macOS 小尺寸下仍保留识别点。"
+        ],
+        "tags": [
+          "Home",
+          "AI DESIGN",
+          "Skill / 3D IP Design",
+          "media:image",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093549721323483152",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/hylarucoder/status/2093549721323483152",
+        "author": "海拉鲁编程客",
+        "handle": "hylarucoder",
+        "datetime": "2026-08-29T04:02:04.000Z",
+        "title": "Voice Agent 教程降低语音交互试错成本",
+        "originalSummary": "原帖内容：新视频发布\n\n《半小时用 AI 做一个口语外教｜ voice agent 教程》\n\n你可能看多了 vibe coding 官网的教程，但可能很少会看到语音智能体的教程，跟着视频会发现非常简单。\n\n本期视频做了些简单科普，如果你想入门语音智能体，那么这期视频可能对你很有帮助。\n\nPS: 本期视频用的是 @AgoraIO 的服务！",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为语音 agent 是聊天框之外的重要交互形态，教程把服务接入和可运行 demo 放在一起。对设计工程师来说，重点是拆语音输入、实时反馈和任务闭环的原型路径。",
+        "deepSummary": "语音 agent 的设计难点在实时反馈、错误恢复和任务闭环。这条教程有价值，因为它把技术接入和产品场景放在一个半小时以内的 demo 里，适合快速判断语音 AI 是否值得进入原型。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "整理语音 agent 原型的最小链路：唤起、聆听、转写、执行、确认。",
+          "评估 Agora 等实时服务对延迟和反馈动效的约束。",
+          "为口语外教场景写一套错误恢复 microcopy。"
+        ],
+        "tags": [
+          "Home",
+          "AI AGENT",
+          "Voice Agent / 教程",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093544515034570932",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/hanyu_chen_ios/status/2093544515034570932",
+        "author": "陳涵宇 Hanyu.Chen",
+        "handle": "hanyu_chen_ios",
+        "datetime": "2026-08-29T03:41:23.000Z",
+        "title": "LIKit 的 Local AI 学习信息架构",
+        "originalSummary": "原帖内容：剛剛才知道 @ethanhuang13 架了一個網站在教 AI 的名詞與技術，有空再來看看。\n\nhttps://likit.dev/",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 LIKit 面向 Mac 用户把 Local AI 的硬件、模型下载、模型卡和 Apple AI 能力组织成学习路径。对个人设计师来说，重点是把复杂技术知识做成可导航的信息架构。",
+        "deepSummary": "LIKit 的强项是按用户问题组织技术学习，而不是按术语堆文档。对设计师来说，这是把复杂 AI 技术翻译成决策路径的案例，尤其适合 Mac 本地 AI 用户。",
+        "linkAnalysis": [
+          {
+            "url": "https://likit.dev/",
+            "title": "Local Intelligence Kit | LIKit",
+            "access": "full",
+            "summary": "页面可读，繁中站点从 Mac 硬件、Local AI 能跑什么、Apple AI/ML 框架、开源模型、Hugging Face 模型卡等入口组织知识。",
+            "whatItAdds": "补充产品形态：这是一个面向 Mac 用户的 Local AI 学习网站。",
+            "value": "信息架构价值高：适合参考如何把难懂 AI 技术拆成按用户问题进入的学习路径。",
+            "learningValue": "画出 LIKit 首屏信息架构，复用到自己的本地 AI 工具学习地图。"
+          }
+        ],
+        "learningActions": [
+          "画出 LIKit 首页的学习路径树，标注每个入口回答的问题。",
+          "把“模型卡、硬件、下载、Apple ML 框架”做成自己的 Local AI 学习清单。",
+          "记录繁中技术文档的语气和导航方式，复用到知识库设计。"
+        ],
+        "tags": [
+          "Home",
+          "AI LEARNING",
+          "Local AI / 学习网站",
+          "link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093517233926631513",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/viktoroddy/status/2093517233926631513",
+        "author": "Viktor Oddy",
+        "handle": "viktoroddy",
+        "datetime": "2026-08-29T01:52:58.000Z",
+        "title": "Figma 到 Fable 5 的动态概念演示",
+        "originalSummary": "原帖内容：We’re allergic to bad design.\n\nDesigned in Figma by @KrisAnfalova. Brought to life with Fable 5.\n\nPrompt ↓",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它展示从 Figma 视觉稿到可传播 motion demo 的桥接方式。对个人设计师来说，重点是观察叙事镜头、节奏和提示词如何共同提升概念呈现。",
+        "deepSummary": "这条内容的价值在于展示静态稿如何通过 motion demo 变成可传播作品。重点不是单个效果，而是镜头节奏、文案态度和工具链协同。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取视频的前三个镜头，标注转场节奏和视觉层级。",
+          "把一个自己的静态 UI 截图改写成 Fable motion prompt。",
+          "比较“设计稿说明”和“动态演示”在说服力上的差异。"
+        ],
+        "tags": [
+          "Home",
+          "PRODUCT DESIGN",
+          "Motion Prototype / Fable",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093509765452472521",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/rogie/status/2093509765452472521",
+        "author": "˗ˏˋ rogie ˎˊ˗",
+        "handle": "rogie",
+        "datetime": "2026-08-29T01:23:18.000Z",
+        "title": "Figma Shader 小实验的材质语言",
+        "originalSummary": "原帖内容：doing my Figma shader thing again.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Rogie 的小型 shader 实验展示了设计工具里可玩、可调的材质表达。对设计工程师来说，重点是把光影、噪声和拖拽反馈做成低成本可复现样例。",
+        "deepSummary": "Rogie 的小实验适合观察 shader 如何为设计工具带来“可玩材质”。对设计工程师，重点是把视觉质感拆成参数，而不是只收藏最终画面。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录视频中的光、噪声、拖拽或形变参数。",
+          "复刻一个低成本 shader 控件，验证它在设计工具里的交互价值。",
+          "把结果整理成“材质 preset + 使用场景”笔记。"
+        ],
+        "tags": [
+          "Home",
+          "WEBGL / SHADER",
+          "Figma / Shader Aesthetic",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093499718760370225",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/alexcarp_me/status/2093499718760370225",
+        "author": "Alex Carpenter",
+        "handle": "alexcarp_me",
+        "datetime": "2026-08-29T00:43:22.000Z",
+        "title": "Flow 转场 API 的产品化思路",
+        "originalSummary": "原帖内容：working on some flow component transition apis that are easy to customize and tailor to your apps styles with a few lines of css",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把组件转场从单个动画效果上升到 API 设计：默认顺滑，但允许用几行 CSS 贴合产品风格。对设计工程师来说，重点是拆配置面、动效边界和主题适配。",
+        "deepSummary": "这条把动效能力包装成 API，而不是一次性动画。对设计系统来说，关键是默认可用、少量 CSS 可调、能贴合不同 app 风格。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "定义一个转场组件最少需要暴露的 props 和 CSS 变量。",
+          "写两个风格不同的转场主题，测试 API 是否足够稳定。",
+          "记录哪些动效参数应交给设计师，哪些应由系统固定。"
+        ],
+        "tags": [
+          "Home",
+          "PRODUCT DESIGN",
+          "组件转场 / API Design",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093428221291163999",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/k_grajeda/status/2093428221291163999",
+        "author": "Kevin Grajeda",
+        "handle": "k_grajeda",
+        "datetime": "2026-08-28T19:59:16.000Z",
+        "title": "Agent 消息队列的即时转场反馈",
+        "originalSummary": "原帖内容：smooth and instant transitions on agent message queue",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 agent UI 的关键不是炫技动画，而是让队列、状态切换和完成反馈保持连续。对产品设计来说，重点是学习多步骤 AI 任务如何减少等待焦虑。",
+        "deepSummary": "Agent 产品越来越多步骤化，消息队列动效会直接影响用户对“是否还在工作”的判断。这条视频适合拆状态连续性：排队、执行、完成和下一步切换。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆出消息队列的四个状态，并给每个状态设计一个低干扰反馈。",
+          "检查自己的 AI 工具是否有“任务正在推进”的可见证据。",
+          "把转场节奏和任务耗时绑定，避免纯装饰动效。"
+        ],
+        "tags": [
+          "Home",
+          "AI UX",
+          "Agent UI / Message Queue",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093382171318952444",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/benjitaylor/status/2093382171318952444",
+        "author": "Benji Taylor",
+        "handle": "benjitaylor",
+        "datetime": "2026-08-28T16:56:17.000Z",
+        "title": "Grok Bot Templates 的模板化工作流",
+        "originalSummary": "原帖内容：Grok Bot templates!",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为模板化是 AI Bot 从玩具走向稳定工作流的关键。对个人设计师来说，重点是研究模板如何表达角色、任务边界、输入字段和交付结果。",
+        "deepSummary": "Bot 模板的价值在于降低从“会聊天”到“能稳定执行任务”的距离。它值得分析角色定义、输入字段、输出格式和团队协作边界。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "从视频里抽取一个 Bot 模板的字段结构。",
+          "设计一个用于设计审稿或竞品扫描的 Bot template。",
+          "评估模板页是否清楚表达能力边界和失败处理。"
+        ],
+        "tags": [
+          "Home",
+          "AI PRODUCT",
+          "Grok Bot / Templates",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093568040550211971",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/10xmylife/status/2093568040550211971",
+        "author": "海明Dev",
+        "handle": "10xmylife",
+        "datetime": "2026-08-29T05:14:52.000Z",
+        "title": "多 Agent 内容流水线的人工确认点",
+        "originalSummary": "原帖内容：1️⃣ codex 每天自动选题\n2️⃣ 等我确认选题后，codex 告诉 gemini 负责写稿，自己和 grok 负责搜索配图\n3️⃣ 等文稿和图片处理完之后，调用本地的图片工具，自动生成多张长图",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把每日选题、人工确认、写稿、搜图和本地长图生成串成可执行链路。对个人设计师来说，重点是识别哪些步骤该自动化，哪些步骤必须保留人工判断。",
+        "deepSummary": "这条是个人自动化 workflow 样本：Codex 选题、人工确认、Gemini 写稿、Grok 搜配图、本地生成长图。设计价值在于识别人机分工，而不是追求全自动。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把自己的日报/卡片生产流程拆成自动步骤和人工确认步骤。",
+          "定义每个 agent 的输入、输出和失败回滚方式。",
+          "检查最终长图生成前是否有事实核验和视觉验收门。"
+        ],
+        "tags": [
+          "Home",
+          "AI WORKFLOW",
+          "Multi-agent Content Workflow",
+          "media:image"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093532254006063557",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/mntruell/status/2093532254006063557",
+        "author": "Michael Truell",
+        "handle": "mntruell",
+        "datetime": "2026-08-29T02:52:39.000Z",
+        "title": "Cursor/OpenAI 供应变化暴露平台风险",
+        "originalSummary": "原帖内容：We’re sorry to see that OpenAI put out a note saying they plan to block Cursor users from accessing OpenAI models in three months.\n\nOpenAI models serve about 5% of Cursor user traffic, and we’re speaking with the OpenAI team to resolve this.\n\nCursor was one of the very first users of OpenAI, we’ve worked closely with their team for years, and we’ve trusted their platform to be neutral infrastructure for our business.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它来自 Cursor 关键成员对模型供应变化的直接回应，提醒 AI 工具的产品体验依赖上游平台关系。对设计工程师来说，重点是把模型可用性、替代路线和用户信任做进产品沟通。",
+        "deepSummary": "这条来自 Cursor 关键成员的直接回应，重点是上游模型供应变化会进入产品信任问题。对设计工程师，值得学习如何把模型依赖、降级路线和用户沟通做成产品体验的一部分。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "为 AI 工具列一张“模型供应风险 -> 用户可见影响 -> 备用方案”表。",
+          "检查产品 UI 是否能解释模型不可用、切换或降级。",
+          "学习 Cursor 回应里对流量占比和合作关系的表述方式。"
+        ],
+        "tags": [
+          "Home",
+          "AI PRODUCT",
+          "AI Tool Ecosystem / Platform Risk"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093346744797184325",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/XAngus/status/2093346744797184325",
+        "author": "Angus",
+        "handle": "XAngus",
+        "datetime": "2026-08-28T14:35:31.000Z",
+        "title": "收藏：Grok Bot 官方 Guides",
+        "originalSummary": "原帖内容：SpaceXAI 官方发布了 Grok Bot 指南\n\n官方发布的，还是很有参考性的\n\n赶紧收藏起来，慢慢看👇\n\nhttps://x.ai/bot/guides",
+        "whySaved": "你会收藏它，是因为官方 Grok Bot Guides 能作为 AI teammate 工作流和模板化任务设计的参考入口。",
+        "whyCaptured": "因用户已收藏，作为个人 AI 产品偏好信号保留；我把它纳入分析用于反推你关注的 Bot 工作流和协作模板。",
+        "deepSummary": "你会收藏它，是因为它提供 Bot 团队化使用的官方 playbook 入口，不只是单个提示词。它能帮助你设计 AI teammate、任务模板和跨工具协作规范。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.ai/bot/guides",
+            "title": "Grok Bot Guides",
+            "access": "full",
+            "summary": "页面可读，定位 Practical playbooks for AI teammates，包含多团队 Grok Bots、移动 app 开发等指南入口。",
+            "whatItAdds": "补充官方指南页和 playbook 列表，而不只是一条转发推荐。",
+            "value": "值得继续读：它把 Bot 使用从单次聊天变成 playbook 和团队协作模式。",
+            "learningValue": "抽取一个 Grok Bot 指南，改写成自己的设计研究/素材归档 Bot 模板。"
+          }
+        ],
+        "learningActions": [
+          "阅读 x.ai Guides 中一篇 Bot playbook，摘出角色、输入、输出和交付节奏。",
+          "把一个常见设计任务改写成 Grok Bot 模板。",
+          "比较 Grok Bot 与 Codex/Claude Skill 在“长期记忆”和“任务边界”上的差异。"
+        ],
+        "tags": [
+          "Liked",
+          "AI PRODUCT",
+          "Grok Bot",
+          "link"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-29",
     "generatedAt": "2026-08-29T08:03:00+08:00",
     "batch": "x-ai-design-analysis-2026-08-29-0803",
     "analysisCount": 100,

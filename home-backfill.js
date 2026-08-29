@@ -1,6 +1,287 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "AI WORKFLOW",
+    "datetime": "2026-08-29T05:14:52.000Z",
+    "author": "海明Dev",
+    "handle": "10xmylife",
+    "avatar": "https://pbs.twimg.com/profile_images/1990256506819010560/KY1yT56T_200x200.jpg",
+    "title": "Codex/Gemini/Grok 串联成自动选题与长图流水线",
+    "summary": "我会帮你抓取它，因为它把每日选题、人工确认、写稿、搜图和本地长图生成串成可执行链路。对个人设计师来说，重点是识别哪些步骤该自动化，哪些步骤必须保留人工判断。",
+    "url": "https://x.com/10xmylife/status/2093568040550211971",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ3YsVmbsAAQmL5.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ3ZCCVbsAE6_gw.jpg?name=orig"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 2 LIKES · 5 BOOKMARKS · 355 VIEWS",
+    "links": [],
+    "_analysisTheme": "Multi-agent Content Workflow",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI DESIGN",
+    "datetime": "2026-08-29T04:45:01.000Z",
+    "author": "十里",
+    "handle": "okooo5km",
+    "avatar": "https://pbs.twimg.com/profile_images/2020293051302965250/jJjJxUI6_200x200.jpg",
+    "title": "YouMind Skill 把 3D 吉祥物设计流程产品化",
+    "summary": "我会帮你抓取它，因为它把品牌承诺、物种特征、图标可读性和 3D 体积感写成了可安装 Skill。对个人设计师来说，重点是把视觉风格提示词转成可复用的设计流程。",
+    "url": "https://x.com/okooo5km/status/2093560530107760775",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ3SNRtbcAAwEtx.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 230 VIEWS",
+    "links": [
+      "https://youmind.com/skills/3d-animal-mascot-design-yrXyuR40L6Rdhi"
+    ],
+    "_analysisTheme": "Skill / 3D IP Design",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "3D Vivid Animal Mascot - YouMind Skill",
+      "preview": "YouMind Skill 页面说明它用于生成 iOS/macOS 可用的可爱 3D 动物 IP 图标，关注物种真实性、32px 可读性和跨姿态延展。",
+      "cover": "",
+      "url": "https://youmind.com/skills/3d-animal-mascot-design-yrXyuR40L6Rdhi"
+    },
+    "quote": {
+      "label": "引用原帖",
+      "author": "十里",
+      "handle": "okooo5km",
+      "text": "Would you like icons in this style?😛",
+      "url": "https://x.com/okooo5km/status/2091830133925810591"
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-29T04:20:20.000Z",
+    "author": "joshpuckett",
+    "handle": "joshpuckett",
+    "avatar": "https://pbs.twimg.com/profile_images/1270368527690522626/-3QQH-bB_200x200.jpg",
+    "title": "Pica 用原生速度重做字体管理体验",
+    "summary": "我会帮你抓取它，因为 Pica 把字体管理的价值落在启动速度、预览和一键启用这类高频细节上。对个人设计师来说，重点是比较专业工具如何用性能建立信任感。",
+    "url": "https://x.com/joshpuckett/status/2093554319396360532",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093553014334509056/vid/avc1/3388x2160/8ZV_uyZjnBTofLta.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093553014334509056/img/Ecp9NWFWcaPTPR3P.jpg"
+      }
+    ],
+    "metrics": "4 REPLIES · 0 REPOSTS · 68 LIKES · 31 BOOKMARKS · 4081 VIEWS",
+    "links": [
+      "https://pica.joshpuckett.me/"
+    ],
+    "_analysisTheme": "字体工具 / 原生 Mac App",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Pica, a MacOS font management app",
+      "preview": "A better way to manage your fonts: custom collections, logo/color previews, OpenType support, one-click activation, watch folders。",
+      "cover": "",
+      "url": "https://pica.joshpuckett.me/"
+    },
+    "quote": {
+      "label": "引用原帖",
+      "author": "Mitchell Hashimoto",
+      "handle": "mitchellh",
+      "text": "Quick Superlogical demo to end the week. This demo is just of the basic functionality, but I want to highlight just how FAST it is. There's a WHOLE lot more functionality already present and coming but I wanted to keep the demo short. But seriously, check out that speed.\n\nI'm showing the macOS app here and I get asked a lot so let me just say up front: its not macOS only. We're still figuring out exactly what platforms will be stable enough for the initial public release, but we're working on others. In particular, the web interface is very functional but I'll demo that another time (or someone else will).\n\nThis is also all showing off the architecture I previously talked about for terminal multiplexing which is significantly different from other mainstream multiplexers: this is all a custom binary protocol where the server is maintaining N replica distributed terminal state machines. It works!\n\nTons of hard work going into this by the team @almonk @dizzyup @pearkes. Hope we can bring you something you can use soon. ❤️ Happy to answer questions in the replies.",
+      "url": "https://x.com/mitchellh/status/2093451043661316217"
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-29T04:02:04.000Z",
+    "author": "海拉鲁编程客",
+    "handle": "hylarucoder",
+    "avatar": "https://pbs.twimg.com/profile_images/1725593465/1e73398765998062c75cc3f6____200x200.jpg",
+    "title": "半小时 voice agent 教程降低语音 AI 入门门槛",
+    "summary": "我会帮你抓取它，因为语音 agent 是聊天框之外的重要交互形态，教程把服务接入和可运行 demo 放在一起。对设计工程师来说，重点是拆语音输入、实时反馈和任务闭环的原型路径。",
+    "url": "https://x.com/hylarucoder/status/2093549721323483152",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093535600758685696/vid/avc1/3840x2160/WbbHfC_b-B12B_mt.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093535600758685696/img/6Hz1WEUTbMpY9LXV.jpg"
+      }
+    ],
+    "metrics": "2 REPLIES · 0 REPOSTS · 13 LIKES · 13 BOOKMARKS · 2547 VIEWS",
+    "links": [],
+    "_analysisTheme": "Voice Agent / 教程",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI LEARNING",
+    "datetime": "2026-08-29T03:41:23.000Z",
+    "author": "陳涵宇 Hanyu.Chen",
+    "handle": "hanyu_chen_ios",
+    "avatar": "https://pbs.twimg.com/profile_images/822305236345720837/e39PfAQW_200x200.jpg",
+    "title": "LIKit 用繁中教程拆解 Local AI 入门路径",
+    "summary": "我会帮你抓取它，因为 LIKit 面向 Mac 用户把 Local AI 的硬件、模型下载、模型卡和 Apple AI 能力组织成学习路径。对个人设计师来说，重点是把复杂技术知识做成可导航的信息架构。",
+    "url": "https://x.com/hanyu_chen_ios/status/2093544515034570932",
+    "media": [],
+    "metrics": "0 REPLIES · 2 REPOSTS · 3 LIKES · 4 BOOKMARKS · 292 VIEWS",
+    "links": [
+      "https://likit.dev/"
+    ],
+    "_analysisTheme": "Local AI / 学习网站",
+    "_analysisPriority": "medium",
+    "article": {
+      "kind": "external",
+      "title": "Local Intelligence Kit | LIKit",
+      "preview": "LIKit 是繁体中文 Local AI 学习网站，从 Mac 硬件、开源模型、Hugging Face 模型卡到 Apple AI/ML 框架逐步组织。",
+      "cover": "",
+      "url": "https://likit.dev/"
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-29T03:22:27.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "Claude/Warp 案例展示 Agent Skill 自我改进",
+    "summary": "我会帮你抓取它，因为它把 Warp 代码审查 agent 的失败反馈、项目记忆和 Skill 更新串成了可执行流程。对设计工程师来说，重点是把“下次别再犯”的经验沉淀成可验证的技能协议。",
+    "url": "https://x.com/dotey/status/2093539751127040157",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093539587096211456/vid/avc1/1920x1080/k5IgQT1v8ouyVBY9.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093539587096211456/img/zgvZdrM6wTPwPEho.jpg"
+      }
+    ],
+    "metrics": "13 REPLIES · 24 REPOSTS · 98 LIKES · 177 BOOKMARKS · 12626 VIEWS",
+    "links": [
+      "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+      "http://github.com/JimLiu/decode-codex/blob/main/.agents/skills/deobfuscate-javascript/SKILL.md#maintaining-this-skill-self-improvement-protocol"
+    ],
+    "_analysisTheme": "Agent Skills / 反馈记忆",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "How Warp builds self-improving agents on Claude | Claude by Anthropic",
+      "preview": "Anthropic/Claude 博客页面说明 Warp 如何把反馈累积进 Agent Skills，用于改进代码审查 agent。",
+      "cover": "",
+      "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-29T02:52:39.000Z",
+    "author": "Michael Truell",
+    "handle": "mntruell",
+    "avatar": "https://pbs.twimg.com/profile_images/1887065642261737472/QdLiAFfD_200x200.jpg",
+    "title": "Cursor 创始人回应 OpenAI 模型供应风险",
+    "summary": "我会帮你抓取它，因为它来自 Cursor 关键成员对模型供应变化的直接回应，提醒 AI 工具的产品体验依赖上游平台关系。对设计工程师来说，重点是把模型可用性、替代路线和用户信任做进产品沟通。",
+    "url": "https://x.com/mntruell/status/2093532254006063557",
+    "media": [],
+    "metrics": "579 REPLIES · 388 REPOSTS · 8712 LIKES · 738 BOOKMARKS · 921892 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Tool Ecosystem / Platform Risk",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-29T01:52:58.000Z",
+    "author": "Viktor Oddy",
+    "handle": "viktoroddy",
+    "avatar": "https://pbs.twimg.com/profile_images/1941325782829113344/buT3DYqx_200x200.jpg",
+    "title": "Fable 5 将 Figma 概念稿转成高质动态演示",
+    "summary": "我会帮你抓取它，因为它展示从 Figma 视觉稿到可传播 motion demo 的桥接方式。对个人设计师来说，重点是观察叙事镜头、节奏和提示词如何共同提升概念呈现。",
+    "url": "https://x.com/viktoroddy/status/2093517233926631513",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093516994129879040/vid/avc1/3540x2160/UNOgfSn1glV3UjWZ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093516994129879040/img/A7mx1Vvokvwmgzwy.jpg"
+      }
+    ],
+    "metrics": "1 REPLIES · 2 REPOSTS · 16 LIKES · 13 BOOKMARKS · 1898 VIEWS",
+    "links": [],
+    "_analysisTheme": "Motion Prototype / Fable",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "WEBGL / SHADER",
+    "datetime": "2026-08-29T01:23:18.000Z",
+    "author": "˗ˏˋ rogie ˎˊ˗",
+    "handle": "rogie",
+    "avatar": "https://pbs.twimg.com/profile_images/2073471625081790464/26eUtlT5_200x200.jpg",
+    "title": "Rogie 再次探索 Figma Shader 视觉实验",
+    "summary": "我会帮你抓取它，因为 Rogie 的小型 shader 实验展示了设计工具里可玩、可调的材质表达。对设计工程师来说，重点是把光影、噪声和拖拽反馈做成低成本可复现样例。",
+    "url": "https://x.com/rogie/status/2093509765452472521",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093509259866836992/vid/avc1/2048x1692/5dPsjgURwTQxA7EM.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093509259866836992/img/t7_I1GfuXr_zsVF7.jpg"
+      }
+    ],
+    "metrics": "10 REPLIES · 2 REPOSTS · 50 LIKES · 10 BOOKMARKS · 2436 VIEWS",
+    "links": [],
+    "_analysisTheme": "Figma / Shader Aesthetic",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-29T00:43:22.000Z",
+    "author": "Alex Carpenter",
+    "handle": "alexcarp_me",
+    "avatar": "https://pbs.twimg.com/profile_images/1950355578640871424/QShpnkVU_200x200.jpg",
+    "title": "Flow 组件转场 API 追求少量 CSS 可定制",
+    "summary": "我会帮你抓取它，因为它把组件转场从单个动画效果上升到 API 设计：默认顺滑，但允许用几行 CSS 贴合产品风格。对设计工程师来说，重点是拆配置面、动效边界和主题适配。",
+    "url": "https://x.com/alexcarp_me/status/2093499718760370225",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093499205566287872/vid/avc1/3318x1668/wLDMjSJnjckEUKoV.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093499205566287872/img/6gbpvmfS3-WWvKVd.jpg"
+      }
+    ],
+    "metrics": "2 REPLIES · 0 REPOSTS · 19 LIKES · 6 BOOKMARKS · 869 VIEWS",
+    "links": [],
+    "_analysisTheme": "组件转场 / API Design",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "WEBGL / SHADER",
+    "datetime": "2026-08-29T00:22:38.000Z",
+    "author": "Marek Jóźwiak",
+    "handle": "madebyhex",
+    "avatar": "https://pbs.twimg.com/profile_images/2089650996498591744/z80pkbSp_200x200.jpg",
+    "title": "Motion GPU 展示 WebGPU 液体模拟组件",
+    "summary": "我会帮你抓取它，因为这个液体模拟把 compute shader、实时流体和前端组件框架连接起来。对设计工程师来说，重点是学习视觉效果如何通过类型安全的 WebGPU 管线产品化。",
+    "url": "https://x.com/madebyhex/status/2093494500924477523",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093493759031803904/vid/avc1/3024x1764/DB3RQ4EBxRVD1isx.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093493759031803904/img/IGRNgo3hORUpuWKX.jpg"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 20 LIKES · 9 BOOKMARKS · 2306 VIEWS",
+    "links": [
+      "https://motion-gpu.dev/"
+    ],
+    "_analysisTheme": "WebGPU / Motion System",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Motion GPU — A minimalist WebGPU framework for Svelte 5, React 19, and Vue 3",
+      "preview": "Motion GPU 是面向 Svelte/React/Vue 的 WebGPU 框架，强调声明式 API、运行时契约和 type-safe WGSL shader。",
+      "cover": "",
+      "url": "https://motion-gpu.dev/"
+    }
+  },
+  {
     "category": "WEBGL / SHADER",
     "datetime": "2026-08-29T00:16:13.000Z",
     "author": "Three.js",
@@ -241,6 +522,27 @@
     "_analysisPriority": "high"
   },
   {
+    "category": "AI UX",
+    "datetime": "2026-08-28T19:59:16.000Z",
+    "author": "Kevin Grajeda",
+    "handle": "k_grajeda",
+    "avatar": "https://pbs.twimg.com/profile_images/1825568786637787136/iROwSjCR_200x200.jpg",
+    "title": "Agent 消息队列转场强调即时状态反馈",
+    "summary": "我会帮你抓取它，因为 agent UI 的关键不是炫技动画，而是让队列、状态切换和完成反馈保持连续。对产品设计来说，重点是学习多步骤 AI 任务如何减少等待焦虑。",
+    "url": "https://x.com/k_grajeda/status/2093428221291163999",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093427499711557632/vid/avc1/1144x1080/Px-NgAyvLh5PA_p4.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093427499711557632/img/iAOmRTLZI1Ei87mZ.jpg"
+      }
+    ],
+    "metrics": "7 REPLIES · 1 REPOSTS · 70 LIKES · 46 BOOKMARKS · 5424 VIEWS",
+    "links": [],
+    "_analysisTheme": "Agent UI / Message Queue",
+    "_analysisPriority": "high"
+  },
+  {
     "category": "AI AGENT",
     "datetime": "2026-08-28T19:58:58.000Z",
     "author": "Lenny Rachitsky",
@@ -458,6 +760,27 @@
       "cover": "",
       "url": "https://x.com/i/article/2093384274372419585"
     }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-28T16:56:17.000Z",
+    "author": "Benji Taylor",
+    "handle": "benjitaylor",
+    "avatar": "https://pbs.twimg.com/profile_images/1485350275372048384/FwGgXuTk_200x200.png",
+    "title": "Grok Bot Templates 展示可复制 Bot 工作流",
+    "summary": "我会帮你抓取它，因为模板化是 AI Bot 从玩具走向稳定工作流的关键。对个人设计师来说，重点是研究模板如何表达角色、任务边界、输入字段和交付结果。",
+    "url": "https://x.com/benjitaylor/status/2093382171318952444",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093376059223977985/vid/avc1/1920x1080/GByq930nBp_5PALw.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093376059223977985/img/8Y9aj7ji6-4qFAIR.jpg"
+      }
+    ],
+    "metrics": "29 REPLIES · 38 REPOSTS · 787 LIKES · 136 BOOKMARKS · 33446 VIEWS",
+    "links": [],
+    "_analysisTheme": "Grok Bot / Templates",
+    "_analysisPriority": "high"
   },
   {
     "category": "BRAND DESIGN",

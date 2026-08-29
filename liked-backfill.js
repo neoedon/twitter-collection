@@ -1,6 +1,48 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-29T08:03:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-29T14:28:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2093346744797184325",
+    "TwitterUserID": "107968230",
+    "UserScreenName": "XAngus",
+    "UserProfileName": "Angus",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2071641249195692032/kKcICUEk_200x200.jpg",
+    "TweetText": "SpaceXAI 官方发布了 Grok Bot 指南\n\n官方发布的，还是很有参考性的\n\n赶紧收藏起来，慢慢看👇\n\nhttps://x.ai/bot/guides",
+    "Tweet Url": "https://x.com/XAngus/status/2093346744797184325",
+    "TweetCreatedDate": "2026-08-28T14:35:31.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI PRODUCT",
+      "Grok Bot",
+      "link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Grok Bot Guides",
+      "preview": "Practical playbooks for AI teammates.",
+      "cover": "",
+      "url": "https://x.ai/bot/guides"
+    },
+    "_metrics": "3 REPLIES · 9 REPOSTS · 98 LIKES · 175 BOOKMARKS · 10734 VIEWS",
+    "_analysisTheme": "Grok Bot / AI teammate playbooks",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：SpaceXAI 官方 Grok Bot Guides 提供 AI 队友协作 playbooks，可用于研究 Bot 模板、团队协作和任务边界。",
+    "_likedSync": {
+      "capturedAt": "2026-08-29T14:28:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-28T14:35:31.000Z"
+    }
+  },
   {
     "TweetID": "2093333750104956994",
     "TwitterUserID": "756319701861601281",
