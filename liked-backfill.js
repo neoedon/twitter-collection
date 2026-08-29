@@ -1,15 +1,110 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-28T13:18:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-29T08:03:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
   {
-    "TweetID": "2093009825613664671",
-    "TwitterUserID": "1466995432429551616",
-    "UserScreenName": "jiangding01",
-    "UserProfileName": "一页繁华",
-    "UserProfilePic": "https://pbs.twimg.com/profile_images/1466997057806233607/5V-p4Y_I_200x200.jpg",
-    "TweetText": "@yyyole 我让GPT去找，他说大概率是这个项目\nhttps://github.com/brownhci/Remotion\n另外还可以参考这个项目：CristianOlivera1/openvid",
-    "Tweet Url": "https://x.com/jiangding01/status/2093009825613664671",
-    "TweetCreatedDate": "2026-08-27T16:16:43.000Z",
+    "TweetID": "2093333750104956994",
+    "TwitterUserID": "756319701861601281",
+    "UserScreenName": "AI_Jasonyu",
+    "UserProfileName": "鱼总聊AI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1877193368725581824/7_ocNC-C_200x200.jpg",
+    "TweetText": "揭秘我全网爆火，几千万播放的AI视频是怎么做出来的？\n\n全程录制制作过程，耐心观看。\n\n这个视频目前在全网保守估计应该几千万播放了，就连在X上搬运我的都已经马上200万播放量了，我也是第一次做AI短剧，这次的5分钟视频，制作时间总共花费也就一个半小时左右。\n\n制作过程使用Topview制作，主要还是有Agent可以批量创建场景画布，这样调整起来速度很快，缺点就是直出视频的话，调整起来，可能费Token。\n\n详细的请看视频👇👇👇",
+    "Tweet Url": "https://x.com/AI_Jasonyu/status/2093333750104956994",
+    "TweetCreatedDate": "2026-08-28T13:43:52.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093331508605988864/img/T1wCBV1bAhQ4csaG.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093331508605988864/vid/avc1/1280x720/fd4T-d5f4dSvvzXu.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "PRODUCT DESIGN",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093331508605988864/vid/avc1/1280x720/fd4T-d5f4dSvvzXu.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093331508605988864/img/T1wCBV1bAhQ4csaG.jpg"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "鱼总聊AI",
+      "handle": "AI_Jasonyu",
+      "text": "行了，也确实是第一次为了一个男人熬夜、买token、做片。 五分钟，花了我不少钱，大家别吃文字版的瓜了，视频给你们准备好了～ 孙割，你这新概念作文一等奖真不是盖的，你这故事后面拍电影必火，一定要找我合作🤝",
+      "url": "https://x.com/AI_Jasonyu/status/2093036491710586886"
+    },
+    "_article": null,
+    "_metrics": "34 REPLIES · 48 REPOSTS · 389 LIKES · 484 BOOKMARKS · 47420 VIEWS",
+    "_analysisTheme": "产品设计 / 学习样本",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：揭秘我全网爆火，几千万播放的AI视频是怎么做出来的？ 全程录制制作过程，耐心观看。 这个视频目前在全网保守估计应该几千万播放了，就连在X上搬运我的都已经马上200万播放量了，我也是第一次做AI短剧，这次的5分钟视频，制作时间总共花费也就一个半小时左右。 制作… 这条可作为产品设计 / 学习样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-29T08:03:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-28T13:43:52.000Z"
+    }
+  },
+  {
+    "TweetID": "2093315213890318624",
+    "TwitterUserID": "1926593162232975360",
+    "UserScreenName": "yrzhe_top",
+    "UserProfileName": "yrzhe.top",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2048321462814302208/JDRC8zrb_200x200.jpg",
+    "TweetText": "Vercel 这两天开源了个 WebGPU 库 vgpu，浏览器和无头 Node 跑同一份 shader。看到他们自己拿它做的 ink demo 感觉很炫，我也做了一个：压力投影的流体解算，两种颜料按吸收往纸上合成，advect、curl、涡量约束、20 次 jacobi、project，每帧 30 个全屏 pass。可以自己拖：\n\nhttps://immense-jaguar-8615.edgespark.app/api/public/s/vgpu-ink/\n\n比较爽的是配的这段视频不是录屏。同一套 wgsl 换成 vgpu/node 跑，900 步解算一帧一帧读回像素，ffmpeg 拼成 mp4。页面上拖着玩的那个和视频里这个，是同一份代码。\n\n中间卡了一次。边界我只在最外几个像素把法向速度归零，看着挺对，但平流是 clamp 采样的，流体一路把颜料推到墙上，进得去出不来，边缘越积越厚。改成一条 7.5% 宽的渐变滑移带以后，最外一圈的平均亮度从 174.9 回到 239.6，也就是纸本身的白。\n\n另外它文档是按 agent 能直接读的方式做的，我摸 API 全程没开网页。npx vgpu examples pull 把验证过的例子连 sha 一起拉到本地，doctor 会真去申请 adapter 渲一帧 16×16 再回读，不是只查环境变量。反过来 npx vgpu check 有点松，active 和 out 这两个 WGSL 保留字它放行了，真机 createShaderModule 才报出来。",
+    "Tweet Url": "https://x.com/yrzhe_top/status/2093315213890318624",
+    "TweetCreatedDate": "2026-08-28T12:30:13.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093315191564091392/img/CcZrG8Cfza2OOv1f.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093315191564091392/vid/avc1/1152x720/CEcUbzlQNB87UB1c.mp4?tag=14",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "WEBGL / SHADER",
+      "media:video",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093315191564091392/vid/avc1/1152x720/CEcUbzlQNB87UB1c.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093315191564091392/img/CcZrG8Cfza2OOv1f.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Ink on paper — 一个跑在 vgpu 上的流体解算器",
+      "preview": "压力投影的流体解算，两种颜料按吸收合成到纸上，每帧 30 个全屏 GPU pass。同一份 shader 在浏览器和无头 Node 里跑同样的结果。",
+      "cover": "",
+      "url": "https://immense-jaguar-8615.edgespark.app/api/public/s/vgpu-ink/"
+    },
+    "_metrics": "0 REPLIES · 9 REPOSTS · 97 LIKES · 95 BOOKMARKS · 5641 VIEWS",
+    "_analysisTheme": "视觉工程 / WebGPU Shader",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Vercel 这两天开源了个 WebGPU 库 vgpu，浏览器和无头 Node 跑同一份 shader。看到他们自己拿它做的 ink demo 感觉很炫，我也做了一个：压力投影的流体解算，两种颜料按吸收往纸上合成，advect、curl、涡量约束、20 次… 这条可作为视觉工程 / WebGPU Shader参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-29T08:03:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-28T12:30:13.000Z"
+    }
+  },
+  {
+    "TweetID": "2093274771941372334",
+    "TwitterUserID": "1801304529675370496",
+    "UserScreenName": "Delroy715",
+    "UserProfileName": "码农暖爸",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2092642501824073728/5m6y_zZn_200x200.jpg",
+    "TweetText": "官网体验：https://www.originkit.dev/components/globe?preset=base\n\n它不是表单表格那套产品组件库，而是适合发布页、作品集、暗色落地页。\n页面别堆太多重特效，手机端会扛不住",
+    "Tweet Url": "https://x.com/Delroy715/status/2093274771941372334",
+    "TweetCreatedDate": "2026-08-28T09:49:31.000Z",
     "MediaType": "text",
     "MediaImageUrl": "",
     "MediaVideoUrl": "",
@@ -19,66 +114,115 @@ window.LIKED_BACKFILL = [
     "_source": "favourite",
     "_tags": [
       "Like",
-      "设计工程",
+      "PRODUCT DESIGN",
       "link"
     ],
     "_media": [],
     "_quote": null,
     "_article": {
       "kind": "external",
-      "title": "GitHub - brownhci/Remotion: Remotion is an open-source platform that visualizes smartphone user movements · GitHub",
-      "preview": "GitHub 页面说明 Remotion 是 visualizes smartphone user movements 的 open-source platform。",
+      "title": "Globe Cage — Interactive WebGL Globe",
+      "preview": "An interactive three.js globe: a shader-driven point cloud inside a shimmering wireframe cage, with colour waves, drag-to-spin, and hover-lit panels.",
       "cover": "",
-      "url": "https://github.com/brownhci/Remotion"
+      "url": "https://www.originkit.dev/components/globe?preset=base"
     },
-    "_metrics": "1 REPLIES · 3 REPOSTS · 25 LIKES · 20 BOOKMARKS · 896 VIEWS",
-    "_analysisTheme": "手机动效录屏 / Demo 工具",
-    "_analysisPriority": "high",
+    "_metrics": "1 REPLIES · 1 REPOSTS · 8 LIKES · 6 BOOKMARKS · 594 VIEWS",
+    "_analysisTheme": "产品设计 / 学习样本",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：官网体验：https://www.originkit.dev/components/globe?preset=base 它不是表单表格那套产品组件库，而是适合发布页、作品集、暗色落地页。 页面别堆太多重特效，手机端会扛不住 这条可作为产品设计 / 学习样本参考。",
     "_likedSync": {
-      "capturedAt": "2026-08-28T13:18:00+08:00",
+      "capturedAt": "2026-08-29T08:03:00+08:00",
       "source": "ego-browser:x.com/i/history/likes",
-      "observedStep": 0,
-      "observedDatetime": "2026-08-27T16:16:43.000Z"
+      "observedStep": 1,
+      "observedDatetime": "2026-08-28T09:49:31.000Z"
     }
   },
   {
-    "TweetID": "2092934131391013371",
-    "TwitterUserID": "939870716391854082",
-    "UserScreenName": "yyyole",
-    "UserProfileName": "沐阳",
-    "UserProfilePic": "https://pbs.twimg.com/profile_images/1986002260447707136/lf3UN9Xp_200x200.jpg",
-    "TweetText": "最近看到很多人都在Vibe类似的工具！\n\n倒不难，就是实时同步手机陀螺仪数据和屏幕显示。很适合用来做产品UI或者功能演示的3D录屏！\n\n不过我记得有一个差不多的开源项目，忘记叫啥了，我找找分享出来。",
-    "Tweet Url": "https://x.com/yyyole/status/2092934131391013371",
-    "TweetCreatedDate": "2026-08-27T11:15:56.000Z",
+    "TweetID": "2093274769290604846",
+    "TwitterUserID": "1801304529675370496",
+    "UserScreenName": "Delroy715",
+    "UserProfileName": "码农暖爸",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2092642501824073728/5m6y_zZn_200x200.jpg",
+    "TweetText": "如果你的网站或者 APP 也想做粒子、黑洞、光标拖尾这种高级感动效\n\n今天继续给兄弟们\n分享一个超好用的动画组件库：Originkit\n专为现代落地页打造的互动动效库：\n\n- 大约 300 个现成动画组件，背景、文字、光标、图库都能直接套\n- 拷出来的是 React / Next 源码，不是再挂一层运行时依赖\n- Framer 能用，Codex、Cursor 这类 AI 工具还能走 MCP \n- 颜色、速度、尺寸能在站点里先调，调完再拷进项目\n\n同时支持npx originkit@latest add xxx 方式按需安装某个效果\n\n体验地址已放评论区👇\n喜欢的兄弟点赞收藏，防止用的时候找不到",
+    "Tweet Url": "https://x.com/Delroy715/status/2093274769290604846",
+    "TweetCreatedDate": "2026-08-28T09:49:30.000Z",
     "MediaType": "video",
-    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092934029238755328/img/tTprx7Tsu_uJ19ye.jpg",
-    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092934029238755328/vid/avc1/640x360/bHVzYCkXovCPdYEJ.mp4?tag=29",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093273210951450624/img/XktQ4Ponkmca-CAv.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093273210951450624/vid/avc1/1280x720/eN7EtCCvisGMFMJz.mp4?tag=29",
     "HasLink": "False",
     "Translation": "",
     "Summary": "",
     "_source": "favourite",
     "_tags": [
       "Like",
-      "产品演示",
+      "DESIGN TOOL",
       "media:video"
     ],
     "_media": [
       {
         "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2092934029238755328/vid/avc1/640x360/bHVzYCkXovCPdYEJ.mp4?tag=29",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092934029238755328/img/tTprx7Tsu_uJ19ye.jpg"
+        "src": "https://video.twimg.com/amplify_video/2093273210951450624/vid/avc1/1280x720/eN7EtCCvisGMFMJz.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093273210951450624/img/XktQ4Ponkmca-CAv.jpg"
       }
     ],
     "_quote": null,
     "_article": null,
-    "_metrics": "66 REPLIES · 22 REPOSTS · 211 LIKES · 223 BOOKMARKS · 29107 VIEWS",
-    "_analysisTheme": "产品 UI 演示 / 3D 录屏",
-    "_analysisPriority": "high",
+    "_metrics": "28 REPLIES · 22 REPOSTS · 190 LIKES · 206 BOOKMARKS · 11222 VIEWS",
+    "_analysisTheme": "设计工具 / 视觉系统",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：如果你的网站或者 APP 也想做粒子、黑洞、光标拖尾这种高级感动效 今天继续给兄弟们 分享一个超好用的动画组件库：Originkit 专为现代落地页打造的互动动效库： - 大约 300 个现成动画组件，背景、文字、光标、图库都能直接套 - 拷出来的是 Rea… 这条可作为设计工具 / 视觉系统参考。",
     "_likedSync": {
-      "capturedAt": "2026-08-28T13:18:00+08:00",
+      "capturedAt": "2026-08-29T08:03:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 1,
+      "observedDatetime": "2026-08-28T09:49:30.000Z"
+    }
+  },
+  {
+    "TweetID": "2093245277595685375",
+    "TwitterUserID": "50683",
+    "UserScreenName": "dingyi",
+    "UserProfileName": "Ding",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_200x200.jpg",
+    "TweetText": "Amp for iOS and macOS!\n\nhttps://ampcode.com/app",
+    "Tweet Url": "https://x.com/dingyi/status/2093245277595685375",
+    "TweetCreatedDate": "2026-08-28T07:52:19.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQyzd7qaQAAZYg2.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "PRODUCT DESIGN",
+      "media:photo",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQyzd7qaQAAZYg2.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "ampcode.com",
+      "preview": "TypeError: fetch failed",
+      "cover": "",
+      "url": "https://ampcode.com/app"
+    },
+    "_metrics": "8 REPLIES · 3 REPOSTS · 47 LIKES · 47 BOOKMARKS · 10414 VIEWS",
+    "_analysisTheme": "产品设计 / 学习样本",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：Amp for iOS and macOS! https://ampcode.com/app 这条可作为产品设计 / 学习样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-29T08:03:00+08:00",
       "source": "ego-browser:x.com/i/history/likes",
       "observedStep": 0,
-      "observedDatetime": "2026-08-27T11:15:56.000Z"
+      "observedDatetime": "2026-08-28T07:52:19.000Z"
     }
   },
   {
@@ -154,6 +298,100 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/i/history/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-27T18:02:41.000Z"
+    }
+  },
+  {
+    "TweetID": "2093017489349439935",
+    "TwitterUserID": "1727996679935115264",
+    "UserScreenName": "storydotfun_cn",
+    "UserProfileName": "Story.fun 中文",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2093013248228593664/I-uChDm2_200x200.jpg",
+    "TweetText": "🚨 @justinsuntron 2007 年加好友没过。 19 年后，私人飞机上她抱着他说： “以后别叫我景甜了，叫我妈妈吧。” \n\n“好，妈妈。”  \n\n更多精彩内容，前往 https://go.story.fun/Justin_3 👀  \n\n《我的女友景甜》系列 AI 短剧由 http://Story.fun 社区创作，纯属虚构，如有雷同，实属巧合。  \n\n#孙宇晨叫景甜妈妈 #我的女友景甜 #纯属虚构 #妈妈",
+    "Tweet Url": "https://x.com/storydotfun_cn/status/2093017489349439935",
+    "TweetCreatedDate": "2026-08-27T16:47:10.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093016975190683650/img/Kqqdt-26BMU3Q1Fe.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093016975190683650/vid/avc1/1280x720/8diYguPPl1zHToQu.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "PRODUCT DESIGN",
+      "media:video",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093016975190683650/vid/avc1/1280x720/8diYguPPl1zHToQu.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093016975190683650/img/Kqqdt-26BMU3Q1Fe.jpg"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "H.E. Justin Sun 👨‍🚀 🌞",
+      "handle": "justinsuntron",
+      "text": "https://x.com/i/article/2092711089305948160",
+      "url": "https://x.com/justinsuntron/status/2092932777612390850"
+    },
+    "_article": {
+      "kind": "external",
+      "title": "我的女友景甜",
+      "preview": "币圈&quot;孙割&quot;孙宇晨，斥 642 万美元买根香蕉，上了热搜。尝到甜头，他悟出一个道理：要持续霸榜，就得玩更大的。于是他成立&quot;特工小队&quot;，拨下三千万预算，包影院、买私人飞机、全球撒钱，把女神景甜&quot;追&quot;进了怀里。 可戏演到最甜处——私人飞机升空，镜头却切到监狱里，许家印抬头望着那架曾属于自己的飞机；下一秒，财务把整本账算得明明白白。",
+      "cover": "",
+      "url": "https://go.story.fun/Justin_3"
+    },
+    "_metrics": "211 REPLIES · 196 REPOSTS · 1590 LIKES · 865 BOOKMARKS · 603818 VIEWS",
+    "_analysisTheme": "产品设计 / 学习样本",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：🚨 @justinsuntron 2007 年加好友没过。 19 年后，私人飞机上她抱着他说： “以后别叫我景甜了，叫我妈妈吧。” “好，妈妈。” 更多精彩内容，前往 https://go.story.fun/Justin_3 👀 《我的女友景甜》系列 … 这条可作为产品设计 / 学习样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-29T08:03:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-27T16:47:10.000Z"
+    }
+  },
+  {
+    "TweetID": "2093009825613664671",
+    "TwitterUserID": "1466995432429551616",
+    "UserScreenName": "jiangding01",
+    "UserProfileName": "一页繁华",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1466997057806233607/5V-p4Y_I_200x200.jpg",
+    "TweetText": "@yyyole 我让GPT去找，他说大概率是这个项目\nhttps://github.com/brownhci/Remotion\n另外还可以参考这个项目：CristianOlivera1/openvid",
+    "Tweet Url": "https://x.com/jiangding01/status/2093009825613664671",
+    "TweetCreatedDate": "2026-08-27T16:16:43.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程",
+      "link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "GitHub - brownhci/Remotion: Remotion is an open-source platform that visualizes smartphone user movements · GitHub",
+      "preview": "GitHub 页面说明 Remotion 是 visualizes smartphone user movements 的 open-source platform。",
+      "cover": "",
+      "url": "https://github.com/brownhci/Remotion"
+    },
+    "_metrics": "1 REPLIES · 3 REPOSTS · 25 LIKES · 20 BOOKMARKS · 896 VIEWS",
+    "_analysisTheme": "手机动效录屏 / Demo 工具",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T13:18:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-27T16:16:43.000Z"
     }
   },
   {
@@ -265,6 +503,47 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/i/history/likes",
       "observedStep": 7,
       "observedDatetime": "2026-08-27T13:43:28.000Z"
+    }
+  },
+  {
+    "TweetID": "2092968426558078996",
+    "TwitterUserID": "2048059602114158594",
+    "UserScreenName": "uiuxjoy99",
+    "UserProfileName": "JOY - Product Designer",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2083214486622892032/H2ogvlSl_200x200.jpg",
+    "TweetText": "Hydration Tracking, Made Effortless Mobile App UI Design",
+    "Tweet Url": "https://x.com/uiuxjoy99/status/2092968426558078996",
+    "TweetCreatedDate": "2026-08-27T13:32:13.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092968228566056960/img/xmvi-KDa5pUEufpY.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092968228566056960/vid/avc1/720x1280/Tt_3xmeK7JUcwv_O.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "DESIGN TOOL",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092968228566056960/vid/avc1/720x1280/Tt_3xmeK7JUcwv_O.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092968228566056960/img/xmvi-KDa5pUEufpY.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "6 REPLIES · 2 REPOSTS · 138 LIKES · 112 BOOKMARKS · 8148 VIEWS",
+    "_analysisTheme": "设计工具 / 视觉系统",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：Hydration Tracking, Made Effortless Mobile App UI Design 这条可作为设计工具 / 视觉系统参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-29T08:03:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-27T13:32:13.000Z"
     }
   },
   {
@@ -416,6 +695,46 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/i/history/likes",
       "observedStep": 3,
       "observedDatetime": "2026-08-27T12:00:03.000Z"
+    }
+  },
+  {
+    "TweetID": "2092934131391013371",
+    "TwitterUserID": "939870716391854082",
+    "UserScreenName": "yyyole",
+    "UserProfileName": "沐阳",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1986002260447707136/lf3UN9Xp_200x200.jpg",
+    "TweetText": "最近看到很多人都在Vibe类似的工具！\n\n倒不难，就是实时同步手机陀螺仪数据和屏幕显示。很适合用来做产品UI或者功能演示的3D录屏！\n\n不过我记得有一个差不多的开源项目，忘记叫啥了，我找找分享出来。",
+    "Tweet Url": "https://x.com/yyyole/status/2092934131391013371",
+    "TweetCreatedDate": "2026-08-27T11:15:56.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2092934029238755328/img/tTprx7Tsu_uJ19ye.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2092934029238755328/vid/avc1/640x360/bHVzYCkXovCPdYEJ.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品演示",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2092934029238755328/vid/avc1/640x360/bHVzYCkXovCPdYEJ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2092934029238755328/img/tTprx7Tsu_uJ19ye.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "66 REPLIES · 22 REPOSTS · 211 LIKES · 223 BOOKMARKS · 29107 VIEWS",
+    "_analysisTheme": "产品 UI 演示 / 3D 录屏",
+    "_analysisPriority": "high",
+    "_likedSync": {
+      "capturedAt": "2026-08-28T13:18:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-27T11:15:56.000Z"
     }
   },
   {
