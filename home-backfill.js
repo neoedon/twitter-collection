@@ -1,6 +1,594 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-29T22:38:57.000Z",
+    "author": "Denzii 🕊️",
+    "handle": "denziideng",
+    "avatar": "https://pbs.twimg.com/profile_images/1720237128377126912/aLni_fuS_200x200.jpg",
+    "title": "WolfCut 用本地剪辑对抗云端订阅",
+    "summary": "我会帮你抓取它，因为它把 CapCut/剪映的高频痛点拆到本地剪辑、字幕、多时间线和无水印。对独立设计师来说，重点是观察开源工具如何从隐私、成本和离线体验切入。",
+    "url": "https://x.com/denziideng/status/2093830794234200571",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ7IAWZbUAALWZ1.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 2 REPOSTS · 10 LIKES · 14 BOOKMARKS · 743 VIEWS",
+    "links": [
+      "https://github.com/jub0t/WolfCut"
+    ],
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "GitHub - jub0t/WolfCut: Free &amp; Open-Source CapCut replacement.",
+      "preview": "Free &amp; Open-Source CapCut replacement. Contribute to jub0t/WolfCut development by creating an account on GitHub.",
+      "cover": "https://repository-images.githubusercontent.com/1346499044/e82a2d66-ba1d-4cae-b97f-48a9af7b83cc",
+      "url": "https://github.com/jub0t/WolfCut"
+    },
+    "quote": {
+      "label": "引用原帖",
+      "author": "Denzii 🕊️",
+      "handle": "denziideng",
+      "text": "专治网页丑陋！4.6万星React 收录 165 款 动效组件库，官网想好看直接抄作业！🔥\n\n文字动画、背景特效自己写到崩溃？还要兼顾TS和Tailwind？💔\n\n覆盖文字动画、通用 UI、动态效果与背景处理的 React Bits ，其核心就狠在这：  \n\n✅ 165+现成组件：文字动画、UI、背景，复制就能用  \n\n✅ 四种写法都给：JS/TS + CSS/Tailwind，按项目直接选  \n\n✅ 轻量可改：依赖少能tree-shake，props不够就改源码  \n\n✅ 还有创作工具：背景、形状、纹理工作室一起送  \n\n⏬GitHub：\nhttps://github.com/DavidHDev/react-bits  \n\n前端党赶紧收！页面想记住，动效先到位，抄一下，改两下，高大上就来了！😁  \n\n#开源工具 #React #效率神器",
+      "url": "https://x.com/denziideng/status/2093507296009859573"
+    }
+  },
+  {
+    "category": "IOS DESIGN",
+    "datetime": "2026-08-29T22:02:46.000Z",
+    "author": "Kavsoft",
+    "handle": "_Kavsoft",
+    "avatar": "https://pbs.twimg.com/profile_images/1553505113633075200/MBkX8qZx_200x200.jpg",
+    "title": "SwiftUI Widget Flip Hero Transition",
+    "summary": "我会帮你抓取它，因为它展示了可学习的 SwiftUI 翻转英雄动效。对设计工程师来说，重点是拆状态切换、遮罩和节奏如何形成高级感。",
+    "url": "https://x.com/_Kavsoft/status/2093821687217442963",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093821637556928512/vid/avc1/1080x1080/hGTdgWFp-tr8Ct-C.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093821637556928512/img/F92WToL-XocvjA_B.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 45 LIKES · 20 BOOKMARKS · 1,553 VIEWS",
+    "links": [
+      "https://youtu.be/Fr0K7pEsHeQ",
+      "https://www.youtube.com/embed/Fr0K7pEsHeQ"
+    ],
+    "_analysisTheme": "iOS / Apple 交互",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "youtu.be",
+      "preview": "(function ytBootstrapConfig() {window.ytplayer={}; ytcfg.set({\"CLIENT_CANARY_STATE\":\"none\",\"DEVICE\":\"ceng\\u003dUSER_DEFINED\\u0026cplatform\\u003dDESKTOP\",\"DISABLE_YT_IMG_DELAY_LOADING\":false,\"ELEMENT_POOL_DEFAULT_CAP\":75…",
+      "cover": "",
+      "url": "https://youtu.be/Fr0K7pEsHeQ"
+    }
+  },
+  {
+    "category": "IOS DESIGN",
+    "datetime": "2026-08-29T22:00:00.000Z",
+    "author": "KAWAI",
+    "handle": "kawai_design",
+    "avatar": "https://pbs.twimg.com/profile_images/1817366332549238784/hwaybon__200x200.jpg",
+    "title": "Apple HIG 仍是 UI 判断基准",
+    "summary": "我会帮你抓取它，因为它提醒 AI 生成界面之前先校准 Apple HIG。对设计师来说，重点是用官方示例建立自己的质量判断，而不是只看生成结果。",
+    "url": "https://x.com/kawai_design/status/2093820993236005271",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093697461554692096/vid/avc1/2060x1994/YHYx0LwyKNLypo9O.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093697461554692096/img/C_mia7jS6bFtPykN.jpg"
+      }
+    ],
+    "metrics": "1 REPLIES · 3 REPOSTS · 70 LIKES · 68 BOOKMARKS · 3,493 VIEWS",
+    "links": [],
+    "_analysisTheme": "iOS / Apple 交互",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DEV TOOL",
+    "datetime": "2026-08-29T21:37:11.000Z",
+    "author": "supermao",
+    "handle": "buaaxhm",
+    "avatar": "https://pbs.twimg.com/profile_images/1864898092417568768/Xc94S79n_200x200.jpg",
+    "title": "reverse-skill 把逆向流程做成 Skill",
+    "summary": "我会帮你抓取它，因为它把安全/逆向任务包装成可复用 Skill。对设计工程师来说，重点是观察复杂工程经验如何写成可执行协议。",
+    "url": "https://x.com/buaaxhm/status/2093815248751075547",
+    "media": [],
+    "metrics": "3 REPLIES · 4 REPOSTS · 37 LIKES · 104 BOOKMARKS · 4,590 VIEWS",
+    "links": [
+      "https://github.com/zhaoxuya520/reverse-skill"
+    ],
+    "_analysisTheme": "开发工具 / 开源实现",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "GitHub - zhaoxuya520/reverse-skill: Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "preview": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Cod...",
+      "cover": "https://opengraph.githubassets.com/e4d720e81be16347c664862b3a20e148126a262b4731b9f4a68aef1e8f33aac7/zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-29T21:31:42.000Z",
+    "author": "Vaibhav (VB) Srivastav",
+    "handle": "reach_vb",
+    "avatar": "https://pbs.twimg.com/profile_images/1509901130670747666/JFlrSzB4_200x200.jpg",
+    "title": "Codex 重置额度与 token 消耗修复",
+    "summary": "我会帮你抓取它，因为这是 ChatGPT Work/Codex 额度与性能问题的直接产品更新。对设计工程师来说，重点是学习如何把基础设施问题翻译成用户可理解的信任恢复。",
+    "url": "https://x.com/reach_vb/status/2093813868501795060",
+    "media": [],
+    "metrics": "18 REPLIES · 9 REPOSTS · 289 LIKES · 25 BOOKMARKS · 19,060 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Agent / 工作流",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Tibo",
+      "handle": "thsottiaux",
+      "text": "We are reseting usage for all paid users of Codex and ChatGPT Work.\n\nPlease continue reading for an update on Codex usage limits. The team has been working around the clock, going through thousands of reports and shipping fixes.\n\nDepending on how you use Codex, you should see your usage go between 10% and 50% further than before.\n\nWe really went with a fine comb, with many uncovered small things being longstanding and here is what we found and fixed:\n- Compaction. We were keeping old images during compaction, sometimes making the context large enough to trigger compaction again. After the fix, usage dropped around 10% for users making heavy use of images. Fixed.\n- Memory. Background memory workers could inherit Stop hooks and keep running when the hook wouldn’t let them finish. This affected fewer than 1% of users, with the long tail being pretty bad and we saw one example thread check whether it could stop 15,000 times. Fixed.\n- Goals. In some cases, a set /goal could finish and then keep going past the intended stop condition, or the model would keep retrying broken tools without stopping. We saw examples consume anywhere from 15% to 70% of a weekly allowance. Fixed.\n- Automations. Some custom schedules could run more frequently than configured. Fixed.\n- Subagents. Smaller models (e.g. Luna) sometimes picked more capable helpers without being explicitly asked. The same was true where the orchestrating model not running in /fast mode could request sub-agents to run /fast. Fixed.\n- Computer History. The older implementation could lead to repeatedly summarizing overlapping activity. For some cases we saw it consume up to one fifth of the weekly usage per week. Fixed.\n- Rolling task summaries. Ordinary turns were triggering extra background requests. These added about 1% to token usage. Small each time, but it adds up. We have disabled this.\n- MCP. Some tool results could be encoded twice. We also found tool instructions getting cut off and fetched again. Fixed.\n\nWe’ve also made architectural changes to prevent these from regressing and our teams will get paged if it happens regardless. We are also working on showing you directly in the app where your usage goes so you don’t have to guess.\n\nGoes without saying that we’re resetting usage limits and I hope you enjoy a very nice Saturday!",
+      "url": "https://x.com/thsottiaux/status/2093801758665715784"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-29T21:30:40.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "GEOM 字体用几何约束建立品牌感",
+    "summary": "我会帮你抓取它，因为它把 display typography 的网格、斜切和高对比讲得很具体。对个人设计师来说，重点是从字形系统里提炼可复用的品牌视觉规则。",
+    "url": "https://x.com/abduzeedo/status/2093813610774765725",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ64YAgb0AAT-Hf.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ64YLYbQAAIp5j.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ64YXHbwAARpJI.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ64YhpbsAAMGCw.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 1 BOOKMARKS · 897 VIEWS",
+    "links": [
+      "https://abduzeedo.com/typography-design-geom-typeface-danilo-gusmao-silveira"
+    ],
+    "_analysisTheme": "字体与品牌视觉",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Typography Design: GEOM Typeface by Danilo Gusmão Silveira",
+      "preview": "Explore the mathematical grid and geometric construction of the GEOM typography design project by Danilo Gusmão Silveira. The GEOM typography design uses…",
+      "cover": "https://cms.abduzeedo.com/sites/default/files/originals/hero_geom-display-typeface-danilo-gusmo-silveira.jpg",
+      "url": "https://abduzeedo.com/typography-design-geom-typeface-danilo-gusmao-silveira"
+    }
+  },
+  {
+    "category": "PRODUCT SIGNAL",
+    "datetime": "2026-08-29T21:19:00.000Z",
+    "author": "Justin Farrugia",
+    "handle": "justinmfarrugia",
+    "avatar": "https://pbs.twimg.com/profile_images/2021393163529670657/mRR0u7UL_200x200.jpg",
+    "title": "精选工具的主观 curation 方法论",
+    "summary": "我会帮你抓取它，因为 curated.supply 把“值得长期拥有”做成主观但可争论的产品清单。对个人设计师来说，重点是学习如何用清晰选择标准让策展本身产生传播。",
+    "url": "https://x.com/justinmfarrugia/status/2093810673058988294",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ5Vk4zWIAA6Hep?format=jpg&name=900x900"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ5VoGxWcAArzn0?format=jpg&name=900x900"
+      }
+    ],
+    "metrics": "3 REPLIES · 1 REPOSTS · 37 LIKES · 25 BOOKMARKS · 13,562 VIEWS",
+    "links": [
+      "http://curated.supply"
+    ],
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Curated Supply",
+      "preview": "Discover curated, well-designed products. Premium tech, homeware and lifestyle essentials that blend form, function and quiet luxury.",
+      "cover": "https://framerusercontent.com/images/yQRnqZsGDmPBZ7e7xuDVv7qyNQ.png",
+      "url": "http://curated.supply"
+    },
+    "quote": {
+      "label": "引用原帖",
+      "author": "Justin Farrugia",
+      "handle": "justinmfarrugia",
+      "text": "this is pretty much why I built https://curated.supply\n\nI wanted a \"buy it for life\" answer for basically every single object I own\n\nthe Mühle R89 and Merkur 34C are both on there, and both are excellent razors\n\nso yep, you made a great choice!",
+      "url": "https://x.com/justinmfarrugia/status/2093707915928498354"
+    }
+  },
+  {
+    "category": "PRODUCT SIGNAL",
+    "datetime": "2026-08-29T21:08:41.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "设计师灵感站点清单继续扩展",
+    "summary": "我会帮你抓取它，因为它补充了 abduzeedo 等长期灵感源。对个人设计师来说，重点是维护可回访的参考库，而不是一次性收藏截图。",
+    "url": "https://x.com/abduzeedo/status/2093808079758655811",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/amplify_video_thumb/2093762909155516416/img/ySFFzgz2xUOQZqeU.jpg"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 7 LIKES · 11 BOOKMARKS · 1,808 VIEWS",
+    "links": [
+      "https://abduzeedo.com"
+    ],
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Abduzeedo Design Inspiration",
+      "preview": "The design world at your fingertips. Inspiration about design, photography, and UI/UX since 2006.",
+      "cover": "https://abduzeedo.com/og-image.jpg",
+      "url": "https://abduzeedo.com"
+    },
+    "quote": {
+      "label": "引用原帖",
+      "author": "Kailash",
+      "handle": "kail_designs",
+      "text": "Inspiration sites for designers\nhttps://seesaw.website\nhttps://recent.design\nhttps://collectui.com\nhttps://spottedinprod.com\nhttps://posts.design",
+      "url": "https://x.com/kail_designs/status/2093763627291676869"
+    }
+  },
+  {
+    "category": "IOS DESIGN",
+    "datetime": "2026-08-29T19:56:19.000Z",
+    "author": "Kris Puckett",
+    "handle": "krispuckett",
+    "avatar": "https://pbs.twimg.com/profile_images/1992966959332515840/oINWDvCk_200x200.jpg",
+    "title": "SwiftUI glass shapes 变成可复制参数",
+    "summary": "我会帮你抓取它，因为这个 GitHub 项目把玻璃质感形状从截图变成可调参数和可复制代码。对设计工程师来说，重点是把视觉材质转成 agent 可复用的参数接口。",
+    "url": "https://x.com/krispuckett/status/2093789867864211908",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093787305895215104/vid/avc1/3840x2160/obmtVxFMiRXjK078.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093787305895215104/img/5uLrav_GVEnrMvF6.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ6gpD3aIAABnIv.jpg?name=orig"
+      }
+    ],
+    "metrics": "8 REPLIES · 0 REPOSTS · 77 LIKES · 88 BOOKMARKS · 4,181 VIEWS",
+    "links": [
+      "https://github.com/krispuckett/murmur"
+    ],
+    "_analysisTheme": "iOS / Apple 交互",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "GitHub - krispuckett/murmur: Responsive AI presence orbs for SwiftUI. Metal glass shaders with states, voice and typing signals.",
+      "preview": "Responsive AI presence orbs for SwiftUI. Metal glass shaders with states, voice and typing signals. - krispuckett/murmur",
+      "cover": "https://opengraph.githubassets.com/6626692626c3d6c7013bfcd4b04b8794640b76cecf28c4952f6f4e71d1e34a24/krispuckett/murmur",
+      "url": "https://github.com/krispuckett/murmur"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-29T19:34:15.000Z",
+    "author": "Tibo",
+    "handle": "thsottiaux",
+    "avatar": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_200x200.jpg",
+    "title": "AI 工具价值不能只看 token 占比",
+    "summary": "我会帮你抓取它，因为它回应 Cursor/OpenAI 供应关系中的指标误读。对产品设计师来说，重点是区分底层消耗、收入贡献和用户价值叙事。",
+    "url": "https://x.com/thsottiaux/status/2093784314714657110",
+    "media": [],
+    "metrics": "466 REPLIES · 101 REPOSTS · 4,208 LIKES · 456 BOOKMARKS · 528,550 VIEWS",
+    "links": [],
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Michael Truell",
+      "handle": "mntruell",
+      "text": "We’re sorry to see that OpenAI put out a note saying they plan to block Cursor users from accessing OpenAI models in three months.\n\nOpenAI models serve about 5% of Cursor user traffic, and we’re speaking with the OpenAI team to resolve this.\n\nCursor was one of the very first users of OpenAI, we’ve worked closely with their team for years, and we’ve trusted their platform to be neutral infrastructure for our business.",
+      "url": "https://x.com/mntruell/status/2093532254006063557"
+    }
+  },
+  {
+    "category": "PRODUCT SIGNAL",
+    "datetime": "2026-08-29T18:46:45.000Z",
+    "author": "Irsyad A. Panjaitan",
+    "handle": "irsyad",
+    "avatar": "https://pbs.twimg.com/profile_images/2074018379728601088/TZSdoJUy_200x200.jpg",
+    "title": "Charts 组件继续补齐雷达图模块",
+    "summary": "我会帮你抓取它，因为它展示图表组件库如何持续补齐复杂图形，而不是只做柱线饼。对设计工程师来说，重点是把数据可视化组件拆成可维护的模块和示例。",
+    "url": "https://x.com/irsyad/status/2093772357148242304",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ6S2j9a8AAjilL.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ6S2j5aMAALZJW.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 2 REPOSTS · 18 LIKES · 12 BOOKMARKS · 1,073 VIEWS",
+    "links": [],
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "low",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Irsyad A. Panjaitan",
+      "handle": "irsyad",
+      "text": "It's been a while since I last updated the Charts section, so today I gave it some much-needed attention.\n\n6 new chart components are now available: Sankey, Sunburst, Scatter, Composed, Radar, and Funnel. I also added 19 new blocks with examples of how you can use them, and polished a few existing blocks along the way.",
+      "url": "https://x.com/irsyad/status/2093430746266644545"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-29T18:24:33.000Z",
+    "author": "Vox",
+    "handle": "Voxyz_ai",
+    "avatar": "https://pbs.twimg.com/profile_images/1998303259279138816/5bqsxKJS_200x200.jpg",
+    "title": "把 2000+ 产品设计语言转成 DESIGN.md",
+    "summary": "我会帮你抓取它，因为它把优秀产品的视觉语言整理成 Codex/Claude Code 可读文件。对设计工程师来说，重点是把审美资料转成机器可执行设计规则。",
+    "url": "https://x.com/Voxyz_ai/status/2093766772029559077",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093766713707786240/vid/avc1/1728x1080/bKA11Uc8_wSaP780.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093766713707786240/img/w0b2mS4A6gPNVVL7.jpg"
+      }
+    ],
+    "metrics": "6 REPLIES · 14 REPOSTS · 161 LIKES · 321 BOOKMARKS · 10,081 VIEWS",
+    "links": [
+      "https://styles.refero.design/"
+    ],
+    "_analysisTheme": "字体与品牌视觉",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "DESIGN.md Examples for AI Agents | Refero Styles",
+      "preview": "Browse a curated DESIGN.md library for AI agents: colors, typography, spacing, components, and design rules from leading product websites.",
+      "cover": "https://styles.refero.design/opengraph-image.png",
+      "url": "https://styles.refero.design/"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-29T18:12:55.000Z",
+    "author": "雪踏乌云",
+    "handle": "Pluvio9yte",
+    "avatar": "https://pbs.twimg.com/profile_images/1986098802680369152/s5DF1Q7Y_200x200.jpg",
+    "title": "Claude Code 用量政策变化的产品沟通",
+    "summary": "我会帮你抓取它，因为额度变化会直接影响 AI coding 工作流。对设计工程师来说，重点是把价格/限额变化纳入工具依赖和替代路线判断。",
+    "url": "https://x.com/Pluvio9yte/status/2093763843021533313",
+    "media": [],
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 1,676 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Agent / 工作流",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "ClaudeDevs",
+      "handle": "ClaudeDevs",
+      "text": "Starting September 14, we're permanently raising standard weekly limits in Claude Code by 25% for Pro, Max, Team, and seat-based Enterprise plans. Until then, the current 50% increase will be in place.",
+      "url": "https://x.com/ClaudeDevs/status/2093742321473065266"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-29T18:02:02.000Z",
+    "author": "大雄",
+    "handle": "dx8152",
+    "avatar": "https://pbs.twimg.com/profile_images/1984149012547825665/DGuTn3hd_200x200.jpg",
+    "title": "DX-OS 把画布、ComfyUI 和 Agent 放进 AI OS",
+    "summary": "我会帮你抓取它，因为 DX-OS 试图把无限画布、图片分层、ComfyUI、Skills、MCP 和 Agent 合成一个操作系统。对个人设计师来说，重点是观察多能力工作台的信息架构。",
+    "url": "https://x.com/dx8152/status/2093761107899089013",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093760871004884992/vid/avc1/1264x720/nbBAPz2Mmt-fC8Qr.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093760871004884992/img/vOi-JdYkVo458Ct1.jpg"
+      }
+    ],
+    "metrics": "8 REPLIES · 9 REPOSTS · 77 LIKES · 99 BOOKMARKS · 5,788 VIEWS",
+    "links": [
+      "https://www.dx-os.com"
+    ],
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "DX-OS",
+      "preview": "DX-OS 官方网站、软件下载与账号服务",
+      "cover": "",
+      "url": "https://www.dx-os.com"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-29T17:40:24.000Z",
+    "author": "Shobhit - Building SuperCmd",
+    "handle": "nullbytes00",
+    "avatar": "https://pbs.twimg.com/profile_images/1983220476395544576/REUfCUkX_200x200.jpg",
+    "title": "HoldMyNotes 把便签放在 Mac 屏幕边缘",
+    "summary": "我会帮你抓取它，因为它是一个小而完整的独立 Mac 产品：边缘停靠、hover 展开、拖拽整理。对个人设计师来说，重点是用空间位置解决轻量记忆。",
+    "url": "https://x.com/nullbytes00/status/2093755659628245221",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093726648424353792/vid/avc1/1660x1080/DZWoLdaId4fECzAr.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093726648424353792/img/wVQ9nxJTWD_4TGLH.jpg"
+      }
+    ],
+    "metrics": "52 REPLIES · 40 REPOSTS · 1,057 LIKES · 890 BOOKMARKS · 70,922 VIEWS",
+    "links": [
+      "http://holdmynotes.app"
+    ],
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Hold My Notes — Sticky notes docked to the edge of your Mac",
+      "preview": "A deck of sticky notes on the right edge of the screen. A thin pill at rest, a fanned stack when you reach for it.",
+      "cover": "https://holdmynotes.app/assets/og-image.png",
+      "url": "http://holdmynotes.app"
+    }
+  },
+  {
+    "category": "PRODUCT SIGNAL",
+    "datetime": "2026-08-29T17:14:57.000Z",
+    "author": "👩‍💻 Paige Bailey",
+    "handle": "DynamicWebPaige",
+    "avatar": "https://pbs.twimg.com/profile_images/626762747330457600/X3Bx503W_200x200.jpg",
+    "title": "自然语言让 Microduck 执行动作",
+    "summary": "我会帮你抓取它，因为 quackd 把“找球并踢球”这样的自然语言任务转成可执行动作。对设计工程师来说，重点是观察具身 agent 的指令分解和反馈设计。",
+    "url": "https://x.com/DynamicWebPaige/status/2093749256771494073",
+    "media": [],
+    "metrics": "3 REPLIES · 0 REPOSTS · 20 LIKES · 2 BOOKMARKS · 3,487 VIEWS",
+    "links": [],
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "low",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Rok Benko",
+      "handle": "rokbenko",
+      "text": "I open-sourced quackd. You tell the Microduck what you want in plain language, like \"find the ball and kick it\", and an LLM (Claude, OpenAI, Gemini or Grok) plans the steps using the skills the duck already has. Goals live in .duck files, the same idea as the .skill files Claude uses, but for a duck. Works today in the bundled simulator, no hardware needed. Support for the real robot comes when ducks ship at Christmas.\n\nhttps://github.com/rokbenko/quackd",
+      "url": "https://x.com/rokbenko/status/2093632116441399731"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-29T17:08:34.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "AI 时代的决策与高质量反馈",
+    "summary": "我会帮你抓取它，因为它把人的工作从执行转到方向与纠偏。对个人设计师来说，重点是把设计反馈质量作为 agent 产出质量的核心杠杆。",
+    "url": "https://x.com/dotey/status/2093747650298339795",
+    "media": [],
+    "metrics": "0 REPLIES · 2 REPOSTS · 6 LIKES · 6 BOOKMARKS · 4,290 VIEWS",
+    "links": [],
+    "_analysisTheme": "AI Agent / 工作流",
+    "_analysisPriority": "medium",
+    "quote": {
+      "label": "引用原帖",
+      "author": "汤光头",
+      "handle": "tangpanqing",
+      "text": "@dotey 所以，我经常想\n\nAI时代的核心，关键到底是什么\n\n后来我明白一点，就是决策质量\n\n以前是下属干活，现在是AI干活，无论谁干\n\n都是基于我给的方向去干，给点时间都能干出来\n\n显然，这个方向对不对，好不好，就至关重要了",
+      "url": "https://x.com/tangpanqing/status/2093742455439196248"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-29T16:53:00.000Z",
+    "author": "Rocky",
+    "handle": "washukumar531",
+    "avatar": "https://pbs.twimg.com/profile_images/2091564977769582592/ae0xuaE2_200x200.jpg",
+    "title": "Figma Motion 快速生成概念动效",
+    "summary": "我会帮你抓取它，因为它展示 Figma Motion 把静态想法快速变成可传播动画。对个人设计师来说，重点是把动效从装饰变成验证概念的表达工具。",
+    "url": "https://x.com/washukumar531/status/2093743732071776708",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093742467392933888/vid/avc1/1920x1080/HgNQwAV67q7TpvDe.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093742467392933888/img/VYsUbjAFMmXcglRD.jpg"
+      }
+    ],
+    "metrics": "12 REPLIES · 0 REPOSTS · 189 LIKES · 232 BOOKMARKS · 18,185 VIEWS",
+    "links": [],
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-29T16:38:41.000Z",
+    "author": "响马",
+    "handle": "xicilion",
+    "avatar": "https://pbs.twimg.com/profile_images/1792551913969631232/tBrYW9Vq_200x200.jpg",
+    "title": "PlantUML 更适合 agent 维护架构图",
+    "summary": "我会帮你抓取它，因为它指出 agent 改文档图表时，文本化图表比拖拽画布更可维护。对个人设计师来说，重点是把设计文档转成可自动对齐的格式。",
+    "url": "https://x.com/xicilion/status/2093740129198457090",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ33_z-a0AEPPbf?format=jpg&name=medium"
+      }
+    ],
+    "metrics": "17 REPLIES · 9 REPOSTS · 77 LIKES · 124 BOOKMARKS · 12,050 VIEWS",
+    "links": [],
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "medium",
+    "quote": {
+      "label": "引用原帖",
+      "author": "GitHubDaily",
+      "handle": "GitHub_Daily",
+      "text": "文档里的架构图还是半年前那张，谁都知道过时了，谁都不想开 http://draw.io 拖一下午重画。\n\n最近发现了 drawio-skill 技能，用一句话描述就能生成 http://draw.io 图。\n\n现成预设了 UML、时序图、网络拓扑、泳道图、架构图、流程图等11 种图型。\n\n更省事的是反向生成，指着代码库、Terraform 配置或 Kubernetes 清单直接出架构图。\n\nGitHub：http://github.com/Agents365-ai/drawio-skill\n\n生成的不是死图片，是能继续在 http://draw.io 里改的源文件，也能直接导出 PNG、SVG、PDF。\n\n内置 1 万多个官方图形的检索，连 OpenAI、Claude 这些 AI 品牌标志都补了 321 个，画大模型架构图不用再放灰方块。\n\n最好玩的是地铁图模式，把一条流水线画成伦敦地铁那种彩色线路图，文档配图里就有一张它自己的。",
+      "url": "https://x.com/GitHub_Daily/status/2093602093211037991"
+    }
+  },
+  {
+    "category": "PRODUCT SIGNAL",
+    "datetime": "2026-08-29T16:38:40.000Z",
+    "author": "MAZE",
+    "handle": "remvze",
+    "avatar": "https://pbs.twimg.com/profile_images/2082915897627324417/xHjxpMlG_200x200.jpg",
+    "title": "desengs 收录新一批设计工程网站",
+    "summary": "我会帮你抓取它，因为它集中列出一批高完成度网站样本。对个人设计师来说，重点是把视觉参考拆成布局、动效、叙事和组件四类素材。",
+    "url": "https://x.com/remvze/status/2093740127612780749",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ51hMoWgAAQaTh.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ51h3TXgAAmTqF.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ51iYFWgAAhfdx.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ51i95WwAAegK4.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 12 LIKES · 5 BOOKMARKS · 657 VIEWS",
+    "links": [
+      "https://desengs.com/inspiration",
+      "https://jasonbergh.com",
+      "https://ornn.com",
+      "https://antimetal.com",
+      "https://primora.xyz",
+      "https://desengs.com/inspiration:"
+    ],
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Curated Web Design Inspiration — DesEngs",
+      "preview": "Explore 91 curated websites showcasing exceptional visual design, typography, interaction, and creative development.",
+      "cover": "https://desengs.com/og.png",
+      "url": "https://desengs.com/inspiration"
+    }
+  },
+  {
     "category": "AI WORKFLOW",
     "datetime": "2026-08-29T05:14:52.000Z",
     "author": "海明Dev",
@@ -15477,5 +16065,5 @@
     ],
     "metrics": "392 LIKES · 42.2K VIEWS"
   }
-];
+].sort((a, b) => new Date(b.datetime) - new Date(a.datetime));
 })();

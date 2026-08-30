@@ -1,6 +1,243 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-29T14:28:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-30T08:28:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2093718731159748922",
+    "TwitterUserID": "898344170128986112",
+    "UserScreenName": "Leewei60269181",
+    "UserProfileName": "林深见鹿",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2051179017823567872/lp_v4eVl_200x200.jpg",
+    "TweetText": "试用了一下，效果很棒，好奇这是怎么做出来的",
+    "Tweet Url": "https://x.com/Leewei60269181/status/2093718731159748922",
+    "TweetCreatedDate": "2026-08-29T15:13:39.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093718432630140928/img/ykTGOP3uYkWyq1Mf.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093718432630140928/vid/avc1/592x1280/Z8LW6aXil7AWYrOF.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "PRODUCT SIGNAL",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093718432630140928/vid/avc1/592x1280/Z8LW6aXil7AWYrOF.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093718432630140928/img/ykTGOP3uYkWyq1Mf.jpg"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "Josh Millgate",
+      "handle": "joshmillgate",
+      "text": "The UX on the mobile version of @ultramock is buttery 🧈",
+      "url": "https://x.com/joshmillgate/status/2093651818962137100"
+    },
+    "_article": null,
+    "_metrics": "1 REPLIES · 0 REPOSTS · 11 LIKES · 10 BOOKMARKS · 3,431 VIEWS",
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "low",
+    "_analysisNote": "收藏原因：试用了一下，效果很棒，好奇这是怎么做出来的。这条可作为 产品判断 / 学习样本 参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-30T08:28:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-29T15:13:39.000Z"
+    }
+  },
+  {
+    "TweetID": "2093651818962137100",
+    "TwitterUserID": "214133708",
+    "UserScreenName": "joshmillgate",
+    "UserProfileName": "Josh Millgate",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2060492722239127554/-I7RlyfG_200x200.jpg",
+    "TweetText": "The UX on the mobile version of @ultramock is buttery 🧈",
+    "Tweet Url": "https://x.com/joshmillgate/status/2093651818962137100",
+    "TweetCreatedDate": "2026-08-29T10:47:46.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093651728830795777/img/_3FEAinkID1FGVIL.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093651728830795777/vid/avc1/1180x2556/B5daNNo2XsXFVVx_.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "PRODUCT DESIGN",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093651728830795777/vid/avc1/1180x2556/B5daNNo2XsXFVVx_.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093651728830795777/img/_3FEAinkID1FGVIL.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "6 REPLIES · 1 REPOSTS · 120 LIKES · 65 BOOKMARKS · 7,804 VIEWS",
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：The UX on the mobile version of @ultramock is buttery 🧈。这条可作为 产品设计 / 视觉与交互 参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-30T08:28:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-29T10:47:46.000Z"
+    }
+  },
+  {
+    "TweetID": "2093630683256402186",
+    "TwitterUserID": "1404738934043602947",
+    "UserScreenName": "Jackywine",
+    "UserProfileName": "Jackywine",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1805875520430915586/x3t_sQdd_200x200.jpg",
+    "TweetText": "Vercel 开源了一个 WebGPU 库\nhttps://vgpu.sh/\n以前想在网页上做那种炫酷的实时特效很麻烦，vgpu 把这事简化了：你只要写一个叫 .wgsl 的小文件\n实现 Agent 自己写+验证\n很酷！",
+    "Tweet Url": "https://x.com/Jackywine/status/2093630683256402186",
+    "TweetCreatedDate": "2026-08-29T09:23:47.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093629428643573760/img/fRv_FRgdJsr4mek-.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093629428643573760/vid/avc1/1662x1080/H3BH5m1vvbHiaCA-.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "WEBGL / SHADER",
+      "media:video",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093629428643573760/vid/avc1/1662x1080/H3BH5m1vvbHiaCA-.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093629428643573760/img/fRv_FRgdJsr4mek-.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "vgpu.sh",
+      "preview": "# vgpu vgpu is the WebGPU library designed for agents: one small, composable API for browser canvases, headless Node.js, and serverless runtimes. ## Install ```bash pnpm add vgpu ``` Run the CLI without installing it gl…",
+      "cover": "",
+      "url": "https://vgpu.sh/"
+    },
+    "_metrics": "24 REPLIES · 8 REPOSTS · 65 LIKES · 79 BOOKMARKS · 4,584 VIEWS",
+    "_analysisTheme": "视觉工程 / Shader",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Vercel 开源了一个 WebGPU 库 https://vgpu.sh/ 以前想在网页上做那种炫酷的实时特效很麻烦，vgpu 把这事简化了：你只要写一个叫 .wgsl 的小文件 实现 Agent 自己写+验证 很酷！。这条可作为 视觉工程 / Shader 参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-30T08:28:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-29T09:23:47.000Z"
+    }
+  },
+  {
+    "TweetID": "2093597720426803258",
+    "TwitterUserID": "118295767",
+    "UserScreenName": "rachelhxw",
+    "UserProfileName": "Rachel How",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2065219438841049088/tokFEgP5_200x200.jpg",
+    "TweetText": "sites i keep going back for inspo ◡̈\n\nhttps://rachelhow.com/tools",
+    "Tweet Url": "https://x.com/rachelhxw/status/2093597720426803258",
+    "TweetCreatedDate": "2026-08-29T07:12:48.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093597442214391808/img/M_et6AZ8SqddFqBj.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093597442214391808/vid/avc1/2366x1750/LNhgpyOZt6VTwLIK.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "PRODUCT SIGNAL",
+      "media:video",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093597442214391808/vid/avc1/2366x1750/LNhgpyOZt6VTwLIK.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093597442214391808/img/M_et6AZ8SqddFqBj.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Tools | Rachel How",
+      "preview": "Tools I keep coming back to.",
+      "cover": "",
+      "url": "https://rachelhow.com/tools"
+    },
+    "_metrics": "15 REPLIES · 8 REPOSTS · 250 LIKES · 255 BOOKMARKS · 8,282 VIEWS",
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：sites i keep going back for inspo ◡̈ https://rachelhow.com/tools。这条可作为 产品判断 / 学习样本 参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-30T08:28:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-29T07:12:48.000Z"
+    }
+  },
+  {
+    "TweetID": "2093563420532683176",
+    "TwitterUserID": "1509949146920361991",
+    "UserScreenName": "_desaina",
+    "UserProfileName": "Aina",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1996957586223255560/kCKfbaQq_200x200.jpg",
+    "TweetText": "Design community on Twitter is thriving. \n\nhttps://on.design, https://recent.design \n\nWhat a time to be alive as a designer ❤️",
+    "Tweet Url": "https://x.com/_desaina/status/2093563420532683176",
+    "TweetCreatedDate": "2026-08-29T04:56:30.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093562981942808576/img/90ToLyvgCDHbNwh-.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093562981942808576/vid/avc1/1920x1080/Y7GRWreOfwEecTKl.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "PRODUCT DESIGN",
+      "media:video",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093562981942808576/vid/avc1/1920x1080/Y7GRWreOfwEecTKl.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093562981942808576/img/90ToLyvgCDHbNwh-.jpg"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093562981942800384/vid/avc1/1920x1080/ewO_HxRV83TJ7Did.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093562981942800384/img/JWOg0xp3Mo_LQJqN.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "external",
+      "title": "Design, together — again",
+      "preview": "Community, by the community",
+      "cover": "https://on.design/Link.jpg?v=2",
+      "url": "https://on.design"
+    },
+    "_metrics": "9 REPLIES · 4 REPOSTS · 129 LIKES · 106 BOOKMARKS · 6,324 VIEWS",
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Design community on Twitter is thriving. https://on.design, https://recent.design What a time to be alive as a designer ❤️。这条可作为 产品设计 / 视觉与交互 参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-30T08:28:00+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-29T04:56:30.000Z"
+    }
+  },
   {
     "TweetID": "2093346744797184325",
     "TwitterUserID": "107968230",
