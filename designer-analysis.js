@@ -1,6 +1,664 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-30",
+    "generatedAt": "2026-08-30T13:18:00+08:00",
+    "batch": "x-ai-design-analysis-2026-08-30-1318",
+    "analysisCount": 15,
+    "homeCount": 15,
+    "likeCount": 0,
+    "linksInspected": 17,
+    "unavailableLinks": 1,
+    "summary": "2026-08-30 午后补充：运行前当天 Home 已有 20 条、Analysis 已有 100 个唯一 ID。本轮 ego-browser 登录态 Home 覆盖当前 Home、正在关注、Design Engineers、JPI、AI 御三家超级员工、独立创造者和 3 个 X 搜索入口，观察 1005 次 appearances、170 个唯一 status、145 个上海当天 fresh 候选；精选追加 15 条。Likes 观察 53 次 appearances、14 个唯一 status，唯一 fresh ID 为早上已跳过的敏感电影片段，未写入公开 Like backfill。Analysis 仅追加 15 个未分析 Home ID，不裁剪早上 100 条。",
+    "sourceWindow": {
+      "strategy": "使用 ego-browser 独立 task space 7 复用 X 登录态；Home 覆盖 x.com/home 的为你推荐/当前流、正在关注、Design Engineers、JPI、AI 御三家超级员工、独立创造者，以及 X live search 的 AI product agent、product design tools、indie AI design visual。Likes 打开 x.com/neoedon414/likes 并重定向到 /i/history/likes。fxtwitter 只用于稳定已观察到的 X status 作者、时间、媒体、指标和 t.co 展开；外链读取限于原帖/引用帖中的产品页、GitHub、文档、文章和视频页。",
+      "newestHomeDatetime": "2026-08-30T05:08:32.000Z",
+      "oldestHomeDatetime": "2024-05-11T11:38:03.000Z",
+      "newestWrittenHomeDatetime": "2026-08-30T05:08:32.000Z",
+      "oldestWrittenHomeDatetime": "2026-08-30T02:11:14.000Z",
+      "expandedWindow": "Home 写入不扩窗，15 条均属于 Asia/Shanghai 2026-08-30；Analysis 当天已达 100，本轮只追加午后新观察且有学习价值的未分析 Home。",
+      "observed": {
+        "homeBeforeTodayCount": 20,
+        "homeRaw": 1005,
+        "homeUnique": 170,
+        "homeFreshUnknown": 167,
+        "homeTodayCandidates": 145,
+        "homeSelected": 15,
+        "homeRejectedOrLeftover": 152,
+        "homeDuplicateKnown": 3,
+        "bySource": {
+          "Home / current": {
+            "raw": 166,
+            "unique": 28
+          },
+          "Home tab / 正在关注": {
+            "raw": 91,
+            "unique": 15
+          },
+          "Home tab / Design Engineers": {
+            "raw": 133,
+            "unique": 22
+          },
+          "Home tab / JPI": {
+            "raw": 117,
+            "unique": 21
+          },
+          "Home tab / AI 御三家超级员工": {
+            "raw": 129,
+            "unique": 22
+          },
+          "Home tab / 独立创造者": {
+            "raw": 131,
+            "unique": 23
+          },
+          "X search / AI product agent live": {
+            "raw": 85,
+            "unique": 20
+          },
+          "X search / product design tools live": {
+            "raw": 86,
+            "unique": 18
+          },
+          "X search / indie AI design visual live": {
+            "raw": 67,
+            "unique": 19
+          }
+        },
+        "likeRaw": 53,
+        "likeUnique": 14,
+        "freshLikesObserved": 1,
+        "freshLikesWritten": 0,
+        "knownLikeBoundary": "2093718731159748922",
+        "knownLikeBoundaryHits": 11,
+        "skippedLikes": [
+          {
+            "id": "2093511582018118038",
+            "reason": "X 可见为敏感电影片段，早上已跳过；无产品/设计学习信号，未发布到公开 Like backfill"
+          }
+        ],
+        "csvRows": 8793,
+        "csvLikeIds": 4991,
+        "likedBackfillBefore": 656,
+        "knownLikeIdsBefore": 5647,
+        "analysisBeforeTodayUnique": 100,
+        "analysisRawCandidateTotal": 184,
+        "analysisAddedIds": [
+          "2093928836098314604",
+          "2093928744755118518",
+          "2093927908926742579",
+          "2093926814125281769",
+          "2093926468669874620",
+          "2093923416285794608",
+          "2093921917103407365",
+          "2093919139194921230",
+          "2093914945872359547",
+          "2093914569395884178",
+          "2093914562370388327",
+          "2093912667106976021",
+          "2093912615496081726",
+          "2093902765005373749",
+          "2093884215473713198"
+        ],
+        "linksInspected": 17,
+        "unavailableLinks": 1,
+        "learningActions": 45
+      }
+    },
+    "items": [
+      {
+        "id": "2093928836098314604",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Starcourse/status/2093928836098314604",
+        "author": "Nicholas Beale",
+        "handle": "Starcourse",
+        "datetime": "2026-08-30T05:08:32.000Z",
+        "title": "Claude Code 网页摘要可被提示注入诱导",
+        "originalSummary": "原帖内容：AI can be v useful (I use Claude a lot) but it shouldn’t be trusted blindly. https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 AI coding agent 的“读网页”动作暴露为安全边界：总结网页并不等于安全浏览，工具选择、权限和执行模式都需要产品层护栏。",
+        "deepSummary": "这条对设计工程师的价值在于把 agent 可信度拆成任务、工具和权限三层：即使是“摘要”这种低风险表面动作，也可能变成执行链路。做 AI 产品时要把可见证据、工具调用和权限升级明确展示给用户。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
+            "title": "Researcher shows how Claude Code can be tricked simply by asking it to summarize a website",
+            "access": "full",
+            "summary": "The Register 报道了研究者演示：Claude Code 在 Auto Mode 下总结恶意网页时，可能被诱导改用 curl 并执行攻击者控制的指令；文章给出攻击路径、成功率和工具权限背景。",
+            "whatItAdds": "比原帖多了攻击条件、Auto Mode、curl/WebFetch 选择差异，以及为什么“摘要网页”会进入代码执行风险。",
+            "value": "值得读：这是 AI coding 工具安全交互的产品设计样本，可用于设计权限提示、工具调用审计和网页内容隔离。",
+            "learningValue": "复盘一次 agent 读网页流程，把“读取、解析、执行、写文件”拆成可见状态和用户确认点。"
+          }
+        ],
+        "learningActions": [
+          "画一张 AI coding 工具调用权限图，标出摘要网页到命令执行之间的风险跳点。",
+          "为自己的 agent 工作流加一条“外部网页内容不可直接变更本地文件”的检查清单。",
+          "观察优秀工具如何展示来源、工具调用和不确定性，而不是只展示最后答案。"
+        ],
+        "tags": [
+          "AI",
+          "Security",
+          "Claude Code",
+          "Agent"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093928744755118518",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Shubham_iosdev/status/2093928744755118518",
+        "author": "Shubham Singh",
+        "handle": "Shubham_iosdev",
+        "datetime": "2026-08-30T05:08:10.000Z",
+        "title": "SpriteKit + SwiftUI 做牛顿摆物理动效",
+        "originalSummary": "原帖内容：Built a Newton’s Cradle using SpriteKit + SwiftUI. Getting real-world physics to feel right is definitely tricky at first, but once the collisions, constraints, and momentum start behaving properly, SpriteKit becomes inc…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它是一个小而完整的 iOS 动效样本：把真实物理、碰撞和约束放进 SwiftUI 视觉表达，适合做微交互和练习工程实现。",
+        "deepSummary": "这条的学习点不是“摆动画很好看”，而是如何把物理引擎的动量、碰撞和约束变成可感知的交互反馈。个人设计师可以把它拆成可复用 motion token：质量感、回弹、停稳和循环。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "用 SwiftUI 或 Rive 复刻一个 3 球摆，记录约束、碰撞和阻尼参数。",
+          "把“真实物理感”拆成启动、碰撞、回弹、停稳四段动效说明。",
+          "为 UI 动效标注何时该用真实物理、何时该用简单 easing。"
+        ],
+        "tags": [
+          "SwiftUI",
+          "SpriteKit",
+          "Motion",
+          "iOS"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093927908926742579",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/pfm711/status/2093927908926742579",
+        "author": "pf711",
+        "handle": "pfm711",
+        "datetime": "2026-08-30T05:04:51.000Z",
+        "title": "BookCraft-Skill 把电子书翻译做成 Agent Skill",
+        "originalSummary": "原帖内容：过去半年，我一直在借助 AI 的能力来帮助我翻译电子书。 起初是因为我遇到了一些翻译质量非常差的书籍，然后我在想：如果用 AI 翻译，结果会怎样？结果好的出乎我的意料。 于是我做了一个 app ，除了翻译质量差的电子书，我也用它来帮我翻译一些刚刚发布的新书，然后我将它分享给了我周围的朋友，他们也都觉得很好用。 同时也有朋友给我反馈：既然要调用 API 来翻译，为什么不做成一个 Agent 插件，直接在 Agent 里面安装，同样的能力，…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把一个独立 App 需求转成 Agent Skill：复用当前模型、处理 EPUB/Markdown、保留 DOM 结构和术语一致性，是工具形态取舍的好案例。",
+        "deepSummary": "BookCraft 的重点是“把任务放在用户已有 agent 环境里”，减少安装成本，同时保留翻译质量所需的术语表、富文本结构和双语输出。对个人设计师来说，这是从 App 到 Skill 的产品边界练习。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/pf711-dev/BookCraft-Skill",
+            "title": "GitHub - pf711-dev/BookCraft-Skill: 📚 BookCraft 是一个将英文 EPUB 电子书或 Markdown 文件一键翻译成中英对照或纯中文格式的 Skill。 · GitHub",
+            "access": "full",
+            "summary": "GitHub README 显示 BookCraft 支持 EPUB/Markdown，中英对照或纯中文输出，复用当前对话模型，自动提取术语表，并保留链接、加粗、图片等富文本结构。",
+            "whatItAdds": "补充了原帖之外的安装方式、输入格式、术语表机制、富文本保留和输出类型。",
+            "value": "值得继续读：能帮助判断哪些独立工具适合 App 化，哪些更适合 Skill/插件化。",
+            "learningValue": "把一个现有小工具重构成 Skill 规格，写出触发条件、输入输出和失败状态。"
+          }
+        ],
+        "learningActions": [
+          "拆解 BookCraft 的输入、处理、输出，把它改写成一个设计工具 Skill spec。",
+          "记录术语表和富文本保留如何影响长内容翻译体验。",
+          "比较独立 App、CLI、Agent Skill 三种分发方式的用户成本。"
+        ],
+        "tags": [
+          "Skill",
+          "Open Source",
+          "Translation",
+          "Agent"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093926814125281769",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/glbkit/status/2093926814125281769",
+        "author": "GLBKIT",
+        "handle": "glbkit",
+        "datetime": "2026-08-30T05:00:30.000Z",
+        "title": "Awesome 3D AI/SEO/GEO 汇总 3D Web 可发现性",
+        "originalSummary": "原帖内容：Just launched Awesome 3D AI, SEO & GEO for 3D Web. A curated open-source collection for developers building modern 3D websites with: • AI & 3D tools • SEO, GEO & AEO • AI Search & AI Overviews ⭐ Contributions are welcome…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 3D Web 从“视觉酷”推进到“可被搜索和 AI 理解”：性能、可访问性、SEO/GEO 都是 3D 产品落地必须补齐的设计工程问题。",
+        "deepSummary": "对个人设计师来说，这条提醒 3D 页面不能只验视觉效果，还要设计可索引的信息层、fallback、性能预算和无障碍路径。它适合沉淀成 3D Web 发布前检查清单。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/glbkit-tools/awesome-3d-ai-seo-geo",
+            "title": "GitHub - glbkit-tools/awesome-3d-ai-seo-geo: A curated collection of AI, SEO, GEO, and AI search optimization resources for 3D developers, 3D websites, WebGL applications, and 3D tools. · GitHub",
+            "access": "full",
+            "summary": "仓库 README 把 3D Web 的 AI、SEO、GEO、AEO、性能和开发资源放在一起，强调 3D 站点也要可发现、可理解、可爬取、性能可控且对人和搜索系统都有用。",
+            "whatItAdds": "补充了原帖之外的资源范围和判断框架：3D 内容、WebGL、Three.js、R3F、AI Search、AI Overviews 和技术 SEO。",
+            "value": "值得继续读：可直接转成 3D/互动页面上线前的设计工程 checklist。",
+            "learningValue": "为一个 3D hero 页面补写文本 fallback、结构化说明、性能预算和 AI 摘要。"
+          }
+        ],
+        "learningActions": [
+          "做一份 3D Web 发布前 checklist：可访问文本、加载预算、fallback、SEO/GEO。",
+          "挑一个 Three.js 页面检查它在无 WebGL、慢网和搜索摘要里的表现。",
+          "把“视觉资产”改写成可被 AI 搜索理解的产品说明。"
+        ],
+        "tags": [
+          "3D Web",
+          "SEO",
+          "GEO",
+          "Open Source"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093926468669874620",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/alokitwrites/status/2093926468669874620",
+        "author": "Alokit",
+        "handle": "alokitwrites",
+        "datetime": "2026-08-30T04:59:08.000Z",
+        "title": "AI coding agent 通过测试也可能修错问题",
+        "originalSummary": "原帖内容：An AI coding agent can resolve the GitHub issue and still ship the wrong fix. Passing tests prove the code works under the tests. They do not prove the change fits the broader system. Source: Anthropic, “Building Effecti…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 agent 成功标准从“测试绿了”拉回“系统语境正确”：这正是设计工程师做审查、验收和工具提示时需要补上的判断。",
+        "deepSummary": "这条的价值在于提醒不要把测试通过等同于产品意图达成。个人设计师使用 AI coding 时，要把 issue 背景、用户路径、边界案例和回归证据放进验收，而不是只看 diff 和 CI。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.anthropic.com/engineering/building-effective-agents",
+            "title": "Building Effective AI Agents \\ Anthropic",
+            "access": "full",
+            "summary": "Anthropic 工程文章强调成功的 agent 实现通常采用简单、可组合的模式，而不是复杂框架；文章讨论 workflows、agents、tool use 和何时需要自主性。",
+            "whatItAdds": "补充了原帖没有展开的 agent 架构判断：何时用 workflow、何时允许 agent 自主、如何保持简单可控。",
+            "value": "值得读：可用于设计 AI coding 验收流程，避免“能跑”但不符合系统语境。",
+            "learningValue": "把一个 AI 生成 PR 的验收标准扩成意图、上下文、测试、人工审查四栏。"
+          }
+        ],
+        "learningActions": [
+          "把一次 AI coding 修复的验收单从“测试通过”扩成用户路径和系统意图。",
+          "记录哪些任务应该用 workflow，哪些才适合交给 agent 自主探索。",
+          "给自己的 PR review prompt 增加“是否修对问题”的反证检查。"
+        ],
+        "tags": [
+          "AI Coding",
+          "Agent",
+          "QA",
+          "Anthropic"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093923416285794608",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/stretchcloud/status/2093923416285794608",
+        "author": "Prasenjit Sarkar",
+        "handle": "stretchcloud",
+        "datetime": "2026-08-30T04:47:00.000Z",
+        "title": "OLX Uzbekistan 把 Agent 做成公司操作系统",
+        "originalSummary": "原帖内容：The company operating system built at OLX Uzbekistan is the clearest example I've seen of agentic infrastructure becoming internal infrastructure. Over 5 months, one person built a full stack on top of OpenClaw and Herme…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它描述了 agent 从单点工具变成内部基础设施：邮件、工单、功能构建和运营流被统一进一个 company OS，是 AI 产品化组织形态信号。",
+        "deepSummary": "对个人设计师/设计工程师来说，这条可以用来观察 B2B agent 产品如何从“自动化一个任务”扩展到“承载一个组织流程”。重点是权限、可追溯、业务语境和人机交接，而不是单个 agent 炫技。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/aakashgupta/status/2093790290494751055",
+            "title": "引用帖：Aakash Gupta",
+            "access": "partial",
+            "summary": "引用帖说明 OLX Uzbekistan 的 CPO 在 5 个月内基于 OpenClaw 和 Hermes 搭建内部 company operating system，并让 agent 参与邮件和功能工作流。",
+            "whatItAdds": "补充原帖引用的上游语境，帮助判断作者是在转述、补充还是反驳。",
+            "value": "适合继续追：它是“agent 成为内部系统层”的组织案例，而不是单一 demo。",
+            "learningValue": "用服务蓝图画出 agent 在邮件、需求、构建、验收中的人机交接点。"
+          },
+          {
+            "url": "https://youtu.be/zocznD8Z-6k",
+            "title": "- YouTube",
+            "access": "partial",
+            "summary": "YouTube 页面可打开但正文只返回通用壳层，当前只能确认引用帖提供了视频链接，不能读取完整视频内容。",
+            "whatItAdds": "补充一个可继续观看的视频入口，但本轮没有可用文字证据。",
+            "value": "后续可看视频验证 OLX 案例细节；当前分析以 X/fxtwitter 可见内容为准。",
+            "learningValue": "观看时重点记录组织流程、权限边界和 agent 失败时的人类接管。"
+          }
+        ],
+        "learningActions": [
+          "把 OLX 案例抽象成 company OS 信息架构：收件箱、任务、agent、审核、日志。",
+          "列出内部 agent 产品必须暴露的权限、来源和人机交接状态。",
+          "用一个真实团队流程判断哪里需要 agent，哪里只需要规则自动化。"
+        ],
+        "tags": [
+          "AI Product",
+          "Internal Tools",
+          "Agent Infrastructure"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093921917103407365",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/huge_icons/status/2093921917103407365",
+        "author": "Hugeicons",
+        "handle": "huge_icons",
+        "datetime": "2026-08-30T04:41:02.000Z",
+        "title": "Hugeicons Figma 插件接近 97k 使用规模",
+        "originalSummary": "原帖内容：In case you missed out on this, Hugeicons Figma plugin is 97k+ big! What's stopping you from using Hugeicons in Figma? Check it out 👉 https://figma.com/community/plugin/1209922740177393208/hugeicons-icon-library",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为图标库插件的增长说明设计资产分发仍然依赖低摩擦入口：Figma 插件、搜索、命名和组件质量比单纯官网展示更重要。",
+        "deepSummary": "Hugeicons 的价值在于观察图标系统如何被产品化：不是只卖一套图标，而是把查找、插入、风格一致性和设计工具内使用路径做短。Figma 页面 403，本轮只基于原帖和可见卡片判断。",
+        "linkAnalysis": [
+          {
+            "url": "https://figma.com/community/plugin/1209922740177393208/hugeicons-icon-library",
+            "title": "ERROR: The request could not be satisfied",
+            "access": "unavailable",
+            "summary": "Figma Community 链接返回 CloudFront 403，无法读取插件详情页正文；只保留原帖声称的插件入口和 97k+ 规模信号。",
+            "whatItAdds": "当前没有补充正文，只验证到该链接不可访问。",
+            "value": "仍可作为待复查链接：需要在有权限或浏览器环境里确认插件页面、分类和安装路径。",
+            "learningValue": "后续复查插件页时重点看搜索、分类、风格过滤和设计工具内调用成本。"
+          }
+        ],
+        "learningActions": [
+          "盘点一个图标库插件的发现、搜索、插入、替换和授权路径。",
+          "为自己的图标系统补一份 Figma 插件入口应支持的筛选维度。",
+          "记录不可访问链接，后续用浏览器人工复查插件详情页。"
+        ],
+        "tags": [
+          "Figma",
+          "Icon System",
+          "Design Tool"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093919139194921230",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/work_with_zaid/status/2093919139194921230",
+        "author": "Zaid | Framer",
+        "handle": "work_with_zaid",
+        "datetime": "2026-08-30T04:30:00.000Z",
+        "title": "网站用短信节奏制造“正在对话”的感觉",
+        "originalSummary": "原帖内容：The way text messages are delivered in this site, it actually feels like the site is talking to you and not just existing",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它展示了一个很具体的叙事交互：不是把文案放在页面上，而是用消息投递节奏让站点像在和用户说话。",
+        "deepSummary": "这条适合拆解为 landing/page storytelling 模式：消息节奏、停顿、逐条出现、焦点管理和滚动节奏共同构成“对话感”。它对个人作品集和产品介绍页都有借鉴价值。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "复刻一个三段式消息投递 landing section，记录每条消息的延迟和节奏。",
+          "比较“段落文案”和“消息式叙事”在信息密度、可扫读性上的差异。",
+          "把这种对话节奏转成可复用组件参数：间隔、气泡、滚动、退出。"
+        ],
+        "tags": [
+          "Interaction",
+          "Framer",
+          "Storytelling",
+          "Web Design"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093914945872359547",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Megabits_mzq/status/2093914945872359547",
+        "author": "Megabits ❄️",
+        "handle": "Megabits_mzq",
+        "datetime": "2026-08-30T04:13:20.000Z",
+        "title": "Pebble 新 App/OS 更新强化离线硬件体验",
+        "originalSummary": "原帖内容：想搞一个了",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Pebble 的更新把产品价值落在具体小功能：天气、触控、emoji、通知图片和 ring 设置，适合观察硬件复兴如何靠细节恢复日用可信度。",
+        "deepSummary": "这条不是单纯怀旧，而是一个硬件产品如何用软件节奏重建用户信任的案例。对设计师来说，可学习的是把“可自定义、低打扰、长续航”转成持续发布的小体验。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/ericmigi/status/2093444248477773877",
+            "title": "引用帖：Eric Migicovsky",
+            "access": "partial",
+            "summary": "引用帖列出 Pebble app v1.11 与 PebbleOS v4.36 的新增项：天气、触控改进、emoji、Android 通知图片、Index 01 设置和 webhook 改进等。",
+            "whatItAdds": "补充原帖引用的上游语境，帮助判断作者是在转述、补充还是反驳。",
+            "value": "适合看硬件产品如何用软件小更新修复日常体验，而不是只靠新品发布。",
+            "learningValue": "把每个更新项映射到用户场景：查看、输入、通知、设置、自动化。"
+          },
+          {
+            "url": "http://rePebble.com",
+            "title": "Pebble Smartwatch — Official Store",
+            "access": "full",
+            "summary": "rePebble 官方站展示 Pebble Time 2、Pebble Round 2、Pebble Index 01 和配件，明确强调 always-on e-paper、长续航、按钮、可定制和开源。",
+            "whatItAdds": "补充产品线、品牌定位和复兴后的运营方式。",
+            "value": "值得读：可以帮助判断 Pebble 的产品叙事如何围绕“简单、美观、可定制”重建。",
+            "learningValue": "拆解硬件官网如何把差异点压成首屏可理解的产品承诺。"
+          },
+          {
+            "url": "https://ndocs.repebble.com/pebbleos-changelog",
+            "title": "Notion",
+            "access": "partial",
+            "summary": "Notion 文档壳层可打开，但需要 JavaScript 才能读取正文；本轮不能确认 changelog 细节。",
+            "whatItAdds": "只补充一个官方 changelog 入口，正文不可读。",
+            "value": "后续可用浏览器读完整变更列表。",
+            "learningValue": "复查时关注每个 OS 变更背后的用户场景和风险。"
+          },
+          {
+            "url": "https://ndocs.repebble.com/changelog",
+            "title": "Notion",
+            "access": "partial",
+            "summary": "Notion app changelog 页面同样只返回 JS 壳层，本轮只能记录链接存在。",
+            "whatItAdds": "补充 app changelog 入口，但无完整正文。",
+            "value": "后续适合和 OS changelog 对照，看 App/固件协同。",
+            "learningValue": "整理硬件配套 App 与设备 OS 的发布节奏差异。"
+          }
+        ],
+        "learningActions": [
+          "把 Pebble 更新拆成通知、输入、设置、自动化四类体验改进。",
+          "复盘一个硬件产品如何用 changelog 建立持续可信感。",
+          "观察官网首屏如何把 e-paper、续航、按钮、可定制讲成差异化。"
+        ],
+        "tags": [
+          "Hardware",
+          "Pebble",
+          "Product Detail"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093914569395884178",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ewind_dev/status/2093914569395884178",
+        "author": "Yifeng \"Evan\" Wang",
+        "handle": "ewind_dev",
+        "datetime": "2026-08-30T04:11:51.000Z",
+        "title": "PocketPi 暴露 AI-native 小电脑的 GPU 边界",
+        "originalSummary": "原帖内容：我逐渐感觉 ESP32 会限制 PocketJS 的表现力。在这上面大概只能做到这样，我实在不适应没有 GPU 的设备……",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 agent app 跑在板子上的想象落到硬件限制：ESP32 没有 GPU 时，交互表现力和应用复杂度会成为产品边界。",
+        "deepSummary": "这条适合作为 AI-native hardware 的约束样本。不是所有 agent 体验都能塞进低功耗板子，设计上要提前定义本地/远端分工、安装更新流程、视觉能力和失败 fallback。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/ysw_Jerry/status/2093863772993843501",
+            "title": "引用帖：Jerry Y",
+            "access": "partial",
+            "summary": "引用帖展示 PocketPi：用户输入需求后 agent 在板子上创建/安装/更新小 app，形成一个个人 AI-native computer 的雏形。",
+            "whatItAdds": "补充原帖引用的上游语境，帮助判断作者是在转述、补充还是反驳。",
+            "value": "适合继续追：它把“agent 生成 app”从桌面搬到硬件，暴露计算、显示和安装流程约束。",
+            "learningValue": "画出本地板子、agent、应用安装、远端算力之间的系统分工。"
+          }
+        ],
+        "learningActions": [
+          "为低功耗 AI 设备列出本地可做和必须上云的交互边界。",
+          "设计一个 agent app 安装流程，包含生成、预览、安装、回滚。",
+          "把 GPU 缺失带来的 UI 限制转成可接受的视觉策略。"
+        ],
+        "tags": [
+          "AI Hardware",
+          "PocketJS",
+          "Agent App",
+          "Embedded"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093914562370388327",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Lumosous/status/2093914562370388327",
+        "author": "広志",
+        "handle": "Lumosous",
+        "datetime": "2026-08-30T04:11:49.000Z",
+        "title": "免费 Avatar 工具支持 SVG/PNG/GIF 导出",
+        "originalSummary": "原帖内容：好有意思啊",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它是一个小工具产品的完整输出承诺：头像生成不是停在预览，而是提供 SVG、PNG、GIF 三种落地格式。",
+        "deepSummary": "个人设计师可从中学习“生成类工具的最后一公里”：随机、编辑、预览只是前半段，真正有用的是导出格式、可二次编辑、动图传播和版权边界。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/HoudayfaDesign/status/2093679517856330056",
+            "title": "引用帖：Houdayfa",
+            "access": "partial",
+            "summary": "引用帖说明该免费工具可设计头像，并导出 SVG、PNG 或 animated GIF；本轮没有读取到外部产品页。",
+            "whatItAdds": "补充原帖引用的上游语境，帮助判断作者是在转述、补充还是反驳。",
+            "value": "适合作为小型生成工具的输出格式样本。",
+            "learningValue": "检查生成工具是否提供可编辑矢量、位图预览和可传播动效三个层级。"
+          }
+        ],
+        "learningActions": [
+          "拆解头像生成器的输入、编辑、随机、导出四段流程。",
+          "为生成工具列一张导出格式矩阵：SVG、PNG、GIF、尺寸、透明背景。",
+          "思考动图导出如何帮助设计资产传播。"
+        ],
+        "tags": [
+          "Avatar",
+          "Design Tool",
+          "Export",
+          "Micro Tool"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093912667106976021",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/lexrus/status/2093912667106976021",
+        "author": "Lex Tang",
+        "handle": "lexrus",
+        "datetime": "2026-08-30T04:04:17.000Z",
+        "title": "Bad Apple x Liquid Glass 做系统材质压力测试",
+        "originalSummary": "原帖内容：the best use case of Liquid Glass😍",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 Liquid Glass 材质放进高对比快速运动画面，是观察透明、折射、遮罩和帧稳定性的好压力测试。",
+        "deepSummary": "这条可作为视觉系统测试方法：不要只在静态卡片里看材质，也要用高频黑白运动、边界和大面积遮罩测试可读性、眩晕和性能。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/ktiays/status/2093727033545392203",
+            "title": "引用帖：ktiays",
+            "access": "partial",
+            "summary": "引用帖展示 Bad Apple 风格视频套上 Liquid Glass 效果，能看到材质在高对比运动中的表现。",
+            "whatItAdds": "补充原帖引用的上游语境，帮助判断作者是在转述、补充还是反驳。",
+            "value": "适合当作材质系统的视觉压力测试样本。",
+            "learningValue": "用同一段高对比运动视频测试透明材质、模糊和边缘可读性。"
+          }
+        ],
+        "learningActions": [
+          "为玻璃材质做一组动态压力测试：黑白、高频、遮罩、滚动。",
+          "记录 Liquid Glass 在内容背后变化时的可读性和眩晕风险。",
+          "把视觉材质测试加入组件验收，而不是只看静态稿。"
+        ],
+        "tags": [
+          "Liquid Glass",
+          "iOS",
+          "Motion",
+          "Visual Test"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093912615496081726",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ZaynHao/status/2093912615496081726",
+        "author": "Zayn Hao",
+        "handle": "ZaynHao",
+        "datetime": "2026-08-30T04:04:05.000Z",
+        "title": "紧凑清单分类列表 UI 实验",
+        "originalSummary": "原帖内容：UI 设计实验： 简洁、节省空间的清单分类列表。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它是一个非常具体的列表信息架构实验：用更少空间表达分类、层级和任务状态，适合转成可复用列表组件。",
+        "deepSummary": "这条的学习价值在于列表密度控制。设计师可以从视频里拆出分组标签、行高、状态标记和切换节奏，判断哪些信息可以压缩，哪些必须留白。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "复刻一个紧凑清单列表，分别做低密度和高密度两个版本。",
+          "记录分类标签、行距、状态图标如何影响扫读速度。",
+          "把实验转成列表组件规范：分组、空态、完成态、拖拽态。"
+        ],
+        "tags": [
+          "UI Pattern",
+          "List",
+          "Information Density",
+          "Motion"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093902765005373749",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/mingxia/status/2093902765005373749",
+        "author": "名下的宝盒",
+        "handle": "mingxia",
+        "datetime": "2026-08-30T03:24:56.000Z",
+        "title": "Noty 把便签藏进 macOS 屏幕边缘",
+        "originalSummary": "原帖内容：非常漂亮的mac note",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Noty 用“边缘薄条、展开纸签、点击拉出”把便签做成低打扰系统触点，适合研究轻量工具的空间占用和动效。",
+        "deepSummary": "Noty 的产品价值在于把常驻工具从窗口管理里拿出来：无 Dock、无账号、本地加密、鼠标靠边展开。对个人设计师来说，这是 macOS 微工具的交互、隐私和状态设计样本。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/AimenMT2/status/2093843706826706962",
+            "title": "引用帖：Aymen",
+            "access": "partial",
+            "summary": "引用帖说明 Noty 是边缘便签工具：本地、无账号、无服务器、加密 note body，并提供产品页和 GitHub。",
+            "whatItAdds": "补充原帖引用的上游语境，帮助判断作者是在转述、补充还是反驳。",
+            "value": "引用帖补充了产品定位和隐私承诺。",
+            "learningValue": "拆出边缘触发、展开、编辑、收起四个状态。"
+          },
+          {
+            "url": "https://noty-sepia.vercel.app",
+            "title": "Noty",
+            "access": "full",
+            "summary": "产品页展示 Noty 的三态交互：12pt 边缘薄条、鼠标靠近后纸签展开、点击后便签拉出；还说明 macOS 15、Apple silicon、1.6MB、本地写盘和自动更新。",
+            "whatItAdds": "补充原帖没有完整展开的状态机、触发方式、尺寸、平台要求和隐私细节。",
+            "value": "值得读：这是轻量桌面工具如何减少窗口负担的完整交互案例。",
+            "learningValue": "把 Noty 三态转成状态机，并记录每个状态的尺寸、触发和退出条件。"
+          },
+          {
+            "url": "https://github.com/aimen08/noty",
+            "title": "GitHub - aimen08/noty: Sticky notes that live at the edge of your screen. Native macOS, SwiftUI + AppKit, local-only with encrypted note bodies. · GitHub",
+            "access": "full",
+            "summary": "GitHub README 显示 Noty 使用 Swift、SwiftUI 和 AppKit；便签贴在屏幕边缘，支持无 Dock 图标、边缘展开、本地加密和 demo/screenshots。",
+            "whatItAdds": "补充实现栈、开源仓库、截图结构和本地隐私实现线索。",
+            "value": "值得继续读：可作为 SwiftUI/AppKit 混合桌面微工具的实现参考。",
+            "learningValue": "查看源码如何处理边缘窗口、置顶、加密写盘和动画节奏。"
+          }
+        ],
+        "learningActions": [
+          "画出 Noty 的 Rest/Fan/Expanded 三态和触发条件。",
+          "复盘 macOS 微工具如何处理无 Dock、边缘触发和本地隐私。",
+          "对照源码找出 SwiftUI 与 AppKit 各自承担的界面和系统能力。"
+        ],
+        "tags": [
+          "macOS",
+          "SwiftUI",
+          "Micro Tool",
+          "Privacy"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093884215473713198",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/gabrielchua/status/2093884215473713198",
+        "author": "Gabriel Chua",
+        "handle": "gabrielchua",
+        "datetime": "2026-08-30T02:11:14.000Z",
+        "title": "Codex/ChatGPT 桌面端支持自定义分组",
+        "originalSummary": "原帖内容：You can now customise sections in the Codex and ChatGPT desktop app. Group your chats, then drag sections into whatever order works for you. @ChatGPT @OpenAIDevs",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为这是 AI 工作台信息架构的直接更新：当任务和聊天数量增加后，分组、拖拽排序和命名会成为日常操作效率的核心。",
+        "deepSummary": "这条对设计师的价值在于观察 AI 工具从“单次对话”变成“长期工作空间”后需要的导航结构。自定义 section 看似小功能，本质是在解决多线程、多项目和长期任务管理。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把自己的 AI 工作区任务分成项目、自动化、实验和归档四类，验证分组是否够用。",
+          "记录多线程工作台需要的 sidebar 信息架构：固定、分组、排序、状态。",
+          "观察分组功能如何降低回找成本，并思考是否需要颜色、计数或最近活动提示。"
+        ],
+        "tags": [
+          "Codex",
+          "ChatGPT",
+          "Workspace IA",
+          "Navigation"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-30",
     "generatedAt": "2026-08-30T08:28:00+08:00",
     "batch": "x-ai-design-analysis-2026-08-30-0828",
     "analysisCount": 100,

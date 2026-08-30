@@ -1,6 +1,367 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "AI SECURITY",
+    "datetime": "2026-08-30T05:08:32.000Z",
+    "author": "Nicholas Beale",
+    "handle": "Starcourse",
+    "avatar": "https://pbs.twimg.com/profile_images/961698574554796032/j09z4995_200x200.jpg",
+    "title": "Claude Code 网页摘要可被提示注入诱导",
+    "summary": "我会帮你抓取它，因为它把 AI coding agent 的“读网页”动作暴露为安全边界：总结网页并不等于安全浏览，工具选择、权限和执行模式都需要产品层护栏。",
+    "url": "https://x.com/Starcourse/status/2093928836098314604",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 4 VIEWS",
+    "links": [
+      "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372"
+    ],
+    "_analysisTheme": "AI 产品 / 设计工程",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Researcher shows how Claude Code can be tricked simply by asking it to summarize a website",
+      "preview": "More prompt-injection hijinks from wunderwuzzi",
+      "cover": "https://pbs.twimg.com/card_img/2093730763430633472/SQpXxErl?format=jpg&name=800x419",
+      "url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372"
+    }
+  },
+  {
+    "category": "IOS DESIGN",
+    "datetime": "2026-08-30T05:08:10.000Z",
+    "author": "Shubham Singh",
+    "handle": "Shubham_iosdev",
+    "avatar": "https://pbs.twimg.com/profile_images/2019743267773104128/4fcQQsjf_200x200.jpg",
+    "title": "SpriteKit + SwiftUI 做牛顿摆物理动效",
+    "summary": "我会帮你抓取它，因为它是一个小而完整的 iOS 动效样本：把真实物理、碰撞和约束放进 SwiftUI 视觉表达，适合做微交互和练习工程实现。",
+    "url": "https://x.com/Shubham_iosdev/status/2093928744755118518",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093928692053606400/vid/avc1/540x540/AxRPXaQ4Fx5EkUK2.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093928692053606400/img/6m1tvrF6y3rg1-e0.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 21 VIEWS",
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-30T05:04:51.000Z",
+    "author": "pf711",
+    "handle": "pfm711",
+    "avatar": "https://pbs.twimg.com/profile_images/1725007708863279104/akcTQaNQ_200x200.jpg",
+    "title": "BookCraft-Skill 把电子书翻译做成 Agent Skill",
+    "summary": "我会帮你抓取它，因为它把一个独立 App 需求转成 Agent Skill：复用当前模型、处理 EPUB/Markdown、保留 DOM 结构和术语一致性，是工具形态取舍的好案例。",
+    "url": "https://x.com/pfm711/status/2093927908926742579",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 8 VIEWS",
+    "links": [
+      "https://github.com/pf711-dev/BookCraft-Skill"
+    ],
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "GitHub - pf711-dev/BookCraft-Skill: 📚 BookCraft 是一个将英文 EPUB 电子书或 Markdown 文件一键翻译成中英对照或纯中文格式的 Skill。",
+      "preview": "📚 BookCraft 是一个将英文 EPUB 电子书或 Markdown 文件一键翻译成中英对照或纯中文格式的 Skill。 - pf711-dev/BookCraft-Skill",
+      "cover": "https://pbs.twimg.com/card_img/2093911460003090432/1yzo3fMA?format=jpg&name=800x419",
+      "url": "https://github.com/pf711-dev/BookCraft-Skill"
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-30T05:00:30.000Z",
+    "author": "GLBKIT",
+    "handle": "glbkit",
+    "avatar": "https://pbs.twimg.com/profile_images/2071289747167985664/EtSpPhga_200x200.jpg",
+    "title": "Awesome 3D AI/SEO/GEO 汇总 3D Web 可发现性",
+    "summary": "我会帮你抓取它，因为它把 3D Web 从“视觉酷”推进到“可被搜索和 AI 理解”：性能、可访问性、SEO/GEO 都是 3D 产品落地必须补齐的设计工程问题。",
+    "url": "https://x.com/glbkit/status/2093926814125281769",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ8dinMb0AAn_Vh.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 12 VIEWS",
+    "links": [
+      "https://github.com/glbkit-tools/awesome-3d-ai-seo-geo"
+    ],
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-30T04:59:08.000Z",
+    "author": "Alokit",
+    "handle": "alokitwrites",
+    "avatar": "https://pbs.twimg.com/profile_images/2051505293864120320/42bCEL5R_200x200.jpg",
+    "title": "AI coding agent 通过测试也可能修错问题",
+    "summary": "我会帮你抓取它，因为它把 agent 成功标准从“测试绿了”拉回“系统语境正确”：这正是设计工程师做审查、验收和工具提示时需要补上的判断。",
+    "url": "https://x.com/alokitwrites/status/2093926468669874620",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 4 VIEWS",
+    "links": [
+      "https://www.anthropic.com/engineering/building-effective-agents"
+    ],
+    "_analysisTheme": "AI 产品 / 设计工程",
+    "_analysisPriority": "high",
+    "article": {
+      "kind": "external",
+      "title": "Building Effective AI Agents",
+      "preview": "Discover how Anthropic approaches the development of reliable AI agents. Learn about our research on agent capabilities, safety considerations, and technical framework for building trustworthy AI.",
+      "cover": "https://pbs.twimg.com/card_img/2093083334289309696/9xXZ-pIx?format=png&name=800x419",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-30T04:47:00.000Z",
+    "author": "Prasenjit Sarkar",
+    "handle": "stretchcloud",
+    "avatar": "https://pbs.twimg.com/profile_images/1966979113316409344/BkqBhdQb_200x200.jpg",
+    "title": "OLX Uzbekistan 把 Agent 做成公司操作系统",
+    "summary": "我会帮你抓取它，因为它描述了 agent 从单点工具变成内部基础设施：邮件、工单、功能构建和运营流被统一进一个 company OS，是 AI 产品化组织形态信号。",
+    "url": "https://x.com/stretchcloud/status/2093923416285794608",
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 25 VIEWS",
+    "links": [
+      "https://x.com/aakashgupta/status/2093790290494751055",
+      "https://youtu.be/zocznD8Z-6k"
+    ],
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Aakash Gupta",
+      "handle": "aakashgupta",
+      "text": "Agents are building most of the features at OLX Uzbekistan.\n\nMikhail Shcheglov (@mshcheglov1) is the CPO there, and over the last 5 months he built an entire company operating system on top of OpenClaw and Hermes.\n\nHe doesn't read his email anymore. The agent does, and pings him only when something's urgent. It also screens stakeholder feature requests before they reach a PM, and it updates the Figma design system on its own.\n\nThen he open sourced the repo.\n\nWe discuss:\n🔶 The knowledge graph his whole company runs on\n🔶 Why summarizing transcripts cost him 25% recall\n🔶 The agent that kills bad feature requests\n🔶 The \"board skill\" that pokes holes in your deck\n🔶 Why the CPO should own this, not an AI ops hire\n🔶 The one question that spots AI-native PMs\n\nWatch the full episode 👇\nhttps://youtu.be/zocznD8Z-6k",
+      "url": "https://x.com/aakashgupta/status/2093790290494751055"
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-30T04:41:02.000Z",
+    "author": "Hugeicons",
+    "handle": "huge_icons",
+    "avatar": "https://pbs.twimg.com/profile_images/2031191512474910720/ZL9luTa3_200x200.jpg",
+    "title": "Hugeicons Figma 插件接近 97k 使用规模",
+    "summary": "我会帮你抓取它，因为图标库插件的增长说明设计资产分发仍然依赖低摩擦入口：Figma 插件、搜索、命名和组件质量比单纯官网展示更重要。",
+    "url": "https://x.com/huge_icons/status/2093921917103407365",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ8acWibkAARRdP.jpg?name=orig"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 77 VIEWS",
+    "links": [
+      "https://figma.com/community/plugin/1209922740177393208/hugeicons-icon-library"
+    ],
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-30T04:30:00.000Z",
+    "author": "Zaid | Framer",
+    "handle": "work_with_zaid",
+    "avatar": "https://pbs.twimg.com/profile_images/2060024768783650816/3HM3HQ_O_200x200.jpg",
+    "title": "网站用短信节奏制造“正在对话”的感觉",
+    "summary": "我会帮你抓取它，因为它展示了一个很具体的叙事交互：不是把文案放在页面上，而是用消息投递节奏让站点像在和用户说话。",
+    "url": "https://x.com/work_with_zaid/status/2093919139194921230",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093736178604486656/vid/avc1/640x360/o1Jttxrval1edHXF.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093736178604486656/img/QKZ6Qx-ScdgF4iZ_.jpg"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 15 VIEWS",
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-30T04:13:20.000Z",
+    "author": "Megabits ❄️",
+    "handle": "Megabits_mzq",
+    "avatar": "https://pbs.twimg.com/profile_images/2089930935227785216/R7lIcCtk_200x200.jpg",
+    "title": "Pebble 新 App/OS 更新强化离线硬件体验",
+    "summary": "我会帮你抓取它，因为 Pebble 的更新把产品价值落在具体小功能：天气、触控、emoji、通知图片和 ring 设置，适合观察硬件复兴如何靠细节恢复日用可信度。",
+    "url": "https://x.com/Megabits_mzq/status/2093914945872359547",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/tweet_video/HQ1oNoYa8AAnTHZ.mp4",
+        "poster": "https://pbs.twimg.com/tweet_video_thumb/HQ1oNoYa8AAnTHZ.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 185 VIEWS",
+    "links": [
+      "http://rePebble.com",
+      "https://ndocs.repebble.com/pebbleos-changelog",
+      "https://ndocs.repebble.com/changelog"
+    ],
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "medium",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Eric Migicovsky",
+      "handle": "ericmigi",
+      "text": "Huge @Pebble sw releases this week!\n\nPebble app v1.11 + PebbleOS v4.36\n- New weather app\n- Improved touch controls throughout app\n- 1000+ of emoji (no more [])\n- Album art and images-in-notifications (Android only)\n- Index 01: tons of new settings including webhook improvements, actions and many more improvements!\n\nIn-stock and shipping now on http://rePebble.com \n\nFull changelogs\nhttps://ndocs.repebble.com/pebbleos-changelog\nhttps://ndocs.repebble.com/changelog",
+      "url": "https://x.com/ericmigi/status/2093444248477773877"
+    }
+  },
+  {
+    "category": "AI HARDWARE",
+    "datetime": "2026-08-30T04:11:51.000Z",
+    "author": "Yifeng \"Evan\" Wang",
+    "handle": "ewind_dev",
+    "avatar": "https://pbs.twimg.com/profile_images/1949275362262913024/r3t_A4R2_200x200.jpg",
+    "title": "PocketPi 暴露 AI-native 小电脑的 GPU 边界",
+    "summary": "我会帮你抓取它，因为它把 agent app 跑在板子上的想象落到硬件限制：ESP32 没有 GPU 时，交互表现力和应用复杂度会成为产品边界。",
+    "url": "https://x.com/ewind_dev/status/2093914569395884178",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093725211631976448/vid/avc1/540x540/AlB38z3bC9u1S2XZ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093725211631976448/img/WWOJ7vaw_5tPZ-_v.jpg"
+      }
+    ],
+    "metrics": "1 REPLIES · 0 REPOSTS · 2 LIKES · 1 BOOKMARKS · 1112 VIEWS",
+    "_analysisTheme": "AI 产品 / 设计工程",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Jerry Y",
+      "handle": "ysw_Jerry",
+      "text": "PocketPi 最新的使用体验大概是这样的：\n1. 输入 create a todo list app 发送给 agent\n2. 等 1 分钟，点个 install\n3. 打开 todo list app，该干嘛干嘛\n4. 或者直接打字直接让 agent 创建或者完成 todo items\n\nagent 是跑在板子上的，app 的安装更新删除是不需要刷固件或者重启设备的\n\n诶等等🤔？这不就是一个 personal AI-native computer 了吗？还集成了自洽的 app development env？\n\nbtw，上面说的这些都是在 esp32 s3 上实现的（双核 240 MHz，8 MB PSRAM）",
+      "url": "https://x.com/ysw_Jerry/status/2093863772993843501"
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-30T04:11:49.000Z",
+    "author": "広志",
+    "handle": "Lumosous",
+    "avatar": "https://pbs.twimg.com/profile_images/1684165489227100161/Gr6G9wHS_200x200.jpg",
+    "title": "免费 Avatar 工具支持 SVG/PNG/GIF 导出",
+    "summary": "我会帮你抓取它，因为它是一个小工具产品的完整输出承诺：头像生成不是停在预览，而是提供 SVG、PNG、GIF 三种落地格式。",
+    "url": "https://x.com/Lumosous/status/2093914562370388327",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093679352734953472/vid/avc1/604x360/xO7ucpYckJCDryd9.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093679352734953472/img/I9EavCHaQ0t2W4wj.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 1 BOOKMARKS · 295 VIEWS",
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "medium",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Houdayfa",
+      "handle": "HoudayfaDesign",
+      "text": "I just found an amazing free tool!\n\nDesign your own avatar and export it in SVG, PNG, or animated GIF format.",
+      "url": "https://x.com/HoudayfaDesign/status/2093679517856330056"
+    }
+  },
+  {
+    "category": "IOS DESIGN",
+    "datetime": "2026-08-30T04:04:17.000Z",
+    "author": "Lex Tang",
+    "handle": "lexrus",
+    "avatar": "https://pbs.twimg.com/profile_images/973550161556209664/C-SNrSiO_200x200.jpg",
+    "title": "Bad Apple x Liquid Glass 做系统材质压力测试",
+    "summary": "我会帮你抓取它，因为它把 Liquid Glass 材质放进高对比快速运动画面，是观察透明、折射、遮罩和帧稳定性的好压力测试。",
+    "url": "https://x.com/lexrus/status/2093912667106976021",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093726769761353728/vid/avc1/554x360/D7YMHouFxG6lFYQi.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093726769761353728/img/SKjTWsbHN_tTmO_v.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 4 LIKES · 0 BOOKMARKS · 843 VIEWS",
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "medium",
+    "quote": {
+      "label": "引用原帖",
+      "author": "ktiays",
+      "handle": "ktiays",
+      "text": "Bad Apple but Liquid Glass",
+      "url": "https://x.com/ktiays/status/2093727033545392203"
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-30T04:04:05.000Z",
+    "author": "Zayn Hao",
+    "handle": "ZaynHao",
+    "avatar": "https://pbs.twimg.com/profile_images/1490844347721342981/_vcCNxRm_200x200.jpg",
+    "title": "紧凑清单分类列表 UI 实验",
+    "summary": "我会帮你抓取它，因为它是一个非常具体的列表信息架构实验：用更少空间表达分类、层级和任务状态，适合转成可复用列表组件。",
+    "url": "https://x.com/ZaynHao/status/2093912615496081726",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093912449145868288/vid/avc1/466x360/ntWwLXIYm_UeSyuw.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093912449145868288/img/0Ia0cYM4_MbwLFNH.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 4 LIKES · 2 BOOKMARKS · 539 VIEWS",
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "high"
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-30T03:24:56.000Z",
+    "author": "名下的宝盒",
+    "handle": "mingxia",
+    "avatar": "https://pbs.twimg.com/profile_images/2041335542823215104/v0hn71wI_200x200.jpg",
+    "title": "Noty 把便签藏进 macOS 屏幕边缘",
+    "summary": "我会帮你抓取它，因为 Noty 用“边缘薄条、展开纸签、点击拉出”把便签做成低打扰系统触点，适合研究轻量工具的空间占用和动效。",
+    "url": "https://x.com/mingxia/status/2093902765005373749",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093843453503295488/vid/avc1/552x360/cZLVDyJ7Oyd_vB8F.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093843453503295488/img/JnStZEjIy8CU_ssx.jpg"
+      }
+    ],
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 53 VIEWS",
+    "links": [
+      "https://noty-sepia.vercel.app",
+      "https://github.com/aimen08/noty"
+    ],
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Aymen",
+      "handle": "AimenMT2",
+      "text": "Built Noty a macOS notes app that lives at the edge of your screen.\n\nLocal only. Note bodies encrypted. No account, no server. (1.8mb)\nFree → https://noty-sepia.vercel.app\ngithub → https://github.com/aimen08/noty",
+      "url": "https://x.com/AimenMT2/status/2093843706826706962"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-30T02:11:14.000Z",
+    "author": "Gabriel Chua",
+    "handle": "gabrielchua",
+    "avatar": "https://pbs.twimg.com/profile_images/2000727056112607232/WnaCabQi_200x200.jpg",
+    "title": "Codex/ChatGPT 桌面端支持自定义分组",
+    "summary": "我会帮你抓取它，因为这是 AI 工作台信息架构的直接更新：当任务和聊天数量增加后，分组、拖拽排序和命名会成为日常操作效率的核心。",
+    "url": "https://x.com/gabrielchua/status/2093884215473713198",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093884083478863872/vid/avc1/478x360/ptXJh2RBmpQRxzWK.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093884083478863872/img/O-A900JkM2PZ8872.jpg"
+      }
+    ],
+    "metrics": "8 REPLIES · 5 REPOSTS · 97 LIKES · 41 BOOKMARKS · 5026 VIEWS",
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "high"
+  },
+  {
     "category": "PRODUCT DESIGN",
     "datetime": "2026-08-29T22:38:57.000Z",
     "author": "Denzii 🕊️",

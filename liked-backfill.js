@@ -1529,7 +1529,7 @@ window.LIKED_BACKFILL = [
     "UserScreenName": "goo_vision",
     "UserProfileName": "goo.vision",
     "UserProfilePic": "https://pbs.twimg.com/profile_images/2023487210302173190/fVNP9plu_200x200.jpg",
-    "TweetText": "",
+    "TweetText": "无正文图片帖（goo.vision 视觉作品）",
     "Tweet Url": "https://x.com/goo_vision/status/2092620831671169433",
     "TweetCreatedDate": "2026-08-26T14:30:59.000Z",
     "MediaType": "photo",
