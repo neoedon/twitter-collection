@@ -1,6 +1,633 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-08-31",
+    "generatedAt": "2026-08-31T13:16:00+08:00",
+    "batch": "x-ai-design-analysis-2026-08-31-1316",
+    "analysisCount": 15,
+    "homeCount": 15,
+    "likeCount": 0,
+    "linksInspected": 18,
+    "unavailableLinks": 0,
+    "summary": "2026-08-31 午后补充：上午批次已经满足 Home 20 条和 Analysis 100 条。本轮继续用 ego-browser 登录态观察 Home/Following/Design Engineers/JPI/AI 御三家超级员工和 3 个 X live search；筛掉广告、成人、金融、招聘、低信息回复后，追加 15 条新的 Home-only 设计/AI 学习样本。Likes 到达已知边界且没有 fresh ID，因此不改 liked-backfill.js。",
+    "sourceWindow": {
+      "strategy": "使用 ego-browser 独立 task space 10 复用 X 登录态；Home 覆盖 x.com/home 当前流、正在关注、Design Engineers、JPI、AI 御三家超级员工，以及 AI product/model、product design tools、indie AI design visual 三个 X live search。Likes 打开 x.com/neoedon414/likes 并重定向到 /i/history/likes，滚动到已知 Like ID 边界。fxtwitter 仅用于补齐已观察 status 的作者、时间、媒体、指标、引用和 t.co 展开；外链读取仅限原帖中的产品页、GitHub、文章、视频页和引用帖。",
+      "newestHomeDatetime": "2026-08-31T05:06:10.000Z",
+      "oldestHomeDatetime": "2026-02-11T03:49:00.000Z",
+      "newestWrittenHomeDatetime": "2026-08-31T05:03:21.000Z",
+      "oldestWrittenHomeDatetime": "2026-08-31T00:08:26.000Z",
+      "newestLikeDatetime": "2026-08-30T16:42:04.000Z",
+      "oldestLikeDatetime": "2026-06-07T12:43:38.000Z",
+      "expandedWindow": "Home 本轮写入 15 条均属于 Asia/Shanghai 2026-08-31；Analysis 当天已在上午达到 100，本轮只追加新出现且有学习价值的 15 条 Home，不做历史 Like 回补。",
+      "observed": {
+        "homeBeforeTodayCount": 20,
+        "homeRaw": 1371,
+        "homeUnique": 223,
+        "homeFreshUnknown": 220,
+        "homeTodayCandidates": 187,
+        "homeSelected": 15,
+        "homeDuplicateKnown": 1,
+        "homeFxtwitterFailed": 2,
+        "homeRejectedOrLeftover": 205,
+        "bySource": {
+          "Home / current": {
+            "raw": 176,
+            "unique": 30
+          },
+          "Home tab / 正在关注": {
+            "raw": 140,
+            "unique": 27
+          },
+          "Home tab / Design Engineers": {
+            "raw": 134,
+            "unique": 23
+          },
+          "Home tab / JPI": {
+            "raw": 85,
+            "unique": 23
+          },
+          "Home tab / AI 御三家超级员工": {
+            "raw": 122,
+            "unique": 22
+          },
+          "X search / AI product model live": {
+            "raw": 226,
+            "unique": 41
+          },
+          "X search / product design tools live": {
+            "raw": 281,
+            "unique": 50
+          },
+          "X search / indie AI design visual live": {
+            "raw": 207,
+            "unique": 40
+          }
+        },
+        "likeRaw": 978,
+        "likeUnique": 153,
+        "freshLikesObserved": 0,
+        "freshLikesWritten": 0,
+        "knownLikeBoundary": "2094066258551636094",
+        "knownLikeBoundaryHits": 958,
+        "linksRead": 18,
+        "linkFull": 12,
+        "linkPartial": 6,
+        "linkUnavailable": 0
+      }
+    },
+    "items": [
+      {
+        "id": "2094270799175680460",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dotey/status/2094270799175680460",
+        "author": "宝玉",
+        "handle": "dotey",
+        "datetime": "2026-08-31T03:47:22.000Z",
+        "title": "Anthropic Max@20 窗口限额误读",
+        "originalSummary": "宝玉转述 Claude Max@20 的计费/限额误读：20x 更像 5 小时窗口倍率，周限额并不是 $100 方案的 4 倍。",
+        "whySaved": "",
+        "whyCaptured": "因为它把订阅权益里的“20x”拆回会话窗口和周限额，提醒设计师不要只看营销倍率，要看真实使用边界。",
+        "deepSummary": "这条对个人设计师的价值在于训练“订阅权益读表”能力：AI 工具越来越多，用量窗口、周限额、重置节奏会直接影响工作流设计和购买决策。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/SataEricUX/status/2094121392229028236",
+            "title": "SataEricUX 对 Claude 20x 限额的原始说明",
+            "access": "partial",
+            "summary": "fxtwitter 可见引用帖说明 $100 与 $200 方案的 20x 主要落在 5 小时窗口，周限额差异没有表面倍率那么大。",
+            "designValue": "提供原始上下文，适合做 AI 工具定价表的反误读案例。",
+            "followUp": "继续核对 Anthropic 官方 pricing / usage 文档后再做购买建议。"
+          }
+        ],
+        "learningActions": [
+          "把常用 AI 工具的会话窗口、周限额、重置周期拆成一张对比表。",
+          "设计付费页时避免只放倍率，补充“适用场景”和“会触发限制的行为”。",
+          "评估团队套餐时用真实任务量做压测，而不是按营销倍数估算。"
+        ],
+        "tags": [
+          "AI 产品",
+          "Pricing UX",
+          "订阅权益",
+          "使用边界"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094257515085406510",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/DynamicWebPaige/status/2094257515085406510",
+        "author": "👩‍💻 Paige Bailey",
+        "handle": "DynamicWebPaige",
+        "datetime": "2026-08-31T02:54:35.000Z",
+        "title": "DeepORG 把数据库 Agent 评测做成治理任务",
+        "originalSummary": "Paige Bailey 介绍 GraphJin DeepORG：模型需在真实数据库 workflow 中同时满足正确答案、治理方法、预期行为和安全约束。",
+        "whySaved": "",
+        "whyCaptured": "因为 DeepORG 不只评答案，还评方法、预期行为和安全动作，适合转化成设计工程师评估 agent 的验收维度。",
+        "deepSummary": "这条把 agent benchmark 从“答对了吗”推进到“能不能安全接入组织系统”。对设计工程师来说，后台工具和 AI 数据产品的体验验收需要把权限、可解释流程和错误边界纳入 UI。",
+        "linkAnalysis": [
+          {
+            "url": "https://graphjin.com/benchmark/",
+            "title": "DeepORG — The Organizational Agent Benchmark",
+            "access": "full",
+            "summary": "页面说明 DeepORG 用 live database workflow 评估 agent 的正确性、安全、成本和 policy adherence，强调组织级数据库场景。",
+            "designValue": "比单题 benchmark 更接近企业工具验收，可转成 agent 产品的任务证据和权限 UI。",
+            "followUp": "重点读评分维度，抽取可用于内部 AI 数据工具验收的指标。"
+          },
+          {
+            "url": "https://x.com/dosco/status/2094207984931082625",
+            "title": "GraphJin 作者关于 Gemini workhorse 模型的引用帖",
+            "access": "partial",
+            "summary": "引用帖称 Gemini 3.7 Flash 与 3.5 Flash Lite 是便宜且快速的 workhorse 模型。",
+            "designValue": "补充模型选择原因，但不如 benchmark 页面信息完整。",
+            "followUp": "用 benchmark 页数据核对价格、延迟和安全指标。"
+          }
+        ],
+        "learningActions": [
+          "为自己的 AI 数据工具补一列“治理/权限/危险动作”验收项。",
+          "把 benchmark 结果拆成正确率、延迟、成本和 policy adherence 四个读数。",
+          "做 agent UI 时给用户显示方法摘要和安全约束，而不是只给最终答案。"
+        ],
+        "tags": [
+          "AI Agent",
+          "Benchmark",
+          "Data UX",
+          "治理"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094261554309222865",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/flowith/status/2094261554309222865",
+        "author": "Flowith",
+        "handle": "flowith",
+        "datetime": "2026-08-31T03:10:38.000Z",
+        "title": "Flowith 对比 Seedance 2.5 与 Wan 3.0",
+        "originalSummary": "Flowith 用同一海上风暴 brief 对比 Seedance 2.5 与 Wan 3.0 的视频生成效果，邀请用户判断哪一版更有沉浸感。",
+        "whySaved": "",
+        "whyCaptured": "因为同一 storm-at-sea prompt 的双模型对比，适合练习个人设计师如何评价镜头感、节奏和情绪一致性。",
+        "deepSummary": "这不是单纯炫技视频，而是一个可复用的视觉评测样本：同 prompt、同题材、对比两个模型在构图、运动连续性和情绪表达上的差异。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/flowith/status/2094261554309222865/video/1",
+            "title": "Flowith storm-at-sea 双模型视频",
+            "access": "full",
+            "summary": "原帖视频提供同一 brief 下的两组模型输出，可直接观察运动、镜头和情绪差异。",
+            "designValue": "是 AI 视频模型评测的可视样本，适合训练设计师的输出判断标准。",
+            "followUp": "本地保存评测维度，不需要下载视频本体。"
+          }
+        ],
+        "learningActions": [
+          "建立一套 AI 视频评测表：镜头连续性、主体稳定性、情绪节奏、可剪辑性。",
+          "用同一 prompt 在至少两个视频模型里复现，记录哪类镜头最容易失真。",
+          "把对比结果沉淀成适合品牌短片或产品 demo 的模型选择规则。"
+        ],
+        "tags": [
+          "AI Video",
+          "模型对比",
+          "视觉评估",
+          "Flowith"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094266903204434431",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/openclaw/status/2094266903204434431",
+        "author": "OpenClaw🦞",
+        "handle": "openclaw",
+        "datetime": "2026-08-31T03:31:53.000Z",
+        "title": "OpenClaw 2.0 强化开源 Agent 浏览器体验",
+        "originalSummary": "OpenClaw 官方宣布 2.0，并链接说明这次版本如何从简化设置和一等浏览器体验演进成完整 2.0。",
+        "whySaved": "",
+        "whyCaptured": "因为 OpenClaw 2.0 从安装、浏览器体验和工作流角度重新包装开源 agent，值得设计工程师研究本地 agent 的产品化路径。",
+        "deepSummary": "OpenClaw 的意义在于把开源 agent 从“能跑”推进到“可被普通工作流采用”。个人设计师可观察它如何处理安装门槛、浏览器上下文和集成生态。",
+        "linkAnalysis": [
+          {
+            "url": "https://openclaw.ai/blog/openclaw-2-accidentally",
+            "title": "OpenClaw 2.0, Accidentally",
+            "access": "full",
+            "summary": "官方文章说明 2.0 源于简化安装和一等浏览器体验，页面还导向 ecosystem、integrations、docs 与 GitHub。",
+            "designValue": "信息密度高，适合研究开源 agent 如何被包装成可采用的产品。",
+            "followUp": "继续检查 docs 和 GitHub，验证浏览器、集成和权限设计。"
+          }
+        ],
+        "learningActions": [
+          "拆解 OpenClaw onboarding：安装、首次任务、浏览器授权、失败恢复分别怎么呈现。",
+          "比较它与 Codex/Claude Code 的任务空间、浏览器和持久化体验。",
+          "把开源工具的 README 信息层级转译成可视化 setup checklist。"
+        ],
+        "tags": [
+          "Open source",
+          "AI Agent",
+          "Browser UX",
+          "Developer Tool"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094238995312226704",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/rea1DonandTrump/status/2094238995312226704",
+        "author": "Rene Wang",
+        "handle": "rea1DonandTrump",
+        "datetime": "2026-08-31T01:41:00.000Z",
+        "title": "Rene Wang 讲可承受翻译的界面",
+        "originalSummary": "Rene Wang 分享面向设计师和工程师的国际化文章，强调真正多语言产品不只是翻译和日期格式。",
+        "whySaved": "",
+        "whyCaptured": "因为它把国际化从翻译问题提升到布局、输入、语义和渠道设计，是出海产品设计师需要反复复盘的基础能力。",
+        "deepSummary": "文章价值在于提醒界面需要“语言容错”：文本长度、输入结构、计量单位、语气和镜像布局都会影响产品是否真的能跨语言生存。",
+        "linkAnalysis": [
+          {
+            "url": "https://rene.wang/essay/build-interfaces-that-survive-translation",
+            "title": "Build Interfaces That Survive Translation",
+            "access": "full",
+            "summary": "文章讨论跨语言界面失败的原因，包括文本压缩、通道、单位、输入和镜像测试等。",
+            "designValue": "是出海产品设计的高价值方法论，可直接变成 i18n 设计 checklist。",
+            "followUp": "选一个现有页面按文章里的 mirror/unit/input 维度做审计。"
+          }
+        ],
+        "learningActions": [
+          "为现有产品选 3 个关键页面做德语/阿拉伯语/日语的文本膨胀和 RTL 压力测试。",
+          "把按钮、表单、价格和空状态文案里的“不可翻译假设”列出来。",
+          "在设计规范里增加多语言截断、换行、单位和镜像布局规则。"
+        ],
+        "tags": [
+          "国际化",
+          "Product Design",
+          "i18n",
+          "Interface"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094289920118403471",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/N0V4Dev/status/2094289920118403471",
+        "author": "NOVA",
+        "handle": "N0V4Dev",
+        "datetime": "2026-08-31T05:03:21.000Z",
+        "title": "OpenSEO 用 MCP 连接可自托管 SEO 工作流",
+        "originalSummary": "NOVA 介绍 OpenSEO：一个 TypeScript 开源 Semrush/Ahrefs 替代品，支持 Docker/Cloudflare 自托管，并内置 MCP server。",
+        "whySaved": "",
+        "whyCaptured": "因为 OpenSEO 把 SEO 工具、MCP server 和自托管放在一起，可作为“垂直工具如何 agent 化”的界面参考。",
+        "deepSummary": "这条的设计价值不在 SEO 本身，而在垂直 SaaS 工具如何把数据源、任务流和 agent 能力合并成可修改、可自托管的产品。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/every-app/open-seo",
+            "title": "GitHub - every-app/open-seo",
+            "access": "full",
+            "summary": "GitHub 页面显示它是 Semrush/Ahrefs 的开源替代品，适合继续查看 README、部署和 MCP 能力。",
+            "designValue": "可作为垂直 SaaS 自托管与 agent 化的实现参考。",
+            "followUp": "阅读 README 中的数据源、Docker/Cloudflare 部署和 MCP server 章节。"
+          }
+        ],
+        "learningActions": [
+          "观察 OpenSEO 如何把关键词、排名、报告这类专业任务变成清晰导航。",
+          "研究 MCP server 暴露哪些 SEO 功能，反推 agent 工具权限设计。",
+          "用它作为模板，思考一个设计资产/竞品分析工具如何自托管。"
+        ],
+        "tags": [
+          "Open source",
+          "MCP",
+          "SaaS UX",
+          "SEO Tool"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094259477096825250",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/sherwinwu/status/2094259477096825250",
+        "author": "Sherwin Wu",
+        "handle": "sherwinwu",
+        "datetime": "2026-08-31T03:02:23.000Z",
+        "title": "OpenAI 产品负责人谈持久 AI coworker",
+        "originalSummary": "Sherwin Wu 推荐 Lenny 播客，主题是 OpenAI 产品负责人 Tara Seshan 讨论 AI 的第三阶段：persistent AI coworkers。",
+        "whySaved": "",
+        "whyCaptured": "因为 Tara Seshan 讨论的是 AI 从一次性回答变成持久 coworker，正好对应 Codex、ChatGPT Work 和设计工程工作流的演进。",
+        "deepSummary": "这条适合深读产品方向：当 AI 从工具变成长期协作者，界面重点会从 prompt 输入转为任务记忆、权限、进度、handoff 和可追溯结果。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.youtube.com/watch?v=zMvBMfj4cSQ",
+            "title": "AI’s third era: the rise of persistent AI coworkers",
+            "access": "full",
+            "summary": "YouTube 元数据确认主题为 OpenAI 产品负责人 Tara Seshan 讨论 persistent AI coworkers。正文可读信息有限，深度仍需观看视频。",
+            "designValue": "主题高度相关，但信息密度主要在视频内容，适合作为待听材料。",
+            "followUp": "听完后提炼 AI coworker 的状态、权限和任务生命周期。"
+          }
+        ],
+        "learningActions": [
+          "听播客时记录“持久协作者”需要哪些状态：记忆、任务、权限、上下文和验证。",
+          "把现有设计工作流拆成可交给 AI coworker 的长期任务和需要人工验收的节点。",
+          "为一个 AI 设计助手画出任务继续、暂停、交接、复盘四种状态。"
+        ],
+        "tags": [
+          "OpenAI",
+          "AI Coworker",
+          "Product Strategy",
+          "Workflow"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094246826283299227",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ajambrosino/status/2094246826283299227",
+        "author": "Andrew Ambrosino",
+        "handle": "ajambrosino",
+        "datetime": "2026-08-31T02:12:07.000Z",
+        "title": "Codex Desktop 长线程性能提速",
+        "originalSummary": "Andrew Ambrosino 表示 ChatGPT/Codex Desktop 长线程速度提升约 10x，开源 Codex app-server 也能受益。",
+        "whySaved": "",
+        "whyCaptured": "因为长线程 10x 提速说明 agent 产品的体验瓶颈已经从模型能力扩展到 app 性能和历史上下文渲染。",
+        "deepSummary": "对设计工程师来说，这条提醒 agent 产品不是只做模型接入。长任务、长历史、增量渲染、进度读取和上下文压缩都会决定用户是否愿意持续使用。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/ajambrosino/status/2088401536057827344",
+            "title": "Andrew Ambrosino 引用的性能改进上下文",
+            "access": "partial",
+            "summary": "fxtwitter 可见引用上下文为内部反馈/性能改进相关内容，但完整线程信息有限。",
+            "designValue": "补充为什么长线程性能是 agent 产品体验关键，而非孤立工程优化。",
+            "followUp": "继续在开源 codex app-server 中查找具体性能实现。"
+          }
+        ],
+        "learningActions": [
+          "检查自己的 agent 产品原型在 100+ turn 后的滚动、搜索和渲染性能。",
+          "把长线程 UI 的 loading、partial update 和跳转定位做成独立验收项。",
+          "阅读开源 app-server 相关实现，找出可复用的历史渲染优化策略。"
+        ],
+        "tags": [
+          "Codex",
+          "Performance UX",
+          "Agent App",
+          "Desktop"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094252777061114355",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/JamesZmSun/status/2094252777061114355",
+        "author": "James Sun",
+        "handle": "JamesZmSun",
+        "datetime": "2026-08-31T02:35:46.000Z",
+        "title": "WebMCP 进入 ChatGPT Work 云浏览器",
+        "originalSummary": "James Sun 提到 WebMCP 已支持 ChatGPT Work 的 Cloud browser，之后会支持 Chrome extension。",
+        "whySaved": "",
+        "whyCaptured": "因为 WebMCP 支持云浏览器后，网页、权限和 agent 工具之间的边界会变成新的设计系统问题。",
+        "deepSummary": "这条对个人设计师的价值在于看见“网页即工具”的下一步：agent 不只读页面，还可能通过 WebMCP 调用网页暴露的能力，因此权限提示、工具命名和可撤销性会更重要。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/OpenAIDevs/status/2092344873764704345",
+            "title": "OpenAI Developers WebMCP Challenge",
+            "access": "partial",
+            "summary": "引用帖说明 WebMCP Challenge 与 Chromium、Cloudflare、Shopify、Vercel、Render、Netlify 合作，并提供奖金和订阅奖励。",
+            "designValue": "验证 WebMCP 是被生态合作推动的能力，不只是单个产品功能。",
+            "followUp": "跟进 WebMCP spec 与 Cloud browser 支持边界。"
+          }
+        ],
+        "learningActions": [
+          "梳理一个网页产品如果暴露 WebMCP，应提供哪些只读和写入工具。",
+          "设计 WebMCP 权限弹窗时区分一次授权、会话授权和永久授权。",
+          "关注 Chrome extension 版本出现后，比较本地浏览器和云浏览器的信任模型。"
+        ],
+        "tags": [
+          "WebMCP",
+          "ChatGPT Work",
+          "Browser Agent",
+          "Tool Design"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094233605912363285",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Joelc_eth/status/2094233605912363285",
+        "author": "Joel",
+        "handle": "Joelc_eth",
+        "datetime": "2026-08-31T01:19:35.000Z",
+        "title": "Antigravity Teamwork 用多 Agent 做实现与审计",
+        "originalSummary": "Joel 讨论 Antigravity Teamwork：用 Gemini 3.7 Flash High 委派多个子 agent，一个写实现，一个审计边界和测试。",
+        "whySaved": "",
+        "whyCaptured": "因为 Teamwork 把一个模型单打独斗改成实现、审计和测试分工，适合研究 agent 产品的协作 UI。",
+        "deepSummary": "多 agent 的关键不只是并行，而是让用户看见谁负责实现、谁负责审计、谁有权合并。个人设计师可以把它转化为 agent 工作台的信息架构。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/antigravity/status/2093089456312172930",
+            "title": "Antigravity Teamwork 多 Agent 框架",
+            "access": "partial",
+            "summary": "引用帖说明 Google Research/DeepMind 使用 Teamwork 在理论计算机科学、数学和系统工程中取得进展。",
+            "designValue": "提供多 agent 协同的原始场景，可用于设计任务分工和审计 UI。",
+            "followUp": "查找 Antigravity Teamwork 的公开 benchmark/案例，避免只采纳二手总结。"
+          }
+        ],
+        "learningActions": [
+          "为多 agent 工作流画泳道：规划、实现、审计、测试、合并。",
+          "设计每个 agent 输出的证据卡，避免只展示最终结论。",
+          "用一个小代码任务对比单 agent 和多 agent 的缺陷发现率。"
+        ],
+        "tags": [
+          "Multi-agent",
+          "Antigravity",
+          "QA Workflow",
+          "Agent UX"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094215703221961110",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/luusssso/status/2094215703221961110",
+        "author": "lusso",
+        "handle": "luusssso",
+        "datetime": "2026-08-31T00:08:26.000Z",
+        "title": "70s 暖色室内设计作为情绪板样本",
+        "originalSummary": "lusso 分享一组 70s interior design 图片，强调超暖色调的空间氛围仍然成立。",
+        "whySaved": "",
+        "whyCaptured": "因为这组 70s 暖色室内图是高收藏视觉样本，适合拆解材质、光色和复古 UI palette 的情绪来源。",
+        "deepSummary": "这条不是产品新闻，但对个人设计师有视觉训练价值：它展示暖木色、低饱和织物、局部高光和圆角家具如何共同形成稳定情绪。",
+        "linkAnalysis": [
+          {
+            "url": "https://pbs.twimg.com/media/HRAmFUKWQAAvGjm.jpg?name=orig",
+            "title": "70s interior design 视觉参考图组",
+            "access": "full",
+            "summary": "四张图展示暖木色、织物、灯光和复古家具构成的室内氛围。",
+            "designValue": "适合做 UI palette、材质和情绪板训练，不作为事实新闻。",
+            "followUp": "抽取 palette 并做一次小 UI moodboard 练习。"
+          }
+        ],
+        "learningActions": [
+          "从四张图提取 5 色 palette，区分主色、材质色和点缀色。",
+          "把复古空间的暖色策略转译成一个 app 空状态或收藏页视觉方案。",
+          "记录哪些圆角、纹理和灯光元素适合 UI 里借鉴，哪些只适合空间摄影。"
+        ],
+        "tags": [
+          "Visual Reference",
+          "Interior",
+          "Color Mood",
+          "Moodboard"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094279130124623997",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/lyleklyne/status/2094279130124623997",
+        "author": "Lyle Klyne",
+        "handle": "lyleklyne",
+        "datetime": "2026-08-31T04:20:29.000Z",
+        "title": "p5.brush WebGPU fork 用 Agent 做创意编码",
+        "originalSummary": "Lyle Klyne 展示一个 agent-driven 的 p5.brush WebGPU fork 测试，并附带生成/渲染效果图。",
+        "whySaved": "",
+        "whyCaptured": "因为它展示 agent 参与 creative coding 底层迁移，不只是生成静态图，而是改造图形工具本身。",
+        "deepSummary": "这条适合个人设计师关注“AI 帮我做工具”的能力。WebGPU 迁移属于底层实现，但最终会影响创意编码工具的速度、笔刷丰富度和实时反馈。",
+        "linkAnalysis": [
+          {
+            "url": "https://pbs.twimg.com/media/HRBfvjWW0AAgCek.jpg?name=orig",
+            "title": "p5.brush WebGPU fork 截图",
+            "access": "full",
+            "summary": "图片展示 creative coding 工具迁移后的视觉输出与界面线索。",
+            "designValue": "可以作为图形工具底层迁移影响设计反馈速度的观察样本。",
+            "followUp": "继续跟踪项目仓库或作者后续 demo，确认 WebGPU fork 的实际性能收益。"
+          }
+        ],
+        "learningActions": [
+          "把 p5.brush 和 WebGPU 的差异整理成性能、API、可视反馈三类笔记。",
+          "尝试让 agent 修改一个小型 creative coding sketch，并记录可控性。",
+          "为视觉工具的底层迁移做一张用户可感知收益表。"
+        ],
+        "tags": [
+          "Creative Coding",
+          "WebGPU",
+          "p5.js",
+          "Design Engineering"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094279496497266948",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/sh_reya/status/2094279496497266948",
+        "author": "Shreya Shankar",
+        "handle": "sh_reya",
+        "datetime": "2026-08-31T04:21:56.000Z",
+        "title": "Post-AI Data Stack 转向 Agent 可验证数据",
+        "originalSummary": "Shreya Shankar 推荐 Post-AI Data Stack 文章，核心观点是数据团队要把专家判断编码进基础设施，让 agent 产生正确且一致的分析。",
+        "whySaved": "",
+        "whyCaptured": "因为它提出 UI-for-verification：当 agent 负责看数据，界面要帮助人验证推理，而不只是浏览 dashboard。",
+        "deepSummary": "这条对设计工程师非常直接：数据产品的 UI 会从“让人探索图表”转向“让人验证 agent 推理”。这会改变仪表盘、语义层、证据链和异常解释的设计。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.iandmacomber.com/blog/post-ai-data-stack",
+            "title": "The Shape and Feel of the Post-AI Data Stack",
+            "access": "full",
+            "summary": "文章提出 post-AI data stack 需要 agent-readable artifacts、agent-operable tools 和 encoded expert judgement。",
+            "designValue": "非常适合转化成 AI 数据产品的信息架构：人类从探索图表转为验证 agent 推理。",
+            "followUp": "把文中的 agent-readable/operable 概念映射到一个 dashboard 改版方案。"
+          }
+        ],
+        "learningActions": [
+          "把一个现有 dashboard 改成“问题-证据-结论-可追溯查询”的验证型布局。",
+          "为 agent 数据回答设计来源、计算口径、置信度和反例入口。",
+          "阅读文章后提炼 agent-readable artifacts 与 agent-operable tools 的界面要求。"
+        ],
+        "tags": [
+          "Data UX",
+          "AI Agent",
+          "Dashboard",
+          "Verification UI"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094274935212605521",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Tao100086/status/2094274935212605521",
+        "author": "Tao Wang",
+        "handle": "Tao100086",
+        "datetime": "2026-08-31T04:03:48.000Z",
+        "title": "Codex + design skill 的网站视觉流程",
+        "originalSummary": "Tao Wang 分享用 Codex 和设计 skill 制作网站 UI 的过程：先整理 BRIEF.md，再找参考、探索设计规范、生成样式、实现和验收。",
+        "whySaved": "",
+        "whyCaptured": "因为它把 Brief、参考、Design.md、skill、实现和视觉验收串成可执行流程，适合沉淀个人设计师的 AI coding SOP。",
+        "deepSummary": "这条是高度贴近个人设计工程师的流程样本。它把“让 AI 做好看页面”拆成需求、参考、规范、技能、实现和浏览器验收，避免直接 prompt 出图。",
+        "linkAnalysis": [
+          {
+            "url": "https://refero.design/",
+            "title": "Refero — UI/UX Design Inspiration",
+            "access": "full",
+            "summary": "Refero 提供大量 web/iOS UI 截图和搜索能力，是流程中的参考采集源。",
+            "designValue": "适合在生成 Design.md 前做风格和组件模式研究。",
+            "followUp": "选 3 个同类产品页面作为设计参考输入。"
+          },
+          {
+            "url": "https://dribbble.com/",
+            "title": "Dribbble",
+            "access": "partial",
+            "summary": "页面返回 JavaScript/机器人验证提示，无法稳定读取内容。",
+            "designValue": "可作为人工参考库，但不适合自动化深读。",
+            "followUp": "需要人工打开或改用可稳定访问的具体作品链接。"
+          },
+          {
+            "url": "https://superdesign.dev/ide-extension",
+            "title": "Superdesign - AI Product design agent",
+            "access": "full",
+            "summary": "页面说明 Superdesign IDE Extension 是 AI 产品设计 agent，并提供安装、GitHub、Discord、Twitter 入口。",
+            "designValue": "与原帖流程里的 design skill/IDE 设计生成高度相关。",
+            "followUp": "比较 Superdesign 与本地 design skill 的输入输出和视觉验收方式。"
+          }
+        ],
+        "learningActions": [
+          "把这条流程整理成自己的网页/工具 UI 生成 SOP。",
+          "为每个项目先写 BRIEF.md 和 Design.md，再进入实现。",
+          "把浏览器视觉验收设成固定关卡：截图、响应式、交互、媒体加载。"
+        ],
+        "tags": [
+          "AI Coding",
+          "Design Skill",
+          "Design System",
+          "SOP"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094288571804897351",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/SPACEGLEAMTOKYO/status/2094288571804897351",
+        "author": "SPACE GLEAM | AIプロダクト開発スタジオ",
+        "handle": "SPACEGLEAMTOKYO",
+        "datetime": "2026-08-31T04:58:00.000Z",
+        "title": "御御御付 Android 发布食材到味噌汤 AI app",
+        "originalSummary": "SPACE GLEAM 宣布“御御御付”Android 版正式发布，用户可基于冰箱食材或当天心情在 30 秒内获得味噌汤建议，并用通知安排制作。",
+        "whySaved": "",
+        "whyCaptured": "因为这是一个非常窄的 AI 生活工具：从冰箱食材和心情到一碗味噌汤，适合研究小产品如何做明确场景。",
+        "deepSummary": "这个小产品的价值在于场景边界清楚：不是泛用菜谱 AI，而是围绕“一碗味噌汤”的轻决策。个人设计师可学习如何用狭窄问题换取更强完成感。",
+        "linkAnalysis": [
+          {
+            "url": "https://spacegleam.co.jp/blog/omiotsuke-android-app-release/",
+            "title": "「御御御付」Android版アプリを正式リリースしました",
+            "access": "full",
+            "summary": "官方文章确认 Android 原生应用发布，说明可从冰箱食材和心情在 30 秒内建议味噌汤，并支持制作计划通知。",
+            "designValue": "场景极窄但闭环清楚，是 AI 生活工具从“泛建议”变成“单任务完成”的样本。",
+            "followUp": "下载/观察 onboarding 和输入流，判断窄场景是否降低首次使用成本。"
+          }
+        ],
+        "learningActions": [
+          "拆解它的场景边界：输入食材/心情、生成建议、计划通知、复访。",
+          "比较泛菜谱 app 和单一味噌汤 app 的 onboarding 差异。",
+          "尝试为一个生活细分场景设计 30 秒内完成的 AI 决策流。"
+        ],
+        "tags": [
+          "Indie Product",
+          "AI App",
+          "Food UX",
+          "Android"
+        ],
+        "priority": "medium"
+      }
+    ]
+  },
+  {
+    "date": "2026-08-31",
     "generatedAt": "2026-08-31T10:16:00+08:00",
     "batch": "x-ai-design-analysis-2026-08-31-1016",
     "analysisCount": 100,

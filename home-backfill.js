@@ -2,6 +2,281 @@
   window.HOME_BACKFILL = [
   {
     "category": "DESIGN TOOL",
+    "datetime": "2026-08-31T05:03:21.000Z",
+    "author": "NOVA",
+    "handle": "N0V4Dev",
+    "avatar": "https://pbs.twimg.com/profile_images/2062443806214205440/C9wHoXgP_200x200.jpg",
+    "title": "OpenSEO 用 MCP 连接可自托管 SEO 工作流",
+    "summary": "我会帮你抓取它，因为 OpenSEO 把 SEO 工具、MCP server 和自托管放在一起，可作为“垂直工具如何 agent 化”的界面参考。",
+    "url": "https://x.com/N0V4Dev/status/2094289920118403471",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 10 VIEWS",
+    "_analysisTheme": "设计工具 / 开源 SaaS",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://github.com/every-app/open-seo"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRBpk9dWkAAq7Bz.jpg?name=orig"
+      }
+    ],
+    "article": {
+      "kind": "external",
+      "title": "GitHub - every-app/open-seo",
+      "preview": "GitHub 页面显示它是 Semrush/Ahrefs 的开源替代品，适合继续查看 README、部署和 MCP 能力。",
+      "url": "https://github.com/every-app/open-seo"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-31T04:58:00.000Z",
+    "author": "SPACE GLEAM | AIプロダクト開発スタジオ",
+    "handle": "SPACEGLEAMTOKYO",
+    "avatar": "https://pbs.twimg.com/profile_images/2072382172670164992/C3dRpILh_200x200.jpg",
+    "title": "御御御付 Android 发布食材到味噌汤 AI app",
+    "summary": "我会帮你抓取它，因为这是一个非常窄的 AI 生活工具：从冰箱食材和心情到一碗味噌汤，适合研究小产品如何做明确场景。",
+    "url": "https://x.com/SPACEGLEAMTOKYO/status/2094288571804897351",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 3 VIEWS",
+    "_analysisTheme": "独立产品 / AI 生活工具",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://spacegleam.co.jp/blog/omiotsuke-android-app-release/"
+    ],
+    "article": {
+      "kind": "external",
+      "title": "「御御御付」Android版アプリを正式リリースしました",
+      "preview": "官方文章确认 Android 原生应用发布，说明可从冰箱食材和心情在 30 秒内建议味噌汤，并支持制作计划通知。",
+      "url": "https://spacegleam.co.jp/blog/omiotsuke-android-app-release/"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-31T04:21:56.000Z",
+    "author": "Shreya Shankar",
+    "handle": "sh_reya",
+    "avatar": "https://pbs.twimg.com/profile_images/1342529111839944705/hzr44mb5_200x200.jpg",
+    "title": "Post-AI Data Stack 转向 Agent 可验证数据",
+    "summary": "我会帮你抓取它，因为它提出 UI-for-verification：当 agent 负责看数据，界面要帮助人验证推理，而不只是浏览 dashboard。",
+    "url": "https://x.com/sh_reya/status/2094279496497266948",
+    "metrics": "0 REPLIES · 0 REPOSTS · 19 LIKES · 21 BOOKMARKS · 1038 VIEWS",
+    "_analysisTheme": "AI 产品 / 数据体验",
+    "_analysisPriority": "high",
+    "links": [
+      "https://www.iandmacomber.com/blog/post-ai-data-stack"
+    ],
+    "article": {
+      "kind": "external",
+      "title": "The Shape and Feel of the Post-AI Data Stack",
+      "preview": "文章提出 post-AI data stack 需要 agent-readable artifacts、agent-operable tools 和 encoded expert judgement。",
+      "url": "https://www.iandmacomber.com/blog/post-ai-data-stack"
+    }
+  },
+  {
+    "category": "CREATIVE CODING",
+    "datetime": "2026-08-31T04:20:29.000Z",
+    "author": "Lyle Klyne",
+    "handle": "lyleklyne",
+    "avatar": "https://pbs.twimg.com/profile_images/2046518094529777664/V8ghqCzf_200x200.jpg",
+    "title": "p5.brush WebGPU fork 用 Agent 做创意编码",
+    "summary": "我会帮你抓取它，因为它展示 agent 参与 creative coding 底层迁移，不只是生成静态图，而是改造图形工具本身。",
+    "url": "https://x.com/lyleklyne/status/2094279130124623997",
+    "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 0 BOOKMARKS · 71 VIEWS",
+    "_analysisTheme": "视觉作品 / Creative Coding",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRBfvjWW0AAgCek.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-31T04:03:48.000Z",
+    "author": "Tao Wang",
+    "handle": "Tao100086",
+    "avatar": "https://pbs.twimg.com/profile_images/2062083482109820930/I7Zk9MPv_200x200.jpg",
+    "title": "Codex + design skill 的网站视觉流程",
+    "summary": "我会帮你抓取它，因为它把 Brief、参考、Design.md、skill、实现和视觉验收串成可执行流程，适合沉淀个人设计师的 AI coding SOP。",
+    "url": "https://x.com/Tao100086/status/2094274935212605521",
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 1 BOOKMARKS · 414 VIEWS",
+    "_analysisTheme": "设计工程 / AI 工作流",
+    "_analysisPriority": "high",
+    "links": [
+      "https://refero.design/",
+      "https://dribbble.com/",
+      "https://superdesign.dev/ide-extension"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRBSG4VakAAS4zD.jpg?name=orig"
+      }
+    ],
+    "article": {
+      "kind": "external",
+      "title": "Refero — UI/UX Design Inspiration",
+      "preview": "Refero 提供大量 web/iOS UI 截图和搜索能力，是流程中的参考采集源。",
+      "url": "https://refero.design/"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-31T03:47:22.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "Anthropic Max@20 窗口限额误读",
+    "summary": "我会帮你抓取它，因为它把订阅权益里的“20x”拆回会话窗口和周限额，提醒设计师不要只看营销倍率，要看真实使用边界。",
+    "url": "https://x.com/dotey/status/2094270799175680460",
+    "metrics": "37 REPLIES · 2 REPOSTS · 128 LIKES · 22 BOOKMARKS · 32790 VIEWS",
+    "_analysisTheme": "AI 产品 / 定价透明度",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "SataEric",
+      "handle": "SataEricUX",
+      "text": "The whole “20x” in Claude’s pricing is so misleading.\n\nThe $100 plan says 5x Pro limits, while the $200 plan says 20x Pro limits. That makes it sound like you’re getting 4x the usage.\n\nBut the 20x applies only to the 5-hour usage window. The weekly limit is basically just 2x the $100 plan.\n\nI spent way too much time digging through the internet and Reddit to figure this out. They could’ve just stated the limits directly instead of marketing it as “20x.”\n\nThat alone would’ve saved me hours of confusion.",
+      "url": "https://x.com/SataEricUX/status/2094121392229028236"
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-31T03:31:53.000Z",
+    "author": "OpenClaw🦞",
+    "handle": "openclaw",
+    "avatar": "https://pbs.twimg.com/profile_images/2017100664984186880/orbYx-3U_200x200.jpg",
+    "title": "OpenClaw 2.0 强化开源 Agent 浏览器体验",
+    "summary": "我会帮你抓取它，因为 OpenClaw 2.0 从安装、浏览器体验和工作流角度重新包装开源 agent，值得设计工程师研究本地 agent 的产品化路径。",
+    "url": "https://x.com/openclaw/status/2094266903204434431",
+    "metrics": "121 REPLIES · 179 REPOSTS · 1339 LIKES · 470 BOOKMARKS · 136068 VIEWS",
+    "_analysisTheme": "AI Agent / 开源工具",
+    "_analysisPriority": "high",
+    "links": [
+      "https://openclaw.ai/blog/openclaw-2-accidentally"
+    ],
+    "article": {
+      "kind": "external",
+      "title": "OpenClaw 2.0, Accidentally",
+      "preview": "官方文章说明 2.0 源于简化安装和一等浏览器体验，页面还导向 ecosystem、integrations、docs 与 GitHub。",
+      "url": "https://openclaw.ai/blog/openclaw-2-accidentally"
+    }
+  },
+  {
+    "category": "AI VIDEO",
+    "datetime": "2026-08-31T03:10:38.000Z",
+    "author": "Flowith",
+    "handle": "flowith",
+    "avatar": "https://pbs.twimg.com/profile_images/1784589386119786496/Vqw6DG_i_200x200.jpg",
+    "title": "Flowith 对比 Seedance 2.5 与 Wan 3.0",
+    "summary": "我会帮你抓取它，因为同一 storm-at-sea prompt 的双模型对比，适合练习个人设计师如何评价镜头感、节奏和情绪一致性。",
+    "url": "https://x.com/flowith/status/2094261554309222865",
+    "metrics": "1 REPLIES · 0 REPOSTS · 5 LIKES · 1 BOOKMARKS · 804 VIEWS",
+    "_analysisTheme": "AI Video / 视觉评估",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094261269784387584/vid/avc1/480x600/nhNn-8xjm_lGvNAH.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094261269784387584/img/TRTuslqz5X0HcGXp.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-31T03:02:23.000Z",
+    "author": "Sherwin Wu",
+    "handle": "sherwinwu",
+    "avatar": "https://pbs.twimg.com/profile_images/1616710195358625792/fr1kIAwe_200x200.jpg",
+    "title": "OpenAI 产品负责人谈持久 AI coworker",
+    "summary": "我会帮你抓取它，因为 Tara Seshan 讨论的是 AI 从一次性回答变成持久 coworker，正好对应 Codex、ChatGPT Work 和设计工程工作流的演进。",
+    "url": "https://x.com/sherwinwu/status/2094259477096825250",
+    "metrics": "0 REPLIES · 3 REPOSTS · 21 LIKES · 13 BOOKMARKS · 4815 VIEWS",
+    "_analysisTheme": "AI 产品 / 工作流",
+    "_analysisPriority": "high",
+    "links": [
+      "https://www.youtube.com/watch?v=zMvBMfj4cSQ"
+    ],
+    "article": {
+      "kind": "external",
+      "title": "AI’s third era: the rise of persistent AI coworkers",
+      "preview": "YouTube 元数据确认主题为 OpenAI 产品负责人 Tara Seshan 讨论 persistent AI coworkers。正文可读信息有限，深度仍需观看视频。",
+      "cover": "https://img.youtube.com/vi/zMvBMfj4cSQ/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=zMvBMfj4cSQ"
+    }
+  },
+  {
+    "category": "AI EVALUATION",
+    "datetime": "2026-08-31T02:54:35.000Z",
+    "author": "👩‍💻 Paige Bailey",
+    "handle": "DynamicWebPaige",
+    "avatar": "https://pbs.twimg.com/profile_images/626762747330457600/X3Bx503W_200x200.jpg",
+    "title": "DeepORG 把数据库 Agent 评测做成治理任务",
+    "summary": "我会帮你抓取它，因为 DeepORG 不只评答案，还评方法、预期行为和安全动作，适合转化成设计工程师评估 agent 的验收维度。",
+    "url": "https://x.com/DynamicWebPaige/status/2094257515085406510",
+    "metrics": "1 REPLIES · 3 REPOSTS · 5 LIKES · 5 BOOKMARKS · 1669 VIEWS",
+    "_analysisTheme": "AI Agent / 评测治理",
+    "_analysisPriority": "high",
+    "links": [
+      "https://graphjin.com/benchmark/"
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "spacy",
+      "handle": "dosco",
+      "text": "google gemini-3.7-flash and gemini-3.5-flash-lite are the best workhorse models out there also cheap and very fast.",
+      "url": "https://x.com/dosco/status/2094207984931082625"
+    },
+    "article": {
+      "kind": "external",
+      "title": "DeepORG — The Organizational Agent Benchmark",
+      "preview": "页面说明 DeepORG 用 live database workflow 评估 agent 的正确性、安全、成本和 policy adherence，强调组织级数据库场景。",
+      "url": "https://graphjin.com/benchmark/"
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-31T02:35:46.000Z",
+    "author": "James Sun",
+    "handle": "JamesZmSun",
+    "avatar": "https://pbs.twimg.com/profile_images/1565470294625566720/STSzQ2m1_200x200.jpg",
+    "title": "WebMCP 进入 ChatGPT Work 云浏览器",
+    "summary": "我会帮你抓取它，因为 WebMCP 支持云浏览器后，网页、权限和 agent 工具之间的边界会变成新的设计系统问题。",
+    "url": "https://x.com/JamesZmSun/status/2094252777061114355",
+    "metrics": "4 REPLIES · 4 REPOSTS · 61 LIKES · 12 BOOKMARKS · 5809 VIEWS",
+    "_analysisTheme": "AI Agent / WebMCP",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "OpenAI Developers",
+      "handle": "OpenAIDevs",
+      "text": "The WebMCP Challenge is here.\n\nWe’ve teamed up with @ChromiumDev, @CloudflareDev, @ShopifyDevs, @vercel, @render, and @Netlify for a 10-day hackathon.\n\nUp for grabs: $35,000 in cash prizes, Codex Micros, ChatGPT Pro subscriptions, and more prizes from our supporters.",
+      "url": "https://x.com/OpenAIDevs/status/2092344873764704345"
+    }
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-08-31T02:12:07.000Z",
+    "author": "Andrew Ambrosino",
+    "handle": "ajambrosino",
+    "avatar": "https://pbs.twimg.com/profile_images/2089772239113920513/wbBESudl_200x200.jpg",
+    "title": "Codex Desktop 长线程性能提速",
+    "summary": "我会帮你抓取它，因为长线程 10x 提速说明 agent 产品的体验瓶颈已经从模型能力扩展到 app 性能和历史上下文渲染。",
+    "url": "https://x.com/ajambrosino/status/2094246826283299227",
+    "metrics": "23 REPLIES · 13 REPOSTS · 272 LIKES · 19 BOOKMARKS · 14126 VIEWS",
+    "_analysisTheme": "设计工程 / Agent App 性能",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Andrew Ambrosino",
+      "handle": "ajambrosino",
+      "text": "always nice to see internal slack messages like this– thanks @btraut",
+      "url": "https://x.com/ajambrosino/status/2088401536057827344"
+    }
+  },
+  {
+    "category": "DESIGN TOOL",
     "datetime": "2026-08-31T02:00:00.000Z",
     "author": "Julian Goldie SEO",
     "handle": "JulianGoldieSEO",
@@ -63,6 +338,28 @@
     ]
   },
   {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-31T01:41:00.000Z",
+    "author": "Rene Wang",
+    "handle": "rea1DonandTrump",
+    "avatar": "https://pbs.twimg.com/profile_images/1719683721845198848/EIth0eWl_200x200.jpg",
+    "title": "Rene Wang 讲可承受翻译的界面",
+    "summary": "我会帮你抓取它，因为它把国际化从翻译问题提升到布局、输入、语义和渠道设计，是出海产品设计师需要反复复盘的基础能力。",
+    "url": "https://x.com/rea1DonandTrump/status/2094238995312226704",
+    "metrics": "2 REPLIES · 6 REPOSTS · 50 LIKES · 44 BOOKMARKS · 2304 VIEWS",
+    "_analysisTheme": "产品设计 / 国际化",
+    "_analysisPriority": "high",
+    "links": [
+      "https://rene.wang/essay/build-interfaces-that-survive-translation"
+    ],
+    "article": {
+      "kind": "external",
+      "title": "Build Interfaces That Survive Translation",
+      "preview": "文章讨论跨语言界面失败的原因，包括文本压缩、通道、单位、输入和镜像测试等。",
+      "url": "https://rene.wang/essay/build-interfaces-that-survive-translation"
+    }
+  },
+  {
     "category": "DESIGN TOOL",
     "datetime": "2026-08-31T01:33:49.000Z",
     "author": "Github Trending",
@@ -110,6 +407,26 @@
     "links": [
       "https://x.com/i/article/2094233267507716096"
     ]
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-31T01:19:35.000Z",
+    "author": "Joel",
+    "handle": "Joelc_eth",
+    "avatar": "https://pbs.twimg.com/profile_images/1952049621225676800/P4GV4DXP_200x200.jpg",
+    "title": "Antigravity Teamwork 用多 Agent 做实现与审计",
+    "summary": "我会帮你抓取它，因为 Teamwork 把一个模型单打独斗改成实现、审计和测试分工，适合研究 agent 产品的协作 UI。",
+    "url": "https://x.com/Joelc_eth/status/2094233605912363285",
+    "metrics": "0 REPLIES · 1 REPOSTS · 6 LIKES · 5 BOOKMARKS · 763 VIEWS",
+    "_analysisTheme": "AI Agent / 多智能体协作",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Google Antigravity",
+      "handle": "antigravity",
+      "text": "Google Research and Google DeepMind researchers just used Teamwork in Antigravity to achieve breakthroughs in theoretical computer science, research mathematics, and systems engineering. Teamwork is a multi-agent framework where agents propose, stress-test, and build solutions autonomously over hours or days. It uses a lot of tokens and is overkill for everyday tasks, but if you're tackling frontier, long-horizon challenges - give it a try!",
+      "url": "https://x.com/antigravity/status/2093089456312172930"
+    }
   },
   {
     "category": "AI PRODUCT",
@@ -238,6 +555,37 @@
     "_analysisPriority": "medium",
     "links": [
       "https://pixstag.com/"
+    ]
+  },
+  {
+    "category": "关注 · 视觉作品",
+    "datetime": "2026-08-31T00:08:26.000Z",
+    "author": "lusso",
+    "handle": "luusssso",
+    "avatar": "https://pbs.twimg.com/profile_images/2088305849131204608/7Gb3eGst_200x200.jpg",
+    "title": "70s 暖色室内设计作为情绪板样本",
+    "summary": "我会帮你抓取它，因为这组 70s 暖色室内图是高收藏视觉样本，适合拆解材质、光色和复古 UI palette 的情绪来源。",
+    "url": "https://x.com/luusssso/status/2094215703221961110",
+    "metrics": "46 REPLIES · 517 REPOSTS · 5175 LIKES · 1117 BOOKMARKS · 92205 VIEWS",
+    "_analysisTheme": "视觉作品 / 室内氛围",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRAmFUKWQAAvGjm.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRAmFUKWkAEEjrm.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRAmFUMXoAAqP4s.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRAmFUKW0AA8WQu.jpg?name=orig"
+      }
     ]
   },
   {
