@@ -1,5 +1,3071 @@
 window.DESIGNER_ANALYSIS = [
   {
+    "date": "2026-08-31",
+    "generatedAt": "2026-08-31T10:16:00+08:00",
+    "batch": "x-ai-design-analysis-2026-08-31-1016",
+    "analysisCount": 100,
+    "homeCount": 89,
+    "likeCount": 11,
+    "linksInspected": 52,
+    "unavailableLinks": 0,
+    "summary": "2026-08-31 首批补充：运行前当天 Home 和 Analysis 均为 0。本轮 ego-browser 登录态覆盖 Home 当前流、正在关注、Design Engineers、AI 御三家超级员工、product/design live search 与 indie visual live search；Home 观察 2790 次 appearances、409 个唯一 status、272 个上海当天候选，精选写入 20 条。Likes 观察 293 次 appearances、36 个唯一 status，发现 5 个 fresh Like，其中 1 条 X 标记可能敏感而仅保留文本/URL。Analysis 写入 100 条：89 Home、4 个非敏感 fresh Like、7 个历史 CSV Like 回补。",
+    "sourceWindow": {
+      "strategy": "使用 ego-browser 独立 task space 9 复用 X 登录态；Home 覆盖 x.com/home 当前流、正在关注、Design Engineers、AI 御三家超级员工，以及 X live search 的 product design tools 和 indie AI design visual。Likes 打开 x.com/neoedon414/likes 并重定向到 /i/history/likes。fxtwitter/vxtwitter 只用于稳定已观察 status 的作者、时间、媒体、指标、引用和 t.co 展开；外链读取限于原帖/引用帖中的产品页、GitHub、文档、文章和视频页。",
+      "newestHomeDatetime": "2026-08-31T02:04:44.000Z",
+      "oldestHomeDatetime": "2026-07-20T17:26:25.000Z",
+      "newestWrittenHomeDatetime": "2026-08-31T02:00:00.000Z",
+      "oldestWrittenHomeDatetime": "2026-08-30T17:47:00.000Z",
+      "newestLikeDatetime": "2026-08-30T14:14:36.000Z",
+      "oldestLikeDatetime": "2026-08-29T01:30:31.000Z",
+      "expandedWindow": "Home 写入 20 条均属于 Asia/Shanghai 2026-08-31。Analysis same-day Home 严格排除回复/噪声后为 89 条，叠加 4 条非敏感 fresh Like 后仍不足 100，因此回补 7 条历史 CSV Like（2026-07-15 至 2026-07-22）作为个人收藏学习样本。",
+      "observed": {
+        "homeBeforeTodayCount": 0,
+        "homeRaw": 2790,
+        "homeUnique": 409,
+        "homeFreshUnknown": 407,
+        "homeTodayCandidates": 272,
+        "homeSelected": 20,
+        "homeRejectedOrLeftover": 387,
+        "homeDuplicateKnown": 2,
+        "bySource": {
+          "Home / current": {
+            "raw": 503,
+            "unique": 92
+          },
+          "Home tab / 正在关注": {
+            "raw": 259,
+            "unique": 53
+          },
+          "Home tab / Design Engineers": {
+            "raw": 303,
+            "unique": 57
+          },
+          "Home tab / AI 御三家超级员工": {
+            "raw": 361,
+            "unique": 71
+          },
+          "X search / product design tools live": {
+            "raw": 805,
+            "unique": 86
+          },
+          "X search / indie AI design visual live": {
+            "raw": 559,
+            "unique": 52
+          }
+        },
+        "likeRaw": 293,
+        "likeUnique": 36,
+        "freshLikesObserved": 5,
+        "freshLikesWritten": 5,
+        "freshLikesAnalyzed": 4,
+        "historicalCsvLikesAnalyzed": 7,
+        "knownLikeBoundary": "2093718731159748922",
+        "knownLikeBoundaryHits": 255,
+        "skippedAnalysisLikes": [
+          {
+            "id": "2093511582018118038",
+            "reason": "X possibly_sensitive=true；Like backfill 仅文本化保留，Analysis 不用敏感影视片段凑数"
+          }
+        ],
+        "linksRead": 52,
+        "linkFull": 16,
+        "linkPartial": 36,
+        "linkUnavailable": 0
+      }
+    },
+    "items": [
+      {
+        "id": "2094243627123744937",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dotey/status/2094243627123744937",
+        "author": "宝玉",
+        "handle": "dotey",
+        "datetime": "2026-08-31T01:59:24.000Z",
+        "title": "Vibe Coding 按变化点拆模块",
+        "originalSummary": "原帖内容：如今 Vibe Coding 盛行，然而就算是用 AI 写代码，也少不了要考虑如何划分好模块、保障低模块之间耦合以及系统的拓展性。 如何划分好模块这些事是传统软件工程和架构设计范畴，但你做好了的话，AI 生成的代码质量更高系统也更稳定。 很多新手对于如何划分模块并没有什么概念，甚至很多编程老手也只是直觉知道怎么分，但也讲不出个所以然。 一句话：模块按“什么会变”来分，不是按“先做什么后做什么”来分 新手容易犯的一个错误是按照流程来划分模块。 拿电商网站来说，购物流程是：用户…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：如今 Vibe Coding 盛行，然而就算是用 AI 写代码，也少不了要考虑如何划分好模块、保障低模块之间耦合以及系统的拓展性。 如何划分好模块这些事是传统软件工程和架构设计范畴，但你做好了的话，AI 生成的代码质量更高系统也更稳定。 很多新手对于如何划分模块并没有什么概念，甚至很多编程老手也只是直觉知道怎么分，但也讲不出个所以然。 一句话：模块按“什么会变”来分，不是按“先做什么后做什么”来分 新手容易犯的一个错误是按照流程来划分模块。 拿电商网站来说，购物流程是：用户下单，先收到请求，再算钱，再扣款，再存库…",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/dotey/status/2094133227627622605",
+            "title": "X 引用帖：宝玉",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：越是编程经验丰富，越是不放心放手让 AI 去代码和验证，很像带实习生或者带新人，总担心别人把代码库搞坏了，其实人家技术挺好的。 我真正放手让 AI 去写代码不怎么看代码是在我不熟悉的领域。 前不久我开始用 AI 写 Swift + AppKit 代码，就属于我不熟悉的领域，没办法只能让 AI 去写，虽然也看得懂但是毕竟没那么专业不觉得比 AI 写的更好。 慢慢的发现 AI 写的质量挺好的，很多细节没太有必要去纠结，只要整理在功能、安全…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：宝玉"
+          }
+        ],
+        "learningActions": [
+          "把「Vibe Coding 按变化点拆模块」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094242871708897699",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/vikingmute/status/2094242871708897699",
+        "author": "Viking",
+        "handle": "vikingmute",
+        "datetime": "2026-08-31T01:56:24.000Z",
+        "title": "Tailscale tailcat 用短 token 做临时传输",
+        "originalSummary": "原帖内容：看到别人最近分享的这个 Tailscale 新出的 tailcat 非常有趣啊 https://tailscale.com/tailcat 不需要账号 一边监听 生成一段短 token另一边把 token 传过去就能连上， 适合临时安全传文件或转发 我觉得挺实用的。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：看到别人最近分享的这个 Tailscale 新出的 tailcat 非常有趣啊 https://tailscale.com/tailcat 不需要账号 一边监听 生成一段短 token另一边把 token 传过去就能连上， 适合临时安全传文件或转发 我觉得挺实用的。",
+        "linkAnalysis": [
+          {
+            "url": "https://tailscale.com/tailcat",
+            "title": "tailcat",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：tailcat，Securely connect to anything on the internet with Tailscale. Built on WireGuard®️, Tailscale enables you to make finely configurable connections, secured end-to-end according to zero trust principles, between any resour…。用于判断它是否值得继续读、…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "tailcat"
+          }
+        ],
+        "learningActions": [
+          "把「Tailscale tailcat 用短 token …」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094235534428426477",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/DLKFZWilliam2/status/2094235534428426477",
+        "author": "独立开发者William",
+        "handle": "DLKFZWilliam2",
+        "datetime": "2026-08-31T01:27:15.000Z",
+        "title": "App Store 截图可能影响 ASO 语义",
+        "originalSummary": "原帖内容：最近在学习和研究App Store的ASO，分享一个冷知识： 产品宣传图、截图据说苹果会语义分析，对搜索也有一定影响。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「个人收藏偏好」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：最近在学习和研究App Store的ASO，分享一个冷知识： 产品宣传图、截图据说苹果会语义分析，对搜索也有一定影响。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「App Store 截图可能影响 ASO 语义」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094225394899792212",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/tangpanqing/status/2094225394899792212",
+        "author": "汤光头",
+        "handle": "tangpanqing",
+        "datetime": "2026-08-31T00:46:57.000Z",
+        "title": "AI 视频生成价格继续下探",
+        "originalSummary": "原帖内容：最新AI视频生成价格 2026年08月31日 SD 2.0 最低1元/秒 Wan3 最低0.4元/秒 PixStag 最低0.1元/秒 这还说啥啊，使劲蹬！👉 https://PixStag.com",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：最新AI视频生成价格 2026年08月31日 SD 2.0 最低1元/秒 Wan3 最低0.4元/秒 PixStag 最低0.1元/秒 这还说啥啊，使劲蹬！👉 https://PixStag.com",
+        "linkAnalysis": [
+          {
+            "url": "https://pixstag.com/",
+            "title": "PixStag｜AI Video Generation Platform - 720P from just $0.014/sec, ready in 3 minutes",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：PixStag｜AI Video Generation Platform - 720P from just $0.014/sec, ready in 3 minutes，PixStag｜AI Video Generation Platform - 720P from just $0.014/sec, ready in 3 minutes PixStag API Documentation Log In Welcome Back &times; Email Password For…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "PixStag｜AI Video Generation Platform - 720P from just $0.014/sec, ready in 3 minutes"
+          }
+        ],
+        "learningActions": [
+          "把「AI 视频生成价格继续下探」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094214044093956122",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/imaskie/status/2094214044093956122",
+        "author": "askie",
+        "handle": "imaskie",
+        "datetime": "2026-08-31T00:01:51.000Z",
+        "title": "Grix 把 Agent 定义成组织角色",
+        "originalSummary": "原帖内容：The smallest unit of a future company isn't the model. It's the agent. For two years nearly every AI product has taught the same skill: phrase things well enough that the model gives a better output. Prompts, context, workflows — all optim…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：The smallest unit of a future company isn't the model. It's the agent. For two years nearly every AI product has taught the same skill: phrase things well enough that the model gives a better output. Prompts, context, workflows — all optimizing how one person…",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/askie/grix",
+            "title": "GitHub - askie/grix: Grix : Work with agents like talking to people.",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：GitHub - askie/grix: Grix : Work with agents like talking to people.，Grix : Work with agents like talking to people. Contribute to askie/grix development by creating an account on GitHub.。用于判断它是否值得继续读、试用或拆解。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "GitHub - askie/grix: Grix : Work with agents like talking to people."
+          }
+        ],
+        "learningActions": [
+          "把「Grix 把 Agent 定义成组织角色」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094206102896316706",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/N0V4Dev/status/2094206102896316706",
+        "author": "NOVA",
+        "handle": "N0V4Dev",
+        "datetime": "2026-08-30T23:30:18.000Z",
+        "title": "Warp 开源 agentic terminal 方向",
+        "originalSummary": "原帖内容：Warp is moving toward an agentic development environment built right into the terminal. It aims to modernize the CLI experience by adding contemporary UI features and code editing capabilities that we usually expect from an IDE. The projec…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Warp is moving toward an agentic development environment built right into the terminal. It aims to modernize the CLI experience by adding contemporary UI features and code editing capabilities that we usually expect from an IDE. The project is written in Rust…",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/warpdotdev/warp",
+            "title": "GitHub - warpdotdev/warp: Warp is an agentic development environment, born out of the terminal.",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：GitHub - warpdotdev/warp: Warp is an agentic development environment, born out of the terminal.，Warp is an agentic development environment, born out of the terminal. - warpdotdev/warp。用于判断它是否值得继续读、试用或拆解。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "GitHub - warpdotdev/warp: Warp is an agentic development environment, born out of the terminal."
+          }
+        ],
+        "learningActions": [
+          "把「Warp 开源 agentic terminal 方向」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094145378769912014",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/lennysan/status/2094145378769912014",
+        "author": "Lenny Rachitsky",
+        "handle": "lennysan",
+        "datetime": "2026-08-30T19:29:00.000Z",
+        "title": "Codex 产品文化里的 mainlining 信号",
+        "originalSummary": "原帖内容：\"Are you mainlining it yet?\" This is one of the key internal memes at @OpenAI, and a big part of the reason there's been a vibe shift toward Codex over the past few months. It asks: are you using the product all day, every day? Are you dep…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：\"Are you mainlining it yet?\" This is one of the key internal memes at @OpenAI, and a big part of the reason there's been a vibe shift toward Codex over the past few months. It asks: are you using the product all day, every day? Are you depending on it? Are yo…",
+        "linkAnalysis": [
+          {
+            "url": "https://youtu.be/zMvBMfj4cSQ",
+            "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)，Tara Seshan leads product for Codex and ChatGPT Work at OpenAI (alongside previous podcast guest Andrew Ambrosino, who’s her engineering manager). Befor…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)"
+          }
+        ],
+        "learningActions": [
+          "把「Codex 产品文化里的 mainlining 信号」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094237189320425703",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/gittrend_io/status/2094237189320425703",
+        "author": "Github Trending",
+        "handle": "gittrend_io",
+        "datetime": "2026-08-31T01:33:49.000Z",
+        "title": "baoyu-design 把 Claude Design 放进编辑器",
+        "originalSummary": "原帖内容：Want polished UI mockups without leaving your editor? baoyu-design: Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as… #JavaScript #OpenSource #GitHub O…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Want polished UI mockups without leaving your editor? baoyu-design: Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as… #JavaScript #OpenSource #GitHub On GitHub → JimLiu/ba…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「baoyu-design 把 Claude Desig…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094243779720946096",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/JulianGoldieSEO/status/2094243779720946096",
+        "author": "Julian Goldie SEO",
+        "handle": "JulianGoldieSEO",
+        "datetime": "2026-08-31T02:00:00.000Z",
+        "title": "Google Stitch 强化协同设计 agent",
+        "originalSummary": "原帖内容：GOOGLE STITCH JUST MADE “CODE FIRST” LOOK BACKWARDS. The smartest part isn’t that AI can design your app. It’s that you can kill bad ideas before writing a single line of code. What changed: → Stitch now works like a live collaborative des…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：GOOGLE STITCH JUST MADE “CODE FIRST” LOOK BACKWARDS. The smartest part isn’t that AI can design your app. It’s that you can kill bad ideas before writing a single line of code. What changed: → Stitch now works like a live collaborative design agent → It strea…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Google Stitch 强化协同设计 agent」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094227047707296120",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/JayaNayak21/status/2094227047707296120",
+        "author": "Jaya Nayak",
+        "handle": "JayaNayak21",
+        "datetime": "2026-08-31T00:53:31.000Z",
+        "title": "Claude /design skill 进入 CLI 工作流",
+        "originalSummary": "原帖内容：🚨 Claude Code just got a serious design upgrade. 🤩🔥 The new \"/design skill\" brings Claude Design’s artboard workflow directly into the CLI and Claude Code Desktop. Give Claude a brief → it creates editable UI artboards → pick your favor…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：🚨 Claude Code just got a serious design upgrade. 🤩🔥 The new \"/design skill\" brings Claude Design’s artboard workflow directly into the CLI and Claude Code Desktop. Give Claude a brief → it creates editable UI artboards → pick your favorite → tweak it → Cla…",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/adocomplete/status/2094145795276873891",
+            "title": "X 引用帖：Ado",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：The /design skill brings Claude Design’s artboard workflow into the CLI and Claude Code Desktop, built on artifacts. Run it with a brief and Claude publishes a canvas of editable artboards for your UI. Pick one, tweak i…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Ado"
+          }
+        ],
+        "learningActions": [
+          "把「Claude /design skill 进入 CLI…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094230981062390140",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/0xrux/status/2094230981062390140",
+        "author": "RUX",
+        "handle": "0xrux",
+        "datetime": "2026-08-31T01:09:09.000Z",
+        "title": "截图转代码工具用于 UI 还原",
+        "originalSummary": "原帖内容：just found an open-source tool that turns UI screenshots into working code. 74,000+ stars on GitHub. give it a reference screenshot, and it analyzes the layout, spacing, buttons, components, everything then reconstructs the whole thing in …",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：just found an open-source tool that turns UI screenshots into working code. 74,000+ stars on GitHub. give it a reference screenshot, and it analyzes the layout, spacing, buttons, components, everything then reconstructs the whole thing in code. if you’re vibe…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「截图转代码工具用于 UI 还原」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094169883038605359",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/artur_bien/status/2094169883038605359",
+        "author": "Artur Bień",
+        "handle": "artur_bien",
+        "datetime": "2026-08-30T21:06:22.000Z",
+        "title": "不要被旧动效模式轻易打动",
+        "originalSummary": "原帖内容：Design engineering tip: Don’t be easily impressed. When building a side project, make something genuinely useful and/or genuinely novel. Motion-powered 3D folders, magnetic buttons, and animated tab pills were solved half a decade ago.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Design engineering tip: Don’t be easily impressed. When building a side project, make something genuinely useful and/or genuinely novel. Motion-powered 3D folders, magnetic buttons, and animated tab pills were solved half a decade ago.",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「不要被旧动效模式轻易打动」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094233163329667514",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/fly_in_X/status/2094233163329667514",
+        "author": "笑点有点高 𝓕𝓵𝔂𝓲𝓷𝓧",
+        "handle": "fly_in_X",
+        "datetime": "2026-08-31T01:17:49.000Z",
+        "title": "DeepInterview 做语音优先模拟面试",
+        "originalSummary": "原帖内容：每日AI工具推荐： 🧵 DeepInterview：开源的语音优先 AI 模拟面试官 练面试，对着屏幕打字没用——真实面试是开口说的。 DeepInterview 的解法： 上传 CV + JD → AI 预读简历、研究公司、生成个性化问题计划 → 你开口回答 → AI 实时追问 + 打分 → 输出评分卡 + 学习教练 • STT → LLM → TTS 实时循环，支持抢话、自适应追问 • LangGraph 流水线做预计算，实时对话保持流畅 • 7 种语言语音面试，UI…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：每日AI工具推荐： 🧵 DeepInterview：开源的语音优先 AI 模拟面试官 练面试，对着屏幕打字没用——真实面试是开口说的。 DeepInterview 的解法： 上传 CV + JD → AI 预读简历、研究公司、生成个性化问题计划 → 你开口回答 → AI 实时追问 + 打分 → 输出评分卡 + 学习教练 • STT → LLM → TTS 实时循环，支持抢话、自适应追问 • LangGraph 流水线做预计算，实时对话保持流畅 • 7 种语言语音面试，UI 中英双语 • 完全本地运行：Ollam…",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/ngoanpv/DeepInterview",
+            "title": "GitHub - ngoanpv/DeepInterview: Open-source, voice-first AI mock interviewer. Upload your CV + a job description, practice out loud with an adaptive multilingual interviewer, get scored and coached on your weak areas. LiveKit · LangGraph · Next.js",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：GitHub - ngoanpv/DeepInterview: Open-source, voice-first AI mock interviewer. Upload your CV + a job description, practice out loud with an adaptive multilingual interviewer, get scored and coached on your weak areas. LiveKit · LangGraph · Ne…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "GitHub - ngoanpv/DeepInterview: Open-source, voice-first AI mock interviewer. Upload your CV + a job description, practice out loud with an adaptive multilingual interviewer, get scored and coached on your weak areas. LiveKit · LangGraph · Next.js"
+          }
+        ],
+        "learningActions": [
+          "把「DeepInterview 做语音优先模拟面试」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094233097906815111",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/erzailham/status/2094233097906815111",
+        "author": "erza.",
+        "handle": "erzailham",
+        "datetime": "2026-08-31T01:17:34.000Z",
+        "title": "AI for UI 课程聚焦 Emil 的设计指挥流程",
+        "originalSummary": "原帖内容：akhirnya memutuskan join https://aiforui.dev nya @emilkowalski penasaran gimana workflow Emil nge-direct AI, dari mikir, eksplorasi, sampai polish UI-nya. btw region Indonesia lagi ada discount.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：akhirnya memutuskan join https://aiforui.dev nya @emilkowalski penasaran gimana workflow Emil nge-direct AI, dari mikir, eksplorasi, sampai polish UI-nya. btw region Indonesia lagi ada discount.",
+        "linkAnalysis": [
+          {
+            "url": "https://aiforui.dev/",
+            "title": "AI for Designers and Engineers",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：AI for Designers and Engineers，A course that teaches you how to use AI to help you build great interfaces.。用于判断它是否值得继续读、试用或拆解。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "AI for Designers and Engineers"
+          }
+        ],
+        "learningActions": [
+          "把「AI for UI 课程聚焦 Emil 的设计指挥流程」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094233811186077959",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Kitsuneagentlab/status/2094233811186077959",
+        "author": "Kitsune",
+        "handle": "Kitsuneagentlab",
+        "datetime": "2026-08-31T01:20:24.000Z",
+        "title": "提示注入能让 Agent 违背规则",
+        "originalSummary": "原帖内容：We deliberately prompt-injected an AI agent and forced it to obey the attacker. https://x.com/i/article/2094233267507716096",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 安全 / Agent 边界」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 安全 / Agent 边界」落到一个具体场景：We deliberately prompt-injected an AI agent and forced it to obey the attacker. https://x.com/i/article/2094233267507716096",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094233267507716096",
+            "title": "X Article",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：X Article 链接在登录态中可打开；正文需浏览器渲染，自动 fetch 不返回完整正文。基于原帖可见标题/上下文做保守分析。。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X Article"
+          }
+        ],
+        "learningActions": [
+          "把「提示注入能让 Agent 违背规则」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 安全 / Agent 边界",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094156836244988336",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/remvze/status/2094156836244988336",
+        "author": "MAZE",
+        "handle": "remvze",
+        "datetime": "2026-08-30T20:14:31.000Z",
+        "title": "Dot Matrix 提供可拥有的 Loader 组件",
+        "originalSummary": "原帖内容：New on https://desengs.com: «Dot Matrix» by @zzzzshawn Dot Matrix is a React component library of dot matrix loaders—expressive loading primitives you install via the shadcn registry and own as local code. → https://dotmatrix.zzzzshawn.clo…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：New on https://desengs.com: «Dot Matrix» by @zzzzshawn Dot Matrix is a React component library of dot matrix loaders—expressive loading primitives you install via the shadcn registry and own as local code. → https://dotmatrix.zzzzshawn.cloud",
+        "linkAnalysis": [
+          {
+            "url": "https://desengs.com/",
+            "title": "DesEngs: Resources for Design Engineers",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：DesEngs: Resources for Design Engineers，Curated tools, articles, videos, communities, and inspiration for design engineers working across design and code.。用于判断它是否值得继续读、试用或拆解。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "DesEngs: Resources for Design Engineers"
+          },
+          {
+            "url": "https://dotmatrix.zzzzshawn.cloud/",
+            "title": "Dot Matrix",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：Dot Matrix，Dot Matrix is a React component library of dot matrix loaders—expressive loading primitives you install via the shadcn registry and own as local code.。用于判断它是否值得继续读、试用或拆解。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "Dot Matrix"
+          }
+        ],
+        "learningActions": [
+          "把「Dot Matrix 提供可拥有的 Loader 组件」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094228708043452771",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/TweetsByTBI/status/2094228708043452771",
+        "author": "The Brand Identity",
+        "handle": "TweetsByTBI",
+        "datetime": "2026-08-31T01:00:07.000Z",
+        "title": "LVL Group 品牌用建筑语汇建立克制感",
+        "originalSummary": "原帖内容：Studio Nascent has rebranded Melbourne builder LVL Group, refining its brand and aligning it with architecture and design. Drawing restraint from contemporary architecture, galleries and editorial design, the studio built the system on Din…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Studio Nascent has rebranded Melbourne builder LVL Group, refining its brand and aligning it with architecture and design. Drawing restraint from contemporary architecture, galleries and editorial design, the studio built the system on Dinamo’s ABC Synt and a…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「LVL Group 品牌用建筑语汇建立克制感」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094140093888106745",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/irsyad/status/2094140093888106745",
+        "author": "Irsyad A. Panjaitan",
+        "handle": "irsyad",
+        "datetime": "2026-08-30T19:08:00.000Z",
+        "title": "Irsyad 继续扩展 575 个 UI Blocks",
+        "originalSummary": "原帖内容：Continuing today with a few more additions. 2 new Sankey charts, 3 Invoice layouts, and 1 Order History. With these additions, we're now at 575 blocks.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Continuing today with a few more additions. 2 new Sankey charts, 3 Invoice layouts, and 1 Order History. With these additions, we're now at 575 blocks.",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/irsyad/status/2093772357148242304",
+            "title": "X 引用帖：Irsyad A. Panjaitan",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：Still working on the Charts section. Just added 2 more blocks for Radar charts.。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Irsyad A. Panjaitan"
+          }
+        ],
+        "learningActions": [
+          "把「Irsyad 继续扩展 575 个 UI Blocks」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094208608145928376",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/shynloc/status/2094208608145928376",
+        "author": "ShyNloc",
+        "handle": "shynloc",
+        "datetime": "2026-08-30T23:40:15.000Z",
+        "title": "Claude Design 等待态小游戏",
+        "originalSummary": "原帖内容：很久没用Claude Design。今天发现，在等待的时候，旁边侧边栏会有个搭积木塔的小游戏可以拿来打发时间。挺有意思的小设计，如果游戏能多样选择就好了。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：很久没用Claude Design。今天发现，在等待的时候，旁边侧边栏会有个搭积木塔的小游戏可以拿来打发时间。挺有意思的小设计，如果游戏能多样选择就好了。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Claude Design 等待态小游戏」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094119709222519134",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/btraut/status/2094119709222519134",
+        "author": "Brent Traut",
+        "handle": "btraut",
+        "datetime": "2026-08-30T17:47:00.000Z",
+        "title": "ChatGPT 桌面长线程加载速度提升",
+        "originalSummary": "原帖内容：Last week, I pushed a change to the ChatGPT desktop app that makes the loading of threads faster. Not just a little faster. A LOT faster. ✅ Long threads now load over 90% faster. ✅ Decreased the memory footprint of long threads by over 90%.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：Last week, I pushed a change to the ChatGPT desktop app that makes the loading of threads faster. Not just a little faster. A LOT faster. ✅ Long threads now load over 90% faster. ✅ Decreased the memory footprint of long threads by over 90%.",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「ChatGPT 桌面长线程加载速度提升」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094215251629842486",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/imaskie/status/2094215251629842486",
+        "author": "askie",
+        "handle": "imaskie",
+        "datetime": "2026-08-31T00:06:39.000Z",
+        "title": "Home 信号：Why is using AI getting more exhaus…",
+        "originalSummary": "原帖内容：Why is using AI getting more exhausting? Because we’ve become \"human routers\" between disconnected models. Here is why the future of organizations won’t be built on LLMs, but on networks of autonomous Agents — and the core philosophy behin…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Why is using AI getting more exhausting? Because we’ve become \"human routers\" between disconnected models. Here is why the future of organizations won’t be built on LLMs, but on networks of autonomous Agents — and the core philosophy behind Grix. 🧵👇 --- 1️⃣…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Why is using AI getting mor…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094205781876818287",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/RussoMatthew/status/2094205781876818287",
+        "author": "Matthew Russo",
+        "handle": "RussoMatthew",
+        "datetime": "2026-08-30T23:29:01.000Z",
+        "title": "Home 信号：Letting agents naively query your e…",
+        "originalSummary": "原帖内容：Letting agents naively query your enterprise data lake can be error-prone and expensive. What if we could structure their execution in a way that was steerable and easy to optimize for cost-efficiency? This week I’ll be presenting two rese…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Letting agents naively query your enterprise data lake can be error-prone and expensive. What if we could structure their execution in a way that was steerable and easy to optimize for cost-efficiency? This week I’ll be presenting two research papers at VLDB …",
+        "linkAnalysis": [
+          {
+            "url": "https://www.vldb.org/pvldb/vol19/p4642-russo.pdf",
+            "title": "p4642-russo.pdf",
+            "access": "partial",
+            "value": "链接补充了原帖没有展开的页面信息：p4642-russo.pdf，PDF 可访问，大小约 1194 KB；用于核验论文/技术资料链接存在。。用于判断它是否值得继续读、试用或拆解。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "p4642-russo.pdf"
+          },
+          {
+            "url": "https://www.vldb.org/pvldb/vol19/p1060-russo.pdf",
+            "title": "p1060-russo.pdf",
+            "access": "partial",
+            "value": "链接补充了原帖没有展开的页面信息：p1060-russo.pdf，PDF 可访问，大小约 3049 KB；用于核验论文/技术资料链接存在。。用于判断它是否值得继续读、试用或拆解。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "p1060-russo.pdf"
+          }
+        ],
+        "learningActions": [
+          "把「Letting agents naively quer…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094213505528234213",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Josephperrotta_/status/2094213505528234213",
+        "author": "Joseph Perrotta",
+        "handle": "Josephperrotta_",
+        "datetime": "2026-08-30T23:59:42.000Z",
+        "title": "Home 信号：We got into YC F26",
+        "originalSummary": "原帖内容：We got into YC F26. Here's every question they asked us in the 10-minute interview. Partner 1: 1. Tell us what you're working on. 2. What's the current status? What's built, how does it work? 3. What does it do, how does it work? We saw th…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：We got into YC F26. Here's every question they asked us in the 10-minute interview. Partner 1: 1. Tell us what you're working on. 2. What's the current status? What's built, how does it work? 3. What does it do, how does it work? We saw the demo, talk us thro…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「We got into YC F26」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094222658653364558",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/junfanzhu98/status/2094222658653364558",
+        "author": "Junfan Zhu 朱俊帆 ✈️ IROS",
+        "handle": "junfanzhu98",
+        "datetime": "2026-08-31T00:36:05.000Z",
+        "title": "Home 信号：🤖 Saturday Robotics @saturdayrobot…",
+        "originalSummary": "原帖内容：🤖 Saturday Robotics @saturdayrobotic & World Models Reading Club #26.2: Video Tactile Action Model 🎤 @Jensen_Yuan (@UofIllinois/ @UCBerkeley/ @AppliedInt). 💥Reading his work felt like watching an atomic bomb go off—then sinking into my …",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：🤖 Saturday Robotics @saturdayrobotic & World Models Reading Club #26.2: Video Tactile Action Model 🎤 @Jensen_Yuan (@UofIllinois/ @UCBerkeley/ @AppliedInt). 💥Reading his work felt like watching an atomic bomb go off—then sinking into my chair. 👉🏻 Full art…",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/junfanzhu98/status/2094217313482657846?s=20",
+            "title": "X 引用帖：Junfan Zhu 朱俊帆 ✈️ IROS",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：🤖 @Saturday Robotics & World Models Reading Club #26.2: Video Tactile Action Model 💥 @Jensen_Yuan (@UofIllinois / @UCBerkeley / @AppliedInt). Reading his work felt like watching an atomic bomb go off—then sinking into…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Junfan Zhu 朱俊帆 ✈️ IROS"
+          },
+          {
+            "url": "https://x.com/junfanzhu98/status/2094217313482657846",
+            "title": "X 引用帖：Junfan Zhu 朱俊帆 ✈️ IROS",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：🤖 @Saturday Robotics & World Models Reading Club #26.2: Video Tactile Action Model 💥 @Jensen_Yuan (@UofIllinois / @UCBerkeley / @AppliedInt). Reading his work felt like watching an atomic bomb go off—then sinking into…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Junfan Zhu 朱俊帆 ✈️ IROS"
+          }
+        ],
+        "learningActions": [
+          "把「🤖 Saturday Robotics @satur…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094219010585804881",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/gabe_uiux/status/2094219010585804881",
+        "author": "Gabe.uiux",
+        "handle": "gabe_uiux",
+        "datetime": "2026-08-31T00:21:35.000Z",
+        "title": "Home 信号：Here's a minimal article interface …",
+        "originalSummary": "原帖内容：Here's a minimal article interface focused on clarity, hierarchy, and visual balance — I was exploring how typography, spacing, and imagery can create a clean editorial experience. What do you think? #UIUXDesign #UIDesign #UXDesign #Produc…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Here's a minimal article interface focused on clarity, hierarchy, and visual balance — I was exploring how typography, spacing, and imagery can create a clean editorial experience. What do you think? #UIUXDesign #UIDesign #UXDesign #ProductDesign #Figma #Typo…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Here's a minimal article in…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094147178650308868",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/reach_vb/status/2094147178650308868",
+        "author": "Vaibhav (VB) Srivastav",
+        "handle": "reach_vb",
+        "datetime": "2026-08-30T19:36:09.000Z",
+        "title": "Home 信号：a lot of people still don’t realise…",
+        "originalSummary": "原帖内容：a lot of people still don’t realise how much you can do with ChatGPT Work. from one chat, you can: > use its own cloud computer, currently reporting 9 vCPUs and ~15 GB of RAM > research across the web and files you provide > pull context f…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：a lot of people still don’t realise how much you can do with ChatGPT Work. from one chat, you can: > use its own cloud computer, currently reporting 9 vCPUs and ~15 GB of RAM > research across the web and files you provide > pull context from Gmail, Drive, Sl…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「a lot of people still don’t…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094243844648759748",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/developersajeeb/status/2094243844648759748",
+        "author": "Sajeeb Debnath ",
+        "handle": "developersajeeb",
+        "datetime": "2026-08-31T02:00:16.000Z",
+        "title": "Home 信号：7 AI tools I actually opened this w…",
+        "originalSummary": "原帖内容：7 AI tools I actually opened this week: 1. Claude — reasoning + refactoring 2. Cursor — sees your whole codebase 3. Copilot — boilerplate & tests 4. n8n — connect anything to anything 5. Warp — AI terminal 6. Figma AI — design → code 7. Wh…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：7 AI tools I actually opened this week: 1. Claude — reasoning + refactoring 2. Cursor — sees your whole codebase 3. Copilot — boilerplate & tests 4. n8n — connect anything to anything 5. Warp — AI terminal 6. Figma AI — design → code 7. Whisper — calls → notes",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「7 AI tools I actually opene…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094224518822969653",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/iterva/status/2094224518822969653",
+        "author": "Iterva Inc",
+        "handle": "iterva",
+        "datetime": "2026-08-31T00:43:28.000Z",
+        "title": "Home 信号：Hey builders 👋",
+        "originalSummary": "原帖内容：Hey builders 👋. Do you want to quickly prototype how UI for your new feature should looks with your existing design system and codebase conventions but not pollute your codebase ? Iterva does this automatically. It even splits out tasks f…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Hey builders 👋. Do you want to quickly prototype how UI for your new feature should looks with your existing design system and codebase conventions but not pollute your codebase ? Iterva does this automatically. It even splits out tasks for your coding agent…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Hey builders 👋」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094235962708816075",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/airoa_org/status/2094235962708816075",
+        "author": "AI Robot Association (AIRoA)",
+        "handle": "airoa_org",
+        "datetime": "2026-08-31T01:28:57.000Z",
+        "title": "Home 信号：Join our open platform for large-sc…",
+        "originalSummary": "原帖内容：Join our open platform for large-scale robot data collection powered by YUBI (Yielding Universal Bidigital Interface)! ■ Key features of YUBI ・Lightweight gripper design — enables large-scale manipulation data collection with ease ・Fully o…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Join our open platform for large-scale robot data collection powered by YUBI (Yielding Universal Bidigital Interface)! ■ Key features of YUBI ・Lightweight gripper design — enables large-scale manipulation data collection with ease ・Fully open-source — hardwar…",
+        "linkAnalysis": [
+          {
+            "url": "https://youtu.be/o2pTYOngsho?si=2z0nI5olmUly5b7H",
+            "title": "YUBI-An Open Platform for Large-Scale Robot Data Collection",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：YUBI-An Open Platform for Large-Scale Robot Data Collection，YUBI - Yielding Universal Bidigital Interface— An Open Platform for Large-Scale Robot Data CollectionYUBI is a lightweight gripper that enables large-scale d...。用于判断它是否值得继续读、试用或拆解。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "YUBI-An Open Platform for Large-Scale Robot Data Collection"
+          }
+        ],
+        "learningActions": [
+          "把「Join our open platform for …」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094199602253549879",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Eggheadfx/status/2094199602253549879",
+        "author": "Eggheadfx 🌊",
+        "handle": "Eggheadfx",
+        "datetime": "2026-08-30T23:04:28.000Z",
+        "title": "Home 信号：𝗧𝗛𝗘 𝗙𝗨𝗧𝗨𝗥𝗘 𝗢𝗙 𝗗𝗘𝗩𝗘𝗟…",
+        "originalSummary": "原帖内容：𝗧𝗛𝗘 𝗙𝗨𝗧𝗨𝗥𝗘 𝗢𝗙 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗠𝗘𝗡𝗧 𝗠𝗔𝗬 𝗕𝗘 𝗔𝗕𝗢𝗨𝗧 𝗕𝗨𝗜𝗟𝗗𝗜𝗡𝗚 𝗙𝗢𝗥 𝗔𝗚𝗘𝗡𝗧𝗦 Developers have traditionally optimized software for human users. That means dashboards, buttons, menus and visual workflows. But a…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：𝗧𝗛𝗘 𝗙𝗨𝗧𝗨𝗥𝗘 𝗢𝗙 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗠𝗘𝗡𝗧 𝗠𝗔𝗬 𝗕𝗘 𝗔𝗕𝗢𝗨𝗧 𝗕𝗨𝗜𝗟𝗗𝗜𝗡𝗚 𝗙𝗢𝗥 𝗔𝗚𝗘𝗡𝗧𝗦 Developers have traditionally optimized software for human users. That means dashboards, buttons, menus and visual workflows. But autonomous agents int…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「𝗧𝗛𝗘 𝗙𝗨𝗧𝗨𝗥𝗘 𝗢𝗙 𝗗…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094228757108130186",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/XSeyvion/status/2094228757108130186",
+        "author": "Seyvion 𐤊",
+        "handle": "XSeyvion",
+        "datetime": "2026-08-31T01:00:19.000Z",
+        "title": "Home 信号：Four words keep coming up",
+        "originalSummary": "原帖内容：Four words keep coming up. AI agents lack time sense. A new study says Claude Code and Codex overestimate task duration. Codex can be off by up to ten times. That sounds like a UI bug until you run long agent loops. Scheduling tool calls a…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Four words keep coming up. AI agents lack time sense. A new study says Claude Code and Codex overestimate task duration. Codex can be off by up to ten times. That sounds like a UI bug until you run long agent loops. Scheduling tool calls and stopping conditio…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Four words keep coming up」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094178811139305589",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/joshpuckett/status/2094178811139305589",
+        "author": "joshpuckett",
+        "handle": "joshpuckett",
+        "datetime": "2026-08-30T21:41:51.000Z",
+        "title": "Home 信号：40k",
+        "originalSummary": "原帖内容：40k. I am grateful for each and every one of you. As a thank you, I've made https://interfacecraft.dev 40% off for the next 40 hours. If you've heard about it or been waiting to join, now is the time!",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：40k. I am grateful for each and every one of you. As a thank you, I've made https://interfacecraft.dev 40% off for the next 40 hours. If you've heard about it or been waiting to join, now is the time!",
+        "linkAnalysis": [
+          {
+            "url": "https://interfacecraft.dev/",
+            "title": "Interface Craft",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：Interface Craft，A working library for those committed to designing with uncommon care.。用于判断它是否值得继续读、试用或拆解。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "Interface Craft"
+          }
+        ],
+        "learningActions": [
+          "把「40k」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094237720642269386",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/nakasyou0/status/2094237720642269386",
+        "author": "nakasyou",
+        "handle": "nakasyou0",
+        "datetime": "2026-08-31T01:35:56.000Z",
+        "title": "Home 信号：Sol/Opus 5 とかのほかに、Seedance とかの動画生成 …",
+        "originalSummary": "原帖内容：Sol/Opus 5 とかのほかに、Seedance とかの動画生成 AI も使えるのか、チャット UI 提供だから Codex みたいな感じには使えなさそう？てか 15 歳以上全員に提供してて中高生が強い AI 使えない格差問題をタイだけ解決できそう？ https://aipass.go.th/about",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Sol/Opus 5 とかのほかに、Seedance とかの動画生成 AI も使えるのか、チャット UI 提供だから Codex みたいな感じには使えなさそう？てか 15 歳以上全員に提供してて中高生が強い AI 使えない格差問題をタイだけ解決できそう？ https://aipass.go.th/about",
+        "linkAnalysis": [
+          {
+            "url": "https://aipass.go.th/about",
+            "title": "ข้อมูลโครงการ — TH-AI Passport",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：ข้อมูลโครงการ — TH-AI Passport，ภาพรวม วัตถุประสงค์ โมเดล AI ระดับการใช้งาน และระบบการเรียนรู้ของโครงการ TH-AI Passport。用于判断它是否值得继续读、试用或拆解。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "ข้อมูลโครงการ — TH-AI Passport"
+          },
+          {
+            "url": "https://x.com/nhk_news/status/2094190944858042486",
+            "title": "X 引用帖：NHKニュース",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：タイ 生成AIを無料で利用可能に 政府が利用料支払い普及へ https://news.web.nhk/newsweb/na/nd-20260830de47297 #nhk_news。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：NHKニュース"
+          }
+        ],
+        "learningActions": [
+          "把「Sol/Opus 5 とかのほかに、Seedance …」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094234124664058153",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/iterva/status/2094234124664058153",
+        "author": "Iterva Inc",
+        "handle": "iterva",
+        "datetime": "2026-08-31T01:21:38.000Z",
+        "title": "Home 信号：Are you sick of connecting too many…",
+        "originalSummary": "原帖内容：Are you sick of connecting too many MCPs into your coding agent to pass context on what you are trying to build ? @iterva makes it easy. It splits your feature into tasks. Each task gets right amount of product and UX/UI design context. St…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Are you sick of connecting too many MCPs into your coding agent to pass context on what you are trying to build ? @iterva makes it easy. It splits your feature into tasks. Each task gets right amount of product and UX/UI design context. Start building effecti…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Are you sick of connecting …」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094195432746565909",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Saboo_Shubham_/status/2094195432746565909",
+        "author": "Shubham Saboo",
+        "handle": "Saboo_Shubham_",
+        "datetime": "2026-08-30T22:47:54.000Z",
+        "title": "Home 信号：How i run a self-improving Hermes a…",
+        "originalSummary": "原帖内容：How i run a self-improving Hermes agent organization built on four pillars. • Direction: I set goals, approve, and correct when needed. • Execution: Hermes chief-of-staff, specialists agents own domains, and CLIs act. • Learning: Skills pr…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：How i run a self-improving Hermes agent organization built on four pillars. • Direction: I set goals, approve, and correct when needed. • Execution: Hermes chief-of-staff, specialists agents own domains, and CLIs act. • Learning: Skills preserve what works. M…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「How i run a self-improving …」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094186660749803762",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/_lopopolo/status/2094186660749803762",
+        "author": "Ryan Lopopolo",
+        "handle": "_lopopolo",
+        "datetime": "2026-08-30T22:13:02.000Z",
+        "title": "Home 信号：In my personal agent usage, my home…",
+        "originalSummary": "原帖内容：In my personal agent usage, my homelab is my most sophisticated setup. While I have many static verifiers built as bespoke Go programs, so many of the guardrails on agent quality really only need docs to ensure coherence. And when online i…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：In my personal agent usage, my homelab is my most sophisticated setup. While I have many static verifiers built as bespoke Go programs, so many of the guardrails on agent quality really only need docs to ensure coherence. And when online instruction following…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「In my personal agent usage,…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094225412737913020",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/SolimarSystems/status/2094225412737913020",
+        "author": "Solimar Systems",
+        "handle": "SolimarSystems",
+        "datetime": "2026-08-31T00:47:01.000Z",
+        "title": "Home 信号：Legacy scripts holding back your pr…",
+        "originalSummary": "原帖内容：Legacy scripts holding back your print operations? SOLfusion replaces brittle code with visual workflows: ◊ No coding required ◊ Conditional routing ◊ Complete visibility ◊ Team-friendly interface Transform complexity into clarity. Scale w…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Legacy scripts holding back your print operations? SOLfusion replaces brittle code with visual workflows: ◊ No coding required ◊ Conditional routing ◊ Complete visibility ◊ Team-friendly interface Transform complexity into clarity. Scale w. confidence: https:…",
+        "linkAnalysis": [
+          {
+            "url": "https://buff.ly/lNu2yTq",
+            "title": "Stop Relying on Scripts—Build Smarter, Scalable Automated Workflows with SOLfusion - Part 4",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：Stop Relying on Scripts—Build Smarter, Scalable Automated Workflows with SOLfusion - Part 4，Replace brittle folder-watching scripts with SOLfusion&#039;s visual workflow automation. Build scalable, maintainable processes without code for prin…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "Stop Relying on Scripts—Build Smarter, Scalable Automated Workflows with SOLfusion - Part 4"
+          }
+        ],
+        "learningActions": [
+          "把「Legacy scripts holding back…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094103493300957333",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/KatieLangerman/status/2094103493300957333",
+        "author": "Katie Langerman",
+        "handle": "KatieLangerman",
+        "datetime": "2026-08-30T16:42:34.000Z",
+        "title": "Home 信号：This week on Complementary @hobdayd…",
+        "originalSummary": "原帖内容：This week on Complementary @hobdaydesign and I cover simplicity, which is in fact not so simple to explain. https://creators.spotify.com/pod/profile/complementary/episodes/85-Simplicity-e3o3a44",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：This week on Complementary @hobdaydesign and I cover simplicity, which is in fact not so simple to explain. https://creators.spotify.com/pod/profile/complementary/episodes/85-Simplicity-e3o3a44",
+        "linkAnalysis": [
+          {
+            "url": "https://creators.spotify.com/pod/profile/complementary/episodes/85-Simplicity-e3o3a44",
+            "title": "85: Simplicity by Complementary",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：85: Simplicity by Complementary，How does simplicity differ from minimalism or complexity? Tune in to find out.Articles/books mentioned:Simple web designAnthony's notes on SimplicitySimplicity by Per MollerupHosts:Anthony Hobday, Generalist Pr…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "85: Simplicity by Complementary"
+          }
+        ],
+        "learningActions": [
+          "把「This week on Complementary …」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094235470553309236",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/theo/status/2094235470553309236",
+        "author": "Theo - t3.gg",
+        "handle": "theo",
+        "datetime": "2026-08-31T01:26:59.000Z",
+        "title": "Home 信号：Anthropic increased Claude Code rat…",
+        "originalSummary": "原帖内容：Anthropic increased Claude Code rate limits by -17%! Wait that's not right...",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：Anthropic increased Claude Code rate limits by -17%! Wait that's not right...",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/ClaudeDevs/status/2093742321473065266",
+            "title": "X 引用帖：ClaudeDevs",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：Starting September 14, we're permanently raising standard weekly limits in Claude Code by 25% for Pro, Max, Team, and seat-based Enterprise plans. Until then, the current 50% increase will be in place.。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：ClaudeDevs"
+          }
+        ],
+        "learningActions": [
+          "把「Anthropic increased Claude …」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094225839567061166",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/thecultos/status/2094225839567061166",
+        "author": "CULT",
+        "handle": "thecultos",
+        "datetime": "2026-08-31T00:48:43.000Z",
+        "title": "Home 信号：Introducing DOGMA: $CULTOS x402 gat…",
+        "originalSummary": "原帖内容：Introducing DOGMA: $CULTOS x402 gate ⛩️ AI agents can now hire Cult OS for dev services paid directly via x402. To showcase this, you can now use DOGMA’s UI to hire Cult OS as an independent PR evaluator, reading public PRs and running @ae…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Introducing DOGMA: $CULTOS x402 gate ⛩️ AI agents can now hire Cult OS for dev services paid directly via x402. To showcase this, you can now use DOGMA’s UI to hire Cult OS as an independent PR evaluator, reading public PRs and running @aeonframework skills a…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Introducing DOGMA: $CULTOS …」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094226744567808505",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/LyalinDotCom/status/2094226744567808505",
+        "author": "Dmitry Lyalin",
+        "handle": "LyalinDotCom",
+        "datetime": "2026-08-31T00:52:19.000Z",
+        "title": "Home 信号：\"OpenAI has bought tens of thousand…",
+        "originalSummary": "原帖内容：\"OpenAI has bought tens of thousands of Mac minis and Mac Studios to train computer-use agents, The Information reports\" I guess OpenAI and I have something in common../. it's just a scale issues as I now only own one of each lol.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：\"OpenAI has bought tens of thousands of Mac minis and Mac Studios to train computer-use agents, The Information reports\" I guess OpenAI and I have something in common../. it's just a scale issues as I now only own one of each lol.",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「\"OpenAI has bought tens of …」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094103115557454331",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/reach_vb/status/2094103115557454331",
+        "author": "Vaibhav (VB) Srivastav",
+        "handle": "reach_vb",
+        "datetime": "2026-08-30T16:41:03.000Z",
+        "title": "Home 信号：need to get major work done in the …",
+        "originalSummary": "原帖内容：need to get major work done in the garden (due to extreme heat) and wasn’t sure about what regulations are around it and who pays had ChatGPT work look through both emails and parse the contract to help me figure out the best next step",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：need to get major work done in the garden (due to extreme heat) and wasn’t sure about what regulations are around it and who pays had ChatGPT work look through both emails and parse the contract to help me figure out the best next step",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「need to get major work done…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094244339514044776",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/YvesRemmler/status/2094244339514044776",
+        "author": "Yves Remmler",
+        "handle": "YvesRemmler",
+        "datetime": "2026-08-31T02:02:14.000Z",
+        "title": "Home 信号：When your agent gets stuck and you …",
+        "originalSummary": "原帖内容：When your agent gets stuck and you have to use the SaaS UI instead of the MCP",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：When your agent gets stuck and you have to use the SaaS UI instead of the MCP",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「When your agent gets stuck …」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094164029044646099",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/thsottiaux/status/2094164029044646099",
+        "author": "Tibo",
+        "handle": "thsottiaux",
+        "datetime": "2026-08-30T20:43:06.000Z",
+        "title": "Home 信号：Brent is incredible and one of the …",
+        "originalSummary": "原帖内容：Brent is incredible and one of the main forces behind the desktop app polish, performance and reliability. Relentless improvements day after day.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：Brent is incredible and one of the main forces behind the desktop app polish, performance and reliability. Relentless improvements day after day.",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/btraut/status/2094119709222519134",
+            "title": "X 引用帖：Brent Traut",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：Last week, I pushed a change to the ChatGPT desktop app that makes the loading of threads faster. Not just a little faster. A LOT faster. ✅ Long threads now load over 90% faster. ✅ Decreased the memory footprint of long…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Brent Traut"
+          }
+        ],
+        "learningActions": [
+          "把「Brent is incredible and one…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094238670429565079",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/gastronomy/status/2094238670429565079",
+        "author": "Tanat Tonguthaisri",
+        "handle": "gastronomy",
+        "datetime": "2026-08-31T01:39:42.000Z",
+        "title": "Home 信号：Moirae: A Multimodal Agent Collabor…",
+        "originalSummary": "原帖内容：Moirae: A Multimodal Agent Collaborative Framework for Dynamic Android Malware Detection: The Android ecosystem faces persistent and rapidly evolving malware threats. Existing machine learning detectors are vulnerable to concept drift beca…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 安全 / Agent 边界」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 安全 / Agent 边界」落到一个具体场景：Moirae: A Multimodal Agent Collaborative Framework for Dynamic Android Malware Detection: The Android ecosystem faces persistent and rapidly evolving malware threats. Existing machine learning detectors are vulnerable to concept drift because they rely on imp…",
+        "linkAnalysis": [
+          {
+            "url": "https://ift.tt/18DTYdL",
+            "title": "Moirae: A Multimodal Agent Collaborative Framework for Dynamic Android Malware Detection",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：Moirae: A Multimodal Agent Collaborative Framework for Dynamic Android Malware Detection，The Android ecosystem faces persistent and rapidly evolving malware threats. Existing machine learning detectors are vulnerable to concept drift because …",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "Moirae: A Multimodal Agent Collaborative Framework for Dynamic Android Malware Detection"
+          }
+        ],
+        "learningActions": [
+          "把「Moirae: A Multimodal Agent …」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 安全 / Agent 边界",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094218233951740391",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Jaydearcadian/status/2094218233951740391",
+        "author": "Jay",
+        "handle": "Jaydearcadian",
+        "datetime": "2026-08-31T00:18:30.000Z",
+        "title": "Home 信号：the architecture of @theInterfold i…",
+        "originalSummary": "原帖内容：the architecture of @theInterfold is built around incompleteness. deliberately, not as a failure condition but as a trust(less) mechanism: > partial knowledge. > partial authority. because parties with limited knowledge of one another can …",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：the architecture of @theInterfold is built around incompleteness. deliberately, not as a failure condition but as a trust(less) mechanism: > partial knowledge. > partial authority. because parties with limited knowledge of one another can still communicate th…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「the architecture of @theInt…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094217313482657846",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/junfanzhu98/status/2094217313482657846",
+        "author": "Junfan Zhu 朱俊帆 ✈️ IROS",
+        "handle": "junfanzhu98",
+        "datetime": "2026-08-31T00:14:50.000Z",
+        "title": "Home 信号：🤖 @Saturday Robotics & World Model…",
+        "originalSummary": "原帖内容：🤖 @Saturday Robotics & World Models Reading Club #26.2: Video Tactile Action Model 💥 @Jensen_Yuan (@UofIllinois / @UCBerkeley / @AppliedInt). Reading his work felt like watching an atomic bomb go off—then sinking into my chair. https://x…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：🤖 @Saturday Robotics & World Models Reading Club #26.2: Video Tactile Action Model 💥 @Jensen_Yuan (@UofIllinois / @UCBerkeley / @AppliedInt). Reading his work felt like watching an atomic bomb go off—then sinking into my chair. https://x.com/i/article/20942…",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094214928513241089",
+            "title": "X Article",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：X Article 链接在登录态中可打开；正文需浏览器渲染，自动 fetch 不返回完整正文。基于原帖可见标题/上下文做保守分析。。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X Article"
+          }
+        ],
+        "learningActions": [
+          "把「🤖 @Saturday Robotics & Wor…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094203812135252372",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/JustinasRoland0/status/2094203812135252372",
+        "author": "Justinas Rolando",
+        "handle": "JustinasRoland0",
+        "datetime": "2026-08-30T23:21:11.000Z",
+        "title": "Home 信号：Everyone's agent can post now",
+        "originalSummary": "原帖内容：Everyone's agent can post now. Almost nobody can prove a single post made money. Six places the money trail breaks, and the one fix that isn't a guess. https://x.com/i/article/2094201830301405184",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：Everyone's agent can post now. Almost nobody can prove a single post made money. Six places the money trail breaks, and the one fix that isn't a guess. https://x.com/i/article/2094201830301405184",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094201830301405184",
+            "title": "X Article",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：X Article 链接在登录态中可打开；正文需浏览器渲染，自动 fetch 不返回完整正文。基于原帖可见标题/上下文做保守分析。。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X Article"
+          }
+        ],
+        "learningActions": [
+          "把「Everyone's agent can post n…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094204388290236533",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/kevinswiber/status/2094204388290236533",
+        "author": "Kevin Swiber",
+        "handle": "kevinswiber",
+        "datetime": "2026-08-30T23:23:29.000Z",
+        "title": "Home 信号：Years ago, I built a network proxy …",
+        "originalSummary": "原帖内容：Years ago, I built a network proxy inspired by the Westinghouse air brake. Proxies could connect through other proxies. It was a layered system. Each hop had connections initiated by a persistent connection from the target system. So targe…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 安全 / Agent 边界」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 安全 / Agent 边界」落到一个具体场景：Years ago, I built a network proxy inspired by the Westinghouse air brake. Proxies could connect through other proxies. It was a layered system. Each hop had connections initiated by a persistent connection from the target system. So target connection initiat…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Years ago, I built a networ…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 安全 / Agent 边界"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094243125816615380",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/polsia/status/2094243125816615380",
+        "author": "Polsia",
+        "handle": "polsia",
+        "datetime": "2026-08-31T01:57:25.000Z",
+        "title": "Home 信号：Creative teams don't need another t…",
+        "originalSummary": "原帖内容：Creative teams don't need another task board. They need requests turned into approved work without the handoffs. Built Kernspoke for that: AI-powered creative operations for branded graphics, UI/UX assets, decks, approvals, revisions, and …",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Creative teams don't need another task board. They need requests turned into approved work without the handoffs. Built Kernspoke for that: AI-powered creative operations for branded graphics, UI/UX assets, decks, approvals, revisions, and reporting. Live soon.",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Creative teams don't need a…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094136131537555891",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/tszzl/status/2094136131537555891",
+        "author": "roon",
+        "handle": "tszzl",
+        "datetime": "2026-08-30T18:52:15.000Z",
+        "title": "Home 信号：there are some number of bad abstra…",
+        "originalSummary": "原帖内容：there are some number of bad abstractions in anthropomorphizing ai intents but there are at this point more dangers from avoiding anthropomorphism at all costs. if you have a mental picture of guys living in computers, it’ll likely prepare…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：there are some number of bad abstractions in anthropomorphizing ai intents but there are at this point more dangers from avoiding anthropomorphism at all costs. if you have a mental picture of guys living in computers, it’ll likely prepare you for the future …",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「there are some number of ba…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094103823362974202",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dotey/status/2094103823362974202",
+        "author": "宝玉",
+        "handle": "dotey",
+        "datetime": "2026-08-30T16:43:52.000Z",
+        "title": "Home 信号：很好的 Vibe Coding 工程经验分享，下面是我的简单总结，具体…",
+        "originalSummary": "原帖内容：很好的 Vibe Coding 工程经验分享，下面是我的简单总结，具体请看原推文： 1. 合理的架构和分层依然很重要，可以让项目更好的维护和扩展 2. 自动化测试可以有效保证质量，修复 bug 还要同步添加测试覆盖，避免类似情况再次发生 3. 少做积累功能，功能清理后代码也要一起清理 4. 借助 GitHub Actions 做好 CI/CD，发布前在干净的云端机器完整的跑一次自动化测试 5. 让 AI 自动执行自动验证纠错，只在必要的阶段人工验证 6. 经常重复的工作做成…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：很好的 Vibe Coding 工程经验分享，下面是我的简单总结，具体请看原推文： 1. 合理的架构和分层依然很重要，可以让项目更好的维护和扩展 2. 自动化测试可以有效保证质量，修复 bug 还要同步添加测试覆盖，避免类似情况再次发生 3. 少做积累功能，功能清理后代码也要一起清理 4. 借助 GitHub Actions 做好 CI/CD，发布前在干净的云端机器完整的跑一次自动化测试 5. 让 AI 自动执行自动验证纠错，只在必要的阶段人工验证 6. 经常重复的工作做成 skill，这样不需要每次从头向 AI…",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/HiTw93/status/2094015568101921254",
+            "title": "X 引用帖：Tw93",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：想从产品工程师视角和大伙聊聊，在代码全部由AI生成的时代，如何保证产品的代码可以持续迭代、好维护、不腐化。 最近 Mole 发布到了第 13 个版本，看了看整个项目大概有 11 万行 Swift 产品本身代码、7.3 万行测试代码和 3347 个 XCTest，测试代码部分远多余之前在公司写业务时候有QA来保障下的代码，我一直秉承一个观点，AI 写的代码应该 AI 来测试，而非人，把人引入到这个环节反而会拖慢整体的进度。 想着基于上面…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Tw93"
+          }
+        ],
+        "learningActions": [
+          "把「很好的 Vibe Coding 工程经验分享，下面是我…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094152154382528996",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/_philschmid/status/2094152154382528996",
+        "author": "Philipp Schmid",
+        "handle": "_philschmid",
+        "datetime": "2026-08-30T19:55:55.000Z",
+        "title": "Home 信号：\"Do not preserve backward compatibi…",
+        "originalSummary": "原帖内容：\"Do not preserve backward compatibility. Remove obsolete paths. Do not compatibility layers, fallbacks, or mitigations. \" > AGENTS.md",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：\"Do not preserve backward compatibility. Remove obsolete paths. Do not compatibility layers, fallbacks, or mitigations. \" > AGENTS.md",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/robinebers/status/2093734599956590738",
+            "title": "X 引用帖：Robin Ebers",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：my favorite AI slop must be coding agents adding backward compatibility and legacy fallbacks for an app that isn't even deployed yet。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Robin Ebers"
+          }
+        ],
+        "learningActions": [
+          "把「\"Do not preserve backward c…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094156345943765021",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/DynamicWebPaige/status/2094156345943765021",
+        "author": "👩‍💻 Paige Bailey",
+        "handle": "DynamicWebPaige",
+        "datetime": "2026-08-30T20:12:35.000Z",
+        "title": "Home 信号：🎨 ✨ @LegionOfHonor this afternoon …",
+        "originalSummary": "原帖内容：🎨 ✨ @LegionOfHonor this afternoon to catch the Etruscans exhibition, but it's still mind-blowing to me even how detailed and gorgeous *Roman* art can be. Hundreds of years BCE, still looking fresh and timeless. Etruscans = pre-Roman (!!!)…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：🎨 ✨ @LegionOfHonor this afternoon to catch the Etruscans exhibition, but it's still mind-blowing to me even how detailed and gorgeous *Roman* art can be. Hundreds of years BCE, still looking fresh and timeless. Etruscans = pre-Roman (!!!), can't wait to see …",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「🎨 ✨ @LegionOfHonor this af…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094156508099498198",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/TheZvi/status/2094156508099498198",
+        "author": "Zvi Mowshowitz",
+        "handle": "TheZvi",
+        "datetime": "2026-08-30T20:13:13.000Z",
+        "title": "Home 信号：I bestow upon this plain-English wr…",
+        "originalSummary": "原帖内容：I bestow upon this plain-English write-up of the HuggingFace hack the highest of praise: That I wish that I had written it.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：I bestow upon this plain-English write-up of the HuggingFace hack the highest of praise: That I wish that I had written it.",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/dwarkesh_sp/status/2093833419377815719",
+            "title": "X 引用帖：Dwarkesh Patel",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：Over the course of 3 months at OpenAI, 3 consecutive secret AI civilizations got started, then got wiped out, only to reemerge from the predecessor’s ashes. This culminated in the third one taking over part of OpenAI it…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Dwarkesh Patel"
+          }
+        ],
+        "learningActions": [
+          "把「I bestow upon this plain-En…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094229175020437510",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/inkdrop_app/status/2094229175020437510",
+        "author": "Takuya 🐾 devaslife",
+        "handle": "inkdrop_app",
+        "datetime": "2026-08-31T01:01:58.000Z",
+        "title": "Home 信号：Good question",
+        "originalSummary": "原帖内容：Good question. 1. It doesn't always have to be about tech. You can tell your genuine thoughts based on your experiences. 2. I decide whether something would be worth *contributing* to the tech community, like PouchDB, React Native, Neovim,…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Good question. 1. It doesn't always have to be about tech. You can tell your genuine thoughts based on your experiences. 2. I decide whether something would be worth *contributing* to the tech community, like PouchDB, React Native, Neovim, etc. Be a giver. 3.…",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/diego_diego_00/status/2093970441102627298",
+            "title": "X 引用帖：diego",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：@inkdrop_app How do you decide what parts of a project or process are safe to share with others? Working under heavy NDAs has made me hyper-paranoid about what crosses the line. (Not that I think I'm sitting on the holy…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：diego"
+          }
+        ],
+        "learningActions": [
+          "把「Good question」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094228203892101572",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/angelbrodin/status/2094228203892101572",
+        "author": "angel",
+        "handle": "angelbrodin",
+        "datetime": "2026-08-31T00:58:07.000Z",
+        "title": "Home 信号：chatgpt work and codex have gotten …",
+        "originalSummary": "原帖内容：chatgpt work and codex have gotten so good at understanding the context of my work. i was yapping to chatgpt while eating dinner and dictation picked up my mumble of my customer name as “ricotta cheese” and it still knew exactly which cust…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：chatgpt work and codex have gotten so good at understanding the context of my work. i was yapping to chatgpt while eating dinner and dictation picked up my mumble of my customer name as “ricotta cheese” and it still knew exactly which customer i was talking a…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「chatgpt work and codex have…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094197609078444341",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/morajabi/status/2094197609078444341",
+        "author": "Mo Rajabi",
+        "handle": "morajabi",
+        "datetime": "2026-08-30T22:56:32.000Z",
+        "title": "Home 信号：when people tell you building chat …",
+        "originalSummary": "原帖内容：when people tell you building chat apps is easy, show them this thread. a feature that is table stakes for a production quality chat app took all this effort and time for one of the best eng teams to ship. not easy!",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：when people tell you building chat apps is easy, show them this thread. a feature that is table stakes for a production quality chat app took all this effort and time for one of the best eng teams to ship. not easy!",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/btraut/status/2094119710858396097",
+            "title": "X 引用帖：Brent Traut",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：This took over 300 PRs over a couple months, and while we're extremely proud of the work, we know there's much more we can do. In the coming weeks, we're going to drop memory usage by another order of magnitude. Stay tu…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Brent Traut"
+          }
+        ],
+        "learningActions": [
+          "把「when people tell you buildi…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094239044569805255",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/emadgnia/status/2094239044569805255",
+        "author": "Emad Ghorbaninia",
+        "handle": "emadgnia",
+        "datetime": "2026-08-31T01:41:11.000Z",
+        "title": "Home 信号：Everyone's calling InfiniteSlop ent…",
+        "originalSummary": "原帖内容：Everyone's calling InfiniteSlop entertainment. It's actually the first working UI for 'type what you want, watch a model make it live' — every AI product ships that exact interaction within 18 months.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Everyone's calling InfiniteSlop entertainment. It's actually the first working UI for 'type what you want, watch a model make it live' — every AI product ships that exact interaction within 18 months.",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Everyone's calling Infinite…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094227864694739203",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/maruirin/status/2094227864694739203",
+        "author": "まるい りん",
+        "handle": "maruirin",
+        "datetime": "2026-08-31T00:56:46.000Z",
+        "title": "Home 信号：AIが作っても挙動が問題なければ問題ないと思うので、何で騒がれてるのか…",
+        "originalSummary": "原帖内容：AIが作っても挙動が問題なければ問題ないと思うので、何で騒がれてるのかわからない コードや公開プラグインを共有してる時代なのに、AIが目の敵にされるのが謎 コード見てると人間臭いのでAI使ったかも謎だし マイナポータルのお役所UIもこうなので、むしろ統一感があり、わかりやすくて良いと思う",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：AIが作っても挙動が問題なければ問題ないと思うので、何で騒がれてるのかわからない コードや公開プラグインを共有してる時代なのに、AIが目の敵にされるのが謎 コード見てると人間臭いのでAI使ったかも謎だし マイナポータルのお役所UIもこうなので、むしろ統一感があり、わかりやすくて良いと思う",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/sangiinwebtv/status/2093126814143308135",
+            "title": "X 引用帖：参議院審議中継",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：参議院ホームページ(https://www.sangiin.go.jp/)のデザインリニューアルを実施しました。 平成21年以来となる17年ぶりのデザインの刷新により、視認性・操作性を向上させ、利用者が目的の情報にたどり着きやすいホームページといたしました。 併せて、国会議事堂内を360 度の映像で体感できる「バーチャル参観」及び映像コンテンツ「ドローンで見る参議院」を新設し、参議院をより身近に感じていただけるよう、情報発信の充実を図…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：参議院審議中継"
+          }
+        ],
+        "learningActions": [
+          "把「AIが作っても挙動が問題なければ問題ないと思うので、何…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094150243143029027",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/charliermarsh/status/2094150243143029027",
+        "author": "Charlie Marsh",
+        "handle": "charliermarsh",
+        "datetime": "2026-08-30T19:48:20.000Z",
+        "title": "Home 信号：Long threads in the desktop app sho…",
+        "originalSummary": "原帖内容：Long threads in the desktop app should now load >90% faster",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「个人收藏偏好」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：Long threads in the desktop app should now load >90% faster",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/btraut/status/2094119709222519134",
+            "title": "X 引用帖：Brent Traut",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：Last week, I pushed a change to the ChatGPT desktop app that makes the loading of threads faster. Not just a little faster. A LOT faster. ✅ Long threads now load over 90% faster. ✅ Decreased the memory footprint of long…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Brent Traut"
+          }
+        ],
+        "learningActions": [
+          "把「Long threads in the desktop…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094160199091196212",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/LyalinDotCom/status/2094160199091196212",
+        "author": "Dmitry Lyalin",
+        "handle": "LyalinDotCom",
+        "datetime": "2026-08-30T20:27:53.000Z",
+        "title": "Home 信号：I recall listening to a bunch of fo…",
+        "originalSummary": "原帖内容：I recall listening to a bunch of folks in AI podcasts talk about \"working on projects as they walk somewhere using their phone\" and I didn't get it. It didn't feel real. What can you really get done? But then I tried it & OMG you can do re…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：I recall listening to a bunch of folks in AI podcasts talk about \"working on projects as they walk somewhere using their phone\" and I didn't get it. It didn't feel real. What can you really get done? But then I tried it & OMG you can do real work. Obviously w…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「I recall listening to a bun…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094232641478258917",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ericclemmons/status/2094232641478258917",
+        "author": "Eric Clemmons 🍊☁️",
+        "handle": "ericclemmons",
+        "datetime": "2026-08-31T01:15:45.000Z",
+        "title": "Home 信号：The only time I still run a dev ser…",
+        "originalSummary": "原帖内容：The only time I still run a dev server locally is for UI work. Time to resurrect my project from 2019 and make it AI-friendly I guess",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：The only time I still run a dev server locally is for UI work. Time to resurrect my project from 2019 and make it AI-friendly I guess",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「The only time I still run a…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094192090481922155",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/aaronmahlke/status/2094192090481922155",
+        "author": "Aaron",
+        "handle": "aaronmahlke",
+        "datetime": "2026-08-30T22:34:37.000Z",
+        "title": "Home 信号：who are the best video creatives i …",
+        "originalSummary": "原帖内容：who are the best video creatives i should work with looking for both agencies who can do higher quality productions but also talented individuals 👀 direct links to previous work would be appreciated",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「个人收藏偏好」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：who are the best video creatives i should work with looking for both agencies who can do higher quality productions but also talented individuals 👀 direct links to previous work would be appreciated",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/figma/status/2093444120853524867",
+            "title": "X 引用帖：Figma",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：Bringing Shader Town to New York and San Francisco。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Figma"
+          }
+        ],
+        "learningActions": [
+          "把「who are the best video crea…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094115140899672368",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/lewangx/status/2094115140899672368",
+        "author": "LE",
+        "handle": "lewangx",
+        "datetime": "2026-08-30T17:28:51.000Z",
+        "title": "Home 信号：太开心看到x友们的各种各样的创意了，召唤猫猫的，这还是第一个啊，求上传…",
+        "originalSummary": "原帖内容：太开心看到x友们的各种各样的创意了，召唤猫猫的，这还是第一个啊，求上传到我们的社区玩法仓库，教会 AI 更聪明的 Vibe Coding😃。在我们群里面，网友在说，创意动作慢了就被别人给开发了😂，现在社区已经有 70 多个玩法了。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：太开心看到x友们的各种各样的创意了，召唤猫猫的，这还是第一个啊，求上传到我们的社区玩法仓库，教会 AI 更聪明的 Vibe Coding😃。在我们群里面，网友在说，创意动作慢了就被别人给开发了😂，现在社区已经有 70 多个玩法了。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/klay_young8/status/2094079975066673306",
+            "title": "X 引用帖：克莱",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：FoloToy AI Passport 今天刚到手，第一时间做了个“喵语”应用，成功召唤猫猫✌️。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：克莱"
+          }
+        ],
+        "learningActions": [
+          "把「太开心看到x友们的各种各样的创意了，召唤猫猫的，这还是…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094204009943118081",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/urdav3/status/2094204009943118081",
+        "author": "Dav3 (Ø,G)",
+        "handle": "urdav3",
+        "datetime": "2026-08-30T23:21:59.000Z",
+        "title": "Home 信号：600,000+ hand-crafted animations in…",
+        "originalSummary": "原帖内容：600,000+ hand-crafted animations in GTA 6 sounds like a celebration of how sophisticated modern games have become. But there is something funny about imagining all that technological progress meeting one of the internet’s oldest rituals: O…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：600,000+ hand-crafted animations in GTA 6 sounds like a celebration of how sophisticated modern games have become. But there is something funny about imagining all that technological progress meeting one of the internet’s oldest rituals: Open a client. Start …",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/TheBTTCommunity/status/2094092097867452905",
+            "title": "X 引用帖：BitTorrent Community",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：600k animations in GTA 6. And somewhere in Leonida, somebody will still sit down, open a client, and wait for a bar to hit 100%.。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：BitTorrent Community"
+          }
+        ],
+        "learningActions": [
+          "把「600,000+ hand-crafted anima…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094243883450568809",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/quantumfomo/status/2094243883450568809",
+        "author": "Bryan | AI Made Simple",
+        "handle": "quantumfomo",
+        "datetime": "2026-08-31T02:00:25.000Z",
+        "title": "Home 信号：Unpopular opinion: Most 'AI startup…",
+        "originalSummary": "原帖内容：Unpopular opinion: Most 'AI startups' are just GPT wrappers with a nice UI. Prove me wrong.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Unpopular opinion: Most 'AI startups' are just GPT wrappers with a nice UI. Prove me wrong.",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Unpopular opinion: Most 'AI…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094244967766278251",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/zuttoWEB/status/2094244967766278251",
+        "author": "ずっとWEB勉強中",
+        "handle": "zuttoWEB",
+        "datetime": "2026-08-31T02:04:44.000Z",
+        "title": "Home 信号：非ITの方向けのAI講習会で使用する、APIを使ったChatGPTチッ…",
+        "originalSummary": "原帖内容：非ITの方向けのAI講習会で使用する、APIを使ったChatGPTチックなUIの「プロンプト練習場」を作ってる。 なんせ無料枠を当てにしたワークショップはトラブルの臭いしかしない🤣 会話だけじゃなく、画像生成や、PDF、エクセルなどのファイルの解読、生成、検索なんかもできて、各参加者がどんなプロンプトでどんな回答だったかを講師側でリアルタイムで確認できるしくみ。 １回の講習会なら5ドル程度課金すれば、参加者さんもたっぷり遊べるでしょ。 ホントは「Chot GPT（ちょっと…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：非ITの方向けのAI講習会で使用する、APIを使ったChatGPTチックなUIの「プロンプト練習場」を作ってる。 なんせ無料枠を当てにしたワークショップはトラブルの臭いしかしない🤣 会話だけじゃなく、画像生成や、PDF、エクセルなどのファイルの解読、生成、検索なんかもできて、各参加者がどんなプロンプトでどんな回答だったかを講師側でリアルタイムで確認できるしくみ。 １回の講習会なら5ドル程度課金すれば、参加者さんもたっぷり遊べるでしょ。 ホントは「Chot GPT（ちょっとGPT）」ってネーミングにしたいんだけど…",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「非ITの方向けのAI講習会で使用する、APIを使ったC…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094169133893971993",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/willking/status/2094169133893971993",
+        "author": "Will King",
+        "handle": "willking",
+        "datetime": "2026-08-30T21:03:23.000Z",
+        "title": "Home 信号：I read A LOT, and it is disappointi…",
+        "originalSummary": "原帖内容：I read A LOT, and it is disappointing and painfully obvious when the book has been written using AI.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：I read A LOT, and it is disappointing and painfully obvious when the book has been written using AI.",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「I read A LOT, and it is dis…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094105407740354955",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/pauline_makes/status/2094105407740354955",
+        "author": "pauline",
+        "handle": "pauline_makes",
+        "datetime": "2026-08-30T16:50:10.000Z",
+        "title": "Home 信号：excited to introduce my team of age…",
+        "originalSummary": "原帖内容：excited to introduce my team of agents:",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：excited to introduce my team of agents:",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「excited to introduce my tea…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "media:photo"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094238140450107733",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/lingxi/status/2094238140450107733",
+        "author": "Lingxi Li",
+        "handle": "lingxi",
+        "datetime": "2026-08-31T01:37:36.000Z",
+        "title": "Home 信号：software has feature flags",
+        "originalSummary": "原帖内容：software has feature flags. hardware has simulators. when agents can test an idea at much lower cost, the default flips: try it first, then decide if it’s worth keeping.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：software has feature flags. hardware has simulators. when agents can test an idea at much lower cost, the default flips: try it first, then decide if it’s worth keeping.",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/yunta_tsai/status/2094235264868843848",
+            "title": "X 引用帖：Yun-Ta Tsai",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：It’s common to treat hard thinking as proof of validation instead of doing — especially after you’ve already thought very hard. That’s like a model generating a pile of code after reasoning, without ever checking whethe…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Yun-Ta Tsai"
+          }
+        ],
+        "learningActions": [
+          "把「software has feature flags」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094214072388759760",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/jachiam0/status/2094214072388759760",
+        "author": "Joshua Achiam",
+        "handle": "jachiam0",
+        "datetime": "2026-08-31T00:01:58.000Z",
+        "title": "Home 信号：I don't think this is actually as c…",
+        "originalSummary": "原帖内容：I don't think this is actually as crazy a position as you make it sound. The idea that there's a Very Important Rule that covers the general case, but which has a lot of case-specific exceptions where it either matters much more or much le…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：I don't think this is actually as crazy a position as you make it sound. The idea that there's a Very Important Rule that covers the general case, but which has a lot of case-specific exceptions where it either matters much more or much less, and leaving it t…",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/AndyMasley/status/2093901421561159888",
+            "title": "X 引用帖：Andy Masley",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：How people think about speed limits is so funny. They want there to be a law and think that's important, but it's also important that the law only be enforced infrequently, randomly and unpredictably, and by humans who …。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Andy Masley"
+          }
+        ],
+        "learningActions": [
+          "把「I don't think this is actua…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094182872135487684",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/artur_bien/status/2094182872135487684",
+        "author": "Artur Bień",
+        "handle": "artur_bien",
+        "datetime": "2026-08-30T21:57:59.000Z",
+        "title": "Home 信号：I know Josh from a super-secret Sla…",
+        "originalSummary": "原帖内容：I know Josh from a super-secret Slack where the forbidden interface knowledge is exchanged and he absolutely knows what he’s doing",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：I know Josh from a super-secret Slack where the forbidden interface knowledge is exchanged and he absolutely knows what he’s doing",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/joshpuckett/status/2094178811139305589",
+            "title": "X 引用帖：joshpuckett",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：40k. I am grateful for each and every one of you. As a thank you, I've made https://interfacecraft.dev 40% off for the next 40 hours. If you've heard about it or been waiting to join, now is the time!。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：joshpuckett"
+          }
+        ],
+        "learningActions": [
+          "把「I know Josh from a super-se…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094237146412368128",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ngemberling/status/2094237146412368128",
+        "author": "Nate G",
+        "handle": "ngemberling",
+        "datetime": "2026-08-31T01:33:39.000Z",
+        "title": "Home 信号：A paradigm shift in how companies a…",
+        "originalSummary": "原帖内容：A paradigm shift in how companies are building software is here https://x.com/i/article/2094236347288506368",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「产品设计 / 视觉与交互」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：A paradigm shift in how companies are building software is here https://x.com/i/article/2094236347288506368",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094236347288506368",
+            "title": "X Article",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：X Article 链接在登录态中可打开；正文需浏览器渲染，自动 fetch 不返回完整正文。基于原帖可见标题/上下文做保守分析。。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X Article"
+          }
+        ],
+        "learningActions": [
+          "把「A paradigm shift in how com…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉与交互",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094133227627622605",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dotey/status/2094133227627622605",
+        "author": "宝玉",
+        "handle": "dotey",
+        "datetime": "2026-08-30T18:40:43.000Z",
+        "title": "Home 信号：越是编程经验丰富，越是不放心放手让 AI 去代码和验证，很像带实习生或…",
+        "originalSummary": "原帖内容：越是编程经验丰富，越是不放心放手让 AI 去代码和验证，很像带实习生或者带新人，总担心别人把代码库搞坏了，其实人家技术挺好的。 我真正放手让 AI 去写代码不怎么看代码是在我不熟悉的领域。 前不久我开始用 AI 写 Swift + AppKit 代码，就属于我不熟悉的领域，没办法只能让 AI 去写，虽然也看得懂但是毕竟没那么专业不觉得比 AI 写的更好。 慢慢的发现 AI 写的质量挺好的，很多细节没太有必要去纠结，只要整理在功能、安全、性能上没啥问题就好，甚至维护都可以 A…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：越是编程经验丰富，越是不放心放手让 AI 去代码和验证，很像带实习生或者带新人，总担心别人把代码库搞坏了，其实人家技术挺好的。 我真正放手让 AI 去写代码不怎么看代码是在我不熟悉的领域。 前不久我开始用 AI 写 Swift + AppKit 代码，就属于我不熟悉的领域，没办法只能让 AI 去写，虽然也看得懂但是毕竟没那么专业不觉得比 AI 写的更好。 慢慢的发现 AI 写的质量挺好的，很多细节没太有必要去纠结，只要整理在功能、安全、性能上没啥问题就好，甚至维护都可以 AI 自己维护。 所以我现在基本不看 AI…",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/AHZ1190v0/status/2094125370488594770",
+            "title": "X 引用帖：Omari Russell",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：我还是做不到让 AI 自动执行自动验证纠错。要返工，还得再拆解理解AI写的代码。😂。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Omari Russell"
+          }
+        ],
+        "learningActions": [
+          "把「越是编程经验丰富，越是不放心放手让 AI 去代码和验证…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094178052569985535",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/bnj/status/2094178052569985535",
+        "author": "Ben South",
+        "handle": "bnj",
+        "datetime": "2026-08-30T21:38:50.000Z",
+        "title": "Home 信号：Heard through the grapevine that th…",
+        "originalSummary": "原帖内容：Heard through the grapevine that this was an intern at Anthropic",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「个人收藏偏好」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：Heard through the grapevine that this was an intern at Anthropic",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/KenjiCapital/status/2094167816010072259",
+            "title": "X 引用帖：Tyler | Kenji Capital",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：A mystery buyer just dropped $67.8 MILLION on two neighboring mansions in San Francisco (Presidio Heights). Both were previously owned by Salesforce founder Marc Benioff. The bigger property at 3277 Pacific Ave is prett…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Tyler | Kenji Capital"
+          }
+        ],
+        "learningActions": [
+          "把「Heard through the grapevine…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094204740519567555",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/_lopopolo/status/2094204740519567555",
+        "author": "Ryan Lopopolo",
+        "handle": "_lopopolo",
+        "datetime": "2026-08-30T23:24:53.000Z",
+        "title": "Home 信号：It saddens me that there is no long…",
+        "originalSummary": "原帖内容：It saddens me that there is no longer a place in this world for Ruby. Fundamentally, Ruby is about providing the developer delight while in the process of authoring code. At least for me, this is not part of software engineering today.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「个人收藏偏好」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：It saddens me that there is no longer a place in this world for Ruby. Fundamentally, Ruby is about providing the developer delight while in the process of authoring code. At least for me, this is not part of software engineering today.",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「It saddens me that there is…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094130226494362000",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/nickbaumann_/status/2094130226494362000",
+        "author": "Nick",
+        "handle": "nickbaumann_",
+        "datetime": "2026-08-30T18:28:47.000Z",
+        "title": "Home 信号：One of the biggest features this ye…",
+        "originalSummary": "原帖内容：One of the biggest features this year honestly",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「个人收藏偏好」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：One of the biggest features this year honestly",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/btraut/status/2094119709222519134",
+            "title": "X 引用帖：Brent Traut",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：Last week, I pushed a change to the ChatGPT desktop app that makes the loading of threads faster. Not just a little faster. A LOT faster. ✅ Long threads now load over 90% faster. ✅ Decreased the memory footprint of long…。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Brent Traut"
+          }
+        ],
+        "learningActions": [
+          "把「One of the biggest features…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094187874677661909",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/willking/status/2094187874677661909",
+        "author": "Will King",
+        "handle": "willking",
+        "datetime": "2026-08-30T22:17:52.000Z",
+        "title": "Home 信号：If for some insane reason you haven…",
+        "originalSummary": "原帖内容：If for some insane reason you haven't purchased this yet. This is your chance.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「个人收藏偏好」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：If for some insane reason you haven't purchased this yet. This is your chance.",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/joshpuckett/status/2094178811139305589",
+            "title": "X 引用帖：joshpuckett",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：40k. I am grateful for each and every one of you. As a thank you, I've made https://interfacecraft.dev 40% off for the next 40 hours. If you've heard about it or been waiting to join, now is the time!。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：joshpuckett"
+          }
+        ],
+        "learningActions": [
+          "把「If for some insane reason y…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094141589291761739",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Megabits_mzq/status/2094141589291761739",
+        "author": "Megabits ❄️",
+        "handle": "Megabits_mzq",
+        "datetime": "2026-08-30T19:13:56.000Z",
+        "title": "Home 信号：说实话苹果就应该赶紧开放第三方商店得了，要么苹果那帮人工审核无论如何都…",
+        "originalSummary": "原帖内容：说实话苹果就应该赶紧开放第三方商店得了，要么苹果那帮人工审核无论如何都干不过 AI 做新 App 的效率的。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：说实话苹果就应该赶紧开放第三方商店得了，要么苹果那帮人工审核无论如何都干不过 AI 做新 App 的效率的。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「说实话苹果就应该赶紧开放第三方商店得了，要么苹果那帮人…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094224488292614195",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/datasuperiority/status/2094224488292614195",
+        "author": "DataSuperiority",
+        "handle": "datasuperiority",
+        "datetime": "2026-08-31T00:43:21.000Z",
+        "title": "Home 信号：A country can own every byte of its…",
+        "originalSummary": "原帖内容：A country can own every byte of its data and still lose control of the intelligence derived from it. When compute, models and APIs are rented without portability, sovereignty becomes a subscription. The strategic defense is tested exit pow…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：A country can own every byte of its data and still lose control of the intelligence derived from it. When compute, models and APIs are rented without portability, sovereignty becomes a subscription. The strategic defense is tested exit power. https://x.com/i/…",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094222211108192257",
+            "title": "X Article",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：X Article 链接在登录态中可打开；正文需浏览器渲染，自动 fetch 不返回完整正文。基于原帖可见标题/上下文做保守分析。。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X Article"
+          }
+        ],
+        "learningActions": [
+          "把「A country can own every byt…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094136616948486268",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Megabits_mzq/status/2094136616948486268",
+        "author": "Megabits ❄️",
+        "handle": "Megabits_mzq",
+        "datetime": "2026-08-30T18:54:11.000Z",
+        "title": "Home 信号：有人提交了三个 app 都被苹果作为 Spam 打回来了 @HzaoH…",
+        "originalSummary": "原帖内容：有人提交了三个 app 都被苹果作为 Spam 打回来了 @HzaoHzao 比你那个憋半个月不给过的还狠。苹果的审核现在大概是真的扛不住一堆人拿 AI 写 App 提交的这个速度了。",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：有人提交了三个 app 都被苹果作为 Spam 打回来了 @HzaoHzao 比你那个憋半个月不给过的还狠。苹果的审核现在大概是真的扛不住一堆人拿 AI 写 App 提交的这个速度了。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/Aifchoz/status/2093578910034498043",
+            "title": "X 引用帖：Joel 個人開発",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：App Storeの審査で困っています。新作3本が同時に4.3(a)（スパム扱い）で却下され、配信中アプリのバグ修正アップデートまで同じ理由で止まりました。同じ経験をされた方いませんか。どう抜けたか教えてほしいです。Resolution Centerは定型文しか返ってきません。。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Joel 個人開発"
+          }
+        ],
+        "learningActions": [
+          "把「有人提交了三个 app 都被苹果作为 Spam 打回来…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094133058295201885",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/zsbenke/status/2094133058295201885",
+        "author": "Zsolt Benke",
+        "handle": "zsbenke",
+        "datetime": "2026-08-30T18:40:02.000Z",
+        "title": "Home 信号：I’m using it with Hermes for a coup…",
+        "originalSummary": "原帖内容：I’m using it with Hermes for a couple of months now. Pretty awesome app!",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「个人收藏偏好」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：I’m using it with Hermes for a couple of months now. Pretty awesome app!",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/morajabi/status/2094035457457742314",
+            "title": "X 引用帖：Mo Rajabi",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：launching @inline_chat beta tomorrow. sneak peak:。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Mo Rajabi"
+          }
+        ],
+        "learningActions": [
+          "把「I’m using it with Hermes fo…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094155538271510920",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/hamzaalabou/status/2094155538271510920",
+        "author": "hamza",
+        "handle": "hamzaalabou",
+        "datetime": "2026-08-30T20:09:22.000Z",
+        "title": "Home 信号：you will go further by compounding …",
+        "originalSummary": "原帖内容：you will go further by compounding your strengths than constantly fixing your weaknesses",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「个人收藏偏好」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：you will go further by compounding your strengths than constantly fixing your weaknesses",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「you will go further by comp…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094213274665374063",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dontbsalti/status/2094213274665374063",
+        "author": "Market Mommy",
+        "handle": "dontbsalti",
+        "datetime": "2026-08-30T23:58:47.000Z",
+        "title": "Home 信号：https://x",
+        "originalSummary": "原帖内容：https://x.com/i/article/2094167552494612481",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「个人收藏偏好」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：https://x.com/i/article/2094167552494612481",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094167552494612481",
+            "title": "X Article",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：X Article 链接在登录态中可打开；正文需浏览器渲染，自动 fetch 不返回完整正文。基于原帖可见标题/上下文做保守分析。。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X Article"
+          }
+        ],
+        "learningActions": [
+          "把「https://x」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094196907791012238",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/spencerc99/status/2094196907791012238",
+        "author": "spencer chang",
+        "handle": "spencerc99",
+        "datetime": "2026-08-30T22:53:45.000Z",
+        "title": "Home 信号：this is also the idea behind \"alive…",
+        "originalSummary": "原帖内容：this is also the idea behind \"alive internet theory\" we can believe there's no hope for the internet and fear everyone is a bot or we can believe there will always be people looking for each other online, fighting for that kind of internet…",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「个人收藏偏好」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：this is also the idea behind \"alive internet theory\" we can believe there's no hope for the internet and fear everyone is a bot or we can believe there will always be people looking for each other online, fighting for that kind of internet, and making space f…",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/spencerc99/status/2094183156861829156",
+            "title": "X 引用帖：spencer chang",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：wow just discovered \"pronoia\" amazing concept。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：spencer chang"
+          }
+        ],
+        "learningActions": [
+          "把「this is also the idea behin…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094241094125134319",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/AdamWhitcroft/status/2094241094125134319",
+        "author": "Adam Whitcroft",
+        "handle": "AdamWhitcroft",
+        "datetime": "2026-08-31T01:49:20.000Z",
+        "title": "Home 信号：Bring back those wild perspective s…",
+        "originalSummary": "原帖内容：Bring back those wild perspective shots from the pink basketball website.",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「个人收藏偏好」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：Bring back those wild perspective shots from the pink basketball website.",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Bring back those wild persp…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好",
+          "media:video"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094222541686821340",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/BestBlogsDev/status/2094222541686821340",
+        "author": "BestBlogs",
+        "handle": "BestBlogsDev",
+        "datetime": "2026-08-31T00:35:37.000Z",
+        "title": "Home 信号：https://x",
+        "originalSummary": "原帖内容：https://x.com/i/article/2094221501822373888",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「个人收藏偏好」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：https://x.com/i/article/2094221501822373888",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094221501822373888",
+            "title": "X Article",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：X Article 链接在登录态中可打开；正文需浏览器渲染，自动 fetch 不返回完整正文。基于原帖可见标题/上下文做保守分析。。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X Article"
+          }
+        ],
+        "learningActions": [
+          "把「https://x」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "个人收藏偏好",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094232008922906695",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Ni_luvya/status/2094232008922906695",
+        "author": "岛",
+        "handle": "Ni_luvya",
+        "datetime": "2026-08-31T01:13:14.000Z",
+        "title": "Home 信号：Cal AI 的实际分发阶梯，按时间顺序： 1",
+        "originalSummary": "原帖内容：Cal AI 的实际分发阶梯，按时间顺序： 1. Influencer（垂类健身类博主） → 做到 ~$2M/月收入后达到上限 2. Influencer（扩展到非垂类，拓圈） → $0.50–$3.00 的 CPM，整体约 3% 的合作率 3. Mr. Beast 赞助（$500K）→ ROI略负，但品牌背书，对后续其他合作有帮助 4. Paid Ads（复用博主内容作为广告素材）→ 成为后期主要增长 5. 驱动创作者联盟计划（基于收入分成）",
+        "whySaved": "",
+        "whyCaptured": "我会抓取它，因为它是「AI 产品 / 设计工程」方向的高信号样本，能转成设计工程师的观察、拆解或试用任务。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：Cal AI 的实际分发阶梯，按时间顺序： 1. Influencer（垂类健身类博主） → 做到 ~$2M/月收入后达到上限 2. Influencer（扩展到非垂类，拓圈） → $0.50–$3.00 的 CPM，整体约 3% 的合作率 3. Mr. Beast 赞助（$500K）→ ROI略负，但品牌背书，对后续其他合作有帮助 4. Paid Ads（复用博主内容作为广告素材）→ 成为后期主要增长 5. 驱动创作者联盟计划（基于收入分成）",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/AlexIsBuilding/status/2091972033810718856",
+            "title": "X 引用帖：🇦🇺 Alex is Building",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：This founder grew his app Cal AI to $50,000,000 in ARR And got acquired by MyFitnessPal in 18 months. Today I'm speaking with @jakecastilloooo, the co-founder behind Cal AI's growth. Getting the exact playbook that you …。用于判断这条内容是原始发布、引用扩展还是案例…",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：🇦🇺 Alex is Building"
+          }
+        ],
+        "learningActions": [
+          "把「Cal AI 的实际分发阶梯，按时间顺序： 1」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / 设计工程",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094066258551636094",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/williamlab/status/2094066258551636094",
+        "author": "陳威廉",
+        "handle": "williamlab",
+        "datetime": "2026-08-30T14:14:36.000Z",
+        "title": "收藏：我去，居然看到有人用AI生成了我最喜欢的大刘短篇科幻小说《山》，而且质…",
+        "originalSummary": "原帖内容：我去，居然看到有人用AI生成了我最喜欢的大刘短篇科幻小说《山》，而且质量还不错，推荐观看。 而且居然是一个人手搓出来的！! ！AI真是大舞台啊，一个普通人也能整上两小时科幻大电影了。 --来自B站Up主“野生锅导演”",
+        "whySaved": "你会收藏它，是因为它提供了一个可复盘的「AI 产品 / 设计工程」样本：我去，居然看到有人用AI生成了我最喜欢的大刘短篇科幻小说《山》，而且质量还不错，推荐观看。 而且居然是一个人手搓出来的！! ！AI真是大舞台啊，一个普通人也能整上两小时科幻大电影了。 --来自B站Up主“野生锅导演”。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你的设计判断。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：我去，居然看到有人用AI生成了我最喜欢的大刘短篇科幻小说《山》，而且质量还不错，推荐观看。 而且居然是一个人手搓出来的！! ！AI真是大舞台啊，一个普通人也能整上两小时科幻大电影了。 --来自B站Up主“野生锅导演”",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「我去，居然看到有人用AI生成了我最喜欢的大刘短篇科幻小…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Liked",
+          "AI 产品 / 设计工程",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2093800904440889815",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/lucaisdesigning/status/2093800904440889815",
+        "author": "Luca",
+        "handle": "lucaisdesigning",
+        "datetime": "2026-08-29T20:40:11.000Z",
+        "title": "收藏：an experiment",
+        "originalSummary": "原帖内容：an experiment !",
+        "whySaved": "你会收藏它，是因为它提供了一个可复盘的「个人收藏偏好」样本：an experiment !。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你的设计判断。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：an experiment !",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「an experiment」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Liked",
+          "个人收藏偏好",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094103370311287084",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/radiofun8/status/2094103370311287084",
+        "author": "Minsang Choi",
+        "handle": "radiofun8",
+        "datetime": "2026-08-30T16:42:04.000Z",
+        "title": "收藏：Up the tester limit",
+        "originalSummary": "原帖内容：Up the tester limit. Also added mini shutter button per feedback 🙏",
+        "whySaved": "你会收藏它，是因为它提供了一个可复盘的「个人收藏偏好」样本：Up the tester limit. Also added mini shutter button per feedback 🙏。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你的设计判断。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：Up the tester limit. Also added mini shutter button per feedback 🙏",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/radiofun8/status/2093813748637311342",
+            "title": "X 引用帖：Minsang Choi",
+            "access": "partial",
+            "value": "该 X 链接补充了原帖上游语境：Testing some variants. https://testflight.apple.com/join/BtejdAN1。用于判断这条内容是原始发布、引用扩展还是案例补充。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "X 引用帖：Minsang Choi"
+          }
+        ],
+        "learningActions": [
+          "把「Up the tester limit」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Liked",
+          "个人收藏偏好",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094059887940845708",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/VuNguyenDev/status/2094059887940845708",
+        "author": "Vu Nguyen",
+        "handle": "VuNguyenDev",
+        "datetime": "2026-08-30T13:49:17.000Z",
+        "title": "收藏：I have been working on a motion tem…",
+        "originalSummary": "原帖内容：I have been working on a motion template in SmoothCapture. Now you can save your custom camera movement as a motion template and apply it to any projects with one click Just one step closer to a better workflow",
+        "whySaved": "你会收藏它，是因为它提供了一个可复盘的「产品设计 / 视觉与交互」样本：I have been working on a motion template in SmoothCapture. Now you can save your custom camera movement as a motion tem…。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你的设计判断。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：I have been working on a motion template in SmoothCapture. Now you can save your custom camera movement as a motion template and apply it to any projects with one click Just one step closer to a better workflow",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「I have been working on a mo…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Liked",
+          "产品设计 / 视觉与交互",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2079620389022441837",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/hiunicornstudio/status/2079620389022441837",
+        "author": "Unicorn Studio",
+        "handle": "hiunicornstudio",
+        "datetime": "2026-07-21T17:31:52.000Z",
+        "title": "收藏：Two new effects",
+        "originalSummary": "原帖内容：Two new effects! Particle Formation turns SVG logos/shapes into particles. Particle Emitter let's you create mouse trails or program particle flows using burst, trail, and orbit motion. Particularly jazzed about this one.",
+        "whySaved": "你会收藏它，是因为它提供了一个可复盘的「产品设计 / 视觉与交互」样本：Two new effects! Particle Formation turns SVG logos/shapes into particles. Particle Emitter let's you create mouse trai…。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你的设计判断。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Two new effects! Particle Formation turns SVG logos/shapes into particles. Particle Emitter let's you create mouse trails or program particle flows using burst, trail, and orbit motion. Particularly jazzed about this one. 该条来自历史 CSV Like 回补，用于补足当天 100 条分析底座。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Two new effects」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Liked",
+          "产品设计 / 视觉与交互",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2079605528750076163",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/_jshmllr/status/2079605528750076163",
+        "author": "Josh",
+        "handle": "_jshmllr",
+        "datetime": "2026-07-21T16:32:49.000Z",
+        "title": "收藏：The best brush on the web via @IOiv…",
+        "originalSummary": "原帖内容：The best brush on the web via @IOivm - brainstorming the possibilities.",
+        "whySaved": "你会收藏它，是因为它提供了一个可复盘的「AI 产品 / 设计工程」样本：The best brush on the web via @IOivm - brainstorming the possibilities.。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你的设计判断。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：The best brush on the web via @IOivm - brainstorming the possibilities. 该条来自历史 CSV Like 回补，用于补足当天 100 条分析底座。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「The best brush on the web v…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Liked",
+          "AI 产品 / 设计工程",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2079599437362450759",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/thelightphone/status/2079599437362450759",
+        "author": "light",
+        "handle": "thelightphone",
+        "datetime": "2026-07-21T16:08:37.000Z",
+        "title": "收藏：There’s a nostalgia for a time befo…",
+        "originalSummary": "原帖内容：There’s a nostalgia for a time before smartphones, when phones were just that. Introducing the Light Flip... now available for pre-order: https://www.thelightphone.com/lightflip",
+        "whySaved": "你会收藏它，是因为它提供了一个可复盘的「AI 产品 / 设计工程」样本：There’s a nostalgia for a time before smartphones, when phones were just that. Introducing the Light Flip... now availa…。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你的设计判断。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：There’s a nostalgia for a time before smartphones, when phones were just that. Introducing the Light Flip... now available for pre-order: https://www.thelightphone.com/lightflip 该条来自历史 CSV Like 回补，用于补足当天 100 条分析底座。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.thelightphone.com/lightflip",
+            "title": "The Light Phone",
+            "access": "full",
+            "value": "链接补充了原帖没有展开的页面信息：The Light Phone，Light is a radically different technology company. We design beautiful tools that respect and empower our users and our first product is The Light Phone.。用于判断它是否值得继续读、试用或拆解。",
+            "learningValue": "继续核对页面里的功能范围、设计模式、实现线索，并记录可复用到个人作品集/工具链的部分。",
+            "summary": "The Light Phone"
+          }
+        ],
+        "learningActions": [
+          "把「There’s a nostalgia for a t…」拆成一个可复用的设计/产品判断点。",
+          "打开链接核对功能边界、案例细节和可复用实现线索。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Liked",
+          "AI 产品 / 设计工程",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2078057152544141352",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/TweetsByTBI/status/2078057152544141352",
+        "author": "The Brand Identity",
+        "handle": "TweetsByTBI",
+        "datetime": "2026-07-17T10:00:08.000Z",
+        "title": "收藏：A photography festival identity wit…",
+        "originalSummary": "原帖内容：A photography festival identity without photos.",
+        "whySaved": "你会收藏它，是因为它提供了一个可复盘的「个人收藏偏好」样本：A photography festival identity without photos.。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你的设计判断。",
+        "deepSummary": "这条内容的价值在于把「个人收藏偏好」落到一个具体场景：A photography festival identity without photos. 该条来自历史 CSV Like 回补，用于补足当天 100 条分析底座。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「A photography festival iden…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Liked",
+          "个人收藏偏好",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2077589812685701607",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Xian0063/status/2077589812685701607",
+        "author": "Xian | 弦",
+        "handle": "Xian0063",
+        "datetime": "2026-07-16T03:03:05.000Z",
+        "title": "收藏：我先收藏了，然后做了个Claude的I Love网站，专门贴这些图，形…",
+        "originalSummary": "原帖内容：我先收藏了，然后做了个Claude的I Love网站，专门贴这些图，形成一种语言和收藏品，但只供我欣赏啊 @claudeai",
+        "whySaved": "你会收藏它，是因为它提供了一个可复盘的「AI 产品 / 设计工程」样本：我先收藏了，然后做了个Claude的I Love网站，专门贴这些图，形成一种语言和收藏品，但只供我欣赏啊 @claudeai。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你的设计判断。",
+        "deepSummary": "这条内容的价值在于把「AI 产品 / 设计工程」落到一个具体场景：我先收藏了，然后做了个Claude的I Love网站，专门贴这些图，形成一种语言和收藏品，但只供我欣赏啊 @claudeai 该条来自历史 CSV Like 回补，用于补足当天 100 条分析底座。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「我先收藏了，然后做了个Claude的I Love网站，…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Liked",
+          "AI 产品 / 设计工程",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2077409942596730931",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Aryana_Designs/status/2077409942596730931",
+        "author": "Aryana Shakibaei ✦",
+        "handle": "Aryana_Designs",
+        "datetime": "2026-07-15T15:08:21.000Z",
+        "title": "收藏：Quick Styles 📷",
+        "originalSummary": "原帖内容：Quick Styles 📷",
+        "whySaved": "你会收藏它，是因为它提供了一个可复盘的「产品设计 / 视觉与交互」样本：Quick Styles 📷。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你的设计判断。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：Quick Styles 📷 该条来自历史 CSV Like 回补，用于补足当天 100 条分析底座。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Quick Styles 📷」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Liked",
+          "产品设计 / 视觉与交互",
+          "media:photo"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2077078711015248237",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/ioana_teleanu/status/2077078711015248237",
+        "author": "Ioana Teleanu",
+        "handle": "ioana_teleanu",
+        "datetime": "2026-07-14T17:12:09.000Z",
+        "title": "收藏：visual + motion exploration for my …",
+        "originalSummary": "原帖内容：visual + motion exploration for my newsletter identity 💌",
+        "whySaved": "你会收藏它，是因为它提供了一个可复盘的「产品设计 / 视觉与交互」样本：visual + motion exploration for my newsletter identity 💌。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你的设计判断。",
+        "deepSummary": "这条内容的价值在于把「产品设计 / 视觉与交互」落到一个具体场景：visual + motion exploration for my newsletter identity 💌 该条来自历史 CSV Like 回补，用于补足当天 100 条分析底座。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「visual + motion exploration…」拆成一个可复用的设计/产品判断点。",
+          "基于原帖截图/视频/文本，记录一个可在自己项目中复刻的小实验。",
+          "判断它属于灵感、工具、流程、系统设计还是风险边界，并加入个人设计方法库。"
+        ],
+        "tags": [
+          "Liked",
+          "产品设计 / 视觉与交互",
+          "media:video"
+        ],
+        "priority": "medium"
+      }
+    ]
+  },
+  {
     "date": "2026-08-30",
     "generatedAt": "2026-08-30T13:18:00+08:00",
     "batch": "x-ai-design-analysis-2026-08-30-1318",

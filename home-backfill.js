@@ -1,6 +1,402 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-31T02:00:00.000Z",
+    "author": "Julian Goldie SEO",
+    "handle": "JulianGoldieSEO",
+    "avatar": "https://pbs.twimg.com/profile_images/1322760467979268096/b3RoYhTq_200x200.jpg",
+    "title": "Google Stitch 强化协同设计 agent",
+    "summary": "我会帮你抓取它，因为它描述的 canvas streaming、语音重定向和多方向比较，正是 AI 设计工具从“生成一稿”走向“协同试错”的关键交互。",
+    "url": "https://x.com/JulianGoldieSEO/status/2094243779720946096",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 515 VIEWS",
+    "_analysisTheme": "设计工具 / AI 画布",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094024740658962433/vid/avc1/640x360/Dso0mG3eyYewr23O.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094024740658962433/img/MPlXMW9zVQSjw0fr.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-08-31T01:59:24.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "Vibe Coding 按变化点拆模块",
+    "summary": "我会帮你抓取它，因为它把 AI coding 的质量问题落回软件架构：模块不应按流程切，而应按未来会变化的业务边界切，适合做 agent 生成代码前的设计检查清单。",
+    "url": "https://x.com/dotey/status/2094243627123744937",
+    "metrics": "3 REPLIES · 1 REPOSTS · 6 LIKES · 11 BOOKMARKS · 1768 VIEWS",
+    "_analysisTheme": "AI 产品 / 设计工程",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "宝玉",
+      "handle": "dotey",
+      "text": "越是编程经验丰富，越是不放心放手让 AI 去代码和验证，很像带实习生或者带新人，总担心别人把代码库搞坏了，其实人家技术挺好的。 我真正放手让 AI 去写代码不怎么看代码是在我不熟悉的领域。 前不久我开始用 AI 写 Swift + AppKit 代码，就属于我不熟悉的领域，没办法只能让 AI 去写，虽然也看得懂但是毕竟没那么专业不觉得比 AI 写的更好。 慢慢的发现 AI 写的质量挺好的，很多细节没太有必要去纠结，只要整理在功能、安全、性能上没啥问题就好，甚至维护都可以 AI 自己维护。 所以我现在基本不看 AI…",
+      "url": "https://x.com/dotey/status/2094133227627622605"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-31T01:56:24.000Z",
+    "author": "Viking",
+    "handle": "vikingmute",
+    "avatar": "https://pbs.twimg.com/profile_images/725179208528322560/TPjU7qop_200x200.jpg",
+    "title": "Tailscale tailcat 用短 token 做临时传输",
+    "summary": "我会帮你抓取它，因为 tailcat 把“临时安全连接”做成低摩擦产品：无账号、短 token、一次性链路，很适合研究轻量工具的 onboarding 和信任边界。",
+    "url": "https://x.com/vikingmute/status/2094242871708897699",
+    "metrics": "0 REPLIES · 0 REPOSTS · 2 LIKES · 1 BOOKMARKS · 229 VIEWS",
+    "_analysisTheme": "产品判断 / 工具体验",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://tailscale.com/tailcat"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRA-xSzaMAA_26_.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-31T01:33:49.000Z",
+    "author": "Github Trending",
+    "handle": "gittrend_io",
+    "avatar": "https://pbs.twimg.com/profile_images/2083935005202640896/ciWv1ltV_200x200.jpg",
+    "title": "baoyu-design 把 Claude Design 放进编辑器",
+    "summary": "我会帮你抓取它，因为它把 UI mockup、wireframe 和 deck 生成封装成 Agent Skill，直接服务设计工程师在本地编辑器里的产出流程。",
+    "url": "https://x.com/gittrend_io/status/2094237189320425703",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 16 VIEWS",
+    "_analysisTheme": "设计工具 / Agent Skill",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/ext_tw_video/2094237092960493568/pu/vid/avc1/480x852/M5MvwG8r-vYq1SP2.mp4?tag=12",
+        "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2094237092960493568/pu/img/rqlOFhXvHk-xf4vW.jpg"
+      }
+    ]
+  },
+  {
+    "category": "APP STORE",
+    "datetime": "2026-08-31T01:27:15.000Z",
+    "author": "独立开发者William",
+    "handle": "DLKFZWilliam2",
+    "avatar": "https://pbs.twimg.com/profile_images/2093857619001946112/dStigFVh_200x200.jpg",
+    "title": "App Store 截图可能影响 ASO 语义",
+    "summary": "我会帮你抓取它，因为它提醒设计师：商店截图不只是展示图，也可能成为搜索语义输入，产品视觉、关键词和信息层级需要一起设计。",
+    "url": "https://x.com/DLKFZWilliam2/status/2094235534428426477",
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 216 VIEWS",
+    "_analysisTheme": "产品设计 / 增长界面",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "AI SECURITY",
+    "datetime": "2026-08-31T01:20:24.000Z",
+    "author": "Kitsune",
+    "handle": "Kitsuneagentlab",
+    "avatar": "https://pbs.twimg.com/profile_images/2071996800635117568/lamvfFnw_200x200.jpg",
+    "title": "提示注入能让 Agent 违背规则",
+    "summary": "我会帮你抓取它，因为它把 agent 安全问题讲成可被产品化的失败案例：模型同意不等于系统批准，UI 和执行层要有独立闸门。",
+    "url": "https://x.com/Kitsuneagentlab/status/2094233811186077959",
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 1 BOOKMARKS · 38 VIEWS",
+    "_analysisTheme": "AI 安全 / Agent UX",
+    "_analysisPriority": "high",
+    "links": [
+      "https://x.com/i/article/2094233267507716096"
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-31T01:17:49.000Z",
+    "author": "笑点有点高 𝓕𝓵𝔂𝓲𝓷𝓧",
+    "handle": "fly_in_X",
+    "avatar": "https://pbs.twimg.com/profile_images/2083440014390943744/tlvts6Ca_200x200.jpg",
+    "title": "DeepInterview 做语音优先模拟面试",
+    "summary": "我会帮你抓取它，因为 DeepInterview 不是聊天框练习，而是语音实时追问、评分卡和教练反馈，适合研究 voice-first AI 工具的完整闭环。",
+    "url": "https://x.com/fly_in_X/status/2094233163329667514",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 33 VIEWS",
+    "_analysisTheme": "AI 产品 / Voice UX",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/ngoanpv/DeepInterview"
+    ],
+    "article": {
+      "kind": "external",
+      "title": "GitHub - ngoanpv/DeepInterview: Open-source, voice-first AI mock interviewer. Upload your CV + a...",
+      "preview": "Open-source, voice-first AI mock interviewer. Upload your CV + a job description, practice out loud with an adaptive multilingual interviewer, get scored and coached on your weak areas. LiveKit · L...",
+      "cover": "https://pbs.twimg.com/card_img/2094233163530956800/c8Za0nso?format=jpg&name=800x419",
+      "url": "https://github.com/ngoanpv/DeepInterview"
+    }
+  },
+  {
+    "category": "DESIGN LEARNING",
+    "datetime": "2026-08-31T01:17:34.000Z",
+    "author": "erza.",
+    "handle": "erzailham",
+    "avatar": "https://pbs.twimg.com/profile_images/2064256490274504704/OlUd4ENf_200x200.jpg",
+    "title": "AI for UI 课程聚焦 Emil 的设计指挥流程",
+    "summary": "我会帮你抓取它，因为用户关注的不是工具名，而是设计师如何指挥 AI 完成思考、探索和 polish，这正是个人设计方法库要沉淀的过程。",
+    "url": "https://x.com/erzailham/status/2094233097906815111",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 19 VIEWS",
+    "_analysisTheme": "设计学习 / AI Workflow",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://aiforui.dev/"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRA15r9bMAAyUjv.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-31T01:09:09.000Z",
+    "author": "RUX",
+    "handle": "0xrux",
+    "avatar": "https://pbs.twimg.com/profile_images/2090337450627301376/xPE8OkZf_200x200.jpg",
+    "title": "截图转代码工具用于 UI 还原",
+    "summary": "我会帮你抓取它，因为它把参考截图的布局、间距、组件和动效转成代码，适合研究设计稿还原和 AI 输出漂移的补救流程。",
+    "url": "https://x.com/0xrux/status/2094230981062390140",
+    "metrics": "3 REPLIES · 3 REPOSTS · 9 LIKES · 5 BOOKMARKS · 368 VIEWS",
+    "_analysisTheme": "设计工程 / Screenshot-to-code",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094230950624251904/vid/avc1/632x360/ipCR72g4mw1vgqEz.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094230950624251904/img/-qkzdzyqM-ltVvRo.jpg"
+      }
+    ]
+  },
+  {
+    "category": "BRAND DESIGN",
+    "datetime": "2026-08-31T01:00:07.000Z",
+    "author": "The Brand Identity",
+    "handle": "TweetsByTBI",
+    "avatar": "https://pbs.twimg.com/profile_images/1774761854306324480/-imXshxF_200x200.jpg",
+    "title": "LVL Group 品牌用建筑语汇建立克制感",
+    "summary": "我会帮你抓取它，因为它是高质量品牌系统样本：字体、酒红色和建筑/画廊语汇共同建立行业气质，适合拆解视觉策略。",
+    "url": "https://x.com/TweetsByTBI/status/2094228708043452771",
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 336 VIEWS",
+    "_analysisTheme": "品牌设计 / 视觉系统",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRAx5DXakAA67ES.jpg?name=orig"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094228689093615616/vid/avc1/480x600/FcVLgRsHEwjGYPRX.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094228689093615616/img/9ghoR3sMW6jbySnu.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRAx6QHbMAAMVkP.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-31T00:53:31.000Z",
+    "author": "Jaya Nayak",
+    "handle": "JayaNayak21",
+    "avatar": "https://pbs.twimg.com/profile_images/2090820019617951744/1PhT-bRP_200x200.jpg",
+    "title": "Claude /design skill 进入 CLI 工作流",
+    "summary": "我会帮你抓取它，因为它展示设计 brief、可编辑 artboard、选择方向和落地代码的一体化路径，适合反推设计到代码的控制面。",
+    "url": "https://x.com/JayaNayak21/status/2094227047707296120",
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 67 VIEWS",
+    "_analysisTheme": "设计工具 / Design-to-code",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094145735667408896/vid/avc1/640x360/qDVltokHigAhHdw8.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094145735667408896/img/oEWbSOgJclmh2zhk.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI VIDEO",
+    "datetime": "2026-08-31T00:46:57.000Z",
+    "author": "汤光头",
+    "handle": "tangpanqing",
+    "avatar": "https://pbs.twimg.com/profile_images/1892512101677277184/3h6Svthz_200x200.jpg",
+    "title": "AI 视频生成价格继续下探",
+    "summary": "我会帮你抓取它，因为价格信号会改变视频工具的产品边界：当每秒成本下降，设计师可以更大胆地把动态原型、广告素材和分镜验证纳入日常流程。",
+    "url": "https://x.com/tangpanqing/status/2094225394899792212",
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 177 VIEWS",
+    "_analysisTheme": "AI 视频 / 成本信号",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://pixstag.com/"
+    ]
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-31T00:01:51.000Z",
+    "author": "askie",
+    "handle": "imaskie",
+    "avatar": "https://pbs.twimg.com/profile_images/2089978318817054720/uAhgZPsi_200x200.jpg",
+    "title": "Grix 把 Agent 定义成组织角色",
+    "summary": "我会帮你抓取它，因为它把 Agent 产品从提示词工具转向“角色网络”：设计重点会变成权限、协作、交接和可审计工作流。",
+    "url": "https://x.com/imaskie/status/2094214044093956122",
+    "metrics": "2 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 103 VIEWS",
+    "_analysisTheme": "AI 产品 / Agent 组织",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/askie/grix"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094213993846153216/vid/avc1/640x360/Mpx5Q15YS31UDUGR.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094213993846153216/img/MOk1sy5fiHzYoZ5V.jpg"
+      }
+    ]
+  },
+  {
+    "category": "MICROINTERACTION",
+    "datetime": "2026-08-30T23:40:15.000Z",
+    "author": "ShyNloc",
+    "handle": "shynloc",
+    "avatar": "https://pbs.twimg.com/profile_images/2092857303871672321/136zmOd-_200x200.jpg",
+    "title": "Claude Design 等待态小游戏",
+    "summary": "我会帮你抓取它，因为等待态被做成轻量互动而不是纯 loading，这对长耗时 AI 任务的心理节奏和空状态设计很有参考价值。",
+    "url": "https://x.com/shynloc/status/2094208608145928376",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 28 VIEWS",
+    "_analysisTheme": "产品设计 / 微交互",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRAfW6Da4AApV65.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DEV TOOL",
+    "datetime": "2026-08-30T23:30:18.000Z",
+    "author": "NOVA",
+    "handle": "N0V4Dev",
+    "avatar": "https://pbs.twimg.com/profile_images/2062443806214205440/C9wHoXgP_200x200.jpg",
+    "title": "Warp 开源 agentic terminal 方向",
+    "summary": "我会帮你抓取它，因为 Warp 正把 CLI 做成带 UI、编辑和并行 agent 的开发环境，适合观察终端工具如何从命令行升级成设计工程工作台。",
+    "url": "https://x.com/N0V4Dev/status/2094206102896316706",
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 88 VIEWS",
+    "_analysisTheme": "开发工具 / Agent UX",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/warpdotdev/warp"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRAdWCtWYAAd-s5.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-08-30T21:06:22.000Z",
+    "author": "Artur Bień",
+    "handle": "artur_bien",
+    "avatar": "https://pbs.twimg.com/profile_images/2083208025058213888/3YtTaDi7_200x200.jpg",
+    "title": "不要被旧动效模式轻易打动",
+    "summary": "我会帮你抓取它，因为这条提醒设计工程师区分“漂亮但已过时”的动效套路和真正有用/新颖的 side project，是很好的审美校准。",
+    "url": "https://x.com/artur_bien/status/2094169883038605359",
+    "metrics": "15 REPLIES · 3 REPOSTS · 148 LIKES · 57 BOOKMARKS · 6178 VIEWS",
+    "_analysisTheme": "产品设计 / 设计判断",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "DESIGN SYSTEM",
+    "datetime": "2026-08-30T20:14:31.000Z",
+    "author": "MAZE",
+    "handle": "remvze",
+    "avatar": "https://pbs.twimg.com/profile_images/2082915897627324417/xHjxpMlG_200x200.jpg",
+    "title": "Dot Matrix 提供可拥有的 Loader 组件",
+    "summary": "我会帮你抓取它，因为它把 loader 做成可安装、可本地拥有的 shadcn 风格组件，适合研究微动效如何进入设计系统资产。",
+    "url": "https://x.com/remvze/status/2094156836244988336",
+    "metrics": "0 REPLIES · 1 REPOSTS · 22 LIKES · 20 BOOKMARKS · 1343 VIEWS",
+    "_analysisTheme": "设计系统 / 组件动效",
+    "_analysisPriority": "high",
+    "links": [
+      "https://desengs.com/",
+      "https://dotmatrix.zzzzshawn.cloud/"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ_wigmXIAAHROd.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-30T19:29:00.000Z",
+    "author": "Lenny Rachitsky",
+    "handle": "lennysan",
+    "avatar": "https://pbs.twimg.com/profile_images/1592990461517389824/iln8hi1f_200x200.jpg",
+    "title": "Codex 产品文化里的 mainlining 信号",
+    "summary": "我会帮你抓取它，因为 Tara Seshan 对 Codex 的产品判断强调“自己全天使用”，这是设计工具做深度工作流时比功能列表更重要的验收方式。",
+    "url": "https://x.com/lennysan/status/2094145378769912014",
+    "metrics": "19 REPLIES · 8 REPOSTS · 75 LIKES · 66 BOOKMARKS · 57355 VIEWS",
+    "_analysisTheme": "AI 产品 / 产品判断",
+    "_analysisPriority": "high",
+    "links": [
+      "https://youtu.be/zMvBMfj4cSQ"
+    ]
+  },
+  {
+    "category": "UI KIT",
+    "datetime": "2026-08-30T19:08:00.000Z",
+    "author": "Irsyad A. Panjaitan",
+    "handle": "irsyad",
+    "avatar": "https://pbs.twimg.com/profile_images/2074018379728601088/TZSdoJUy_200x200.jpg",
+    "title": "Irsyad 继续扩展 575 个 UI Blocks",
+    "summary": "我会帮你抓取它，因为新增 Sankey、Invoice、Order History 这些生产型模块，能帮助设计工程师观察复杂业务 UI 的组件化表达。",
+    "url": "https://x.com/irsyad/status/2094140093888106745",
+    "metrics": "2 REPLIES · 3 REPOSTS · 15 LIKES · 11 BOOKMARKS · 1193 VIEWS",
+    "_analysisTheme": "设计系统 / UI Blocks",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094139856276557824/vid/avc1/638x360/_0F6c3E4zO7Dvpzx.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094139856276557824/img/0oJ4g_5KbJCDHUUl.jpg"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Irsyad A. Panjaitan",
+      "handle": "irsyad",
+      "text": "Still working on the Charts section. Just added 2 more blocks for Radar charts.",
+      "url": "https://x.com/irsyad/status/2093772357148242304"
+    }
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-30T17:47:00.000Z",
+    "author": "Brent Traut",
+    "handle": "btraut",
+    "avatar": "https://pbs.twimg.com/profile_images/1373479046852403200/7_Qto0Rk_200x200.jpg",
+    "title": "ChatGPT 桌面长线程加载速度提升",
+    "summary": "我会帮你抓取它，因为性能优化不是后台指标，而会直接影响知识型工具的信任感：长上下文加载快，用户才敢把深工作流留在产品里。",
+    "url": "https://x.com/btraut/status/2094119709222519134",
+    "metrics": "336 REPLIES · 139 REPOSTS · 3869 LIKES · 593 BOOKMARKS · 912420 VIEWS",
+    "_analysisTheme": "AI 产品 / 性能体验",
+    "_analysisPriority": "high"
+  },
+  {
     "category": "AI SECURITY",
     "datetime": "2026-08-30T05:08:32.000Z",
     "author": "Nicholas Beale",

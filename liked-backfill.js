@@ -1,6 +1,172 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-30T08:28:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-08-31T10:16:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2094103370311287084",
+    "TwitterUserID": "34139208",
+    "UserScreenName": "radiofun8",
+    "UserProfileName": "Minsang Choi",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2077539226661560320/OoEKBEl1_200x200.jpg",
+    "TweetText": "Up the tester limit. Also added mini shutter button per feedback 🙏",
+    "Tweet Url": "https://x.com/radiofun8/status/2094103370311287084",
+    "TweetCreatedDate": "2026-08-30T16:42:04.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094103316917862400/img/nXfcgHESyeQxAKD2.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094103316917862400/vid/avc1/540x540/rII4ipCUL8-1YcSx.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "PRODUCT SIGNAL",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094103316917862400/vid/avc1/540x540/rII4ipCUL8-1YcSx.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094103316917862400/img/nXfcgHESyeQxAKD2.jpg"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "Minsang Choi",
+      "handle": "radiofun8",
+      "text": "Testing some variants. https://testflight.apple.com/join/BtejdAN1",
+      "url": "https://x.com/radiofun8/status/2093813748637311342"
+    },
+    "_article": null,
+    "_metrics": "19 REPLIES · 11 REPOSTS · 404 LIKES · 273 BOOKMARKS · 50769 VIEWS",
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "low",
+    "_analysisNote": "收藏原因：Up the tester limit. Also added mini shutter button per feedback 🙏。这条可作为产品判断 / 学习样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-31T10:16:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-30T16:42:04.000Z"
+    }
+  },
+  {
+    "TweetID": "2094066258551636094",
+    "TwitterUserID": "763250971141025792",
+    "UserScreenName": "williamlab",
+    "UserProfileName": "陳威廉",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1905263911060078592/0QafMmkn_200x200.jpg",
+    "TweetText": "我去，居然看到有人用AI生成了我最喜欢的大刘短篇科幻小说《山》，而且质量还不错，推荐观看。 而且居然是一个人手搓出来的！! ！AI真是大舞台啊，一个普通人也能整上两小时科幻大电影了。 --来自B站Up主“野生锅导演”",
+    "Tweet Url": "https://x.com/williamlab/status/2094066258551636094",
+    "TweetCreatedDate": "2026-08-30T14:14:36.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094065405950345216/img/C2S_XIAMuhYlIGCs.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094065405950345216/vid/avc1/628x360/17y_8xO8HdSApoaN.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI VIDEO",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094065405950345216/vid/avc1/628x360/17y_8xO8HdSApoaN.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094065405950345216/img/C2S_XIAMuhYlIGCs.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "48 REPLIES · 152 REPOSTS · 653 LIKES · 617 BOOKMARKS · 45519 VIEWS",
+    "_analysisTheme": "AI 视频 / 创作流程",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：我去，居然看到有人用AI生成了我最喜欢的大刘短篇科幻小说《山》，而且质量还不错，推荐观看。 而且居然是一个人手搓出来的！! ！AI真是大舞台啊，一个普通人也能整上两小时科幻大电影了。 --来自B站U…。这条可作为AI 视频 / 创作流程参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-31T10:16:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-30T14:14:36.000Z"
+    }
+  },
+  {
+    "TweetID": "2094059887940845708",
+    "TwitterUserID": "835950986",
+    "UserScreenName": "VuNguyenDev",
+    "UserProfileName": "Vu Nguyen",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1451566902526939137/UOnSLAaD_200x200.jpg",
+    "TweetText": "I have been working on a motion template in SmoothCapture. Now you can save your custom camera movement as a motion template and apply it to any projects with one click Just one step closer to a better workflow",
+    "Tweet Url": "https://x.com/VuNguyenDev/status/2094059887940845708",
+    "TweetCreatedDate": "2026-08-30T13:49:17.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094059748920590336/img/6zUZjKRUJDkMLWC_.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094059748920590336/vid/avc1/548x360/j1ioNgXAECAgkIrv.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "PRODUCT DESIGN",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094059748920590336/vid/avc1/548x360/j1ioNgXAECAgkIrv.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094059748920590336/img/6zUZjKRUJDkMLWC_.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 1 REPOSTS · 17 LIKES · 13 BOOKMARKS · 1519 VIEWS",
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：I have been working on a motion template in SmoothCapture. Now you can save your custom camera move…。这条可作为产品设计 / 视觉与交互参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-31T10:16:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-30T13:49:17.000Z"
+    }
+  },
+  {
+    "TweetID": "2093800904440889815",
+    "TwitterUserID": "1291312506653286400",
+    "UserScreenName": "lucaisdesigning",
+    "UserProfileName": "Luca",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2093803264395370496/3wlvest1_200x200.jpg",
+    "TweetText": "an experiment !",
+    "Tweet Url": "https://x.com/lucaisdesigning/status/2093800904440889815",
+    "TweetCreatedDate": "2026-08-29T20:40:11.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093800878268358656/img/1PYSpJj5yjDnvaxu.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093800878268358656/vid/avc1/640x360/GiDt4gDud4Jb7w-g.mp4?tag=14",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "PRODUCT DESIGN",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093800878268358656/vid/avc1/640x360/GiDt4gDud4Jb7w-g.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093800878268358656/img/1PYSpJj5yjDnvaxu.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "28 REPLIES · 25 REPOSTS · 965 LIKES · 374 BOOKMARKS · 44024 VIEWS",
+    "_analysisTheme": "产品设计 / 视觉与交互",
+    "_analysisPriority": "low",
+    "_analysisNote": "收藏原因：an experiment !。这条可作为产品设计 / 视觉与交互参考。",
+    "_likedSync": {
+      "capturedAt": "2026-08-31T10:16:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-29T20:40:11.000Z"
+    }
+  },
   {
     "TweetID": "2093718731159748922",
     "TwitterUserID": "898344170128986112",
@@ -236,6 +402,44 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/i/history/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-29T04:56:30.000Z"
+    }
+  },
+  {
+    "TweetID": "2093511582018118038",
+    "TwitterUserID": "1522806950597218304",
+    "UserScreenName": "dianyingshijue",
+    "UserProfileName": "寻找电影里的春光",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2085656685373489153/agr20o_Z_200x200.jpg",
+    "TweetText": "聚会的目的！",
+    "Tweet Url": "https://x.com/dianyingshijue/status/2093511582018118038",
+    "TweetCreatedDate": "2026-08-29T01:30:31.000Z",
+    "MediaType": "text",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "SENSITIVE MEDIA REDACTED",
+      "media:text"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "5 REPLIES · 670 REPOSTS · 8550 LIKES · 7833 BOOKMARKS · 224470 VIEWS",
+    "_analysisTheme": "个人收藏偏好 / 敏感媒体遮蔽",
+    "_analysisPriority": "low",
+    "_analysisNote": "收藏原因：该条为真实 Likes 时间线新增 ID；X 标记为可能敏感，公开数据仅保留文本和 status URL，媒体不写入。",
+    "_likedSync": {
+      "capturedAt": "2026-08-31T10:16:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-29T01:30:31.000Z"
+    },
+    "_mediaRedacted": {
+      "reason": "fxtwitter possibly_sensitive=true; media URL intentionally not written to public backfill",
+      "originalMediaType": "video"
     }
   },
   {
