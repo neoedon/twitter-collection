@@ -2,6 +2,409 @@
   window.HOME_BACKFILL = [
   {
     "category": "AI PRODUCT",
+    "datetime": "2026-09-01T04:55:50.000Z",
+    "author": "歸藏(guizang.ai)",
+    "handle": "op7418",
+    "avatar": "https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_200x200.jpg",
+    "title": "归藏拆解 Runway Solaris 的界面世界模型",
+    "summary": "我会帮你抓取它，因为 Solaris 把视频模型推向实时 UI 生成，归藏的补充把延迟、成本、一致性这些产品约束讲清楚。",
+    "url": "https://x.com/op7418/status/2094650416575533125",
+    "metrics": "1 REPLIES · 1 REPOSTS · 5 LIKES · 3 BOOKMARKS · 1357 VIEWS",
+    "_analysisTheme": "生成式界面 / 交互模型",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094649932552736768/vid/avc1/1920x1080/R9ghgK7WUEbx2lxm.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094649932552736768/img/iTAqYMUHaih7WwKY.jpg"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Runway",
+      "handle": "runwayml",
+      "text": "Today, we're sharing new research on Solaris, our first Interface World Model.\n\nSolaris is a new kind of operating system that generates interactive interfaces frame by frame, in real time, with no code. We find that Solaris outperforms frontier LLMs when generating new interfaces, across structural similarity and information retention. Read more and request early access at the link below.",
+      "url": "https://x.com/runwayml/status/2094463070466646019",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2094462045219438592/vid/avc1/1920x1080/XLM05IH--iZGGDSk.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2094462045219438592/img/HzJNW_pBaNbGvXGh.jpg"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
+    "category": "CREATIVE TECHNOLOGY",
+    "datetime": "2026-09-01T04:37:32.000Z",
+    "author": "marisa",
+    "handle": "meshtimes_",
+    "avatar": "https://pbs.twimg.com/profile_images/2046548872827445248/dpVQEWRQ_200x200.jpg",
+    "title": "Figma Source Material 展示创意技术幕后",
+    "summary": "我会帮你抓取它，因为 Figma 把创意技术人的材料来源公开化，适合反推视觉实验如何进入产品设计语境。",
+    "url": "https://x.com/meshtimes_/status/2094645809241305565",
+    "metrics": "0 REPLIES · 1 REPOSTS · 32 LIKES · 3 BOOKMARKS · 1394 VIEWS",
+    "_analysisTheme": "创意技术 / 设计访谈",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094645736608530432/vid/avc1/1996x3550/ABIR6EIV130F5Z9q.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094645736608530432/img/Y0WtQpY-ZdaTA_Di.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRGtMxIWAAA3gfK.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRGtMxHX0AE2PPQ.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRGtMxHXIAALEVq.jpg?name=orig"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Figma",
+      "handle": "figma",
+      "text": "This week’s episode of Source Material spotlights @meshtimes_ — where one of the internet’s favorite creative technologists shares how her world of code, creativity, and playfulness all collide.\n\n00:00 Intro \n00:09 Vanity Washable Makeup Kit \n01:21 Cyberfeminism Index (Mindy Seu, 2023) \n02:00 Pinto Lunch Box \n02:43 Tree of Codes (Jonathan Safran Foer, 2010) \n03:10 Custom Makeup Cyberdeck \n04:40 How to Wrap 5 Eggs (Hideyuki Oka, 1967) \n05:17 Pencil Case \n05:45 The Last Lecture (Randy Pausch, 2008) \n06:35 Tear-off Ca",
+      "url": "https://x.com/figma/status/2094487885508743283",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2094486797573062656/vid/avc1/1920x1080/FvwRUckPorreqk22.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2094486797573062656/img/A7WLM14gNKICRTvL.jpg"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
+    "category": "AI CREATIVE TOOL",
+    "datetime": "2026-09-01T04:30:56.000Z",
+    "author": "fal",
+    "handle": "fal",
+    "avatar": "https://pbs.twimg.com/profile_images/1836456388937285632/OFsq77aX_200x200.jpg",
+    "title": "fal Agent 被用于 4 小时虚构品牌流程",
+    "summary": "我会帮你抓取它，因为它展示 AI 创意工具从单张图生成走向完整品牌资产流程，值得拆解输入、迭代和交付边界。",
+    "url": "https://x.com/fal/status/2094644148678922483",
+    "metrics": "3 REPLIES · 0 REPOSTS · 27 LIKES · 19 BOOKMARKS · 2930 VIEWS",
+    "_analysisTheme": "品牌生成 / 图像视频模型",
+    "_analysisPriority": "high",
+    "links": [
+      "https://fal.ai/agent"
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Leo Antunes",
+      "handle": "lenxism",
+      "text": "I built a fictional brand in 4 hours with @fal Agent.\n\nHere is the full process. https://x.com/i/article/2091974155248025600",
+      "url": "https://x.com/lenxism/status/2091993265486590265",
+      "media": [],
+      "article": {
+        "id": "2091974155248025600",
+        "title": "How I built a professional brand in 4 hours with fal.ai Agent",
+        "previewText": "Starting with the idea\nI recently got early access to the fal.ai Agent, and I was so impressed with what they built that I decided to create a product and brand from scratch.\nAfter a",
+        "text": "Starting with the idea\nI recently got early access to the fal.ai Agent, and I was so impressed with what they built that I decided to create a product and brand from scratch.\nAfter a few hours of trying to come up with an idea, I decided to build an AI-powered pillow that helps regulate your emotions and temperature without using an interface, creating a tactile experience.\nOnce I understood what I wanted to build, I started searching for inspiration on Pinterest. I found many projects with interesting colors, materials, and general vibes.\n \nI also remembered YOYOYO, a fictional brand project made by PORTO ROCHA in collaboration with Google. I read the entire project documentation and got really inspired by it.\n \nPrompt example\n \nExploring the product\nTrying to follow a similar process, I started generating product sketches with the help of fal Agent.\nI was trying to imagine how the pillow would fit on someone's lap and how it would work while being hugged. I asked for sketches in an industrial design drawing style, then compared them to decide which one I liked best.\nFor most of these generations, fal Agent chose Nano Banana Pro.\n \nPrompt example\n \nOnce I was happy with a sketch, I asked fal Agent to turn it into a high-quality 3D render.\nfal Agent also helped with the ideation and prompt writing. For each generation, it usually wrote a specific prompt based on what we had already discussed.\n \nPrompt example\n \nBuilding the visual identity\nAfter deciding on the product render, I moved into the visual identity.\nI asked fal Agent to generate wordmark directions. I wanted the typography to relate to the softness of the product and the rest of the brand. I also attached references to show the kind of letterforms I liked.\n \nPrompt example\n \nThen I asked it to explore colors. I explained what I expected and shared some initial references. The colors needed to feel pastel, soft, and calm.\nI noticed that fal Agent did not use image generation for this part. It used its comp"
+      }
+    }
+  },
+  {
+    "category": "BRAND DESIGN",
+    "datetime": "2026-09-01T04:18:32.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "Abduzeedo 展示 1976-2026 周年海报系统",
+    "summary": "我会帮你抓取它，因为这个周年概念把年代符号、徽章和纸感组合成可拆解的品牌视觉语法。",
+    "url": "https://x.com/abduzeedo/status/2094641030670999898",
+    "metrics": "1 REPLIES · 0 REPOSTS · 8 LIKES · 4 BOOKMARKS · 431 VIEWS",
+    "_analysisTheme": "品牌系统 / 海报叙事",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://abduzeedo.com/molnar-peter-crafts-nostalgic-1976-2026-branding-concept"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRGcXMhaUAAsq16.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRGcYFqaIAA6fQz.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRGcZdHbEAAiS83.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRGcdg-aYAArknP.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-09-01T02:14:04.000Z",
+    "author": "Plasticity",
+    "handle": "getPlasticity",
+    "avatar": "https://pbs.twimg.com/profile_images/1745818146634665985/j31G8KrA_200x200.jpg",
+    "title": "Plasticity 对比 Conic、G2 与 Chordal 倒角",
+    "summary": "我会帮你抓取它，因为同一交界处的倒角策略会显著改变产品质感，适合训练设计师对 3D 细节的判断。",
+    "url": "https://x.com/getPlasticity/status/2094609705872277818",
+    "metrics": "2 REPLIES · 3 REPOSTS · 56 LIKES · 8 BOOKMARKS · 2299 VIEWS",
+    "_analysisTheme": "3D 建模 / 形态控制",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094609008686665728/vid/avc1/2160x3840/uy8bYmiso2YcrTNZ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094609008686665728/img/Jv539jL-m2r9Cgid.jpg"
+      }
+    ]
+  },
+  {
+    "category": "PACKAGING DESIGN",
+    "datetime": "2026-09-01T02:01:38.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "Kotori Uji Matcha 包装把和纸与金箔做轻量化",
+    "summary": "我会帮你抓取它，因为它用层级、材质和留白处理传统题材，避免日式茶包装落入常见视觉套路。",
+    "url": "https://x.com/abduzeedo/status/2094606576359559336",
+    "metrics": "0 REPLIES · 0 REPOSTS · 4 LIKES · 1 BOOKMARKS · 936 VIEWS",
+    "_analysisTheme": "包装系统 / 传统现代化",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://abduzeedo.com/packaging-design-kotori-uji-matcha-valeriia-loffler"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRGJhb5aoAAz0jy.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRGJit7aAAAPQ8h.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRGJkwHb0AAPU4Y.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-09-01T02:01:16.000Z",
+    "author": "Manus",
+    "handle": "ManusAI",
+    "avatar": "https://pbs.twimg.com/profile_images/1972973045393592322/e11bi-fE_200x200.jpg",
+    "title": "Manus 宣布恢复独立运营",
+    "summary": "我会帮你抓取它，因为通用 agent 产品进入独立运营阶段，会影响团队节奏、产品路线和用户信任叙事。",
+    "url": "https://x.com/ManusAI/status/2094606484508144069",
+    "metrics": "59 REPLIES · 44 REPOSTS · 442 LIKES · 70 BOOKMARKS · 62452 VIEWS",
+    "_analysisTheme": "AI Agent / 公司动向",
+    "_analysisPriority": "high",
+    "links": [
+      "https://manus.im/blog/manus-resumes-independent-operations"
+    ]
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-09-01T01:50:38.000Z",
+    "author": "Aleks",
+    "handle": "aleksliving",
+    "avatar": "https://pbs.twimg.com/profile_images/2050462782978461696/HFA8zdfC_200x200.jpg",
+    "title": "Aleks 展示日历视图早期交互",
+    "summary": "我会帮你抓取它，因为日历视图是任务、时间和项目密度的核心界面，可以观察早期产品如何处理扫描与切换。",
+    "url": "https://x.com/aleksliving/status/2094603807615258784",
+    "metrics": "9 REPLIES · 6 REPOSTS · 277 LIKES · 173 BOOKMARKS · 8929 VIEWS",
+    "_analysisTheme": "日历视图 / 信息架构",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094603779391836160/vid/avc1/1320x1856/5k9itt-dbsuYTJud.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094603779391836160/img/qrjMw4fJSYrOLUD1.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI TOOL DIRECTORY",
+    "datetime": "2026-09-01T01:43:19.000Z",
+    "author": "Hieu Dinh",
+    "handle": "hieudinh_",
+    "avatar": "https://pbs.twimg.com/profile_images/1969592013868974084/-io8_jw0_200x200.jpg",
+    "title": "GrokBots.best 新增设计与代码 Bot 目录",
+    "summary": "我会帮你抓取它，因为 bot 目录把颜色、Figma、代码和评审任务拆成模板，适合研究微型 agent 的包装方式。",
+    "url": "https://x.com/hieudinh_/status/2094601968648167437",
+    "metrics": "1 REPLIES · 0 REPOSTS · 13 LIKES · 12 BOOKMARKS · 1736 VIEWS",
+    "_analysisTheme": "Grok Bot / 工具发现",
+    "_analysisPriority": "medium",
+    "links": [
+      "http://grokbots.best",
+      "https://grokbots.best/bots/bouncer",
+      "https://grokbots.best/bots/palette",
+      "https://grokbots.best/bots/sable-game-art",
+      "https://grokbots.best/bots/senior-analyst",
+      "https://grokbots.best/bots/blunt",
+      "https://grokbots.best/bots/grok-deck",
+      "https://grokbots.best/bots/claude-code",
+      "https://grokbots.best/bots/brake",
+      "https://grokbots.best/bots/figma-bro",
+      "https://grokbots.best/bots/grok-build"
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Hieu Dinh",
+      "handle": "hieudinh_",
+      "text": "Anddd… we’re live! 🚀\n\nBeen seeing more and more awesome Grok Bots on X lately, so I decided to build a place to discover them all.\n\nMore bots coming soon.\n\nhttps://grokbots.best",
+      "url": "https://x.com/hieudinh_/status/2093973012299264363",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2093972995459198976/vid/avc1/1092x720/03gSld4wO6z69xrQ.mp4?tag=14",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2093972995459198976/img/KISCzI-3NaLdz_Ad.jpg"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
+    "category": "WEB DESIGN",
+    "datetime": "2026-09-01T01:42:54.000Z",
+    "author": "Manish Kumar",
+    "handle": "Manixh02",
+    "avatar": "https://pbs.twimg.com/profile_images/2063627005753778176/JVC810VY_200x200.jpg",
+    "title": "动效与 WebGL 工具列表适合 vibe code 工作流",
+    "summary": "我会帮你抓取它，因为它把组件库、动效站和 WebGL 灵感打包成一条可执行的设计工程工具链。",
+    "url": "https://x.com/Manixh02/status/2094601861819224529",
+    "metrics": "8 REPLIES · 4 REPOSTS · 32 LIKES · 34 BOOKMARKS · 1389 VIEWS",
+    "_analysisTheme": "动效资源 / 前端灵感",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094601835256655872/vid/avc1/1280x640/2qZcwUESZvC1QhxW.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094601835256655872/img/s27M7Uc3xO_C2jeX.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-01T01:28:52.000Z",
+    "author": "Google Cloud Tech",
+    "handle": "GoogleCloudTech",
+    "avatar": "https://pbs.twimg.com/profile_images/2047008659629391872/BfLTYOuh_200x200.jpg",
+    "title": "Google Cloud Tech 发布 Agent 沙箱 5 点",
+    "summary": "我会帮你抓取它，因为 agent 产品走向生产环境后，沙箱、权限和成本模型会成为体验设计的一部分。",
+    "url": "https://x.com/GoogleCloudTech/status/2094598332131709078",
+    "metrics": "5 REPLIES · 21 REPOSTS · 159 LIKES · 172 BOOKMARKS · 12579 VIEWS",
+    "_analysisTheme": "Agent 沙箱 / 安全产品",
+    "_analysisPriority": "high",
+    "article": {
+      "id": "2094596396007526400",
+      "title": "5 things every AI engineer should know about agent sandboxes",
+      "previewText": "Every AI agent demo starts with a developer running raw generated code on their laptop, and every production deployment starts with a security team asking what happens when that code turns hostile.",
+      "text": "Every AI agent demo starts with a developer running raw generated code on their laptop, and every production deployment starts with a security team asking what happens when that code turns hostile.\nWhen you hand an LLM access to a terminal, you are giving an unpredictable probabilistic engine the ability to compile binaries, install third-party packages, modify local files, and make outbound network requests. If you run that code on a shared host kernel without isolation, a single kernel exploit or malicious package can compromise your entire infrastructure.\nWe spent the last few quarters benchmarking, breaking, and running agent sandbox runtimes across Google Cloud and open-source stacks. What we found is that standard cloud infrastructure assumptions fall apart when applied to autonomous agents. Many agents do not behave like microservices with steady HTTP traffic, and they do not behave like batch jobs that execute and exit. They spend 95% of their session waiting on model reasoning or external tools, punctuated by micro-bursts of intense execution.\nBy Ryan Ismert (@ryan_ismert) and Alan Blount (@zeroasterisk)\nHere is what you need to know about the public sandbox landscape, how the isolation primitives actually compare, and how to choose the right execution substrate for your agent:\nCold-start marketing numbers are measured on empty loops, not real runtimes.\nThe isolation spectrum is defined by what code is shared with your neighbor.\nFor autonomous agents, network egress is a bigger attack surface than the hypervisor.\nState forking and memory snapshots matter more than raw boot time.\nUse a 4-question decision rubric before picking your sandbox stack.\nDisclaimer: this is specifically a review of the most common agent sandbox solutions, there are dozens of other more specialized use cases and solutions. Ask for what you’d wish to see covered in future articles.\n1. Cold-start marketing numbers are measured on empty loops, not real runtimes\n \nIf you have evaluated s"
+    }
+  },
+  {
+    "category": "APPLE DESIGN",
+    "datetime": "2026-09-01T01:26:38.000Z",
+    "author": "Apple Design",
+    "handle": "TheAppleDesign",
+    "avatar": "https://pbs.twimg.com/profile_images/1806052486417096704/FnBslKp4_200x200.jpg",
+    "title": "Apple Design 再次验证 Dynamic Island 的即时反馈",
+    "summary": "我会帮你抓取它，因为 Dynamic Island 是系统级状态反馈的经典样本，视频适合复盘微交互、节奏和上下文切换。",
+    "url": "https://x.com/TheAppleDesign/status/2094597769088655519",
+    "metrics": "8 REPLIES · 7 REPOSTS · 145 LIKES · 31 BOOKMARKS · 5017 VIEWS",
+    "_analysisTheme": "系统交互 / Dynamic Island",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094597739330093057/vid/avc1/720x1280/t7_eDOV2C9KgVD7x.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094597739330093057/img/WN5C7te-6fQsXU6I.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-09-01T00:14:00.000Z",
+    "author": "LerSent",
+    "handle": "LerSentAI",
+    "avatar": "https://pbs.twimg.com/profile_images/1917025475567943680/rVGKhiZR_200x200.jpg",
+    "title": "LerSent 用 H3Max 做低延迟互动剧情生成器",
+    "summary": "我会帮你抓取它，因为它把生成视频、角色参考和剧情分支压进近实时体验，是 AI 内容产品的重要交互样本。",
+    "url": "https://x.com/LerSentAI/status/2094579488407302229",
+    "metrics": "43 REPLIES · 35 REPOSTS · 424 LIKES · 343 BOOKMARKS · 35931 VIEWS",
+    "_analysisTheme": "互动叙事 / 视频生成",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094577916239622144/vid/avc1/1920x1440/MpNzupWXdVRRJlYN.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094577916239622144/img/U3Gvcf8PU2RPnoRa.jpg"
+      }
+    ]
+  },
+  {
+    "category": "WEB DESIGN",
+    "datetime": "2026-08-31T23:56:05.000Z",
+    "author": "はにお（たまき）| Webデザイナー",
+    "handle": "Hanioboon",
+    "avatar": "https://pbs.twimg.com/profile_images/2016738806511390721/69SAf8Av_200x200.jpg",
+    "title": "日本设计师发布 meal-kit LP 自主制作",
+    "summary": "我会帮你抓取它，因为它是一个明确目标人群、转化路径和 Figma 视觉表达都可复盘的个人练习样本。",
+    "url": "https://x.com/Hanioboon/status/2094574979484651750",
+    "metrics": "1 REPLIES · 0 REPOSTS · 22 LIKES · 0 BOOKMARKS · 357 VIEWS",
+    "_analysisTheme": "LP 设计 / Figma 练习",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094573374118961152/vid/avc1/1302x720/rzDgsTvH4XPQq9sz.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094573374118961152/img/zt3Mbw_FSiFOmx4I.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN SYSTEM",
+    "datetime": "2026-08-31T23:52:39.000Z",
+    "author": "meng shao",
+    "handle": "shao__meng",
+    "avatar": "https://pbs.twimg.com/profile_images/2009826888072736772/faZAxCvC_200x200.jpg",
+    "title": "DESIGN.md 让 Agent 读取品牌规范",
+    "summary": "我会帮你抓取它，因为单文件设计规范正在成为 agent 生成页面的可移植品牌接口，直接影响设计工程协作。",
+    "url": "https://x.com/shao__meng/status/2094574116884066667",
+    "metrics": "5 REPLIES · 5 REPOSTS · 31 LIKES · 30 BOOKMARKS · 3177 VIEWS",
+    "_analysisTheme": "品牌规范 / Agent 交付",
+    "_analysisPriority": "high",
+    "links": [
+      "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRFsCOkbYAAdCnK.jpg?name=orig"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Vercel",
+      "handle": "vercel",
+      "text": "Our agents use 𝚟𝚎𝚛𝚌𝚎𝚕​.𝚌𝚘𝚖/𝚍𝚎𝚜𝚒𝚐𝚗​.𝚖𝚍 to build on-brand pages.\n\n▪︎ One file encodes decisions and guidance\n▪︎ Output is shaped through our eval harness\n▪︎ Production feedback is fed back into the loop\nhttps://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
+      "url": "https://x.com/vercel/status/2094539714984550471",
+      "media": [],
+      "article": null
+    }
+  },
+  {
+    "category": "AI PRODUCT",
     "datetime": "2026-08-31T23:54:11.000Z",
     "author": "HarnessRouter",
     "handle": "HARNESSROUTER",

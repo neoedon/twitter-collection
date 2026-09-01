@@ -1,6 +1,100 @@
-// Generated from authenticated X Likes via ego-browser on 2026-09-01T08:18:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-09-01T13:17:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2094455284169396561",
+    "TwitterUserID": "4018962791",
+    "UserScreenName": "TweetsByTBI",
+    "UserProfileName": "The Brand Identity",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1774761854306324480/-imXshxF_200x200.jpg",
+    "TweetText": "PAPA TOM’s brand design for Wildling, a German non-alcoholic orchard spritzer, is raw and deliberately imperfect.",
+    "Tweet Url": "https://x.com/TweetsByTBI/status/2094455284169396561",
+    "TweetCreatedDate": "2026-08-31T16:00:27.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094455245451694080/img/CXbmTRv76N7sIgs5.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094455245451694080/vid/avc1/720x960/C88R-SPO9sVWO8PV.mp4?tag=14",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "品牌视觉 / 包装叙事",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094455245451694080/vid/avc1/720x960/C88R-SPO9sVWO8PV.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094455245451694080/img/CXbmTRv76N7sIgs5.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRD_-P7bUAAbeiB.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRD_-fbbsAEbNtr.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRD_-vIacAAmgJo.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "2 REPLIES · 2 REPOSTS · 38 LIKES · 13 BOOKMARKS · 1748 VIEWS",
+    "_analysisTheme": "品牌视觉 / 包装叙事",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Wildling 的粗粝、不完美品牌语言提供了区别于精致模板化包装的参考。 这条可作为品牌视觉 / 包装叙事参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T13:17:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-31T16:00:27.000Z"
+    }
+  },
+  {
+    "TweetID": "2094450718598218001",
+    "TwitterUserID": "1441440913637605383",
+    "UserScreenName": "sts81998850",
+    "UserProfileName": "风间",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2063221119050760192/BRPrWu0O_200x200.jpg",
+    "TweetText": "发现一个对设计师和前端都很友好的动效网站：\n\nCodrops Creative Hub\n\n里面有大量网页交互 Demo：\nGSAP / Three.js / WebGPU / 3D / 滚动动效 / 字体动画……\n重点是很多案例不只是给你看效果，\n还可以直接研究它是怎么实现的 👀\n\n找灵感 → 看 Demo → 看代码 → 丢给 AI 复刻\n做个人网站的很好用。\n\n🔗 https://tympanus.net/codrops/hub/all/page/2/",
+    "Tweet Url": "https://x.com/sts81998850/status/2094450718598218001",
+    "TweetCreatedDate": "2026-08-31T15:42:18.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094449312705155072/img/QzpLNEAKJdBQRIjM.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094449312705155072/vid/avc1/1578x1080/gDEdA5cxDhQpgg3J.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "动效资源 / Creative Coding",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094449312705155072/vid/avc1/1578x1080/gDEdA5cxDhQpgg3J.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094449312705155072/img/QzpLNEAKJdBQRIjM.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "0 REPLIES · 9 REPOSTS · 23 LIKES · 32 BOOKMARKS · 2364 VIEWS",
+    "_analysisTheme": "动效资源 / Creative Coding",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：它把动效灵感、前端实现和可复刻代码放在同一资源库里，适合直接转成设计工程练习。 这条可作为动效资源 / Creative Coding参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T13:17:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedStep": 0,
+      "observedDatetime": "2026-08-31T15:42:18.000Z"
+    }
+  },
   {
     "TweetID": "2094435041057140952",
     "TwitterUserID": "1901372809701400576",

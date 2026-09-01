@@ -1,6 +1,651 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-09-01",
+    "generatedAt": "2026-09-01T13:17:00+08:00",
+    "batch": "x-ai-design-analysis-2026-09-01-1317",
+    "analysisCount": 17,
+    "homeCount": 15,
+    "likeCount": 2,
+    "linksInspected": 24,
+    "unavailableLinks": 0,
+    "summary": "2026-09-01 13:00 补充：在上午已达 20 Home / 100 Analysis 的基础上，继续使用 ego-browser 登录态观察 Home、Following、主题 live search 与 Likes。新增 15 条 Home、2 条 fresh Likes，并只追加 17 条未分析 Designer Analysis。",
+    "sourceWindow": {
+      "strategy": "ego-browser 独立 task space 13；Home 覆盖 x.com/home、Following、AI product/model、design engineering、indie visual tools、GitHub/design AI live search；Likes 打开 x.com/neoedon414/likes 并重定向到 /i/history/likes，滚动至已知 ID 连续边界。fxtwitter 仅补齐已观察 status 的作者、时间、媒体、指标、引用、X Article 和 t.co 展开；外部页只读取原帖内链。",
+      "newestHomeDatetime": "2026-09-01T04:55:50.000Z",
+      "oldestHomeDatetime": "2026-08-31T23:52:39.000Z",
+      "newestLikeDatetime": "2026-08-31T16:00:27.000Z",
+      "oldestLikeDatetime": "2026-08-31T15:42:18.000Z",
+      "expandedWindow": "Home 15 条均属于 Asia/Shanghai 2026-09-01；Like 2 条来自当前登录态 Likes 新增，其中 Codrops 原帖发布时间属于 Asia/Shanghai 2026-08-31，本批按 fresh Like 扩窗回收。Analysis 已超过当天 100 底线，本批仅追加有学习价值的新 Home/Like。",
+      "observed": {
+        "homeRaw": 3921,
+        "homeUnique": 219,
+        "homeTodayCandidates": 170,
+        "homeSelected": 15,
+        "homeRejectedOrLeftover": 155,
+        "likeRawObserved": 57,
+        "likeUniqueObserved": 17,
+        "likeFresh": 2,
+        "likeKnownBoundary": "2094130855056675287",
+        "linkFull": 22,
+        "linkPartial": 2,
+        "linkUnavailable": 0,
+        "analysisBeforeTodayUnique": 100
+      }
+    },
+    "items": [
+      {
+        "id": "2094650416575533125",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/op7418/status/2094650416575533125",
+        "author": "歸藏(guizang.ai)",
+        "handle": "op7418",
+        "datetime": "2026-09-01T04:55:50.000Z",
+        "title": "归藏拆解 Runway Solaris 的界面世界模型",
+        "originalSummary": "原帖内容：Runway 发布的这个新模型 Solaris 挺有意思，他们说是首个界面世界模型，本质上叫新型操作系统，可以逐帧实时生成交互界面。 它生成的视频能根据你的点击和拖动实时发生变化。比如下面这个例子： • 向上拖动树，树就会变大 • 向斜下方拖动壁画，壁画也会变大 • 把灯拖出来移动位置，它就会放到你拖动到的最终位置，并重新渲染光线和物体之间的交互 • 点击的话还会弹出一个 UI 选项，让你去变换样式 这一切都是基于视频模型去完成的。 我觉得这个想法和思路还是挺好的，但目前实时生成的问题依然比较大。 主要问题在于延迟",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Solaris 把视频模型推向实时 UI 生成，归藏的补充把延迟、成本、一致性这些产品约束讲清楚。",
+        "deepSummary": "这条适合进入 Home 补充，因为 生成式界面 / 交互模型 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。相关链接已读取，已区分 full/partial/unavailable。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/runwayml/status/2094463070466646019",
+            "title": "引用原帖：Runway",
+            "access": "full",
+            "value": "引用原帖已读取：Today, we're sharing new research on Solaris, our first Interface World Model. Solaris is a new kind of operating system that generates interactive interfaces frame by frame, in real time, with no code. We find that Sola",
+            "learningValue": "用于校验转述来源，并比较 生成式界面 / 交互模型 的原始表达与二次解读差异。"
+          }
+        ],
+        "learningActions": [
+          "记录「归藏拆解 Runway Solaris 的界面世界模型」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "生成式界面 / 交互模型",
+          "media:video",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094645809241305565",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/meshtimes_/status/2094645809241305565",
+        "author": "marisa",
+        "handle": "meshtimes_",
+        "datetime": "2026-09-01T04:37:32.000Z",
+        "title": "Figma Source Material 展示创意技术幕后",
+        "originalSummary": "原帖内容：more bts from the making of @figma source materials !! ty for having me i had so much fun",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Figma 把创意技术人的材料来源公开化，适合反推视觉实验如何进入产品设计语境。",
+        "deepSummary": "这条适合进入 Home 补充，因为 创意技术 / 设计访谈 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。相关链接已读取，已区分 full/partial/unavailable。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/figma/status/2094487885508743283",
+            "title": "引用原帖：Figma",
+            "access": "full",
+            "value": "引用原帖已读取：This week’s episode of Source Material spotlights @meshtimes_ — where one of the internet’s favorite creative technologists shares how her world of code, creativity, and playfulness all collide. 00:00 Intro 00:09 Vanity ",
+            "learningValue": "用于校验转述来源，并比较 创意技术 / 设计访谈 的原始表达与二次解读差异。"
+          }
+        ],
+        "learningActions": [
+          "记录「Figma Source Material 展示创意技术幕后」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "创意技术 / 设计访谈",
+          "media:video",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094644148678922483",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/fal/status/2094644148678922483",
+        "author": "fal",
+        "handle": "fal",
+        "datetime": "2026-09-01T04:30:56.000Z",
+        "title": "fal Agent 被用于 4 小时虚构品牌流程",
+        "originalSummary": "原帖内容：Great breakdown of what you can build with fal Agent. Try it for yourself: https://fal.ai/agent",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它展示 AI 创意工具从单张图生成走向完整品牌资产流程，值得拆解输入、迭代和交付边界。",
+        "deepSummary": "这条适合进入 Home 补充，因为 品牌生成 / 图像视频模型 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。相关链接已读取，已区分 full/partial/unavailable。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/lenxism/status/2091993265486590265",
+            "title": "引用原帖：Leo Antunes",
+            "access": "full",
+            "value": "引用原帖已读取：I built a fictional brand in 4 hours with @fal Agent. Here is the full process. https://x.com/i/article/2091974155248025600；文章《How I built a professional brand in 4 hours with fal.ai Agent》可读",
+            "learningValue": "用于校验转述来源，并比较 品牌生成 / 图像视频模型 的原始表达与二次解读差异。"
+          },
+          {
+            "url": "https://fal.ai/agent",
+            "title": "Vercel Security Checkpoint",
+            "access": "partial",
+            "value": "目标页命中 Vercel Security Checkpoint；X card 可见其定位为跨顶级图像/视频模型的一致创意助手。",
+            "learningValue": "对 品牌生成 / 图像视频模型 的实现边界、交付规范或安全约束有复用价值。"
+          },
+          {
+            "url": "https://x.com/i/article/2091974155248025600",
+            "title": "How I built a professional brand in 4 hours with fal.ai Agent",
+            "access": "full",
+            "value": "引用帖文章已读取：Starting with the idea\nI recently got early access to the fal.ai Agent, and I was so impressed with what they built that I decided to create a product and brand from scratch.\nAfter a",
+            "learningValue": "可复盘 品牌生成 / 图像视频模型 的完整创作过程，而不是只看转发摘要。"
+          }
+        ],
+        "learningActions": [
+          "记录「fal Agent 被用于 4 小时虚构品牌流程」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "品牌生成 / 图像视频模型",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094641030670999898",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abduzeedo/status/2094641030670999898",
+        "author": "Fabio - abduzeedo",
+        "handle": "abduzeedo",
+        "datetime": "2026-09-01T04:18:32.000Z",
+        "title": "Abduzeedo 展示 1976-2026 周年海报系统",
+        "originalSummary": "原帖内容：I saw this anniversary posters project by Molnár Péter and had to share it. Blending five decades of design cues into one identity is tricky, but the mix of bold 70s vibes, rounded badge marks, and muted vintage paper tones hits just the right note. Definitely",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为这个周年概念把年代符号、徽章和纸感组合成可拆解的品牌视觉语法。",
+        "deepSummary": "这条适合进入 Home 补充，因为 品牌系统 / 海报叙事 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。相关链接已读取，已区分 full/partial/unavailable。",
+        "linkAnalysis": [
+          {
+            "url": "https://abduzeedo.com/molnar-peter-crafts-nostalgic-1976-2026-branding-concept",
+            "title": "Molnár Péter Crafts Nostalgic 1976 (2026) Posters Concept",
+            "access": "full",
+            "value": "页面补充了项目作者、日期、branding/identity 标签和 1976 文化科技符号来源，可拆解年代感视觉系统如何避免单纯怀旧。",
+            "learningValue": "对 品牌系统 / 海报叙事 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          }
+        ],
+        "learningActions": [
+          "记录「Abduzeedo 展示 1976-2026 周年海报系统」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "品牌系统 / 海报叙事",
+          "media:image",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094609705872277818",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/getPlasticity/status/2094609705872277818",
+        "author": "Plasticity",
+        "handle": "getPlasticity",
+        "datetime": "2026-09-01T02:14:04.000Z",
+        "title": "Plasticity 对比 Conic、G2 与 Chordal 倒角",
+        "originalSummary": "原帖内容：Fillets aren’t one size fits all. Conic, G2, and Chordal each create a noticeably different transition, even on the exact same intersection. Which would you use here?",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为同一交界处的倒角策略会显著改变产品质感，适合训练设计师对 3D 细节的判断。",
+        "deepSummary": "这条适合进入 Home 补充，因为 3D 建模 / 形态控制 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。本条没有可读外链，分析基于原帖、媒体和引用内容。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录「Plasticity 对比 Conic、G2 与 Chordal 倒角」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "3D 建模 / 形态控制",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094606576359559336",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abduzeedo/status/2094606576359559336",
+        "author": "Fabio - abduzeedo",
+        "handle": "abduzeedo",
+        "datetime": "2026-09-01T02:01:38.000Z",
+        "title": "Kotori Uji Matcha 包装把和纸与金箔做轻量化",
+        "originalSummary": "原帖内容：Really smart way to handle traditional Japanese tea branding without falling into the usual visual sameness: Kotori Uji Matcha by Valeriia Löffler. The system relies on soft organic greens, tight label hierarchy, and a clean little bird mark to make a heritage",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它用层级、材质和留白处理传统题材，避免日式茶包装落入常见视觉套路。",
+        "deepSummary": "这条适合进入 Home 补充，因为 包装系统 / 传统现代化 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。相关链接已读取，已区分 full/partial/unavailable。",
+        "linkAnalysis": [
+          {
+            "url": "https://abduzeedo.com/packaging-design-kotori-uji-matcha-valeriia-loffler",
+            "title": "Packaging Design: KOTORI Uji Matcha by Valeriia Löffler",
+            "access": "full",
+            "value": "页面补充了 sumi-e 鹤、金箔、deckled Washi paper 与 Uji 茶 heritage 的包装语义，可用于复盘材质和层级。",
+            "learningValue": "对 包装系统 / 传统现代化 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          }
+        ],
+        "learningActions": [
+          "记录「Kotori Uji Matcha 包装把和纸与金箔做轻量化」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "包装系统 / 传统现代化",
+          "media:image",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094606484508144069",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ManusAI/status/2094606484508144069",
+        "author": "Manus",
+        "handle": "ManusAI",
+        "datetime": "2026-09-01T02:01:16.000Z",
+        "title": "Manus 宣布恢复独立运营",
+        "originalSummary": "原帖内容：Today, Manus resumes independent operations, entering a new chapter driven by the same spirit of innovation. Our founding team @Red_Xiao_ @hidecloud @peakji will continue to lead the company, with a relentless commitment to product innovation and advancing gen",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为通用 agent 产品进入独立运营阶段，会影响团队节奏、产品路线和用户信任叙事。",
+        "deepSummary": "这条适合进入 Home 补充，因为 AI Agent / 公司动向 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。相关链接已读取，已区分 full/partial/unavailable。",
+        "linkAnalysis": [
+          {
+            "url": "https://manus.im/blog/manus-resumes-independent-operations",
+            "title": "Manus Resumes Independent Operations",
+            "access": "partial",
+            "value": "官方页说明 Manus 恢复独立运营、创始团队继续领导，并把 general AI agents 转化为可完成复杂任务的产品作为主线。",
+            "learningValue": "可用于判断 AI Agent / 公司动向 的信息密度、复用方法和后续学习价值。"
+          }
+        ],
+        "learningActions": [
+          "记录「Manus 宣布恢复独立运营」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "AI Agent / 公司动向",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094603807615258784",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/aleksliving/status/2094603807615258784",
+        "author": "Aleks",
+        "handle": "aleksliving",
+        "datetime": "2026-09-01T01:50:38.000Z",
+        "title": "Aleks 展示日历视图早期交互",
+        "originalSummary": "原帖内容：calendar view getting close",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为日历视图是任务、时间和项目密度的核心界面，可以观察早期产品如何处理扫描与切换。",
+        "deepSummary": "这条适合进入 Home 补充，因为 日历视图 / 信息架构 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。本条没有可读外链，分析基于原帖、媒体和引用内容。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录「Aleks 展示日历视图早期交互」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "日历视图 / 信息架构",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094601968648167437",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/hieudinh_/status/2094601968648167437",
+        "author": "Hieu Dinh",
+        "handle": "hieudinh_",
+        "datetime": "2026-09-01T01:43:19.000Z",
+        "title": "GrokBots.best 新增设计与代码 Bot 目录",
+        "originalSummary": "原帖内容：Good morning! ☀️ 10 new Grok Bots just landed on http://grokbots.best. Here are a few worth checking out: 🛡️ Bouncer — Screens Grok Bot links and flags them CLEAN, WARN, or BLOCK https://grokbots.best/bots/bouncer 🎨 Palette — Turns any photo into a 4-role co",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 bot 目录把颜色、Figma、代码和评审任务拆成模板，适合研究微型 agent 的包装方式。",
+        "deepSummary": "这条适合进入 Home 补充，因为 Grok Bot / 工具发现 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。相关链接已读取，已区分 full/partial/unavailable。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/hieudinh_/status/2093973012299264363",
+            "title": "引用原帖：Hieu Dinh",
+            "access": "full",
+            "value": "引用原帖已读取：Anddd… we’re live! 🚀 Been seeing more and more awesome Grok Bots on X lately, so I decided to build a place to discover them all. More bots coming soon. https://grokbots.best",
+            "learningValue": "用于校验转述来源，并比较 Grok Bot / 工具发现 的原始表达与二次解读差异。"
+          },
+          {
+            "url": "http://grokbots.best",
+            "title": "The best Grok Bots",
+            "access": "full",
+            "value": "页面补充：Find the best Grok Bots. Browse a public directory of Grok Bot templates for work, research, and everyday tasks, then import them into Grok Bot from xAI.",
+            "learningValue": "对 Grok Bot / 工具发现 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          },
+          {
+            "url": "https://grokbots.best/bots/bouncer",
+            "title": "Bouncer · The best Grok Bots",
+            "access": "full",
+            "value": "Bouncer 负责检查公开 Grok Bot 分享链接并返回 CLEAN/WARN/BLOCK，体现 bot 安全预审如何产品化。",
+            "learningValue": "对 Grok Bot / 工具发现 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          },
+          {
+            "url": "https://grokbots.best/bots/palette",
+            "title": "Palette · The best Grok Bots",
+            "access": "full",
+            "value": "Palette 把照片抽成 55/20/20/5 色彩角色和 hex codes，对设计师比普通 mood board 更可执行。",
+            "learningValue": "对 Grok Bot / 工具发现 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          },
+          {
+            "url": "https://grokbots.best/bots/sable-game-art",
+            "title": "Sable: Game Art · The best Grok Bots",
+            "access": "full",
+            "value": "Sable: Game Art 用真实游戏风格帮助游戏开发者产出 2D art、sprite sheets，并在 3D 前请求确认。",
+            "learningValue": "对 Grok Bot / 工具发现 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          },
+          {
+            "url": "https://grokbots.best/bots/senior-analyst",
+            "title": "Senior Analyst · The best Grok Bots",
+            "access": "full",
+            "value": "Senior Analyst 当前描述很薄，只显示 SecureLend OCR via MCP，信息密度低，适合观察目录质量参差。",
+            "learningValue": "对 Grok Bot / 工具发现 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          },
+          {
+            "url": "https://grokbots.best/bots/blunt",
+            "title": "Blunt · The best Grok Bots",
+            "access": "full",
+            "value": "Blunt 把产品营销页评审压缩成 THE MEMO、优先修复项和评分，是可复用的 critique agent 包装。",
+            "learningValue": "对 Grok Bot / 工具发现 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          },
+          {
+            "url": "https://grokbots.best/bots/grok-deck",
+            "title": "Grok Deck · The best Grok Bots",
+            "access": "full",
+            "value": "Grok Deck 生成浏览器 HTML slide decks，强调纸质画布和翻页风格，适合演示型 agent 输出。",
+            "learningValue": "对 Grok Bot / 工具发现 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          },
+          {
+            "url": "https://grokbots.best/bots/claude-code",
+            "title": "Claude Code · The best Grok Bots",
+            "access": "full",
+            "value": "Claude Code bot 把软件工作绑定到 Claude Code CLI，显示目录如何按底层工具身份组织 agent。",
+            "learningValue": "对 Grok Bot / 工具发现 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          },
+          {
+            "url": "https://grokbots.best/bots/brake",
+            "title": "Brake · The best Grok Bots",
+            "access": "full",
+            "value": "Brake 只做用量燃烧诊断并指出该停止的重复任务，任务范围很窄但产品承诺清晰。",
+            "learningValue": "对 Grok Bot / 工具发现 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          },
+          {
+            "url": "https://grokbots.best/bots/figma-bro",
+            "title": "figma bro · The best Grok Bots",
+            "access": "full",
+            "value": "figma bro 直接承诺在 Figma 里设计组件、布局和动效，是设计工作流 bot 的代表样本。",
+            "learningValue": "对 Grok Bot / 工具发现 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          },
+          {
+            "url": "https://grokbots.best/bots/grok-build",
+            "title": "Grok Build · The best Grok Bots",
+            "access": "full",
+            "value": "Grok Build 以 CLI、apps、code、deep research 为包装，显示 agent computer 类产品如何对齐执行环境。",
+            "learningValue": "对 Grok Bot / 工具发现 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          }
+        ],
+        "learningActions": [
+          "记录「GrokBots.best 新增设计与代码 Bot 目录」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "Grok Bot / 工具发现",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094601861819224529",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Manixh02/status/2094601861819224529",
+        "author": "Manish Kumar",
+        "handle": "Manixh02",
+        "datetime": "2026-09-01T01:42:54.000Z",
+        "title": "动效与 WebGL 工具列表适合 vibe code 工作流",
+        "originalSummary": "原帖内容：If you design or vibe code, save this list. - Kokonut UI; animated React components - Motion Sites; website and animation inspiration - Motion .dev; web animation - Anime .js; JavaScript animation - Particles Casberry; interactive particles and WebGL effects U",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把组件库、动效站和 WebGL 灵感打包成一条可执行的设计工程工具链。",
+        "deepSummary": "这条适合进入 Home 补充，因为 动效资源 / 前端灵感 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。本条没有可读外链，分析基于原帖、媒体和引用内容。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录「动效与 WebGL 工具列表适合 vibe code 工作流」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "动效资源 / 前端灵感",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094598332131709078",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/GoogleCloudTech/status/2094598332131709078",
+        "author": "Google Cloud Tech",
+        "handle": "GoogleCloudTech",
+        "datetime": "2026-09-01T01:28:52.000Z",
+        "title": "Google Cloud Tech 发布 Agent 沙箱 5 点",
+        "originalSummary": "原帖内容：5 things every AI engineer should know about agent sandboxes。Every AI agent demo starts with a developer running raw generated code on their laptop, and every production deployment starts with a security team asking what happens when that code turns hostile.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 agent 产品走向生产环境后，沙箱、权限和成本模型会成为体验设计的一部分。",
+        "deepSummary": "这条适合进入 Home 补充，因为 Agent 沙箱 / 安全产品 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。相关链接已读取，已区分 full/partial/unavailable。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094596396007526400",
+            "title": "5 things every AI engineer should know about agent sandboxes",
+            "access": "full",
+            "value": "X Article 已读取：Every AI agent demo starts with a developer running raw generated code on their laptop, and every production deployment starts with a security team asking what happens when that code turns hostile.",
+            "learningValue": "对 Agent 沙箱 / 安全产品 的背景、论证和后续学习事项有完整上下文。"
+          }
+        ],
+        "learningActions": [
+          "记录「Google Cloud Tech 发布 Agent 沙箱 5 点」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 沙箱 / 安全产品",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094597769088655519",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/TheAppleDesign/status/2094597769088655519",
+        "author": "Apple Design",
+        "handle": "TheAppleDesign",
+        "datetime": "2026-09-01T01:26:38.000Z",
+        "title": "Apple Design 再次验证 Dynamic Island 的即时反馈",
+        "originalSummary": "原帖内容：Dynamic Island is the best thing Tim Cook has ever done",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Dynamic Island 是系统级状态反馈的经典样本，视频适合复盘微交互、节奏和上下文切换。",
+        "deepSummary": "这条适合进入 Home 补充，因为 系统交互 / Dynamic Island 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。本条没有可读外链，分析基于原帖、媒体和引用内容。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录「Apple Design 再次验证 Dynamic Island 的即时反馈」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "系统交互 / Dynamic Island",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094579488407302229",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/LerSentAI/status/2094579488407302229",
+        "author": "LerSent",
+        "handle": "LerSentAI",
+        "datetime": "2026-09-01T00:14:00.000Z",
+        "title": "LerSent 用 H3Max 做低延迟互动剧情生成器",
+        "originalSummary": "原帖内容：基于MiniMax H3Max的生成速度，我制作了这款简单的互动游戏生成器，无论是真人类型还是二次元galgame都可以实现。 只需要输入一段剧本，上传人物参考图，就可以为你定制一个可以互动的剧情，实测下来几乎无延迟，分支出来前就开始在预生成你的剧情分支。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把生成视频、角色参考和剧情分支压进近实时体验，是 AI 内容产品的重要交互样本。",
+        "deepSummary": "这条适合进入 Home 补充，因为 互动叙事 / 视频生成 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。本条没有可读外链，分析基于原帖、媒体和引用内容。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录「LerSent 用 H3Max 做低延迟互动剧情生成器」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "互动叙事 / 视频生成",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094574979484651750",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Hanioboon/status/2094574979484651750",
+        "author": "はにお（たまき）| Webデザイナー",
+        "handle": "Hanioboon",
+        "datetime": "2026-08-31T23:56:05.000Z",
+        "title": "日本设计师发布 meal-kit LP 自主制作",
+        "originalSummary": "原帖内容：【自主制作｜ミールキットLP】 架空サービス「non-sh」のLPデザインを制作しました🥗 忙しくても、健康的な食事を手軽に選びたい20〜40代をターゲットに、定期便の初回限定セット購入につながるLPを想定。 Figmaでデザインしています。 制作の詳細はリプ欄へ👇 #Webデザイン #LPデザイン #Figma",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它是一个明确目标人群、转化路径和 Figma 视觉表达都可复盘的个人练习样本。",
+        "deepSummary": "这条适合进入 Home 补充，因为 LP 设计 / Figma 练习 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。本条没有可读外链，分析基于原帖、媒体和引用内容。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录「日本设计师发布 meal-kit LP 自主制作」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "LP 设计 / Figma 练习",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094574116884066667",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/shao__meng/status/2094574116884066667",
+        "author": "meng shao",
+        "handle": "shao__meng",
+        "datetime": "2026-08-31T23:52:39.000Z",
+        "title": "DESIGN.md 让 Agent 读取品牌规范",
+        "originalSummary": "原帖内容：DESIGN.md 让 AI Agent 设计出 \"符合品牌\" 的页面 Vercel 内部已有一个 product-design skill，让 coding agent 在仓库内工作时能读懂设计系统和产品规范，产出符合 Vercel 风格的页面。但问题在于：仓库之外的场景——报告、提案、一次性页面——所用的工具读不到仓库里的文件，agent 就失去了设计依据。 于是他们采用了 DESIGN.md (Google Stitch 开放的标准)：一个公开 URL 上的单文件，任何环境中的任何 agent 都能加载，获得",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为单文件设计规范正在成为 agent 生成页面的可移植品牌接口，直接影响设计工程协作。",
+        "deepSummary": "这条适合进入 Home 补充，因为 品牌规范 / Agent 交付 对个人设计师/设计工程师有可执行启发：既能观察产品方向，也能转成可复盘的界面、动效、品牌或工具链练习。相关链接已读取，已区分 full/partial/unavailable。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/vercel/status/2094539714984550471",
+            "title": "引用原帖：Vercel",
+            "access": "full",
+            "value": "引用原帖已读取：Our agents use 𝚟𝚎𝚛𝚌𝚎𝚕​.𝚌𝚘𝚖/𝚍𝚎𝚜𝚒𝚐𝚗​.𝚖𝚍 to build on-brand pages. ▪︎ One file encodes decisions and guidance ▪︎ Output is shaped through our eval harness ▪︎ Production feedback is fed back into the loop htt",
+            "learningValue": "用于校验转述来源，并比较 品牌规范 / Agent 交付 的原始表达与二次解读差异。"
+          },
+          {
+            "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
+            "title": "How our agents build on-brand pages with design.md - Vercel",
+            "access": "full",
+            "value": "Vercel 博文把 design.md 定义为任何 coding agent 可加载的公开单文件，并说明规则来自 eval loop 和生产反馈。",
+            "learningValue": "对 品牌规范 / Agent 交付 的实现边界、交付规范或安全约束有复用价值。"
+          }
+        ],
+        "learningActions": [
+          "记录「DESIGN.md 让 Agent 读取品牌规范」背后的设计判断：它解决的是表达、效率、信任还是实现约束。",
+          "抽取 1 个可迁移做法，放入个人设计工程样例库并标注适用场景。",
+          "对照当前 viaim/个人作品流程，判断是否值得做一个小原型或视觉复盘。"
+        ],
+        "tags": [
+          "Home",
+          "品牌规范 / Agent 交付",
+          "media:image",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094455284169396561",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/TweetsByTBI/status/2094455284169396561",
+        "author": "The Brand Identity",
+        "handle": "TweetsByTBI",
+        "datetime": "2026-08-31T16:00:27.000Z",
+        "title": "Wildling 无酒精果园饮料品牌视觉样本",
+        "originalSummary": "原帖内容：PAPA TOM’s brand design for Wildling, a German non-alcoholic orchard spritzer, is raw and deliberately imperfect.",
+        "whySaved": "你会收藏它，是因为Wildling 的粗粝、不完美品牌语言提供了区别于精致模板化包装的参考。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值在于它已经经过你的偏好筛选：品牌视觉 / 包装叙事 不是泛泛灵感，而是可以沉淀成案例库、工具练习或审美判断。本条主要依赖原帖和媒体本身，适合做视觉拆解。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "把「Wildling 无酒精果园饮料品牌视觉样本」拆成一个可复用收藏标签，记录触发收藏的视觉或工具判断。",
+          "复盘原帖中最有价值的一处细节，转成下一次设计练习或产品判断清单。",
+          "如果涉及工具/案例库，挑一个页面或 demo 做 30 分钟可执行临摹。"
+        ],
+        "tags": [
+          "Liked",
+          "品牌视觉 / 包装叙事",
+          "media:video"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094450718598218001",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/sts81998850/status/2094450718598218001",
+        "author": "风间",
+        "handle": "sts81998850",
+        "datetime": "2026-08-31T15:42:18.000Z",
+        "title": "Codrops Creative Hub 汇集可研究的交互 Demo",
+        "originalSummary": "原帖内容：发现一个对设计师和前端都很友好的动效网站： Codrops Creative Hub 里面有大量网页交互 Demo： GSAP / Three.js / WebGPU / 3D / 滚动动效 / 字体动画…… 重点是很多案例不只是给你看效果， 还可以直接研究它是怎么实现的 👀 找灵感 → 看 Demo → 看代码 → 丢给 AI 复刻 做个人网站的很好用。 🔗 https://tympanus.net/codrops/hub/all/page/2/",
+        "whySaved": "你会收藏它，是因为它把动效灵感、前端实现和可复刻代码放在同一资源库里，适合直接转成设计工程练习。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条收藏的价值在于它已经经过你的偏好筛选：动效资源 / Creative Coding 不是泛泛灵感，而是可以沉淀成案例库、工具练习或审美判断。相关链接已读取并标注后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://tympanus.net/codrops/hub/all/page/2/",
+            "title": "All Demos | Creative Hub | Codrops",
+            "access": "full",
+            "value": "Codrops 页面列出 Creative Hub 的 Three.js、WebGPU、GSAP Flip、字体和 WebGL demo，是可直接看效果和实现的练习库。",
+            "learningValue": "对 动效资源 / Creative Coding 的视觉拆解、工具包装或案例练习有直接参考价值。"
+          }
+        ],
+        "learningActions": [
+          "把「Codrops Creative Hub 汇集可研究的交互 Demo」拆成一个可复用收藏标签，记录触发收藏的视觉或工具判断。",
+          "复盘原帖中最有价值的一处细节，转成下一次设计练习或产品判断清单。",
+          "如果涉及工具/案例库，挑一个页面或 demo 做 30 分钟可执行临摹。"
+        ],
+        "tags": [
+          "Liked",
+          "动效资源 / Creative Coding",
+          "media:video",
+          "link:read"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-01",
     "generatedAt": "2026-09-01T08:18:00+08:00",
     "batch": "x-ai-design-analysis-2026-09-01-0818",
     "analysisCount": 100,
