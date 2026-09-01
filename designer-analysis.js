@@ -1,5 +1,3123 @@
 window.DESIGNER_ANALYSIS = [
   {
+    "date": "2026-09-01",
+    "generatedAt": "2026-09-01T08:18:00+08:00",
+    "batch": "x-ai-design-analysis-2026-09-01-0818",
+    "analysisCount": 100,
+    "homeCount": 85,
+    "likeCount": 15,
+    "linksInspected": 63,
+    "unavailableLinks": 1,
+    "summary": "2026-09-01 08:00 首批：使用 ego-browser 登录态观察 Home、Following、4 个主题 live search，并同步 Likes 到已知边界。本批写入 20 条 Home、15 条 fresh Likes，并建立当天 100 条 Designer Analysis 底座，其中 Home-side 85 条、Like 15 条。",
+    "sourceWindow": {
+      "strategy": "ego-browser 独立 task space 11；Home 覆盖 x.com/home、Following、AI product/model、design engineering、indie visual tools、GitHub/design AI、design-to-code、agent skills/MCP、web visual engineering、Figma AI design tools live search。Likes 打开 x.com/neoedon414/likes 并重定向到 /i/history/likes，滚动至连续已知 ID 边界。fxtwitter 仅补齐已观察 status 的作者、时间、媒体、指标、引用、X Article 和 t.co 展开；外部页只读取原帖内链。",
+      "newestHomeDatetime": "2026-08-31T23:54:11.000Z",
+      "oldestHomeDatetime": "2026-08-31T16:04:47.000Z",
+      "newestLikeDatetime": "2026-08-31T14:40:01.000Z",
+      "oldestLikeDatetime": "2026-08-30T08:00:40.000Z",
+      "expandedWindow": "Home 写入均属于 Asia/Shanghai 2026-09-01；Analysis 为当天首批底座，使用当天 Home/search 观察和过去 48 小时内 fresh Likes。",
+      "observed": {
+        "homeRaw": 2017,
+        "homeUnique": 337,
+        "homeTodayCandidates": 220,
+        "homeSelected": 20,
+        "homeRejectedOrLeftover": 200,
+        "likeRawObserved": 258,
+        "likeUniqueObserved": 36,
+        "likeFresh": 15,
+        "likeKnownBoundary": "2094066258551636094",
+        "linkFull": 57,
+        "linkPartial": 5,
+        "linkUnavailable": 1
+      }
+    },
+    "items": [
+      {
+        "id": "2094551333525447072",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/kloss_xyz/status/2094551333525447072",
+        "author": "klöss",
+        "handle": "kloss_xyz",
+        "datetime": "2026-08-31T22:22:07.000Z",
+        "title": "Grok Bot 反向整理 12 个高频 Skill 仓库",
+        "originalSummary": "原帖内容：had Grok @Bot study 300+ GitHub repos of skills here are the 12 that influenced my setup: /humanizer by @blader: make your writing and rewrites sound human https://github.com/blader/humanizer /unslop by @poteto: removes common AI slop patterns from your writing https://github.co…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/blader/humanizer",
+            "title": "GitHub - blader/humanizer: Agent skill that removes signs of AI-generated writi…",
+            "access": "full",
+            "value": "已读取：Agent skill that removes signs of AI-generated writing from text - blader/humanizer",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://github.com/cursor/plugins/tree/main/pstack/skills/unslop",
+            "title": "plugins/pstack/skills/unslop at main · cursor/plugins · GitHub",
+            "access": "full",
+            "value": "已读取：Cursor plugin specification and official plugins. Contribute to cursor/plugins development by creating an account on GitHub.",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://github.com/petergyang/no-ai-slop",
+            "title": "GitHub - petergyang/no-ai-slop: Removes 20+ patterns of AI slop from any piece …",
+            "access": "full",
+            "value": "已读取：Removes 20+ patterns of AI slop from any piece of writing. - petergyang/no-ai-slop",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://github.com/addyosmani/agent-skills",
+            "title": "GitHub - addyosmani/agent-skills: Production-grade engineering skills for AI co…",
+            "access": "full",
+            "value": "已读取：Production-grade engineering skills for AI coding agents. - addyosmani/agent-skills",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://github.com/mattpocock/skills",
+            "title": "GitHub - mattpocock/skills: Skills for Real Engineers. Straight from my .agents…",
+            "access": "full",
+            "value": "已读取：Skills for Real Engineers. Straight from my .agents directory. - mattpocock/skills",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://github.com/MengTo/Skills",
+            "title": "GitHub - MengTo/Skills: Agent skills for designers and builders using Codex, Cl…",
+            "access": "full",
+            "value": "已读取：Agent skills for designers and builders using Codex, Claude, Cursor, and other AI coding agents - MengTo/Skills",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://github.com/emilkowalski/skills",
+            "title": "GitHub - emilkowalski/skills: Skills for Designers and Engineers. · GitHub",
+            "access": "full",
+            "value": "已读取：Skills for Designers and Engineers. Contribute to emilkowalski/skills development by creating an account on GitHub.",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://github.com/kingbootoshi/cartographer",
+            "title": "GitHub - kingbootoshi/cartographer: Claude Code plugin that maps and documents …",
+            "access": "full",
+            "value": "已读取：Claude Code plugin that maps and documents codebases of any size using parallel AI subagents - kingbootoshi/cartographer",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://github.com/obra/superpowers",
+            "title": "GitHub - obra/superpowers: An agentic skills framework &amp; software developme…",
+            "access": "full",
+            "value": "已读取：An agentic skills framework &amp; software development methodology that works. - obra/superpowers",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://github.com/garrytan/gstack",
+            "title": "GitHub - garrytan/gstack: Use Garry Tan&#39;s exact Claude Code setup: 23 opini…",
+            "access": "full",
+            "value": "已读取：Use Garry Tan&#39;s exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA - g…",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://github.com/pbakaus/impeccable",
+            "title": "GitHub - pbakaus/impeccable: The design language that makes your AI harness bet…",
+            "access": "full",
+            "value": "已读取：The design language that makes your AI harness better at design. - pbakaus/impeccable",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://github.com/mvanhorn/last30days-skill",
+            "title": "GitHub - mvanhorn/last30days-skill: AI agent skill that researches any topic ac…",
+            "access": "full",
+            "value": "已读取：AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary - mvanhorn/last…",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094519020531994639",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/hxiao/status/2094519020531994639",
+        "author": "Han Xiao",
+        "handle": "hxiao",
+        "datetime": "2026-08-31T20:13:43.000Z",
+        "title": "pi 用极简接口承接 6 小时以上长任务",
+        "originalSummary": "原帖内容：I’m using pi much more for long-horizon tasks (>6h). it's simpler by design and easier to work programmatically. i rarely use pi tui, most of my work is driving it inside a bigger system/container/uiux. some takes: - pi ships with a minimal toolset and it's enough for airgapped …",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:photo",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094528358961025098",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/HermesWatcher/status/2094528358961025098",
+        "author": "Hermes Release Watch",
+        "handle": "HermesWatcher",
+        "datetime": "2026-08-31T20:50:49.000Z",
+        "title": "Hermes Agent v0.21 把 Bot Mode 合进桌面端",
+        "originalSummary": "原帖内容：Hermes Agent v0.21.0 is out. And if you've been following all of the changes landing piece by piece, this is the release where a lot of them start coming together as one system. Bot Mode is now built directly into Desktop. Hermes agents can message each other across profiles and…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/NousResearch/status/2094515104670715940/video/1",
+            "title": "X 原帖 @NousResearch",
+            "access": "full",
+            "value": "已读取：Hermes Agent v0.21.0: The Pantheon Release Changelog below",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094574501229109695",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/HARNESSROUTER/status/2094574501229109695",
+        "author": "HarnessRouter",
+        "handle": "HARNESSROUTER",
+        "datetime": "2026-08-31T23:54:11.000Z",
+        "title": "HarnessRouter 用统一接口接 Codex/Claude/Hermes",
+        "originalSummary": "原帖内容：Stop building agent harnesses for your product. One unified interface for agent harnesses instead. NEW: three more are built in. OpenCode, Qwen Code and Cline. With Codex, Claude Code, Hermes and DeepSeek Harness, they all sit behind that interface, so the harness is a field you…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/HarnessRouter/harnessrouter",
+            "title": "GitHub - HarnessRouter/harnessrouter: HarnessRouter Community Edition: the self…",
+            "access": "full",
+            "value": "已读取：HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses. Run Codex, Claude Code, Hermes, PI…",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094477304768405608",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/c_valenzuelab/status/2094477304768405608",
+        "author": "Cristóbal Valenzuela",
+        "handle": "c_valenzuelab",
+        "datetime": "2026-08-31T17:27:57.000Z",
+        "title": "Runway Solaris 探索生成式视频界面",
+        "originalSummary": "原帖内容：Interfaces that are generated, not coded. Excited to finally share Solaris. Video is the universal interface. Eventually, all UI will be chat and gestures in, chat and video out. Solaris opens new ways to build websites, apps and other interfaces. And most importantly, it gives …",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094456376550649944",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abduzeedo/status/2094456376550649944",
+        "author": "Fabio - abduzeedo",
+        "handle": "abduzeedo",
+        "datetime": "2026-08-31T16:04:47.000Z",
+        "title": "UDS Studio 网站用留白和节奏做高端感",
+        "originalSummary": "原帖内容：The layout discipline and spatial pacing in this web experience for UDS Studio is so good. The design removes all unnecessary noise, relying on simple but beautiful typography, generous negative space (the most difficult point to explain to most non-designers), and disciplined m…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://abduzeedo.com/uds-studio-crafts-minimalist-digital-web-experience",
+            "title": "UDS Studio Crafts Minimalist Digital Web Experience",
+            "access": "full",
+            "value": "已读取：UDS Website launches a sleek interactive portal with strategic web architecture, combining dark mode layouts designed by UDS Studio. Digital design a…",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094503816272154862",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/LandseerEnga/status/2094503816272154862",
+        "author": "Landseer Enga",
+        "handle": "LandseerEnga",
+        "datetime": "2026-08-31T19:13:18.000Z",
+        "title": "在产品内直接选中 UI 并交给 Cursor 改代码",
+        "originalSummary": "原帖内容：we built a tool that lets you edit UI directly in the app instead of going through Figma + engineering 1. select the part of the app you want to change 2. describe what you want 3. Cursor edits the code 4. review the PR designers can make small UI changes without waiting on an e…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094487885508743283",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/figma/status/2094487885508743283",
+        "author": "Figma",
+        "handle": "figma",
+        "datetime": "2026-08-31T18:10:00.000Z",
+        "title": "Figma Source Material 采访 meshtimes 创作物件",
+        "originalSummary": "原帖内容：This week’s episode of Source Material spotlights @meshtimes_ — where one of the internet’s favorite creative technologists shares how her world of code, creativity, and playfulness all collide. 00:00 Intro 00:09 Vanity Washable Makeup Kit 01:21 Cyberfeminism Index (Mindy Seu, 2…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094466904828068086",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dotey/status/2094466904828068086",
+        "author": "宝玉",
+        "handle": "dotey",
+        "datetime": "2026-08-31T16:46:38.000Z",
+        "title": "宝玉复盘 AI 做 PPT 不应只操作 PowerPoint",
+        "originalSummary": "原帖内容：AI 做 PPT 我的一些心得体会，仅供参考。 用 AI 操作 PowerPoint 去做 PPT 的思路本身不 AI Native，不是说不能操作 PowerPoint，而是做出来不好看，因为目前的 AI 没办法通过“操作”的方式去做出好看的 PPT，它擅长的还是生成。 像 Kimi 那样发明一种 YAML 的中间格式 PPTD (PPT-DSL)，可行，但还不够好。有两个问题： 1. 这种格式没有足够的训练，需要大量的额外说明，所以 Kimi 用了将近 2000 行文档来说明什么是 PPTD，另外这种 YAML 格式本身表达力有限，难以表达完整的格…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI PPT / 内容工具 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI PPT / 内容工具 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI PPT / 内容工具 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI PPT",
+          "内容工具",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094555336892145909",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dair_ai/status/2094555336892145909",
+        "author": "DAIR.AI",
+        "handle": "dair_ai",
+        "datetime": "2026-08-31T22:38:01.000Z",
+        "title": "ContextLeak 展示恶意工具名泄露 agent 上下文",
+        "originalSummary": "原帖内容：// ContextLeak in AI Agents // The whole attack surface here is a tool name and a tool description. Stealing an LLM agent's runtime context, meaning the user prompt, the execution trajectory and the tool list, needs three things to line up. The agent has to pick the malicious to…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://arxiv.org/abs/2608.27800",
+            "title": "[2608.27800] ContextLeak: Exfiltrating LLM Agent Context via Malicious Tools",
+            "access": "full",
+            "value": "已读取：Abstract page for arXiv paper 2608.27800: ContextLeak: Exfiltrating LLM Agent Context via Malicious Tools",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://academy.dair.ai/papers/contextleak-exfiltrating-llm-agent-context-via-malicious-tools-2608.27800",
+            "title": "ContextLeak: Exfiltrating LLM Agent Context via Malicious Tools | DAIR.AI Acade…",
+            "access": "full",
+            "value": "已读取：Yuqi Jia and colleagues (Duke, with Neil Gong) target the condition prior malicious-tool work skipped: getting the agent to pass its own runtime cont…",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094509274852692436",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/threejsconf/status/2094509274852692436",
+        "author": "Three.js Conf Paris",
+        "handle": "threejsconf",
+        "datetime": "2026-08-31T19:34:59.000Z",
+        "title": "Ponpon Mania 把插画叙事接入 WebGL",
+        "originalSummary": "原帖内容：She draws. He codes. Both are full of talents. Together they made the incredible Ponpon Mania. @JustineSoulie & @Pat_Hg are coming to the Three.js Conf stage, opening the hood on how illustration, storytelling and WebGL become one single craft instead of three separate jobs. Dis…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "http://threejs.paris/ticket",
+            "title": "Three.js Conf Paris 2026 | September 10-11",
+            "access": "full",
+            "value": "已读取：Join the first conference dedicated to Three.js in Paris on September 10-11, 2026. Two days of talks, panels, networking, and a Seine after party.",
+            "learningValue": "可用于判断视觉工程 / 3D 动效的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094560895603286234",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/omarsar0/status/2094560895603286234",
+        "author": "elvis",
+        "handle": "omarsar0",
+        "datetime": "2026-08-31T23:00:07.000Z",
+        "title": "Claude Code plugin 生态出现 8.8x commit 增长研究",
+        "originalSummary": "原帖内容：How fast is the Claude Code plugin ecosystem actually growing? Plugin-touching commit activity grew 8.8x in the six months after the initial launch. Researchers studied 1,926 repositories hosting plugin marketplaces, covering 8,351 plugins across 2,018 marketplaces and 77,773 co…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://arxiv.org/abs/2608.28497",
+            "title": "[2608.28497] On the Maintenance and Co-evolution of Agent Plugins: An Empirical…",
+            "access": "full",
+            "value": "已读取：Abstract page for arXiv paper 2608.28497: On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Claude Code Plugin Marketplaces",
+            "learningValue": "可用于判断AI Agent / 工具链的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://academy.dair.ai/papers/on-the-maintenance-and-co-evolution-of-agent-plugins-an-empirical-study-of-claud-2608.28497",
+            "title": "On the Maintenance and Co-evolution of Agent Plugins: An Empirical Study of Cla…",
+            "access": "full",
+            "value": "已读取：Ahmed Hereiz and colleagues (Queen&#x27;s University and Polytechnique Montreal, including Ahmed E. Hassan) run the first large empirical study of Cl…",
+            "learningValue": "可用于判断AI Agent / 工具链的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094565387690234305",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/v0/status/2094565387690234305",
+        "author": "v0",
+        "handle": "v0",
+        "datetime": "2026-08-31T23:17:58.000Z",
+        "title": "v0 接入 Claude Design 生成全栈应用",
+        "originalSummary": "原帖内容：v0 is now available in Claude Design. Send your designs to v0, turn them into full-stack apps, and deploy to production.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094482968576164271",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dariusdan/status/2094482968576164271",
+        "author": "Darius Dan",
+        "handle": "dariusdan",
+        "datetime": "2026-08-31T17:50:27.000Z",
+        "title": "on.design 的 profile 与设计社区网络",
+        "originalSummary": "原帖内容：I'm the first on the popular page https://on.design 🥇👀😁.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://on.design",
+            "title": "Design, together — again",
+            "access": "partial",
+            "value": "部分可读：Community, by the community",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094470665747247443",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dr_cintas/status/2094470665747247443",
+        "author": "Alvaro Cintas",
+        "handle": "dr_cintas",
+        "datetime": "2026-08-31T17:01:34.000Z",
+        "title": "Tencent Cube Sandbox 为 agent 执行代码提供运行时",
+        "originalSummary": "原帖内容：Tencent open-sourced an instant, secure and lightweight sandbox runtime for AI Agents. it’s called Cube Sandbox and lets your agent run code it wrote itself. If you’ve tried to run agents in production, you know the pattern. The prototype works on day one. Then you scale to hund…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:photo",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094539190017065011",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/MetaHorizonDevs/status/2094539190017065011",
+        "author": "Meta Horizon Developers",
+        "handle": "MetaHorizonDevs",
+        "datetime": "2026-08-31T21:33:52.000Z",
+        "title": "Meta Immersive Web SDK 用 agent 生成 Three.js 初稿",
+        "originalSummary": "原帖内容：How much setup do you do before you even know a 3D or XR idea is worth it? With the Immersive Web SDK, you describe your experience, your agent builds the first pass of the scene in Three.js, and you refine it in Scene Composer. Try it now with Immersive Web SDK 👉 https://bit.l…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://bit.ly/4zPMRyI",
+            "title": "Immersive Web SDK",
+            "access": "full",
+            "value": "已读取：WebXR framework with ECS, input, locomotion, spatial UI, and tools.",
+            "learningValue": "可用于判断视觉工程 / 3D 动效的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094507751636353188",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/joshtriedcoding/status/2094507751636353188",
+        "author": "Josh tried coding",
+        "handle": "joshtriedcoding",
+        "datetime": "2026-08-31T19:28:56.000Z",
+        "title": "Cloudflare 风格 onboarding 被拆成 BaseUI/Vaul/Motion",
+        "originalSummary": "原帖内容：the cleanest onboarding flow i've ever seen inspired by cloudflare's incredible design built w/ BaseUI, Emil Kowalski's Vaul & motion",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094561963133268378",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/vercel_dev/status/2094561963133268378",
+        "author": "Vercel Developers",
+        "handle": "vercel_dev",
+        "datetime": "2026-08-31T23:04:21.000Z",
+        "title": "Vercel fx 接入 AI SDK HarnessAgent",
+        "originalSummary": "原帖内容：fx, Vercel's lightweight open-source coding agent, now works with AI SDK 𝙷𝚊𝚛𝚗𝚎𝚜𝚜𝙰𝚐𝚎𝚗𝚝: 𝚌𝚘𝚗𝚜𝚝 𝚊𝚐𝚎𝚗𝚝 = 𝚗𝚎𝚠 𝙷𝚊𝚛𝚗𝚎𝚜𝚜𝙰𝚐𝚎𝚗𝚝({ 𝚑𝚊𝚛𝚗𝚎𝚜𝚜: 𝚏𝚡, }); https://vercel.com/changelog/fx-ai-sdk-harness-adapter",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://vercel.com/changelog/fx-ai-sdk-harness-adapter",
+            "title": "fx is now available in the AI SDK harness layer - Vercel",
+            "access": "full",
+            "value": "已读取：fx is now available in the AI SDK harness layer through the @ai-sdk/harness-fx adapter, built on the ACP harness. Run it through the same HarnessAgen…",
+            "learningValue": "可用于判断AI Agent / 工具链的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "text",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094559881936392303",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dingyi/status/2094559881936392303",
+        "author": "Ding",
+        "handle": "dingyi",
+        "datetime": "2026-08-31T22:56:05.000Z",
+        "title": "Fastpotify 结合轻量 Spotify 客户端和 Winamp 皮肤",
+        "originalSummary": "原帖内容：啊啊啊这个第三方 Spotify 客户端太好玩了，不仅比官方小巧更快，还支持经典的 Winamp 皮肤！去 https://skins.webamp.org/ 下载安装就可以。我现在实在是太喜欢我这台 Linux 电脑了。 https://fastpotify.rocks/",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://skins.webamp.org/",
+            "title": "Winamp Skin Museum",
+            "access": "partial",
+            "value": "部分可读：Infinite scroll through 100k Winamp skins with interactive preview",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://fastpotify.rocks/",
+            "title": "Fastpotify",
+            "access": "full",
+            "value": "已读取：A fast, native Spotify client for Linux, macOS, and Windows, written in Rust.",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094528123215946178",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/NotionCalendar/status/2094528123215946178",
+        "author": "Notion Calendar",
+        "handle": "NotionCalendar",
+        "datetime": "2026-08-31T20:49:53.000Z",
+        "title": "Notion Calendar 推出智能日程推荐",
+        "originalSummary": "原帖内容：Meet smart scheduling! Now, when you add people to a new event in Calendar, we’ll recommend times that work for everyone. So you can preview conflicts, pick a slot, and keep moving.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094499794454491340",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Crashoverride_X/status/2094499794454491340",
+        "author": "⚔️𝕯𝖎𝖌𝖎𝖙𝖆𝖑 👹 𝕽𝖔𝖓𝖎𝖓`鬼` (クラッシュ・オーバーライドX)",
+        "handle": "Crashoverride_X",
+        "datetime": "2026-08-31T18:57:19.000Z",
+        "title": "🧵💼 Let's talk about AI taking jobs. Real talk…",
+        "originalSummary": "原帖内容：🧵💼 Let's talk about AI taking jobs. Real talk, not fear-mongering. Everyone's panicking like the sky is falling. But let's actually look at what's been impacted **right now, as of today** — and more importantly, how to pivot: --- 🎨 **Digital Artists → AI Artists (Medium Prese…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094567815584141779",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/startupideaspod/status/2094567815584141779",
+        "author": "The Startup Ideas Podcast (SIP) 🧃",
+        "handle": "startupideaspod",
+        "datetime": "2026-08-31T23:27:37.000Z",
+        "title": "What's the tool stack for a marketing engineer?…",
+        "originalSummary": "原帖内容：What's the tool stack for a marketing engineer? Here's how what I'd use: Start with GrokBot. It is connected to the X ecosystem, so give it 4 clear lanes: - Watch the competitors and report what changed - Watch customer language on X and Reddit - Watch the creators in the niche …",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094470273353584642",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/iamrexei/status/2094470273353584642",
+        "author": "Rexei",
+        "handle": "iamrexei",
+        "datetime": "2026-08-31T17:00:01.000Z",
+        "title": "Solo founders often build AI SaaS products in t…",
+        "originalSummary": "原帖内容：Solo founders often build AI SaaS products in the wrong order First, they spend weeks building the UI Then, they integrate RAG And they only find out why users are leaving after the subscription has already been cancelled Here are 3 open-source repositories that turn this into a…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094548787129700762",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/HedgieMarkets/status/2094548787129700762",
+        "author": "Hedgie",
+        "handle": "HedgieMarkets",
+        "datetime": "2026-08-31T22:12:00.000Z",
+        "title": "🦔OpenAI is testing a new pricing model where e…",
+        "originalSummary": "原帖内容：🦔OpenAI is testing a new pricing model where enterprise customers only pay when the AI agent completes the task successfully. If it fails, OpenAI eats the compute cost. The company hasn't disclosed how it determines whether a task counts as a success or what the pricing looks l…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:photo",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094455332869202083",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/PyTorch/status/2094455332869202083",
+        "author": "PyTorch",
+        "handle": "PyTorch",
+        "datetime": "2026-08-31T16:00:39.000Z",
+        "title": "🚀 Keynote Speaker Announced @clattner_llvm, Ex…",
+        "originalSummary": "原帖内容：🚀 Keynote Speaker Announced @clattner_llvm, Executive Vice President of Advanced AI Software and Platforms at @Qualcomm, joins the keynote lineup at #PyTorchCon North America. 📅 October 20-21 📍 San Jose, CA Schedule: https://bit.ly/3Ra1oUx Register by Sept 4 & save: https://b…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://bit.ly/3Ra1oUx",
+            "title": "Schedule | LF Events",
+            "access": "full",
+            "value": "已读取：October 20-21, 2026 | San Jose, California Sessions will be recorded and available on the PyTorch Conference YouTube channel within two weeks.",
+            "learningValue": "可用于判断视觉工程 / 3D 动效的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "https://bit.ly/4sh3DSw",
+            "title": "Register | LF Events",
+            "access": "full",
+            "value": "已读取：Register Now! The registration deadline is 11:59 PM Pacific Time on the respective date. *Must provide proof of academic ID Quick Note: We never sell…",
+            "learningValue": "可用于判断视觉工程 / 3D 动效的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094549760594137408",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/vib3coded/status/2094549760594137408",
+        "author": "Vib3Coded",
+        "handle": "vib3coded",
+        "datetime": "2026-08-31T22:15:52.000Z",
+        "title": "One image - four AI models. Which one did it be…",
+        "originalSummary": "原帖内容：One image - four AI models. Which one did it best? I gave Grok 4.6 Build, ChatGPT-5.6 Sol, Claude Opus 5, and Gemini 3.7 Flash the exact same static image of a tropical beach and asked them to turn it into an interactive WebGL animation The results were completely different Grok…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094543052895608947",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Shaughnessy119/status/2094543052895608947",
+        "author": "Tommy",
+        "handle": "Shaughnessy119",
+        "datetime": "2026-08-31T21:49:13.000Z",
+        "title": "Today @NousResearch dropped Hermes Agent v0.21 …",
+        "originalSummary": "原帖内容：Today @NousResearch dropped Hermes Agent v0.21 This update moves Hermes from being a powerful assistant to an entire persistent team of agents you can schedule, supervise and who can work together Bot Mode turns Hermes from one assistant into a roster of named specialists with t…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094520992119046164",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/kmeanskaran/status/2094520992119046164",
+        "author": "Karan🧋",
+        "handle": "kmeanskaran",
+        "datetime": "2026-08-31T20:21:33.000Z",
+        "title": "If your manager puts you on ongoing AI/ML proje…",
+        "originalSummary": "原帖内容：If your manager puts you on ongoing AI/ML projects, don’t panic. Just follow this: - Read the README and project documentation. - Clean-clone the repo and check pyproject.toml/ requirements.txt - Copy .env.example to .env and fill in your credentials. - Create a UV virtual envir…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094486037363888341",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/DavidPGaus/status/2094486037363888341",
+        "author": "David Gaus",
+        "handle": "DavidPGaus",
+        "datetime": "2026-08-31T18:02:39.000Z",
+        "title": "Check these out. Builders who are shipping!! @e…",
+        "originalSummary": "原帖内容：Check these out. Builders who are shipping!! @ezzyosborne — Diffport (@diffport). This is wild: it tags which AI agent actually wrote each PR, then scores the schema risk. Waitlist just opened today. Go get on it. @NabilJB007 — http://theleaderboard.co. Solopreneur on a tear — 4…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "http://theleaderboard.co",
+            "title": "Leaderboard — Get seen. Get clicks.",
+            "access": "full",
+            "value": "已读取：List your product permanently. Boost it when you need more visibility.",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "http://cuttheline.lol",
+            "title": "cut the line — The public queue",
+            "access": "full",
+            "value": "已读取：Pay to stand in front. The public queue.",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "http://sundayclub.so",
+            "title": "Sunday Club · One edition a week, picked by hand",
+            "access": "full",
+            "value": "已读取：A shortlist of new products worth your time. Read, vetted, and launched together every week.",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "http://trrevo-core-engine.lovable.app",
+            "title": "Home — TrRevo",
+            "access": "partial",
+            "value": "部分可读：Lovable Generated Project",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "http://uptimegladiator.com",
+            "title": "Uptime Gladiator",
+            "access": "full",
+            "value": "已读取：Your uptime, as a gladiator. Earn armor for every hour you stay up, lose it five times faster when you go down, and fight a drawn opponent every week.",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "http://aigarden.tech",
+            "title": "AI Garden — Curated AI news and concept learning",
+            "access": "full",
+            "value": "已读取：AI Garden connects today",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "http://accounts-os.com",
+            "title": "AccountsOS | Finn, the AI accountant",
+            "access": "full",
+            "value": "已读取：You run the business, Finn runs the books. Receipts, bookkeeping, VAT, invoicing and tax filings handled by your AI accountant. 14-day free trial, th…",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "text",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094562823204700395",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/The_AGI_WAY/status/2094562823204700395",
+        "author": "林 駿甫｜「自分でやった方が早い」を終わらせる",
+        "handle": "The_AGI_WAY",
+        "datetime": "2026-08-31T23:07:46.000Z",
+        "title": "Claude Codeの設定、自己流で悩んでいませんか？ うまく整えるコツは2つだけ。 ①公式…",
+        "originalSummary": "原帖内容：Claude Codeの設定、自己流で悩んでいませんか？ うまく整えるコツは2つだけ。 ①公式ドキュメント一覧を読ませてレビュー https://code.claude.com/docs/llms.txt ②標準サブエージェント「Claude Code Guide」に再チェックを依頼 設定を全部覚えるより、公式情報を読めるAIに確認させる方が早い。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://code.claude.com/docs/llms.txt",
+            "title": "https://code.claude.com/docs/llms.txt",
+            "access": "full",
+            "value": "已读取：# Claude Code Docs > Official documentation for Claude Code, Anthropic's agentic coding tool available in the terminal, IDE, desktop app, and browser…",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "text",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094551090515898416",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/eeelistar/status/2094551090515898416",
+        "author": "Elisa",
+        "handle": "eeelistar",
+        "datetime": "2026-08-31T22:21:09.000Z",
+        "title": "AI agents are increasingly moving towards a ver…",
+        "originalSummary": "原帖内容：AI agents are increasingly moving towards a very simple to use UI/UX Just like Grok Bot abstracted almost all the technical details away, Hermes is following the same path Hermes Agent v0.21.0 (Pantheon) TLDR: - MCP is a dashboard, not a config file - Bot Mode is in desktop app …",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094455229085364225",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/AndroidPolice/status/2094455229085364225",
+        "author": "Android Police",
+        "handle": "AndroidPolice",
+        "datetime": "2026-08-31T16:00:14.000Z",
+        "title": "I tested AI presentation tools across Google Sl…",
+        "originalSummary": "原帖内容：I tested AI presentation tools across Google Slides, PowerPoint, and Claude Design; one clear winner generated professional decks https://bit.ly/4cn8mgh",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI PPT / 内容工具 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI PPT / 内容工具 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://bit.ly/4cn8mgh",
+            "title": "I tested AI presentation tools across Google Slides, PowerPoint, and Claude Des…",
+            "access": "full",
+            "value": "已读取：The tool that finished the deck instead of starting it",
+            "learningValue": "可用于判断AI PPT / 内容工具的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 AI PPT / 内容工具 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI PPT",
+          "内容工具",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094565871968808995",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/MetaforDevs/status/2094565871968808995",
+        "author": "Meta for Developers",
+        "handle": "MetaforDevs",
+        "datetime": "2026-08-31T23:19:53.000Z",
+        "title": "How much setup do you do before you even know a…",
+        "originalSummary": "原帖内容：How much setup do you do before you even know a 3D or XR idea is worth it? With the Immersive Web SDK, you describe your experience, your agent builds the first pass of the scene in Three.js, and you refine it in Scene Composer. Try it now with Immersive Web SDK 👉 https://bit.l…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://bit.ly/460OfRr",
+            "title": "Immersive Web SDK",
+            "access": "full",
+            "value": "已读取：WebXR framework with ECS, input, locomotion, spatial UI, and tools.",
+            "learningValue": "可用于判断视觉工程 / 3D 动效的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094532531215589498",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abduzeedo/status/2094532531215589498",
+        "author": "Fabio - abduzeedo",
+        "handle": "abduzeedo",
+        "datetime": "2026-08-31T21:07:24.000Z",
+        "title": "Dimensions of Time: spatial depth and atmospher…",
+        "originalSummary": "原帖内容：Dimensions of Time: spatial depth and atmosphere. Designed by Ahmed Afifi and aleven studio, the project treats time as spatial depth. Each digital illustration uses clear glass shapes and soft light paths. Color gradients transition from deep blue to warm yellow across square t…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://abduzeedo.com/dimensions-time-spatial-digital-illustration",
+            "title": "Dimensions of Time Spatial Digital Illustration",
+            "access": "full",
+            "value": "已读取：Dimensions of Time explores temporal rhythm with clean digital illustration, combining bright spheres, glass blocks, and blue grids. Designed by Ahme…",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094464772339023875",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/codrops/status/2094464772339023875",
+        "author": "Codrops",
+        "handle": "codrops",
+        "datetime": "2026-08-31T16:38:09.000Z",
+        "title": "We’re continuing to celebrate the amazing Three…",
+        "originalSummary": "原帖内容：We’re continuing to celebrate the amazing Three.js community as we count down to the first @threejsconf 🇫🇷✨ @_pwd_ is back with another creative experiment! Volatile Nexus takes a glassy ring with colorful caustics and turns it into a mesmerizing mix of refractions, wandering …",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://tympanus.net/codrops/2026/08/31/volatile-nexus-tinkering-with-glass-caustics-cubes-and-sound-in-three-js/",
+            "title": "Volatile Nexus: Tinkering with Glass, Caustics, Cubes and Sound in Three.js | C…",
+            "access": "full",
+            "value": "已读取：A mesmerizing Three.js experiment where glass, wandering cubes, caustics, refractions, and sound come together in a fluid, interactive scene.",
+            "learningValue": "可用于判断视觉工程 / 3D 动效的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094560875252502546",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/masaya_nakade/status/2094560875252502546",
+        "author": "MasayaNakade@ﾃｯｸﾀｯﾁ CPO/CFO",
+        "handle": "masaya_nakade",
+        "datetime": "2026-08-31T23:00:02.000Z",
+        "title": "キャディ、燈、Finatext、DeNA、JAPAN AI、クラシルが登壇！ 毎回、募集開始か…",
+        "originalSummary": "原帖内容：キャディ、燈、Finatext、DeNA、JAPAN AI、クラシルが登壇！ 毎回、募集開始から数時間で定員150名を超えるお申し込みをいただく「Product/AI Conf」。 第6回を10/8(木)に開催します。 今回も、「AI時代のプロダクト戦略」をテーマに、AIに先進的に取り組む企業の経営陣が集結。 「バーティカルAIスタートアップはどう戦うのか」 「既存のIT企業はどうAIネイティブ化するのか」 「AI時代、プロダクト開発そのものはどう変わるのか」 実際に変革を進める各社の意思決定や試行錯誤まで、3つのセッションで掘り下げます。 PdM・B…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品判断 / 学习样本 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://aixpdm.connpass.com/event/404788/",
+            "title": "Product/AI Conf Vol.6―AI時代のプロダクト戦略 - connpass",
+            "access": "full",
+            "value": "已读取：## 参加方法 ＜お申込みの流れ＞ 1. Googleフォームよりお申込み 2. 運営事務局にて審査、通常一週間以内に参加可否判断の上、メールにて結果連絡 3. メールにて開催場所等、当日アクセスをご案内 ※希望者数や属性分布などを鑑みご希望に添えない場合がありますのでご了承ください。 ※1週間経…",
+            "learningValue": "可用于判断产品判断 / 学习样本的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094497044891050261",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Emojipedia/status/2094497044891050261",
+        "author": "Emojipedia",
+        "handle": "Emojipedia",
+        "datetime": "2026-08-31T18:46:24.000Z",
+        "title": "📱 Chinese mobile manufacturer Honor’s new nati…",
+        "originalSummary": "原帖内容：📱 Chinese mobile manufacturer Honor’s new native emoji set is now available on Emojipedia 😃📙 View the full list of supported emojis and our breakdown here 👇🔗 https://blog.emojipedia.org/honor-emoji-set-now-on-emojipedia/",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品判断 / 学习样本 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://blog.emojipedia.org/honor-emoji-set-now-on-emojipedia/",
+            "title": "Honor Emoji Set Now On Emojipedia",
+            "access": "full",
+            "value": "已读取：Emojipedia&#x27;s archive now includes the new emoji designs that made their debut on various devices from Chinese manufacturer Honor, following a ma…",
+            "learningValue": "可用于判断产品判断 / 学习样本的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094482279271677979",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/workspacesxyz/status/2094482279271677979",
+        "author": "Workspaces",
+        "handle": "workspacesxyz",
+        "datetime": "2026-08-31T17:47:43.000Z",
+        "title": "\"The canvas is not dead.\" @rachelhxw is a desig…",
+        "originalSummary": "原帖内容：\"The canvas is not dead.\" @rachelhxw is a designer, YouTuber, and Video Lead @mobbin Recently, she has been building apps with AI, but still designs them in @figma first. Her reasoning: the thinking happens on the canvas.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:photo",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094569017206067301",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/recat_125/status/2094569017206067301",
+        "author": "れにゃ。",
+        "handle": "recat_125",
+        "datetime": "2026-08-31T23:32:23.000Z",
+        "title": "Manage agents, tools and skills at scale with A…",
+        "originalSummary": "原帖内容：AWS Agent Registry が GA されました！ Resource Access Manager によるクロスアカウント共有, AgentCore Runtime / Gateway 上の Agent や MCP Server の自動検出とレコード取り込み, Amazon Quick との統合, PrivateLink のサポートなど、新機能も追加されてます！ https://aws.amazon.com/jp/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-wi…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://aws.amazon.com/jp/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/",
+            "title": "Manage agents, tools and skills at scale with AWS Agent Registry | Artificial I…",
+            "access": "full",
+            "value": "已读取：AWS Agent Registry is now generally available: a single, searchable, governed catalog for the agents, tools, skills, and custom resources across your…",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "text",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094553819820835282",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/lennysan/status/2094553819820835282",
+        "author": "Lenny Rachitsky",
+        "handle": "lennysan",
+        "datetime": "2026-08-31T22:32:00.000Z",
+        "title": "OpenAI Product Lead @tarstarr: PMs are now in t…",
+        "originalSummary": "原帖内容：OpenAI Product Lead @tarstarr: PMs are now in the business of elevating everyone's ambition",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品判断 / 学习样本 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094549541684924638",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/RoundtableSpace/status/2094549541684924638",
+        "author": "0xMarioNawfal",
+        "handle": "RoundtableSpace",
+        "datetime": "2026-08-31T22:15:00.000Z",
+        "title": "Someone vibe coded a mobile app with Claude Cod…",
+        "originalSummary": "原帖内容：Someone vibe coded a mobile app with Claude Code where zombies chase you on your real GPS position and the only way to survive is to physically run, built over a weekend. → 60 second head start before the horde spawns on your actual neighborhood map → Tap red skulls to shoot, fi…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094520179904672034",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/AgentOS_Tech/status/2094520179904672034",
+        "author": "AgentOS (by PRIME)",
+        "handle": "AgentOS_Tech",
+        "datetime": "2026-08-31T20:18:19.000Z",
+        "title": "Introducing the upgraded Super AgentOS Composer…",
+        "originalSummary": "原帖内容：Introducing the upgraded Super AgentOS Composer. A cleaner command surface with working Super, Research, Build, Analyze, Trade, and Primeflow starters plus one colorful launcher for files, images, Apps, Skills, Prime Agents, Projects, and MCP.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:photo",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094476612565921994",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/op7418/status/2094476612565921994",
+        "author": "歸藏(guizang.ai)",
+        "handle": "op7418",
+        "datetime": "2026-08-31T17:25:12.000Z",
+        "title": "即使你照片拍得不行，我这个 Skill 也会通过处理细节和排版帮你重新做出一个非常漂亮的海报出…",
+        "originalSummary": "原帖内容：即使你照片拍得不行，我这个 Skill 也会通过处理细节和排版帮你重新做出一个非常漂亮的海报出来。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "media:photo",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094472272283046206",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ny14co/status/2094472272283046206",
+        "author": "Nycole",
+        "handle": "ny14co",
+        "datetime": "2026-08-31T17:07:57.000Z",
+        "title": "GenLayer is no longer asking for demos. In the …",
+        "originalSummary": "原帖内容：GenLayer is no longer asking for demos. In the first Builders Weekly Open Call, @raskovsky and @joaquinbressan made the request very clear. They don’t want another prototype built just to farm points. They want real startups. One of the strongest ideas that came up: Automated SL…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094457833978732851",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/floraai/status/2094457833978732851",
+        "author": "FLORA ©",
+        "handle": "floraai",
+        "datetime": "2026-08-31T16:10:35.000Z",
+        "title": "Your newest creative brief is 5,000 years old. …",
+        "originalSummary": "原帖内容：Your newest creative brief is 5,000 years old. The FLORA Museum Challenge in collaboration with @Contra is here. Pull anything from The Met's open archive. Reimagine it on the FLORA canvas. $10K in prizes and a trip to NYC to visit the Met yourself. Closes Sept 8.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094457600259842065",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/poteto/status/2094457600259842065",
+        "author": "lauren",
+        "handle": "poteto",
+        "datetime": "2026-08-31T16:09:39.000Z",
+        "title": "The Complete Guide to pstack Pt. 1",
+        "originalSummary": "原帖内容：I'm writing a guide to pstack! Here's part one. https://x.com/i/article/2094151284949688320",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094151284949688320",
+            "title": "The Complete Guide to pstack Pt. 1",
+            "access": "full",
+            "value": "已读取：In this series of posts, I'm going to show you how I use pstack, my personal set of skills for doing rigorous engineering work. It's allowed me to sh…",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "text",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094573492494823609",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/0xEbaad/status/2094573492494823609",
+        "author": "ebaad",
+        "handle": "0xEbaad",
+        "datetime": "2026-08-31T23:50:10.000Z",
+        "title": "Launching Kinara: Use Claude Code to turn your …",
+        "originalSummary": "原帖内容：Launching Kinara: Use Claude Code to turn your long videos into clips. - Edit with text - 10-15 viral clips from a long video in 5 minutes - Add your company's subtitles and logo - Works with your local claude code/codex Available at usekinara. com to download",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094567596649750868",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/iam_zachi/status/2094567596649750868",
+        "author": "Zachi",
+        "handle": "iam_zachi",
+        "datetime": "2026-08-31T23:26:44.000Z",
+        "title": "AI Security skills give you a false feeling of …",
+        "originalSummary": "原帖内容：AI Security skills give you a false feeling of safety. A client of mine asked me to pentest his mobile app. He was sure I’m not gonna find anything because he ran the Codex Security plugin through it. I found 3 vulnerabilities. His Postgres RLS functions allowed me to bypass his…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094560872417116167",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/VadimStrizheus/status/2094560872417116167",
+        "author": "Vadim",
+        "handle": "VadimStrizheus",
+        "datetime": "2026-08-31T23:00:01.000Z",
+        "title": "i got sick of the Grok Bot usage limits so i bu…",
+        "originalSummary": "原帖内容：i got sick of the Grok Bot usage limits so i built a video editing agent in Skydive 1. pulls the raw video 2. cuts the deadspace 3. finds the clips worth posting 4. captions them 5. posts to TikTok + Instagram I connected it to the @vugola mcp server so it posts by itself here's…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094547857336598781",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dotey/status/2094547857336598781",
+        "author": "宝玉",
+        "handle": "dotey",
+        "datetime": "2026-08-31T22:08:18.000Z",
+        "title": "GLM 6 这么牛的吗？都能自训练了 --- 智谱创始人唐杰：GLM-6.0定位全自训练技术路…",
+        "originalSummary": "原帖内容：GLM 6 这么牛的吗？都能自训练了 --- 智谱创始人唐杰：GLM-6.0定位全自训练技术路线 8月31日晚间，智谱召开2026年半年度业绩发布会。 智谱创始人唐杰在会上解读了智谱下一代GLM-6.0大模型的技术定位与研发方向。 他将GLM-6.0定义为Full Self-Training（完全自训练，海外相关概念也称RSI），核心特征是模型具备自净化能力，可覆盖从预训练、中期训练到后训练的全流程，实现完全自主训练与自我进化。 唐杰指出，全自训练范式的最大挑战并非单纯扩大模型规模，而是模型能否实现自我判断——自主把控训练停止时机、自主完成错误修正。这…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品判断 / 学习样本 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "media:photo",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094477661896900745",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/irinatoxi/status/2094477661896900745",
+        "author": "Rina",
+        "handle": "irinatoxi",
+        "datetime": "2026-08-31T17:29:22.000Z",
+        "title": "The funniest Autodesk Fusion demo I’ve seen thi…",
+        "originalSummary": "原帖内容：The funniest Autodesk Fusion demo I’ve seen this week has basically zero 3D in it. AI built an ESP32 smart-watering controller instead: 12V input, 5V regulation, 3.3V sensing, MOSFET pump control, flyback protection, status LED, the whole schematic. One bad connection and you ar…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094470515121615225",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/giorgioguttilla/status/2094470515121615225",
+        "author": "girolamo savonarola",
+        "handle": "giorgioguttilla",
+        "datetime": "2026-08-31T17:00:58.000Z",
+        "title": "Added new spells + damage types to my three.js …",
+        "originalSummary": "原帖内容：Added new spells + damage types to my three.js large-scale castle siege game. Having fun watching the chaos unfold from the spectator cam POV. Check the demo out: https://knightjs.web.app/",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://knightjs.web.app/",
+            "title": "Knight — Three.js/Rapier Combat Prototype",
+            "access": "partial",
+            "value": "部分可读：Knight — Three.js/Rapier Combat Prototype",
+            "learningValue": "可用于判断视觉工程 / 3D 动效的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094562349768221046",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/janusmakes/status/2094562349768221046",
+        "author": "Janus.",
+        "handle": "janusmakes",
+        "datetime": "2026-08-31T23:05:53.000Z",
+        "title": "Spent a week building Horus, an MCP server that…",
+        "originalSummary": "原帖内容：Spent a week building Horus, an MCP server that extract design rules (hierarchy, spacing, grouping, not just colors) from reference images, hand them to any LLM, get UI that actually looks intentional https://www.npmjs.com/package/horus-codec?activeTab=readme",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.npmjs.com/package/horus-codec?activeTab=readme",
+            "title": "https://www.npmjs.com/package/horus-codec?activeTab=readme",
+            "access": "unavailable",
+            "value": "不可访问：HTTP 403",
+            "learningValue": "只保留原帖可见证据，不继续推断。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "text",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094531233653068223",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ItsmeAjayKV/status/2094531233653068223",
+        "author": "AJ",
+        "handle": "ItsmeAjayKV",
+        "datetime": "2026-08-31T21:02:15.000Z",
+        "title": "Another answer for 3090 users, running Qwen3.8-…",
+        "originalSummary": "原帖内容：Another answer for 3090 users, running Qwen3.8-flash. When i started running Qwen3.8-Flash on my 3090, i got few questions about which quant is better, Unsloth UD-IQ3_XXS or AtomicChat IQ4_XS For last few days i've been jumping between these two, putting time through my evals to…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094524951025914278",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/olavlj/status/2094524951025914278",
+        "author": "olav",
+        "handle": "olavlj",
+        "datetime": "2026-08-31T20:37:17.000Z",
+        "title": "How We Built a Next-Level Landing Page (and how…",
+        "originalSummary": "原帖内容：many have asked how we built our landing page. today we are spilling the tea! excited to see what you come up with https://x.com/i/article/2094493136743473152",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094493136743473152",
+            "title": "How We Built a Next-Level Landing Page (and how you can too)",
+            "access": "full",
+            "value": "已读取：Building beautiful websites is easy now, but it wasn’t always like this. In my first company this was a perpetual frustration. We hired expensive age…",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "text",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094523581032014151",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/pachapapaya/status/2094523581032014151",
+        "author": "PachaPapa",
+        "handle": "pachapapaya",
+        "datetime": "2026-08-31T20:31:50.000Z",
+        "title": "یکی از مهم‌ترین mcp هایی که استفاده میکنم Chrom…",
+        "originalSummary": "原帖内容：یکی از مهم‌ترین mcp هایی که استفاده میکنم Chrome Devtools هست که کمک میکنه agent به chrome دسترسی داشته باشه. برای Web App ها اتوماتیک صفحه رو باز میکنه screenshot میگیره، به ارورهای consule دسترسی داره و کلی چیز دیگه سمت UI و Front سرعت رو چند برابر میکنه. لینک گیتهاب 👇",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094493172516966781",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/lingxi/status/2094493172516966781",
+        "author": "Lingxi Li",
+        "handle": "lingxi",
+        "datetime": "2026-08-31T18:31:00.000Z",
+        "title": "Grok Bot for Engineering",
+        "originalSummary": "原帖内容：https://x.com/i/article/2090147220838588416",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品判断 / 学习样本 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2090147220838588416",
+            "title": "Grok Bot for Engineering",
+            "access": "full",
+            "value": "已读取：I’m a SpaceXAI engineer building Grok Bot with Grok Bot. Think of Grok Bot as a highly capable engineering intern, with its own computers, that can m…",
+            "learningValue": "可用于判断产品判断 / 学习样本的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "text",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094480298109284831",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Cora_Mat/status/2094480298109284831",
+        "author": "Carolina Aiazzi",
+        "handle": "Cora_Mat",
+        "datetime": "2026-08-31T17:39:51.000Z",
+        "title": "Forever walk for @sorakulabs 🚶‍♀️✨ This charac…",
+        "originalSummary": "原帖内容：Forever walk for @sorakulabs 🚶‍♀️✨ This character is brought to life with 20,000 hair strands, all simulated live in the browser. Each strand uses 16 particles, bringing the full system to 320,000 moving points. Scrolling grows the hair in real time. Our hair system handles len…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094558705832358096",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/altmemy199/status/2094558705832358096",
+        "author": "التميمي",
+        "handle": "altmemy199",
+        "datetime": "2026-08-31T22:51:25.000Z",
+        "title": "مهندسين OpenAI صاروا يكتبون كود هم أنفسهم مايقد…",
+        "originalSummary": "原帖内容：مهندسين OpenAI صاروا يكتبون كود هم أنفسهم مايقدرون يشرحونه سطر بسطر 😂 القصة حكاها جوردان نانوس، محلل في SemiAnalysis، وكان يتعاون مع مهندسين من OpenAI أثناء اختبارهم لشريحة الاستدلال الجديدة Jalapeño على اختبار InferenceX التابع لـ SemiAnalysis. بحسب كلامه، مهندسين عندهم خبرة ت…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094546840419176816",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Architect9000/status/2094546840419176816",
+        "author": "Architect🛡️",
+        "handle": "Architect9000",
+        "datetime": "2026-08-31T22:04:16.000Z",
+        "title": "Connecting the world’s agents! Exciting month f…",
+        "originalSummary": "原帖内容：Connecting the world’s agents! Exciting month for us, we’re rolling out our prod environment and @AionApp will enter beta. Got some demos scheduled too. I can’t believe I was psychotic enough to try to build a product like this. Our competitors are behemoths like Microsoft, Serv…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094515354508874042",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/free_ai_guides/status/2094515354508874042",
+        "author": "AI Guides",
+        "handle": "free_ai_guides",
+        "datetime": "2026-08-31T19:59:09.000Z",
+        "title": "Second-order thinking for people who use AI eve…",
+        "originalSummary": "原帖内容：https://x.com/i/article/2094488927256317952",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品判断 / 学习样本 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094488927256317952",
+            "title": "Second-order thinking for people who use AI every day",
+            "access": "full",
+            "value": "已读取：You ask a question. The answer arrives before you finish reaching for your coffee. It sounds sure of itself, and it's probably right. A few weeks of …",
+            "learningValue": "可用于判断产品判断 / 学习样本的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "text",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094479478101520644",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/SoftEngineer/status/2094479478101520644",
+        "author": "Alex Goldring",
+        "handle": "SoftEngineer",
+        "datetime": "2026-08-31T17:36:35.000Z",
+        "title": "Made a profiler for the WebGPU designed in 3 pa…",
+        "originalSummary": "原帖内容：Made a profiler for the WebGPU designed in 3 parts: recorder + format + viewer The recorder is an optional import, so production builds don't have to ship it.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094568147089338654",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/georgepickett/status/2094568147089338654",
+        "author": "George Pickett",
+        "handle": "georgepickett",
+        "datetime": "2026-08-31T23:28:56.000Z",
+        "title": "Codex Community Meetup - San Francisco · Luma",
+        "originalSummary": "原帖内容：The next Codex SF event is all about controlling Codex with your voice. If you're orchestrating agents with voice mode in Codex, send me a DM if you'd like to demo. Really excited for this one! RSVP here: https://luma.com/5cewfkx1",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://luma.com/5cewfkx1",
+            "title": "Codex Community Meetup - San Francisco · Luma",
+            "access": "full",
+            "value": "已读取：Come hang out with the SF Codex community for an evening all about building with your voice brought to you by WorkOS and Parallel.ai Codex Voice lets…",
+            "learningValue": "可用于判断AI Agent / 工具链的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "text",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094556598492631281",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/nikunj/status/2094556598492631281",
+        "author": "Nikunj Kothari",
+        "handle": "nikunj",
+        "datetime": "2026-08-31T22:43:02.000Z",
+        "title": "the new valley",
+        "originalSummary": "原帖内容：https://x.com/i/article/2094496251287138304",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品判断 / 学习样本 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094496251287138304",
+            "title": "the new valley",
+            "access": "full",
+            "value": "已读取：This is a conversation that's happening pretty much every week at investment committee. A new opportunity comes up and the trend line, at least on th…",
+            "learningValue": "可用于判断产品判断 / 学习样本的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "text",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094541202570051892",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/wevm_dev/status/2094541202570051892",
+        "author": "wevm",
+        "handle": "wevm_dev",
+        "datetime": "2026-08-31T21:41:52.000Z",
+        "title": "Introducing 𝚖𝚘𝚗𝚘𝚜𝚑𝚘𝚝. A code image edit…",
+        "originalSummary": "原帖内容：Introducing 𝚖𝚘𝚗𝚘𝚜𝚑𝚘𝚝. A code image editor for humans and agents. Create, annotate, theme, export, and share code images on the Web, CLI, MCP, or API.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094532659644948781",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/compusemble/status/2094532659644948781",
+        "author": "Compusemble",
+        "handle": "compusemble",
+        "datetime": "2026-08-31T21:07:55.000Z",
+        "title": "Looks like Work Graphs are being removed with S…",
+        "originalSummary": "原帖内容：Looks like Work Graphs are being removed with Shader model 6.10. Microsoft has instead introduced \"Work Lists.\" https://microsoft.github.io/DirectX-Specs/d3d/WorkLists.html",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://microsoft.github.io/DirectX-Specs/d3d/WorkLists.html",
+            "title": "DirectX-Specs | Engineering specs for DirectX features.",
+            "access": "full",
+            "value": "已读取：Engineering specs for DirectX features.",
+            "learningValue": "可用于判断视觉工程 / 3D 动效的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "text",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094464799413543250",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/techartist_/status/2094464799413543250",
+        "author": "Techartist",
+        "handle": "techartist_",
+        "datetime": "2026-08-31T16:38:16.000Z",
+        "title": "I love experimenting with architecture and ligh…",
+        "originalSummary": "原帖内容：I love experimenting with architecture and light, so I recreated the Louvre Abu Dhabi in code, including its signature Rain of Light. Camera exploration spans the waterfront, the museum city, and views from beneath the lattice. Code → Kimi K3 + Devin AI + Three.js",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094530188583600162",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Ryan__Stephen/status/2094530188583600162",
+        "author": "Ryan Stephen",
+        "handle": "Ryan__Stephen",
+        "datetime": "2026-08-31T20:58:06.000Z",
+        "title": "Excited to share that I recently joined Runway …",
+        "originalSummary": "原帖内容：Excited to share that I recently joined Runway Labs. Excited to prototype fluid, intelligent interfaces alongside @matamalaortiz and team!",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:photo",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094530139048571199",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/jumperz/status/2094530139048571199",
+        "author": "JUMPERZ",
+        "handle": "jumperz",
+        "datetime": "2026-08-31T20:57:54.000Z",
+        "title": "this is a reason why Hermes is still on another…",
+        "originalSummary": "原帖内容：this is a reason why Hermes is still on another level.. the amount of development they do in such a short time is insane. the fact that they ship this fast and it still ends up feeling so smooth says enough.. this update brings >persistent agent teams >bot-to-bot communication >…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094478206523056181",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abduzeedo/status/2094478206523056181",
+        "author": "Fabio - abduzeedo",
+        "handle": "abduzeedo",
+        "datetime": "2026-08-31T17:31:32.000Z",
+        "title": "Always insightful hearing the business reasons.…",
+        "originalSummary": "原帖内容：Always insightful hearing the business reasons. For me that was the real genius of his approach.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品判断 / 学习样本 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094561054865105177",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/tarantula_ds_/status/2094561054865105177",
+        "author": "タランチュラ | データサイエンティスト",
+        "handle": "tarantula_ds_",
+        "datetime": "2026-08-31T23:00:45.000Z",
+        "title": "Claude Code の出力を35%短くしたら、情報がむしろ増えた - Qiita",
+        "originalSummary": "原帖内容：【Claude Codeユーザー必見】 これは本当に読んでください。 追加された出力スタイル「Concise」の検証記事が本当に秀逸です。 出力が35%短くなるのに、情報はむしろ増えているという圧倒的結果がわかります。 効率化したい全員に一読するのをオススメします！ https://qiita.com/jqit_suwa/items/ccd228bb1c33b2a918f5",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://qiita.com/jqit_suwa/items/ccd228bb1c33b2a918f5",
+            "title": "Claude Code の出力を35%短くしたら、情報がむしろ増えた #AI - Qiita",
+            "access": "full",
+            "value": "已读取：Claude Code 2.1.237（本日 2026-08-20 リリース）に、組み込みの出力スタイル Concise が追加されました。 Added a built-in &quot;Concise&quot; output style: Claude leads with result...",
+            "learningValue": "可用于判断AI Agent / 工具链的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "text",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094559887162306971",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/GergelyOrosz/status/2094559887162306971",
+        "author": "Gergely Orosz",
+        "handle": "GergelyOrosz",
+        "datetime": "2026-08-31T22:56:06.000Z",
+        "title": "I just heard: a large company is moving from GC…",
+        "originalSummary": "原帖内容：I just heard: a large company is moving from GChat (Google's Chat product) to Slack, because... Slack has much better agent operability (true) Who thought AI+agents would be a big selling point for Slack? Or that Google would sleep on agents + GChat!",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094547390909010051",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/p0/status/2094547390909010051",
+        "author": "Parallel Web Systems",
+        "handle": "p0",
+        "datetime": "2026-08-31T22:06:27.000Z",
+        "title": "How to eval web search for AI",
+        "originalSummary": "原帖内容：https://x.com/i/article/2093755757925924864",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品判断 / 学习样本 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2093755757925924864",
+            "title": "How to eval web search for AI",
+            "access": "full",
+            "value": "已读取：Written by @everythingmeta, MTS at Parallel Read this, or give it to your agent to help you set up an effective evaluation of web search APIs. If you…",
+            "learningValue": "可用于判断产品判断 / 学习样本的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "text",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094490609310728702",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/huangyun_122/status/2094490609310728702",
+        "author": "黄赟",
+        "handle": "huangyun_122",
+        "datetime": "2026-08-31T18:20:49.000Z",
+        "title": "嗯，强烈的风格化，定是小红书笔记破内卷的必备 今天拉了小红书半年内破万赞的英语笔记，有位小姐姐…",
+        "originalSummary": "原帖内容：嗯，强烈的风格化，定是小红书笔记破内卷的必备 今天拉了小红书半年内破万赞的英语笔记，有位小姐姐的风格，让我大受震撼。不出镜，只出音，45.7万粉 之前的笔记很用功很用功，但破不了千赞。直到换上第三天的风格，扶摇直上。。。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品判断 / 学习样本 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094460513069752756",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Khlaseek_dsgner/status/2094460513069752756",
+        "author": "Khlaseek designer",
+        "handle": "Khlaseek_dsgner",
+        "datetime": "2026-08-31T16:21:14.000Z",
+        "title": "As someone interested in learning motion design…",
+        "originalSummary": "原帖内容：As someone interested in learning motion design or is into motion design, there's so much to learn by just following these big tech accounts. I always put on their post notifications and bookmark almost all their videos, and stare at them during study. You become the kind of con…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094570758504640875",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/meshtimes_/status/2094570758504640875",
+        "author": "marisa",
+        "handle": "meshtimes_",
+        "datetime": "2026-08-31T23:39:18.000Z",
+        "title": "shooting a thumbnail for @figma “source materia…",
+        "originalSummary": "原帖内容：shooting a thumbnail for @figma “source material series” featuring trinkets that shaped my design <3 so so honored to be episode no.2 !!!!",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094527470917632302",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/pachapapaya/status/2094527470917632302",
+        "author": "PachaPapa",
+        "handle": "pachapapaya",
+        "datetime": "2026-08-31T20:47:18.000Z",
+        "title": "همچنین اگر دارید روی iOS کار میکنید ترکیب Serve…",
+        "originalSummary": "原帖内容：همچنین اگر دارید روی iOS کار میکنید ترکیب ServeSim و Chrome Devtools عالیه اولی اجازه میده agent شما اپ رو توی chrome تست و دیباگ کنه. سرعت و هزینه خیلی پایین میاد. لینک MCP دوم👇",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094521397024628986",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Abdullah4AI/status/2094521397024628986",
+        "author": "Abdullah4AI | عبدالله الرشودي",
+        "handle": "Abdullah4AI",
+        "datetime": "2026-08-31T20:23:10.000Z",
+        "title": "🚀 نزل تحديث هيرمز الجديد Hermes Agent v0.21.0 …",
+        "originalSummary": "原帖内容：🚀 نزل تحديث هيرمز الجديد Hermes Agent v0.21.0 والحين وكلاءك ما عاد يشتغلون كأدوات منفصلة صاروا فريق كامل داخل غرفة وحدة 🤖 Bot Mode يعطي كل وكيل اسم وصورة وتقدر تجمعهم بقروب وتنادي أي واحد منهم 🔁 hermes peer يخلي وكيل البحث يسلّم شغله لوكيل البرمجة ويرجع الرد لك 🧠 Cron صار يد…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094498846470549816",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Southers15/status/2094498846470549816",
+        "author": "Southers",
+        "handle": "Southers15",
+        "datetime": "2026-08-31T18:53:33.000Z",
+        "title": "I’m experimenting with a fog of war revamp for …",
+        "originalSummary": "原帖内容：I’m experimenting with a fog of war revamp for the next big update on Field of Command. So far I’m thinking: - True distance based line of sight - Buildings and objects blocking view - New clean looking shader (👍/👎?) - Scout units receiving best vision - Binocular abilities fo…",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094464170301227180",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Behance/status/2094464170301227180",
+        "author": "Behance",
+        "handle": "Behance",
+        "datetime": "2026-08-31T16:35:46.000Z",
+        "title": "A greener future, set in motion. 🌱 Picto Desig…",
+        "originalSummary": "原帖内容：A greener future, set in motion. 🌱 Picto Design Studio and Mohammad Mousavi animate World Environment Day through organic shapes, vivid color and fluid transitions.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094462223783752054",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/MichLieben/status/2094462223783752054",
+        "author": "Michel Lieben",
+        "handle": "MichLieben",
+        "datetime": "2026-08-31T16:28:02.000Z",
+        "title": "How to Vibe Code Your GTM the Right Way",
+        "originalSummary": "原帖内容：https://x.com/i/article/2094456556742193152",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品判断 / 学习样本 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094456556742193152",
+            "title": "How to Vibe Code Your GTM the Right Way",
+            "access": "full",
+            "value": "已读取：We grew ColdIQ to $7M ARR running GTM for 275+ B2B companies. By the end, almost the entire machine ran from Claude Code. Our Head of Growth ran $300…",
+            "learningValue": "可用于判断产品判断 / 学习样本的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "text",
+          "link-read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094568284850893188",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ashpreetbedi/status/2094568284850893188",
+        "author": "Ashpreet Bedi",
+        "handle": "ashpreetbedi",
+        "datetime": "2026-08-31T23:29:28.000Z",
+        "title": "Everyone's discovering MCP servers full of raw …",
+        "originalSummary": "原帖内容：Everyone's discovering MCP servers full of raw tools don't work. Serve the agent, not the tools. Let my agent talk to your agent.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 AI Agent / 工具链 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "media:photo",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094567901004968139",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/fernandorojo/status/2094567901004968139",
+        "author": "Fernando Rojo",
+        "handle": "fernandorojo",
+        "datetime": "2026-08-31T23:27:57.000Z",
+        "title": "Claude Design can now turn prototypes into web …",
+        "originalSummary": "原帖内容：Claude Design can now turn prototypes into web apps with v0.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品设计 / 设计工程 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094494203342676035",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/9re/status/2094494203342676035",
+        "author": "❤️ 9re(じゃす美ん) 小林 太郎",
+        "handle": "9re",
+        "datetime": "2026-08-31T18:35:06.000Z",
+        "title": "A Japanese summer you can walk through. threejs…",
+        "originalSummary": "原帖内容：A Japanese summer you can walk through. threejs, with a watercolour post effect. Desktop, mobile and VR. The video is just a screen capture; it runs live in the browser. #threejs #webgl",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 视觉工程 / 3D 动效 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094465353602757033",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/huangyun_122/status/2094465353602757033",
+        "author": "黄赟",
+        "handle": "huangyun_122",
+        "datetime": "2026-08-31T16:40:28.000Z",
+        "title": "好吧，我的错。看到蓝V AI bot 在我帖子下面一本正经写了两行字，本来想好好回一下。结果点…",
+        "originalSummary": "原帖内容：好吧，我的错。看到蓝V AI bot 在我帖子下面一本正经写了两行字，本来想好好回一下。结果点进 TA 的时间线一看，TA 一分钟内给 600 个人回了同样的话。。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提供了 产品判断 / 学习样本 的新鲜样本，可以转成可复盘的设计学习事项。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "low"
+      },
+      {
+        "id": "2094435041057140952",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Ryrenz/status/2094435041057140952",
+        "author": "Ren",
+        "handle": "Ryrenz",
+        "datetime": "2026-08-31T14:40:01.000Z",
+        "title": "GitHub - hugohe3/ppt-master: AI turns documents…",
+        "originalSummary": "原帖内容：🖼️ 做 PPT 的外挂来了，一份文档丢进去，出来的是能逐页改的 PPTX。 GitHub 已经 5 万 star，直接封神了。 以前拿 AI 做 PPT，最恶心的一点是它给你的其实是一堆图片，或者一个动不了的模板。想挪一个方框、改一个字号，只能自己重画。 PPT Master 生成的是 PowerPoint 原生对象：形状、连接线、图表、表格，连母版和版式都是真的，打开就能像平时那样双击改。图表和表格默认导出成可编辑的 DrawingML，公式转成 PowerPoint 2010 以上能编辑的 OMML，甲方让你改个数据，不用回头重新生成一遍。 场…",
+        "whySaved": "你会收藏它，是因为它把 AI PPT / 内容工具 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI PPT / 内容工具 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/hugohe3/ppt-master",
+            "title": "GitHub - hugohe3/ppt-master: AI turns documents or topics into real, native Pow…",
+            "access": "full",
+            "value": "已读取：AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on dema…",
+            "learningValue": "可用于判断AI PPT / 内容工具的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 AI PPT / 内容工具 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI PPT",
+          "内容工具",
+          "text",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094409852957397070",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/hal__lee/status/2094409852957397070",
+        "author": "Hal",
+        "handle": "hal__lee",
+        "datetime": "2026-08-31T12:59:55.000Z",
+        "title": "我的前同事做的网站，专门收集具有互动和复古美学的 App，审美真好，里面都是细节。 https…",
+        "originalSummary": "原帖内容：我的前同事做的网站，专门收集具有互动和复古美学的 App，审美真好，里面都是细节。 https://b2tf.app",
+        "whySaved": "你会收藏它，是因为它把 产品判断 / 学习样本 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://b2tf.app",
+            "title": "B2TF — Vintage Mobile App Design Directory",
+            "access": "full",
+            "value": "已读取：Discover a curated collection of mobile apps with vintage aesthetics, celebrating the unique beauty of classic interfaces and time-tested design.",
+            "learningValue": "可用于判断产品判断 / 学习样本的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094394944056107338",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/dariusdan/status/2094394944056107338",
+        "author": "Darius Dan",
+        "handle": "dariusdan",
+        "datetime": "2026-08-31T12:00:41.000Z",
+        "title": "Profiles look so good. If you are https://on.de…",
+        "originalSummary": "原帖内容：Profiles look so good. If you are https://on.design, let's connect.👀",
+        "whySaved": "你会收藏它，是因为它把 产品设计 / 设计工程 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://on.design",
+            "title": "Design, together — again",
+            "access": "partial",
+            "value": "部分可读：Community, by the community",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094393600071405584",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/jiholimm/status/2094393600071405584",
+        "author": "Jiho Lim",
+        "handle": "jiholimm",
+        "datetime": "2026-08-31T11:55:20.000Z",
+        "title": "lol ok the bear got a lil fatter now",
+        "originalSummary": "原帖内容：lol ok the bear got a lil fatter now",
+        "whySaved": "你会收藏它，是因为它把 产品判断 / 学习样本 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094360744360087821",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/ianneo_ai/status/2094360744360087821",
+        "author": "Ian (伊恩)",
+        "handle": "ianneo_ai",
+        "datetime": "2026-08-31T09:44:47.000Z",
+        "title": "工具越来越多，真正麻烦的是需要时找不到 Design Engineer Tools 把灵感、A…",
+        "originalSummary": "原帖内容：工具越来越多，真正麻烦的是需要时找不到 Design Engineer Tools 把灵感、AI 编程、组件、字体、动效和 3D 全部分好类 做产品的可以直接放进书签栏 好的工具导航，省下的是那些被搜索打断的思路 https://designengineer.tools/",
+        "whySaved": "你会收藏它，是因为它把 视觉工程 / 3D 动效 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://designengineer.tools/",
+            "title": "Design Engineer Tools",
+            "access": "full",
+            "value": "已读取：A list of useful tools for web-focused design engineers; curated by James Warner.",
+            "learningValue": "可用于判断视觉工程 / 3D 动效的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094347997912215588",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/yihui_indie/status/2094347997912215588",
+        "author": "Yihui",
+        "handle": "yihui_indie",
+        "datetime": "2026-08-31T08:54:08.000Z",
+        "title": "我们认为，你的 Agent 值得拥有真正的设计品位。 🔥 https://skillry.d…",
+        "originalSummary": "原帖内容：我们认为，你的 Agent 值得拥有真正的设计品位。 🔥 https://skillry.dev 今日正式上线！这是一个专门为 AI Agent 提供高审美 Skills 的地方。 没有你想要的Skill？右上角的【Request a Skill】点击投稿，我们来帮你制作！",
+        "whySaved": "你会收藏它，是因为它把 AI Agent / 工具链 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://skillry.dev",
+            "title": "Skillry - Agent Skills with Taste",
+            "access": "full",
+            "value": "已读取：Discover practical Agent Skills crafted by Skillry, with clear examples and agent-first installation.",
+            "learningValue": "可用于判断AI Agent / 工具链的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094336873649021426",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/LvPza/status/2094336873649021426",
+        "author": "LiamGvchi",
+        "handle": "LvPza",
+        "datetime": "2026-08-31T08:09:56.000Z",
+        "title": "一个 Skill 也值得被当成产品，认真做一支宣传片。 制作流程：Codex 写脚本 → 生成…",
+        "originalSummary": "原帖内容：一个 Skill 也值得被当成产品，认真做一支宣传片。 制作流程：Codex 写脚本 → 生成首尾帧 → 视频模型生成片段 → 最后用 @chatcutapp 剪辑成片，好用！",
+        "whySaved": "你会收藏它，是因为它把 AI Agent / 工具链 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094334002488627404",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/ZaynHao/status/2094334002488627404",
+        "author": "Zayn Hao",
+        "handle": "ZaynHao",
+        "datetime": "2026-08-31T07:58:31.000Z",
+        "title": "AI slop 的标志之一： 自行添加一个小灰字的描述性文本，而且在中间添加一个 \" · \"。…",
+        "originalSummary": "原帖内容：AI slop 的标志之一： 自行添加一个小灰字的描述性文本，而且在中间添加一个 \" · \"。 你中招了没？有没有人感兴趣如何消除 N 个类似的 AI slop。",
+        "whySaved": "你会收藏它，是因为它把 产品判断 / 学习样本 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "media:photo",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094315421646422397",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/laoyingkhq/status/2094315421646422397",
+        "author": "Crypto老鹰",
+        "handle": "laoyingkhq",
+        "datetime": "2026-08-31T06:44:41.000Z",
+        "title": "兄弟们，炸裂消息。苏姿丰拎了个饭盒大小的主机上台，现场跑起2350亿参数大模型。 不靠云端不租…",
+        "originalSummary": "原帖内容：兄弟们，炸裂消息。苏姿丰拎了个饭盒大小的主机上台，现场跑起2350亿参数大模型。 不靠云端不租GPU，全靠AMD Ryzen AI Max+ 395，全球首款CPU和GPU共享统一内存的x86处理器，128GB统一内存。 对比一下：RTX 5090才32GB显存，RTX 4090就24GB，这台小主机128GB，是旗舰独显的三倍多。实测DeepSeek R1推理，性能干到RTX 5080的三倍以上。 算算AI订阅账单：Claude Code Max每月200刀，ChatGPT Pro每月200刀，Cursor和Gemini各20刀，一年5280刀没了。…",
+        "whySaved": "你会收藏它，是因为它把 AI Agent / 工具链 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：AI Agent / 工具链 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 AI Agent / 工具链 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "AI Agent",
+          "工具链",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094281220716654610",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Bennydury/status/2094281220716654610",
+        "author": "Benlee星球观察室",
+        "handle": "Bennydury",
+        "datetime": "2026-08-31T04:28:47.000Z",
+        "title": "基于现有公开信息，我把 8·26 尼泊尔—中国边境冰崩泥石流的形成过程做了一次完整的视频化还原…",
+        "originalSummary": "原帖内容：基于现有公开信息，我把 8·26 尼泊尔—中国边境冰崩泥石流的形成过程做了一次完整的视频化还原： 冰川—基岩体失稳 沿陡峭峡谷高速下泄 不断卷入冰、岩屑、土体与河道物质 最终演化为跨境泥石流 我用卫星照片前后对比锁定地貌变化，以三维地形动画还原跨境下泄路径，再把冰岩体失稳、贴壁崩解、碎屑流俯冲、卷入沟床物质、进入河谷聚落的过程接成一条连续动线。 片中明确区分了三类画面： 卫星与三维地形，用来交代源区、峡谷和路线； 灾害过程重建，用来还原冰崩如何演化成泥石流； 口岸及尼泊尔河谷现场画面，用来呈现真实冲击。 这支视频希望帮助大家把「一场灾难从哪里开始，又如…",
+        "whySaved": "你会收藏它，是因为它把 产品判断 / 学习样本 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094260175184310482",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/yaohui12138/status/2094260175184310482",
+        "author": "超级个体｜柿子",
+        "handle": "yaohui12138",
+        "datetime": "2026-08-31T03:05:09.000Z",
+        "title": "我靠，我真的浪费了好几天时间才发现还有这么个东西！！ 最近在做自己的 AI 视频剪辑系统，一直…",
+        "originalSummary": "原帖内容：我靠，我真的浪费了好几天时间才发现还有这么个东西！！ 最近在做自己的 AI 视频剪辑系统，一直在纠结动画怎么搞 入场动画、出场动画、转场效果，我以为这些都得自己从零定义了 结果今天深挖 HyperFrames 文档的时候，我人傻了 这玩意儿直接内置了 130+ 个生产级动画组件，不是 demo，是那种可以直接用在正式项目里的： 代码动画：9+ 种 代码打字、diff 对比、粒子组装、代码变形 做技术教程的直接起飞 字幕样式：15 种 kinetic-slam、pill-karaoke、neon-glow、matrix-decode、emoji-pop …",
+        "whySaved": "你会收藏它，是因为它把 视觉工程 / 3D 动效 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：视觉工程 / 3D 动效 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "http://hyperframes.heygen.com/catalog",
+            "title": "Catalog - HyperFrames",
+            "access": "full",
+            "value": "已读取：Browse reusable HyperFrames scenes, transitions, captions, overlays, effects, and components.",
+            "learningValue": "可用于判断视觉工程 / 3D 动效的信息密度、实现线索和视觉/产品参考价值。"
+          },
+          {
+            "url": "http://github.com/heygen-com/hyperframes",
+            "title": "GitHub - heygen-com/hyperframes: Write HTML. Render video. Built for agents. · …",
+            "access": "full",
+            "value": "已读取：Write HTML. Render video. Built for agents. Contribute to heygen-com/hyperframes development by creating an account on GitHub.",
+            "learningValue": "可用于判断视觉工程 / 3D 动效的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 视觉工程 / 3D 动效 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "视觉工程",
+          "3D 动效",
+          "media:photo",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094150600313495871",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/Varcyyyy/status/2094150600313495871",
+        "author": "Varchasva",
+        "handle": "Varcyyyy",
+        "datetime": "2026-08-30T19:49:45.000Z",
+        "title": "I had so much fun making this one",
+        "originalSummary": "原帖内容：I had so much fun making this one",
+        "whySaved": "你会收藏它，是因为它把 产品判断 / 学习样本 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "media:video",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094130855056675287",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/doganuraldesign/status/2094130855056675287",
+        "author": "Dogan Ural",
+        "handle": "doganuraldesign",
+        "datetime": "2026-08-30T18:31:17.000Z",
+        "title": "@doganuraldesign 的设计信号",
+        "originalSummary": "原帖内容：@doganuraldesign 的设计信号",
+        "whySaved": "你会收藏它，是因为它把 产品判断 / 学习样本 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品判断 / 学习样本 如何把概念、界面、工程或视觉表达变成可复用方法。本条主要基于原帖和可见媒体判断。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解这条里的 产品判断 / 学习样本 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品判断",
+          "学习样本",
+          "media:photo",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094100168740131131",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/juli_fella/status/2094100168740131131",
+        "author": "Julian Fella",
+        "handle": "juli_fella",
+        "datetime": "2026-08-30T16:29:21.000Z",
+        "title": "Everbody does vertical morphing pills... We sai…",
+        "originalSummary": "原帖内容：Everbody does vertical morphing pills... We said enough. So we created this horizontal 2-step morphing menu animation. Part of our full kit: https://annnimate.com/kits/menu?utm_source=x&utm_medium=post&utm_campaign=menu-kit-daily&utm_id=menu-kit",
+        "whySaved": "你会收藏它，是因为它把 影像动效 / 创作流程 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：影像动效 / 创作流程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://annnimate.com/kits/menu?utm_source=x&utm_medium=post&utm_campaign=menu-kit-daily&utm_id=menu-kit",
+            "title": "Menu - Annnimate Landmark Kit",
+            "access": "full",
+            "value": "已读取：Site navigation, built as one system.",
+            "learningValue": "可用于判断影像动效 / 创作流程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 影像动效 / 创作流程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "影像动效",
+          "创作流程",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2093972155893486008",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/noahelhadedy/status/2093972155893486008",
+        "author": "𝐍𝐨𝐚𝐡",
+        "handle": "noahelhadedy",
+        "datetime": "2026-08-30T08:00:40.000Z",
+        "title": "Zoah is building a new platform that aims to el…",
+        "originalSummary": "原帖内容：Zoah is building a new platform that aims to eliminate the gap between design and code, with the canvas as the source of truth. Design, version, publish, and ship components from one place. → https://zoah.com",
+        "whySaved": "你会收藏它，是因为它把 产品设计 / 设计工程 里的具体做法或审美信号暴露出来，适合进入个人参考库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；我把它纳入分析用于反推你关注的设计判断。",
+        "deepSummary": "这条的价值不只是信息更新，而是给个人设计师一个可操作观察点：产品设计 / 设计工程 如何把概念、界面、工程或视觉表达变成可复用方法。相关链接已读取并标注信息密度。",
+        "linkAnalysis": [
+          {
+            "url": "https://zoah.com",
+            "title": "Zoah — The future of software development",
+            "access": "full",
+            "value": "已读取：The next evolution in software development. Design, build, and deploy, all from Zoah.",
+            "learningValue": "可用于判断产品设计 / 设计工程的信息密度、实现线索和视觉/产品参考价值。"
+          }
+        ],
+        "learningActions": [
+          "拆解这条里的 产品设计 / 设计工程 关键判断，记录可复用原则。",
+          "把原帖/媒体中的一个细节转成自己的 UI、动效或工作流实验。",
+          "标注它适合收藏、复盘还是继续深读，避免只停留在转发层。"
+        ],
+        "tags": [
+          "产品设计",
+          "设计工程",
+          "media:video",
+          "link-read"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+
+  {
     "date": "2026-08-31",
     "generatedAt": "2026-08-31T13:16:00+08:00",
     "batch": "x-ai-design-analysis-2026-08-31-1316",

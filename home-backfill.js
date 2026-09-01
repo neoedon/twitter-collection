@@ -1,6 +1,462 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-31T23:54:11.000Z",
+    "author": "HarnessRouter",
+    "handle": "HARNESSROUTER",
+    "avatar": "https://pbs.twimg.com/profile_images/2080036047761879040/YwyG0I83_200x200.jpg",
+    "title": "HarnessRouter 用统一接口接 Codex/Claude/Hermes",
+    "summary": "我会帮你抓取它，因为多 harness 抽象正在成为 AI 工具链基础设施，值得研究如何把不同 agent 后端做成同一产品控制面。",
+    "url": "https://x.com/HARNESSROUTER/status/2094574501229109695",
+    "metrics": "2 REPLIES · 3 REPOSTS · 5 LIKES · 3 BOOKMARKS · 67 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/HarnessRouter/harnessrouter"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094572121771196416/vid/avc1/1200x1260/Y_M8eH-lXWbj5xHI.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094572121771196416/img/A5DXlY0RR02cQebG.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN TO CODE",
+    "datetime": "2026-08-31T23:17:58.000Z",
+    "author": "v0",
+    "handle": "v0",
+    "avatar": "https://pbs.twimg.com/profile_images/1955397769138667520/XoWT5Huy_200x200.jpg",
+    "title": "v0 接入 Claude Design 生成全栈应用",
+    "summary": "我会帮你抓取它，因为 design-to-code 链路正在从截图复刻走向部署应用，直接影响设计师交付原型的边界。",
+    "url": "https://x.com/v0/status/2094565387690234305",
+    "metrics": "3 REPLIES · 6 REPOSTS · 55 LIKES · 17 BOOKMARKS · 5297 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094565360687267840/vid/avc1/1280x720/hvacNH66kkLJKFoT.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094565360687267840/img/hcDlSdmtk4eG_kPo.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-08-31T23:04:21.000Z",
+    "author": "Vercel Developers",
+    "handle": "vercel_dev",
+    "avatar": "https://pbs.twimg.com/profile_images/1978602411490205696/oLOuP7a2_200x200.png",
+    "title": "Vercel fx 接入 AI SDK HarnessAgent",
+    "summary": "我会帮你抓取它，因为轻量 coding agent 进入统一 harness 层，适合研究平台如何降低 agent 切换成本。",
+    "url": "https://x.com/vercel_dev/status/2094561963133268378",
+    "metrics": "3 REPLIES · 3 REPOSTS · 40 LIKES · 12 BOOKMARKS · 2857 VIEWS",
+    "_analysisTheme": "AI Agent / 工具链",
+    "_analysisPriority": "high",
+    "links": [
+      "https://vercel.com/changelog/fx-ai-sdk-harness-adapter"
+    ]
+  },
+  {
+    "category": "AI RESEARCH",
+    "datetime": "2026-08-31T23:00:07.000Z",
+    "author": "elvis",
+    "handle": "omarsar0",
+    "avatar": "https://pbs.twimg.com/profile_images/939313677647282181/vZjFWtAn_200x200.jpg",
+    "title": "Claude Code plugin 生态出现 8.8x commit 增长研究",
+    "summary": "我会帮你抓取它，因为它把 agent plugin 市场从热闹感变成可量化生态数据，适合判断技能市场的维护成本。",
+    "url": "https://x.com/omarsar0/status/2094560895603286234",
+    "metrics": "3 REPLIES · 3 REPOSTS · 14 LIKES · 8 BOOKMARKS · 2585 VIEWS",
+    "_analysisTheme": "AI Agent / 工具链",
+    "_analysisPriority": "high",
+    "links": [
+      "https://arxiv.org/abs/2608.28497",
+      "https://academy.dair.ai/papers/on-the-maintenance-and-co-evolution-of-agent-plugins-an-empirical-study-of-claud-2608.28497"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRFgCIxa8AA5145.png?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-08-31T22:56:05.000Z",
+    "author": "Ding",
+    "handle": "dingyi",
+    "avatar": "https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_200x200.jpg",
+    "title": "Fastpotify 结合轻量 Spotify 客户端和 Winamp 皮肤",
+    "summary": "我会帮你抓取它，因为它把怀旧皮肤库接入现代音乐客户端，展示小工具如何用情绪化 UI 做差异化。",
+    "url": "https://x.com/dingyi/status/2094559881936392303",
+    "metrics": "1 REPLIES · 1 REPOSTS · 7 LIKES · 6 BOOKMARKS · 1170 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://skins.webamp.org/",
+      "https://fastpotify.rocks/"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094559862642651136/vid/avc1/1152x720/VJ24iGooxLceye7k.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094559862642651136/img/ONkuGlf6Mo5K4QZS.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI SAFETY",
+    "datetime": "2026-08-31T22:38:01.000Z",
+    "author": "DAIR.AI",
+    "handle": "dair_ai",
+    "avatar": "https://pbs.twimg.com/profile_images/1643277398522187778/31dedbLo_200x200.jpg",
+    "title": "ContextLeak 展示恶意工具名泄露 agent 上下文",
+    "summary": "我会帮你抓取它，因为 agent 工具描述本身成为攻击面，设计工具市场和插件 UI 需要把权限/风险可视化。",
+    "url": "https://x.com/dair_ai/status/2094555336892145909",
+    "metrics": "5 REPLIES · 2 REPOSTS · 19 LIKES · 15 BOOKMARKS · 2320 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://arxiv.org/abs/2608.27800",
+      "https://academy.dair.ai/papers/contextleak-exfiltrating-llm-agent-context-via-malicious-tools-2608.27800"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRFa-mKbEAA1njh.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-08-31T22:22:07.000Z",
+    "author": "klöss",
+    "handle": "kloss_xyz",
+    "avatar": "https://pbs.twimg.com/profile_images/1999391201162633219/zKXohr6m_200x200.jpg",
+    "title": "Grok Bot 反向整理 12 个高频 Skill 仓库",
+    "summary": "我会帮你抓取它，因为这条把 agent skill 从零散仓库整理成可复用清单，适合沉淀个人设计工程的写作、去 AI 味和执行规范。",
+    "url": "https://x.com/kloss_xyz/status/2094551333525447072",
+    "metrics": "10 REPLIES · 0 REPOSTS · 38 LIKES · 59 BOOKMARKS · 2680 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/blader/humanizer",
+      "https://github.com/cursor/plugins/tree/main/pstack/skills/unslop",
+      "https://github.com/petergyang/no-ai-slop",
+      "https://github.com/addyosmani/agent-skills",
+      "https://github.com/mattpocock/skills",
+      "https://github.com/MengTo/Skills",
+      "https://github.com/emilkowalski/skills",
+      "https://github.com/kingbootoshi/cartographer",
+      "https://github.com/obra/superpowers",
+      "https://github.com/garrytan/gstack",
+      "https://github.com/pbakaus/impeccable",
+      "https://github.com/mvanhorn/last30days-skill"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRFWgyJbUAAJIiO.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "XR DESIGN TOOL",
+    "datetime": "2026-08-31T21:33:52.000Z",
+    "author": "Meta Horizon Developers",
+    "handle": "MetaHorizonDevs",
+    "avatar": "https://pbs.twimg.com/profile_images/1834314239819087873/iuShSdhW_200x200.png",
+    "title": "Meta Immersive Web SDK 用 agent 生成 Three.js 初稿",
+    "summary": "我会帮你抓取它，因为 XR 原型开始用自然语言生成场景初稿，适合研究 3D 设计工具的 prompt-to-scene 控制。",
+    "url": "https://x.com/MetaHorizonDevs/status/2094539190017065011",
+    "metrics": "1 REPLIES · 2 REPOSTS · 12 LIKES · 6 BOOKMARKS · 995 VIEWS",
+    "_analysisTheme": "视觉工程 / 3D 动效",
+    "_analysisPriority": "high",
+    "links": [
+      "https://bit.ly/4zPMRyI"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094537959261585408/vid/avc1/1080x1080/eUC-ctFJCv5qx4iS.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094537959261585408/img/XjfeqCgyJQBRwbYm.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-31T20:50:49.000Z",
+    "author": "Hermes Release Watch",
+    "handle": "HermesWatcher",
+    "avatar": "https://pbs.twimg.com/profile_images/2079058210410094592/t-ZASzl0_200x200.jpg",
+    "title": "Hermes Agent v0.21 把 Bot Mode 合进桌面端",
+    "summary": "我会帮你抓取它，因为 Hermes 的桌面 Bot Mode、MCP dashboard 和多 agent 编排，提供了 agent 产品从 CLI 转向可监督界面的样本。",
+    "url": "https://x.com/HermesWatcher/status/2094528358961025098",
+    "metrics": "8 REPLIES · 5 REPOSTS · 53 LIKES · 12 BOOKMARKS · 2787 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094514386593259520/vid/avc1/2048x2048/-KYQWmhnZiKCzzSZ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094514386593259520/img/EfwMHjINMcCz6zTY.jpg"
+      }
+    ]
+  },
+  {
+    "category": "PRODUCT UX",
+    "datetime": "2026-08-31T20:49:53.000Z",
+    "author": "Notion Calendar",
+    "handle": "NotionCalendar",
+    "avatar": "https://pbs.twimg.com/profile_images/1747666025221677057/uvQb9ApI_200x200.png",
+    "title": "Notion Calendar 推出智能日程推荐",
+    "summary": "我会帮你抓取它，因为它把多人冲突预览和推荐时段放进创建流程，适合研究日历工具的低摩擦协作。",
+    "url": "https://x.com/NotionCalendar/status/2094528123215946178",
+    "metrics": "2 REPLIES · 5 REPOSTS · 125 LIKES · 47 BOOKMARKS · 21334 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094525525121544192/vid/avc1/1920x1080/O_-MDxWpgYiof5pV.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094525525121544192/img/EsDe9fWK8CX0MhOs.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-31T20:13:43.000Z",
+    "author": "Han Xiao",
+    "handle": "hxiao",
+    "avatar": "https://pbs.twimg.com/profile_images/2072791567040122880/SfRvH9pE_200x200.jpg",
+    "title": "pi 用极简接口承接 6 小时以上长任务",
+    "summary": "我会帮你抓取它，因为它把长任务 agent 的价值放在“可程序化驱动”和外部 UI 编排上，适合对比 Codex/Claude Code 的工作台设计。",
+    "url": "https://x.com/hxiao/status/2094519020531994639",
+    "metrics": "13 REPLIES · 4 REPOSTS · 103 LIKES · 87 BOOKMARKS · 4796 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRE58hza8AA07LI.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "CREATIVE CODING",
+    "datetime": "2026-08-31T19:34:59.000Z",
+    "author": "Three.js Conf Paris",
+    "handle": "threejsconf",
+    "avatar": "https://pbs.twimg.com/profile_images/2056385106927861760/5JjoZEKW_200x200.jpg",
+    "title": "Ponpon Mania 把插画叙事接入 WebGL",
+    "summary": "我会帮你抓取它，因为 three.js 社区案例把插画、故事和 WebGL 合成一个体验，适合作为视觉工程参考。",
+    "url": "https://x.com/threejsconf/status/2094509274852692436",
+    "metrics": "2 REPLIES · 3 REPOSTS · 26 LIKES · 4 BOOKMARKS · 662 VIEWS",
+    "_analysisTheme": "视觉工程 / 3D 动效",
+    "_analysisPriority": "high",
+    "links": [
+      "http://threejs.paris/ticket"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094509118447136768/vid/avc1/1920x1080/GKPrBpMh7vQXwDIs.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094509118447136768/img/PrcEyQsa4wM_zjpz.jpg"
+      }
+    ]
+  },
+  {
+    "category": "UI PATTERN",
+    "datetime": "2026-08-31T19:28:56.000Z",
+    "author": "Josh tried coding",
+    "handle": "joshtriedcoding",
+    "avatar": "https://pbs.twimg.com/profile_images/1899476552464646146/Vooiz1-9_200x200.jpg",
+    "title": "Cloudflare 风格 onboarding 被拆成 BaseUI/Vaul/Motion",
+    "summary": "我会帮你抓取它，因为干净 onboarding 直接暴露组件、动效和信息节奏的组合方法，适合做移动端入门流参考。",
+    "url": "https://x.com/joshtriedcoding/status/2094507751636353188",
+    "metrics": "11 REPLIES · 2 REPOSTS · 126 LIKES · 132 BOOKMARKS · 6036 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094506958258589696/vid/avc1/1920x1080/8v3dfLf61Lk1StMW.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094506958258589696/img/zY1Z3XrmQGylmoBi.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-31T19:13:18.000Z",
+    "author": "Landseer Enga",
+    "handle": "LandseerEnga",
+    "avatar": "https://pbs.twimg.com/profile_images/1849655218335776770/jAmUfWLb_200x200.jpg",
+    "title": "在产品内直接选中 UI 并交给 Cursor 改代码",
+    "summary": "我会帮你抓取它，因为它把设计反馈从 Figma handoff 拉回运行中产品，适合研究设计师如何直接发起可审查 PR。",
+    "url": "https://x.com/LandseerEnga/status/2094503816272154862",
+    "metrics": "6 REPLIES · 3 REPOSTS · 31 LIKES · 13 BOOKMARKS · 7591 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094503785179873280/vid/avc1/1036x720/EXM-f-it_HT3zU_f.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094503785179873280/img/enAurIA86tjs7T2D.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN CULTURE",
+    "datetime": "2026-08-31T18:10:00.000Z",
+    "author": "Figma",
+    "handle": "figma",
+    "avatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq___200x200.jpg",
+    "title": "Figma Source Material 采访 meshtimes 创作物件",
+    "summary": "我会帮你抓取它，因为它强调创意技术人的个人物件、代码和玩心，适合补充视觉研究和设计师叙事方法。",
+    "url": "https://x.com/figma/status/2094487885508743283",
+    "metrics": "17 REPLIES · 26 REPOSTS · 598 LIKES · 137 BOOKMARKS · 1895622 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094486797573062656/vid/avc1/1920x1080/FvwRUckPorreqk22.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094486797573062656/img/A7WLM14gNKICRTvL.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN COMMUNITY",
+    "datetime": "2026-08-31T17:50:27.000Z",
+    "author": "Darius Dan",
+    "handle": "dariusdan",
+    "avatar": "https://pbs.twimg.com/profile_images/2010635171083505664/voFt50Pj_200x200.jpg",
+    "title": "on.design 的 profile 与设计社区网络",
+    "summary": "我会帮你抓取它，因为 on.design 体现面向设计师的身份页和社区发现机制，适合研究作品/人脉如何组织。",
+    "url": "https://x.com/dariusdan/status/2094482968576164271",
+    "metrics": "14 REPLIES · 0 REPOSTS · 161 LIKES · 41 BOOKMARKS · 4220 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://on.design"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HREYvYKWgAIixxh.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-31T17:27:57.000Z",
+    "author": "Cristóbal Valenzuela",
+    "handle": "c_valenzuelab",
+    "avatar": "https://pbs.twimg.com/profile_images/2080461195467718656/FavE_i1w_200x200.jpg",
+    "title": "Runway Solaris 探索生成式视频界面",
+    "summary": "我会帮你抓取它，因为 Solaris 把 UI 从 HTML/CSS 推向实时视频模型，是“界面被生成而非编码”的高风险但重要方向。",
+    "url": "https://x.com/c_valenzuelab/status/2094477304768405608",
+    "metrics": "35 REPLIES · 42 REPOSTS · 580 LIKES · 389 BOOKMARKS · 104213 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094476461126078464/vid/avc1/1920x1080/-AIkZes8uYL2Jx3P.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094476461126078464/img/E-0XpKUr3X3UptUQ.jpg"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Anastasis Germanidis",
+      "handle": "agermanidis",
+      "text": "Interfaces that are generated, not coded. Solaris is our first step toward our vision of end-to-end neural software, where user interfaces are streamed directly onto your screen by a real-time video model, without any intermediate code or HTML/CSS. Today we're releasing a techni…",
+      "url": "https://x.com/agermanidis/status/2094466649399451768",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2094464867902316544/vid/avc1/3840x2160/F5GyK7HDhcP3nqnF.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2094464867902316544/img/mv2Ugeed7-1lgG8j.jpg"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-08-31T17:01:34.000Z",
+    "author": "Alvaro Cintas",
+    "handle": "dr_cintas",
+    "avatar": "https://pbs.twimg.com/profile_images/1615753720691556375/3IlAzsa0_200x200.jpg",
+    "title": "Tencent Cube Sandbox 为 agent 执行代码提供运行时",
+    "summary": "我会帮你抓取它，因为 agent 写代码必须有安全沙箱，设计工程师需要理解运行时隔离如何进入产品体验。",
+    "url": "https://x.com/dr_cintas/status/2094470665747247443",
+    "metrics": "11 REPLIES · 6 REPOSTS · 31 LIKES · 27 BOOKMARKS · 3373 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HREN7Z6WEAAAVad.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-08-31T16:46:38.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "宝玉复盘 AI 做 PPT 不应只操作 PowerPoint",
+    "summary": "我会帮你抓取它，因为它指出 AI Native PPT 更像 DSL/生成系统而非遥控 Office，是设计文档产品的重要判断。",
+    "url": "https://x.com/dotey/status/2094466904828068086",
+    "metrics": "20 REPLIES · 20 REPOSTS · 130 LIKES · 150 BOOKMARKS · 15045 VIEWS",
+    "_analysisTheme": "AI PPT / 内容工具",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Yinsen",
+      "handle": "YinsenW_",
+      "text": "现在 AI 做 PPT 难，不是模型不行，更多是工具不行。 AI 现在并不能真正直接操作 MS PowerPoint。 MS PowerPoint 是闭源软件，内部能力很复杂，也没有完整开放成适合 AI 调用的原子工具。 所以很多 AI 只能基于开源 Office、PPTX 库或者自己拼的工具链来做 PPT。但这些工具连人用起来，效果和兼容性都很难跟 PowerPoint 比，AI 做出来当然也很难稳定。 所以如果真想把 AI PPT 做好，关键可能不是继续优化模型，而是做一套真正 AI Native 的 PPT 工具。",
+      "url": "https://x.com/YinsenW_/status/2094442264315699311",
+      "media": [],
+      "article": null
+    }
+  },
+  {
+    "category": "WEB DESIGN",
+    "datetime": "2026-08-31T16:04:47.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "UDS Studio 网站用留白和节奏做高端感",
+    "summary": "我会帮你抓取它，因为 Abduzeedo 明确指出排版、留白、空间节奏如何替代装饰，是可复盘的作品集/品牌站设计样本。",
+    "url": "https://x.com/abduzeedo/status/2094456376550649944",
+    "metrics": "2 REPLIES · 2 REPOSTS · 48 LIKES · 34 BOOKMARKS · 3440 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://abduzeedo.com/uds-studio-crafts-minimalist-digital-web-experience"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HREApvPaEAA7VvN.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HREA6j8b0AAqWmB.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HREA7TwagAAI0-Y.jpg?name=orig"
+      }
+    ]
+  },
+
+  {
     "category": "DESIGN TOOL",
     "datetime": "2026-08-31T05:03:21.000Z",
     "author": "NOVA",

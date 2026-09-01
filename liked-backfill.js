@@ -1,6 +1,644 @@
-// Generated from authenticated X Likes via ego-browser on 2026-08-31T10:16:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-09-01T08:18:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2094435041057140952",
+    "TwitterUserID": "1901372809701400576",
+    "UserScreenName": "Ryrenz",
+    "UserProfileName": "Ren",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2047148133746933760/iEtNYePb_200x200.jpg",
+    "TweetText": "🖼️ 做 PPT 的外挂来了，一份文档丢进去，出来的是能逐页改的 PPTX。\n\nGitHub 已经 5 万 star，直接封神了。\n\n以前拿 AI 做 PPT，最恶心的一点是它给你的其实是一堆图片，或者一个动不了的模板。想挪一个方框、改一个字号，只能自己重画。\n\nPPT Master 生成的是 PowerPoint 原生对象：形状、连接线、图表、表格，连母版和版式都是真的，打开就能像平时那样双击改。图表和表格默认导出成可编辑的 DrawingML，公式转成 PowerPoint 2010 以上能编辑的 OMML，甲方让你改个数据，不用回头重新生成一遍。\n\n场景大概是这样：手里有一份 PDF 或者 DOCX 的调研报告，扔给它，它把整份材料读完排成 PPTX，翻页动画、对象动画、演讲者备注一起给你，备注还能配上音频旁白。要是公司有固定模板，它可以直接复用你现有 PPTX 的设计，也可以只重做其中某几页。\n\n它分两种模式，完整生成慢一点，单次快速生成不可恢复，赶时间的时候用。除了跟 AI 模型通信那一段，其余流程都在本机跑。\n\n做汇报最费时间的从来不是想内容，是把内容摆进版式里。\n\nGitHub：https://github.com/hugohe3/ppt-master",
+    "Tweet Url": "https://x.com/Ryrenz/status/2094435041057140952",
+    "TweetCreatedDate": "2026-08-31T14:40:01.000Z",
+    "MediaType": "",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI PPT",
+      "text"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "16 REPLIES · 65 REPOSTS · 297 LIKES · 402 BOOKMARKS · 15000 VIEWS",
+    "_analysisTheme": "AI PPT / 内容工具",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：🖼️ 做 PPT 的外挂来了，一份文档丢进去，出来的是能逐页改的 PPTX。 GitHub 已经 5 万 star，直接封神了。 以前拿 AI 做 PPT，最恶心的一点是它给你…。这条可作为AI PPT / 内容工具参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-31T14:40:01.000Z"
+    }
+  },
+  {
+    "TweetID": "2094409852957397070",
+    "TwitterUserID": "2935673144",
+    "UserScreenName": "hal__lee",
+    "UserProfileName": "Hal",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1737299776407015424/oRK-Ara8_200x200.jpg",
+    "TweetText": "我的前同事做的网站，专门收集具有互动和复古美学的 App，审美真好，里面都是细节。\n\nhttps://b2tf.app",
+    "Tweet Url": "https://x.com/hal__lee/status/2094409852957397070",
+    "TweetCreatedDate": "2026-08-31T12:59:55.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094409493341941760/img/FGxcoqirv7J2Xqzy.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094409493341941760/vid/avc1/1272x720/qirvbQwHl8dTHSlD.mp4?tag=14",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品判断",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094409493341941760/vid/avc1/1272x720/qirvbQwHl8dTHSlD.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094409493341941760/img/FGxcoqirv7J2Xqzy.jpg"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "Jc",
+      "handle": "jackcring",
+      "text": "Officially live! Collecting all retro‑style iOS apps here. Get inspired & submissions welcome✨ https://www.b2tf.app",
+      "url": "https://x.com/jackcring/status/2092054517911007405",
+      "media": [],
+      "article": null
+    },
+    "_article": null,
+    "_metrics": "8 REPLIES · 72 REPOSTS · 684 LIKES · 752 BOOKMARKS · 42344 VIEWS",
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：我的前同事做的网站，专门收集具有互动和复古美学的 App，审美真好，里面都是细节。 https://b2tf.app。这条可作为产品判断 / 学习样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-31T12:59:55.000Z"
+    }
+  },
+  {
+    "TweetID": "2094394944056107338",
+    "TwitterUserID": "1077685212",
+    "UserScreenName": "dariusdan",
+    "UserProfileName": "Darius Dan",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2010635171083505664/voFt50Pj_200x200.jpg",
+    "TweetText": "Profiles look so good. If you are https://on.design, let's connect.👀",
+    "Tweet Url": "https://x.com/dariusdan/status/2094394944056107338",
+    "TweetCreatedDate": "2026-08-31T12:00:41.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRDIrflXQAA8EtC.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品设计",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRDIrflXQAA8EtC.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "33 REPLIES · 0 REPOSTS · 285 LIKES · 130 BOOKMARKS · 12956 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Profiles look so good. If you are https://on.design, let's connect.👀。这条可作为产品设计 / 设计工程参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-31T12:00:41.000Z"
+    }
+  },
+  {
+    "TweetID": "2094393600071405584",
+    "TwitterUserID": "158707703",
+    "UserScreenName": "jiholimm",
+    "UserProfileName": "Jiho Lim",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1814944779270303744/_6TsQxda_200x200.jpg",
+    "TweetText": "lol ok the bear got a lil fatter now",
+    "Tweet Url": "https://x.com/jiholimm/status/2094393600071405584",
+    "TweetCreatedDate": "2026-08-31T11:55:20.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094392383895195648/img/GTxx5w3J6392S2JF.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094392383895195648/vid/avc1/2250x1432/PuEY34uQe9lTHEpO.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品判断",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094392383895195648/vid/avc1/2250x1432/PuEY34uQe9lTHEpO.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094392383895195648/img/GTxx5w3J6392S2JF.jpg"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "Jiho Lim",
+      "handle": "jiholimm",
+      "text": "The new bear logo animation on Jony Ive's http://lovefrom.com is just 🤌",
+      "url": "https://x.com/jiholimm/status/1837890311953306044",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/ext_tw_video/1837890134509080583/pu/vid/avc1/1150x720/AhAuQiVHMrWB1wxI.mp4?tag=12",
+          "poster": "https://pbs.twimg.com/ext_tw_video_thumb/1837890134509080583/pu/img/Bwp5L-46nnSIDCKw.jpg"
+        }
+      ],
+      "article": null
+    },
+    "_article": null,
+    "_metrics": "16 REPLIES · 10 REPOSTS · 686 LIKES · 228 BOOKMARKS · 114545 VIEWS",
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：lol ok the bear got a lil fatter now。这条可作为产品判断 / 学习样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-31T11:55:20.000Z"
+    }
+  },
+  {
+    "TweetID": "2094360744360087821",
+    "TwitterUserID": "1249322582869852161",
+    "UserScreenName": "ianneo_ai",
+    "UserProfileName": "Ian (伊恩)",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1891533502811865088/TGLd-ENY_200x200.jpg",
+    "TweetText": "工具越来越多，真正麻烦的是需要时找不到\n\nDesign Engineer Tools 把灵感、AI 编程、组件、字体、动效和 3D 全部分好类\n\n做产品的可以直接放进书签栏\n\n好的工具导航，省下的是那些被搜索打断的思路\n\nhttps://designengineer.tools/",
+    "Tweet Url": "https://x.com/ianneo_ai/status/2094360744360087821",
+    "TweetCreatedDate": "2026-08-31T09:44:47.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRCp-uRbMAA5e7D.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "视觉工程",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRCp-uRbMAA5e7D.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "0 REPLIES · 3 REPOSTS · 30 LIKES · 36 BOOKMARKS · 2288 VIEWS",
+    "_analysisTheme": "视觉工程 / 3D 动效",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：工具越来越多，真正麻烦的是需要时找不到 Design Engineer Tools 把灵感、AI 编程、组件、字体、动效和 3D 全部分好类 做产品的可以直接放进书签栏 好的工具…。这条可作为视觉工程 / 3D 动效参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-31T09:44:47.000Z"
+    }
+  },
+  {
+    "TweetID": "2094347997912215588",
+    "TwitterUserID": "1718896922277314560",
+    "UserScreenName": "yihui_indie",
+    "UserProfileName": "Yihui",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1804848821702377472/fSfFlGTf_200x200.jpg",
+    "TweetText": "我们认为，你的 Agent 值得拥有真正的设计品位。\n\n🔥 https://skillry.dev 今日正式上线！这是一个专门为 AI Agent 提供高审美 Skills 的地方。\n\n没有你想要的Skill？右上角的【Request a Skill】点击投稿，我们来帮你制作！",
+    "Tweet Url": "https://x.com/yihui_indie/status/2094347997912215588",
+    "TweetCreatedDate": "2026-08-31T08:54:08.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094347071612706816/img/w07ELu3V8ikn0b_7.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094347071612706816/vid/avc1/3840x2158/tqCAd-wyt5-Wdz7I.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Agent",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094347071612706816/vid/avc1/3840x2158/tqCAd-wyt5-Wdz7I.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094347071612706816/img/w07ELu3V8ikn0b_7.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "38 REPLIES · 19 REPOSTS · 235 LIKES · 321 BOOKMARKS · 16754 VIEWS",
+    "_analysisTheme": "AI Agent / 工具链",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：我们认为，你的 Agent 值得拥有真正的设计品位。 🔥 https://skillry.dev 今日正式上线！这是一个专门为 AI Agent 提供高审美 Skills 的地…。这条可作为AI Agent / 工具链参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-31T08:54:08.000Z"
+    }
+  },
+  {
+    "TweetID": "2094336873649021426",
+    "TwitterUserID": "1019085216768389121",
+    "UserScreenName": "LvPza",
+    "UserProfileName": "LiamGvchi",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1657391902315143171/jw1ve7zJ_200x200.jpg",
+    "TweetText": "一个 Skill 也值得被当成产品，认真做一支宣传片。\n制作流程：Codex 写脚本 → 生成首尾帧 → 视频模型生成片段 → 最后用 @chatcutapp 剪辑成片，好用！",
+    "Tweet Url": "https://x.com/LvPza/status/2094336873649021426",
+    "TweetCreatedDate": "2026-08-31T08:09:56.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094335505370664961/img/RSTpG-a7uuzPxOUe.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094335505370664961/vid/avc1/1080x1920/FlCHvjZX9aCFeNY3.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Agent",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094335505370664961/vid/avc1/1080x1920/FlCHvjZX9aCFeNY3.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094335505370664961/img/RSTpG-a7uuzPxOUe.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "5 REPLIES · 1 REPOSTS · 80 LIKES · 79 BOOKMARKS · 3772 VIEWS",
+    "_analysisTheme": "AI Agent / 工具链",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：一个 Skill 也值得被当成产品，认真做一支宣传片。 制作流程：Codex 写脚本 → 生成首尾帧 → 视频模型生成片段 → 最后用 @chatcutapp 剪辑成片，好用！。这条可作为AI Agent / 工具链参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-31T08:09:56.000Z"
+    }
+  },
+  {
+    "TweetID": "2094334002488627404",
+    "TwitterUserID": "854722070101360641",
+    "UserScreenName": "ZaynHao",
+    "UserProfileName": "Zayn Hao",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1490844347721342981/_vcCNxRm_200x200.jpg",
+    "TweetText": "AI slop 的标志之一：\n\n自行添加一个小灰字的描述性文本，而且在中间添加一个 \" · \"。\n\n你中招了没？有没有人感兴趣如何消除 N 个类似的 AI slop。",
+    "Tweet Url": "https://x.com/ZaynHao/status/2094334002488627404",
+    "TweetCreatedDate": "2026-08-31T07:58:31.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRCQ_onaIAAxwUA.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品判断",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRCQ_onaIAAxwUA.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "14 REPLIES · 1 REPOSTS · 36 LIKES · 18 BOOKMARKS · 9317 VIEWS",
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：AI slop 的标志之一： 自行添加一个小灰字的描述性文本，而且在中间添加一个 \" · \"。 你中招了没？有没有人感兴趣如何消除 N 个类似的 AI slop。。这条可作为产品判断 / 学习样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-31T07:58:31.000Z"
+    }
+  },
+  {
+    "TweetID": "2094315421646422397",
+    "TwitterUserID": "1406320517187964931",
+    "UserScreenName": "laoyingkhq",
+    "UserProfileName": "Crypto老鹰",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2071764535573438464/7bNcRIGo_200x200.jpg",
+    "TweetText": "兄弟们，炸裂消息。苏姿丰拎了个饭盒大小的主机上台，现场跑起2350亿参数大模型。\n\n不靠云端不租GPU，全靠AMD Ryzen AI Max+ 395，全球首款CPU和GPU共享统一内存的x86处理器，128GB统一内存。\n\n对比一下：RTX 5090才32GB显存，RTX 4090就24GB，这台小主机128GB，是旗舰独显的三倍多。实测DeepSeek R1推理，性能干到RTX 5080的三倍以上。\n\n算算AI订阅账单：Claude Code Max每月200刀，ChatGPT Pro每月200刀，Cursor和Gemini各20刀，一年5280刀没了。这台128GB版约2399刀，不到一年回本，之后免费。\n\n装Ollama，拉Qwen3 235B，Claude Code指向本地就行。数据全在本地，按次收费拜拜，深夜开发不限速。",
+    "Tweet Url": "https://x.com/laoyingkhq/status/2094315421646422397",
+    "TweetCreatedDate": "2026-08-31T06:44:41.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094315239441588224/img/9cCLztFdVCcBBBSP.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094315239441588224/vid/avc1/1280x720/oHC97Pn-rFqFTx0e.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Agent",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094315239441588224/vid/avc1/1280x720/oHC97Pn-rFqFTx0e.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094315239441588224/img/9cCLztFdVCcBBBSP.jpg"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "Crypto老鹰",
+      "handle": "laoyingkhq",
+      "text": "兄弟们，有个13岁的少年，趁着假期写出来一套Polymarket交易脚本，直接无偿上传到了GitHub，写完就回归校园正常上课。 时隔两个月，一位交易者给他转来了2万美元，告知少年靠着这份开源脚本，自己一个月就斩获二十多万收益。 这个孩子没有售卖课程，也没有推出任何付费订阅服务，只是把自己做出来的实用工具公开，之后便专心回去完成课业作业。 后续发生的一切，都由互联网自发发酵。 他的钱包地址：https://polymarket.com/zh/@432614799197?via=YINGGE888 如果你打算在Polymarket做跟单交易，我本人一直在…",
+      "url": "https://x.com/laoyingkhq/status/2093979726432117134",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2093979634794958848/vid/avc1/1280x720/Ma8CQqY1rCYPOlLA.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2093979634794958848/img/OGlJlMsCjVTV_Y-o.jpg"
+        }
+      ],
+      "article": null
+    },
+    "_article": null,
+    "_metrics": "50 REPLIES · 61 REPOSTS · 341 LIKES · 331 BOOKMARKS · 240950 VIEWS",
+    "_analysisTheme": "AI Agent / 工具链",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：兄弟们，炸裂消息。苏姿丰拎了个饭盒大小的主机上台，现场跑起2350亿参数大模型。 不靠云端不租GPU，全靠AMD Ryzen AI Max+ 395，全球首款CPU和GPU共享统…。这条可作为AI Agent / 工具链参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-31T06:44:41.000Z"
+    }
+  },
+  {
+    "TweetID": "2094281220716654610",
+    "TwitterUserID": "2380422720",
+    "UserScreenName": "Bennydury",
+    "UserProfileName": "Benlee星球观察室",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2076562263113113600/iFOpys-u_200x200.jpg",
+    "TweetText": "基于现有公开信息，我把 8·26 尼泊尔—中国边境冰崩泥石流的形成过程做了一次完整的视频化还原：\n\n冰川—基岩体失稳\n沿陡峭峡谷高速下泄\n不断卷入冰、岩屑、土体与河道物质\n最终演化为跨境泥石流\n我用卫星照片前后对比锁定地貌变化，以三维地形动画还原跨境下泄路径，再把冰岩体失稳、贴壁崩解、碎屑流俯冲、卷入沟床物质、进入河谷聚落的过程接成一条连续动线。\n\n片中明确区分了三类画面：\n卫星与三维地形，用来交代源区、峡谷和路线；\n\n灾害过程重建，用来还原冰崩如何演化成泥石流；\n\n口岸及尼泊尔河谷现场画面，用来呈现真实冲击。\n\n这支视频希望帮助大家把「一场灾难从哪里开始，又如何冲进山谷」看清楚。成因和精确参数仍以官方后续调查为准。",
+    "Tweet Url": "https://x.com/Bennydury/status/2094281220716654610",
+    "TweetCreatedDate": "2026-08-31T04:28:47.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094280736895311874/img/Xovnx8SNMgaiqYM-.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094280736895311874/vid/avc1/1920x1080/YVboHX8P_GGXV5-q.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品判断",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094280736895311874/vid/avc1/1920x1080/YVboHX8P_GGXV5-q.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094280736895311874/img/Xovnx8SNMgaiqYM-.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "146 REPLIES · 1034 REPOSTS · 5334 LIKES · 2521 BOOKMARKS · 379631 VIEWS",
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：基于现有公开信息，我把 8·26 尼泊尔—中国边境冰崩泥石流的形成过程做了一次完整的视频化还原： 冰川—基岩体失稳 沿陡峭峡谷高速下泄 不断卷入冰、岩屑、土体与河道物质 最终演化…。这条可作为产品判断 / 学习样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-31T04:28:47.000Z"
+    }
+  },
+  {
+    "TweetID": "2094260175184310482",
+    "TwitterUserID": "1926144412079280128",
+    "UserScreenName": "yaohui12138",
+    "UserProfileName": "超级个体｜柿子",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1964576447827496961/7rPS82Jd_200x200.jpg",
+    "TweetText": "我靠，我真的浪费了好几天时间才发现还有这么个东西！！\n\n最近在做自己的 AI 视频剪辑系统，一直在纠结动画怎么搞\n入场动画、出场动画、转场效果，我以为这些都得自己从零定义了\n\n结果今天深挖 HyperFrames 文档的时候，我人傻了\n\n这玩意儿直接内置了 130+ 个生产级动画组件，不是 demo，是那种可以直接用在正式项目里的：\n\n代码动画：9+ 种 代码打字、diff 对比、粒子组装、代码变形 做技术教程的直接起飞\n\n字幕样式：15 种 kinetic-slam、pill-karaoke、neon-glow、matrix-decode、emoji-pop 全都支持时间同步，不是摆设\n\n社交媒体层：21+ X-post、Reddit、Spotify、TikTok follow、新闻 ticker、lower-third 做社媒内容的人会疯\n数据可视化： 动画图表、地图、choropleth、flow arcs 把 CSV 变成动画那种\n\n视觉特效： WebGPU 液态玻璃、3D 破碎、传送门、13 个 CSS 转场家族 这些效果在 AE 里得调到吐\n\n一行命令，组件代码直接变成你的，想怎么改怎么改，这才是最爽的地方\n\n它不是给你一个封闭的素材库，而是把源码直接给你，组件目录：http://hyperframes.heygen.com/catalog GitHub：http://github.com/heygen-com/hyperframes\n\n这才是程序化视频生产该有的样子，早知道有这个东西，就不会白白浪费我那么长的时间了😭\n\n果然，ai时代当你想做点什么的时候都应该先去github看看...",
+    "Tweet Url": "https://x.com/yaohui12138/status/2094260175184310482",
+    "TweetCreatedDate": "2026-08-31T03:05:09.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRBOd7ubcAA34GL.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "视觉工程",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRBOd7ubcAA34GL.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "75 REPLIES · 28 REPOSTS · 176 LIKES · 261 BOOKMARKS · 33228 VIEWS",
+    "_analysisTheme": "视觉工程 / 3D 动效",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：我靠，我真的浪费了好几天时间才发现还有这么个东西！！ 最近在做自己的 AI 视频剪辑系统，一直在纠结动画怎么搞 入场动画、出场动画、转场效果，我以为这些都得自己从零定义了 结果今…。这条可作为视觉工程 / 3D 动效参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-31T03:05:09.000Z"
+    }
+  },
+  {
+    "TweetID": "2094150600313495871",
+    "TwitterUserID": "1520711052152885248",
+    "UserScreenName": "Varcyyyy",
+    "UserProfileName": "Varchasva",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2048122994665652224/qKCqaRpR_200x200.jpg",
+    "TweetText": "I had so much fun making this one",
+    "Tweet Url": "https://x.com/Varcyyyy/status/2094150600313495871",
+    "TweetCreatedDate": "2026-08-30T19:49:45.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094150291205853184/img/mHUy43G14vJ-cmrH.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094150291205853184/vid/avc1/1920x1080/0xWaIkyLImVx-I-Q.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品判断",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094150291205853184/vid/avc1/1920x1080/0xWaIkyLImVx-I-Q.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094150291205853184/img/mHUy43G14vJ-cmrH.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "35 REPLIES · 13 REPOSTS · 324 LIKES · 190 BOOKMARKS · 8804 VIEWS",
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：I had so much fun making this one。这条可作为产品判断 / 学习样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-30T19:49:45.000Z"
+    }
+  },
+  {
+    "TweetID": "2094130855056675287",
+    "TwitterUserID": "1553043003496960000",
+    "UserScreenName": "doganuraldesign",
+    "UserProfileName": "Dogan Ural",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1840794096291442688/JrhE7vnL_200x200.jpg",
+    "TweetText": "",
+    "Tweet Url": "https://x.com/doganuraldesign/status/2094130855056675287",
+    "TweetCreatedDate": "2026-08-30T18:31:17.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HQ_Y5w0W8AAVYlu.jpg?name=orig,https://pbs.twimg.com/media/HQ_Y5wpW0AA7OUS.jpg?name=orig,https://pbs.twimg.com/media/HQ_Y5wqWMAEe2RP.jpg?name=orig,https://pbs.twimg.com/media/HQ_Y5wpXAAElZPF.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品判断",
+      "media:photo"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ_Y5w0W8AAVYlu.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ_Y5wpW0AA7OUS.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ_Y5wqWMAEe2RP.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HQ_Y5wpXAAElZPF.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "80 REPLIES · 1255 REPOSTS · 9452 LIKES · 1710 BOOKMARKS · 200249 VIEWS",
+    "_analysisTheme": "产品判断 / 学习样本",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：可见媒体作品。这条可作为产品判断 / 学习样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-30T18:31:17.000Z"
+    }
+  },
+  {
+    "TweetID": "2094100168740131131",
+    "TwitterUserID": "1810005955607941120",
+    "UserScreenName": "juli_fella",
+    "UserProfileName": "Julian Fella",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2010987996292521984/G5elTOkF_200x200.jpg",
+    "TweetText": "Everbody does vertical morphing pills...\n\nWe said enough. So we created this horizontal 2-step morphing menu animation.\n\nPart of our full kit: https://annnimate.com/kits/menu?utm_source=x&utm_medium=post&utm_campaign=menu-kit-daily&utm_id=menu-kit",
+    "Tweet Url": "https://x.com/juli_fella/status/2094100168740131131",
+    "TweetCreatedDate": "2026-08-30T16:29:21.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094098676356358144/img/ld8d3XhICdgyflhi.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094098676356358144/vid/avc1/1280x804/TxPm_CdG4iud2beo.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "影像动效",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094098676356358144/vid/avc1/1280x804/TxPm_CdG4iud2beo.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094098676356358144/img/ld8d3XhICdgyflhi.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "12 REPLIES · 23 REPOSTS · 572 LIKES · 489 BOOKMARKS · 38419 VIEWS",
+    "_analysisTheme": "影像动效 / 创作流程",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Everbody does vertical morphing pills... We said enough. So we created this horizontal 2-…。这条可作为影像动效 / 创作流程参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-30T16:29:21.000Z"
+    }
+  },
+  {
+    "TweetID": "2093972155893486008",
+    "TwitterUserID": "1675456073375920129",
+    "UserScreenName": "noahelhadedy",
+    "UserProfileName": "𝐍𝐨𝐚𝐡",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2056319844094492672/8vkVV6Vj_200x200.jpg",
+    "TweetText": "Zoah is building a new platform that aims to eliminate the gap between design and code, with the canvas as the source of truth.\n\nDesign, version, publish, and ship components from one place.\n\n→ https://zoah.com",
+    "Tweet Url": "https://x.com/noahelhadedy/status/2093972155893486008",
+    "TweetCreatedDate": "2026-08-30T08:00:40.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093972087278911489/img/O3geEFYwDCQif5Oz.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093972087278911489/vid/avc1/1280x720/dch4y49pNXQNX2hj.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品设计",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093972087278911489/vid/avc1/1280x720/dch4y49pNXQNX2hj.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093972087278911489/img/O3geEFYwDCQif5Oz.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "4 REPLIES · 7 REPOSTS · 106 LIKES · 120 BOOKMARKS · 14198 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Zoah is building a new platform that aims to eliminate the gap between design and code, w…。这条可作为产品设计 / 设计工程参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-30T08:00:40.000Z"
+    }
+  },
+
   {
     "TweetID": "2094103370311287084",
     "TwitterUserID": "34139208",
