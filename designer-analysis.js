@@ -1,6 +1,719 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-09-02",
+    "generatedAt": "2026-09-02T13:16:39+08:00",
+    "batch": "x-ai-design-analysis-2026-09-02-1316",
+    "analysisCount": 20,
+    "homeCount": 20,
+    "likeCount": 0,
+    "linksInspected": 21,
+    "unavailableLinks": 0,
+    "summary": "2026-09-02 13:00 增量：上午已完成 Home 20 条和 Analysis 100 条；本轮继续用 ego-browser 登录态观察 Home/Following/X 搜索与 Likes。Likes 无 fresh ID；Home 追加 20 条同一 Shanghai 自然日的新设计工程、AI 产品与视觉作品，并追加对应 Designer Analysis。",
+    "sourceWindow": {
+      "strategy": "ego-browser 独立 task space 16；Home 覆盖 x.com/home 为你推荐、正在关注，以及 AI product/model、design engineering、indie visual tools live search；Likes 使用 x.com/neoedon414/likes 和 x.com/i/history/likes 滚动观察。fxtwitter 仅用于补齐已观察 status 的作者、时间、媒体、指标、引用与 X Article；外链读取限于原帖/引用/产品官方或文档页。",
+      "newestHomeDatetime": "2026-09-02T04:20:38.000Z",
+      "oldestHomeDatetime": "2026-09-01T16:21:51.000Z",
+      "newestLikeDatetime": null,
+      "oldestLikeDatetime": null,
+      "expandedWindow": "本轮新增 Home 与 Analysis 均归入 Asia/Shanghai 2026-09-02；未使用 48 小时扩窗。Analysis 当天已超过 100，因此只追加本轮新出现且有学习价值的未分析 Home 项。",
+      "observed": {
+        "homeRaw": 1424,
+        "homeUnique": 216,
+        "homeUniqueWithDate": 196,
+        "homeNewVsExistingHome": 192,
+        "homeTodayNewVsExistingHome": 60,
+        "homeSelected": 20,
+        "homeRejectedOrLeftover": 40,
+        "likeRawObserved": 1292,
+        "likeUniqueObserved": 117,
+        "likeFresh": 0,
+        "likeKnownBoundary": "no fresh likes; observed unique likes were already known",
+        "analysisBeforeTodayUnique": 100,
+        "linkFull": 14,
+        "linkPartial": 7,
+        "linkUnavailable": 0
+      }
+    },
+    "items": [
+      {
+        "id": "2095003945563566433",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/xin_pai88825/status/2095003945563566433",
+        "author": "Paidax",
+        "handle": "xin_pai88825",
+        "datetime": "2026-09-02T04:20:38.000Z",
+        "title": "Paidax 拆解 AI 角色到网页交互 demo",
+        "originalSummary": "作者说明周末做了一个网站交互 demo：先生成 IP 角色，再用首尾帧优化人物过渡，最后让 Codex 串联鼠标跟随和滚动动画。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把角色生成、首尾帧过渡和 Codex 交互实现串成一个可复盘的个人网站动效流程。",
+        "deepSummary": "价值在于把“好看的 AI 视觉”推进到可操作网页：先处理角色连续性，再把动效节奏和输入交互交给前端实现，适合作为个人设计工程练习拆解。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/xin_pai88825/status/2092190359300542824",
+            "title": "引用帖：鼠标控制网页 demo",
+            "access": "partial",
+            "value": "fxtwitter 可见上游 demo 是“尝试用鼠标控制你的网页”，补足了这次流程帖对应的成品方向。",
+            "learningValue": "把原 demo 和流程帖并排看，记录角色资产、首尾帧和交互代码各自承担的部分。"
+          }
+        ],
+        "learningActions": [
+          "复刻一段角色从静帧到鼠标跟随的网页过渡。",
+          "把首尾帧、滚动触发和 cursor 跟随拆成三个可复用实现步骤。",
+          "记录哪些视觉连续性由生成模型解决，哪些仍需要前端控制。"
+        ],
+        "tags": [
+          "Home",
+          "AI 动效网页 / Codex 串联",
+          "media:video",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095001600670744757",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Jackywine/status/2095001600670744757",
+        "author": "Jackywine",
+        "handle": "Jackywine",
+        "datetime": "2026-09-02T04:11:19.000Z",
+        "title": "Vercel 用 design.md 约束品牌页面 Agent",
+        "originalSummary": "作者转发 Vercel 官方文章，主题是 agents 如何借助 design.md 构建符合品牌的页面内容。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 design.md 把品牌判断写成 agent 可读上下文，是个人设计师训练 AI 页面输出的重要方法。",
+        "deepSummary": "这条的核心是把设计系统从 Figma/文档转成 coding agent 可执行的文本上下文，适合用于个人作品站、报告页和产品原型的一致性约束。",
+        "linkAnalysis": [
+          {
+            "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
+            "title": "How our agents build on-brand pages with design.md - Vercel",
+            "access": "full",
+            "value": "官方文章确认 Vercel 将品牌页面经验沉淀为 design.md，用来指导 agent 输出信息架构、排版和品牌语气。",
+            "learningValue": "值得继续读，用来设计自己的 design.md 模板和评估场景。"
+          }
+        ],
+        "learningActions": [
+          "为一个个人项目写 1 页 design.md，包含排版、间距、构图和反例。",
+          "设计 3 个固定页面 prompt，用同一 brief 对比有无 design.md 的输出。",
+          "把品牌规则写成“可检查的约束”，避免只写审美形容词。"
+        ],
+        "tags": [
+          "Home",
+          "design.md / 品牌一致性",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095000938742505701",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Jackywine/status/2095000938742505701",
+        "author": "Jackywine",
+        "handle": "Jackywine",
+        "datetime": "2026-09-02T04:08:41.000Z",
+        "title": "Jackywine 长文梳理 Design.md 方法论",
+        "originalSummary": "X Article 讨论 AI 做设计缺少“为什么”，并把 design.md 视为让 agent 理解品牌意图、设计约束和评估结果的一种载体。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为这篇 X Article 把 Vercel、Google、Atlassian 和 Claude Design 的路径放到同一个设计系统问题里。",
+        "deepSummary": "这篇适合深读的点是：design.md 不只是风格复制文件，而是把设计判断、场景 eval 和 agent 可读规则连在一起。对个人设计师来说，重点是建立自己的设计语义，而不是照搬大厂外观。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2095000824900726785",
+            "title": "X Article：Design.md 到底是什么？",
+            "access": "full",
+            "value": "fxtwitter 读取到全文结构，内容覆盖 design.md 的动机、Vercel eval、Google/社区样例和适用边界。",
+            "learningValue": "高价值，适合整理成个人设计系统被 AI 理解的检查清单。"
+          },
+          {
+            "url": "https://vercel.com/design.md",
+            "title": "Vercel design.md",
+            "access": "full",
+            "value": "直接可访问的机器/人类可读品牌指南，展示如何把报告网站的结构、语气和视觉要求写入 Markdown。",
+            "learningValue": "可作为写个人 design.md 的格式参考。"
+          },
+          {
+            "url": "https://github.com/voltagent/awesome-design-md",
+            "title": "VoltAgent awesome-design-md",
+            "access": "full",
+            "value": "GitHub 页面与 README 显示它收集多品牌 DESIGN.md 样例，用于让 coding agents 输出更一致的 UI。",
+            "learningValue": "可参考其组织方式，但需要避免未经判断地复制品牌风格。"
+          }
+        ],
+        "learningActions": [
+          "把文章中的“意图而非全量细节”转成个人 design.md 原则。",
+          "列出 5 个会被 AI 页面生成反复犯错的视觉问题，写入 eval prompt。",
+          "比较 design.md、MCP 和代码库抽取三种路径的成本与适用场景。"
+        ],
+        "tags": [
+          "Home",
+          "Design.md 行业方法",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094996310743306407",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/op7418/status/2094996310743306407",
+        "author": "歸藏(guizang.ai)",
+        "handle": "op7418",
+        "datetime": "2026-09-02T03:50:18.000Z",
+        "title": "归藏跟踪 Claude Fable 5.1 额度与工具限制",
+        "originalSummary": "原帖总结 Claude Fable 5.1 / Mythos 5.1 的价格、缓存、订阅额度消耗、tool choice、thinking block 和水印等使用层问题。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把模型更新放到真实 agent 工作流成本、工具调用兼容和订阅额度风险里看。",
+        "deepSummary": "对设计工程师的价值不在模型新闻本身，而在“能不能稳定用于长任务”：额度消耗、工具选择和中途换模型会直接影响设计生成与代码交付链路。",
+        "linkAnalysis": [
+          {
+            "url": "https://claude.com/product/overview",
+            "title": "Claude by Anthropic",
+            "access": "full",
+            "value": "官方 Claude 页面确认 Fable、Mythos、Claude Code、Skills 等产品入口存在；具体额度争议仍以原帖可见证据为准。",
+            "learningValue": "适合后续核对模型/订阅策略，不应只看单条体验反馈下结论。"
+          }
+        ],
+        "learningActions": [
+          "记录一次长任务里模型额度、工具调用和中途切换的失败点。",
+          "把模型发布新闻拆成“能力、成本、兼容性、隐私/水印”四列判断。",
+          "为设计生成任务保留可替换模型的降级路径。"
+        ],
+        "tags": [
+          "Home",
+          "Claude Fable 5.1 / Agent 成本",
+          "media:image",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094988419722248397",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/op7418/status/2094988419722248397",
+        "author": "歸藏(guizang.ai)",
+        "handle": "op7418",
+        "datetime": "2026-09-02T03:18:56.000Z",
+        "title": "归藏解读 World Labs Atlas 世界模型",
+        "originalSummary": "原帖介绍 World Labs Atlas：从一张或多张图片生成空间一致的 3D 场景、视频和相机运动，并引用 Fei-Fei Li 的官方发布帖。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Atlas 把图像、视频和 3D 空间放到同一生成语境，关系到空间原型和产品视觉叙事。",
+        "deepSummary": "这类世界模型值得跟踪，因为它会改变视觉设计资产的“可移动性”：从单张图走向空间、镜头和状态连续性，适合做空间化产品故事板。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/drfeifei/status/2094840371675283673",
+            "title": "引用帖：Fei-Fei Li 发布 Atlas",
+            "access": "partial",
+            "value": "fxtwitter 可见官方发布语境，说明 Atlas 是 World Labs 团队的 multimodal world model。",
+            "learningValue": "先用官方发布校准术语，再看二次解读里的能力拆分。"
+          },
+          {
+            "url": "https://www.worldlabs.ai/",
+            "title": "World Labs",
+            "access": "full",
+            "value": "官网说明 World Labs 聚焦 spatial intelligence 和可编辑、可穿行的 3D worlds，为原帖提供产品方向背景。",
+            "learningValue": "值得继续看案例页，判断它对空间 UI、展陈和视频分镜的可用性。"
+          }
+        ],
+        "learningActions": [
+          "用一个产品场景尝试把静态 moodboard 改成空间镜头脚本。",
+          "记录世界模型输出中相机控制、一致性和可编辑性的验收点。",
+          "把 Atlas 类工具归入“空间原型”而不是普通图像生成。"
+        ],
+        "tags": [
+          "Home",
+          "World Labs Atlas / 空间生成",
+          "media:video",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094985255220584568",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abduzeedo/status/2094985255220584568",
+        "author": "Fabio - abduzeedo",
+        "handle": "abduzeedo",
+        "datetime": "2026-09-02T03:06:22.000Z",
+        "title": "Abduzeedo 分享 Nogood 矢量 monograph",
+        "originalSummary": "作者推荐 Nogood monograph，强调它对 Freehand、Corel Draw、Illustrator 时代矢量艺术和 anchor point 细节的致敬。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它展示了矢量曲线、层次文件和品牌出版物如何形成可收藏的视觉档案。",
+        "deepSummary": "这条适合从“作品展示”转成练习：关注矢量曲线、版面节奏、印刷质感和品牌档案，而不是只看单张漂亮图。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "选一张图拆解矢量曲线密度、留白和色块层次。",
+          "建立一个“品牌 monograph”参考板，区分作品展示与方法记录。",
+          "练习用 4 页版式讲一个图形系统的演化。"
+        ],
+        "tags": [
+          "Home",
+          "矢量艺术 / 品牌出版物",
+          "media:image"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094984812251746424",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/jinchenma_ai/status/2094984812251746424",
+        "author": "金尘马",
+        "handle": "jinchenma_ai",
+        "datetime": "2026-09-02T03:04:36.000Z",
+        "title": "金尘马万字长文拆 Grok Bot 工作流",
+        "originalSummary": "X Article 从创建第一名“数字员工”开始，解释 Grok Bot 的岗位说明、云电脑、连接器、Skill、定时任务和多人协作。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它从岗位、Skill、定时任务和交接角度讲 Agent 产品，不只是展示聊天能力。",
+        "deepSummary": "对个人设计师的价值是看懂 agent 产品的信息架构：长期岗位、任务边界、交付格式、人工审批点和可复用技能如何被产品化。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094984278723710976",
+            "title": "X Article：Grok Bot 从入门到精通",
+            "access": "full",
+            "value": "fxtwitter 读取到完整长文，提供从单个 Bot 到电商数字员工团队的流程化示例。",
+            "learningValue": "高价值，可直接转成 Agent 产品 onboarding 与任务说明模板。"
+          }
+        ],
+        "learningActions": [
+          "把“岗位说明”和“一次任务 brief”拆成两个模板。",
+          "为一个真实长期工作写结果、来源、限制、交付、审批五项。",
+          "复盘 Grok Bot、Codex、Claude Code 的入口差异：岗位、项目还是对话。"
+        ],
+        "tags": [
+          "Home",
+          "Grok Bot / 数字员工",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094983640421892468",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Jackywine/status/2094983640421892468",
+        "author": "Jackywine",
+        "handle": "Jackywine",
+        "datetime": "2026-09-02T02:59:57.000Z",
+        "title": "UseGrokBot 聚合 Grok Bot 模板和案例",
+        "originalSummary": "原帖推荐 UseGrokBot：网站收集 Grok Bot 玩法、模板、案例和 X 上高热文章，适合慢慢研究。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把上千条 Grok Bot 用法聚成可检索案例库，适合反推 agent 产品的真实需求。",
+        "deepSummary": "这不是普通目录站，而是需求挖掘入口：能看用户如何给 Bot 定岗位、如何组织模板、哪些任务更容易被传播。",
+        "linkAnalysis": [
+          {
+            "url": "https://usegrokbot.com/en",
+            "title": "UseGrokBot — How people use Grok Bot",
+            "access": "full",
+            "value": "页面显示 1,610 posts、模板、角色、分类和排名，证明它是面向 Grok Bot 用法的发现 hub。",
+            "learningValue": "适合抽样研究 agent 角色命名、任务结构和热门用例。"
+          }
+        ],
+        "learningActions": [
+          "抽 20 个热门模板，归类为内容、研究、代码、生活和业务运营。",
+          "观察每个模板的输入问题和默认边界，转成自己的 Bot brief checklist。",
+          "记录哪些用例需要真实连接器，哪些只靠聊天无法稳定完成。"
+        ],
+        "tags": [
+          "Home",
+          "Grok Bot 用例库",
+          "media:video",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094973878611436012",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ZaynHao/status/2094973878611436012",
+        "author": "Zayn Hao",
+        "handle": "ZaynHao",
+        "datetime": "2026-09-02T02:21:10.000Z",
+        "title": "Zayn Hao 演示 Minshot 局部裁剪流程",
+        "originalSummary": "原帖展示 Minshot 中框选局部区域并回车裁剪冗余边缘，用来制作更干净的截图。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为快速截取、裁剪和清理边缘是设计复盘、产品标注和报告制作的高频微流程。",
+        "deepSummary": "这个微交互的价值是减少截图后处理成本：框选、确认、保留上下文应该尽量短路径，适合借鉴到内部标注工具。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解 Minshot 裁剪动作的交互路径：选择、确认、撤销、导出。",
+          "对比 CleanShot、Minshot 和系统截图在局部裁剪上的步骤数。",
+          "把“干净截图”定义为报告资产标准，包括边距、背景和遮挡。"
+        ],
+        "tags": [
+          "Home",
+          "截图工具 / 编辑效率",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094970995585225025",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/JOY_teeth/status/2094970995585225025",
+        "author": "蓬博",
+        "handle": "JOY_teeth",
+        "datetime": "2026-09-02T02:09:42.000Z",
+        "title": "蓬博发布 TapTap TDW 2026 KV 动效",
+        "originalSummary": "原帖标注 Client TapTap、Agency Gcores Gsense、Design TapTap、Motion Pengbo，展示 TDW 2026 KV 的动态视觉。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它是游戏社区活动 KV 的动效样本，适合拆解品牌图形如何进入动态宣传。",
+        "deepSummary": "这类作品适合学习“静态 KV 到动态传播”的转译：主视觉、节奏、层级和活动品牌识别要在短视频里同步成立。",
+        "linkAnalysis": [
+          {
+            "url": "https://taptap.com/",
+            "title": "TapTap",
+            "access": "partial",
+            "value": "t.co 跳转到 TapTap 页面；直接抓取只得到反爬/脚本响应，因此仅确认目标站点和活动品牌来源。",
+            "learningValue": "后续要通过可视化浏览或官方活动页继续看完整页面，不适合只凭抓取文本判断。"
+          }
+        ],
+        "learningActions": [
+          "截取 3 个关键帧，标注主标、活动信息和动效节奏。",
+          "把 KV 动效拆成图形进入、信息显露、收束三段。",
+          "记录客户、代理和 motion 作者分工，建立作品归档字段。"
+        ],
+        "tags": [
+          "Home",
+          "TapTap KV / 品牌动效",
+          "media:video",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094968985989304332",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/caspian_1016/status/2094968985989304332",
+        "author": "Caspian 東澔",
+        "handle": "caspian_1016",
+        "datetime": "2026-09-02T02:01:43.000Z",
+        "title": "deja-vu 检索本地 AI coding 历史",
+        "originalSummary": "原帖推荐 vshulcz/deja-vu：搜索 Claude Code、Codex、Cursor 等 AI coding sessions 的本地历史。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它解决 agent 重复调试和遗忘旧决策的问题，适合个人设计工程工作台。",
+        "deepSummary": "它的学习价值在于把“记忆”从聊天产品能力变成本地可检索基础设施：无需 embeddings，先利用已有会话文件，降低重复排错。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/vshulcz/deja-vu",
+            "title": "GitHub - vshulcz/deja-vu",
+            "access": "full",
+            "value": "GitHub/README 显示它索引本机已有 agent session history，覆盖 Claude Code、Codex、Cursor 等工具。",
+            "learningValue": "适合研究个人 agent memory 的最小实现：索引、检索、证据引用和本地隐私边界。"
+          }
+        ],
+        "learningActions": [
+          "试列自己工作流里最常重复的 5 类历史问题。",
+          "设计一个“查旧决策再动手”的 agent 前置步骤。",
+          "比较本地索引与云端记忆在隐私、可引用性和覆盖范围上的取舍。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 记忆 / 本地历史检索",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094966999449542779",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ZaynHao/status/2094966999449542779",
+        "author": "Zayn Hao",
+        "handle": "ZaynHao",
+        "datetime": "2026-09-02T01:53:49.000Z",
+        "title": "Minshot 向 CleanShot Studio Mode 对标收集反馈",
+        "originalSummary": "作者提到 CleanShot 发布录屏编辑功能，Minshot 也有，并询问用户试用 Minshot 后仍离不开 CleanShot 的功能。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为同类工具的用户反馈能帮助判断截图/录屏产品的核心留存点。",
+        "deepSummary": "这条是很好的产品调研入口：不是自夸功能，而是直接问替代失败原因，适合学习小工具如何识别竞争差距。",
+        "linkAnalysis": [
+          {
+            "url": "https://minshot.fehey.com/",
+            "title": "Minshot — A native macOS screenshot tool",
+            "access": "full",
+            "value": "官网列出截图、录屏、标注、背景、多截图拼接、重开最近编辑和压缩等能力，补足原帖的产品范围。",
+            "learningValue": "值得继续对比 CleanShot，用步骤数和输出质量评估替代可能性。"
+          }
+        ],
+        "learningActions": [
+          "整理截图工具的关键 job：捕获、标注、录屏、剪辑、导出、复用。",
+          "把“离不开竞品”的反馈转成缺口列表。",
+          "试做一个 10 分钟录屏到成片流程，对比 Minshot/CleanShot 摩擦。"
+        ],
+        "tags": [
+          "Home",
+          "截图录屏产品反馈",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094955756869267594",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/BunnyxStudio/status/2094955756869267594",
+        "author": "BunnyLau",
+        "handle": "BunnyxStudio",
+        "datetime": "2026-09-02T01:09:09.000Z",
+        "title": "Hive 在 Pura X View 上的宽屏看图体验",
+        "originalSummary": "作者把 Hive 跑在 Pura X View 的原生鸿蒙 HarmonyOS 上，认为这种屏幕比例看图很特别，应用移植比想象中更方便。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它展示了异常屏幕比例对内容浏览和跨平台移植体验的影响。",
+        "deepSummary": "对设计师的价值是提醒：跨端不只是适配尺寸，还要重新判断内容密度、图像比例、手势和系统组件在新设备上的体验。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "建立一个折叠/异形屏内容预览清单：比例、留白、控件触达、媒体裁切。",
+          "把同一组图片在手机、平板、Pura X 类宽屏上做版式对比。",
+          "记录鸿蒙原生移植中哪些 UI 假设需要重新验证。"
+        ],
+        "tags": [
+          "Home",
+          "HarmonyOS / 折叠屏内容体验",
+          "media:video"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094880094426923161",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/huangyun_122/status/2094880094426923161",
+        "author": "黄赟",
+        "handle": "huangyun_122",
+        "datetime": "2026-09-01T20:08:30.000Z",
+        "title": "黄赟转评高端 editorial poster 提示词",
+        "originalSummary": "原帖称“审美在线”，引用帖给出把上传照片转成 3:4 高端 editorial poster 的完整提示词结构。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为引用帖把照片保真、上下分区和出版物封面感写成结构化视觉 prompt。",
+        "deepSummary": "它适合作为 prompt 结构样本：不是一句风格词，而是规定画幅、上下区域、照片保真、视觉连接和出版物气质。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/king1818888/status/2094566588087509050",
+            "title": "引用帖：editorial poster prompt",
+            "access": "partial",
+            "value": "fxtwitter 可见引用帖正文前半段，包含 3:4 构图、上下 1:1 分区、保留原照片与出版物封面感等约束。",
+            "learningValue": "可拆成可复用视觉 prompt 模板，并加入版权/原图保真注意事项。"
+          }
+        ],
+        "learningActions": [
+          "把该 prompt 改写成自己的照片海报模板，保留结构约束但替换审美语气。",
+          "测试同一照片在“保真”和“风格化”之间的边界。",
+          "记录哪些 prompt 条款会稳定改善构图，哪些只是形容词。"
+        ],
+        "tags": [
+          "Home",
+          "照片到编辑海报 prompt",
+          "media:image",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094879933436752310",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/alexgilev/status/2094879933436752310",
+        "author": "Alex",
+        "handle": "alexgilev",
+        "datetime": "2026-09-01T20:07:51.000Z",
+        "title": "Alex 用 Framer Agent 构建机械表盘组件",
+        "originalSummary": "作者认为用户不只是想用聪明的 AI 产品，而是想在使用时感到自己更聪明，并展示用 Framer agent 构建 Kerra 网站机械表盘组件的步骤。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 AI 产品体验判断落到一个具体组件：让用户感觉自己变聪明。",
+        "deepSummary": "这条值得收藏为产品体验原则：AI 辅助不是替用户炫技，而是把复杂组件的决策过程显性化，让用户参与并理解结果。",
+        "linkAnalysis": [
+          {
+            "url": "https://kerra.earth/",
+            "title": "Kerra",
+            "access": "full",
+            "value": "目标网站显示 Kerra 是面向 keratin materials 的品牌站，表盘组件对应高科技材料品牌的产品叙事语境。",
+            "learningValue": "继续看组件如何把科技感、材料信息和可操作控件合在一起。"
+          }
+        ],
+        "learningActions": [
+          "拆解机械表盘组件中的刻度、反馈、动效和品牌隐喻。",
+          "把“feel smart”转成界面检查项：可理解、可操控、可解释、可修正。",
+          "用 Framer 或代码复刻一个带参数反馈的 dial component。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品体验 / Framer Agent",
+          "media:video",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094844421086884081",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/runwayml/status/2094844421086884081",
+        "author": "Runway",
+        "handle": "runwayml",
+        "datetime": "2026-09-01T17:46:44.000Z",
+        "title": "Runway Ruby 支持 ACEScg EXR 输出",
+        "originalSummary": "Runway 官方称 Ruby 现在可导出 scene-referred、half-float EXR sequences，支持 ACEScg 1.3 和 2.0。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为生成视频正在进入专业色彩和后期管线，影响设计师交付可用素材的标准。",
+        "deepSummary": "这条的价值是“生成结果能否进生产管线”：ACES、EXR、scene-referred 这些规格决定 AI 视频是否能被后期、广告和影视流程接住。",
+        "linkAnalysis": [
+          {
+            "url": "https://runway.com/",
+            "title": "Runway",
+            "access": "full",
+            "value": "官方站点确认 Runway 的 creative / video / research 产品背景；具体 ACES 输出能力以原帖为准。",
+            "learningValue": "后续应找 Ruby 文档或导出面板验证格式、色彩空间和文件体积。"
+          }
+        ],
+        "learningActions": [
+          "记录一套 AI 视频交付验收字段：分辨率、帧率、色彩空间、EXR/MP4、透明度。",
+          "比较普通社媒预览和专业后期文件对设计交付的差异。",
+          "为视频工具评测增加“能否进后期管线”一项。"
+        ],
+        "tags": [
+          "Home",
+          "Runway Ruby / ACES pipeline",
+          "media:video",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094840325789430066",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Google/status/2094840325789430066",
+        "author": "Google",
+        "handle": "Google",
+        "datetime": "2026-09-01T17:30:28.000Z",
+        "title": "Google 推出 Gemini agentic video understanding",
+        "originalSummary": "Google 官方称最新 Gemini 模型加入 agentic video understanding，可更准确处理长视频并最多减少 88% token 使用。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为长视频理解正在变成 agent 产品能力，直接影响素材检索、会议复盘和多模态工作流。",
+        "deepSummary": "对个人设计师来说，这意味着视频素材不只被转写，而是可以被 agent 按任务理解、定位和组合，适合用于设计研究视频、用户访谈和视觉素材库。",
+        "linkAnalysis": [
+          {
+            "url": "https://deepmind.google/",
+            "title": "Google DeepMind",
+            "access": "full",
+            "value": "Google DeepMind 官网展示 Gemini、Veo、Imagen、world models 等多模态模型入口，为原帖能力提供官方产品背景。",
+            "learningValue": "后续应继续看线程或开发文档，确认长视频输入、token 计费和工具调用边界。"
+          }
+        ],
+        "learningActions": [
+          "设计一个“长视频到设计洞察”的 agent 流程：分段、索引、证据截图、结论。",
+          "把视频理解能力加入素材库需求清单。",
+          "验证减少 token 是否会影响细节召回和时间点定位。"
+        ],
+        "tags": [
+          "Home",
+          "Gemini Agentic Video Understanding",
+          "media:video",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094835173691179022",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/figma/status/2094835173691179022",
+        "author": "Figma",
+        "handle": "figma",
+        "datetime": "2026-09-01T17:10:00.000Z",
+        "title": "Figma 鼓励发布 Shader 和生成式插件到 Community",
+        "originalSummary": "Figma 官方提示做了 shader 或 plugin 的用户可以发布到 Community，并配有产品视频。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Figma 正把生成式插件和 shader 从实验推向可分发的设计资产。",
+        "deepSummary": "这条关系到个人设计工程师的分发路径：可复用的视觉算法、shader 和生成式工具不必只停留在本地插件，可以成为社区资产。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.figma.com/community",
+            "title": "Figma Community",
+            "access": "partial",
+            "value": "Community 页面触发 JS/机器人校验，无法完整读取，但目标与原帖 CTA 一致。",
+            "learningValue": "需要在登录态浏览器中进一步验证发布流程、分类和审核要求。"
+          }
+        ],
+        "learningActions": [
+          "列出一个 shader/generative plugin 从本地实验到发布的必要资产。",
+          "检查 Figma Community 发布页需要的封面、说明、示例和权限声明。",
+          "把可分享插件当成作品集项目，而不是一次性 demo。"
+        ],
+        "tags": [
+          "Home",
+          "Generative Plugins / Shaders 发布",
+          "media:video",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094833915693310009",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dariusdan/status/2094833915693310009",
+        "author": "Darius Dan",
+        "handle": "dariusdan",
+        "datetime": "2026-09-01T17:05:00.000Z",
+        "title": "Darius Dan 提到 on.design 创始成员与卡片设计",
+        "originalSummary": "作者称自己是 on.design founding members 之一，并特别提到 card design 很好。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它提示新的设计协作产品在用更情绪化的卡片和身份叙事进入市场。",
+        "deepSummary": "这条值得观察的是设计工具如何做早期叙事：不是罗列功能，而是用成员身份、等待感和卡片视觉建立社区信号。",
+        "linkAnalysis": [
+          {
+            "url": "https://on.design/",
+            "title": "Design, together — again",
+            "access": "partial",
+            "value": "链接跳转到登录页，仅能确认产品定位文案“Design, together — again”，完整功能需要登录。",
+            "learningValue": "后续可在有权限时看 onboarding、协作模型和卡片视觉如何承接品牌。"
+          }
+        ],
+        "learningActions": [
+          "截图并归档 on.design 的第一屏文案和登录路径。",
+          "分析“together again”暗示的设计协作痛点。",
+          "记录早期产品如何用成员身份和视觉卡片制造信任。"
+        ],
+        "tags": [
+          "Home",
+          "on.design / 设计协作",
+          "media:video",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094823057814962244",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/pengzheng_/status/2094823057814962244",
+        "author": "Peng Zheng",
+        "handle": "pengzheng_",
+        "datetime": "2026-09-01T16:21:51.000Z",
+        "title": "Lunagraph 把 React 代码放进视觉画布",
+        "originalSummary": "Peng Zheng 转评 Lunagraph，强调“design with code, directly on canvas”；引用帖称 Lunagraph 是 visual editor for React。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把设计画布、状态、交互和真实 React 代码打通，是设计工程方向的核心信号。",
+        "deepSummary": "这条是设计工程师必须关注的方向：画布不再只产设计稿，而是直接读写真实 React、HTML、CSS，并覆盖状态、交互和 flow。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/putrikarunian/status/2094817055476175052",
+            "title": "引用帖：Lunagraph open",
+            "access": "partial",
+            "value": "fxtwitter 可见引用帖说明 Lunagraph 是 visual editor for React，可设计 states、interactions 和 flows。",
+            "learningValue": "先看发布语境，再判断画布到代码的边界。"
+          },
+          {
+            "url": "https://www.lunagraph.com/",
+            "title": "Lunagraph: Design canvas that writes code",
+            "access": "full",
+            "value": "官网显示它把熟悉设计画布与真实 React/HTML/CSS、Claude Code、文件读写和组件编辑连接起来。",
+            "learningValue": "高价值，适合研究设计工具与代码仓库双向同步。"
+          }
+        ],
+        "learningActions": [
+          "用一个真实组件列出视觉画布需要读写的 props、states 和 CSS。",
+          "比较 Lunagraph 与 Figma Make、v0、Cursor 的设计到代码责任边界。",
+          "设计一个小实验：从画布改 pricing card，再检查代码 diff 是否可维护。"
+        ],
+        "tags": [
+          "Home",
+          "Lunagraph / React 视觉编辑器",
+          "link:read"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-02",
     "generatedAt": "2026-09-02T08:38:27+08:00",
     "batch": "x-ai-design-analysis-2026-09-02-0838",
     "analysisCount": 100,

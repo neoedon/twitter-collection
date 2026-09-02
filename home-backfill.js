@@ -1,6 +1,452 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-02T04:20:38.000Z",
+    "author": "Paidax",
+    "handle": "xin_pai88825",
+    "avatar": "https://pbs.twimg.com/profile_images/1747877404532776960/uUTVQ-2P_200x200.jpg",
+    "title": "Paidax 拆解 AI 角色到网页交互 demo",
+    "summary": "我会帮你抓取它，因为它把角色生成、首尾帧过渡和 Codex 交互实现串成一个可复盘的个人网站动效流程。",
+    "url": "https://x.com/xin_pai88825/status/2095003945563566433",
+    "metrics": "1 REPLIES · 2 REPOSTS · 18 LIKES · 10 BOOKMARKS · 927 VIEWS",
+    "_analysisTheme": "AI 动效网页 / Codex 串联",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094993492636516353/vid/avc1/1536x2048/q9g677_jEcbZc-Ra.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094993492636516353/img/FlPdv1opOW6QYWZ3.jpg"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Paidax",
+      "handle": "xin_pai88825",
+      "text": "尝试用鼠标控制你的网页",
+      "url": "https://x.com/xin_pai88825/status/2092190359300542824",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2092179272257728512/vid/avc1/3836x2160/_6VBvPp9RcqwxfYI.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2092179272257728512/img/uNRJf2TJ8iBcVyx8.jpg"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
+    "category": "DESIGN SYSTEM",
+    "datetime": "2026-09-02T04:11:19.000Z",
+    "author": "Jackywine",
+    "handle": "Jackywine",
+    "avatar": "https://pbs.twimg.com/profile_images/1805875520430915586/x3t_sQdd_200x200.jpg",
+    "title": "Vercel 用 design.md 约束品牌页面 Agent",
+    "summary": "我会帮你抓取它，因为 design.md 把品牌判断写成 agent 可读上下文，是个人设计师训练 AI 页面输出的重要方法。",
+    "url": "https://x.com/Jackywine/status/2095001600670744757",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 142 VIEWS",
+    "_analysisTheme": "design.md / 品牌一致性",
+    "_analysisPriority": "high",
+    "links": [
+      "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md"
+    ]
+  },
+  {
+    "category": "DESIGN SYSTEM",
+    "datetime": "2026-09-02T04:08:41.000Z",
+    "author": "Jackywine",
+    "handle": "Jackywine",
+    "avatar": "https://pbs.twimg.com/profile_images/1805875520430915586/x3t_sQdd_200x200.jpg",
+    "title": "Jackywine 长文梳理 Design.md 方法论",
+    "summary": "我会帮你抓取它，因为这篇 X Article 把 Vercel、Google、Atlassian 和 Claude Design 的路径放到同一个设计系统问题里。",
+    "url": "https://x.com/Jackywine/status/2095000938742505701",
+    "metrics": "2 REPLIES · 0 REPOSTS · 6 LIKES · 3 BOOKMARKS · 961 VIEWS",
+    "_analysisTheme": "Design.md 行业方法",
+    "_analysisPriority": "high",
+    "article": {
+      "id": "2095000824900726785",
+      "title": "Design.md 到底是什么？拆解硅谷大厂的Casestudy 带你搞清楚",
+      "previewText": "不知道你们有没有这种感觉，AI 用来做设计，还是缺了点感觉\n排版挑不出毛病，颜色也对得上，组件该圆的地方圆了，该方的也方了\n可你就是知道——这不是 Vercel 的页面，也不是 Stripe 的页面",
+      "text": "不知道你们有没有这种感觉，AI 用来做设计，还是缺了点感觉\n排版挑不出毛病，颜色也对得上，组件该圆的地方圆了，该方的也方了\n可你就是知道——这不是 Vercel 的页面，也不是 Stripe 的页面\n它像一个训练有素的模仿犯，形似，神不似，这偷一点，那里拿点\n你是不是也有这种感觉\nAI 写代码越来越猛，但 AI 做设计总差一口气\n差在哪？差在“为什么” 颜色为什么是黑色？间距为什么是 8 的倍数？这个按钮为什么放右边？\n这些答案不在代码里，在设计师的脑子里\n \n \n直到我读到 Vercel 那篇博客，整个人有点懵 他们居然把整个设计语言的“为什么”，写成了一份公开的 markdown 文件\n原文：\nhttps://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md\n设计语言可以是一个文件\n \nVercel 的答案叫 design.md，一个任何 coding agent 都能加载的公开文件\n且最好指定一个公开可以访问的位置：比如 Vercel 就把它放在了这里：\n \nVercel Design. md 原文：https://vercel.com/design.md\n它不是设计规范 PDF，也不是 Figma 组件库\n它就是一份纯文本，告诉 agent：什么是 Vercel 的排版、颜色、构图逻辑\n我一开始觉得离谱——这么个文件能有多大用\n然后我看到了他们的做法，是真的服气\n每一条规则都是用评估循环跑出来的\n \nVercel 团队做了 7 个固定场景的 eval prompt，全部来自真实用例 续费提案、规划页、性能报告……每个场景配好假数据和一些其他细节\n场景是固定的，只有 design.md 在变，输出有任何差异，都落在文件头上\n全流程跑下来，200 多轮 每轮都有真人评审，还有模型评审员写批判\n每一条写进 design.md 的规则，都必须在某个场景里证明过它是有用的\n避免了拍脑袋写规范，因为这是拿实验数据一条条筛出来的\n这个方法论，比文件本身更值钱\n有数据，57% 的失败率下降\n \n他们做了一组对照实验：同样的场景、同样的模型，有 design.md 和没有 design.md 已知视觉错误（比如表格不撑满可用宽度）的出现次数\n有文件的 39 次，没文件的 91 次\n降低 57% 的失败概率\n他们还诚实地说：样本太小，不能说明整体质量 但能说明一件事——你教给 Design.md的错误，它不会再犯\nGoogle 直接把规范开源了\n \n就在 Vercel 折腾 design.md 的时候，Google 干了件更大的事\n \n2026 年 4 月，Google Labs 把 Stitch 的 DESIGN.md 草案规范开源，Apache 2.0\n一个 markdown 文件，上半部分是机器可读的语义 token，下半部分是人和 agent 都能读的设计理由\nagent 不用再猜颜色是干嘛的，还能直接对照 WCAG 无障碍规则自检\nGitHub 上 star 涨到一万四千多，PHILOSOPHY.md 里写得很清楚：\ncapturing the intent, rather than the full details 记录意图，而不是系统的全部细节\n这是要做行业标准的姿态\ndesign.md 之于设计，就像 README.md 之于开源软件\nAtlassian 做了一次诚实的实测\n \n \n最打动我的其实是 Atlassian 那篇，因为他们把翻车数据也摆出来了\n他们在 Team ‘26 大会 keynote 上用 Figma Make 生成自定义 dashboard\n同样的 prompt，有 DESIGN.md 的和没有的，效果差了一个次元\n \n没文件的：通用 AI slop 有文件的：一眼 Atlassian 设计师水准\n但换到生产环境，画风突变\n做一个登录页，只用 DESIGN.md 作为设计上下文：\n消耗 7.21M tokens，比 MCP server 多约 92%；\n耗时 6 分 46 秒，更长；\ntoken 方差高 2.7 倍，更不稳定；\n对话 45.3 轮，更多\n结论很克制：DESIGN.md 适合一次性原型、客户定制、跨平台场景 生产环境里，按需加载的 MCP 和 skills 更省更准\n这一篇的价值在于——它告诉你这玩意儿不是银弹，用对场景才是，还是要和 MCP 结合使用\nAnthropic 走了完全相反的路\n \n \nClaude Design 的思路跟 design.md 是反着来的\nVercel 和 Google 是“把设计系统写成文件喂给 agent” Claude Design 是“让 Claude 读你的代码库和设计文件，自动提取出设计系统”\n做登录页的时候，Claude 把你的颜色、字体、组件、间距全抽出来 之后每个项目自动沿用，官方原话：\nYour brand, built in\n6 月 17 日还更新了 /design-sync，把设计系统直接同步进 Claude Code 一周时间，超过一百万人用过\n这让我想到一个判断：AI 时代设计系统的瓶颈，已经从“怎么画”变成“怎么被 AI 理解”\n社区已经把 60+ 大厂的 design.md 反向工程出来了\n \n最疯的是社区速度\n \nVoltAgent 的 awesome-design-md，把 Stripe、Vercel、Linear、Notion、Apple、Airbnb 的视觉风格全部提取成 DESIGN.md GitHub 71k star，上线 4 天就 20k+ MIT 协议，drop 进项目根目录，告诉 agent“按这个来”，完事\n网"
+    }
+  },
+  {
+    "category": "AI MODEL",
+    "datetime": "2026-09-02T03:50:18.000Z",
+    "author": "歸藏(guizang.ai)",
+    "handle": "op7418",
+    "avatar": "https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_200x200.jpg",
+    "title": "归藏跟踪 Claude Fable 5.1 额度与工具限制",
+    "summary": "我会帮你抓取它，因为它把模型更新放到真实 agent 工作流成本、工具调用兼容和订阅额度风险里看。",
+    "url": "https://x.com/op7418/status/2094996310743306407",
+    "metrics": "7 REPLIES · 0 REPOSTS · 12 LIKES · 3 BOOKMARKS · 6713 VIEWS",
+    "_analysisTheme": "Claude Fable 5.1 / Agent 成本",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRLr7RQaUAE8zG_.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI CREATIVE TOOL",
+    "datetime": "2026-09-02T03:18:56.000Z",
+    "author": "歸藏(guizang.ai)",
+    "handle": "op7418",
+    "avatar": "https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_200x200.jpg",
+    "title": "归藏解读 World Labs Atlas 世界模型",
+    "summary": "我会帮你抓取它，因为 Atlas 把图像、视频和 3D 空间放到同一生成语境，关系到空间原型和产品视觉叙事。",
+    "url": "https://x.com/op7418/status/2094988419722248397",
+    "metrics": "5 REPLIES · 18 REPOSTS · 133 LIKES · 105 BOOKMARKS · 25391 VIEWS",
+    "_analysisTheme": "World Labs Atlas / 空间生成",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094988356010881024/vid/avc1/2136x1080/CPoxuNEdEMFhfXlh.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094988356010881024/img/Wneu6_E8xD0vU8t6.jpg"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Fei-Fei Li",
+      "handle": "drfeifei",
+      "text": "I'm so excited that our @theworldlabs  team has achieved a major milestone today! Introducing Atlas - a first of its kind multimodal world model trained from scratch! 🚀\n\nAtlas is capable of generating frames with pixel-perfect camera control, reconstructing large scenes from as few as one single input image,  simulating space-time by reframing videos, natively outputting 3D spaces from one or more input images, composing multiple posed images into a consistent 3d world, and more! This is the best camera conditioned world model ever, opening doors to many possible use cases from VFX to robotics. I'm so so so proud of our team!♥️",
+      "url": "https://x.com/drfeifei/status/2094840371675283673",
+      "article": null
+    }
+  },
+  {
+    "category": "BRAND DESIGN",
+    "datetime": "2026-09-02T03:06:22.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "Abduzeedo 分享 Nogood 矢量 monograph",
+    "summary": "我会帮你抓取它，因为它展示了矢量曲线、层次文件和品牌出版物如何形成可收藏的视觉档案。",
+    "url": "https://x.com/abduzeedo/status/2094985255220584568",
+    "metrics": "1 REPLIES · 0 REPOSTS · 17 LIKES · 5 BOOKMARKS · 839 VIEWS",
+    "_analysisTheme": "矢量艺术 / 品牌出版物",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRLhvcgbkAArXw1.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRLhwm0aQAEyTLL.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRLhzt9agAAvvlg.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRLh0yubEAAXGEU.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-09-02T03:04:36.000Z",
+    "author": "金尘马",
+    "handle": "jinchenma_ai",
+    "avatar": "https://pbs.twimg.com/profile_images/2007049139960385536/3cydt9DH_200x200.jpg",
+    "title": "金尘马万字长文拆 Grok Bot 工作流",
+    "summary": "我会帮你抓取它，因为它从岗位、Skill、定时任务和交接角度讲 Agent 产品，不只是展示聊天能力。",
+    "url": "https://x.com/jinchenma_ai/status/2094984812251746424",
+    "metrics": "17 REPLIES · 22 REPOSTS · 123 LIKES · 219 BOOKMARKS · 14794 VIEWS",
+    "_analysisTheme": "Grok Bot / 数字员工",
+    "_analysisPriority": "high",
+    "article": {
+      "id": "2094984278723710976",
+      "title": "万字长文｜Grok Bot 从入门到精通",
+      "previewText": "朋友们大家好啊，我是金尘马。\n过去一年，我们使用 AI 的方式正在发生非常明显的变化。\n以前打开一个聊天窗口，问一个问题，拿到一个答案，这次协作基本就结束了。现在的 Agent",
+      "text": "朋友们大家好啊，我是金尘马。\n过去一年，我们使用 AI 的方式正在发生非常明显的变化。\n以前打开一个聊天窗口，问一个问题，拿到一个答案，这次协作基本就结束了。现在的 Agent 已经可以读取文件、调用工具、操作浏览器，直接进入数字世界替我们干活。\n在我看来，我们已经从对话时代走到了 Agent 时代。\n不过，今天大部分人与 AI 的协作入口仍然是一轮轮聊天。需要干活的时候临时把 AI 叫过来，重新交代背景，再派一个任务。任务结束以后，这个临时小组也就散了。整个产品仍然以一段具体对话为中心。\nxAI 在 2026 年 8 月 11 日推出了 Grok Bot，这个产品就是开始围绕「长期工作」来组织的。\n它把每个 Agent 包装成一名有名字、长期在岗的 AI 同事。你可以给它一个职位，让它长期负责一类结果。工作做得越多，它越熟悉你的要求，也能调用云电脑和外部工具。需要多人协作时，Bot 之间还可以直接交接任务。\n本文把每个 Bot 称为一名数字员工。创建一个 Bot，就当作招聘了一名数字员工。\n好了，废话不多说。下面就从创建第一名数字员工开始，一步步把整套流程跑完。最后再用一家电商公司为例，演示怎样搭建一支数字员工团队。\n创建第一名数字员工\n使用 Grok Bot 需要满足三个条件：\n账号具备 Grok Bot 使用资格。\n桌面客户端支持 macOS 和 Windows，移动端目前支持 iPhone。\n开启云端存储。\n安装并登录以后，在左侧点击 New，选择 Create new agent。新 Bot 创建完成后，打开它的菜单，进入 Edit Profile，填写名称、职位和岗位说明。\n我创建的第一名数字员工叫「情报总监」。\n它的岗位说明是这样的：\n公司情报调研员，负责搜集普通人能用上的 AI 新闻、中文圈与国内社交媒体上的热门选题，以及 Codex、WorkBuddy、Grokbook、Hermes 等工具教程和新模型、新产品玩法。\n岗位说明用来保存长期有效的内容，比如它负责什么、常用哪些来源、怎样判断和交付什么。\n某一次任务的临时要求，直接放进当次消息里。今天研究 Grok Bot，明天研究 Codex，这些都属于临时任务，不需要反复修改岗位说明。\n创建完成后，我给情报总监派出的第一项真实任务，大意是：\n搜集 X 上讲 Grok Bot 怎么用、曝光量较高的长文。区分 X Article 和教程视频帖，列出作者、发布时间、公开可见的曝光数据、主要内容和原文链接。无法取得一手数据时直接说明，不要猜测数字。\n一项任务写清五件事：\n1. 最终要完成什么结果。 2. 去哪些地方找资料。 3. 有哪些限制条件。 4. 最后用什么格式交付。 5. 做到哪一步要回来找人确认。\n只发一句「帮我研究一下 Grok Bot」，结果很容易变成一份泛泛的资料汇总。\n情报总监第一次交回的结果里，主动区分了 X Article 和带教程视频的帖子，也分别整理了作者、曝光数据和原文链接。\n \n第一次交付后，直接告诉它哪一部分错了、缺了什么、以后固定使用什么格式。\nGrok Bot 和其他 AI Agent 的区别\n现在市面上常见的 AI Agent，大多围绕一段对话或一个具体项目组织工作。聊天类工具以当前对话为中心。\nGrok Bot 默认从一个长期岗位出发，围绕跨软件任务、长期工作背景、固定工作和同事交接组织起来。\nBot 可以保留稳定偏好、岗位背景和既往工作的摘要。\nGrok Bot 和 Codex、Claude Code 也有明显差别。\nCodex 与 Claude Code 默认从项目或代码库出发，主要围绕文件、终端、构建、测试和 Git 组织工作。Grok Bot 默认从一个岗位出发，围绕跨软件任务、长期工作背景、固定工作和同事交接组织起来。\n这些产品的能力已经有不少重叠。它们都能读写文件、运行命令、接入工具，也都在向云端任务和多 Agent 协作发展。选择时可以先看自己的主要工作对象。\n长期负责跨软件工作的数字员工，用 Grok Bot 会更加直观。围绕代码仓库开发、测试和审查，Codex 与 Claude Code 的工作重心更明确。\nGrok Bot 还给用户提供了一台云电脑。\n这是一台由平台管理的 Linux 虚拟机，里面有可视化桌面、浏览器、文件系统和终端。\n任务需要浏览器时，远程浏览器小窗口会自动出现在对话旁边，可以随时查看和接管。\n遇到登录、验证码或需要人工操作时，再进入云电脑画面接管控制。\n \n任务运行在云端还有一个现实好处。关闭 Grok Bot、合上笔记本，已经开始的后台任务和定时任务仍然可以继续。\n认识五个核心组件\n \n \n岗位说明里放长期都要遵守的职责。一次聊天任务只管今天具体做什么。等一类任务已经跑通，再把稳定做法保存成 Skill。\n从真实工作中提炼一个岗位\n我刚开始研究 Grok Bot 的时候，也想直接创建营销总监、运营总监、产品总监和财务总监，把传统公司的组织架构照搬进去。\n一到派活，问题就出来了。岗位名字很大，长期负责的结果很模糊，最后得到一批不知道每天该干什么的数字高管。\nxAI 官方给出的建议，是从一套最小但真正有用的人员配置开始。先让一个 Bot 完整负责一项结果。工作里出现稳定的专业分工后，再创建新的 Bot。\n适合长期交给 Bot 的工作有几个特征：\n结果会长期出现，或者需要反复交付。\n使用的数据源和工具相对稳定。\n工作方法可以逐渐说清楚。\n交付结果能够检查。\n哪些动作需要人工审批，可以提前划出边界。\n以情报总监为例，我长期需要研究 AI 新闻、热门选题和工具教程。它有相对固定的来源，也有明确的交付物。这个真实需求自然形成了一个岗位。\n「营销总监」这类名字覆盖范围太大。把它改成「每"
+    }
+  },
+  {
+    "category": "AI AGENT RESOURCE",
+    "datetime": "2026-09-02T02:59:57.000Z",
+    "author": "Jackywine",
+    "handle": "Jackywine",
+    "avatar": "https://pbs.twimg.com/profile_images/1805875520430915586/x3t_sQdd_200x200.jpg",
+    "title": "UseGrokBot 聚合 Grok Bot 模板和案例",
+    "summary": "我会帮你抓取它，因为它把上千条 Grok Bot 用法聚成可检索案例库，适合反推 agent 产品的真实需求。",
+    "url": "https://x.com/Jackywine/status/2094983640421892468",
+    "metrics": "1 REPLIES · 1 REPOSTS · 7 LIKES · 6 BOOKMARKS · 873 VIEWS",
+    "_analysisTheme": "Grok Bot 用例库",
+    "_analysisPriority": "high",
+    "links": [
+      "https://usegrokbot.com/en"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094983428685156352/vid/avc1/1662x1080/B_vTSsxsFKnj1jB-.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094983428685156352/img/yd5pcfhDUPwW05Wh.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-09-02T02:21:10.000Z",
+    "author": "Zayn Hao",
+    "handle": "ZaynHao",
+    "avatar": "https://pbs.twimg.com/profile_images/1490844347721342981/_vcCNxRm_200x200.jpg",
+    "title": "Zayn Hao 演示 Minshot 局部裁剪流程",
+    "summary": "我会帮你抓取它，因为快速截取、裁剪和清理边缘是设计复盘、产品标注和报告制作的高频微流程。",
+    "url": "https://x.com/ZaynHao/status/2094973878611436012",
+    "metrics": "2 REPLIES · 0 REPOSTS · 3 LIKES · 2 BOOKMARKS · 1296 VIEWS",
+    "_analysisTheme": "截图工具 / 编辑效率",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094973602160627712/vid/avc1/2208x1658/qHDkLa8Mw9sm3Bhs.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094973602160627712/img/2bb1tbQ2MrWKvTyu.jpg"
+      }
+    ]
+  },
+  {
+    "category": "MOTION DESIGN",
+    "datetime": "2026-09-02T02:09:42.000Z",
+    "author": "蓬博",
+    "handle": "JOY_teeth",
+    "avatar": "https://pbs.twimg.com/profile_images/1234659797783339017/_jOt_xtK_200x200.png",
+    "title": "蓬博发布 TapTap TDW 2026 KV 动效",
+    "summary": "我会帮你抓取它，因为它是游戏社区活动 KV 的动效样本，适合拆解品牌图形如何进入动态宣传。",
+    "url": "https://x.com/JOY_teeth/status/2094970995585225025",
+    "metrics": "0 REPLIES · 0 REPOSTS · 4 LIKES · 1 BOOKMARKS · 140 VIEWS",
+    "_analysisTheme": "TapTap KV / 品牌动效",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://taptap.com/"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094969853258162176/vid/avc1/1280x720/XGwvxacSvgvT1zzE.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094969853258162176/img/5kk4Vv1RuyzP8SkV.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI CODING TOOL",
+    "datetime": "2026-09-02T02:01:43.000Z",
+    "author": "Caspian 東澔",
+    "handle": "caspian_1016",
+    "avatar": "https://pbs.twimg.com/profile_images/1791833138676502528/TsvjtdxM_200x200.jpg",
+    "title": "deja-vu 检索本地 AI coding 历史",
+    "summary": "我会帮你抓取它，因为它解决 agent 重复调试和遗忘旧决策的问题，适合个人设计工程工作台。",
+    "url": "https://x.com/caspian_1016/status/2094968985989304332",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 86 VIEWS",
+    "_analysisTheme": "Agent 记忆 / 本地历史检索",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/vshulcz/deja-vu"
+    ]
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-09-02T01:53:49.000Z",
+    "author": "Zayn Hao",
+    "handle": "ZaynHao",
+    "avatar": "https://pbs.twimg.com/profile_images/1490844347721342981/_vcCNxRm_200x200.jpg",
+    "title": "Minshot 向 CleanShot Studio Mode 对标收集反馈",
+    "summary": "我会帮你抓取它，因为同类工具的用户反馈能帮助判断截图/录屏产品的核心留存点。",
+    "url": "https://x.com/ZaynHao/status/2094966999449542779",
+    "metrics": "2 REPLIES · 0 REPOSTS · 3 LIKES · 2 BOOKMARKS · 805 VIEWS",
+    "_analysisTheme": "截图录屏产品反馈",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://minshot.fehey.com/"
+    ]
+  },
+  {
+    "category": "MOBILE PRODUCT",
+    "datetime": "2026-09-02T01:09:09.000Z",
+    "author": "BunnyLau",
+    "handle": "BunnyxStudio",
+    "avatar": "https://pbs.twimg.com/profile_images/1896040579634774019/Yew8LLPq_200x200.jpg",
+    "title": "Hive 在 Pura X View 上的宽屏看图体验",
+    "summary": "我会帮你抓取它，因为它展示了异常屏幕比例对内容浏览和跨平台移植体验的影响。",
+    "url": "https://x.com/BunnyxStudio/status/2094955756869267594",
+    "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 0 BOOKMARKS · 978 VIEWS",
+    "_analysisTheme": "HarmonyOS / 折叠屏内容体验",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094955166676217856/vid/avc1/3840x2160/sQTbddxhCP3SOHuW.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/media/HRLGn-BasAAHf97.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI VISUAL PROMPT",
+    "datetime": "2026-09-01T20:08:30.000Z",
+    "author": "黄赟",
+    "handle": "huangyun_122",
+    "avatar": "https://pbs.twimg.com/profile_images/1183766724534882305/SIxSKinT_200x200.jpg",
+    "title": "黄赟转评高端 editorial poster 提示词",
+    "summary": "我会帮你抓取它，因为引用帖把照片保真、上下分区和出版物封面感写成结构化视觉 prompt。",
+    "url": "https://x.com/huangyun_122/status/2094880094426923161",
+    "metrics": "0 REPLIES · 15 REPOSTS · 66 LIKES · 62 BOOKMARKS · 12809 VIEWS",
+    "_analysisTheme": "照片到编辑海报 prompt",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRKCVakaEAAO2r6.jpg?name=orig"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Kimberly",
+      "handle": "king1818888",
+      "text": "提示词自取：\n\nCreate one independent high-end editorial poster for each uploaded photo. Do not combine multiple photos into a collage. Each photo must be processed and output as a separate poster.\n\nOVERALL FORMAT\n\nStrict 3:4 vertical composition.\n\nDivide the canvas horizontally into two exactly equal sections, with a precise 1:1 height ratio.\n\nThe top half occupies exactly 50% of the canvas.\n\nThe bottom half occupies exactly 50% of the canvas.\n\nThe two sections should feel visually connected as one refined art publication cover.\n\nTOP HALF — ORIGINAL PHOTOGRAPH\n\nPreserve the original photograph as faithfully as possible.\n\nKeep the main composition, subjects, identity, facial features, body proporti",
+      "url": "https://x.com/king1818888/status/2094566588087509050",
+      "article": null
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-09-01T20:07:51.000Z",
+    "author": "Alex",
+    "handle": "alexgilev",
+    "avatar": "https://pbs.twimg.com/profile_images/2092975986849529856/5iAMQkQI_200x200.jpg",
+    "title": "Alex 用 Framer Agent 构建机械表盘组件",
+    "summary": "我会帮你抓取它，因为它把 AI 产品体验判断落到一个具体组件：让用户感觉自己变聪明。",
+    "url": "https://x.com/alexgilev/status/2094879933436752310",
+    "metrics": "1 REPLIES · 3 REPOSTS · 23 LIKES · 11 BOOKMARKS · 989 VIEWS",
+    "_analysisTheme": "AI 产品体验 / Framer Agent",
+    "_analysisPriority": "high",
+    "links": [
+      "https://kerra.earth/"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094879899538374656/vid/avc1/2916x2160/3d7T35H2X35j9tFu.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094879899538374656/img/kdbabV9JXv0ZyK8D.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI VIDEO TOOL",
+    "datetime": "2026-09-01T17:46:44.000Z",
+    "author": "Runway",
+    "handle": "runwayml",
+    "avatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB_200x200.jpg",
+    "title": "Runway Ruby 支持 ACEScg EXR 输出",
+    "summary": "我会帮你抓取它，因为生成视频正在进入专业色彩和后期管线，影响设计师交付可用素材的标准。",
+    "url": "https://x.com/runwayml/status/2094844421086884081",
+    "metrics": "13 REPLIES · 12 REPOSTS · 109 LIKES · 36 BOOKMARKS · 23129 VIEWS",
+    "_analysisTheme": "Runway Ruby / ACES pipeline",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094843910589677568/vid/avc1/1920x1080/fOXpGFRr42auulLC.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094843910589677568/img/CvC7tStNrqvic-lT.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-09-01T17:30:28.000Z",
+    "author": "Google",
+    "handle": "Google",
+    "avatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3_200x200.jpg",
+    "title": "Google 推出 Gemini agentic video understanding",
+    "summary": "我会帮你抓取它，因为长视频理解正在变成 agent 产品能力，直接影响素材检索、会议复盘和多模态工作流。",
+    "url": "https://x.com/Google/status/2094840325789430066",
+    "metrics": "155 REPLIES · 341 REPOSTS · 4405 LIKES · 1980 BOOKMARKS · 446862 VIEWS",
+    "_analysisTheme": "Gemini Agentic Video Understanding",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094829723788419072/vid/avc1/1920x1080/PfsC3zYbzPytznON.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094829723788419072/img/S-m4SqSuw4Fnshnb.jpg"
+      }
+    ]
+  },
+  {
+    "category": "FIGMA",
+    "datetime": "2026-09-01T17:10:00.000Z",
+    "author": "Figma",
+    "handle": "figma",
+    "avatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq___200x200.jpg",
+    "title": "Figma 鼓励发布 Shader 和生成式插件到 Community",
+    "summary": "我会帮你抓取它，因为 Figma 正把生成式插件和 shader 从实验推向可分发的设计资产。",
+    "url": "https://x.com/figma/status/2094835173691179022",
+    "metrics": "13 REPLIES · 25 REPOSTS · 336 LIKES · 107 BOOKMARKS · 674784 VIEWS",
+    "_analysisTheme": "Generative Plugins / Shaders 发布",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094833532111867904/vid/avc1/1920x1080/q8TMruGv1MuPy07G.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094833532111867904/img/jYcC8CBwv0kCuziH.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN PRODUCT",
+    "datetime": "2026-09-01T17:05:00.000Z",
+    "author": "Darius Dan",
+    "handle": "dariusdan",
+    "avatar": "https://pbs.twimg.com/profile_images/2010635171083505664/voFt50Pj_200x200.jpg",
+    "title": "Darius Dan 提到 on.design 创始成员与卡片设计",
+    "summary": "我会帮你抓取它，因为它提示新的设计协作产品在用更情绪化的卡片和身份叙事进入市场。",
+    "url": "https://x.com/dariusdan/status/2094833915693310009",
+    "metrics": "13 REPLIES · 0 REPOSTS · 199 LIKES · 83 BOOKMARKS · 8917 VIEWS",
+    "_analysisTheme": "on.design / 设计协作",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://on.design/"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094713206593691648/vid/avc1/1442x1080/FzzFCbFJ3SDHyEC4.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094713206593691648/img/I2A3eJfOnIjko19_.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-01T16:21:51.000Z",
+    "author": "Peng Zheng",
+    "handle": "pengzheng_",
+    "avatar": "https://pbs.twimg.com/profile_images/1950000586084233216/-bvk_-H3_200x200.png",
+    "title": "Lunagraph 把 React 代码放进视觉画布",
+    "summary": "我会帮你抓取它，因为它把设计画布、状态、交互和真实 React 代码打通，是设计工程方向的核心信号。",
+    "url": "https://x.com/pengzheng_/status/2094823057814962244",
+    "metrics": "1 REPLIES · 1 REPOSTS · 25 LIKES · 13 BOOKMARKS · 4535 VIEWS",
+    "_analysisTheme": "Lunagraph / React 视觉编辑器",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Putri Karunia",
+      "handle": "putrikarunian",
+      "text": "it's happening 🥹\n\n@lunagraphHQ is open\n\nnot just a design canvas, but a visual editor for React\n\nthis means you can design the full experience: from exploration to defining every state, interaction, and flow. and when it feels right, hand devs nicely packaged code, UX and all\n\ncome design with code this weekend 🌸\n\n (sound on 🔊)",
+      "url": "https://x.com/putrikarunian/status/2094817055476175052",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2094812666053398528/vid/avc1/1920x1080/zI3DCfS0yRNaFZao.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2094812666053398528/img/Adqljz2a5Lzi0get.jpg"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
     "category": "AI CREATIVE TOOL",
     "datetime": "2026-09-02T00:11:29.000Z",
     "author": "yuwen lu",
