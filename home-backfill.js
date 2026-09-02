@@ -1,6 +1,508 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "AI CREATIVE TOOL",
+    "datetime": "2026-09-02T00:11:29.000Z",
+    "author": "yuwen lu",
+    "handle": "yuwen_lu_",
+    "avatar": "https://pbs.twimg.com/profile_images/2041949642519441408/YFwzU-Q5_200x200.jpg",
+    "title": "Yuwen 用 Fable 5.1 一次生成贴纸 shader 工具",
+    "summary": "我会帮你抓取它，因为它把模型能力落实到一个可操作的小工具，从图片抠图到数字贴纸的链路很适合做设计原型练习。",
+    "url": "https://x.com/yuwen_lu_/status/2094941243478556961",
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 100 VIEWS",
+    "_analysisTheme": "Fable 5.1 / Shader 工具",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094941157583355904/vid/avc1/1652x1080/ljS1s9Db9stPXrDn.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094941157583355904/img/4kpk1rXEzTyPMiyH.jpg"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Claude",
+      "handle": "claudeai",
+      "text": "We’re introducing Claude Fable 5.1 and Claude Mythos 5.1.\n\nThey're the world’s most advanced models for coding and knowledge work.",
+      "url": "https://x.com/claudeai/status/2094848572143407483",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/2160x2160/GEnONyeW_6cMSzmW.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/media/HRJlwmVWcAEyYzf.jpg"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
+    "category": "BRAND DESIGN",
+    "datetime": "2026-09-01T23:45:17.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "Abduzeedo 拆解 AC2 像素建筑品牌",
+    "summary": "我会帮你抓取它，因为 AC2 用早期网页像素字、建筑语汇和品牌系统做差异化，适合拆解小众品牌如何避开同质化。",
+    "url": "https://x.com/abduzeedo/status/2094934649986543965",
+    "metrics": "0 REPLIES · 1 REPOSTS · 13 LIKES · 2 BOOKMARKS · 483 VIEWS",
+    "_analysisTheme": "品牌识别 / 像素语言",
+    "_analysisPriority": "high",
+    "links": [
+      "https://abduzeedo.com/brand-identity-design-ac2-studio-format"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRKzrWVbMAAqVvh.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRKzwN_bsAARSLc.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRKzy4DasAAsKid.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI DESIGN TOOL",
+    "datetime": "2026-09-01T22:37:12.000Z",
+    "author": "Joel",
+    "handle": "joelbqz",
+    "avatar": "https://pbs.twimg.com/profile_images/2016679314553745408/xj28Semj_200x200.jpg",
+    "title": "Fable 5.1 进入 UI8 Forge 工作流",
+    "summary": "我会帮你抓取它，因为 Forge 把生成模型放进设计资产/构建链路，适合观察 AI 创意工具如何嵌入已有市场。",
+    "url": "https://x.com/joelbqz/status/2094917516136956282",
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 270 VIEWS",
+    "_analysisTheme": "Fable / Forge workflow",
+    "_analysisPriority": "high",
+    "links": [
+      "https://ui8.ai/forge"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094917462500270080/vid/avc1/3164x1884/yakh_PzmmlVsgQBI.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094917462500270080/img/92LNMLdNukh7YRCk.jpg"
+      }
+    ]
+  },
+  {
+    "category": "UI COMPONENT",
+    "datetime": "2026-09-01T22:25:30.000Z",
+    "author": "Irsyad A. Panjaitan",
+    "handle": "irsyad",
+    "avatar": "https://pbs.twimg.com/profile_images/2074018379728601088/TZSdoJUy_200x200.jpg",
+    "title": "Intent UI 新增 React Aria 应用型区块",
+    "summary": "我会帮你抓取它，因为作者把编辑器型示例改成应用场景区块，能学习组件示例如何从 demo 走向可复用产品结构。",
+    "url": "https://x.com/irsyad/status/2094914572650197350",
+    "metrics": "1 REPLIES · 2 REPOSTS · 8 LIKES · 5 BOOKMARKS · 342 VIEWS",
+    "_analysisTheme": "React Aria / Block 设计",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRKhoLzaoAAzmKI.jpg?name=orig"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Irsyad A. Panjaitan",
+      "handle": "irsyad",
+      "text": "Today is all about @intentui. I just updated the sidebar using the new Navigation Tree component and added an example for asynchronous loading to the menu, both from the latest RAC released.\n\nSo if you want to use it, make sure to pull the latest Sidebar source code.",
+      "url": "https://x.com/irsyad/status/2094875493896175629",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2094874334682828800/vid/avc1/3840x2160/LwA7CFfl5Y98praa.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2094874334682828800/img/yusSpw_FJAkcx8os.jpg"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
+    "category": "FIGMA SHADER",
+    "datetime": "2026-09-01T21:31:46.000Z",
+    "author": "˗ˏˋ rogie ˎˊ˗",
+    "handle": "rogie",
+    "avatar": "https://pbs.twimg.com/profile_images/2073471625081790464/26eUtlT5_200x200.jpg",
+    "title": "rogie 回看 FigGPU 到 Figma Shaders",
+    "summary": "我会帮你抓取它，因为它把 LLM 生成 shader 的原型、真实探索截图和 Figma 官方实现连起来，是设计工程师理解生成式插件的好线索。",
+    "url": "https://x.com/rogie/status/2094901050478391444",
+    "metrics": "5 REPLIES · 3 REPOSTS · 47 LIKES · 34 BOOKMARKS · 2800 VIEWS",
+    "_analysisTheme": "生成式插件 / Shader UI",
+    "_analysisPriority": "high",
+    "links": [
+      "https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094900225941098496/vid/avc1/2720x2120/8rQV4rEw6FmCnaHf.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094900225941098496/img/Zlxntf11r2CBatF4.jpg"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094900254084931584/vid/avc1/2412x1552/aalJnqYsAk3VMePb.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094900254084931584/img/Nbcn96aKzVFxyHpo.jpg"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094900254080663552/vid/avc1/856x1108/eI4_GFXBvipaSht_.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094900254080663552/img/JQBOypUkEEu0T0jt.jpg"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094900254084829184/vid/avc1/1420x1102/1YGM6z-9NGTHU02j.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094900254084829184/img/0QdfhvuNRAsNRj7v.jpg"
+      }
+    ]
+  },
+  {
+    "category": "PRODUCT UI",
+    "datetime": "2026-09-01T21:29:27.000Z",
+    "author": "Michael Andreuzza",
+    "handle": "Mike_Andreuzza",
+    "avatar": "https://pbs.twimg.com/profile_images/2088879818745970688/DxCc1g58_200x200.jpg",
+    "title": "Kobbe 侧栏清理降低分析工具噪声",
+    "summary": "我会帮你抓取它，因为作者具体说明了链接、图标、active state 和 hover 的权重调整，适合复盘仪表盘信息密度。",
+    "url": "https://x.com/Mike_Andreuzza/status/2094900465851097297",
+    "metrics": "1 REPLIES · 0 REPOSTS · 44 LIKES · 42 BOOKMARKS · 1422 VIEWS",
+    "_analysisTheme": "Sidebar / 数据产品 UI",
+    "_analysisPriority": "high",
+    "links": [
+      "http://Kobbe.io"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRKU3DVWgAARmST.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRKUJhvWcAATM-o.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "BRAND DESIGN",
+    "datetime": "2026-09-01T21:20:11.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "Vocado 品牌用几何牛油果构建识别",
+    "summary": "我会帮你抓取它，因为它把食品品牌的明亮色彩、几何图形和层级排版组合得很清楚，适合做视觉系统拆解。",
+    "url": "https://x.com/abduzeedo/status/2094898135856509137",
+    "metrics": "0 REPLIES · 0 REPOSTS · 6 LIKES · 2 BOOKMARKS · 1362 VIEWS",
+    "_analysisTheme": "品牌系统 / 食品视觉",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://abduzeedo.com/branding-design-vocado-estudio-e"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRKSv5kb0AANbIr.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRKSwDPbUAEMzIl.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRKSwMOa4AAqam4.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI FINTECH",
+    "datetime": "2026-09-01T21:06:52.000Z",
+    "author": "f",
+    "handle": "felipedotdesign",
+    "avatar": "https://pbs.twimg.com/profile_images/1728166905205194752/Lk0u5gA-_200x200.jpg",
+    "title": "Hazel 把顾问金融工具做成 AI-native",
+    "summary": "我会帮你抓取它，因为这是设计师参与垂直 AI 金融工具的案例，能观察专业软件如何包装 AI 价值而非只加聊天入口。",
+    "url": "https://x.com/felipedotdesign/status/2094894783252623786",
+    "metrics": "0 REPLIES · 0 REPOSTS · 9 LIKES · 1 BOOKMARKS · 831 VIEWS",
+    "_analysisTheme": "AI-native 工具 / 金融 UX",
+    "_analysisPriority": "medium",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Altruist",
+      "handle": "altruist",
+      "text": "Big news from the Altruist team: We have just entered into a definitive agreement to be acquired by @Vanguard_Group.\n\nRead the full announcement: https://altruist.com/news/vanguard-to-acquire-altruist-expanding-the-reach-and-impact-of-financial-advice/?utm_source=linkedin&utm_medium=organic&utm_campaign=altruist",
+      "url": "https://x.com/altruist/status/2092587665304494102",
+      "media": [],
+      "article": null
+    }
+  },
+  {
+    "category": "MICRO INTERACTION",
+    "datetime": "2026-09-01T20:13:49.000Z",
+    "author": "Artur Bień",
+    "handle": "artur_bien",
+    "avatar": "https://pbs.twimg.com/profile_images/2083208025058213888/3YtTaDi7_200x200.jpg",
+    "title": "balloons-js 提供网页庆祝动效组件",
+    "summary": "我会帮你抓取它，因为这是一个小而完整的 GitHub 动效组件，可作为产品反馈、成就时刻和微交互动效的实现参考。",
+    "url": "https://x.com/artur_bien/status/2094881434301354176",
+    "metrics": "5 REPLIES · 4 REPOSTS · 72 LIKES · 47 BOOKMARKS · 2562 VIEWS",
+    "_analysisTheme": "微交互 / 开源动效",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://github.com/arturbien/balloons-js"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094881245222039553/vid/avc1/1532x1532/4ntvFUamms__GRjF.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094881245222039553/img/rgHrnAmS3pmLijHW.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN SYSTEM",
+    "datetime": "2026-09-01T19:50:13.000Z",
+    "author": "Irsyad A. Panjaitan",
+    "handle": "irsyad",
+    "avatar": "https://pbs.twimg.com/profile_images/2074018379728601088/TZSdoJUy_200x200.jpg",
+    "title": "Intent UI 用 Navigation Tree 更新 Sidebar",
+    "summary": "我会帮你抓取它，因为它展示 React Aria 更新如何进入真实组件块，重点是异步加载、菜单层级和应用型侧栏。",
+    "url": "https://x.com/irsyad/status/2094875493896175629",
+    "metrics": "1 REPLIES · 3 REPOSTS · 10 LIKES · 6 BOOKMARKS · 1527 VIEWS",
+    "_analysisTheme": "组件库 / 应用侧栏",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094874334682828800/vid/avc1/3840x2160/LwA7CFfl5Y98praa.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094874334682828800/img/yusSpw_FJAkcx8os.jpg"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Devon Govett",
+      "handle": "devongovett",
+      "text": "New React Aria release!\n\n🧭 New NavigationTree component, perfect for sidebars. Supports expandable items, sections, keyboard navigation, action buttons, etc.\n⌛️ Menu async load more\n📝 TokenField selection updates\n📱 iOS overlay positioning fixes\n\nhttps://react-aria.adobe.com/releases/v1-21-0",
+      "url": "https://x.com/devongovett/status/2094816630450655370",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HRJHQJ5XQAAzMJx.png?name=orig"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
+    "category": "FIGMA RESOURCE",
+    "datetime": "2026-09-01T19:26:35.000Z",
+    "author": "Drice",
+    "handle": "driceroland",
+    "avatar": "https://pbs.twimg.com/profile_images/2067984240919109632/jdoXp4T7_200x200.jpg",
+    "title": "Drice 公开 Motion Design Frames 文件",
+    "summary": "我会帮你抓取它，因为这类公开视频帧参考库能帮助设计师建立 launch video 的节奏、构图和动效样本库。",
+    "url": "https://x.com/driceroland/status/2094869547954114642",
+    "metrics": "4 REPLIES · 1 REPOSTS · 73 LIKES · 220 BOOKMARKS · 3672 VIEWS",
+    "_analysisTheme": "Motion reference / Figma 文件",
+    "_analysisPriority": "high",
+    "links": [
+      "https://www.figma.com/design/Q7mpxV7ExHgGXoTfMesA0n/Motion-Design-Frames?node-id=0-1&t=eS9u2ShVK5Hi7n4l-1"
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-09-01T19:08:41.000Z",
+    "author": "Perplexity",
+    "handle": "perplexity_ai",
+    "avatar": "https://pbs.twimg.com/profile_images/2009310641165660160/XArF3_Ib_200x200.jpg",
+    "title": "Perplexity Computer 接入 Claude Fable 5.1",
+    "summary": "我会帮你抓取它，因为它给出了 WANDR 评测与成本线索，适合比较模型能力如何变成订阅产品卖点。",
+    "url": "https://x.com/perplexity_ai/status/2094865042873467261",
+    "metrics": "27 REPLIES · 11 REPOSTS · 330 LIKES · 28 BOOKMARKS · 19765 VIEWS",
+    "_analysisTheme": "模型接入 / 产品评测",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRJ0p6SaQAAy075.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "MOTION REFERENCE",
+    "datetime": "2026-09-01T19:05:25.000Z",
+    "author": "Drice",
+    "handle": "driceroland",
+    "avatar": "https://pbs.twimg.com/profile_images/2067984240919109632/jdoXp4T7_200x200.jpg",
+    "title": "Drice 收集 4400+ viral launch video frames",
+    "summary": "我会帮你抓取它，因为它把启动视频拆成可检索帧库，适合训练个人对产品叙事镜头和转场的判断。",
+    "url": "https://x.com/driceroland/status/2094864219170607355",
+    "metrics": "34 REPLIES · 9 REPOSTS · 345 LIKES · 644 BOOKMARKS · 38551 VIEWS",
+    "_analysisTheme": "Launch video / 参考库",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094863399544848384/vid/avc1/3566x2160/zaXHXENmYsnp55JO.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094863399544848384/img/Q4luzqhI-Ecod2qu.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AGENT BROWSER",
+    "datetime": "2026-09-01T18:12:32.000Z",
+    "author": "Chris Tate",
+    "handle": "ctatedev",
+    "avatar": "https://pbs.twimg.com/profile_images/1793812678462365696/rJGwsL4h_200x200.jpg",
+    "title": "agent-browser v0.36 新实验功能",
+    "summary": "我会帮你抓取它，因为浏览器自动化 CLI 正在变成 AI agent 的产品基建，GitHub 链接可直接看实现和接口边界。",
+    "url": "https://x.com/ctatedev/status/2094850913420599412",
+    "metrics": "0 REPLIES · 0 REPOSTS · 15 LIKES · 14 BOOKMARKS · 1454 VIEWS",
+    "_analysisTheme": "Agent browser / 工具接口",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/vercel-labs/agent-browser"
+    ]
+  },
+  {
+    "category": "AGENT UI",
+    "datetime": "2026-09-01T18:11:27.000Z",
+    "author": "Chris Tate",
+    "handle": "ctatedev",
+    "avatar": "https://pbs.twimg.com/profile_images/1793812678462365696/rJGwsL4h_200x200.jpg",
+    "title": "WebMCP + agent-browser 把网页推向 agent-native",
+    "summary": "我会帮你抓取它，因为它把网页能力发现、调用工具和用户授权串成产品概念，适合研究 agent 控制面如何设计。",
+    "url": "https://x.com/ctatedev/status/2094850640253972706",
+    "metrics": "23 REPLIES · 28 REPOSTS · 489 LIKES · 382 BOOKMARKS · 20187 VIEWS",
+    "_analysisTheme": "WebMCP / Agent-native web",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094850579675684864/vid/avc1/3444x2160/MU50665I97-k1qZe.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094850579675684864/img/e6J-cGa1rFTGMAwz.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI MODEL",
+    "datetime": "2026-09-01T18:03:14.000Z",
+    "author": "Claude",
+    "handle": "claudeai",
+    "avatar": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_200x200.jpg",
+    "title": "Claude 发布 Fable 5.1 与 Mythos 5.1",
+    "summary": "我会帮你抓取它，因为模型发布直接影响设计工程、知识工作和原型生成能力，需要记录官方定位与演示方式。",
+    "url": "https://x.com/claudeai/status/2094848572143407483",
+    "metrics": "2105 REPLIES · 5373 REPOSTS · 47135 LIKES · 6672 BOOKMARKS · 7734730 VIEWS",
+    "_analysisTheme": "模型发布 / 设计工程",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094843261470793728/vid/avc1/2160x2160/GEnONyeW_6cMSzmW.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/media/HRJlwmVWcAEyYzf.jpg"
+      }
+    ]
+  },
+  {
+    "category": "WORLD MODEL",
+    "datetime": "2026-09-01T17:28:12.000Z",
+    "author": "World Labs",
+    "handle": "theworldlabs",
+    "avatar": "https://pbs.twimg.com/profile_images/2094611280627957760/DziH8AE1_200x200.jpg",
+    "title": "World Labs Atlas 发布多模态世界模型",
+    "summary": "我会帮你抓取它，因为 Atlas 关注像素级相机控制和 3D 重建，和未来空间/产品视觉原型关系很近。",
+    "url": "https://x.com/theworldlabs/status/2094839756329041984",
+    "metrics": "226 REPLIES · 839 REPOSTS · 7176 LIKES · 4072 BOOKMARKS · 1495558 VIEWS",
+    "_analysisTheme": "世界模型 / 3D 生成",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094829307273396230/vid/avc1/1920x1080/rjM4FvNW-XNSPu5I.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094829307273396230/img/6R12oZNwKyLuREue.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DEVEX UI",
+    "datetime": "2026-09-01T17:15:02.000Z",
+    "author": "JohnPhamous",
+    "handle": "JohnPhamous",
+    "avatar": "https://pbs.twimg.com/profile_images/1689659361726263298/wBOYRobp_200x200.png",
+    "title": "Vercel GitHub 评论减少视觉噪声",
+    "summary": "我会帮你抓取它，因为这是开发者体验里很具体的 UI 减噪案例：相对时间、Markdown 和评论层级都影响审查效率。",
+    "url": "https://x.com/JohnPhamous/status/2094836442250014936",
+    "metrics": "5 REPLIES · 0 REPOSTS · 219 LIKES · 56 BOOKMARKS · 9431 VIEWS",
+    "_analysisTheme": "DevEx / PR 评论 UI",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRJapCRaYAATm0Y.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "APP DESIGN",
+    "datetime": "2026-09-01T16:52:00.000Z",
+    "author": "Basic Apple Guy",
+    "handle": "BasicAppleGuy",
+    "avatar": "https://pbs.twimg.com/profile_images/1522623872717099013/h5fNVE5d_200x200.jpg",
+    "title": "Basic Apple Guy 推荐 Cibby 的手作 App 气质",
+    "summary": "我会帮你抓取它，因为 Cibby 强调趣味、工艺和爱用感，能提醒个人设计师如何让小 App 超越模板化界面。",
+    "url": "https://x.com/BasicAppleGuy/status/2094830643087822874",
+    "metrics": "6 REPLIES · 10 REPOSTS · 314 LIKES · 118 BOOKMARKS · 41289 VIEWS",
+    "_analysisTheme": "App craft / 趣味体验",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRJTx_mbMAAoB5Z.jpg?name=orig"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Michael Flarup",
+      "handle": "flarup",
+      "text": "I love collecting physical games. So I made something for it.\nCibby is out now on the App Store.\nhttps://apps.apple.com/app/id6790582307",
+      "url": "https://x.com/flarup/status/2094802255304155517",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2094800054171185152/vid/avc1/3840x2160/xYtevblx4ct2t4e1.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2094800054171185152/img/6kwIAiQ0tzdqcipF.jpg"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
+    "category": "3D TOOL",
+    "datetime": "2026-09-01T16:48:44.000Z",
+    "author": "🌵 Marcel Wiessler",
+    "handle": "marcel_wiessler",
+    "avatar": "https://pbs.twimg.com/profile_images/2072243335712960512/pDt07Zsg_200x200.jpg",
+    "title": "Needle Mesh Baker 支持浏览器本地 3D mesh 生成",
+    "summary": "我会帮你抓取它，因为它把本地 3D mesh、WebMCP 和 Three.js 连接起来，是 AI/3D 原型进入前端工具链的信号。",
+    "url": "https://x.com/marcel_wiessler/status/2094829824997048444",
+    "metrics": "1 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 234 VIEWS",
+    "_analysisTheme": "3D mesh / WebMCP",
+    "_analysisPriority": "high",
+    "links": [
+      "https://mesh-baker.needle.tools"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094829234338385920/vid/avc1/1898x1068/Uj-HPrpe6lq6BbGW.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094829234338385920/img/Rn5XwEcOarlmPhzR.jpg"
+      }
+    ]
+  },
+  {
     "category": "AI PRODUCT",
     "datetime": "2026-09-01T04:55:50.000Z",
     "author": "歸藏(guizang.ai)",
@@ -373,6 +875,29 @@
     ]
   },
   {
+    "category": "AI PRODUCT",
+    "datetime": "2026-08-31T23:54:11.000Z",
+    "author": "HarnessRouter",
+    "handle": "HARNESSROUTER",
+    "avatar": "https://pbs.twimg.com/profile_images/2080036047761879040/YwyG0I83_200x200.jpg",
+    "title": "HarnessRouter 用统一接口接 Codex/Claude/Hermes",
+    "summary": "我会帮你抓取它，因为多 harness 抽象正在成为 AI 工具链基础设施，值得研究如何把不同 agent 后端做成同一产品控制面。",
+    "url": "https://x.com/HARNESSROUTER/status/2094574501229109695",
+    "metrics": "2 REPLIES · 3 REPOSTS · 5 LIKES · 3 BOOKMARKS · 67 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/HarnessRouter/harnessrouter"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094572121771196416/vid/avc1/1200x1260/Y_M8eH-lXWbj5xHI.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094572121771196416/img/A5DXlY0RR02cQebG.jpg"
+      }
+    ]
+  },
+  {
     "category": "DESIGN SYSTEM",
     "datetime": "2026-08-31T23:52:39.000Z",
     "author": "meng shao",
@@ -402,29 +927,6 @@
       "media": [],
       "article": null
     }
-  },
-  {
-    "category": "AI PRODUCT",
-    "datetime": "2026-08-31T23:54:11.000Z",
-    "author": "HarnessRouter",
-    "handle": "HARNESSROUTER",
-    "avatar": "https://pbs.twimg.com/profile_images/2080036047761879040/YwyG0I83_200x200.jpg",
-    "title": "HarnessRouter 用统一接口接 Codex/Claude/Hermes",
-    "summary": "我会帮你抓取它，因为多 harness 抽象正在成为 AI 工具链基础设施，值得研究如何把不同 agent 后端做成同一产品控制面。",
-    "url": "https://x.com/HARNESSROUTER/status/2094574501229109695",
-    "metrics": "2 REPLIES · 3 REPOSTS · 5 LIKES · 3 BOOKMARKS · 67 VIEWS",
-    "_analysisTheme": "产品设计 / 设计工程",
-    "_analysisPriority": "high",
-    "links": [
-      "https://github.com/HarnessRouter/harnessrouter"
-    ],
-    "media": [
-      {
-        "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2094572121771196416/vid/avc1/1200x1260/Y_M8eH-lXWbj5xHI.mp4?tag=29",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094572121771196416/img/A5DXlY0RR02cQebG.jpg"
-      }
-    ]
   },
   {
     "category": "DESIGN TO CODE",
@@ -858,7 +1360,6 @@
       }
     ]
   },
-
   {
     "category": "DESIGN TOOL",
     "datetime": "2026-08-31T05:03:21.000Z",

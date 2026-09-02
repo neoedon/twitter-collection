@@ -1,6 +1,730 @@
-// Generated from authenticated X Likes via ego-browser on 2026-09-01T13:17:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-09-02T08:38:27+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2094803447920967862",
+    "TwitterUserID": "1247194043559358467",
+    "UserScreenName": "CleanShot",
+    "UserProfileName": "CleanShot",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1970795991570829312/vURRv3Ox_200x200.png",
+    "TweetText": "Introducing CleanShot 5.0 ✨\n\nThe new Studio Mode is all you need to turn a simple screen recording into a polished, professional video - with the quality you expect from CleanShot.\n\nAvailable now on all plans. No subscription required.",
+    "Tweet Url": "https://x.com/CleanShot/status/2094803447920967862",
+    "TweetCreatedDate": "2026-09-01T15:03:56.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094764405485420544/img/kHqUN5aGtAmiI3Ve.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094764405485420544/vid/avc1/3840x2160/xDEUYgW9tAJkim6j.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "界面系统 / 交互细节",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094764405485420544/vid/avc1/3840x2160/xDEUYgW9tAJkim6j.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094764405485420544/img/kHqUN5aGtAmiI3Ve.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "188 REPLIES · 140 REPOSTS · 2873 LIKES · 2269 BOOKMARKS · 354940 VIEWS",
+    "_analysisTheme": "界面系统 / 交互细节",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：Introducing CleanShot 5.0 ✨ The new Studio Mode is all you need to turn a simple screen recording into a polished, professional video - with the quality you expect from CleanShot. 。这条可作为界面系统 / 交互细节参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T15:03:56.000Z"
+    }
+  },
+  {
+    "TweetID": "2094779813072363554",
+    "TwitterUserID": "1861812535353020416",
+    "UserScreenName": "heydamir",
+    "UserProfileName": "Damir Sokolovsky",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1893988145777065984/pDTk6eJs_200x200.jpg",
+    "TweetText": "Imagine if your boarding pass printed like this 🎟️",
+    "Tweet Url": "https://x.com/heydamir/status/2094779813072363554",
+    "TweetCreatedDate": "2026-09-01T13:30:01.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094569959519371264/img/USKDKLIsH73lIkCL.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094569959519371264/vid/avc1/1244x2160/59AMXGr0CiRoFPMs.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计参考 / 灵感样本",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094569959519371264/vid/avc1/1244x2160/59AMXGr0CiRoFPMs.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094569959519371264/img/USKDKLIsH73lIkCL.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "18 REPLIES · 11 REPOSTS · 343 LIKES · 173 BOOKMARKS · 14133 VIEWS",
+    "_analysisTheme": "个人设计参考 / 灵感样本",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：Imagine if your boarding pass printed like this 🎟️。这条可作为个人设计参考 / 灵感样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T13:30:01.000Z"
+    }
+  },
+  {
+    "TweetID": "2094773809052328300",
+    "TwitterUserID": "762957991276445696",
+    "UserScreenName": "align_all",
+    "UserProfileName": "Ranjith",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2062073603705999360/P58khc_V_200x200.jpg",
+    "TweetText": "",
+    "Tweet Url": "https://x.com/align_all/status/2094773809052328300",
+    "TweetCreatedDate": "2026-09-01T13:06:09.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRIhqkJasAEruV7.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计参考 / 灵感样本",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRIhqkJasAEruV7.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "5 REPLIES · 0 REPOSTS · 67 LIKES · 18 BOOKMARKS · 1971 VIEWS",
+    "_analysisTheme": "个人设计参考 / 灵感样本",
+    "_analysisPriority": "low",
+    "_analysisNote": "收藏原因：原帖主要依靠媒体展示，正文留白；需要结合图像/视频判断其视觉策略。。这条可作为个人设计参考 / 灵感样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T13:06:09.000Z"
+    }
+  },
+  {
+    "TweetID": "2094761690973839780",
+    "TwitterUserID": "1684118409787609088",
+    "UserScreenName": "rebrandgallery",
+    "UserProfileName": "Rebrand",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1692208083559219200/6MKdjLEQ_200x200.png",
+    "TweetText": "Phytoca Visual Identity by @AfterHoursStud1🌱",
+    "Tweet Url": "https://x.com/rebrandgallery/status/2094761690973839780",
+    "TweetCreatedDate": "2026-09-01T12:18:00.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094761303445319680/img/LX9S6bztwKPqI-AV.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094761303445319680/vid/avc1/1688x1686/A2b_ua9JNTzHdQmk.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "视觉设计 / 创意工具",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094761303445319680/vid/avc1/1688x1686/A2b_ua9JNTzHdQmk.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094761303445319680/img/LX9S6bztwKPqI-AV.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "3 REPLIES · 15 REPOSTS · 507 LIKES · 250 BOOKMARKS · 8226 VIEWS",
+    "_analysisTheme": "视觉设计 / 创意工具",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Phytoca Visual Identity by @AfterHoursStud1🌱。这条可作为视觉设计 / 创意工具参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T12:18:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2094752976980099228",
+    "TwitterUserID": "2064330634487640064",
+    "UserScreenName": "anwarlemu_",
+    "UserProfileName": "Anwar Lemu",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2086888849041391616/sY6C9qyZ_200x200.jpg",
+    "TweetText": "",
+    "Tweet Url": "https://x.com/anwarlemu_/status/2094752976980099228",
+    "TweetCreatedDate": "2026-09-01T11:43:22.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094752887813373953/img/8WEdpH2uIc9erO80.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094752887813373953/vid/avc1/1128x744/RKjp00Ai7OVFQG8N.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计参考 / 灵感样本",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094752887813373953/vid/avc1/1128x744/RKjp00Ai7OVFQG8N.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094752887813373953/img/8WEdpH2uIc9erO80.jpg"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094752909221101568/vid/avc1/1128x746/SIpldGO9PsVBsRXl.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094752909221101568/img/NmwFh-hPk1CPdzgP.jpg"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094752926870695936/vid/avc1/1132x740/cASq0_-2glDj7fyN.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094752926870695936/img/tc8ylMg_dxZHfwEf.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "3 REPLIES · 2 REPOSTS · 93 LIKES · 67 BOOKMARKS · 2909 VIEWS",
+    "_analysisTheme": "个人设计参考 / 灵感样本",
+    "_analysisPriority": "low",
+    "_analysisNote": "收藏原因：原帖主要依靠媒体展示，正文留白；需要结合图像/视频判断其视觉策略。。这条可作为个人设计参考 / 灵感样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T11:43:22.000Z"
+    }
+  },
+  {
+    "TweetID": "2094726961851777231",
+    "TwitterUserID": "1682410871350255617",
+    "UserScreenName": "jordiplz",
+    "UserProfileName": "Jordi Plaza",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1710950678732902400/5zpvIZaT_200x200.jpg",
+    "TweetText": "Designing tools for wildfire operations",
+    "Tweet Url": "https://x.com/jordiplz/status/2094726961851777231",
+    "TweetCreatedDate": "2026-09-01T10:00:00.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HREED8BWwAABqxH.jpg?name=orig,https://pbs.twimg.com/media/HREED7-XUAA-CCe.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计参考 / 灵感样本",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HREED8BWwAABqxH.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HREED7-XUAA-CCe.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "15 REPLIES · 5 REPOSTS · 307 LIKES · 263 BOOKMARKS · 18812 VIEWS",
+    "_analysisTheme": "个人设计参考 / 灵感样本",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Designing tools for wildfire operations。这条可作为个人设计参考 / 灵感样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T10:00:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2094719194302706136",
+    "TwitterUserID": "909143568991772672",
+    "UserScreenName": "Zhiyu333",
+    "UserProfileName": "躺在废墟里",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2016120029448982528/71rt8rzR_200x200.jpg",
+    "TweetText": "一个 skill，让你做出顶级审美的图表。\n\n我开源的 Lieflat Charts 已经在 GitHub 2k star 啦～它是一套数据可视化与报告生成 skill，可供 Moxt、Claude Code、Codex 等 AI agent 使用。\n\n它由统一的字体、留白、线条和动效建立视觉语法，有60多种图型，覆盖柱、线、面积、直方图等基础图型，还有热力图、小提琴图、环形关系图、桑基图等复杂图型，部分还支持交互。\n\n色彩上，以黑白灰单色为基础，也支持青瓷蓝、椰林绿、编辑红三种色系，后续还会尝试更多丰富配色～\n\n这个skill 的原理是用 html 来做图表，好处很明显，有很丰富的动效，可以无缝衔接到 html 做的 PPT 中。如果需要 PPT 格式，也可以让 agent 转成动图贴进 PPT 里。\n\n使用非常简单，装好后把你的数据或者想要可视化的主题告诉agent，agent 会选择合适的图表类型，自动出图。如果你需要出报告，目前也有报告模式，可以一键产出数据可视化报告。\n\n感谢 @moxt_ai 让我做出这么好看的图表！\n\n#datavisualization #charts #skill #dataviz #html #aidesign",
+    "Tweet Url": "https://x.com/Zhiyu333/status/2094719194302706136",
+    "TweetCreatedDate": "2026-09-01T09:29:08.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094718063027576832/img/3-jeFNuXm4l5kY1Z.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094718063027576832/vid/avc1/1468x1080/B3MTUrAy80UYgM8Y.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI 产品 / 生成式工具",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094718063027576832/vid/avc1/1468x1080/B3MTUrAy80UYgM8Y.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094718063027576832/img/3-jeFNuXm4l5kY1Z.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "83 REPLIES · 334 REPOSTS · 3027 LIKES · 4772 BOOKMARKS · 159903 VIEWS",
+    "_analysisTheme": "AI 产品 / 生成式工具",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：一个 skill，让你做出顶级审美的图表。 我开源的 Lieflat Charts 已经在 GitHub 2k star 啦～它是一套数据可视化与报告生成 skill，可供 Moxt、Claude Code、Codex 等 AI agent 使用。 它由统一的字体、留白、线条和动效建立视觉语法，有60多种图型，覆盖柱、线、面积、直方图等基础图型，还有热力图、。这条可作为AI 产品 / 生成式工具参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T09:29:08.000Z"
+    }
+  },
+  {
+    "TweetID": "2094702171619213816",
+    "TwitterUserID": "296593919",
+    "UserScreenName": "vikingmute",
+    "UserProfileName": "Viking",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/725179208528322560/TPjU7qop_200x200.jpg",
+    "TweetText": "Vercel 这篇 《How our agents build on-brand pages with design.md》 非常好\nhttps://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md\n\n文章说的是 他们如何用一份公开的 design.md 让各种 coding agent 在任何场景下也能做出看起来像 Vercel 自己设计的页面，比如 pdf，报告，一次性活动页等等。\n\n通过不断进化 design.md，公开 css 文件，然后不断的评测迭代升级前两个文件。\n\n这里不仅仅是 design.md, 还有一个公开的 css 文件，把 header、表格、数据条、图表等做成有限 有文档的 class/token。agent 只在 HTML 里用这些名字 不再自己发明字号、间距、布局。样式表在浏览器里加载 不进模型上下文，我觉得这个创新挺有意思\n\n后面还有 Build your own 的教程，教你怎样从头开始打造一套这个系统，很实用。\n\n截图是文章中用之前和之后的对比。",
+    "Tweet Url": "https://x.com/vikingmute/status/2094702171619213816",
+    "TweetCreatedDate": "2026-09-01T08:21:30.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRHgc63aIAA3TZ6.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI 产品 / 生成式工具",
+      "media:image",
+      "link:read"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRHgc63aIAA3TZ6.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "46 REPLIES · 24 REPOSTS · 239 LIKES · 376 BOOKMARKS · 16347 VIEWS",
+    "_analysisTheme": "AI 产品 / 生成式工具",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Vercel 这篇 《How our agents build on-brand pages with design.md》 非常好 https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md 文章说的是 他们如何用一份公开的 design.md 让各种 coding 。这条可作为AI 产品 / 生成式工具参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T08:21:30.000Z"
+    }
+  },
+  {
+    "TweetID": "2094682322805158178",
+    "TwitterUserID": "1388024060827811841",
+    "UserScreenName": "guillaume_rygn",
+    "UserProfileName": "code w/Guillaume 💻",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1483519295288233991/9igtPNRr_200x200.jpg",
+    "TweetText": "J ai découvert une lib de composants UI rien que pour les agents IA 👀\n\nThinking, tool calls, texte en stream, diffs, tables… tout ce dont on a besoin pour designer un agent juste en copier coller !\n\nPlus besoin de designer un chat de zéro ! Le site c est https://aicss.dev",
+    "Tweet Url": "https://x.com/guillaume_rygn/status/2094682322805158178",
+    "TweetCreatedDate": "2026-09-01T07:02:37.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094682303930695681/img/Fh7OYmB00OWjEKWN.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094682303930695681/vid/avc1/1078x1218/tpKMeQw0q6fj4z-R.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI 产品 / 生成式工具",
+      "media:video",
+      "link:read"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094682303930695681/vid/avc1/1078x1218/tpKMeQw0q6fj4z-R.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094682303930695681/img/Fh7OYmB00OWjEKWN.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "6 REPLIES · 17 REPOSTS · 236 LIKES · 325 BOOKMARKS · 18884 VIEWS",
+    "_analysisTheme": "AI 产品 / 生成式工具",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：J ai découvert une lib de composants UI rien que pour les agents IA 👀 Thinking, tool calls, texte en stream, diffs, tables… tout ce dont on a besoin pour designer un agent juste e。这条可作为AI 产品 / 生成式工具参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T07:02:37.000Z"
+    }
+  },
+  {
+    "TweetID": "2094677801526014237",
+    "TwitterUserID": "1385636691461955585",
+    "UserScreenName": "olasam_uiux",
+    "UserProfileName": "富山",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2027879364411445248/vZQPXg5L_200x200.jpg",
+    "TweetText": "Journey screen for Dementia patients.\n\nGot an app that needs a better user experience? Let’s redesign it. My DMs are open. 👀",
+    "Tweet Url": "https://x.com/olasam_uiux/status/2094677801526014237",
+    "TweetCreatedDate": "2026-09-01T06:44:39.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRHKVfBaMAAXknh.jpg?name=orig,https://pbs.twimg.com/media/HRHKVe4bAAA2EN1.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计参考 / 灵感样本",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRHKVfBaMAAXknh.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRHKVe4bAAA2EN1.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "16 REPLIES · 9 REPOSTS · 141 LIKES · 131 BOOKMARKS · 7999 VIEWS",
+    "_analysisTheme": "个人设计参考 / 灵感样本",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Journey screen for Dementia patients. Got an app that needs a better user experience? Let’s redesign it. My DMs are open. 👀。这条可作为个人设计参考 / 灵感样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T06:44:39.000Z"
+    }
+  },
+  {
+    "TweetID": "2094666005993943174",
+    "TwitterUserID": "50683",
+    "UserScreenName": "dingyi",
+    "UserProfileName": "Ding",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2000755831135191040/s6Pf_wjc_200x200.jpg",
+    "TweetText": "发现这个做的是真漂亮。\n\nhttps://prequel.sh/",
+    "Tweet Url": "https://x.com/dingyi/status/2094666005993943174",
+    "TweetCreatedDate": "2026-09-01T05:57:47.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRG_mH3acAA_IKC.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计参考 / 灵感样本",
+      "media:image",
+      "link:read"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRG_mH3acAA_IKC.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "Ding",
+      "handle": "dingyi",
+      "text": "上周出现了好多新的视频录制工具，这个赛道真是太卷了。\n\n三个付费的：\n\n- https://shotbase.com/\n- https://matte.app/\n- https://screenflare.app/\n\n还有一个开源的：\nhttps://github.com/fayazara/screendrop",
+      "url": "https://x.com/dingyi/status/2093670500371489045",
+      "media": [],
+      "article": null
+    },
+    "_article": null,
+    "_metrics": "11 REPLIES · 3 REPOSTS · 46 LIKES · 64 BOOKMARKS · 11286 VIEWS",
+    "_analysisTheme": "个人设计参考 / 灵感样本",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：发现这个做的是真漂亮。 https://prequel.sh/。这条可作为个人设计参考 / 灵感样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T05:57:47.000Z"
+    }
+  },
+  {
+    "TweetID": "2094651325279777124",
+    "TwitterUserID": "34139208",
+    "UserScreenName": "radiofun8",
+    "UserProfileName": "Minsang Choi",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2077539226661560320/OoEKBEl1_200x200.jpg",
+    "TweetText": "Zoom https://apps.apple.com/us/app/ev13-light-meter-app/id6749815010",
+    "Tweet Url": "https://x.com/radiofun8/status/2094651325279777124",
+    "TweetCreatedDate": "2026-09-01T04:59:27.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094651298633445376/img/wknvzyuEuVq8m8iI.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094651298633445376/vid/avc1/1920x1080/UOPu-OhJVFtCdWiS.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计参考 / 灵感样本",
+      "media:video",
+      "link:read"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094651298633445376/vid/avc1/1920x1080/UOPu-OhJVFtCdWiS.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094651298633445376/img/wknvzyuEuVq8m8iI.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "6 REPLIES · 0 REPOSTS · 99 LIKES · 30 BOOKMARKS · 4902 VIEWS",
+    "_analysisTheme": "个人设计参考 / 灵感样本",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Zoom https://apps.apple.com/us/app/ev13-light-meter-app/id6749815010。这条可作为个人设计参考 / 灵感样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T04:59:27.000Z"
+    }
+  },
+  {
+    "TweetID": "2094645503707292074",
+    "TwitterUserID": "1696922879089164297",
+    "UserScreenName": "neropursue",
+    "UserProfileName": "Nero",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2044050048720195584/2igILgnd_200x200.jpg",
+    "TweetText": "Icon sites for your next project.\n\n- http://itshover.com/icons\n- http://web.iconly.pro\n- http://nucleoapp.com\n- http://iconsax.io\n- http://isocons.app\n- http://hugeicons.com\n- http://morphicons.com\n- http://lucide-animated.com\n- http://movingicons.dev/icons\n\nWhat am I missing?",
+    "Tweet Url": "https://x.com/neropursue/status/2094645503707292074",
+    "TweetCreatedDate": "2026-09-01T04:36:19.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094643106553442304/img/1fcVq69aqrT23da2.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094643106553442304/vid/avc1/1160x720/yMt4A1GsHUKA6djM.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "视觉设计 / 创意工具",
+      "media:video",
+      "link:read"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094643106553442304/vid/avc1/1160x720/yMt4A1GsHUKA6djM.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094643106553442304/img/1fcVq69aqrT23da2.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "24 REPLIES · 116 REPOSTS · 814 LIKES · 1185 BOOKMARKS · 31621 VIEWS",
+    "_analysisTheme": "视觉设计 / 创意工具",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Icon sites for your next project. - http://itshover.com/icons - http://web.iconly.pro - http://nucleoapp.com - http://iconsax.io - http://isocons.app - http://hugeicons.com - http:。这条可作为视觉设计 / 创意工具参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T04:36:19.000Z"
+    }
+  },
+  {
+    "TweetID": "2094568904152744031",
+    "TwitterUserID": "1836784281529864192",
+    "UserScreenName": "YM_AlphaNotes",
+    "UserProfileName": "玉米_AlphaNotes",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2079405248599527424/LCxVZHAa_200x200.jpg",
+    "TweetText": "这是真大神～\nMicroduck 被拆解了～\n其他的交给华强北～",
+    "Tweet Url": "https://x.com/YM_AlphaNotes/status/2094568904152744031",
+    "TweetCreatedDate": "2026-08-31T23:31:56.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094442593039847424/img/VOWyWbIpxTz88F8o.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094442593039847424/vid/avc1/1104x720/_26HiEqYLwhzafhN.mp4?tag=14",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计参考 / 灵感样本",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094442593039847424/vid/avc1/1104x720/_26HiEqYLwhzafhN.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094442593039847424/img/VOWyWbIpxTz88F8o.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "21 REPLIES · 58 REPOSTS · 365 LIKES · 299 BOOKMARKS · 43783 VIEWS",
+    "_analysisTheme": "个人设计参考 / 灵感样本",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：这是真大神～ Microduck 被拆解了～ 其他的交给华强北～。这条可作为个人设计参考 / 灵感样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-08-31T23:31:56.000Z"
+    }
+  },
+  {
+    "TweetID": "2094519795043479723",
+    "TwitterUserID": "1161272189645180931",
+    "UserScreenName": "alextalksai",
+    "UserProfileName": "alex",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2076410235124670464/-GDnMmi7_200x200.jpg",
+    "TweetText": "Tu página web huele a lA a kilómetros.\n\nMismos layouts, mismas animaciones у el mismo diseño genérico que ves en todas partes.\n\nTaste soluciona justo eso.\n\nUna skill de código abierto que mejora el diseño de las interfaces que crean tus agentes:\n\n→ Mejores layouts, tipografías y espaciados\n→ Animaciones y motion mucho más cuidados \n→ Diferentes estilos visuales según el proyecto \n→ Compatible con Claude Code, Codex, Cursor, Gemini CLI y otros agentes\n\nYa supera las 90.000 stars en GitHub y tiene licencia MIT.\n\nRepo aquí abajo 👇",
+    "Tweet Url": "https://x.com/alextalksai/status/2094519795043479723",
+    "TweetCreatedDate": "2026-08-31T20:16:48.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094519755847720960/img/ViuL15Fcnbej48Xx.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094519755847720960/vid/avc1/1920x1080/moO-Oy2UrUrK-Iop.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI 产品 / 生成式工具",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094519755847720960/vid/avc1/1920x1080/moO-Oy2UrUrK-Iop.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094519755847720960/img/ViuL15Fcnbej48Xx.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "23 REPLIES · 157 REPOSTS · 862 LIKES · 960 BOOKMARKS · 45306 VIEWS",
+    "_analysisTheme": "AI 产品 / 生成式工具",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Tu página web huele a lA a kilómetros. Mismos layouts, mismas animaciones у el mismo diseño genérico que ves en todas partes. Taste soluciona justo eso. Una skill de código abierto。这条可作为AI 产品 / 生成式工具参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-08-31T20:16:48.000Z"
+    }
+  },
+  {
+    "TweetID": "2094511040008782118",
+    "TwitterUserID": "70025211",
+    "UserScreenName": "krispuckett",
+    "UserProfileName": "Kris Puckett",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1992966959332515840/oINWDvCk_200x200.jpg",
+    "TweetText": "Thinking orbs - now web-based:\nhttps://murmur.krispuckett.com",
+    "Tweet Url": "https://x.com/krispuckett/status/2094511040008782118",
+    "TweetCreatedDate": "2026-08-31T19:42:00.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094510638869741568/img/NMyC7poEVFyKiiw_.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094510638869741568/vid/avc1/3014x1604/FZOA9R6STMCjIpMd.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计参考 / 灵感样本",
+      "media:video",
+      "link:read"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094510638869741568/vid/avc1/3014x1604/FZOA9R6STMCjIpMd.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094510638869741568/img/NMyC7poEVFyKiiw_.jpg"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "Kris Puckett",
+      "handle": "krispuckett",
+      "text": "Anyone need some swiftUI glass orbs/shapes for their projects? \n\nControl the parameters, copy back to your agent, use in your own apps. \n\nhttps://github.com/krispuckett/murmur",
+      "url": "https://x.com/krispuckett/status/2093789867864211908",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2093787305895215104/vid/avc1/3840x2160/obmtVxFMiRXjK078.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2093787305895215104/img/5uLrav_GVEnrMvF6.jpg"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQ6gpD3aIAABnIv.jpg?name=orig"
+        }
+      ],
+      "article": null
+    },
+    "_article": null,
+    "_metrics": "7 REPLIES · 24 REPOSTS · 421 LIKES · 494 BOOKMARKS · 30089 VIEWS",
+    "_analysisTheme": "个人设计参考 / 灵感样本",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Thinking orbs - now web-based: https://murmur.krispuckett.com。这条可作为个人设计参考 / 灵感样本参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-08-31T19:42:00.000Z"
+    }
+  },
+  {
+    "TweetID": "2094473742936105207",
+    "TwitterUserID": "1902789498645127168",
+    "UserScreenName": "mockup_lab",
+    "UserProfileName": "Mockup Lab",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1962898449646424064/TF0JXraz_200x200.jpg",
+    "TweetText": "this is onlyfans for designers",
+    "Tweet Url": "https://x.com/mockup_lab/status/2094473742936105207",
+    "TweetCreatedDate": "2026-08-31T17:13:48.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HREQwW2WMAAFLDs.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "视觉设计 / 创意工具",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HREQwW2WMAAFLDs.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "10 REPLIES · 51 REPOSTS · 1119 LIKES · 718 BOOKMARKS · 35773 VIEWS",
+    "_analysisTheme": "视觉设计 / 创意工具",
+    "_analysisPriority": "low",
+    "_analysisNote": "收藏原因：this is onlyfans for designers。这条可作为视觉设计 / 创意工具参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-08-31T17:13:48.000Z"
+    }
+  },
   {
     "TweetID": "2094455284169396561",
     "TwitterUserID": "4018962791",
@@ -350,6 +1074,72 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2094340609410818084",
+    "TwitterUserID": "1417344738638766086",
+    "UserScreenName": "ayushsoni_io",
+    "UserProfileName": "Ayush Soni",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1840917900087201792/ATJCpFf0_200x200.jpg",
+    "TweetText": "soft gradients + ui",
+    "Tweet Url": "https://x.com/ayushsoni_io/status/2094340609410818084",
+    "TweetCreatedDate": "2026-08-31T08:24:46.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094340547481948160/img/YagbfTdcahGxkP85.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094340547481948160/vid/avc1/1920x1080/J9SqSX7HiXKIpZAz.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "视觉设计 / 创意工具",
+      "media:video",
+      "link:read"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094340547481948160/vid/avc1/1920x1080/J9SqSX7HiXKIpZAz.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094340547481948160/img/YagbfTdcahGxkP85.jpg"
+      }
+    ],
+    "_quote": {
+      "label": "引用原帖",
+      "author": "Ayush Soni",
+      "handle": "ayushsoni_io",
+      "text": "soft + fluid systems",
+      "url": "https://x.com/ayushsoni_io/status/2093977162919645684",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQ9NF9NbEAADUiW.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQ9NF7jaAAE2809.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQ9NF9Ta8AAemcM.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HQ9NF7maQAA9UlB.jpg?name=orig"
+        }
+      ],
+      "article": null
+    },
+    "_article": null,
+    "_metrics": "12 REPLIES · 19 REPOSTS · 748 LIKES · 555 BOOKMARKS · 38924 VIEWS",
+    "_analysisTheme": "视觉设计 / 创意工具",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：soft gradients + ui。这条可作为视觉设计 / 创意工具参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-02T08:38:27+08:00",
+      "source": "ego-browser:x.com/i/history/likes",
+      "observedDatetime": "2026-08-31T08:24:46.000Z"
+    }
+  },
+  {
     "TweetID": "2094336873649021426",
     "TwitterUserID": "1019085216768389121",
     "UserScreenName": "LvPza",
@@ -653,87 +1443,6 @@ window.LIKED_BACKFILL = [
     }
   },
   {
-    "TweetID": "2094100168740131131",
-    "TwitterUserID": "1810005955607941120",
-    "UserScreenName": "juli_fella",
-    "UserProfileName": "Julian Fella",
-    "UserProfilePic": "https://pbs.twimg.com/profile_images/2010987996292521984/G5elTOkF_200x200.jpg",
-    "TweetText": "Everbody does vertical morphing pills...\n\nWe said enough. So we created this horizontal 2-step morphing menu animation.\n\nPart of our full kit: https://annnimate.com/kits/menu?utm_source=x&utm_medium=post&utm_campaign=menu-kit-daily&utm_id=menu-kit",
-    "Tweet Url": "https://x.com/juli_fella/status/2094100168740131131",
-    "TweetCreatedDate": "2026-08-30T16:29:21.000Z",
-    "MediaType": "video",
-    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094098676356358144/img/ld8d3XhICdgyflhi.jpg",
-    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094098676356358144/vid/avc1/1280x804/TxPm_CdG4iud2beo.mp4?tag=29",
-    "HasLink": "True",
-    "Translation": "",
-    "Summary": "",
-    "_source": "favourite",
-    "_tags": [
-      "Like",
-      "影像动效",
-      "media:video"
-    ],
-    "_media": [
-      {
-        "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2094098676356358144/vid/avc1/1280x804/TxPm_CdG4iud2beo.mp4?tag=29",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094098676356358144/img/ld8d3XhICdgyflhi.jpg"
-      }
-    ],
-    "_quote": null,
-    "_article": null,
-    "_metrics": "12 REPLIES · 23 REPOSTS · 572 LIKES · 489 BOOKMARKS · 38419 VIEWS",
-    "_analysisTheme": "影像动效 / 创作流程",
-    "_analysisPriority": "high",
-    "_analysisNote": "收藏原因：Everbody does vertical morphing pills... We said enough. So we created this horizontal 2-…。这条可作为影像动效 / 创作流程参考。",
-    "_likedSync": {
-      "capturedAt": "2026-09-01T08:18:00+08:00",
-      "source": "ego-browser:x.com/neoedon414/likes",
-      "observedDatetime": "2026-08-30T16:29:21.000Z"
-    }
-  },
-  {
-    "TweetID": "2093972155893486008",
-    "TwitterUserID": "1675456073375920129",
-    "UserScreenName": "noahelhadedy",
-    "UserProfileName": "𝐍𝐨𝐚𝐡",
-    "UserProfilePic": "https://pbs.twimg.com/profile_images/2056319844094492672/8vkVV6Vj_200x200.jpg",
-    "TweetText": "Zoah is building a new platform that aims to eliminate the gap between design and code, with the canvas as the source of truth.\n\nDesign, version, publish, and ship components from one place.\n\n→ https://zoah.com",
-    "Tweet Url": "https://x.com/noahelhadedy/status/2093972155893486008",
-    "TweetCreatedDate": "2026-08-30T08:00:40.000Z",
-    "MediaType": "video",
-    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093972087278911489/img/O3geEFYwDCQif5Oz.jpg",
-    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093972087278911489/vid/avc1/1280x720/dch4y49pNXQNX2hj.mp4?tag=29",
-    "HasLink": "True",
-    "Translation": "",
-    "Summary": "",
-    "_source": "favourite",
-    "_tags": [
-      "Like",
-      "产品设计",
-      "media:video"
-    ],
-    "_media": [
-      {
-        "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2093972087278911489/vid/avc1/1280x720/dch4y49pNXQNX2hj.mp4?tag=29",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093972087278911489/img/O3geEFYwDCQif5Oz.jpg"
-      }
-    ],
-    "_quote": null,
-    "_article": null,
-    "_metrics": "4 REPLIES · 7 REPOSTS · 106 LIKES · 120 BOOKMARKS · 14198 VIEWS",
-    "_analysisTheme": "产品设计 / 设计工程",
-    "_analysisPriority": "high",
-    "_analysisNote": "收藏原因：Zoah is building a new platform that aims to eliminate the gap between design and code, w…。这条可作为产品设计 / 设计工程参考。",
-    "_likedSync": {
-      "capturedAt": "2026-09-01T08:18:00+08:00",
-      "source": "ego-browser:x.com/neoedon414/likes",
-      "observedDatetime": "2026-08-30T08:00:40.000Z"
-    }
-  },
-
-  {
     "TweetID": "2094103370311287084",
     "TwitterUserID": "34139208",
     "UserScreenName": "radiofun8",
@@ -777,6 +1486,46 @@ window.LIKED_BACKFILL = [
       "capturedAt": "2026-08-31T10:16:00+08:00",
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedDatetime": "2026-08-30T16:42:04.000Z"
+    }
+  },
+  {
+    "TweetID": "2094100168740131131",
+    "TwitterUserID": "1810005955607941120",
+    "UserScreenName": "juli_fella",
+    "UserProfileName": "Julian Fella",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2010987996292521984/G5elTOkF_200x200.jpg",
+    "TweetText": "Everbody does vertical morphing pills...\n\nWe said enough. So we created this horizontal 2-step morphing menu animation.\n\nPart of our full kit: https://annnimate.com/kits/menu?utm_source=x&utm_medium=post&utm_campaign=menu-kit-daily&utm_id=menu-kit",
+    "Tweet Url": "https://x.com/juli_fella/status/2094100168740131131",
+    "TweetCreatedDate": "2026-08-30T16:29:21.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094098676356358144/img/ld8d3XhICdgyflhi.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094098676356358144/vid/avc1/1280x804/TxPm_CdG4iud2beo.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "影像动效",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094098676356358144/vid/avc1/1280x804/TxPm_CdG4iud2beo.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094098676356358144/img/ld8d3XhICdgyflhi.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "12 REPLIES · 23 REPOSTS · 572 LIKES · 489 BOOKMARKS · 38419 VIEWS",
+    "_analysisTheme": "影像动效 / 创作流程",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Everbody does vertical morphing pills... We said enough. So we created this horizontal 2-…。这条可作为影像动效 / 创作流程参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-30T16:29:21.000Z"
     }
   },
   {
@@ -857,6 +1606,46 @@ window.LIKED_BACKFILL = [
       "capturedAt": "2026-08-31T10:16:00+08:00",
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedDatetime": "2026-08-30T13:49:17.000Z"
+    }
+  },
+  {
+    "TweetID": "2093972155893486008",
+    "TwitterUserID": "1675456073375920129",
+    "UserScreenName": "noahelhadedy",
+    "UserProfileName": "𝐍𝐨𝐚𝐡",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2056319844094492672/8vkVV6Vj_200x200.jpg",
+    "TweetText": "Zoah is building a new platform that aims to eliminate the gap between design and code, with the canvas as the source of truth.\n\nDesign, version, publish, and ship components from one place.\n\n→ https://zoah.com",
+    "Tweet Url": "https://x.com/noahelhadedy/status/2093972155893486008",
+    "TweetCreatedDate": "2026-08-30T08:00:40.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2093972087278911489/img/O3geEFYwDCQif5Oz.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2093972087278911489/vid/avc1/1280x720/dch4y49pNXQNX2hj.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品设计",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2093972087278911489/vid/avc1/1280x720/dch4y49pNXQNX2hj.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2093972087278911489/img/O3geEFYwDCQif5Oz.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "4 REPLIES · 7 REPOSTS · 106 LIKES · 120 BOOKMARKS · 14198 VIEWS",
+    "_analysisTheme": "产品设计 / 设计工程",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：Zoah is building a new platform that aims to eliminate the gap between design and code, w…。这条可作为产品设计 / 设计工程参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-01T08:18:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes",
+      "observedDatetime": "2026-08-30T08:00:40.000Z"
     }
   },
   {
