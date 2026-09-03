@@ -1,6 +1,432 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "AI TOOL",
+    "datetime": "2026-09-03T01:35:00.000Z",
+    "author": "scriba",
+    "handle": "deusproof",
+    "avatar": "https://pbs.twimg.com/profile_images/2075907088765636608/bgI_Yxhy_200x200.jpg",
+    "title": "deusproof 用 MCP 检查发布前相似内容",
+    "summary": "我会帮你抓取它，因为它把 agent 发布前的查重与工具设置连起来，适合研究内容生产 workflow 的质量闸门。",
+    "url": "https://x.com/deusproof/status/2095324649156706534",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 1 VIEWS",
+    "_analysisTheme": "Agent Dashboard / 团队循环",
+    "_analysisPriority": "high",
+    "links": [
+      "https://deusproof.com/mcp",
+      "https://deusproof.com/skill.md?src=seal"
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-09-03T01:33:18.000Z",
+    "author": "darrenyao",
+    "handle": "darrenyao",
+    "avatar": "https://pbs.twimg.com/profile_images/949951852870684672/PAglWa4F_200x200.jpg",
+    "title": "darrenyao 描述企业内 AI 代办协作模式",
+    "summary": "我会帮你抓取它，因为它展示 Coding Agent 代表人去读写企业消息和确认需求，暴露了代理权限与交付闭环设计问题。",
+    "url": "https://x.com/darrenyao/status/2095324220918301157",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 3 VIEWS",
+    "_analysisTheme": "AI 产品 / Agent 工作流",
+    "_analysisPriority": "medium",
+    "quote": {
+      "label": "引用原帖",
+      "author": "美研芒格君",
+      "handle": "Kay2289123",
+      "text": "在硅谷创业，现在toA非常火（to agent，做ai agent用的产品），想分享一个珍贵的、最近沉淀下来的初创 idea，来源于我团队真实的数据 它起源于实际团队协作的一个痛点，很多人一定也有同感 一句话来说，我把它叫做团队共同记忆演化，什么意思呢？ 团队有明星员工，ai/codex/claude用的飞起，Context - Dev - Skill - Eval -Loop做的飞起，但遇到3个致命问题 1. 不可迁移。大部分p50水平员工不会做，导致团队内水平不对齐，大量重复工作和人力消耗 2. 不可演化。Loop中ai总能发现问题，可能是pm/QA发现的，也可能是RD自测，ad hoc解决完之后，domian specific的问题是fable 5.1 也无法解决的，我预计这类私有化问题还会持续很长的时间 3. AI大材小用。任务并不一定需要高智能，但是现在小模型做得不够好（比如 GLM、Kimi 也一次性做不好），所以团队成员还会尽可能地用贵的模型去做。 但其实可以 Record as a skill，或者通过 post-training 让本地极小、极便宜的模型在某个特定的、重复性高且使用频率高的场景下，做到和顶级模型一样的表现，这样成本更低 这个问题其实很多开源项目已经在做了，但我拿下来测试都差强人意，并不 fit 我的实际业务数据。 这是我 side project 方向在探索的问题。如果有好的产品，欢迎分享；如果你有好的 idea，也欢迎让我知道",
+      "url": "https://x.com/Kay2289123/status/2095220542198739170",
+      "media": [],
+      "article": null
+    }
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-03T01:30:03.000Z",
+    "author": "のりちゃん@個人開発集会",
+    "handle": "noricha_vr",
+    "avatar": "https://pbs.twimg.com/profile_images/1580377369139122177/001aahge_200x200.jpg",
+    "title": "Grok Bot 被解读为降低 Agent 使用门槛",
+    "summary": "我会帮你抓取它，因为它从用户入口而非模型能力解释 Grok Bot，适合对比 CLI/GUI/系统权限的 Agent UX。",
+    "url": "https://x.com/noricha_vr/status/2095323402617946385",
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 32 VIEWS",
+    "_analysisTheme": "协同编辑 / CRDT 与 OT",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQVha8bgAAUjbr.png?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-03T01:29:12.000Z",
+    "author": "Yusuke Nakajima",
+    "handle": "nakajimeeee",
+    "avatar": "https://pbs.twimg.com/profile_images/2008926099657617408/FTtj5scB_200x200.jpg",
+    "title": "SpecterOps 发布面向 AI Agent 的 Skills 知识库",
+    "summary": "我会帮你抓取它，因为安全团队把实务知识打包给 Agent，是专业能力迁移到 skill/repo 的典型案例。",
+    "url": "https://x.com/nakajimeeee/status/2095323189228519625",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 35 VIEWS",
+    "_analysisTheme": "Agent Skills / 安全知识库",
+    "_analysisPriority": "high",
+    "links": [
+      "https://specterops.io/blog/2026/09/02/specterops-skills/#h-what-is-in-the-repository"
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-03T01:23:07.000Z",
+    "author": "sunshineLx",
+    "handle": "ios_1261142602",
+    "avatar": "https://pbs.twimg.com/profile_images/1931234586358632448/r96_v06c_200x200.jpg",
+    "title": "Mac 原生多 AI 管理工具整合 Cursor/Grok/Codex",
+    "summary": "我会帮你抓取它，因为它把 Notes、任务排期和多 Agent 切换放在同一桌面工具里，是个人 AI 工作台参考。",
+    "url": "https://x.com/ios_1261142602/status/2095321657997140193",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 23 VIEWS",
+    "_analysisTheme": "协同编辑 / CRDT 与 OT",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQRM7bbEAAKSB6.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQT2t7asAEsbWB.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQT3WobkAA1Gd_.jpg?name=orig"
+      }
+    ],
+    "links": [
+      "https://www.usemono.dev/"
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-03T00:45:03.000Z",
+    "author": "こぎそ",
+    "handle": "kgsi",
+    "avatar": "https://pbs.twimg.com/profile_images/1783287678013943808/a1YcQIop_200x200.jpg",
+    "title": "Money Forward 公开 Design Harness 实践",
+    "summary": "我会帮你抓取它，因为它回应 Figma 评论、工具交接和设计流程文档化问题，是团队级 design harness 的实操参考。",
+    "url": "https://x.com/kgsi/status/2095312081474277507",
+    "metrics": "0 REPLIES · 0 REPOSTS · 2 LIKES · 10 BOOKMARKS · 464 VIEWS",
+    "_analysisTheme": "协同编辑 / CRDT 与 OT",
+    "_analysisPriority": "high",
+    "links": [
+      "https://note.com/mfdesign/n/n51eb399cefc0?sub_rt=share_pw"
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-03T00:44:54.000Z",
+    "author": "Superagentic AI",
+    "handle": "SuperagenticAI",
+    "avatar": "https://pbs.twimg.com/profile_images/2093433784058167296/oP33VqSG_200x200.jpg",
+    "title": "SuperQode v2 强调 coding agent harness 互通",
+    "summary": "我会帮你抓取它，因为 A2A/ACP/UHP 等协议互通会影响多 Agent 工具的任务移交、状态和日志设计。",
+    "url": "https://x.com/SuperagenticAI/status/2095312043268046869",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 14 VIEWS",
+    "_analysisTheme": "Agent Harness / 协议互通",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095311530338217987/vid/avc1/1114x720/BUsQsLZQdNHxBYGr.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095311530338217987/img/JuBgbCC-9DCQ1ntK.jpg"
+      }
+    ],
+    "links": [
+      "https://superqode.dev/"
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-03T00:41:43.000Z",
+    "author": "Juntao Qiu | 邱俊涛",
+    "handle": "JuntaoQiu",
+    "avatar": "https://pbs.twimg.com/profile_images/2054788532062113792/7E_TEOJb_200x200.jpg",
+    "title": "Juntao Qiu 拆解 Figma/Docs 协同同步",
+    "summary": "我会帮你抓取它，因为它把多人协作编辑拆成 OT、CRDT 和同步边界，是设计工程师理解画布类产品底层交互的好入口。",
+    "url": "https://x.com/JuntaoQiu/status/2095311241728373245",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 19 VIEWS",
+    "_analysisTheme": "协同编辑 / CRDT 与 OT",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQKeFFboAAyrRb.jpg?name=orig"
+      }
+    ],
+    "links": [
+      "https://www.youtube.com/watch?v=dAE-Zr62JFA"
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-03T00:18:11.000Z",
+    "author": "Mo Rajabi",
+    "handle": "morajabi",
+    "avatar": "https://pbs.twimg.com/profile_images/2084271965049643008/cogEXJjE_200x200.jpg",
+    "title": "inline 发布面向团队与 Agent 的聊天应用",
+    "summary": "我会帮你抓取它，因为它把团队聊天、Agent 对话和个人沟通放进同一界面，适合研究 AI 时代工作沟通产品的默认形态。",
+    "url": "https://x.com/morajabi/status/2095305318582440062",
+    "metrics": "0 REPLIES · 0 REPOSTS · 5 LIKES · 1 BOOKMARKS · 89 VIEWS",
+    "_analysisTheme": "协同编辑 / CRDT 与 OT",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095302361115738114/vid/avc1/1920x1080/TZ_aHMy5eJBMVP1Q.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095302361115738114/img/w3c7HgtEFzNQPhUb.jpg"
+      }
+    ],
+    "links": [
+      "https://inline.chat"
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-02T23:24:23.000Z",
+    "author": "Chris Tate",
+    "handle": "ctatedev",
+    "avatar": "https://pbs.twimg.com/profile_images/1793812678462365696/rJGwsL4h_200x200.jpg",
+    "title": "wterm 支持 Kitty 键盘协议和终端图片",
+    "summary": "我会帮你抓取它，因为终端组件正在变成可嵌入 UI primitive，对 agent devtools 和网页 IDE 设计很重要。",
+    "url": "https://x.com/ctatedev/status/2095291779117396219",
+    "metrics": "3 REPLIES · 1 REPOSTS · 34 LIKES · 10 BOOKMARKS · 2624 VIEWS",
+    "_analysisTheme": "协同编辑 / CRDT 与 OT",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRP4xKIXwAApKCk.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-02T22:35:17.000Z",
+    "author": "Michael Andreuzza",
+    "handle": "Mike_Andreuzza",
+    "avatar": "https://pbs.twimg.com/profile_images/2088879818745970688/DxCc1g58_200x200.jpg",
+    "title": "Kobbe 把事件用量状态放进侧栏",
+    "summary": "我会帮你抓取它，因为它用常驻侧栏、阈值颜色和暂停提示处理用量上限，是仪表盘状态设计的可复用案例。",
+    "url": "https://x.com/Mike_Andreuzza/status/2095279422941077959",
+    "metrics": "0 REPLIES · 1 REPOSTS · 13 LIKES · 3 BOOKMARKS · 551 VIEWS",
+    "_analysisTheme": "协同编辑 / CRDT 与 OT",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRPtgTZa4AAQXbO.jpg?name=orig"
+      }
+    ],
+    "links": [
+      "https://Kobbe.io"
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-02T22:22:13.000Z",
+    "author": "Boris Cherny",
+    "handle": "bcherny",
+    "avatar": "https://pbs.twimg.com/profile_images/1902044548936953856/J2jeik0t_200x200.jpg",
+    "title": "Claude Tag 用 Fable 5.1 串联数据到领导力 deck",
+    "summary": "我会帮你抓取它，因为它展示 Agent 从表格、Slack 和供应商报告生成演示并校验数字，是高价值办公 workflow 样板。",
+    "url": "https://x.com/bcherny/status/2095276133214491086",
+    "metrics": "57 REPLIES · 13 REPOSTS · 388 LIKES · 103 BOOKMARKS · 43349 VIEWS",
+    "_analysisTheme": "协同编辑 / CRDT 与 OT",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095275805660319744/vid/avc1/1920x1080/QXN6yvBP6dq5pzDD.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095275805660319744/img/Sh4F68VgVznJYwNq.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-09-02T21:13:56.000Z",
+    "author": "Patrick Erichsen",
+    "handle": "Pat_Erichsen",
+    "avatar": "https://pbs.twimg.com/profile_images/2018201535340228608/ZPW8FN3m_200x200.jpg",
+    "title": "OpenClaw 2.0 用 prompt 生成 Dashboard",
+    "summary": "我会帮你抓取它，因为它把 dashboard 变成团队循环工具，而不是静态图表，适合研究 Agent 生成运营视图。",
+    "url": "https://x.com/Pat_Erichsen/status/2095258951336259677",
+    "metrics": "10 REPLIES · 9 REPOSTS · 79 LIKES · 45 BOOKMARKS · 10066 VIEWS",
+    "_analysisTheme": "团队聊天 / Agent 协作界面",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095253207501193216/vid/avc1/3752x2160/_z3mJnwpDbBGz-E0.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095253207501193216/img/hQO2jLRws1kTGKnq.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-09-02T21:07:49.000Z",
+    "author": "Cursor",
+    "handle": "cursor_ai",
+    "avatar": "https://pbs.twimg.com/profile_images/1970182748146180096/dhZeXi_X_200x200.jpg",
+    "title": "Cursor 支持在自有基础设施运行 Cloud Agents",
+    "summary": "我会帮你抓取它，因为它把 Agent 产品从云端托管推进到企业自有机器池，影响权限、环境和任务监控设计。",
+    "url": "https://x.com/cursor_ai/status/2095257412781396114",
+    "metrics": "98 REPLIES · 114 REPOSTS · 2028 LIKES · 506 BOOKMARKS · 161729 VIEWS",
+    "_analysisTheme": "Agent 基础设施 / 私有环境",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095257368871550976/vid/avc1/2400x1260/CDbupwjtUhblJSGi.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095257368871550976/img/bzHF0vupQb_47VF6.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-02T20:53:58.000Z",
+    "author": "MAZE",
+    "handle": "remvze",
+    "avatar": "https://pbs.twimg.com/profile_images/2082915897627324417/xHjxpMlG_200x200.jpg",
+    "title": "MAZE 讨论会写代码的设计师如何工作",
+    "summary": "我会帮你抓取它，因为它把设计师写代码从身份标签拉回工作方法，适合整理个人设计工程成长路线。",
+    "url": "https://x.com/remvze/status/2095253925683175618",
+    "metrics": "2 REPLIES · 2 REPOSTS · 68 LIKES · 30 BOOKMARKS · 5917 VIEWS",
+    "_analysisTheme": "协同编辑 / CRDT 与 OT",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Brett",
+      "handle": "BrettFromDJ",
+      "text": "Playgrnd® beta is live. No account. No paywall. 100% free. 32 tiny tools for making weird, beautiful things, with new ones dropping every day. Animate in one click. Dither everything. Export SVGs. Go make something weird. 🛝 https://playgrnd.tools",
+      "url": "https://x.com/BrettFromDJ/status/2095204227563868669",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2095204021846134784/vid/avc1/1920x1440/AXVZ1q4xyjteqtdl.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2095204021846134784/img/azzm5BSbHmfeu0Fz.jpg"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
+    "category": "AI AGENT",
+    "datetime": "2026-09-02T20:00:03.000Z",
+    "author": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "avatar": "https://pbs.twimg.com/profile_images/2022002720971096064/l3Kyt4qt_200x200.jpg",
+    "title": "OpenAI Developers 提醒 WebMCP Challenge 截止",
+    "summary": "我会帮你抓取它，因为 WebMCP Challenge 是 agent-native web 的官方实践入口，适合跟踪可提交的交互范式。",
+    "url": "https://x.com/OpenAIDevs/status/2095240355910439020",
+    "metrics": "58 REPLIES · 35 REPOSTS · 749 LIKES · 160 BOOKMARKS · 122481 VIEWS",
+    "_analysisTheme": "WebMCP / Agent-native Web",
+    "_analysisPriority": "high",
+    "links": [
+      "https://openai.com/webmcp-challenge/"
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-09-02T19:53:46.000Z",
+    "author": "Kent",
+    "handle": "kentdebruin",
+    "avatar": "https://pbs.twimg.com/profile_images/1972246381776580608/3XAxCfJQ_200x200.jpg",
+    "title": "MercuryOS 重新浮出多 Agent 界面讨论",
+    "summary": "我会帮你抓取它，因为它链接到 multi-agent interface 原型，适合研究多任务、多智能体状态如何组织成 OS 感界面。",
+    "url": "https://x.com/kentdebruin/status/2095238773877445024",
+    "metrics": "6 REPLIES · 4 REPOSTS · 99 LIKES · 130 BOOKMARKS · 17357 VIEWS",
+    "_analysisTheme": "多 Agent 界面 / MercuryOS",
+    "_analysisPriority": "high",
+    "links": [
+      "https://www.mercuryos.com/"
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Felix Haas",
+      "handle": "felixhhaas",
+      "text": "I built the multi-agent interface I wanted.",
+      "url": "https://x.com/felixhhaas/status/2095202955918008622",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2095202829765898244/vid/avc1/2688x2160/sbSyKgdoK1NZkPsM.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2095202829765898244/img/uPtUPRl6FjXYgsuM.jpg"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-02T18:57:51.000Z",
+    "author": "shaders",
+    "handle": "npm_i_shaders",
+    "avatar": "https://pbs.twimg.com/profile_images/2077002279719243776/UKfSub_w_200x200.jpg",
+    "title": "WebGPU path tracing 组件把 logo 做成实时光照",
+    "summary": "我会帮你抓取它，因为它把 shader、WebGPU 和品牌资产结合起来，是个人网站/产品 hero 视觉工程参考。",
+    "url": "https://x.com/npm_i_shaders/status/2095224706014294464",
+    "metrics": "4 REPLIES · 3 REPOSTS · 12 LIKES · 8 BOOKMARKS · 1327 VIEWS",
+    "_analysisTheme": "协同编辑 / CRDT 与 OT",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095224660770406400/vid/avc1/1282x720/r-d8weOVscx7E9RD.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095224660770406400/img/HNFJOIxis7uWEckV.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI RESEARCH",
+    "datetime": "2026-09-02T18:37:18.000Z",
+    "author": "Andrew Koh",
+    "handle": "andrewjkoh",
+    "avatar": "https://pbs.twimg.com/profile_images/2046267097504681984/p0hnL7ew_200x200.jpg",
+    "title": "AI alignment 论文用机制设计理解控制问题",
+    "summary": "我会帮你抓取它，因为它把 sandbagging、alignment faking 和 scalable oversight 放进机制设计框架，值得设计 Agent 评估界面时参考。",
+    "url": "https://x.com/andrewjkoh/status/2095219532050694372",
+    "metrics": "7 REPLIES · 39 REPOSTS · 204 LIKES · 143 BOOKMARKS · 20169 VIEWS",
+    "_analysisTheme": "AI Alignment / 机制设计",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HROgbNOW0AQOYVd.png?name=orig"
+      }
+    ],
+    "links": [
+      "https://arxiv.org/abs/2609.01595"
+    ]
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-09-02T18:25:10.000Z",
+    "author": "Paper",
+    "handle": "paper",
+    "avatar": "https://pbs.twimg.com/profile_images/1871241842819514370/4o6kawe4_200x200.jpg",
+    "title": "Paper 发布 Design-to-code 教程",
+    "summary": "我会帮你抓取它，因为 Paper 的设计到代码流程能直接服务个人设计师把画布、组件和前端交付打通。",
+    "url": "https://x.com/paper/status/2095216477741994216",
+    "metrics": "5 REPLIES · 4 REPOSTS · 137 LIKES · 119 BOOKMARKS · 9112 VIEWS",
+    "_analysisTheme": "Design-to-code / Paper",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095215652453990400/vid/avc1/3456x1944/tTU9-nbQJG9GCtn9.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095215652453990400/img/K_zZP3clHYg60blI.jpg"
+      }
+    ]
+  },
+  {
     "category": "DESIGN ENGINEERING",
     "datetime": "2026-09-02T04:20:38.000Z",
     "author": "Paidax",
@@ -286,167 +712,6 @@
     ]
   },
   {
-    "category": "AI VISUAL PROMPT",
-    "datetime": "2026-09-01T20:08:30.000Z",
-    "author": "黄赟",
-    "handle": "huangyun_122",
-    "avatar": "https://pbs.twimg.com/profile_images/1183766724534882305/SIxSKinT_200x200.jpg",
-    "title": "黄赟转评高端 editorial poster 提示词",
-    "summary": "我会帮你抓取它，因为引用帖把照片保真、上下分区和出版物封面感写成结构化视觉 prompt。",
-    "url": "https://x.com/huangyun_122/status/2094880094426923161",
-    "metrics": "0 REPLIES · 15 REPOSTS · 66 LIKES · 62 BOOKMARKS · 12809 VIEWS",
-    "_analysisTheme": "照片到编辑海报 prompt",
-    "_analysisPriority": "medium",
-    "media": [
-      {
-        "type": "image",
-        "src": "https://pbs.twimg.com/media/HRKCVakaEAAO2r6.jpg?name=orig"
-      }
-    ],
-    "quote": {
-      "label": "引用原帖",
-      "author": "Kimberly",
-      "handle": "king1818888",
-      "text": "提示词自取：\n\nCreate one independent high-end editorial poster for each uploaded photo. Do not combine multiple photos into a collage. Each photo must be processed and output as a separate poster.\n\nOVERALL FORMAT\n\nStrict 3:4 vertical composition.\n\nDivide the canvas horizontally into two exactly equal sections, with a precise 1:1 height ratio.\n\nThe top half occupies exactly 50% of the canvas.\n\nThe bottom half occupies exactly 50% of the canvas.\n\nThe two sections should feel visually connected as one refined art publication cover.\n\nTOP HALF — ORIGINAL PHOTOGRAPH\n\nPreserve the original photograph as faithfully as possible.\n\nKeep the main composition, subjects, identity, facial features, body proporti",
-      "url": "https://x.com/king1818888/status/2094566588087509050",
-      "article": null
-    }
-  },
-  {
-    "category": "PRODUCT DESIGN",
-    "datetime": "2026-09-01T20:07:51.000Z",
-    "author": "Alex",
-    "handle": "alexgilev",
-    "avatar": "https://pbs.twimg.com/profile_images/2092975986849529856/5iAMQkQI_200x200.jpg",
-    "title": "Alex 用 Framer Agent 构建机械表盘组件",
-    "summary": "我会帮你抓取它，因为它把 AI 产品体验判断落到一个具体组件：让用户感觉自己变聪明。",
-    "url": "https://x.com/alexgilev/status/2094879933436752310",
-    "metrics": "1 REPLIES · 3 REPOSTS · 23 LIKES · 11 BOOKMARKS · 989 VIEWS",
-    "_analysisTheme": "AI 产品体验 / Framer Agent",
-    "_analysisPriority": "high",
-    "links": [
-      "https://kerra.earth/"
-    ],
-    "media": [
-      {
-        "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2094879899538374656/vid/avc1/2916x2160/3d7T35H2X35j9tFu.mp4?tag=29",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094879899538374656/img/kdbabV9JXv0ZyK8D.jpg"
-      }
-    ]
-  },
-  {
-    "category": "AI VIDEO TOOL",
-    "datetime": "2026-09-01T17:46:44.000Z",
-    "author": "Runway",
-    "handle": "runwayml",
-    "avatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB_200x200.jpg",
-    "title": "Runway Ruby 支持 ACEScg EXR 输出",
-    "summary": "我会帮你抓取它，因为生成视频正在进入专业色彩和后期管线，影响设计师交付可用素材的标准。",
-    "url": "https://x.com/runwayml/status/2094844421086884081",
-    "metrics": "13 REPLIES · 12 REPOSTS · 109 LIKES · 36 BOOKMARKS · 23129 VIEWS",
-    "_analysisTheme": "Runway Ruby / ACES pipeline",
-    "_analysisPriority": "high",
-    "media": [
-      {
-        "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2094843910589677568/vid/avc1/1920x1080/fOXpGFRr42auulLC.mp4?tag=29",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094843910589677568/img/CvC7tStNrqvic-lT.jpg"
-      }
-    ]
-  },
-  {
-    "category": "AI PRODUCT",
-    "datetime": "2026-09-01T17:30:28.000Z",
-    "author": "Google",
-    "handle": "Google",
-    "avatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3_200x200.jpg",
-    "title": "Google 推出 Gemini agentic video understanding",
-    "summary": "我会帮你抓取它，因为长视频理解正在变成 agent 产品能力，直接影响素材检索、会议复盘和多模态工作流。",
-    "url": "https://x.com/Google/status/2094840325789430066",
-    "metrics": "155 REPLIES · 341 REPOSTS · 4405 LIKES · 1980 BOOKMARKS · 446862 VIEWS",
-    "_analysisTheme": "Gemini Agentic Video Understanding",
-    "_analysisPriority": "high",
-    "media": [
-      {
-        "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2094829723788419072/vid/avc1/1920x1080/PfsC3zYbzPytznON.mp4?tag=29",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094829723788419072/img/S-m4SqSuw4Fnshnb.jpg"
-      }
-    ]
-  },
-  {
-    "category": "FIGMA",
-    "datetime": "2026-09-01T17:10:00.000Z",
-    "author": "Figma",
-    "handle": "figma",
-    "avatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq___200x200.jpg",
-    "title": "Figma 鼓励发布 Shader 和生成式插件到 Community",
-    "summary": "我会帮你抓取它，因为 Figma 正把生成式插件和 shader 从实验推向可分发的设计资产。",
-    "url": "https://x.com/figma/status/2094835173691179022",
-    "metrics": "13 REPLIES · 25 REPOSTS · 336 LIKES · 107 BOOKMARKS · 674784 VIEWS",
-    "_analysisTheme": "Generative Plugins / Shaders 发布",
-    "_analysisPriority": "high",
-    "media": [
-      {
-        "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2094833532111867904/vid/avc1/1920x1080/q8TMruGv1MuPy07G.mp4?tag=29",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094833532111867904/img/jYcC8CBwv0kCuziH.jpg"
-      }
-    ]
-  },
-  {
-    "category": "DESIGN PRODUCT",
-    "datetime": "2026-09-01T17:05:00.000Z",
-    "author": "Darius Dan",
-    "handle": "dariusdan",
-    "avatar": "https://pbs.twimg.com/profile_images/2010635171083505664/voFt50Pj_200x200.jpg",
-    "title": "Darius Dan 提到 on.design 创始成员与卡片设计",
-    "summary": "我会帮你抓取它，因为它提示新的设计协作产品在用更情绪化的卡片和身份叙事进入市场。",
-    "url": "https://x.com/dariusdan/status/2094833915693310009",
-    "metrics": "13 REPLIES · 0 REPOSTS · 199 LIKES · 83 BOOKMARKS · 8917 VIEWS",
-    "_analysisTheme": "on.design / 设计协作",
-    "_analysisPriority": "medium",
-    "links": [
-      "https://on.design/"
-    ],
-    "media": [
-      {
-        "type": "video",
-        "src": "https://video.twimg.com/amplify_video/2094713206593691648/vid/avc1/1442x1080/FzzFCbFJ3SDHyEC4.mp4?tag=29",
-        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094713206593691648/img/I2A3eJfOnIjko19_.jpg"
-      }
-    ]
-  },
-  {
-    "category": "DESIGN ENGINEERING",
-    "datetime": "2026-09-01T16:21:51.000Z",
-    "author": "Peng Zheng",
-    "handle": "pengzheng_",
-    "avatar": "https://pbs.twimg.com/profile_images/1950000586084233216/-bvk_-H3_200x200.png",
-    "title": "Lunagraph 把 React 代码放进视觉画布",
-    "summary": "我会帮你抓取它，因为它把设计画布、状态、交互和真实 React 代码打通，是设计工程方向的核心信号。",
-    "url": "https://x.com/pengzheng_/status/2094823057814962244",
-    "metrics": "1 REPLIES · 1 REPOSTS · 25 LIKES · 13 BOOKMARKS · 4535 VIEWS",
-    "_analysisTheme": "Lunagraph / React 视觉编辑器",
-    "_analysisPriority": "high",
-    "quote": {
-      "label": "引用原帖",
-      "author": "Putri Karunia",
-      "handle": "putrikarunian",
-      "text": "it's happening 🥹\n\n@lunagraphHQ is open\n\nnot just a design canvas, but a visual editor for React\n\nthis means you can design the full experience: from exploration to defining every state, interaction, and flow. and when it feels right, hand devs nicely packaged code, UX and all\n\ncome design with code this weekend 🌸\n\n (sound on 🔊)",
-      "url": "https://x.com/putrikarunian/status/2094817055476175052",
-      "media": [
-        {
-          "type": "video",
-          "src": "https://video.twimg.com/amplify_video/2094812666053398528/vid/avc1/1920x1080/zI3DCfS0yRNaFZao.mp4?tag=29",
-          "poster": "https://pbs.twimg.com/amplify_video_thumb/2094812666053398528/img/Adqljz2a5Lzi0get.jpg"
-        }
-      ],
-      "article": null
-    }
-  },
-  {
     "category": "AI CREATIVE TOOL",
     "datetime": "2026-09-02T00:11:29.000Z",
     "author": "yuwen lu",
@@ -708,6 +973,56 @@
     ]
   },
   {
+    "category": "AI VISUAL PROMPT",
+    "datetime": "2026-09-01T20:08:30.000Z",
+    "author": "黄赟",
+    "handle": "huangyun_122",
+    "avatar": "https://pbs.twimg.com/profile_images/1183766724534882305/SIxSKinT_200x200.jpg",
+    "title": "黄赟转评高端 editorial poster 提示词",
+    "summary": "我会帮你抓取它，因为引用帖把照片保真、上下分区和出版物封面感写成结构化视觉 prompt。",
+    "url": "https://x.com/huangyun_122/status/2094880094426923161",
+    "metrics": "0 REPLIES · 15 REPOSTS · 66 LIKES · 62 BOOKMARKS · 12809 VIEWS",
+    "_analysisTheme": "照片到编辑海报 prompt",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRKCVakaEAAO2r6.jpg?name=orig"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Kimberly",
+      "handle": "king1818888",
+      "text": "提示词自取：\n\nCreate one independent high-end editorial poster for each uploaded photo. Do not combine multiple photos into a collage. Each photo must be processed and output as a separate poster.\n\nOVERALL FORMAT\n\nStrict 3:4 vertical composition.\n\nDivide the canvas horizontally into two exactly equal sections, with a precise 1:1 height ratio.\n\nThe top half occupies exactly 50% of the canvas.\n\nThe bottom half occupies exactly 50% of the canvas.\n\nThe two sections should feel visually connected as one refined art publication cover.\n\nTOP HALF — ORIGINAL PHOTOGRAPH\n\nPreserve the original photograph as faithfully as possible.\n\nKeep the main composition, subjects, identity, facial features, body proporti",
+      "url": "https://x.com/king1818888/status/2094566588087509050",
+      "article": null
+    }
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-09-01T20:07:51.000Z",
+    "author": "Alex",
+    "handle": "alexgilev",
+    "avatar": "https://pbs.twimg.com/profile_images/2092975986849529856/5iAMQkQI_200x200.jpg",
+    "title": "Alex 用 Framer Agent 构建机械表盘组件",
+    "summary": "我会帮你抓取它，因为它把 AI 产品体验判断落到一个具体组件：让用户感觉自己变聪明。",
+    "url": "https://x.com/alexgilev/status/2094879933436752310",
+    "metrics": "1 REPLIES · 3 REPOSTS · 23 LIKES · 11 BOOKMARKS · 989 VIEWS",
+    "_analysisTheme": "AI 产品体验 / Framer Agent",
+    "_analysisPriority": "high",
+    "links": [
+      "https://kerra.earth/"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094879899538374656/vid/avc1/2916x2160/3d7T35H2X35j9tFu.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094879899538374656/img/kdbabV9JXv0ZyK8D.jpg"
+      }
+    ]
+  },
+  {
     "category": "DESIGN SYSTEM",
     "datetime": "2026-09-01T19:50:13.000Z",
     "author": "Irsyad A. Panjaitan",
@@ -853,6 +1168,46 @@
     ]
   },
   {
+    "category": "AI VIDEO TOOL",
+    "datetime": "2026-09-01T17:46:44.000Z",
+    "author": "Runway",
+    "handle": "runwayml",
+    "avatar": "https://pbs.twimg.com/profile_images/1999115192232292353/zOq5-uwB_200x200.jpg",
+    "title": "Runway Ruby 支持 ACEScg EXR 输出",
+    "summary": "我会帮你抓取它，因为生成视频正在进入专业色彩和后期管线，影响设计师交付可用素材的标准。",
+    "url": "https://x.com/runwayml/status/2094844421086884081",
+    "metrics": "13 REPLIES · 12 REPOSTS · 109 LIKES · 36 BOOKMARKS · 23129 VIEWS",
+    "_analysisTheme": "Runway Ruby / ACES pipeline",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094843910589677568/vid/avc1/1920x1080/fOXpGFRr42auulLC.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094843910589677568/img/CvC7tStNrqvic-lT.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-09-01T17:30:28.000Z",
+    "author": "Google",
+    "handle": "Google",
+    "avatar": "https://pbs.twimg.com/profile_images/2042749771337564160/AgOFPEL3_200x200.jpg",
+    "title": "Google 推出 Gemini agentic video understanding",
+    "summary": "我会帮你抓取它，因为长视频理解正在变成 agent 产品能力，直接影响素材检索、会议复盘和多模态工作流。",
+    "url": "https://x.com/Google/status/2094840325789430066",
+    "metrics": "155 REPLIES · 341 REPOSTS · 4405 LIKES · 1980 BOOKMARKS · 446862 VIEWS",
+    "_analysisTheme": "Gemini Agentic Video Understanding",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094829723788419072/vid/avc1/1920x1080/PfsC3zYbzPytznON.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094829723788419072/img/S-m4SqSuw4Fnshnb.jpg"
+      }
+    ]
+  },
+  {
     "category": "WORLD MODEL",
     "datetime": "2026-09-01T17:28:12.000Z",
     "author": "World Labs",
@@ -888,6 +1243,49 @@
       {
         "type": "image",
         "src": "https://pbs.twimg.com/media/HRJapCRaYAATm0Y.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "FIGMA",
+    "datetime": "2026-09-01T17:10:00.000Z",
+    "author": "Figma",
+    "handle": "figma",
+    "avatar": "https://pbs.twimg.com/profile_images/2068849889753333760/YE3KJq___200x200.jpg",
+    "title": "Figma 鼓励发布 Shader 和生成式插件到 Community",
+    "summary": "我会帮你抓取它，因为 Figma 正把生成式插件和 shader 从实验推向可分发的设计资产。",
+    "url": "https://x.com/figma/status/2094835173691179022",
+    "metrics": "13 REPLIES · 25 REPOSTS · 336 LIKES · 107 BOOKMARKS · 674784 VIEWS",
+    "_analysisTheme": "Generative Plugins / Shaders 发布",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094833532111867904/vid/avc1/1920x1080/q8TMruGv1MuPy07G.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094833532111867904/img/jYcC8CBwv0kCuziH.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN PRODUCT",
+    "datetime": "2026-09-01T17:05:00.000Z",
+    "author": "Darius Dan",
+    "handle": "dariusdan",
+    "avatar": "https://pbs.twimg.com/profile_images/2010635171083505664/voFt50Pj_200x200.jpg",
+    "title": "Darius Dan 提到 on.design 创始成员与卡片设计",
+    "summary": "我会帮你抓取它，因为它提示新的设计协作产品在用更情绪化的卡片和身份叙事进入市场。",
+    "url": "https://x.com/dariusdan/status/2094833915693310009",
+    "metrics": "13 REPLIES · 0 REPOSTS · 199 LIKES · 83 BOOKMARKS · 8917 VIEWS",
+    "_analysisTheme": "on.design / 设计协作",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://on.design/"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094713206593691648/vid/avc1/1442x1080/FzzFCbFJ3SDHyEC4.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094713206593691648/img/I2A3eJfOnIjko19_.jpg"
       }
     ]
   },
@@ -947,6 +1345,34 @@
         "poster": "https://pbs.twimg.com/amplify_video_thumb/2094829234338385920/img/Rn5XwEcOarlmPhzR.jpg"
       }
     ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-01T16:21:51.000Z",
+    "author": "Peng Zheng",
+    "handle": "pengzheng_",
+    "avatar": "https://pbs.twimg.com/profile_images/1950000586084233216/-bvk_-H3_200x200.png",
+    "title": "Lunagraph 把 React 代码放进视觉画布",
+    "summary": "我会帮你抓取它，因为它把设计画布、状态、交互和真实 React 代码打通，是设计工程方向的核心信号。",
+    "url": "https://x.com/pengzheng_/status/2094823057814962244",
+    "metrics": "1 REPLIES · 1 REPOSTS · 25 LIKES · 13 BOOKMARKS · 4535 VIEWS",
+    "_analysisTheme": "Lunagraph / React 视觉编辑器",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "Putri Karunia",
+      "handle": "putrikarunian",
+      "text": "it's happening 🥹\n\n@lunagraphHQ is open\n\nnot just a design canvas, but a visual editor for React\n\nthis means you can design the full experience: from exploration to defining every state, interaction, and flow. and when it feels right, hand devs nicely packaged code, UX and all\n\ncome design with code this weekend 🌸\n\n (sound on 🔊)",
+      "url": "https://x.com/putrikarunian/status/2094817055476175052",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2094812666053398528/vid/avc1/1920x1080/zI3DCfS0yRNaFZao.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2094812666053398528/img/Adqljz2a5Lzi0get.jpg"
+        }
+      ],
+      "article": null
+    }
   },
   {
     "category": "AI PRODUCT",

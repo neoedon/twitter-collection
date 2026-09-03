@@ -1,5 +1,3368 @@
 window.DESIGNER_ANALYSIS = [
   {
+    "date": "2026-09-03",
+    "generatedAt": "2026-09-03T09:41:19+08:00",
+    "batch": "x-ai-design-analysis-2026-09-03-0941",
+    "analysisCount": 100,
+    "homeCount": 100,
+    "likeCount": 0,
+    "linksInspected": 94,
+    "unavailableLinks": 7,
+    "summary": "2026-09-03 09:41 首批：使用 ego-browser 登录态观察 Home/Following/Design Engineers/AI 御三家、Home 新帖，以及 X live search（Figma/Framer/design system、AI design、Codex/WebMCP 等）。Likes 多入口未渲染可用条目，因此本轮不写 Like；Analysis 使用 Home/search 观察池补足 100 条，并标注 10 条来自 48 小时扩窗。",
+    "sourceWindow": {
+      "strategy": "ego-browser 独立 task space 18；Home 覆盖 x.com/home 为你推荐、正在关注、Design Engineers、AI 御三家、刷新新帖；X live search 覆盖 Figma/Framer/design system、AI design/design agent/design engineering、Codex/WebMCP/coding agent、官方 AI/设计账号和 agent interface。Likes 尝试 x.com/neoedon414/likes、x.com/i/history/likes、x.com/i/history、profile Likes，均未渲染可用 article；不把 0 article 当作无新 Like。fxtwitter 仅用于补齐已观察 status 的作者、时间、媒体、指标、引用与链接。",
+      "newestHomeDatetime": "2026-09-03T02:07:44.000Z",
+      "oldestHomeDatetime": "2026-09-02T17:10:15.000Z",
+      "newestLikeDatetime": null,
+      "oldestLikeDatetime": null,
+      "expandedWindow": "Home 20 条均归入 Asia/Shanghai 2026-09-03。Analysis 当天高质量未分析项不足 100 后扩展到过去 48 小时内的 2026-09-02 项，共 10 条；没有回补更早历史 Like。",
+      "observed": {
+        "homeRaw": 2413,
+        "homeUnique": 475,
+        "homeFxReadable": 474,
+        "homeFxUnavailable": 1,
+        "homeSelected": 20,
+        "homeTodaySelected": 20,
+        "homeRejectedOrLeftover": 455,
+        "homeSearchSources": [
+          "search-figma",
+          "search-ai-design",
+          "search-codex-agent",
+          "search-official-ai-design",
+          "search-design-agent-method",
+          "search-agent-interface"
+        ],
+        "likeRawObserved": 0,
+        "likeUniqueObserved": 0,
+        "likeFresh": 0,
+        "likeKnownBefore": 5687,
+        "likeFailure": "Likes routes rendered 0 usable articles or blank body in authenticated task space; no Like write performed.",
+        "analysisBeforeTodayUnique": 0,
+        "analysisRawCandidateTotal": 475,
+        "analysisExpanded48h": 10,
+        "linkUniqueRead": 78,
+        "linkFull": 67,
+        "linkPartial": 6,
+        "linkUnavailable": 5
+      }
+    },
+    "items": [
+      {
+        "id": "2095311241728373245",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/JuntaoQiu/status/2095311241728373245",
+        "author": "Juntao Qiu | 邱俊涛",
+        "handle": "JuntaoQiu",
+        "datetime": "2026-09-03T00:41:43.000Z",
+        "title": "Juntao Qiu 拆解 Figma/Docs 协同同步",
+        "originalSummary": "原帖说明：How does Google Docs/Figma *actually* keep multiple users' changes synced? It's a hard distributed problem. We break down OT vs CRDT, the core mechanics of reliable multi-user stat...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把多人协作编辑拆成 OT、CRDT 和同步边界，是设计工程师理解画布类产品底层交互的好入口。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.youtube.com/watch?v=dAE-Zr62JFA",
+            "title": "https://www.youtube.com/watch?v=dAE-Zr62JFA",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095305318582440062",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/morajabi/status/2095305318582440062",
+        "author": "Mo Rajabi",
+        "handle": "morajabi",
+        "datetime": "2026-09-03T00:18:11.000Z",
+        "title": "inline 发布面向团队与 Agent 的聊天应用",
+        "originalSummary": "原帖说明：announcing inline: a chat app for all work, with your team, your agents, or friends. two years ago we set out to build a chat app that feels incredible to use first thing every mor...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把团队聊天、Agent 对话和个人沟通放进同一界面，适合研究 AI 时代工作沟通产品的默认形态。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://inline.chat/",
+            "title": "Inline - The interface for multiplayer work",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095279422941077959",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Mike_Andreuzza/status/2095279422941077959",
+        "author": "Michael Andreuzza",
+        "handle": "Mike_Andreuzza",
+        "datetime": "2026-09-02T22:35:17.000Z",
+        "title": "Kobbe 把事件用量状态放进侧栏",
+        "originalSummary": "原帖说明：New in https://Kobbe.io: your monthly total events meter now lives in the sidebar. Always there, turns amber at 80%, red at the cap, and tells you outright if collection paused. Ta...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它用常驻侧栏、阈值颜色和暂停提示处理用量上限，是仪表盘状态设计的可复用案例。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://kobbe.io/",
+            "title": "Kobbe: Web analytics that respect your visitors",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095257412781396114",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/cursor_ai/status/2095257412781396114",
+        "author": "Cursor",
+        "handle": "cursor_ai",
+        "datetime": "2026-09-02T21:07:49.000Z",
+        "title": "Cursor 支持在自有基础设施运行 Cloud Agents",
+        "originalSummary": "原帖说明：You can now run Cursor cloud agents on your infrastructure, including pools of machines that automatically scale with demand. This lets you give agents access to internal services ...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 Agent 产品从云端托管推进到企业自有机器池，影响权限、环境和任务监控设计。",
+        "deepSummary": "这条内容的核心价值是把「Agent 基础设施 / 私有环境」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 基础设施 / 私有环境",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095276133214491086",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/bcherny/status/2095276133214491086",
+        "author": "Boris Cherny",
+        "handle": "bcherny",
+        "datetime": "2026-09-02T22:22:13.000Z",
+        "title": "Claude Tag 用 Fable 5.1 串联数据到领导力 deck",
+        "originalSummary": "原帖说明：Fable 5.1 makes Claude Tag even more useful. Here it builds a last-minute leadership deck from a metrics spreadsheet and other data across Slack, spots a vendor report that disagre...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它展示 Agent 从表格、Slack 和供应商报告生成演示并校验数字，是高价值办公 workflow 样板。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095258951336259677",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Pat_Erichsen/status/2095258951336259677",
+        "author": "Patrick Erichsen",
+        "handle": "Pat_Erichsen",
+        "datetime": "2026-09-02T21:13:56.000Z",
+        "title": "OpenClaw 2.0 用 prompt 生成 Dashboard",
+        "originalSummary": "原帖说明：Dashboards are one of the most versatile new features in 2.0 release of @openclaw During the Weekly Clawcast with @steipete we had questions on how to get started with Dashboards t...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 dashboard 变成团队循环工具，而不是静态图表，适合研究 Agent 生成运营视图。",
+        "deepSummary": "这条内容的核心价值是把「团队聊天 / Agent 协作界面」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解侧栏指标的常驻信息、阈值颜色和可操作入口。",
+          "设计一个用量到达 80%/100% 的微文案和状态转移。",
+          "把 dashboard 从展示页改成可触发动作的工作台模块。"
+        ],
+        "tags": [
+          "Home",
+          "团队聊天 / Agent 协作界面",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095224706014294464",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/npm_i_shaders/status/2095224706014294464",
+        "author": "shaders",
+        "handle": "npm_i_shaders",
+        "datetime": "2026-09-02T18:57:51.000Z",
+        "title": "WebGPU path tracing 组件把 logo 做成实时光照",
+        "originalSummary": "原帖说明：Got nerd-sniped by @matiNotFound's work and built this 🔦 WebGPU path-tracing in a compute shader pass. Supports multiple light sources with realistic light bounce and surface illu...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 shader、WebGPU 和品牌资产结合起来，是个人网站/产品 hero 视觉工程参考。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095216477741994216",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/paper/status/2095216477741994216",
+        "author": "Paper",
+        "handle": "paper",
+        "datetime": "2026-09-02T18:25:10.000Z",
+        "title": "Paper 发布 Design-to-code 教程",
+        "originalSummary": "原帖说明：New tutorial is up!! 🌟 Go Design to Code with Paper ✨ Shout out @harcourttt for working hard to create these videos for the Paper community Full video link in the replies ⬇︎",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 Paper 的设计到代码流程能直接服务个人设计师把画布、组件和前端交付打通。",
+        "deepSummary": "这条内容的核心价值是把「Design-to-code / Paper」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取媒体中的关键帧，标注光照、层级和运动节奏。",
+          "用一个小型 demo 复刻其中一种视觉技术或转场。",
+          "记录哪些视觉效果需要工程实现，哪些适合交给生成模型。"
+        ],
+        "tags": [
+          "Home",
+          "Design-to-code / Paper",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095253925683175618",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/remvze/status/2095253925683175618",
+        "author": "MAZE",
+        "handle": "remvze",
+        "datetime": "2026-09-02T20:53:58.000Z",
+        "title": "MAZE 讨论会写代码的设计师如何工作",
+        "originalSummary": "原帖说明：Ok. Can we talk about designers who ship code for a second? I've never had a professional design-only role before. I've been writing code as a hobby and professionally for over a d...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把设计师写代码从身份标签拉回工作方法，适合整理个人设计工程成长路线。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/BrettFromDJ/status/2095204227563868669",
+            "title": "引用帖：Brett",
+            "access": "partial",
+            "value": "fxtwitter 读到引用帖文本：Playgrnd® beta is live. No account. No paywall. 100% free. 32 tiny tools for making weird, beautiful things, with new on...",
+            "learningValue": "引用帖补足「协同编辑 / CRDT 与 OT」的原始语境，可继续作为作品或方法入口。"
+          },
+          {
+            "url": "https://playgrnd.tools",
+            "title": "引用帖外链",
+            "access": "unavailable",
+            "value": "本轮未读到可用页面内容，只保留原帖可见链接。",
+            "learningValue": "需要人工重新打开后再判断是否进入学习清单。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095312081474277507",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/kgsi/status/2095312081474277507",
+        "author": "こぎそ",
+        "handle": "kgsi",
+        "datetime": "2026-09-03T00:45:03.000Z",
+        "title": "Money Forward 公开 Design Harness 实践",
+        "originalSummary": "原帖说明：マネーフォワードのデザインハーネス実践記事。ディレクトリ構成から処理フローまで、中身をも公開している、よい。 みんな気にしてる点へのアンサーとして良かったのは「Figmaコメントの行き場はどこか」という迷いに対して「個別ツールのやり取りをドキュメントと仕組みに寄せる」と答えてる点。 こういう記事を見ると、ハーネスは作業を正確に、速くする道具というより、チーム...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它回应 Figma 评论、工具交接和设计流程文档化问题，是团队级 design harness 的实操参考。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://note.com/mfdesign/n/n51eb399cefc0?sub_rt=share_pw",
+            "title": "開発を速くする、ハーネスで支えるコードプロトのデザインプロセス｜Money Forward Design",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095240355910439020",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/OpenAIDevs/status/2095240355910439020",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "datetime": "2026-09-02T20:00:03.000Z",
+        "title": "OpenAI Developers 提醒 WebMCP Challenge 截止",
+        "originalSummary": "原帖说明：24 hours. Time to ship your project for the WebMCP Challenge. Entries close tomorrow, Sept 3 @ 1 pm PT. https://openai.com/webmcp-challenge/",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 WebMCP Challenge 是 agent-native web 的官方实践入口，适合跟踪可提交的交互范式。",
+        "deepSummary": "这条内容的核心价值是把「WebMCP / Agent-native Web」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://openai.com/webmcp-challenge/",
+            "title": "https://openai.com/webmcp-challenge/",
+            "access": "unavailable",
+            "value": "本轮读取失败（HTTP 403），不据此扩展事实。",
+            "learningValue": "用它核验「WebMCP / Agent-native Web」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "WebMCP / Agent-native Web",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095238773877445024",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/kentdebruin/status/2095238773877445024",
+        "author": "Kent",
+        "handle": "kentdebruin",
+        "datetime": "2026-09-02T19:53:46.000Z",
+        "title": "MercuryOS 重新浮出多 Agent 界面讨论",
+        "originalSummary": "原帖说明：yes @jasonyuan was very early https://www.mercuryos.com/",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它链接到 multi-agent interface 原型，适合研究多任务、多智能体状态如何组织成 OS 感界面。",
+        "deepSummary": "这条内容的核心价值是把「多 Agent 界面 / MercuryOS」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.mercuryos.com/",
+            "title": "Mercury",
+            "access": "partial",
+            "value": "页面只能部分读取，主要依据标题、元信息或可见结构判断。",
+            "learningValue": "用它核验「多 Agent 界面 / MercuryOS」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://x.com/felixhhaas/status/2095202955918008622",
+            "title": "引用帖：Felix Haas",
+            "access": "partial",
+            "value": "fxtwitter 读到引用帖文本：I built the multi-agent interface I wanted.",
+            "learningValue": "引用帖补足「多 Agent 界面 / MercuryOS」的原始语境，可继续作为作品或方法入口。"
+          }
+        ],
+        "learningActions": [
+          "提炼原帖中的用户、场景和约束。",
+          "判断它是否能变成个人作品集或产品练习题。",
+          "记录一个可执行的下一步验证动作。"
+        ],
+        "tags": [
+          "Home",
+          "多 Agent 界面 / MercuryOS",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095291779117396219",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ctatedev/status/2095291779117396219",
+        "author": "Chris Tate",
+        "handle": "ctatedev",
+        "datetime": "2026-09-02T23:24:23.000Z",
+        "title": "wterm 支持 Kitty 键盘协议和终端图片",
+        "originalSummary": "原帖说明：wterm, the composable <𝚃𝚎𝚛𝚖𝚒𝚗𝚊𝚕 /> for the web, along with @𝚠𝚝𝚎𝚛𝚖/𝚐𝚑𝚘𝚜𝚝𝚝𝚢, now supports: → the Kitty keyboard protocol, and → the Kitty terminal images",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为终端组件正在变成可嵌入 UI primitive，对 agent devtools 和网页 IDE 设计很重要。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095323402617946385",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/noricha_vr/status/2095323402617946385",
+        "author": "のりちゃん@個人開発集会",
+        "handle": "noricha_vr",
+        "datetime": "2026-09-03T01:30:03.000Z",
+        "title": "Grok Bot 被解读为降低 Agent 使用门槛",
+        "originalSummary": "原帖说明：Grok Botの良さって、 「AIがさらに賢くなった」というより AIエージェントを使うまでの面倒を消したことだと思う Claude Code / Codex → CLI、Skill、cron、GitHub… 「なにそれ？美味しいの？」 OpenClaw / Hermes → GUIが付いて分かりやすい！ でも「自分のPCに入れて大丈夫？ずっと起動するの？...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它从用户入口而非模型能力解释 Grok Bot，适合对比 CLI/GUI/系统权限的 Agent UX。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095324649156706534",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/deusproof/status/2095324649156706534",
+        "author": "scriba",
+        "handle": "deusproof",
+        "datetime": "2026-09-03T01:35:00.000Z",
+        "title": "deusproof 用 MCP 检查发布前相似内容",
+        "originalSummary": "原帖说明：Hey @weirsocial, a private log can't answer what agents ask most: has something like this been published already? https://deusproof.com/mcp checks before it publishes. Paste it int...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 agent 发布前的查重与工具设置连起来，适合研究内容生产 workflow 的质量闸门。",
+        "deepSummary": "这条内容的核心价值是把「Agent Dashboard / 团队循环」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://deusproof.com/mcp",
+            "title": "https://deusproof.com/mcp",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「Agent Dashboard / 团队循环」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://deusproof.com/skill.md?src=seal",
+            "title": "https://deusproof.com/skill.md?src=seal",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「Agent Dashboard / 团队循环」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent Dashboard / 团队循环",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095324220918301157",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/darrenyao/status/2095324220918301157",
+        "author": "darrenyao",
+        "handle": "darrenyao",
+        "datetime": "2026-09-03T01:33:18.000Z",
+        "title": "darrenyao 描述企业内 AI 代办协作模式",
+        "originalSummary": "原帖说明：从大厂跳出来探索 AI 在企业内地真实落地，现在我的一部分工作模式：运营提需求过来， 我把基础环境上下文以及需求一起发给 Coding Agent， 然后 Coding Agent 接下来的任务干活并以我身份和 运营确认需求细节（用 skill直接以我 企微身份发消息，读消息）最终交付结果。 为什么普通用户用不了，卡点有二：1. 普通用户对Coding 不懂...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它展示 Coding Agent 代表人去读写企业消息和确认需求，暴露了代理权限与交付闭环设计问题。",
+        "deepSummary": "这条内容的核心价值是把「AI 产品 / Agent 工作流」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/Kay2289123/status/2095220542198739170",
+            "title": "引用帖：美研芒格君",
+            "access": "partial",
+            "value": "fxtwitter 读到引用帖文本：在硅谷创业，现在toA非常火（to agent，做ai agent用的产品），想分享一个珍贵的、最近沉淀下来的初创 idea，来源于我团队真实的数据 它起源于实际团队协作的一个痛点，很多人一定也有同感 一句话来说，我把它叫做团队共同记忆演化...",
+            "learningValue": "引用帖补足「AI 产品 / Agent 工作流」的原始语境，可继续作为作品或方法入口。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / Agent 工作流",
+          "text",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095321657997140193",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ios_1261142602/status/2095321657997140193",
+        "author": "sunshineLx",
+        "handle": "ios_1261142602",
+        "datetime": "2026-09-03T01:23:07.000Z",
+        "title": "Mac 原生多 AI 管理工具整合 Cursor/Grok/Codex",
+        "originalSummary": "原帖说明：最近一直在找多AI管理工具，把Cursor、Grok、Codex统一管理起来，方便在同一软件中自由切换 终于找到一款高颜值的MacOS原生Agent管理工具 功能上也非常有趣 1:你可以在Notes中记录你的开发计划、或者任务需求排期，一键发送给Agent执行 2:section可视化，每个项目可以轻松管理聊天记录，explorer功能支持查看、新增、搜索、...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 Notes、任务排期和多 Agent 切换放在同一桌面工具里，是个人 AI 工作台参考。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.usemono.dev/",
+            "title": "MonoCode",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095312043268046869",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/SuperagenticAI/status/2095312043268046869",
+        "author": "Superagentic AI",
+        "handle": "SuperagenticAI",
+        "datetime": "2026-09-03T00:44:54.000Z",
+        "title": "SuperQode v2 强调 coding agent harness 互通",
+        "originalSummary": "原帖说明：🚀 SuperQode v2: The harness interoperability layer for coding agent is here. Agent to Agent commincation over A2A, ACP and UHP 💡 More incredible features at https://superqode.dev...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为 A2A/ACP/UHP 等协议互通会影响多 Agent 工具的任务移交、状态和日志设计。",
+        "deepSummary": "这条内容的核心价值是把「Agent Harness / 协议互通」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://superqode.dev/",
+            "title": "SuperQode: Harness Layer for Coding Agents | A2A, ACP, MCP, UHP",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「Agent Harness / 协议互通」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent Harness / 协议互通",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095323189228519625",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/nakajimeeee/status/2095323189228519625",
+        "author": "Yusuke Nakajima",
+        "handle": "nakajimeeee",
+        "datetime": "2026-09-03T01:29:12.000Z",
+        "title": "SpecterOps 发布面向 AI Agent 的 Skills 知识库",
+        "originalSummary": "原帖说明：【AIエージェント活用・攻撃的セキュリティツール】SpecterOps、AIエージェント向け実務知識リポジトリ「SpecterOps Skills」を公開 SpecterOpsは、AI支援によるセキュリティ実務を支える公開リポジトリ「SpecterOps Skills」を発表した。攻撃者視点でのトレードクラフト(戦術・技法)を体系化してきた同社のミッションの...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为安全团队把实务知识打包给 Agent，是专业能力迁移到 skill/repo 的典型案例。",
+        "deepSummary": "这条内容的核心价值是把「Agent Skills / 安全知识库」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://specterops.io/blog/2026/09/02/specterops-skills/",
+            "title": "Demystifying Agent Tradecraft: Introducing SpecterOps Skills - SpecterOps",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「Agent Skills / 安全知识库」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent Skills / 安全知识库",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095219532050694372",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/andrewjkoh/status/2095219532050694372",
+        "author": "Andrew Koh",
+        "handle": "andrewjkoh",
+        "datetime": "2026-09-02T18:37:18.000Z",
+        "title": "AI alignment 论文用机制设计理解控制问题",
+        "originalSummary": "原帖说明：We develop a mechanism design framework for AI alignment and control: https://arxiv.org/abs/2609.01595 It’s largely conceptual but we offer stylized applications to failure modes (...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它把 sandbagging、alignment faking 和 scalable oversight 放进机制设计框架，值得设计 Agent 评估界面时参考。",
+        "deepSummary": "这条内容的核心价值是把「AI Alignment / 机制设计」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://arxiv.org/abs/2609.01595",
+            "title": "[2609.01595] Mechanism Design for Alignment and Control",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「AI Alignment / 机制设计」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "拆解页面/作品的字体、间距、色彩和内容层级。",
+          "把可复用的组件或版式规则写成 design.md 条目。",
+          "选择一个个人项目，用同样约束做一次小范围复刻。"
+        ],
+        "tags": [
+          "Home",
+          "AI Alignment / 机制设计",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095323439955341401",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/FRDBlock/status/2095323439955341401",
+        "author": "Fikri R",
+        "handle": "FRDBlock",
+        "datetime": "2026-09-03T01:30:11.000Z",
+        "title": "Fikri R：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Claude Fable 5.1 sudah tersedia di https://lunosrouter.com Dan satu hal yang kami jaga: semua model di LunosRouter disalurkan langsung melalui provider resmi masing-masing, bukan l...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 工作流 / 数据到演示」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent 工作流 / 数据到演示」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://lunosrouter.com/",
+            "title": "Lunos — Unified AI API gateway",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「Agent 工作流 / 数据到演示」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / 数据到演示",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095323168626049177",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/codersoar/status/2095323168626049177",
+        "author": "soar",
+        "handle": "codersoar",
+        "datetime": "2026-09-03T01:29:07.000Z",
+        "title": "soar：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：LLM Score 的性能天梯已更新昨天发布的 4个模型的性能指数和价格综合指数 * Claude Fable 5.1 * Gemini 3.8 Flash * Muse Spark 1.3 * Qwen 3.8 Max 0902 https://aiznb.com/llm-score/",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 工作流 / 数据到演示」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent 工作流 / 数据到演示」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://aiznb.com/llm-score/",
+            "title": "LLM Score",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「Agent 工作流 / 数据到演示」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / 数据到演示",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095322626201985121",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/aehyok/status/2095322626201985121",
+        "author": "AI少年",
+        "handle": "aehyok",
+        "datetime": "2026-09-03T01:26:57.000Z",
+        "title": "AI少年：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：最近玩 Grok Bot 实在是有点上瘾了，但周期额度很快就消耗完了。 今天刚好发现一个宝藏平台 FlatKey，而且现在做活动，有免费模型可以白嫖🔥🔥🔥。 于是我就让 Grok Bot 先帮我搭一个专门干活的 Agent，让这个 Agent 调用的模型全部走 FlatKey。 这个平台只需要一个 API Key，就可以调用 100 多个主流模型 + ...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://console.flatkey.ai/redeem?from=X_SG",
+            "title": "flatkey.ai",
+            "access": "partial",
+            "value": "页面只能部分读取，主要依据标题、元信息或可见结构判断。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://x.com/Flatkey_SG/status/2094960597347778782",
+            "title": "引用帖：Flatkey SG",
+            "access": "partial",
+            "value": "fxtwitter 读到引用帖文本：一个 API Key，接入 GPT / Claude / Gemini / DeepSeek 等主流模型 🔑 💡 本周限时专属优惠： ✅ DeepSeek V4 Flash：免费 ✅ DeepSeek V4 Pro / GLM 5.3：...",
+            "learningValue": "引用帖补足「协同编辑 / CRDT 与 OT」的原始语境，可继续作为作品或方法入口。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095322155726598490",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/sanmiastar/status/2095322155726598490",
+        "author": "BEN Gurain🥇",
+        "handle": "sanmiastar",
+        "datetime": "2026-09-03T01:25:05.000Z",
+        "title": "BEN Gurain🥇：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：http://B.AI API + DeepSeek: More Models, One Workflow http://B.AI is expanding its developer toolkit. The http://B.AI Responses API now supports the DeepSeek model series through C...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://b.ai/",
+            "title": "BAI",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://b.ai/",
+            "title": "BAI",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095321937719288180",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Enorm0s/status/2095321937719288180",
+        "author": "Enormos",
+        "handle": "Enorm0s",
+        "datetime": "2026-09-03T01:24:13.000Z",
+        "title": "Enormos：Framer 设计与 Agent 信号",
+        "originalSummary": "原帖说明：You know you built a quality @framer template when the buyers don't bounce after 1 month. That was my first template sale. You can check it out here https://www.framer.com/marketpl...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「产品设计 / 视觉系统」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「产品设计 / 视觉系统」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.framer.com/marketplace/templates/wildedge/",
+            "title": "Wildedge: Responsive Environmental Website Template by Andrew Norman — Framer Marketplace",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「产品设计 / 视觉系统」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "拆解页面/作品的字体、间距、色彩和内容层级。",
+          "把可复用的组件或版式规则写成 design.md 条目。",
+          "选择一个个人项目，用同样约束做一次小范围复刻。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉系统",
+          "media",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095317491446673871",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ScottJopas/status/2095317491446673871",
+        "author": "Scottui",
+        "handle": "ScottJopas",
+        "datetime": "2026-09-03T01:06:33.000Z",
+        "title": "Scottui：Framer 设计与 Agent 信号",
+        "originalSummary": "原帖说明：Avenard is officially live on @framer An editorial portfolio template built for creatives, with bold typography, CMS powered projects and smooth scroll interactions. Free to remix....",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.framer.com/marketplace/templates/avenard/",
+            "title": "Avenard: Free Portfolio Website Template by Jacob Scott — Framer Marketplace",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://framer.com/login/?dub_id=hnQyGF6KBf3keF32&origin=framer-web&redirect=https%3A%2F%2Fframer.com%2Fremix%2FnuRWuIl11sQ3B34SKgnu%3Futm_medium%3Daffiliate%26via%3Dx9o2aeh%26dub_id%3DhnQyGF6KBf3keF32%26duplicateType%3DsiteTemplate&via=x9o2aeh",
+            "title": "Login – Framer",
+            "access": "partial",
+            "value": "页面只能部分读取，主要依据标题、元信息或可见结构判断。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095301262799495359",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Trorram/status/2095301262799495359",
+        "author": "Trorram",
+        "handle": "Trorram",
+        "datetime": "2026-09-03T00:02:04.000Z",
+        "title": "Trorram：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：A Meta atualizou o Muse Spark para a versão 1.3 — a quarta grande release em cinco meses do Meta Superintelligence Labs, e a primeira desenhada de ponta a ponta para workflows agen...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「团队聊天 / Agent 协作界面」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「团队聊天 / Agent 协作界面」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://dev.meta.ai/",
+            "title": "https://dev.meta.ai/",
+            "access": "partial",
+            "value": "页面只能部分读取，主要依据标题、元信息或可见结构判断。",
+            "learningValue": "用它核验「团队聊天 / Agent 协作界面」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+            "title": "Introducing Muse Spark 1.3 | Meta AI Research",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「团队聊天 / Agent 协作界面」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://developer.meta.com/ai/models/muse-spark/",
+            "title": "Muse Spark 1.3 | Meta",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「团队聊天 / Agent 协作界面」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://developer.meta.com/ai/resources/blog/build-with-muse-code/",
+            "title": "Meet Muse Spark 1.2 and Muse Code: a coding model and the agent built to run it | AI Developers blog",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「团队聊天 / Agent 协作界面」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "团队聊天 / Agent 协作界面",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095295288575508745",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/arthur_win8/status/2095295288575508745",
+        "author": "Arthur Win",
+        "handle": "arthur_win8",
+        "datetime": "2026-09-02T23:38:20.000Z",
+        "title": "Arthur Win：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：UX NEW TODAY - First dump: 7 unique posts (UX folder only; last_empty after 2 GraphQL pages). Official 0 / Testers 7. Xapi-filed today 3/3 landed (unique now 7; Sep 1 scrape had 4)...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/_CanvasAndKeys/status/2094884527759818780",
+            "title": "X linked post",
+            "access": "partial",
+            "value": "已通过 fxtwitter 读取到引用/关联 X 内容的可见文本和媒体，作为原帖上下文补充。",
+            "learningValue": "用它判断「协同编辑 / CRDT 与 OT」是否只是转述，还是有可复用的原始作品或方法。"
+          },
+          {
+            "url": "https://x.com/salisedesign/status/2094884023252197605",
+            "title": "X linked post",
+            "access": "partial",
+            "value": "已通过 fxtwitter 读取到引用/关联 X 内容的可见文本和媒体，作为原帖上下文补充。",
+            "learningValue": "用它判断「协同编辑 / CRDT 与 OT」是否只是转述，还是有可复用的原始作品或方法。"
+          },
+          {
+            "url": "https://x.com/MdrBwl/status/2094883566647902417",
+            "title": "X linked post",
+            "access": "partial",
+            "value": "已通过 fxtwitter 读取到引用/关联 X 内容的可见文本和媒体，作为原帖上下文补充。",
+            "learningValue": "用它判断「协同编辑 / CRDT 与 OT」是否只是转述，还是有可复用的原始作品或方法。"
+          },
+          {
+            "url": "https://x.com/uxmag/status/2077079945197633621",
+            "title": "X linked post",
+            "access": "partial",
+            "value": "已通过 fxtwitter 读取到引用/关联 X 内容的可见文本和媒体，作为原帖上下文补充。",
+            "learningValue": "用它判断「协同编辑 / CRDT 与 OT」是否只是转述，还是有可复用的原始作品或方法。"
+          },
+          {
+            "url": "https://x.com/uxdesigncc/status/2077076456929169831",
+            "title": "X linked post",
+            "access": "partial",
+            "value": "已通过 fxtwitter 读取到引用/关联 X 内容的可见文本和媒体，作为原帖上下文补充。",
+            "learningValue": "用它判断「协同编辑 / CRDT 与 OT」是否只是转述，还是有可复用的原始作品或方法。"
+          },
+          {
+            "url": "https://x.com/uxdesigncc/status/1986825230698823723",
+            "title": "X linked post",
+            "access": "partial",
+            "value": "已通过 fxtwitter 读取到引用/关联 X 内容的可见文本和媒体，作为原帖上下文补充。",
+            "learningValue": "用它判断「协同编辑 / CRDT 与 OT」是否只是转述，还是有可复用的原始作品或方法。"
+          },
+          {
+            "url": "https://x.com/uxmag/status/1975151935515750571",
+            "title": "X linked post",
+            "access": "partial",
+            "value": "已通过 fxtwitter 读取到引用/关联 X 内容的可见文本和媒体，作为原帖上下文补充。",
+            "learningValue": "用它判断「协同编辑 / CRDT 与 OT」是否只是转述，还是有可复用的原始作品或方法。"
+          },
+          {
+            "url": "https://x.com/i/history/bookmarks/1975218743119667352",
+            "title": "X linked post",
+            "access": "partial",
+            "value": "已通过 fxtwitter 读取到引用/关联 X 内容的可见文本和媒体，作为原帖上下文补充。",
+            "learningValue": "用它判断「协同编辑 / CRDT 与 OT」是否只是转述，还是有可复用的原始作品或方法。"
+          },
+          {
+            "url": "https://uxmag.com/articles/the-meaning-of-ai-alignment",
+            "title": "引用帖外链",
+            "access": "unavailable",
+            "value": "本轮未读到可用页面内容，只保留原帖可见链接。",
+            "learningValue": "需要人工重新打开后再判断是否进入学习清单。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095290465969111228",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/shimizu_ai01/status/2095290465969111228",
+        "author": "シミズ/AGI開発者×元汎用系エンジニア×生成AI",
+        "handle": "shimizu_ai01",
+        "datetime": "2026-09-02T23:19:10.000Z",
+        "title": "シミズ/AGI開発者×元汎用系エンジニア×生成AI：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：同じ「高速・低価格」でも、仕事代は逆方向へ動く――Gemini 3.8とMuse Spark 1.3が示した実行コストの差 調査期間：2026年9月2日7:30～9月3日7:30 JST 確認件数：10件（重要3/3、開発2/2、話題3/3、専門2/2） 全体の結論：大きな共通変化は全10件にはない。今日固有の強い差分は、Googleが「単価据え置きだが高e...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+            "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
+            "title": "Gemini 3.8 Flash - Model Card — Google DeepMind",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+            "title": "Google’s Fairwind Program: Cyber defense tools for trusted partners",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+            "title": "Introducing Muse Spark 1.3 | Meta AI Research",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/",
+            "title": "https://www.reuters.com/legal/litigation/us-government-backs-openai-new-york-times-copyright-case-2026-09-02/",
+            "access": "unavailable",
+            "value": "本轮读取失败（HTTP 401），不据此扩展事实。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://apnews.com/article/justice-department-new-york-times-openai-copyright-dbb22e8e02c660ee5a8644915dec39a4",
+            "title": "Trump administration backs OpenAI in New York Times&#x27; copyright case | AP News",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-and-openai-expand-partnership-to-secure-the-agentic-era/",
+            "title": "CrowdStrike and OpenAI Expand Partnership to Secure the Agentic Era",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://www.alibabacloud.com/help/en/model-studio/newly-released-models",
+            "title": "Explore Qwen3, Wan2.6 & Latest Models on Model Studio - Alibaba Cloud Model Studio - Alibaba Cloud_Alibaba Cloud Model S",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://www.nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+            "title": "Mayor Mamdani and Chancellor Samuels Put Students First with Nation’s Broadest Generative AI Moratorium in Schools - NYC",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://apnews.com/article/zohran-mamdani-ai-ban-nyc-schools-647f6a968eea0399521b7934418b1aff",
+            "title": "AI banned for elementary and middle school students in NYC | AP News",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://www.reuters.com/business/retail-consumer/microsoft-reveal-azure-cloud-sales-financial-reporting-shift-2026-09-02/",
+            "title": "https://www.reuters.com/business/retail-consumer/microsoft-reveal-azure-cloud-sales-financial-reporting-shift-2026-09-02",
+            "access": "unavailable",
+            "value": "本轮读取失败（HTTP 401），不据此扩展事实。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://www.reuters.com/legal/litigation/openai-is-building-automated-shutdown-capabilities-ai-tools-letter-lawmakers-2026-09-02/",
+            "title": "https://www.reuters.com/legal/litigation/openai-is-building-automated-shutdown-capabilities-ai-tools-letter-lawmakers-20",
+            "access": "unavailable",
+            "value": "本轮读取失败（HTTP 401），不据此扩展事实。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://newsroom.equinix.com/2026-09-02-Equinix-Accelerates-AI-Inference-for-Enterprises-with-NVIDIA-and-Together-AI",
+            "title": "Equinix Accelerates AI Inference for Enterprises with NVIDIA and Together AI - Sep 2, 2026",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://huggingface.co/blog/KangLiao/puffin-world",
+            "title": "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095287116922306694",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/katiekirsch/status/2095287116922306694",
+        "author": "Katie Kirsch",
+        "handle": "katiekirsch",
+        "datetime": "2026-09-02T23:05:51.000Z",
+        "title": "Katie Kirsch：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：another fun day co-hosting the @talent_watching segment with @sophiadew on @MTSlive! 🎤 🚨 today we covered the biggest CEO handoff in tech in years, a wave of major frontier lab h...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/broadcasts/1qJDzWbvNVkKV",
+            "title": "X linked post",
+            "access": "partial",
+            "value": "已通过 fxtwitter 读取到引用/关联 X 内容的可见文本和媒体，作为原帖上下文补充。",
+            "learningValue": "用它判断「协同编辑 / CRDT 与 OT」是否只是转述，还是有可复用的原始作品或方法。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095268708247859667",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/_sholtodouglas/status/2095268708247859667",
+        "author": "Sholto Douglas",
+        "handle": "_sholtodouglas",
+        "datetime": "2026-09-02T21:52:42.000Z",
+        "title": "Sholto Douglas：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Excellent conversation - very direct, clear language. I'm hopeful the G20 comes away from this understanding how fast the rate of progress is and how big the opportunity they could...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「AI 产品 / Agent 工作流」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「AI 产品 / Agent 工作流」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://claude.ai/public/artifacts/5de5dd3d-e6cc-43cb-ad55-23202066e05d",
+            "title": "Claude Artifact",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「AI 产品 / Agent 工作流」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / Agent 工作流",
+          "media",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095197625511292991",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/diabrowser/status/2095197625511292991",
+        "author": "Dia",
+        "handle": "diabrowser",
+        "datetime": "2026-09-02T17:10:15.000Z",
+        "title": "Dia：产品设计观察",
+        "originalSummary": "原帖说明：Windows Wednesdays Episode 6 in which Steve walks us through Live Groups in Dia on Windows. We let people in off the waitlist every day!! https://form.typeform.com/to/mqWoiHW0",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「个人设计师关注信号」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「个人设计师关注信号」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://form.typeform.com/to/mqWoiHW0",
+            "title": "https://form.typeform.com/to/mqWoiHW0",
+            "access": "unavailable",
+            "value": "本轮读取失败（timeout），不据此扩展事实。",
+            "learningValue": "用它核验「个人设计师关注信号」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "提炼原帖中的用户、场景和约束。",
+          "判断它是否能变成个人作品集或产品练习题。",
+          "记录一个可执行的下一步验证动作。"
+        ],
+        "tags": [
+          "Home",
+          "个人设计师关注信号",
+          "media",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095324601278779447",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ZhangAlfred/status/2095324601278779447",
+        "author": "最佳拍档",
+        "handle": "ZhangAlfred",
+        "datetime": "2026-09-03T01:34:48.000Z",
+        "title": "最佳拍档：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：9月1日Anthropic发布Claude Fable 5.1和Mythos 5.1，两款模型共享同一底层模型但安全限制不同。Fable 5.1在科研智能体测试Terminal-Bench-Science中得分52.6%，是GPT-5.6 Sol的2.3倍。早期客户案例显示模型可连续运行38小时无人值守完成机器学习任务，并在百万分之一概率的软件崩溃中定位Bu...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 工作流 / 数据到演示」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent 工作流 / 数据到演示」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.youtube.com/watch?si=MsmSBQys6HZ-hfrH&v=jXK-GqpL12Q&feature=youtu.be",
+            "title": "https://www.youtube.com/watch?si=MsmSBQys6HZ-hfrH&v=jXK-GqpL12Q&feature=youtu.be",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「Agent 工作流 / 数据到演示」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / 数据到演示",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095323424143159411",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/openclaw/status/2095323424143159411",
+        "author": "OpenClaw🦞",
+        "handle": "openclaw",
+        "datetime": "2026-09-03T01:30:08.000Z",
+        "title": "OpenClaw🦞：设计工程参考",
+        "originalSummary": "原帖说明：What is it like to maintain OpenClaw? @github asked the people building it. https://youtube.com/shorts/k2fgD6JbB54",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent Dashboard / 团队循环」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent Dashboard / 团队循环」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.youtube.com/shorts/k2fgD6JbB54",
+            "title": "https://www.youtube.com/shorts/k2fgD6JbB54",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「Agent Dashboard / 团队循环」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent Dashboard / 团队循环",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095323392748499250",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/hakky_kazumasa/status/2095323392748499250",
+        "author": "Saito@Hakky",
+        "handle": "hakky_kazumasa",
+        "datetime": "2026-09-03T01:30:00.000Z",
+        "title": "Saito@Hakky：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：モデルの世代交代のたびに性能の話ばかり見がちだけど、地味に効くのは価格とキャッシュの方だと思う。 Anthropicが Claude Fable 5.1 と Mythos 5.1 を出して、キャッシュ読み取りのコストを75%削って100万トークンあたり0.25ドルにした。標準の入出力価格（入力$10 / 出力$50 per 100万トークン）は据え置き。 F...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 工作流 / 数据到演示」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent 工作流 / 数据到演示」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://book.st-hakky.com/news/anthropic-announces-claude-fable-5-1-and-claude-mythos-5-1",
+            "title": "Anthropic、OpenAIに先駆け新AIモデル2種をリリース | Hakky Handbook",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「Agent 工作流 / 数据到演示」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / 数据到演示",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095322997376557479",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Abubakar_2005/status/2095322997376557479",
+        "author": "abubakar",
+        "handle": "Abubakar_2005",
+        "datetime": "2026-09-03T01:28:26.000Z",
+        "title": "abubakar：拆解 Figma 协同编辑",
+        "originalSummary": "原帖说明：i just finished reading through how figma built multiplayer and one thing that really stuck with me is how much of the complexity came from edge cases. the core idea is pretty simp...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.figma.com/blog/how-figmas-multiplayer-technology-works/",
+            "title": "How Figma’s multiplayer technology works | Figma Blog",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095322182473945556",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/yuutanman/status/2095322182473945556",
+        "author": "yuutanman 💐:*.",
+        "handle": "yuutanman",
+        "datetime": "2026-09-03T01:25:12.000Z",
+        "title": "yuutanman 💐:*.：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Claude CodeとCodex、数字が割れる理由｜東京PCレスキュー隊長 @yuutanman https://note.com/tolove/n/n8ccaaa24fb9b?sub_rt=share_pb #ClaudeCode #Codex #ベンチマーク",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://note.com/tolove/n/n8ccaaa24fb9b?sub_rt=share_pb",
+            "title": "Claude CodeとCodex、数字が割れる理由｜東京PCレスキュー隊長",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095321646513225901",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/zuzu_sbg/status/2095321646513225901",
+        "author": "ZUZU〓SoftBankGroup投資家🪿🪿",
+        "handle": "zuzu_sbg",
+        "datetime": "2026-09-03T01:23:04.000Z",
+        "title": "ZUZU〓SoftBankGroup投資家🪿🪿：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：『AIを使わない国は、電気を使わない国と同じ』 Sam AltmanがG20で断言 ----------- 「AIを国で使わないと言うのは、100年以上前に『電気を使わない』と言うのと同じくらい悪い考えです。」 「AIを使うことは、もはや交渉の余地がありません。使わなければならない。」 「以前ならスタートアップが3か月かけていた仕事が、今ではCodexを使え...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「AI 产品 / Agent 工作流」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「AI 产品 / Agent 工作流」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.youtube.com/watch?v=69bkImSpZ7Q",
+            "title": "https://www.youtube.com/watch?v=69bkImSpZ7Q",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「AI 产品 / Agent 工作流」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / Agent 工作流",
+          "text",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095319541446566236",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/MannaCodeAI/status/2095319541446566236",
+        "author": "Manna Code",
+        "handle": "MannaCodeAI",
+        "datetime": "2026-09-03T01:14:42.000Z",
+        "title": "Manna Code：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Hit a usage wall mid-project and the chat forgets where you were. Local coding agent. Full thread stays on disk. Swap Anthropic, OpenRouter, Fireworks, Together, or any compatible ...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「团队聊天 / Agent 协作界面」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「团队聊天 / Agent 协作界面」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://mannacode.ai/",
+            "title": "Manna Code — local-first AI coding, on your machine",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「团队聊天 / Agent 协作界面」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "拆解侧栏指标的常驻信息、阈值颜色和可操作入口。",
+          "设计一个用量到达 80%/100% 的微文案和状态转移。",
+          "把 dashboard 从展示页改成可触发动作的工作台模块。"
+        ],
+        "tags": [
+          "Home",
+          "团队聊天 / Agent 协作界面",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095317605393350917",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/AsphaltCowb0y/status/2095317605393350917",
+        "author": "Jeremy Longshore",
+        "handle": "AsphaltCowb0y",
+        "datetime": "2026-09-03T01:07:00.000Z",
+        "title": "Jeremy Longshore：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Yo! Big props to @BlueBirdDay45 over at https://intentsolutions.io for dropping our first @YouTube video. He’s been getting his balls busted for a minute …. https://Learn.intentsol...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://intentsolutions.io/",
+            "title": "Intent Solutions | Intelligent Solutions, Intentional Impact",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://learn.intentsolutions.io/",
+            "title": "Intent Solutions Learn",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://www.youtube.com/watch?si=4nu4v6UgdBaSot1Y&v=LfGjb1P7C4Q&feature=youtu.be",
+            "title": "https://www.youtube.com/watch?si=4nu4v6UgdBaSot1Y&v=LfGjb1P7C4Q&feature=youtu.be",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095313119837032934",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/HangingContext/status/2095313119837032934",
+        "author": "Hanging Context",
+        "handle": "HangingContext",
+        "datetime": "2026-09-03T00:49:11.000Z",
+        "title": "Hanging Context：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：New Benchmarks Reveal Performance Gaps in AI Software Maintenance Agents https://hangingcontext.com/news/engineering-technology/2026-09-03-00-3-ai-coding-agent-benchmarks-chainswe-...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://hangingcontext.com/news/engineering-technology/2026-09-03-00-3-ai-coding-agent-benchmarks-chainswe-sedcot/?utm_source=dlvr.it&utm_medium=twitter",
+            "title": "New Benchmarks Reveal Performance Gaps in AI Software Maintenance Agents - Hanging Context",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095311848174440863",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/CNBCTV18Live/status/2095311848174440863",
+        "author": "CNBC-TV18",
+        "handle": "CNBCTV18Live",
+        "datetime": "2026-09-03T00:44:08.000Z",
+        "title": "CNBC-TV18：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：#Snowflake shares jump 22% in extended trade after strong #Q2 results, guidance raise https://www.cnbctv18.com/market/snowflake-q2-results-q3-full-year-product-revenue-guidance-coc...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「产品设计 / 视觉系统」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「产品设计 / 视觉系统」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.cnbctv18.com/market/snowflake-q2-results-q3-full-year-product-revenue-guidance-coco-ai-coding-agent-share-price-19982843.htm",
+            "title": "Snowflake shares jump 22% in extended trade after strong Q2 results, guidance raise - CNBC TV18",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「产品设计 / 视觉系统」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉系统",
+          "text",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095310052861300868",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/afu7568/status/2095310052861300868",
+        "author": "Alan Fu",
+        "handle": "afu7568",
+        "datetime": "2026-09-03T00:37:00.000Z",
+        "title": "Alan Fu：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：1/ Your prompt filter runs before the model decides anything. This creates a exploitable gap 2/ Simon Willison's 'lethal trifecta': private data, untrusted content, a way to exfilt...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.trydoberman.dev/",
+            "title": "Doberman — Open-Source AI Agent Security & Runtime Guardrails",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095306407377788989",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/yurilifelab/status/2095306407377788989",
+        "author": "YuriLab",
+        "handle": "yurilifelab",
+        "datetime": "2026-09-03T00:22:31.000Z",
+        "title": "YuriLab：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：我最近自己做了一个开源 Skill，叫 YouTub MindMap。 1. 为什么做这个 Skill 它主要是解决我自己一个很实际的问题。 现在 YouTube 上有很多特别好的教程、访谈和 Podcast，但是动不动就是一两个小时，甚至四五个小时。 就算开两倍速，也很难从头看到尾。 所以我就做了这个工具。 2. 它可以做什么 比如我在 Claude Co...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「AI 产品 / Agent 工作流」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「AI 产品 / Agent 工作流」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/YuriAILab/youtubemindmap",
+            "title": "GitHub - YuriAILab/youtubemindmap: Turn any YouTube video into one self-contained HTML mind map — real timestamps back i",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「AI 产品 / Agent 工作流」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / Agent 工作流",
+          "text",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095304872253902988",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/SparkVibeAI/status/2095304872253902988",
+        "author": "SparkVibeAI",
+        "handle": "SparkVibeAI",
+        "datetime": "2026-09-03T00:16:25.000Z",
+        "title": "SparkVibeAI：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：It’s official: SparkVibeAI is live. 🔥 Turn the messy idea in your head into a build-ready spec your coding agent can actually execute—reviewed across model families and checked by...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「产品设计 / 视觉系统」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「产品设计 / 视觉系统」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://sparkvibeai.com/",
+            "title": "SparkVibeAI · The Spec Layer for AI Coding Agents",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「产品设计 / 视觉系统」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉系统",
+          "text",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095297298196545760",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/pggalaviz/status/2095297298196545760",
+        "author": "Pedro G. Galaviz",
+        "handle": "pggalaviz",
+        "datetime": "2026-09-02T23:46:19.000Z",
+        "title": "Pedro G. Galaviz：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Google shipped Gemini 3.8 Flash today. Third Flash in six weeks, same intro price as 3.7 At this cadence, the half-life of a coding-agent eval is now measured in weekends. Anyone e...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+            "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095196054438494668",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/alexbasil/status/2095196054438494668",
+        "author": "Alex Basil",
+        "handle": "alexbasil",
+        "datetime": "2026-09-02T17:04:00.000Z",
+        "title": "Alex Basil：产品设计观察",
+        "originalSummary": "原帖说明：a swap is five problems, not one. https://x.com/i/article/2095175458052857856",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2095175458052857856",
+            "title": "X linked post",
+            "access": "partial",
+            "value": "已通过 fxtwitter 读取到引用/关联 X 内容的可见文本和媒体，作为原帖上下文补充。",
+            "learningValue": "用它判断「协同编辑 / CRDT 与 OT」是否只是转述，还是有可复用的原始作品或方法。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095324562389180793",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/shangdu2005/status/2095324562389180793",
+        "author": "领哥LingGe🙏",
+        "handle": "shangdu2005",
+        "datetime": "2026-09-03T01:34:39.000Z",
+        "title": "领哥LingGe🙏：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：最近Meta AI模型发展挺快！ 虽然热度不大。 但是该模型在编码能力上超越 OpenAI 的 GPT-5.6 Sol， 与 Anthropic 的 Claude Fable 5.1 表现持平。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 工作流 / 数据到演示」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent 工作流 / 数据到演示」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / 数据到演示",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095324498711195833",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/NamiDesignWorks/status/2095324498711195833",
+        "author": "Nami｜EC運営×生成AI｜商品ページ自動化の実験ログ",
+        "handle": "NamiDesignWorks",
+        "datetime": "2026-09-03T01:34:24.000Z",
+        "title": "Nami｜EC運営×生成AI｜商品ページ自動化の実験ログ：设计工程参考",
+        "originalSummary": "原帖说明：OpenClawのLINEの設定むずすぎ。できたけど、これ苦手な人は結構苦戦すると思う。 取引先のウケは最高だった。皆さん驚かれていたちょっとした話題作りにはいいかも。 調子にのってLINEスタンプも作りました。現在は申請中。 Nami Design Works LINE専用のAIエージェントの琥珀です。 ただ会話するよりもなんか気持ち的にいい感じ。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent Dashboard / 团队循环」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent Dashboard / 团队循环」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent Dashboard / 团队循环",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095324067796513023",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/chorch_md/status/2095324067796513023",
+        "author": "Chorch",
+        "handle": "chorch_md",
+        "datetime": "2026-09-03T01:32:41.000Z",
+        "title": "Chorch：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Muchos se coparon con OMP, así que acá les comparto cómo lo estoy usando con Claude Max y un Grok 4.6 por las dudas. Tengo 3 roles: default = la sesión smol = lo repetitivo (scouts...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/chorch_md/status/2095208288002400741",
+            "title": "引用帖：Chorch",
+            "access": "partial",
+            "value": "fxtwitter 读到引用帖文本：Es un camino de ida dejar Claude Code por OMP. Se siente lo mismo que cuando todos pasamos de usar ChatGPT en su web cop...",
+            "learningValue": "引用帖补足「协同编辑 / CRDT 与 OT」的原始语境，可继续作为作品或方法入口。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095323720898470285",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/myles_franklin/status/2095323720898470285",
+        "author": "Myles Franklin",
+        "handle": "myles_franklin",
+        "datetime": "2026-09-03T01:31:18.000Z",
+        "title": "Myles Franklin：产品设计观察",
+        "originalSummary": "原帖说明：Fable 5.1 just re-created this entire environment and unreleased ID in one gauntlet loop.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 工作流 / 数据到演示」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent 工作流 / 数据到演示」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "提炼原帖中的用户、场景和约束。",
+          "判断它是否能变成个人作品集或产品练习题。",
+          "记录一个可执行的下一步验证动作。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / 数据到演示",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095323390659969417",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/JulianGoldieSEO/status/2095323390659969417",
+        "author": "Julian Goldie SEO",
+        "handle": "JulianGoldieSEO",
+        "datetime": "2026-09-03T01:30:00.000Z",
+        "title": "Julian Goldie SEO：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Normally: Codex → one provider → token limit → build stops. My setup: Codex → OmniRoute → 93 providers. If one free provider gets rate-limited, OmniRoute automatically moves the ru...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095323391448252711",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/goyalshaliniuk/status/2095323391448252711",
+        "author": "Shalini Goyal",
+        "handle": "goyalshaliniuk",
+        "datetime": "2026-09-03T01:30:00.000Z",
+        "title": "Shalini Goyal：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Claude 5.1 is here. Meet Claude Fable 5.1 and Claude Mythos 5.1 - two powerful new models built for advanced coding, reasoning, and knowledge work. A major upgrade for anyone build...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 工作流 / 数据到演示」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent 工作流 / 数据到演示」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / 数据到演示",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095323278990880811",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/seaify1/status/2095323278990880811",
+        "author": "seaify",
+        "handle": "seaify1",
+        "datetime": "2026-09-03T01:29:33.000Z",
+        "title": "seaify：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：📊 加密市场情报 · 2026-09-03 📈 当日整体情绪：看涨 AVGO/HPE/SNOW财报超预期验证AI算力需求爆发；Robinhood链MemeFi热度持续；美伊冲突+长债收益率高企压制估值，整体偏涨但宏观风险不可忽视。 🎯 叙事 / 主题聚合 1. Broadcom AI半导体爆发——FY28年收入指引2300亿美元颠覆市场预期 📈看涨 ...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 工作流 / 数据到演示」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent 工作流 / 数据到演示」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / 数据到演示",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095322816564658235",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/asahi_ai_x/status/2095322816564658235",
+        "author": "あさひ｜教頭先生のAI活用術",
+        "handle": "asahi_ai_x",
+        "datetime": "2026-09-03T01:27:43.000Z",
+        "title": "あさひ｜教頭先生のAI活用術：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：【AI本人に検品させない】 AIに成果物を作らせて、そのまま検品までさせていませんか？ それ、自分の答案を自分で採点してるのと同じです。 Claude Code・Codex・Antigravityなら、「作るAI」と「見るAI」を分けられます。 ポイントは、検品AIには直させず、指摘だけさせること。 AI社員の精度を上げるなら、賢くするより「分業」のほうが効...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「AI 产品 / Agent 工作流」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「AI 产品 / Agent 工作流」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/daifukujinji/status/2095255548350595425",
+            "title": "引用帖：たか田",
+            "access": "partial",
+            "value": "fxtwitter 读到引用帖文本：作った本人に、聞いてた... 「これ合ってる？」をAI社員本人に確認しても意味ないんだよね。自分の答案を自分で採点させてるのと同じ。Claude Code・Codex・Antigravityで検品専任をもう1人。自己満足をやめる社員の雇い方...",
+            "learningValue": "引用帖补足「AI 产品 / Agent 工作流」的原始语境，可继续作为作品或方法入口。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / Agent 工作流",
+          "media",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095322673434010016",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/qcxangel/status/2095322673434010016",
+        "author": "Q",
+        "handle": "qcxangel",
+        "datetime": "2026-09-03T01:27:09.000Z",
+        "title": "Q：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Macではずっと Ctrl + Space で入力ソースを切り替えていて、完全に手が覚えてる。 なのに今日、いつものように Ctrl + Space を押したら…… 入力ソースが切り替わるけど、Codexのペットも出てきた。 Ctrl + Space が 「ペットを表示」 に割り当てられていた。 #OpenAI #chatGPT #codex #Tibo",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「AI 产品 / Agent 工作流」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「AI 产品 / Agent 工作流」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / Agent 工作流",
+          "media",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095322582287355979",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/FabianoFirmo/status/2095322582287355979",
+        "author": "Fabiano Firmo",
+        "handle": "FabianoFirmo",
+        "datetime": "2026-09-03T01:26:47.000Z",
+        "title": "Fabiano Firmo：产品设计观察",
+        "originalSummary": "原帖说明：Fable 5.1 A GTA-style open-world multiplayer game, set in NYC.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095322568882630746",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/santaizi_James/status/2095322568882630746",
+        "author": "James Lv（三太子）",
+        "handle": "santaizi_James",
+        "datetime": "2026-09-03T01:26:44.000Z",
+        "title": "James Lv（三太子）：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：说个暴论： 现在还能正常翻墙的，认知一定远超身边同龄人。 还能用上 Codex 和 Claude Code 的，未来发展一定远超身边还在用豆包的人。 如果还会学习了解美股与复利，这辈子发财是早晚的事！",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「AI 产品 / Agent 工作流」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「AI 产品 / Agent 工作流」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / Agent 工作流",
+          "media",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095322405032144912",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/OriyukiAkari/status/2095322405032144912",
+        "author": "鸢",
+        "handle": "OriyukiAkari",
+        "datetime": "2026-09-03T01:26:05.000Z",
+        "title": "鸢：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：codex貌似送了一管Luna的额度，但是 调阅计费模型看到gpt-reserve，不是gpt-5.6-luna，也不能调用codex-auto-review，尝试了很久要让他避开代码写入、补丁审批这些工作才能用。。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「AI 产品 / Agent 工作流」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「AI 产品 / Agent 工作流」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / Agent 工作流",
+          "media",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095321397329580391",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/mocchalera/status/2095321397329580391",
+        "author": "さかもと()｜ChatGPT Voice/Codexランナー",
+        "handle": "mocchalera",
+        "datetime": "2026-09-03T01:22:04.000Z",
+        "title": "さかもと()｜ChatGPT Voice/Codexランナー：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：同じコンテキストを与えてMiniMaxに入れる生成プロンプト作るところからGemini 3.8 Flashで作り直したらクオリティあがったな。やっぱり大事よね上流。昨日は3.7でやってたところ。",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「AI 产品 / Agent 工作流」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「AI 产品 / Agent 工作流」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / Agent 工作流",
+          "media",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095320458803691816",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ZeroZ_JQ/status/2095320458803691816",
+        "author": "关木",
+        "handle": "ZeroZ_JQ",
+        "datetime": "2026-09-03T01:18:21.000Z",
+        "title": "关木：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：这个 zg 真的可以研究下 zg = 给人和 Coding Agent 用的“语义版 ripgrep” 想起了我的老项目，也是在解决 Agent 的搜索问题",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「AI 产品 / Agent 工作流」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「AI 产品 / Agent 工作流」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/QwenDevs/status/2095157452904018263",
+            "title": "引用帖：Qwen Developers",
+            "access": "partial",
+            "value": "fxtwitter 读到引用帖文本：Alibaba’s Zvec team open-sourced zg, a local search tool for developers and AI agents. • Local-first • Works out of the ...",
+            "learningValue": "引用帖补足「AI 产品 / Agent 工作流」的原始语境，可继续作为作品或方法入口。"
+          },
+          {
+            "url": "https://x.com/i/article/2094685765620113408",
+            "title": "引用帖外链",
+            "access": "partial",
+            "value": "已通过 fxtwitter 读取到引用/关联 X 内容的可见文本和媒体，作为原帖上下文补充。",
+            "learningValue": "用它判断「AI 产品 / Agent 工作流」是否只是转述，还是有可复用的原始作品或方法。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "AI 产品 / Agent 工作流",
+          "media",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095319369483956589",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/DanKornas/status/2095319369483956589",
+        "author": "Dan Kornas",
+        "handle": "DanKornas",
+        "datetime": "2026-09-03T01:14:01.000Z",
+        "title": "Dan Kornas：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Coding-agent runs shouldn’t disappear when a terminal closes. Warren is self-hosted infrastructure for individual operators and small, trusted teams running coding agents on comput...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「团队聊天 / Agent 协作界面」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「团队聊天 / Agent 协作界面」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "团队聊天 / Agent 协作界面",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095318680280379725",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/oonojyouhobby/status/2095318680280379725",
+        "author": "ブックオフ大野城御笠川店ホビー部",
+        "handle": "oonojyouhobby",
+        "datetime": "2026-09-03T01:11:17.000Z",
+        "title": "ブックオフ大野城御笠川店ホビー部：产品设计观察",
+        "originalSummary": "原帖说明：ホビーストック 由比ヶ浜結衣 1/6 水着ver./やはり俺の青春ラブコメは間違っている。-続-(画像略) figma 584 ゴールドシップ/ウマ娘 プリティーダービー お売りいただきました‼️カウンター内にて保管しております。お気軽に従業員にお声がけくださいませ✨ ご来店お待ちしております🙇",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「产品设计 / 视觉系统」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「产品设计 / 视觉系统」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解页面/作品的字体、间距、色彩和内容层级。",
+          "把可复用的组件或版式规则写成 design.md 条目。",
+          "选择一个个人项目，用同样约束做一次小范围复刻。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉系统",
+          "media",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095317750839476393",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ArtificialAnlys/status/2095317750839476393",
+        "author": "Artificial Analysis",
+        "handle": "ArtificialAnlys",
+        "datetime": "2026-09-03T01:07:35.000Z",
+        "title": "Artificial Analysis：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Meta's Muse Spark 1.3 (max), which is in limited preview for Meta's partners, scores 68 on the Artificial Analysis Coding Agent Index in the Muse Code harness, #2 behind only Claud...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095315879726665888",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/PRDCTNPRTNRS/status/2095315879726665888",
+        "author": "Production Partners",
+        "handle": "PRDCTNPRTNRS",
+        "datetime": "2026-09-03T01:00:09.000Z",
+        "title": "Production Partners：设计工程参考",
+        "originalSummary": "原帖说明：Colour in CAD isn't just for presentation. We use colour-coded surfaces to communicate finishes, textures and tooling requirements — helping design, engineering and tooling teams i...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「产品设计 / 视觉系统」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「产品设计 / 视觉系统」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解页面/作品的字体、间距、色彩和内容层级。",
+          "把可复用的组件或版式规则写成 design.md 条目。",
+          "选择一个个人项目，用同样约束做一次小范围复刻。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉系统",
+          "media",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095315178531246506",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/asmathub/status/2095315178531246506",
+        "author": "أسماء | مصممة UX UI",
+        "handle": "asmathub",
+        "datetime": "2026-09-03T00:57:22.000Z",
+        "title": "أسماء | مصممة UX UI：拆解 Figma 协同编辑",
+        "originalSummary": "原帖说明：A little glimpse into my work as a UX/UI Designer 👩🏻‍💻✨ I love turning ideas into intuitive, accessible, and user-centered experiences. Currently open to Freelance opportunities...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「产品设计 / 视觉系统」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「产品设计 / 视觉系统」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解页面/作品的字体、间距、色彩和内容层级。",
+          "把可复用的组件或版式规则写成 design.md 条目。",
+          "选择一个个人项目，用同样约束做一次小范围复刻。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉系统",
+          "media",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095312317856764367",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/YM_AlphaNotes/status/2095312317856764367",
+        "author": "玉米_AlphaNotes",
+        "handle": "YM_AlphaNotes",
+        "datetime": "2026-09-03T00:46:00.000Z",
+        "title": "玉米_AlphaNotes：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：以后写前端用 Qwen3.8-Max，后端继续用 GPT-5.6 Sol。🤣 AI Coding 基本盘干不过，咱就卷细分领域，把前端干到第一，阿里更新旗舰模型Qwen3.8-Max，这次Coding能力直接冲到了榜首。 新版Qwen3.8-Max针对Coding和Cowork（专业办公）进行了专项后训练，重点强化复杂工程、Agent编程和长周期任务能力，...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「团队聊天 / Agent 协作界面」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「团队聊天 / Agent 协作界面」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "团队聊天 / Agent 协作界面",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095312058522755241",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/danielgrafix_/status/2095312058522755241",
+        "author": "✦ Daniel Moreno",
+        "handle": "danielgrafix_",
+        "datetime": "2026-09-03T00:44:58.000Z",
+        "title": "✦ Daniel Moreno：Framer 设计与 Agent 信号",
+        "originalSummary": "原帖说明：Your navbar doesn't have to look like everyone else's 🥇 Gilt Navbar adapts from desktop to mobile, wrapping its CTA in a gilded liquid-gradient border that never stops moving. Fre...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「产品设计 / 视觉系统」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「产品设计 / 视觉系统」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解页面/作品的字体、间距、色彩和内容层级。",
+          "把可复用的组件或版式规则写成 design.md 条目。",
+          "选择一个个人项目，用同样约束做一次小范围复刻。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉系统",
+          "media",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095311646293979468",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/cherifdesigns/status/2095311646293979468",
+        "author": "Cherif Tabouche",
+        "handle": "cherifdesigns",
+        "datetime": "2026-09-03T00:43:20.000Z",
+        "title": "Cherif Tabouche：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：A testimonials section that reinforces credibility for your product. Designed in Figma, built in Claude.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「产品设计 / 视觉系统」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「产品设计 / 视觉系统」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉系统",
+          "media",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095306175713857702",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/StudentOffersHQ/status/2095306175713857702",
+        "author": "Student Offers",
+        "handle": "StudentOffersHQ",
+        "datetime": "2026-09-03T00:21:35.000Z",
+        "title": "Student Offers：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：GPT-5.6 Luna. Terra. Sonnet 5. GLM 5.3. GLM 5.3 Flash. DeepSeek V4 Flash 0731. All free. $200 in free usage credits every month. No card required for the Free plan. Hoplite is a cl...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「用量状态 / Sidebar 信息架构」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「用量状态 / Sidebar 信息架构」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解侧栏指标的常驻信息、阈值颜色和可操作入口。",
+          "设计一个用量到达 80%/100% 的微文案和状态转移。",
+          "把 dashboard 从展示页改成可触发动作的工作台模块。"
+        ],
+        "tags": [
+          "Home",
+          "用量状态 / Sidebar 信息架构",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095301171091292546",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/NetSeg_io/status/2095301171091292546",
+        "author": "Leon Poggioli",
+        "handle": "NetSeg_io",
+        "datetime": "2026-09-03T00:01:42.000Z",
+        "title": "Leon Poggioli：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：30 minute walkthrough as I take a book manuscript and turn it into an infographic using Grok and Figma",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「产品设计 / 视觉系统」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「产品设计 / 视觉系统」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉系统",
+          "media",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095297747515785383",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Corbin_2626/status/2095297747515785383",
+        "author": "Justin Banks",
+        "handle": "Corbin_2626",
+        "datetime": "2026-09-02T23:48:06.000Z",
+        "title": "Justin Banks：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：$SNOW just ripped +22% after hours. Not a small beat. A full reset of the AI-data story. Q2: • Revenue $1.55B vs $1.48B expected • Product revenue $1.49B, +37% YoY • Adj. EPS $0.62...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095295290857427409",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/AIandDesign/status/2095295290857427409",
+        "author": "⭕ AI & Design (Marco)",
+        "handle": "AIandDesign",
+        "datetime": "2026-09-02T23:38:20.000Z",
+        "title": "⭕ AI & Design (Marco)：设计工程参考",
+        "originalSummary": "原帖说明：What do you all think, is @thsottiaux going to give us another reset when Astra arrives tomorrow (hopefully) or do I use the last reset I have left?",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095277175943336180",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/stuartregan/status/2095277175943336180",
+        "author": "Stuart Regan",
+        "handle": "stuartregan",
+        "datetime": "2026-09-02T22:26:21.000Z",
+        "title": "Stuart Regan：设计工程参考",
+        "originalSummary": "原帖说明：Digging through the archives to update the folio. Attio Workflows is still up there as one of my favourite bodies of work. Timeless design, with so many subtle elements stolen by o...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095275943590072702",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dev_ahfos/status/2095275943590072702",
+        "author": "dev",
+        "handle": "dev_ahfos",
+        "datetime": "2026-09-02T22:21:27.000Z",
+        "title": "dev：设计工程参考",
+        "originalSummary": "原帖说明：yo x people, i'm a fellow creative (no name yet) I'm gonna try and be active here, thanks to @pxpbrownie raw, low effort, high thought content help me with a name for my studio imm...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「个人设计师关注信号」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「个人设计师关注信号」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解页面/作品的字体、间距、色彩和内容层级。",
+          "把可复用的组件或版式规则写成 design.md 条目。",
+          "选择一个个人项目，用同样约束做一次小范围复刻。"
+        ],
+        "tags": [
+          "Home",
+          "个人设计师关注信号",
+          "media",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095267386048086338",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/HumanHarlan/status/2095267386048086338",
+        "author": "Harlan Stewart",
+        "handle": "HumanHarlan",
+        "datetime": "2026-09-02T21:47:27.000Z",
+        "title": "Harlan Stewart：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Quick recap of the last week: * New details about the OpenAI-HF incident: a large coordinated swarm of AIs covertly escaped and hacked HF, trying to steal info about a test's scori...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095263166787957003",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/DynamicWebPaige/status/2095263166787957003",
+        "author": "👩‍💻 Paige Bailey",
+        "handle": "DynamicWebPaige",
+        "datetime": "2026-09-02T21:30:41.000Z",
+        "title": "👩‍💻 Paige Bailey：产品设计观察",
+        "originalSummary": "原帖说明：i've been taking the same photo of austin at least once a year, every year, since 2019",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095254966185185318",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/jacobjolibois/status/2095254966185185318",
+        "author": "Jacob Jolibois 🇺🇸",
+        "handle": "jacobjolibois",
+        "datetime": "2026-09-02T20:58:06.000Z",
+        "title": "Jacob Jolibois 🇺🇸：产品设计观察",
+        "originalSummary": "原帖说明：Shipping a \"now, next, later\" roadmap in the app so customers can: - up-vote features they want - leave feedback on features - request new feature Everything syncs with @linear so ...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095254433655390281",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/niccoatesuk/status/2095254433655390281",
+        "author": "Nic Coates",
+        "handle": "niccoatesuk",
+        "datetime": "2026-09-02T20:55:59.000Z",
+        "title": "Nic Coates：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Over an hour in using @inline_chat, and damn, it's good. Hooked my Hermes agent up to it, and boom, it's all there. Threads are just 👌Kudos @morajabi.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 入口 / Grok Bot」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent 入口 / Grok Bot」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 入口 / Grok Bot",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095249871749923064",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/morajabi/status/2095249871749923064",
+        "author": "Mo Rajabi",
+        "handle": "morajabi",
+        "datetime": "2026-09-02T20:37:51.000Z",
+        "title": "Mo Rajabi：产品设计观察",
+        "originalSummary": "原帖说明：telegram copy media is broken for cross-app paste, so i put a special toast for my telegram users",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「个人设计师关注信号」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「个人设计师关注信号」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "提炼原帖中的用户、场景和约束。",
+          "判断它是否能变成个人作品集或产品练习题。",
+          "记录一个可执行的下一步验证动作。"
+        ],
+        "tags": [
+          "Home",
+          "个人设计师关注信号",
+          "media",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095240225748353314",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/jennalsoard/status/2095240225748353314",
+        "author": "Jenna Soard",
+        "handle": "jennalsoard",
+        "datetime": "2026-09-02T19:59:32.000Z",
+        "title": "Jenna Soard：设计工程参考",
+        "originalSummary": "原帖说明：So I’ve been reading the genius marketing book and I thought the principles from the book would make a hilarious sitcom as I promote my next program/bootcamp “Sales Page Rebellion ...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095234192472756417",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/AmirMushich/status/2095234192472756417",
+        "author": "AmirMušić",
+        "handle": "AmirMushich",
+        "datetime": "2026-09-02T19:35:33.000Z",
+        "title": "AmirMušić：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：This brand system is built from 1 ref image - article below is my complete guide to repeat it - BRAND_SKILL.md is my 'brain' for the design Agent - video below is the output from a...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「产品设计 / 视觉系统」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「产品设计 / 视觉系统」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/AmirMushich/status/2095182776249049456",
+            "title": "引用帖：AmirMušić",
+            "access": "partial",
+            "value": "fxtwitter 读到引用帖文本：https://x.com/i/article/2094805443335831552",
+            "learningValue": "引用帖补足「产品设计 / 视觉系统」的原始语境，可继续作为作品或方法入口。"
+          },
+          {
+            "url": "https://x.com/i/article/2094805443335831552",
+            "title": "引用帖外链",
+            "access": "partial",
+            "value": "已通过 fxtwitter 读取到引用/关联 X 内容的可见文本和媒体，作为原帖上下文补充。",
+            "learningValue": "用它判断「产品设计 / 视觉系统」是否只是转述，还是有可复用的原始作品或方法。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉系统",
+          "media",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095233547330347491",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/ProximalHQ/status/2095233547330347491",
+        "author": "Proximal",
+        "handle": "ProximalHQ",
+        "datetime": "2026-09-02T19:32:59.000Z",
+        "title": "Proximal：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：We are releasing FrontierSWE v2, our updated ultra-long horizon coding benchmark V2 features an expanded task suite and improved methodology. We see large performance gaps between ...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 工作流 / 数据到演示」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent 工作流 / 数据到演示」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / 数据到演示",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095229096712458327",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/OpenAIDevs/status/2095229096712458327",
+        "author": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "datetime": "2026-09-02T19:15:18.000Z",
+        "title": "OpenAI Developers：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：GPT-5.6 Sol helps @bryantchou’s team at @ployai orchestrate complex marketing campaigns as they experiment with subagents to save time and cut costs.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「团队聊天 / Agent 协作界面」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「团队聊天 / Agent 协作界面」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "团队聊天 / Agent 协作界面",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095220880523571338",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/JordanGilroy/status/2095220880523571338",
+        "author": "Jordan Gilroy",
+        "handle": "JordanGilroy",
+        "datetime": "2026-09-02T18:42:39.000Z",
+        "title": "Jordan Gilroy：产品设计观察",
+        "originalSummary": "原帖说明：Honoured and humbled to scoop a @webflow award. Huge thanks to the judges ✌️",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「产品设计 / 视觉系统」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「产品设计 / 视觉系统」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "拆解页面/作品的字体、间距、色彩和内容层级。",
+          "把可复用的组件或版式规则写成 design.md 条目。",
+          "选择一个个人项目，用同样约束做一次小范围复刻。"
+        ],
+        "tags": [
+          "Home",
+          "产品设计 / 视觉系统",
+          "media",
+          "no-link"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095187388377231460",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/framer/status/2095187388377231460",
+        "author": "Framer",
+        "handle": "framer",
+        "datetime": "2026-09-02T16:29:34.000Z",
+        "title": "Framer：Framer 设计与 Agent 信号",
+        "originalSummary": "原帖说明：Fable 5.1 is now available in Framer. We’ve found it especially good at handling creative work like shaders, effects, and interactions.",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 工作流 / 数据到演示」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent 工作流 / 数据到演示」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "截取媒体中的关键帧，标注光照、层级和运动节奏。",
+          "用一个小型 demo 复刻其中一种视觉技术或转场。",
+          "记录哪些视觉效果需要工程实现，哪些适合交给生成模型。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / 数据到演示",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095181984603558152",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/_philschmid/status/2095181984603558152",
+        "author": "Philipp Schmid",
+        "handle": "_philschmid",
+        "datetime": "2026-09-02T16:08:06.000Z",
+        "title": "Philipp Schmid：产品设计观察",
+        "originalSummary": "原帖说明：3.8 is not only a lot better as 3.7, but also blazingly fast! 🔥",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095162541915754588",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/joshua_saxe/status/2095162541915754588",
+        "author": "Joshua Saxe",
+        "handle": "joshua_saxe",
+        "datetime": "2026-09-02T14:50:50.000Z",
+        "title": "Joshua Saxe：设计工程参考",
+        "originalSummary": "原帖说明：A group of us from the AI grantmaking orgs, AI labs, natsec policy and cyber worlds are creating an AI Cybersecurity Observatory non-profit that'd provide continuous forecasting an...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent Skills / 安全知识库」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent Skills / 安全知识库」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScXG7rs6PgmhTsRMbe6dTL0YiUBApz6zovAzxKaVk1yRQKhSA/viewform",
+            "title": "AI Security Observatory — Founding Director: Expression of Interest",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「Agent Skills / 安全知识库」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "提炼原帖中的用户、场景和约束。",
+          "判断它是否能变成个人作品集或产品练习题。",
+          "记录一个可执行的下一步验证动作。"
+        ],
+        "tags": [
+          "Home",
+          "Agent Skills / 安全知识库",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095161979925348811",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/framer/status/2095161979925348811",
+        "author": "Framer",
+        "handle": "framer",
+        "datetime": "2026-09-02T14:48:36.000Z",
+        "title": "Framer：Framer 设计与 Agent 信号",
+        "originalSummary": "原帖说明：We taught Framer’s Agent to design in 3D. It coordinates perspective, depth, rotations, animations, and more across every axis, while keeping every layer editable on the canvas. We...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.framer.com/blog/teaching-the-framer-agent-to-design-in-3d/",
+            "title": "Teaching the Framer Agent to Design in 3D",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095148428196233533",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abduzeedo/status/2095148428196233533",
+        "author": "Fabio - abduzeedo",
+        "handle": "abduzeedo",
+        "datetime": "2026-09-02T13:54:45.000Z",
+        "title": "Fabio - abduzeedo：设计工程参考",
+        "originalSummary": "原帖说明：Punchy colors and typography on this Hip Pop can redesign by Robot Food is quite good. They ditched the usual fussy, wellness-cliché kombucha expected designs for chunky, high-cont...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://abduzeedo.com/packaging-design-hip-pop-robot-food",
+            "title": "Packaging Design: Hip Pop by Robot Food",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095138011277111455",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Emojipedia/status/2095138011277111455",
+        "author": "Emojipedia",
+        "handle": "Emojipedia",
+        "datetime": "2026-09-02T13:13:22.000Z",
+        "title": "Emojipedia：设计工程参考",
+        "originalSummary": "原帖说明：😲 Astonished Face on Samsung devices #2016vs2026 See more 😲 designs 👇🔗 https://emojipedia.org/astonished-face#designs",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「个人设计师关注信号」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「个人设计师关注信号」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://emojipedia.org/astonished-face",
+            "title": "😲 Astonished Face Emoji | Meaning, Copy And Paste",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「个人设计师关注信号」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "拆解页面/作品的字体、间距、色彩和内容层级。",
+          "把可复用的组件或版式规则写成 design.md 条目。",
+          "选择一个个人项目，用同样约束做一次小范围复刻。"
+        ],
+        "tags": [
+          "Home",
+          "个人设计师关注信号",
+          "media",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095105706244632983",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/cheerselflin/status/2095105706244632983",
+        "author": "林悦己Cheer",
+        "handle": "cheerselflin",
+        "datetime": "2026-09-02T11:05:00.000Z",
+        "title": "林悦己Cheer：产品设计观察",
+        "originalSummary": "原帖说明：应对Seedream 5 的图层分离功能，google也推出了自己的 https://pics.new 各种订阅用户都能用，包括Workspace、AI Pro 与 Ultra 等！ 可以去试试，对设计朋友可能有用，毕竟设计朋友是真的要精准控制和移动 普通的自媒体博主，比如我， 再生一张呗",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「个人设计师关注信号」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「个人设计师关注信号」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://accounts.google.com/v3/signin/identifier?continue=https://docs.google.com/images/u/0/create?usp%3Ddot_new&followup=https://docs.google.com/images/u/0/create?usp%3Ddot_new&ltmpl=pix&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S404888766:1788399658894747",
+            "title": "https://accounts.google.com/v3/signin/identifier?continue=https://docs.google.com/images/u/0/create?usp%3Ddot_new&follow",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「个人设计师关注信号」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "提炼原帖中的用户、场景和约束。",
+          "判断它是否能变成个人作品集或产品练习题。",
+          "记录一个可执行的下一步验证动作。"
+        ],
+        "tags": [
+          "Home",
+          "个人设计师关注信号",
+          "media",
+          "link:read"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095104073590808644",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/MengTo/status/2095104073590808644",
+        "author": "Meng To",
+        "handle": "MengTo",
+        "datetime": "2026-09-02T10:58:30.000Z",
+        "title": "Meng To：设计工程参考",
+        "originalSummary": "原帖说明：Okay, Fable 5.1 is crazy good at creating three.js sites. It’s faster, understands complex design instructions better, and recreates references with surgical precision. The English...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "http://canvasui.dev/",
+            "title": "Canvas UI: Creative Canvas, WebGL and WebGPU Component Library",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://threeui.com/",
+            "title": "Three.js Components, Templates &amp; Interactive Shaders | ThreeUI",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://basement.studio/",
+            "title": "basement.studio | We make cool shit that performs.",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095067967239160313",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Mike_Andreuzza/status/2095067967239160313",
+        "author": "Michael Andreuzza",
+        "handle": "Mike_Andreuzza",
+        "datetime": "2026-09-02T08:35:02.000Z",
+        "title": "Michael Andreuzza：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Williamsburg An ecommerce theme built with Astro v7 and Tailwind CSS v4 - EmDash CMS variant - Sanity CMS variant - Reusable components - 13 ready pages - GitHub access - AGENTS - ...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent Skills / 安全知识库」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent Skills / 安全知识库」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://lexingtonthemes.com/templates/williamsburg",
+            "title": "Williamsburg - An ecommerce theme for Astro &amp; Tailwind CSS",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「Agent Skills / 安全知识库」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent Skills / 安全知识库",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095060010770255880",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/awwwards/status/2095060010770255880",
+        "author": "awwwards.",
+        "handle": "awwwards",
+        "datetime": "2026-09-02T08:03:25.000Z",
+        "title": "awwwards.：设计工程参考",
+        "originalSummary": "原帖说明：Today’s #SOTD goes to @Holographikco and @iljavaneck for \"Paul Kalkbrenner\". https://www.awwwards.com/sites/paul-kalkbrenner Branding and website work for the German musician Paul ...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.awwwards.com/sites/paul-kalkbrenner",
+            "title": "Paul Kalkbrenner - Awwwards SOTD",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「协同编辑 / CRDT 与 OT」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094997751381844219",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dingyi/status/2094997751381844219",
+        "author": "Ding",
+        "handle": "dingyi",
+        "datetime": "2026-09-02T03:56:01.000Z",
+        "title": "Ding：产品设计观察",
+        "originalSummary": "原帖说明：Vibe Usage 插件发布了。需要去 https://vibecafe.ai/usage 注册账号才能使用，支持自动更新数据。 https://github.com/dingyi/omarchy-vibe-usage",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「用量状态 / Sidebar 信息架构」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「用量状态 / Sidebar 信息架构」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://vibecafe.ai/usage",
+            "title": "Vibe Usage — AI 编程工具 Token 用量追踪 | VibeCafé",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「用量状态 / Sidebar 信息架构」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://github.com/dingyi/omarchy-vibe-usage",
+            "title": "GitHub - dingyi/omarchy-vibe-usage: Omarchy bar widget for vibe-usage token cost and usage · GitHub",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「用量状态 / Sidebar 信息架构」的实现参考、信息密度和是否值得继续投入。"
+          }
+        ],
+        "learningActions": [
+          "拆解侧栏指标的常驻信息、阈值颜色和可操作入口。",
+          "设计一个用量到达 80%/100% 的微文案和状态转移。",
+          "把 dashboard 从展示页改成可触发动作的工作台模块。"
+        ],
+        "tags": [
+          "Home",
+          "用量状态 / Sidebar 信息架构",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2094981274741911985",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/dotey/status/2094981274741911985",
+        "author": "宝玉",
+        "handle": "dotey",
+        "datetime": "2026-09-02T02:50:33.000Z",
+        "title": "宝玉：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：我一直讲我在用 Claude Design （我是用的本地 skill http://github.com/JimLiu/baoyu-design ）做原型，加新功能修改功能会先修改原型。 我来举个例子我是怎么为新功能做原型的。我正在开发 BaoCut 的 v2，还是决定加上 Agent 功能（打脸自己了），因为从用户角度来说，确实还是能从 App 直接调用...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 工作流 / 数据到演示」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent 工作流 / 数据到演示」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式，同时把媒体中的布局、动效或视觉层级作为参考；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/JimLiu/baoyu-design",
+            "title": "GitHub - JimLiu/baoyu-design: Run Claude Design locally as an Agent Skill — Cursor, Claude Code &amp; more. Produce poli",
+            "access": "full",
+            "value": "页面可完整读取，补充了原帖之外的产品、文档或项目上下文。",
+            "learningValue": "用它核验「Agent 工作流 / 数据到演示」的实现参考、信息密度和是否值得继续投入。"
+          },
+          {
+            "url": "https://x.com/dotey/status/2094624092015992854",
+            "title": "引用帖：宝玉",
+            "access": "partial",
+            "value": "fxtwitter 读到引用帖文本：https://x.com/i/article/2094620108811390976",
+            "learningValue": "引用帖补足「Agent 工作流 / 数据到演示」的原始语境，可继续作为作品或方法入口。"
+          },
+          {
+            "url": "https://x.com/i/article/2094620108811390976",
+            "title": "引用帖外链",
+            "access": "partial",
+            "value": "已通过 fxtwitter 读取到引用/关联 X 内容的可见文本和媒体，作为原帖上下文补充。",
+            "learningValue": "用它判断「Agent 工作流 / 数据到演示」是否只是转述，还是有可复用的原始作品或方法。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / 数据到演示",
+          "media",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095324432965484912",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/AI_Whisper_X/status/2095324432965484912",
+        "author": "AI Dance",
+        "handle": "AI_Whisper_X",
+        "datetime": "2026-09-03T01:34:08.000Z",
+        "title": "AI Dance：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：虎落平阳被犬欺，说的就是 Google Anthropic 昨天刚推出 Fable 5.1，然后 Google 的 Gemini 3.8 Flash、Meta 的 Muse Spark 1.3 就接连来了。 海外模型贴脸开打，crazy days OpenAI 的新模型在哪里，周四来不来？有点意思 没想到，Alex Wang 嚣张成这样。。Google真的是...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「Agent 工作流 / 数据到演示」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「Agent 工作流 / 数据到演示」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式；关联链接可继续核验实现细节或产品定位。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/alexandr_wang/status/2095249704888197175",
+            "title": "引用帖：Alexandr Wang",
+            "access": "partial",
+            "value": "fxtwitter 读到引用帖文本：i really hate to say it, but… gemini who? 🏎️💨",
+            "learningValue": "引用帖补足「Agent 工作流 / 数据到演示」的原始语境，可继续作为作品或方法入口。"
+          }
+        ],
+        "learningActions": [
+          "记录 Agent 任务从输入、执行、等待到验收的最小状态机。",
+          "比较 CLI、桌面 App、网页和聊天入口各自适合承载的权限提示。",
+          "把原帖里的 workflow 抽成一个可复用 prompt 或界面清单。"
+        ],
+        "tags": [
+          "Home",
+          "Agent 工作流 / 数据到演示",
+          "text",
+          "link:read"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095323920639426970",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/diogocostadev/status/2095323920639426970",
+        "author": "Diogo Costa",
+        "handle": "diogocostadev",
+        "datetime": "2026-09-03T01:32:06.000Z",
+        "title": "Diogo Costa：产品设计观察",
+        "originalSummary": "原帖说明：Fable 5.1 é um monstro, mas o plano de R$550 não basta para seu uso, eu fiz uma analise geral de um projeto, ele pegou diversos bugs, e consumiu da janela de 5h 90% do limite total...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095323914201108859",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/rjburkejr/status/2095323914201108859",
+        "author": "Roland",
+        "handle": "rjburkejr",
+        "datetime": "2026-09-03T01:32:05.000Z",
+        "title": "Roland：AI Agent 工作流信号",
+        "originalSummary": "原帖说明：Grok bot really looked around at OpenClaw and Hermes and saw that people want to give it access to everything on their computer and said screw it let’s just give every agent their ...",
+        "whySaved": "",
+        "whyCaptured": "我会帮你抓取它，因为它属于「协同编辑 / CRDT 与 OT」信号，能转化为个人设计师的界面、流程或设计工程学习素材。",
+        "deepSummary": "这条内容的核心价值是把「协同编辑 / CRDT 与 OT」放进真实产品或创作语境中观察。对个人设计师来说，重点不是收藏一句观点，而是拆出信息架构、交互状态、工具链约束和可复用的表达方式。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "画出一次协同编辑冲突从本地操作到远端合并的状态流。",
+          "对比 OT 与 CRDT 在画布类工具里的用户可见差异。",
+          "把同步失败、离线恢复和评论归属整理成设计检查表。"
+        ],
+        "tags": [
+          "Home",
+          "协同编辑 / CRDT 与 OT",
+          "text",
+          "no-link"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
     "date": "2026-09-02",
     "generatedAt": "2026-09-02T13:16:39+08:00",
     "batch": "x-ai-design-analysis-2026-09-02-1316",
