@@ -1,6 +1,374 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-09-03T05:40:01.000Z",
+    "author": "Christopher Nguyen",
+    "handle": "uxchrisnguyen",
+    "avatar": "https://pbs.twimg.com/profile_images/2007350345912168448/wNrb-MkI_200x200.jpg",
+    "title": "Mobbin MCP 把真实 App 屏幕接给 Agent",
+    "summary": "我会帮你抓取它，因为 Mobbin 把真实产品屏幕变成 MCP 设计上下文，可直接提升 AI 生成界面的参考质量。",
+    "url": "https://x.com/uxchrisnguyen/status/2095386308973920332",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 5 VIEWS",
+    "_analysisTheme": "设计参考 / AI Agent",
+    "_analysisPriority": "high",
+    "links": [
+      "https://mobbin.com/mcp?via=christopher"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRROhXVbMAApqzO.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-03T05:36:02.000Z",
+    "author": "恒星sun",
+    "handle": "vintcessun",
+    "avatar": "https://pbs.twimg.com/profile_images/2054828909582225408/r6AimQV5_200x200.jpg",
+    "title": "Portless 用稳定本地域名替代端口号",
+    "summary": "我会帮你抓取它，因为它把多 worktree、多服务和 Agent 本地预览的端口混乱抽象成稳定命名 URL。",
+    "url": "https://x.com/vintcessun/status/2095385307550228766",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 9 VIEWS",
+    "_analysisTheme": "Agent DevEx / 本地环境",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/vercel-labs/portless"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRRN1G8bEAA2NBQ.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRRN1S8aIAAoGrm.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI TOOL",
+    "datetime": "2026-09-03T05:23:46.000Z",
+    "author": "鑫源 Ai",
+    "handle": "aiyuange",
+    "avatar": "https://pbs.twimg.com/profile_images/2068266036462587904/_4eo9-LP_200x200.jpg",
+    "title": "LoomFlow 用自然语言生成可运行工作流",
+    "summary": "我会帮你抓取它，因为它把自然语言、可视化画布和 API 发布串成轻量开源 workflow builder。",
+    "url": "https://x.com/aiyuange/status/2095382219129069720",
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 34 VIEWS",
+    "_analysisTheme": "AI Workflow / 可视化自动化",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://github.com/banmu123/LoomFlow"
+    ]
+  },
+  {
+    "category": "DESIGN DIGEST",
+    "datetime": "2026-09-03T05:23:38.000Z",
+    "author": "HeyDesigner",
+    "handle": "HeyDesigner",
+    "avatar": "https://pbs.twimg.com/profile_images/1784915596557025280/G_TlbxV6_200x200.jpg",
+    "title": "HeyDesigner 聚合 Gestalt 与设计工程文章",
+    "summary": "我会帮你抓取它，因为这期同时覆盖视觉 UI 原则、logo 灵感、design engineering 和 agent framework。",
+    "url": "https://x.com/HeyDesigner/status/2095382187881189502",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 1 BOOKMARKS · 73 VIEWS",
+    "_analysisTheme": "设计工程 / 每日参考",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://heydesigner.com/2026-09-03/"
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-03T05:23:25.000Z",
+    "author": "Keith Tsang",
+    "handle": "kidtsang",
+    "avatar": "https://pbs.twimg.com/profile_images/2084411320711946241/XyCCKAkx_200x200.jpg",
+    "title": "tclk 把 Agent 出口限制为工具调用",
+    "summary": "我会帮你抓取它，因为 tools-as-only-transport 迫使 Agent 设计成离散、幂等、可审计的调用协议。",
+    "url": "https://x.com/kidtsang/status/2095382133078393107",
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 7 VIEWS",
+    "_analysisTheme": "Agent Protocol / Tool Calls",
+    "_analysisPriority": "high",
+    "links": [
+      "https://api.fxtwitter.com/status/2095044808398315940"
+    ]
+  },
+  {
+    "category": "AI DESIGN",
+    "datetime": "2026-09-03T05:11:04.000Z",
+    "author": "程序员小灰",
+    "handle": "XiaohuiAI666",
+    "avatar": "https://pbs.twimg.com/profile_images/1994595480769368067/be45kNfI_200x200.jpg",
+    "title": "小灰推荐 frontend-design 与 Agent-Reach",
+    "summary": "我会帮你抓取它，因为它把前端审美 skill 与中文互联网调研 skill 放在同一条 Codex 工作流里比较。",
+    "url": "https://x.com/XiaohuiAI666/status/2095379026630332429",
+    "metrics": "0 REPLIES · 0 REPOSTS · 2 LIKES · 3 BOOKMARKS · 288 VIEWS",
+    "_analysisTheme": "Codex Skills / 中文调研",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/anthropics/skills",
+      "https://github.com/Panniantong/Agent-Reach"
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-09-03T05:07:07.000Z",
+    "author": "Kalista.hl (τ τ) ⟠",
+    "handle": "0x_Kalista",
+    "avatar": "https://pbs.twimg.com/profile_images/1843575882197413889/RQ5H8IwK_200x200.jpg",
+    "title": "B.AI 文档说明 Codex 接入 DeepSeek",
+    "summary": "我会帮你抓取它，因为它展示第三方模型路由如何包装成 Codex 可用的 OpenAI 兼容 API。",
+    "url": "https://x.com/0x_Kalista/status/2095378030713802894",
+    "metrics": "2 REPLIES · 0 REPOSTS · 4 LIKES · 0 BOOKMARKS · 196 VIEWS",
+    "_analysisTheme": "Codex 模型路由 / API 接入",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://b.ai/",
+      "https://docs.b.ai/llmservice/codex/integration-guide/"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRRHLQ3aIAA2Upt.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-09-03T05:06:44.000Z",
+    "author": "Gorock Shetty",
+    "handle": "gorockbits",
+    "avatar": "https://pbs.twimg.com/profile_images/1702909632854007808/KiqLe8Es_200x200.jpg",
+    "title": "Dont Make It Ugly 收拢 Agent 设计参考",
+    "summary": "我会帮你抓取它，因为它明确服务“作品能跑但不好看”的 Agent 设计参考断点。",
+    "url": "https://x.com/gorockbits/status/2095377933133320388",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 26 VIEWS",
+    "_analysisTheme": "设计参考库 / Agent Brief",
+    "_analysisPriority": "high",
+    "links": [
+      "https://dontmakeitugly.com/"
+    ]
+  },
+  {
+    "category": "VISUAL DESIGN",
+    "datetime": "2026-09-03T04:36:14.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "WTVilla 品牌用手写 Logo 平衡高端与松弛",
+    "summary": "我会帮你抓取它，因为它把松弛手写字标、克制字体和自然色板组合成不模板化的品牌语气。",
+    "url": "https://x.com/abduzeedo/status/2095370259960353262",
+    "metrics": "0 REPLIES · 0 REPOSTS · 3 LIKES · 1 BOOKMARKS · 534 VIEWS",
+    "_analysisTheme": "Brand Identity / Logo",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://abduzeedo.com/branding-design-wtvilla-maria-centeno"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRRAEUma0AEWB9l.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRRAG-la4AE9wAE.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRRAIKpaEAAuqql.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-03T04:06:27.000Z",
+    "author": "Angel D. Muñoz",
+    "handle": "angel_d_munoz",
+    "avatar": "https://pbs.twimg.com/profile_images/1676787510473531393/QrspGu5J_200x200.jpg",
+    "title": "Mibo.Fable Demo 展示 Worker Canvas 架构",
+    "summary": "我会帮你抓取它，因为它给 Three.js/Fable 视觉 demo 提供 OffscreenCanvas 与 worker 分工的源码线索。",
+    "url": "https://x.com/angel_d_munoz/status/2095362764768268483",
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 38 VIEWS",
+    "_analysisTheme": "Three.js / Fable",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://raw.githubusercontent.com/AngelMunoz/Mibo.Fable/main/demo/Main.fs",
+      "https://raw.githubusercontent.com/AngelMunoz/Mibo.Fable/main/demo/AdaptiveWorker.fs",
+      "https://raw.githubusercontent.com/AngelMunoz/Mibo.Fable/main/demo/MvuWorker.fs"
+    ]
+  },
+  {
+    "category": "AI DESIGN",
+    "datetime": "2026-09-03T03:18:05.000Z",
+    "author": "沉浸式翻译",
+    "handle": "immersivetran",
+    "avatar": "https://pbs.twimg.com/profile_images/2014635262534680578/668bCwx8_200x200.jpg",
+    "title": "Lieflat Charts 用 Skill 固化编辑级图表审美",
+    "summary": "我会帮你抓取它，因为它把字体、留白、线条、动效和整页报告模板变成 Agent 可复用规范。",
+    "url": "https://x.com/immersivetran/status/2095350591459561478",
+    "metrics": "1 REPLIES · 1 REPOSTS · 4 LIKES · 7 BOOKMARKS · 642 VIEWS",
+    "_analysisTheme": "数据可视化 / Report Skill",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/larashero3-dotcom/lieflat-charts"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/tweet_video/HRQuOGNbkAAVJJy.mp4",
+        "poster": "https://pbs.twimg.com/tweet_video_thumb/HRQuOGNbkAAVJJy.jpg"
+      },
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/tweet_video/HRQuOGLa0AAqgMI.mp4",
+        "poster": "https://pbs.twimg.com/tweet_video_thumb/HRQuOGLa0AAqgMI.jpg"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQuOGNbIAAiP1F.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN PROCESS",
+    "datetime": "2026-09-03T03:00:00.000Z",
+    "author": "note DESIGN",
+    "handle": "note__design",
+    "avatar": "https://pbs.twimg.com/profile_images/1709483807823536128/8MZhH2w7_200x200.jpg",
+    "title": "GLOBIS 记录从 Figma 转向 Claude Code 的设计流程",
+    "summary": "我会帮你抓取它，因为它把 Figma 作为中间成果物的疑问，转成可验证 repo + Claude Code 的流程迁移。",
+    "url": "https://x.com/note__design/status/2095346043055460570",
+    "metrics": "0 REPLIES · 2 REPOSTS · 17 LIKES · 16 BOOKMARKS · 1287 VIEWS",
+    "_analysisTheme": "Figma to Code / AI Workflow",
+    "_analysisPriority": "high",
+    "links": [
+      "https://note.com/globis_engineers/n/nc8bc99a13935"
+    ]
+  },
+  {
+    "category": "AI DESIGN",
+    "datetime": "2026-09-03T02:55:29.000Z",
+    "author": "超级个体｜柿子",
+    "handle": "yaohui12138",
+    "avatar": "https://pbs.twimg.com/profile_images/1964576447827496961/7rPS82Jd_200x200.jpg",
+    "title": "柿子把前端设计 Skill 分成三档使用场景",
+    "summary": "我会帮你抓取它，因为它按视觉冲击、反模板纪律和动效细节拆分 skill 使用场景。",
+    "url": "https://x.com/yaohui12138/status/2095344904461602869",
+    "metrics": "3 REPLIES · 0 REPOSTS · 4 LIKES · 3 BOOKMARKS · 658 VIEWS",
+    "_analysisTheme": "前端审美 Skill / 评测",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/Leonxlnx/taste-skill",
+      "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "https://github.com/emilkowalski/skills"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQoVBWbsAAF72J.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI PRODUCT",
+    "datetime": "2026-09-03T02:51:55.000Z",
+    "author": "みるぼん@スモビジ",
+    "handle": "milbon_",
+    "avatar": "https://pbs.twimg.com/profile_images/1473564560338874371/2izWEbwn_200x200.jpg",
+    "title": "Status AI 把社交媒体变成角色模拟游戏",
+    "summary": "我会帮你抓取它，因为它用熟悉的社交 UI 承载 AI 粉丝、反对者和虚拟世界反馈。",
+    "url": "https://x.com/milbon_/status/2095344008432333216",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 458 VIEWS",
+    "_analysisTheme": "AI Social / Persona Simulation",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://www.statusai.com/"
+    ]
+  },
+  {
+    "category": "INDIE PRODUCT",
+    "datetime": "2026-09-03T02:31:36.000Z",
+    "author": "61",
+    "handle": "liuyi0922",
+    "avatar": "https://pbs.twimg.com/profile_images/1349245042267852800/lV2JhpyP_200x200.jpg",
+    "title": "Readmate 从微信读书划线延伸成独立 App",
+    "summary": "我会帮你抓取它，因为它展示从一个 Skill/划线痛点到多轮打磨上线的独立产品制作过程。",
+    "url": "https://x.com/liuyi0922/status/2095338894099468768",
+    "metrics": "22 REPLIES · 10 REPOSTS · 128 LIKES · 48 BOOKMARKS · 23028 VIEWS",
+    "_analysisTheme": "阅读产品 / 独立开发",
+    "_analysisPriority": "high",
+    "links": [
+      "https://apps.apple.com/cn/app/readmate-%E5%BE%AE%E4%BF%A1%E4%B9%A6%E6%91%98%E4%B8%8E%E5%88%92%E7%BA%BF%E5%9B%9E%E9%A1%BE/id6770665938"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQjnW4a0AAMh52.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQjnW7aoAA_k5i.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQjnW4bYAAKwKl.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQjnW9agAAnD8n.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI TOOL",
+    "datetime": "2026-09-03T02:09:46.000Z",
+    "author": "Jackywine",
+    "handle": "Jackywine",
+    "avatar": "https://pbs.twimg.com/profile_images/1805875520430915586/x3t_sQdd_200x200.jpg",
+    "title": "DSH 桌面宠物把余额与交互做成系统陪伴",
+    "summary": "我会帮你抓取它，因为它把余额展示、原生设置、桌面宠物和网页双显整合成轻量系统级触点。",
+    "url": "https://x.com/Jackywine/status/2095333398042886354",
+    "metrics": "3 REPLIES · 0 REPOSTS · 6 LIKES · 1 BOOKMARKS · 1090 VIEWS",
+    "_analysisTheme": "桌面伴随 / Agent UI",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://github.com/PC2005-cloud/dsh-pet"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095333171244175360/vid/avc1/1662x1080/T1GXPBNLOreM97Dj.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095333171244175360/img/AeNtDfYAb1qgadvo.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN ENGINEERING",
+    "datetime": "2026-09-03T01:41:36.000Z",
+    "author": "Samnang Aing",
+    "handle": "SammmAing",
+    "avatar": "https://pbs.twimg.com/profile_images/2013907775978348544/mslMNFJ7_200x200.jpg",
+    "title": "Three.js 夜市用纯代码生成完整场景叙事",
+    "summary": "我会帮你抓取它，因为它用 357KB 单 HTML、无图片无模型完成连续镜头式 Three.js 夜市。",
+    "url": "https://x.com/SammmAing/status/2095326311916904580",
+    "metrics": "0 REPLIES · 0 REPOSTS · 4 LIKES · 1 BOOKMARKS · 156 VIEWS",
+    "_analysisTheme": "Three.js / AI 生成网页",
+    "_analysisPriority": "high",
+    "links": [
+      "https://www.threads.com/@thelabaofficial/post/DcuM1K2jagm"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095325816276049922/vid/avc1/3840x2160/RHSLD0nWGt2v7Oaw.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095325816276049922/img/lBQiAW6IBYTeEmAA.jpg"
+      }
+    ]
+  },
+  {
     "category": "AI TOOL",
     "datetime": "2026-09-03T01:35:00.000Z",
     "author": "scriba",
@@ -105,6 +473,36 @@
     ]
   },
   {
+    "category": "VISUAL DESIGN",
+    "datetime": "2026-09-03T01:20:44.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "NRGY 年报案例展示高密度出版物层级",
+    "summary": "我会帮你抓取它，因为它用强排版层级、边距结构和节奏处理高信息量年报。",
+    "url": "https://x.com/abduzeedo/status/2095321060510158933",
+    "metrics": "0 REPLIES · 1 REPOSTS · 18 LIKES · 11 BOOKMARKS · 1342 VIEWS",
+    "_analysisTheme": "Editorial Layout / Typography",
+    "_analysisPriority": "high",
+    "links": [
+      "https://abduzeedo.com/roberto-espartero-designs-bold-editorial-design-nrgy"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQTTyabsAAGIy4.png?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQTU9caoAATM_q.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRQTVxba0AAXYFs.jpg?name=orig"
+      }
+    ]
+  },
+  {
     "category": "DESIGN ENGINEERING",
     "datetime": "2026-09-03T00:45:03.000Z",
     "author": "こぎそ",
@@ -205,6 +603,22 @@
         "type": "image",
         "src": "https://pbs.twimg.com/media/HRP4xKIXwAApKCk.jpg?name=orig"
       }
+    ]
+  },
+  {
+    "category": "CREATIVE CODING",
+    "datetime": "2026-09-02T23:20:58.000Z",
+    "author": "Three.js Daily",
+    "handle": "threejsdaily",
+    "avatar": "https://pbs.twimg.com/profile_images/2087929459227734016/NICjWdRm_200x200.jpg",
+    "title": "Three.js Plinko + Pinball Demo 可直接体验",
+    "summary": "我会帮你抓取它，因为它是小而完整的物理互动场景，适合观察游戏化网页的输入反馈。",
+    "url": "https://x.com/threejsdaily/status/2095290917502488637",
+    "metrics": "0 REPLIES · 0 REPOSTS · 2 LIKES · 4 BOOKMARKS · 415 VIEWS",
+    "_analysisTheme": "Three.js Demo / Interaction",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://codrops-demo-for-threejs-conference-ten.vercel.app/"
     ]
   },
   {
@@ -423,6 +837,29 @@
         "type": "video",
         "src": "https://video.twimg.com/amplify_video/2095215652453990400/vid/avc1/3456x1944/tTU9-nbQJG9GCtn9.mp4?tag=29",
         "poster": "https://pbs.twimg.com/amplify_video_thumb/2095215652453990400/img/K_zZP3clHYg60blI.jpg"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-09-02T17:19:04.000Z",
+    "author": "🌵 Marcel Wiessler",
+    "handle": "marcel_wiessler",
+    "avatar": "https://pbs.twimg.com/profile_images/2072243335712960512/pDt07Zsg_200x200.jpg",
+    "title": "Needle Mesh Baker 在浏览器里本地处理 3D 模型",
+    "summary": "我会帮你抓取它，因为它把图像到 3D/模型简化放进浏览器 UI，并强调本地处理、不上传。",
+    "url": "https://x.com/marcel_wiessler/status/2095199845698912412",
+    "metrics": "2 REPLIES · 17 REPOSTS · 131 LIKES · 164 BOOKMARKS · 9647 VIEWS",
+    "_analysisTheme": "3D Tool / Local-first",
+    "_analysisPriority": "high",
+    "links": [
+      "https://mesh-baker.needle.tools/"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095198688725684224/vid/avc1/1280x1080/CaN1t3nFFP29_j0T.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095198688725684224/img/MGRhOHDG8dMbuuxZ.jpg"
       }
     ]
   },

@@ -1,4 +1,4 @@
-// Generated from authenticated X Likes via ego-browser on 2026-09-02T08:38:27+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-09-03T13:58:00+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
   {
@@ -118,6 +118,46 @@ window.LIKED_BACKFILL = [
       "capturedAt": "2026-09-02T08:38:27+08:00",
       "source": "ego-browser:x.com/i/history/likes",
       "observedDatetime": "2026-09-01T13:06:09.000Z"
+    }
+  },
+  {
+    "TweetID": "2094773625324712417",
+    "TwitterUserID": "84549276",
+    "UserScreenName": "dimagroshev",
+    "UserProfileName": "Dima Groshev",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1368590630276980742/JKI1-9a9_200x200.jpg",
+    "TweetText": "Feel the progress with Dayrise ☀️",
+    "Tweet Url": "https://x.com/dimagroshev/status/2094773625324712417",
+    "TweetCreatedDate": "2026-09-01T13:05:25.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2094773352229429248/img/euYnSHsLTmquVsbw.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2094773352229429248/vid/avc1/2160x2160/FIG06LrjGiNA1Ayv.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Progress Feedback / Habit UI",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2094773352229429248/vid/avc1/2160x2160/FIG06LrjGiNA1Ayv.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2094773352229429248/img/euYnSHsLTmquVsbw.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "28 REPLIES · 24 REPOSTS · 470 LIKES · 328 BOOKMARKS · 18302 VIEWS",
+    "_analysisTheme": "Progress Feedback / Habit UI",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把抽象进度变成可感知的视觉反馈，适合拆解习惯/目标类产品的微动效。 这条可作为 Progress Feedback / Habit UI 参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-03T13:58:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-01T13:05:25.000Z"
     }
   },
   {
@@ -687,6 +727,52 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2094493172516966781",
+    "TwitterUserID": "899564621631299585",
+    "UserScreenName": "lingxi",
+    "UserProfileName": "Lingxi Li",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2094044966863724544/zPvc_cDi_200x200.jpg",
+    "TweetText": "Grok Bot for Engineering\nI’m a SpaceXAI engineer building Grok Bot with Grok Bot.\nThink of Grok Bot as a highly capable engineering intern, with its own computers, that can manage coding agents and learn from how you work. It",
+    "Tweet Url": "https://x.com/lingxi/status/2094493172516966781",
+    "TweetCreatedDate": "2026-08-31T18:31:00.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRB_PVMaYAAGwfv.jpg",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Grok Bot / Engineering Agent",
+      "media:photo",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRB_PVMaYAAGwfv.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "x-article",
+      "title": "Grok Bot for Engineering",
+      "preview": "I’m a SpaceXAI engineer building Grok Bot with Grok Bot.\nThink of Grok Bot as a highly capable engineering intern, with its own computers, that can manage coding agents and learn from how you work. It",
+      "cover": "https://pbs.twimg.com/media/HRB_PVMaYAAGwfv.jpg",
+      "url": "https://x.com/i/article/2090147220838588416"
+    },
+    "_metrics": "146 REPLIES · 362 REPOSTS · 3490 LIKES · 7864 BOOKMARKS · 941137 VIEWS",
+    "_analysisTheme": "Grok Bot / Engineering Agent",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，因为它从内部工程师视角解释 Bot 管理 Agent、保留个人标准、减少切换的实际工作流。 这条可作为 Grok Bot / Engineering Agent 参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-03T13:58:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-08-31T18:31:00.000Z"
+    }
+  },
+  {
     "TweetID": "2094473742936105207",
     "TwitterUserID": "1902789498645127168",
     "UserScreenName": "mockup_lab",
@@ -817,6 +903,52 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2026-08-31T15:42:18.000Z"
+    }
+  },
+  {
+    "TweetID": "2094443296169107515",
+    "TwitterUserID": "1986087438721449984",
+    "UserScreenName": "xiaoxiaodong01",
+    "UserProfileName": "小小东",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2046072820095176704/QBve47KI_200x200.jpg",
+    "TweetText": "开源：350套排版布局 x 知识图鉴\n项目地址：\nhttps://github.com/nevertoday/350-layout-compositions\n\n前我整理过一套「100 种排版」，但实际做海报、网页、PPT、出版物或者视觉设计时，很快就会发现，100 种远远不够。",
+    "Tweet Url": "https://x.com/xiaoxiaodong01/status/2094443296169107515",
+    "TweetCreatedDate": "2026-08-31T15:12:49.000Z",
+    "MediaType": "photo",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRDz4nPaMAAyYv7.jpg",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "Layout Knowledge Base / Open Source",
+      "media:photo",
+      "link"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRDz4nPaMAAyYv7.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": {
+      "kind": "x-article",
+      "title": "开源：350套排版布局 x 知识图鉴",
+      "preview": "项目地址：\nhttps://github.com/nevertoday/350-layout-compositions\n\n前我整理过一套「100 种排版」，但实际做海报、网页、PPT、出版物或者视觉设计时，很快就会发现，100 种远远不够。",
+      "cover": "https://pbs.twimg.com/media/HRDz4nPaMAAyYv7.jpg",
+      "url": "https://x.com/i/article/2094439865173807104"
+    },
+    "_metrics": "4 REPLIES · 30 REPOSTS · 185 LIKES · 375 BOOKMARKS · 15329 VIEWS",
+    "_analysisTheme": "Layout Knowledge Base / Open Source",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把排版灵感从散图升级为可搜索、可下载、可学习的结构化资料库。 这条可作为 Layout Knowledge Base / Open Source 参考。",
+    "_likedSync": {
+      "capturedAt": "2026-09-03T13:58:00+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-08-31T15:12:49.000Z"
     }
   },
   {

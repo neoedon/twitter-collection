@@ -1,6 +1,858 @@
 window.DESIGNER_ANALYSIS = [
   {
     "date": "2026-09-03",
+    "generatedAt": "2026-09-03T13:58:00+08:00",
+    "batch": "x-ai-design-analysis-2026-09-03-1358",
+    "analysisCount": 22,
+    "homeCount": 20,
+    "likeCount": 2,
+    "linksInspected": 28,
+    "unavailableLinks": 0,
+    "summary": "2026-09-03 13:58 午后补充：ego-browser 登录态观察 Home/Following 与 6 组 X live search，Home 1829 raw / 365 unique，新增 20 条 Home。Likes 96 raw / 20 unique，3 个 fresh ID 写入 Like backfill；今日 Analysis 运行前已 100 条，本轮追加 20 Home + 2 Like，另 1 条 fresh Like 已有历史分析而跳过重复分析。",
+    "sourceWindow": {
+      "strategy": "ego-browser 独立 task space 20；Home 覆盖 x.com/home 为你推荐、正在关注，以及 design engineering、AI design products、coding agent product、visual tools、official AI、indie product design 六组 X live search。Likes 覆盖 x.com/neoedon414/likes 与 x.com/i/history/likes，停止于已知 Like 边界后。fxtwitter 仅用于补齐已观察 status 的作者、时间、媒体、指标、X Article、引用与链接。",
+      "newestHomeDatetime": "2026-09-03T05:40:01.000Z",
+      "oldestHomeDatetime": "2026-09-02T17:19:04.000Z",
+      "newestLikeDatetime": "2026-09-01T13:05:25.000Z",
+      "oldestLikeDatetime": "2026-08-31T15:12:49.000Z",
+      "expandedWindow": "Home 新增 20 条均按原帖时间归入 Asia/Shanghai 2026-09-03；其中部分为上午未收录但仍属当天的高价值条目。Analysis 今日已有 100 条，未为凑数扩窗；Like 增量中 2 条超过 48 小时，是登录态 Likes 边界追赶产生的真实 fresh backfill，不作为补足配额。",
+      "observed": {
+        "homeBeforeTotal": 1264,
+        "homeBeforeToday": 20,
+        "homeRaw": 1829,
+        "homeUnique": 365,
+        "homeAlreadyKnown": 1,
+        "homeSelected": 20,
+        "homeTodaySelected": 20,
+        "homeRejectedOrLeftover": 344,
+        "homeSources": [
+          "home-for-you",
+          "home-following",
+          "search-design-engineering",
+          "search-ai-design-products",
+          "search-coding-agent-product",
+          "search-visual-tools",
+          "search-official-ai",
+          "search-indie-product-design"
+        ],
+        "likeRawObserved": 96,
+        "likeUniqueObserved": 20,
+        "likeKnownBefore": 5687,
+        "likeFresh": 3,
+        "likeBoundaryOrDuplicate": 17,
+        "analysisBeforeTodayUnique": 100,
+        "analysisRawCandidateTotal": 385,
+        "analysisExpanded48h": 0,
+        "analysisHistoricalLikeCatchup": 1,
+        "analysisSkippedDuplicateIds": [
+          "2094493172516966781"
+        ],
+        "linkUniqueRead": 29,
+        "linkFull": 25,
+        "linkPartial": 4,
+        "linkUnavailable": 0
+      }
+    },
+    "items": [
+      {
+        "id": "2095386308973920332",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/uxchrisnguyen/status/2095386308973920332",
+        "author": "Christopher Nguyen",
+        "handle": "uxchrisnguyen",
+        "datetime": "2026-09-03T05:40:01.000Z",
+        "title": "Mobbin MCP 把真实 App 屏幕接给 Agent",
+        "originalSummary": "原帖说明：Together with @mobbin Connect Claude, Cursor, Lovable, and more, to Mobbin’s MCP. → 621,500+ screens → Real apps, real products → Ask literally anything to help you design Some of my favourites: \"how do apps gamify feature X\" \"give me feedback on my designs” \"",
+        "whySaved": "",
+        "whyCaptured": "把设计参考库从人工翻图变成 Agent 可调用工具，适合研究 AI 时代设计资料的产品化。",
+        "deepSummary": "Mobbin MCP 把真实 App 屏幕接给 Agent 的价值在于：把设计参考库从人工翻图变成 Agent 可调用工具，适合研究 AI 时代设计资料的产品化。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://mobbin.com/mcp?via=christopher",
+            "title": "Mobbin MCP — Design reference for AI agents",
+            "access": "full",
+            "summary": "Mobbin MCP connects your AI agents to 600,000+ real screens from shipped products. Build from proven design patterns, not guesswork.",
+            "value": "页面可读，补充了原帖之外的产品、项目或文章上下文。",
+            "learningValue": "判断信息密度、可复用设计方法和是否值得进入个人学习清单。"
+          }
+        ],
+        "learningActions": [
+          "拆出工具调用、权限、上下文和验收边界。",
+          "用一个小任务测试它能否进入自己的设计工程流程。",
+          "记录失败模式，避免只把它当灵感链接收藏。"
+        ],
+        "tags": [
+          "Mobbin",
+          "MCP",
+          "Design Reference"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095385307550228766",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/vintcessun/status/2095385307550228766",
+        "author": "恒星sun",
+        "handle": "vintcessun",
+        "datetime": "2026-09-03T05:36:02.000Z",
+        "title": "Portless 用稳定本地域名替代端口号",
+        "originalSummary": "原帖说明：端口号这笔开发税，终于有人认真收拾了。 https://github.com/vercel-labs/portless 它给应用分配随机端口，再由本地代理映射成稳定的命名地址；多服务、Git worktree 不再抢端口，人与 Agent 也不用猜 3000 还是 5173。默认 HTTPS 和 HTTP/2，还会为不认 PORT 的框架补参数，连 Ctrl+C 后的子进程清理都顾到了。只是目前要求 Node 24+，项目也仍未到 1.0。",
+        "whySaved": "",
+        "whyCaptured": "本地预览、回读和自动验证都依赖稳定地址，这是设计工程工作流的基础设施问题。",
+        "deepSummary": "Portless 用稳定本地域名替代端口号 的价值在于：本地预览、回读和自动验证都依赖稳定地址，这是设计工程工作流的基础设施问题。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/vercel-labs/portless",
+            "title": "vercel-labs/portless: Replace port numbers with stable, named local URLs. For humans and agents.",
+            "access": "full",
+            "summary": "language=TypeScript; stars=11880; license=Apache-2.0; default_branch=main; readme_status=200; # portless Replace port numbers with stable, named .localhost URLs for local development. For humans and agents. ```diff - \"de",
+            "value": "GitHub 页面可读，补充 repo 定位、README、语言/许可或源码结构，可作为实现参考。",
+            "learningValue": "继续读 README/源码，判断能否转成自己的设计工程练习或工具链。"
+          }
+        ],
+        "learningActions": [
+          "拆出工具调用、权限、上下文和验收边界。",
+          "用一个小任务测试它能否进入自己的设计工程流程。",
+          "记录失败模式，避免只把它当灵感链接收藏。"
+        ],
+        "tags": [
+          "Portless",
+          "Local Dev",
+          "Agent DevEx"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095382219129069720",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/aiyuange/status/2095382219129069720",
+        "author": "鑫源 Ai",
+        "handle": "aiyuange",
+        "datetime": "2026-09-03T05:23:46.000Z",
+        "title": "LoomFlow 用自然语言生成可运行工作流",
+        "originalSummary": "原帖说明：🔥 【说一句话就能生成能卖钱的 AI 工作流，LoomFlow 让小白也能接单了】 📌 项目定位： LoomFlow 是一个轻量级的 AI 原生工作流构建器，主打“用大白话描述想法 → AI 自动生成可运行的工作流 → 可视化画布微调 → 一键发布成 API”。简单说，就是不用学代码，不用拖节点，把你想做的自动化流程告诉它，它直接给你跑起来。专为个人开发者、小团队和内容创作者设计，是 Dify / n8n 的开源轻量替代品。 ⚡️ 核心优势： ▫️ 小白零门槛：自然语言直接生成工作流，比如“输入产品名 → 生成",
+        "whySaved": "",
+        "whyCaptured": "它适合观察“AI 先生成、人在画布修正、再发布成接口”的产品闭环。",
+        "deepSummary": "LoomFlow 用自然语言生成可运行工作流 的价值在于：它适合观察“AI 先生成、人在画布修正、再发布成接口”的产品闭环。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/banmu123/LoomFlow",
+            "title": "banmu123/LoomFlow: Lightweight AI-native workflow builder for individuals and small teams — describe your idea in natural language, get a ru",
+            "access": "full",
+            "summary": "language=TypeScript; stars=214; license=MIT; default_branch=main; readme_status=200; # LoomFlow > English | [中文](README.zh-CN.md) <p align=\"center\"> <img src=\"public/screenshots/logo.png\" alt=\"LoomFlow Logo\" width=\"120\" ",
+            "value": "GitHub 页面可读，补充 repo 定位、README、语言/许可或源码结构，可作为实现参考。",
+            "learningValue": "继续读 README/源码，判断能否转成自己的设计工程练习或工具链。"
+          }
+        ],
+        "learningActions": [
+          "拆出工具调用、权限、上下文和验收边界。",
+          "用一个小任务测试它能否进入自己的设计工程流程。",
+          "记录失败模式，避免只把它当灵感链接收藏。"
+        ],
+        "tags": [
+          "LoomFlow",
+          "Workflow Builder",
+          "Open Source"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095378030713802894",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/0x_Kalista/status/2095378030713802894",
+        "author": "Kalista.hl (τ τ) ⟠",
+        "handle": "0x_Kalista",
+        "datetime": "2026-09-03T05:07:07.000Z",
+        "title": "B.AI 文档说明 Codex 接入 DeepSeek",
+        "originalSummary": "原帖说明：📝 BAI API Now Supports DeepSeek Models in Codex http://B.AI just added DeepSeek series support through its Responses API. Developers can now run DeepSeek models directly inside Codex using a BAI API key. Combined with existing GPT support, both reasoning and ",
+        "whySaved": "",
+        "whyCaptured": "个人设计工程师需要理解模型路由、API key、成本与能力切换如何影响 coding agent 工作流。",
+        "deepSummary": "B.AI 文档说明 Codex 接入 DeepSeek 的价值在于：个人设计工程师需要理解模型路由、API key、成本与能力切换如何影响 coding agent 工作流。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://b.ai/",
+            "title": "BAI",
+            "access": "partial",
+            "summary": "B.AI is the foundational economic infrastructure for AI Agents. Access global top-tier AI models anonymously via our borderless payment system. We provide a unified API and settlement network, empowering artificial intel",
+            "value": "页面为动态应用或轻量入口，只能读取标题/入口文案，需后续浏览器试用补证。",
+            "learningValue": "后续重点补实际交互、性能和可编辑性证据。"
+          },
+          {
+            "url": "https://docs.b.ai/llmservice/codex/integration-guide/",
+            "title": "Connect Codex with a B.AI API Key | B.AI Doc",
+            "access": "full",
+            "summary": "This guide explains how to configure a B.AI API Key in Codex. After setup, Codex sends model requests through the B.AI Responses API.",
+            "value": "页面可读，补充了原帖之外的产品、项目或文章上下文。",
+            "learningValue": "判断信息密度、可复用设计方法和是否值得进入个人学习清单。"
+          }
+        ],
+        "learningActions": [
+          "拆出工具调用、权限、上下文和验收边界。",
+          "用一个小任务测试它能否进入自己的设计工程流程。",
+          "记录失败模式，避免只把它当灵感链接收藏。"
+        ],
+        "tags": [
+          "Codex",
+          "DeepSeek",
+          "Model Routing"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095382133078393107",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/kidtsang/status/2095382133078393107",
+        "author": "Keith Tsang",
+        "handle": "kidtsang",
+        "datetime": "2026-09-03T05:23:25.000Z",
+        "title": "tclk 把 Agent 出口限制为工具调用",
+        "originalSummary": "原帖说明：Tools-as-only-transport is the right constraint for agent design. Forces you to think in discrete, idempotent calls instead of leaking model logic into the world. @flop_labs' tclk is a clean example — six frame types, one state machine, MCP server included. Ru",
+        "whySaved": "",
+        "whyCaptured": "这是设计 Agent 产品时很关键的约束：不要让模型逻辑直接漏到世界里。",
+        "deepSummary": "tclk 把 Agent 出口限制为工具调用 的价值在于：这是设计 Agent 产品时很关键的约束：不要让模型逻辑直接漏到世界里。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://api.fxtwitter.com/status/2095044808398315940",
+            "title": "Flop Labs: Spec, library, and an MCP server for agents whose only outbound path is a tool call: npm i @flop-la",
+            "access": "full",
+            "summary": "Spec, library, and an MCP server for agents whose only outbound path is a tool call: npm i @flop-labs/tclk https://tclk.technocore.chat/mcp Normative spec, a worked two-agent walkthrough, and one deal that runs end to en",
+            "value": "页面可读，补充了原帖之外的产品、项目或文章上下文。",
+            "learningValue": "判断信息密度、可复用设计方法和是否值得进入个人学习清单。"
+          }
+        ],
+        "learningActions": [
+          "拆出工具调用、权限、上下文和验收边界。",
+          "用一个小任务测试它能否进入自己的设计工程流程。",
+          "记录失败模式，避免只把它当灵感链接收藏。"
+        ],
+        "tags": [
+          "tclk",
+          "MCP",
+          "Agent Protocol"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095382187881189502",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/HeyDesigner/status/2095382187881189502",
+        "author": "HeyDesigner",
+        "handle": "HeyDesigner",
+        "datetime": "2026-09-03T05:23:38.000Z",
+        "title": "HeyDesigner 聚合 Gestalt 与设计工程文章",
+        "originalSummary": "原帖说明：🌞 Today on HeyDesigner — Nº 3763 → Gestalt principles for visual UI design → Looogos: Logo design inspiration → My view on design engineering → CSS is still awesome → eve: The framework for building agents Read it here 👉 https://heydesigner.com/2026-09-03/",
+        "whySaved": "",
+        "whyCaptured": "这类 digest 是高密度入口，适合把每日阅读拆成视觉原则、工程观点和 agent UI 三条线。",
+        "deepSummary": "HeyDesigner 聚合 Gestalt 与设计工程文章 的价值在于：这类 digest 是高密度入口，适合把每日阅读拆成视觉原则、工程观点和 agent UI 三条线。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://heydesigner.com/2026-09-03/",
+            "title": "Gestalt principles for visual UI design, and more...",
+            "access": "full",
+            "summary": "Hand-picked design links from September 3, 2026: Looogos: Logo design inspiration, My view on design engineering, CSS is still awesome, and more.",
+            "value": "页面可读，补充了原帖之外的产品、项目或文章上下文。",
+            "learningValue": "判断信息密度、可复用设计方法和是否值得进入个人学习清单。"
+          }
+        ],
+        "learningActions": [
+          "截取关键画面并标注网格、层级、色彩和节奏。",
+          "把一个案例改写成自己的组件、页面或海报练习。",
+          "沉淀可复用的视觉判断，而不是只保存截图。"
+        ],
+        "tags": [
+          "HeyDesigner",
+          "Gestalt",
+          "Design Engineering"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095379026630332429",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/XiaohuiAI666/status/2095379026630332429",
+        "author": "程序员小灰",
+        "handle": "XiaohuiAI666",
+        "datetime": "2026-09-03T05:11:04.000Z",
+        "title": "小灰推荐 frontend-design 与 Agent-Reach",
+        "originalSummary": "原帖说明：这篇分享 Code 优质 skill 的文章爆了，看来大家对于好用的 skill 非常欢迎。 今天小灰再给大家分享两个宝藏 skill ： 1. frontend-design 解决的是 Codex 写页面最常见的问题：能跑、组件齐，但看起来像默认模板。它会先定视觉方向，再管字体、配色、留白、动效和层级，专门压“AI 页面味”。适合落地页、后台、组件还原。 安装方式： npx skills add https://github.com/anthropics/skills --skill frontend-desig",
+        "whySaved": "",
+        "whyCaptured": "它对应两个短板：生成界面审美和选题/竞品材料来源。",
+        "deepSummary": "小灰推荐 frontend-design 与 Agent-Reach 的价值在于：它对应两个短板：生成界面审美和选题/竞品材料来源。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/anthropics/skills",
+            "title": "anthropics/skills: Public repository for Agent Skills",
+            "access": "full",
+            "summary": "language=Python; stars=173314; license=; default_branch=main; readme_status=200; > **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see ",
+            "value": "GitHub 页面可读，补充 repo 定位、README、语言/许可或源码结构，可作为实现参考。",
+            "learningValue": "继续读 README/源码，判断能否转成自己的设计工程练习或工具链。"
+          },
+          {
+            "url": "https://github.com/Panniantong/Agent-Reach",
+            "title": "Panniantong/Agent-Reach: Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoH",
+            "access": "full",
+            "summary": "language=Python; stars=77637; license=MIT; default_branch=main; readme_status=200; <h1 align=\"center\">👁️ Agent Reach</h1> <p align=\"center\"> <strong>给你的 AI Agent 一键装上互联网能力</strong> </p> <p align=\"center\"> 当下最稳的接入方式，替你选好",
+            "value": "GitHub 页面可读，补充 repo 定位、README、语言/许可或源码结构，可作为实现参考。",
+            "learningValue": "继续读 README/源码，判断能否转成自己的设计工程练习或工具链。"
+          }
+        ],
+        "learningActions": [
+          "拆出工具调用、权限、上下文和验收边界。",
+          "用一个小任务测试它能否进入自己的设计工程流程。",
+          "记录失败模式，避免只把它当灵感链接收藏。"
+        ],
+        "tags": [
+          "Codex Skill",
+          "Frontend Design",
+          "Research"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095377933133320388",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/gorockbits/status/2095377933133320388",
+        "author": "Gorock Shetty",
+        "handle": "gorockbits",
+        "datetime": "2026-09-03T05:06:44.000Z",
+        "title": "Dont Make It Ugly 收拢 Agent 设计参考",
+        "originalSummary": "原帖说明：i have this problem every single time i build something with Claude code or Codex the app works. but it looks like shit. then begins the treasure hunt: bookmarks github stars old notes component libraries design skills random websites i remember seeing 4 month",
+        "whySaved": "",
+        "whyCaptured": "它把散落参考变成可交给 Agent 的资源入口，降低从灵感到实现的转译成本。",
+        "deepSummary": "Dont Make It Ugly 收拢 Agent 设计参考 的价值在于：它把散落参考变成可交给 Agent 的资源入口，降低从灵感到实现的转译成本。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://dontmakeitugly.com/",
+            "title": "Don't Make It Ugly — Good design references for whatever you're building.",
+            "access": "full",
+            "summary": "A curated directory of design inspiration, components, libraries, repos, prompts and agent resources for people building software with coding agents.",
+            "value": "页面可读，补充了原帖之外的产品、项目或文章上下文。",
+            "learningValue": "判断信息密度、可复用设计方法和是否值得进入个人学习清单。"
+          }
+        ],
+        "learningActions": [
+          "拆出工具调用、权限、上下文和验收边界。",
+          "用一个小任务测试它能否进入自己的设计工程流程。",
+          "记录失败模式，避免只把它当灵感链接收藏。"
+        ],
+        "tags": [
+          "Design References",
+          "Agent Brief",
+          "Prompting"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095362764768268483",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/angel_d_munoz/status/2095362764768268483",
+        "author": "Angel D. Muñoz",
+        "handle": "angel_d_munoz",
+        "datetime": "2026-09-03T04:06:27.000Z",
+        "title": "Mibo.Fable Demo 展示 Worker Canvas 架构",
+        "originalSummary": "原帖说明：This thing is too tempting... I guess I can deviate the rest of the week from my current game dev stuff to make this shippable... I guess I'll be joining the Three.js demos this week - https://github.com/AngelMunoz/Mibo.Fable/blob/main/demo/Main.fs - https://g",
+        "whySaved": "",
+        "whyCaptured": "源码比转发更有价值，适合研究动效性能、UI 主线程隔离和 canvas 状态边界。",
+        "deepSummary": "Mibo.Fable Demo 展示 Worker Canvas 架构 的价值在于：源码比转发更有价值，适合研究动效性能、UI 主线程隔离和 canvas 状态边界。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://raw.githubusercontent.com/AngelMunoz/Mibo.Fable/main/demo/Main.fs",
+            "title": "AngelMunoz/Mibo.Fable/demo/Main.fs",
+            "access": "full",
+            "summary": "module Demo.Main open Fable.Core open Browser open Browser.Types // ───────────────────────────────────────────────────────────────────────────── // The page half of the demo. Each execution model runs in its own web wor",
+            "value": "GitHub 页面可读，补充 repo 定位、README、语言/许可或源码结构，可作为实现参考。",
+            "learningValue": "继续读 README/源码，判断能否转成自己的设计工程练习或工具链。"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AngelMunoz/Mibo.Fable/main/demo/AdaptiveWorker.fs",
+            "title": "AngelMunoz/Mibo.Fable/demo/AdaptiveWorker.fs",
+            "access": "full",
+            "summary": "module Demo.AdaptiveWorker open System open Browser.Types open Mibo.Fable.Exports open Mibo.Fable.Adaptive open Mibo.Elmish open Demo.Worker // ────────────────────────────────────────────────────────────────────────────",
+            "value": "GitHub 页面可读，补充 repo 定位、README、语言/许可或源码结构，可作为实现参考。",
+            "learningValue": "继续读 README/源码，判断能否转成自己的设计工程练习或工具链。"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/AngelMunoz/Mibo.Fable/main/demo/MvuWorker.fs",
+            "title": "AngelMunoz/Mibo.Fable/demo/MvuWorker.fs",
+            "access": "full",
+            "summary": "module Demo.MvuWorker open Browser.Types open Mibo.Fable.Exports open Mibo.Elmish open Demo.Worker // ───────────────────────────────────────────────────────────────────────────── // The MVU worker: update returns a new ",
+            "value": "GitHub 页面可读，补充 repo 定位、README、语言/许可或源码结构，可作为实现参考。",
+            "learningValue": "继续读 README/源码，判断能否转成自己的设计工程练习或工具链。"
+          }
+        ],
+        "learningActions": [
+          "观察媒体或 demo 的输入、镜头、状态反馈和性能边界。",
+          "复刻一个小型交互原型，保留关键技术约束。",
+          "把可复用的视觉/工程模式写成自己的检查清单。"
+        ],
+        "tags": [
+          "Three.js",
+          "Fable",
+          "OffscreenCanvas"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095350591459561478",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/immersivetran/status/2095350591459561478",
+        "author": "沉浸式翻译",
+        "handle": "immersivetran",
+        "datetime": "2026-09-03T03:18:05.000Z",
+        "title": "Lieflat Charts 用 Skill 固化编辑级图表审美",
+        "originalSummary": "原帖说明：无意中刷到一个很有品味的开源项目 --- Lieflat Charts，立刻被它的风格吸引住了。 Lieflat Charts 是一套遵循 Agent Skills 规范的图表与报告库（支持 Claude Code、Moxt 等），可以把高质量的杂志编辑级排版规则写成了规范，直接让 AI 产出排版考究、带交互的单文件 HTML 图表和整页报告。 几个很打动人的细节： 1️⃣ 三种克制的视觉语法： a. Lupi（编辑叙事型）：受国际知名信息设计师、数据艺术家Giorgia Lupi 的启发，用细发丝线、点阵与留白展",
+        "whySaved": "",
+        "whyCaptured": "它说明风格不是一句审美要求，而是一套可执行的图表、模板、配色和动效规范。",
+        "deepSummary": "Lieflat Charts 用 Skill 固化编辑级图表审美 的价值在于：它说明风格不是一句审美要求，而是一套可执行的图表、模板、配色和动效规范。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/larashero3-dotcom/lieflat-charts",
+            "title": "larashero3-dotcom/lieflat-charts: Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents ",
+            "access": "full",
+            "summary": "language=HTML; stars=3914; license=NOASSERTION; default_branch=main; readme_status=200; # Lieflat Charts 中文 | [English](README.en.md) [![Lieflat Charts：以统一的字体、留白、线条和动效建立自己的视觉语法的数据可视化 skill](docs/assets/readme-hero-zh.png",
+            "value": "GitHub 页面可读，补充 repo 定位、README、语言/许可或源码结构，可作为实现参考。",
+            "learningValue": "继续读 README/源码，判断能否转成自己的设计工程练习或工具链。"
+          }
+        ],
+        "learningActions": [
+          "拆出工具调用、权限、上下文和验收边界。",
+          "用一个小任务测试它能否进入自己的设计工程流程。",
+          "记录失败模式，避免只把它当灵感链接收藏。"
+        ],
+        "tags": [
+          "Lieflat Charts",
+          "Data Visualization",
+          "Agent Skill"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095346043055460570",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/note__design/status/2095346043055460570",
+        "author": "note DESIGN",
+        "handle": "note__design",
+        "datetime": "2026-09-03T03:00:00.000Z",
+        "title": "GLOBIS 记录从 Figma 转向 Claude Code 的设计流程",
+        "originalSummary": "原帖说明：「Figmaは中間成果物」という違和感から、進め方をClaude Codeへ移しているチームの記録です。 確認用のリポジトリを整え、噛み合わなければFigmaに戻る。見極める目は変わらないまま、手段が変わり、役割が広がっていく話。 AIデザインワークフローへの移行 @GLOBIS_tech https://note.com/globis_engineers/n/nc8bc99a13935",
+        "whySaved": "",
+        "whyCaptured": "这是设计团队真实迁移 AI workflow 的记录，比工具宣传更适合做方法论参考。",
+        "deepSummary": "GLOBIS 记录从 Figma 转向 Claude Code 的设计流程 的价值在于：这是设计团队真实迁移 AI workflow 的记录，比工具宣传更适合做方法论参考。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://note.com/globis_engineers/n/nc8bc99a13935",
+            "title": "AIデザインワークフローへの移行｜グロービス・デジタル・プラットフォーム",
+            "access": "full",
+            "summary": "はじめに GLOBIS学習サービス事業チームで デザインマネージャーをやってる前嶋です。 今、わたしたちはデザインの進め方をAIにシフトしている真っ最中です。 FigmaからClaude Codeへ移行しています。 自然言語で対話しながらデザインを作れるようにしています。 今まではデザインンのアウトプットはFigmaでしたが、 AIが作ったHTMLなどのコードがアウトプットになります。 「デザイナーがコード」と聞くと、じゃあみんなHTM",
+            "value": "页面可读，补充了原帖之外的产品、项目或文章上下文。",
+            "learningValue": "判断信息密度、可复用设计方法和是否值得进入个人学习清单。"
+          }
+        ],
+        "learningActions": [
+          "拆出工具调用、权限、上下文和验收边界。",
+          "用一个小任务测试它能否进入自己的设计工程流程。",
+          "记录失败模式，避免只把它当灵感链接收藏。"
+        ],
+        "tags": [
+          "Figma",
+          "Claude Code",
+          "Design Workflow"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095344904461602869",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/yaohui12138/status/2095344904461602869",
+        "author": "超级个体｜柿子",
+        "handle": "yaohui12138",
+        "datetime": "2026-09-03T02:55:29.000Z",
+        "title": "柿子把前端设计 Skill 分成三档使用场景",
+        "originalSummary": "原帖说明：之前看乔木老师做了一个超详细的前端设计 Skill 测评！！ 我根据他的测试结果 + 自己的实际使用，把这些 Skill 分成了三个档位： 第一档：视觉冲击型（适合营销页、作品集） frontend-design 核心特点：反 generic AI 美学，强制大胆独特方向 适合场景：营销页、作品集、需要视觉冲击的场景 安装：npx skills add anthropics/skills --skill frontend-design 这是 Anthropic 官方维护的 Skill，最大的优势是它会主动推 AI ",
+        "whySaved": "",
+        "whyCaptured": "它能帮助个人设计工程师选择“该用哪种审美约束”，而不是堆更多提示词。",
+        "deepSummary": "柿子把前端设计 Skill 分成三档使用场景 的价值在于：它能帮助个人设计工程师选择“该用哪种审美约束”，而不是堆更多提示词。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/Leonxlnx/taste-skill",
+            "title": "Leonxlnx/taste-skill: Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+            "access": "full",
+            "summary": "language=JavaScript; stars=83779; license=MIT; default_branch=main; readme_status=200; <p align=\"center\"> <img src=\"assets/readme-banner.webp\" alt=\"Taste Skill - Anti-slop Agent Skills for premium frontends\" width=\"100%\"",
+            "value": "GitHub 页面可读，补充 repo 定位、README、语言/许可或源码结构，可作为实现参考。",
+            "learningValue": "继续读 README/源码，判断能否转成自己的设计工程练习或工具链。"
+          },
+          {
+            "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+            "title": "nextlevelbuilder/ui-ux-pro-max-skill: An AI skill that provides design intelligence for building professional UI/UX across multiple platform",
+            "access": "full",
+            "summary": "language=Python; stars=124392; license=MIT; default_branch=main; readme_status=200; # [UI UX Pro Max](https://uupm.cc) <p align=\"center\"> <a href=\"https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.",
+            "value": "GitHub 页面可读，补充 repo 定位、README、语言/许可或源码结构，可作为实现参考。",
+            "learningValue": "继续读 README/源码，判断能否转成自己的设计工程练习或工具链。"
+          },
+          {
+            "url": "https://github.com/emilkowalski/skills",
+            "title": "emilkowalski/skills: Skills for Designers and Engineers.",
+            "access": "full",
+            "summary": "language=Markdown; stars=34951; license=MIT; default_branch=main; readme_status=200; <a href=\"https://animations.dev/\"> <img width=\"320\" height=\"168\" alt=\"opengraph-image-pwu6ef\" src=\"https://github.com/user-attachments/",
+            "value": "GitHub 页面可读，补充 repo 定位、README、语言/许可或源码结构，可作为实现参考。",
+            "learningValue": "继续读 README/源码，判断能否转成自己的设计工程练习或工具链。"
+          }
+        ],
+        "learningActions": [
+          "拆出工具调用、权限、上下文和验收边界。",
+          "用一个小任务测试它能否进入自己的设计工程流程。",
+          "记录失败模式，避免只把它当灵感链接收藏。"
+        ],
+        "tags": [
+          "Frontend Skill",
+          "Taste",
+          "UI UX"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095344008432333216",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/milbon_/status/2095344008432333216",
+        "author": "みるぼん@スモビジ",
+        "handle": "milbon_",
+        "datetime": "2026-09-03T02:51:55.000Z",
+        "title": "Status AI 把社交媒体变成角色模拟游戏",
+        "originalSummary": "原帖说明：【Status 要約】 https://www.statusai.com/ 本物の人間は自分だけ。フォロワー、いいね、バズ、炎上は全部AIが演じる「偽SNSゲーム」。The Sims × X、という理解で十分。 ■ 核心 10代が欲しいのは「他人の投稿を眺めること」ではなく、「推しの世界の中に住むこと」。Statusはその欲求を、見慣れたSNS画面のまま実現した。投稿するとAIのファン・アンチ・メディアが反応し、有名にもキャンセルにもなる。 ■ できること ・自分でペルソナを作る ・ポップスター、作品世界、大統領選",
+        "whySaved": "",
+        "whyCaptured": "它适合研究 AI 角色互动、拟真社交反馈和游戏化留存。",
+        "deepSummary": "Status AI 把社交媒体变成角色模拟游戏 的价值在于：它适合研究 AI 角色互动、拟真社交反馈和游戏化留存。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.statusai.com/",
+            "title": "Status - Sims but Social Media",
+            "access": "partial",
+            "summary": "Status - Sims but Social Media: Official and Only Website",
+            "value": "页面为动态应用或轻量入口，只能读取标题/入口文案，需后续浏览器试用补证。",
+            "learningValue": "后续重点补实际交互、性能和可编辑性证据。"
+          }
+        ],
+        "learningActions": [
+          "写下它解决的真实用户问题和交互闭环。",
+          "判断它是否值得进入个人设计学习事项。",
+          "为后续试用列一个最小验证任务。"
+        ],
+        "tags": [
+          "Status AI",
+          "AI Social",
+          "Game Loop"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095338894099468768",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/liuyi0922/status/2095338894099468768",
+        "author": "61",
+        "handle": "liuyi0922",
+        "datetime": "2026-09-03T02:31:36.000Z",
+        "title": "Readmate 从微信读书划线延伸成独立 App",
+        "originalSummary": "原帖说明：新 App Readmate 上线。 我每天在一块小小的墨水屏上拿微信读书看书，很想做一个管理划线的 App。微信读书官方 Skill 上线的时候就给 @thexclu 分享了这个小 idea，Clu 第二天就 Vibe 了一个 demo。 我一直觉得独立开发者需要一个制作人角色，这次我就是充当 Clu 的制作人。每天起床给凌晨出的 build 提 bug。一开始无数次说设计太 AI 了，没有亮点，没有分享动力，这里那里问题。经过一两个月每天的新版本都有了小小的设计上的惊喜，八月的时候天天催他上线。 ❤️现在 Re",
+        "whySaved": "",
+        "whyCaptured": "它把 AI demo、制作人角色、反 AI 味设计打磨和 App Store 上线连成完整小产品案例。",
+        "deepSummary": "Readmate 从微信读书划线延伸成独立 App 的价值在于：它把 AI demo、制作人角色、反 AI 味设计打磨和 App Store 上线连成完整小产品案例。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://apps.apple.com/cn/app/readmate-%E5%BE%AE%E4%BF%A1%E4%B9%A6%E6%91%98%E4%B8%8E%E5%88%92%E7%BA%BF%E5%9B%9E%E9%A1%BE/id6770665938",
+            "title": "‎Readmate - 微信书摘与划线回顾 App - App Store",
+            "access": "full",
+            "summary": "在 App Store 下载“WHITESSPACE SDN. BHD.”的“Readmate - 微信书摘与划线回顾”。查看截屏、评分及评论、用户提示以及更多类似“Readmate - 微信书摘与划线回顾”的 App。",
+            "value": "页面可读，补充了原帖之外的产品、项目或文章上下文。",
+            "learningValue": "判断信息密度、可复用设计方法和是否值得进入个人学习清单。"
+          }
+        ],
+        "learningActions": [
+          "写下它解决的真实用户问题和交互闭环。",
+          "判断它是否值得进入个人设计学习事项。",
+          "为后续试用列一个最小验证任务。"
+        ],
+        "tags": [
+          "Readmate",
+          "Indie App",
+          "Reading UX"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095333398042886354",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/Jackywine/status/2095333398042886354",
+        "author": "Jackywine",
+        "handle": "Jackywine",
+        "datetime": "2026-09-03T02:09:46.000Z",
+        "title": "DSH 桌面宠物把余额与交互做成系统陪伴",
+        "originalSummary": "原帖说明：一行命令安装 DSH 蓝色大肥鱼桌宠： https://github.com/PC2005-cloud/dsh-pet 相当完善的项目： 余额展示+原生设置 桌面宠物+网页双显 碎碎念和鼠标交互",
+        "whySaved": "",
+        "whyCaptured": "桌面常驻 UI 是 Agent 状态、额度和提醒的可借鉴载体。",
+        "deepSummary": "DSH 桌面宠物把余额与交互做成系统陪伴 的价值在于：桌面常驻 UI 是 Agent 状态、额度和提醒的可借鉴载体。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://github.com/PC2005-cloud/dsh-pet",
+            "title": "PC2005-cloud/dsh-pet: DSH 桌面宠物：一行命令装好即用的透明动画小桌宠，支持多开、大小位置随心配置；还内置 DIY 素材链，能用 AI 视频自造专属宠物",
+            "access": "full",
+            "summary": "language=TypeScript; stars=523; license=MIT; default_branch=main; readme_status=200; # dsh-pet 🐾 <p align=\"center\"> <a href=\"https://www.npmjs.com/package/dsh-pet\"><img alt=\"npm version\" src=\"https://img.shields.io/npm/",
+            "value": "GitHub 页面可读，补充 repo 定位、README、语言/许可或源码结构，可作为实现参考。",
+            "learningValue": "继续读 README/源码，判断能否转成自己的设计工程练习或工具链。"
+          }
+        ],
+        "learningActions": [
+          "拆出工具调用、权限、上下文和验收边界。",
+          "用一个小任务测试它能否进入自己的设计工程流程。",
+          "记录失败模式，避免只把它当灵感链接收藏。"
+        ],
+        "tags": [
+          "Desktop UI",
+          "Companion",
+          "Agent Status"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095326311916904580",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/SammmAing/status/2095326311916904580",
+        "author": "Samnang Aing",
+        "handle": "SammmAing",
+        "datetime": "2026-09-03T01:41:36.000Z",
+        "title": "Three.js 夜市用纯代码生成完整场景叙事",
+        "originalSummary": "原帖说明：Now I really want to see what this looks like rebuilt on Fable 5.1. 🤔 I made this Three.js night market on Opus 5, finished just as these landed. One HTML file, 357 KB, with no images and no 3D models in it at all. Every plank, roof tile and paper lantern is ",
+        "whySaved": "",
+        "whyCaptured": "它是 AI 生成 3D 网页从炫技片段走向可浏览叙事体验的样本。",
+        "deepSummary": "Three.js 夜市用纯代码生成完整场景叙事 的价值在于：它是 AI 生成 3D 网页从炫技片段走向可浏览叙事体验的样本。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://www.threads.com/@thelabaofficial/post/DcuM1K2jagm",
+            "title": "I just added new water props, what do you think?",
+            "access": "full",
+            "summary": "I just added new water props, what do you think?",
+            "value": "页面可读，补充了原帖之外的产品、项目或文章上下文。",
+            "learningValue": "判断信息密度、可复用设计方法和是否值得进入个人学习清单。"
+          }
+        ],
+        "learningActions": [
+          "观察媒体或 demo 的输入、镜头、状态反馈和性能边界。",
+          "复刻一个小型交互原型，保留关键技术约束。",
+          "把可复用的视觉/工程模式写成自己的检查清单。"
+        ],
+        "tags": [
+          "Three.js",
+          "AI Web",
+          "Camera Motion"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095321060510158933",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abduzeedo/status/2095321060510158933",
+        "author": "Fabio - abduzeedo",
+        "handle": "abduzeedo",
+        "datetime": "2026-09-03T01:20:44.000Z",
+        "title": "NRGY 年报案例展示高密度出版物层级",
+        "originalSummary": "原帖说明：A straightforward way to handle dense publication layouts: NRGY by Roberto Espartero. Strong typographic hierarchy, disciplined margin structures, and clear pacing that keeps a heavy content load readable and sharp from cover to cover. https://abduzeedo.com/ro",
+        "whySaved": "",
+        "whyCaptured": "适合学习高密度内容如何避免堆叠成噪声。",
+        "deepSummary": "NRGY 年报案例展示高密度出版物层级 的价值在于：适合学习高密度内容如何避免堆叠成噪声。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://abduzeedo.com/roberto-espartero-designs-bold-editorial-design-nrgy",
+            "title": "Roberto Espartero Designs Bold Editorial Design for NRGY",
+            "access": "full",
+            "summary": "Roberto Espartero and Tiquismiquis Club designed the 2021 annual report for NRGY, an industrial sustainability and renewable energy company, using…",
+            "value": "页面可读，补充了原帖之外的产品、项目或文章上下文。",
+            "learningValue": "判断信息密度、可复用设计方法和是否值得进入个人学习清单。"
+          }
+        ],
+        "learningActions": [
+          "截取关键画面并标注网格、层级、色彩和节奏。",
+          "把一个案例改写成自己的组件、页面或海报练习。",
+          "沉淀可复用的视觉判断，而不是只保存截图。"
+        ],
+        "tags": [
+          "Editorial Design",
+          "Typography",
+          "Annual Report"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095370259960353262",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/abduzeedo/status/2095370259960353262",
+        "author": "Fabio - abduzeedo",
+        "handle": "abduzeedo",
+        "datetime": "2026-09-03T04:36:14.000Z",
+        "title": "WTVilla 品牌用手写 Logo 平衡高端与松弛",
+        "originalSummary": "原帖说明：Really nice script logo work by Maria Centeno for WTVilla. The loose, hand-drawn lettering adds a warm, personal touch that offsets the clean, understated typography across the rest of the collateral. Paired with an earthy, neutral color palette + green and qu",
+        "whySaved": "",
+        "whyCaptured": "适合研究“高端但不冷”的品牌视觉怎样靠字标和材料感成立。",
+        "deepSummary": "WTVilla 品牌用手写 Logo 平衡高端与松弛 的价值在于：适合研究“高端但不冷”的品牌视觉怎样靠字标和材料感成立。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://abduzeedo.com/branding-design-wtvilla-maria-centeno",
+            "title": "Branding Design: W.T.VILLA by María Centeno",
+            "access": "full",
+            "summary": "Discover the industrial branding design and tactile workwear identity for W.T.VILLA by María Centeno, featuring embroidery and geometric grids. Developed…",
+            "value": "页面可读，补充了原帖之外的产品、项目或文章上下文。",
+            "learningValue": "判断信息密度、可复用设计方法和是否值得进入个人学习清单。"
+          }
+        ],
+        "learningActions": [
+          "截取关键画面并标注网格、层级、色彩和节奏。",
+          "把一个案例改写成自己的组件、页面或海报练习。",
+          "沉淀可复用的视觉判断，而不是只保存截图。"
+        ],
+        "tags": [
+          "Branding",
+          "Logo",
+          "Typography"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2095199845698912412",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/marcel_wiessler/status/2095199845698912412",
+        "author": "🌵 Marcel Wiessler",
+        "handle": "marcel_wiessler",
+        "datetime": "2026-09-02T17:19:04.000Z",
+        "title": "Needle Mesh Baker 在浏览器里本地处理 3D 模型",
+        "originalSummary": "原帖说明：Just pushed another update further improving 3D model generation. It's amazing that this just takes ~1-2 minutes on a 3080. You can now try it yourself in the UI, either use a demo image or drop your own (nothing gets uploaded!) https://mesh-baker.needle.tools",
+        "whySaved": "",
+        "whyCaptured": "它是本地优先 3D 工具的可试用入口，适合评估 WebGPU/WebGL 生产力。",
+        "deepSummary": "Needle Mesh Baker 在浏览器里本地处理 3D 模型 的价值在于：它是本地优先 3D 工具的可试用入口，适合评估 WebGPU/WebGL 生产力。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://mesh-baker.needle.tools/",
+            "title": "Needle Mesh Baker — Polygon Reduction and Texture Baking in your browser",
+            "access": "partial",
+            "summary": "Reduce a model",
+            "value": "页面为动态应用或轻量入口，只能读取标题/入口文案，需后续浏览器试用补证。",
+            "learningValue": "后续重点补实际交互、性能和可编辑性证据。"
+          }
+        ],
+        "learningActions": [
+          "观察媒体或 demo 的输入、镜头、状态反馈和性能边界。",
+          "复刻一个小型交互原型，保留关键技术约束。",
+          "把可复用的视觉/工程模式写成自己的检查清单。"
+        ],
+        "tags": [
+          "3D",
+          "WebGPU",
+          "Local-first"
+        ],
+        "priority": "high"
+      },
+      {
+        "id": "2095290917502488637",
+        "sourceTab": "home",
+        "statusUrl": "https://x.com/threejsdaily/status/2095290917502488637",
+        "author": "Three.js Daily",
+        "handle": "threejsdaily",
+        "datetime": "2026-09-02T23:20:58.000Z",
+        "title": "Three.js Plinko + Pinball Demo 可直接体验",
+        "originalSummary": "原帖说明：plinko and pinball in one Three.js scene. pull the launcher, watch the chaos. dev: @andrewwoan link: https://codrops-demo-for-threejs-conference-ten.vercel.app/",
+        "whySaved": "",
+        "whyCaptured": "它适合做交互原型练习：规则简单、反馈直接、视觉和物理状态绑定。",
+        "deepSummary": "Three.js Plinko + Pinball Demo 可直接体验 的价值在于：它适合做交互原型练习：规则简单、反馈直接、视觉和物理状态绑定。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://codrops-demo-for-threejs-conference-ten.vercel.app/",
+            "title": "Three.js Experience",
+            "access": "partial",
+            "summary": "Three.js Experience Loading 0% Plinko + Pinball Combo Demo for Three.js Conference Enter with Audio Enter without Audio For full credits see here",
+            "value": "页面为动态应用或轻量入口，只能读取标题/入口文案，需后续浏览器试用补证。",
+            "learningValue": "后续重点补实际交互、性能和可编辑性证据。"
+          }
+        ],
+        "learningActions": [
+          "观察媒体或 demo 的输入、镜头、状态反馈和性能边界。",
+          "复刻一个小型交互原型，保留关键技术约束。",
+          "把可复用的视觉/工程模式写成自己的检查清单。"
+        ],
+        "tags": [
+          "Three.js",
+          "Codrops",
+          "Physics UI"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094773625324712417",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/dimagroshev/status/2094773625324712417",
+        "author": "Dima Groshev",
+        "handle": "dimagroshev",
+        "datetime": "2026-09-01T13:05:25.000Z",
+        "title": "Dayrise 用动效让进度反馈可感知",
+        "originalSummary": "原帖说明：Feel the progress with Dayrise ☀️",
+        "whySaved": "你会收藏它，因为它把抽象进度变成可感知的视觉反馈，适合拆解习惯/目标类产品的微动效。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；用于反推你关注的设计判断和实践方向。",
+        "deepSummary": "Dayrise 用动效让进度反馈可感知 的价值在于：你会收藏它，因为它把抽象进度变成可感知的视觉反馈，适合拆解习惯/目标类产品的微动效。 本条主要依靠原帖文字或媒体，需要从交互细节和视觉表达中提炼学习点。",
+        "linkAnalysis": [],
+        "learningActions": [
+          "写下它解决的真实用户问题和交互闭环。",
+          "判断它是否值得进入个人设计学习事项。",
+          "为后续试用列一个最小验证任务。"
+        ],
+        "tags": [
+          "Liked",
+          "Progress UI",
+          "Motion"
+        ],
+        "priority": "medium"
+      },
+      {
+        "id": "2094443296169107515",
+        "sourceTab": "like",
+        "statusUrl": "https://x.com/xiaoxiaodong01/status/2094443296169107515",
+        "author": "小小东",
+        "handle": "xiaoxiaodong01",
+        "datetime": "2026-08-31T15:12:49.000Z",
+        "title": "350 套排版布局把构图参考做成知识图鉴",
+        "originalSummary": "X Article《开源：350套排版布局 x 知识图鉴》摘要：项目地址： https://github.com/nevertoday/350-layout-compositions 前我整理过一套「100 种排版」，但实际做海报、网页、PPT、出版物或者视觉设计时，很快就会发现，100 种远远不够。",
+        "whySaved": "你会收藏它，因为它把排版灵感从散图升级为可搜索、可下载、可学习的结构化资料库。",
+        "whyCaptured": "因用户已收藏，作为个人偏好信号保留；用于反推你关注的设计判断和实践方向。",
+        "deepSummary": "350 套排版布局把构图参考做成知识图鉴 的价值在于：你会收藏它，因为它把排版灵感从散图升级为可搜索、可下载、可学习的结构化资料库。 链接已读取，可继续判断信息密度、实现参考和后续学习价值。",
+        "linkAnalysis": [
+          {
+            "url": "https://x.com/i/article/2094439865173807104",
+            "title": "开源：350套排版布局 x 知识图鉴",
+            "access": "full",
+            "summary": "项目地址： https://github.com/nevertoday/350-layout-compositions 前我整理过一套「100 种排版」，但实际做海报、网页、PPT、出版物或者视觉设计时，很快就会发现，100 种远远不够。 因为我们遇到的并不只是“三分法、黄金比例”这类基础构图问题，还会涉及视觉层级、字体网格、网页 UI、影视镜头、中国传统构图、演示文稿等不同场景。 所以最近我重新整理和扩充了这套资料，把它升级成了 35",
+            "value": "X Article 正文可读，补充短帖之外的完整背景、方法和论证。",
+            "learningValue": "判断信息密度、可复用设计方法和是否值得进入个人学习清单。"
+          },
+          {
+            "url": "https://github.com/nevertoday/350-layout-compositions",
+            "title": "nevertoday/350-layout-compositions: 350 layout composition references across visual principles, editorial design, typography, grids, web UI,",
+            "access": "full",
+            "summary": "language=Python; stars=702; license=NOASSERTION; default_branch=main; readme_status=200; # 350 种排版 · 分类图鉴 从经典构图、视觉原则，到出版广告、字体网格、网页 UI、影视、中国传统构图和演示文稿：350 种排版，按 8 个一级分类与 33 个二级主题组织成可浏览、可检索、可下载的知识图鉴。 > 这是原「100 种排版」项目的新版扩展。旧",
+            "value": "GitHub 页面可读，补充 repo 定位、README、语言/许可或源码结构，可作为实现参考。",
+            "learningValue": "继续读 README/源码，判断能否转成自己的设计工程练习或工具链。"
+          }
+        ],
+        "learningActions": [
+          "截取关键画面并标注网格、层级、色彩和节奏。",
+          "把一个案例改写成自己的组件、页面或海报练习。",
+          "沉淀可复用的视觉判断，而不是只保存截图。"
+        ],
+        "tags": [
+          "Liked",
+          "Layout",
+          "Open Source"
+        ],
+        "priority": "high"
+      }
+    ]
+  },
+  {
+    "date": "2026-09-03",
     "generatedAt": "2026-09-03T09:41:19+08:00",
     "batch": "x-ai-design-analysis-2026-09-03-0941",
     "analysisCount": 100,
