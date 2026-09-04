@@ -1,6 +1,440 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-03T17:53:44.000Z",
+    "author": "Peng Zheng",
+    "handle": "pengzheng_",
+    "avatar": "https://pbs.twimg.com/profile_images/1950000586084233216/-bvk_-H3_200x200.png",
+    "title": "Grok Bot 设计思考：从操作 AI 到委派工作",
+    "summary": "我会帮你抓取它，因为它把角色、状态、上下文和协同团队写成 Agent 产品的界面设计问题。",
+    "url": "https://x.com/pengzheng_/status/2095570958350499868",
+    "metrics": "52 REPLIES · 79 REPOSTS · 945 LIKES · 1205 BOOKMARKS · 113778 VIEWS",
+    "_analysisTheme": "Agent 产品界面",
+    "_analysisPriority": "high",
+    "links": [
+      "https://x.ai/news/designing-grok-bot"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095570679127289856/vid/avc1/1920x1080/4QRRWEg73SdyBwzF.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095570679127289856/img/6CQQjpCgWOyNbVqY.jpg"
+      }
+    ]
+  },
+  {
+    "category": "MOTION TOOL",
+    "datetime": "2026-09-03T18:37:42.000Z",
+    "author": "Rive",
+    "handle": "rive_app",
+    "avatar": "https://pbs.twimg.com/profile_images/2095271380946481152/6UvH_nP__200x200.jpg",
+    "title": "Rive GPU Canvas 进入生产编辑器",
+    "summary": "我会帮你抓取它，因为 Rive 把 shader、3D 与低层 GPU 能力带入设计编辑器，值得跟踪动效工具边界。",
+    "url": "https://x.com/rive_app/status/2095582023058432213",
+    "metrics": "5 REPLIES · 34 REPOSTS · 199 LIKES · 95 BOOKMARKS · 8243 VIEWS",
+    "_analysisTheme": "动效与实时图形",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/ext_tw_video/2095581872751300610/pu/vid/avc1/1280x720/vgh60JZSPx-IhTcn.mp4?tag=12",
+        "poster": "https://pbs.twimg.com/ext_tw_video_thumb/2095581872751300610/pu/img/WaRzo_HPIezT1aN8.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-04T00:07:26.000Z",
+    "author": "Sebastian Maniak",
+    "handle": "SebbyCorp",
+    "avatar": "https://pbs.twimg.com/profile_images/1906118916092350464/eI4bBS9K_200x200.jpg",
+    "title": "agentdesktop 管理桌面端 AI 工具可见性",
+    "summary": "我会帮你抓取它，因为桌面端 AI 工具治理会影响设计团队如何管理本地 Agent、MCP 与技能。",
+    "url": "https://x.com/SebbyCorp/status/2095664999717118332",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 11 VIEWS",
+    "_analysisTheme": "Agent 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/agentdesktop-dev/agentdesktop"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095664752143835137/vid/avc1/1920x1080/rqtd2cTZaiEnkvwJ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095664752143835137/img/pribuTjlBc6VobKs.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-04T00:02:00.000Z",
+    "author": "Lucas",
+    "handle": "lksmlabc",
+    "avatar": "https://pbs.twimg.com/profile_images/1848643311156006914/t7AGn1R5_200x200.jpg",
+    "title": "Voicebox 把语音输入、TTS 与 MCP 放到本地",
+    "summary": "我会帮你抓取它，因为本地语音、TTS 与 MCP 的组合能扩展个人设计师的输入与演示工作流。",
+    "url": "https://x.com/lksmlabc/status/2095663632877248549",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 23 VIEWS",
+    "_analysisTheme": "Agent 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/jamiepine/voicebox"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRTBkfvbUAAzklz.png?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-04T00:09:35.000Z",
+    "author": "2:461/384",
+    "handle": "GarAlex",
+    "avatar": "https://pbs.twimg.com/profile_images/1565873174306164736/y0cp5FZQ_200x200.jpg",
+    "title": "PromoShot MCP 让 Agent 本地生成演示视频",
+    "summary": "我会帮你抓取它，因为它把 Agent 生成演示视频做成本地 MCP，可直接服务产品发布素材。",
+    "url": "https://x.com/GarAlex/status/2095665543554761157",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 9 VIEWS",
+    "_analysisTheme": "Agent 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://promoshot.app/demo"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095665070126800896/vid/avc1/1280x800/t3mi-rhgYTSidYGA.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095665070126800896/img/GteefzwQ8vN-GDu1.jpg"
+      }
+    ]
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-09-03T23:49:39.000Z",
+    "author": "Orange AI",
+    "handle": "oran_ge",
+    "avatar": "https://pbs.twimg.com/profile_images/1760074488073629696/ceSsuVCY_200x200.png",
+    "title": "Town AI 把个人 Agent 带进群聊",
+    "summary": "我会帮你抓取它，因为群聊里的个人 Agent 改变了移动端协作和任务委派的交互模型。",
+    "url": "https://x.com/oran_ge/status/2095660525753717056",
+    "metrics": "2 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 1871 VIEWS",
+    "_analysisTheme": "AI 产品判断",
+    "_analysisPriority": "high",
+    "links": [
+      "https://town.com/group-text"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095557949301399552/vid/avc1/1080x1080/m8N9_gLa3A7DMk_m.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095557949301399552/img/Yr_vOQ9dfR3hLePi.jpg"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "Town",
+      "handle": "TownAI",
+      "text": "Big News: You can now introduce your Townie to your people (and their Townies too)\n\nAdd them to your group texts, and they can go get it done in their own browser.\n\nLearn more about your Townies new super powers here: https://town.com/group-text",
+      "url": "https://x.com/TownAI/status/2095558025339977756",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2095557949301399552/vid/avc1/1080x1080/m8N9_gLa3A7DMk_m.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2095557949301399552/img/Yr_vOQ9dfR3hLePi.jpg"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
+    "category": "BRAND",
+    "datetime": "2026-09-03T23:24:08.000Z",
+    "author": "Fabio - abduzeedo",
+    "handle": "abduzeedo",
+    "avatar": "https://pbs.twimg.com/profile_images/2088424714998054912/gFsKg3vl_200x200.jpg",
+    "title": "E-T Group 品牌系统用极简网格服务建筑内容",
+    "summary": "我会帮你抓取它，因为这条 品牌与视觉系统 样本有明确的工具、界面或工作流线索，可转成个人设计学习事项。",
+    "url": "https://x.com/abduzeedo/status/2095654104693703089",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 1 BOOKMARKS · 341 VIEWS",
+    "_analysisTheme": "品牌与视觉系统",
+    "_analysisPriority": "high",
+    "links": [
+      "https://abduzeedo.com/architectural-brand-identity-e-t-group-iframe"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRVCOeZbAAAXkve.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRVCPeRbgAAaTaR.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRVCTIJbUAAU_2p.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-04T00:10:09.000Z",
+    "author": "よしあかつき 🐾WordPressテーマyStandard開発",
+    "handle": "yosiakatsuki",
+    "avatar": "https://pbs.twimg.com/profile_images/1318779882629836801/rKZAV6JW_200x200.jpg",
+    "title": "Google Analytics MCP 进入开发者工作流",
+    "summary": "我会帮你抓取它，因为官方 Analytics MCP 文档把数据工具接进 Agent 工作流，适合做设计指标探索。",
+    "url": "https://x.com/yosiakatsuki/status/2095665685720666269",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 17 VIEWS",
+    "_analysisTheme": "Agent 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://developers.google.com/analytics/devguides/MCP?hl=ja"
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-03T23:27:05.000Z",
+    "author": "José",
+    "handle": "castroxdesign",
+    "avatar": "https://pbs.twimg.com/profile_images/2036808802096340992/TFUD9Z11_200x200.jpg",
+    "title": "Modular Studio 从 Framer 迁回 Claude Code",
+    "summary": "我会帮你抓取它，因为这条 Agent 设计工程 样本有明确的工具、界面或工作流线索，可转成个人设计学习事项。",
+    "url": "https://x.com/castroxdesign/status/2095654846640562535",
+    "metrics": "1 REPLIES · 1 REPOSTS · 1 LIKES · 1 BOOKMARKS · 70 VIEWS",
+    "_analysisTheme": "Agent 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "http://modularstudio.io"
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-03T23:04:52.000Z",
+    "author": "LM",
+    "handle": "lmdev25",
+    "avatar": "https://pbs.twimg.com/profile_images/1844198418224128011/L5ii8IZe_200x200.jpg",
+    "title": "MeierChess 的客户端学习环境工程复盘",
+    "summary": "我会帮你抓取它，因为这条 Agent 设计工程 样本有明确的工具、界面或工作流线索，可转成个人设计学习事项。",
+    "url": "https://x.com/lmdev25/status/2095649256606457942",
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 29 VIEWS",
+    "_analysisTheme": "Agent 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://meierchess.com"
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-03T23:51:00.000Z",
+    "author": "LanfAI",
+    "handle": "Huahuazo",
+    "avatar": "https://pbs.twimg.com/profile_images/2069205497472053248/xaKPzYbi_200x200.jpg",
+    "title": "Open Design 尝试开源化 AI 设计工作流",
+    "summary": "我会帮你抓取它，因为这条 Agent 设计工程 样本有明确的工具、界面或工作流线索，可转成个人设计学习事项。",
+    "url": "https://x.com/Huahuazo/status/2095660864376316163",
+    "metrics": "1 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 81 VIEWS",
+    "_analysisTheme": "Agent 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/nexu-io/open-design"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRTZ11QaUAAjflj.png?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN TOOL",
+    "datetime": "2026-09-03T21:17:00.000Z",
+    "author": "deb.design",
+    "handle": "_deb_design",
+    "avatar": "https://pbs.twimg.com/profile_images/2077609521464082432/JwjRmCtC_200x200.jpg",
+    "title": "Figma Slides Agent 与 Figma MCP 的生成对比",
+    "summary": "我会帮你抓取它，因为这条 Figma 工作流 样本有明确的工具、界面或工作流线索，可转成个人设计学习事项。",
+    "url": "https://x.com/_deb_design/status/2095622109686845624",
+    "metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 0 BOOKMARKS · 43 VIEWS",
+    "_analysisTheme": "Figma 工作流",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095621998915596288/vid/avc1/720x1280/sO5_vXxoXePlj_KH.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095621998915596288/img/wXOi7PtTqTidHqdm.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-04T00:07:43.000Z",
+    "author": "Bahulam AI",
+    "handle": "BahulamAI",
+    "avatar": "https://pbs.twimg.com/profile_images/2087996507001692160/qSckMDnD_200x200.jpg",
+    "title": "Bahulam 把插件、子代理和工作区打包成 Live Bundle",
+    "summary": "我会帮你抓取它，因为这条 Agent 设计工程 样本有明确的工具、界面或工作流线索，可转成个人设计学习事项。",
+    "url": "https://x.com/BahulamAI/status/2095665071649128955",
+    "metrics": "0 REPLIES · 1 REPOSTS · 1 LIKES · 0 BOOKMARKS · 9 VIEWS",
+    "_analysisTheme": "Agent 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://docs.bahulam.ai/plugins"
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-03T23:57:04.000Z",
+    "author": "チャエン | デジライズ CEO《重要AIニュースを毎日最速で発信⚡️》",
+    "handle": "masahirochaen",
+    "avatar": "https://pbs.twimg.com/profile_images/1689665533929725953/fClFlzLd_200x200.jpg",
+    "title": "Claude Artifacts 调用 MCP Connector 的协作模式",
+    "summary": "我会帮你抓取它，因为这条 Agent 设计工程 样本有明确的工具、界面或工作流线索，可转成个人设计学习事项。",
+    "url": "https://x.com/masahirochaen/status/2095662390616698903",
+    "metrics": "2 REPLIES · 1 REPOSTS · 11 LIKES · 6 BOOKMARKS · 2184 VIEWS",
+    "_analysisTheme": "Agent 设计工程",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095662378885234689/vid/avc1/1280x720/INa3XPmmUaOma3XB.mp4?tag=16",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095662378885234689/img/nqhr9iQRFV7dEiim.jpg"
+      }
+    ]
+  },
+  {
+    "category": "PRODUCTIVITY",
+    "datetime": "2026-09-03T16:04:35.000Z",
+    "author": "Linear",
+    "handle": "linear",
+    "avatar": "https://pbs.twimg.com/profile_images/1882353118530224128/l8meBvMg_200x200.jpg",
+    "title": "Linear Priority Inbox 过滤团队通知噪声",
+    "summary": "我会帮你抓取它，因为它把通知分级做成核心协作界面，能学习团队工具的降噪设计。",
+    "url": "https://x.com/linear/status/2095543489643614310",
+    "metrics": "3 REPLIES · 2 REPOSTS · 119 LIKES · 34 BOOKMARKS · 11334 VIEWS",
+    "_analysisTheme": "协作与工程工作流",
+    "_analysisPriority": "high",
+    "links": [
+      "https://linear.app/changelog/2026-09-03-priority-inbox"
+    ]
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-09-03T18:24:44.000Z",
+    "author": "azlan",
+    "handle": "azlandotgg",
+    "avatar": "https://pbs.twimg.com/profile_images/2079942745146511360/QoNV1cd9_200x200.jpg",
+    "title": "MarkdownOS v8 把视频、文件和书签纳入笔记",
+    "summary": "我会帮你抓取它，因为这条 产品设计观察 样本有明确的工具、界面或工作流线索，可转成个人设计学习事项。",
+    "url": "https://x.com/azlandotgg/status/2095578758564766158",
+    "metrics": "1 REPLIES · 1 REPOSTS · 10 LIKES · 3 BOOKMARKS · 458 VIEWS",
+    "_analysisTheme": "产品设计观察",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095578146666094592/vid/avc1/1150x720/MeEBPzGtfxQ9CKXA.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095578146666094592/img/R1ALuOWNa7O6hwmB.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-04T00:01:19.000Z",
+    "author": "Ren",
+    "handle": "Ryrenz",
+    "avatar": "https://pbs.twimg.com/profile_images/2047148133746933760/iEtNYePb_200x200.jpg",
+    "title": "XHS-Downloader 批量沉淀图文视频参考",
+    "summary": "我会帮你抓取它，因为这条 Agent 设计工程 样本有明确的工具、界面或工作流线索，可转成个人设计学习事项。",
+    "url": "https://x.com/Ryrenz/status/2095663460004593718",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 34 VIEWS",
+    "_analysisTheme": "Agent 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/JoeanAmier/XHS-Downloader"
+    ]
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-03T23:45:35.000Z",
+    "author": "もよこ｜Web/DTPデザイナー",
+    "handle": "littledesign455",
+    "avatar": "https://pbs.twimg.com/profile_images/1841090443184128000/5W98VRjf_200x200.jpg",
+    "title": "Studio.Drop 用 URL 导入和 AI 对话改站点",
+    "summary": "我会帮你抓取它，因为这条 Agent 设计工程 样本有明确的工具、界面或工作流线索，可转成个人设计学习事项。",
+    "url": "https://x.com/littledesign455/status/2095659500791541836",
+    "metrics": "1 REPLIES · 0 REPOSTS · 5 LIKES · 0 BOOKMARKS · 144 VIEWS",
+    "_analysisTheme": "Agent 设计工程",
+    "_analysisPriority": "high",
+    "quote": {
+      "label": "引用原帖",
+      "author": "もよこ｜Web/DTPデザイナー",
+      "handle": "littledesign455",
+      "text": "StudioがClaudeやCodexとMCP連携したら、最強なのでは…！？ \n早速事前登録しました！とても楽しみです✨ #StudioDrop",
+      "url": "https://x.com/littledesign455/status/2094671671349440880",
+      "media": [],
+      "article": null
+    }
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-03T23:44:04.000Z",
+    "author": "Monish Khandelwal",
+    "handle": "1Monish_",
+    "avatar": "https://pbs.twimg.com/profile_images/2069692509471887360/KW6VNfni_200x200.jpg",
+    "title": "Keld 探索 Rust 与 Bun 桌面框架",
+    "summary": "我会帮你抓取它，因为这条 Agent 设计工程 样本有明确的工具、界面或工作流线索，可转成个人设计学习事项。",
+    "url": "https://x.com/1Monish_/status/2095659121999786057",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 79 VIEWS",
+    "_analysisTheme": "Agent 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/gyldlab/keld",
+      "https://github.com/gyldlab/keld-benches"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095595661559574528/vid/avc1/1920x1080/grXdGA07X-yPH_8z.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095595661559574528/img/Vmb2pgEFJ6fpCUTD.jpg"
+      }
+    ],
+    "quote": {
+      "label": "引用原帖",
+      "author": "OpenAI",
+      "handle": "OpenAI",
+      "text": "This is GPT-6 Astra.\n\nAnything you can do on a computer, Astra can do for you. Fast.",
+      "url": "https://x.com/OpenAI/status/2095595741528125780",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2095595661559574528/vid/avc1/1920x1080/grXdGA07X-yPH_8z.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2095595661559574528/img/Vmb2pgEFJ6fpCUTD.jpg"
+        }
+      ],
+      "article": null
+    }
+  },
+  {
+    "category": "AI ENGINEERING",
+    "datetime": "2026-09-03T23:58:42.000Z",
+    "author": "Allen",
+    "handle": "alleneubank",
+    "avatar": "https://pbs.twimg.com/profile_images/2064744191658246144/lZRc9HhW_200x200.jpg",
+    "title": "Forked Codex CLI 改善容量错误后的会话续跑",
+    "summary": "我会帮你抓取它，因为这条 Agent 设计工程 样本有明确的工具、界面或工作流线索，可转成个人设计学习事项。",
+    "url": "https://x.com/alleneubank/status/2095662805307490499",
+    "metrics": "0 REPLIES · 0 REPOSTS · 2 LIKES · 0 BOOKMARKS · 51 VIEWS",
+    "_analysisTheme": "Agent 设计工程",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/alleneubank/codex/releases/tag/rust-v0.153.1-fork.20260903.g5530554f9"
+    ]
+  },
+  {
     "category": "DESIGN TOOL",
     "datetime": "2026-09-03T05:40:01.000Z",
     "author": "Christopher Nguyen",
