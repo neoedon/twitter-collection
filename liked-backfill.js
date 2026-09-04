@@ -1,6 +1,63 @@
-// Generated from authenticated X Likes via ego-browser on 2026-09-03T13:58:00+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-09-04T14:22:16+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2095748859029012918",
+    "TwitterUserID": "1590927428",
+    "UserScreenName": "hwwaanng",
+    "UserProfileName": "Hwang",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1361512556930600969/LBwP2_YZ_200x200.jpg",
+    "TweetText": "OpenAI 的 A6TRA（GPT‑6 Astra）视频，让我想起了 Dynamicland。\n\n视频开头引用了 MIT 在 1980 年做的 “Put That There” 的实验。通过 GPT‑6 在不同数字产品之间做 bridge：理解屏幕上的内容，操作浏览器、文档和各种软件，再把结果投影到人面前。\n\nAI 变聪明了，也更会操作电脑了，但我们与计算机相处的方式似乎没有真的改变。\n\nDynamicland 是另一条路线。\n\n它是 Bret Victor 团队长期研究的一种新型计算媒介。简单来说，就是把计算从屏幕里释放出来：纸张、卡片、书籍、桌面，甚至整个房间，都可以成为程序的一部分。\n\n摄像头理解现实中的物体，投影让它们拥有动态的内容；人可以直接用手移动、组合和修改它们。\n\n比如，当你阅读一本实体书时，书桌旁可以出现一块投影，展示整本书的结构、人物关系或者相关资料。看到一句重要的话，可以直接把它从书里“摘”到桌面上，再和另一张纸上的想法放在一起。系统理解两者的关系，自动生成新的注释、图表或交互内容。\n\n过去的软件很难做到这种程度的动态。现实世界太开放了，我们不可能事先定义每一种物体、内容和交互。\n\n但 LLM 让这件事突然变得可行了。\n\n它可以理解“这个”“那里”“刚才那句话”究竟指什么，也可以根据眼前的情境，随时生成新的界面和交互。投影、语音、手势、实体物件，再加上动态生成的 AGUI，也许真的可以组成一种新的家用计算设备。\n\n这个设备，可能不再是一块需要我们一直盯着的屏幕，而是散布在房间里。\n\n不再让人进一步被吸进手机和数字世界，而是让数字世界的便利，与真实世界 Merge 在一起。",
+    "Tweet Url": "https://x.com/hwwaanng/status/2095748859029012918",
+    "TweetCreatedDate": "2026-09-04T05:40:39.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRWXmb3bcAE7obA.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "空间计算与 Agent UI",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRWXmb3bcAE7obA.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRWXw2ebkAApyWY.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRWX7YMaEAAS4_K.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRWYAtqbgAALpxb.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 0 REPOSTS · 3 LIKES · 0 BOOKMARKS · 382 VIEWS",
+    "_analysisTheme": "空间计算与 Agent UI",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，是因为它把 A6TRA/GPT-6 Astra 的屏幕理解、投影和跨软件操作，转成 Dynamicland 式的空间界面想象，适合反推下一代个人计算交互。",
+    "_likedSync": {
+      "capturedAt": "2026-09-04T14:22:16+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T05:40:39.000Z",
+      "observedSources": [
+        "home-for-you",
+        "home-indie-creators",
+        "likes-profile",
+        "likes-history"
+      ]
+    }
+  },
   {
     "TweetID": "2094803447920967862",
     "TwitterUserID": "1247194043559358467",
