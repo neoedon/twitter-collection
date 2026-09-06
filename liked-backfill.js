@@ -1,6 +1,1047 @@
-// Generated from authenticated X Likes via ego-browser on 2026-09-04T14:22:16+08:00.
+// Generated from authenticated X Likes via ego-browser on 2026-09-06T08:25:56+08:00.
 // Do not edit entries by hand; rerun the Likes sync automation to refresh.
 window.LIKED_BACKFILL = [
+  {
+    "TweetID": "2096242507206234539",
+    "TwitterUserID": "163388015",
+    "UserScreenName": "thexclu",
+    "UserProfileName": "Clu",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/989440965030043648/Qhw8FNkq_200x200.jpg",
+    "TweetText": "修好了，再等等....",
+    "Tweet Url": "https://x.com/thexclu/status/2096242507206234539",
+    "TweetCreatedDate": "2026-09-05T14:22:14.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRdZci4bIAAjADS.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计收藏偏好",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRdZci4bIAAjADS.jpg?name=orig"
+      }
+    ],
+    "_quote": {
+      "id": "2095849345333764343",
+      "statusUrl": "https://x.com/thexclu/status/2095849345333764343",
+      "author": "Clu",
+      "handle": "thexclu",
+      "datetime": "2026-09-04T12:19:57.000Z",
+      "text": "这两天将会一一修复大家提到的 Bug，原先完成的部分功能和工作先延后一下。\n关于同步数据和速度的问题正在着手解决了，目前不影响正常同步和使用。\n\n欢迎大家随时 DM，邮件，@ 我 反馈建议。",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HRXz3nlacAAKoqE.jpg?name=orig"
+        },
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HRXz3nhasAAGzGs.jpg?name=orig"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "1 REPLIES · 0 REPOSTS · 7 LIKES · 2 BOOKMARKS · 1.9K VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 个人设计收藏偏好 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-05T14:22:14.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2096236875661053983",
+    "TwitterUserID": "296593919",
+    "UserScreenName": "vikingmute",
+    "UserProfileName": "Viking",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/725179208528322560/TPjU7qop_200x200.jpg",
+    "TweetText": "好久没看到这么精彩的和 AI 无关的技术文章了：《Reverse Engineering Linear's Sync Engine: A Detailed Study》\nhttps://github.com/wzhudev/reverse-linear-sync-engine\n\n讲的是 Linear 客户端同步方案（Linear Sync Engine） 的逆向讲解，如果体验过 LInear 的就能感受到它的操作非常丝滑。这篇文章把模型怎么定义 怎么进 IndexedDB 事务怎么上报 服务端怎么回 delta 怎么做部分加载和 undo讲的非常清楚 还对技术细节感兴趣的朋友可以收藏好好读读。\n\nLinear CTO 也称赞过这篇文章。我觉得整体读的体感非常好，学到了很多，同时也很赞同乐观更新这种做法。",
+    "Tweet Url": "https://x.com/vikingmute/status/2096236875661053983",
+    "TweetCreatedDate": "2026-09-05T13:59:52.000Z",
+    "MediaType": "",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程与前端架构",
+      "link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "title": "GitHub - wzhudev/reverse-linear-sync-engine: A reverse engineering of Linear's sync engine....",
+      "url": "https://t.co/cYG3aRtOGW",
+      "description": "A reverse engineering of Linear's sync engine. Endorsed by Linear CTO. - wzhudev/reverse-linear-sync-engine",
+      "domain": "github.com"
+    },
+    "_metrics": "22 REPLIES · 44 REPOSTS · 312 LIKES · 502 BOOKMARKS · 30K VIEWS",
+    "_analysisTheme": "设计工程与前端架构",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 设计工程与前端架构 提供成一个可复盘样本，并且有链接可继续核验或复现，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-05T13:59:52.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2096235036026831221",
+    "TwitterUserID": "14287212",
+    "UserScreenName": "akothari",
+    "UserProfileName": "Akshay Kothari",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1911885165221023744/3knSxXxW_200x200.jpg",
+    "TweetText": "notion with friends",
+    "Tweet Url": "https://x.com/akothari/status/2096235036026831221",
+    "TweetCreatedDate": "2026-09-05T13:52:33.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096006909119627266/img/tZD_hcGa5TBJtswc.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2096006909119627266/vid/avc1/1920x1080/TjzNdgip_8bWZYeQ.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "产品体验与发布",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096006909119627266/vid/avc1/1920x1080/TjzNdgip_8bWZYeQ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096006909119627266/img/tZD_hcGa5TBJtswc.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "2 REPLIES · 1 REPOSTS · 57 LIKES · 2 BOOKMARKS · 3.9K VIEWS",
+    "_analysisTheme": "产品体验与发布",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 产品体验与发布 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-05T13:52:33.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2096234424266633470",
+    "TwitterUserID": "2919971",
+    "UserScreenName": "bloodyxu",
+    "UserProfileName": "Bloodyxu",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1145367612043350016/2LFtAyev_200x200.jpg",
+    "TweetText": "Astra用时15分钟在Plasticity里创建的模型，有点厉害",
+    "Tweet Url": "https://x.com/bloodyxu/status/2096234424266633470",
+    "TweetCreatedDate": "2026-09-05T13:50:07.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRdR2a0bAAAFdj_.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Agent 与模型评估",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRdR2a0bAAAFdj_.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 0 REPOSTS · 3 LIKES · 1 BOOKMARKS · 121 VIEWS",
+    "_analysisTheme": "AI Agent 与模型评估",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 AI Agent 与模型评估 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-05T13:50:07.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2096223116057883076",
+    "TwitterUserID": "1399866136787918850",
+    "UserScreenName": "hero_ui",
+    "UserProfileName": "HeroUI",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1987160782765707265/xb07FQe5_200x200.jpg",
+    "TweetText": "Introducing HeroUI Agents 🔥\n\nEmbed an agent in your product.\n\n✓ Understands page context\n✓ Calls your tools\n✓ Generates charts, tables & forms\n✓ Can ask for approval before acting\n\nOne agent. Every interface.",
+    "Tweet Url": "https://x.com/hero_ui/status/2096223116057883076",
+    "TweetCreatedDate": "2026-09-05T13:05:11.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096218840900505600/img/nI8RVuL8Kq8zC-n9.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2096218840900505600/vid/avc1/1920x1080/Jt2a42RK3zIg3_qn.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Agent 与模型评估",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096218840900505600/vid/avc1/1920x1080/Jt2a42RK3zIg3_qn.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096218840900505600/img/nI8RVuL8Kq8zC-n9.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "17 REPLIES · 17 REPOSTS · 221 LIKES · 174 BOOKMARKS · 30K VIEWS",
+    "_analysisTheme": "AI Agent 与模型评估",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 AI Agent 与模型评估 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-05T13:05:11.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2096187762265424327",
+    "TwitterUserID": "1878590424492937216",
+    "UserScreenName": "lnkiai",
+    "UserProfileName": "いのり",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2085996333169881088/geuU1bai_200x200.jpg",
+    "TweetText": "新しいAI機能を追加しました！🎉\n\nデザインやUI組み立てが苦手でも、作りたいアプリを一言で伝えると画面が完成します！\n\nまた、作成したデザイン案は共有リンクで、友達やチームに配布することもできます👇️\n\nhttps://github.com/lnkiai/m3e-canvas",
+    "Tweet Url": "https://x.com/lnkiai/status/2096187762265424327",
+    "TweetCreatedDate": "2026-09-05T10:44:42.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096187726899130369/img/ksfkWyHQjq5RBKCd.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2096187726899130369/vid/avc1/1920x1080/wpg5Se3inRWBkfhc.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工具与组件系统",
+      "link",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096187726899130369/vid/avc1/1920x1080/wpg5Se3inRWBkfhc.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096187726899130369/img/ksfkWyHQjq5RBKCd.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "8 REPLIES · 40 REPOSTS · 542 LIKES · 394 BOOKMARKS · 74K VIEWS",
+    "_analysisTheme": "设计工具与组件系统",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 设计工具与组件系统 提供成一个可复盘样本，并且有链接可继续核验或复现，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-05T10:44:42.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2096166255824617579",
+    "TwitterUserID": "1930281921810182147",
+    "UserScreenName": "cheerselflin",
+    "UserProfileName": "林悦己Cheer",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2082701454712934400/l4yjO2LF_200x200.jpg",
+    "TweetText": "🚨GPT 6 astra醉牛批的玩法儿 \n已经给大家整理好了！！！\n目前收集了最新的70个usecase\n很适合打开思路👇\nhttps://cheerselfai.com/usecase/gpt-6-astra",
+    "Tweet Url": "https://x.com/cheerselflin/status/2096166255824617579",
+    "TweetCreatedDate": "2026-09-05T09:19:14.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096165457585651712/img/YCOmNZ8WK4Ua_Mqj.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2096165457585651712/vid/avc1/3840x2160/hKGvfjtcpKOk68av.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Agent 与模型评估",
+      "link",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096165457585651712/vid/avc1/3840x2160/hKGvfjtcpKOk68av.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096165457585651712/img/YCOmNZ8WK4Ua_Mqj.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "21 REPLIES · 12 REPOSTS · 75 LIKES · 115 BOOKMARKS · 6.9K VIEWS",
+    "_analysisTheme": "AI Agent 与模型评估",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 AI Agent 与模型评估 提供成一个可复盘样本，并且有链接可继续核验或复现，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-05T09:19:14.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2096107848333947020",
+    "TwitterUserID": "1998968758422179840",
+    "UserScreenName": "servasyy_ai",
+    "UserProfileName": "huangserva",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1998970271458537475/jcT0J2z6_200x200.jpg",
+    "TweetText": "这个有点厉害了\n\nGPT-6 Astra +  SD2.5 还可以这么玩\n\n",
+    "Tweet Url": "https://x.com/servasyy_ai/status/2096107848333947020",
+    "TweetCreatedDate": "2026-09-05T05:27:09.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095622324099969024/img/fVxkw0vQSDgkmnXH.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2095622324099969024/vid/avc1/1080x1920/vXUKYrYcTW-nAQ2w.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Agent 与模型评估",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095622324099969024/vid/avc1/1080x1920/vXUKYrYcTW-nAQ2w.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095622324099969024/img/fVxkw0vQSDgkmnXH.jpg"
+      }
+    ],
+    "_quote": {
+      "id": "2095622423324590308",
+      "statusUrl": "https://x.com/higgsfield_ai/status/2095622423324590308",
+      "author": "Higgsfield AI 🧩",
+      "handle": "higgsfield_ai",
+      "datetime": "2026-09-03T21:18:15.000Z",
+      "text": "This shot walks through seven rooms without a cut.\n\nGPT-6 Astra mapped the space, the blocking never left the viewport, and Higgsfield Seedance 2.5 rendered the whole run.",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2095622324099969024/vid/avc1/1080x1920/vXUKYrYcTW-nAQ2w.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2095622324099969024/img/fVxkw0vQSDgkmnXH.jpg"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "74 REPLIES · 231 REPOSTS · 1.9K LIKES · 1.6K BOOKMARKS · 153K VIEWS",
+    "_analysisTheme": "AI Agent 与模型评估",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 AI Agent 与模型评估 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-05T05:27:09.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2096077212982374829",
+    "TwitterUserID": "145902536",
+    "UserScreenName": "yamatoiizuka",
+    "UserProfileName": "いいづかやまと",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1606229751630217216/HPpgKwhI_200x200.jpg",
+    "TweetText": "CAD で鍛えられた人間によるベジェ編集ツールって感じする",
+    "Tweet Url": "https://x.com/yamatoiizuka/status/2096077212982374829",
+    "TweetCreatedDate": "2026-09-05T03:25:25.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096077099329314816/img/HBzR1O_QNKEWeMWe.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2096077099329314816/vid/avc1/1438x1130/0aqkgX7bArPYuDXz.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计收藏偏好",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096077099329314816/vid/avc1/1438x1130/0aqkgX7bArPYuDXz.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096077099329314816/img/HBzR1O_QNKEWeMWe.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "9 REPLIES · 84 REPOSTS · 1.6K LIKES · 739 BOOKMARKS · 255K VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 个人设计收藏偏好 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-05T03:25:25.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2096059496812716307",
+    "TwitterUserID": "802539456",
+    "UserScreenName": "MSchwaibold",
+    "UserProfileName": "Marvin Schwaibold",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1999496826320273409/7J1KJxpO_200x200.jpg",
+    "TweetText": "GPT-6 Astra is really good at generating UI",
+    "Tweet Url": "https://x.com/MSchwaibold/status/2096059496812716307",
+    "TweetCreatedDate": "2026-09-05T02:15:01.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096059086446202880/img/f_Xw_6sDybszBdiM.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2096059086446202880/vid/avc1/3248x2160/5RVH4OvhQyJbrtkV.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Agent 与模型评估",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096059086446202880/vid/avc1/3248x2160/5RVH4OvhQyJbrtkV.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096059086446202880/img/f_Xw_6sDybszBdiM.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "137 REPLIES · 215 REPOSTS · 6.1K LIKES · 4.8K BOOKMARKS · 545K VIEWS",
+    "_analysisTheme": "AI Agent 与模型评估",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 AI Agent 与模型评估 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-05T02:15:01.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2096050010236522786",
+    "TwitterUserID": "253817057",
+    "UserScreenName": "JOY_teeth",
+    "UserProfileName": "蓬博",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1234659797783339017/_jOt_xtK_200x200.png",
+    "TweetText": "#新作上线 Joyteeth~ AI 制作 / 用 AI 做有「手作感」的动画与动态设计\nClient: lInk35mm  \nDesign & Animation: Pengbo  \nSound: lInk35mm\n  \nCreated by joyteeth~®",
+    "Tweet Url": "https://x.com/JOY_teeth/status/2096050010236522786",
+    "TweetCreatedDate": "2026-09-05T01:37:19.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096049031479017472/img/z9fXcUCeERYmF7CA.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2096049031479017472/vid/avc1/1280x720/pznY2FtzTrbTJqW6.mp4?tag=14",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "视觉生成与动效",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096049031479017472/vid/avc1/1280x720/pznY2FtzTrbTJqW6.mp4?tag=14",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096049031479017472/img/z9fXcUCeERYmF7CA.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "0 REPLIES · 0 REPOSTS · 8 LIKES · 0 BOOKMARKS · 457 VIEWS",
+    "_analysisTheme": "视觉生成与动效",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 视觉生成与动效 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-05T01:37:19.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2096007171582382382",
+    "TwitterUserID": "708915428454576128",
+    "UserScreenName": "NotionHQ",
+    "UserProfileName": "Notion",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c_200x200.jpg",
+    "TweetText": "The backbone of your dock.",
+    "Tweet Url": "https://x.com/NotionHQ/status/2096007171582382382",
+    "TweetCreatedDate": "2026-09-04T22:47:06.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2096006909119627266/img/tZD_hcGa5TBJtswc.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2096006909119627266/vid/avc1/1920x1080/TjzNdgip_8bWZYeQ.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计收藏偏好",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096006909119627266/vid/avc1/1920x1080/TjzNdgip_8bWZYeQ.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096006909119627266/img/tZD_hcGa5TBJtswc.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "70 REPLIES · 74 REPOSTS · 2.2K LIKES · 359 BOOKMARKS · 420K VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 个人设计收藏偏好 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T22:47:06.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095946241012318310",
+    "TwitterUserID": "1225462582280015879",
+    "UserScreenName": "BasicAppleGuy",
+    "UserProfileName": "Basic Apple Guy",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1522623872717099013/h5fNVE5d_200x200.jpg",
+    "TweetText": "Relax, it's iPhone",
+    "Tweet Url": "https://x.com/BasicAppleGuy/status/2095946241012318310",
+    "TweetCreatedDate": "2026-09-04T18:44:59.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRZL9JMa0AAkqnM.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计收藏偏好",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRZL9JMa0AAkqnM.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRZL9JGb0AAjCiL.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRZL9JJb0AATm0k.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRZL9JGbEAAZBJ5.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "34 REPLIES · 169 REPOSTS · 4.8K LIKES · 338 BOOKMARKS · 250K VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 个人设计收藏偏好 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T18:44:59.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095926317799641586",
+    "TwitterUserID": "24910558",
+    "UserScreenName": "greensock",
+    "UserProfileName": "GSAP",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1713633504431394816/h28jJ1qM_200x200.jpg",
+    "TweetText": "🏆 Site of the Week - Revelatio Studio\n\nRevelatio Studio\n\n⚙️ ScrollTrigger, Observer, SplitText, ScrambleText\n🛠️ @Webflow, Web GL\n\nsite → https://revelatio.studio/\nshowcase → https://gsap.com/showcase",
+    "Tweet Url": "https://x.com/greensock/status/2095926317799641586",
+    "TweetCreatedDate": "2026-09-04T17:25:49.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095926060676456448/img/COasW0cFlwDqX5M6.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2095926060676456448/vid/avc1/1612x960/NYLQ2Qqn4fIxE3iP.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计收藏偏好",
+      "link",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095926060676456448/vid/avc1/1612x960/NYLQ2Qqn4fIxE3iP.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095926060676456448/img/COasW0cFlwDqX5M6.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 2 REPOSTS · 42 LIKES · 25 BOOKMARKS · 2.1K VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 个人设计收藏偏好 提供成一个可复盘样本，并且有链接可继续核验或复现，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T17:25:49.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095925729405849686",
+    "TwitterUserID": "24910558",
+    "UserScreenName": "greensock",
+    "UserProfileName": "GSAP",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1713633504431394816/h28jJ1qM_200x200.jpg",
+    "TweetText": "💚 Site of the Day - Davide Cattaneo\n\nStudio Zerotredici & Nicola Romei @nicolaromei \n\n⚙️ ScrollTrigger, SplitText, ScrambleText, CustomEase,\n🛠️ Three.js, SVG, React\n\nsite → https://davidecattaneo.it/\nshowcase → https://gsap.com/showcase",
+    "Tweet Url": "https://x.com/greensock/status/2095925729405849686",
+    "TweetCreatedDate": "2026-09-04T17:23:28.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095923971686535168/img/gkyE1QF71ExiLObt.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2095923971686535168/vid/avc1/1920x1314/jPB931O48nNoc--a.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计收藏偏好",
+      "link",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095923971686535168/vid/avc1/1920x1314/jPB931O48nNoc--a.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095923971686535168/img/gkyE1QF71ExiLObt.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "0 REPLIES · 0 REPOSTS · 32 LIKES · 12 BOOKMARKS · 1.9K VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 个人设计收藏偏好 提供成一个可复盘样本，并且有链接可继续核验或复现，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T17:23:28.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095924953396953129",
+    "TwitterUserID": "1669276256",
+    "UserScreenName": "op7418",
+    "UserProfileName": "歸藏(guizang.ai)",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1636981205504786434/xDl77JIw_200x200.jpg",
+    "TweetText": "我去 Suno V6 音乐生成模型要发布了",
+    "Tweet Url": "https://x.com/op7418/status/2095924953396953129",
+    "TweetCreatedDate": "2026-09-04T17:20:23.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095898270497435648/img/ATpJcZQdemXMgWRq.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2095898270497435648/vid/avc1/1080x1920/PT3uJl36mxV3e3c6.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计收藏偏好",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095898270497435648/vid/avc1/1080x1920/PT3uJl36mxV3e3c6.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095898270497435648/img/ATpJcZQdemXMgWRq.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "10 REPLIES · 1 REPOSTS · 24 LIKES · 9 BOOKMARKS · 7.8K VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 个人设计收藏偏好 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T17:20:23.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095900205376053346",
+    "TwitterUserID": "1716723805098500096",
+    "UserScreenName": "heyshigeru",
+    "UserProfileName": "Shigeru",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1992518039322206208/kdedTdDG_200x200.jpg",
+    "TweetText": "美惨。不是晓凡是下凡…",
+    "Tweet Url": "https://x.com/heyshigeru/status/2095900205376053346",
+    "TweetCreatedDate": "2026-09-04T15:42:03.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095899761471840256/img/coEKCnM8Pad0M9rb.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2095899761471840256/vid/avc1/2160x3840/UV7zI4r4w_P7RjhF.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计收藏偏好",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095899761471840256/vid/avc1/2160x3840/UV7zI4r4w_P7RjhF.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095899761471840256/img/coEKCnM8Pad0M9rb.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "0 REPLIES · 0 REPOSTS · 1 LIKES · 1 BOOKMARKS · 88 VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 个人设计收藏偏好 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T15:42:03.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095876338087510189",
+    "TwitterUserID": "1521688129559613440",
+    "UserScreenName": "HiTw93",
+    "UserProfileName": "Tw93",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1960753219115868169/EOxKSK4w_200x200.jpg",
+    "TweetText": "我决定以后新产品上线再也不发 Product Hunt 了。\n\n大概7年前我非常喜欢逛这个平台，最近刚好想着 Mole 可以去上面 launch 一下，于是就去发了一下，传视频、图片、填了非常多的表单终于好了，结果一进产品页，首先看到的是左边的一个广告卡片说 5k 刀可以帮我把整个 launch 搞定，给我惊呆了，然后在我的产品下面还插入了一个其他产品的横幅广告。\n\n有一个吃了苍蝇的感觉，自己精心准备的发布页，变成了别人卖广告的地方，不过我理解肯定会有预算充足的公司会去买这个服务。\n\n然后我就定好时间去发布了，我甚至还留好下午时间专门看能否有新用户来问问题，我来及时解答，结果搞笑的是发现甚至没有上首页，之前5年前记得发妙言的时候编辑得非常粗糙，都可以进首页时间线。\n\n后面有专业的朋友解答，说没有被官方 feature 导致，需要先上这个，然后去买那种专门的推广团队服务帮你包装，才可以打下来，原来还需要配合平台表演，要去买赞买评论，一下又惊掉我了下巴，怎么一个好好的平台变成了这样。\n\n更让我气的是啥，几乎没有带来产品交流和用户使用反馈的，但是给我这几天带来了将近 50 封陆陆续续的垃圾邮件，大概意思是可以帮助我更好的推广，或者说他们那边也有一个类似的平台让我去上架，到今天都还有垃圾邮件过来，有一种惹了一声腥味的感觉。\n\n所以这个平台是一个看是热闹，但实际没有啥效果的平台，甚至看到有100 刀买 200 个赞就能进工作日前五的服务，当然不会给你带来一个真实的用户。不过他养活了一批帮你做上 Product Hunt Top 热度的团队，从你的描述、包装、封面、视频，到结合点、利益点，一整套方案给你出好，然后你付钱后得到了一种虚假的热闹感，陪着 Product Hunt 表演，产品成了他道具，发布日成了演出日，最后到底有没有吸引到新朋友，好像没人关心。\n\n其实我非常期待，有一个可以给大伙真正友好交流产品的平台，大家来了遇到自己感兴趣的可以标记，可以下载，可以试用，也可以学习其他产品做得好的地方，友好交流，使用完甚至还可以相互给建议，哪儿做得好，哪儿需要改进，类似10年前 GitHub 那种乌托邦的感觉，人们不会关注你的包装和利益点，而是一伙喜欢做产品的人围在一起交流好的东西，让好东西被更多人用上，非常期待有这样的平台，我肯定会去天天逛。\n\n后面就不再发 Product Hunt，当然也不推荐小伙伴们去发这个东西了，发GitHub、 X、发 Youtube、发 V2EX 其实都是非常不错的平台，那儿远比 Product Hunt 纯粹简单。",
+    "Tweet Url": "https://x.com/HiTw93/status/2095876338087510189",
+    "TweetCreatedDate": "2026-09-04T14:07:13.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRYMYtta8AAzDvH.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程与前端架构",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRYMYtta8AAzDvH.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "127 REPLIES · 22 REPOSTS · 475 LIKES · 171 BOOKMARKS · 84K VIEWS",
+    "_analysisTheme": "设计工程与前端架构",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 设计工程与前端架构 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T14:07:13.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095863849635422679",
+    "TwitterUserID": "2082859096542519296",
+    "UserScreenName": "jaimintf",
+    "UserProfileName": "jaimin",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2090476714908680202/iA4V5MvL_200x200.jpg",
+    "TweetText": "GPT-6 Astra is mind blowing good!\n\nUsed /goal + appllama mcp to build an astra themed welcome screen and... wow\n\nprompt I used ↓",
+    "Tweet Url": "https://x.com/jaimintf/status/2095863849635422679",
+    "TweetCreatedDate": "2026-09-04T13:17:35.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095863087517827072/img/h8J3eZvpTViJK890.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2095863087517827072/vid/avc1/1206x2622/fpBZfGnywq28oKoA.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程与前端架构",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095863087517827072/vid/avc1/1206x2622/fpBZfGnywq28oKoA.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095863087517827072/img/h8J3eZvpTViJK890.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "23 REPLIES · 40 REPOSTS · 1.3K LIKES · 1.5K BOOKMARKS · 94K VIEWS",
+    "_analysisTheme": "设计工程与前端架构",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 设计工程与前端架构 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T13:17:35.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095863230258446645",
+    "TwitterUserID": "359083617",
+    "UserScreenName": "haxfenx",
+    "UserProfileName": "fenx",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1559797081149100032/c8rKiwla_200x200.jpg",
+    "TweetText": "看到立入禁止做了十多年 agency 都没绷住，我也没绷住。这种设计立场，一定程度上真的是反人性的。\n\n我在三年前离开了设计 agency，公司老板同事都很好，但最后只干了三年半——奈何我最后还是没绷住。\n\n所以到了 LLM 爆发年代，我一点也没有焦虑。我深知有些人，其实根本不知道自己想要什么；就算知道了也没法有效地表达出来；就算表达出来也没法上升到审美……\n\n但也可以说 LLM 不会拒绝的特性很适合这类人。即使是绕圈子也在输出内容，从而轻松略过自己的回合——这实在学不来。",
+    "Tweet Url": "https://x.com/haxfenx/status/2095863230258446645",
+    "TweetCreatedDate": "2026-09-04T13:15:08.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRYAfupaAAE5-5K.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "AI Agent 与模型评估",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRYAfupaAAE5-5K.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "2 REPLIES · 1 REPOSTS · 16 LIKES · 2 BOOKMARKS · 1.4K VIEWS",
+    "_analysisTheme": "AI Agent 与模型评估",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 AI Agent 与模型评估 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T13:15:08.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095862418518008252",
+    "TwitterUserID": "3050564824",
+    "UserScreenName": "basit_designs",
+    "UserProfileName": "Basit A. Khan",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2035703029631201280/MiiHz_yG_200x200.jpg",
+    "TweetText": "Here is the mobile version of this webGL gallery showcase. \nWill implement this to my personal portfolio portfolio site 🫣 (been long time I didn’t update my portfolio site)",
+    "Tweet Url": "https://x.com/basit_designs/status/2095862418518008252",
+    "TweetCreatedDate": "2026-09-04T13:11:54.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095862322531299328/img/EdKGSCghfrLEVj--.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2095862322531299328/vid/avc1/2944x2160/i-kl7iLR90yIRXRx.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计收藏偏好",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095862322531299328/vid/avc1/2944x2160/i-kl7iLR90yIRXRx.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095862322531299328/img/EdKGSCghfrLEVj--.jpg"
+      }
+    ],
+    "_quote": {
+      "id": "2095435397828628584",
+      "statusUrl": "https://x.com/basit_designs/status/2095435397828628584",
+      "author": "Basit A. Khan",
+      "handle": "basit_designs",
+      "datetime": "2026-09-03T08:55:04.000Z",
+      "text": "Kind of a new exploration.",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2095435256962875392/vid/avc1/3548x2160/Q1lh2DXb3Ay57yKE.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2095435256962875392/img/UC2pinZypr0GY8RC.jpg"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "22 REPLIES · 21 REPOSTS · 644 LIKES · 503 BOOKMARKS · 59K VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 个人设计收藏偏好 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T13:11:54.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095851135336944077",
+    "TwitterUserID": "175712989",
+    "UserScreenName": "alexiscollado",
+    "UserProfileName": "alexis 🏸",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2070829528650584064/a4hruiVG_200x200.jpg",
+    "TweetText": "yey @emilkowalski",
+    "Tweet Url": "https://x.com/alexiscollado/status/2095851135336944077",
+    "TweetCreatedDate": "2026-09-04T12:27:04.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HRX1YvRaYAA7_J8.jpg?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计收藏偏好",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRX1YvRaYAA7_J8.jpg?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 1 REPOSTS · 10 LIKES · 0 BOOKMARKS · 2.5K VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 个人设计收藏偏好 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T12:27:04.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095768840005439592",
+    "TwitterUserID": "1143449852308668418",
+    "UserScreenName": "CarsonYangk8s",
+    "UserProfileName": "米开朗基杨",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1917215019592552448/kIsKlrpW_200x200.jpg",
+    "TweetText": "前苹果团队主管教你怎么用 AI 设计出高大上的网站！\n换更贵的模型并不能让 AI 做好 UI 设计，核心秘诀是想办法打碎 Token 预测的平庸惯性，用外部随机熵破局、用顶配大模型当挑刺总监、用视频模型做物理转场，最后用苹果式的克制无情砍掉无用修饰 https://x.com/i/article/2095729059137495040",
+    "Tweet Url": "https://x.com/CarsonYangk8s/status/2095768840005439592",
+    "TweetCreatedDate": "2026-09-04T07:00:03.000Z",
+    "MediaType": "",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计收藏偏好",
+      "link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": {
+      "title": "如何榨出 AI 设计的 99% 创造力：一套三阶段工作流",
+      "url": "",
+      "description": ""
+    },
+    "_metrics": "3 REPLIES · 21 REPOSTS · 99 LIKES · 221 BOOKMARKS · 26K VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 个人设计收藏偏好 提供成一个可复盘样本，并且有链接可继续核验或复现，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T07:00:03.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
   {
     "TweetID": "2095748859029012918",
     "TwitterUserID": "1590927428",
@@ -55,6 +1096,289 @@ window.LIKED_BACKFILL = [
         "home-indie-creators",
         "likes-profile",
         "likes-history"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095737597352190078",
+    "TwitterUserID": "1555354997139054594",
+    "UserScreenName": "z1hanAI",
+    "UserProfileName": "zihan",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2047483059151249408/MTrj8biL_200x200.jpg",
+    "TweetText": "900 installs! 🎉\n\nWild to see my iPod Components on @framer Marketplace still going strong 2 years after I made them. Never looked back before, but thank you all for the love\n\nyou can easily import your playlist and yes, actually play music in your portfolio\n\nhttps://www.framer.com/marketplace/components/pocket-player-01/",
+    "Tweet Url": "https://x.com/z1hanAI/status/2095737597352190078",
+    "TweetCreatedDate": "2026-09-04T04:55:54.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095736406354395136/img/bIhlWHRwnpiEzIDx.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2095736406354395136/vid/avc1/2860x2064/AOiE05SNLsUNvp1C.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工具与组件系统",
+      "link",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095736406354395136/vid/avc1/2860x2064/AOiE05SNLsUNvp1C.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095736406354395136/img/bIhlWHRwnpiEzIDx.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "0 REPLIES · 0 REPOSTS · 13 LIKES · 2 BOOKMARKS · 265 VIEWS",
+    "_analysisTheme": "设计工具与组件系统",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 设计工具与组件系统 提供成一个可复盘样本，并且有链接可继续核验或复现，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T04:55:54.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095698155254005841",
+    "TwitterUserID": "1878590424492937216",
+    "UserScreenName": "lnkiai",
+    "UserProfileName": "いのり",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2085996333169881088/geuU1bai_200x200.jpg",
+    "TweetText": "GitHubスター⭐️500獲得しました🎉\nありがとうございます！\n\nWeb上でMaterial 3 ExpressiveのUIを組むだけで、Agent向けのプロンプトが生成できます\n\nコントリビューター大歓迎です！\nIssue / PRお待ちしています👇\n\nhttps://github.com/lnkiai/m3e-canvas",
+    "Tweet Url": "https://x.com/lnkiai/status/2095698155254005841",
+    "TweetCreatedDate": "2026-09-04T02:19:11.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095698127395454976/img/qDqVBccaKPAMDI3i.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2095698127395454976/vid/avc1/1920x1080/bRa7RgpiyIsw9iZ1.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工具与组件系统",
+      "link",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095698127395454976/vid/avc1/1920x1080/bRa7RgpiyIsw9iZ1.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095698127395454976/img/qDqVBccaKPAMDI3i.jpg"
+      }
+    ],
+    "_quote": {
+      "id": "2095384151645913089",
+      "statusUrl": "https://x.com/lnkiai/status/2095384151645913089",
+      "author": "いのり",
+      "handle": "lnkiai",
+      "datetime": "2026-09-03T05:31:26.000Z",
+      "text": "早くもGitHubスター⭐️70超えです🎉\n\nUIを組んでコピーしたプロンプトをGemini 3.8 Flashに投げるだけで、デザイン通りのAndroidアプリが作れます！\n\nリポジトリはこちら\nhttps://github.com/lnkiai/m3e-canvas\n\n#個人開発",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2095384131953958914/vid/avc1/1916x1080/Gq8K8IW_AOMmhQ-l.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2095384131953958914/img/j49bXpnrbWs-9bjz.jpg"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "72 REPLIES · 834 REPOSTS · 7.3K LIKES · 7.9K BOOKMARKS · 976K VIEWS",
+    "_analysisTheme": "设计工具与组件系统",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 设计工具与组件系统 提供成一个可复盘样本，并且有链接可继续核验或复现，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-04T02:19:11.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095517602265337930",
+    "TwitterUserID": "3104660748",
+    "UserScreenName": "pulkit11_",
+    "UserProfileName": "pulkeetprajapat",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2083822005737140226/f5efDZlx_200x200.jpg",
+    "TweetText": "@lnkiai checkout https://beercss.com",
+    "Tweet Url": "https://x.com/pulkit11_/status/2095517602265337930",
+    "TweetCreatedDate": "2026-09-03T14:21:43.000Z",
+    "MediaType": "",
+    "MediaImageUrl": "",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工程与前端架构",
+      "link"
+    ],
+    "_media": [],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "1 REPLIES · 0 REPOSTS · 7 LIKES · 6 BOOKMARKS · 3.6K VIEWS",
+    "_analysisTheme": "设计工程与前端架构",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 设计工程与前端架构 提供成一个可复盘样本，并且有链接可继续核验或复现，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-03T14:21:43.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095384151645913089",
+    "TwitterUserID": "1878590424492937216",
+    "UserScreenName": "lnkiai",
+    "UserProfileName": "いのり",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2085996333169881088/geuU1bai_200x200.jpg",
+    "TweetText": "早くもGitHubスター⭐️70超えです🎉\n\nUIを組んでコピーしたプロンプトをGemini 3.8 Flashに投げるだけで、デザイン通りのAndroidアプリが作れます！\n\nリポジトリはこちら\nhttps://github.com/lnkiai/m3e-canvas\n\n#個人開発",
+    "Tweet Url": "https://x.com/lnkiai/status/2095384151645913089",
+    "TweetCreatedDate": "2026-09-03T05:31:26.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095384131953958914/img/j49bXpnrbWs-9bjz.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2095384131953958914/vid/avc1/1916x1080/Gq8K8IW_AOMmhQ-l.mp4?tag=29",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工具与组件系统",
+      "link",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095384131953958914/vid/avc1/1916x1080/Gq8K8IW_AOMmhQ-l.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095384131953958914/img/j49bXpnrbWs-9bjz.jpg"
+      }
+    ],
+    "_quote": {
+      "id": "2095067147160711415",
+      "statusUrl": "https://x.com/lnkiai/status/2095067147160711415",
+      "author": "いのり",
+      "handle": "lnkiai",
+      "datetime": "2026-09-02T08:31:47.000Z",
+      "text": "Material 3 ExpressiveのUIデザインツールをオープンソースとして公開しました🎉\n\nWeb上でUIを組み立てるだけで、AIへの指示用プロンプトが完成します！\n\nAndroidアプリをバイブコーディングで作る方はぜひ試してみてください👇\nhttps://lnkiai.github.io/m3e-canvas/\n\n#個人開発",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2095067112654225408/vid/avc1/1920x1080/0XAQsq-3F1jAqczd.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2095067112654225408/img/HAV0BNUUv4jf-toG.jpg"
+        }
+      ]
+    },
+    "_article": null,
+    "_metrics": "26 REPLIES · 223 REPOSTS · 2.5K LIKES · 2.5K BOOKMARKS · 606K VIEWS",
+    "_analysisTheme": "设计工具与组件系统",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 设计工具与组件系统 提供成一个可复盘样本，并且有链接可继续核验或复现，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-03T05:31:26.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095375527096012884",
+    "TwitterUserID": "2031881112289755136",
+    "UserScreenName": "charliedesigned",
+    "UserProfileName": "Charlie @ Atlassian",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/2031881392045637632/QGL6Li4G_200x200.jpg",
+    "TweetText": "Sharing this work from Maxwell Hathaway on the next generation Rovo Omnibar. It showcases the level of care that goes into our motion design work for the @Atlassian Design System.\n\nThose annotations and exploded views help him and the whole team inspect coded interactions from every angle. This is helpful because the  Rovo Omnibar is one of those components that is a lot more complex than it looks at first glance.\n\nIt's also a great example of using multiple tools and working with multiple designers (props to Deborah Lindberg and Dan Hoolahan as well). Plenty of care for detail and no one-shots.",
+    "Tweet Url": "https://x.com/charliedesigned/status/2095375527096012884",
+    "TweetCreatedDate": "2026-09-03T04:57:10.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095374334038806528/img/9CI83MxKGt0OZjAN.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2095374334038806528/vid/avc1/1836x1080/k97-_LY69275vnr5.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工具与组件系统",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095374334038806528/vid/avc1/1836x1080/k97-_LY69275vnr5.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095374334038806528/img/9CI83MxKGt0OZjAN.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "7 REPLIES · 3 REPOSTS · 64 LIKES · 36 BOOKMARKS · 3.6K VIEWS",
+    "_analysisTheme": "设计工具与组件系统",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 设计工具与组件系统 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-03T04:57:10.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
+    "TweetID": "2095083615063617596",
+    "TwitterUserID": "1572029533070708736",
+    "UserScreenName": "Timeless_aiart",
+    "UserProfileName": "Timeless",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1681147413371957248/uW_wNk4R_200x200.jpg",
+    "TweetText": "Meliodas",
+    "Tweet Url": "https://x.com/Timeless_aiart/status/2095083615063617596",
+    "TweetCreatedDate": "2026-09-02T09:37:13.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/amplify_video_thumb/2095083036367065088/img/w-xHPSbVymtx8_n0.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/amplify_video/2095083036367065088/vid/avc1/1080x1440/F71zBfXyqVoNAzKB.mp4?tag=29",
+    "HasLink": "False",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "个人设计收藏偏好",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2095083036367065088/vid/avc1/1080x1440/F71zBfXyqVoNAzKB.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2095083036367065088/img/w-xHPSbVymtx8_n0.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "99 REPLIES · 1.2K REPOSTS · 16K LIKES · 4.8K BOOKMARKS · 1.8M VIEWS",
+    "_analysisTheme": "个人设计收藏偏好",
+    "_analysisPriority": "medium",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 个人设计收藏偏好 提供成一个可复盘样本，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-09-02T09:37:13.000Z",
+      "observedSources": [
+        "likes-profile"
       ]
     }
   },
@@ -30089,6 +31413,49 @@ window.LIKED_BACKFILL = [
     }
   },
   {
+    "TweetID": "2044257604361171399",
+    "TwitterUserID": "28940967",
+    "UserScreenName": "lidangzzz",
+    "UserProfileName": "lidang 立党 （劝人卖房/学CS/买SP500/纳100/OpenAI/Anthrop第一人）",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1589854626282618880/Pl_kF0yY_200x200.jpg",
+    "TweetText": "我开源了一款非常简单但是极度好用的multi-agent system。\n\n名字就叫goal-driven（目标驱动）\n\nhttps://github.com/lidangzzz/goal-driven\n\n原理非常简单，就像我说过的，让一个master agent不断监督subagent工作，直到subagent完成了工作，并且master agent亲自认证工作meet the criteria，符合判据中的要求，\n\n否则就继续无限循环，逼迫subagent持续工作。\n\n顾名思义，goal-driven就是goal-driven，就是一个纯粹目标驱动的框架，只要根据criteria判据判断达不到目标，就必须收集一切错误信息进行改进，进行无限循环，直到彻底实现最终goal（目标）为止。\n\n这个设计的优势是，可以让你以>100小时的时间、极高的token消耗成本，去让这个master agent-subagent system去持续解决设计复杂、逻辑复杂、高度抽象、挑战人类和AI Agent能力极限的极其困难的问题，\n\n比如设计编译器/interpreter/transpiler、解决复杂的数学问题、复杂系统问题、电子仿真问题等等，\n\n目前这个goal-driven已经完成了三个工作，\n\n一个是全自动设计了sqlite的一个rust实现版本，sql parser非常稳定，\n\n一个是全自动设计了C++实现的TypeScript Compiler，这在去年只有微软几个人实现了这个工作，\n\n一个是全自动实现了世界上最复杂的数学证明工具——lean4的TyeScript版本编译器，这在过去也是由微软发明并且由整个数学学术界维护的。\n\ngoal-driven已经被证明了是一款非常强大、非常简单、非常直白的multi-agent system，而且只需要一个prompt写进去即可，\n\n只要你设定好了goal（目标），criteria（判据，判断成功与否的标准，比如生成1000个复杂test case），\n\n就可以让agent和subagent持续工作100小时，完成一些人类历史上极具挑战难度的、最复杂、 最抽象、最艰难的工作。\n\n好了，赶紧点个star，接下来我还要开源一个更重磅的东西。",
+    "Tweet Url": "https://x.com/lidangzzz/status/2044257604361171399",
+    "TweetCreatedDate": "2026-04-15T03:32:48.000Z",
+    "MediaType": "image",
+    "MediaImageUrl": "https://pbs.twimg.com/media/HF6pcSfWcAAG7u-.png?name=orig",
+    "MediaVideoUrl": "",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "设计工具与组件系统",
+      "link",
+      "media:image"
+    ],
+    "_media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HF6pcSfWcAAG7u-.png?name=orig"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "15 REPLIES · 36 REPOSTS · 276 LIKES · 333 BOOKMARKS · 58K VIEWS",
+    "_analysisTheme": "设计工具与组件系统",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 设计工具与组件系统 提供成一个可复盘样本，并且有链接可继续核验或复现，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2026-04-15T03:32:48.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
+    }
+  },
+  {
     "TweetID": "2012159407669334526",
     "TwitterUserID": "1713802772234084352",
     "UserScreenName": "ydmdv",
@@ -30164,6 +31531,50 @@ window.LIKED_BACKFILL = [
       "source": "ego-browser:x.com/neoedon414/likes",
       "observedStep": 0,
       "observedDatetime": "2025-11-13T11:43:25.000Z"
+    }
+  },
+  {
+    "TweetID": "1832605227079626842",
+    "TwitterUserID": "587270571",
+    "UserScreenName": "mikelikesdesign",
+    "UserProfileName": "Mike Lee",
+    "UserProfilePic": "https://pbs.twimg.com/profile_images/1989922953040203778/UqadILEs_200x200.jpg",
+    "TweetText": "I decided to open source all my SwiftUI explorations that you can find here, https://github.com/mikelikesdesign/SwiftUI-experiments I will continue to update this! I hope this is helpful",
+    "Tweet Url": "https://x.com/mikelikesdesign/status/1832605227079626842",
+    "TweetCreatedDate": "2024-09-08T02:21:48.000Z",
+    "MediaType": "video",
+    "MediaImageUrl": "https://pbs.twimg.com/ext_tw_video_thumb/1832605063170420737/pu/img/HaoyE9ifpV3yh4P9.jpg",
+    "MediaVideoUrl": "https://video.twimg.com/ext_tw_video/1832605063170420737/pu/vid/avc1/720x720/pKVXDX5GUaFKt3mv.mp4?tag=12",
+    "HasLink": "True",
+    "Translation": "",
+    "Summary": "",
+    "_source": "favourite",
+    "_tags": [
+      "Like",
+      "SwiftUI / Apple 交互",
+      "link",
+      "media:video"
+    ],
+    "_media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/ext_tw_video/1832605063170420737/pu/vid/avc1/720x720/pKVXDX5GUaFKt3mv.mp4?tag=12",
+        "poster": "https://pbs.twimg.com/ext_tw_video_thumb/1832605063170420737/pu/img/HaoyE9ifpV3yh4P9.jpg"
+      }
+    ],
+    "_quote": null,
+    "_article": null,
+    "_metrics": "31 REPLIES · 122 REPOSTS · 1.9K LIKES · 1.8K BOOKMARKS · 315K VIEWS",
+    "_analysisTheme": "SwiftUI / Apple 交互",
+    "_analysisPriority": "high",
+    "_analysisNote": "收藏原因：你会收藏它，因为它把 SwiftUI / Apple 交互 提供成一个可复盘样本，并且有链接可继续核验或复现，能帮助你判断这个方向是否应该进入个人设计方法库。",
+    "_likedSync": {
+      "capturedAt": "2026-09-06T08:25:56+08:00",
+      "source": "ego-browser:x.com/neoedon414/likes + x.com/i/history/likes",
+      "observedDatetime": "2024-09-08T02:21:48.000Z",
+      "observedSources": [
+        "likes-profile"
+      ]
     }
   }
 ].sort((a, b) => new Date(b.TweetCreatedDate) - new Date(a.TweetCreatedDate));

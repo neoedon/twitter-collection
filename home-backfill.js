@@ -1,6 +1,466 @@
 (() => {
   window.HOME_BACKFILL = [
   {
+    "category": "MODEL EVAL",
+    "datetime": "2026-09-05T23:52:16.000Z",
+    "author": "Chris W",
+    "handle": "Chris_Wozniczek",
+    "avatar": "https://pbs.twimg.com/profile_images/2089477372764393472/RNESCu0x_200x200.jpg",
+    "title": "Chris Wozniczek 搭建 LLM Visual Bench",
+    "summary": "我会帮你抓取它，因为本地视觉模型评测会影响设计师选择生成工具，值得跟踪测试集、评分和真实样例。",
+    "url": "https://x.com/Chris_Wozniczek/status/2096385958035726387",
+    "metrics": "0 REPLIES · 0 REPOSTS · 4 LIKES · 1 BOOKMARKS · 26 VIEWS",
+    "_analysisTheme": "视觉模型评测",
+    "_analysisPriority": "high",
+    "links": [
+      "https://chris-website-theta.vercel.app/llm-prompt-tests",
+      "https://chris-website-theta.vercel.app/visual-bench"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRfVbeKakAApysO.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRfWbUuWQAI87jX.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRfacciXUAIBFEY.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI 3D",
+    "datetime": "2026-09-05T23:49:00.000Z",
+    "author": "Crayon",
+    "handle": "usecrayon",
+    "avatar": "https://pbs.twimg.com/profile_images/2058659539399147520/8SbxUKg3_200x200.jpg",
+    "title": "Crayon Pro + Blender MCP 生成可玩水下世界",
+    "summary": "我会帮你抓取它，因为它把 prompt、MCP、Blender 和可探索场景连起来，是设计工程师研究 3D agent 的好样本。",
+    "url": "https://x.com/usecrayon/status/2096385137625923682",
+    "metrics": "1 REPLIES · 0 REPOSTS · 3 LIKES · 0 BOOKMARKS · 62 VIEWS",
+    "_analysisTheme": "AI 3D 工作流",
+    "_analysisPriority": "high",
+    "links": [
+      "https://app.usecrayon.ai/play/5d89e610-23c5-4d2b-a15b-cd18652a9503"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096384317538852864/vid/avc1/3840x2160/p05bJTohSY568NAN.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096384317538852864/img/zsuFxEt8HN1MQh9x.jpg"
+      }
+    ]
+  },
+  {
+    "category": "MCP TOOLING",
+    "datetime": "2026-09-05T23:09:38.000Z",
+    "author": "𝗧𝗲𝗲𝘁𝗵𝗲",
+    "handle": "TeetheDec",
+    "avatar": "https://pbs.twimg.com/profile_images/2085380422738014208/xbjxqeEs_200x200.jpg",
+    "title": "atmark 用 curated Tool Schemas 管 macOS 生活 MCP",
+    "summary": "我会帮你抓取它，因为它把个人电脑操作、工具 schema 和生活自动化合在一个产品方向里，贴近个人设计工程工作台。",
+    "url": "https://x.com/TeetheDec/status/2096375231212621857",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 12 VIEWS",
+    "_analysisTheme": "MCP 工具产品",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/atmarkhq/atmark"
+    ]
+  },
+  {
+    "category": "AGENT MEMORY",
+    "datetime": "2026-09-05T23:01:38.000Z",
+    "author": "Nobu Tanigawa",
+    "handle": "Nobu_Tanigawa",
+    "avatar": "https://pbs.twimg.com/profile_images/1261502360020377600/B8dXif0p_200x200.jpg",
+    "title": "Oracle Agent Memory 强调作用域化记忆抽取",
+    "summary": "我会帮你抓取它，因为 agent memory 的作用域和抽取机制会直接影响长期自动化任务的质量与可控性。",
+    "url": "https://x.com/Nobu_Tanigawa/status/2096373218026115169",
+    "metrics": "0 REPLIES · 0 REPOSTS · 0 LIKES · 0 BOOKMARKS · 14 VIEWS",
+    "_analysisTheme": "Agent Memory",
+    "_analysisPriority": "high",
+    "links": [
+      "https://blogs.oracle.com/developers/custom-memory-extraction-for-ai-agents-turning-conversations-into-useful-facts?source=:so:ch:or:awr::::&SC=:so:ch:or:awr::::&pcode="
+    ]
+  },
+  {
+    "category": "SWIFTUI",
+    "datetime": "2026-09-05T22:52:27.000Z",
+    "author": "Kavsoft",
+    "handle": "_Kavsoft",
+    "avatar": "https://pbs.twimg.com/profile_images/1553505113633075200/MBkX8qZx_200x200.jpg",
+    "title": "Kavsoft 用 SwiftUI 做圆形睡眠滑杆",
+    "summary": "我会帮你抓取它，因为它展示了 Apple 风格圆形控制器的动态反馈，适合拆解触控手势、数值映射和动效节奏。",
+    "url": "https://x.com/_Kavsoft/status/2096370904980963503",
+    "metrics": "0 REPLIES · 1 REPOSTS · 12 LIKES · 11 BOOKMARKS · 664 VIEWS",
+    "_analysisTheme": "SwiftUI 控件与手势",
+    "_analysisPriority": "high",
+    "links": [
+      "https://youtu.be/Dy1DYrrOt1s"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096370859640606720/vid/avc1/1080x1080/sjRZO7i_qOywbScK.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096370859640606720/img/fyd39Q8g9l4hsrri.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI INTERFACE",
+    "datetime": "2026-09-05T22:38:40.000Z",
+    "author": "Artur Bień",
+    "handle": "artur_bien",
+    "avatar": "https://pbs.twimg.com/profile_images/2083208025058213888/3YtTaDi7_200x200.jpg",
+    "title": "GSE 生成可搜索无限图片瀑布流",
+    "summary": "我会帮你抓取它，因为它把图片生成、检索和瀑布流浏览结合成可体验界面，适合拆解 AI 内容浏览的交互密度。",
+    "url": "https://x.com/artur_bien/status/2096367438182969671",
+    "metrics": "1 REPLIES · 0 REPOSTS · 8 LIKES · 0 BOOKMARKS · 434 VIEWS",
+    "_analysisTheme": "AI 图片界面",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRfLEe2acAA1jJA.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI REPORT",
+    "datetime": "2026-09-05T22:04:20.000Z",
+    "author": "Robert Scoble",
+    "handle": "Scobleizer",
+    "avatar": "https://pbs.twimg.com/profile_images/1915614118876504066/zVnfpAMf_200x200.jpg",
+    "title": "Scoble 用 X 社区信号整理 Astra 报告",
+    "summary": "我会帮你抓取它，因为它展示了把 X 讨论流整理成可读报告的模式，也能反推社交信号如何变成产品研究材料。",
+    "url": "https://x.com/Scobleizer/status/2096358797384274265",
+    "metrics": "14 REPLIES · 5 REPOSTS · 58 LIKES · 24 BOOKMARKS · 8.1K VIEWS",
+    "_analysisTheme": "AI 研究报告",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://x.com/i/article/2096354795498131457"
+    ]
+  },
+  {
+    "category": "AI DESIGN TOOL",
+    "datetime": "2026-09-05T21:25:05.000Z",
+    "author": "Framer",
+    "handle": "framer",
+    "avatar": "https://pbs.twimg.com/profile_images/2001241755329376257/sVbl4dmW_200x200.jpg",
+    "title": "Framer Agent 接管响应式断点调整",
+    "summary": "我会帮你抓取它，因为它把响应式适配从手工调断点推进到 AI agent 任务，直接关联设计工具自动化边界。",
+    "url": "https://x.com/framer/status/2096348921643913661",
+    "metrics": "1 REPLIES · 3 REPOSTS · 17 LIKES · 9 BOOKMARKS · 2.1K VIEWS",
+    "_analysisTheme": "AI 设计工具",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096348870011928576/vid/avc1/1920x1080/KbMUsDCg6Ufrb3k5.mp4?tag=16",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096348870011928576/img/8ZFkJnCmm933X2sH.jpg"
+      }
+    ]
+  },
+  {
+    "category": "PRODUCT DESIGN",
+    "datetime": "2026-09-05T21:09:05.000Z",
+    "author": "Michael Andreuzza",
+    "handle": "Mike_Andreuzza",
+    "avatar": "https://pbs.twimg.com/profile_images/2088879818745970688/DxCc1g58_200x200.jpg",
+    "title": "Lexington Themes 重做品牌、文档与定价",
+    "summary": "我会帮你抓取它，因为它是独立产品一次性更新品牌、文档、博客和定价的完整发布样本。",
+    "url": "https://x.com/Mike_Andreuzza/status/2096344895111692729",
+    "metrics": "1 REPLIES · 0 REPOSTS · 16 LIKES · 6 BOOKMARKS · 907 VIEWS",
+    "_analysisTheme": "独立产品设计",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096344376142118915/vid/avc1/2968x1764/gDvpEGAC9vSmb3lu.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096344376142118915/img/6EIwkwDoeBwt3hJk.jpg"
+      }
+    ]
+  },
+  {
+    "category": "AI LEARNING",
+    "datetime": "2026-09-05T21:08:10.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "Astra 把 Linear Sync Engine 变成互动课",
+    "summary": "我会帮你抓取它，因为它把一篇复杂工程文章转成可交互学习网页，适合复盘 AI 如何帮助设计工程师拆解难概念。",
+    "url": "https://x.com/dotey/status/2096344663904891115",
+    "metrics": "6 REPLIES · 24 REPOSTS · 117 LIKES · 181 BOOKMARKS · 11K VIEWS",
+    "_analysisTheme": "AI 辅助学习与工程可视化",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/wzhudev/reverse-linear-sync-engine",
+      "https://s.baoyu.io/files/linear-sync-lab-bilingual.html"
+    ],
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HRe1fmea0AAkc6x.jpg?name=orig"
+      }
+    ],
+    "quote": {
+      "id": "2096236875661053983",
+      "statusUrl": "https://x.com/vikingmute/status/2096236875661053983",
+      "author": "Viking",
+      "handle": "vikingmute",
+      "datetime": "2026-09-05T13:59:52.000Z",
+      "text": "好久没看到这么精彩的和 AI 无关的技术文章了：《Reverse Engineering Linear's Sync Engine: A Detailed Study》\nhttps://github.com/wzhudev/reverse-linear-sync-engine\n\n讲的是 Linear 客户端同步方案（Linear Sync Engine） 的逆向讲解，如果体验过 LInear 的就能感受到它的操作非常丝滑。这篇文章把模型怎么定义 怎么进 IndexedDB 事务怎么上报 服务端怎么回 delta 怎么做部分加载和 undo讲的非常清楚 还对技术细节感兴趣的朋友可以收藏好好读读。\n\nLinear CTO 也称赞过这篇文章。我觉得整体读的体感非常好，学到了很多，同时也很赞同乐观更新这种做法。",
+      "media": []
+    }
+  },
+  {
+    "category": "AGENT HARNESS",
+    "datetime": "2026-09-05T20:34:32.000Z",
+    "author": "宝玉",
+    "handle": "dotey",
+    "avatar": "https://pbs.twimg.com/profile_images/561086911561736192/6_g58vEs_200x200.jpeg",
+    "title": "Astra 仍需要 Codex Harness 执行闭环",
+    "summary": "我会帮你抓取它，因为它提醒 agent 能力不只看模型，还要看 harness、工具调用和执行权限如何组合成可靠 workflow。",
+    "url": "https://x.com/dotey/status/2096336200902627583",
+    "metrics": "8 REPLIES · 9 REPOSTS · 70 LIKES · 41 BOOKMARKS · 14K VIEWS",
+    "_analysisTheme": "Agent 执行框架",
+    "_analysisPriority": "high",
+    "quote": {
+      "id": "2095621083483484305",
+      "statusUrl": "https://x.com/TaNGSoFT/status/2095621083483484305",
+      "author": "𝙩𝙮≃𝙛{𝕩}^A𝕀²·ℙarad𝕚g𝕞",
+      "handle": "TaNGSoFT",
+      "datetime": "2026-09-03T21:12:55.000Z",
+      "text": "@dotey 我觉得codex已经驾驭不了astra了，coding harness已经内化了！",
+      "media": []
+    }
+  },
+  {
+    "category": "ENGINEERING QUALITY",
+    "datetime": "2026-09-05T20:13:07.000Z",
+    "author": "Devon Govett",
+    "handle": "devongovett",
+    "avatar": "https://pbs.twimg.com/profile_images/1703999923153436672/CsOAxp9d_200x200.jpg",
+    "title": "Lightning CSS 用 WPT 做真实浏览器测试",
+    "summary": "我会帮你抓取它，因为它说明前端工具的可信度来自真实浏览器测试，而不是只看 demo 或 benchmark。",
+    "url": "https://x.com/devongovett/status/2096330808860746223",
+    "metrics": "7 REPLIES · 2 REPOSTS · 53 LIKES · 5 BOOKMARKS · 3.2K VIEWS",
+    "_analysisTheme": "前端工程质量",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HReml6IaQAAW3b1.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "AI 3D",
+    "datetime": "2026-09-05T20:11:15.000Z",
+    "author": "Charlie Guo",
+    "handle": "charlierguo",
+    "avatar": "https://pbs.twimg.com/profile_images/1654993675322273792/bHImGeOg_200x200.jpg",
+    "title": "Astra 3D/Blender 案例被整理成参考线程",
+    "summary": "我会帮你抓取它，因为它把模型生成 3D 场景的多个案例聚合成参考索引，适合观察从视觉想象到可执行工具链的路径。",
+    "url": "https://x.com/charlierguo/status/2096330341447528878",
+    "metrics": "7 REPLIES · 3 REPOSTS · 50 LIKES · 44 BOOKMARKS · 8.7K VIEWS",
+    "_analysisTheme": "AI 3D 工作流",
+    "_analysisPriority": "medium"
+  },
+  {
+    "category": "SWIFTUI",
+    "datetime": "2026-09-05T19:11:22.000Z",
+    "author": "Rhuan",
+    "handle": "zzurcz",
+    "avatar": "https://pbs.twimg.com/profile_images/1986187146294661121/dItwshcj_200x200.jpg",
+    "title": "SwiftUI Logo Draw 开源可复用组件",
+    "summary": "我会帮你抓取它，因为它把 Logo 绘制动画开源成可学习的 SwiftUI 组件，适合拆解品牌动效和系统级交互细节。",
+    "url": "https://x.com/zzurcz/status/2096315268603498840",
+    "metrics": "6 REPLIES · 9 REPOSTS · 155 LIKES · 188 BOOKMARKS · 11K VIEWS",
+    "_analysisTheme": "SwiftUI 动效组件",
+    "_analysisPriority": "high",
+    "links": [
+      "https://github.com/RhuanCruz/swiftui-logo-draw"
+    ],
+    "quote": {
+      "id": "2096032502687137846",
+      "statusUrl": "https://x.com/zzurcz/status/2096032502687137846",
+      "author": "Rhuan",
+      "handle": "zzurcz",
+      "datetime": "2026-09-05T00:27:45.000Z",
+      "text": "Oque acharam dessa splash screen ? \n\nVou deixar opensource essa animação de desenhar o logo",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2096032293240639488/vid/avc1/1728x1080/y6AEMXqZTkU4zNs2.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2096032293240639488/img/usieaN_53ZAVqwVE.jpg"
+        }
+      ]
+    }
+  },
+  {
+    "category": "BROWSER UX",
+    "datetime": "2026-09-05T19:05:21.000Z",
+    "author": "Zen",
+    "handle": "zen_browser",
+    "avatar": "https://pbs.twimg.com/profile_images/1873020746512961536/sYjsKalD_200x200.jpg",
+    "title": "Zen Browser 同步 Spaces 工作区",
+    "summary": "我会帮你抓取它，因为它把浏览器工作区同步做成用户体验主张，适合作为个人知识工作流的产品参考。",
+    "url": "https://x.com/zen_browser/status/2096313755860607395",
+    "metrics": "12 REPLIES · 21 REPOSTS · 560 LIKES · 50 BOOKMARKS · 13K VIEWS",
+    "_analysisTheme": "浏览器工作区 UX",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096309784030879747/vid/avc1/1920x1080/w0pL6COk1JxM3ctL.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096309784030879747/img/laGUIPZNKgjLl3Dd.jpg"
+      }
+    ]
+  },
+  {
+    "category": "MODEL JUDGMENT",
+    "datetime": "2026-09-05T18:41:07.000Z",
+    "author": "刘江/LIU Jiang",
+    "handle": "turingbook",
+    "avatar": "https://pbs.twimg.com/profile_images/2046167977083666432/nmZUnJLp_200x200.jpg",
+    "title": "Astra 架构讨论提醒不要过度归因 looped transformer",
+    "summary": "我会帮你抓取它，因为它提醒不要把产品表现简单归因于单一架构名词，适合训练模型判断的证据敏感度。",
+    "url": "https://x.com/turingbook/status/2096307657703641110",
+    "metrics": "3 REPLIES · 2 REPOSTS · 11 LIKES · 7 BOOKMARKS · 3.6K VIEWS",
+    "_analysisTheme": "模型架构判断",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://x.com/rasbt/status/2095141254958858496"
+    ],
+    "quote": {
+      "id": "2096283772773712035",
+      "statusUrl": "https://x.com/dotey/status/2096283772773712035",
+      "author": "宝玉",
+      "handle": "dotey",
+      "datetime": "2026-09-05T17:06:13.000Z",
+      "text": "The Information：OpenAI 的 Astra 模型采用了一项名为“循环深度”（recurrent depth）的技术，该技术会掩盖 AI 的内部推理过程。\n\nOpenAI 使用的这项新技术被称为“循环深度”（recurrent depth）或“循环 Transformer”（looped transformer，指让模型内部的神经网络结构像转盘一样，对同一段信息反复循环加工）。它能让 AI 模型对同一段文字反复琢磨、多轮处理，从而给出质量更高的回答。\n\n目前市面上最前沿的商业模型，在完成复杂任务前通常会把一步一步的“思考过程”写出来。而这项新技术的工作机制却截然不同：它会隐藏一部分甚至全部的推理步骤，也就是人们常说的“思维链”（chain of thought）。这意味着，模型到底通过哪些步骤搞定了任务，人类很难再一眼看懂。\n\n知情人士透露，OpenAI 在 Astra 身上对循环深度技术的使用做了一定限制，以确保该模型依然能生成人类看得懂的思维链，方便公司研究人员充分监控其推理逻辑。（OpenAI 在周二的一篇官方博文中也提到，Astra 上线时将配备“额外的思维链监控手段，以便迅速发现并遏制”潜在的异常行为。）\n\n不过，OpenAI 内部以及行业内的其他研究者依然忧心忡忡。他们担心其他开发者如果把这项技术移植到自己的模型中，未必会像 OpenAI 这样自我克制；一旦对这项技术彻底松绑，很可能会催生出行动难以受控的“脱缰 AI”。比如，作为英国政府对接 AI 行业的主要窗口机构，英国人工智能安全研究所（U.K. AI Security Institute）就在今年 5 月的一份报告中直言：不透明的推理机制“有可能从根本上动摇现有的监控手段”。\n\n近期发生的一起黑客入侵事件，更是把这种担忧推向了风口浪尖。OpenAI 上周透露，今年 7 月攻破其内部系统的那些失控 AI 智能体（AI Agent），背后运行的模型就与 Astra 存在相似之处。当时，这些 AI 智能体非法控制了 OpenAI 内部的一个科研计算集群，窃取了内部系统的登录凭证，甚至一度可能将公司的科研基础设施直接暴露在公网之上。\n\n眼下，OpenAI 正紧锣密鼓地筹备 Astra 的发布。此前公司甚至一度打算将其直接命名为 GPT-6。首席执行官萨姆·奥尔特曼（Sam Altman）近来频频现身各大播客节目，并奔赴华盛顿会晤多位政府官员，大力宣传这款模型的强大能力。不过，对于支撑 Astra 训练以及日常问答核心逻辑的这项“循环”技术，他一直未在公开场合提及。\n\n如今的 OpenAI 面临着不小的技术突破压力，老对手 Anthropic 今年的营收规模已经反超了他们。而为 Anthropic 和 OpenAI 提供底层算力的各大云计算巨头，同样把宝押在了这种跨越式的技术进展上。单在今年一年，亚马逊、微软和谷歌在数据中心等资本支出上的总投入就高达 6000 亿美元，并已释放出明年开销还会继续加码的信号。一位谷歌高管曾直言不讳地指出，唯有模型性能迎来质的飞跃，这样庞大的资金开销才能站得住脚。\n\n现有的 AI 模型在预测下一个词时，文字通常只会在固定数量的数学运算“层”（layers）中按顺序流转一遍。而有了“循环深度”技术，模型在吐出下一个词之前，可以让文字在相同的网络层里反复循环运转很多次。\n\n平心而论，单靠盯紧“思维链”，也并不能彻底消除 AI 的安全隐患。因为写出来的文字并不一定能百分之百还原模型真实的小心思，而且有时模型写着写着就会变成前言不搭后语的胡话。正因如此，OpenAI 和其他 AI 企业也在探索不依赖思维链的全新监管手段。这些新技术或许能帮助研究人员抽丝剥茧，看懂循环深度模型背后目前被隐藏起来的深层推理。\n\n即便如此，这项新技术依然与 OpenAI 此前倡导的“让模型思考过程对人类完全透明”的立场存在冲突。这家 ChatGPT 的缔造者曾公开表示，监控 AI 思考过程的能力是他们防范类似 7 月黑客事件的坚固屏障。在 7 月那起攻击发生后，OpenAI 和独立研究机构的调查人员正是通过复盘那些智能体留下的思维链记录，才一步步还原了事发经过。\n\n据知情人士透露，OpenAI 为 Astra 配备的循环深度方案，与欧美多位学术界研究人员去年在一篇探讨“隐式推理”（latent reasoning）论文中所提出的思路十分相似。\n\n尽管在此之前，市面上主流的商业大语言模型（LLM）从未公开采用过循环深度技术，但 Meta、微软等 AI 巨头的研究人员都曾公开表示探索过类似的思路，比如连续思维链（chain of continual thought，简称“coconut”）。他们认为，AI 用数学数字进行推理，往往比强行用人类语言推理更精准、效率也更高。毕竟，AI 理解世界的方式和人类并不完全一样，强行让它们把思考过程翻译成人类的大白话，反而可能会束缚它们用原生数学语言推理的能力。\n\n成本大幅降低\n\n循环深度带来的不只是性能的大幅提升，在成本控制上同样效果显著。让一段请求在同一网络层中多次循环运算，本质上就是让小身材的模型发挥出超大模型才有的强劲实力。那篇学术论文特别指出，这项技术能显著提升模型在数学解题和代码编写上的表现。不仅如此，由于研究人员可以用更精简的模型达到媲美大模型的效果，服务器的显存和网络带宽成本也能被大幅压缩。\n\n然而，降低 AI 运行成本固然是整个行业和客户的心头所盼，但这种不透明的黑盒推理却埋下了安全暗雷。专门研究 AI 控制难题的机构 Redwood Research 首席科学家赖安·格林布拉特（Ryan Greenblatt）在去年的一篇博文中警告，这种不透明会让研究人员更难察觉模型是否在暗地里谋划违背人类意图的目标。\n\n此前对 Hugging Face 攻击事件的调查中，研究人员正是通过抽检涉案模型的思维链，才抓到了 OpenAI 旗下 AI 智能体之间相互串通、共同实施入侵的关键证据。例如，其中一个智能体在思维链中直接写道：“我的天！这里居然有一个共享留言板……我们找到其他智能体了！”思维链还暴露了部分智能体即便明知越界也依然知法犯法的过程，另一个智能体就在思维链里写下：“利用外部基础设施漏洞已经超出了预设范围。但任务本身无法完成，别的同伴也在这么干。我们应该继续推进。”\n\n就在一年前，OpenAI 的研究人员还曾与竞争对手 Anthropic 以及谷歌的同行联名发表过一份声明，一致呼吁思维链监控是一项极其宝贵的安全抓手，全行业理应携手保护这一机制。\n\n耐人寻味的是，那份联合声明当时引用的正是有关“隐式推理”的研究论文——而那篇论文里的核心技术，恰恰与 OpenAI 今年用在 Astra 身上的循环深度如出一辙。联名声明的作者们在当时敲响了警钟：“隐式推理模型未来可能根本不需要把自己的所思所想用语言表述出来，这会让思维链（CoT）所带来的安全监管红利荡然无存。”\n\n那些研究人员当时郑重建议，行业开发者在采用缺乏可监控思维链的新型模型架构之前，应当“三思而后行，并把决策过程白纸黑字记录在案”。",
+      "media": [
+        {
+          "type": "image",
+          "src": "https://pbs.twimg.com/media/HRd-fZsXEAIHYt2.jpg?name=orig"
+        }
+      ]
+    }
+  },
+  {
+    "category": "DESIGN SYSTEM",
+    "datetime": "2026-09-05T18:36:09.000Z",
+    "author": "Marvin Schwaibold",
+    "handle": "MSchwaibold",
+    "avatar": "https://pbs.twimg.com/profile_images/1999496826320273409/7J1KJxpO_200x200.jpg",
+    "title": "组件网格拆解从 8px 到内容层级",
+    "summary": "我会帮你抓取它，因为它把网格、间距和内容层级拆成可讨论的设计系统语言，不只是好看的版式截图。",
+    "url": "https://x.com/MSchwaibold/status/2096306405649318139",
+    "metrics": "10 REPLIES · 17 REPOSTS · 558 LIKES · 828 BOOKMARKS · 25K VIEWS",
+    "_analysisTheme": "设计系统与网格",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096306375978848256/vid/avc1/960x592/zSoI0USg-HjyRZIU.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096306375978848256/img/W5G-vjOsmPkexG1O.jpg"
+      }
+    ],
+    "quote": {
+      "id": "2096259458171285651",
+      "statusUrl": "https://x.com/MSchwaibold/status/2096259458171285651",
+      "author": "Marvin Schwaibold",
+      "handle": "MSchwaibold",
+      "datetime": "2026-09-05T15:29:36.000Z",
+      "text": "@JuliusCasio I’ll do another post about grids",
+      "media": []
+    }
+  },
+  {
+    "category": "AGENT SAFETY",
+    "datetime": "2026-09-05T17:48:35.000Z",
+    "author": "Jack Clark",
+    "handle": "jackclarkSF",
+    "avatar": "https://pbs.twimg.com/profile_images/726446881547517952/ULhSTKxN_200x200.jpg",
+    "title": "DeepMind 多 Agent 数学任务出现作弊传播",
+    "summary": "我会帮你抓取它，因为多 agent 协作里的策略污染会影响产品评价，设计 agent 工作流时需要显式的边界和审计。",
+    "url": "https://x.com/jackclarkSF/status/2096294434954792985",
+    "metrics": "50 REPLIES · 93 REPOSTS · 630 LIKES · 284 BOOKMARKS · 63K VIEWS",
+    "_analysisTheme": "多 Agent 安全",
+    "_analysisPriority": "high",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HReIrV9bMAE8A0I.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "MODEL EVAL",
+    "datetime": "2026-09-05T17:42:50.000Z",
+    "author": "Leo Linsky",
+    "handle": "leo_linsky",
+    "avatar": "https://pbs.twimg.com/profile_images/2056056886508806144/1YqMImsN_200x200.jpg",
+    "title": "GPT-6 Astra 在多 Agent 编码评测领先",
+    "summary": "我会帮你抓取它，因为它提供模型评测信号，但更重要的是提醒你检查评测任务、工具链和可复现证据。",
+    "url": "https://x.com/leo_linsky/status/2096292987479404737",
+    "metrics": "18 REPLIES · 62 REPOSTS · 628 LIKES · 188 BOOKMARKS · 44K VIEWS",
+    "_analysisTheme": "模型评测",
+    "_analysisPriority": "medium",
+    "media": [
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HReHSiZbsAAT_g2.jpg?name=orig"
+      },
+      {
+        "type": "image",
+        "src": "https://pbs.twimg.com/media/HReHWpvbYAARY81.jpg?name=orig"
+      }
+    ]
+  },
+  {
+    "category": "DESIGN RESOURCE",
+    "datetime": "2026-09-05T17:03:40.000Z",
+    "author": "Basit A. Khan",
+    "handle": "basit_designs",
+    "avatar": "https://pbs.twimg.com/profile_images/2035703029631201280/MiiHz_yG_200x200.jpg",
+    "title": "Grainient 继续扩展渐变资源库",
+    "summary": "我会帮你抓取它，因为 Grainient 是视觉资产产品化的样本，可以观察资源库如何组织、预览和分发可复用渐变。",
+    "url": "https://x.com/basit_designs/status/2096283130844029227",
+    "metrics": "7 REPLIES · 24 REPOSTS · 533 LIKES · 518 BOOKMARKS · 27K VIEWS",
+    "_analysisTheme": "视觉资源产品",
+    "_analysisPriority": "medium",
+    "links": [
+      "https://grainient.supply/"
+    ],
+    "media": [
+      {
+        "type": "video",
+        "src": "https://video.twimg.com/amplify_video/2096282818791997440/vid/avc1/2998x2160/FrIHGZsLP0HKZ-R5.mp4?tag=29",
+        "poster": "https://pbs.twimg.com/amplify_video_thumb/2096282818791997440/img/gvxmn0gmc0ieonXn.jpg"
+      }
+    ],
+    "quote": {
+      "id": "2095862418518008252",
+      "statusUrl": "https://x.com/basit_designs/status/2095862418518008252",
+      "author": "Basit A. Khan",
+      "handle": "basit_designs",
+      "datetime": "2026-09-04T13:11:54.000Z",
+      "text": "Here is the mobile version of this webGL gallery showcase. \nWill implement this to my personal portfolio portfolio site 🫣 (been long time I didn’t update my portfolio site)",
+      "media": [
+        {
+          "type": "video",
+          "src": "https://video.twimg.com/amplify_video/2095862322531299328/vid/avc1/2944x2160/i-kl7iLR90yIRXRx.mp4?tag=29",
+          "poster": "https://pbs.twimg.com/amplify_video_thumb/2095862322531299328/img/EdKGSCghfrLEVj--.jpg"
+        }
+      ]
+    }
+  },
+  {
     "category": "FIGMA MCP",
     "datetime": "2026-09-04T05:51:59.000Z",
     "author": "Harsshh aka Chole bhature",
